@@ -1,0 +1,7 @@
+[     0s] == abell2744-glass: 6 filters: ['F090W', 'F115W', 'F150W', 'F277W', 'F356W', 'F444W']
+[     0s] aligned arrays found in the cache; no download
+[     3s] abell2744-glass: finishing steps applied: ['black', 'destripe', 'nofill']
+[     3s] cropped to 2392x1077 px where 6 of 6 filters have data
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/astropy/visualization/lupton_rgb.py:645: RuntimeWarning: invalid value encountered in divide
+  fInorm = np.where(Int <= 0, 0, np.true_divide(fI, Int))
+[     5s] done: 2 pictures
