@@ -1,0 +1,10 @@
+[     0s] == jades-goods-n: 6 filters: ['F090W', 'F150W', 'F200W', 'F335M', 'F356W', 'F444W']
+[     0s] aligned arrays found in the cache; no download
+[     1s] jades-goods-n: samples saved (856x400 px per filter)
+[     1s] == ceers-miri1: 6 filters: ['F770W', 'F1000W', 'F1280W', 'F1500W', 'F1800W', 'F2100W']
+[     1s] aligned arrays found in the cache; no download
+[     1s] ceers-miri1: samples saved (352x347 px per filter)
+[     1s] == hudf-acs: 4 filters: ['F435W', 'F606W', 'F775W', 'F850LP']
+[     2s] aligned arrays found in the cache; no download
+[     2s] hudf-acs: samples saved (664x664 px per filter)
+[     2s] done: 0 pictures
