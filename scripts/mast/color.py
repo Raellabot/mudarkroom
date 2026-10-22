@@ -453,6 +453,7 @@ FINISH = {
     "ceers-miri1": {"nofill": True, "black": 75},
     "hudf-acs": {"nofill": True, "black": 50},
     "abell2744-glass": {"nofill": True, "destripe": (288, 75), "black": 60},
+    "cosmos-web-tile": {"nofill": True, "destripe": (288, 75), "black": 65},
     "smacs0723": {"box": (0.0, 1.0, 0.55, 1.0), "dense": 0.97},   # the cluster half; the other module's field is left out
 }
 FINISH_ON = os.environ.get("FINISH", "1") == "1"
