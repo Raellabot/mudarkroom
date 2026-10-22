@@ -1,0 +1,76 @@
+[     0s] == cosmos-web-tile: 4 filters: ['F115W', 'F150W', 'F277W', 'F444W']
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set DATE-BEG to '2024-04-05T17:19:21.367' from MJD-BEG.
+Set DATE-AVG to '2024-04-05T17:32:03.691' from MJD-AVG.
+Set DATE-END to '2024-04-05T17:44:46.055' from MJD-END'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'obsfix' made the change 'Set OBSGEO-L to  -145.270291 from OBSGEO-[XYZ].
+Set OBSGEO-B to     0.724954 from OBSGEO-[XYZ].
+Set OBSGEO-H to 1264156975.493 from OBSGEO-[XYZ]'. [astropy.wcs.wcs]
+[     1s] F115W: 11464x4584 px at 0.0312 arcsec/px, 1472 MB
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set DATE-BEG to '2024-05-17T12:06:42.369' from MJD-BEG.
+Set DATE-AVG to '2024-05-17T12:19:19.377' from MJD-AVG.
+Set DATE-END to '2024-05-17T12:31:56.370' from MJD-END'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'obsfix' made the change 'Set OBSGEO-L to   -97.821793 from OBSGEO-[XYZ].
+Set OBSGEO-B to   -28.137680 from OBSGEO-[XYZ].
+Set OBSGEO-H to 1645763851.962 from OBSGEO-[XYZ]'. [astropy.wcs.wcs]
+[     1s] F150W: 11464x4584 px at 0.0312 arcsec/px, 1472 MB
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set DATE-BEG to '2024-04-05T17:19:21.367' from MJD-BEG.
+Set DATE-AVG to '2024-04-05T17:32:03.695' from MJD-AVG.
+Set DATE-END to '2024-04-05T17:44:46.055' from MJD-END'. [astropy.wcs.wcs]
+[     2s] F277W: 5654x2204 px at 0.0629 arcsec/px, 349 MB
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set DATE-BEG to '2024-05-17T12:06:42.433' from MJD-BEG.
+Set DATE-AVG to '2024-05-17T12:19:19.386' from MJD-AVG.
+Set DATE-END to '2024-05-17T12:31:56.370' from MJD-END'. [astropy.wcs.wcs]
+[     2s] F444W: 5654x2203 px at 0.0629 arcsec/px, 349 MB
+[     2s] grid from F115W: 2292x916 px (reduced 5x), 0.156 arcsec/px
+[   288s] downloaded jw01727-o154_t022_nircam_clear-f115w_i2d.fits: 1472 MB
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set DATE-BEG to '2024-04-05T17:19:21.367' from MJD-BEG.
+Set DATE-AVG to '2024-04-05T17:32:03.691' from MJD-AVG.
+Set DATE-END to '2024-04-05T17:44:46.055' from MJD-END'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'obsfix' made the change 'Set OBSGEO-L to  -145.270291 from OBSGEO-[XYZ].
+Set OBSGEO-B to     0.724954 from OBSGEO-[XYZ].
+Set OBSGEO-H to 1264156975.493 from OBSGEO-[XYZ]'. [astropy.wcs.wcs]
+[   289s] F115W: aligned (reduced 4x), covers 96% of the grid
+[   409s] downloaded jw01727-o167_t022_nircam_clear-f150w_i2d.fits: 1472 MB
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set DATE-BEG to '2024-05-17T12:06:42.369' from MJD-BEG.
+Set DATE-AVG to '2024-05-17T12:19:19.377' from MJD-AVG.
+Set DATE-END to '2024-05-17T12:31:56.370' from MJD-END'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'obsfix' made the change 'Set OBSGEO-L to   -97.821793 from OBSGEO-[XYZ].
+Set OBSGEO-B to   -28.137680 from OBSGEO-[XYZ].
+Set OBSGEO-H to 1645763851.962 from OBSGEO-[XYZ]'. [astropy.wcs.wcs]
+[   410s] F150W: aligned (reduced 5x), covers 96% of the grid
+[   419s] downloaded jw01727-o154_t022_nircam_clear-f277w_i2d.fits: 349 MB
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set DATE-BEG to '2024-04-05T17:19:21.367' from MJD-BEG.
+Set DATE-AVG to '2024-04-05T17:32:03.695' from MJD-AVG.
+Set DATE-END to '2024-04-05T17:44:46.055' from MJD-END'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'obsfix' made the change 'Set OBSGEO-L to  -145.270291 from OBSGEO-[XYZ].
+Set OBSGEO-B to     0.724954 from OBSGEO-[XYZ].
+Set OBSGEO-H to 1264156975.493 from OBSGEO-[XYZ]'. [astropy.wcs.wcs]
+[   419s] F277W: aligned (reduced 2x), covers 93% of the grid
+[   427s] downloaded jw01727-o167_t022_nircam_clear-f444w_i2d.fits: 349 MB
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set DATE-BEG to '2024-05-17T12:06:42.433' from MJD-BEG.
+Set DATE-AVG to '2024-05-17T12:19:19.386' from MJD-AVG.
+Set DATE-END to '2024-05-17T12:31:56.370' from MJD-END'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'obsfix' made the change 'Set OBSGEO-L to   -97.821793 from OBSGEO-[XYZ].
+Set OBSGEO-B to   -28.137680 from OBSGEO-[XYZ].
+Set OBSGEO-H to 1645763851.962 from OBSGEO-[XYZ]'. [astropy.wcs.wcs]
+[   427s] F444W: aligned (reduced 2x), covers 93% of the grid
+[   428s] cosmos-web-tile: samples saved (764x305 px per filter)
+[   428s] == hubble-acs-deep: 5 filters: ['F435W', 'F606W', 'F775W', 'F814W', 'F850LP']
+[   429s] F435W: 4232x4247 px at 0.0500 arcsec/px, 216 MB
+[   429s] F606W: 4233x4248 px at 0.0500 arcsec/px, 216 MB
+[   430s] F775W: 4221x4260 px at 0.0500 arcsec/px, 216 MB
+[   431s] F814W: 4221x4258 px at 0.0500 arcsec/px, 216 MB
+[   431s] F850LP: 4231x4246 px at 0.0500 arcsec/px, 216 MB
+[   431s] grid from F606W: 2116x2124 px (reduced 2x), 0.100 arcsec/px
+[   436s] downloaded jb5x28010_drz.fits: 216 MB
+[   436s] F435W: aligned (reduced 2x), covers 0% of the grid
+[   443s] downloaded jb5x5d010_drz.fits: 216 MB
+[   444s] F606W: aligned (reduced 2x), covers 92% of the grid
+[   449s] downloaded jb5x1f010_drz.fits: 216 MB
+[   449s] F775W: aligned (reduced 2x), covers 0% of the grid
+[   500s] downloaded jb5x59010_drz.fits: 216 MB
+[   500s] F814W: aligned (reduced 2x), covers 92% of the grid
+[   504s] downloaded jb5x27010_drz.fits: 216 MB
+[   504s] F850LP: aligned (reduced 2x), covers 0% of the grid
+[   506s] hubble-acs-deep: samples saved (705x708 px per filter)
+[   506s] done: 0 pictures
