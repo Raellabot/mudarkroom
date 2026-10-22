@@ -1,0 +1,2 @@
+HST|CDF-SOUTH-UDF|9978|ACS/WFC|3  rows=570  filters=['F435W', 'F606W', 'F775W', 'F850LP', 'detection']
+HST|CDF-SOUTH-UDF|9978|ACS/WFC|2  rows=3  filters=['F435W', 'F850LP']

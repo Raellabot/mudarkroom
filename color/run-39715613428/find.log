@@ -1,0 +1,6 @@
+  page 1/1 rows so far 13 of 13
+JWST|MIRI1|1345|NIRCAM/IMAGE|3  rows=7  filters=['F115W', 'F150W', 'F200W', 'F277W', 'F356W', 'F410M', 'F444W']
+JWST|MIRI1|1345|MIRI/IMAGE|3  rows=6  filters=['F1000W', 'F1280W', 'F1500W', 'F1800W', 'F2100W', 'F770W']
+  page 1/1 rows so far 573 of 573
+HST|CDF-SOUTH-UDF|9978|ACS/WFC|3  rows=570  filters=['F435W', 'F606W', 'F775W', 'F850LP', 'detection']
+HST|CDF-SOUTH-UDF|9978|ACS/WFC|2  rows=3  filters=['F435W', 'F850LP']
