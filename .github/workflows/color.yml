@@ -51,7 +51,7 @@ permissions:
 jobs:
   color:
     runs-on: ubuntu-latest
-    timeout-minutes: 45   # hard cap on the minutes one run can use
+    timeout-minutes: 60   # hard cap on the minutes one run can use
     env:
       CONTACT_INFO: ${{ secrets.CONTACT_INFO }}
       MAX_SIDE: ${{ inputs.max_side }}
@@ -99,7 +99,7 @@ jobs:
           PY
       - name: Make the color pictures
         if: inputs.specs != ''
-        timeout-minutes: 36   # stops the picture step early enough that the saves below still run inside the 45-minute cap
+        timeout-minutes: 50   # stops the picture step early enough that the saves below still run inside the 60-minute cap
         run: |
           set -o pipefail
           mkdir -p out work
