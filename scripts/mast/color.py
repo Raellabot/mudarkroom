@@ -370,7 +370,9 @@ def dense_crop_box(arrs, thr=0.97):
     cover = np.all([np.isfinite(a) for a in arrs], axis=0)
     ys, xs = np.where(cover)
     y0, y1, x0, x1 = ys.min(), ys.max() + 1, xs.min(), xs.max() + 1
+    box0 = (y0, y1, x0, x1)
     while True:
+        if y1 - y0 < 2 or x1 - x0 < 2: return box0
         c = cover[y0:y1, x0:x1]
         rows, cols = c.mean(axis=1), c.mean(axis=0)
         moved = False
@@ -423,7 +425,8 @@ def finish_arrays(arrs, fin, scale=1.0):
     if fin.get("dense"):
         y0, y1, x0, x1 = dense_crop_box(a, fin["dense"])
         a = [x[y0:y1, x0:x1] for x in a]
-    a = [fill_holes(x) for x in a]
+    if not fin.get("nofill"):
+        a = [fill_holes(x) for x in a]
     if fin.get("planet"):
         (cy, cx), rf = fin["planet"]
         H, W = a[0].shape
@@ -446,6 +449,9 @@ FINISH = {
     "ldn1527": {"destripe": (288, 75), "black": 70, "stretch": 0.4},
     "crab-miri": {"dense": 0.9, "destripe": (288, 75), "black": 45, "stretch": 0.4},
     "ngc602-miri": {"dense": 0.9, "black": 15, "stretch": 0.25},
+    "jades-goods-n": {"nofill": True, "destripe": (288, 75), "black": 50},
+    "ceers-miri1": {"nofill": True, "box": (0.04, 0.95, 0.42, 0.97), "black": 75},
+    "hudf-acs": {"nofill": True, "black": 50},
     "smacs0723": {"box": (0.0, 1.0, 0.55, 1.0), "dense": 0.97},   # the cluster half; the other module's field is left out
 }
 FINISH_ON = os.environ.get("FINISH", "1") == "1"
