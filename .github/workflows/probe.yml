@@ -1,0 +1,53 @@
+name: Probe sizes
+
+# Run by hand: lists each field's filters and mosaic sizes for some programs without downloading (report goes to the `results` branch).
+on:
+  workflow_dispatch:
+    inputs:
+      programs:
+        description: "Space-separated COLLECTION|proposal_id list"
+        default: "JWST|2736 JWST|2733 JWST|2732 JWST|1227 JWST|1947 JWST|1714 JWST|2739 JWST|1324 JWST|2561"
+
+concurrency:
+  group: mast-probe
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    env:
+      CONTACT_INFO: ${{ secrets.CONTACT_INFO }}
+      PROGRAMS: ${{ inputs.programs }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Probe
+        run: |
+          set -o pipefail
+          mkdir -p out
+          python -u scripts/mast/probe_sizes.py out $PROGRAMS 2>&1 | tee out/probe.log
+      - name: Save to the results branch
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          rm -rf /tmp/mc && git worktree prune
+          if git fetch -q origin results 2>/dev/null; then
+            git worktree add -q -B results /tmp/mc origin/results
+          else
+            git worktree add -q --detach /tmp/mc HEAD
+            git -C /tmp/mc checkout -q --orphan results
+            git -C /tmp/mc rm -rq --cached . >/dev/null 2>&1 || true
+            find /tmp/mc -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf {} +
+          fi
+          mkdir -p "/tmp/mc/probe/run-$GITHUB_RUN_ID"
+          cp -r out/. "/tmp/mc/probe/run-$GITHUB_RUN_ID/"
+          git -C /tmp/mc add -f probe
+          git -C /tmp/mc commit -q -m "Probe (run $GITHUB_RUN_ID)" || { echo "no changes"; exit 0; }
+          git -C /tmp/mc push -q origin results

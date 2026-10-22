@@ -1,0 +1,138 @@
+name: Color pictures
+
+# Run by hand: downloads a program's level-3 mosaics from MAST, aligns them and makes color pictures (results go to the `results` branch).
+on:
+  workflow_dispatch:
+    inputs:
+      specs:
+        description: "Space-separated COLLECTION|target|proposal|instrument|label sets"
+        default: ""
+      max_side:
+        description: "Longest side of the pictures in pixels"
+        default: "2600"
+      max_filters:
+        description: "Most filters in one picture"
+        default: "6"
+      stretch:
+        description: "Lupton stretch (smaller = brighter faint detail)"
+        default: "0.25"
+      q:
+        description: "Lupton softening Q"
+        default: "8"
+      palettes:
+        description: "Comma-separated palettes: chromatic, creative, creative2, creative3, stsci, creativerank, creative5"
+        default: "chromatic,creative"
+      flatten:
+        description: "1 removes the slowly changing sky background of each filter, 0 leaves it"
+        default: "1"
+      cache_only:
+        description: "Comma-separated set labels that must never be downloaded (skipped if their cache is missing), even when no_download is 0"
+        default: ""
+      no_download:
+        description: "1: use only the cached aligned arrays, skip a set whose cache is missing instead of downloading its mosaics (a big download can use over an hour). Set 0 to download."
+        default: "1"
+      norm_exps:
+        description: "Brightness exponents for the ranked palettes (stsci, creativerank, creative5), comma-separated: 1 = each filter on its own scale, 0 = one shared scale"
+        default: "0.5"
+      variants:
+        description: "Tweaks of the ranked palettes, comma-separated: base, deep (darker bluer sky), soft (softer pinks), deepsoft, white and whiter (bright star cores toward white)"
+        default: "base"
+      find:
+        description: "Required: space-separated COLLECTION|proposal_id (|target) to look up in MAST; with specs empty it only lists the targets and filters (groups.txt)"
+        default: ""
+
+concurrency:
+  group: results
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  color:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45   # hard cap on the minutes one run can use
+    env:
+      CONTACT_INFO: ${{ secrets.CONTACT_INFO }}
+      MAX_SIDE: ${{ inputs.max_side }}
+      MAX_FILTERS: ${{ inputs.max_filters }}
+      STRETCH: ${{ inputs.stretch }}
+      Q: ${{ inputs.q }}
+      FLATTEN: ${{ inputs.flatten }}
+      PALETTES: ${{ inputs.palettes }}
+      WORK_DIR: work
+      SPECS: ${{ inputs.specs }}
+      FIND: ${{ inputs.find }}
+      NO_DOWNLOAD: ${{ inputs.no_download }}
+      CACHE_ONLY: ${{ inputs.cache_only }}
+      NORM_EXPS: ${{ inputs.norm_exps }}
+      VARIANTS: ${{ inputs.variants }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install numpy pillow scipy astropy
+      - uses: actions/cache/restore@v4
+        with:
+          path: work
+          key: color-${{ inputs.max_side }}-${{ inputs.max_filters }}-${{ github.run_id }}
+          restore-keys: color-${{ inputs.max_side }}-${{ inputs.max_filters }}-
+      - name: Get the rows of the programs from MAST (one or several, space-separated COLLECTION|proposal)
+        run: |
+          [ -n "$FIND" ] || { echo "find is empty: give COLLECTION|proposal_id"; exit 1; }
+          mkdir -p out/find
+          n=0
+          for spec in $FIND; do
+            n=$((n+1))
+            IFS='|' read -r C P T <<< "$spec"
+            python -u scripts/mast/find_rows.py "out/find/$n" "$C" "$P" $T 2>&1 | tee -a out/find.log
+          done
+          python3 - <<'PY'
+          import glob, gzip, json, os
+          rows = []
+          for f in sorted(glob.glob("out/find/*/rows.json.gz")):
+              rows += json.load(gzip.open(f))["rows"]
+          with gzip.open("out/find/rows.json.gz", "wt") as g:
+              json.dump({"complete": True, "rows": rows}, g)
+          print("rows in the merged file:", len(rows))
+          PY
+      - name: Make the color pictures
+        if: inputs.specs != ''
+        timeout-minutes: 36   # stops the picture step early enough that the saves below still run inside the 45-minute cap
+        run: |
+          set -o pipefail
+          mkdir -p out work
+          df -h . | tail -1
+          ROWS="out/find/rows.json.gz"
+          python -u scripts/mast/color.py out "$ROWS" $SPECS 2>&1 | tee out/run.log
+      - name: Drop half-downloaded files before saving the cache
+        if: always()
+        run: |
+          find work -name '*.part' -delete 2>/dev/null || true
+          find work -name '*.fits' -delete 2>/dev/null || true
+          du -sh work 2>/dev/null || true
+      - uses: actions/cache/save@v4
+        if: always()
+        with:
+          path: work
+          key: color-${{ inputs.max_side }}-${{ inputs.max_filters }}-${{ github.run_id }}
+      - name: Save to the results branch
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          rm -rf /tmp/mc && git worktree prune
+          if git fetch -q origin results 2>/dev/null; then
+            git worktree add -q -B results /tmp/mc origin/results
+          else
+            git worktree add -q --detach /tmp/mc HEAD
+            git -C /tmp/mc checkout -q --orphan results
+            git -C /tmp/mc rm -rq --cached . >/dev/null 2>&1 || true
+            find /tmp/mc -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf {} +
+          fi
+          mkdir -p "/tmp/mc/color/run-$GITHUB_RUN_ID"
+          cp -r out/. "/tmp/mc/color/run-$GITHUB_RUN_ID/"
+          git -C /tmp/mc add -f color
+          git -C /tmp/mc commit -q -m "Color pictures (run $GITHUB_RUN_ID)" || { echo "no changes"; exit 0; }
+          git -C /tmp/mc push -q origin results
