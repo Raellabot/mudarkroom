@@ -1,0 +1,452 @@
+[
+ {
+  "picture": "jades-goods-n-creative5-n75-white.jpg",
+  "palette": "creative5",
+  "collection": "JWST",
+  "target": "GOODS-N-MEDIUM01",
+  "proposal_id": "1181",
+  "instrument": "NIRCAM/IMAGE",
+  "title": "NIRCam-NIRSpec galaxy assembly survey - GOODS-N",
+  "grid": {
+   "width": 2568,
+   "height": 1201,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.12491475843120063,
+   "reference_filter": "F200W"
+  },
+  "stretch": 0.15,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.75,
+  "variant": "white",
+  "filters": [
+   {
+    "filter": "F090W",
+    "center_nm": 900.0,
+    "color": "#1a4cff",
+    "obs_id": "jw01181-o001_t001_nircam_clear-f090w",
+    "exposure_s": 3092.19,
+    "product": "mast:JWST/product/jw01181-o001_t001_nircam_clear-f090w_i2d.fits"
+   },
+   {
+    "filter": "F150W",
+    "center_nm": 1499.5,
+    "color": "#05c7ff",
+    "obs_id": "jw01181-o001_t001_nircam_clear-f150w",
+    "exposure_s": 3092.19,
+    "product": "mast:JWST/product/jw01181-o001_t001_nircam_clear-f150w_i2d.fits"
+   },
+   {
+    "filter": "F200W",
+    "center_nm": 1990.5,
+    "color": "#91e6ab",
+    "obs_id": "jw01181-o001_t001_nircam_clear-f200w",
+    "exposure_s": 3092.19,
+    "product": "mast:JWST/product/jw01181-o001_t001_nircam_clear-f200w_i2d.fits"
+   },
+   {
+    "filter": "F335M",
+    "center_nm": 3357.5,
+    "color": "#f7b884",
+    "obs_id": "jw01181-o001_t001_nircam_clear-f335m",
+    "exposure_s": 3092.19,
+    "product": "mast:JWST/product/jw01181-o001_t001_nircam_clear-f335m_i2d.fits"
+   },
+   {
+    "filter": "F356W",
+    "center_nm": 3560.0,
+    "color": "#fc6fa8",
+    "obs_id": "jw01181-o001_t001_nircam_clear-f356w",
+    "exposure_s": 3092.19,
+    "product": "mast:JWST/product/jw01181-o001_t001_nircam_clear-f356w_i2d.fits"
+   },
+   {
+    "filter": "F444W",
+    "center_nm": 4433.0,
+    "color": "#f261d1",
+    "obs_id": "jw01181-o001_t001_nircam_clear-f444w",
+    "exposure_s": 3092.19,
+    "product": "mast:JWST/product/jw01181-o001_t001_nircam_clear-f444w_i2d.fits"
+   }
+  ],
+  "black_percentile": 50,
+  "finishing": {
+   "nofill": true,
+   "destripe": [
+    288,
+    75
+   ],
+   "black": 50
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ },
+ {
+  "picture": "jades-goods-n-creative5-n75-whiter.jpg",
+  "palette": "creative5",
+  "collection": "JWST",
+  "target": "GOODS-N-MEDIUM01",
+  "proposal_id": "1181",
+  "instrument": "NIRCAM/IMAGE",
+  "title": "NIRCam-NIRSpec galaxy assembly survey - GOODS-N",
+  "grid": {
+   "width": 2568,
+   "height": 1201,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.12491475843120063,
+   "reference_filter": "F200W"
+  },
+  "stretch": 0.15,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.75,
+  "variant": "whiter",
+  "filters": [
+   {
+    "filter": "F090W",
+    "center_nm": 900.0,
+    "color": "#1a4cff",
+    "obs_id": "jw01181-o001_t001_nircam_clear-f090w",
+    "exposure_s": 3092.19,
+    "product": "mast:JWST/product/jw01181-o001_t001_nircam_clear-f090w_i2d.fits"
+   },
+   {
+    "filter": "F150W",
+    "center_nm": 1499.5,
+    "color": "#05c7ff",
+    "obs_id": "jw01181-o001_t001_nircam_clear-f150w",
+    "exposure_s": 3092.19,
+    "product": "mast:JWST/product/jw01181-o001_t001_nircam_clear-f150w_i2d.fits"
+   },
+   {
+    "filter": "F200W",
+    "center_nm": 1990.5,
+    "color": "#91e6ab",
+    "obs_id": "jw01181-o001_t001_nircam_clear-f200w",
+    "exposure_s": 3092.19,
+    "product": "mast:JWST/product/jw01181-o001_t001_nircam_clear-f200w_i2d.fits"
+   },
+   {
+    "filter": "F335M",
+    "center_nm": 3357.5,
+    "color": "#f7b884",
+    "obs_id": "jw01181-o001_t001_nircam_clear-f335m",
+    "exposure_s": 3092.19,
+    "product": "mast:JWST/product/jw01181-o001_t001_nircam_clear-f335m_i2d.fits"
+   },
+   {
+    "filter": "F356W",
+    "center_nm": 3560.0,
+    "color": "#fc6fa8",
+    "obs_id": "jw01181-o001_t001_nircam_clear-f356w",
+    "exposure_s": 3092.19,
+    "product": "mast:JWST/product/jw01181-o001_t001_nircam_clear-f356w_i2d.fits"
+   },
+   {
+    "filter": "F444W",
+    "center_nm": 4433.0,
+    "color": "#f261d1",
+    "obs_id": "jw01181-o001_t001_nircam_clear-f444w",
+    "exposure_s": 3092.19,
+    "product": "mast:JWST/product/jw01181-o001_t001_nircam_clear-f444w_i2d.fits"
+   }
+  ],
+  "black_percentile": 50,
+  "finishing": {
+   "nofill": true,
+   "destripe": [
+    288,
+    75
+   ],
+   "black": 50
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ },
+ {
+  "picture": "ceers-miri1-creative5-n75-white.jpg",
+  "palette": "creative5",
+  "collection": "JWST",
+  "target": "MIRI1",
+  "proposal_id": "1345",
+  "instrument": "MIRI/IMAGE",
+  "title": "The Cosmic Evolution Early Release Science (CEERS) Survey free",
+  "grid": {
+   "width": 1057,
+   "height": 1042,
+   "reduction": 1,
+   "arcsec_per_pixel": 0.11091080817965485,
+   "reference_filter": "F2100W"
+  },
+  "stretch": 0.15,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.75,
+  "variant": "white",
+  "filters": [
+   {
+    "filter": "F770W",
+    "center_nm": 7700.0,
+    "color": "#1a4cff",
+    "obs_id": "jw01345-o001_t021_miri_f770w",
+    "exposure_s": 1648.404,
+    "product": "mast:JWST/product/jw01345-o001_t021_miri_f770w_i2d.fits"
+   },
+   {
+    "filter": "F1000W",
+    "center_nm": 10000.0,
+    "color": "#05c7ff",
+    "obs_id": "jw01345-o001_t021_miri_f1000w",
+    "exposure_s": 1673.349,
+    "product": "mast:JWST/product/jw01345-o001_t021_miri_f1000w_i2d.fits"
+   },
+   {
+    "filter": "F1280W",
+    "center_nm": 12800.0,
+    "color": "#91e6ab",
+    "obs_id": "jw01345-o001_t021_miri_f1280w",
+    "exposure_s": 1673.349,
+    "product": "mast:JWST/product/jw01345-o001_t021_miri_f1280w_i2d.fits"
+   },
+   {
+    "filter": "F1500W",
+    "center_nm": 15000.0,
+    "color": "#f7b884",
+    "obs_id": "jw01345-o001_t021_miri_f1500w",
+    "exposure_s": 1673.349,
+    "product": "mast:JWST/product/jw01345-o001_t021_miri_f1500w_i2d.fits"
+   },
+   {
+    "filter": "F1800W",
+    "center_nm": 18000.0,
+    "color": "#fc6fa8",
+    "obs_id": "jw01345-o001_t021_miri_f1800w",
+    "exposure_s": 1698.324,
+    "product": "mast:JWST/product/jw01345-o001_t021_miri_f1800w_i2d.fits"
+   },
+   {
+    "filter": "F2100W",
+    "center_nm": 21000.0,
+    "color": "#f261d1",
+    "obs_id": "jw01345-o001_t021_miri_f2100w",
+    "exposure_s": 4811.919,
+    "product": "mast:JWST/product/jw01345-o001_t021_miri_f2100w_i2d.fits"
+   }
+  ],
+  "black_percentile": 75,
+  "finishing": {
+   "nofill": true,
+   "box": [
+    0.04,
+    0.95,
+    0.42,
+    0.97
+   ],
+   "black": 75
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ },
+ {
+  "picture": "ceers-miri1-creative5-n75-whiter.jpg",
+  "palette": "creative5",
+  "collection": "JWST",
+  "target": "MIRI1",
+  "proposal_id": "1345",
+  "instrument": "MIRI/IMAGE",
+  "title": "The Cosmic Evolution Early Release Science (CEERS) Survey free",
+  "grid": {
+   "width": 1057,
+   "height": 1042,
+   "reduction": 1,
+   "arcsec_per_pixel": 0.11091080817965485,
+   "reference_filter": "F2100W"
+  },
+  "stretch": 0.15,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.75,
+  "variant": "whiter",
+  "filters": [
+   {
+    "filter": "F770W",
+    "center_nm": 7700.0,
+    "color": "#1a4cff",
+    "obs_id": "jw01345-o001_t021_miri_f770w",
+    "exposure_s": 1648.404,
+    "product": "mast:JWST/product/jw01345-o001_t021_miri_f770w_i2d.fits"
+   },
+   {
+    "filter": "F1000W",
+    "center_nm": 10000.0,
+    "color": "#05c7ff",
+    "obs_id": "jw01345-o001_t021_miri_f1000w",
+    "exposure_s": 1673.349,
+    "product": "mast:JWST/product/jw01345-o001_t021_miri_f1000w_i2d.fits"
+   },
+   {
+    "filter": "F1280W",
+    "center_nm": 12800.0,
+    "color": "#91e6ab",
+    "obs_id": "jw01345-o001_t021_miri_f1280w",
+    "exposure_s": 1673.349,
+    "product": "mast:JWST/product/jw01345-o001_t021_miri_f1280w_i2d.fits"
+   },
+   {
+    "filter": "F1500W",
+    "center_nm": 15000.0,
+    "color": "#f7b884",
+    "obs_id": "jw01345-o001_t021_miri_f1500w",
+    "exposure_s": 1673.349,
+    "product": "mast:JWST/product/jw01345-o001_t021_miri_f1500w_i2d.fits"
+   },
+   {
+    "filter": "F1800W",
+    "center_nm": 18000.0,
+    "color": "#fc6fa8",
+    "obs_id": "jw01345-o001_t021_miri_f1800w",
+    "exposure_s": 1698.324,
+    "product": "mast:JWST/product/jw01345-o001_t021_miri_f1800w_i2d.fits"
+   },
+   {
+    "filter": "F2100W",
+    "center_nm": 21000.0,
+    "color": "#f261d1",
+    "obs_id": "jw01345-o001_t021_miri_f2100w",
+    "exposure_s": 4811.919,
+    "product": "mast:JWST/product/jw01345-o001_t021_miri_f2100w_i2d.fits"
+   }
+  ],
+  "black_percentile": 75,
+  "finishing": {
+   "nofill": true,
+   "box": [
+    0.04,
+    0.95,
+    0.42,
+    0.97
+   ],
+   "black": 75
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ },
+ {
+  "picture": "hudf-acs-creative5-n75-white.jpg",
+  "palette": "creative5",
+  "collection": "HST",
+  "target": "CDF-SOUTH-UDF",
+  "proposal_id": "9978",
+  "instrument": "ACS/WFC",
+  "title": null,
+  "grid": {
+   "width": 1993,
+   "height": 1994,
+   "reduction": 3,
+   "arcsec_per_pixel": 0.14999999999999472,
+   "reference_filter": "F435W"
+  },
+  "stretch": 0.15,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.75,
+  "variant": "white",
+  "filters": [
+   {
+    "filter": "F435W",
+    "center_nm": 425.0,
+    "color": "#1a4cff",
+    "obs_id": "hst_9978_b4_acs_wfc_f435w_j8m8b4",
+    "exposure_s": 6090,
+    "product": "mast:HST/product/hst_9978_b4_acs_wfc_f435w_j8m8b4_drc.fits"
+   },
+   {
+    "filter": "F606W",
+    "center_nm": 595.0,
+    "color": "#51e6d0",
+    "obs_id": "j8m83a020",
+    "exposure_s": 4860,
+    "product": "mast:HST/product/j8m83a020_drz.fits"
+   },
+   {
+    "filter": "F775W",
+    "center_nm": 775.0,
+    "color": "#fb9990",
+    "obs_id": "j8m85c020",
+    "exposure_s": 4860,
+    "product": "mast:HST/product/j8m85c020_drz.fits"
+   },
+   {
+    "filter": "F850LP",
+    "center_nm": 895.0,
+    "color": "#f261d1",
+    "obs_id": "hst_9978_57_acs_wfc_f850lp_j8m857",
+    "exposure_s": 6060,
+    "product": "mast:HST/product/hst_9978_57_acs_wfc_f850lp_j8m857_drc.fits"
+   }
+  ],
+  "black_percentile": 50,
+  "finishing": {
+   "nofill": true,
+   "black": 50
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ },
+ {
+  "picture": "hudf-acs-creative5-n75-whiter.jpg",
+  "palette": "creative5",
+  "collection": "HST",
+  "target": "CDF-SOUTH-UDF",
+  "proposal_id": "9978",
+  "instrument": "ACS/WFC",
+  "title": null,
+  "grid": {
+   "width": 1993,
+   "height": 1994,
+   "reduction": 3,
+   "arcsec_per_pixel": 0.14999999999999472,
+   "reference_filter": "F435W"
+  },
+  "stretch": 0.15,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.75,
+  "variant": "whiter",
+  "filters": [
+   {
+    "filter": "F435W",
+    "center_nm": 425.0,
+    "color": "#1a4cff",
+    "obs_id": "hst_9978_b4_acs_wfc_f435w_j8m8b4",
+    "exposure_s": 6090,
+    "product": "mast:HST/product/hst_9978_b4_acs_wfc_f435w_j8m8b4_drc.fits"
+   },
+   {
+    "filter": "F606W",
+    "center_nm": 595.0,
+    "color": "#51e6d0",
+    "obs_id": "j8m83a020",
+    "exposure_s": 4860,
+    "product": "mast:HST/product/j8m83a020_drz.fits"
+   },
+   {
+    "filter": "F775W",
+    "center_nm": 775.0,
+    "color": "#fb9990",
+    "obs_id": "j8m85c020",
+    "exposure_s": 4860,
+    "product": "mast:HST/product/j8m85c020_drz.fits"
+   },
+   {
+    "filter": "F850LP",
+    "center_nm": 895.0,
+    "color": "#f261d1",
+    "obs_id": "hst_9978_57_acs_wfc_f850lp_j8m857",
+    "exposure_s": 6060,
+    "product": "mast:HST/product/hst_9978_57_acs_wfc_f850lp_j8m857_drc.fits"
+   }
+  ],
+  "black_percentile": 50,
+  "finishing": {
+   "nofill": true,
+   "black": 50
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]
