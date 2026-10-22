@@ -648,7 +648,7 @@ def main():
                     cols = [c * (1 - tw["soften"].get(n, 0.0)) + SOFT_PINK * tw["soften"].get(n, 0.0) for c, n in zip(base_cols, names)]
                 img, colors = compose(stk2, waves, pal, RANKED.get(pname), cols, tw.get("whiten", 0.0), tw.get("stretch") or (fin or {}).get("stretch"))
                 suffix = "" if e is None else f"-n{int(round(e * 100)):02d}" + ("" if vname == "base" else f"-{vname}")
-                title = f"{chosen[0]['obs_collection']} {instrument.split('/')[0]}, {target}, program {proposal} — {PALETTE_NAMES[pname]}{'' if e is None else f', brightness exponent {e:g}'}{'' if vname == 'base' else f', {vname}'} — made by this project from MAST mosaics"
+                title = f"{chosen[0]['obs_collection']} {instrument.split('/')[0]}, {target}, program {proposal} — {PALETTE_NAMES[pname]}{'' if e is None else f', brightness exponent {e:g}'}{'' if vname == 'base' else f', {vname}'} — made by this project (Raellabot) from MAST mosaics"
                 if fin and fin.get("upscale"):
                     k = fin["upscale"]
                     img = np.array(Image.fromarray(img).resize((img.shape[1] * k, img.shape[0] * k), Image.LANCZOS))
