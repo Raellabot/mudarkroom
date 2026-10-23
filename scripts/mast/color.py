@@ -455,6 +455,7 @@ FINISH = {
     "abell2744-glass": {"nofill": True, "destripe": (288, 75), "black": 60},
     "cosmos-web-tile": {"nofill": True, "destripe": (288, 75), "black": 65},
     "ngdeep": {"nofill": True, "black": 70},
+    "jems-udf": {"nofill": True, "black": 70},
     "smacs0723": {"box": (0.0, 1.0, 0.55, 1.0), "dense": 0.97},   # the cluster half; the other module's field is left out
 }
 FINISH_ON = os.environ.get("FINISH", "1") == "1"
