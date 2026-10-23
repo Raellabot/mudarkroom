@@ -1,0 +1,140 @@
+[
+ {
+  "picture": "jems-udf-creative5-n75-white.jpg",
+  "palette": "creative5",
+  "collection": "JWST",
+  "target": "UDF",
+  "proposal_id": "1963",
+  "instrument": "NIRCAM/IMAGE",
+  "title": "UDF medium band survey: Using H-alpha emission to reconstruct Ly-alpha escape during the Epoch of Reionization",
+  "grid": {
+   "width": 2527,
+   "height": 1151,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.12491058154913856,
+   "reference_filter": "F210M"
+  },
+  "stretch": 0.15,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.75,
+  "variant": "white",
+  "filters": [
+   {
+    "filter": "F182M",
+    "center_nm": 1845.0,
+    "color": "#1a4cff",
+    "obs_id": "jw01963-o001_t001_nircam_clear-f182m",
+    "exposure_s": 27829.703999999998,
+    "product": "mast:JWST/product/jw01963-o001_t001_nircam_clear-f182m_i2d.fits"
+   },
+   {
+    "filter": "F210M",
+    "center_nm": 2096.5,
+    "color": "#00e6ff",
+    "obs_id": "jw01963-o001_t001_nircam_clear-f210m",
+    "exposure_s": 27829.703999999998,
+    "product": "mast:JWST/product/jw01963-o001_t001_nircam_clear-f210m_i2d.fits"
+   },
+   {
+    "filter": "F430M",
+    "center_nm": 4282.5,
+    "color": "#f2e673",
+    "obs_id": "jw01963-o001_t001_nircam_clear-f430m",
+    "exposure_s": 13914.851999999999,
+    "product": "mast:JWST/product/jw01963-o001_t001_nircam_clear-f430m_i2d.fits"
+   },
+   {
+    "filter": "F460M",
+    "center_nm": 4631.0,
+    "color": "#ff739e",
+    "obs_id": "jw01963-o001_t001_nircam_clear-f460m",
+    "exposure_s": 13914.851999999999,
+    "product": "mast:JWST/product/jw01963-o001_t001_nircam_clear-f460m_i2d.fits"
+   },
+   {
+    "filter": "F480M",
+    "center_nm": 4819.5,
+    "color": "#f261d1",
+    "obs_id": "jw01963-o001_t001_nircam_clear-f480m",
+    "exposure_s": 27829.703999999998,
+    "product": "mast:JWST/product/jw01963-o001_t001_nircam_clear-f480m_i2d.fits"
+   }
+  ],
+  "black_percentile": 70,
+  "finishing": {
+   "nofill": true,
+   "black": 70
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ },
+ {
+  "picture": "jems-udf-creative5-n75-whiter.jpg",
+  "palette": "creative5",
+  "collection": "JWST",
+  "target": "UDF",
+  "proposal_id": "1963",
+  "instrument": "NIRCAM/IMAGE",
+  "title": "UDF medium band survey: Using H-alpha emission to reconstruct Ly-alpha escape during the Epoch of Reionization",
+  "grid": {
+   "width": 2527,
+   "height": 1151,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.12491058154913856,
+   "reference_filter": "F210M"
+  },
+  "stretch": 0.15,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.75,
+  "variant": "whiter",
+  "filters": [
+   {
+    "filter": "F182M",
+    "center_nm": 1845.0,
+    "color": "#1a4cff",
+    "obs_id": "jw01963-o001_t001_nircam_clear-f182m",
+    "exposure_s": 27829.703999999998,
+    "product": "mast:JWST/product/jw01963-o001_t001_nircam_clear-f182m_i2d.fits"
+   },
+   {
+    "filter": "F210M",
+    "center_nm": 2096.5,
+    "color": "#00e6ff",
+    "obs_id": "jw01963-o001_t001_nircam_clear-f210m",
+    "exposure_s": 27829.703999999998,
+    "product": "mast:JWST/product/jw01963-o001_t001_nircam_clear-f210m_i2d.fits"
+   },
+   {
+    "filter": "F430M",
+    "center_nm": 4282.5,
+    "color": "#f2e673",
+    "obs_id": "jw01963-o001_t001_nircam_clear-f430m",
+    "exposure_s": 13914.851999999999,
+    "product": "mast:JWST/product/jw01963-o001_t001_nircam_clear-f430m_i2d.fits"
+   },
+   {
+    "filter": "F460M",
+    "center_nm": 4631.0,
+    "color": "#ff739e",
+    "obs_id": "jw01963-o001_t001_nircam_clear-f460m",
+    "exposure_s": 13914.851999999999,
+    "product": "mast:JWST/product/jw01963-o001_t001_nircam_clear-f460m_i2d.fits"
+   },
+   {
+    "filter": "F480M",
+    "center_nm": 4819.5,
+    "color": "#f261d1",
+    "obs_id": "jw01963-o001_t001_nircam_clear-f480m",
+    "exposure_s": 27829.703999999998,
+    "product": "mast:JWST/product/jw01963-o001_t001_nircam_clear-f480m_i2d.fits"
+   }
+  ],
+  "black_percentile": 70,
+  "finishing": {
+   "nofill": true,
+   "black": 70
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

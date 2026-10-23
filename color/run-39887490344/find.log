@@ -1,0 +1,3 @@
+  page 1/1 rows so far 7 of 7
+JWST|UDF|1963|NIRCAM/IMAGE|3  rows=5  filters=['F182M', 'F210M', 'F430M', 'F460M', 'F480M']
+JWST|UDF|1963|NIRISS/IMAGE|3  rows=2  filters=['F430M', 'F480M']
