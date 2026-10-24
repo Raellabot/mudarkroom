@@ -1,0 +1,164 @@
+[
+ {
+  "picture": "jades-goods-s-creative5-n75-white.jpg",
+  "palette": "creative5",
+  "collection": "JWST",
+  "target": "DEEP-HST-V1-CLEAN",
+  "proposal_id": "1210",
+  "instrument": "NIRCAM/IMAGE",
+  "title": "NIRCam-NIRSpec galaxy assembly survey - GOODS-S - part #1b",
+  "grid": {
+   "width": 2479,
+   "height": 1106,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.12491487794882102,
+   "reference_filter": "F200W"
+  },
+  "stretch": 0.15,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.75,
+  "variant": "white",
+  "filters": [
+   {
+    "filter": "F090W",
+    "center_nm": 900.0,
+    "color": "#1a4cff",
+    "obs_id": "jw01210-o001_t002_nircam_clear-f090w",
+    "exposure_s": 49475.03399999999,
+    "product": "mast:JWST/product/jw01210-o001_t002_nircam_clear-f090w_i2d.fits"
+   },
+   {
+    "filter": "F150W",
+    "center_nm": 1499.5,
+    "color": "#05c7ff",
+    "obs_id": "jw01210-o001_t002_nircam_clear-f150w",
+    "exposure_s": 49475.03399999999,
+    "product": "mast:JWST/product/jw01210-o001_t002_nircam_clear-f150w_i2d.fits"
+   },
+   {
+    "filter": "F200W",
+    "center_nm": 1990.5,
+    "color": "#91e6ab",
+    "obs_id": "jw01210-o001_t002_nircam_clear-f200w",
+    "exposure_s": 32983.35600000001,
+    "product": "mast:JWST/product/jw01210-o001_t002_nircam_clear-f200w_i2d.fits"
+   },
+   {
+    "filter": "F335M",
+    "center_nm": 3357.5,
+    "color": "#f7b884",
+    "obs_id": "jw01210-o001_t002_nircam_clear-f335m",
+    "exposure_s": 24737.517,
+    "product": "mast:JWST/product/jw01210-o001_t002_nircam_clear-f335m_i2d.fits"
+   },
+   {
+    "filter": "F356W",
+    "center_nm": 3560.0,
+    "color": "#fc6fa8",
+    "obs_id": "jw01210-o001_t002_nircam_clear-f356w",
+    "exposure_s": 32983.35600000001,
+    "product": "mast:JWST/product/jw01210-o001_t002_nircam_clear-f356w_i2d.fits"
+   },
+   {
+    "filter": "F444W",
+    "center_nm": 4433.0,
+    "color": "#f261d1",
+    "obs_id": "jw01210-o001_t002_nircam_clear-f444w",
+    "exposure_s": 49475.03399999999,
+    "product": "mast:JWST/product/jw01210-o001_t002_nircam_clear-f444w_i2d.fits"
+   }
+  ],
+  "black_percentile": 70,
+  "finishing": {
+   "nofill": true,
+   "destripe": [
+    288,
+    75
+   ],
+   "black": 70
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ },
+ {
+  "picture": "jades-goods-s-creative5-n75-whiter.jpg",
+  "palette": "creative5",
+  "collection": "JWST",
+  "target": "DEEP-HST-V1-CLEAN",
+  "proposal_id": "1210",
+  "instrument": "NIRCAM/IMAGE",
+  "title": "NIRCam-NIRSpec galaxy assembly survey - GOODS-S - part #1b",
+  "grid": {
+   "width": 2479,
+   "height": 1106,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.12491487794882102,
+   "reference_filter": "F200W"
+  },
+  "stretch": 0.15,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.75,
+  "variant": "whiter",
+  "filters": [
+   {
+    "filter": "F090W",
+    "center_nm": 900.0,
+    "color": "#1a4cff",
+    "obs_id": "jw01210-o001_t002_nircam_clear-f090w",
+    "exposure_s": 49475.03399999999,
+    "product": "mast:JWST/product/jw01210-o001_t002_nircam_clear-f090w_i2d.fits"
+   },
+   {
+    "filter": "F150W",
+    "center_nm": 1499.5,
+    "color": "#05c7ff",
+    "obs_id": "jw01210-o001_t002_nircam_clear-f150w",
+    "exposure_s": 49475.03399999999,
+    "product": "mast:JWST/product/jw01210-o001_t002_nircam_clear-f150w_i2d.fits"
+   },
+   {
+    "filter": "F200W",
+    "center_nm": 1990.5,
+    "color": "#91e6ab",
+    "obs_id": "jw01210-o001_t002_nircam_clear-f200w",
+    "exposure_s": 32983.35600000001,
+    "product": "mast:JWST/product/jw01210-o001_t002_nircam_clear-f200w_i2d.fits"
+   },
+   {
+    "filter": "F335M",
+    "center_nm": 3357.5,
+    "color": "#f7b884",
+    "obs_id": "jw01210-o001_t002_nircam_clear-f335m",
+    "exposure_s": 24737.517,
+    "product": "mast:JWST/product/jw01210-o001_t002_nircam_clear-f335m_i2d.fits"
+   },
+   {
+    "filter": "F356W",
+    "center_nm": 3560.0,
+    "color": "#fc6fa8",
+    "obs_id": "jw01210-o001_t002_nircam_clear-f356w",
+    "exposure_s": 32983.35600000001,
+    "product": "mast:JWST/product/jw01210-o001_t002_nircam_clear-f356w_i2d.fits"
+   },
+   {
+    "filter": "F444W",
+    "center_nm": 4433.0,
+    "color": "#f261d1",
+    "obs_id": "jw01210-o001_t002_nircam_clear-f444w",
+    "exposure_s": 49475.03399999999,
+    "product": "mast:JWST/product/jw01210-o001_t002_nircam_clear-f444w_i2d.fits"
+   }
+  ],
+  "black_percentile": 70,
+  "finishing": {
+   "nofill": true,
+   "destripe": [
+    288,
+    75
+   ],
+   "black": 70
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]
