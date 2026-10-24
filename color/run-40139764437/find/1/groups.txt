@@ -1,0 +1,2 @@
+JWST|UDS-2-Tile-8|1837|NIRCAM/IMAGE|3  rows=8  filters=['F090W', 'F115W', 'F150W', 'F200W', 'F277W', 'F356W', 'F410M', 'F444W']
+JWST|UDS-2-Tile-8|1837|MIRI/IMAGE|3  rows=2  filters=['F1800W', 'F770W']
