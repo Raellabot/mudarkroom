@@ -1,0 +1,405 @@
+field abell2744: ra 3.586 dec -30.397 radius 0.2 deg
+== Chandra (Chandra Data Archive)
+104 public observations within 0.2 deg
+obsid 2212 | A2744 | ACIS-S | grating NONE | TE | 24.8 ks | events 204377 | proposal 02800457 | released 2002-10-03 | 3.5542 -30.3778 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao02/cat8/2212/primary/acisf02212N005_evt2.fits.gz
+    image acisf02212N005_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf02212N005_full_img2.fits | 0.2-20.0 keV | 0.4 MB
+obsid 7712 | A2744 | ACIS-I | grating NONE | TE | 8.1 ks | events 21367 | proposal 08700025 | released 2008-09-14 | 3.5800 -30.3853 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao08/cat7/7712/primary/acisf07712N004_evt2.fits.gz
+    image acisf07712N004_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf07712N004_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 7915 | ABELL2744 | ACIS-I | grating NONE | TE | 18.6 ks | events 143227 | proposal 08800638 | released 2008-06-15 | 3.5808 -30.3915 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao08/cat8/7915/primary/acisf07915N003_evt2.fits.gz
+    image acisf07915N003_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf07915N003_full_img2.fits | 0.2-20.0 keV | 0.6 MB
+obsid 8477 | ABELL2744 | ACIS-I | grating NONE | TE | 45.9 ks | events 368077 | proposal 08800638 | released 2008-06-15 | 3.5808 -30.3915 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao08/cat8/8477/primary/acisf08477N003_evt2.fits.gz
+    image acisf08477N003_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf08477N003_full_img2.fits | 0.2-20.0 keV | 0.5 MB
+obsid 8557 | ABELL2744 | ACIS-I | grating NONE | TE | 27.8 ks | events 223076 | proposal 08800638 | released 2008-06-15 | 3.5808 -30.3915 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao08/cat8/8557/primary/acisf08557N003_evt2.fits.gz
+    image acisf08557N003_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf08557N003_full_img2.fits | 0.2-20.0 keV | 0.5 MB
+obsid 25277 | ABELL2744 | ACIS-I | grating NONE | TE | 18.7 ks | events 40480 | proposal 23700107 | released 2024-05-13 | 3.5885 -30.4012 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao23/cat7/25277/primary/acisf25277N002_evt2.fits.gz
+    image acisf25277N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf25277N002_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 25278 | ABELL2744 | ACIS-I | grating NONE | TE | 9.8 ks | events 26678 | proposal 23700107 | released 2024-05-13 | 3.5885 -30.4012 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao23/cat7/25278/primary/acisf25278N002_evt2.fits.gz
+    image acisf25278N002_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf25278N002_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 25279 | ABELL2744 | ACIS-I | grating NONE | TE | 24.5 ks | events 66683 | proposal 23700107 | released 2024-05-13 | 3.5885 -30.4012 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao23/cat7/25279/primary/acisf25279N003_evt2.fits.gz
+    image acisf25279N003_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf25279N003_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 25907 | ABELL2744 | ACIS-I | grating NONE | TE | 36.8 ks | events 102468 | proposal 23700107 | released 2024-05-13 | 3.5885 -30.4012 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao23/cat7/25907/primary/acisf25907N003_evt2.fits.gz
+    image acisf25907N003_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf25907N003_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 25908 | ABELL2744 | ACIS-I | grating NONE | TE | 22.6 ks | events 61678 | proposal 23700107 | released 2024-05-13 | 3.5885 -30.4012 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao23/cat7/25908/primary/acisf25908N002_evt2.fits.gz
+    image acisf25908N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf25908N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 25909 | ABELL2744 | ACIS-I | grating NONE | TE | 19.3 ks | events 46191 | proposal 23700107 | released 2024-05-13 | 3.5885 -30.4012 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao23/cat7/25909/primary/acisf25909N002_evt2.fits.gz
+    image acisf25909N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf25909N002_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 25910 | ABELL2744 | ACIS-I | grating NONE | TE | 19.3 ks | events 51251 | proposal 23700107 | released 2024-05-13 | 3.5885 -30.4012 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao23/cat7/25910/primary/acisf25910N003_evt2.fits.gz
+    image acisf25910N003_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf25910N003_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 25911 | ABELL2744 | ACIS-I | grating NONE | TE | 16.9 ks | events 51552 | proposal 23700107 | released 2024-05-13 | 3.5885 -30.4012 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao23/cat7/25911/primary/acisf25911N002_evt2.fits.gz
+    image acisf25911N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf25911N002_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 25912 | ABELL2744 | ACIS-I | grating NONE | TE | 15.4 ks | events 47047 | proposal 23700107 | released 2024-05-13 | 3.5885 -30.4012 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao23/cat7/25912/primary/acisf25912N002_evt2.fits.gz
+    image acisf25912N002_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf25912N002_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 25913 | ABELL2744 | ACIS-I | grating NONE | TE | 19.6 ks | events 53849 | proposal 23700107 | released 2024-05-13 | 3.5885 -30.4012 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao23/cat7/25913/primary/acisf25913N002_evt2.fits.gz
+    image acisf25913N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf25913N002_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 25914 | ABELL2744 | ACIS-I | grating NONE | TE | 28.2 ks | events 77892 | proposal 23700107 | released 2024-05-13 | 3.5885 -30.4012 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao23/cat7/25914/primary/acisf25914N002_evt2.fits.gz
+    image acisf25914N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf25914N002_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 25915 | ABELL2744 | ACIS-I | grating NONE | TE | 21.1 ks | events 56150 | proposal 23700107 | released 2024-05-13 | 3.5885 -30.4012 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao23/cat7/25915/primary/acisf25915N002_evt2.fits.gz
+    image acisf25915N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf25915N002_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 25916 | ABELL2744 | ACIS-I | grating NONE | TE | 22.2 ks | events 48189 | proposal 23700107 | released 2024-05-13 | 3.5885 -30.4012 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao23/cat7/25916/primary/acisf25916N002_evt2.fits.gz
+    image acisf25916N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf25916N002_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 25917 | ABELL2744 | ACIS-I | grating NONE | TE | 35.6 ks | events 86822 | proposal 23700107 | released 2024-05-13 | 3.5885 -30.4012 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao23/cat7/25917/primary/acisf25917N002_evt2.fits.gz
+    image acisf25917N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf25917N002_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 25918 | ABELL2744 | ACIS-I | grating NONE | TE | 20.6 ks | events 59566 | proposal 23700107 | released 2024-05-13 | 3.5885 -30.4012 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao23/cat7/25918/primary/acisf25918N002_evt2.fits.gz
+    image acisf25918N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf25918N002_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 25919 | ABELL2744 | ACIS-I | grating NONE | TE | 25.3 ks | events 76438 | proposal 23700107 | released 2024-05-13 | 3.5885 -30.4012 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao23/cat7/25919/primary/acisf25919N002_evt2.fits.gz
+    image acisf25919N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf25919N002_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 25920 | ABELL2744 | ACIS-I | grating NONE | TE | 30.5 ks | events 92134 | proposal 23700107 | released 2024-05-13 | 3.5885 -30.4012 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao23/cat7/25920/primary/acisf25920N002_evt2.fits.gz
+    image acisf25920N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf25920N002_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 25921 | ABELL2744 | ACIS-I | grating NONE | TE | 16.9 ks | events 35857 | proposal 23700107 | released 2024-05-13 | 3.5885 -30.4012 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao23/cat7/25921/primary/acisf25921N002_evt2.fits.gz
+    image acisf25921N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf25921N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 25922 | ABELL2744 | ACIS-I | grating NONE | TE | 31.4 ks | events 94441 | proposal 23700107 | released 2024-05-13 | 3.5885 -30.4012 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao23/cat7/25922/primary/acisf25922N003_evt2.fits.gz
+    image acisf25922N003_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf25922N003_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 25923 | ABELL2744 | ACIS-I | grating NONE | TE | 10.9 ks | events 30582 | proposal 23700107 | released 2024-05-13 | 3.5885 -30.4012 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao23/cat7/25923/primary/acisf25923N003_evt2.fits.gz
+    image acisf25923N003_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf25923N003_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 25924 | ABELL2744 | ACIS-I | grating NONE | TE | 21.8 ks | events 60548 | proposal 23700107 | released 2024-05-13 | 3.5885 -30.4012 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao23/cat7/25924/primary/acisf25924N003_evt2.fits.gz
+    image acisf25924N003_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf25924N003_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 25925 | ABELL2744 | ACIS-I | grating NONE | TE | 23.6 ks | events 63921 | proposal 23700107 | released 2024-05-13 | 3.5885 -30.4012 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao23/cat7/25925/primary/acisf25925N002_evt2.fits.gz
+    image acisf25925N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf25925N002_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 25926 | ABELL2744 | ACIS-I | grating NONE | TE | 61.2 ks | events 141054 | proposal 23700107 | released 2024-05-13 | 3.5885 -30.4012 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao23/cat7/25926/primary/acisf25926N002_evt2.fits.gz
+    image acisf25926N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf25926N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 25927 | ABELL2744 | ACIS-I | grating NONE | TE | 20.5 ks | events 45418 | proposal 23700107 | released 2024-05-13 | 3.5885 -30.4012 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao23/cat7/25927/primary/acisf25927N002_evt2.fits.gz
+    image acisf25927N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf25927N002_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 25928 | ABELL2744 | ACIS-I | grating NONE | TE | 15.9 ks | events 46919 | proposal 23700107 | released 2024-05-13 | 3.5885 -30.4012 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao23/cat7/25928/primary/acisf25928N003_evt2.fits.gz
+    image acisf25928N003_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf25928N003_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 25929 | ABELL2744 | ACIS-I | grating NONE | TE | 27.7 ks | events 75579 | proposal 23700107 | released 2024-05-13 | 3.5885 -30.4012 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao23/cat7/25929/primary/acisf25929N002_evt2.fits.gz
+    image acisf25929N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf25929N002_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 25930 | ABELL2744 | ACIS-I | grating NONE | TE | 19.9 ks | events 56118 | proposal 23700107 | released 2024-05-13 | 3.5885 -30.4012 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao23/cat7/25930/primary/acisf25930N002_evt2.fits.gz
+    image acisf25930N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf25930N002_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 25931 | ABELL2744 | ACIS-I | grating NONE | TE | 14.6 ks | events 43086 | proposal 23700107 | released 2024-05-13 | 3.5885 -30.4012 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao23/cat7/25931/primary/acisf25931N002_evt2.fits.gz
+    image acisf25931N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf25931N002_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 25932 | ABELL2744 | ACIS-I | grating NONE | TE | 14.1 ks | events 41512 | proposal 23700107 | released 2024-05-13 | 3.5885 -30.4012 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao23/cat7/25932/primary/acisf25932N003_evt2.fits.gz
+    image acisf25932N003_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf25932N003_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 25933 | ABELL2744 | ACIS-I | grating NONE | TE | 23.9 ks | events 52283 | proposal 23700107 | released 2024-05-13 | 3.5885 -30.4012 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao23/cat7/25933/primary/acisf25933N002_evt2.fits.gz
+    image acisf25933N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf25933N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 25934 | ABELL2744 | ACIS-I | grating NONE | TE | 19.3 ks | events 59025 | proposal 23700107 | released 2024-05-13 | 3.5885 -30.4012 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao23/cat7/25934/primary/acisf25934N002_evt2.fits.gz
+    image acisf25934N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf25934N002_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 25935 | ABELL2744 | ACIS-I | grating NONE | TE | 24.1 ks | events 51928 | proposal 23700107 | released 2024-05-13 | 3.5885 -30.4012 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao23/cat7/25935/primary/acisf25935N002_evt2.fits.gz
+    image acisf25935N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf25935N002_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 25936 | ABELL2744 | ACIS-I | grating NONE | TE | 12.9 ks | events 32352 | proposal 23700107 | released 2024-05-13 | 3.5885 -30.4012 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao23/cat7/25936/primary/acisf25936N002_evt2.fits.gz
+    image acisf25936N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf25936N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 25937 | ABELL2744 | ACIS-I | grating NONE | TE | 30.8 ks | events 82664 | proposal 23700107 | released 2024-05-13 | 3.5885 -30.4012 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao23/cat7/25937/primary/acisf25937N002_evt2.fits.gz
+    image acisf25937N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf25937N002_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 25938 | ABELL2744 | ACIS-I | grating NONE | TE | 18.7 ks | events 50846 | proposal 23700107 | released 2024-05-13 | 3.5885 -30.4012 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao23/cat7/25938/primary/acisf25938N002_evt2.fits.gz
+    image acisf25938N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf25938N002_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 25939 | ABELL2744 | ACIS-I | grating NONE | TE | 14.3 ks | events 36054 | proposal 23700107 | released 2024-05-13 | 3.5885 -30.4012 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao23/cat7/25939/primary/acisf25939N002_evt2.fits.gz
+    image acisf25939N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf25939N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 25940 | ABELL2744 | ACIS-I | grating NONE | TE | 27.7 ks | events 59455 | proposal 23700107 | released 2024-05-13 | 3.5885 -30.4012 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao23/cat7/25940/primary/acisf25940N002_evt2.fits.gz
+    image acisf25940N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf25940N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 25941 | ABELL2744 | ACIS-I | grating NONE | TE | 32.6 ks | events 78934 | proposal 23700107 | released 2024-05-13 | 3.5885 -30.4012 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao23/cat7/25941/primary/acisf25941N002_evt2.fits.gz
+    image acisf25941N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf25941N002_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 25942 | ABELL2744 | ACIS-I | grating NONE | TE | 15.2 ks | events 45261 | proposal 23700107 | released 2024-05-13 | 3.5885 -30.4012 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao23/cat7/25942/primary/acisf25942N003_evt2.fits.gz
+    image acisf25942N003_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf25942N003_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 25943 | ABELL2744 | ACIS-I | grating NONE | TE | 16.7 ks | events 36310 | proposal 23700107 | released 2024-05-13 | 3.5885 -30.4012 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao23/cat7/25943/primary/acisf25943N002_evt2.fits.gz
+    image acisf25943N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf25943N002_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 25944 | ABELL2744 | ACIS-I | grating NONE | TE | 21.6 ks | events 60414 | proposal 23700107 | released 2024-05-13 | 3.5885 -30.4012 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao23/cat7/25944/primary/acisf25944N003_evt2.fits.gz
+    image acisf25944N003_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf25944N003_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 25945 | ABELL2744 | ACIS-I | grating NONE | TE | 17.0 ks | events 44809 | proposal 23700107 | released 2024-05-13 | 3.5885 -30.4012 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao23/cat7/25945/primary/acisf25945N003_evt2.fits.gz
+    image acisf25945N003_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf25945N003_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 25946 | ABELL2744 | ACIS-I | grating NONE | TE | 29.7 ks | events 69182 | proposal 23700107 | released 2024-05-13 | 3.5885 -30.4012 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao23/cat7/25946/primary/acisf25946N002_evt2.fits.gz
+    image acisf25946N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf25946N002_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 25947 | ABELL2744 | ACIS-I | grating NONE | TE | 14.9 ks | events 31762 | proposal 23700107 | released 2024-05-13 | 3.5885 -30.4012 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao23/cat7/25947/primary/acisf25947N002_evt2.fits.gz
+    image acisf25947N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf25947N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 25948 | ABELL2744 | ACIS-I | grating NONE | TE | 27.9 ks | events 73684 | proposal 23700107 | released 2024-05-13 | 3.5885 -30.4012 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao23/cat7/25948/primary/acisf25948N002_evt2.fits.gz
+    image acisf25948N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf25948N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 25949 | ABELL2744 | ACIS-I | grating NONE | TE | 20.8 ks | events 45030 | proposal 23700107 | released 2024-05-13 | 3.5885 -30.4012 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao23/cat7/25949/primary/acisf25949N002_evt2.fits.gz
+    image acisf25949N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf25949N002_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 25950 | ABELL2744 | ACIS-I | grating NONE | TE | 29.7 ks | events 67748 | proposal 23700107 | released 2024-05-13 | 3.5885 -30.4012 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao23/cat7/25950/primary/acisf25950N002_evt2.fits.gz
+    image acisf25950N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf25950N002_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 25951 | ABELL2744 | ACIS-I | grating NONE | TE | 28.7 ks | events 80054 | proposal 23700107 | released 2024-05-13 | 3.5885 -30.4012 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao23/cat7/25951/primary/acisf25951N003_evt2.fits.gz
+    image acisf25951N003_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf25951N003_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 25952 | ABELL2744 | ACIS-I | grating NONE | TE | 10.8 ks | events 22883 | proposal 23700107 | released 2024-05-13 | 3.5885 -30.4012 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao23/cat7/25952/primary/acisf25952N002_evt2.fits.gz
+    image acisf25952N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf25952N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 25953 | ABELL2744 | ACIS-I | grating NONE | TE | 24.8 ks | events 70368 | proposal 23700107 | released 2024-05-13 | 3.5885 -30.4012 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao23/cat7/25953/primary/acisf25953N003_evt2.fits.gz
+    image acisf25953N003_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf25953N003_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 25954 | ABELL2744 | ACIS-I | grating NONE | TE | 13.4 ks | events 38854 | proposal 23700107 | released 2024-05-13 | 3.5885 -30.4012 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao23/cat7/25954/primary/acisf25954N002_evt2.fits.gz
+    image acisf25954N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf25954N002_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 25955 | ABELL2744 | ACIS-I | grating NONE | TE | 43.4 ks | events 100916 | proposal 23700107 | released 2024-05-13 | 3.5885 -30.4012 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao23/cat7/25955/primary/acisf25955N003_evt2.fits.gz
+    image acisf25955N003_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf25955N003_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 25956 | ABELL2744 | ACIS-I | grating NONE | TE | 13.9 ks | events 38272 | proposal 23700107 | released 2024-05-13 | 3.5885 -30.4012 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao23/cat7/25956/primary/acisf25956N002_evt2.fits.gz
+    image acisf25956N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf25956N002_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 25957 | ABELL2744 | ACIS-I | grating NONE | TE | 21.8 ks | events 60799 | proposal 23700107 | released 2024-05-13 | 3.5885 -30.4012 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao23/cat7/25957/primary/acisf25957N002_evt2.fits.gz
+    image acisf25957N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf25957N002_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 25958 | ABELL2744 | ACIS-I | grating NONE | TE | 12.3 ks | events 36780 | proposal 23700107 | released 2024-05-13 | 3.5885 -30.4012 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao23/cat7/25958/primary/acisf25958N003_evt2.fits.gz
+    image acisf25958N003_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf25958N003_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 25959 | ABELL2744 | ACIS-I | grating NONE | TE | 15.4 ks | events 33959 | proposal 23700107 | released 2024-05-13 | 3.5885 -30.4012 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao23/cat7/25959/primary/acisf25959N002_evt2.fits.gz
+    image acisf25959N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf25959N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 25960 | ABELL2744 | ACIS-I | grating NONE | TE | 24.8 ks | events 56582 | proposal 23700107 | released 2024-05-13 | 3.5885 -30.4012 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao23/cat7/25960/primary/acisf25960N002_evt2.fits.gz
+    image acisf25960N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf25960N002_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 25961 | ABELL2744 | ACIS-I | grating NONE | TE | 18.8 ks | events 41782 | proposal 23700107 | released 2024-05-13 | 3.5885 -30.4012 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao23/cat7/25961/primary/acisf25961N002_evt2.fits.gz
+    image acisf25961N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf25961N002_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 25962 | ABELL2744 | ACIS-I | grating NONE | TE | 21.8 ks | events 48859 | proposal 23700107 | released 2024-05-13 | 3.5885 -30.4012 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao23/cat7/25962/primary/acisf25962N002_evt2.fits.gz
+    image acisf25962N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf25962N002_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 25963 | ABELL2744 | ACIS-I | grating NONE | TE | 37.6 ks | events 103826 | proposal 23700107 | released 2024-05-13 | 3.5885 -30.4012 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao23/cat7/25963/primary/acisf25963N002_evt2.fits.gz
+    image acisf25963N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf25963N002_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 25964 | ABELL2744 | ACIS-I | grating NONE | TE | 20.3 ks | events 44946 | proposal 23700107 | released 2024-05-13 | 3.5885 -30.4012 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao23/cat7/25964/primary/acisf25964N002_evt2.fits.gz
+    image acisf25964N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf25964N002_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 25965 | ABELL2744 | ACIS-I | grating NONE | TE | 35.7 ks | events 79789 | proposal 23700107 | released 2024-05-13 | 3.5885 -30.4012 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao23/cat7/25965/primary/acisf25965N002_evt2.fits.gz
+    image acisf25965N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf25965N002_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 25966 | ABELL2744 | ACIS-I | grating NONE | TE | 18.8 ks | events 41892 | proposal 23700107 | released 2024-05-13 | 3.5885 -30.4012 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao23/cat7/25966/primary/acisf25966N002_evt2.fits.gz
+    image acisf25966N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf25966N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 25967 | ABELL2744 | ACIS-I | grating NONE | TE | 33.6 ks | events 93609 | proposal 23700107 | released 2024-05-13 | 3.5885 -30.4012 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao23/cat7/25967/primary/acisf25967N003_evt2.fits.gz
+    image acisf25967N003_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf25967N003_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 25968 | ABELL2744 | ACIS-I | grating NONE | TE | 27.5 ks | events 78322 | proposal 23700107 | released 2024-05-13 | 3.5885 -30.4012 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao23/cat7/25968/primary/acisf25968N003_evt2.fits.gz
+    image acisf25968N003_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf25968N003_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 25969 | ABELL2744 | ACIS-I | grating NONE | TE | 27.7 ks | events 77999 | proposal 23700107 | released 2024-05-13 | 3.5885 -30.4012 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao23/cat7/25969/primary/acisf25969N002_evt2.fits.gz
+    image acisf25969N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf25969N002_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 25970 | ABELL2744 | ACIS-I | grating NONE | TE | 24.8 ks | events 74284 | proposal 23700107 | released 2024-05-13 | 3.5885 -30.4012 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao23/cat7/25970/primary/acisf25970N002_evt2.fits.gz
+    image acisf25970N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf25970N002_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 25971 | ABELL2744 | ACIS-I | grating NONE | TE | 12.6 ks | events 37528 | proposal 23700107 | released 2024-05-13 | 3.5885 -30.4012 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao23/cat7/25971/primary/acisf25971N002_evt2.fits.gz
+    image acisf25971N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf25971N002_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 25972 | ABELL2744 | ACIS-I | grating NONE | TE | 31.7 ks | events 96217 | proposal 23700107 | released 2024-05-13 | 3.5885 -30.4012 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao23/cat7/25972/primary/acisf25972N003_evt2.fits.gz
+    image acisf25972N003_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf25972N003_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 25973 | ABELL2744 | ACIS-I | grating NONE | TE | 18.1 ks | events 50819 | proposal 23700107 | released 2024-05-13 | 3.5885 -30.4012 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao23/cat7/25973/primary/acisf25973N002_evt2.fits.gz
+    image acisf25973N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf25973N002_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 26280 | ABELL2744 | ACIS-I | grating NONE | TE | 11.7 ks | events 37336 | proposal 23700107 | released 2024-05-13 | 3.5885 -30.4012 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao23/cat7/26280/primary/acisf26280N003_evt2.fits.gz
+    image acisf26280N003_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf26280N003_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 27347 | ABELL2744 | ACIS-I | grating NONE | TE | 22.0 ks | events 61611 | proposal 23700107 | released 2024-05-13 | 3.5885 -30.4012 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao23/cat7/27347/primary/acisf27347N002_evt2.fits.gz
+    image acisf27347N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf27347N002_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 27449 | ABELL2744 | ACIS-I | grating NONE | TE | 9.8 ks | events 26367 | proposal 23700107 | released 2024-05-13 | 3.5885 -30.4012 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao23/cat7/27449/primary/acisf27449N002_evt2.fits.gz
+    image acisf27449N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf27449N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 27450 | ABELL2744 | ACIS-I | grating NONE | TE | 9.8 ks | events 26695 | proposal 23700107 | released 2024-05-13 | 3.5885 -30.4012 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao23/cat7/27450/primary/acisf27450N002_evt2.fits.gz
+    image acisf27450N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf27450N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 27556 | ABELL2744 | ACIS-I | grating NONE | TE | 25.2 ks | events 69546 | proposal 23700107 | released 2024-05-13 | 3.5885 -30.4012 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao23/cat7/27556/primary/acisf27556N002_evt2.fits.gz
+    image acisf27556N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf27556N002_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 27563 | ABELL2744 | ACIS-I | grating NONE | TE | 11.7 ks | events 28155 | proposal 23700107 | released 2024-05-13 | 3.5885 -30.4012 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao23/cat7/27563/primary/acisf27563N002_evt2.fits.gz
+    image acisf27563N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf27563N002_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 27575 | ABELL2744 | ACIS-I | grating NONE | TE | 19.7 ks | events 52209 | proposal 23700107 | released 2024-05-13 | 3.5885 -30.4012 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao23/cat7/27575/primary/acisf27575N002_evt2.fits.gz
+    image acisf27575N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf27575N002_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 27678 | ABELL2744 | ACIS-I | grating NONE | TE | 12.4 ks | events 30958 | proposal 23700107 | released 2024-05-13 | 3.5885 -30.4012 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao23/cat7/27678/primary/acisf27678N002_evt2.fits.gz
+    image acisf27678N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf27678N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 27679 | ABELL2744 | ACIS-I | grating NONE | TE | 11.9 ks | events 36496 | proposal 23700107 | released 2024-05-13 | 3.5885 -30.4012 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao23/cat7/27679/primary/acisf27679N002_evt2.fits.gz
+    image acisf27679N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf27679N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 27680 | ABELL2744 | ACIS-I | grating NONE | TE | 13.2 ks | events 33454 | proposal 23700107 | released 2024-05-13 | 3.5885 -30.4012 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao23/cat7/27680/primary/acisf27680N002_evt2.fits.gz
+    image acisf27680N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf27680N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 27681 | ABELL2744 | ACIS-I | grating NONE | TE | 9.8 ks | events 24631 | proposal 23700107 | released 2024-05-13 | 3.5885 -30.4012 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao23/cat7/27681/primary/acisf27681N002_evt2.fits.gz
+    image acisf27681N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf27681N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 27739 | ABELL2744 | ACIS-I | grating NONE | TE | 21.3 ks | events 46065 | proposal 23700107 | released 2024-05-13 | 3.5885 -30.4012 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao23/cat7/27739/primary/acisf27739N002_evt2.fits.gz
+    image acisf27739N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf27739N002_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 27780 | ABELL2744 | ACIS-I | grating NONE | TE | 14.9 ks | events 31851 | proposal 23700107 | released 2024-05-13 | 3.5885 -30.4012 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao23/cat7/27780/primary/acisf27780N002_evt2.fits.gz
+    image acisf27780N002_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf27780N002_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 27856 | ABELL2744 | ACIS-I | grating NONE | TE | 15.9 ks | events 38000 | proposal 23700107 | released 2024-05-13 | 3.5885 -30.4012 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao23/cat7/27856/primary/acisf27856N002_evt2.fits.gz
+    image acisf27856N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf27856N002_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 27857 | ABELL2744 | ACIS-I | grating NONE | TE | 12.9 ks | events 32456 | proposal 23700107 | released 2024-05-13 | 3.5885 -30.4012 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao23/cat7/27857/primary/acisf27857N002_evt2.fits.gz
+    image acisf27857N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf27857N002_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 27896 | ABELL2744 | ACIS-I | grating NONE | TE | 13.7 ks | events 32300 | proposal 23700107 | released 2024-05-13 | 3.5885 -30.4012 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao23/cat7/27896/primary/acisf27896N002_evt2.fits.gz
+    image acisf27896N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf27896N002_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 27974 | ABELL2744 | ACIS-I | grating NONE | TE | 28.7 ks | events 63090 | proposal 23700107 | released 2024-05-13 | 3.5885 -30.4012 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao23/cat7/27974/primary/acisf27974N002_evt2.fits.gz
+    image acisf27974N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf27974N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 28370 | ABELL2744 | ACIS-I | grating NONE | TE | 20.7 ks | events 45594 | proposal 23700107 | released 2024-05-13 | 3.5885 -30.4012 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao23/cat7/28370/primary/acisf28370N002_evt2.fits.gz
+    image acisf28370N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf28370N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 28483 | ABELL2744 | ACIS-I | grating NONE | TE | 20.2 ks | events 44307 | proposal 23700107 | released 2024-05-13 | 3.5885 -30.4012 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao23/cat7/28483/primary/acisf28483N002_evt2.fits.gz
+    image acisf28483N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf28483N002_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 28872 | ABELL2744 | ACIS-I | grating NONE | TE | 13.1 ks | events 34418 | proposal 23700107 | released 2024-05-13 | 3.5885 -30.4012 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao23/cat7/28872/primary/acisf28872N002_evt2.fits.gz
+    image acisf28872N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf28872N002_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 28886 | ABELL2744 | ACIS-I | grating NONE | TE | 10.0 ks | events 22381 | proposal 23700107 | released 2024-05-13 | 3.5885 -30.4012 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao23/cat7/28886/primary/acisf28886N002_evt2.fits.gz
+    image acisf28886N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf28886N002_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 28887 | ABELL2744 | ACIS-I | grating NONE | TE | 19.8 ks | events 44061 | proposal 23700107 | released 2024-05-13 | 3.5885 -30.4012 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao23/cat7/28887/primary/acisf28887N002_evt2.fits.gz
+    image acisf28887N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf28887N002_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 28910 | ABELL2744 | ACIS-I | grating NONE | TE | 25.8 ks | events 55191 | proposal 23700107 | released 2024-05-13 | 3.5885 -30.4012 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao23/cat7/28910/primary/acisf28910N002_evt2.fits.gz
+    image acisf28910N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf28910N002_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 28920 | ABELL2744 | ACIS-I | grating NONE | TE | 15.3 ks | events 33696 | proposal 23700107 | released 2024-05-13 | 3.5885 -30.4012 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao23/cat7/28920/primary/acisf28920N002_evt2.fits.gz
+    image acisf28920N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf28920N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 28934 | ABELL2744 | ACIS-I | grating NONE | TE | 19.8 ks | events 42135 | proposal 23700107 | released 2024-05-13 | 3.5885 -30.4012 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao23/cat7/28934/primary/acisf28934N002_evt2.fits.gz
+    image acisf28934N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf28934N002_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 28951 | ABELL2744 | ACIS-I | grating NONE | TE | 12.9 ks | events 27128 | proposal 23700107 | released 2024-05-13 | 3.5885 -30.4012 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao23/cat7/28951/primary/acisf28951N002_evt2.fits.gz
+    image acisf28951N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf28951N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 28952 | ABELL2744 | ACIS-I | grating NONE | TE | 13.8 ks | events 29577 | proposal 23700107 | released 2024-05-13 | 3.5885 -30.4012 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao23/cat7/28952/primary/acisf28952N002_evt2.fits.gz
+    image acisf28952N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf28952N002_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 29207 | ABELL2744 | ACIS-I | grating NONE | TE | 19.6 ks | events 39967 | proposal 23700107 | released  | 3.5885 -30.4012 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao23/cat7/29207/primary/acisf29207N002_evt2.fits.gz
+    image acisf29207N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf29207N002_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 29427 | ABELL2744 | ACIS-I | grating NONE | TE | 18.7 ks | events 35511 | proposal 23700107 | released  | 3.5885 -30.4012 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao23/cat7/29427/primary/acisf29427N002_evt2.fits.gz
+    image acisf29427N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf29427N002_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+imaging exposure without a grating: 2200.4 ks in total
+== Hubble and Webb (MAST)
+11225 rows from MAST, 1340 public single-filter level-3 image mosaics
+HST|13386 | ANY | WFC3/IR | 6 filters | total 0.1 GB | detection 0.02 GB 6518 s, F127M 0.01 GB 3812 s, F105W 0.01 GB 1459 s, F139M 0.01 GB 3209 s, F153M 0.01 GB 3309 s, F160W 0.01 GB 906 s
+HST|13495 | ABELL-2744 | WFC3/IR | 5 filters | total 0.1 GB | detection 0.02 GB 5708 s, F105W 0.02 GB 5708 s, F125W 0.02 GB 5708 s, F140W 0.02 GB 5708 s, F160W 0.02 GB 5708 s
+HST|13495 | ABELL-2744-HFFPAR | WFC3/IR | 5 filters | total 0.1 GB | detection 0.02 GB 11123 s, F105W 0.01 GB 5612 s, F125W 0.02 GB 5508 s, F140W 0.02 GB 5508 s, F160W 0.01 GB 5512 s
+HST|11689 | ABELL-2744-NORTH | ACS/WFC | 4 filters | total 1.7 GB | detection 0.43 GB 5356 s, F435W 0.43 GB 5356 s, F606W 0.43 GB 5356 s, F814W 0.43 GB 5356 s
+HST|11689 | ABELL-2744-SOUTH | ACS/WFC | 4 filters | total 1.6 GB | detection 0.40 GB 5356 s, F435W 0.40 GB 5356 s, F606W 0.40 GB 5356 s, F814W 0.40 GB 5356 s
+HST|13386 | A2744IR | WFC3/IR | 4 filters | total 0.1 GB | detection 0.02 GB 2412 s, F105W 0.01 GB 1159 s, F125W 0.01 GB 1206 s, F160W 0.01 GB 1206 s
+HST|13495 | ABELL-2744 | ACS/WFC | 4 filters | total 1.5 GB | detection 0.43 GB 10127 s, F435W 0.22 GB 6369 s, F606W 0.43 GB 5046 s, F814W 0.43 GB 5046 s
+HST|15117 | ABELL-2744 | WFC3/IR | 4 filters | total 0.1 GB | detection 0.02 GB 2318 s, F105W 0.01 GB 706 s, F125W 0.01 GB 806 s, F160W 0.01 GB 806 s
+HST|13495 | ABELL-2744-HFFPAR | ACS/WFC | 4 filters | total 1.1 GB | detection 0.43 GB 5246 s, F435W 0.22 GB 5246 s, F606W 0.22 GB 5246 s, F814W 0.22 GB 5246 s
+HST|15117 | ABELL-2744-HFFPAR | WFC3/IR | 4 filters | total 0.1 GB | detection 0.02 GB 2318 s, F105W 0.01 GB 706 s, F125W 0.01 GB 806 s, F160W 0.01 GB 806 s
+HST|13386 | ABELL-2744 | WFC3/IR | 3 filters | total 0.0 GB | detection 0.01 GB 2562 s, F105W 0.01 GB 1256 s, F160W 0.01 GB 1306 s
+HST|13389 | ABELL2744 | WFC3/UVIS | 3 filters | total 0.8 GB | detection 0.28 GB 11360 s, F275W 0.28 GB 11360 s, F336W 0.28 GB 11360 s
+HST|13459 | A2744 | WFC3/IR | 3 filters | total 0.0 GB | detection 0.02 GB 1423 s, F105W 0.01 GB 712 s, F140W 0.01 GB 712 s
+HST|13459 | A2744-ROT | WFC3/IR | 3 filters | total 0.0 GB | detection 0.01 GB 1423 s, F105W 0.01 GB 712 s, F140W 0.01 GB 712 s
+HST|15117 | ANY | ACS/WFC | 3 filters | total 1.3 GB | detection 0.44 GB 1838 s, F606W 0.44 GB 660 s, F814W 0.44 GB 1179 s
+HST|15936 | ABELL-2744 | WFC3/UVIS | 3 filters | total 1.3 GB | detection 0.45 GB 4740 s, F200LP 0.45 GB 4740 s, F350LP 0.45 GB 4740 s
+HST|16278 | ABELL-2744 | WFC3/UVIS | 3 filters | total 1.3 GB | detection 0.45 GB 4636 s, F200LP 0.44 GB 4636 s, F350LP 0.45 GB 4636 s
+HST|None | ANY | ACS/WFC | 3 filters | total 5.0 GB | F475W 1.72 GB 20588 s, F606W 1.65 GB 44224 s, F814W 1.65 GB 136901 s
+HST|None | ABELL-2744 | WFC3/UVIS | 3 filters | total 4.9 GB | F606W 1.65 GB 5320 s, F200LP 1.65 GB 18544 s, F350LP 1.65 GB 18544 s
+HST|16757 | ACO-2744-BRIDGE2 | WFC3/IR | 3 filters | total 0.0 GB | detection 0.02 GB 4823 s, F105W 0.01 GB 2412 s, F160W 0.01 GB 2412 s
+HST|16757 | ACO-2744-BRIDGE1 | WFC3/IR | 3 filters | total 0.0 GB | detection 0.02 GB 4823 s, F105W 0.01 GB 2412 s, F160W 0.01 GB 2412 s
+HST|13386 | ABELL-2744-HFFPAR | ACS/WFC | 3 filters | total 0.9 GB | detection 0.43 GB 1918 s, F606W 0.21 GB 770 s, F814W 0.21 GB 1148 s
+HST|13389 | ANY | ACS/WFC | 3 filters | total 1.1 GB | detection 0.42 GB 10240 s, F435W 0.42 GB 10240 s, F606W 0.21 GB 5000 s
+HST|13386 | ANY | ACS/WFC | 3 filters | total 0.9 GB | detection 0.43 GB 2090 s, F606W 0.22 GB 2090 s, F814W 0.22 GB 1970 s
+HST|16278 | ANY | ACS/WFC | 3 filters | total 0.7 GB | detection 0.26 GB 4398 s, F606W 0.22 GB 4398 s, F814W 0.22 GB 4398 s
+HST|15936 | ANY | ACS/WFC | 3 filters | total 0.7 GB | detection 0.25 GB 4370 s, F606W 0.22 GB 4370 s, F814W 0.22 GB 4370 s
+HST|None | ABELL-2744-HFFPAR | WFC3/IR | 3 filters | total 3.2 GB | F105W 1.06 GB 4282 s, F125W 1.06 GB 3223 s, F160W 1.06 GB 4129 s
+HST|17231 | ABELL-2744-NIRCAM-PARALLEL | ACS/WFC | 3 filters | total 0.9 GB | detection 0.29 GB 7058 s, F606W 0.29 GB 7058 s, F775W 0.29 GB 4710 s
+HST|None | ANY | WFC3/IR | 3 filters | total 7.4 GB | F127M 2.47 GB 3812 s, F139M 2.47 GB 3209 s, F153M 2.47 GB 3309 s
+HST|16757 | ANY | ACS/WFC | 3 filters | total 0.9 GB | detection 0.44 GB 3950 s, F606W 0.22 GB 2000 s, F814W 0.22 GB 1950 s
+HST|11103 | MACSJ0014.3-3022 | WFPC2/PC | 2 filters | total 0.3 GB | detection 0.14 GB 1200 s, F606W 0.14 GB 1200 s
+HST|13386 | A2744-GRISM | ACS/WFC | 2 filters | total 0.8 GB | detection 0.40 GB 637 s, F814W 0.40 GB 637 s
+HST|15940 | ACO-2744 | WFC3/UVIS | 2 filters | total 0.6 GB | detection 0.28 GB 11337 s, F225W 0.28 GB 11337 s
+HST|16729 | ABELL-2744 | WFC3/IR | 2 filters | total 0.0 GB | detection 0.02 GB 609 s, F105W 0.01 GB 609 s
+HST|16729 | ABELL-2744 | WFC3/UVIS | 2 filters | total 0.6 GB | detection 0.31 GB 1110 s, F606W 0.31 GB 1110 s
+HST|17730 | ABELL2744-PRI-NIRCAM-1 | WFC3/UVIS | 2 filters | total 0.9 GB | detection 0.43 GB 7470 s, F336W 0.43 GB 7470 s
+HST|17730 | ABELL2744-PRI-NIRCAM-3 | WFC3/UVIS | 2 filters | total 0.9 GB | detection 0.43 GB 7470 s, F336W 0.43 GB 7470 s
+HST|5701 | AC118 | WFPC2/PC | 2 filters | total 0.3 GB | detection 0.17 GB 6500 s, F702W 0.17 GB 6500 s
+HST|None | A2744 | WFC3/IR | 2 filters | total 4.9 GB | F105W 2.47 GB 86451 s, F140W 2.47 GB 58527 s
+HST|None | ABELL-2744 | WFC3/IR | 2 filters | total 4.9 GB | F125W 2.47 GB 81165 s, F160W 2.47 GB 87321 s
+HST|17730 | ABELL2744-PRI-NIRCAM-2 | WFC3/UVIS | 2 filters | total 0.9 GB | detection 0.43 GB 7470 s, F336W 0.43 GB 7470 s
+HST|17730 | ABELL2744-PRI-NIRCAM-4 | WFC3/UVIS | 2 filters | total 0.9 GB | detection 0.43 GB 7470 s, F336W 0.43 GB 7470 s
+HST|13459 | ANY | ACS/WFC | 2 filters | total 0.6 GB | detection 0.43 GB 1840 s, F814W 0.22 GB 1840 s
+HST|15940 | ANY | ACS/WFC | 2 filters | total 0.6 GB | detection 0.42 GB 10294 s, F475W 0.21 GB 10294 s
+HST|None | ABELL-2744 | ACS/WFC | 1 filters | total 1.6 GB | F435W 1.65 GB 61909 s
+HST|None | ACO-2744 | WFC3/UVIS | 1 filters | total 1.6 GB | F225W 1.65 GB 22674 s
+HST|None | ABELL2744 | WFC3/UVIS | 1 filters | total 1.6 GB | F275W 1.65 GB 22720 s
+HST|None | ABELL2744-PRI-NIRCAM-3 | WFC3/UVIS | 1 filters | total 1.6 GB | F336W 1.65 GB 7470 s
+HST|None | ABELL-2744-HFFPAR | ACS/WFC | 1 filters | total 1.7 GB | F435W 1.72 GB 133563 s
+HST|None | ABELL2744-PRI-NIRCAM-4 | WFC3/UVIS | 1 filters | total 2.5 GB | F336W 2.47 GB 29880 s
+HST|None | A2744-GRISM | ACS/WFC | 1 filters | total 0.1 GB | F814W 0.09 GB 12421 s
+HST|None | ABELL-2744-NORTH | ACS/WFC | 1 filters | total 0.1 GB | F435W 0.09 GB 8081 s
+HST|None | ABELL2744-PRI-NIRCAM-2 | WFC3/UVIS | 1 filters | total 0.1 GB | F336W 0.09 GB 7470 s
+HST|None | ABELL-2744-NIRCAM-PARALLEL | ACS/WFC | 1 filters | total 0.8 GB | F775W 0.80 GB 23550 s
+JWST|4111 | ABELL2744 | NIRCAM/IMAGE | 12 filters | total 34.4 GB | F070W 5.20 GB 12369 s, F090W 7.80 GB 24738 s, F140M 5.20 GB 12369 s, F182M 5.20 GB 12369 s, F210M 5.20 GB 12369 s, F250M 0.83 GB 12369 s, F300M 0.83 GB 12369 s, F335M 0.83 GB 12369 s, F360M 0.83 GB 12369 s, F430M 0.83 GB 12369 s, F460M 0.83 GB 12369 s, F480M 0.83 GB 12369 s
+JWST|4111 | ABELL2744-PREIMG-REPEAT2 | NIRCAM/IMAGE | 12 filters | total 11.1 GB | F070W 1.65 GB 4123 s, F090W 2.07 GB 8246 s, F140M 1.65 GB 4123 s, F182M 1.65 GB 4123 s, F210M 1.65 GB 4123 s, F250M 0.34 GB 4123 s, F300M 0.34 GB 4123 s, F335M 0.34 GB 4123 s, F360M 0.34 GB 4123 s, F430M 0.34 GB 4123 s, F460M 0.34 GB 4123 s, F480M 0.34 GB 4123 s
+JWST|6123 | UHZ1 | MIRI/IMAGE | 9 filters | total 0.3 GB | F560W 0.04 GB 6649 s, F770W 0.04 GB 3519 s, F1000W 0.04 GB 1987 s, F1130W 0.04 GB 4163 s, F1280W 0.04 GB 2231 s, F1500W 0.04 GB 1010 s, F1800W 0.04 GB 1232 s, F2100W 0.04 GB 2398 s, F2550W 0.04 GB 5483 s
+JWST|2561 | uncover_nircam | NIRCAM/IMAGE | 9 filters | total 28.8 GB | F090W 1.57 GB 10050 s, F115W 8.16 GB 24351 s, F150W 7.62 GB 21259 s, F200W 7.62 GB 21259 s, F277W 1.19 GB 24351 s, F356W 1.06 GB 21259 s, F410M 0.29 GB 5025 s, F444W 1.06 GB 21259 s, F480M 0.29 GB 5025 s
+JWST|1176 | ACO-2744 | NIRCAM/IMAGE | 8 filters | total 6.4 GB | F090W 1.29 GB 3350 s, F115W 1.29 GB 3350 s, F150W 1.29 GB 2491 s, F200W 1.29 GB 2491 s, F277W 0.31 GB 2491 s, F356W 0.31 GB 2491 s, F410M 0.31 GB 3350 s, F444W 0.31 GB 3350 s
+JWST|2561 | ABELL2744-PREIMG | NIRCAM/IMAGE | 7 filters | total 24.0 GB | F115W 7.73 GB 32468 s, F150W 7.73 GB 32468 s, F200W 5.16 GB 20099 s, F277W 0.83 GB 20099 s, F356W 0.83 GB 20099 s, F410M 0.83 GB 20099 s, F444W 0.93 GB 24738 s
+JWST|2561 | ABELL2744-PREIMG-REPEAT1-19N47D | NIRCAM/IMAGE | 7 filters | total 7.2 GB | F115W 2.07 GB 10823 s, F150W 2.07 GB 10823 s, F200W 1.65 GB 6700 s, F277W 0.34 GB 6700 s, F356W 0.34 GB 6700 s, F410M 0.34 GB 6700 s, F444W 0.34 GB 8246 s
+JWST|1324 | ABELL2744 | NIRCAM/IMAGE | 7 filters | total 7.6 GB | F090W 1.75 GB 11767 s, F115W 1.81 GB 11767 s, F150W 1.73 GB 6195 s, F200W 1.39 GB 5572 s, F277W 0.29 GB 5572 s, F356W 0.32 GB 6195 s, F444W 0.35 GB 23535 s
+JWST|1324 | MPTCAT092722 | NIRCAM/IMAGE | 7 filters | total 6.8 GB | F090W 1.57 GB 16492 s, F115W 1.57 GB 16492 s, F150W 1.39 GB 8246 s, F200W 1.40 GB 8246 s, F277W 0.29 GB 8246 s, F356W 0.29 GB 8246 s, F444W 0.33 GB 32983 s
+JWST|2756 | ABELL2744 | NIRCAM/IMAGE | 6 filters | total 4.8 GB | F115W 1.29 GB 2104 s, F150W 1.29 GB 2104 s, F200W 1.29 GB 2104 s, F277W 0.31 GB 2104 s, F356W 0.31 GB 2104 s, F444W 0.31 GB 2104 s
+JWST|3538 | A2744 | NIRCAM/IMAGE | 6 filters | total 6.2 GB | F182M 2.35 GB 5068 s, F210M 2.12 GB 5068 s, F300M 0.43 GB 1546 s, F335M 0.47 GB 1546 s, F410M 0.38 GB 1546 s, F460M 0.49 GB 1546 s
+JWST|6434 | UNKNOWN | NIRCAM/IMAGE | 6 filters | total 7.8 GB | F070W 1.78 GB 28345 s, F090W 1.78 GB 28345 s, F150W 1.78 GB 18897 s, F200W 1.78 GB 18897 s, F356W 0.33 GB 18897 s, F444W 0.33 GB 18897 s
+JWST|2561 | uncover_nirspec_repeat | NIRCAM/IMAGE | 6 filters | total 9.3 GB | F115W 2.62 GB 10050 s, F150W 2.62 GB 10050 s, F200W 2.63 GB 10050 s, F277W 0.49 GB 10050 s, F356W 0.49 GB 10050 s, F444W 0.49 GB 10050 s
+JWST|2883 | ABELL2744 | NIRCAM/IMAGE | 4 filters | total 7.1 GB | F182M 2.82 GB 9277 s, F210M 3.27 GB 9277 s, F360M 0.47 GB 3092 s, F480M 0.55 GB 3092 s
+JWST|3516 | ABELL2744 | NIRCAM/IMAGE | 3 filters | total 19.3 GB | F070W 8.41 GB 24738 s, F090W 10.08 GB 31051 s, F356W 0.78 GB 6313 s
+JWST|4530 | Gz9p3 | MIRI/IMAGE | 3 filters | total 0.1 GB | F560W 0.03 GB 3918 s, F770W 0.03 GB 7836 s, F1000W 0.03 GB 7836 s
+JWST|6743 | UNCOVER_45924 | MIRI/IMAGE | 3 filters | total 0.1 GB | F1280W 0.03 GB 83 s, F1800W 0.03 GB 83 s, F2100W 0.03 GB 333 s
+JWST|4111 | ABELL2744 | NIRISS/IMAGE | 3 filters | total 1.1 GB | F277W 0.36 GB 11338 s, F430M 0.36 GB 11338 s, F480M 0.36 GB 11338 s
+JWST|4111 | ABELL2744-PREIMG-REPEAT2 | NIRISS/IMAGE | 3 filters | total 0.5 GB | F277W 0.15 GB 3779 s, F430M 0.15 GB 3779 s, F480M 0.15 GB 3779 s
+JWST|3538 | A2744-Tile-2 | NIRCAM/IMAGE | 2 filters | total 1.9 GB | F182M 1.56 GB 2534 s, F300M 0.31 GB 773 s
+JWST|3073 | A2744_NIRSpec_v4_MSA2_obs8 | NIRCAM/IMAGE | 2 filters | total 1.5 GB | F200W 1.22 GB 6056 s, F444W 0.29 GB 6056 s
+JWST|3073 | A2744_NIRSpec_v4_MSA2_obs5 | NIRCAM/IMAGE | 2 filters | total 1.5 GB | F115W 1.22 GB 6056 s, F277W 0.29 GB 6056 s
+JWST|3073 | A2744_NIRSpec_v4_MSA2_obs9 | NIRCAM/IMAGE | 2 filters | total 1.5 GB | F150W 1.22 GB 6056 s, F356W 0.29 GB 6056 s
+JWST|6743 | UNCOVER_4286_13821 | MIRI/IMAGE | 2 filters | total 0.1 GB | F1500W 0.03 GB 2498 s, F1800W 0.03 GB 3469 s
+JWST|6761 | 45924 | MIRI/IMAGE | 2 filters | total 0.1 GB | F1000W 0.04 GB 666 s, F2100W 0.04 GB 1665 s
+JWST|6743 | UNCOVER_38108 | MIRI/IMAGE | 2 filters | total 0.1 GB | F1280W 0.03 GB 1665 s, F1800W 0.03 GB 3469 s
+JWST|2561 | ABELL2744-PREIMG | NIRISS/IMAGE | 2 filters | total 0.7 GB | F356W 0.36 GB 11338 s, F444W 0.36 GB 11338 s
+JWST|2883 | ABELL2744 | NIRISS/IMAGE | 2 filters | total 0.4 GB | F430M 0.20 GB 8589 s, F480M 0.23 GB 8589 s
+JWST|2561 | ABELL2744-PREIMG-REPEAT1-19N47D | NIRISS/IMAGE | 2 filters | total 0.3 GB | F356W 0.15 GB 3779 s, F444W 0.15 GB 3779 s
+JWST|3073 | A2744_NIRSpec_v21_obs12 | NIRCAM/IMAGE | 2 filters | total 1.5 GB | F200W 1.22 GB 6056 s, F444W 0.29 GB 6056 s
+JWST|3073 | A2744_NIRSpec_v21_obs10 | NIRCAM/IMAGE | 2 filters | total 1.5 GB | F115W 1.22 GB 6056 s, F277W 0.29 GB 6056 s
+JWST|3073 | A2744_NIRSpec_v21_obs11 | NIRCAM/IMAGE | 2 filters | total 1.5 GB | F150W 1.22 GB 6056 s, F356W 0.29 GB 6056 s
+JWST|3516 | ABELL2744 | NIRISS/IMAGE | 1 filters | total 0.5 GB | F277W 0.51 GB 26799 s
