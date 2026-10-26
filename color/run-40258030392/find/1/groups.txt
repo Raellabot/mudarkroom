@@ -1,0 +1,1 @@
+HST|NGC3324|9857|ACS/WFC|3  rows=7  filters=['F550M', 'F658N', 'F660N', 'detection']
