@@ -2,7 +2,7 @@
 import io, os, re, sys, urllib.parse, urllib.request
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from astropy.io.votable import parse_single_table
-from chandra_events import UA, get_text
+from chandra_events import UA, get_text, size_of
 
 TAPS = ["https://almascience.eso.org/tap", "https://almascience.nrao.edu/tap"]
 LP = "https://almascience.eso.org/almadata/lp/"
@@ -11,7 +11,7 @@ DISKS = ["HL Tau", "TW Hya", "HD 163296", "IM Lup", "AS 209", "GG Tau", "HD 1425
 
 # One ADQL query in VOTable form, tried on each server in turn; returns a list of dicts.
 def tap(adql):
-    last = None
+    errors = []
     for base in TAPS:
         url = f"{base}/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=votable&QUERY={urllib.parse.quote(adql)}"
         try:
@@ -20,8 +20,8 @@ def tap(adql):
             t = parse_single_table(io.BytesIO(body)).to_table()
             return [{c: ("" if str(row[c]) == "--" else str(row[c])) for c in t.colnames} for row in t]
         except Exception as e:  # noqa: BLE001
-            last = f"{base}: {str(e)[:200]}"
-    raise RuntimeError(last)
+            errors.append(f"{base}: {str(e)[:200]}")
+    raise RuntimeError(" | ".join(errors))
 
 
 def section(lines, title, fn):
@@ -57,6 +57,17 @@ def large_programs(lines):
                 lines.append(f"    {d}{s}: cannot list ({str(e)[:100]})")
 
 
+# Every FITS file of the DSHARP folder with its size.
+def dsharp(lines):
+    files = [f for f in re.findall(r'href="([^"?]*\.fits[^"?]*)"', get_text(LP + "DSHARP/")) if not f.startswith(("http", "/"))]
+    total = 0
+    for f in sorted(set(files)):
+        n = size_of(LP + "DSHARP/" + f)
+        total += max(n, 0)
+        lines.append(f"{f} | {n / 1e6:.0f} MB")
+    lines.append(f"{len(set(files))} files, {total / 1e9:.2f} GB in total")
+
+
 def columns(lines):
     rows = tap("SELECT column_name, datatype FROM TAP_SCHEMA.columns WHERE table_name = 'ivoa.obscore'")
     lines.append(f"ivoa.obscore has {len(rows)} columns: " + ", ".join(r["column_name"] for r in rows))
@@ -64,7 +75,7 @@ def columns(lines):
 
 # Public observations in the disk science category, one line per program and target.
 def disk_programs(lines):
-    rows = tap("SELECT TOP 20000 proposal_id, target_name, band_list, MIN(release_date) AS first_release, COUNT(*) AS n, MAX(access_estsize) AS max_kb "
+    rows = tap("SELECT TOP 20000 proposal_id, target_name, band_list, MIN(obs_release_date) AS first_release, COUNT(*) AS n, MAX(access_estsize) AS max_kb "
                "FROM ivoa.obscore WHERE scientific_category LIKE '%isk%' AND data_rights = 'Public' "
                "GROUP BY proposal_id, target_name, band_list")
     lines.append(f"{len(rows)} program/target/band groups in the disk category with public data")
@@ -79,9 +90,9 @@ def disk_programs(lines):
 # The famous disks by name: what each has in the archive.
 def named(lines):
     for name in DISKS:
-        key = name.replace("'", "''")
+        key = re.sub(r"[ _\-']", "%", name.upper())   # the archive spells names with spaces, underscores or nothing
         rows = tap("SELECT proposal_id, band_list, dataproduct_type, calib_level, data_rights, COUNT(*) AS n, MIN(s_resolution) AS best_res_arcsec, MAX(access_estsize) AS max_kb "
-                   f"FROM ivoa.obscore WHERE target_name LIKE '%{key}%' GROUP BY proposal_id, band_list, dataproduct_type, calib_level, data_rights")
+                   f"FROM ivoa.obscore WHERE UPPER(target_name) LIKE '%{key}%' GROUP BY proposal_id, band_list, dataproduct_type, calib_level, data_rights")
         lines.append(f"{name}: {len(rows)} groups")
         for r in rows[:12]:
             lines.append(f"    {r['proposal_id']} | band {r['band_list']} | {r['dataproduct_type']} | level {r['calib_level']} | {r['data_rights']} | {r['n']} products | best resolution {r['best_res_arcsec']} arcsec | largest {float(r['max_kb'] or 0) / 1e6:.2f} GB")
@@ -91,7 +102,7 @@ def main():
     out = sys.argv[1]
     os.makedirs(out, exist_ok=True)
     lines = ["ALMA probe"]
-    for title, fn in (("Large programs hosted by the archive", large_programs), ("TAP columns", columns), ("Disk programs with public data", disk_programs), ("Famous disks by name", named)):
+    for title, fn in (("DSHARP files", dsharp), ("Large programs hosted by the archive", large_programs), ("TAP columns", columns), ("Disk programs with public data", disk_programs), ("Famous disks by name", named)):
         section(lines, title, fn)
         open(os.path.join(out, "report.txt"), "w").write("\n".join(lines) + "\n")
         print("\n".join(lines[-3:]))
