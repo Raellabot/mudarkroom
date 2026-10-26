@@ -77,6 +77,8 @@ def fetch(program, name):
             for m in t.getmembers():
                 if m.isfile() and m.name.lower().endswith(".fits"):
                     log(f"{name}: {m.name} ({m.size / 1e6:.0f} MB)")
+                    if name.endswith("band 4") and "apcal" not in m.name:   # the band 4 bundle also holds the unfinished self-calibration steps
+                        continue
                     if re.search(r"(alpha|psf|residual|mask|model|\.pb\.|\.flux)", m.name, re.I) or not re.search(r"(pbcor\.fits|image\.tt0\.fits|image\.fits)$", m.name, re.I):
                         continue
                     dest = os.path.join(WORK, f"{tag}__{os.path.basename(m.name)}")
@@ -117,6 +119,9 @@ def noise_of(a):
     h, w = a.shape
     m = np.ones(a.shape, bool)
     m[int(h * 0.15):int(h * 0.85), int(w * 0.15):int(w * 0.85)] = False
+    m &= a != 0   # blank (zero) pixels outside the primary beam carry no noise
+    if m.sum() < 1000:
+        m = a != 0
     return 1.4826 * float(np.median(np.abs(a[m] - np.median(a[m]))))
 
 
