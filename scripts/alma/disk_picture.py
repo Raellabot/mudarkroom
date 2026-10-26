@@ -3,7 +3,7 @@ import io, json, os, re, sys, time, urllib.request
 import numpy as np
 from astropy.io import fits
 from PIL import Image, ImageDraw, ImageFont
-from scipy.ndimage import gaussian_filter
+from scipy.ndimage import gaussian_filter, label
 
 ROOT = "https://almascience.eso.org/almadata/lp/DSHARP/"
 UA = os.environ.get("CONTACT_INFO") or "CONTACT-INFO"
@@ -12,6 +12,14 @@ WORK = os.environ.get("WORK_DIR", "work")
 BLACK_SIGMA = float(os.environ.get("BLACK_SIGMA", "1.0"))   # noise levels taken as black
 SOFT_SIGMA = float(os.environ.get("SOFT_SIGMA", "5.0"))   # noise levels where the stretch bends
 WHITEN = float(os.environ.get("WHITEN", "0.35"))   # how far the brightest pixels go toward white
+
+
+# The DSHARP file names with the usual spacing for titles.
+PRETTY = {"AS205": "AS 205", "AS209": "AS 209", "DoAr25": "DoAr 25", "DoAr33": "DoAr 33", "Elias20": "Elias 20", "Elias24": "Elias 24", "Elias27": "Elias 2-27", "GWLup": "GW Lup",
+          "HD142666": "HD 142666", "HD143006": "HD 143006", "HD163296": "HD 163296", "HTLup": "HT Lup", "IMLup": "IM Lup", "MYLup": "MY Lup", "RULup": "RU Lup", "SR4": "SR 4",
+          "Sz114": "Sz 114", "Sz129": "Sz 129", "WSB52": "WSB 52", "WaOph6": "Wa Oph 6"}
+# Systems with companions far from the main disk: the crop follows the main disk only.
+MAIN_ONLY = {"HTLup"}
 
 
 def log(msg):
@@ -65,10 +73,16 @@ def noise_of(a):
 
 
 # A square box around everything clearly above the noise, with a margin.
-def crop_box(a, sigma, pix, beam_px):
+def crop_box(a, sigma, pix, beam_px, main_only=False):
     s = gaussian_filter(a, max(1.0, beam_px / 2.0))
     ss = noise_of(s)
-    ys, xs = np.where(s > 5.0 * ss)
+    mask = s > 5.0 * ss
+    if main_only and mask.any():   # join the rings of the main disk, then keep only the piece that holds the brightest pixel
+        grown = gaussian_filter(mask.astype(np.float32), 25.0) > 0.05
+        lab, _ = label(grown)
+        py, px = np.unravel_index(np.argmax(s), s.shape)
+        mask = mask & (lab == lab[py, px])
+    ys, xs = np.where(mask)
     if ys.size < 50:
         return 0, a.shape[0], 0, a.shape[1]
     ylo, yhi = np.percentile(ys, [0.5, 99.5])   # percentiles, so a few noise pixels cannot stretch the box
@@ -172,14 +186,14 @@ def main():
             a, info = load(name)
             sigma = noise_of(a)
             beam_px = info["bmaj_arcsec"] / info["pixel_arcsec"]
-            y0, y1, x0, x1 = crop_box(a, sigma, info["pixel_arcsec"], beam_px)
+            y0, y1, x0, x1 = crop_box(a, sigma, info["pixel_arcsec"], beam_px, name in MAIN_ONLY)
             crop = a[y0:y1, x0:x1]
             small = crop
             if min(crop.shape) > 1000:   # keep the saved copy small enough for the results branch
                 n2 = (crop.shape[0] // 2) * 2, (crop.shape[1] // 2) * 2
                 small = crop[:n2[0], :n2[1]].reshape(n2[0] // 2, 2, n2[1] // 2, 2).mean(axis=(1, 3))
             np.savez_compressed(os.path.join(out, "samples", f"{name}.npz"), data=small.astype(np.float32), binned=int(small is not crop) + 1, sigma=sigma, info=json.dumps(info))
-            make_picture(crop, info, info["object"] if info["object"] else name, sigma).save(os.path.join(out, f"{name}-pink.jpg"), quality=92)
+            make_picture(crop, info, PRETTY.get(name, name), sigma).save(os.path.join(out, f"{name}-pink.jpg"), quality=92)
             recipes.append({"name": name, "sigma_jy_beam": sigma, "peak_over_sigma": float(crop.max() / sigma), "crop_px": [x1 - x0, y1 - y0], "info": info})
             log(f"{name}: peak {crop.max() / sigma:.0f} sigma, crop {x1 - x0}x{y1 - y0} px at {info['pixel_arcsec'] * 1000:.1f} mas/px")
             os.remove(os.path.join(WORK, f"{name}_continuum.fits"))
