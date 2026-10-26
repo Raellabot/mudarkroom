@@ -1,0 +1,28 @@
+[     0s] hltau: 4 disks: ['HL Tau band 3', 'HL Tau band 4', 'HL Tau band 6', 'HL Tau band 7']
+[    11s] HL Tau band 3: HLTau_Band3_ReferenceImages/HLTau_B3.contms_ap_big.image.pbcor.fits (256 MB)
+/home/runner/work/mudarkroom/mudarkroom/scripts/alma/disk_picture.py:157: RuntimeWarning: divide by zero encountered in divide
+  x = np.clip((a - BLACK_SIGMA * sigma) / sigma, 0, None)
+/home/runner/work/mudarkroom/mudarkroom/scripts/alma/disk_picture.py:157: RuntimeWarning: invalid value encountered in divide
+  x = np.clip((a - BLACK_SIGMA * sigma) / sigma, 0, None)
+/home/runner/work/mudarkroom/mudarkroom/scripts/alma/disk_picture.py:180: RuntimeWarning: invalid value encountered in cast
+  img = Image.fromarray((pink_ramp(t) * 255).astype(np.uint8))
+/home/runner/work/mudarkroom/mudarkroom/scripts/alma/disk_picture.py:251: RuntimeWarning: divide by zero encountered in scalar divide
+  recipes.append({"name": name, "program": PROGRAM, "file": os.path.basename(path), "sigma_jy_beam": sigma, "peak_over_sigma": float(crop.max() / sigma), "crop_px": [x1 - x0, y1 - y0], "info": info})
+/home/runner/work/mudarkroom/mudarkroom/scripts/alma/disk_picture.py:252: RuntimeWarning: divide by zero encountered in scalar divide
+  log(f"{stem}: peak {crop.max() / sigma:.0f} sigma, crop {x1 - x0}x{y1 - y0} px at {info['pixel_arcsec'] * 1000:.1f} mas/px")
+[    17s] HL-Tau-band-3-HLTau-B3-contms-ap-big-image-pbcor: peak inf sigma, crop 8000x8000 px at 10.0 mas/px
+[    23s] HL Tau band 4: HLTau_Band4_ReferenceImages/HLTau_B4_continuum_pcal3.image.pbcor.fits (17 MB)
+[    23s] HL Tau band 4: HLTau_Band4_ReferenceImages/HLTau_B4_continuum_pcal1.image.pbcor.fits (17 MB)
+[    24s] HL Tau band 4: HLTau_Band4_ReferenceImages/HLTau_B4_continuum_pcal2.image.pbcor.fits (17 MB)
+[    24s] HL Tau band 4: HLTau_Band4_ReferenceImages/HLTau_B4_continuum.image.pbcor.fits (17 MB)
+[    24s] HL Tau band 4: HLTau_Band4_ReferenceImages/HLTau_B4_continuum_pcal3_apcal.image.pbcor.fits (17 MB)
+[    24s] HL-Tau-band-4-HLTau-B4-continuum-pcal3-image-pbcor: peak 310 sigma, crop 400x400 px at 7.0 mas/px
+[    24s] HL-Tau-band-4-HLTau-B4-continuum-pcal1-image-pbcor: peak 199 sigma, crop 400x400 px at 7.0 mas/px
+[    24s] HL-Tau-band-4-HLTau-B4-continuum-pcal2-image-pbcor: peak 235 sigma, crop 400x400 px at 7.0 mas/px
+[    24s] HL-Tau-band-4-HLTau-B4-continuum-image-pbcor: peak 199 sigma, crop 400x400 px at 7.0 mas/px
+[    25s] HL-Tau-band-4-HLTau-B4-continuum-pcal3-apcal-image-pbcor: peak 320 sigma, crop 400x400 px at 7.0 mas/px
+[    27s] HL Tau band 6: HLTau_Band6_ReferenceImages/HLTau_B6cont_mscale_ap.image.fits (10 MB)
+[    27s] HL-Tau-band-6-HLTau-B6cont-mscale-ap-image: peak 610 sigma, crop 473x473 px at 5.0 mas/px
+[    30s] HL Tau band 7: HLTau_Band7_ReferenceImages/HLTau_B7cont_mscale_ap.image.pbcor.fits (17 MB)
+[    30s] HL-Tau-band-7-HLTau-B7cont-mscale-ap-image-pbcor: peak 469 sigma, crop 670x670 px at 3.5 mas/px
+[    30s] done: 8 pictures
