@@ -1,0 +1,18 @@
+field as209: ra 252.3138 dec -14.3689 radius 0.05 deg
+== Chandra (Chandra Data Archive)
+0 public observations within 0.05 deg
+imaging exposure without a grating: 0.0 ks in total
+== Hubble and Webb (MAST)
+227 rows from MAST, 101 public single-filter level-3 image mosaics
+HST|13331 | V1121 | WFC3/IR | 5 filters | total 0.0 GB | F127M 0.01 GB 103 s, detection 0.01 GB 279 s, F125W 0.01 GB 41 s, F139M 0.01 GB 102 s, F160W 0.01 GB 33 s
+HST|None | V1121 | WFC3/IR | 4 filters | total 0.2 GB | F127M 0.04 GB 206 s, F125W 0.04 GB 82 s, F139M 0.04 GB 205 s, F160W 0.04 GB 67 s
+HST|6681 | V1121-OPH | WFPC2/PC | 3 filters | total 0.8 GB | detection 0.26 GB 1858 s, F675W 0.26 GB 1035 s, F814W 0.26 GB 823 s
+HST|17283 | EM-AS-209 | WFC3/UVIS | 2 filters | total 0.0 GB | detection 0.01 GB 468 s, F656N 0.01 GB 468 s
+HST|18114 | EM-AS-209 | WFC3/UVIS | 2 filters | total 0.0 GB | detection 0.01 GB 54 s, F814W 0.01 GB 54 s
+HST|None | EM-AS-209 | WFC3/UVIS | 1 filters | total 0.0 GB | F656N 0.04 GB 1404 s
+HST|10177 | V1121-OPH | NICMOS/NIC2 | 1 filters | total 0.0 GB | F110W 0.00 GB 448 s
+HST|9136 | AS-209 | STIS/CCD | 1 filters | total 0.0 GB | MIRVIS 0.01 GB 2268 s
+JWST|5816 | EM-AS-209 | NIRCAM/IMAGE | 4 filters | total 0.1 GB | F070W 0.02 GB 1283 s, F090W 0.02 GB 1283 s, F115W 0.02 GB 1710 s, F250M 0.00 GB 1710 s
+JWST|2487 | EM-AS-209 | NIRCAM/IMAGE | 2 filters | total 0.0 GB | F200W 0.00 GB 3567 s, F410M 0.00 GB 3567 s
+JWST|2025 | EM-AS-209 | MIRI/IMAGE | 1 filters | total 0.0 GB | F770W 0.03 GB 6727 s
+JWST|1584 | AS-209 | MIRI/IMAGE | 1 filters | total 0.0 GB | F770W 0.03 GB 1166 s
