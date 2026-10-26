@@ -13,8 +13,10 @@ Put your own name and contact URL in the `UA` line at the top of `scripts/mast/c
 - `scripts/mast/find_rows.py OUTDIR COLLECTION PROPOSAL_ID [TARGET]` looks up a program's level-3 mosaics in MAST.
 - `scripts/mast/probe_sizes.py OUTDIR COLLECTION|PROPOSAL ...` lists each field's filters and file sizes without downloading anything.
 - `scripts/mast/color.py OUTDIR ROWS_JSON_GZ SPEC ...` downloads the filters of one field, aligns them by sky coordinates and colors them by wavelength order.
+- `scripts/field/probe_field.py OUTDIR NAME RA DEC RADIUS` lists the public Chandra, Hubble and Webb observations around a sky position without downloading pictures.
+- `scripts/field/chandra_events.py` finds a target's public Chandra event files, downloads them and bins the photons onto a sky grid (used by `color.py` for sets listed in `XRAY`).
 
-A SPEC is `COLLECTION|target_name|proposal_id|instrument_name|label[|black_percentile]`, for example `JWST|SMACS-J0723.3-7327|2736|NIRCAM/IMAGE|smacs0723|50`.
+A SPEC is `COLLECTION|target_name|proposal_id|instrument_name|label[|black_percentile]`, for example `JWST|SMACS-J0723.3-7327|2736|NIRCAM/IMAGE|smacs0723|50`. To combine several sources in one picture, join the values of each of the first four fields with `+`, one per source: `HST+JWST+JWST|NGC602+NGC-602+NGC-602|10248+2662+2662|ACS/WFC+NIRCAM/IMAGE+MIRI/IMAGE|ngc602-multi`. A label listed in `XRAY` in `color.py` also gets a lime green layer of Chandra X-rays screened over the picture.
 
 ## Settings for color.py (environment variables)
 

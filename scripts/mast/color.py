@@ -8,6 +8,9 @@ from PIL import Image, ImageDraw, ImageFont
 from scipy import ndimage as ndi
 from scipy.ndimage import gaussian_filter, uniform_filter1d
 
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "field"))
+import chandra_events
+
 # Your name and contact URL, sent to MAST as the User-Agent: edit this line or set the CONTACT_INFO environment variable.
 UA = os.environ.get("CONTACT_INFO") or "CONTACT-INFO"
 DOWNLOAD = "https://mast.stsci.edu/api/v0.1/Download/file?uri="
@@ -124,7 +127,7 @@ def hexof(c):
 
 
 # ---- choosing the filters ------------------------------------------------------------------------------------------------------------------
-def pick(rows, collection, target, proposal, instrument):
+def pick(rows, collection, target, proposal, instrument, limit=None):
     best = {}
     for r in rows:
         if (r["obs_collection"], r["target_name"], r["proposal_id"], r["instrument_name"]) != (collection, target, proposal, instrument):
@@ -137,10 +140,30 @@ def pick(rows, collection, target, proposal, instrument):
         if f not in best or (r.get("t_exptime") or 0) > (best[f].get("t_exptime") or 0):
             best[f] = r
     chosen = sorted(best.values(), key=lambda r: (r["em_min"] + r["em_max"]) / 2)
-    if len(chosen) > MAX_FILTERS:
-        idx = sorted({round(i * (len(chosen) - 1) / (MAX_FILTERS - 1)) for i in range(MAX_FILTERS)})
+    return thin(chosen, limit or MAX_FILTERS)
+
+
+# An even spread of wavelengths when there are more filters than the limit.
+def thin(chosen, limit):
+    if len(chosen) > limit:
+        idx = sorted({round(i * (len(chosen) - 1) / (limit - 1)) for i in range(limit)})
         chosen = [chosen[i] for i in idx]
     return chosen
+
+
+# Several sources in one set: the spec fields hold one value per source joined by "+" (HST+JWST, 10248+2662, ...); the filters of all sources are merged by wavelength.
+def pick_all(rows, collection, target, proposal, instrument):
+    fields = [collection.split("+"), target.split("+"), proposal.split("+"), instrument.split("+")]
+    if len({len(f) for f in fields}) != 1:
+        raise ValueError("the first four spec fields need the same number of '+' separated values")
+    groups = list(zip(*fields))
+    if len(groups) == 1:
+        return pick(rows, *groups[0])
+    chosen = sorted((r for g in groups for r in pick(rows, *g, limit=10 ** 6)), key=lambda r: (r["em_min"] + r["em_max"]) / 2)
+    names = [r["filters"] for r in chosen]
+    if len(set(names)) != len(names):
+        raise ValueError(f"the same filter name comes from two sources: {sorted({n for n in names if names.count(n) > 1})}")
+    return thin(chosen, MAX_FILTERS)
 
 
 # ---- download and reduce -------------------------------------------------------------------------------------------------------------------
@@ -236,7 +259,7 @@ def header_of(uri):
 
 
 # Averages g x g blocks of the SCI image a strip of rows at a time, so a 3 GB mosaic never sits in memory twice.
-def block_mean_file(path, g):
+def block_mean_file(path, g, blank_zero=False):
     with fits.open(path, memmap=True) as hdul:
         h = sci_hdu(hdul)
         w = WCS(h.header)
@@ -247,6 +270,8 @@ def block_mean_file(path, g):
         for r0 in range(0, oy, step):
             r1 = min(oy, r0 + step)
             strip = np.asarray(h.data[r0 * g:r1 * g, :ox * g], dtype=np.float32)
+            if blank_zero:  # drizzled Hubble products hold exactly 0 where nothing was observed
+                strip = np.where(strip == 0, np.nan, strip)
             v = np.where(np.isfinite(strip), strip, np.nan).reshape(r1 - r0, g, ox, g)
             with np.errstate(all="ignore"):
                 cnt = np.isfinite(v).sum(axis=(1, 3))
@@ -303,7 +328,7 @@ def align(chosen, work, label=None):
         if not os.path.exists(path):
             download(r["dataURL"], path)
         g = max(1, int(np.floor(scale_of(out_w) / scale_of(w))))
-        red, w2 = block_mean_file(path, g)
+        red, w2 = block_mean_file(path, g, blank_zero=r["obs_collection"] == "HST")
         os.remove(path)
         rw = rebinned_wcs(w2, g)
         px, py = rw.world_to_pixel_values(*world)
@@ -316,7 +341,7 @@ def align(chosen, work, label=None):
         if partfile:
             np.save(partfile, res)
         log(f"{r['filters']}: aligned (reduced {g}x), covers {np.isfinite(res).mean() * 100:.0f}% of the grid")
-    return out, {"width": nx, "height": ny, "reduction": f, "arcsec_per_pixel": scale_of(out_w), "reference_filter": ref_r["filters"]}, used
+    return out, {"width": nx, "height": ny, "reduction": f, "arcsec_per_pixel": scale_of(out_w), "reference_filter": ref_r["filters"], "wcs": out_w.to_header_string(relax=True)}, used
 
 
 # Take off the slowly changing sky background: a low percentile of each block, smoothed and interpolated, subtracted.
@@ -459,7 +484,14 @@ FINISH = {
     "jades-goods-s": {"nofill": True, "destripe": (288, 75), "black": 70},
     "primer-uds": {"nofill": True, "destripe": (288, 75), "black": 90},
     "smacs0723": {"box": (0.0, 1.0, 0.55, 1.0), "dense": 0.97},   # the cluster half; the other module's field is left out
+    "ngc602-multi": {"nofill": True, "black": 50, "xray_black": 40, "xray_k": 20, "xray_gain": 1.0},
 }
+
+# Sets that get a Chandra X-ray layer: the target and detector of the public imaging observations, and the photon energy band in eV.
+XRAY = {
+    "ngc602-multi": {"target": "NGC602", "instrument": "ACIS-I", "band": (500.0, 7000.0)},
+}
+XRAY_COLOR = np.array([0.55, 1.00, 0.10])   # lime green
 FINISH_ON = os.environ.get("FINISH", "1") == "1"
 
 
@@ -494,6 +526,49 @@ def normalize_keep_haze(arrays, exp, black=1.0):
     return [o * w for o, w in zip(out, weights)], tops, weights
 
 
+# The Chandra photons of a set binned onto the set's grid: counts per pixel, cached beside the aligned arrays, and a note of the observations used.
+def xray_counts(label, grid, cfg):
+    cache = os.path.join(WORK, f"{label}-xray.npz")
+    if os.path.exists(cache):
+        z = np.load(cache, allow_pickle=True)
+        if str(z["wcs"]) == grid["wcs"] and z["counts"].shape == (grid["height"], grid["width"]):
+            log(f"{label}: X-ray counts found in the cache; no download")
+            return z["counts"].astype(np.float32), json.loads(str(z["info"]))
+        log(f"{label}: the cached X-ray counts are for a different grid")
+    if NO_DOWNLOAD or label in CACHE_ONLY:
+        raise RuntimeError("no cached X-ray counts for this grid and downloads are off for this set")
+    if "-SIP" in grid["wcs"]:
+        raise RuntimeError("the grid header has SIP distortion terms, which the X-ray binning does not follow")
+    wcs = WCS(fits.Header.fromstring(grid["wcs"]))
+    files = chandra_events.event_files(cfg["target"], cfg["instrument"])
+    if not files:
+        raise RuntimeError(f"no public {cfg['instrument']} observations of {cfg['target']}")
+    counts = np.zeros((grid["height"], grid["width"]), dtype=np.float32)
+    info = {"observations": [], "exposure_ks": 0.0, "photons": 0, "band_ev": list(cfg["band"])}
+    for f in files:
+        path = os.path.join(WORK, f"evt-{f['obsid']}.fits.gz")
+        chandra_events.fetch(f["url"], path)
+        ra, dec, expo = chandra_events.read_events(path, *cfg["band"])
+        os.remove(path)
+        counts += chandra_events.bin_events(ra, dec, wcs, counts.shape)
+        info["observations"].append(f["obsid"])
+        info["exposure_ks"] += expo / 1000.0
+        info["photons"] += int(ra.size)
+        log(f"Chandra obsid {f['obsid']}: {ra.size} photons in the band, {expo / 1000:.1f} ks")
+    log(f"{label}: {len(files)} Chandra observations, {info['photons']} photons, {info['exposure_ks']:.0f} ks, {counts.sum():.0f} on the grid")
+    np.savez_compressed(cache, counts=counts, info=json.dumps(info), wcs=grid["wcs"])
+    return counts, info
+
+
+# The X-ray layer's brightness from 0 to 1: adaptive smoothing of the counts, black point at a percentile, asinh stretch to the 99.7th percentile; `scale` is the grid size relative to the full one.
+def xray_layer(counts, fin, scale=1.0):
+    sm = chandra_events.smooth_adaptive(counts, sigmas=tuple(sg * scale for sg in (1.5, 3.0, 6.0, 12.0, 24.0)))
+    x = np.clip(sm - np.percentile(sm, fin.get("xray_black", 40)), 0, None)
+    top = float(np.percentile(x, 99.7)) or float(x.max()) or 1.0
+    k = float(fin.get("xray_k", 20))
+    return np.clip(np.arcsinh(k * x / top) / np.arcsinh(k) * fin.get("xray_gain", 1.0), 0, 1).astype(np.float32)
+
+
 # Tweaks of a ranked palette keyed by filter name; "whiten" turns bright star cores and glare toward white (0 = off, 1 = fully).
 TWEAKS = {
     "base": {"gain": {}, "soften": {}, "whiten": 0.0},
@@ -516,7 +591,7 @@ def whiten_bright(img, k):
     return np.clip(np.rint(f * 255.0), 0, 255).astype(np.uint8)
 
 
-def compose(stack, waves, palette, ranked=None, colors=None, whiten=0.0, stretch=None):
+def compose(stack, waves, palette, ranked=None, colors=None, whiten=0.0, stretch=None, xray=None):
     lw = np.log(np.array(waves, dtype=float))
     t = (lw - lw.min()) / (lw.max() - lw.min()) if lw.max() > lw.min() else np.zeros_like(lw)
     if colors is None:
@@ -529,29 +604,59 @@ def compose(stack, waves, palette, ranked=None, colors=None, whiten=0.0, stretch
     img = make_lupton_rgb(rgb[..., 0], rgb[..., 1], rgb[..., 2], minimum=0.0, stretch=stretch or STRETCH, Q=Q, output_dtype=np.uint8)
     if whiten > 0:
         img = whiten_bright(img, whiten)
+    if xray is not None:  # screened on top, so the X-rays add light and never darken the picture
+        f = img.astype(np.float32) / 255.0
+        img = np.clip(np.rint(255.0 * (1.0 - (1.0 - f) * (1.0 - XRAY_COLOR * xray[..., None]))), 0, 255).astype(np.uint8)
     if FLIP:
         img = np.ascontiguousarray(img[::-1])
     return img, colors
 
 
-def legend(img, names, colors, waves, title):
+def legend(img, names, colors, waves, title, extra=()):
     h, w = img.shape[:2]
     bar = max(70, h // 22)
-    canvas = Image.new("RGB", (w, h + bar), (0, 0, 0))
-    canvas.paste(Image.fromarray(img), (0, 0))
-    d = ImageDraw.Draw(canvas)
     try:
         font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", max(14, bar // 4))
     except OSError:
         font = ImageFont.load_default()
-    d.text((12, h + 6), title, fill=(235, 235, 235), font=font)
-    x = 12
-    y = h + bar // 2 + 2
+    probe = ImageDraw.Draw(Image.new("RGB", (4, 4)))
+    sw, line = bar // 3, max(14, bar // 4) + 8
+    items = []
     for n, c, wv in zip(names, colors, waves):
-        d.rectangle([x, y, x + bar // 3, y + bar // 3], fill=tuple(int(round(255 * v)) for v in np.clip(c, 0, 1)))
-        label = f"{n} {wv / 1000:.2f} µm" if wv >= 1000 else f"{n} {wv:.0f} nm"
-        d.text((x + bar // 3 + 8, y - 2), label, fill=(220, 220, 220), font=font)
-        x += bar // 3 + 24 + int(d.textlength(label, font=font))
+        items.append((f"{n} {wv / 1000:.2f} µm" if wv >= 1000 else f"{n} {wv:.0f} nm", c))
+    items += list(extra)
+    # The title wraps by words when it is wider than the picture; the swatches wrap onto more rows.
+    head = [title]
+    if probe.textlength(title, font=font) > w - 24:
+        head, cur = [], ""
+        for word in title.split(" "):
+            if cur and probe.textlength(cur + " " + word, font=font) > w - 24:
+                head.append(cur)
+                cur = word
+            else:
+                cur = word if not cur else cur + " " + word
+        head.append(cur)
+    rows, x, row = [[]], 12, 0
+    for text, c in items:
+        step = sw + 24 + int(probe.textlength(text, font=font))
+        if x + step > w and rows[row]:
+            rows.append([])
+            row += 1
+            x = 12
+        rows[row].append((x, text, c))
+        x += step
+    # One title line and one row of swatches keep the plain layout; extra title lines and swatch rows add height below.
+    canvas = Image.new("RGB", (w, h + bar + line * (len(head) - 1) + line * (len(rows) - 1)), (0, 0, 0))
+    canvas.paste(Image.fromarray(img), (0, 0))
+    d = ImageDraw.Draw(canvas)
+    for i, t in enumerate(head):
+        d.text((12, h + 6 + line * i), t, fill=(235, 235, 235), font=font)
+    y = h + bar // 2 + 2 + line * (len(head) - 1)
+    for r in rows:
+        for x, text, c in r:
+            d.rectangle([x, y, x + sw, y + sw], fill=tuple(int(round(255 * v)) for v in np.clip(c, 0, 1)))
+            d.text((x + sw + 8, y - 2), text, fill=(220, 220, 220), font=font)
+        y += line
     return canvas
 
 
@@ -584,7 +689,7 @@ def main():
         parts = spec.split("|")
         collection, target, proposal, instrument, label = parts[:5]
         black = float(parts[5]) if len(parts) > 5 and parts[5] else 1.0  # percentile of each filter taken as black: 1 keeps gas haze, 40 to 60 gives a black sky
-        chosen = pick(rows, collection, target, proposal, instrument)
+        chosen = pick_all(rows, collection, target, proposal, instrument)
         log(f"== {label}: {len(chosen)} filters: {[r['filters'] for r in chosen]}")
         if len(chosen) < 3:
             log("fewer than three plain filters; skipped")
@@ -610,6 +715,13 @@ def main():
         names = [r["filters"] for r in chosen]
         waves = [(r["em_min"] + r["em_max"]) / 2 for r in chosen]
         raw = aligned
+        xr, xinfo = None, None
+        if label in XRAY:
+            try:
+                xr, xinfo = xray_counts(label, grid, XRAY[label])
+            except Exception as e:  # noqa: BLE001
+                log(f"{label}: X-ray layer failed: {e}; the set is skipped")
+                continue
         if "export" in VARIANTS:  # no pictures: save a one-third-size copy of the aligned arrays, so the finishing steps can be worked out on this computer
             f = 3
             small = []
@@ -619,15 +731,23 @@ def main():
                     warnings.simplefilter("ignore")
                     small.append(np.nanmean(a[:h, :w].reshape(h // f, f, w // f, f), axis=(1, 3)).astype(np.float32))
             os.makedirs(os.path.join(outdir, "samples"), exist_ok=True)
+            extra = {}
+            if xr is not None:
+                h, w = (xr.shape[0] // f) * f, (xr.shape[1] // f) * f
+                extra = {"xray": xr[:h, :w].reshape(h // f, f, w // f, f).sum(axis=(1, 3)).astype(np.float32), "xinfo": json.dumps(xinfo)}
             np.savez_compressed(os.path.join(outdir, "samples", f"{label}.npz"), names=json.dumps(names), waves=json.dumps([float(x) for x in waves]),
-                                grid=json.dumps(grid), **{f"a{i}": a for i, a in enumerate(small)})
+                                grid=json.dumps({k: v for k, v in grid.items() if k != "wcs"}), **extra, **{f"a{i}": a for i, a in enumerate(small)})
             log(f"{label}: samples saved ({small[0].shape[1]}x{small[0].shape[0]} px per filter)")
             continue
         fin = FINISH.get(label) if FINISH_ON else None
         if fin:
             raw = aligned = finish_arrays(raw, fin, float(os.environ.get("FINISH_SCALE", "1")))
             black = fin.get("black", black)
+            if xr is not None and (fin.get("box") or fin.get("dense") or fin.get("planet")):
+                log(f"{label}: the X-ray layer cannot follow a crop by box, density or planet; the set is skipped")
+                continue
             log(f"{label}: finishing steps applied: {sorted(fin)}")
+        xl = xray_layer(xr, fin or {}, float(os.environ.get("FINISH_SCALE", "1"))) if xr is not None else None   # on the whole grid, before the crop, so its edges are not smoothed against nothing
         old_wanted = any(k not in RANKED for k in PALETTES)
         aligned = [flatten(a) for a in raw] if (FLATTEN and old_wanted) else raw
         # Keep only the sky every filter saw: the bounding box of the pixels all filters cover (or all but one, if that leaves too little).
@@ -640,6 +760,8 @@ def main():
             y0, y1, x0, x1 = ys.min(), ys.max() + 1, xs.min(), xs.max() + 1
             aligned = [a[y0:y1, x0:x1] for a in aligned]
             raw = [a[y0:y1, x0:x1] for a in raw]
+            if xl is not None:
+                xl = xl[y0:y1, x0:x1]
             log(f"cropped to {x1 - x0}x{y1 - y0} px where {need} of {len(names)} filters have data")
         norm = [normalize(a) for a in aligned] if old_wanted else []
         stack = [n[0] for n in norm]
@@ -658,19 +780,23 @@ def main():
                 if e is not None:
                     base_cols = RANKED[pname](len(stk2))
                     cols = [c * (1 - tw["soften"].get(n, 0.0)) + SOFT_PINK * tw["soften"].get(n, 0.0) for c, n in zip(base_cols, names)]
-                img, colors = compose(stk2, waves, pal, RANKED.get(pname), cols, tw.get("whiten", 0.0), tw.get("stretch") or (fin or {}).get("stretch"))
+                img, colors = compose(stk2, waves, pal, RANKED.get(pname), cols, tw.get("whiten", 0.0), tw.get("stretch") or (fin or {}).get("stretch"), xl)
                 suffix = "" if e is None else f"-n{int(round(e * 100)):02d}" + ("" if vname == "base" else f"-{vname}")
-                title = f"{chosen[0]['obs_collection']} {instrument.split('/')[0]}, {target}, program {proposal} — {PALETTE_NAMES[pname]}{'' if e is None else f', brightness exponent {e:g}'}{'' if vname == 'base' else f', {vname}'} — made by this project (Raellabot) from MAST mosaics"
+                where = f"{chosen[0]['obs_collection']} {instrument.split('/')[0]}, {target}, program {proposal}"
+                if "+" in collection:
+                    where = " + ".join(f"{c} {i.split('/')[0]} {p}" for c, i, p in zip(collection.split("+"), instrument.split("+"), proposal.split("+"))) + (" + Chandra ACIS" if xl is not None else "") + f", {target.split('+')[0]}"
+                made_from = "MAST mosaics" if xl is None else "MAST mosaics and Chandra Data Archive events"
+                title = f"{where} — {PALETTE_NAMES[pname]}{'' if e is None else f', brightness exponent {e:g}'}{'' if vname == 'base' else f', {vname}'} — made by this project (Raellabot) from {made_from}"
                 if fin and fin.get("upscale"):
                     k = fin["upscale"]
                     img = np.array(Image.fromarray(img).resize((img.shape[1] * k, img.shape[0] * k), Image.LANCZOS))
-                canvas = legend(img, names, colors, waves, title)
+                canvas = legend(img, names, colors, waves, title, [("Chandra X-ray 0.5-7 keV", XRAY_COLOR)] if xl is not None else [])
                 fn = f"{label}-{pname}{suffix}.jpg"
                 canvas.save(os.path.join(outdir, fn), quality=90)
                 made.append(fn)
                 recipes.append({
                     "picture": fn, "palette": pname, "collection": collection, "target": target, "proposal_id": proposal, "instrument": instrument,
-                    "title": chosen[0].get("obs_title"), "grid": grid, "stretch": STRETCH, "q": Q, "flipped_upright": FLIP, "brightness_exponent": e, "variant": vname if e is not None else None,
+                    "title": chosen[0].get("obs_title"), "grid": {k: v for k, v in grid.items() if k != "wcs"}, "xray": None if xl is None else {**xinfo, "color": hexof(XRAY_COLOR)}, "stretch": STRETCH, "q": Q, "flipped_upright": FLIP, "brightness_exponent": e, "variant": vname if e is not None else None,
                     "filters": [{"filter": n, "center_nm": round(w, 1), "color": hexof(c), "obs_id": r["obs_id"], "exposure_s": r.get("t_exptime"), "product": r["dataURL"]}
                                 for n, w, c, r in zip(names, waves, colors, chosen)],
                     "black_percentile": black if e is not None else None, "finishing": fin,

@@ -1,49 +1,10 @@
 # Lists the public Chandra, Hubble and Webb observations around one sky position without downloading pictures; usage: probe_field.py OUTDIR NAME RA_DEG DEC_DEG RADIUS_DEG
-import collections, json, math, os, re, sys, time, urllib.parse, urllib.request
+import collections, json, math, os, sys, time, urllib.parse
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "mast"))
 import find_rows
+from chandra_events import event_url, get_text, size_of, tap
 
-TAP = "https://cda.cfa.harvard.edu/cxctap/sync"
 MAST_DOWNLOAD = "https://mast.stsci.edu/api/v0.1/Download/file?uri="
-UA = find_rows.UA
-
-
-# Reads a URL with up to 4 tries; returns the response body as text.
-def get_text(url, timeout=120):
-    last = None
-    for attempt in range(1, 5):
-        try:
-            with urllib.request.urlopen(urllib.request.Request(url, headers={"User-Agent": UA}), timeout=timeout) as r:
-                return r.read().decode("utf-8", "replace")
-        except Exception as e:  # noqa: BLE001
-            last = e
-            time.sleep(5 * attempt)
-    raise RuntimeError(f"{url[:120]}: {str(last)[:160]}")
-
-
-# One TAP query in the archive's `text` format: `#` lines describe the columns, then a tab-separated header and rows.
-def tap(adql):
-    text = get_text(f"{TAP}?REQUEST=doQuery&LANG=ADQL&FORMAT=text&QUERY={urllib.parse.quote(adql)}")
-    if re.search(r"<\s*(VOTABLE|html)\b", text[:500], re.I):
-        raise RuntimeError("archive error: " + re.sub(r"\s+", " ", text[:300]))
-    lines = [x.rstrip("\r") for x in text.split("\n") if x.strip() and not x.startswith("#")]
-    if not lines:
-        return []
-    head = lines[0].split("\t")
-    return [dict(zip(head, (c.strip() for c in x.split("\t")))) for x in lines[1:]]
-
-
-# Total size in bytes of a file behind a URL, from a one-byte ranged request; -1 when it cannot be read.
-def size_of(url):
-    req = urllib.request.Request(url, headers={"User-Agent": UA, "Range": "bytes=0-0"})
-    try:
-        with urllib.request.urlopen(req, timeout=60) as r:
-            m = re.search(r"/(\d+)$", r.headers.get("Content-Range") or "")
-            total = int(m.group(1)) if m else int(r.headers.get("Content-Length") or 0)
-            r.close()
-            return total
-    except Exception:  # noqa: BLE001
-        return -1
 
 
 def sep_deg(ra1, dec1, ra2, dec2):
@@ -77,13 +38,7 @@ def chandra(out, ra, dec, rad, lines):
         line = (f"obsid {o['obsid']} | {o['target_name']} | {o['instrument']} | grating {o['grating']} | {o['exposure_mode']} | {ks:.1f} ks | "
                 f"events {o['event_count']} | proposal {o['proposal_number']} | released {o['public_avail_date'][:10]} | {float(o['ra']):.4f} {float(o['dec']):.4f}")
         # The event file sits beside the images; its name carries the same pipeline version (N002 and so on).
-        evt = ""
-        for im in imgs.get(o["obsid"], []):
-            m = re.search(r"filename=([^&]*?)(acisf|hrcf)(\d+)(N\d+)_(?:cntr|full)_img\d*\.fits", im["accref"])
-            if m:
-                base = im["accref"].split("filename=")[0] + "filename=" + m.group(1)
-                evt = f"{base}{m.group(2)}{m.group(3)}{m.group(4)}_evt2.fits.gz"
-                break
+        evt = next((u for u in (event_url(im["accref"]) for im in imgs.get(o["obsid"], [])) if u), "")
         if evt:
             sz = size_of(evt)
             line += f" | evt2 {sz / 1e6:.0f} MB {evt}" if sz >= 0 else f" | evt2 not found at {evt}"
