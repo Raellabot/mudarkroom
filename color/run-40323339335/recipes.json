@@ -1,0 +1,163 @@
+[
+ {
+  "picture": "hltau-hst-narrow-creative5-n75-white.jpg",
+  "palette": "creative5",
+  "collection": "HST",
+  "target": "HLTAU",
+  "proposal_id": "5472",
+  "instrument": "WFPC2/PC",
+  "title": null,
+  "grid": {
+   "width": 2300,
+   "height": 2305,
+   "reduction": 2,
+   "arcsec_per_pixel": 0.09108199999999692,
+   "reference_filter": "F673N"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.75,
+  "variant": "white",
+  "filters": [
+   {
+    "filter": "F547M",
+    "center_nm": 546.8,
+    "color": "#1a4cff",
+    "obs_id": "hst_5472_01_wfpc2_pc_f547m_u2gm01",
+    "exposure_s": 1000,
+    "product": "mast:HST/product/hst_5472_01_wfpc2_pc_f547m_u2gm01_drz.fits"
+   },
+   {
+    "filter": "F631N",
+    "center_nm": 630.6,
+    "color": "#51e6d0",
+    "obs_id": "hst_5472_01_wfpc2_pc_f631n_u2gm01",
+    "exposure_s": 1800,
+    "product": "mast:HST/product/hst_5472_01_wfpc2_pc_f631n_u2gm01_drz.fits"
+   },
+   {
+    "filter": "F656N",
+    "center_nm": 656.4,
+    "color": "#fb9990",
+    "obs_id": "hst_5472_01_wfpc2_pc_f656n_u2gm01",
+    "exposure_s": 3600,
+    "product": "mast:HST/product/hst_5472_01_wfpc2_pc_f656n_u2gm01_drz.fits"
+   },
+   {
+    "filter": "F673N",
+    "center_nm": 673.2,
+    "color": "#f261d1",
+    "obs_id": "hst_5472_01_wfpc2_pc_f673n_u2gm01",
+    "exposure_s": 2700,
+    "product": "mast:HST/product/hst_5472_01_wfpc2_pc_f673n_u2gm01_drz.fits"
+   }
+  ],
+  "black_percentile": 1.0,
+  "finishing": null,
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ },
+ {
+  "picture": "hltau-hst-wide-creative5-n75-white.jpg",
+  "palette": "creative5",
+  "collection": "HST",
+  "target": "HL-TAU",
+  "proposal_id": "5204",
+  "instrument": "WFPC2/PC",
+  "title": null,
+  "grid": {
+   "width": 2308,
+   "height": 2312,
+   "reduction": 2,
+   "arcsec_per_pixel": 0.091098,
+   "reference_filter": "F814W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.75,
+  "variant": "white",
+  "filters": [
+   {
+    "filter": "F555W",
+    "center_nm": 533.7,
+    "color": "#1a4cff",
+    "obs_id": "hst_5204_04_wfpc2_pc_f555w_u26s04",
+    "exposure_s": 350,
+    "product": "mast:HST/product/hst_5204_04_wfpc2_pc_f555w_u26s04_drz.fits"
+   },
+   {
+    "filter": "F675W",
+    "center_nm": 667.7,
+    "color": "#f2e673",
+    "obs_id": "hst_5204_04_wfpc2_pc_f675w_u26s04",
+    "exposure_s": 120,
+    "product": "mast:HST/product/hst_5204_04_wfpc2_pc_f675w_u26s04_drz.fits"
+   },
+   {
+    "filter": "F814W",
+    "center_nm": 790.5,
+    "color": "#f261d1",
+    "obs_id": "hst_5204_04_wfpc2_pc_f814w_u26s04",
+    "exposure_s": 60,
+    "product": "mast:HST/product/hst_5204_04_wfpc2_pc_f814w_u26s04_drz.fits"
+   }
+  ],
+  "black_percentile": 1.0,
+  "finishing": null,
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ },
+ {
+  "picture": "hltau-webb-creative5-n75-white.jpg",
+  "palette": "creative5",
+  "collection": "JWST",
+  "target": "HL-TAU",
+  "proposal_id": "1179",
+  "instrument": "NIRCAM/IMAGE",
+  "title": "YSO Imaging",
+  "grid": {
+   "width": 171,
+   "height": 172,
+   "reduction": 1,
+   "arcsec_per_pixel": 0.06241579950159612,
+   "reference_filter": "F410M"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.75,
+  "variant": "white",
+  "filters": [
+   {
+    "filter": "F187N",
+    "center_nm": 1873.5,
+    "color": "#1a4cff",
+    "obs_id": "jw01179-o014_t004_nircam_clear-f187n-sub160p",
+    "exposure_s": 1337.472,
+    "product": "mast:JWST/product/jw01179-o014_t004_nircam_clear-f187n-sub160p_i2d.fits"
+   },
+   {
+    "filter": "F200W",
+    "center_nm": 1990.5,
+    "color": "#f2e673",
+    "obs_id": "jw01179-o014_t004_nircam_clear-f200w-sub160p",
+    "exposure_s": 1337.472,
+    "product": "mast:JWST/product/jw01179-o014_t004_nircam_clear-f200w-sub160p_i2d.fits"
+   },
+   {
+    "filter": "F410M",
+    "center_nm": 4082.5,
+    "color": "#f261d1",
+    "obs_id": "jw01179-o014_t004_nircam_clear-f410m-sub160p",
+    "exposure_s": 1337.472,
+    "product": "mast:JWST/product/jw01179-o014_t004_nircam_clear-f410m-sub160p_i2d.fits"
+   }
+  ],
+  "black_percentile": 1.0,
+  "finishing": null,
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

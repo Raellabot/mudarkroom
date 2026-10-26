@@ -1,0 +1,1 @@
+HST|HL-TAU|5204|WFPC2/PC|3  rows=7  filters=['F555W', 'F675W', 'F814W', 'detection']

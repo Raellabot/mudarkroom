@@ -1,0 +1,82 @@
+[     0s] == hltau-hst-narrow: 4 filters: ['F547M', 'F631N', 'F656N', 'F673N']
+[     0s] F547M: 4600x4611 px at 0.0455 arcsec/px, 255 MB
+[     0s] F631N: 4600x4611 px at 0.0455 arcsec/px, 255 MB
+[     0s] F656N: 4600x4611 px at 0.0455 arcsec/px, 255 MB
+[     1s] F673N: 4600x4611 px at 0.0455 arcsec/px, 255 MB
+[     1s] grid from F673N: 2300x2305 px (reduced 2x), 0.091 arcsec/px
+[     2s] downloaded hst_5472_01_wfpc2_pc_f547m_u2gm01_drz.fits: 255 MB
+[     4s] F547M: aligned (reduced 2x), covers 42% of the grid
+[     5s] downloaded hst_5472_01_wfpc2_pc_f631n_u2gm01_drz.fits: 255 MB
+[     7s] F631N: aligned (reduced 2x), covers 42% of the grid
+[     8s] downloaded hst_5472_01_wfpc2_pc_f656n_u2gm01_drz.fits: 255 MB
+[     9s] F656N: aligned (reduced 2x), covers 42% of the grid
+[    11s] downloaded hst_5472_01_wfpc2_pc_f673n_u2gm01_drz.fits: 255 MB
+[    12s] F673N: aligned (reduced 2x), covers 42% of the grid
+[    13s] cropped to 1834x2297 px where 4 of 4 filters have data
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/astropy/visualization/lupton_rgb.py:645: RuntimeWarning: invalid value encountered in divide
+  fInorm = np.where(Int <= 0, 0, np.true_divide(fI, Int))
+[    14s] == hltau-hst-wide: 3 filters: ['F555W', 'F675W', 'F814W']
+[    14s] F555W: 4616x4625 px at 0.0455 arcsec/px, 256 MB
+[    14s] F675W: 4616x4625 px at 0.0455 arcsec/px, 256 MB
+[    14s] F814W: 4616x4625 px at 0.0455 arcsec/px, 256 MB
+[    14s] grid from F814W: 2308x2312 px (reduced 2x), 0.091 arcsec/px
+[    16s] downloaded hst_5204_04_wfpc2_pc_f555w_u26s04_drz.fits: 256 MB
+[    18s] F555W: aligned (reduced 2x), covers 42% of the grid
+[    19s] downloaded hst_5204_04_wfpc2_pc_f675w_u26s04_drz.fits: 256 MB
+[    20s] F675W: aligned (reduced 2x), covers 42% of the grid
+[    22s] downloaded hst_5204_04_wfpc2_pc_f814w_u26s04_drz.fits: 256 MB
+[    23s] F814W: aligned (reduced 2x), covers 42% of the grid
+[    24s] cropped to 1828x2304 px where 3 of 3 filters have data
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/astropy/visualization/lupton_rgb.py:645: RuntimeWarning: invalid value encountered in divide
+  fInorm = np.where(Int <= 0, 0, np.true_divide(fI, Int))
+[    25s] == hltau-webb: 3 filters: ['F187N', 'F200W', 'F410M']
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set DATE-BEG to '2022-09-29T03:23:36.850' from MJD-BEG.
+Set DATE-AVG to '2022-09-29T03:37:42.803' from MJD-AVG.
+Set DATE-END to '2022-09-29T03:51:48.212' from MJD-END'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'obsfix' made the change 'Set OBSGEO-L to    -9.986171 from OBSGEO-[XYZ].
+Set OBSGEO-B to    12.554260 from OBSGEO-[XYZ].
+Set OBSGEO-H to 1244338094.437 from OBSGEO-[XYZ]'. [astropy.wcs.wcs]
+[    25s] F187N: 182x183 px at 0.0306 arcsec/px, 1 MB
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set DATE-BEG to '2022-09-29T03:55:57.392' from MJD-BEG.
+Set DATE-AVG to '2022-09-29T04:10:02.353' from MJD-AVG.
+Set DATE-END to '2022-09-29T04:24:07.922' from MJD-END'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'obsfix' made the change 'Set OBSGEO-L to    -9.944224 from OBSGEO-[XYZ].
+Set OBSGEO-B to    12.580429 from OBSGEO-[XYZ].
+Set OBSGEO-H to 1244254193.134 from OBSGEO-[XYZ]'. [astropy.wcs.wcs]
+[    25s] F200W: 182x183 px at 0.0306 arcsec/px, 1 MB
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set DATE-BEG to '2022-09-29T03:55:57.456' from MJD-BEG.
+Set DATE-AVG to '2022-09-29T04:10:02.337' from MJD-AVG.
+Set DATE-END to '2022-09-29T04:24:07.666' from MJD-END'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'obsfix' made the change 'Set OBSGEO-L to    -9.944223 from OBSGEO-[XYZ].
+Set OBSGEO-B to    12.580430 from OBSGEO-[XYZ].
+Set OBSGEO-H to 1244254190.373 from OBSGEO-[XYZ]'. [astropy.wcs.wcs]
+[    26s] F410M: 171x172 px at 0.0624 arcsec/px, 1 MB
+[    26s] grid from F410M: 171x172 px (reduced 1x), 0.062 arcsec/px
+[    26s] downloaded jw01179-o014_t004_nircam_clear-f187n-sub160p_i2d.fits: 1 MB
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set DATE-BEG to '2022-09-29T03:23:36.850' from MJD-BEG.
+Set DATE-AVG to '2022-09-29T03:37:42.803' from MJD-AVG.
+Set DATE-END to '2022-09-29T03:51:48.212' from MJD-END'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'obsfix' made the change 'Set OBSGEO-L to    -9.986171 from OBSGEO-[XYZ].
+Set OBSGEO-B to    12.554260 from OBSGEO-[XYZ].
+Set OBSGEO-H to 1244338094.437 from OBSGEO-[XYZ]'. [astropy.wcs.wcs]
+[    26s] F187N: aligned (reduced 2x), covers 26% of the grid
+[    26s] downloaded jw01179-o014_t004_nircam_clear-f200w-sub160p_i2d.fits: 1 MB
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set DATE-BEG to '2022-09-29T03:55:57.392' from MJD-BEG.
+Set DATE-AVG to '2022-09-29T04:10:02.353' from MJD-AVG.
+Set DATE-END to '2022-09-29T04:24:07.922' from MJD-END'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'obsfix' made the change 'Set OBSGEO-L to    -9.944224 from OBSGEO-[XYZ].
+Set OBSGEO-B to    12.580429 from OBSGEO-[XYZ].
+Set OBSGEO-H to 1244254193.134 from OBSGEO-[XYZ]'. [astropy.wcs.wcs]
+[    26s] F200W: aligned (reduced 2x), covers 26% of the grid
+[    26s] downloaded jw01179-o014_t004_nircam_clear-f410m-sub160p_i2d.fits: 1 MB
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set DATE-BEG to '2022-09-29T03:55:57.456' from MJD-BEG.
+Set DATE-AVG to '2022-09-29T04:10:02.337' from MJD-AVG.
+Set DATE-END to '2022-09-29T04:24:07.666' from MJD-END'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'obsfix' made the change 'Set OBSGEO-L to    -9.944223 from OBSGEO-[XYZ].
+Set OBSGEO-B to    12.580430 from OBSGEO-[XYZ].
+Set OBSGEO-H to 1244254190.373 from OBSGEO-[XYZ]'. [astropy.wcs.wcs]
+[    26s] F410M: aligned (reduced 1x), covers 95% of the grid
+[    26s] cropped to 88x88 px where 3 of 3 filters have data
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/astropy/visualization/lupton_rgb.py:645: RuntimeWarning: invalid value encountered in divide
+  fInorm = np.where(Int <= 0, 0, np.true_divide(fI, Int))
+[    26s] done: 3 pictures
