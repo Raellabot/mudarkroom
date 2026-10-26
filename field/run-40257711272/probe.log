@@ -1,0 +1,18 @@
+field ngc3324: ra 159.32 dec -58.64 radius 0.15 deg
+== Chandra (Chandra Data Archive)
+1 public observations within 0.15 deg
+obsid 13613 | NGC3324 | ACIS-I | grating NONE | TE | 68.9 ks | events 375601 | proposal 13200236 | released 2013-10-24 | 159.4167 -58.6917 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao13/cat2/13613/primary/acisf13613N005_evt2.fits.gz
+    image acisf13613N005_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf13613N005_full_img2.fits | 0.2-20.0 keV | 0.5 MB
+imaging exposure without a grating: 68.9 ks in total
+== Hubble and Webb (MAST)
+3073 rows from MAST, 80 public single-filter level-3 image mosaics
+HST|9857 | NGC3324 | ACS/WFC | 4 filters | total 1.0 GB | detection 0.29 GB 3260 s, F550M 0.29 GB 654 s, F658N 0.21 GB 1300 s, F660N 0.21 GB 1960 s
+HST|11800 | NGC-3324 | WFPC2/PC | 3 filters | total 0.8 GB | detection 0.27 GB 3600 s, F502N 0.27 GB 1600 s, F673N 0.27 GB 2000 s
+HST|10475 | N3324 | ACS/WFC | 2 filters | total 0.9 GB | detection 0.43 GB 2000 s, F658N 0.43 GB 2000 s
+HST|None | NGC3324 | ACS/WFC | 2 filters | total 1.7 GB | F550M 0.83 GB 654 s, F660N 0.83 GB 1960 s
+HST|10475 | N3324 | WFPC2/PC | 2 filters | total 1.1 GB | detection 0.54 GB 1400 s, F656N 0.54 GB 1400 s
+HST|9857 | ANY | WFPC2/PC | 2 filters | total 0.5 GB | detection 0.26 GB 1680 s, F656N 0.26 GB 1680 s
+HST|None | N3324 | ACS/WFC | 1 filters | total 0.8 GB | F658N 0.83 GB 4300 s
+JWST|2731 | NGC-3324 | NIRCAM/IMAGE | 5 filters | total 18.1 GB | F090W 5.42 GB 3221 s, F187N 5.42 GB 5798 s, F200W 5.42 GB 3221 s, F335M 0.94 GB 3221 s, F444W 0.94 GB 3221 s
+JWST|2731 | NGC-3324 | MIRI/IMAGE | 4 filters | total 0.5 GB | F770W 0.13 GB 6771 s, F1130W 0.13 GB 6771 s, F1280W 0.13 GB 6993 s, F1800W 0.13 GB 5994 s
