@@ -1,0 +1,362 @@
+[
+ {
+  "name": "AS205",
+  "sigma_jy_beam": 1.5885762224752395e-05,
+  "peak_over_sigma": 387.104248046875,
+  "crop_px": [
+   745,
+   745
+  ],
+  "info": {
+   "pixel_arcsec": 0.00299999999999988,
+   "bmaj_arcsec": 0.037974596023547996,
+   "bmin_arcsec": 0.0246682241559036,
+   "bpa_deg": -84.63175201416,
+   "object": "V866 Sco",
+   "frequency_hz": 233682797479.2,
+   "bunit": "Jy/beam"
+  }
+ },
+ {
+  "name": "AS209",
+  "sigma_jy_beam": 1.70452550823029e-05,
+  "peak_over_sigma": 98.44011688232422,
+  "crop_px": [
+   1010,
+   1010
+  ],
+  "info": {
+   "pixel_arcsec": 0.00299999999999988,
+   "bmaj_arcsec": 0.038216292858108,
+   "bmin_arcsec": 0.036224924027904,
+   "bpa_deg": 62.98761749268,
+   "object": "as_209",
+   "frequency_hz": 238984138086.8,
+   "bunit": "Jy/beam"
+  }
+ },
+ {
+  "name": "DoAr25",
+  "sigma_jy_beam": 1.2871687852384639e-05,
+  "peak_over_sigma": 104.80815887451172,
+  "crop_px": [
+   980,
+   980
+  ],
+  "info": {
+   "pixel_arcsec": 0.00299999999999988,
+   "bmaj_arcsec": 0.040560532361279995,
+   "bmin_arcsec": 0.021662892773748,
+   "bpa_deg": 70.447265625,
+   "object": "DoAr_25",
+   "frequency_hz": 238983937909.4,
+   "bunit": "Jy/beam"
+  }
+ },
+ {
+  "name": "DoAr33",
+  "sigma_jy_beam": 1.6690040284447603e-05,
+  "peak_over_sigma": 113.32905578613281,
+  "crop_px": [
+   400,
+   400
+  ],
+  "info": {
+   "pixel_arcsec": 0.00299999999999988,
+   "bmaj_arcsec": 0.036760959774252,
+   "bmin_arcsec": 0.024472158402204,
+   "bpa_deg": 75.11975097656,
+   "object": "DoAr_33",
+   "frequency_hz": 238983831306.8,
+   "bunit": "Jy/beam"
+  }
+ },
+ {
+  "name": "Elias20",
+  "sigma_jy_beam": 1.532604922504106e-05,
+  "peak_over_sigma": 169.08323669433594,
+  "crop_px": [
+   467,
+   467
+  ],
+  "info": {
+   "pixel_arcsec": 0.00299999999999988,
+   "bmaj_arcsec": 0.031557384878396405,
+   "bmin_arcsec": 0.023259941488504802,
+   "bpa_deg": 76.26580047607,
+   "object": "Elias_20",
+   "frequency_hz": 238983921785.3,
+   "bunit": "Jy/beam"
+  }
+ },
+ {
+  "name": "Elias24",
+  "sigma_jy_beam": 1.9239839904548715e-05,
+  "peak_over_sigma": 240.72732543945312,
+  "crop_px": [
+   851,
+   851
+  ],
+  "info": {
+   "pixel_arcsec": 0.00299999999999988,
+   "bmaj_arcsec": 0.036753524094816005,
+   "bmin_arcsec": 0.0342671573162088,
+   "bpa_deg": 81.61357879639,
+   "object": "Elias_24",
+   "frequency_hz": 231943014843.0,
+   "bunit": "Jy/beam"
+  }
+ },
+ {
+  "name": "Elias27",
+  "sigma_jy_beam": 1.4468542410395456e-05,
+  "peak_over_sigma": 334.47296142578125,
+  "crop_px": [
+   1286,
+   1286
+  ],
+  "info": {
+   "pixel_arcsec": 0.00299999999999988,
+   "bmaj_arcsec": 0.048696409910916005,
+   "bmin_arcsec": 0.047458536922944,
+   "bpa_deg": 47.19633865356,
+   "object": "Elia_2-27",
+   "frequency_hz": 231943054486.5,
+   "bunit": "Jy/beam"
+  }
+ },
+ {
+  "name": "GWLup",
+  "sigma_jy_beam": 1.4920839175829315e-05,
+  "peak_over_sigma": 224.7650604248047,
+  "crop_px": [
+   1340,
+   1340
+  ],
+  "info": {
+   "pixel_arcsec": 0.00299999999999988,
+   "bmaj_arcsec": 0.04450495541094,
+   "bmin_arcsec": 0.0427388548851,
+   "bpa_deg": 0.5454711914062,
+   "object": "GW_Lup",
+   "frequency_hz": 238984151077.4,
+   "bunit": "Jy/beam"
+  }
+ },
+ {
+  "name": "HD142666",
+  "sigma_jy_beam": 1.2969499313476263e-05,
+  "peak_over_sigma": 98.8064956665039,
+  "crop_px": [
+   427,
+   427
+  ],
+  "info": {
+   "pixel_arcsec": 0.00299999999999988,
+   "bmaj_arcsec": 0.0310530588030828,
+   "bmin_arcsec": 0.022180821746587198,
+   "bpa_deg": 62.64360046387,
+   "object": "HD_142666",
+   "frequency_hz": 231943926873.5,
+   "bunit": "Jy/beam"
+  }
+ },
+ {
+  "name": "HD143006",
+  "sigma_jy_beam": 1.0710073170412215e-05,
+  "peak_over_sigma": 62.86933898925781,
+  "crop_px": [
+   493,
+   493
+  ],
+  "info": {
+   "pixel_arcsec": 0.00299999999999988,
+   "bmaj_arcsec": 0.053123883903036004,
+   "bmin_arcsec": 0.036233063787204,
+   "bpa_deg": 84.02376556396,
+   "object": "HD143006",
+   "frequency_hz": 238984984351.3,
+   "bunit": "Jy/beam"
+  }
+ },
+ {
+  "name": "HD163296",
+  "sigma_jy_beam": 2.2482229565503074e-05,
+  "peak_over_sigma": 189.6846160888672,
+  "crop_px": [
+   1264,
+   1264
+  ],
+  "info": {
+   "pixel_arcsec": 0.00299999999999988,
+   "bmaj_arcsec": 0.04780117049814,
+   "bmin_arcsec": 0.038347933441392,
+   "bpa_deg": 81.72735595703,
+   "object": "HD_163296",
+   "frequency_hz": 238983141759.7,
+   "bunit": "Jy/beam"
+  }
+ },
+ {
+  "name": "HTLup",
+  "sigma_jy_beam": 1.4066081783130356e-05,
+  "peak_over_sigma": 586.8482666015625,
+  "crop_px": [
+   400,
+   400
+  ],
+  "info": {
+   "pixel_arcsec": 0.00299999999999988,
+   "bmaj_arcsec": 0.038042947649951996,
+   "bmin_arcsec": 0.0330870300531372,
+   "bpa_deg": 61.46000671387,
+   "object": "HT_Lup",
+   "frequency_hz": 238984170527.2,
+   "bunit": "Jy/beam"
+  }
+ },
+ {
+  "name": "IMLup",
+  "sigma_jy_beam": 1.3613121596608835e-05,
+  "peak_over_sigma": 522.0176391601562,
+  "crop_px": [
+   1165,
+   1165
+  ],
+  "info": {
+   "pixel_arcsec": 0.00299999999999988,
+   "bmaj_arcsec": 0.044049590826048,
+   "bmin_arcsec": 0.043493259698136,
+   "bpa_deg": -64.94508361816,
+   "object": "im_lup",
+   "frequency_hz": 238984178160.7,
+   "bunit": "Jy/beam"
+  }
+ },
+ {
+  "name": "MYLup",
+  "sigma_jy_beam": 1.5688678967126177e-05,
+  "peak_over_sigma": 113.72205352783203,
+  "crop_px": [
+   515,
+   515
+  ],
+  "info": {
+   "pixel_arcsec": 0.00299999999999988,
+   "bmaj_arcsec": 0.04364801570772,
+   "bmin_arcsec": 0.043140880763532,
+   "bpa_deg": -58.15976715088,
+   "object": "MY_Lup",
+   "frequency_hz": 238984112270.8,
+   "bunit": "Jy/beam"
+  }
+ },
+ {
+  "name": "RULup",
+  "sigma_jy_beam": 2.046901894464099e-05,
+  "peak_over_sigma": 168.43263244628906,
+  "crop_px": [
+   408,
+   408
+  ],
+  "info": {
+   "pixel_arcsec": 0.00299999999999988,
+   "bmaj_arcsec": 0.0247355308383696,
+   "bmin_arcsec": 0.0243574194610116,
+   "bpa_deg": -51.00969696045,
+   "object": "RU_Lup",
+   "frequency_hz": 238983926078.9,
+   "bunit": "Jy/beam"
+  }
+ },
+ {
+  "name": "SR4",
+  "sigma_jy_beam": 2.5013728472185903e-05,
+  "peak_over_sigma": 135.8804473876953,
+  "crop_px": [
+   400,
+   400
+  ],
+  "info": {
+   "pixel_arcsec": 0.00299999999999988,
+   "bmaj_arcsec": 0.03444890677929,
+   "bmin_arcsec": 0.034017704427243604,
+   "bpa_deg": 10.11346435547,
+   "object": "SR_4",
+   "frequency_hz": 238983969289.5,
+   "bunit": "Jy/beam"
+  }
+ },
+ {
+  "name": "Sz114",
+  "sigma_jy_beam": 1.88205658676452e-05,
+  "peak_over_sigma": 178.74900817871094,
+  "crop_px": [
+   400,
+   400
+  ],
+  "info": {
+   "pixel_arcsec": 0.00299999999999988,
+   "bmaj_arcsec": 0.06659089773894,
+   "bmin_arcsec": 0.028354816138744802,
+   "bpa_deg": -88.04023742676,
+   "object": "Sz_114",
+   "frequency_hz": 238983431901.9,
+   "bunit": "Jy/beam"
+  }
+ },
+ {
+  "name": "Sz129",
+  "sigma_jy_beam": 1.535330342630914e-05,
+  "peak_over_sigma": 62.25406265258789,
+  "crop_px": [
+   464,
+   464
+  ],
+  "info": {
+   "pixel_arcsec": 0.00299999999999988,
+   "bmaj_arcsec": 0.043808173388244,
+   "bmin_arcsec": 0.0313089266419416,
+   "bpa_deg": -86.1890411377,
+   "object": "Sz_129",
+   "frequency_hz": 238984184786.4,
+   "bunit": "Jy/beam"
+  }
+ },
+ {
+  "name": "WSB52",
+  "sigma_jy_beam": 1.5507025643455562e-05,
+  "peak_over_sigma": 167.6394805908203,
+  "crop_px": [
+   400,
+   400
+  ],
+  "info": {
+   "pixel_arcsec": 0.00299999999999988,
+   "bmaj_arcsec": 0.0330773070454596,
+   "bmin_arcsec": 0.026863139122725598,
+   "bpa_deg": 74.1050491333,
+   "object": "WSB_52",
+   "frequency_hz": 238983892671.1,
+   "bunit": "Jy/beam"
+  }
+ },
+ {
+  "name": "WaOph6",
+  "sigma_jy_beam": 1.7044997534685535e-05,
+  "peak_over_sigma": 508.8974914550781,
+  "crop_px": [
+   844,
+   844
+  ],
+  "info": {
+   "pixel_arcsec": 0.00299999999999988,
+   "bmaj_arcsec": 0.058428306132551996,
+   "bmin_arcsec": 0.053625315427775995,
+   "bpa_deg": 84.2801361084,
+   "object": "Wa_Oph_6",
+   "frequency_hz": 238985982831.2,
+   "bunit": "Jy/beam"
+  }
+ }
+]
