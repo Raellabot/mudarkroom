@@ -486,6 +486,9 @@ FINISH = {
     "smacs0723": {"box": (0.0, 1.0, 0.55, 1.0), "dense": 0.97},   # the cluster half; the other module's field is left out
     "ngc602-multi": {"nofill": True, "destripe": (288, 75), "black": 50, "xray_dim": (0.55, 40)},   # the brightest X-ray source is dimmed by 55% over a 40 px radius
     "ngc3324-multi": {"nofill": True, "black": 50},   # the Cosmic Cliffs; black point and X-ray dimming are tuned on the exported samples
+    "hltau-hst-narrow": {"nofill": True, "black": 30, "sky": (67.9102, 18.2327, 14.0), "upscale": 3},   # HL Tau on the WFPC2 PC chip
+    "hltau-hst-wide": {"nofill": True, "black": 30, "sky": (67.9102, 18.2327, 14.0), "upscale": 3},
+    "hltau-webb": {"nofill": True, "black": 10, "upscale": 8},
     "ngc3324-nircam": {"nofill": True, "black": 50, "xray_sig": 3.0},   # the Cosmic Cliffs, NIRCam only; the X-ray layer keeps only sources above S/N 3 (a 69 ks exposure)
 }
 
@@ -751,6 +754,18 @@ def main():
             log(f"{label}: samples saved ({small[0].shape[1]}x{small[0].shape[0]} px per filter)")
             continue
         fin = FINISH.get(label) if FINISH_ON else None
+        if fin and fin.get("sky"):   # crop to a square of half-width `half` arcsec around a sky position (RA, Dec in degrees)
+            ra, dec, half = fin["sky"]
+            gw = WCS(fits.Header.fromstring(grid["wcs"]))
+            cx, cy = gw.world_to_pixel_values(ra, dec)
+            r = int(round(half / scale_of(gw)))
+            cy, cx = int(round(float(cy))), int(round(float(cx)))
+            y0, y1, x0, x1 = max(0, cy - r), min(raw[0].shape[0], cy + r), max(0, cx - r), min(raw[0].shape[1], cx + r)
+            if xr is not None:
+                log(f"{label}: the X-ray layer cannot follow a crop by sky position; the set is skipped")
+                continue
+            raw = aligned = [x[y0:y1, x0:x1] for x in raw]
+            log(f"{label}: cropped to {x1 - x0}x{y1 - y0} px around RA {ra} Dec {dec}")
         if fin:
             raw = aligned = finish_arrays(raw, fin, float(os.environ.get("FINISH_SCALE", "1")))
             black = fin.get("black", black)
