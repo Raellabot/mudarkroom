@@ -1,0 +1,15 @@
+field imlup: ra 239.0383 dec -37.935 radius 0.05 deg
+== Chandra (Chandra Data Archive)
+1 public observations within 0.05 deg
+obsid 9938 | IMLUP | ACIS-S | grating HETG | TE | 141.9 ks | events 2519690 | proposal 10200283 | released 2010-05-12 | 239.0383 -37.9351 | evt2 name unknown
+imaging exposure without a grating: 0.0 ks in total
+== Hubble and Webb (MAST)
+209 rows from MAST, 42 public single-filter level-3 image mosaics
+HST|10852 | SZ-82 | NICMOS/NIC2 | 4 filters | total 0.0 GB | F110W 0.00 GB 96 s, POL0L 0.00 GB 768 s, POL120L 0.00 GB 768 s, POL240L 0.00 GB 768 s
+HST|12036 | ANY | WFC3/IR | 4 filters | total 0.1 GB | detection 0.02 GB 2665 s, F098M 0.02 GB 2665 s, F125W 0.02 GB 653 s, F160W 0.02 GB 453 s
+HST|7387 | SZ-82 | WFPC2/PC | 3 filters | total 0.8 GB | detection 0.25 GB 195 s, F606W 0.25 GB 108 s, F814W 0.25 GB 87 s
+HST|None | ANY | WFC3/IR | 3 filters | total 0.7 GB | F098M 0.24 GB 2665 s, F125W 0.24 GB 653 s, F160W 0.24 GB 453 s
+HST|12036 | ANY | WFC3/UVIS | 2 filters | total 0.8 GB | detection 0.38 GB 956 s, F600LP 0.38 GB 956 s
+HST|10177 | SZ-82 | NICMOS/NIC2 | 1 filters | total 0.0 GB | F160W 0.00 GB 448 s
+HST|None | ANY | WFC3/UVIS | 1 filters | total 0.2 GB | F600LP 0.24 GB 956 s
+JWST|1282 | THA-15-12 | MIRI/IMAGE | 1 filters | total 0.0 GB | F1280W 0.03 GB 1832 s
