@@ -1,0 +1,72 @@
+field ngc602: ra 22.35 dec -73.56 radius 0.25 deg
+== Chandra (Chandra Data Archive)
+15 public observations within 0.25 deg
+obsid 10985 | NGC602 | ACIS-I | grating NONE | TE | 10.0 ks | events 77521 | proposal 11200169 | released 2011-04-30 | 22.3017 -73.5338 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao11/cat2/10985/primary/acisf10985N004_evt2.fits.gz
+    image acisf10985N004_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf10985N004_full_img2.fits | 0.2-20.0 keV | 0.4 MB
+obsid 10986 | NGC602 | ACIS-I | grating NONE | TE | 33.6 ks | events 253487 | proposal 11200169 | released 2011-04-30 | 22.3017 -73.5338 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao11/cat2/10986/primary/acisf10986N003_evt2.fits.gz
+    image acisf10986N003_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf10986N003_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 11978 | NGC602 | ACIS-I | grating NONE | TE | 31.7 ks | events 237144 | proposal 11200169 | released 2011-04-30 | 22.3017 -73.5338 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao11/cat2/11978/primary/acisf11978N003_evt2.fits.gz
+    image acisf11978N003_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf11978N003_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 11979 | NGC602 | ACIS-I | grating NONE | TE | 35.6 ks | events 269539 | proposal 11200169 | released 2011-04-30 | 22.3017 -73.5338 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao11/cat2/11979/primary/acisf11979N003_evt2.fits.gz
+    image acisf11979N003_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf11979N003_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 11988 | NGC602 | ACIS-I | grating NONE | TE | 33.1 ks | events 250024 | proposal 11200169 | released 2011-04-30 | 22.3017 -73.5338 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao11/cat2/11988/primary/acisf11988N003_evt2.fits.gz
+    image acisf11988N003_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf11988N003_full_img2.fits | 0.2-20.0 keV | 0.4 MB
+obsid 11989 | NGC602 | ACIS-I | grating NONE | TE | 26.8 ks | events 203129 | proposal 11200169 | released 2011-04-30 | 22.3017 -73.5338 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao11/cat2/11989/primary/acisf11989N003_evt2.fits.gz
+    image acisf11989N003_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf11989N003_full_img2.fits | 0.2-20.0 keV | 0.4 MB
+obsid 12130 | NGC602 | ACIS-I | grating NONE | TE | 25.4 ks | events 194967 | proposal 11200169 | released 2011-04-30 | 22.3017 -73.5338 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao11/cat2/12130/primary/acisf12130N003_evt2.fits.gz
+    image acisf12130N003_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf12130N003_full_img2.fits | 0.2-20.0 keV | 0.4 MB
+obsid 12131 | NGC602 | ACIS-I | grating NONE | TE | 24.7 ks | events 187850 | proposal 11200169 | released 2011-04-30 | 22.3017 -73.5338 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao11/cat2/12131/primary/acisf12131N003_evt2.fits.gz
+    image acisf12131N003_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf12131N003_full_img2.fits | 0.2-20.0 keV | 0.4 MB
+obsid 12134 | NGC602 | ACIS-I | grating NONE | TE | 32.7 ks | events 240454 | proposal 11200169 | released 2011-04-30 | 22.3017 -73.5338 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao11/cat2/12134/primary/acisf12134N003_evt2.fits.gz
+    image acisf12134N003_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf12134N003_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 12136 | NGC602 | ACIS-I | grating NONE | TE | 20.5 ks | events 151723 | proposal 11200169 | released 2011-04-30 | 22.3017 -73.5338 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao11/cat2/12136/primary/acisf12136N003_evt2.fits.gz
+    image acisf12136N003_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf12136N003_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 12207 | NGC602 | ACIS-I | grating NONE | TE | 17.4 ks | events 131323 | proposal 11200169 | released 2011-04-30 | 22.3017 -73.5338 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao11/cat2/12207/primary/acisf12207N003_evt2.fits.gz
+    image acisf12207N003_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf12207N003_full_img2.fits | 0.2-20.0 keV | 0.4 MB
+obsid 15784 | SXP1062 | ACIS-S | grating NONE | CC | 30.1 ks | events 80285 | proposal 15400475 | released 2015-06-22 | 21.9413 -73.5490 | evt2 name unknown
+obsid 15785 | SXP1062 | ACIS-I | grating NONE | TE | 27.5 ks | events 7547 | proposal 15400475 | released 2015-06-30 | 21.9413 -73.5490 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao15/cat4/15785/primary/acisf15785N003_evt2.fits.gz
+    image acisf15785N003_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf15785N003_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 15786 | SXP1062 | ACIS-I | grating NONE | TE | 26.9 ks | events 6584 | proposal 15400475 | released 2015-07-10 | 21.9413 -73.5490 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao15/cat4/15786/primary/acisf15786N003_evt2.fits.gz
+    image acisf15786N003_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf15786N003_full_img2.fits | 0.2-20.0 keV | 0.0 MB
+obsid 15787 | SXP1062 | ACIS-I | grating NONE | TE | 25.6 ks | events 5244 | proposal 15400475 | released 2015-07-21 | 21.9413 -73.5490 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao15/cat4/15787/primary/acisf15787N002_evt2.fits.gz
+    image acisf15787N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf15787N002_full_img2.fits | 0.2-20.0 keV | 0.0 MB
+imaging exposure without a grating: 401.8 ks in total
+== Hubble and Webb (MAST)
+3969 rows from MAST, 213 public single-filter level-3 image mosaics
+HST|None | ANY | WFC3/IR | 6 filters | total 7.9 GB | F105W 0.06 GB 1806 s, F110W 3.38 GB 29 s, F125W 0.52 GB 1726 s, F140W 0.06 GB 1456 s, F153M 3.38 GB 26 s, F160W 0.52 GB 2479 s
+HST|None | ANY | WFC3/UVIS | 6 filters | total 8.9 GB | F225W 0.52 GB 697 s, F275W 0.52 GB 1296 s, F336W 0.52 GB 3327 s, F475W 3.38 GB 2365 s, F350LP 0.52 GB 1695 s, F814W 3.38 GB 2563 s
+HST|16235 | ANY | WFC3/UVIS | 6 filters | total 2.2 GB | detection 0.41 GB 2072 s, F225W 0.41 GB 1392 s, F275W 0.41 GB 1296 s, F336W 0.26 GB 2016 s, F475W 0.26 GB 1394 s, F814W 0.41 GB 965 s
+HST|16928 | ANY | WFC3/IR | 5 filters | total 0.1 GB | detection 0.02 GB 69 s, F110W 0.01 GB 15 s, F125W 0.01 GB 21 s, F153M 0.01 GB 13 s, F160W 0.01 GB 21 s
+HST|13767 | ANY | WFC3/IR | 5 filters | total 0.1 GB | detection 0.02 GB 3162 s, F105W 0.01 GB 903 s, F125W 0.01 GB 903 s, F140W 0.01 GB 803 s, F160W 0.01 GB 703 s
+HST|10248 | NGC602 | ACS/WFC | 4 filters | total 0.9 GB | detection 0.23 GB 4420 s, F555W 0.23 GB 2153 s, F658N 0.22 GB 1908 s, F814W 0.23 GB 2267 s
+HST|7282 | SMC8 | WFPC2/PC | 4 filters | total 1.0 GB | detection 0.26 GB 52 s, F336W 0.26 GB 20 s, F439W 0.26 GB 24 s, F555W 0.26 GB 8 s
+HST|15354 | NGC602 | ACS/WFC | 3 filters | total 0.7 GB | detection 0.24 GB 4305 s, F555W 0.24 GB 2153 s, F814W 0.24 GB 2152 s
+HST|9891 | NGC602 | ACS/WFC | 3 filters | total 1.2 GB | detection 0.39 GB 58 s, F555W 0.39 GB 29 s, F814W 0.39 GB 29 s
+HST|None | NGC602 | ACS/WFC | 3 filters | total 10.1 GB | F555W 3.38 GB 4338 s, F658N 3.38 GB 1908 s, F814W 3.38 GB 4450 s
+HST|10248 | NGC602.POS2 | ACS/HRC | 3 filters | total 0.1 GB | detection 0.04 GB 1740 s, F220W 0.04 GB 1340 s, F330W 0.04 GB 400 s
+HST|16786 | ANY | WFC3/UVIS | 3 filters | total 1.2 GB | detection 0.39 GB 2365 s, F475W 0.39 GB 2365 s, F814W 0.39 GB 2080 s
+HST|10248 | ANY | ACS/WFC | 3 filters | total 0.7 GB | detection 0.22 GB 1665 s, F555W 0.22 GB 1665 s, F814W 0.21 GB 556 s
+HST|16235 | ANY | WFC3/IR | 3 filters | total 0.1 GB | detection 0.02 GB 499 s, F110W 0.02 GB 299 s, F160W 0.02 GB 499 s
+HST|10248 | ANY | NICMOS/NIC1 | 2 filters | total 0.0 GB | F110W 0.00 GB 256 s, F160W 0.00 GB 384 s
+HST|10248 | NGC602.POS1 | ACS/HRC | 2 filters | total 0.0 GB | F220W 0.02 GB 630 s, F330W 0.02 GB 180 s
+HST|10248 | NGC602 | NICMOS/NIC2 | 2 filters | total 0.0 GB | F110W 0.00 GB 256 s, F160W 0.00 GB 384 s
+HST|13767 | ANY | WFC3/UVIS | 2 filters | total 0.6 GB | detection 0.42 GB 1695 s, F350LP 0.22 GB 1695 s
+HST|6253 | PAR | WFPC2/PC | 2 filters | total 0.5 GB | detection 0.24 GB 3500 s, F300W 0.24 GB 3500 s
+JWST|2662 | NGC-602 | NIRCAM/IMAGE | 8 filters | total 12.2 GB | F115W 2.57 GB 1288 s, F140M 2.57 GB 1288 s, F150W 2.57 GB 1288 s, F210M 2.57 GB 1288 s, F277W 0.48 GB 1288 s, F335M 0.48 GB 1288 s, F356W 0.48 GB 1288 s, F480M 0.48 GB 1288 s
+JWST|2662 | NGC-602 | MIRI/IMAGE | 5 filters | total 0.5 GB | F770W 0.10 GB 1332 s, F1000W 0.10 GB 1332 s, F1130W 0.10 GB 1776 s, F1500W 0.10 GB 1332 s, F2550W 0.10 GB 3685 s
+JWST|7035 | NGC-602 | NIRCAM/IMAGE | 5 filters | total 11.3 GB | F140M 4.79 GB 41745 s, F182M 4.79 GB 41745 s, F277W 0.57 GB 41745 s, F360M 0.57 GB 41745 s, F444W 0.57 GB 41745 s
+JWST|2662 | MIRI-background | MIRI/IMAGE | 5 filters | total 0.2 GB | F770W 0.04 GB 333 s, F1000W 0.04 GB 333 s, F1130W 0.04 GB 444 s, F1500W 0.04 GB 333 s, F2550W 0.04 GB 921 s
