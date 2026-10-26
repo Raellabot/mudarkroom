@@ -1,0 +1,6 @@
+  page 1/1 rows so far 14 of 14
+HST|HLTAU|5472|WFPC2/PC|3  rows=14  filters=['F547M', 'F631N', 'F656N', 'F673N', 'detection']
+  page 1/1 rows so far 7 of 7
+HST|HL-TAU|5204|WFPC2/PC|3  rows=7  filters=['F555W', 'F675W', 'F814W', 'detection']
+  page 1/1 rows so far 8 of 8
+JWST|HL-TAU|1179|NIRCAM/IMAGE|3  rows=8  filters=['F187N', 'F200W', 'F410M', 'F444W;F405N']

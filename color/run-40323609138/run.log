@@ -1,0 +1,17 @@
+[     0s] == hltau-hst-narrow: 4 filters: ['F547M', 'F631N', 'F656N', 'F673N']
+[     0s] aligned arrays found in the cache; no download
+[     0s] hltau-hst-narrow: cropped to 308x308 px around RA 67.9102 Dec 18.2327
+[     0s] hltau-hst-narrow: finishing steps applied: ['black', 'nofill', 'sky', 'upscale']
+[     0s] cropped to 308x308 px where 4 of 4 filters have data
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/astropy/visualization/lupton_rgb.py:645: RuntimeWarning: invalid value encountered in divide
+  fInorm = np.where(Int <= 0, 0, np.true_divide(fI, Int))
+[     0s] == hltau-hst-wide: 3 filters: ['F555W', 'F675W', 'F814W']
+[     0s] aligned arrays found in the cache; no download
+[     0s] hltau-hst-wide: cropped to 308x308 px around RA 67.9102 Dec 18.2327
+[     0s] hltau-hst-wide: finishing steps applied: ['black', 'nofill', 'sky', 'upscale']
+[     0s] cropped to 308x308 px where 3 of 3 filters have data
+[     1s] == hltau-webb: 3 filters: ['F187N', 'F200W', 'F410M']
+[     1s] aligned arrays found in the cache; no download
+[     1s] hltau-webb: finishing steps applied: ['black', 'nofill', 'upscale']
+[     1s] cropped to 88x88 px where 3 of 3 filters have data
+[     1s] done: 3 pictures
