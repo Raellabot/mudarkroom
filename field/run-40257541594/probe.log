@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/home/runner/work/mudarkroom/mudarkroom/scripts/field/probe_field.py", line 5, in <module>
+    from chandra_events import event_url, get_text, size_of, tap
+  File "/home/runner/work/mudarkroom/mudarkroom/scripts/field/chandra_events.py", line 3, in <module>
+    from astropy.io import fits
+ModuleNotFoundError: No module named 'astropy'
