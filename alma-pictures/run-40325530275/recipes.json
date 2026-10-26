@@ -1,0 +1,302 @@
+[
+ {
+  "name": "AA Tau",
+  "program": "exoalma",
+  "file": "AA_Tau.fits",
+  "sigma_jy_beam": 2.1066054774200893e-05,
+  "peak_over_sigma": 162.43263244628906,
+  "crop_px": [
+   400,
+   400
+  ],
+  "info": {
+   "pixel_arcsec": 0.009999999997739999,
+   "bmaj_arcsec": 0.09502037614584,
+   "bmin_arcsec": 0.075042635202396,
+   "bpa_deg": -20.19578361511,
+   "object": "AA_Tau",
+   "frequency_hz": 330587965000.0,
+   "bunit": "Jy/beam"
+  }
+ },
+ {
+  "name": "CQ Tau",
+  "program": "exoalma",
+  "file": "CQ_Tau.fits",
+  "sigma_jy_beam": 2.5457033994098308e-05,
+  "peak_over_sigma": 541.6299438476562,
+  "crop_px": [
+   400,
+   400
+  ],
+  "info": {
+   "pixel_arcsec": 0.015000000006924,
+   "bmaj_arcsec": 0.111232399940496,
+   "bmin_arcsec": 0.07749233394861599,
+   "bpa_deg": -29.23001098633,
+   "object": "CQ_Tau",
+   "frequency_hz": 330587965000.0,
+   "bunit": "Jy/beam"
+  }
+ },
+ {
+  "name": "DM Tau",
+  "program": "exoalma",
+  "file": "DM_Tau.fits",
+  "sigma_jy_beam": 1.88518585773636e-05,
+  "peak_over_sigma": 248.33848571777344,
+  "crop_px": [
+   518,
+   518
+  ],
+  "info": {
+   "pixel_arcsec": 0.0100000000000008,
+   "bmaj_arcsec": 0.092205055058004,
+   "bmin_arcsec": 0.077390320599072,
+   "bpa_deg": -14.73953819275,
+   "object": "DM_Tau",
+   "frequency_hz": 330587965300.0,
+   "bunit": "Jy/beam"
+  }
+ },
+ {
+  "name": "HD 135344B",
+  "program": "exoalma",
+  "file": "HD_135344B.fits",
+  "sigma_jy_beam": 2.3093054305718397e-05,
+  "peak_over_sigma": 717.797607421875,
+  "crop_px": [
+   400,
+   400
+  ],
+  "info": {
+   "pixel_arcsec": 0.0150000000000012,
+   "bmaj_arcsec": 0.16336795687675199,
+   "bmin_arcsec": 0.12964583933352,
+   "bpa_deg": -77.52468109131,
+   "object": "HD_135344B",
+   "frequency_hz": 330587965300.0,
+   "bunit": "Jy/beam"
+  }
+ },
+ {
+  "name": "HD 143006",
+  "program": "exoalma",
+  "file": "HD_143006.fits",
+  "sigma_jy_beam": 2.490681250055786e-05,
+  "peak_over_sigma": 269.5294189453125,
+  "crop_px": [
+   400,
+   400
+  ],
+  "info": {
+   "pixel_arcsec": 0.015000000006924,
+   "bmaj_arcsec": 0.142781943082824,
+   "bmin_arcsec": 0.10331339389084801,
+   "bpa_deg": -75.8985748291,
+   "object": "HD_143006",
+   "frequency_hz": 330587965000.0,
+   "bunit": "Jy/beam"
+  }
+ },
+ {
+  "name": "HD 34282",
+  "program": "exoalma",
+  "file": "HD_34282.fits",
+  "sigma_jy_beam": 1.8123992603432268e-05,
+  "peak_over_sigma": 337.36199951171875,
+  "crop_px": [
+   400,
+   400
+  ],
+  "info": {
+   "pixel_arcsec": 0.009999999997739999,
+   "bmaj_arcsec": 0.087117046117776,
+   "bmin_arcsec": 0.069613285362732,
+   "bpa_deg": -81.91342163086,
+   "object": "HD34282",
+   "frequency_hz": 330587965000.0,
+   "bunit": "Jy/beam"
+  }
+ },
+ {
+  "name": "J1604-2130",
+  "program": "exoalma",
+  "file": "J1604_2130.fits",
+  "sigma_jy_beam": 1.9202914857669384e-05,
+  "peak_over_sigma": 260.7064514160156,
+  "crop_px": [
+   400,
+   400
+  ],
+  "info": {
+   "pixel_arcsec": 0.015000000006924,
+   "bmaj_arcsec": 0.14303576946257998,
+   "bmin_arcsec": 0.117007717490208,
+   "bpa_deg": -83.49554443359,
+   "object": "RXJ1604.3-2130",
+   "frequency_hz": 330587965000.0,
+   "bunit": "Jy/beam"
+  }
+ },
+ {
+  "name": "J1615-3255",
+  "program": "exoalma",
+  "file": "J1615_3255.fits",
+  "sigma_jy_beam": 1.566234573456313e-05,
+  "peak_over_sigma": 1146.7398681640625,
+  "crop_px": [
+   400,
+   400
+  ],
+  "info": {
+   "pixel_arcsec": 0.0150000000000012,
+   "bmaj_arcsec": 0.182337328791612,
+   "bmin_arcsec": 0.157122045755388,
+   "bpa_deg": -85.42817687988,
+   "object": "RXJ1615.3-3255",
+   "frequency_hz": 330587965300.0,
+   "bunit": "Jy/beam"
+  }
+ },
+ {
+  "name": "J1842-3532",
+  "program": "exoalma",
+  "file": "J1842_3532.fits",
+  "sigma_jy_beam": 2.3232281041782698e-05,
+  "peak_over_sigma": 298.7164001464844,
+  "crop_px": [
+   400,
+   400
+  ],
+  "info": {
+   "pixel_arcsec": 0.0150000000000012,
+   "bmaj_arcsec": 0.143778204917892,
+   "bmin_arcsec": 0.113923341035856,
+   "bpa_deg": 83.32727050781,
+   "object": "RXJ1842.9-3532",
+   "frequency_hz": 330587965300.0,
+   "bunit": "Jy/beam"
+  }
+ },
+ {
+  "name": "J1852-3700",
+  "program": "exoalma",
+  "file": "J1852_3700.fits",
+  "sigma_jy_beam": 2.0028930745320393e-05,
+  "peak_over_sigma": 406.72247314453125,
+  "crop_px": [
+   400,
+   400
+  ],
+  "info": {
+   "pixel_arcsec": 0.0150000000000012,
+   "bmaj_arcsec": 0.147509872913376,
+   "bmin_arcsec": 0.112917892634856,
+   "bpa_deg": 77.3493347168,
+   "object": "RXJ1852.3-3700",
+   "frequency_hz": 330587965300.0,
+   "bunit": "Jy/beam"
+  }
+ },
+ {
+  "name": "LkCa 15",
+  "program": "exoalma",
+  "file": "LkCa_15.fits",
+  "sigma_jy_beam": 1.6462078281074354e-05,
+  "peak_over_sigma": 284.834716796875,
+  "crop_px": [
+   410,
+   410
+  ],
+  "info": {
+   "pixel_arcsec": 0.0100000000000008,
+   "bmaj_arcsec": 0.10272213071586,
+   "bmin_arcsec": 0.078351520001904,
+   "bpa_deg": -29.53339576721,
+   "object": "LkCa15",
+   "frequency_hz": 330587965300.0,
+   "bunit": "Jy/beam"
+  }
+ },
+ {
+  "name": "MWC 758",
+  "program": "exoalma",
+  "file": "MWC_758.fits",
+  "sigma_jy_beam": 3.0884570907801385e-05,
+  "peak_over_sigma": 360.7241516113281,
+  "crop_px": [
+   400,
+   400
+  ],
+  "info": {
+   "pixel_arcsec": 0.0150000000000012,
+   "bmaj_arcsec": 0.15468703210353602,
+   "bmin_arcsec": 0.105534762144084,
+   "bpa_deg": -49.62554931641,
+   "object": "MWC758",
+   "frequency_hz": 330587965300.0,
+   "bunit": "Jy/beam"
+  }
+ },
+ {
+  "name": "PDS 66",
+  "program": "exoalma",
+  "file": "PDS_66.fits",
+  "sigma_jy_beam": 2.5801686642807905e-05,
+  "peak_over_sigma": 1242.2152099609375,
+  "crop_px": [
+   400,
+   400
+  ],
+  "info": {
+   "pixel_arcsec": 0.015000000006924,
+   "bmaj_arcsec": 0.13952571153642,
+   "bmin_arcsec": 0.11034020036458801,
+   "bpa_deg": 5.413116455078,
+   "object": "PDS_66",
+   "frequency_hz": 330587965000.0,
+   "bunit": "Jy/beam"
+  }
+ },
+ {
+  "name": "SY Cha",
+  "program": "exoalma",
+  "file": "SY_Cha.fits",
+  "sigma_jy_beam": 3.073104286268062e-05,
+  "peak_over_sigma": 90.62008666992188,
+  "crop_px": [
+   400,
+   400
+  ],
+  "info": {
+   "pixel_arcsec": 0.0150000000000012,
+   "bmaj_arcsec": 0.129570618271824,
+   "bmin_arcsec": 0.096978016197684,
+   "bpa_deg": -12.78563308716,
+   "object": "SY_Cha",
+   "frequency_hz": 330587965300.0,
+   "bunit": "Jy/beam"
+  }
+ },
+ {
+  "name": "V4046 Sgr",
+  "program": "exoalma",
+  "file": "V4046_Sgr.fits",
+  "sigma_jy_beam": 1.5515817321283976e-05,
+  "peak_over_sigma": 757.8369140625,
+  "crop_px": [
+   467,
+   467
+  ],
+  "info": {
+   "pixel_arcsec": 0.0100000000000008,
+   "bmaj_arcsec": 0.13672757148742798,
+   "bmin_arcsec": 0.119159482419504,
+   "bpa_deg": -79.90096282959,
+   "object": "V4046_Sgr",
+   "frequency_hz": 330587965300.0,
+   "bunit": "Jy/beam"
+  }
+ }
+]
