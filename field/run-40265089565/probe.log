@@ -1,0 +1,16 @@
+field pds70: ra 212.0423 dec -41.3979 radius 0.05 deg
+== Chandra (Chandra Data Archive)
+0 public observations within 0.05 deg
+imaging exposure without a grating: 0.0 ks in total
+== Hubble and Webb (MAST)
+535 rows from MAST, 269 public single-filter level-3 image mosaics
+HST|12507 | PDS70 | WFC3/UVIS | 10 filters | total 0.2 GB | detection 0.02 GB 1040 s, F336W 0.02 GB 300 s, F390W 0.02 GB 80 s, F475W 0.02 GB 50 s, F555W 0.02 GB 40 s, F625W 0.02 GB 30 s, F656N 0.02 GB 360 s, F673N 0.02 GB 120 s, F775W 0.02 GB 40 s, F850LP 0.02 GB 20 s
+HST|15830 | V-V1032-CEN | WFC3/UVIS | 3 filters | total 0.0 GB | detection 0.01 GB 1380 s, F336W 0.01 GB 1200 s, F656N 0.01 GB 180 s
+HST|17127 | CD-40-8434 | ACS/SBC | 2 filters | total 0.1 GB | detection 0.05 GB 120 s, F150LP 0.05 GB 120 s
+HST|17427 | CD-40-8434 | WFC3/UVIS | 2 filters | total 0.0 GB | detection 0.00 GB 1560 s, F656N 0.00 GB 1560 s
+HST|17768 | PDS70 | WFC3/UVIS | 2 filters | total 0.0 GB | detection 0.01 GB 1416 s, F656N 0.01 GB 1416 s
+HST|None | V-V1032-CEN | WFC3/UVIS | 2 filters | total 0.0 GB | F336W 0.01 GB 21480 s, F656N 0.02 GB 32664 s
+HST|16305 | PDS70 | STIS/CCD | 1 filters | total 0.0 GB | MIRVIS 0.01 GB 1156 s
+JWST|1242 | TD-PDS-70 | NIRISS/IMAGE | 4 filters | total 0.0 GB | F277W 0.00 GB 0 s, F380M 0.00 GB 9 s, F430M 0.00 GB 10 s, F480M 0.00 GB 13 s
+JWST|1179 | PDS-70 | NIRCAM/IMAGE | 3 filters | total 0.0 GB | F187N 0.00 GB 1337 s, F200W 0.00 GB 1337 s, F410M 0.00 GB 1337 s
+JWST|1282 | CD-40-8434 | NIRCAM/IMAGE | 2 filters | total 0.0 GB | F187N 0.00 GB 249 s, F480M 0.00 GB 249 s
