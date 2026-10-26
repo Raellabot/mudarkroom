@@ -1,0 +1,63 @@
+field hltau: ra 67.9102 dec 18.2327 radius 0.05 deg
+== Chandra (Chandra Data Archive)
+13 public observations within 0.05 deg
+obsid 18915 | HLTAU | ACIS-S | grating NONE | TE | 26.9 ks | events 45722 | proposal 18200153 | released 2019-01-08 | 67.9100 18.2327 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao18/cat2/18915/primary/acisf18915N002_evt2.fits.gz
+    image acisf18915N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf18915N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 20160 | XZTAUANDHLTAU | ACIS-S | grating HETG | TE | 39.5 ks | events 442198 | proposal 19200676 | released 2019-11-14 | 67.9137 18.2320 | evt2 name unknown
+obsid 20161 | XZTAUANDHLTAU | ACIS-S | grating HETG | TE | 46.4 ks | events 524760 | proposal 19200676 | released 2019-11-14 | 67.9137 18.2320 | evt2 name unknown
+obsid 20906 | HLTAU | ACIS-S | grating NONE | TE | 36.0 ks | events 59885 | proposal 18200153 | released 2019-01-08 | 67.9100 18.2327 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao18/cat2/20906/primary/acisf20906N002_evt2.fits.gz
+    image acisf20906N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf20906N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 21946 | XZTAUANDHLTAU | ACIS-S | grating HETG | TE | 9.9 ks | events 110359 | proposal 19200676 | released 2019-11-14 | 67.9137 18.2320 | evt2 name unknown
+obsid 21947 | XZTAUANDHLTAU | ACIS-S | grating HETG | TE | 9.9 ks | events 110659 | proposal 19200676 | released 2019-11-14 | 67.9137 18.2320 | evt2 name unknown
+obsid 21948 | XZTAUANDHLTAU | ACIS-S | grating HETG | TE | 53.4 ks | events 595185 | proposal 19200676 | released 2019-11-14 | 67.9137 18.2320 | evt2 name unknown
+obsid 21950 | XZTAUANDHLTAU | ACIS-S | grating HETG | TE | 12.0 ks | events 136293 | proposal 19200676 | released 2019-11-14 | 67.9137 18.2320 | evt2 name unknown
+obsid 21951 | XZTAUANDHLTAU | ACIS-S | grating HETG | TE | 34.6 ks | events 392742 | proposal 19200676 | released 2019-11-14 | 67.9137 18.2320 | evt2 name unknown
+obsid 21952 | XZTAUANDHLTAU | ACIS-S | grating HETG | TE | 10.4 ks | events 117767 | proposal 19200676 | released 2019-11-14 | 67.9137 18.2320 | evt2 name unknown
+obsid 21953 | XZTAUANDHLTAU | ACIS-S | grating HETG | TE | 34.6 ks | events 391712 | proposal 19200676 | released 2019-11-14 | 67.9137 18.2320 | evt2 name unknown
+obsid 21954 | XZTAUANDHLTAU | ACIS-S | grating HETG | TE | 22.7 ks | events 268595 | proposal 19200676 | released 2019-11-14 | 67.9137 18.2320 | evt2 name unknown
+obsid 21965 | XZTAUANDHLTAU | ACIS-S | grating HETG | TE | 22.9 ks | events 271334 | proposal 19200676 | released 2019-11-14 | 67.9137 18.2320 | evt2 name unknown
+imaging exposure without a grating: 62.9 ks in total
+== Hubble and Webb (MAST)
+1164 rows from MAST, 329 public single-filter level-3 image mosaics
+HST|6735 | XZ-TAU | WFPC2/PC | 7 filters | total 1.9 GB | detection 0.35 GB 541 s, F336W 0.26 GB 320 s, F439W 0.26 GB 160 s, F555W 0.26 GB 10 s, F656N 0.26 GB 40 s, F675W 0.26 GB 7 s, F814W 0.26 GB 4 s
+HST|6754 | HH-30 | WFPC2/PC | 6 filters | total 2.9 GB | detection 0.66 GB 11500 s, F555W-POLQ 0.26 GB 1600 s, F439W 0.50 GB 2400 s, F555W 0.50 GB 900 s, F675W 0.50 GB 4800 s, F814W 0.50 GB 1800 s
+HST|10178 | HLTAU | ACS/WFC | 5 filters | total 0.4 GB | F606W-POL0V 0.08 GB 536 s, F606W-POL120V 0.08 GB 536 s, F606W-POL60V 0.08 GB 536 s, detection 0.08 GB 1608 s, F606W 0.05 GB 536 s
+HST|5472 | HLTAU | WFPC2/PC | 5 filters | total 1.4 GB | detection 0.34 GB 9100 s, F547M 0.25 GB 1000 s, F631N 0.25 GB 1800 s, F656N 0.25 GB 3600 s, F673N 0.25 GB 2700 s
+HST|8289 | XZ-TAU-OFFSET | WFPC2/PC | 5 filters | total 1.4 GB | detection 0.34 GB 8324 s, F656N 0.26 GB 2120 s, F675W 0.26 GB 2012 s, F673N 0.26 GB 2180 s, F814W 0.26 GB 2012 s
+HST|7228 | HLTAU-1 | NICMOS/NIC2 | 5 filters | total 0.0 GB | F110W 0.00 GB 64 s, F160W 0.00 GB 64 s, F187N 0.00 GB 64 s, F204M 0.00 GB 160 s, F212N 0.00 GB 160 s
+HST|7228 | HLTAU-2 | NICMOS/NIC2 | 5 filters | total 0.0 GB | F110W 0.00 GB 64 s, F160W 0.00 GB 64 s, F187N 0.00 GB 64 s, F204M 0.00 GB 160 s, F212N 0.00 GB 160 s
+HST|7228 | HLTAU-3 | NICMOS/NIC2 | 5 filters | total 0.0 GB | F110W 0.00 GB 64 s, F160W 0.00 GB 64 s, F187N 0.00 GB 64 s, F204M 0.00 GB 160 s, F212N 0.00 GB 160 s
+HST|10178 | HH30 | ACS/WFC | 5 filters | total 0.4 GB | F606W-POL0V 0.08 GB 536 s, F606W-POL120V 0.08 GB 536 s, F606W-POL60V 0.08 GB 536 s, detection 0.08 GB 1608 s, F606W 0.05 GB 536 s
+HST|7228 | HH30 | NICMOS/NIC2 | 5 filters | total 0.0 GB | F110W 0.00 GB 256 s, F160W 0.00 GB 256 s, F187N 0.00 GB 576 s, F204M 0.00 GB 448 s, F212N 0.00 GB 640 s
+HST|5204 | HL-TAU | WFPC2/PC | 4 filters | total 1.0 GB | detection 0.26 GB 530 s, F555W 0.26 GB 350 s, F675W 0.26 GB 120 s, F814W 0.26 GB 60 s
+HST|8771 | XZ-TAU-OFFSET | WFPC2/PC | 4 filters | total 1.1 GB | detection 0.34 GB 6312 s, F656N 0.26 GB 2120 s, F675W 0.26 GB 2012 s, F673N 0.26 GB 2180 s
+HST|9236 | XZ-TAU-OFFSET | WFPC2/PC | 4 filters | total 1.1 GB | detection 0.34 GB 6312 s, F656N 0.26 GB 2120 s, F675W 0.26 GB 2012 s, F673N 0.26 GB 2180 s
+HST|7247 | HL-TAU | NICMOS/NIC2 | 4 filters | total 0.0 GB | POL0L 0.00 GB 256 s, POL120L 0.00 GB 256 s, POL240L 0.00 GB 256 s, F205W 0.00 GB 80 s
+HST|11867 | HH-30-OFFSET | WFPC2/PC | 4 filters | total 0.9 GB | detection 0.28 GB 8400 s, F555W 0.21 GB 2100 s, F675W 0.21 GB 4200 s, F814W 0.21 GB 2100 s
+HST|8771 | HH-30 | WFPC2/PC | 4 filters | total 1.0 GB | detection 0.25 GB 1500 s, F555W 0.25 GB 400 s, F675W 0.25 GB 700 s, F814W 0.25 GB 400 s
+HST|9236 | HH-30 | WFPC2/PC | 4 filters | total 1.0 GB | detection 0.25 GB 1560 s, F555W 0.25 GB 460 s, F675W 0.25 GB 700 s, F814W 0.25 GB 400 s
+HST|10178 | HH30 | NICMOS/NIC2 | 4 filters | total 0.0 GB | F160W 0.00 GB 192 s, POL0L 0.00 GB 640 s, POL120L 0.00 GB 640 s, POL240L 0.00 GB 640 s
+HST|5768 | HL-TAU-OFF | WFPC2/PC | 3 filters | total 0.8 GB | detection 0.25 GB 2003 s, F675W 0.25 GB 800 s, F814W 0.25 GB 1203 s
+HST|5845 | HL-TAU | WFPC2/PC | 3 filters | total 0.8 GB | F555W-POLQ 0.25 GB 2100 s, detection 0.25 GB 2100 s, F555W 0.25 GB 700 s
+HST|9863 | XZ-TAU-FIELD | ACS/WFC | 3 filters | total 1.2 GB | detection 0.40 GB 7221 s, F625W 0.40 GB 2458 s, F658N 0.40 GB 2343 s
+HST|7247 | HL-TAU | NICMOS/NIC1 | 3 filters | total 0.0 GB | POL0S 0.00 GB 160 s, POL120S 0.00 GB 160 s, POL240S 0.00 GB 160 s
+HST|7827 | XZ-TAU | NICMOS/NIC2 | 3 filters | total 0.0 GB | POL0L 0.00 GB 288 s, POL240L 0.00 GB 288 s, POL120L 0.00 GB 288 s
+HST|7827 | XZ-TAU | NICMOS/NIC1 | 3 filters | total 0.0 GB | POL0S 0.00 GB 288 s, POL120S 0.00 GB 480 s, POL240S 0.00 GB 288 s
+HST|7827 | ANY | NICMOS/NIC1 | 3 filters | total 0.0 GB | POL0S 0.00 GB 288 s, POL240S 0.00 GB 288 s, POL120S 0.00 GB 288 s
+HST|7827 | ANY | NICMOS/NIC2 | 3 filters | total 0.0 GB | POL0L 0.00 GB 288 s, POL120L 0.00 GB 480 s, POL240L 0.00 GB 288 s
+HST|6855 | XZ-TAU-OFFSET | WFPC2/PC | 2 filters | total 0.5 GB | detection 0.26 GB 2212 s, F675W 0.26 GB 2212 s
+HST|None | XZ-TAU-FIELD | ACS/WFC | 2 filters | total 6.9 GB | F625W 3.46 GB 2458 s, F658N 3.46 GB 2343 s
+HST|7827 | ANY | NICMOS/NIC3 | 2 filters | total 0.0 GB | F110W 0.00 GB 276 s, F160W 0.00 GB 477 s
+HST|None | HLTAU | ACS/WFC | 1 filters | total 3.5 GB | F606W 3.46 GB 2144 s
+HST|None | XZ-TAU | ACS/WFC | 1 filters | total 3.5 GB | FR656N 3.46 GB 2420 s
+HST|9863 | XZ-TAU | ACS/WFC | 1 filters | total 0.2 GB | FR656N 0.21 GB 2400 s
+HST|7456 | HL-TAU+XZ-TAU | NICMOS/NIC3 | 1 filters | total 0.0 GB | F190N 0.00 GB 2 s
+HST|7456 | ANY | NICMOS/NIC1 | 1 filters | total 0.0 GB | F190N 0.00 GB 6 s
+HST|7456 | ANY | NICMOS/NIC2 | 1 filters | total 0.0 GB | F215N 0.00 GB 6 s
+HST|9164 | HH30 | STIS/CCD | 1 filters | total 0.0 GB | MIRVIS 0.01 GB 61 s
+HST|9164 | CP1-HH30 | STIS/CCD | 1 filters | total 0.0 GB | MIRVIS 0.01 GB 61 s
+JWST|1179 | HL-TAU | NIRCAM/IMAGE | 3 filters | total 0.0 GB | F187N 0.00 GB 1337 s, F200W 0.00 GB 1337 s, F410M 0.00 GB 1337 s
+JWST|2562 | HH-30-MIRI | MIRI/IMAGE | 3 filters | total 0.0 GB | F770W 0.01 GB 1118 s, F1280W 0.01 GB 1132 s, F2100W 0.01 GB 1159 s
+JWST|2562 | HH-30-NIRCAM | NIRCAM/IMAGE | 2 filters | total 0.6 GB | F200W 0.53 GB 429 s, F444W 0.12 GB 429 s
