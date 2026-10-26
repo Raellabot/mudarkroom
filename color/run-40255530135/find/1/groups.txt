@@ -1,0 +1,2 @@
+HST|NGC602|10248|ACS/WFC|3  rows=12  filters=['F555W', 'F658N', 'F814W', 'detection']
+HST|NGC602|10248|NICMOS/NIC2|3  rows=8  filters=['F110W', 'F160W']

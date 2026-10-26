@@ -1,0 +1,6 @@
+  page 1/1 rows so far 20 of 20
+HST|NGC602|10248|ACS/WFC|3  rows=12  filters=['F555W', 'F658N', 'F814W', 'detection']
+HST|NGC602|10248|NICMOS/NIC2|3  rows=8  filters=['F110W', 'F160W']
+  page 1/1 rows so far 13 of 13
+JWST|NGC-602|2662|NIRCAM/IMAGE|3  rows=8  filters=['F115W', 'F140M', 'F150W', 'F210M', 'F277W', 'F335M', 'F356W', 'F480M']
+JWST|NGC-602|2662|MIRI/IMAGE|3  rows=5  filters=['F1000W', 'F1130W', 'F1500W', 'F2550W', 'F770W']

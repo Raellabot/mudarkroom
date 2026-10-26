@@ -1,0 +1,386 @@
+[
+ {
+  "picture": "ngc602-multi-creative5-n75-white.jpg",
+  "palette": "creative5",
+  "collection": "HST+JWST+JWST",
+  "target": "NGC602+NGC-602+NGC-602",
+  "proposal_id": "10248+2662+2662",
+  "instrument": "ACS/WFC+NIRCAM/IMAGE+MIRI/IMAGE",
+  "title": "Current star formation in young, compact clusters in  the Small Magellanic Cloud",
+  "grid": {
+   "width": 2328,
+   "height": 1228,
+   "reduction": 5,
+   "arcsec_per_pixel": 0.15613944771388014,
+   "reference_filter": "F140M"
+  },
+  "xray": {
+   "observations": [
+    "10985",
+    "10986",
+    "11978",
+    "11979",
+    "11988",
+    "11989",
+    "12130",
+    "12131",
+    "12134",
+    "12136",
+    "12207"
+   ],
+   "exposure_ks": 291.6550154975869,
+   "photons": 529745,
+   "band_ev": [
+    500.0,
+    7000.0
+   ],
+   "color": "#8cff1a",
+   "smoothing": "significance-based, several widths blended",
+   "dimmed_brightest_source": [
+    0.55,
+    40
+   ]
+  },
+  "stretch": 0.15,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.75,
+  "variant": "white",
+  "filters": [
+   {
+    "filter": "F555W",
+    "center_nm": 545.0,
+    "color": "#1a4cff",
+    "obs_id": "j92f05020",
+    "exposure_s": 2153,
+    "product": "mast:HST/product/j92f05020_drz.fits"
+   },
+   {
+    "filter": "F658N",
+    "center_nm": 658.1,
+    "color": "#1375ff",
+    "obs_id": "j92fa6010",
+    "exposure_s": 1908,
+    "product": "mast:HST/product/j92fa6010_drz.fits"
+   },
+   {
+    "filter": "F814W",
+    "center_nm": 833.5,
+    "color": "#0c9eff",
+    "obs_id": "j92f05010",
+    "exposure_s": 2267,
+    "product": "mast:HST/product/j92f05010_drz.fits"
+   },
+   {
+    "filter": "F115W",
+    "center_nm": 1147.5,
+    "color": "#05c7ff",
+    "obs_id": "jw02662-o001_t001_nircam_clear-f115w",
+    "exposure_s": 1288.416,
+    "product": "mast:JWST/product/jw02662-o001_t001_nircam_clear-f115w_i2d.fits"
+   },
+   {
+    "filter": "F140M",
+    "center_nm": 1405.0,
+    "color": "#10e6f6",
+    "obs_id": "jw02662-o001_t001_nircam_clear-f140m",
+    "exposure_s": 1288.416,
+    "product": "mast:JWST/product/jw02662-o001_t001_nircam_clear-f140m_i2d.fits"
+   },
+   {
+    "filter": "F150W",
+    "center_nm": 1499.5,
+    "color": "#51e6d0",
+    "obs_id": "jw02662-o001_t001_nircam_clear-f150w",
+    "exposure_s": 1288.416,
+    "product": "mast:JWST/product/jw02662-o001_t001_nircam_clear-f150w_i2d.fits"
+   },
+   {
+    "filter": "F210M",
+    "center_nm": 2096.5,
+    "color": "#91e6ab",
+    "obs_id": "jw02662-o001_t001_nircam_clear-f210m",
+    "exposure_s": 1288.416,
+    "product": "mast:JWST/product/jw02662-o001_t001_nircam_clear-f210m_i2d.fits"
+   },
+   {
+    "filter": "F277W",
+    "center_nm": 2771.5,
+    "color": "#d2e685",
+    "obs_id": "jw02662-o001_t001_nircam_clear-f277w",
+    "exposure_s": 1288.416,
+    "product": "mast:JWST/product/jw02662-o001_t001_nircam_clear-f277w_i2d.fits"
+   },
+   {
+    "filter": "F335M",
+    "center_nm": 3357.5,
+    "color": "#f4d679",
+    "obs_id": "jw02662-o001_t001_nircam_clear-f335m",
+    "exposure_s": 1288.416,
+    "product": "mast:JWST/product/jw02662-o001_t001_nircam_clear-f335m_i2d.fits"
+   },
+   {
+    "filter": "F356W",
+    "center_nm": 3560.0,
+    "color": "#f7b884",
+    "obs_id": "jw02662-o001_t001_nircam_clear-f356w",
+    "exposure_s": 1288.416,
+    "product": "mast:JWST/product/jw02662-o001_t001_nircam_clear-f356w_i2d.fits"
+   },
+   {
+    "filter": "F480M",
+    "center_nm": 4819.5,
+    "color": "#fb9990",
+    "obs_id": "jw02662-o001_t001_nircam_clear-f480m",
+    "exposure_s": 1288.416,
+    "product": "mast:JWST/product/jw02662-o001_t001_nircam_clear-f480m_i2d.fits"
+   },
+   {
+    "filter": "F770W",
+    "center_nm": 7700.0,
+    "color": "#fe7a9b",
+    "obs_id": "jw02662-o004_t001_miri_f770w",
+    "exposure_s": 1332.016,
+    "product": "mast:JWST/product/jw02662-o004_t001_miri_f770w_i2d.fits"
+   },
+   {
+    "filter": "F1000W",
+    "center_nm": 10000.0,
+    "color": "#fc6fa8",
+    "obs_id": "jw02662-o004_t001_miri_f1000w",
+    "exposure_s": 1332.016,
+    "product": "mast:JWST/product/jw02662-o004_t001_miri_f1000w_i2d.fits"
+   },
+   {
+    "filter": "F1130W",
+    "center_nm": 11300.0,
+    "color": "#f96ab6",
+    "obs_id": "jw02662-o004_t001_miri_f1130w",
+    "exposure_s": 1776.032,
+    "product": "mast:JWST/product/jw02662-o004_t001_miri_f1130w_i2d.fits"
+   },
+   {
+    "filter": "F1500W",
+    "center_nm": 15000.0,
+    "color": "#f666c4",
+    "obs_id": "jw02662-o004_t001_miri_f1500w",
+    "exposure_s": 1332.016,
+    "product": "mast:JWST/product/jw02662-o004_t001_miri_f1500w_i2d.fits"
+   },
+   {
+    "filter": "F2550W",
+    "center_nm": 25500.0,
+    "color": "#f261d1",
+    "obs_id": "jw02662-o004_t001_miri_f2550w",
+    "exposure_s": 3685.248,
+    "product": "mast:JWST/product/jw02662-o004_t001_miri_f2550w_i2d.fits"
+   }
+  ],
+  "black_percentile": 50,
+  "finishing": {
+   "nofill": true,
+   "destripe": [
+    288,
+    75
+   ],
+   "black": 50,
+   "xray_dim": [
+    0.55,
+    40
+   ]
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ },
+ {
+  "picture": "ngc602-multi-creative5-n75-whiter.jpg",
+  "palette": "creative5",
+  "collection": "HST+JWST+JWST",
+  "target": "NGC602+NGC-602+NGC-602",
+  "proposal_id": "10248+2662+2662",
+  "instrument": "ACS/WFC+NIRCAM/IMAGE+MIRI/IMAGE",
+  "title": "Current star formation in young, compact clusters in  the Small Magellanic Cloud",
+  "grid": {
+   "width": 2328,
+   "height": 1228,
+   "reduction": 5,
+   "arcsec_per_pixel": 0.15613944771388014,
+   "reference_filter": "F140M"
+  },
+  "xray": {
+   "observations": [
+    "10985",
+    "10986",
+    "11978",
+    "11979",
+    "11988",
+    "11989",
+    "12130",
+    "12131",
+    "12134",
+    "12136",
+    "12207"
+   ],
+   "exposure_ks": 291.6550154975869,
+   "photons": 529745,
+   "band_ev": [
+    500.0,
+    7000.0
+   ],
+   "color": "#8cff1a",
+   "smoothing": "significance-based, several widths blended",
+   "dimmed_brightest_source": [
+    0.55,
+    40
+   ]
+  },
+  "stretch": 0.15,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.75,
+  "variant": "whiter",
+  "filters": [
+   {
+    "filter": "F555W",
+    "center_nm": 545.0,
+    "color": "#1a4cff",
+    "obs_id": "j92f05020",
+    "exposure_s": 2153,
+    "product": "mast:HST/product/j92f05020_drz.fits"
+   },
+   {
+    "filter": "F658N",
+    "center_nm": 658.1,
+    "color": "#1375ff",
+    "obs_id": "j92fa6010",
+    "exposure_s": 1908,
+    "product": "mast:HST/product/j92fa6010_drz.fits"
+   },
+   {
+    "filter": "F814W",
+    "center_nm": 833.5,
+    "color": "#0c9eff",
+    "obs_id": "j92f05010",
+    "exposure_s": 2267,
+    "product": "mast:HST/product/j92f05010_drz.fits"
+   },
+   {
+    "filter": "F115W",
+    "center_nm": 1147.5,
+    "color": "#05c7ff",
+    "obs_id": "jw02662-o001_t001_nircam_clear-f115w",
+    "exposure_s": 1288.416,
+    "product": "mast:JWST/product/jw02662-o001_t001_nircam_clear-f115w_i2d.fits"
+   },
+   {
+    "filter": "F140M",
+    "center_nm": 1405.0,
+    "color": "#10e6f6",
+    "obs_id": "jw02662-o001_t001_nircam_clear-f140m",
+    "exposure_s": 1288.416,
+    "product": "mast:JWST/product/jw02662-o001_t001_nircam_clear-f140m_i2d.fits"
+   },
+   {
+    "filter": "F150W",
+    "center_nm": 1499.5,
+    "color": "#51e6d0",
+    "obs_id": "jw02662-o001_t001_nircam_clear-f150w",
+    "exposure_s": 1288.416,
+    "product": "mast:JWST/product/jw02662-o001_t001_nircam_clear-f150w_i2d.fits"
+   },
+   {
+    "filter": "F210M",
+    "center_nm": 2096.5,
+    "color": "#91e6ab",
+    "obs_id": "jw02662-o001_t001_nircam_clear-f210m",
+    "exposure_s": 1288.416,
+    "product": "mast:JWST/product/jw02662-o001_t001_nircam_clear-f210m_i2d.fits"
+   },
+   {
+    "filter": "F277W",
+    "center_nm": 2771.5,
+    "color": "#d2e685",
+    "obs_id": "jw02662-o001_t001_nircam_clear-f277w",
+    "exposure_s": 1288.416,
+    "product": "mast:JWST/product/jw02662-o001_t001_nircam_clear-f277w_i2d.fits"
+   },
+   {
+    "filter": "F335M",
+    "center_nm": 3357.5,
+    "color": "#f4d679",
+    "obs_id": "jw02662-o001_t001_nircam_clear-f335m",
+    "exposure_s": 1288.416,
+    "product": "mast:JWST/product/jw02662-o001_t001_nircam_clear-f335m_i2d.fits"
+   },
+   {
+    "filter": "F356W",
+    "center_nm": 3560.0,
+    "color": "#f7b884",
+    "obs_id": "jw02662-o001_t001_nircam_clear-f356w",
+    "exposure_s": 1288.416,
+    "product": "mast:JWST/product/jw02662-o001_t001_nircam_clear-f356w_i2d.fits"
+   },
+   {
+    "filter": "F480M",
+    "center_nm": 4819.5,
+    "color": "#fb9990",
+    "obs_id": "jw02662-o001_t001_nircam_clear-f480m",
+    "exposure_s": 1288.416,
+    "product": "mast:JWST/product/jw02662-o001_t001_nircam_clear-f480m_i2d.fits"
+   },
+   {
+    "filter": "F770W",
+    "center_nm": 7700.0,
+    "color": "#fe7a9b",
+    "obs_id": "jw02662-o004_t001_miri_f770w",
+    "exposure_s": 1332.016,
+    "product": "mast:JWST/product/jw02662-o004_t001_miri_f770w_i2d.fits"
+   },
+   {
+    "filter": "F1000W",
+    "center_nm": 10000.0,
+    "color": "#fc6fa8",
+    "obs_id": "jw02662-o004_t001_miri_f1000w",
+    "exposure_s": 1332.016,
+    "product": "mast:JWST/product/jw02662-o004_t001_miri_f1000w_i2d.fits"
+   },
+   {
+    "filter": "F1130W",
+    "center_nm": 11300.0,
+    "color": "#f96ab6",
+    "obs_id": "jw02662-o004_t001_miri_f1130w",
+    "exposure_s": 1776.032,
+    "product": "mast:JWST/product/jw02662-o004_t001_miri_f1130w_i2d.fits"
+   },
+   {
+    "filter": "F1500W",
+    "center_nm": 15000.0,
+    "color": "#f666c4",
+    "obs_id": "jw02662-o004_t001_miri_f1500w",
+    "exposure_s": 1332.016,
+    "product": "mast:JWST/product/jw02662-o004_t001_miri_f1500w_i2d.fits"
+   },
+   {
+    "filter": "F2550W",
+    "center_nm": 25500.0,
+    "color": "#f261d1",
+    "obs_id": "jw02662-o004_t001_miri_f2550w",
+    "exposure_s": 3685.248,
+    "product": "mast:JWST/product/jw02662-o004_t001_miri_f2550w_i2d.fits"
+   }
+  ],
+  "black_percentile": 50,
+  "finishing": {
+   "nofill": true,
+   "destripe": [
+    288,
+    75
+   ],
+   "black": 50,
+   "xray_dim": [
+    0.55,
+    40
+   ]
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

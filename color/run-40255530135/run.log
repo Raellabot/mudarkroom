@@ -1,0 +1,8 @@
+[     0s] == ngc602-multi: 16 filters: ['F555W', 'F658N', 'F814W', 'F115W', 'F140M', 'F150W', 'F210M', 'F277W', 'F335M', 'F356W', 'F480M', 'F770W', 'F1000W', 'F1130W', 'F1500W', 'F2550W']
+[     1s] aligned arrays found in the cache; no download
+[     1s] ngc602-multi: X-ray counts found in the cache; no download
+[     8s] ngc602-multi: finishing steps applied: ['black', 'destripe', 'nofill', 'xray_dim']
+[    10s] cropped to 1410x1115 px where 16 of 16 filters have data
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/astropy/visualization/lupton_rgb.py:645: RuntimeWarning: invalid value encountered in divide
+  fInorm = np.where(Int <= 0, 0, np.true_divide(fI, Int))
+[    12s] done: 2 pictures
