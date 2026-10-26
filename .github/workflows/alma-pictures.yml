@@ -1,0 +1,67 @@
+name: ALMA disk pictures
+
+# Run by hand: downloads the DSHARP continuum images from the ALMA archive and makes one-color (pink) pictures of the disks; also saves the cropped data for tuning (results go to the `results` branch).
+on:
+  workflow_dispatch:
+    inputs:
+      names:
+        description: "Space-separated DSHARP names (HTLup IMLup ...); empty = all 20"
+        default: ""
+      black_sigma:
+        description: "Noise levels taken as black"
+        default: "1.0"
+      soft_sigma:
+        description: "Noise levels where the stretch bends"
+        default: "5.0"
+      whiten:
+        description: "How far the brightest pixels go toward white (0 to 1)"
+        default: "0.35"
+
+concurrency:
+  group: alma-pictures
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    env:
+      CONTACT_INFO: ${{ secrets.CONTACT_INFO }}
+      NAMES: ${{ inputs.names }}
+      BLACK_SIGMA: ${{ inputs.black_sigma }}
+      SOFT_SIGMA: ${{ inputs.soft_sigma }}
+      WHITEN: ${{ inputs.whiten }}
+      WORK_DIR: work
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install numpy pillow scipy astropy
+      - name: Make the pictures
+        run: |
+          set -o pipefail
+          mkdir -p out
+          python -u scripts/alma/disk_picture.py out $NAMES 2>&1 | tee out/run.log
+      - name: Save to the results branch
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          rm -rf /tmp/mc && git worktree prune
+          if git fetch -q origin results 2>/dev/null; then
+            git worktree add -q -B results /tmp/mc origin/results
+          else
+            git worktree add -q --detach /tmp/mc HEAD
+            git -C /tmp/mc checkout -q --orphan results
+            git -C /tmp/mc rm -rq --cached . >/dev/null 2>&1 || true
+            find /tmp/mc -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf {} +
+          fi
+          mkdir -p "/tmp/mc/alma-pictures/run-$GITHUB_RUN_ID"
+          cp -r out/. "/tmp/mc/alma-pictures/run-$GITHUB_RUN_ID/"
+          git -C /tmp/mc add -f alma-pictures
+          git -C /tmp/mc commit -q -m "ALMA pictures (run $GITHUB_RUN_ID)" || { echo "no changes"; exit 0; }
+          git -C /tmp/mc push -q origin results
