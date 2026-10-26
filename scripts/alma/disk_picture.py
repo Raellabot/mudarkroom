@@ -33,7 +33,7 @@ PRETTY = {"AS205": "AS 205", "AS209": "AS 209", "DoAr25": "DoAr 25", "DoAr33": "
           "HD142666": "HD 142666", "HD143006": "HD 143006", "HD163296": "HD 163296", "HTLup": "HT Lup", "IMLup": "IM Lup", "MYLup": "MY Lup", "RULup": "RU Lup", "SR4": "SR 4",
           "Sz114": "Sz 114", "Sz129": "Sz 129", "WSB52": "WSB 52", "WaOph6": "Wa Oph 6"}
 # Systems with companions far from the main disk: the crop follows the main disk only.
-MAIN_ONLY = {"HTLup"}
+MAIN_ONLY = {"HTLup", "HL Tau band 3"}
 
 
 def log(msg):
