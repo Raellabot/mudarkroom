@@ -1,0 +1,22 @@
+[
+ {
+  "name": "HL Tau band 3",
+  "program": "hltau",
+  "file": "HL_Tau_band_3__HLTau_B3.contms_ap_big.image.pbcor.fits",
+  "sigma_jy_beam": 2.2745613130973652e-05,
+  "peak_over_sigma": 181.73435974121094,
+  "crop_px": [
+   255,
+   255
+  ],
+  "info": {
+   "pixel_arcsec": 0.0100000000000008,
+   "bmaj_arcsec": 0.0852821096778,
+   "bmin_arcsec": 0.061085641384116,
+   "bpa_deg": -178.5559234619,
+   "object": "HL Tau",
+   "frequency_hz": 101859396468.1,
+   "bunit": "JY/BEAM"
+  }
+ }
+]
