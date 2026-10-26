@@ -1,0 +1,42 @@
+[
+ {
+  "name": "GM Aur band 6",
+  "program": "gmaur",
+  "file": "GM_Aur_band_6.fits",
+  "sigma_jy_beam": 9.921204818419937e-06,
+  "peak_over_sigma": 95.0377426147461,
+  "crop_px": [
+   1043,
+   1043
+  ],
+  "info": {
+   "pixel_arcsec": 0.00299999999999988,
+   "bmaj_arcsec": 0.045433912426236,
+   "bmin_arcsec": 0.02543739043176,
+   "bpa_deg": 2.207336425781,
+   "object": "GM_Aurigae",
+   "frequency_hz": 269000000000.0,
+   "bunit": "Jy/beam"
+  }
+ },
+ {
+  "name": "GM Aur band 4",
+  "program": "gmaur",
+  "file": "GM_Aur_band_4.fits",
+  "sigma_jy_beam": 1.1564392327636596e-05,
+  "peak_over_sigma": 42.326290130615234,
+  "crop_px": [
+   877,
+   877
+  ],
+  "info": {
+   "pixel_arcsec": 0.00299999999999988,
+   "bmaj_arcsec": 0.057253025472156,
+   "bmin_arcsec": 0.0344617962837228,
+   "bpa_deg": -13.19680786133,
+   "object": "GM_Aurigae",
+   "frequency_hz": 138000000000.1,
+   "bunit": "Jy/beam"
+  }
+ }
+]
