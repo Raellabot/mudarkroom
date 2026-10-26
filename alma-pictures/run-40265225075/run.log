@@ -1,0 +1,22 @@
+[     1s] 20 disks: ['AS205', 'AS209', 'DoAr25', 'DoAr33', 'Elias20', 'Elias24', 'Elias27', 'GWLup', 'HD142666', 'HD143006', 'HD163296', 'HTLup', 'IMLup', 'MYLup', 'RULup', 'SR4', 'Sz114', 'Sz129', 'WSB52', 'WaOph6']
+[     6s] AS205: peak 387 sigma, crop 745x745 px at 3.0 mas/px
+[    11s] AS209: peak 98 sigma, crop 1010x1010 px at 3.0 mas/px
+[    16s] DoAr25: peak 105 sigma, crop 980x980 px at 3.0 mas/px
+[    21s] DoAr33: peak 113 sigma, crop 400x400 px at 3.0 mas/px
+[    26s] Elias20: peak 169 sigma, crop 467x467 px at 3.0 mas/px
+[    31s] Elias24: peak 241 sigma, crop 851x851 px at 3.0 mas/px
+[    38s] Elias27: peak 334 sigma, crop 1286x1286 px at 3.0 mas/px
+[    44s] GWLup: peak 225 sigma, crop 1340x1340 px at 3.0 mas/px
+[    49s] HD142666: peak 99 sigma, crop 427x427 px at 3.0 mas/px
+[    54s] HD143006: peak 63 sigma, crop 493x493 px at 3.0 mas/px
+[    59s] HD163296: peak 190 sigma, crop 1264x1264 px at 3.0 mas/px
+[    66s] HTLup: peak 587 sigma, crop 1217x1217 px at 3.0 mas/px
+[    74s] IMLup: peak 522 sigma, crop 1165x1165 px at 3.0 mas/px
+[    79s] MYLup: peak 114 sigma, crop 515x515 px at 3.0 mas/px
+[    83s] RULup: peak 168 sigma, crop 408x408 px at 3.0 mas/px
+[    88s] SR4: peak 136 sigma, crop 400x400 px at 3.0 mas/px
+[    93s] Sz114: peak 179 sigma, crop 400x400 px at 3.0 mas/px
+[    98s] Sz129: peak 62 sigma, crop 464x464 px at 3.0 mas/px
+[   103s] WSB52: peak 168 sigma, crop 400x400 px at 3.0 mas/px
+[   108s] WaOph6: peak 509 sigma, crop 844x844 px at 3.0 mas/px
+[   108s] done: 20 pictures
