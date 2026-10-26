@@ -1,0 +1,24 @@
+field hd163296: ra 269.0887 dec -21.9561 radius 0.05 deg
+== Chandra (Chandra Data Archive)
+2 public observations within 0.05 deg
+obsid 3733 | HD163296 | ACIS-S | grating NONE | TE | 19.3 ks | events 27769 | proposal 04200145 | released 2004-08-15 | 269.0875 -21.9561 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao04/cat2/3733/primary/acisf03733N004_evt2.fits.gz
+    image acisf03733N004_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf03733N004_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 12359 | HD163296 | ACIS-S | grating NONE | TE | 45.5 ks | events 561827 | proposal 12200553 | released 2012-02-10 | 269.0888 -21.9561 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao12/cat2/12359/primary/acisf12359N003_evt2.fits.gz
+    image acisf12359N003_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf12359N003_full_img2.fits | 0.2-20.0 keV | 0.4 MB
+imaging exposure without a grating: 64.7 ks in total
+== Hubble and Webb (MAST)
+569 rows from MAST, 102 public single-filter level-3 image mosaics
+HST|7387 | HD-163296 | WFPC2/PC | 4 filters | total 1.1 GB | detection 0.26 GB 47 s, F439W 0.26 GB 37 s, F675W 0.26 GB 4 s, F814W 0.26 GB 6 s
+HST|9295 | HD-163296 | ACS/HRC | 4 filters | total 0.1 GB | detection 0.02 GB 9 s, F606W 0.02 GB 2350 s, F660N 0.00 GB 1 s, F814W 0.02 GB 2260 s
+HST|9987 | HD-163296 | ACS/HRC | 3 filters | total 0.0 GB | detection 0.02 GB 20 s, F435W 0.02 GB 2480 s, F502N 0.00 GB 0 s
+HST|None | HD-163296 | ACS/HRC | 3 filters | total 1.9 GB | F435W 0.65 GB 20 s, F606W 0.65 GB 3 s, F814W 0.65 GB 6 s
+HST|9295 | ANY | ACS/WFC | 2 filters | total 0.6 GB | detection 0.32 GB 2064 s, F625W 0.32 GB 2064 s
+HST|10177 | HD163296 | NICMOS/NIC2 | 1 filters | total 0.0 GB | F110W 0.00 GB 448 s
+HST|7565 | HD-163296 | STIS/CCD | 1 filters | total 0.0 GB | MIRVIS 0.01 GB 288 s
+HST|8474 | HD-163296 | STIS/CCD | 1 filters | total 0.0 GB | MIRVIS 0.01 GB 864 s
+HST|15437 | HD163296 | STIS/CCD | 1 filters | total 0.0 GB | MIRVIS 0.01 GB 720 s
+HST|None | ANY | ACS/WFC | 1 filters | total 0.6 GB | F625W 0.65 GB 4128 s
+JWST|2025 | HD-163296 | MIRI/IMAGE | 1 filters | total 0.0 GB | F1130W 0.03 GB 6760 s
+JWST|1584 | HD-163296 | MIRI/IMAGE | 1 filters | total 0.0 GB | F770W 0.03 GB 1166 s
