@@ -1,0 +1,17 @@
+[     0s] exoalma: 15 disks: ['AA Tau', 'CQ Tau', 'DM Tau', 'HD 135344B', 'HD 143006', 'HD 34282', 'J1604-2130', 'J1615-3255', 'J1842-3532', 'J1852-3700', 'LkCa 15', 'MWC 758', 'PDS 66', 'SY Cha', 'V4046 Sgr']
+[     1s] AA-Tau: peak 159 sigma, crop 375x375 px at 10.0 mas/px
+[     1s] CQ-Tau: peak 542 sigma, crop 240x240 px at 15.0 mas/px
+[     2s] DM-Tau: peak 243 sigma, crop 478x478 px at 10.0 mas/px
+[     2s] HD-135344B: peak 718 sigma, crop 240x240 px at 15.0 mas/px
+[     3s] HD-143006: peak 270 sigma, crop 240x240 px at 15.0 mas/px
+[     3s] HD-34282: peak 330 sigma, crop 385x385 px at 10.0 mas/px
+[     4s] J1604-2130: peak 261 sigma, crop 258x258 px at 15.0 mas/px
+[     4s] J1615-3255: peak 1147 sigma, crop 347x347 px at 15.0 mas/px
+[     5s] J1842-3532: peak 299 sigma, crop 240x240 px at 15.0 mas/px
+[     5s] J1852-3700: peak 407 sigma, crop 240x240 px at 15.0 mas/px
+[     6s] LkCa-15: peak 279 sigma, crop 407x407 px at 10.0 mas/px
+[     6s] MWC-758: peak 361 sigma, crop 397x397 px at 15.0 mas/px
+[     6s] PDS-66: peak 1242 sigma, crop 240x240 px at 15.0 mas/px
+[     7s] SY-Cha: peak 91 sigma, crop 305x305 px at 15.0 mas/px
+[     8s] V4046-Sgr: peak 741 sigma, crop 466x466 px at 10.0 mas/px
+[     8s] done: 15 pictures
