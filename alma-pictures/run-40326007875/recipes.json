@@ -1,0 +1,82 @@
+[
+ {
+  "name": "HL Tau band 3",
+  "program": "hltau",
+  "file": "HL_Tau_band_3__HLTau_B3.contms_ap_big.image.pbcor.fits",
+  "sigma_jy_beam": 2.2745613130973652e-05,
+  "peak_over_sigma": 181.73435974121094,
+  "crop_px": [
+   7161,
+   7161
+  ],
+  "info": {
+   "pixel_arcsec": 0.0100000000000008,
+   "bmaj_arcsec": 0.0852821096778,
+   "bmin_arcsec": 0.061085641384116,
+   "bpa_deg": -178.5559234619,
+   "object": "HL Tau",
+   "frequency_hz": 101859396468.1,
+   "bunit": "JY/BEAM"
+  }
+ },
+ {
+  "name": "HL Tau band 4",
+  "program": "hltau",
+  "file": "HL_Tau_band_4__HLTau_B4_continuum_pcal3_apcal.image.pbcor.fits",
+  "sigma_jy_beam": 1.3034645376501429e-05,
+  "peak_over_sigma": 320.40777587890625,
+  "crop_px": [
+   400,
+   400
+  ],
+  "info": {
+   "pixel_arcsec": 0.006999999999998401,
+   "bmaj_arcsec": 0.04947676509618,
+   "bmin_arcsec": 0.04071198403836,
+   "bpa_deg": 7.90380859375,
+   "object": "HL Tau",
+   "frequency_hz": 336500000000.1,
+   "bunit": "Jy/beam"
+  }
+ },
+ {
+  "name": "HL Tau band 6",
+  "program": "hltau",
+  "file": "HL_Tau_band_6__HLTau_B6cont_mscale_ap.image.fits",
+  "sigma_jy_beam": 1.0636279035952611e-05,
+  "peak_over_sigma": 609.5215454101562,
+  "crop_px": [
+   473,
+   473
+  ],
+  "info": {
+   "pixel_arcsec": 0.0050000000000004,
+   "bmaj_arcsec": 0.0350553467869776,
+   "bmin_arcsec": 0.0218132119625796,
+   "bpa_deg": 10.99779891968,
+   "object": "HL_Tau",
+   "frequency_hz": 90500000000.1,
+   "bunit": "JY/BEAM"
+  }
+ },
+ {
+  "name": "HL Tau band 7",
+  "program": "hltau",
+  "file": "HL_Tau_band_7__HLTau_B7cont_mscale_ap.image.pbcor.fits",
+  "sigma_jy_beam": 2.4646284881964675e-05,
+  "peak_over_sigma": 468.9811706542969,
+  "crop_px": [
+   670,
+   670
+  ],
+  "info": {
+   "pixel_arcsec": 0.00349999999999992,
+   "bmaj_arcsec": 0.029923409223558,
+   "bmin_arcsec": 0.0189783796668048,
+   "bpa_deg": -175.6832885742,
+   "object": "HL_Tau",
+   "frequency_hz": 343492052877.3,
+   "bunit": "JY/BEAM"
+  }
+ }
+]

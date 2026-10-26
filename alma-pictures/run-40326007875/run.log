@@ -1,0 +1,14 @@
+[     0s] hltau: 4 disks: ['HL Tau band 3', 'HL Tau band 4', 'HL Tau band 6', 'HL Tau band 7']
+[    13s] HL Tau band 3: HLTau_Band3_ReferenceImages/HLTau_B3.contms_ap_big.image.pbcor.fits (256 MB)
+[    18s] HL-Tau-band-3-HLTau-B3-contms-ap-big-image-pbcor: peak 182 sigma, crop 7161x7161 px at 10.0 mas/px
+[    25s] HL Tau band 4: HLTau_Band4_ReferenceImages/HLTau_B4_continuum_pcal3.image.pbcor.fits (17 MB)
+[    25s] HL Tau band 4: HLTau_Band4_ReferenceImages/HLTau_B4_continuum_pcal1.image.pbcor.fits (17 MB)
+[    25s] HL Tau band 4: HLTau_Band4_ReferenceImages/HLTau_B4_continuum_pcal2.image.pbcor.fits (17 MB)
+[    25s] HL Tau band 4: HLTau_Band4_ReferenceImages/HLTau_B4_continuum.image.pbcor.fits (17 MB)
+[    25s] HL Tau band 4: HLTau_Band4_ReferenceImages/HLTau_B4_continuum_pcal3_apcal.image.pbcor.fits (17 MB)
+[    25s] HL-Tau-band-4-HLTau-B4-continuum-pcal3-apcal-image-pbcor: peak 320 sigma, crop 400x400 px at 7.0 mas/px
+[    29s] HL Tau band 6: HLTau_Band6_ReferenceImages/HLTau_B6cont_mscale_ap.image.fits (10 MB)
+[    29s] HL-Tau-band-6-HLTau-B6cont-mscale-ap-image: peak 610 sigma, crop 473x473 px at 5.0 mas/px
+[    32s] HL Tau band 7: HLTau_Band7_ReferenceImages/HLTau_B7cont_mscale_ap.image.pbcor.fits (17 MB)
+[    32s] HL-Tau-band-7-HLTau-B7cont-mscale-ap-image-pbcor: peak 469 sigma, crop 670x670 px at 3.5 mas/px
+[    32s] done: 4 pictures
