@@ -486,12 +486,14 @@ FINISH = {
     "smacs0723": {"box": (0.0, 1.0, 0.55, 1.0), "dense": 0.97},   # the cluster half; the other module's field is left out
     "ngc602-multi": {"nofill": True, "destripe": (288, 75), "black": 50, "xray_dim": (0.55, 40)},   # the brightest X-ray source is dimmed by 55% over a 40 px radius
     "ngc3324-multi": {"nofill": True, "black": 50},   # the Cosmic Cliffs; black point and X-ray dimming are tuned on the exported samples
+    "ngc3324-nircam": {"nofill": True, "black": 50, "xray_sig": 3.0},   # the Cosmic Cliffs, NIRCam only; the X-ray layer keeps only sources above S/N 3 (a 69 ks exposure)
 }
 
 # Sets that get a Chandra X-ray layer: the target and detector of the public imaging observations, and the photon energy band in eV.
 XRAY = {
     "ngc602-multi": {"target": "NGC602", "instrument": "ACIS-I", "band": (500.0, 7000.0)},
     "ngc3324-multi": {"target": "NGC3324", "instrument": "ACIS-I", "band": (500.0, 7000.0)},
+    "ngc3324-nircam": {"target": "NGC3324", "instrument": "ACIS-I", "band": (500.0, 7000.0)},
 }
 XRAY_COLOR = np.array([0.55, 1.00, 0.10])   # lime green
 FINISH_ON = os.environ.get("FINISH", "1") == "1"
