@@ -1,0 +1,81 @@
+[     0s] == ngc3324-nircam: 5 filters: ['F090W', 'F187N', 'F200W', 'F335M', 'F444W']
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set DATE-BEG to '2022-06-03T09:40:03.308' from MJD-BEG.
+Set DATE-AVG to '2022-06-03T12:17:34.055' from MJD-AVG.
+Set DATE-END to '2022-06-03T14:54:43.830' from MJD-END'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'obsfix' made the change 'Set OBSGEO-L to   -82.733664 from OBSGEO-[XYZ].
+Set OBSGEO-B to   -31.567193 from OBSGEO-[XYZ].
+Set OBSGEO-H to 1654335915.132 from OBSGEO-[XYZ]'. [astropy.wcs.wcs]
+[     1s] F090W: 14339x8582 px at 0.0312 arcsec/px, 5415 MB
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set DATE-BEG to '2022-06-03T09:00:51.941' from MJD-BEG.
+Set DATE-AVG to '2022-06-03T11:43:42.375' from MJD-AVG.
+Set DATE-END to '2022-06-03T14:26:16.631' from MJD-END'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'obsfix' made the change 'Set OBSGEO-L to   -82.748040 from OBSGEO-[XYZ].
+Set OBSGEO-B to   -31.557336 from OBSGEO-[XYZ].
+Set OBSGEO-H to 1654186416.548 from OBSGEO-[XYZ]'. [astropy.wcs.wcs]
+[     2s] F187N: 14340x8583 px at 0.0312 arcsec/px, 5416 MB
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set DATE-BEG to '2022-06-03T10:08:09.002' from MJD-BEG.
+Set DATE-AVG to '2022-06-03T12:45:31.694' from MJD-AVG.
+Set DATE-END to '2022-06-03T15:22:38.772' from MJD-END'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'obsfix' made the change 'Set OBSGEO-L to   -82.723076 from OBSGEO-[XYZ].
+Set OBSGEO-B to   -31.574454 from OBSGEO-[XYZ].
+Set OBSGEO-H to 1654446101.971 from OBSGEO-[XYZ]'. [astropy.wcs.wcs]
+[     3s] F200W: 14342x8588 px at 0.0312 arcsec/px, 5420 MB
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set DATE-BEG to '2022-06-03T09:40:03.308' from MJD-BEG.
+Set DATE-AVG to '2022-06-03T12:17:34.074' from MJD-AVG.
+Set DATE-END to '2022-06-03T14:54:43.830' from MJD-END'. [astropy.wcs.wcs]
+[     3s] F335M: 7065x4178 px at 0.0629 arcsec/px, 945 MB
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set DATE-BEG to '2022-06-03T10:08:09.002' from MJD-BEG.
+Set DATE-AVG to '2022-06-03T12:45:31.714' from MJD-AVG.
+Set DATE-END to '2022-06-03T15:22:38.772' from MJD-END'. [astropy.wcs.wcs]
+[     4s] F444W: 7065x4178 px at 0.0629 arcsec/px, 945 MB
+[     4s] grid from F200W: 2390x1431 px (reduced 6x), 0.187 arcsec/px
+[   157s] downloaded jw02731-o001_t017_nircam_clear-f090w_i2d.fits: 5415 MB
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set DATE-BEG to '2022-06-03T09:40:03.308' from MJD-BEG.
+Set DATE-AVG to '2022-06-03T12:17:34.055' from MJD-AVG.
+Set DATE-END to '2022-06-03T14:54:43.830' from MJD-END'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'obsfix' made the change 'Set OBSGEO-L to   -82.733664 from OBSGEO-[XYZ].
+Set OBSGEO-B to   -31.567193 from OBSGEO-[XYZ].
+Set OBSGEO-H to 1654335915.132 from OBSGEO-[XYZ]'. [astropy.wcs.wcs]
+[   159s] F090W: aligned (reduced 6x), covers 96% of the grid
+[   471s] downloaded jw02731-o001_t017_nircam_clear-f187n_i2d.fits: 5416 MB
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set DATE-BEG to '2022-06-03T09:00:51.941' from MJD-BEG.
+Set DATE-AVG to '2022-06-03T11:43:42.375' from MJD-AVG.
+Set DATE-END to '2022-06-03T14:26:16.631' from MJD-END'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'obsfix' made the change 'Set OBSGEO-L to   -82.748040 from OBSGEO-[XYZ].
+Set OBSGEO-B to   -31.557336 from OBSGEO-[XYZ].
+Set OBSGEO-H to 1654186416.548 from OBSGEO-[XYZ]'. [astropy.wcs.wcs]
+[   473s] F187N: aligned (reduced 6x), covers 96% of the grid
+[   884s] downloaded jw02731-o001_t017_nircam_clear-f200w_i2d.fits: 5420 MB
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set DATE-BEG to '2022-06-03T10:08:09.002' from MJD-BEG.
+Set DATE-AVG to '2022-06-03T12:45:31.694' from MJD-AVG.
+Set DATE-END to '2022-06-03T15:22:38.772' from MJD-END'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'obsfix' made the change 'Set OBSGEO-L to   -82.723076 from OBSGEO-[XYZ].
+Set OBSGEO-B to   -31.574454 from OBSGEO-[XYZ].
+Set OBSGEO-H to 1654446101.971 from OBSGEO-[XYZ]'. [astropy.wcs.wcs]
+[   886s] F200W: aligned (reduced 6x), covers 96% of the grid
+[   909s] downloaded jw02731-o001_t017_nircam_clear-f335m_i2d.fits: 945 MB
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set DATE-BEG to '2022-06-03T09:40:03.308' from MJD-BEG.
+Set DATE-AVG to '2022-06-03T12:17:34.074' from MJD-AVG.
+Set DATE-END to '2022-06-03T14:54:43.830' from MJD-END'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'obsfix' made the change 'Set OBSGEO-L to   -82.733664 from OBSGEO-[XYZ].
+Set OBSGEO-B to   -31.567193 from OBSGEO-[XYZ].
+Set OBSGEO-H to 1654335915.132 from OBSGEO-[XYZ]'. [astropy.wcs.wcs]
+[   910s] F335M: aligned (reduced 2x), covers 95% of the grid
+[   932s] downloaded jw02731-o001_t017_nircam_clear-f444w_i2d.fits: 945 MB
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set DATE-BEG to '2022-06-03T10:08:09.002' from MJD-BEG.
+Set DATE-AVG to '2022-06-03T12:45:31.714' from MJD-AVG.
+Set DATE-END to '2022-06-03T15:22:38.772' from MJD-END'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'obsfix' made the change 'Set OBSGEO-L to   -82.723076 from OBSGEO-[XYZ].
+Set OBSGEO-B to   -31.574454 from OBSGEO-[XYZ].
+Set OBSGEO-H to 1654446101.971 from OBSGEO-[XYZ]'. [astropy.wcs.wcs]
+[   933s] F444W: aligned (reduced 2x), covers 95% of the grid
+WARNING: FITSFixedWarning: 'obsfix' made the change 'Set OBSGEO-L to   -82.723076 from OBSGEO-[XYZ].
+Set OBSGEO-B to   -31.574454 from OBSGEO-[XYZ].
+Set OBSGEO-H to 1654446101.971 from OBSGEO-[XYZ]'. [astropy.wcs.wcs]
+[   940s] Chandra obsid 13613: 99702 photons in the band, 68.9 ks
+[   940s] ngc3324-nircam: 1 Chandra observations, 99702 photons, 69 ks, 7691 on the grid
+[   940s] ngc3324-nircam: finishing steps applied: ['black', 'nofill', 'xray_sig']
+[   943s] cropped to 2375x1417 px where 5 of 5 filters have data
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/astropy/visualization/lupton_rgb.py:645: RuntimeWarning: invalid value encountered in divide
+  fInorm = np.where(Int <= 0, 0, np.true_divide(fI, Int))
+[   945s] done: 2 pictures
