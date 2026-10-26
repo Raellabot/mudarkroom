@@ -1,11 +1,25 @@
 # Pictures of protoplanetary disks from the DSHARP continuum images in the ALMA archive, in one color (pink); usage: disk_picture.py OUTDIR [NAME ...]  (no names = all)
-import io, json, os, re, sys, time, urllib.request
+import io, json, os, re, sys, tarfile, time, urllib.request
 import numpy as np
 from astropy.io import fits
 from PIL import Image, ImageDraw, ImageFont
 from scipy.ndimage import gaussian_filter, label
 
 ROOT = "https://almascience.eso.org/almadata/lp/DSHARP/"
+DV = "https://dataverse.harvard.edu/api/access/datafile/"
+SV = "https://almascience.eso.org/almadata/sciver/"
+# exoALMA continuum images on Harvard Dataverse (doi:10.7910/DVN/6HWZWA): disk name and file id.
+EXOALMA = {"AA Tau": 11118867, "CQ Tau": 11118851, "DM Tau": 11118844, "HD 135344B": 11118863, "HD 143006": 11118860, "HD 34282": 11118864, "J1604-2130": 11118843, "J1615-3255": 11118855,
+           "J1842-3532": 11118853, "J1852-3700": 11118869, "LkCa 15": 11118870, "MWC 758": 11118858, "PDS 66": 11118846, "SY Cha": 11118856, "V4046 Sgr": 11118848}
+GMAUR = {"GM Aur band 6": "GMAurB6continuumfinal.image.fits", "GM Aur band 4": "GMAurB4continuumfinal.image.fits"}
+HLTAU = {"HL Tau band 3": "HLTauBand3/HLTau_Band3_ReferenceImages.tgz", "HL Tau band 4": "HLTauBand4/HLTau_Band4_ReferenceImages.tgz", "HL Tau band 6": "HLTauBand6/HLTau_Band6_ReferenceImages.tgz",
+         "HL Tau band 7": "HLTauBand7/HLTau_Band7_ReferenceImages.tgz"}
+CREDITS = {
+    "dsharp": "DSHARP large program image (Andrews et al. 2018, ApJL 869, L41), ALMA (ESO/NAOJ/NRAO)",
+    "exoalma": "exoALMA large program image (exoALMA I and II papers; data CC0 on Harvard Dataverse, doi:10.7910/DVN/6HWZWA), ALMA (ESO/NAOJ/NRAO)",
+    "gmaur": "Data from 'A multi-frequency ALMA characterization of substructures in the GM Aur protoplanetary disk' (Zenodo doi:10.5281/zenodo.3628656, CC BY 4.0), ALMA (ESO/NAOJ/NRAO)",
+    "hltau": "ADS/JAO.ALMA#2011.0.00015.SV, ALMA Partnership et al. 2015 (ApJL, HL Tau long baseline campaign), ALMA (ESO/NAOJ/NRAO)",
+}
 UA = os.environ.get("CONTACT_INFO") or "CONTACT-INFO"
 PINK = np.array([0xFA, 0x19, 0x91]) / 255.0   # her favorite pink, #fa1991
 WORK = os.environ.get("WORK_DIR", "work")
@@ -40,17 +54,45 @@ def get_bytes(url, timeout=300):
 
 
 # The disk names the DSHARP folder has a continuum image for.
-def all_names():
+def all_names(program):
+    if program == "exoalma":
+        return list(EXOALMA)
+    if program == "gmaur":
+        return list(GMAUR)
+    if program == "hltau":
+        return list(HLTAU)
     html = get_bytes(ROOT).decode("utf-8", "replace")
     return sorted({m for m in re.findall(r'href="images/([^"?/]+)_continuum\.fits"', html)})
 
 
-# The image as a 2D array in Jy/beam with north up and east left, plus the header facts the picture needs.
-def load(name):
-    path = os.path.join(WORK, f"{name}_continuum.fits")
+# Downloads what a disk needs into WORK and returns the FITS paths to draw (one for most disks, several for the HL Tau bundles).
+def fetch(program, name):
+    os.makedirs(WORK, exist_ok=True)
+    tag = re.sub(r"[^A-Za-z0-9]+", "_", name)
+    if program == "hltau":
+        tgz = os.path.join(WORK, tag + ".tgz")
+        open(tgz, "wb").write(get_bytes(SV + HLTAU[name]))
+        paths = []
+        with tarfile.open(tgz) as t:
+            for m in t.getmembers():
+                if m.isfile() and m.name.lower().endswith(".fits"):
+                    log(f"{name}: {m.name} ({m.size / 1e6:.0f} MB)")
+                    if re.search(r"(alpha|psf|residual|mask|model|\.pb\.|\.flux)", m.name, re.I) or not re.search(r"(pbcor\.fits|image\.tt0\.fits|image\.fits)$", m.name, re.I):
+                        continue
+                    dest = os.path.join(WORK, f"{tag}__{os.path.basename(m.name)}")
+                    open(dest, "wb").write(t.extractfile(m).read())
+                    paths.append(dest)
+        os.remove(tgz)
+        return paths
+    path = os.path.join(WORK, f"{tag}.fits")
     if not os.path.exists(path):
-        os.makedirs(WORK, exist_ok=True)
-        open(path, "wb").write(get_bytes(f"{ROOT}images/{name}_continuum.fits"))
+        url = {"dsharp": f"{ROOT}images/{name}_continuum.fits", "exoalma": f"{DV}{EXOALMA.get(name)}", "gmaur": f"https://zenodo.org/api/records/3628656/files/{GMAUR.get(name)}/content"}[program]
+        open(path, "wb").write(get_bytes(url))
+    return [path]
+
+
+# The image as a 2D array in Jy/beam with north up and east left, plus the header facts the picture needs.
+def load(path, name):
     with fits.open(path) as h:
         head, data = h[0].header, np.squeeze(h[0].data).astype(np.float32)
     if data.ndim != 2:
@@ -59,8 +101,14 @@ def load(name):
     if float(head["CDELT1"]) > 0:
         data = data[:, ::-1]   # east to the left
     data = data[::-1]   # first row at the bottom in FITS; north up on screen
-    info = {"pixel_arcsec": pix, "bmaj_arcsec": float(head.get("BMAJ", 0)) * 3600.0, "bmin_arcsec": float(head.get("BMIN", 0)) * 3600.0, "bpa_deg": float(head.get("BPA", 0)),
-            "object": str(head.get("OBJECT", name)), "frequency_hz": float(head.get("CRVAL3", 0) or 0), "bunit": str(head.get("BUNIT", ""))}
+    freq = 0.0
+    for key in ("RESTFRQ", "CRVAL3", "CRVAL4"):
+        v = float(head.get(key, 0) or 0)
+        if v > 1e9:
+            freq = v
+            break
+    info = {"pixel_arcsec": pix, "bmaj_arcsec": float(head.get("BMAJ", 0) or 0) * 3600.0, "bmin_arcsec": float(head.get("BMIN", 0) or 0) * 3600.0, "bpa_deg": float(head.get("BPA", 0) or 0),
+            "object": str(head.get("OBJECT", name)), "frequency_hz": freq, "bunit": str(head.get("BUNIT", ""))}
     return np.nan_to_num(data), info
 
 
@@ -155,8 +203,9 @@ def make_picture(a, info, name, sigma):
     d.text(((bx0 + bx1) / 2 - d.textlength(label, font=f) / 2, by - f.size - 10), label, fill=(255, 255, 255), font=f)
     d.text((pad, pad), name, fill=(255, 255, 255), font=font(max(16, w // 32)))
     f2 = font(max(11, w // 70))
-    text = (f"ALMA continuum at {info['frequency_hz'] / 1e9:.0f} GHz (about {299792458.0 / info['frequency_hz'] * 1000:.2f} mm); one color, pink = brightness; white ellipse = beam ({info['bmaj_arcsec'] * 1000:.0f} x {info['bmin_arcsec'] * 1000:.0f} mas). "
-            "DSHARP large program image (Andrews et al. 2018, ApJL 869, L41), ALMA (ESO/NAOJ/NRAO); stretched and colored by this project (Raellabot).")
+    freq = f"at {info['frequency_hz'] / 1e9:.0f} GHz (about {299792458.0 / info['frequency_hz'] * 1000:.2f} mm)" if info["frequency_hz"] > 1e9 else ""
+    beam = f" ({info['bmaj_arcsec'] * 1000:.0f} x {info['bmin_arcsec'] * 1000:.0f} mas)" if info["bmaj_arcsec"] > 0 else ""
+    text = (f"ALMA continuum {freq}; one color, pink = brightness; white ellipse = beam{beam}. {CREDITS[PROGRAM]}; stretched and colored by this project (Raellabot).").replace("continuum ;", "continuum;")
     probe = ImageDraw.Draw(Image.new("RGB", (4, 4)))
     lines, cur = [], ""
     for word in text.split():
@@ -176,27 +225,32 @@ def make_picture(a, info, name, sigma):
 
 
 def main():
+    global PROGRAM
     out = sys.argv[1]
+    args = sys.argv[2:]
+    PROGRAM = args.pop(0) if args and args[0] in CREDITS else "dsharp"
     os.makedirs(os.path.join(out, "samples"), exist_ok=True)
-    names = sys.argv[2:] or all_names()
-    log(f"{len(names)} disks: {names}")
+    names = [a.replace("_", " ") if PROGRAM != "dsharp" else a for a in args] or all_names(PROGRAM)
+    log(f"{PROGRAM}: {len(names)} disks: {names}")
     recipes = []
     for name in names:
         try:
-            a, info = load(name)
-            sigma = noise_of(a)
-            beam_px = info["bmaj_arcsec"] / info["pixel_arcsec"]
-            y0, y1, x0, x1 = crop_box(a, sigma, info["pixel_arcsec"], beam_px, name in MAIN_ONLY)
-            crop = a[y0:y1, x0:x1]
-            small = crop
-            if min(crop.shape) > 1000:   # keep the saved copy small enough for the results branch
-                n2 = (crop.shape[0] // 2) * 2, (crop.shape[1] // 2) * 2
-                small = crop[:n2[0], :n2[1]].reshape(n2[0] // 2, 2, n2[1] // 2, 2).mean(axis=(1, 3))
-            np.savez_compressed(os.path.join(out, "samples", f"{name}.npz"), data=small.astype(np.float32), binned=int(small is not crop) + 1, sigma=sigma, info=json.dumps(info))
-            make_picture(crop, info, PRETTY.get(name, name), sigma).save(os.path.join(out, f"{name}-pink.jpg"), quality=92)
-            recipes.append({"name": name, "sigma_jy_beam": sigma, "peak_over_sigma": float(crop.max() / sigma), "crop_px": [x1 - x0, y1 - y0], "info": info})
-            log(f"{name}: peak {crop.max() / sigma:.0f} sigma, crop {x1 - x0}x{y1 - y0} px at {info['pixel_arcsec'] * 1000:.1f} mas/px")
-            os.remove(os.path.join(WORK, f"{name}_continuum.fits"))
+            for path in fetch(PROGRAM, name):
+                stem = re.sub(r"[^A-Za-z0-9+]+", "-", name).strip("-") if PROGRAM != "hltau" else re.sub(r"[^A-Za-z0-9+]+", "-", name + "-" + os.path.basename(path).split("__", 1)[1][:-5]).strip("-")
+                a, info = load(path, name)
+                sigma = noise_of(a)
+                beam_px = max(info["bmaj_arcsec"] / info["pixel_arcsec"], 3.0)
+                y0, y1, x0, x1 = crop_box(a, sigma, info["pixel_arcsec"], beam_px, name in MAIN_ONLY)
+                crop = a[y0:y1, x0:x1]
+                small = crop
+                if min(crop.shape) > 1000:   # keep the saved copy small enough for the results branch
+                    n2 = (crop.shape[0] // 2) * 2, (crop.shape[1] // 2) * 2
+                    small = crop[:n2[0], :n2[1]].reshape(n2[0] // 2, 2, n2[1] // 2, 2).mean(axis=(1, 3))
+                np.savez_compressed(os.path.join(out, "samples", f"{stem}.npz"), data=small.astype(np.float32), binned=int(small is not crop) + 1, sigma=sigma, info=json.dumps(info))
+                make_picture(crop, info, PRETTY.get(name, name), sigma).save(os.path.join(out, f"{stem}-pink.jpg"), quality=92)
+                recipes.append({"name": name, "program": PROGRAM, "file": os.path.basename(path), "sigma_jy_beam": sigma, "peak_over_sigma": float(crop.max() / sigma), "crop_px": [x1 - x0, y1 - y0], "info": info})
+                log(f"{stem}: peak {crop.max() / sigma:.0f} sigma, crop {x1 - x0}x{y1 - y0} px at {info['pixel_arcsec'] * 1000:.1f} mas/px")
+                os.remove(path)
         except Exception as e:  # noqa: BLE001
             log(f"{name} failed: {e}")
     json.dump(recipes, open(os.path.join(out, "recipes.json"), "w"), indent=1)
@@ -205,5 +259,6 @@ def main():
         sys.exit(1)
 
 
+PROGRAM = "dsharp"
 T0 = time.time()
 main()

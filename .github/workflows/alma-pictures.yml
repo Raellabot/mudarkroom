@@ -4,8 +4,11 @@ name: ALMA disk pictures
 on:
   workflow_dispatch:
     inputs:
+      program:
+        description: "dsharp, exoalma, gmaur or hltau"
+        default: "dsharp"
       names:
-        description: "Space-separated DSHARP names (HTLup IMLup ...); empty = all 20"
+        description: "Space-separated names, underscores for spaces (HTLup, AA_Tau, ...); empty = all of the program"
         default: ""
       black_sigma:
         description: "Noise levels taken as black"
@@ -31,6 +34,7 @@ jobs:
     env:
       CONTACT_INFO: ${{ secrets.CONTACT_INFO }}
       NAMES: ${{ inputs.names }}
+      PROGRAM: ${{ inputs.program }}
       BLACK_SIGMA: ${{ inputs.black_sigma }}
       SOFT_SIGMA: ${{ inputs.soft_sigma }}
       WHITEN: ${{ inputs.whiten }}
@@ -45,7 +49,7 @@ jobs:
         run: |
           set -o pipefail
           mkdir -p out
-          python -u scripts/alma/disk_picture.py out $NAMES 2>&1 | tee out/run.log
+          python -u scripts/alma/disk_picture.py out $PROGRAM $NAMES 2>&1 | tee out/run.log
       - name: Save to the results branch
         if: always()
         run: |
