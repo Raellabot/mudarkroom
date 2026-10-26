@@ -1,0 +1,13 @@
+    muse-alma/member.uid___A001_X362b_Xe71_Q1554-203/: 15 FITS files; examples: member.uid___A001_X362b_Xe71.lp_celine.Q1554-203.CO21_spw19_briggs_v15_cube.image.pbcor.fits, member.uid___A001_X362b_Xe71.lp_celine.Q1554-203.CO21_spw19_briggs_v15_cube.mask.fits, member.uid___A001_X362b_Xe71.lp_celine.Q1554-203.CO21_spw19_briggs_v15_cube.pb.fits, member.uid___A001_X362b_Xe71.lp_celine.Q1554-203.CO21_spw19_nat_v15_cube.image.pbcor.fits, member.uid___A001_X362b_Xe71.lp_celine.Q1554-203.CO21_spw19_nat_v15_cube.mask.fits
+    muse-alma/member.uid___A001_X362b_Xe85_Q0454+039_B6/: 15 FITS files; examples: member.uid___A001_X362b_Xe85.lp_celine.Q0454+039_B6.CO43_spw25_briggs_v15_cube_selfcal.image.pbcor.fits, member.uid___A001_X362b_Xe85.lp_celine.Q0454+039_B6.CO43_spw25_briggs_v15_cube_selfcal.mask.fits, member.uid___A001_X362b_Xe85.lp_celine.Q0454+039_B6.CO43_spw25_briggs_v15_cube_selfcal.pb.fits, member.uid___A001_X362b_Xe85.lp_celine.Q0454+039_B6.CO43_spw25_nat_v15_cube_selfcal.image.pbcor.fits, member.uid___A001_X362b_Xe85.lp_celine.Q0454+039_B6.CO43_spw25_nat_v15_cube_selfcal.mask.fits
+
+== TAP columns
+ivoa.obscore has 73 columns: obs_publisher_did, obs_collection, facility_name, instrument_name, obs_id, dataproduct_type, calib_level, collections, target_name, s_ra, s_dec, s_fov, s_region, s_xel1, s_xel2, em_xel, t_xel, pol_xel, s_resolution, t_min, t_max, t_exptime, t_resolution, em_min, em_max, em_res_power, pol_states, cont_sensitivity_bandwidth, pwv, group_ous_uid, member_ous_uid, asdm_uid, obs_title, type, scan_intent, science_observation, spatial_scale_max, qa2_passed, bib_reference, science_keyword, scientific_category, pi_userid, pi_name, spectral_resolution, o_ucd, access_url, access_format, access_estsize, proposal_id, data_rights, gal_longitude, gal_latitude, band_list, em_resolution, bandwidth, antenna_arrays, is_mosaic, obs_release_date, spatial_resolution, frequency_support, frequency, velocity_resolution, obs_creator_name, pub_title, first_author, authors, pub_abstract, publication_year, proposal_abstract, schedblock_name, proposal_authors, sensitivity_10kms, lastModified
+
+== Disk programs with public data
+FAILED: https://almascience.nrao.edu/tap: HTTP Error 400: 
+
+Oph IRS 48: 1 groups
+    2011.0.00635.S | band 9 | cube | level 2 | Public | 4 products | best resolution 0.2069780793613112 arcsec | largest 0.00 GB
+
+done

@@ -1,0 +1,73 @@
+ALMA probe
+== Large programs hosted by the archive
+14 folders under https://almascience.eso.org/almadata/lp/: ACES, ALCHEMI, ALMA-IMF, ALMA-MUSE, ALMAIMF, ALPINE, ASPECS, ATOMIUM, DSHARP, MUSE-ALMA, PHANGS, aces, alma-muse, muse-alma
+ACES/: 0 FITS files, 0 subfolders (); examples: 
+ALCHEMI/: 0 FITS files, 0 subfolders (); examples: 
+ALMA-IMF/: 0 FITS files, 0 subfolders (); examples: 
+ALMA-MUSE/: 0 FITS files, 16 subfolders (member.uid___A001_X362b_Xe59_Q0454-220, member.uid___A001_X362b_Xe71_Q1554-203, member.uid___A001_X362b_Xe85_Q0454+039_B6, member.uid___A001_X362b_Xe89_Q2131-1207_mosaic, member.uid___A001_X362e_X4ac_Q0152+0023_mosaic, member.uid___A001_X362e_X4b0_Q0454+039, member.uid___A001_X362e_X4b4_Q1110+0048, member.uid___A001_X362e_X4b8_Q1342-0035); examples: 
+    ALMA-MUSE/member.uid___A001_X362b_Xe59_Q0454-220/: 24 FITS files; examples: member.uid___A001_X362b_Xe59.lp_celine.Q0454-220.CO21_spw25_briggs_v15_cube_selfcal.image.pbcor.fits, member.uid___A001_X362b_Xe59.lp_celine.Q0454-220.CO21_spw25_briggs_v15_cube_selfcal.mask.fits, member.uid___A001_X362b_Xe59.lp_celine.Q0454-220.CO21_spw25_briggs_v15_cube_selfcal.pb.fits, member.uid___A001_X362b_Xe59.lp_celine.Q0454-220.CO21_spw25_nat_v15_cube_selfcal.image.pbcor.fits, member.uid___A001_X362b_Xe59.lp_celine.Q0454-220.CO21_spw25_nat_v15_cube_selfcal.mask.fits
+    ALMA-MUSE/member.uid___A001_X362b_Xe71_Q1554-203/: 15 FITS files; examples: member.uid___A001_X362b_Xe71.lp_celine.Q1554-203.CO21_spw19_briggs_v15_cube.image.pbcor.fits, member.uid___A001_X362b_Xe71.lp_celine.Q1554-203.CO21_spw19_briggs_v15_cube.mask.fits, member.uid___A001_X362b_Xe71.lp_celine.Q1554-203.CO21_spw19_briggs_v15_cube.pb.fits, member.uid___A001_X362b_Xe71.lp_celine.Q1554-203.CO21_spw19_nat_v15_cube.image.pbcor.fits, member.uid___A001_X362b_Xe71.lp_celine.Q1554-203.CO21_spw19_nat_v15_cube.mask.fits
+    ALMA-MUSE/member.uid___A001_X362b_Xe85_Q0454+039_B6/: 15 FITS files; examples: member.uid___A001_X362b_Xe85.lp_celine.Q0454+039_B6.CO43_spw25_briggs_v15_cube_selfcal.image.pbcor.fits, member.uid___A001_X362b_Xe85.lp_celine.Q0454+039_B6.CO43_spw25_briggs_v15_cube_selfcal.mask.fits, member.uid___A001_X362b_Xe85.lp_celine.Q0454+039_B6.CO43_spw25_briggs_v15_cube_selfcal.pb.fits, member.uid___A001_X362b_Xe85.lp_celine.Q0454+039_B6.CO43_spw25_nat_v15_cube_selfcal.image.pbcor.fits, member.uid___A001_X362b_Xe85.lp_celine.Q0454+039_B6.CO43_spw25_nat_v15_cube_selfcal.mask.fits
+ALMAIMF/: 0 FITS files, 0 subfolders (); examples: 
+ALPINE/: 0 FITS files, 3 subfolders (DISCARDED_SOURCE, FILES, NEWFILES); examples: 
+    ALPINE/DISCARDED_SOURCE/: 9 FITS files; examples: member.uid___A001_X1284_X1812.lp_olefevre.DEIMOS_COSMOS_351640.CIImom0.flux.fits, member.uid___A001_X1284_X1812.lp_olefevre.DEIMOS_COSMOS_351640.CIImom0.image.fits, member.uid___A001_X1284_X1812.lp_olefevre.DEIMOS_COSMOS_351640.CIImom0.psf.fits, member.uid___A001_X1284_X1812.lp_olefevre.DEIMOS_COSMOS_351640.continuum.flux.fits, member.uid___A001_X1284_X1812.lp_olefevre.DEIMOS_COSMOS_351640.continuum.image.fits
+    ALPINE/FILES/: 0 FITS files; examples: 
+    ALPINE/NEWFILES/: 0 FITS files; examples: 
+ASPECS/: 0 FITS files, 2 subfolders (member.uid___A001_X87c_X20a_lp_walter, member.uid___A001_X87c_X21e_lp_walter); examples: 
+    ASPECS/member.uid___A001_X87c_X20a_lp_walter/: 12 FITS files; examples: member.uid___A001_X87c_X20a.lp_walter.aspecs3mm.cube.2chn.nat.image.clean.conv.fits.gz, member.uid___A001_X87c_X20a.lp_walter.aspecs3mm.cube.2chn.nat.image.clean.fits.gz, member.uid___A001_X87c_X20a.lp_walter.aspecs3mm.cube.2chn.nat.image.clean.pbcor.fits, member.uid___A001_X87c_X20a.lp_walter.aspecs3mm.cube.2chn.nat.image.dirty.fits.gz, member.uid___A001_X87c_X20a.lp_walter.aspecs3mm.cube.2chn.nat.model.clean.fits.gz
+    ASPECS/member.uid___A001_X87c_X21e_lp_walter/: 69 FITS files; examples: member.uid___A001_X87c_X21e.lp_walter.aspecs1mm.cont.nat.image.clean.fits.gz, member.uid___A001_X87c_X21e.lp_walter.aspecs1mm.cont.nat.image.clean.pbcor.fits, member.uid___A001_X87c_X21e.lp_walter.aspecs1mm.cont.nat.image.dirty.fits.gz, member.uid___A001_X87c_X21e.lp_walter.aspecs1mm.cont.nat.model.clean.fits.gz, member.uid___A001_X87c_X21e.lp_walter.aspecs1mm.cont.nat.pb.fits.gz
+ATOMIUM/: 0 FITS files, 0 subfolders (); examples: 
+DSHARP/: 40 FITS files, 0 subfolders (); examples: images/HTLup_continuum.fits, images/HTLup_CO.fits, images/GWLup_continuum.fits, images/GWLup_CO.fits
+MUSE-ALMA/: 0 FITS files, 16 subfolders (member.uid___A001_X362b_Xe59_Q0454-220, member.uid___A001_X362b_Xe71_Q1554-203, member.uid___A001_X362b_Xe85_Q0454+039_B6, member.uid___A001_X362b_Xe89_Q2131-1207_mosaic, member.uid___A001_X362e_X4ac_Q0152+0023_mosaic, member.uid___A001_X362e_X4b0_Q0454+039, member.uid___A001_X362e_X4b4_Q1110+0048, member.uid___A001_X362e_X4b8_Q1342-0035); examples: 
+    MUSE-ALMA/member.uid___A001_X362b_Xe59_Q0454-220/: 24 FITS files; examples: member.uid___A001_X362b_Xe59.lp_celine.Q0454-220.CO21_spw25_briggs_v15_cube_selfcal.image.pbcor.fits, member.uid___A001_X362b_Xe59.lp_celine.Q0454-220.CO21_spw25_briggs_v15_cube_selfcal.mask.fits, member.uid___A001_X362b_Xe59.lp_celine.Q0454-220.CO21_spw25_briggs_v15_cube_selfcal.pb.fits, member.uid___A001_X362b_Xe59.lp_celine.Q0454-220.CO21_spw25_nat_v15_cube_selfcal.image.pbcor.fits, member.uid___A001_X362b_Xe59.lp_celine.Q0454-220.CO21_spw25_nat_v15_cube_selfcal.mask.fits
+    MUSE-ALMA/member.uid___A001_X362b_Xe71_Q1554-203/: 15 FITS files; examples: member.uid___A001_X362b_Xe71.lp_celine.Q1554-203.CO21_spw19_briggs_v15_cube.image.pbcor.fits, member.uid___A001_X362b_Xe71.lp_celine.Q1554-203.CO21_spw19_briggs_v15_cube.mask.fits, member.uid___A001_X362b_Xe71.lp_celine.Q1554-203.CO21_spw19_briggs_v15_cube.pb.fits, member.uid___A001_X362b_Xe71.lp_celine.Q1554-203.CO21_spw19_nat_v15_cube.image.pbcor.fits, member.uid___A001_X362b_Xe71.lp_celine.Q1554-203.CO21_spw19_nat_v15_cube.mask.fits
+    MUSE-ALMA/member.uid___A001_X362b_Xe85_Q0454+039_B6/: 15 FITS files; examples: member.uid___A001_X362b_Xe85.lp_celine.Q0454+039_B6.CO43_spw25_briggs_v15_cube_selfcal.image.pbcor.fits, member.uid___A001_X362b_Xe85.lp_celine.Q0454+039_B6.CO43_spw25_briggs_v15_cube_selfcal.mask.fits, member.uid___A001_X362b_Xe85.lp_celine.Q0454+039_B6.CO43_spw25_briggs_v15_cube_selfcal.pb.fits, member.uid___A001_X362b_Xe85.lp_celine.Q0454+039_B6.CO43_spw25_nat_v15_cube_selfcal.image.pbcor.fits, member.uid___A001_X362b_Xe85.lp_celine.Q0454+039_B6.CO43_spw25_nat_v15_cube_selfcal.mask.fits
+PHANGS/: 0 FITS files, 1 subfolders (phangs_groups); examples: 
+    PHANGS/phangs_groups/: 0 FITS files; examples: 
+aces/: 0 FITS files, 0 subfolders (); examples: 
+alma-muse/: 0 FITS files, 16 subfolders (member.uid___A001_X362b_Xe59_Q0454-220, member.uid___A001_X362b_Xe71_Q1554-203, member.uid___A001_X362b_Xe85_Q0454+039_B6, member.uid___A001_X362b_Xe89_Q2131-1207_mosaic, member.uid___A001_X362e_X4ac_Q0152+0023_mosaic, member.uid___A001_X362e_X4b0_Q0454+039, member.uid___A001_X362e_X4b4_Q1110+0048, member.uid___A001_X362e_X4b8_Q1342-0035); examples: 
+    alma-muse/member.uid___A001_X362b_Xe59_Q0454-220/: 24 FITS files; examples: member.uid___A001_X362b_Xe59.lp_celine.Q0454-220.CO21_spw25_briggs_v15_cube_selfcal.image.pbcor.fits, member.uid___A001_X362b_Xe59.lp_celine.Q0454-220.CO21_spw25_briggs_v15_cube_selfcal.mask.fits, member.uid___A001_X362b_Xe59.lp_celine.Q0454-220.CO21_spw25_briggs_v15_cube_selfcal.pb.fits, member.uid___A001_X362b_Xe59.lp_celine.Q0454-220.CO21_spw25_nat_v15_cube_selfcal.image.pbcor.fits, member.uid___A001_X362b_Xe59.lp_celine.Q0454-220.CO21_spw25_nat_v15_cube_selfcal.mask.fits
+    alma-muse/member.uid___A001_X362b_Xe71_Q1554-203/: 15 FITS files; examples: member.uid___A001_X362b_Xe71.lp_celine.Q1554-203.CO21_spw19_briggs_v15_cube.image.pbcor.fits, member.uid___A001_X362b_Xe71.lp_celine.Q1554-203.CO21_spw19_briggs_v15_cube.mask.fits, member.uid___A001_X362b_Xe71.lp_celine.Q1554-203.CO21_spw19_briggs_v15_cube.pb.fits, member.uid___A001_X362b_Xe71.lp_celine.Q1554-203.CO21_spw19_nat_v15_cube.image.pbcor.fits, member.uid___A001_X362b_Xe71.lp_celine.Q1554-203.CO21_spw19_nat_v15_cube.mask.fits
+    alma-muse/member.uid___A001_X362b_Xe85_Q0454+039_B6/: 15 FITS files; examples: member.uid___A001_X362b_Xe85.lp_celine.Q0454+039_B6.CO43_spw25_briggs_v15_cube_selfcal.image.pbcor.fits, member.uid___A001_X362b_Xe85.lp_celine.Q0454+039_B6.CO43_spw25_briggs_v15_cube_selfcal.mask.fits, member.uid___A001_X362b_Xe85.lp_celine.Q0454+039_B6.CO43_spw25_briggs_v15_cube_selfcal.pb.fits, member.uid___A001_X362b_Xe85.lp_celine.Q0454+039_B6.CO43_spw25_nat_v15_cube_selfcal.image.pbcor.fits, member.uid___A001_X362b_Xe85.lp_celine.Q0454+039_B6.CO43_spw25_nat_v15_cube_selfcal.mask.fits
+muse-alma/: 0 FITS files, 16 subfolders (member.uid___A001_X362b_Xe59_Q0454-220, member.uid___A001_X362b_Xe71_Q1554-203, member.uid___A001_X362b_Xe85_Q0454+039_B6, member.uid___A001_X362b_Xe89_Q2131-1207_mosaic, member.uid___A001_X362e_X4ac_Q0152+0023_mosaic, member.uid___A001_X362e_X4b0_Q0454+039, member.uid___A001_X362e_X4b4_Q1110+0048, member.uid___A001_X362e_X4b8_Q1342-0035); examples: 
+    muse-alma/member.uid___A001_X362b_Xe59_Q0454-220/: 24 FITS files; examples: member.uid___A001_X362b_Xe59.lp_celine.Q0454-220.CO21_spw25_briggs_v15_cube_selfcal.image.pbcor.fits, member.uid___A001_X362b_Xe59.lp_celine.Q0454-220.CO21_spw25_briggs_v15_cube_selfcal.mask.fits, member.uid___A001_X362b_Xe59.lp_celine.Q0454-220.CO21_spw25_briggs_v15_cube_selfcal.pb.fits, member.uid___A001_X362b_Xe59.lp_celine.Q0454-220.CO21_spw25_nat_v15_cube_selfcal.image.pbcor.fits, member.uid___A001_X362b_Xe59.lp_celine.Q0454-220.CO21_spw25_nat_v15_cube_selfcal.mask.fits
+    muse-alma/member.uid___A001_X362b_Xe71_Q1554-203/: 15 FITS files; examples: member.uid___A001_X362b_Xe71.lp_celine.Q1554-203.CO21_spw19_briggs_v15_cube.image.pbcor.fits, member.uid___A001_X362b_Xe71.lp_celine.Q1554-203.CO21_spw19_briggs_v15_cube.mask.fits, member.uid___A001_X362b_Xe71.lp_celine.Q1554-203.CO21_spw19_briggs_v15_cube.pb.fits, member.uid___A001_X362b_Xe71.lp_celine.Q1554-203.CO21_spw19_nat_v15_cube.image.pbcor.fits, member.uid___A001_X362b_Xe71.lp_celine.Q1554-203.CO21_spw19_nat_v15_cube.mask.fits
+    muse-alma/member.uid___A001_X362b_Xe85_Q0454+039_B6/: 15 FITS files; examples: member.uid___A001_X362b_Xe85.lp_celine.Q0454+039_B6.CO43_spw25_briggs_v15_cube_selfcal.image.pbcor.fits, member.uid___A001_X362b_Xe85.lp_celine.Q0454+039_B6.CO43_spw25_briggs_v15_cube_selfcal.mask.fits, member.uid___A001_X362b_Xe85.lp_celine.Q0454+039_B6.CO43_spw25_briggs_v15_cube_selfcal.pb.fits, member.uid___A001_X362b_Xe85.lp_celine.Q0454+039_B6.CO43_spw25_nat_v15_cube_selfcal.image.pbcor.fits, member.uid___A001_X362b_Xe85.lp_celine.Q0454+039_B6.CO43_spw25_nat_v15_cube_selfcal.mask.fits
+
+== TAP columns
+ivoa.obscore has 73 columns: obs_publisher_did, obs_collection, facility_name, instrument_name, obs_id, dataproduct_type, calib_level, collections, target_name, s_ra, s_dec, s_fov, s_region, s_xel1, s_xel2, em_xel, t_xel, pol_xel, s_resolution, t_min, t_max, t_exptime, t_resolution, em_min, em_max, em_res_power, pol_states, cont_sensitivity_bandwidth, pwv, group_ous_uid, member_ous_uid, asdm_uid, obs_title, type, scan_intent, science_observation, spatial_scale_max, qa2_passed, bib_reference, science_keyword, scientific_category, pi_userid, pi_name, spectral_resolution, o_ucd, access_url, access_format, access_estsize, proposal_id, data_rights, gal_longitude, gal_latitude, band_list, em_resolution, bandwidth, antenna_arrays, is_mosaic, obs_release_date, spatial_resolution, frequency_support, frequency, velocity_resolution, obs_creator_name, pub_title, first_author, authors, pub_abstract, publication_year, proposal_abstract, schedblock_name, proposal_authors, sensitivity_10kms, lastModified
+
+== Disk programs with public data
+FAILED: https://almascience.nrao.edu/tap: HTTP Error 400: 
+
+== Famous disks by name
+HL Tau: 3 groups
+    2011.0.00015.SV | band 3 | cube | level 2 | Public | 4 products | best resolution 0.062311228371413944 arcsec | largest 0.00 GB
+    2011.0.00005.E | band 9 | image | level 2 | Public | 16 products | best resolution 0.009374103947391844 arcsec | largest 0.00 GB
+    2011.0.00015.SV | band 3 | image | level 2 | Public | 5 products | best resolution 0.062311228371413944 arcsec | largest 0.00 GB
+TW Hya: 4 groups
+    2011.0.00001.SV | band 7 | cube | level 2 | Public | 4 products | best resolution 1.6707602872316087 arcsec | largest 0.00 GB
+    2012.1.01012.S | band 3 | image | level 2 | Public | 8 products | best resolution 1.0924161339741452 arcsec | largest 0.00 GB
+    2011.0.00340.S | band 7 | cube | level 2 | Public | 4 products | best resolution 0.4661575129251811 arcsec | largest 0.00 GB
+    2011.0.00399.S | band 7 | cube | level 2 | Public | 4 products | best resolution 0.441696912552069 arcsec | largest 0.00 GB
+HD 163296: 0 groups
+IM Lup: 0 groups
+AS 209: 0 groups
+GG Tau: 1 groups
+    2011.0.00059.S | band 9 | cube | level 2 | Public | 4 products | best resolution 0.2607177004351706 arcsec | largest 0.00 GB
+HD 142527: 4 groups
+    2011.0.00465.S | band 6 | cube | level 2 | Public | 8 products | best resolution 0.5969664422369684 arcsec | largest 0.00 GB
+    2011.0.00465.S | band 7 | cube | level 2 | Public | 4 products | best resolution 0.4385327717573909 arcsec | largest 0.00 GB
+    2011.0.00465.S | band 9 | cube | level 2 | Public | 4 products | best resolution 0.19974766395892216 arcsec | largest 0.00 GB
+    2011.0.00318.S | band 7 | cube | level 2 | Public | 4 products | best resolution 0.4197791080322479 arcsec | largest 0.00 GB
+Elias 2-27: 0 groups
+V883 Ori: 1 groups
+    2017.1.01066.T | band 7 | cube | level 2 | Public | 10 products | best resolution 0.1854871615038769 arcsec | largest 0.00 GB
+PDS 70: 0 groups
+HD 169142: 0 groups
+AB Aur: 0 groups
+MWC 480: 1 groups
+    2011.0.00629.S | band 7 | cube | level 2 | Public | 4 products | best resolution 0.5242062820224027 arcsec | largest 0.00 GB
+Oph IRS 48: 1 groups
+    2011.0.00635.S | band 9 | cube | level 2 | Public | 4 products | best resolution 0.2069780793613112 arcsec | largest 0.00 GB
+
