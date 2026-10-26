@@ -484,7 +484,7 @@ FINISH = {
     "jades-goods-s": {"nofill": True, "destripe": (288, 75), "black": 70},
     "primer-uds": {"nofill": True, "destripe": (288, 75), "black": 90},
     "smacs0723": {"box": (0.0, 1.0, 0.55, 1.0), "dense": 0.97},   # the cluster half; the other module's field is left out
-    "ngc602-multi": {"nofill": True, "black": 50, "xray_black": 40, "xray_k": 20, "xray_gain": 1.0},
+    "ngc602-multi": {"nofill": True, "destripe": (288, 75), "black": 50, "xray_dim": (0.55, 40)},   # the brightest X-ray source is dimmed by 55% over a 40 px radius
 }
 
 # Sets that get a Chandra X-ray layer: the target and detector of the public imaging observations, and the photon energy band in eV.
@@ -560,13 +560,20 @@ def xray_counts(label, grid, cfg):
     return counts, info
 
 
-# The X-ray layer's brightness from 0 to 1: adaptive smoothing of the counts, black point at a percentile, asinh stretch to the 99.7th percentile; `scale` is the grid size relative to the full one.
+# The X-ray layer's brightness from 0 to 1: significance-based smoothing of the counts, asinh stretch relative to the background, and an optional dimming around the brightest source; `scale` is the grid size relative to the full one.
 def xray_layer(counts, fin, scale=1.0):
-    sm = chandra_events.smooth_adaptive(counts, sigmas=tuple(sg * scale for sg in (1.5, 3.0, 6.0, 12.0, 24.0)))
-    x = np.clip(sm - np.percentile(sm, fin.get("xray_black", 40)), 0, None)
-    top = float(np.percentile(x, 99.7)) or float(x.max()) or 1.0
-    k = float(fin.get("xray_k", 20))
-    return np.clip(np.arcsinh(k * x / top) / np.arcsinh(k) * fin.get("xray_gain", 1.0), 0, 1).astype(np.float32)
+    sigmas = tuple(1.5 * scale * 1.6 ** i for i in range(7))
+    d, bg = chandra_events.smooth_significant(counts, sigmas, fin.get("xray_sig", 1.5))
+    d = gaussian_filter(d, 0.6 * scale, mode="reflect")
+    top = float(np.percentile(d[d > 0], 99.9)) if (d > 0).any() else 1.0
+    soft = fin.get("xray_soft", 1.0) * bg
+    layer = np.clip(np.arcsinh(d / soft) / np.arcsinh(top / soft), 0, 1)
+    if fin.get("xray_dim"):
+        strength, radius = fin["xray_dim"]
+        y, x = np.unravel_index(d.argmax(), d.shape)
+        yy, xx = np.mgrid[0:d.shape[0], 0:d.shape[1]]
+        layer = layer * (1 - strength * np.exp(-((yy - y) ** 2 + (xx - x) ** 2) / (2 * (radius * scale) ** 2)))
+    return layer.astype(np.float32)
 
 
 # Tweaks of a ranked palette keyed by filter name; "whiten" turns bright star cores and glare toward white (0 = off, 1 = fully).
@@ -796,7 +803,7 @@ def main():
                 made.append(fn)
                 recipes.append({
                     "picture": fn, "palette": pname, "collection": collection, "target": target, "proposal_id": proposal, "instrument": instrument,
-                    "title": chosen[0].get("obs_title"), "grid": {k: v for k, v in grid.items() if k != "wcs"}, "xray": None if xl is None else {**xinfo, "color": hexof(XRAY_COLOR)}, "stretch": STRETCH, "q": Q, "flipped_upright": FLIP, "brightness_exponent": e, "variant": vname if e is not None else None,
+                    "title": chosen[0].get("obs_title"), "grid": {k: v for k, v in grid.items() if k != "wcs"}, "xray": None if xl is None else {**xinfo, "color": hexof(XRAY_COLOR), "smoothing": "significance-based, several widths blended", "dimmed_brightest_source": (fin or {}).get("xray_dim")}, "stretch": STRETCH, "q": Q, "flipped_upright": FLIP, "brightness_exponent": e, "variant": vname if e is not None else None,
                     "filters": [{"filter": n, "center_nm": round(w, 1), "color": hexof(c), "obs_id": r["obs_id"], "exposure_s": r.get("t_exptime"), "product": r["dataURL"]}
                                 for n, w, c, r in zip(names, waves, colors, chosen)],
                     "black_percentile": black if e is not None else None, "finishing": fin,

@@ -130,12 +130,16 @@ def bin_events(ra, dec, wcs, shape):
     return counts
 
 
-# Adaptive smoothing: each pixel takes the narrowest Gaussian (sigmas in pixels) whose kernel holds at least `min_counts` photons, else the widest.
-def smooth_adaptive(counts, sigmas=(1.5, 3.0, 6.0, 12.0, 24.0), min_counts=12.0):
-    out = np.full(counts.shape, np.nan, dtype=np.float32)
-    for s in sigmas:
-        sm = gaussian_filter(counts.astype(np.float32), s, mode="reflect")
-        held = sm * (2.0 * math.pi * s * s)
-        take = np.isnan(out) & ((held >= min_counts) | (s == sigmas[-1]))
-        out[take] = sm[take]
-    return out
+# Smoothing by significance: from the widest Gaussian (sigmas in pixels) to the narrowest, each width replaces the wider ones where its kernel holds
+# photons above the background at `sig_min` sigma, blended by a soft mask; returns the smoothed density above the background and the background per pixel.
+def smooth_significant(counts, sigmas, sig_min=1.5, mask_gain=1.6, mask_width=1.0):
+    c = counts.astype(np.float32)
+    bg = float(np.percentile(gaussian_filter(c, sigmas[-1], mode="reflect"), 30))
+    out = np.zeros(c.shape, dtype=np.float32)
+    for s in reversed(sigmas):
+        sm = gaussian_filter(c, s, mode="reflect")
+        held, area = sm * 2.0 * math.pi * s * s, 2.0 * math.pi * s * s
+        sig = (held - bg * area) / np.sqrt(np.maximum(held, 1e-6))
+        mask = np.clip(gaussian_filter((sig >= sig_min).astype(np.float32), max(1.0, s * mask_width), mode="reflect") * mask_gain, 0, 1)
+        out = out * (1 - mask) + np.clip(sm - bg, 0, None) * mask
+    return out, bg
