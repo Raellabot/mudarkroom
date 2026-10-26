@@ -1,0 +1,47 @@
+field twhya: ra 165.4663 dec -34.7047 radius 0.05 deg
+== Chandra (Chandra Data Archive)
+18 public observations within 0.05 deg
+obsid 5 | TWHYA | ACIS-S | grating HETG | TE | 47.7 ks | events 470572 | proposal 01200029 | released 2001-07-26 | 165.4667 -34.7044 | evt2 name unknown
+obsid 6443 | TWHYA | HRC-S | grating LETG |  | 150.3 ks | events 11247438 | proposal 07200958 | released 2007-08-25 | 165.4663 -34.7047 | evt2 name unknown
+obsid 7435 | TWHYA | ACIS-S | grating HETG | TE | 153.3 ks | events 2335069 | proposal 08200704 | released 2008-03-06 | 165.4667 -34.7047 | evt2 name unknown
+obsid 7436 | TWHYA | ACIS-S | grating HETG | TE | 158.4 ks | events 2402571 | proposal 08200704 | released 2008-03-06 | 165.4667 -34.7047 | evt2 name unknown
+obsid 7437 | TWHYA | ACIS-S | grating HETG | TE | 157.0 ks | events 2389879 | proposal 08200704 | released 2008-03-06 | 165.4667 -34.7047 | evt2 name unknown
+obsid 7438 | TWHYA | ACIS-S | grating HETG | TE | 20.7 ks | events 315956 | proposal 08200704 | released 2008-03-06 | 165.4667 -34.7047 | evt2 name unknown
+obsid 13250 | TWHYA | ACIS-S | grating LETG | TE | 19.0 ks | events 41848 | proposal 12208372 | released 2011-04-14 | 165.4663 -34.7047 | evt2 name unknown
+obsid 20734 | TWHYA | HRC-I | grating HETG |  | 32.3 ks | events 3953875 | proposal 19200787 | released 2020-07-09 | 165.4663 -34.7047 | evt2 name unknown
+obsid 22178 | TWHYA | HRC-I | grating HETG |  | 41.2 ks | events 5095468 | proposal 19200787 | released 2020-07-09 | 165.4663 -34.7047 | evt2 name unknown
+obsid 23382 | TWHYA | HRC-S | grating LETG |  | 26.7 ks | events 3028877 | proposal 22200086 | released 2021-03-09 | 165.4663 -34.7047 | evt2 name unknown
+obsid 23383 | TWHYA | HRC-S | grating LETG |  | 30.1 ks | events 2797958 | proposal 22200086 | released 2021-04-01 | 165.4663 -34.7047 | evt2 name unknown
+obsid 23384 | TWHYA | HRC-S | grating LETG |  | 29.5 ks | events 2744544 | proposal 22200086 | released 2021-04-04 | 165.4663 -34.7047 | evt2 name unknown
+obsid 23385 | TWHYA | HRC-S | grating LETG |  | 27.5 ks | events 2569595 | proposal 22200086 | released 2021-04-05 | 165.4663 -34.7047 | evt2 name unknown
+obsid 23386 | TWHYA | HRC-S | grating LETG |  | 27.5 ks | events 2508308 | proposal 22200086 | released 2021-04-05 | 165.4663 -34.7047 | evt2 name unknown
+obsid 24989 | TWHYA | HRC-S | grating LETG |  | 29.5 ks | events 2721095 | proposal 22200086 | released 2021-04-07 | 165.4663 -34.7047 | evt2 name unknown
+obsid 28953 | TWHYA | ACIS-S | grating NONE | TE | 4.7 ks | events 2818 | proposal 15700000 | released 2024-06-06 | 165.4659 -34.7048 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao25/cat2/28953/primary/acisf28953N002_evt2.fits.gz
+    image acisf28953N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf28953N002_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 29411 | TWHYA | ACIS-S | grating NONE | TE | 4.7 ks | events 3085 | proposal 15700000 | released 2024-06-10 | 165.4659 -34.7048 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao25/cat2/29411/primary/acisf29411N002_evt2.fits.gz
+    image acisf29411N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf29411N002_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 29454 | TWHYA | ACIS-S | grating NONE | TE | 4.7 ks | events 2358 | proposal 25200530 | released 2025-07-26 | 165.4659 -34.7048 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao25/cat2/29454/primary/acisf29454N001_evt2.fits.gz
+    image acisf29454N001_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf29454N001_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+imaging exposure without a grating: 14.1 ks in total
+== Hubble and Webb (MAST)
+739 rows from MAST, 102 public single-filter level-3 image mosaics
+HST|7387 | TW-HYA | WFPC2/PC | 3 filters | total 0.6 GB | detection 0.21 GB 482 s, F606W 0.21 GB 110 s, F814W 0.21 GB 372 s
+HST|10167 | TW-HYDRAE | NICMOS/NIC2 | 3 filters | total 0.0 GB | F171M 0.00 GB 576 s, F204M 0.00 GB 384 s, F222M 0.00 GB 576 s
+HST|7829 | CD-34D7151 | NICMOS/NIC2 | 2 filters | total 0.0 GB | F212N 0.00 GB 2304 s, F215N 0.00 GB 2304 s
+HST|7861 | TWHYA | NICMOS/NIC1 | 2 filters | total 0.0 GB | F164N 0.00 GB 407 s, F190N 0.00 GB 527 s
+HST|9768 | TW-HYDRAE | NICMOS/NIC2 | 2 filters | total 0.0 GB | POL120L 0.00 GB 144 s, POL240L 0.00 GB 144 s
+HST|7829 | ANY | NICMOS/NIC1 | 2 filters | total 0.0 GB | F187N 0.00 GB 2304 s, F190N 0.00 GB 2304 s
+HST|7829 | ANY | NICMOS/NIC3 | 2 filters | total 0.0 GB | F212N 0.00 GB 2304 s, F215N 0.00 GB 2304 s
+HST|7233 | TW-HYDRAE | NICMOS/NIC2 | 1 filters | total 0.0 GB | F160W 0.00 GB 416 s
+HST|7226 | TW-HYDRAE | NICMOS/NIC2 | 1 filters | total 0.0 GB | F110W 0.00 GB 416 s
+HST|7861 | TWHYA | NICMOS/NIC2 | 1 filters | total 0.0 GB | F215N 0.00 GB 64 s
+HST|8624 | TW-HYDRAE | STIS/CCD | 1 filters | total 0.0 GB | MIRVIS 0.01 GB 1260 s
+HST|13753 | V-TW-HYA | STIS/CCD | 1 filters | total 0.0 GB | MIRVIS 0.01 GB 1581 s
+HST|16228 | V-TW-HYA | STIS/CCD | 1 filters | total 0.0 GB | MIRVIS 0.01 GB 1425 s
+HST|16785 | V-TW-HYA | STIS/CCD | 1 filters | total 0.0 GB | MIRVIS 0.01 GB 1016 s
+HST|16991 | V-TW-HYA | STIS/CCD | 1 filters | total 0.0 GB | MIRVIS 0.01 GB 1016 s
+JWST|1282 | V-TW-HYA | MIRI/IMAGE | 1 filters | total 0.0 GB | F1280W 0.03 GB 3963 s
+JWST|1282 | TW-HYA.BG | MIRI/IMAGE | 1 filters | total 0.0 GB | F1280W 0.03 GB 991 s
