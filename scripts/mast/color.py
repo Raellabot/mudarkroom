@@ -421,6 +421,13 @@ def fill_holes(a, sigma=2.0, passes=3):
         sigma *= 1.6
     return a
 
+# Like fill_holes, but only inside the footprint: gaps narrower than 2 x reach px are closed, the outside edge stays empty.
+def fill_inside(a, sigma=2.0, passes=3, reach=60):
+    from scipy.ndimage import binary_closing
+    pad = int(reach) + 2
+    inside = binary_closing(np.pad(np.isfinite(a), pad), iterations=int(reach))[pad:-pad, pad:-pad]
+    return np.where(inside, fill_holes(a, sigma, passes), np.nan).astype(np.float32)
+
 def shift_img(a, dy, dx):
     from scipy.ndimage import shift
     return shift(np.nan_to_num(a, nan=0.0), (dy, dx), order=1, mode="nearest")
@@ -451,7 +458,10 @@ def finish_arrays(arrs, fin, scale=1.0):
         y0, y1, x0, x1 = dense_crop_box(a, fin["dense"])
         a = [x[y0:y1, x0:x1] for x in a]
     if not fin.get("nofill"):
-        a = [fill_holes(x, *fin.get("fill", (2.0, 3))) for x in a]   # "fill": (first width in px, passes) for gaps wider than the default reaches
+        if fin.get("fill"):   # "fill": (first width in px, passes, reach in px): wide gaps are filled but not the sky outside the footprint
+            a = [fill_inside(x, *fin["fill"]) for x in a]
+        else:
+            a = [fill_holes(x) for x in a]
     if fin.get("planet"):
         (cy, cx), rf = fin["planet"]
         H, W = a[0].shape
@@ -485,7 +495,7 @@ FINISH = {
     "primer-uds": {"nofill": True, "destripe": (288, 75), "black": 90},
     "smacs0723": {"box": (0.0, 1.0, 0.55, 1.0), "dense": 0.97},   # the cluster half; the other module's field is left out
     "ngc602-multi": {"nofill": True, "destripe": (288, 75), "black": 50, "xray_dim": (0.55, 40)},   # the brightest X-ray source is dimmed by 55% over a 40 px radius
-    "ngc346-nircam": {"box": (0.01, 0.925, 0.575, 0.99), "black": 30, "fill": (8.0, 4), "destripe": (288, 75)},   # the right pointing holds the nebula; the left one is star field; gaps between detectors are filled
+    "ngc346-nircam": {"box": (0.01, 0.97, 0.575, 0.99), "black": 30, "fill": (8.0, 4, 60), "destripe": (288, 75)},   # the right pointing holds the nebula; the left one is star field; gaps between detectors are filled
     "antennae-nircam": {"black": 30},   # a darker sky: the default black point leaves a milky halo over the whole frame
     "westerlund1-nircam": {"black": 1.0},   # fills the masked cores of saturated stars and the gap strip
     "ngc3324-multi": {"nofill": True, "black": 50},   # the Cosmic Cliffs; black point and X-ray dimming are tuned on the exported samples
