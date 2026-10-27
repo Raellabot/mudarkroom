@@ -1,0 +1,156 @@
+[
+ {
+  "picture": "westerlund1-nircam-creative5-n50.jpg",
+  "palette": "creative5",
+  "collection": "JWST",
+  "target": "CL-WESTERLUND-1",
+  "proposal_id": "1905",
+  "instrument": "NIRCAM/IMAGE",
+  "title": "Testing protoplanetary disk evolution and brown dwarf formation in starburst: NIRCAM and MIRI observations of the young cluster Westerlund 1",
+  "grid": {
+   "width": 2327,
+   "height": 2430,
+   "reduction": 5,
+   "arcsec_per_pixel": 0.15614350094575224,
+   "reference_filter": "F212N"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F115W",
+    "center_nm": 1147.5,
+    "color": "#1a4cff",
+    "obs_id": "jw01905-o001_t001_nircam_clear-f115w",
+    "exposure_s": 515.364,
+    "product": "mast:JWST/product/jw01905-o001_t001_nircam_clear-f115w_i2d.fits"
+   },
+   {
+    "filter": "F150W",
+    "center_nm": 1499.5,
+    "color": "#05c7ff",
+    "obs_id": "jw01905-o001_t001_nircam_clear-f150w",
+    "exposure_s": 515.364,
+    "product": "mast:JWST/product/jw01905-o001_t001_nircam_clear-f150w_i2d.fits"
+   },
+   {
+    "filter": "F187N",
+    "center_nm": 1873.5,
+    "color": "#91e6ab",
+    "obs_id": "jw01905-o001_t001_nircam_clear-f187n",
+    "exposure_s": 515.364,
+    "product": "mast:JWST/product/jw01905-o001_t001_nircam_clear-f187n_i2d.fits"
+   },
+   {
+    "filter": "F212N",
+    "center_nm": 2121.5,
+    "color": "#f7b884",
+    "obs_id": "jw01905-o001_t001_nircam_clear-f212n",
+    "exposure_s": 515.364,
+    "product": "mast:JWST/product/jw01905-o001_t001_nircam_clear-f212n_i2d.fits"
+   },
+   {
+    "filter": "F277W",
+    "center_nm": 2771.5,
+    "color": "#fc6fa8",
+    "obs_id": "jw01905-o001_t001_nircam_clear-f277w",
+    "exposure_s": 515.364,
+    "product": "mast:JWST/product/jw01905-o001_t001_nircam_clear-f277w_i2d.fits"
+   },
+   {
+    "filter": "F444W",
+    "center_nm": 4433.0,
+    "color": "#f261d1",
+    "obs_id": "jw01905-o001_t001_nircam_clear-f444w",
+    "exposure_s": 1030.728,
+    "product": "mast:JWST/product/jw01905-o001_t001_nircam_clear-f444w_i2d.fits"
+   }
+  ],
+  "black_percentile": 1.0,
+  "finishing": {
+   "black": 1.0
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ },
+ {
+  "picture": "westerlund1-nircam-creative5-n50-white.jpg",
+  "palette": "creative5",
+  "collection": "JWST",
+  "target": "CL-WESTERLUND-1",
+  "proposal_id": "1905",
+  "instrument": "NIRCAM/IMAGE",
+  "title": "Testing protoplanetary disk evolution and brown dwarf formation in starburst: NIRCAM and MIRI observations of the young cluster Westerlund 1",
+  "grid": {
+   "width": 2327,
+   "height": 2430,
+   "reduction": 5,
+   "arcsec_per_pixel": 0.15614350094575224,
+   "reference_filter": "F212N"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "white",
+  "filters": [
+   {
+    "filter": "F115W",
+    "center_nm": 1147.5,
+    "color": "#1a4cff",
+    "obs_id": "jw01905-o001_t001_nircam_clear-f115w",
+    "exposure_s": 515.364,
+    "product": "mast:JWST/product/jw01905-o001_t001_nircam_clear-f115w_i2d.fits"
+   },
+   {
+    "filter": "F150W",
+    "center_nm": 1499.5,
+    "color": "#05c7ff",
+    "obs_id": "jw01905-o001_t001_nircam_clear-f150w",
+    "exposure_s": 515.364,
+    "product": "mast:JWST/product/jw01905-o001_t001_nircam_clear-f150w_i2d.fits"
+   },
+   {
+    "filter": "F187N",
+    "center_nm": 1873.5,
+    "color": "#91e6ab",
+    "obs_id": "jw01905-o001_t001_nircam_clear-f187n",
+    "exposure_s": 515.364,
+    "product": "mast:JWST/product/jw01905-o001_t001_nircam_clear-f187n_i2d.fits"
+   },
+   {
+    "filter": "F212N",
+    "center_nm": 2121.5,
+    "color": "#f7b884",
+    "obs_id": "jw01905-o001_t001_nircam_clear-f212n",
+    "exposure_s": 515.364,
+    "product": "mast:JWST/product/jw01905-o001_t001_nircam_clear-f212n_i2d.fits"
+   },
+   {
+    "filter": "F277W",
+    "center_nm": 2771.5,
+    "color": "#fc6fa8",
+    "obs_id": "jw01905-o001_t001_nircam_clear-f277w",
+    "exposure_s": 515.364,
+    "product": "mast:JWST/product/jw01905-o001_t001_nircam_clear-f277w_i2d.fits"
+   },
+   {
+    "filter": "F444W",
+    "center_nm": 4433.0,
+    "color": "#f261d1",
+    "obs_id": "jw01905-o001_t001_nircam_clear-f444w",
+    "exposure_s": 1030.728,
+    "product": "mast:JWST/product/jw01905-o001_t001_nircam_clear-f444w_i2d.fits"
+   }
+  ],
+  "black_percentile": 1.0,
+  "finishing": {
+   "black": 1.0
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]
