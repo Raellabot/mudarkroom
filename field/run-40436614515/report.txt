@@ -1,0 +1,59 @@
+field bullet-cluster: ra 104.6 dec -55.94 radius 0.15 deg
+== Chandra (Chandra Data Archive)
+10 public observations within 0.15 deg
+obsid 554 | 1E0657-56 | ACIS-I | grating NONE | TE | 25.8 ks | events 252103 | proposal 01800148 | released 2001-10-24 | 104.6579 -55.9500 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao01/cat8/554/primary/acisf00554N004_evt2.fits.gz
+    image acisf00554N004_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf00554N004_full_img2.fits | 0.2-20.0 keV | 0.4 MB
+obsid 3184 | 1E0657-56 | ACIS-I | grating NONE | TE | 87.5 ks | events 343599 | proposal 03800039 | released 2003-07-18 | 104.5821 -55.9389 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao03/cat8/3184/primary/acisf03184N004_evt2.fits.gz
+    image acisf03184N004_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf03184N004_full_img2.fits | 0.2-20.0 keV | 0.4 MB
+obsid 4984 | 1E0657-56 | ACIS-I | grating NONE | TE | 76.1 ks | events 318575 | proposal 05800890 | released 2005-08-25 | 104.5827 -55.9415 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao05/cat8/4984/primary/acisf04984N004_evt2.fits.gz
+    image acisf04984N004_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf04984N004_full_img2.fits | 0.2-20.0 keV | 0.5 MB
+obsid 4985 | 1E0657-56 | ACIS-I | grating NONE | TE | 27.5 ks | events 120642 | proposal 05800890 | released 2005-08-25 | 104.5827 -55.9415 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao05/cat8/4985/primary/acisf04985N004_evt2.fits.gz
+    image acisf04985N004_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf04985N004_full_img2.fits | 0.2-20.0 keV | 0.4 MB
+obsid 4986 | 1E0657-56 | ACIS-I | grating NONE | TE | 41.5 ks | events 167914 | proposal 05800890 | released 2005-08-25 | 104.5827 -55.9415 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao05/cat8/4986/primary/acisf04986N004_evt2.fits.gz
+    image acisf04986N004_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf04986N004_full_img2.fits | 0.2-20.0 keV | 0.5 MB
+obsid 5355 | 1E0657-56 | ACIS-I | grating NONE | TE | 27.4 ks | events 117241 | proposal 05800890 | released 2005-08-25 | 104.5827 -55.9415 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao05/cat8/5355/primary/acisf05355N004_evt2.fits.gz
+    image acisf05355N004_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf05355N004_full_img2.fits | 0.2-20.0 keV | 0.5 MB
+obsid 5356 | 1E0657-56 | ACIS-I | grating NONE | TE | 97.2 ks | events 393125 | proposal 05800890 | released 2005-08-25 | 104.5827 -55.9415 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao05/cat8/5356/primary/acisf05356N004_evt2.fits.gz
+    image acisf05356N004_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf05356N004_full_img2.fits | 0.2-20.0 keV | 0.5 MB
+obsid 5357 | 1E0657-56 | ACIS-I | grating NONE | TE | 79.1 ks | events 319191 | proposal 05800890 | released 2005-08-25 | 104.5827 -55.9415 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao05/cat8/5357/primary/acisf05357N004_evt2.fits.gz
+    image acisf05357N004_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf05357N004_full_img2.fits | 0.2-20.0 keV | 0.5 MB
+obsid 5358 | 1E0657-56 | ACIS-I | grating NONE | TE | 32.0 ks | events 128335 | proposal 05800890 | released 2005-08-25 | 104.5827 -55.9415 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao05/cat8/5358/primary/acisf05358N004_evt2.fits.gz
+    image acisf05358N004_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf05358N004_full_img2.fits | 0.2-20.0 keV | 0.5 MB
+obsid 5361 | 1E0657-56 | ACIS-I | grating NONE | TE | 82.6 ks | events 340098 | proposal 05800890 | released 2005-08-25 | 104.5827 -55.9415 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao05/cat8/5361/primary/acisf05361N004_evt2.fits.gz
+    image acisf05361N004_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf05361N004_full_img2.fits | 0.2-20.0 keV | 0.5 MB
+imaging exposure without a grating: 576.6 ks in total
+== Hubble and Webb (MAST)
+5678 rows from MAST, 137 public single-filter level-3 image mosaics
+HST|10200 | GAL-CLUS-065819-555635 | ACS/WFC | 4 filters | total 1.6 GB | detection 0.34 GB 7280 s, F435W 0.56 GB 2420 s, F606W 0.34 GB 2336 s, F814W 0.34 GB 4944 s
+HST|11099 | 1ES-0657-55.8-NW-WFC3 | WFC3/IR | 3 filters | total 0.0 GB | detection 0.01 GB 13559 s, F110W 0.01 GB 6530 s, F160W 0.01 GB 7030 s
+HST|10863 | 1E0657-56 | ACS/WFC | 3 filters | total 0.8 GB | detection 0.31 GB 12694 s, F775W 0.22 GB 10150 s, F850LP 0.31 GB 12694 s
+HST|11591 | CLG-0657-56 | WFC3/IR | 3 filters | total 0.0 GB | detection 0.02 GB 6023 s, F110W 0.01 GB 3212 s, F160W 0.01 GB 2812 s
+HST|11099 | 1ES-0657-55.8-SE-WFC3 | WFC3/IR | 3 filters | total 0.0 GB | detection 0.01 GB 13559 s, F110W 0.01 GB 6530 s, F160W 0.01 GB 7030 s
+HST|10996 | ANY | ACS/WFC | 3 filters | total 0.8 GB | detection 0.37 GB 2160 s, F435W 0.22 GB 2160 s, F606W 0.22 GB 2160 s
+HST|10200 | GAL-CLUS-065832-555700 | ACS/WFC | 2 filters | total 1.1 GB | detection 0.56 GB 4756 s, F606W 0.56 GB 2336 s
+HST|11591 | CLG-0657-56 | ACS/WFC | 2 filters | total 0.9 GB | detection 0.45 GB 4480 s, F814W 0.45 GB 4480 s
+HST|None | ANY | ACS/WFC | 2 filters | total 3.9 GB | F435W 1.97 GB 6740 s, F606W 1.97 GB 8992 s
+HST|None | GAL-CLUS-065819-555635 | ACS/WFC | 2 filters | total 2.1 GB | F435W 0.12 GB 2420 s, F814W 1.97 GB 9424 s
+HST|None | 1ES-0657-55.8-NW-WFC3 | WFC3/IR | 2 filters | total 2.1 GB | F110W 1.97 GB 16270 s, F160W 0.12 GB 7029 s
+HST|None | 1E0657-56 | ACS/WFC | 2 filters | total 3.2 GB | F775W 1.28 GB 10150 s, F850LP 1.97 GB 12694 s
+HST|11099 | 1ES-0657-55.8 | WFPC2/PC | 2 filters | total 0.7 GB | detection 0.37 GB 11000 s, F814W 0.37 GB 11000 s
+HST|None | CLG-0657-56 | WFC3/IR | 1 filters | total 2.0 GB | F160W 1.97 GB 16870 s
+HST|10996 | 1E0657-56P4 | NICMOS/NIC3 | 1 filters | total 0.0 GB | F110W 0.00 GB 2688 s
+HST|10996 | 1E0657-56P3 | NICMOS/NIC3 | 1 filters | total 0.0 GB | F110W 0.00 GB 2688 s
+HST|None | GAL-CLUS-065832-555700 | ACS/WFC | 1 filters | total 0.1 GB | F606W 0.12 GB 4672 s
+HST|10996 | 1E0657-56P1 | NICMOS/NIC3 | 1 filters | total 0.0 GB | F110W 0.00 GB 2688 s
+HST|10996 | 1E0657-56P2 | NICMOS/NIC3 | 1 filters | total 0.0 GB | F110W 0.00 GB 2688 s
+JWST|4598 | BulletCluster | NIRCAM/IMAGE | 8 filters | total 9.2 GB | F090W 1.91 GB 6399 s, F115W 1.91 GB 6399 s, F150W 1.91 GB 6399 s, F200W 1.91 GB 6399 s, F277W 0.40 GB 6399 s, F356W 0.40 GB 6399 s, F410M 0.40 GB 6399 s, F444W 0.40 GB 6399 s
+JWST|4598 | TOPLRD | NIRCAM/IMAGE | 6 filters | total 4.5 GB | F090W 1.22 GB 2835 s, F115W 1.22 GB 2835 s, F200W 1.22 GB 2835 s, F356W 0.29 GB 2835 s, F410M 0.29 GB 2835 s, F444W 0.29 GB 2835 s
+JWST|6882 | BULLET | NIRCAM/IMAGE | 4 filters | total 3.2 GB | F150W 1.29 GB 1245 s, F210M 1.29 GB 1890 s, F300M 0.31 GB 1890 s, F444W 0.31 GB 1245 s
+JWST|6882 | BULLET | NIRISS/IMAGE | 2 filters | total 0.3 GB | F277W 0.13 GB 1203 s, F356W 0.13 GB 1718 s
