@@ -1,0 +1,136 @@
+[
+ {
+  "picture": "tarantula-nircam-creative5-n50.jpg",
+  "palette": "creative5",
+  "collection": "JWST",
+  "target": "NGC-2070",
+  "proposal_id": "2729",
+  "instrument": "NIRCAM/IMAGE",
+  "title": "JWST Early Release Observation 3",
+  "grid": {
+   "width": 2389,
+   "height": 1425,
+   "reduction": 6,
+   "arcsec_per_pixel": 0.18736616771946074,
+   "reference_filter": "F090W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F090W",
+    "center_nm": 900.0,
+    "color": "#1a4cff",
+    "obs_id": "jw02729-o001_t001_nircam_clear-f090w",
+    "exposure_s": 3650.500000000001,
+    "product": "mast:JWST/product/jw02729-o001_t001_nircam_clear-f090w_i2d.fits"
+   },
+   {
+    "filter": "F187N",
+    "center_nm": 1873.5,
+    "color": "#00e6ff",
+    "obs_id": "jw02729-o001_t001_nircam_clear-f187n",
+    "exposure_s": 5797.86,
+    "product": "mast:JWST/product/jw02729-o001_t001_nircam_clear-f187n_i2d.fits"
+   },
+   {
+    "filter": "F200W",
+    "center_nm": 1990.5,
+    "color": "#f2e673",
+    "obs_id": "jw02729-o001_t001_nircam_clear-f200w",
+    "exposure_s": 3865.240000000001,
+    "product": "mast:JWST/product/jw02729-o001_t001_nircam_clear-f200w_i2d.fits"
+   },
+   {
+    "filter": "F335M",
+    "center_nm": 3357.5,
+    "color": "#ff739e",
+    "obs_id": "jw02729-o001_t001_nircam_clear-f335m",
+    "exposure_s": 3650.500000000001,
+    "product": "mast:JWST/product/jw02729-o001_t001_nircam_clear-f335m_i2d.fits"
+   },
+   {
+    "filter": "F444W",
+    "center_nm": 4433.0,
+    "color": "#f261d1",
+    "obs_id": "jw02729-o001_t001_nircam_clear-f444w",
+    "exposure_s": 3865.240000000001,
+    "product": "mast:JWST/product/jw02729-o001_t001_nircam_clear-f444w_i2d.fits"
+   }
+  ],
+  "black_percentile": 1.0,
+  "finishing": null,
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ },
+ {
+  "picture": "tarantula-nircam-creative5-n50-white.jpg",
+  "palette": "creative5",
+  "collection": "JWST",
+  "target": "NGC-2070",
+  "proposal_id": "2729",
+  "instrument": "NIRCAM/IMAGE",
+  "title": "JWST Early Release Observation 3",
+  "grid": {
+   "width": 2389,
+   "height": 1425,
+   "reduction": 6,
+   "arcsec_per_pixel": 0.18736616771946074,
+   "reference_filter": "F090W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "white",
+  "filters": [
+   {
+    "filter": "F090W",
+    "center_nm": 900.0,
+    "color": "#1a4cff",
+    "obs_id": "jw02729-o001_t001_nircam_clear-f090w",
+    "exposure_s": 3650.500000000001,
+    "product": "mast:JWST/product/jw02729-o001_t001_nircam_clear-f090w_i2d.fits"
+   },
+   {
+    "filter": "F187N",
+    "center_nm": 1873.5,
+    "color": "#00e6ff",
+    "obs_id": "jw02729-o001_t001_nircam_clear-f187n",
+    "exposure_s": 5797.86,
+    "product": "mast:JWST/product/jw02729-o001_t001_nircam_clear-f187n_i2d.fits"
+   },
+   {
+    "filter": "F200W",
+    "center_nm": 1990.5,
+    "color": "#f2e673",
+    "obs_id": "jw02729-o001_t001_nircam_clear-f200w",
+    "exposure_s": 3865.240000000001,
+    "product": "mast:JWST/product/jw02729-o001_t001_nircam_clear-f200w_i2d.fits"
+   },
+   {
+    "filter": "F335M",
+    "center_nm": 3357.5,
+    "color": "#ff739e",
+    "obs_id": "jw02729-o001_t001_nircam_clear-f335m",
+    "exposure_s": 3650.500000000001,
+    "product": "mast:JWST/product/jw02729-o001_t001_nircam_clear-f335m_i2d.fits"
+   },
+   {
+    "filter": "F444W",
+    "center_nm": 4433.0,
+    "color": "#f261d1",
+    "obs_id": "jw02729-o001_t001_nircam_clear-f444w",
+    "exposure_s": 3865.240000000001,
+    "product": "mast:JWST/product/jw02729-o001_t001_nircam_clear-f444w_i2d.fits"
+   }
+  ],
+  "black_percentile": 1.0,
+  "finishing": null,
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]
