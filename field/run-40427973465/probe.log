@@ -1,0 +1,359 @@
+field sn1987a: ra 83.8667 dec -69.2699 radius 0.1 deg
+== Chandra (Chandra Data Archive)
+156 public observations within 0.1 deg
+obsid 122 | SN1987A | ACIS-S | grating NONE | TE | 8.6 ks | events 70907 | proposal 01500038 | released 2001-02-02 | 83.8679 -69.2703 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao01/cat5/122/primary/acisf00122N004_evt2.fits.gz
+    image acisf00122N004_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf00122N004_full_img2.fits | 0.2-20.0 keV | 0.4 MB
+obsid 124 | SN1987A | ACIS-S | grating HETG | TE | 47.3 ks | events 560589 | proposal 01500047 | released 2000-11-18 | 83.8679 -69.2703 | evt2 name unknown
+obsid 1044 | SN1987A | ACIS-S | grating NONE | TE | 17.8 ks | events 217717 | proposal 02500130 | released 2002-05-03 | 83.8671 -69.2697 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao02/cat5/1044/primary/acisf01044N004_evt2.fits.gz
+    image acisf01044N004_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf01044N004_full_img2.fits | 0.2-20.0 keV | 0.6 MB
+obsid 1387 | SN1987A | ACIS-S | grating HETG | TE | 68.9 ks | events 799493 | proposal 01500047 | released 2000-11-18 | 83.8679 -69.2703 | evt2 name unknown
+obsid 1967 | SNR1987A | ACIS-S | grating NONE | TE | 98.8 ks | events 1347763 | proposal 02500574 | released 2001-12-18 | 83.8667 -69.2698 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao02/cat5/1967/primary/acisf01967N004_evt2.fits.gz
+    image acisf01967N004_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf01967N004_full_img2.fits | 0.2-20.0 keV | 0.5 MB
+obsid 2831 | SNR1987A | ACIS-S | grating NONE | TE | 49.4 ks | events 625080 | proposal 03500831 | released 2002-12-20 | 83.8667 -69.2698 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao03/cat5/2831/primary/acisf02831N004_evt2.fits.gz
+    image acisf02831N004_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf02831N004_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 2832 | SNR1987A | ACIS-S | grating NONE | TE | 44.3 ks | events 466420 | proposal 03500831 | released 2003-05-21 | 83.8667 -69.2698 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao03/cat5/2832/primary/acisf02832N004_evt2.fits.gz
+    image acisf02832N004_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf02832N004_full_img2.fits | 0.2-20.0 keV | 0.4 MB
+obsid 3829 | SN1987A | ACIS-S | grating NONE | TE | 49.0 ks | events 564659 | proposal 04500018 | released 2004-01-06 | 83.8667 -69.2698 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao04/cat5/3829/primary/acisf03829N004_evt2.fits.gz
+    image acisf03829N004_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf03829N004_full_img2.fits | 0.2-20.0 keV | 0.4 MB
+obsid 3830 | SN1987A | ACIS-S | grating NONE | TE | 45.3 ks | events 489086 | proposal 04500018 | released 2004-07-11 | 83.8667 -69.2698 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao04/cat5/3830/primary/acisf03830N004_evt2.fits.gz
+    image acisf03830N004_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf03830N004_full_img2.fits | 0.2-20.0 keV | 0.4 MB
+obsid 4614 | SN1987A | ACIS-S | grating NONE | TE | 46.5 ks | events 526270 | proposal 05500473 | released 2005-01-05 | 83.8667 -69.2698 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao05/cat5/4614/primary/acisf04614N004_evt2.fits.gz
+    image acisf04614N004_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf04614N004_full_img2.fits | 0.2-20.0 keV | 0.4 MB
+obsid 4615 | SN1987A | ACIS-S | grating NONE | TE | 48.8 ks | events 140811 | proposal 05500473 | released 2005-07-27 | 83.8667 -69.2698 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao05/cat5/4615/primary/acisf04615N004_evt2.fits.gz
+    image acisf04615N004_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf04615N004_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 4640 | SN1987A | ACIS-S | grating LETG | TE | 56.8 ks | events 202131 | proposal 05500645 | released 2005-09-03 | 83.8667 -69.2698 | evt2 name unknown
+obsid 4641 | SN1987A | ACIS-S | grating LETG | TE | 72.5 ks | events 253928 | proposal 05500645 | released 2005-09-03 | 83.8667 -69.2698 | evt2 name unknown
+obsid 5362 | SN1987A | ACIS-S | grating LETG | TE | 67.4 ks | events 241139 | proposal 05500645 | released 2005-09-03 | 83.8667 -69.2698 | evt2 name unknown
+obsid 5363 | SN1987A | ACIS-S | grating LETG | TE | 43.5 ks | events 154840 | proposal 05500645 | released 2005-09-03 | 83.8667 -69.2698 | evt2 name unknown
+obsid 5579 | SN1987A | ACIS-S | grating NONE | TE | 31.9 ks | events 37873 | proposal 06500918 | released 2006-01-14 | 83.8667 -69.2698 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao06/cat5/5579/primary/acisf05579N004_evt2.fits.gz
+    image acisf05579N004_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf05579N004_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 5580 | SN1987A | ACIS-S | grating NONE | TE | 23.7 ks | events 32985 | proposal 06500918 | released 2006-07-18 | 83.8667 -69.2698 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao06/cat5/5580/primary/acisf05580N004_evt2.fits.gz
+    image acisf05580N004_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf05580N004_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 6099 | SN1987A | ACIS-S | grating LETG | TE | 48.6 ks | events 170241 | proposal 05500645 | released 2005-09-03 | 83.8667 -69.2698 | evt2 name unknown
+obsid 6178 | SN1987A | ACIS-S | grating NONE | TE | 16.5 ks | events 20553 | proposal 06500918 | released 2006-01-14 | 83.8667 -69.2698 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao06/cat5/6178/primary/acisf06178N004_evt2.fits.gz
+    image acisf06178N004_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf06178N004_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 6345 | SN1987A | ACIS-S | grating NONE | TE | 21.0 ks | events 29539 | proposal 06500918 | released 2006-07-18 | 83.8667 -69.2698 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao06/cat5/6345/primary/acisf06345N004_evt2.fits.gz
+    image acisf06345N004_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf06345N004_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 6668 | SN1987A | ACIS-S | grating NONE | TE | 42.3 ks | events 64920 | proposal 07500257 | released 2007-01-30 | 83.8667 -69.2698 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao07/cat5/6668/primary/acisf06668N003_evt2.fits.gz
+    image acisf06668N003_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf06668N003_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 6669 | SN1987A | ACIS-S | grating NONE | TE | 36.4 ks | events 64907 | proposal 07500257 | released 2007-07-30 | 83.8667 -69.2698 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao07/cat5/6669/primary/acisf06669N003_evt2.fits.gz
+    image acisf06669N003_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf06669N003_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 7588 | SN1987A | ACIS-S | grating HETG | TE | 27.2 ks | events 326104 | proposal 08500065 | released 2008-04-18 | 83.8667 -69.2697 | evt2 name unknown
+obsid 7589 | SN1987A | ACIS-S | grating HETG | TE | 25.3 ks | events 311002 | proposal 08500065 | released 2008-04-18 | 83.8667 -69.2697 | evt2 name unknown
+obsid 7590 | SN1987A | ACIS-S | grating HETG | TE | 35.6 ks | events 451718 | proposal 08500065 | released 2008-04-18 | 83.8667 -69.2697 | evt2 name unknown
+obsid 7620 | SN1987A | ACIS-S | grating LETG | TE | 34.6 ks | events 282974 | proposal 08500520 | released 2008-09-17 | 83.8667 -69.2698 | evt2 name unknown
+obsid 7621 | SN1987A | ACIS-S | grating LETG | TE | 37.0 ks | events 305066 | proposal 08500520 | released 2008-09-17 | 83.8667 -69.2698 | evt2 name unknown
+obsid 7636 | SNR1987A | ACIS-S | grating NONE | TE | 33.5 ks | events 63049 | proposal 08500693 | released 2008-01-21 | 83.8667 -69.2698 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao08/cat5/7636/primary/acisf07636N004_evt2.fits.gz
+    image acisf07636N004_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf07636N004_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 7637 | SNR1987A | ACIS-S | grating NONE | TE | 25.7 ks | events 53317 | proposal 08500693 | released 2008-07-16 | 83.8667 -69.2698 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao08/cat5/7637/primary/acisf07637N003_evt2.fits.gz
+    image acisf07637N003_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf07637N003_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 8487 | SN1987A | ACIS-S | grating HETG | TE | 28.7 ks | events 351711 | proposal 08500065 | released 2008-04-18 | 83.8667 -69.2697 | evt2 name unknown
+obsid 8488 | SN1987A | ACIS-S | grating HETG | TE | 31.7 ks | events 390122 | proposal 08500065 | released 2008-04-18 | 83.8667 -69.2697 | evt2 name unknown
+obsid 8523 | SN1987A | ACIS-S | grating HETG | TE | 29.7 ks | events 363255 | proposal 08500065 | released 2008-04-18 | 83.8667 -69.2697 | evt2 name unknown
+obsid 8537 | SN1987A | ACIS-S | grating HETG | TE | 12.7 ks | events 152432 | proposal 08500065 | released 2008-04-18 | 83.8667 -69.2697 | evt2 name unknown
+obsid 8538 | SN1987A | ACIS-S | grating HETG | TE | 20.7 ks | events 252262 | proposal 08500065 | released 2008-04-18 | 83.8667 -69.2697 | evt2 name unknown
+obsid 8539 | SN1987A | ACIS-S | grating HETG | TE | 24.8 ks | events 305934 | proposal 08500065 | released 2008-04-18 | 83.8667 -69.2697 | evt2 name unknown
+obsid 8542 | SN1987A | ACIS-S | grating HETG | TE | 17.9 ks | events 223616 | proposal 08500065 | released 2008-04-18 | 83.8667 -69.2697 | evt2 name unknown
+obsid 8543 | SN1987A | ACIS-S | grating HETG | TE | 30.7 ks | events 373685 | proposal 08500065 | released 2008-04-18 | 83.8667 -69.2697 | evt2 name unknown
+obsid 8544 | SN1987A | ACIS-S | grating HETG | TE | 19.1 ks | events 239688 | proposal 08500065 | released 2008-04-18 | 83.8667 -69.2697 | evt2 name unknown
+obsid 8545 | SN1987A | ACIS-S | grating HETG | TE | 20.5 ks | events 252656 | proposal 08500065 | released 2008-04-18 | 83.8667 -69.2697 | evt2 name unknown
+obsid 8546 | SN1987A | ACIS-S | grating HETG | TE | 30.6 ks | events 372687 | proposal 08500065 | released 2008-04-18 | 83.8667 -69.2697 | evt2 name unknown
+obsid 9085 | SN1987A | HRC-I | grating NONE |  | 33.4 ks | events 2223595 | proposal 09500037 | released 2009-04-30 | 83.8667 -69.2697 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao09/cat5/9085/primary/hrcf09085N005_evt2.fits.gz
+    image hrcf09085N005_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image hrcf09085N005_full_img2.fits | 0.2-20.0 keV | 0.5 MB
+obsid 9142 | SNR1987A | ACIS-S | grating NONE | TE | 6.6 ks | events 14038 | proposal 09500890 | released 2009-01-13 | 83.8667 -69.2698 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao09/cat5/9142/primary/acisf09142N003_evt2.fits.gz
+    image acisf09142N003_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf09142N003_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 9143 | SNR1987A | ACIS-S | grating NONE | TE | 8.6 ks | events 19915 | proposal 09500890 | released 2009-07-07 | 83.8667 -69.2698 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao09/cat5/9143/primary/acisf09143N003_evt2.fits.gz
+    image acisf09143N003_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf09143N003_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 9144 | SNR1987A | ACIS-S | grating HETG | TE | 42.0 ks | events 141370 | proposal 09500890 | released 2009-07-03 | 83.8667 -69.2698 | evt2 name unknown
+obsid 9580 | SN1987A | ACIS-S | grating LETG | TE | 34.6 ks | events 279454 | proposal 08500520 | released 2008-09-17 | 83.8667 -69.2698 | evt2 name unknown
+obsid 9581 | SN1987A | ACIS-S | grating LETG | TE | 45.0 ks | events 369499 | proposal 08500520 | released 2008-09-17 | 83.8667 -69.2698 | evt2 name unknown
+obsid 9582 | SN1987A | ACIS-S | grating LETG | TE | 44.2 ks | events 365282 | proposal 08500520 | released 2008-09-17 | 83.8667 -69.2698 | evt2 name unknown
+obsid 9589 | SN1987A | ACIS-S | grating LETG | TE | 39.5 ks | events 327418 | proposal 08500520 | released 2008-09-17 | 83.8667 -69.2698 | evt2 name unknown
+obsid 9590 | SN1987A | ACIS-S | grating LETG | TE | 24.7 ks | events 203350 | proposal 08500520 | released 2008-09-17 | 83.8667 -69.2698 | evt2 name unknown
+obsid 9591 | SN1987A | ACIS-S | grating LETG | TE | 12.8 ks | events 106179 | proposal 08500520 | released 2008-09-17 | 83.8667 -69.2698 | evt2 name unknown
+obsid 9592 | SN1987A | ACIS-S | grating LETG | TE | 12.9 ks | events 107122 | proposal 08500520 | released 2008-09-17 | 83.8667 -69.2698 | evt2 name unknown
+obsid 9806 | SNR1987A | ACIS-S | grating NONE | TE | 2.6 ks | events 6656 | proposal 09500890 | released 2009-01-13 | 83.8667 -69.2698 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao09/cat5/9806/primary/acisf09806N003_evt2.fits.gz
+    image acisf09806N003_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf09806N003_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 9851 | SN1987A | HRC-I | grating NONE |  | 13.0 ks | events 834743 | proposal 09500037 | released 2009-04-30 | 83.8667 -69.2697 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao09/cat5/9851/primary/hrcf09851N005_evt2.fits.gz
+    image hrcf09851N005_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image hrcf09851N005_full_img2.fits | 0.2-20.0 keV | 0.5 MB
+obsid 10130 | SNR1987A | ACIS-S | grating NONE | TE | 6.0 ks | events 14737 | proposal 10500753 | released 2010-01-06 | 83.8667 -69.2698 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao10/cat5/10130/primary/acisf10130N003_evt2.fits.gz
+    image acisf10130N003_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf10130N003_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 10221 | SNR1987A | ACIS-S | grating HETG | TE | 18.7 ks | events 67589 | proposal 10500753 | released 2010-01-20 | 83.8667 -69.2698 | evt2 name unknown
+obsid 10222 | SNR1987A | ACIS-S | grating HETG | TE | 24.4 ks | events 91995 | proposal 10500753 | released 2010-09-09 | 83.8667 -69.2698 | evt2 name unknown
+obsid 10852 | SNR1987A | ACIS-S | grating HETG | TE | 10.8 ks | events 38738 | proposal 10500753 | released 2010-01-20 | 83.8667 -69.2698 | evt2 name unknown
+obsid 10853 | SNR1987A | ACIS-S | grating HETG | TE | 11.2 ks | events 40653 | proposal 10500753 | released 2010-01-20 | 83.8667 -69.2698 | evt2 name unknown
+obsid 10854 | SNR1987A | ACIS-S | grating HETG | TE | 12.0 ks | events 43743 | proposal 10500753 | released 2010-01-20 | 83.8667 -69.2698 | evt2 name unknown
+obsid 10855 | SNR1987A | ACIS-S | grating HETG | TE | 18.8 ks | events 68505 | proposal 10500753 | released 2010-01-20 | 83.8667 -69.2698 | evt2 name unknown
+obsid 10926 | SNR1987A | ACIS-S | grating HETG | TE | 33.8 ks | events 127175 | proposal 10500753 | released 2010-09-09 | 83.8667 -69.2698 | evt2 name unknown
+obsid 11090 | SNR1987A | ACIS-S | grating HETG | TE | 24.6 ks | events 83082 | proposal 11500068 | released 2011-03-29 | 83.8667 -69.2698 | evt2 name unknown
+obsid 11091 | SNR1987A | ACIS-S | grating HETG | TE | 27.9 ks | events 89120 | proposal 11500068 | released 2011-09-30 | 83.8667 -69.2698 | evt2 name unknown
+obsid 11826 | SN1987A | HRC-I | grating NONE |  | 33.7 ks | events 2736439 | proposal 11500041 | released 2011-08-19 | 83.8667 -69.2698 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao11/cat5/11826/primary/hrcf11826N004_evt2.fits.gz
+    image hrcf11826N004_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image hrcf11826N004_full_img2.fits | 0.2-20.0 keV | 0.6 MB
+obsid 12125 | SNR1987A | ACIS-S | grating HETG | TE | 18.1 ks | events 61269 | proposal 11500068 | released 2011-03-29 | 83.8667 -69.2698 | evt2 name unknown
+obsid 12126 | SNR1987A | ACIS-S | grating HETG | TE | 21.2 ks | events 71562 | proposal 11500068 | released 2011-03-29 | 83.8667 -69.2698 | evt2 name unknown
+obsid 12145 | SN1987A | ACIS-S | grating HETG | TE | 51.2 ks | events 486794 | proposal 12500052 | released 2012-03-15 | 83.8667 -69.2697 | evt2 name unknown
+obsid 12146 | SN1987A | ACIS-S | grating HETG | TE | 25.6 ks | events 230986 | proposal 12500052 | released 2012-03-15 | 83.8667 -69.2697 | evt2 name unknown
+obsid 12539 | SNR1987A | ACIS-S | grating HETG | TE | 52.1 ks | events 161791 | proposal 12500006 | released 2012-03-28 | 83.8667 -69.2698 | evt2 name unknown
+obsid 12540 | SNR1987A | ACIS-S | grating HETG | TE | 37.5 ks | events 108803 | proposal 12500006 | released 2012-09-26 | 83.8667 -69.2698 | evt2 name unknown
+obsid 13131 | SNR1987A | ACIS-S | grating HETG | TE | 26.5 ks | events 83982 | proposal 11500068 | released 2011-09-30 | 83.8667 -69.2698 | evt2 name unknown
+obsid 13238 | SN1987A | ACIS-S | grating HETG | TE | 54.2 ks | events 512310 | proposal 12500052 | released 2012-03-15 | 83.8667 -69.2697 | evt2 name unknown
+obsid 13239 | SN1987A | ACIS-S | grating HETG | TE | 46.7 ks | events 442329 | proposal 12500052 | released 2012-03-15 | 83.8667 -69.2697 | evt2 name unknown
+obsid 13735 | SNR1987A | ACIS-S | grating HETG | TE | 42.9 ks | events 119241 | proposal 13500072 | released 2013-04-02 | 83.8667 -69.2698 | evt2 name unknown
+obsid 14344 | SNR1987A | ACIS-S | grating HETG | TE | 11.6 ks | events 34573 | proposal 12500006 | released 2012-09-26 | 83.8667 -69.2698 | evt2 name unknown
+obsid 14417 | SNR1987A | ACIS-S | grating HETG | TE | 26.9 ks | events 74665 | proposal 13500072 | released 2013-04-02 | 83.8667 -69.2698 | evt2 name unknown
+obsid 14697 | SN1987A | ACIS-S | grating HETG | TE | 67.6 ks | events 182126 | proposal 14500166 | released 2014-03-26 | 83.8667 -69.2698 | evt2 name unknown
+obsid 14698 | SN1987A | ACIS-S | grating HETG | TE | 68.5 ks | events 181723 | proposal 14500166 | released 2014-09-30 | 83.8667 -69.2698 | evt2 name unknown
+obsid 15809 | SN1987A | ACIS-S | grating HETG | TE | 70.5 ks | events 179954 | proposal 15500155 | released 2015-03-20 | 83.8667 -69.2698 | evt2 name unknown
+obsid 15810 | SN1987A | ACIS-S | grating HETG | TE | 48.3 ks | events 134510 | proposal 15500155 | released 2015-09-22 | 83.8667 -69.2698 | evt2 name unknown
+obsid 16756 | SN1987A | ACIS-S | grating HETG | TE | 66.6 ks | events 179413 | proposal 16500118 | released 2016-09-22 | 83.8667 -69.2698 | evt2 name unknown
+obsid 16757 | SN1987A | HRC-S | grating LETG |  | 67.6 ks | events 3635674 | proposal 16500118 | released 2016-03-15 | 83.8667 -69.2698 | evt2 name unknown
+obsid 17415 | SN1987A | ACIS-S | grating HETG | TE | 19.4 ks | events 49632 | proposal 15500155 | released 2015-09-22 | 83.8667 -69.2698 | evt2 name unknown
+obsid 17898 | SNR1987A | HRC-S | grating LETG |  | 38.8 ks | events 3200698 | proposal 17500197 | released 2017-04-01 | 83.8667 -69.2698 | evt2 name unknown
+obsid 17899 | SNR1987A | ACIS-S | grating HETG | TE | 26.1 ks | events 84500 | proposal 17500197 | released 2017-09-26 | 83.8667 -69.2698 | evt2 name unknown
+obsid 18808 | SNR1987A | HRC-S | grating LETG |  | 29.8 ks | events 2401027 | proposal 17500197 | released 2017-04-01 | 83.8667 -69.2698 | evt2 name unknown
+obsid 19289 | SNR1987A | ACIS-S | grating HETG | TE | 18.9 ks | events 57893 | proposal 18500433 | released 2018-09-25 | 83.8667 -69.2698 | evt2 name unknown
+obsid 19290 | SNR1987A | HRC-S | grating LETG |  | 36.7 ks | events 3122815 | proposal 18500433 | released 2018-03-17 | 83.8667 -69.2698 | evt2 name unknown
+obsid 19882 | SNR1987A | ACIS-S | grating HETG | TE | 41.1 ks | events 131616 | proposal 17500197 | released 2017-09-26 | 83.8667 -69.2698 | evt2 name unknown
+obsid 20036 | SNR1987A | HRC-S | grating LETG |  | 30.9 ks | events 2671321 | proposal 18500433 | released 2018-03-17 | 83.8667 -69.2698 | evt2 name unknown
+obsid 20277 | SN1987A | ACIS-S | grating HETG | TE | 33.8 ks | events 117448 | proposal 19500021 | released 2019-09-17 | 83.8667 -69.2698 | evt2 name unknown
+obsid 20322 | SN1987A | ACIS-S | grating HETG | TE | 15.2 ks | events 103565 | proposal 19500478 | released 2019-04-02 | 83.8667 -69.2698 | evt2 name unknown
+obsid 20323 | SN1987A | ACIS-S | grating HETG | TE | 27.1 ks | events 185294 | proposal 19500478 | released 2019-04-02 | 83.8667 -69.2698 | evt2 name unknown
+obsid 20339 | 30DORADUSC | ACIS-I | grating NONE | TE | 25.7 ks | events 111296 | proposal 19500739 | released 2019-12-24 | 84.0729 -69.2229 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao19/cat5/20339/primary/acisf20339N002_evt2.fits.gz
+    image acisf20339N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf20339N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 20793 | SNR1987A | ACIS-S | grating HETG | TE | 48.3 ks | events 153132 | proposal 18500433 | released 2018-09-25 | 83.8667 -69.2698 | evt2 name unknown
+obsid 20927 | SN1987A | ACIS-S | grating HETG | TE | 16.6 ks | events 115416 | proposal 19500478 | released 2019-04-02 | 83.8667 -69.2698 | evt2 name unknown
+obsid 21037 | SN1987A | ACIS-S | grating HETG | TE | 29.4 ks | events 209519 | proposal 19500478 | released 2019-04-02 | 83.8667 -69.2698 | evt2 name unknown
+obsid 21038 | SN1987A | ACIS-S | grating HETG | TE | 34.2 ks | events 234436 | proposal 19500478 | released 2019-04-02 | 83.8667 -69.2698 | evt2 name unknown
+obsid 21042 | SN1987A | ACIS-S | grating HETG | TE | 41.1 ks | events 284287 | proposal 19500478 | released 2019-04-02 | 83.8667 -69.2698 | evt2 name unknown
+obsid 21043 | SN1987A | ACIS-S | grating HETG | TE | 28.8 ks | events 194213 | proposal 19500478 | released 2019-04-02 | 83.8667 -69.2698 | evt2 name unknown
+obsid 21044 | SN1987A | ACIS-S | grating HETG | TE | 15.2 ks | events 104154 | proposal 19500478 | released 2019-04-02 | 83.8667 -69.2698 | evt2 name unknown
+obsid 21049 | SN1987A | ACIS-S | grating HETG | TE | 30.9 ks | events 217431 | proposal 19500478 | released 2019-04-02 | 83.8667 -69.2698 | evt2 name unknown
+obsid 21050 | SN1987A | ACIS-S | grating HETG | TE | 17.8 ks | events 121779 | proposal 19500478 | released 2019-04-02 | 83.8667 -69.2698 | evt2 name unknown
+obsid 21051 | SN1987A | ACIS-S | grating HETG | TE | 15.0 ks | events 104358 | proposal 19500478 | released 2019-04-02 | 83.8667 -69.2698 | evt2 name unknown
+obsid 21052 | SN1987A | ACIS-S | grating HETG | TE | 30.1 ks | events 207565 | proposal 19500478 | released 2019-04-02 | 83.8667 -69.2698 | evt2 name unknown
+obsid 21053 | SN1987A | ACIS-S | grating HETG | TE | 12.2 ks | events 82716 | proposal 19500478 | released 2019-04-02 | 83.8667 -69.2698 | evt2 name unknown
+obsid 21303 | SNR1987A | HRC-S | grating LETG |  | 19.9 ks | events 1839425 | proposal 20500067 | released 2020-03-26 | 83.8667 -69.2698 | evt2 name unknown
+obsid 21304 | SNR1987A | ACIS-S | grating HETG | TE | 41.1 ks | events 144446 | proposal 20500067 | released 2020-09-19 | 83.8667 -69.2698 | evt2 name unknown
+obsid 21844 | SN1987A | ACIS-S | grating HETG | TE | 33.8 ks | events 121458 | proposal 19500021 | released 2019-09-17 | 83.8667 -69.2698 | evt2 name unknown
+obsid 21949 | 30DORADUSC | ACIS-I | grating NONE | TE | 27.7 ks | events 116476 | proposal 19500739 | released 2019-12-24 | 84.0729 -69.2229 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao19/cat5/21949/primary/acisf21949N002_evt2.fits.gz
+    image acisf21949N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf21949N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 22006 | 30DORADUSC | ACIS-I | grating NONE | TE | 37.6 ks | events 158712 | proposal 19500739 | released 2019-12-24 | 84.0729 -69.2229 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao19/cat5/22006/primary/acisf22006N002_evt2.fits.gz
+    image acisf22006N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf22006N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 22155 | SNR1987A | HRC-S | grating LETG |  | 29.8 ks | events 2788059 | proposal 20500067 | released 2020-03-26 | 83.8667 -69.2698 | evt2 name unknown
+obsid 22156 | SNR1987A | HRC-S | grating LETG |  | 27.9 ks | events 2618493 | proposal 20500067 | released 2020-03-26 | 83.8667 -69.2698 | evt2 name unknown
+obsid 22424 | SNR1987A | HRC-S | grating LETG |  | 36.9 ks | events 4071922 | proposal 21500082 | released 2021-03-31 | 83.8667 -69.2698 | evt2 name unknown
+obsid 22425 | SNR1987A | ACIS-S | grating HETG | TE | 60.8 ks | events 226737 | proposal 21500082 | released 2021-09-18 | 83.8667 -69.2698 | evt2 name unknown
+obsid 22703 | SNR1987A | HRC-I | grating NONE |  | 24.7 ks | events 2845277 | proposal 21500616 | released 2022-03-31 | 83.8667 -69.2698 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao21/cat5/22703/primary/hrcf22703N003_evt2.fits.gz
+    image hrcf22703N003_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image hrcf22703N003_full_img2.fits | 0.2-20.0 keV | 0.7 MB
+obsid 22849 | SNR1987A | ACIS-S | grating HETG | TE | 41.1 ks | events 145437 | proposal 20500067 | released 2020-09-19 | 83.8667 -69.2698 | evt2 name unknown
+obsid 23198 | SNR1987A | HRC-S | grating LETG |  | 47.6 ks | events 4780247 | proposal 21500082 | released 2021-03-31 | 83.8667 -69.2698 | evt2 name unknown
+obsid 23533 | SNR1987A | HRC-S | grating LETG |  | 28.9 ks | events 2603141 | proposal 22500040 | released 2022-03-26 | 83.8667 -69.2698 | evt2 name unknown
+obsid 23534 | SNR1987A | ACIS-S | grating HETG | TE | 27.1 ks | events 93482 | proposal 22500040 | released 2022-11-01 | 83.8667 -69.2698 | evt2 name unknown
+obsid 24295 | SNR1987A | ACIS-S | grating HETG | TE | 29.0 ks | events 100593 | proposal 22500040 | released 2022-11-01 | 83.8667 -69.2698 | evt2 name unknown
+obsid 24652 | SNR1987A | ACIS-S | grating HETG | TE | 29.3 ks | events 105954 | proposal 21500082 | released 2021-09-18 | 83.8667 -69.2698 | evt2 name unknown
+obsid 24653 | SNR1987A | HRC-S | grating LETG |  | 29.7 ks | events 2721856 | proposal 22500040 | released 2022-03-26 | 83.8667 -69.2698 | evt2 name unknown
+obsid 24654 | SNR1987A | ACIS-S | grating HETG | TE | 31.9 ks | events 112924 | proposal 22500040 | released 2022-11-01 | 83.8667 -69.2698 | evt2 name unknown
+obsid 25511 | SNR1987A | HRC-S | grating LETG |  | 13.7 ks | events 822000 | proposal 23500050 | released 2024-04-24 | 83.8667 -69.2698 | evt2 name unknown
+obsid 25512 | SNR1987A | HRC-S | grating LETG |  | 14.3 ks | events 632684 | proposal 23500050 | released 2024-10-12 | 83.8667 -69.2698 | evt2 name unknown
+obsid 25513 | SNR1987A | HRC-S | grating LETG |  | 13.4 ks | events 577054 | proposal 23500050 | released 2025-03-31 | 83.8667 -69.2698 | evt2 name unknown
+obsid 25514 | SNR1987A | ACIS-S | grating HETG | TE | 57.0 ks | events 155780 | proposal 23500050 | released 2023-09-30 | 83.8667 -69.2698 | evt2 name unknown
+obsid 25515 | SNR1987A | ACIS-S | grating HETG | TE | 35.3 ks | events 70092 | proposal 23500050 | released 2024-09-28 | 83.8667 -69.2698 | evt2 name unknown
+obsid 25516 | SNR1987A | ACIS-S | grating HETG | TE | 55.9 ks | events 110233 | proposal 23500050 | released 2025-10-04 | 83.8667 -69.2698 | evt2 name unknown
+obsid 25906 | SNR1987A | ACIS-S | grating HETG | TE | 26.4 ks | events 70084 | proposal 23500050 | released 2023-09-30 | 83.8667 -69.2698 | evt2 name unknown
+obsid 26018 | SNR1987A | HRC-I | grating NONE |  | 14.0 ks | events 876994 | proposal 23500660 | released 2024-09-01 | 83.8667 -69.2698 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao23/cat5/26018/primary/hrcf26018N002_evt2.fits.gz
+    image hrcf26018N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image hrcf26018N002_full_img2.fits | 0.2-20.0 keV | 0.7 MB
+obsid 27086 | SNR1987A | ACIS-S | grating HETG | TE | 28.0 ks | events 60056 | proposal 23500050 | released 2024-09-28 | 83.8667 -69.2698 | evt2 name unknown
+obsid 27443 | SNR1987A | HRC-S | grating LETG |  | 14.5 ks | events 933472 | proposal 23500050 | released 2024-04-24 | 83.8667 -69.2698 | evt2 name unknown
+obsid 27487 | SNR1987A | HRC-S | grating LETG |  | 14.3 ks | events 706645 | proposal 23500050 | released 2024-10-12 | 83.8667 -69.2698 | evt2 name unknown
+obsid 27495 | SNR1987A | HRC-S | grating LETG |  | 14.3 ks | events 782933 | proposal 23500050 | released 2024-04-24 | 83.8667 -69.2698 | evt2 name unknown
+obsid 27807 | SNR1987A | HRC-S | grating LETG |  | 14.5 ks | events 799841 | proposal 23500050 | released 2024-04-24 | 83.8667 -69.2698 | evt2 name unknown
+obsid 28508 | SNR1987A | ACIS-S | grating HETG | TE | 28.8 ks | events 54293 | proposal 23500050 | released 2025-10-04 | 83.8667 -69.2698 | evt2 name unknown
+obsid 28755 | SNR1987A | HRC-S | grating LETG |  | 14.4 ks | events 566813 | proposal 23500050 | released 2025-03-31 | 83.8667 -69.2698 | evt2 name unknown
+obsid 28756 | SNR1987A | HRC-S | grating LETG |  | 14.2 ks | events 615486 | proposal 23500050 | released 2025-03-31 | 83.8667 -69.2698 | evt2 name unknown
+obsid 28783 | SNR1987A | HRC-I | grating NONE |  | 12.4 ks | events 618464 | proposal 25500517 | released 2026-02-01 | 83.8667 -69.2698 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao25/cat5/28783/primary/hrcf28783N001_evt2.fits.gz
+    image hrcf28783N001_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image hrcf28783N001_full_img2.fits | 0.2-20.0 keV | 0.4 MB
+obsid 28874 | SNR1987A | HRC-I | grating NONE |  | 9.9 ks | events 1049630 | proposal 23500660 | released 2024-09-01 | 83.8667 -69.2698 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao23/cat5/28874/primary/hrcf28874N002_evt2.fits.gz
+    image hrcf28874N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image hrcf28874N002_full_img2.fits | 0.2-20.0 keV | 0.7 MB
+obsid 28932 | SNR1987A | ACIS-S | grating HETG | TE | 21.3 ks | events 42265 | proposal 23500050 | released 2024-09-28 | 83.8667 -69.2698 | evt2 name unknown
+obsid 28939 | SNR1987A | HRC-S | grating LETG |  | 14.3 ks | events 665284 | proposal 23500050 | released 2024-10-12 | 83.8667 -69.2698 | evt2 name unknown
+obsid 28961 | SNR1987A | HRC-S | grating LETG |  | 14.2 ks | events 634140 | proposal 23500050 | released 2024-10-12 | 83.8667 -69.2698 | evt2 name unknown
+obsid 29324 | SNR1987A | HRC-S | grating LETG |  | 12.9 ks | events 551063 | proposal 23500050 | released 2025-03-31 | 83.8667 -69.2698 | evt2 name unknown
+obsid 29802 | SNR1987A | HRC-S | grating LETG |  | 14.2 ks | events 593069 | proposal 26500018 | released 2025-09-27 | 83.8667 -69.2698 | evt2 name unknown
+obsid 29803 | SNR1987A | ACIS-S | grating HETG | TE | 54.1 ks | events 100996 | proposal 26500018 | released 2026-04-03 | 83.8667 -69.2698 | evt2 name unknown
+obsid 30116 | SNR1987A | ACIS-S | grating HETG | TE | 29.9 ks | events 49919 | proposal 26500018 | released 2026-04-03 | 83.8667 -69.2698 | evt2 name unknown
+obsid 30460 | SNR1987A | HRC-S | grating LETG |  | 14.4 ks | events 549668 | proposal 26500018 | released 2025-09-27 | 83.8667 -69.2698 | evt2 name unknown
+obsid 30461 | SNR1987A | HRC-S | grating LETG |  | 14.4 ks | events 711252 | proposal 26500018 | released 2025-09-27 | 83.8667 -69.2698 | evt2 name unknown
+obsid 30847 | SNR1987A | HRC-S | grating LETG |  | 14.4 ks | events 719334 | proposal 26500018 | released 2025-09-27 | 83.8667 -69.2698 | evt2 name unknown
+obsid 31018 | SNR1987A | HRC-I | grating NONE |  | 12.2 ks | events 691268 | proposal 25500517 | released 2026-02-01 | 83.8667 -69.2698 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao25/cat5/31018/primary/hrcf31018N001_evt2.fits.gz
+    image hrcf31018N001_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image hrcf31018N001_full_img2.fits | 0.2-20.0 keV | 0.4 MB
+obsid 31123 | SNR1987A | ACIS-S | grating HETG | TE | 29.0 ks | events 54438 | proposal 27500009 | released 2026-09-26 | 83.8667 -69.2698 | evt2 name unknown
+obsid 31551 | SNR1987A | ACIS-S | grating HETG | TE | 28.0 ks | events 52288 | proposal 27500009 | released 2026-09-26 | 83.8667 -69.2698 | evt2 name unknown
+obsid 32221 | SNR1987A | ACIS-S | grating HETG | TE | 27.8 ks | events 52874 | proposal 27500009 | released 2026-09-26 | 83.8667 -69.2698 | evt2 name unknown
+imaging exposure without a grating: 907.8 ks in total
+== Hubble and Webb (MAST)
+25254 rows from MAST, 2235 public single-filter level-3 image mosaics
+HST|None | SN-1987A | WFC3/UVIS | 12 filters | total 46.3 GB | F275W 3.86 GB 2800 s, F280N 3.86 GB 4900 s, F336W 3.86 GB 6100 s, F438W 3.86 GB 4040 s, F502N 3.86 GB 21029 s, F555W 3.86 GB 1080 s, F625W 3.86 GB 5940 s, F645N 3.86 GB 5280 s, F657N 3.86 GB 10272 s, F658N 3.86 GB 5315 s, F665N 3.86 GB 2880 s, F814W 3.86 GB 7230 s
+HST|9114 | LMC-SN1987A-PAR | WFPC2/PC | 12 filters | total 2.2 GB | detection 0.16 GB 8550 s, F300W 0.26 GB 1080 s, F336W 0.16 GB 1490 s, F439W 0.16 GB 605 s, F450W 0.26 GB 366 s, F502N 0.16 GB 2400 s, F555W 0.16 GB 315 s, F606W 0.26 GB 258 s, F656N 0.16 GB 3800 s, F675W 0.16 GB 395 s, F673N 0.16 GB 4200 s, F814W 0.16 GB 495 s
+HST|10549 | SN1987A | ACS/HRC | 10 filters | total 0.3 GB | detection 0.03 GB 11200 s, F250W 0.03 GB 2400 s, F330W 0.03 GB 2400 s, F435W 0.03 GB 1200 s, F502N 0.03 GB 4240 s, F555W 0.03 GB 1050 s, F625W 0.03 GB 1200 s, F658N 0.03 GB 3600 s, F660N 0.03 GB 3600 s, F814W 0.03 GB 1600 s
+HST|10867 | SN1987A | ACS/HRC | 10 filters | total 0.2 GB | detection 0.02 GB 10800 s, F250W 0.02 GB 3460 s, F330W 0.02 GB 2200 s, F435W 0.02 GB 1800 s, F502N 0.02 GB 2600 s, F555W 0.02 GB 1200 s, F625W 0.02 GB 1200 s, F658N 0.02 GB 10800 s, F660N 0.02 GB 3600 s, F814W 0.02 GB 1580 s
+HST|16789 | SN-1987A | WFC3/UVIS | 10 filters | total 0.3 GB | detection 0.03 GB 8200 s, F275W 0.03 GB 2800 s, F280N 0.03 GB 5600 s, F336W 0.03 GB 2600 s, F438W 0.03 GB 1200 s, F502N 0.03 GB 5600 s, F555W 0.03 GB 1080 s, F625W 0.03 GB 1080 s, F657N 0.03 GB 2600 s, F814W 0.03 GB 1080 s
+HST|6437 | LMC-SN1987A | WFPC2/PC | 10 filters | total 2.3 GB | detection 0.30 GB 12600 s, F255W 0.22 GB 2600 s, F336W 0.22 GB 1600 s, F439W 0.22 GB 800 s, F502N 0.22 GB 8200 s, F555W 0.22 GB 600 s, F656N 0.22 GB 5600 s, F658N 0.25 GB 5400 s, F675W 0.22 GB 600 s, F814W 0.22 GB 800 s
+HST|9428 | LMC-SN1987A-PAR | WFPC2/PC | 10 filters | total 1.7 GB | detection 0.16 GB 3460 s, F300W 0.20 GB 1200 s, F439W 0.15 GB 600 s, F450W 0.20 GB 800 s, F555W 0.15 GB 600 s, F606W 0.15 GB 520 s, F656N 0.16 GB 2400 s, F675W 0.15 GB 400 s, F791W 0.15 GB 1260 s, F814W 0.20 GB 460 s
+HST|11653 | SN-1987A | WFC3/UVIS | 9 filters | total 0.1 GB | detection 0.01 GB 9200 s, F225W 0.01 GB 800 s, F336W 0.01 GB 800 s, F438W 0.01 GB 800 s, F502N 0.01 GB 6200 s, F555W 0.01 GB 400 s, F625W 0.01 GB 3000 s, F657N 0.01 GB 1600 s, F814W 0.01 GB 400 s
+HST|5753 | LMC-SN1987A | WFPC2/PC | 9 filters | total 2.5 GB | detection 0.43 GB 15200 s, F255W 0.26 GB 1800 s, F336W 0.26 GB 1200 s, F439W 0.26 GB 800 s, F502N 0.26 GB 4800 s, F555W 0.26 GB 600 s, F658N 0.26 GB 4800 s, F675W 0.26 GB 600 s, F814W 0.26 GB 600 s
+HST|6020 | LMC-SN1987A | WFPC2/PC | 9 filters | total 1.6 GB | detection 0.27 GB 19450 s, F255W 0.16 GB 2500 s, F336W 0.16 GB 1200 s, F439W 0.16 GB 950 s, F502N 0.16 GB 7800 s, F555W 0.16 GB 600 s, F658N 0.16 GB 5200 s, F675W 0.16 GB 600 s, F814W 0.16 GB 600 s
+HST|8243 | LMC-SN1987A | WFPC2/PC | 9 filters | total 2.0 GB | detection 0.50 GB 23200 s, F255W 0.19 GB 5600 s, F336W 0.19 GB 2000 s, F439W 0.19 GB 1200 s, F502N 0.19 GB 5600 s, F555W 0.19 GB 800 s, F656N 0.19 GB 4800 s, F675W 0.19 GB 2400 s, F814W 0.19 GB 800 s
+HST|9114 | LMC-SN1987A | WFPC2/PC | 9 filters | total 2.6 GB | detection 0.60 GB 13600 s, F336W 0.26 GB 1200 s, F439W 0.26 GB 1600 s, F502N 0.26 GB 4800 s, F555W 0.26 GB 600 s, F656N 0.26 GB 4000 s, F658N 0.19 GB 2300 s, F675W 0.26 GB 800 s, F814W 0.26 GB 600 s
+HST|10263 | SN1987A | ACS/HRC | 8 filters | total 0.1 GB | detection 0.02 GB 14360 s, F330W 0.02 GB 2000 s, F435W 0.02 GB 1600 s, F502N 0.02 GB 3600 s, F555W 0.02 GB 1200 s, F625W 0.02 GB 7200 s, F658N 0.02 GB 3560 s, F814W 0.02 GB 1200 s
+HST|13405 | SN-1987A | WFC3/UVIS | 8 filters | total 0.2 GB | detection 0.03 GB 11520 s, F438W 0.03 GB 1200 s, F502N 0.03 GB 5880 s, F625W 0.03 GB 1200 s, F645N 0.03 GB 2880 s, F656N 0.03 GB 2880 s, F658N 0.03 GB 2880 s, F665N 0.03 GB 2880 s
+HST|7434 | LMC-SN1987A | WFPC2/PC | 8 filters | total 2.1 GB | detection 0.53 GB 20568 s, F255W 0.23 GB 7200 s, F336W 0.23 GB 2439 s, F439W 0.23 GB 1039 s, F555W 0.23 GB 620 s, F656N 0.23 GB 7200 s, F675W 0.23 GB 1220 s, F814W 0.23 GB 850 s
+HST|9428 | LMC-SN1987A | ACS/HRC | 8 filters | total 0.2 GB | detection 0.04 GB 12800 s, F330W 0.03 GB 1200 s, F435W 0.03 GB 1200 s, F502N 0.03 GB 4000 s, F555W 0.03 GB 800 s, F625W 0.03 GB 800 s, F658N 0.03 GB 4000 s, F814W 0.03 GB 800 s
+HST|9992 | SN1987A | ACS/HRC | 8 filters | total 0.2 GB | detection 0.03 GB 13600 s, F330W 0.03 GB 1600 s, F435W 0.03 GB 1600 s, F502N 0.03 GB 4000 s, F555W 0.03 GB 800 s, F625W 0.03 GB 800 s, F658N 0.03 GB 4000 s, F814W 0.03 GB 800 s
+HST|13401 | ANY | WFC3/UVIS | 8 filters | total 1.8 GB | detection 0.22 GB 5131 s, F336W 0.22 GB 700 s, F475W 0.22 GB 600 s, F502N 0.22 GB 1421 s, F606W 0.22 GB 980 s, F656N 0.22 GB 3500 s, F658N 0.22 GB 775 s, F814W 0.22 GB 1230 s
+HST|8243 | LMC-SN1987A-PAR | WFPC2/PC | 8 filters | total 2.2 GB | detection 0.42 GB 6580 s, F300W 0.25 GB 1370 s, F450W 0.27 GB 828 s, F502N 0.26 GB 3800 s, F606W 0.27 GB 638 s, F656N 0.27 GB 2800 s, F673N 0.24 GB 2000 s, F814W 0.27 GB 928 s
+HST|None | ANY | ACS/WFC | 7 filters | total 27.0 GB | F475W 3.86 GB 5900 s, F550M 3.86 GB 15008 s, F606W 3.86 GB 2200 s, F658N 3.86 GB 3758 s, F660N 3.86 GB 4884 s, F775W 3.86 GB 7355 s, F814W 3.86 GB 7316 s
+HST|11653 | ANY | WFC3/UVIS | 7 filters | total 1.5 GB | detection 0.22 GB 8347 s, F336W 0.22 GB 2332 s, F438W 0.22 GB 3006 s, F487N 0.22 GB 5533 s, F606W 0.22 GB 3009 s, F658N 0.22 GB 4400 s, F814W 0.22 GB 2000 s
+HST|7587 | LMC-SN1987A-HOTSPOT1 | WFPC2/PC | 7 filters | total 1.1 GB | detection 0.27 GB 20600 s, F300W 0.13 GB 6900 s, F439W 0.13 GB 1000 s, F450W 0.13 GB 1400 s, F606W 0.13 GB 1200 s, F656N 0.18 GB 8000 s, F814W 0.13 GB 2100 s
+HST|14333 | SN-1987A | WFC3/UVIS | 6 filters | total 0.0 GB | detection 0.01 GB 8400 s, F438W 0.01 GB 600 s, F502N 0.01 GB 2400 s, F625W 0.01 GB 600 s, F645N 0.01 GB 2400 s, F657N 0.01 GB 2400 s
+HST|7821 | LMC-SN1987A | NICMOS/NIC1 | 6 filters | total 0.0 GB | POL0S 0.00 GB 2880 s, POL240S 0.00 GB 2880 s, F110W 0.00 GB 288 s, F160W 0.00 GB 288 s, F164N 0.00 GB 1408 s, F166N 0.00 GB 1408 s
+HST|8059 | LIST-1 | WFPC2/PC | 6 filters | total 1.7 GB | detection 0.44 GB 9800 s, F300W 0.22 GB 1640 s, F450W 0.26 GB 1270 s, F606W 0.26 GB 850 s, F656N 0.26 GB 4400 s, F814W 0.26 GB 1920 s
+HST|7587 | LMC-SN1987A-HOTSPOT | WFPC2/PC | 6 filters | total 1.4 GB | detection 0.38 GB 21500 s, F300W 0.19 GB 6100 s, F450W 0.19 GB 1800 s, F606W 0.19 GB 1200 s, F656N 0.25 GB 11000 s, F814W 0.19 GB 1400 s
+HST|7587 | LMC-SN1987A | WFPC2/PC | 6 filters | total 1.8 GB | detection 0.44 GB 4400 s, F300W 0.26 GB 1200 s, F450W 0.26 GB 400 s, F606W 0.26 GB 400 s, F656N 0.35 GB 2000 s, F814W 0.26 GB 400 s
+HST|7587 | LMC-SN1987A-SHOCK-B | WFPC2/PC | 6 filters | total 1.5 GB | detection 0.32 GB 7560 s, F300W 0.24 GB 2200 s, F450W 0.24 GB 1000 s, F606W 0.24 GB 460 s, F656N 0.24 GB 3300 s, F814W 0.24 GB 600 s
+HST|11653 | SN-1987A | WFC3/IR | 5 filters | total 0.0 GB | detection 0.00 GB 2908 s, F110W 0.00 GB 448 s, F126N 0.00 GB 939 s, F160W 0.00 GB 582 s, F164N 0.00 GB 939 s
+HST|12241 | SN-1987A | WFC3/IR | 5 filters | total 0.0 GB | detection 0.00 GB 2818 s, F110W 0.00 GB 404 s, F126N 0.00 GB 805 s, F160W 0.00 GB 805 s, F164N 0.00 GB 805 s
+HST|14753 | SN-1987A | WFC3/UVIS | 5 filters | total 0.0 GB | detection 0.00 GB 8700 s, F438W 0.00 GB 1400 s, F502N 0.00 GB 3300 s, F625W 0.00 GB 1200 s, F657N 0.00 GB 2800 s
+HST|15256 | SN-1987A | WFC3/UVIS | 5 filters | total 0.1 GB | detection 0.02 GB 8640 s, F438W 0.02 GB 1200 s, F502N 0.02 GB 5760 s, F625W 0.02 GB 1200 s, F657N 0.02 GB 2880 s
+HST|15928 | SN-1987A | WFC3/UVIS | 5 filters | total 0.1 GB | detection 0.02 GB 8480 s, F438W 0.02 GB 1160 s, F502N 0.02 GB 5600 s, F625W 0.02 GB 1160 s, F657N 0.02 GB 2880 s
+HST|16265 | SN-1987A | WFC3/UVIS | 5 filters | total 0.1 GB | detection 0.03 GB 5600 s, F438W 0.03 GB 1200 s, F502N 0.03 GB 5600 s, F625W 0.03 GB 1080 s, F657N 0.03 GB 2800 s
+HST|16996 | SN-1987A | WFC3/UVIS | 5 filters | total 0.1 GB | detection 0.03 GB 5600 s, F438W 0.03 GB 1200 s, F502N 0.03 GB 5600 s, F625W 0.03 GB 1080 s, F657N 0.03 GB 2800 s
+HST|17496 | SN-1987A | WFC3/UVIS | 5 filters | total 2.1 GB | detection 0.42 GB 6936 s, F502N 0.42 GB 4608 s, F625W 0.42 GB 2312 s, F657N 0.42 GB 2304 s, F763M 0.42 GB 4624 s
+HST|17842 | SN-1987A | WFC3/UVIS | 5 filters | total 2.1 GB | detection 0.42 GB 6912 s, F438W 0.42 GB 2280 s, F502N 0.42 GB 4608 s, F625W 0.42 GB 2260 s, F657N 0.42 GB 2304 s
+HST|5203 | SN1987A | WFPC2/PC | 5 filters | total 0.8 GB | detection 0.16 GB 9600 s, F255W 0.16 GB 2400 s, F502N 0.16 GB 2400 s, F547M 0.16 GB 2400 s, F656N 0.16 GB 2400 s
+HST|8648 | LMC-SN1987A | WFPC2/PC | 5 filters | total 1.4 GB | detection 0.34 GB 4100 s, F439W 0.26 GB 1000 s, F555W 0.26 GB 400 s, F656N 0.26 GB 2200 s, F675W 0.26 GB 500 s
+HST|None | ANY | WFC3/UVIS | 5 filters | total 17.3 GB | F475W 3.86 GB 5346 s, F487N 3.86 GB 5533 s, F606W 3.86 GB 5250 s, F656N 3.86 GB 19160 s, F814W 1.88 GB 3330 s
+HST|10549 | SN1987A | NICMOS/NIC1 | 5 filters | total 0.0 GB | F108N 0.00 GB 3072 s, F110W 0.00 GB 1408 s, F160W 0.00 GB 1536 s, F164N 0.00 GB 3072 s, F187N 0.00 GB 3072 s
+HST|10867 | SN1987A | NICMOS/NIC1 | 5 filters | total 0.0 GB | F108N 0.00 GB 1792 s, F110W 0.00 GB 1536 s, F160W 0.00 GB 1536 s, F164N 0.00 GB 3072 s, F187N 0.00 GB 3072 s
+HST|6033 | ANYWHERE | WFPC2/PC | 5 filters | total 1.2 GB | detection 0.25 GB 2000 s, F502N 0.25 GB 2000 s, F547M 0.25 GB 240 s, F656N 0.25 GB 2000 s, F675W 0.25 GB 240 s
+HST|11653 | ANY | ACS/WFC | 5 filters | total 1.1 GB | detection 0.23 GB 4000 s, F475W 0.22 GB 1000 s, F606W 0.22 GB 1000 s, F658N 0.22 GB 1000 s, F814W 0.22 GB 1000 s
+HST|6519 | PAR | WFPC2/PC | 5 filters | total 1.3 GB | detection 0.26 GB 2800 s, F502N 0.26 GB 2600 s, F547M 0.26 GB 240 s, F656N 0.26 GB 2800 s, F675W 0.26 GB 240 s
+HST|12241 | ANY | WFC3/UVIS | 5 filters | total 1.3 GB | detection 0.43 GB 8000 s, F475W 0.22 GB 2400 s, F606W 0.22 GB 1200 s, F657N 0.22 GB 2800 s, F814W 0.22 GB 1600 s
+HST|16928 | ANY | WFC3/IR | 5 filters | total 0.1 GB | detection 0.02 GB 69 s, F110W 0.01 GB 15 s, F125W 0.01 GB 21 s, F153M 0.01 GB 13 s, F160W 0.01 GB 21 s
+HST|10867 | SN1987A | WFPC2/PC | 4 filters | total 1.1 GB | detection 0.31 GB 6000 s, F439W 0.24 GB 3000 s, F656N 0.31 GB 6000 s, F675W 0.24 GB 2700 s
+HST|11181 | SN1987A | WFPC2/PC | 4 filters | total 1.0 GB | detection 0.31 GB 8400 s, F439W 0.23 GB 2400 s, F656N 0.23 GB 4400 s, F675W 0.23 GB 1600 s
+HST|11973 | SN-1987A | WFPC2/PC | 4 filters | total 0.6 GB | detection 0.16 GB 6900 s, F439W 0.16 GB 2000 s, F502N 0.16 GB 6900 s, F675W 0.16 GB 1600 s
+HST|12241 | SN-1987A | WFC3/UVIS | 4 filters | total 1.5 GB | detection 0.38 GB 5000 s, F438W 0.38 GB 1400 s, F625W 0.38 GB 1200 s, F657N 0.38 GB 2400 s
+HST|15503 | SN-1987A | WFC3/UVIS | 4 filters | total 0.1 GB | detection 0.02 GB 2880 s, F438W 0.02 GB 1200 s, F625W 0.02 GB 1200 s, F657N 0.02 GB 2880 s
+HST|None | ANY | WFC3/IR | 4 filters | total 15.4 GB | F110W 3.86 GB 968 s, F125W 3.86 GB 103 s, F153M 3.86 GB 52 s, F160W 3.86 GB 1266 s
+HST|9428 | LMC-SN1987A | NICMOS/NIC1 | 4 filters | total 0.0 GB | F108N 0.00 GB 2688 s, F110W 0.00 GB 960 s, F160W 0.00 GB 1600 s, F164N 0.00 GB 2688 s
+HST|10549 | ANY | ACS/WFC | 4 filters | total 1.6 GB | detection 0.39 GB 5496 s, F550M 0.39 GB 3668 s, F660N 0.39 GB 1828 s, F814W 0.39 GB 1828 s
+HST|10867 | ANY | ACS/WFC | 4 filters | total 1.0 GB | detection 0.26 GB 4516 s, F550M 0.26 GB 2028 s, F660N 0.26 GB 1628 s, F814W 0.26 GB 2888 s
+HST|9343 | LMC-SN1987A-ECHO2-FOLLOWUP | WFPC2/PC | 4 filters | total 0.8 GB | detection 0.19 GB 1720 s, F555W 0.19 GB 600 s, F675W 0.19 GB 520 s, F814W 0.19 GB 600 s
+HST|9111 | LMC-SN1987A-ECHO2-FOLLOWUP | WFPC2/PC | 4 filters | total 0.8 GB | detection 0.21 GB 1720 s, F555W 0.21 GB 600 s, F675W 0.21 GB 520 s, F814W 0.21 GB 600 s
+HST|9111 | LMC-SN1987A-ECHO1-FOLLOWUP | WFPC2/PC | 4 filters | total 0.8 GB | detection 0.21 GB 1720 s, F555W 0.21 GB 600 s, F675W 0.21 GB 520 s, F814W 0.21 GB 600 s
+HST|13181 | SN-1987A | WFC3/UVIS | 3 filters | total 0.1 GB | detection 0.02 GB 2400 s, F438W 0.02 GB 1200 s, F625W 0.02 GB 1200 s
+HST|13810 | SN-1987A | WFC3/UVIS | 3 filters | total 0.1 GB | detection 0.03 GB 2400 s, F438W 0.03 GB 1200 s, F625W 0.03 GB 1200 s
+HST|9699 | ANY | WFPC2/PC | 3 filters | total 0.5 GB | detection 0.16 GB 1400 s, F300W 0.16 GB 1000 s, F606W 0.16 GB 400 s
+HST|9319 | ANY | WFPC2/PC | 3 filters | total 0.7 GB | detection 0.25 GB 700 s, F300W 0.25 GB 400 s, F606W 0.25 GB 300 s
+HST|10263 | ANY | ACS/WFC | 3 filters | total 0.7 GB | detection 0.22 GB 4456 s, F550M 0.21 GB 3028 s, F660N 0.21 GB 1428 s
+HST|9111 | LMC-SN1987A-ECHO2-FIELD | WFPC2/PC | 3 filters | total 0.6 GB | detection 0.20 GB 2080 s, F170W 0.20 GB 1800 s, F555W 0.20 GB 280 s
+HST|16359 | ANY | WFC3/UVIS | 3 filters | total 1.0 GB | detection 0.39 GB 2543 s, F625W 0.39 GB 1000 s, F656N 0.24 GB 1768 s
+HST|9111 | LMC-SN1987A-ECHO1-FIELD | WFPC2/PC | 3 filters | total 0.6 GB | detection 0.20 GB 2080 s, F170W 0.20 GB 1800 s, F555W 0.20 GB 280 s
+HST|7786 | PAR | WFPC2/PC | 3 filters | total 0.8 GB | detection 0.26 GB 300 s, F300W 0.26 GB 200 s, F606W 0.26 GB 300 s
+HST|7202 | PAR | WFPC2/PC | 3 filters | total 0.8 GB | detection 0.26 GB 2900 s, F450W 0.26 GB 2900 s, F814W 0.26 GB 2900 s
+HST|7909 | HIGH | WFPC2/PC | 3 filters | total 0.8 GB | detection 0.25 GB 4600 s, F300W 0.25 GB 3200 s, F606W 0.25 GB 1400 s
+HST|9575 | ANY | ACS/WFC | 3 filters | total 1.2 GB | detection 0.41 GB 4074 s, F775W 0.41 GB 1974 s, F850LP 0.41 GB 2100 s
+HST|6254 | PAR | WFPC2/PC | 3 filters | total 0.8 GB | detection 0.26 GB 1200 s, F606W 0.26 GB 700 s, F814W 0.26 GB 1200 s
+HST|8061 | ANY | WFPC2/PC | 3 filters | total 0.7 GB | detection 0.22 GB 1400 s, F300W 0.22 GB 1000 s, F606W 0.22 GB 400 s
+HST|10549 | SN1987A-GRISM-O120 | ACS/HRC | 2 filters | total 0.1 GB | detection 0.03 GB 120 s, F625W 0.03 GB 120 s
+HST|10549 | SN1987A-GRISM-O300 | ACS/HRC | 2 filters | total 0.0 GB | detection 0.02 GB 120 s, F625W 0.02 GB 120 s
+HST|10867 | SN1987A-GRISM-O300 | ACS/HRC | 2 filters | total 0.0 GB | detection 0.02 GB 120 s, F625W 0.02 GB 120 s
+HST|13405 | SN-1987A | ACS/SBC | 2 filters | total 0.1 GB | detection 0.03 GB 9200 s, F122M 0.03 GB 9200 s
+HST|14904 | SN-1987A | WFC3/UVIS | 2 filters | total 0.9 GB | detection 0.45 GB 2480 s, F657N 0.45 GB 2480 s
+HST|None | SN-1987A | WFC3/IR | 2 filters | total 7.7 GB | F126N 3.86 GB 1566 s, F164N 3.86 GB 1566 s
+HST|7587 | LMC-SN1987A | NICMOS/NIC1 | 2 filters | total 0.0 GB | F108N 0.00 GB 2560 s, F187N 0.00 GB 2048 s
+HST|7821 | LMC-SN1987A | NICMOS/NIC2 | 2 filters | total 0.0 GB | F205W 0.00 GB 2048 s, F212N 0.00 GB 5632 s
+HST|7821 | LMC-SN1987A | NICMOS/NIC3 | 2 filters | total 0.0 GB | F196N 0.00 GB 2816 s, F200N 0.00 GB 2816 s
+HST|10549 | SN1987A | NICMOS/NIC2 | 2 filters | total 0.0 GB | F205W 0.00 GB 1024 s, F212N 0.00 GB 1920 s
+HST|10867 | SN1987A | NICMOS/NIC2 | 2 filters | total 0.0 GB | F205W 0.00 GB 768 s, F212N 0.00 GB 1792 s
+HST|9676 | ANY | WFPC2/PC | 2 filters | total 0.3 GB | detection 0.15 GB 2100 s, F606W 0.15 GB 2100 s
+HST|7587 | LMC-SN1987A | NICMOS/NIC2 | 2 filters | total 0.0 GB | F212N 0.00 GB 2560 s, F215N 0.00 GB 2048 s
+HST|9428 | ANY | ACS/WFC | 2 filters | total 0.7 GB | detection 0.36 GB 2856 s, F550M 0.36 GB 2856 s
+HST|9992 | ANY | ACS/WFC | 2 filters | total 0.7 GB | detection 0.35 GB 3428 s, F550M 0.35 GB 3428 s
+HST|12940 | LH-90WEST | WFC3/UVIS | 2 filters | total 0.7 GB | detection 0.36 GB 2 s, F225W 0.36 GB 2 s
+HST|12940 | LH-90 | WFC3/UVIS | 2 filters | total 0.7 GB | detection 0.37 GB 2 s, F225W 0.37 GB 2 s
+HST|7553 | PAR | WFPC2/PC | 2 filters | total 0.4 GB | detection 0.20 GB 40 s, F300W 0.20 GB 40 s
+HST|9318 | ANY | WFPC2/PC | 2 filters | total 0.4 GB | detection 0.22 GB 1400 s, F606W 0.22 GB 1400 s
+HST|8805 | ANY | WFPC2/PC | 2 filters | total 0.5 GB | detection 0.26 GB 1800 s, F606W 0.26 GB 1800 s
+HST|9244 | ANY | WFPC2/PC | 2 filters | total 0.3 GB | detection 0.15 GB 1000 s, F606W 0.15 GB 1000 s
+HST|9702 | ANY | NICMOS/NIC2 | 2 filters | total 0.0 GB | F222M 0.00 GB 640 s, F237M 0.00 GB 640 s
+HST|9480 | ANY | ACS/WFC | 2 filters | total 0.8 GB | detection 0.41 GB 655 s, F775W 0.41 GB 655 s
+HST|7909 | ANY | WFPC2/PC | 2 filters | total 0.4 GB | detection 0.18 GB 1100 s, F606W 0.18 GB 1100 s
+HST|10263 | SN1987A-GRISM-N130N | ACS/HRC | 1 filters | total 0.0 GB | F625W 0.02 GB 120 s
+HST|10263 | SN1987A-GRISM-N130S | ACS/HRC | 1 filters | total 0.0 GB | F625W 0.02 GB 120 s
+HST|17496 | SN-1987A-COS | COS/NUV | 1 filters | total 0.0 GB | MIRRORB 0.01 GB 411 s
+HST|7434 | LMC-SN1987A | NICMOS/NIC2 | 1 filters | total 0.0 GB | F205W 0.00 GB 2048 s
+HST|9428 | LMC-SN1987A | NICMOS/NIC2 | 1 filters | total 0.0 GB | F205W 0.00 GB 1792 s
+HST|7122 | LMC-SN1987A | STIS/CCD | 1 filters | total 0.0 GB | MIRVIS 0.01 GB 2415 s
+HST|7587 | LMC-SN1987A-EASTSHOCK | STIS/CCD | 1 filters | total 0.0 GB | MIRVIS 0.01 GB 60 s
+HST|7587 | LMC-SN1987A | STIS/CCD | 1 filters | total 0.0 GB | MIRVIS 0.01 GB 60 s
+HST|9114 | LMC-SN1987A-SPOTS | STIS/CCD | 1 filters | total 0.0 GB | MIRVIS 0.01 GB 144 s
+HST|9114 | LMC-SN1987A-SPOT1 | STIS/CCD | 1 filters | total 0.0 GB | MIRVIS 0.01 GB 144 s
+HST|9114 | LMC-SN1987A-NEWSPOTS | STIS/CCD | 1 filters | total 0.0 GB | MIRVIS 0.01 GB 72 s
+HST|9428 | LMC-SN1987A-SPOT1 | STIS/CCD | 1 filters | total 0.0 GB | MIRVIS 0.01 GB 144 s
+HST|9428 | LMC-SN1987A-SPOTS | STIS/CCD | 1 filters | total 0.0 GB | MIRVIS 0.01 GB 72 s
+HST|11653 | SN-1987A-HOTSPOTS-52X2 | STIS/CCD | 1 filters | total 0.0 GB | MIRVIS 0.01 GB 122 s
+HST|12241 | SN-1987A-HOTSPOTS-52X2 | STIS/CCD | 1 filters | total 0.0 GB | MIRVIS 0.01 GB 60 s
+HST|13401 | SN1987A-STIS1 | STIS/CCD | 1 filters | total 0.0 GB | MIRVIS 0.01 GB 120 s
+HST|13401 | SN1987A-STIS2 | STIS/CCD | 1 filters | total 0.0 GB | MIRVIS 0.01 GB 120 s
+HST|13401 | SN1987A-STIS3 | STIS/CCD | 1 filters | total 0.0 GB | MIRVIS 0.01 GB 120 s
+HST|13401 | SN1987A-STIS4 | STIS/CCD | 1 filters | total 0.0 GB | MIRVIS 0.01 GB 120 s
+HST|13401 | SN1987A-STIS5 | STIS/CCD | 1 filters | total 0.0 GB | MIRVIS 0.01 GB 120 s
+HST|14753 | SN1987A-STIS3 | STIS/CCD | 1 filters | total 0.0 GB | MIRVIS 0.01 GB 52 s
+HST|10263 | SN1987A-OFFSET | ACS/HRC | 1 filters | total 0.0 GB | F475W 0.02 GB 2 s
+HST|10549 | SN1987A-OFFSET | ACS/HRC | 1 filters | total 0.0 GB | F625W 0.00 GB 2 s
+HST|10867 | SN1987A-OFFSET | ACS/HRC | 1 filters | total 0.0 GB | F625W 0.00 GB 2 s
+HST|None | LH-90WEST | WFC3/UVIS | 1 filters | total 3.9 GB | F225W 3.86 GB 4 s
+HST|7675 | UNKNOWN-TARGET-1 | STIS/CCD | 1 filters | total 0.0 GB | MIRVIS 0.00 GB 300 s
+HST|9248 | ANY | STIS/CCD | 1 filters | total 0.0 GB | MIRVIS 0.01 GB 400 s
+HST|8562 | ANY | STIS/CCD | 1 filters | total 0.0 GB | MIRVIS 0.01 GB 400 s
+HST|7910 | ANY | STIS/CCD | 1 filters | total 0.0 GB | MIRVIS 0.01 GB 2114 s
+JWST|7575 | SN-1987A | NIRCAM/IMAGE | 11 filters | total 2.6 GB | F090W 0.55 GB 172 s, F115W 0.53 GB 172 s, F140M 0.53 GB 429 s, F150W 0.12 GB 966 s, F200W 0.12 GB 966 s, F210M 0.12 GB 1933 s, F277W 0.13 GB 172 s, F300M 0.12 GB 1933 s, F335M 0.12 GB 429 s, F356W 0.12 GB 966 s, F444W 0.12 GB 966 s
+JWST|1232 | SN-1987A | NIRCAM/IMAGE | 8 filters | total 2.7 GB | F115W 0.54 GB 859 s, F140M 0.53 GB 859 s, F150W 0.55 GB 859 s, F200W 0.55 GB 859 s, F277W 0.13 GB 859 s, F335M 0.12 GB 859 s, F356W 0.12 GB 859 s, F444W 0.13 GB 859 s
+JWST|7575 | SN-1987A | MIRI/IMAGE | 7 filters | total 0.1 GB | F560W 0.01 GB 495 s, F770W 0.01 GB 218 s, F1000W 0.01 GB 218 s, F1280W 0.01 GB 93 s, F1800W 0.01 GB 93 s, F2100W 0.01 GB 93 s, F2550W 0.01 GB 93 s
+JWST|1232 | SN-1987A | MIRI/IMAGE | 5 filters | total 0.1 GB | F560W 0.03 GB 3152 s, F770W 0.03 GB 3152 s, F1000W 0.03 GB 3152 s, F1800W 0.01 GB 938 s, F2550W 0.01 GB 1104 s
+JWST|1726 | SN-1987A | NIRCAM/IMAGE | 5 filters | total 0.1 GB | F150W 0.02 GB 1347 s, F200W 0.02 GB 1155 s, F212N 0.02 GB 28287 s, F356W 0.00 GB 1347 s, F444W 0.00 GB 1155 s
+JWST|2763 | SN1987A-BKG-SE | MIRI/IMAGE | 3 filters | total 0.1 GB | F560W 0.03 GB 1043 s, F770W 0.03 GB 1043 s, F1000W 0.03 GB 1043 s
+JWST|2763 | SN-1987A | MIRI/IMAGE | 3 filters | total 0.1 GB | F560W 0.03 GB 3152 s, F770W 0.03 GB 3152 s, F1000W 0.03 GB 3152 s
