@@ -496,6 +496,7 @@ FINISH = {
     "smacs0723": {"box": (0.0, 1.0, 0.55, 1.0), "dense": 0.97},   # the cluster half; the other module's field is left out
     "ngc602-multi": {"nofill": True, "destripe": (288, 75), "black": 50, "xray_dim": (0.55, 40)},   # the brightest X-ray source is dimmed by 55% over a 40 px radius
     "sn1987a-1726": {"nofill": True, "black": 20, "upscale": 4, "sky": (83.86679, -69.26975, 7.0)},   # a 25 arcsecond close-up of the remnant
+    "cartwheel-nircam": {"black": 20},
     "m82-nircam": {"box": (0.0, 1.0, 0.27, 0.73), "black": 10, "fill": (4.0, 3, 40)},   # the galaxy is a narrow band in the middle of a wide frame
     "elgordo-nircam": {"box": (0.0, 1.0, 0.565, 1.0), "black": 55, "fill": (8.0, 4, 130)},   # the right pointing holds the cluster; the left one is a different field
     "ngc346-nircam": {"box": (0.012, 0.965, 0.58, 0.99), "black": 30, "fill": (8.0, 4, 130), "destripe": (288, 75)},   # the right pointing holds the nebula; the left one is star field; gaps between detectors are filled
