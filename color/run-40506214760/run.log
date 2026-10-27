@@ -1,0 +1,6 @@
+[     0s] == stephans-quintet-full: 6 filters: ['F090W', 'F150W', 'F200W', 'F277W', 'F356W', 'F444W']
+[     1s] aligned arrays found in the cache; no download
+[     1s] cropped to 2389x2048 px where 6 of 6 filters have data
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/astropy/visualization/lupton_rgb.py:645: RuntimeWarning: invalid value encountered in divide
+  fInorm = np.where(Int <= 0, 0, np.true_divide(fI, Int))
+[     3s] done: 2 pictures
