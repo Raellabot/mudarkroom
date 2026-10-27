@@ -1,0 +1,7 @@
+[     0s] == m82-nircam: 5 filters: ['F140M', 'F212N', 'F250M', 'F335M', 'F360M']
+[     0s] aligned arrays found in the cache; no download
+[     2s] m82-nircam: finishing steps applied: ['black', 'box', 'fill']
+[     2s] cropped to 1054x1015 px where 5 of 5 filters have data
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/astropy/visualization/lupton_rgb.py:645: RuntimeWarning: invalid value encountered in divide
+  fInorm = np.where(Int <= 0, 0, np.true_divide(fI, Int))
+[     2s] done: 2 pictures
