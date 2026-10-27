@@ -1,0 +1,6 @@
+[     0s] == antennae-nircam: 5 filters: ['F150W', 'F187N', 'F335M', 'F360M', 'F410M']
+[     0s] aligned arrays found in the cache; no download
+[     0s] cropped to 2220x2216 px where 5 of 5 filters have data
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/astropy/visualization/lupton_rgb.py:645: RuntimeWarning: invalid value encountered in divide
+  fInorm = np.where(Int <= 0, 0, np.true_divide(fI, Int))
+[     2s] done: 2 pictures
