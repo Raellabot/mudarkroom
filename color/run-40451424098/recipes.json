@@ -1,0 +1,178 @@
+[
+ {
+  "picture": "casa-miri-creative5-n50.jpg",
+  "palette": "creative5",
+  "collection": "JWST",
+  "target": "CASSIOPEIA-A-CENTER-MIRI",
+  "proposal_id": "1947",
+  "instrument": "MIRI/IMAGE",
+  "title": "JWST Survey of the Prototypical Core-collapse Supernova Remnant Cassiopeia A",
+  "grid": {
+   "width": 3474,
+   "height": 3022,
+   "reduction": 1,
+   "arcsec_per_pixel": 0.1109222791148808,
+   "reference_filter": "F560W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F560W",
+    "center_nm": 5600.0,
+    "color": "#1a4cff",
+    "obs_id": "jw01947-o001_t010_miri_f560w",
+    "exposure_s": 1332.000000000001,
+    "product": "mast:JWST/product/jw01947-o001_t010_miri_f560w_i2d.fits"
+   },
+   {
+    "filter": "F770W",
+    "center_nm": 7700.0,
+    "color": "#05c7ff",
+    "obs_id": "jw01947-o001_t010_miri_f770w",
+    "exposure_s": 1332.000000000001,
+    "product": "mast:JWST/product/jw01947-o001_t010_miri_f770w_i2d.fits"
+   },
+   {
+    "filter": "F1130W",
+    "center_nm": 11300.0,
+    "color": "#91e6ab",
+    "obs_id": "jw01947-o001_t010_miri_f1130w",
+    "exposure_s": 1332.000000000001,
+    "product": "mast:JWST/product/jw01947-o001_t010_miri_f1130w_i2d.fits"
+   },
+   {
+    "filter": "F1280W",
+    "center_nm": 12800.0,
+    "color": "#f7b884",
+    "obs_id": "jw01947-o001_t010_miri_f1280w",
+    "exposure_s": 1332.000000000001,
+    "product": "mast:JWST/product/jw01947-o001_t010_miri_f1280w_i2d.fits"
+   },
+   {
+    "filter": "F2100W",
+    "center_nm": 21000.0,
+    "color": "#fc6fa8",
+    "obs_id": "jw01947-o001_t010_miri_f2100w",
+    "exposure_s": 1332.000000000001,
+    "product": "mast:JWST/product/jw01947-o001_t010_miri_f2100w_i2d.fits"
+   },
+   {
+    "filter": "F2550W",
+    "center_nm": 25500.0,
+    "color": "#f261d1",
+    "obs_id": "jw01947-o001_t010_miri_f2550w",
+    "exposure_s": 1332.000000000001,
+    "product": "mast:JWST/product/jw01947-o001_t010_miri_f2550w_i2d.fits"
+   }
+  ],
+  "black_percentile": 35,
+  "finishing": {
+   "box": [
+    0.02,
+    0.955,
+    0.12,
+    0.985
+   ],
+   "black": 35,
+   "fill": [
+    4.0,
+    3,
+    40
+   ]
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ },
+ {
+  "picture": "casa-miri-creative5-n50-white.jpg",
+  "palette": "creative5",
+  "collection": "JWST",
+  "target": "CASSIOPEIA-A-CENTER-MIRI",
+  "proposal_id": "1947",
+  "instrument": "MIRI/IMAGE",
+  "title": "JWST Survey of the Prototypical Core-collapse Supernova Remnant Cassiopeia A",
+  "grid": {
+   "width": 3474,
+   "height": 3022,
+   "reduction": 1,
+   "arcsec_per_pixel": 0.1109222791148808,
+   "reference_filter": "F560W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "white",
+  "filters": [
+   {
+    "filter": "F560W",
+    "center_nm": 5600.0,
+    "color": "#1a4cff",
+    "obs_id": "jw01947-o001_t010_miri_f560w",
+    "exposure_s": 1332.000000000001,
+    "product": "mast:JWST/product/jw01947-o001_t010_miri_f560w_i2d.fits"
+   },
+   {
+    "filter": "F770W",
+    "center_nm": 7700.0,
+    "color": "#05c7ff",
+    "obs_id": "jw01947-o001_t010_miri_f770w",
+    "exposure_s": 1332.000000000001,
+    "product": "mast:JWST/product/jw01947-o001_t010_miri_f770w_i2d.fits"
+   },
+   {
+    "filter": "F1130W",
+    "center_nm": 11300.0,
+    "color": "#91e6ab",
+    "obs_id": "jw01947-o001_t010_miri_f1130w",
+    "exposure_s": 1332.000000000001,
+    "product": "mast:JWST/product/jw01947-o001_t010_miri_f1130w_i2d.fits"
+   },
+   {
+    "filter": "F1280W",
+    "center_nm": 12800.0,
+    "color": "#f7b884",
+    "obs_id": "jw01947-o001_t010_miri_f1280w",
+    "exposure_s": 1332.000000000001,
+    "product": "mast:JWST/product/jw01947-o001_t010_miri_f1280w_i2d.fits"
+   },
+   {
+    "filter": "F2100W",
+    "center_nm": 21000.0,
+    "color": "#fc6fa8",
+    "obs_id": "jw01947-o001_t010_miri_f2100w",
+    "exposure_s": 1332.000000000001,
+    "product": "mast:JWST/product/jw01947-o001_t010_miri_f2100w_i2d.fits"
+   },
+   {
+    "filter": "F2550W",
+    "center_nm": 25500.0,
+    "color": "#f261d1",
+    "obs_id": "jw01947-o001_t010_miri_f2550w",
+    "exposure_s": 1332.000000000001,
+    "product": "mast:JWST/product/jw01947-o001_t010_miri_f2550w_i2d.fits"
+   }
+  ],
+  "black_percentile": 35,
+  "finishing": {
+   "box": [
+    0.02,
+    0.955,
+    0.12,
+    0.985
+   ],
+   "black": 35,
+   "fill": [
+    4.0,
+    3,
+    40
+   ]
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]
