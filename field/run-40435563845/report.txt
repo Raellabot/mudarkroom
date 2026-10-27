@@ -1,0 +1,40 @@
+field el-gordo: ra 15.6 dec -49.25 radius 0.1 deg
+== Chandra (Chandra Data Archive)
+3 public observations within 0.1 deg
+obsid 12258 | ACT-CLJ0102-4915 | ACIS-I | grating NONE | TE | 59.3 ks | events 213499 | proposal 12800632 | released 2012-01-28 | 15.7188 -49.2494 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao12/cat8/12258/primary/acisf12258N003_evt2.fits.gz
+    image acisf12258N003_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf12258N003_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 14022 | ACT-CLJ0102-4915 | ACIS-I | grating NONE | TE | 177.4 ks | events 577691 | proposal 13800764 | released 2013-02-27 | 15.7208 -49.2547 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao13/cat8/14022/primary/acisf14022N002_evt2.fits.gz
+    image acisf14022N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf14022N002_full_img2.fits | 0.2-20.0 keV | 0.5 MB
+obsid 14023 | ACT-CLJ0102-4915 | ACIS-I | grating NONE | TE | 114.3 ks | events 365091 | proposal 13800764 | released 2013-02-27 | 15.7208 -49.2547 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao13/cat8/14023/primary/acisf14023N002_evt2.fits.gz
+    image acisf14023N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf14023N002_full_img2.fits | 0.2-20.0 keV | 0.5 MB
+imaging exposure without a grating: 350.9 ks in total
+== Hubble and Webb (MAST)
+390 rows from MAST, 133 public single-filter level-3 image mosaics
+HST|14096 | NAME-EL-GORDO-NW | WFC3/IR | 5 filters | total 0.1 GB | detection 0.03 GB 2523 s, F105W 0.01 GB 756 s, F125W 0.01 GB 381 s, F140W 0.01 GB 381 s, F160W 0.01 GB 1006 s
+HST|14096 | NAME-EL-GORDO-SE | WFC3/IR | 5 filters | total 0.1 GB | detection 0.03 GB 2523 s, F105W 0.01 GB 756 s, F125W 0.01 GB 381 s, F140W 0.01 GB 381 s, F160W 0.01 GB 1006 s
+HST|12755 | ACTJ0102-4915-NW | ACS/WFC | 4 filters | total 1.7 GB | detection 0.43 GB 7372 s, F625W 0.43 GB 2344 s, F775W 0.43 GB 2512 s, F850LP 0.43 GB 2516 s
+HST|None | NAME-EL-GORDO-SE | WFC3/IR | 4 filters | total 10.3 GB | F105W 2.57 GB 2923 s, F125W 2.57 GB 1473 s, F140W 2.57 GB 1473 s, F160W 2.57 GB 4023 s
+HST|12755 | ACTJ0102-4915-SE | ACS/WFC | 4 filters | total 1.1 GB | detection 0.45 GB 7372 s, F625W 0.22 GB 2344 s, F775W 0.22 GB 2512 s, F850LP 0.22 GB 2516 s
+HST|12477 | SPT-CLJ0102-4915 | ACS/WFC | 3 filters | total 0.9 GB | detection 0.27 GB 1920 s, F606W 0.27 GB 1920 s, F814W 0.32 GB 1916 s
+HST|None | ACTJ0102-4915-SE | ACS/WFC | 3 filters | total 7.7 GB | F625W 2.57 GB 4688 s, F775W 2.57 GB 5024 s, F850LP 2.57 GB 4403 s
+HST|14153 | ACTJ0102-4915-F7 | ACS/WFC | 2 filters | total 0.6 GB | detection 0.29 GB 2304 s, F606W 0.29 GB 2304 s
+HST|None | SPT-CLJ0102-4915 | ACS/WFC | 2 filters | total 5.1 GB | F606W 2.57 GB 25536 s, F814W 2.57 GB 1916 s
+HST|14153 | ACTJ0102-4915-F6 | ACS/WFC | 2 filters | total 0.5 GB | detection 0.29 GB 2304 s, F606W 0.22 GB 2304 s
+HST|14153 | ACTJ0102-4915-F8 | ACS/WFC | 2 filters | total 0.6 GB | detection 0.29 GB 2304 s, F606W 0.29 GB 2304 s
+HST|16729 | EL-GORDO-ACT-CL-J0102-49 | WFC3/UVIS | 2 filters | total 0.9 GB | detection 0.44 GB 1110 s, F606W 0.44 GB 1110 s
+HST|16729 | EL-GORDO-ACT-CL-J0102-49 | WFC3/IR | 2 filters | total 0.1 GB | detection 0.03 GB 609 s, F105W 0.03 GB 609 s
+HST|14096 | NAME-EL-GORDO-F435W | ACS/WFC | 2 filters | total 0.5 GB | detection 0.29 GB 2093 s, F435W 0.22 GB 2093 s
+HST|16773 | DESJ0101-4917 | WFC3/UVIS | 2 filters | total 0.9 GB | detection 0.43 GB 600 s, F200LP 0.43 GB 600 s
+HST|16773 | DESJ0101-4917 | WFC3/IR | 2 filters | total 0.1 GB | detection 0.03 GB 598 s, F140W 0.03 GB 598 s
+HST|14153 | ACTJ0102-4915-F5 | ACS/WFC | 2 filters | total 0.6 GB | detection 0.29 GB 2304 s, F606W 0.29 GB 2304 s
+HST|14153 | ACTJ0102-4915-F1 | ACS/WFC | 2 filters | total 0.6 GB | detection 0.29 GB 2304 s, F606W 0.29 GB 2304 s
+HST|None | ACTJ0102-4915-F8 | ACS/WFC | 1 filters | total 1.3 GB | F606W 1.33 GB 6912 s
+HST|None | EL-GORDO-ACT-CL-J0102-49 | WFC3/UVIS | 1 filters | total 2.6 GB | F606W 2.57 GB 1990 s
+HST|None | NAME-EL-GORDO-F435W | ACS/WFC | 1 filters | total 2.6 GB | F435W 2.57 GB 2093 s
+HST|None | DESJ0101-4917 | WFC3/UVIS | 1 filters | total 1.3 GB | F200LP 1.33 GB 600 s
+HST|None | DESJ0101-4917 | WFC3/IR | 1 filters | total 0.1 GB | F140W 0.15 GB 598 s
+JWST|1176 | EL-GORDO | NIRCAM/IMAGE | 8 filters | total 6.4 GB | F090W 1.29 GB 2491 s, F115W 1.29 GB 2491 s, F150W 1.29 GB 1890 s, F200W 1.29 GB 2104 s, F277W 0.31 GB 2104 s, F356W 0.31 GB 1890 s, F410M 0.31 GB 2491 s, F444W 0.31 GB 2491 s
+JWST|6882 | El-Gordo | NIRCAM/IMAGE | 4 filters | total 3.2 GB | F150W 1.29 GB 1245 s, F210M 1.29 GB 1890 s, F300M 0.31 GB 1890 s, F444W 0.31 GB 1245 s
