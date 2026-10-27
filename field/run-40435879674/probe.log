@@ -1,0 +1,164 @@
+field westerlund1: ra 251.7667 dec -45.85 radius 0.1 deg
+== Chandra (Chandra Data Archive)
+49 public observations within 0.1 deg
+obsid 5411 | WESTERLUND1 | ACIS-S | grating NONE | TE | 38.5 ks | events 327819 | proposal 06200332 | released 2006-06-21 | 251.7725 -45.8435 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao06/cat2/5411/primary/acisf05411N004_evt2.fits.gz
+    image acisf05411N004_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf05411N004_full_img2.fits | 0.2-20.0 keV | 0.7 MB
+obsid 6283 | WESTERLUND1 | ACIS-S | grating NONE | TE | 18.8 ks | events 127035 | proposal 06200332 | released 2006-06-21 | 251.7725 -45.8435 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao06/cat2/6283/primary/acisf06283N004_evt2.fits.gz
+    image acisf06283N004_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf06283N004_full_img2.fits | 0.2-20.0 keV | 0.7 MB
+obsid 6724 | PSRJ1647-4552 | ACIS-S | grating NONE | CC | 15.1 ks | events 319575 | proposal 07500854 | released 2007-09-27 | 251.7925 -45.8714 | evt2 name unknown
+obsid 6725 | PSRJ1647-4552 | ACIS-S | grating NONE | CC | 20.1 ks | events 403960 | proposal 07500854 | released 2007-10-02 | 251.7925 -45.8714 | evt2 name unknown
+obsid 6726 | PSRJ1647-4552 | ACIS-S | grating NONE | CC | 25.1 ks | events 509884 | proposal 07500854 | released 2007-10-10 | 251.7925 -45.8714 | evt2 name unknown
+obsid 8455 | PSRJ1647-4552 | ACIS-S | grating NONE | CC | 15.1 ks | events 302259 | proposal 07508256 | released 2007-01-30 | 251.7925 -45.8714 | evt2 name unknown
+obsid 8506 | PSRJ1647-4552 | ACIS-S | grating NONE | CC | 20.1 ks | events 368026 | proposal 08508262 | released 2007-02-06 | 251.7925 -45.8714 | evt2 name unknown
+obsid 14360 | CXOUJ164710.2-455216 | ACIS-S | grating NONE | TE | 19.1 ks | events 18503 | proposal 12508406 | released 2012-01-24 | 251.7925 -45.8714 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao13/cat5/14360/primary/acisf14360N003_evt2.fits.gz
+    image acisf14360N003_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf14360N003_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 19135 | CXOUJ164710.2-455216 | ACIS-S | grating NONE | TE | 9.1 ks | events 9087 | proposal 18500288 | released 2018-05-25 | 251.7925 -45.8714 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao18/cat5/19135/primary/acisf19135N003_evt2.fits.gz
+    image acisf19135N003_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf19135N003_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 19136 | CXOUJ164710.2-455216 | ACIS-S | grating NONE | TE | 13.7 ks | events 14661 | proposal 18500288 | released 2018-06-16 | 251.7925 -45.8714 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao18/cat5/19136/primary/acisf19136N003_evt2.fits.gz
+    image acisf19136N003_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf19136N003_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 19137 | CXOUJ164710.2-455216 | ACIS-S | grating NONE | TE | 18.2 ks | events 19975 | proposal 18500288 | released 2018-07-10 | 251.7925 -45.8714 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao18/cat5/19137/primary/acisf19137N003_evt2.fits.gz
+    image acisf19137N003_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf19137N003_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 19138 | CXOUJ164710.2-455217 | ACIS-S | grating NONE | TE | 18.2 ks | events 19833 | proposal 18500288 | released 2019-02-26 | 251.7925 -45.8714 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao18/cat5/19138/primary/acisf19138N003_evt2.fits.gz
+    image acisf19138N003_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf19138N003_full_img2.fits | 0.2-20.0 keV | 0.0 MB
+obsid 20976 | CXOUJ164710.2-455217 | ACIS-S | grating NONE | TE | 16.4 ks | events 17396 | proposal 18500288 | released 2019-02-26 | 251.7925 -45.8714 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao18/cat5/20976/primary/acisf20976N003_evt2.fits.gz
+    image acisf20976N003_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf20976N003_full_img2.fits | 0.2-20.0 keV | 0.0 MB
+obsid 22316 | WESTERLUND1 | ACIS-I | grating NONE | TE | 39.5 ks | events 167103 | proposal 21200267 | released 2022-08-23 | 251.7499 -45.8538 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao21/cat2/22316/primary/acisf22316N002_evt2.fits.gz
+    image acisf22316N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf22316N002_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 22317 | WESTERLUND1 | ACIS-I | grating NONE | TE | 24.8 ks | events 102780 | proposal 21200267 | released 2022-08-23 | 251.7523 -45.8582 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao21/cat2/22317/primary/acisf22317N002_evt2.fits.gz
+    image acisf22317N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf22317N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 22318 | WESTERLUND1 | ACIS-I | grating NONE | TE | 26.7 ks | events 106531 | proposal 21200267 | released 2022-08-23 | 251.7635 -45.8627 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao21/cat2/22318/primary/acisf22318N002_evt2.fits.gz
+    image acisf22318N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf22318N002_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 22319 | WESTERLUND1 | ACIS-I | grating NONE | TE | 46.5 ks | events 194492 | proposal 21200267 | released 2022-08-23 | 251.7499 -45.8538 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao21/cat2/22319/primary/acisf22319N002_evt2.fits.gz
+    image acisf22319N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf22319N002_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 22320 | WESTERLUND1 | ACIS-I | grating NONE | TE | 37.6 ks | events 152902 | proposal 21200267 | released 2022-08-23 | 251.7727 -45.8608 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao21/cat2/22320/primary/acisf22320N002_evt2.fits.gz
+    image acisf22320N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf22320N002_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 22321 | WESTERLUND1 | ACIS-I | grating NONE | TE | 37.6 ks | events 150890 | proposal 21200267 | released 2022-08-23 | 251.7705 -45.8540 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao21/cat2/22321/primary/acisf22321N002_evt2.fits.gz
+    image acisf22321N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf22321N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 22977 | WESTERLUND1 | ACIS-I | grating NONE | TE | 37.6 ks | events 156930 | proposal 21200267 | released 2022-08-23 | 251.7499 -45.8538 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao21/cat2/22977/primary/acisf22977N002_evt2.fits.gz
+    image acisf22977N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf22977N002_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 22978 | WESTERLUND1 | ACIS-I | grating NONE | TE | 24.7 ks | events 96467 | proposal 21200267 | released 2022-08-23 | 251.7727 -45.8608 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao21/cat2/22978/primary/acisf22978N002_evt2.fits.gz
+    image acisf22978N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf22978N002_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 22979 | WESTERLUND1 | ACIS-I | grating NONE | TE | 21.8 ks | events 86169 | proposal 21200267 | released 2022-08-23 | 251.7818 -45.8538 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao21/cat2/22979/primary/acisf22979N002_evt2.fits.gz
+    image acisf22979N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf22979N002_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 22980 | WESTERLUND1 | ACIS-I | grating NONE | TE | 24.8 ks | events 92969 | proposal 21200267 | released 2022-08-23 | 251.7727 -45.8608 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao21/cat2/22980/primary/acisf22980N002_evt2.fits.gz
+    image acisf22980N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf22980N002_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 22981 | WESTERLUND1 | ACIS-I | grating NONE | TE | 21.9 ks | events 86770 | proposal 21200267 | released 2022-08-23 | 251.7635 -45.8627 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao21/cat2/22981/primary/acisf22981N002_evt2.fits.gz
+    image acisf22981N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf22981N002_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 22982 | WESTERLUND1 | ACIS-I | grating NONE | TE | 16.9 ks | events 69479 | proposal 21200267 | released 2022-08-23 | 251.7727 -45.8608 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao21/cat2/22982/primary/acisf22982N002_evt2.fits.gz
+    image acisf22982N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf22982N002_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 22983 | WESTERLUND1 | ACIS-I | grating NONE | TE | 27.7 ks | events 108807 | proposal 21200267 | released 2022-08-23 | 251.7727 -45.8608 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao21/cat2/22983/primary/acisf22983N002_evt2.fits.gz
+    image acisf22983N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf22983N002_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 22984 | WESTERLUND1 | ACIS-I | grating NONE | TE | 22.6 ks | events 84113 | proposal 21200267 | released 2022-08-23 | 251.7635 -45.8627 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao21/cat2/22984/primary/acisf22984N002_evt2.fits.gz
+    image acisf22984N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf22984N002_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 22985 | WESTERLUND1 | ACIS-I | grating NONE | TE | 24.7 ks | events 98285 | proposal 21200267 | released 2022-08-23 | 251.7797 -45.8467 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao21/cat2/22985/primary/acisf22985N002_evt2.fits.gz
+    image acisf22985N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf22985N002_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 22986 | WESTERLUND1 | ACIS-I | grating NONE | TE | 17.7 ks | events 71966 | proposal 21200267 | released 2022-08-23 | 251.7727 -45.8608 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao21/cat2/22986/primary/acisf22986N002_evt2.fits.gz
+    image acisf22986N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf22986N002_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 22987 | WESTERLUND1 | ACIS-I | grating NONE | TE | 24.7 ks | events 96273 | proposal 21200267 | released 2022-08-23 | 251.7705 -45.8540 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao21/cat2/22987/primary/acisf22987N003_evt2.fits.gz
+    image acisf22987N003_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf22987N003_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 22988 | WESTERLUND1 | ACIS-I | grating NONE | TE | 17.8 ks | events 70700 | proposal 21200267 | released 2022-08-23 | 251.7592 -45.8588 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao21/cat2/22988/primary/acisf22988N002_evt2.fits.gz
+    image acisf22988N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf22988N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 22989 | WESTERLUND1 | ACIS-I | grating NONE | TE | 21.8 ks | events 87117 | proposal 21200267 | released 2022-08-23 | 251.7818 -45.8538 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao21/cat2/22989/primary/acisf22989N003_evt2.fits.gz
+    image acisf22989N003_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf22989N003_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 22990 | WESTERLUND1 | ACIS-I | grating NONE | TE | 24.7 ks | events 97440 | proposal 21200267 | released 2022-08-23 | 251.7582 -45.8614 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao21/cat2/22990/primary/acisf22990N003_evt2.fits.gz
+    image acisf22990N003_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf22990N003_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 23272 | WESTERLUND1 | ACIS-I | grating NONE | TE | 11.9 ks | events 47958 | proposal 21200267 | released 2022-08-23 | 251.7705 -45.8540 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao21/cat2/23272/primary/acisf23272N002_evt2.fits.gz
+    image acisf23272N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf23272N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 23279 | WESTERLUND1 | ACIS-I | grating NONE | TE | 29.7 ks | events 121910 | proposal 21200267 | released 2022-08-23 | 251.7727 -45.8608 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao21/cat2/23279/primary/acisf23279N002_evt2.fits.gz
+    image acisf23279N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf23279N002_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 23281 | WESTERLUND1 | ACIS-I | grating NONE | TE | 30.5 ks | events 123245 | proposal 21200267 | released 2022-08-23 | 251.7727 -45.8608 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao21/cat2/23281/primary/acisf23281N002_evt2.fits.gz
+    image acisf23281N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf23281N002_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 23287 | WESTERLUND1 | ACIS-I | grating NONE | TE | 34.6 ks | events 137268 | proposal 21200267 | released 2022-08-23 | 251.7635 -45.8627 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao21/cat2/23287/primary/acisf23287N002_evt2.fits.gz
+    image acisf23287N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf23287N002_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 23288 | WESTERLUND1 | ACIS-I | grating NONE | TE | 29.2 ks | events 119406 | proposal 21200267 | released 2022-08-23 | 251.7635 -45.8627 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao21/cat2/23288/primary/acisf23288N002_evt2.fits.gz
+    image acisf23288N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf23288N002_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 24827 | WESTERLUND1 | ACIS-I | grating NONE | TE | 24.7 ks | events 99021 | proposal 21200267 | released 2022-08-23 | 251.7523 -45.8541 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao21/cat2/24827/primary/acisf24827N003_evt2.fits.gz
+    image acisf24827N003_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf24827N003_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 24828 | WESTERLUND1 | ACIS-I | grating NONE | TE | 24.8 ks | events 97919 | proposal 21200267 | released 2022-08-23 | 251.7705 -45.8540 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao21/cat2/24828/primary/acisf24828N002_evt2.fits.gz
+    image acisf24828N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf24828N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 25051 | WESTERLUND1 | ACIS-I | grating NONE | TE | 31.7 ks | events 124209 | proposal 21200267 | released 2022-08-23 | 251.7818 -45.8538 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao21/cat2/25051/primary/acisf25051N002_evt2.fits.gz
+    image acisf25051N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf25051N002_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 25055 | WESTERLUND1 | ACIS-I | grating NONE | TE | 29.7 ks | events 118790 | proposal 21200267 | released 2022-08-23 | 251.7705 -45.8540 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao21/cat2/25055/primary/acisf25055N002_evt2.fits.gz
+    image acisf25055N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf25055N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 25057 | WESTERLUND1 | ACIS-I | grating NONE | TE | 25.2 ks | events 95004 | proposal 21200267 | released 2022-08-23 | 251.7727 -45.8608 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao21/cat2/25057/primary/acisf25057N002_evt2.fits.gz
+    image acisf25057N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf25057N002_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 25058 | WESTERLUND1 | ACIS-I | grating NONE | TE | 27.2 ks | events 105288 | proposal 21200267 | released 2022-08-23 | 251.7727 -45.8608 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao21/cat2/25058/primary/acisf25058N002_evt2.fits.gz
+    image acisf25058N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf25058N002_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 25073 | WESTERLUND1 | ACIS-I | grating NONE | TE | 34.6 ks | events 135734 | proposal 21200267 | released 2022-08-23 | 251.7635 -45.8627 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao21/cat2/25073/primary/acisf25073N002_evt2.fits.gz
+    image acisf25073N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf25073N002_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 25096 | WESTERLUND1 | ACIS-I | grating NONE | TE | 18.1 ks | events 69278 | proposal 21200267 | released 2022-08-23 | 251.7592 -45.8588 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao21/cat2/25096/primary/acisf25096N002_evt2.fits.gz
+    image acisf25096N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf25096N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 25097 | WESTERLUND1 | ACIS-I | grating NONE | TE | 23.6 ks | events 93332 | proposal 21200267 | released 2022-08-23 | 251.7592 -45.8588 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao21/cat2/25097/primary/acisf25097N002_evt2.fits.gz
+    image acisf25097N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf25097N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 25098 | WESTERLUND1 | ACIS-I | grating NONE | TE | 25.4 ks | events 102156 | proposal 21200267 | released 2022-08-23 | 251.7592 -45.8588 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao21/cat2/25098/primary/acisf25098N002_evt2.fits.gz
+    image acisf25098N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf25098N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 25683 | WESTERLUND1 | ACIS-I | grating NONE | TE | 24.7 ks | events 101449 | proposal 21200267 | released 2022-08-23 | 251.7523 -45.8582 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao21/cat2/25683/primary/acisf25683N002_evt2.fits.gz
+    image acisf25683N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf25683N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+imaging exposure without a grating: 1215.3 ks in total
+== Hubble and Webb (MAST)
+4200 rows from MAST, 154 public single-filter level-3 image mosaics
+HST|11708 | CL-WESTERLUND1 | WFC3/IR | 4 filters | total 0.1 GB | detection 0.05 GB 10834 s, F125W 0.02 GB 2450 s, F139M 0.02 GB 6300 s, F160W 0.02 GB 2100 s
+HST|17927 | CXOUJ164710.2-455216 | WFC3/IR | 3 filters | total 0.0 GB | detection 0.02 GB 2118 s, F125W 0.01 GB 1059 s, F160W 0.01 GB 1059 s
+HST|10172 | WESTERLUND1 | ACS/WFC | 2 filters | total 0.9 GB | detection 0.44 GB 2407 s, F814W 0.44 GB 2407 s
+HST|13044 | WESTERLUND1 | WFC3/IR | 2 filters | total 0.1 GB | detection 0.06 GB 7013 s, F160W 0.06 GB 7013 s
+HST|13809 | WESTERLUND1 | WFC3/IR | 2 filters | total 0.1 GB | detection 0.06 GB 6763 s, F160W 0.06 GB 6763 s
+HST|14016 | WESTERLUND-1 | WFC3/IR | 2 filters | total 0.0 GB | detection 0.03 GB 2496 s, F140W 0.01 GB 2500 s
+HST|17119 | CL-WESTERLUND-1 | WFC3/IR | 2 filters | total 0.1 GB | detection 0.06 GB 6763 s, F160W 0.06 GB 6763 s
+HST|None | CL-WESTERLUND1 | WFC3/IR | 2 filters | total 4.0 GB | F125W 2.01 GB 13282 s, F139M 2.01 GB 31473 s
+HST|14805 | CXOJ164710 | WFC3/IR | 2 filters | total 0.0 GB | detection 0.02 GB 2397 s, F140W 0.01 GB 2397 s
+HST|None | WESTERLUND1 | ACS/WFC | 1 filters | total 0.5 GB | F814W 0.48 GB 2407 s
+HST|None | WESTERLUND-1 | WFC3/IR | 1 filters | total 0.5 GB | F140W 0.48 GB 12158 s
+HST|None | CL-WESTERLUND-1 | WFC3/IR | 1 filters | total 2.0 GB | F160W 2.01 GB 52464 s
+HST|10172 | WESTERLUND1-POS8 | NICMOS/NIC2 | 1 filters | total 0.0 GB | F222M 0.00 GB 2688 s
+HST|10172 | WESTERLUND1-POS7 | NICMOS/NIC2 | 1 filters | total 0.0 GB | F222M 0.00 GB 2688 s
+HST|10172 | WESTERLUND1-POS4 | NICMOS/NIC2 | 1 filters | total 0.0 GB | F222M 0.00 GB 2688 s
+HST|10172 | WESTERLUND1-POS2 | NICMOS/NIC2 | 1 filters | total 0.0 GB | F222M 0.00 GB 2688 s
+HST|10172 | WESTERLUND1-POS3 | NICMOS/NIC2 | 1 filters | total 0.0 GB | F222M 0.00 GB 2688 s
+HST|10172 | WESTERLUND1-POS6 | NICMOS/NIC2 | 1 filters | total 0.0 GB | F222M 0.00 GB 2688 s
+HST|10172 | WESTERLUND1-POS5 | NICMOS/NIC2 | 1 filters | total 0.0 GB | F222M 0.00 GB 2688 s
+JWST|1905 | CL-WESTERLUND-1 | NIRCAM/IMAGE | 7 filters | total 27.5 GB | F115W 5.09 GB 515 s, F150W 5.09 GB 515 s, F187N 5.09 GB 515 s, F200W 5.10 GB 515 s, F212N 5.09 GB 515 s, F277W 0.95 GB 515 s, F444W 1.09 GB 1031 s
+JWST|1905 | CL-WESTERLUND-1 | MIRI/IMAGE | 3 filters | total 0.6 GB | F770W 0.21 GB 6294 s, F1000W 0.21 GB 6294 s, F1130W 0.21 GB 6294 s
