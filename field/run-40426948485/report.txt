@@ -1,0 +1,1059 @@
+field test: ra 350.866 dec 58.815 radius 0.1 deg
+== Chandra (Chandra Data Archive)
+317 public observations within 0.1 deg
+obsid 114 | CASA | ACIS-S | grating NONE | TE | 49.9 ks | events 16192233 | proposal 01500021 | released 2001-03-08 | 350.8612 58.8175 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao01/cat5/114/primary/acisf00114N006_evt2.fits.gz
+    image acisf00114N006_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf00114N006_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 171 | CASA | HRC-I | grating NONE |  | 8.8 ks | events 922056 | proposal 01500106 | released 2002-04-03 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao00/cat5/171/primary/hrcf00171N004_evt2.fits.gz
+    image hrcf00171N004_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image hrcf00171N004_full_img2.fits | 0.2-20.0 keV | 0.8 MB
+obsid 172 | CASA | HRC-S | grating NONE |  | 9.4 ks | events 1179029 | proposal 01500106 | released 1999-09-15 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao00/cat5/172/primary/hrcf00172N005_evt2.fits.gz
+    image hrcf00172N005_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image hrcf00172N005_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 173 | CASA | HRC-S | grating NONE |  | 1.7 ks | events 167074 | proposal 01500106 | released 1999-09-15 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao00/cat5/173/primary/hrcf00173N005_evt2.fits.gz
+    image hrcf00173N005_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image hrcf00173N005_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 174 | CASA | HRC-S | grating NONE |  | 1.7 ks | events 159055 | proposal 01500106 | released 1999-09-16 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao00/cat5/174/primary/hrcf00174N005_evt2.fits.gz
+    image hrcf00174N005_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image hrcf00174N005_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 194 | CASA | ACIS-I | grating NONE | TE | 3.4 ks | events 763406 | proposal 01500111 | released 2000-05-30 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao01/cat5/194/primary/acisf00194N005_evt2.fits.gz
+    image acisf00194N005_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf00194N005_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 198 | CASA | ACIS-S | grating NONE | TE | 2.5 ks | events 792993 | proposal 01500111 | released 2000-05-30 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao01/cat5/198/primary/acisf00198N005_evt2.fits.gz
+    image acisf00198N005_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf00198N005_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 207 | CASA | ACIS-I | grating NONE | TE | 0.9 ks | events 183961 | proposal 01500112 | released 2001-10-25 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao00/cat5/207/primary/acisf00207N005_evt2.fits.gz
+    image acisf00207N005_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf00207N005_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 208 | CASA | ACIS-I | grating NONE | TE | 1.9 ks | events 404513 | proposal 01500112 | released 2001-11-30 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao00/cat5/208/primary/acisf00208N004_evt2.fits.gz
+    image acisf00208N004_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf00208N004_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 209 | CASA | ACIS-I | grating NONE | TE | 1.8 ks | events 402250 | proposal 01500112 | released 1999-09-06 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao00/cat5/209/primary/acisf00209N004_evt2.fits.gz
+    image acisf00209N004_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf00209N004_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 210 | CASA | ACIS-I | grating NONE | TE | 3.6 ks | events 839545 | proposal 01500112 | released 2000-04-12 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao00/cat5/210/primary/acisf00210N003_evt2.fits.gz
+    image acisf00210N003_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf00210N003_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 211 | CASA | ACIS-S | grating NONE | TE | 1.5 ks | events 214433 | proposal 01500112 | released 1999-09-04 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao00/cat5/211/primary/acisf00211N004_evt2.fits.gz
+    image acisf00211N004_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf00211N004_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 212 | CASA | ACIS-S | grating NONE | TE | 2.0 ks | events 489148 | proposal 01500112 | released 1999-09-04 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao00/cat5/212/primary/acisf00212N004_evt2.fits.gz
+    image acisf00212N004_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf00212N004_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 213 | CASA | ACIS-S | grating NONE | TE | 1.8 ks | events 427237 | proposal 01500112 | released 1999-09-08 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao00/cat5/213/primary/acisf00213N005_evt2.fits.gz
+    image acisf00213N005_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf00213N005_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 214 | CASA | ACIS-S | grating NONE | TE | 2.8 ks | events 894896 | proposal 01500112 | released 1999-09-04 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao00/cat5/214/primary/acisf00214N004_evt2.fits.gz
+    image acisf00214N004_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf00214N004_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 215 | CASA | ACIS-S | grating NONE | TE | 2.3 ks | events 481490 | proposal 01500112 | released 1999-09-04 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao00/cat5/215/primary/acisf00215N005_evt2.fits.gz
+    image acisf00215N005_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf00215N005_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 216 | CASA | ACIS-S | grating NONE | TE | 2.8 ks | events 474965 | proposal 01500112 | released 1999-09-04 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao00/cat5/216/primary/acisf00216N005_evt2.fits.gz
+    image acisf00216N005_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf00216N005_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 217 | CASA | ACIS-I | grating NONE | TE | 1.4 ks | events 309373 | proposal 01500112 | released 2000-04-11 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao00/cat5/217/primary/acisf00217N003_evt2.fits.gz
+    image acisf00217N003_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf00217N003_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 218 | CASA | ACIS-I | grating NONE | TE | 1.4 ks | events 308885 | proposal 01500112 | released 2000-04-11 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao00/cat5/218/primary/acisf00218N003_evt2.fits.gz
+    image acisf00218N003_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf00218N003_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 219 | CASA | ACIS-I | grating NONE | TE | 1.4 ks | events 307301 | proposal 01500112 | released 2000-04-12 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao00/cat5/219/primary/acisf00219N005_evt2.fits.gz
+    image acisf00219N005_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf00219N005_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 220 | CASA | ACIS-S | grating NONE | TE | 1.2 ks | events 378259 | proposal 01500112 | released 1999-09-05 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao00/cat5/220/primary/acisf00220N006_evt2.fits.gz
+    image acisf00220N006_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf00220N006_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 221 | CASA | ACIS-S | grating NONE | TE | 1.0 ks | events 332324 | proposal 01500112 | released 1999-09-05 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao00/cat5/221/primary/acisf00221N005_evt2.fits.gz
+    image acisf00221N005_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf00221N005_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 222 | CASA | ACIS-S | grating NONE | TE | 1.0 ks | events 333216 | proposal 01500112 | released 1999-09-05 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao00/cat5/222/primary/acisf00222N005_evt2.fits.gz
+    image acisf00222N005_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf00222N005_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 223 | CASA | ACIS-I | grating NONE | TE | 0.8 ks | events 171141 | proposal 01500113 | released 2000-08-10 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao01/cat5/223/primary/acisf00223N005_evt2.fits.gz
+    image acisf00223N005_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf00223N005_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 224 | CASA | ACIS-I | grating NONE | TE | 1.0 ks | events 212025 | proposal 01500113 | released 2000-04-07 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao01/cat5/224/primary/acisf00224N005_evt2.fits.gz
+    image acisf00224N005_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf00224N005_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 225 | CASA | ACIS-I | grating NONE | TE | 1.0 ks | events 206588 | proposal 01500113 | released 2000-09-01 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao01/cat5/225/primary/acisf00225N005_evt2.fits.gz
+    image acisf00225N005_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf00225N005_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 226 | CASA | ACIS-I | grating NONE | TE | 2.7 ks | events 606521 | proposal 01500113 | released 2000-04-07 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao01/cat5/226/primary/acisf00226N005_evt2.fits.gz
+    image acisf00226N005_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf00226N005_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 227 | CASA | ACIS-S | grating NONE | TE | 1.0 ks | events 130830 | proposal 01500113 | released 2000-04-11 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao01/cat5/227/primary/acisf00227N006_evt2.fits.gz
+    image acisf00227N006_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf00227N006_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 228 | CASA | ACIS-S | grating NONE | TE | 1.0 ks | events 235123 | proposal 01500113 | released 2000-04-12 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao01/cat5/228/primary/acisf00228N005_evt2.fits.gz
+    image acisf00228N005_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf00228N005_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 229 | CASA | ACIS-S | grating NONE | TE | 1.0 ks | events 214478 | proposal 01500113 | released 2000-04-12 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao01/cat5/229/primary/acisf00229N005_evt2.fits.gz
+    image acisf00229N005_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf00229N005_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 230 | CASA | ACIS-S | grating NONE | TE | 2.1 ks | events 666923 | proposal 01500113 | released 2000-04-12 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao01/cat5/230/primary/acisf00230N005_evt2.fits.gz
+    image acisf00230N005_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf00230N005_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 231 | CASA | ACIS-S | grating NONE | TE | 1.0 ks | events 202622 | proposal 01500113 | released 2000-04-13 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao01/cat5/231/primary/acisf00231N005_evt2.fits.gz
+    image acisf00231N005_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf00231N005_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 232 | CASA | ACIS-S | grating NONE | TE | 1.3 ks | events 211727 | proposal 01500113 | released 2000-04-13 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao01/cat5/232/primary/acisf00232N005_evt2.fits.gz
+    image acisf00232N005_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf00232N005_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 233 | CASA | ACIS-I | grating NONE | TE | 1.3 ks | events 278135 | proposal 01500113 | released 2000-04-13 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao01/cat5/233/primary/acisf00233N005_evt2.fits.gz
+    image acisf00233N005_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf00233N005_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 234 | CASA | ACIS-I | grating NONE | TE | 1.3 ks | events 283242 | proposal 01500113 | released 2000-04-13 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao01/cat5/234/primary/acisf00234N005_evt2.fits.gz
+    image acisf00234N005_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf00234N005_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 235 | CASA | ACIS-I | grating NONE | TE | 1.3 ks | events 284929 | proposal 01500113 | released 2000-08-29 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao01/cat5/235/primary/acisf00235N005_evt2.fits.gz
+    image acisf00235N005_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf00235N005_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 236 | CASA | ACIS-S | grating NONE | TE | 1.0 ks | events 305185 | proposal 01500113 | released 2000-04-13 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao01/cat5/236/primary/acisf00236N005_evt2.fits.gz
+    image acisf00236N005_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf00236N005_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 237 | CASA | ACIS-S | grating NONE | TE | 1.0 ks | events 305970 | proposal 01500113 | released 2000-04-13 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao01/cat5/237/primary/acisf00237N005_evt2.fits.gz
+    image acisf00237N005_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf00237N005_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 1038 | CASA | HRC-S | grating NONE |  | 50.0 ks | events 5625867 | proposal 02500086 | released 2002-09-28 | 350.8660 58.8117 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao02/cat5/1038/primary/hrcf01038N005_evt2.fits.gz
+    image hrcf01038N005_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image hrcf01038N005_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 1046 | CASA | ACIS-S | grating HETG | TE | 69.1 ks | events 8409476 | proposal 02500132 | released 2002-06-06 | 350.8667 58.8118 | evt2 name unknown
+obsid 1408 | CASA | HRC-S | grating NONE |  | 6.8 ks | events 555996 | proposal 01500106 | released 2000-06-28 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao01/cat5/1408/primary/hrcf01408N007_evt2.fits.gz
+    image hrcf01408N007_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image hrcf01408N007_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 1409 | CASA | HRC-I | grating NONE |  | 0.0 ks | events 0 | proposal 01500106 | released 1999-12-09 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao01/cat5/1409/primary/hrcf01409N005_evt2.fits.gz
+    image hrcf01409N005_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image hrcf01409N005_full_img2.fits | 0.2-20.0 keV | 0.5 MB
+obsid 1435 | CASA | ACIS-S | grating NONE | TE | 1.5 ks | events 213694 | proposal 00500032 | released 2000-02-04 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao01/cat5/1435/primary/acisf01435N005_evt2.fits.gz
+    image acisf01435N005_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf01435N005_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 1436 | CASA | ACIS-S | grating NONE | TE | 2.0 ks | events 488780 | proposal 00500033 | released 2000-02-07 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao01/cat5/1436/primary/acisf01436N005_evt2.fits.gz
+    image acisf01436N005_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf01436N005_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 1437 | CASA | ACIS-S | grating NONE | TE | 1.7 ks | events 17716 | proposal 00500034 | released 2000-02-22 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao01/cat5/1437/primary/acisf01437N005_evt2.fits.gz
+    image acisf01437N005_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf01437N005_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 1438 | CASA | ACIS-S | grating NONE | TE | 2.3 ks | events 482620 | proposal 00500035 | released 2000-03-01 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao01/cat5/1438/primary/acisf01438N005_evt2.fits.gz
+    image acisf01438N005_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf01438N005_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 1439 | CASA | ACIS-S | grating NONE | TE | 2.8 ks | events 470087 | proposal 00500036 | released 1999-12-14 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao01/cat5/1439/primary/acisf01439N005_evt2.fits.gz
+    image acisf01439N005_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf01439N005_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 1440 | CASA | ACIS-S | grating NONE | TE | 0.6 ks | events 206642 | proposal 00500037 | released 2000-04-21 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao01/cat5/1440/primary/acisf01440N005_evt2.fits.gz
+    image acisf01440N005_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf01440N005_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 1444 | CASA | ACIS-I | grating NONE | TE | 0.9 ks | events 191742 | proposal 00500041 | released 2000-01-05 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao01/cat5/1444/primary/acisf01444N006_evt2.fits.gz
+    image acisf01444N006_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf01444N006_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 1445 | CASA | ACIS-I | grating NONE | TE | 1.9 ks | events 405959 | proposal 00500042 | released 2000-01-05 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao01/cat5/1445/primary/acisf01445N006_evt2.fits.gz
+    image acisf01445N006_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf01445N006_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 1446 | CASA | ACIS-I | grating NONE | TE | 1.8 ks | events 403858 | proposal 00500043 | released 2000-01-07 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao01/cat5/1446/primary/acisf01446N005_evt2.fits.gz
+    image acisf01446N005_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf01446N005_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 1447 | CASA | ACIS-I | grating NONE | TE | 3.7 ks | events 842027 | proposal 00500044 | released 1999-12-09 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao01/cat5/1447/primary/acisf01447N006_evt2.fits.gz
+    image acisf01447N006_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf01447N006_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 1467 | CASA | HRC-S | grating NONE |  | 2.1 ks | events 70857 | proposal 01500106 | released 2000-10-19 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao01/cat5/1467/primary/hrcf01467N006_evt2.fits.gz
+    image hrcf01467N006_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image hrcf01467N006_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 1505 | CASA | HRC-I | grating NONE |  | 48.7 ks | events 5646342 | proposal 01500136 | released 2000-11-01 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao01/cat5/1505/primary/hrcf01505N006_evt2.fits.gz
+    image hrcf01505N006_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image hrcf01505N006_full_img2.fits | 0.2-20.0 keV | 0.8 MB
+obsid 1512 | CASA | ACIS-S | grating NONE | TE | 1.4 ks | events 320046 | proposal 00500034 | released 2000-03-07 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao01/cat5/1512/primary/acisf01512N004_evt2.fits.gz
+    image acisf01512N004_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf01512N004_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 1545 | CASA | ACIS-I | grating NONE | TE | 1.5 ks | events 337038 | proposal 02500108 | released 2001-04-06 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao02/cat5/1545/primary/acisf01545N004_evt2.fits.gz
+    image acisf01545N004_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf01545N004_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 1546 | CASA | ACIS-I | grating NONE | TE | 1.4 ks | events 310024 | proposal 02500108 | released 2001-07-24 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao02/cat5/1546/primary/acisf01546N004_evt2.fits.gz
+    image acisf01546N004_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf01546N004_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 1547 | CASA | ACIS-S | grating NONE | TE | 1.1 ks | events 337086 | proposal 02500108 | released 2001-05-22 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao02/cat5/1547/primary/acisf01547N004_evt2.fits.gz
+    image acisf01547N004_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf01547N004_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 1548 | CASA | ACIS-S | grating NONE | TE | 1.1 ks | events 332924 | proposal 02500108 | released 2002-01-24 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao02/cat5/1548/primary/acisf01548N004_evt2.fits.gz
+    image acisf01548N004_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf01548N004_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 1549 | CASA | HRC-I | grating NONE |  | 4.9 ks | events 570249 | proposal 02500108 | released 2001-04-04 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao02/cat5/1549/primary/hrcf01549N007_evt2.fits.gz
+    image hrcf01549N007_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image hrcf01549N007_full_img2.fits | 0.2-20.0 keV | 0.5 MB
+obsid 1550 | CASA | HRC-I | grating NONE |  | 4.8 ks | events 561071 | proposal 02500108 | released 2001-07-20 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao02/cat5/1550/primary/hrcf01550N006_evt2.fits.gz
+    image hrcf01550N006_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image hrcf01550N006_full_img2.fits | 0.2-20.0 keV | 0.5 MB
+obsid 1857 | CASA | HRC-S | grating NONE |  | 48.4 ks | events 5418780 | proposal 01500136 | released 2001-11-01 | 350.8661 58.8117 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao01/cat5/1857/primary/hrcf01857N007_evt2.fits.gz
+    image hrcf01857N007_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image hrcf01857N007_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 1952 | CASA | ACIS-S | grating NONE | TE | 49.7 ks | events 15306167 | proposal 02500308 | released 2003-02-20 | 350.8612 58.8175 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao02/cat5/1952/primary/acisf01952N004_evt2.fits.gz
+    image acisf01952N004_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf01952N004_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 2869 | CASA | ACIS-I | grating NONE | TE | 1.4 ks | events 308205 | proposal 03501022 | released 2002-02-14 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao03/cat5/2869/primary/acisf02869N004_evt2.fits.gz
+    image acisf02869N004_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf02869N004_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 2870 | CASA | ACIS-S | grating NONE | TE | 1.1 ks | events 335601 | proposal 03501022 | released 2002-02-20 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao03/cat5/2870/primary/acisf02870N004_evt2.fits.gz
+    image acisf02870N004_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf02870N004_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 2871 | CASA | HRC-I | grating NONE |  | 4.9 ks | events 581985 | proposal 03501022 | released 2002-02-14 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao03/cat5/2871/primary/hrcf02871N006_evt2.fits.gz
+    image hrcf02871N006_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image hrcf02871N006_full_img2.fits | 0.2-20.0 keV | 0.6 MB
+obsid 2876 | CASA | ACIS-I | grating NONE | TE | 1.4 ks | events 313803 | proposal 03501023 | released 2002-09-05 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao03/cat5/2876/primary/acisf02876N004_evt2.fits.gz
+    image acisf02876N004_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf02876N004_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 2877 | CASA | ACIS-S | grating NONE | TE | 1.1 ks | events 338124 | proposal 03501023 | released 2002-09-04 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao03/cat5/2877/primary/acisf02877N004_evt2.fits.gz
+    image acisf02877N004_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf02877N004_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 2878 | CASA | HRC-I | grating NONE |  | 1.4 ks | events 736072 | proposal 03501023 | released 2002-09-04 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao03/cat5/2878/primary/hrcf02878N006_evt2.fits.gz
+    image hrcf02878N006_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image hrcf02878N006_full_img2.fits | 0.2-20.0 keV | 0.8 MB
+obsid 3696 | CASA | ACIS-I | grating NONE | TE | 1.7 ks | events 360511 | proposal 04501004 | released 2003-03-19 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao04/cat5/3696/primary/acisf03696N004_evt2.fits.gz
+    image acisf03696N004_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf03696N004_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 3697 | CASA | ACIS-S | grating NONE | TE | 1.1 ks | events 354136 | proposal 04501004 | released 2003-03-19 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao04/cat5/3697/primary/acisf03697N004_evt2.fits.gz
+    image acisf03697N004_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf03697N004_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 3698 | CASA | HRC-I | grating NONE |  | 3.9 ks | events 710253 | proposal 04501004 | released 2003-03-19 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao04/cat5/3698/primary/hrcf03698N006_evt2.fits.gz
+    image hrcf03698N006_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image hrcf03698N006_full_img2.fits | 0.2-20.0 keV | 0.8 MB
+obsid 3703 | CASA | ACIS-I | grating NONE | TE | 1.5 ks | events 327457 | proposal 04501005 | released 2003-10-21 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao04/cat5/3703/primary/acisf03703N004_evt2.fits.gz
+    image acisf03703N004_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf03703N004_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 3704 | CASA | ACIS-S | grating NONE | TE | 1.1 ks | events 350644 | proposal 04501005 | released 2003-10-21 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao04/cat5/3704/primary/acisf03704N004_evt2.fits.gz
+    image acisf03704N004_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf03704N004_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 3705 | CASA | HRC-I | grating NONE |  | 4.7 ks | events 668295 | proposal 04501005 | released 2003-10-21 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao04/cat5/3705/primary/hrcf03705N006_evt2.fits.gz
+    image hrcf03705N006_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image hrcf03705N006_full_img2.fits | 0.2-20.0 keV | 0.5 MB
+obsid 4634 | CASSIOPEIAA | ACIS-S | grating NONE | TE | 148.6 ks | events 44692942 | proposal 05500623 | released 2004-05-12 | 350.8612 58.8175 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao05/cat5/4634/primary/acisf04634N004_evt2.fits.gz
+    image acisf04634N004_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf04634N004_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 4635 | CASSIOPEIAA | ACIS-S | grating NONE | TE | 135.0 ks | events 40703982 | proposal 05500623 | released 2004-05-17 | 350.8612 58.8175 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao05/cat5/4635/primary/acisf04635N004_evt2.fits.gz
+    image acisf04635N004_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf04635N004_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 4636 | CASSIOPEIAA | ACIS-S | grating NONE | TE | 143.5 ks | events 43180374 | proposal 05500623 | released 2004-05-03 | 350.8612 58.8175 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao05/cat5/4636/primary/acisf04636N004_evt2.fits.gz
+    image acisf04636N004_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf04636N004_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 4637 | CASSIOPEIAA | ACIS-S | grating NONE | TE | 163.5 ks | events 49071152 | proposal 05500623 | released 2006-07-31 | 350.8612 58.8175 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao05/cat5/4637/primary/acisf04637N005_evt2.fits.gz
+    image acisf04637N005_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf04637N005_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 4638 | CASSIOPEIAA | ACIS-S | grating NONE | TE | 164.5 ks | events 49575664 | proposal 05500623 | released 2004-05-03 | 350.8612 58.8175 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao05/cat5/4638/primary/acisf04638N004_evt2.fits.gz
+    image acisf04638N004_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf04638N004_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 4639 | CASSIOPEIAA | ACIS-S | grating NONE | TE | 79.0 ks | events 23801498 | proposal 05500623 | released 2004-05-10 | 350.8612 58.8175 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao05/cat5/4639/primary/acisf04639N004_evt2.fits.gz
+    image acisf04639N004_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf04639N004_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 5155 | CASA | ACIS-I | grating NONE | TE | 1.6 ks | events 332693 | proposal 05501062 | released 2004-11-01 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao05/cat5/5155/primary/acisf05155N004_evt2.fits.gz
+    image acisf05155N004_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf05155N004_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 5156 | CASA | ACIS-S | grating NONE | TE | 1.1 ks | events 329741 | proposal 05501062 | released 2004-11-04 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao05/cat5/5156/primary/acisf05156N004_evt2.fits.gz
+    image acisf05156N004_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf05156N004_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 5157 | CASA | HRC-I | grating NONE |  | 5.1 ks | events 649236 | proposal 05501062 | released 2004-11-24 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao05/cat5/5157/primary/hrcf05157N007_evt2.fits.gz
+    image hrcf05157N007_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image hrcf05157N007_full_img2.fits | 0.2-20.0 keV | 0.6 MB
+obsid 5162 | CASA | ACIS-I | grating NONE | TE | 1.4 ks | events 306415 | proposal 05501061 | released 2004-03-18 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao05/cat5/5162/primary/acisf05162N004_evt2.fits.gz
+    image acisf05162N004_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf05162N004_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 5163 | CASA | ACIS-S | grating NONE | TE | 1.1 ks | events 333249 | proposal 05501061 | released 2004-03-23 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao05/cat5/5163/primary/acisf05163N004_evt2.fits.gz
+    image acisf05163N004_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf05163N004_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 5164 | CASA | HRC-I | grating NONE |  | 4.5 ks | events 690602 | proposal 05501061 | released 2004-03-17 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao05/cat5/5164/primary/hrcf05164N006_evt2.fits.gz
+    image hrcf05164N006_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image hrcf05164N006_full_img2.fits | 0.2-20.0 keV | 0.8 MB
+obsid 5196 | CASSIOPEIAA | ACIS-S | grating NONE | TE | 49.5 ks | events 14917518 | proposal 05500623 | released 2004-02-12 | 350.8612 58.8175 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao05/cat5/5196/primary/acisf05196N004_evt2.fits.gz
+    image acisf05196N004_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf05196N004_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 5319 | CASSIOPEIAA | ACIS-S | grating NONE | TE | 42.3 ks | events 12705790 | proposal 05500623 | released 2004-04-21 | 350.8612 58.8175 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao05/cat5/5319/primary/acisf05319N004_evt2.fits.gz
+    image acisf05319N004_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf05319N004_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 5320 | CASSIOPEIAA | ACIS-S | grating NONE | TE | 54.4 ks | events 16293514 | proposal 05500623 | released 2004-05-10 | 350.8612 58.8175 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao05/cat5/5320/primary/acisf05320N004_evt2.fits.gz
+    image acisf05320N004_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf05320N004_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 6067 | CASA | ACIS-I | grating NONE | TE | 1.7 ks | events 355998 | proposal 06501071 | released 2005-04-13 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao06/cat5/6067/primary/acisf06067N004_evt2.fits.gz
+    image acisf06067N004_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf06067N004_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 6068 | CASA | ACIS-S | grating NONE | TE | 1.2 ks | events 367516 | proposal 06501071 | released 2005-04-13 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao06/cat5/6068/primary/acisf06068N004_evt2.fits.gz
+    image acisf06068N004_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf06068N004_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 6069 | CASA | HRC-I | grating NONE |  | 5.1 ks | events 651040 | proposal 06501071 | released 2005-04-13 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao06/cat5/6069/primary/hrcf06069N006_evt2.fits.gz
+    image hrcf06069N006_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image hrcf06069N006_full_img2.fits | 0.2-20.0 keV | 0.6 MB
+obsid 6081 | CASA | ACIS-I | grating NONE | TE | 1.7 ks | events 361236 | proposal 06501079 | released 2005-10-23 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao06/cat5/6081/primary/acisf06081N004_evt2.fits.gz
+    image acisf06081N004_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf06081N004_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 6082 | CASA | ACIS-S | grating NONE | TE | 1.2 ks | events 366011 | proposal 06501079 | released 2005-10-24 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao06/cat5/6082/primary/acisf06082N004_evt2.fits.gz
+    image acisf06082N004_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf06082N004_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 6083 | CASA | HRC-I | grating NONE |  | 5.1 ks | events 671095 | proposal 06501079 | released 2005-10-24 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao06/cat5/6083/primary/hrcf06083N006_evt2.fits.gz
+    image hrcf06083N006_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image hrcf06083N006_full_img2.fits | 0.2-20.0 keV | 0.5 MB
+obsid 6690 | CASACCO | ACIS-S | grating NONE | TE | 61.7 ks | events 2212168 | proposal 07500535 | released 2007-10-23 | 350.8663 58.8118 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao07/cat5/6690/primary/acisf06690N003_evt2.fits.gz
+    image acisf06690N003_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf06690N003_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 6737 | CASA | ACIS-I | grating NONE | TE | 1.7 ks | events 349721 | proposal 07501084 | released 2006-03-23 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao07/cat5/6737/primary/acisf06737N003_evt2.fits.gz
+    image acisf06737N003_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf06737N003_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 6738 | CASA | ACIS-S | grating NONE | TE | 1.2 ks | events 365642 | proposal 07501084 | released 2006-03-23 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao07/cat5/6738/primary/acisf06738N003_evt2.fits.gz
+    image acisf06738N003_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf06738N003_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 6739 | CASA | HRC-I | grating NONE |  | 5.0 ks | events 683009 | proposal 07501084 | released 2006-03-23 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao07/cat5/6739/primary/hrcf06739N006_evt2.fits.gz
+    image hrcf06739N006_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image hrcf06739N006_full_img2.fits | 0.2-20.0 keV | 0.8 MB
+obsid 6744 | CASA | ACIS-I | grating NONE | TE | 1.7 ks | events 348907 | proposal 07501084 | released 2006-10-16 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao07/cat5/6744/primary/acisf06744N003_evt2.fits.gz
+    image acisf06744N003_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf06744N003_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 6745 | CASA | ACIS-S | grating NONE | TE | 1.2 ks | events 364149 | proposal 07501084 | released 2006-10-16 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao07/cat5/6745/primary/acisf06745N003_evt2.fits.gz
+    image acisf06745N003_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf06745N003_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 6746 | CASA | HRC-I | grating NONE |  | 4.9 ks | events 751172 | proposal 07501084 | released 2006-10-16 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao07/cat5/6746/primary/hrcf06746N006_evt2.fits.gz
+    image hrcf06746N006_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image hrcf06746N006_full_img2.fits | 0.2-20.0 keV | 0.6 MB
+obsid 8368 | CASA | ACIS-I | grating NONE | TE | 1.7 ks | events 346334 | proposal 08501056 | released 2007-03-12 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao08/cat5/8368/primary/acisf08368N004_evt2.fits.gz
+    image acisf08368N004_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf08368N004_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 8369 | CASA | ACIS-S | grating NONE | TE | 1.3 ks | events 375304 | proposal 08501056 | released 2007-03-12 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao08/cat5/8369/primary/acisf08369N004_evt2.fits.gz
+    image acisf08369N004_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf08369N004_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 8370 | CASA | HRC-I | grating NONE |  | 4.9 ks | events 780037 | proposal 08501056 | released 2007-03-11 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao08/cat5/8370/primary/hrcf08370N007_evt2.fits.gz
+    image hrcf08370N007_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image hrcf08370N007_full_img2.fits | 0.2-20.0 keV | 0.8 MB
+obsid 9117 | CASSIOPEIAA | ACIS-S | grating NONE | TE | 24.8 ks | events 7313024 | proposal 09500565 | released 2008-12-10 | 350.8612 58.8175 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao09/cat5/9117/primary/acisf09117N003_evt2.fits.gz
+    image acisf09117N003_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf09117N003_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 9698 | CASA | ACIS-I | grating NONE | TE | 1.7 ks | events 358033 | proposal 09500912 | released 2008-03-25 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao09/cat5/9698/primary/acisf09698N003_evt2.fits.gz
+    image acisf09698N003_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf09698N003_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 9699 | CASA | ACIS-S | grating NONE | TE | 1.2 ks | events 369068 | proposal 09500912 | released 2008-03-25 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao09/cat5/9699/primary/acisf09699N003_evt2.fits.gz
+    image acisf09699N003_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf09699N003_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 9700 | CASA | HRC-I | grating NONE |  | 5.0 ks | events 771672 | proposal 09500912 | released 2008-03-25 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao09/cat5/9700/primary/hrcf09700N005_evt2.fits.gz
+    image hrcf09700N005_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image hrcf09700N005_full_img2.fits | 0.2-20.0 keV | 0.8 MB
+obsid 9773 | CASSIOPEIAA | ACIS-S | grating NONE | TE | 24.8 ks | events 7303951 | proposal 09500565 | released 2008-12-10 | 350.8612 58.8175 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao09/cat5/9773/primary/acisf09773N003_evt2.fits.gz
+    image acisf09773N003_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf09773N003_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 10227 | CASACCO | HRC-S | grating NONE |  | 130.9 ks | events 18236827 | proposal 10500031 | released 2009-08-01 | 350.8663 58.8118 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao10/cat5/10227/primary/hrcf10227N005_evt2.fits.gz
+    image hrcf10227N005_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image hrcf10227N005_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 10228 | CASACCO | HRC-S | grating NONE |  | 129.5 ks | events 18120050 | proposal 10500437 | released 2009-08-01 | 350.8663 58.8118 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao10/cat5/10228/primary/hrcf10228N005_evt2.fits.gz
+    image hrcf10228N005_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image hrcf10228N005_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 10229 | CASACCO | HRC-S | grating NONE |  | 48.4 ks | events 6710751 | proposal 10500437 | released 2009-08-01 | 350.8663 58.8118 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao10/cat5/10229/primary/hrcf10229N005_evt2.fits.gz
+    image hrcf10229N005_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image hrcf10229N005_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 10642 | CASA | ACIS-I | grating NONE | TE | 1.8 ks | events 363743 | proposal 10500924 | released 2009-05-11 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao10/cat5/10642/primary/acisf10642N003_evt2.fits.gz
+    image acisf10642N003_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf10642N003_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 10643 | CASA | ACIS-S | grating NONE | TE | 1.3 ks | events 370924 | proposal 10500924 | released 2009-05-12 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao10/cat5/10643/primary/acisf10643N003_evt2.fits.gz
+    image acisf10643N003_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf10643N003_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 10698 | CASACCO | HRC-S | grating NONE |  | 51.4 ks | events 7179958 | proposal 10500437 | released 2010-04-03 | 350.8663 58.8118 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao10/cat5/10698/primary/hrcf10698N005_evt2.fits.gz
+    image hrcf10698N005_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image hrcf10698N005_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 10703 | CASSIOPEIAA | ACIS-S | grating HETG | TE | 34.7 ks | events 4030185 | proposal 10500065 | released 2011-05-02 | 350.8663 58.8118 | evt2 name unknown
+obsid 10892 | CASACCO | HRC-S | grating NONE |  | 124.0 ks | events 17449958 | proposal 10500437 | released 2009-08-01 | 350.8663 58.8118 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao10/cat5/10892/primary/hrcf10892N005_evt2.fits.gz
+    image hrcf10892N005_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image hrcf10892N005_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 10935 | CASSIOPEIAA | ACIS-S | grating NONE | TE | 23.3 ks | events 6639501 | proposal 11500803 | released 2010-11-06 | 350.8612 58.8175 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao11/cat5/10935/primary/acisf10935N003_evt2.fits.gz
+    image acisf10935N003_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf10935N003_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 10936 | CASSIOPEIAA | ACIS-S | grating NONE | TE | 32.2 ks | events 9094385 | proposal 11500803 | released 2011-11-04 | 350.8612 58.8175 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao11/cat5/10936/primary/acisf10936N003_evt2.fits.gz
+    image acisf10936N003_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf10936N003_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 11240 | CASSIOPEIAA | HRC-I | grating NONE |  | 12.4 ks | events 2125265 | proposal 11500712 | released 2010-12-21 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao11/cat5/11240/primary/hrcf11240N005_evt2.fits.gz
+    image hrcf11240N005_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image hrcf11240N005_full_img2.fits | 0.2-20.0 keV | 0.8 MB
+obsid 11955 | CASA | HRC-I | grating NONE |  | 9.1 ks | events 1540600 | proposal 11500922 | released 2010-04-13 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao11/cat5/11955/primary/hrcf11955N004_evt2.fits.gz
+    image hrcf11955N004_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image hrcf11955N004_full_img2.fits | 0.2-20.0 keV | 0.5 MB
+obsid 12020 | CASSIOPEIAA | ACIS-S | grating NONE | TE | 22.4 ks | events 6362118 | proposal 11500803 | released 2010-11-06 | 350.8612 58.8175 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao11/cat5/12020/primary/acisf12020N003_evt2.fits.gz
+    image acisf12020N003_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf12020N003_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 12057 | CASSIOPEIAA | HRC-I | grating NONE |  | 10.5 ks | events 1822261 | proposal 11500712 | released 2010-12-21 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao11/cat5/12057/primary/hrcf12057N005_evt2.fits.gz
+    image hrcf12057N005_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image hrcf12057N005_full_img2.fits | 0.2-20.0 keV | 0.8 MB
+obsid 12058 | CASSIOPEIAA | HRC-I | grating NONE |  | 8.9 ks | events 1525415 | proposal 11500712 | released 2010-12-21 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao11/cat5/12058/primary/hrcf12058N005_evt2.fits.gz
+    image hrcf12058N005_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image hrcf12058N005_full_img2.fits | 0.2-20.0 keV | 0.8 MB
+obsid 12059 | CASSIOPEIAA | HRC-I | grating NONE |  | 12.3 ks | events 2126290 | proposal 11500712 | released 2010-12-21 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao11/cat5/12059/primary/hrcf12059N005_evt2.fits.gz
+    image hrcf12059N005_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image hrcf12059N005_full_img2.fits | 0.2-20.0 keV | 0.8 MB
+obsid 12206 | CASSIOPEIAA | ACIS-S | grating HETG | TE | 34.6 ks | events 4024669 | proposal 10500065 | released 2011-05-02 | 350.8663 58.8118 | evt2 name unknown
+obsid 13177 | CASSIOPEIAA | ACIS-S | grating NONE | TE | 17.2 ks | events 4854640 | proposal 11500803 | released 2011-11-04 | 350.8612 58.8175 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao11/cat5/13177/primary/acisf13177N003_evt2.fits.gz
+    image acisf13177N003_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf13177N003_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 13783 | CASACCO | ACIS-S | grating NONE | TE | 63.4 ks | events 1981996 | proposal 13500605 | released 2013-05-07 | 350.8663 58.8118 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao13/cat5/13783/primary/acisf13783N002_evt2.fits.gz
+    image acisf13783N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf13783N002_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 14229 | CASSIOPEIAA | ACIS-S | grating NONE | TE | 49.1 ks | events 13515063 | proposal 13500514 | released 2013-05-17 | 350.8612 58.8175 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao13/cat5/14229/primary/acisf14229N002_evt2.fits.gz
+    image acisf14229N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf14229N002_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 14480 | CASSIOPEIAA | ACIS-S | grating NONE | TE | 48.8 ks | events 13025132 | proposal 14500414 | released 2014-05-22 | 350.8612 58.8175 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao14/cat5/14480/primary/acisf14480N003_evt2.fits.gz
+    image acisf14480N003_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf14480N003_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 14481 | CASSIOPEIAA | ACIS-S | grating NONE | TE | 49.4 ks | events 12775911 | proposal 14500414 | released 2015-05-13 | 350.8612 58.8175 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao15/cat5/14481/primary/acisf14481N003_evt2.fits.gz
+    image acisf14481N003_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf14481N003_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 14482 | CASSIOPEIAA | ACIS-S | grating NONE | TE | 49.4 ks | events 12329810 | proposal 14500414 | released 2016-05-01 | 350.8662 58.8118 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao16/cat5/14482/primary/acisf14482N002_evt2.fits.gz
+    image acisf14482N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf14482N002_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 16946 | CASACCO | ACIS-S | grating NONE | TE | 68.1 ks | events 1931015 | proposal 16500703 | released 2016-04-29 | 350.8663 58.8118 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao16/cat5/16946/primary/acisf16946N002_evt2.fits.gz
+    image acisf16946N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf16946N002_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 17639 | CASACCO | ACIS-S | grating NONE | TE | 42.7 ks | events 1684439 | proposal 16508502 | released 2015-05-03 | 350.8662 58.8118 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao16/cat5/17639/primary/acisf17639N002_evt2.fits.gz
+    image acisf17639N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf17639N002_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 18344 | CASSIOPEIAA | ACIS-S | grating NONE | TE | 25.8 ks | events 6031274 | proposal 17500393 | released 2017-10-23 | 350.8612 58.8175 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao17/cat5/18344/primary/acisf18344N002_evt2.fits.gz
+    image acisf18344N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf18344N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 19604 | CASSIOPEIAA | ACIS-S | grating NONE | TE | 49.5 ks | events 11417008 | proposal 18500297 | released 2018-05-18 | 350.8612 58.8175 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao18/cat5/19604/primary/acisf19604N002_evt2.fits.gz
+    image acisf19604N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf19604N002_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 19605 | CASSIOPEIAA | ACIS-S | grating NONE | TE | 49.4 ks | events 10985651 | proposal 18500297 | released 2019-05-17 | 350.8612 58.8175 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao19/cat5/19605/primary/acisf19605N002_evt2.fits.gz
+    image acisf19605N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf19605N002_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 19606 | CASSIOPEIAA | ACIS-S | grating NONE | TE | 49.4 ks | events 10334576 | proposal 18500297 | released 2020-05-14 | 350.8612 58.8175 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao20/cat5/19606/primary/acisf19606N002_evt2.fits.gz
+    image acisf19606N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf19606N002_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 19903 | CASSIOPEIAA | ACIS-S | grating NONE | TE | 24.6 ks | events 5792018 | proposal 17500393 | released 2017-10-23 | 350.8612 58.8175 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao17/cat5/19903/primary/acisf19903N002_evt2.fits.gz
+    image acisf19903N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf19903N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 21691 | CASSIOPEIAA | ACIS-S | grating HETG | TE | 22.7 ks | events 2007579 | proposal 20501019 | released 2021-05-20 | 350.8500 58.8118 | evt2 name unknown
+obsid 22426 | CASACCO | ACIS-S | grating NONE | TE | 48.2 ks | events 1593469 | proposal 21500084 | released 2021-05-14 | 350.8663 58.8118 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao21/cat5/22426/primary/acisf22426N002_evt2.fits.gz
+    image acisf22426N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf22426N002_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 23040 | CASSIOPEIAA | ACIS-S | grating HETG | TE | 24.9 ks | events 2207463 | proposal 20501019 | released 2021-05-20 | 350.8500 58.8118 | evt2 name unknown
+obsid 23241 | CASSIOPEIAA | ACIS-S | grating HETG | TE | 23.4 ks | events 2077881 | proposal 20501019 | released 2021-05-20 | 350.8500 58.8118 | evt2 name unknown
+obsid 23245 | CASSIOPEIAA | ACIS-S | grating HETG | TE | 21.4 ks | events 1902182 | proposal 20501019 | released 2021-05-20 | 350.8500 58.8118 | evt2 name unknown
+obsid 23248 | CASACCO | ACIS-S | grating NONE | TE | 28.2 ks | events 933081 | proposal 21500084 | released 2021-05-14 | 350.8663 58.8118 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao21/cat5/23248/primary/acisf23248N002_evt2.fits.gz
+    image acisf23248N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf23248N002_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 23257 | CASA | ACIS-I | grating NONE | TE | 2.1 ks | events 246520 | proposal 22500626 | released 2020-07-15 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao22/cat5/23257/primary/acisf23257N002_evt2.fits.gz
+    image acisf23257N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf23257N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 23258 | CASA | ACIS-I | grating NONE | TE | 1.9 ks | events 224976 | proposal 22500626 | released 2020-07-15 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao22/cat5/23258/primary/acisf23258N002_evt2.fits.gz
+    image acisf23258N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf23258N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 23259 | CASA | ACIS-I | grating NONE | TE | 1.9 ks | events 208405 | proposal 22500626 | released 2020-07-15 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao22/cat5/23259/primary/acisf23259N002_evt2.fits.gz
+    image acisf23259N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf23259N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 23260 | CASA | ACIS-I | grating NONE | TE | 1.9 ks | events 275928 | proposal 22500626 | released 2020-07-15 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao22/cat5/23260/primary/acisf23260N002_evt2.fits.gz
+    image acisf23260N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf23260N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 23261 | CASA | ACIS-I | grating NONE | TE | 1.9 ks | events 274351 | proposal 22500626 | released 2020-07-15 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao22/cat5/23261/primary/acisf23261N002_evt2.fits.gz
+    image acisf23261N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf23261N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 23262 | CASA | ACIS-I | grating NONE | TE | 1.9 ks | events 255239 | proposal 22500626 | released 2020-07-15 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao22/cat5/23262/primary/acisf23262N002_evt2.fits.gz
+    image acisf23262N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf23262N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 23263 | CASA | ACIS-I | grating NONE | TE | 1.9 ks | events 278239 | proposal 22500626 | released 2020-07-15 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao22/cat5/23263/primary/acisf23263N002_evt2.fits.gz
+    image acisf23263N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf23263N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 23264 | CASA | ACIS-I | grating NONE | TE | 1.9 ks | events 276237 | proposal 22500626 | released 2020-07-15 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao22/cat5/23264/primary/acisf23264N002_evt2.fits.gz
+    image acisf23264N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf23264N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 23265 | CASA | ACIS-I | grating NONE | TE | 1.9 ks | events 253969 | proposal 22500626 | released 2020-07-15 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao22/cat5/23265/primary/acisf23265N002_evt2.fits.gz
+    image acisf23265N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf23265N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 24840 | CASSIOPEIAA | HRC-I | grating NONE |  | 14.2 ks | events 2774488 | proposal 22500703 | released 2020-10-19 | 350.8500 58.8150 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao22/cat5/24840/primary/hrcf24840N003_evt2.fits.gz
+    image hrcf24840N003_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image hrcf24840N003_full_img2.fits | 0.2-20.0 keV | 0.4 MB
+obsid 25027 | CASA | ACIS-I | grating NONE | TE | 2.1 ks | events 289352 | proposal 23500606 | released 2021-06-09 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao23/cat5/25027/primary/acisf25027N002_evt2.fits.gz
+    image acisf25027N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf25027N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 25624 | CASA | ACIS-I | grating NONE | TE | 2.1 ks | events 284465 | proposal 23500621 | released 2021-11-09 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao23/cat5/25624/primary/acisf25624N002_evt2.fits.gz
+    image acisf25624N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf25624N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 25625 | CASA | ACIS-I | grating NONE | TE | 2.1 ks | events 274601 | proposal 23500621 | released 2021-11-09 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao23/cat5/25625/primary/acisf25625N002_evt2.fits.gz
+    image acisf25625N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf25625N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 25626 | CASA | ACIS-I | grating NONE | TE | 1.9 ks | events 249274 | proposal 23500621 | released 2021-11-09 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao23/cat5/25626/primary/acisf25626N002_evt2.fits.gz
+    image acisf25626N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf25626N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 25627 | CASA | ACIS-I | grating NONE | TE | 2.1 ks | events 274492 | proposal 23500621 | released 2021-11-09 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao23/cat5/25627/primary/acisf25627N002_evt2.fits.gz
+    image acisf25627N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf25627N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 25628 | CASA | ACIS-S | grating NONE | TE | 2.1 ks | events 391059 | proposal 23500621 | released 2021-11-09 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao23/cat5/25628/primary/acisf25628N002_evt2.fits.gz
+    image acisf25628N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf25628N002_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 25629 | CASA | ACIS-S | grating NONE | TE | 2.1 ks | events 288253 | proposal 23500621 | released 2021-11-09 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao23/cat5/25629/primary/acisf25629N002_evt2.fits.gz
+    image acisf25629N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf25629N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 25630 | CASA | ACIS-S | grating NONE | TE | 2.1 ks | events 294376 | proposal 23500621 | released 2021-11-10 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao23/cat5/25630/primary/acisf25630N002_evt2.fits.gz
+    image acisf25630N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf25630N002_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 25631 | CASA | ACIS-S | grating NONE | TE | 2.0 ks | events 253301 | proposal 23500621 | released 2021-11-10 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao23/cat5/25631/primary/acisf25631N002_evt2.fits.gz
+    image acisf25631N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf25631N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 25632 | CASA | ACIS-S | grating NONE | TE | 2.1 ks | events 157329 | proposal 23500621 | released 2021-11-10 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao23/cat5/25632/primary/acisf25632N002_evt2.fits.gz
+    image acisf25632N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf25632N002_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 25633 | CASA | ACIS-S | grating NONE | TE | 2.1 ks | events 201563 | proposal 23500621 | released 2021-11-12 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao23/cat5/25633/primary/acisf25633N003_evt2.fits.gz
+    image acisf25633N003_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf25633N003_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 25636 | CASA | ACIS-I | grating NONE | TE | 1.9 ks | events 259748 | proposal 23500627 | released 2022-04-26 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao23/cat5/25636/primary/acisf25636N002_evt2.fits.gz
+    image acisf25636N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf25636N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 25637 | CASA | ACIS-I | grating NONE | TE | 2.1 ks | events 259276 | proposal 23500627 | released 2022-04-27 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao23/cat5/25637/primary/acisf25637N002_evt2.fits.gz
+    image acisf25637N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf25637N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 25638 | CASA | ACIS-I | grating NONE | TE | 2.1 ks | events 264278 | proposal 23500627 | released 2022-05-06 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao23/cat5/25638/primary/acisf25638N002_evt2.fits.gz
+    image acisf25638N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf25638N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 25639 | CASA | ACIS-I | grating NONE | TE | 2.1 ks | events 259563 | proposal 23500627 | released 2022-05-06 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao23/cat5/25639/primary/acisf25639N002_evt2.fits.gz
+    image acisf25639N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf25639N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 25640 | CASA | ACIS-S | grating NONE | TE | 2.0 ks | events 374755 | proposal 23500627 | released 2022-04-27 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao23/cat5/25640/primary/acisf25640N002_evt2.fits.gz
+    image acisf25640N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf25640N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 25641 | CASA | ACIS-S | grating NONE | TE | 2.1 ks | events 278547 | proposal 23500627 | released 2022-05-06 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao23/cat5/25641/primary/acisf25641N002_evt2.fits.gz
+    image acisf25641N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf25641N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 25642 | CASA | ACIS-S | grating NONE | TE | 2.1 ks | events 284227 | proposal 23500627 | released 2022-05-06 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao23/cat5/25642/primary/acisf25642N002_evt2.fits.gz
+    image acisf25642N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf25642N002_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 25643 | CASA | ACIS-S | grating NONE | TE | 2.1 ks | events 254053 | proposal 23500627 | released 2022-05-02 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao23/cat5/25643/primary/acisf25643N002_evt2.fits.gz
+    image acisf25643N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf25643N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 25644 | CASA | ACIS-S | grating NONE | TE | 2.1 ks | events 150952 | proposal 23500627 | released 2022-05-06 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao23/cat5/25644/primary/acisf25644N002_evt2.fits.gz
+    image acisf25644N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf25644N002_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 25645 | CASA | ACIS-S | grating NONE | TE | 2.1 ks | events 200238 | proposal 23500627 | released 2022-05-06 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao23/cat5/25645/primary/acisf25645N002_evt2.fits.gz
+    image acisf25645N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf25645N002_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 25646 | CASA | ACIS-I | grating NONE | TE | 2.1 ks | events 273225 | proposal 23500628 | released 2022-10-31 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao23/cat5/25646/primary/acisf25646N002_evt2.fits.gz
+    image acisf25646N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf25646N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 25647 | CASA | ACIS-I | grating NONE | TE | 2.1 ks | events 258382 | proposal 23500628 | released 2022-11-08 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao23/cat5/25647/primary/acisf25647N002_evt2.fits.gz
+    image acisf25647N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf25647N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 25648 | CASA | ACIS-I | grating NONE | TE | 2.1 ks | events 259232 | proposal 23500628 | released 2022-11-08 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao23/cat5/25648/primary/acisf25648N002_evt2.fits.gz
+    image acisf25648N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf25648N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 25649 | CASA | ACIS-I | grating NONE | TE | 2.1 ks | events 264439 | proposal 23500628 | released 2022-10-31 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao23/cat5/25649/primary/acisf25649N002_evt2.fits.gz
+    image acisf25649N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf25649N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 25650 | CASA | ACIS-S | grating NONE | TE | 2.1 ks | events 370099 | proposal 23500628 | released 2022-11-01 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao23/cat5/25650/primary/acisf25650N002_evt2.fits.gz
+    image acisf25650N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf25650N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 25651 | CASA | ACIS-S | grating NONE | TE | 2.1 ks | events 275978 | proposal 23500628 | released 2022-11-04 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao23/cat5/25651/primary/acisf25651N002_evt2.fits.gz
+    image acisf25651N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf25651N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 25652 | CASA | ACIS-S | grating NONE | TE | 2.1 ks | events 276206 | proposal 23500628 | released 2022-10-31 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao23/cat5/25652/primary/acisf25652N002_evt2.fits.gz
+    image acisf25652N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf25652N002_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 25653 | CASA | ACIS-S | grating NONE | TE | 2.1 ks | events 241708 | proposal 23500628 | released 2022-11-01 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao23/cat5/25653/primary/acisf25653N002_evt2.fits.gz
+    image acisf25653N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf25653N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 25654 | CASA | ACIS-S | grating NONE | TE | 2.1 ks | events 150983 | proposal 23500628 | released 2022-11-07 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao23/cat5/25654/primary/acisf25654N002_evt2.fits.gz
+    image acisf25654N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf25654N002_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 25655 | CASA | ACIS-S | grating NONE | TE | 2.1 ks | events 193607 | proposal 23500628 | released 2022-11-01 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao23/cat5/25655/primary/acisf25655N002_evt2.fits.gz
+    image acisf25655N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf25655N002_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 26248 | CASA | ACIS-I | grating NONE | TE | 24.8 ks | events 3303054 | proposal 24500003 | released 2022-01-26 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao24/cat5/26248/primary/acisf26248N002_evt2.fits.gz
+    image acisf26248N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf26248N002_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 26440 | CASSIOPEIAA | HRC-I | grating NONE |  | 4.2 ks | events 848222 | proposal 24500483 | released 2022-07-07 | 350.8500 58.8150 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao24/cat5/26440/primary/hrcf26440N002_evt2.fits.gz
+    image hrcf26440N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image hrcf26440N002_full_img2.fits | 0.2-20.0 keV | 0.6 MB
+obsid 26629 | CXOUJ232327.8+584842 | HRC-S | grating NONE |  | 13.2 ks | events 1434440 | proposal 24500199 | released 2025-02-07 | 350.8665 58.8118 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao24/cat5/26629/primary/hrcf26629N002_evt2.fits.gz
+    image hrcf26629N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image hrcf26629N002_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 26655 | CXOUJ232327.8+584842 | ACIS-S | grating NONE | TE | 28.8 ks | events 2831535 | proposal 24500364 | released 2023-07-16 | 350.8667 58.8118 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao24/cat5/26655/primary/acisf26655N002_evt2.fits.gz
+    image acisf26655N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf26655N002_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 26992 | CASA | ACIS-I | grating NONE | TE | 2.1 ks | events 269855 | proposal 24500491 | released 2023-05-09 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao24/cat5/26992/primary/acisf26992N002_evt2.fits.gz
+    image acisf26992N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf26992N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 26993 | CASA | ACIS-I | grating NONE | TE | 2.1 ks | events 250401 | proposal 24500491 | released 2023-05-05 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao24/cat5/26993/primary/acisf26993N002_evt2.fits.gz
+    image acisf26993N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf26993N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 26994 | CASA | ACIS-I | grating NONE | TE | 1.9 ks | events 233407 | proposal 24500491 | released 2023-05-09 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao24/cat5/26994/primary/acisf26994N002_evt2.fits.gz
+    image acisf26994N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf26994N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 26995 | CASA | ACIS-I | grating NONE | TE | 2.1 ks | events 249952 | proposal 24500491 | released 2023-05-04 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao24/cat5/26995/primary/acisf26995N003_evt2.fits.gz
+    image acisf26995N003_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf26995N003_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 26996 | CASA | ACIS-S | grating NONE | TE | 2.1 ks | events 353625 | proposal 24500491 | released 2023-05-05 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao24/cat5/26996/primary/acisf26996N002_evt2.fits.gz
+    image acisf26996N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf26996N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 26997 | CASA | ACIS-S | grating NONE | TE | 1.9 ks | events 246807 | proposal 24500491 | released 2023-05-05 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao24/cat5/26997/primary/acisf26997N002_evt2.fits.gz
+    image acisf26997N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf26997N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 26998 | CASA | ACIS-S | grating NONE | TE | 2.1 ks | events 260152 | proposal 24500491 | released 2023-05-05 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao24/cat5/26998/primary/acisf26998N002_evt2.fits.gz
+    image acisf26998N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf26998N002_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 26999 | CASA | ACIS-S | grating NONE | TE | 2.1 ks | events 240116 | proposal 24500491 | released 2023-05-05 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao24/cat5/26999/primary/acisf26999N002_evt2.fits.gz
+    image acisf26999N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf26999N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 27000 | CASA | ACIS-S | grating NONE | TE | 2.1 ks | events 142706 | proposal 24500491 | released 2023-05-05 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao24/cat5/27000/primary/acisf27000N002_evt2.fits.gz
+    image acisf27000N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf27000N002_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 27001 | CASA | ACIS-S | grating NONE | TE | 2.1 ks | events 191568 | proposal 24500491 | released 2023-05-05 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao24/cat5/27001/primary/acisf27001N002_evt2.fits.gz
+    image acisf27001N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf27001N002_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 27002 | CASA | ACIS-I | grating NONE | TE | 2.1 ks | events 264654 | proposal 24500492 | released 2023-08-31 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao24/cat5/27002/primary/acisf27002N002_evt2.fits.gz
+    image acisf27002N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf27002N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 27003 | CASA | ACIS-I | grating NONE | TE | 2.1 ks | events 250915 | proposal 24500492 | released 2023-08-31 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao24/cat5/27003/primary/acisf27003N002_evt2.fits.gz
+    image acisf27003N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf27003N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 27004 | CASA | ACIS-I | grating NONE | TE | 1.9 ks | events 226737 | proposal 24500492 | released 2023-08-31 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao24/cat5/27004/primary/acisf27004N002_evt2.fits.gz
+    image acisf27004N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf27004N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 27005 | CASA | ACIS-I | grating NONE | TE | 2.1 ks | events 252573 | proposal 24500492 | released 2023-08-31 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao24/cat5/27005/primary/acisf27005N002_evt2.fits.gz
+    image acisf27005N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf27005N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 27006 | CASA | ACIS-S | grating NONE | TE | 2.1 ks | events 350153 | proposal 24500492 | released 2023-08-31 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao24/cat5/27006/primary/acisf27006N002_evt2.fits.gz
+    image acisf27006N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf27006N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 27007 | CASA | ACIS-S | grating NONE | TE | 1.9 ks | events 248104 | proposal 24500492 | released 2023-08-31 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao24/cat5/27007/primary/acisf27007N002_evt2.fits.gz
+    image acisf27007N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf27007N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 27008 | CASA | ACIS-S | grating NONE | TE | 2.1 ks | events 259327 | proposal 24500492 | released 2023-08-31 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao24/cat5/27008/primary/acisf27008N002_evt2.fits.gz
+    image acisf27008N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf27008N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 27009 | CASA | ACIS-S | grating NONE | TE | 2.1 ks | events 235810 | proposal 24500492 | released 2023-08-31 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao24/cat5/27009/primary/acisf27009N002_evt2.fits.gz
+    image acisf27009N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf27009N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 27010 | CASA | ACIS-S | grating NONE | TE | 2.1 ks | events 144860 | proposal 24500492 | released 2023-08-31 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao24/cat5/27010/primary/acisf27010N002_evt2.fits.gz
+    image acisf27010N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf27010N002_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 27011 | CASA | ACIS-S | grating NONE | TE | 2.1 ks | events 186170 | proposal 24500492 | released 2023-08-31 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao24/cat5/27011/primary/acisf27011N002_evt2.fits.gz
+    image acisf27011N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf27011N002_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 27098 | CXOUJ232327.8+584842 | HRC-S | grating NONE |  | 13.6 ks | events 1405072 | proposal 24500199 | released 2025-02-07 | 350.8665 58.8118 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao24/cat5/27098/primary/hrcf27098N002_evt2.fits.gz
+    image hrcf27098N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image hrcf27098N002_full_img2.fits | 0.2-20.0 keV | 0.4 MB
+obsid 27099 | CXOUJ232327.8+584842 | ACIS-S | grating NONE | TE | 37.4 ks | events 3685221 | proposal 24500364 | released 2023-07-16 | 350.8667 58.8118 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao24/cat5/27099/primary/acisf27099N002_evt2.fits.gz
+    image acisf27099N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf27099N002_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 27100 | CXOUJ232327.8+584842 | ACIS-S | grating NONE | TE | 27.2 ks | events 2706512 | proposal 24500364 | released 2023-07-16 | 350.8667 58.8118 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao24/cat5/27100/primary/acisf27100N002_evt2.fits.gz
+    image acisf27100N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf27100N002_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 27274 | CASA | ACIS-I | grating NONE | TE | 2.1 ks | events 208438 | proposal 24500505 | released 2022-10-11 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao24/cat5/27274/primary/acisf27274N002_evt2.fits.gz
+    image acisf27274N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf27274N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 27275 | CASA | ACIS-I | grating NONE | TE | 1.9 ks | events 199255 | proposal 24500505 | released 2022-10-11 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao24/cat5/27275/primary/acisf27275N002_evt2.fits.gz
+    image acisf27275N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf27275N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 27276 | CASA | ACIS-I | grating NONE | TE | 1.9 ks | events 188731 | proposal 24500505 | released 2022-10-11 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao24/cat5/27276/primary/acisf27276N002_evt2.fits.gz
+    image acisf27276N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf27276N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 27277 | CASA | ACIS-I | grating NONE | TE | 1.9 ks | events 241883 | proposal 24500505 | released 2022-10-11 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao24/cat5/27277/primary/acisf27277N002_evt2.fits.gz
+    image acisf27277N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf27277N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 27278 | CASA | ACIS-I | grating NONE | TE | 1.9 ks | events 239096 | proposal 24500505 | released 2022-10-11 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao24/cat5/27278/primary/acisf27278N002_evt2.fits.gz
+    image acisf27278N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf27278N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 27279 | CASA | ACIS-I | grating NONE | TE | 1.9 ks | events 212062 | proposal 24500505 | released 2022-10-11 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao24/cat5/27279/primary/acisf27279N002_evt2.fits.gz
+    image acisf27279N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf27279N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 27280 | CASA | ACIS-I | grating NONE | TE | 2.1 ks | events 199178 | proposal 24500511 | released 2022-10-11 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao24/cat5/27280/primary/acisf27280N002_evt2.fits.gz
+    image acisf27280N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf27280N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 27281 | CASA | ACIS-I | grating NONE | TE | 2.1 ks | events 205229 | proposal 24500511 | released 2022-10-17 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao24/cat5/27281/primary/acisf27281N002_evt2.fits.gz
+    image acisf27281N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf27281N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 27282 | CASA | ACIS-I | grating NONE | TE | 1.9 ks | events 176924 | proposal 24500511 | released 2022-10-17 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao24/cat5/27282/primary/acisf27282N002_evt2.fits.gz
+    image acisf27282N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf27282N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 27283 | CASA | ACIS-I | grating NONE | TE | 1.9 ks | events 229623 | proposal 24500511 | released 2022-10-17 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao24/cat5/27283/primary/acisf27283N002_evt2.fits.gz
+    image acisf27283N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf27283N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 27284 | CASA | ACIS-I | grating NONE | TE | 1.9 ks | events 228235 | proposal 24500511 | released 2022-10-17 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao24/cat5/27284/primary/acisf27284N002_evt2.fits.gz
+    image acisf27284N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf27284N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 27285 | CASA | ACIS-I | grating NONE | TE | 1.9 ks | events 203555 | proposal 24500511 | released 2022-10-17 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao24/cat5/27285/primary/acisf27285N002_evt2.fits.gz
+    image acisf27285N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf27285N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 27286 | CASA | ACIS-I | grating NONE | TE | 1.9 ks | events 194814 | proposal 24500511 | released 2022-10-17 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao24/cat5/27286/primary/acisf27286N002_evt2.fits.gz
+    image acisf27286N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf27286N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 27287 | CASA | ACIS-I | grating NONE | TE | 1.9 ks | events 186445 | proposal 24500511 | released 2022-10-14 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao24/cat5/27287/primary/acisf27287N002_evt2.fits.gz
+    image acisf27287N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf27287N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 27288 | CASA | ACIS-I | grating NONE | TE | 1.9 ks | events 152504 | proposal 24500511 | released 2022-10-14 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao24/cat5/27288/primary/acisf27288N002_evt2.fits.gz
+    image acisf27288N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf27288N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 27289 | CASA | ACIS-I | grating NONE | TE | 2.1 ks | events 200638 | proposal 24500512 | released 2022-10-14 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao24/cat5/27289/primary/acisf27289N002_evt2.fits.gz
+    image acisf27289N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf27289N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 27290 | CASA | ACIS-I | grating NONE | TE | 2.1 ks | events 199807 | proposal 24500512 | released 2022-10-17 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao24/cat5/27290/primary/acisf27290N002_evt2.fits.gz
+    image acisf27290N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf27290N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 27291 | CASA | ACIS-I | grating NONE | TE | 1.9 ks | events 177486 | proposal 24500512 | released 2022-10-17 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao24/cat5/27291/primary/acisf27291N002_evt2.fits.gz
+    image acisf27291N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf27291N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 27292 | CASA | ACIS-I | grating NONE | TE | 3.1 ks | events 369477 | proposal 24500512 | released 2022-10-13 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao24/cat5/27292/primary/acisf27292N002_evt2.fits.gz
+    image acisf27292N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf27292N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 27293 | CASA | ACIS-I | grating NONE | TE | 1.9 ks | events 230420 | proposal 24500512 | released 2022-10-13 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao24/cat5/27293/primary/acisf27293N002_evt2.fits.gz
+    image acisf27293N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf27293N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 27294 | CASA | ACIS-I | grating NONE | TE | 1.9 ks | events 218288 | proposal 24500512 | released 2022-10-13 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao24/cat5/27294/primary/acisf27294N002_evt2.fits.gz
+    image acisf27294N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf27294N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 27295 | CASA | ACIS-I | grating NONE | TE | 1.9 ks | events 198783 | proposal 24500512 | released 2022-10-13 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao24/cat5/27295/primary/acisf27295N002_evt2.fits.gz
+    image acisf27295N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf27295N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 27296 | CASA | ACIS-I | grating NONE | TE | 1.9 ks | events 195220 | proposal 24500512 | released 2022-10-17 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao24/cat5/27296/primary/acisf27296N002_evt2.fits.gz
+    image acisf27296N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf27296N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 27297 | CASA | ACIS-I | grating NONE | TE | 1.9 ks | events 175416 | proposal 24500512 | released 2022-10-17 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao24/cat5/27297/primary/acisf27297N002_evt2.fits.gz
+    image acisf27297N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf27297N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 27298 | CASA | ACIS-I | grating NONE | TE | 2.1 ks | events 190344 | proposal 24500513 | released 2022-10-17 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao24/cat5/27298/primary/acisf27298N002_evt2.fits.gz
+    image acisf27298N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf27298N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 27299 | CASA | ACIS-I | grating NONE | TE | 1.9 ks | events 179214 | proposal 24500513 | released 2022-10-17 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao24/cat5/27299/primary/acisf27299N002_evt2.fits.gz
+    image acisf27299N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf27299N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 27300 | CASA | ACIS-I | grating NONE | TE | 1.9 ks | events 174263 | proposal 24500513 | released 2022-10-17 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao24/cat5/27300/primary/acisf27300N002_evt2.fits.gz
+    image acisf27300N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf27300N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 27301 | CASA | ACIS-I | grating NONE | TE | 1.9 ks | events 229257 | proposal 24500513 | released 2022-10-17 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao24/cat5/27301/primary/acisf27301N002_evt2.fits.gz
+    image acisf27301N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf27301N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 27302 | CASA | ACIS-I | grating NONE | TE | 1.9 ks | events 232197 | proposal 24500513 | released 2022-10-17 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao24/cat5/27302/primary/acisf27302N002_evt2.fits.gz
+    image acisf27302N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf27302N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 27303 | CASA | ACIS-I | grating NONE | TE | 1.9 ks | events 219654 | proposal 24500513 | released 2022-10-17 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao24/cat5/27303/primary/acisf27303N002_evt2.fits.gz
+    image acisf27303N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf27303N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 27304 | CASA | ACIS-I | grating NONE | TE | 1.9 ks | events 190323 | proposal 24500513 | released 2022-10-17 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao24/cat5/27304/primary/acisf27304N002_evt2.fits.gz
+    image acisf27304N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf27304N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 27305 | CASA | ACIS-I | grating NONE | TE | 1.9 ks | events 180032 | proposal 24500513 | released 2022-10-19 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao24/cat5/27305/primary/acisf27305N002_evt2.fits.gz
+    image acisf27305N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf27305N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 27306 | CASA | ACIS-I | grating NONE | TE | 1.9 ks | events 161161 | proposal 24500513 | released 2022-10-19 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao24/cat5/27306/primary/acisf27306N002_evt2.fits.gz
+    image acisf27306N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf27306N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 27307 | CASA | ACIS-S | grating NONE | TE | 2.1 ks | events 206871 | proposal 24500522 | released 2022-10-19 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao24/cat5/27307/primary/acisf27307N002_evt2.fits.gz
+    image acisf27307N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf27307N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 27308 | CASA | ACIS-S | grating NONE | TE | 1.9 ks | events 214002 | proposal 24500522 | released 2022-10-19 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao24/cat5/27308/primary/acisf27308N002_evt2.fits.gz
+    image acisf27308N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf27308N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 27309 | CASA | ACIS-S | grating NONE | TE | 1.9 ks | events 220323 | proposal 24500522 | released 2022-10-19 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao24/cat5/27309/primary/acisf27309N002_evt2.fits.gz
+    image acisf27309N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf27309N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 27310 | CASA | ACIS-S | grating NONE | TE | 1.9 ks | events 259978 | proposal 24500522 | released 2022-10-19 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao24/cat5/27310/primary/acisf27310N002_evt2.fits.gz
+    image acisf27310N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf27310N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 27311 | CASA | ACIS-S | grating NONE | TE | 1.9 ks | events 245558 | proposal 24500522 | released 2022-10-19 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao24/cat5/27311/primary/acisf27311N002_evt2.fits.gz
+    image acisf27311N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf27311N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 27312 | CASA | ACIS-S | grating NONE | TE | 2.9 ks | events 358268 | proposal 24500522 | released 2022-12-06 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao24/cat5/27312/primary/acisf27312N002_evt2.fits.gz
+    image acisf27312N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf27312N002_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 27313 | CASA | ACIS-S | grating NONE | TE | 1.9 ks | events 201174 | proposal 24500522 | released 2022-12-06 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao24/cat5/27313/primary/acisf27313N002_evt2.fits.gz
+    image acisf27313N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf27313N002_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 27314 | CASA | ACIS-S | grating NONE | TE | 1.9 ks | events 212983 | proposal 24500522 | released 2022-12-06 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao24/cat5/27314/primary/acisf27314N002_evt2.fits.gz
+    image acisf27314N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf27314N002_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 27315 | CASA | ACIS-S | grating NONE | TE | 1.9 ks | events 219421 | proposal 24500522 | released 2022-12-06 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao24/cat5/27315/primary/acisf27315N002_evt2.fits.gz
+    image acisf27315N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf27315N002_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 27316 | CASA | ACIS-S | grating NONE | TE | 1.9 ks | events 345450 | proposal 24500522 | released 2022-12-06 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao24/cat5/27316/primary/acisf27316N002_evt2.fits.gz
+    image acisf27316N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf27316N002_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 27317 | CASA | ACIS-I | grating NONE | TE | 5.1 ks | events 64497 | proposal 24500534 | released 2022-11-30 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao24/cat5/27317/primary/acisf27317N002_evt2.fits.gz
+    image acisf27317N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf27317N002_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 27318 | CASA | ACIS-I | grating NONE | TE | 5.1 ks | events 215228 | proposal 24500534 | released 2022-12-05 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao24/cat5/27318/primary/acisf27318N002_evt2.fits.gz
+    image acisf27318N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf27318N002_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 27319 | CASA | ACIS-I | grating NONE | TE | 4.9 ks | events 347866 | proposal 24500534 | released 2022-12-05 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao24/cat5/27319/primary/acisf27319N002_evt2.fits.gz
+    image acisf27319N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf27319N002_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 27320 | CASA | ACIS-I | grating NONE | TE | 4.9 ks | events 517067 | proposal 24500534 | released 2022-12-05 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao24/cat5/27320/primary/acisf27320N002_evt2.fits.gz
+    image acisf27320N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf27320N002_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 27321 | CASA | ACIS-I | grating NONE | TE | 5.1 ks | events 611429 | proposal 24500534 | released 2022-12-05 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao24/cat5/27321/primary/acisf27321N002_evt2.fits.gz
+    image acisf27321N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf27321N002_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 27337 | CASA | ACIS-I | grating NONE | TE | 2.3 ks | events 255038 | proposal 24500505 | released 2022-12-08 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao24/cat5/27337/primary/acisf27337N002_evt2.fits.gz
+    image acisf27337N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf27337N002_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 27338 | CASA | ACIS-I | grating NONE | TE | 1.9 ks | events 212721 | proposal 24500505 | released 2022-12-08 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao24/cat5/27338/primary/acisf27338N002_evt2.fits.gz
+    image acisf27338N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf27338N002_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 27339 | CASA | ACIS-I | grating NONE | TE | 1.9 ks | events 173802 | proposal 24500505 | released 2022-12-08 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao24/cat5/27339/primary/acisf27339N002_evt2.fits.gz
+    image acisf27339N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf27339N002_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 28437 | CASA | ACIS-I | grating NONE | TE | 2.1 ks | events 253997 | proposal 25500483 | released 2024-02-02 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao25/cat5/28437/primary/acisf28437N002_evt2.fits.gz
+    image acisf28437N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf28437N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 28438 | CASA | ACIS-I | grating NONE | TE | 2.1 ks | events 244617 | proposal 25500483 | released 2024-02-25 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao25/cat5/28438/primary/acisf28438N002_evt2.fits.gz
+    image acisf28438N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf28438N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 28439 | CASA | ACIS-I | grating NONE | TE | 1.9 ks | events 225259 | proposal 25500483 | released 2024-02-25 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao25/cat5/28439/primary/acisf28439N002_evt2.fits.gz
+    image acisf28439N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf28439N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 28440 | CASA | ACIS-I | grating NONE | TE | 2.1 ks | events 238534 | proposal 25500483 | released 2024-02-25 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao25/cat5/28440/primary/acisf28440N002_evt2.fits.gz
+    image acisf28440N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf28440N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 28441 | CASA | ACIS-S | grating NONE | TE | 2.1 ks | events 343302 | proposal 25500483 | released 2024-02-25 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao25/cat5/28441/primary/acisf28441N002_evt2.fits.gz
+    image acisf28441N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf28441N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 28442 | CASA | ACIS-S | grating NONE | TE | 2.1 ks | events 262719 | proposal 25500483 | released 2024-02-02 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao25/cat5/28442/primary/acisf28442N002_evt2.fits.gz
+    image acisf28442N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf28442N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 28443 | CASA | ACIS-S | grating NONE | TE | 2.1 ks | events 247300 | proposal 25500483 | released 2024-02-04 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao25/cat5/28443/primary/acisf28443N002_evt2.fits.gz
+    image acisf28443N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf28443N002_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 28444 | CASA | ACIS-S | grating NONE | TE | 2.1 ks | events 231733 | proposal 25500483 | released 2024-02-04 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao25/cat5/28444/primary/acisf28444N002_evt2.fits.gz
+    image acisf28444N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf28444N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 28445 | CASA | ACIS-S | grating NONE | TE | 2.1 ks | events 139574 | proposal 25500483 | released 2024-02-04 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao25/cat5/28445/primary/acisf28445N002_evt2.fits.gz
+    image acisf28445N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf28445N002_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 28446 | CASA | ACIS-S | grating NONE | TE | 2.1 ks | events 184771 | proposal 25500483 | released 2024-02-04 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao25/cat5/28446/primary/acisf28446N002_evt2.fits.gz
+    image acisf28446N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf28446N002_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 28447 | CASA | ACIS-I | grating NONE | TE | 4.1 ks | events 480022 | proposal 25500485 | released 2024-09-10 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao25/cat5/28447/primary/acisf28447N002_evt2.fits.gz
+    image acisf28447N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf28447N002_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 28448 | CASA | ACIS-I | grating NONE | TE | 2.1 ks | events 237009 | proposal 25500485 | released 2024-09-10 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao25/cat5/28448/primary/acisf28448N002_evt2.fits.gz
+    image acisf28448N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf28448N002_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 28449 | CASA | ACIS-I | grating NONE | TE | 1.9 ks | events 213828 | proposal 25500485 | released 2024-09-10 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao25/cat5/28449/primary/acisf28449N002_evt2.fits.gz
+    image acisf28449N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf28449N002_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 28450 | CASA | ACIS-I | grating NONE | TE | 2.1 ks | events 237451 | proposal 25500485 | released 2024-09-10 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao25/cat5/28450/primary/acisf28450N002_evt2.fits.gz
+    image acisf28450N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf28450N002_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 28451 | CASA | ACIS-S | grating NONE | TE | 4.0 ks | events 635006 | proposal 25500485 | released 2024-09-10 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao25/cat5/28451/primary/acisf28451N002_evt2.fits.gz
+    image acisf28451N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf28451N002_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 28452 | CASA | ACIS-S | grating NONE | TE | 1.9 ks | events 230814 | proposal 25500485 | released 2024-09-10 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao25/cat5/28452/primary/acisf28452N002_evt2.fits.gz
+    image acisf28452N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf28452N002_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 28453 | CASA | ACIS-S | grating NONE | TE | 2.1 ks | events 237211 | proposal 25500485 | released 2024-09-11 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao25/cat5/28453/primary/acisf28453N002_evt2.fits.gz
+    image acisf28453N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf28453N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 28454 | CASA | ACIS-S | grating NONE | TE | 2.1 ks | events 220545 | proposal 25500485 | released 2024-09-11 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao25/cat5/28454/primary/acisf28454N002_evt2.fits.gz
+    image acisf28454N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf28454N002_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 29062 | CXOUJ232327.8+584842 | HRC-S | grating NONE |  | 9.8 ks | events 1026609 | proposal 24500199 | released 2025-02-07 | 350.8665 58.8118 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao24/cat5/29062/primary/hrcf29062N002_evt2.fits.gz
+    image hrcf29062N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image hrcf29062N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 29063 | CXOUJ232327.8+584842 | HRC-S | grating NONE |  | 9.8 ks | events 1033836 | proposal 24500199 | released 2025-02-07 | 350.8665 58.8118 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao24/cat5/29063/primary/hrcf29063N002_evt2.fits.gz
+    image hrcf29063N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image hrcf29063N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 29499 | CXOUJ232327.8+584842 | HRC-S | grating NONE |  | 13.8 ks | events 1417601 | proposal 24500199 | released 2025-02-07 | 350.8665 58.8118 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao24/cat5/29499/primary/hrcf29499N002_evt2.fits.gz
+    image hrcf29499N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image hrcf29499N002_full_img2.fits | 0.2-20.0 keV | 0.4 MB
+obsid 29590 | CASA | ACIS-I | grating NONE | TE | 2.1 ks | events 238931 | proposal 26500465 | released 2025-06-17 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao26/cat5/29590/primary/acisf29590N001_evt2.fits.gz
+    image acisf29590N001_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf29590N001_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 29591 | CASA | ACIS-S | grating NONE | TE | 2.1 ks | events 307176 | proposal 26500465 | released 2025-06-27 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao26/cat5/29591/primary/acisf29591N001_evt2.fits.gz
+    image acisf29591N001_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf29591N001_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 29592 | CASA | ACIS-I | grating NONE | TE | 2.1 ks | events 240950 | proposal 26500466 | released 2025-03-12 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao26/cat5/29592/primary/acisf29592N001_evt2.fits.gz
+    image acisf29592N001_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf29592N001_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 29593 | CASA | ACIS-I | grating NONE | TE | 2.1 ks | events 230561 | proposal 26500466 | released 2025-03-12 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao26/cat5/29593/primary/acisf29593N001_evt2.fits.gz
+    image acisf29593N001_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf29593N001_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 29594 | CASA | ACIS-I | grating NONE | TE | 1.9 ks | events 211746 | proposal 26500466 | released 2025-03-12 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao26/cat5/29594/primary/acisf29594N001_evt2.fits.gz
+    image acisf29594N001_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf29594N001_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 29595 | CASA | ACIS-I | grating NONE | TE | 2.1 ks | events 224676 | proposal 26500466 | released 2025-03-12 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao26/cat5/29595/primary/acisf29595N001_evt2.fits.gz
+    image acisf29595N001_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf29595N001_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 29596 | CASA | ACIS-S | grating NONE | TE | 2.1 ks | events 321497 | proposal 26500466 | released 2025-03-12 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao26/cat5/29596/primary/acisf29596N001_evt2.fits.gz
+    image acisf29596N001_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf29596N001_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 29597 | CASA | ACIS-S | grating NONE | TE | 1.9 ks | events 223817 | proposal 26500466 | released 2025-03-12 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao26/cat5/29597/primary/acisf29597N001_evt2.fits.gz
+    image acisf29597N001_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf29597N001_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 29598 | CASA | ACIS-I | grating NONE | TE | 2.1 ks | events 233179 | proposal 26500467 | released 2025-09-22 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao26/cat5/29598/primary/acisf29598N001_evt2.fits.gz
+    image acisf29598N001_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf29598N001_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 29599 | CASA | ACIS-I | grating NONE | TE | 2.1 ks | events 224989 | proposal 26500467 | released 2025-10-02 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao26/cat5/29599/primary/acisf29599N001_evt2.fits.gz
+    image acisf29599N001_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf29599N001_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 29600 | CASA | ACIS-I | grating NONE | TE | 2.1 ks | events 220513 | proposal 26500467 | released 2025-10-03 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao26/cat5/29600/primary/acisf29600N001_evt2.fits.gz
+    image acisf29600N001_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf29600N001_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 29601 | CASA | ACIS-I | grating NONE | TE | 2.1 ks | events 220843 | proposal 26500467 | released 2025-10-03 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao26/cat5/29601/primary/acisf29601N001_evt2.fits.gz
+    image acisf29601N001_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf29601N001_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 29602 | CASA | ACIS-S | grating NONE | TE | 2.1 ks | events 303117 | proposal 26500467 | released 2025-10-03 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao26/cat5/29602/primary/acisf29602N001_evt2.fits.gz
+    image acisf29602N001_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf29602N001_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 29603 | CASA | ACIS-S | grating NONE | TE | 2.1 ks | events 232312 | proposal 26500467 | released 2025-10-02 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao26/cat5/29603/primary/acisf29603N001_evt2.fits.gz
+    image acisf29603N001_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf29603N001_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 29604 | CASA | ACIS-I | grating NONE | TE | 2.1 ks | events 243447 | proposal 26500468 | released 2024-12-05 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao26/cat5/29604/primary/acisf29604N002_evt2.fits.gz
+    image acisf29604N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf29604N002_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 29605 | CASA | ACIS-S | grating NONE | TE | 2.1 ks | events 325315 | proposal 26500468 | released 2024-12-24 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao26/cat5/29605/primary/acisf29605N002_evt2.fits.gz
+    image acisf29605N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf29605N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 31378 | CASA | ACIS-I | grating NONE | TE | 2.1 ks | events 228966 | proposal 27500385 | released 2026-03-19 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao27/cat5/31378/primary/acisf31378N001_evt2.fits.gz
+    image acisf31378N001_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf31378N001_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 31379 | CASA | ACIS-I | grating NONE | TE | 2.1 ks | events 215861 | proposal 27500385 | released 2026-03-19 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao27/cat5/31379/primary/acisf31379N001_evt2.fits.gz
+    image acisf31379N001_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf31379N001_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 31380 | CASA | ACIS-I | grating NONE | TE | 1.9 ks | events 200191 | proposal 27500385 | released 2026-03-19 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao27/cat5/31380/primary/acisf31380N001_evt2.fits.gz
+    image acisf31380N001_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf31380N001_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 31381 | CASA | ACIS-I | grating NONE | TE | 2.3 ks | events 229968 | proposal 27500385 | released 2026-03-19 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao27/cat5/31381/primary/acisf31381N001_evt2.fits.gz
+    image acisf31381N001_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf31381N001_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 31382 | CASA | ACIS-S | grating NONE | TE | 2.1 ks | events 300387 | proposal 27500385 | released 2026-04-05 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao27/cat5/31382/primary/acisf31382N001_evt2.fits.gz
+    image acisf31382N001_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf31382N001_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 31383 | CASA | ACIS-S | grating NONE | TE | 1.9 ks | events 210431 | proposal 27500385 | released 2026-04-05 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao27/cat5/31383/primary/acisf31383N001_evt2.fits.gz
+    image acisf31383N001_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf31383N001_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 31384 | CASA | ACIS-I | grating NONE | TE | 2.1 ks | events 223982 | proposal 27500386 | released 2026-06-27 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao27/cat5/31384/primary/acisf31384N001_evt2.fits.gz
+    image acisf31384N001_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf31384N001_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 31385 | CASA | ACIS-S | grating NONE | TE | 2.1 ks | events 291702 | proposal 27500386 | released 2026-06-27 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao27/cat5/31385/primary/acisf31385N001_evt2.fits.gz
+    image acisf31385N001_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf31385N001_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 31386 | CASA | ACIS-I | grating NONE | TE | 2.1 ks | events 219617 | proposal 27500387 | released 2026-09-16 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao27/cat5/31386/primary/acisf31386N001_evt2.fits.gz
+    image acisf31386N001_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf31386N001_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 31387 | CASA | ACIS-I | grating NONE | TE | 2.1 ks | events 211698 | proposal 27500387 | released 2026-09-16 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao27/cat5/31387/primary/acisf31387N001_evt2.fits.gz
+    image acisf31387N001_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf31387N001_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 31388 | CASA | ACIS-I | grating NONE | TE | 1.9 ks | events 192392 | proposal 27500387 | released 2026-09-17 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao27/cat5/31388/primary/acisf31388N001_evt2.fits.gz
+    image acisf31388N001_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf31388N001_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 31389 | CASA | ACIS-I | grating NONE | TE | 2.1 ks | events 211572 | proposal 27500387 | released 2026-09-19 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao27/cat5/31389/primary/acisf31389N001_evt2.fits.gz
+    image acisf31389N001_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf31389N001_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 31390 | CASA | ACIS-S | grating NONE | TE | 2.1 ks | events 286908 | proposal 27500387 | released 2026-09-19 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao27/cat5/31390/primary/acisf31390N001_evt2.fits.gz
+    image acisf31390N001_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf31390N001_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 31391 | CASA | ACIS-S | grating NONE | TE | 1.9 ks | events 206817 | proposal 27500387 | released 2026-09-19 | 350.8575 58.8148 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=cal/ao27/cat5/31391/primary/acisf31391N001_evt2.fits.gz
+    image acisf31391N001_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf31391N001_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+imaging exposure without a grating: 3365.6 ks in total
+== Hubble and Webb (MAST)
+2351 rows from MAST, 716 public single-filter level-3 image mosaics
+HST|10286 | CAS-A-N-CENTER | ACS/WFC | 5 filters | total 1.1 GB | detection 0.22 GB 8400 s, F475W 0.22 GB 2000 s, F625W 0.22 GB 2400 s, F775W 0.22 GB 2000 s, F850LP 0.22 GB 2000 s
+HST|10286 | CAS-A-S-CENTER | ACS/WFC | 5 filters | total 1.1 GB | detection 0.22 GB 8400 s, F475W 0.22 GB 2000 s, F625W 0.22 GB 2400 s, F775W 0.22 GB 2000 s, F850LP 0.22 GB 2000 s
+HST|17210 | CAS-A-S-CENTER | ACS/WFC | 5 filters | total 1.2 GB | detection 0.24 GB 7020 s, F475W 0.24 GB 2296 s, F625W 0.24 GB 2360 s, F775W 0.24 GB 2360 s, F850LP 0.24 GB 2300 s
+HST|8281 | CAS-A-NE | WFPC2/PC | 5 filters | total 1.2 GB | detection 0.35 GB 11200 s, F450W 0.21 GB 2800 s, F658N 0.21 GB 1600 s, F675W 0.21 GB 4000 s, F850LP 0.21 GB 2800 s
+HST|8281 | CAS-A-SW | WFPC2/PC | 5 filters | total 1.2 GB | detection 0.35 GB 11200 s, F450W 0.21 GB 2800 s, F658N 0.21 GB 1600 s, F675W 0.21 GB 4000 s, F850LP 0.21 GB 2800 s
+HST|9890 | CAS-A-N-CENTER | ACS/WFC | 5 filters | total 1.1 GB | detection 0.23 GB 8400 s, F475W 0.23 GB 2000 s, F625W 0.23 GB 2400 s, F775W 0.23 GB 2000 s, F850LP 0.23 GB 2000 s
+HST|9890 | CAS-A-RS-ACS | ACS/WFC | 5 filters | total 1.1 GB | detection 0.22 GB 8400 s, F475W 0.22 GB 2000 s, F625W 0.22 GB 2400 s, F775W 0.22 GB 2000 s, F850LP 0.22 GB 2000 s
+HST|9890 | CAS-A-S-CENTER | ACS/WFC | 5 filters | total 1.1 GB | detection 0.23 GB 8400 s, F475W 0.22 GB 2000 s, F625W 0.22 GB 2400 s, F775W 0.22 GB 2000 s, F850LP 0.22 GB 2000 s
+HST|17210 | CAS-A-N-CENTER | ACS/WFC | 5 filters | total 1.1 GB | detection 0.24 GB 7020 s, F475W 0.22 GB 2300 s, F625W 0.22 GB 2360 s, F775W 0.22 GB 2360 s, F850LP 0.22 GB 2300 s
+HST|8281 | CAS-A-NW | WFPC2/PC | 5 filters | total 1.5 GB | detection 0.43 GB 11200 s, F450W 0.26 GB 2800 s, F658N 0.26 GB 1600 s, F675W 0.26 GB 4000 s, F850LP 0.26 GB 2800 s
+HST|17210 | CAS-A-NW | ACS/WFC | 5 filters | total 1.1 GB | detection 0.24 GB 7020 s, F475W 0.22 GB 2296 s, F625W 0.22 GB 2360 s, F775W 0.22 GB 2360 s, F850LP 0.22 GB 2300 s
+HST|17210 | CAS-A-SW | ACS/WFC | 5 filters | total 1.1 GB | detection 0.24 GB 4720 s, F475W 0.22 GB 2296 s, F625W 0.22 GB 2360 s, F775W 0.22 GB 2360 s, F850LP 0.22 GB 2300 s
+HST|10286 | CAS-A-NE | ACS/WFC | 5 filters | total 1.1 GB | detection 0.22 GB 8400 s, F475W 0.22 GB 2000 s, F625W 0.22 GB 2400 s, F775W 0.22 GB 2000 s, F850LP 0.22 GB 2000 s
+HST|10286 | CAS-A-SW | ACS/WFC | 5 filters | total 1.1 GB | detection 0.22 GB 8400 s, F475W 0.22 GB 2000 s, F625W 0.22 GB 2400 s, F775W 0.22 GB 2000 s, F850LP 0.22 GB 2000 s
+HST|9890 | CAS-A-NW | ACS/WFC | 5 filters | total 1.1 GB | detection 0.23 GB 8400 s, F475W 0.22 GB 2000 s, F625W 0.22 GB 2400 s, F775W 0.22 GB 2000 s, F850LP 0.22 GB 2000 s
+HST|10286 | CAS-A-SE | ACS/WFC | 5 filters | total 1.1 GB | detection 0.22 GB 8400 s, F475W 0.22 GB 2000 s, F625W 0.22 GB 2400 s, F775W 0.22 GB 2000 s, F850LP 0.22 GB 2000 s
+HST|9890 | CAS-A-SE | ACS/WFC | 5 filters | total 1.1 GB | detection 0.23 GB 8400 s, F475W 0.23 GB 2000 s, F625W 0.23 GB 2400 s, F775W 0.23 GB 2000 s, F850LP 0.23 GB 2000 s
+HST|9890 | CAS-A-SW | ACS/WFC | 5 filters | total 1.1 GB | detection 0.22 GB 8400 s, F475W 0.22 GB 2000 s, F625W 0.22 GB 2400 s, F775W 0.22 GB 2000 s, F850LP 0.22 GB 2000 s
+HST|9890 | CAS-A-NE | ACS/WFC | 5 filters | total 1.1 GB | detection 0.23 GB 8400 s, F475W 0.23 GB 2000 s, F625W 0.23 GB 2400 s, F775W 0.23 GB 2000 s, F850LP 0.23 GB 2000 s
+HST|10286 | CAS-A-NW | ACS/WFC | 5 filters | total 1.1 GB | detection 0.22 GB 8400 s, F475W 0.22 GB 2000 s, F625W 0.22 GB 2400 s, F775W 0.22 GB 2000 s, F850LP 0.22 GB 2000 s
+HST|17210 | CAS-A-SE | ACS/WFC | 5 filters | total 1.2 GB | detection 0.24 GB 7020 s, F475W 0.24 GB 2292 s, F625W 0.24 GB 2360 s, F775W 0.24 GB 2360 s, F850LP 0.24 GB 2300 s
+HST|17210 | CAS-A-NE | ACS/WFC | 5 filters | total 1.1 GB | detection 0.22 GB 7020 s, F475W 0.22 GB 2300 s, F625W 0.22 GB 2360 s, F775W 0.22 GB 2360 s, F850LP 0.22 GB 2300 s
+HST|8805 | LOW | WFPC2/PC | 5 filters | total 0.8 GB | detection 0.21 GB 10500 s, F300W 0.16 GB 4200 s, F450W 0.16 GB 2100 s, F606W 0.16 GB 2100 s, F814W 0.16 GB 2100 s
+HST|9238 | CAS-A-NW | WFPC2/PC | 4 filters | total 0.9 GB | detection 0.33 GB 15200 s, F450W 0.20 GB 5600 s, F675W 0.20 GB 4000 s, F850LP 0.20 GB 5600 s
+HST|9238 | CAS-A-SW | WFPC2/PC | 4 filters | total 0.6 GB | detection 0.18 GB 7600 s, F450W 0.13 GB 2800 s, F675W 0.13 GB 2000 s, F850LP 0.13 GB 2800 s
+HST|None | CAS-A-SW | ACS/WFC | 4 filters | total 3.2 GB | F475W 0.88 GB 35206 s, F625W 0.54 GB 11360 s, F775W 0.88 GB 36930 s, F850LP 0.88 GB 33500 s
+HST|9238 | CAS-A-NE | WFPC2/PC | 4 filters | total 1.0 GB | detection 0.35 GB 11200 s, F450W 0.21 GB 2800 s, F675W 0.21 GB 3600 s, F850LP 0.21 GB 4800 s
+HST|7406 | CAS-A-JET | WFPC2/PC | 4 filters | total 2.2 GB | detection 0.62 GB 13400 s, F675W 0.47 GB 2400 s, F673N 0.62 GB 9000 s, F953N 0.47 GB 2000 s
+HST|9890 | ANY | ACS/HRC | 4 filters | total 0.1 GB | detection 0.02 GB 5128 s, F606W 0.02 GB 1976 s, F892N 0.02 GB 1576 s, F850LP 0.02 GB 1576 s
+HST|11337 | CAS-A-SOUTH | WFPC2/PC | 3 filters | total 0.6 GB | detection 0.19 GB 4800 s, F450W 0.19 GB 2400 s, F675W 0.19 GB 2400 s
+HST|15337 | CAS-A-CENTER | WFC3/UVIS | 3 filters | total 2.6 GB | detection 0.87 GB 7680 s, F625W 0.87 GB 4000 s, F657N 0.87 GB 3680 s
+HST|15337 | CAS-A-SOUTH-CENTER | WFC3/UVIS | 3 filters | total 1.3 GB | detection 0.44 GB 3840 s, F625W 0.44 GB 2000 s, F657N 0.44 GB 1840 s
+HST|15337 | CAS-A-EAST | WFC3/UVIS | 3 filters | total 0.7 GB | detection 0.24 GB 3860 s, F625W 0.24 GB 2060 s, F657N 0.24 GB 1800 s
+HST|11337 | CAS-A-NW | WFPC2/PC | 3 filters | total 0.8 GB | detection 0.26 GB 4800 s, F450W 0.26 GB 2400 s, F675W 0.26 GB 2400 s
+HST|15337 | CAS-A-SOUTH | WFC3/UVIS | 3 filters | total 0.7 GB | detection 0.24 GB 2880 s, F625W 0.22 GB 1500 s, F657N 0.22 GB 1380 s
+HST|7406 | MULTIPLE | WFPC2/PC | 3 filters | total 1.6 GB | detection 0.64 GB 8300 s, F658N 0.48 GB 5400 s, F675W 0.48 GB 2900 s
+HST|15337 | CAS-A-SE | WFC3/UVIS | 3 filters | total 0.7 GB | detection 0.24 GB 3860 s, F625W 0.24 GB 2060 s, F657N 0.24 GB 1800 s
+HST|11337 | CAS-A-WEST | WFPC2/PC | 3 filters | total 0.8 GB | detection 0.26 GB 4800 s, F450W 0.26 GB 2400 s, F675W 0.26 GB 2400 s
+HST|15337 | CAS-A-NE | WFC3/UVIS | 3 filters | total 0.7 GB | detection 0.24 GB 3860 s, F625W 0.24 GB 2060 s, F657N 0.24 GB 1800 s
+HST|15337 | CAS-A-WEST | WFC3/UVIS | 3 filters | total 0.7 GB | detection 0.24 GB 3840 s, F625W 0.22 GB 2000 s, F657N 0.22 GB 1840 s
+HST|15337 | CAS-A-SW | WFC3/UVIS | 3 filters | total 0.7 GB | detection 0.24 GB 3840 s, F625W 0.22 GB 2000 s, F657N 0.22 GB 1840 s
+HST|15337 | CAS-A-NW | WFC3/UVIS | 3 filters | total 0.7 GB | detection 0.24 GB 3840 s, F625W 0.24 GB 2000 s, F657N 0.24 GB 1840 s
+HST|14801 | CAS-A-NE-JET-1 | WFC3/IR | 3 filters | total 0.0 GB | detection 0.02 GB 5609 s, F098M 0.01 GB 2812 s, F164N 0.01 GB 2800 s
+HST|15361 | CAS-A-NE-JET-1 | WFC3/IR | 3 filters | total 0.0 GB | detection 0.02 GB 5609 s, F098M 0.01 GB 2812 s, F164N 0.01 GB 2800 s
+HST|10090 | ANY | WFPC2/PC | 3 filters | total 0.8 GB | detection 0.26 GB 1600 s, F300W 0.26 GB 1100 s, F606W 0.26 GB 500 s
+HST|10082 | ANY | WFPC2/PC | 3 filters | total 0.8 GB | detection 0.26 GB 2400 s, F300W 0.26 GB 1700 s, F606W 0.26 GB 700 s
+HST|14801 | CAS-A-NE-JET-2 | WFC3/IR | 3 filters | total 0.0 GB | detection 0.02 GB 5609 s, F098M 0.01 GB 2812 s, F164N 0.01 GB 2800 s
+HST|15361 | CAS-A-NE-JET-2 | WFC3/IR | 3 filters | total 0.0 GB | detection 0.02 GB 5609 s, F098M 0.01 GB 2812 s, F164N 0.01 GB 2800 s
+HST|12300 | CAS-A-CENTRAL-SOUTH | WFC3/IR | 2 filters | total 0.1 GB | detection 0.04 GB 4423 s, F098M 0.04 GB 4423 s
+HST|12674 | CAS-A-CENTRAL-SOUTH | WFC3/IR | 2 filters | total 0.1 GB | detection 0.04 GB 4423 s, F098M 0.04 GB 4423 s
+HST|15515 | CAS-A-CENTER | WFC3/UVIS | 2 filters | total 1.0 GB | detection 0.48 GB 8760 s, F625W 0.48 GB 8760 s
+HST|9798 | CASA-CCO | NICMOS/NIC2 | 2 filters | total 0.0 GB | F110W 0.00 GB 5184 s, F160W 0.00 GB 5184 s
+HST|15515 | CAS-A-SOUTH | WFC3/UVIS | 2 filters | total 0.5 GB | detection 0.25 GB 4380 s, F625W 0.22 GB 4380 s
+HST|15515 | CAS-A-WEST | WFC3/UVIS | 2 filters | total 1.0 GB | detection 0.48 GB 8760 s, F625W 0.48 GB 8760 s
+HST|15337 | CAS-A-NORTH-CENTER | WFC3/UVIS | 2 filters | total 0.4 GB | F625W 0.22 GB 2000 s, F657N 0.22 GB 1840 s
+HST|12300 | CAS-A-NW | WFC3/IR | 2 filters | total 0.1 GB | detection 0.04 GB 4423 s, F098M 0.04 GB 4423 s
+HST|12674 | CAS-A-NW | WFC3/IR | 2 filters | total 0.1 GB | detection 0.04 GB 4423 s, F098M 0.04 GB 4423 s
+HST|15515 | CAS-A-SE | WFC3/UVIS | 2 filters | total 0.5 GB | detection 0.25 GB 4380 s, F625W 0.25 GB 4380 s
+HST|12674 | CAS-A-NE | WFC3/IR | 2 filters | total 0.1 GB | detection 0.04 GB 4223 s, F098M 0.04 GB 4223 s
+HST|12300 | CAS-A-NE | WFC3/IR | 2 filters | total 0.1 GB | detection 0.04 GB 4223 s, F098M 0.04 GB 4223 s
+HST|15337 | CAS-A-NORTH | WFC3/UVIS | 2 filters | total 0.5 GB | detection 0.24 GB 500 s, F625W 0.24 GB 500 s
+HST|15515 | CAS-A-EAST | WFC3/UVIS | 2 filters | total 0.9 GB | detection 0.47 GB 8760 s, F625W 0.47 GB 8760 s
+HST|9890 | CAS-A-RS-NIC3 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F196N 0.00 GB 4480 s, F200N 0.00 GB 4480 s
+HST|15515 | CAS-A-SW | WFC3/UVIS | 2 filters | total 0.5 GB | detection 0.25 GB 4380 s, F625W 0.22 GB 4380 s
+HST|10084 | ANY | WFPC2/PC | 2 filters | total 0.5 GB | detection 0.26 GB 2300 s, F606W 0.26 GB 2300 s
+HST|7406 | CAS-A-NW-A | WFPC2/PC | 2 filters | total 0.5 GB | F658N 0.25 GB 900 s, F675W 0.25 GB 500 s
+HST|12674 | CAS-A-SW-JET-NORTH | WFC3/IR | 2 filters | total 0.1 GB | detection 0.04 GB 4623 s, F098M 0.04 GB 4623 s
+HST|12300 | CAS-A-SW-JET-NORTH | WFC3/IR | 2 filters | total 0.1 GB | detection 0.04 GB 4623 s, F098M 0.04 GB 4623 s
+HST|12300 | CAS-A-NE-JET-NORTH | WFC3/IR | 2 filters | total 0.1 GB | detection 0.04 GB 4423 s, F098M 0.04 GB 4423 s
+HST|12674 | CAS-A-NE-JET-NORTH | WFC3/IR | 2 filters | total 0.1 GB | detection 0.04 GB 4423 s, F098M 0.04 GB 4423 s
+HST|7406 | CAS-A-NW-B | WFPC2/PC | 2 filters | total 0.5 GB | F658N 0.25 GB 900 s, F675W 0.25 GB 700 s
+HST|None | CAS-A-SW | WFC3/UVIS | 2 filters | total 1.1 GB | F625W 0.54 GB 3000 s, F657N 0.54 GB 3680 s
+HST|None | CAS-A-WEST | WFC3/UVIS | 2 filters | total 0.9 GB | F625W 0.45 GB 3000 s, F657N 0.45 GB 3680 s
+HST|None | CAS-A-N-CENTER | ACS/WFC | 1 filters | total 0.9 GB | F625W 0.88 GB 44030 s
+HST|None | CAS-A-NE | WFC3/IR | 1 filters | total 0.9 GB | F098M 0.87 GB 55482 s
+HST|None | CAS-A-SOUTH-CENTER | WFC3/UVIS | 1 filters | total 0.8 GB | F625W 0.77 GB 54040 s
+HST|None | CAS-A-SE | WFC3/UVIS | 1 filters | total 0.8 GB | F657N 0.77 GB 14180 s
+HST|8692 | CAS-A-CENTER | STIS/CCD | 1 filters | total 0.0 GB | MIRVIS 0.01 GB 2485 s
+HST|12300 | CAS-A-CENTRAL-NORTH | WFC3/IR | 1 filters | total 0.0 GB | F098M 0.01 GB 2212 s
+HST|12674 | CAS-A-CENTRAL-NORTH | WFC3/IR | 1 filters | total 0.0 GB | F098M 0.01 GB 2212 s
+HST|None | CAS-A-EAST | WFC3/UVIS | 1 filters | total 0.9 GB | F657N 0.87 GB 12800 s
+HST|15515 | CAS-A-NW | WFC3/UVIS | 1 filters | total 0.2 GB | F625W 0.22 GB 4380 s
+HST|12674 | CAS-A-SW | WFC3/IR | 1 filters | total 0.0 GB | F098M 0.01 GB 2212 s
+HST|12300 | CAS-A-SW | WFC3/IR | 1 filters | total 0.0 GB | F098M 0.01 GB 2212 s
+HST|15515 | CAS-A-NORTH | WFC3/UVIS | 1 filters | total 0.2 GB | F625W 0.22 GB 4380 s
+HST|12300 | CAS-A-EAST | WFC3/IR | 1 filters | total 0.0 GB | F098M 0.01 GB 2212 s
+HST|12674 | CAS-A-EAST | WFC3/IR | 1 filters | total 0.0 GB | F098M 0.01 GB 2212 s
+HST|11337 | CAS-A-NW-NIC3 | NICMOS/NIC3 | 1 filters | total 0.0 GB | F196N 0.00 GB 5375 s
+HST|11337 | CAS-A-SOUTH | NICMOS/NIC3 | 1 filters | total 0.0 GB | F196N 0.00 GB 5375 s
+HST|11337 | CAS-A-WEST-NIC3-B | NICMOS/NIC3 | 1 filters | total 0.0 GB | F196N 0.00 GB 5375 s
+HST|11337 | CAS-A-NW-NIC1-A | NICMOS/NIC1 | 1 filters | total 0.0 GB | F145M 0.00 GB 3584 s
+HST|11337 | CAS-A-NW-NIC1-B | NICMOS/NIC1 | 1 filters | total 0.0 GB | F145M 0.00 GB 3584 s
+HST|11337 | CAS-A-SOUTH-NIC1-B | NICMOS/NIC1 | 1 filters | total 0.0 GB | F145M 0.00 GB 3584 s
+HST|11337 | CAS-A-SOUTH-NIC1-A | NICMOS/NIC1 | 1 filters | total 0.0 GB | F145M 0.00 GB 3136 s
+HST|11337 | CAS-A-WEST-NIC1-A | NICMOS/NIC1 | 1 filters | total 0.0 GB | F145M 0.00 GB 3584 s
+HST|11337 | CAS-A-WEST-NIC1-B | NICMOS/NIC1 | 1 filters | total 0.0 GB | F145M 0.00 GB 3136 s
+HST|12300 | CAS-A-SW-JET-SOUTH | WFC3/IR | 1 filters | total 0.0 GB | F098M 0.01 GB 2412 s
+HST|12674 | CAS-A-SW-JET-SOUTH | WFC3/IR | 1 filters | total 0.0 GB | F098M 0.01 GB 2412 s
+HST|12300 | CAS-A-NE-JET-SOUTH | WFC3/IR | 1 filters | total 0.0 GB | F098M 0.01 GB 2212 s
+HST|12674 | CAS-A-NE-JET-SOUTH | WFC3/IR | 1 filters | total 0.0 GB | F098M 0.01 GB 2212 s
+HST|15515 | CAS-A-NE | WFC3/UVIS | 1 filters | total 0.2 GB | F625W 0.22 GB 4380 s
+HST|None | CAS-A-NE-JET-2 | WFC3/IR | 1 filters | total 0.9 GB | F164N 0.87 GB 11188 s
+HST|None | CAS-A-SW-JET-NORTH | WFC3/IR | 1 filters | total 0.5 GB | F098M 0.54 GB 9247 s
+HST|None | ANY | ACS/WFC | 1 filters | total 0.5 GB | F775W 0.54 GB 10100 s
+JWST|1947 | CASSIOPEIA-A-CENTER-MIRI | MIRI/IMAGE | 8 filters | total 2.7 GB | F560W 0.34 GB 1332 s, F770W 0.34 GB 1332 s, F1000W 0.34 GB 1332 s, F1130W 0.34 GB 1332 s, F1280W 0.34 GB 1332 s, F1800W 0.34 GB 1332 s, F2100W 0.34 GB 1332 s, F2550W 0.34 GB 1332 s
+JWST|1947 | CASSIOPEIA-A-2-RETURN | MIRI/IMAGE | 8 filters | total 0.3 GB | F560W 0.04 GB 89 s, F770W 0.04 GB 89 s, F1000W 0.04 GB 89 s, F1130W 0.04 GB 89 s, F1280W 0.04 GB 89 s, F1800W 0.04 GB 89 s, F2100W 0.04 GB 89 s, F2550W 0.04 GB 89 s
+JWST|1947 | CASSIOPEIA-A-3-RETURN | MIRI/IMAGE | 8 filters | total 0.3 GB | F560W 0.04 GB 89 s, F770W 0.04 GB 89 s, F1000W 0.04 GB 89 s, F1130W 0.04 GB 89 s, F1280W 0.04 GB 89 s, F1800W 0.04 GB 89 s, F2100W 0.04 GB 89 s, F2550W 0.04 GB 89 s
+JWST|1947 | CASSIOPEIA-A-1-RETURN | MIRI/IMAGE | 8 filters | total 0.3 GB | F560W 0.04 GB 89 s, F770W 0.04 GB 89 s, F1000W 0.04 GB 89 s, F1130W 0.04 GB 89 s, F1280W 0.04 GB 89 s, F1800W 0.04 GB 89 s, F2100W 0.04 GB 89 s, F2550W 0.04 GB 89 s
+JWST|1947 | BACKGROUND | MIRI/IMAGE | 8 filters | total 0.3 GB | F560W 0.03 GB 89 s, F770W 0.03 GB 89 s, F1000W 0.03 GB 89 s, F1130W 0.03 GB 89 s, F1280W 0.03 GB 89 s, F1800W 0.03 GB 89 s, F2100W 0.03 GB 89 s, F2550W 0.03 GB 89 s
+JWST|7934 | Cas-A | NIRCAM/IMAGE | 3 filters | total 13.2 GB | F070W 10.28 GB 5025 s, F356W 1.49 GB 5025 s, F444W 1.49 GB 5025 s
+JWST|1947 | CASSIOPEIA-A-KNOT1 | MIRI/IMAGE | 3 filters | total 0.1 GB | F560W 0.03 GB 555 s, F770W 0.03 GB 555 s, F1500W 0.03 GB 555 s
+JWST|1947 | CASSIOPEIA-A-KNOT2 | MIRI/IMAGE | 3 filters | total 0.1 GB | F560W 0.03 GB 555 s, F770W 0.03 GB 555 s, F1500W 0.03 GB 555 s
+JWST|1947 | CASSIOPEIA-A-KNOT3 | MIRI/IMAGE | 3 filters | total 0.1 GB | F560W 0.03 GB 555 s, F770W 0.03 GB 555 s, F1500W 0.03 GB 555 s
+JWST|1947 | CASSIOPEIA-A-CENTER | NIRCAM/IMAGE | 2 filters | total 3.0 GB | F356W 1.49 GB 5025 s, F444W 1.49 GB 5025 s
+JWST|1947 | CASSIOPEIA-A-CENTER-IFU | MIRI/IMAGE | 2 filters | total 0.1 GB | F1130W 0.03 GB 2220 s, F1500W 0.03 GB 1110 s
+JWST|8527 | Baby_Cas_A | NIRCAM/IMAGE | 2 filters | total 1.8 GB | F200W 1.44 GB 1675 s, F444W 0.34 GB 1675 s
