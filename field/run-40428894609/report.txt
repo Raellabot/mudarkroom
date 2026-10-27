@@ -1,0 +1,51 @@
+field stephans-quintet: ra 338.9996 dec 33.9575 radius 0.1 deg
+== Chandra (Chandra Data Archive)
+2 public observations within 0.1 deg
+obsid 789 | HCG92 | ACIS-S | grating NONE | TE | 19.7 ks | events 209901 | proposal 01600278 | released 2001-07-19 | 339.0000 33.9833 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao01/cat6/789/primary/acisf00789N005_evt2.fits.gz
+    image acisf00789N005_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf00789N005_full_img2.fits | 0.2-20.0 keV | 0.5 MB
+obsid 7924 | HCG92 | ACIS-S | grating NONE | TE | 93.2 ks | events 1087279 | proposal 08800951 | released 2008-08-20 | 339.0013 33.9703 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao08/cat8/7924/primary/acisf07924N005_evt2.fits.gz
+    image acisf07924N005_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf07924N005_full_img2.fits | 0.2-20.0 keV | 0.4 MB
+imaging exposure without a grating: 112.9 ks in total
+== Hubble and Webb (MAST)
+1080 rows from MAST, 264 public single-filter level-3 image mosaics
+HST|11502 | NGC-7318B-UVIS1 | WFC3/UVIS | 5 filters | total 1.3 GB | detection 0.27 GB 11865 s, F438W 0.27 GB 3410 s, F606W 0.27 GB 1395 s, F665N 0.27 GB 5200 s, F814W 0.27 GB 1860 s
+HST|11502 | NGC-7318B-UVIS2 | WFC3/UVIS | 5 filters | total 1.3 GB | detection 0.27 GB 11865 s, F438W 0.27 GB 3410 s, F606W 0.27 GB 1395 s, F665N 0.27 GB 5200 s, F814W 0.27 GB 1860 s
+HST|11502 | NGC-7318B-UVIS3 | WFC3/UVIS | 5 filters | total 1.3 GB | detection 0.26 GB 11865 s, F438W 0.26 GB 3410 s, F606W 0.26 GB 1395 s, F657N 0.26 GB 5200 s, F814W 0.26 GB 1860 s
+HST|11502 | NGC-7318B-UVIS4 | WFC3/UVIS | 5 filters | total 1.3 GB | detection 0.26 GB 11865 s, F438W 0.26 GB 3410 s, F606W 0.26 GB 1395 s, F665N 0.26 GB 5200 s, F814W 0.26 GB 1860 s
+HST|6596 | NGC7318 | WFPC2/PC | 4 filters | total 0.8 GB | detection 0.25 GB 11900 s, F450W 0.18 GB 6700 s, F569W 0.18 GB 3200 s, F814W 0.18 GB 2000 s
+HST|None | NGC-7318B-UVIS2 | WFC3/UVIS | 4 filters | total 2.4 GB | F438W 0.61 GB 13640 s, F606W 0.61 GB 5130 s, F665N 0.61 GB 14300 s, F814W 0.61 GB 7440 s
+HST|6596 | NGC7319 | WFPC2/PC | 4 filters | total 0.8 GB | detection 0.25 GB 11900 s, F450W 0.18 GB 6700 s, F569W 0.18 GB 3200 s, F814W 0.18 GB 2000 s
+HST|12301 | HCG92 | WFC3/UVIS | 3 filters | total 1.3 GB | detection 0.45 GB 14474 s, F336W 0.45 GB 14474 s, F547M 0.43 GB 5834 s
+HST|9892 | NGC7320 | ACS/WFC | 3 filters | total 1.1 GB | detection 0.38 GB 1350 s, F625W 0.38 GB 180 s, F658N 0.38 GB 1350 s
+HST|8083 | ANY | NICMOS/NIC3 | 3 filters | total 0.0 GB | F110W 0.00 GB 12 s, F160W 0.00 GB 24 s, F222M 0.00 GB 42 s
+HST|11502 | NGC-7318B-IR1 | WFC3/IR | 2 filters | total 0.0 GB | detection 0.02 GB 2212 s, F140W 0.02 GB 2212 s
+HST|11502 | NGC-7318B-IR2 | WFC3/IR | 2 filters | total 0.0 GB | detection 0.02 GB 2212 s, F140W 0.02 GB 2212 s
+HST|11502 | NGC-7318B-IR3 | WFC3/IR | 2 filters | total 0.0 GB | detection 0.02 GB 2212 s, F140W 0.02 GB 2212 s
+HST|11502 | NGC-7318B-IR4 | WFC3/IR | 2 filters | total 0.0 GB | detection 0.02 GB 2212 s, F140W 0.02 GB 2212 s
+HST|None | NGC7320 | ACS/WFC | 2 filters | total 1.2 GB | F625W 0.61 GB 180 s, F658N 0.61 GB 1350 s
+HST|None | HCG92 | WFC3/UVIS | 2 filters | total 1.2 GB | F336W 0.61 GB 17280 s, F547M 0.61 GB 5834 s
+HST|12006 | NGC-7318B | WFC3/IR | 2 filters | total 0.0 GB | detection 0.02 GB 2423 s, F140W 0.02 GB 2423 s
+HST|9124 | NGC7320 | WFPC2/PC | 2 filters | total 0.5 GB | detection 0.26 GB 1000 s, F300W 0.26 GB 1000 s
+HST|5479 | NGC7319 | WFPC2/PC | 2 filters | total 0.5 GB | detection 0.26 GB 500 s, F606W 0.26 GB 500 s
+HST|9379 | NGC7319 | ACS/HRC | 2 filters | total 0.0 GB | detection 0.02 GB 1200 s, F330W 0.02 GB 1200 s
+HST|9892 | ANY | ACS/HRC | 2 filters | total 0.0 GB | detection 0.03 GB 1138 s, F550M 0.02 GB 1138 s
+HST|9709 | ANY | WFPC2/PC | 2 filters | total 0.4 GB | detection 0.22 GB 1000 s, F606W 0.22 GB 1000 s
+HST|8083 | ANY | NICMOS/NIC1 | 2 filters | total 0.0 GB | F110W 0.00 GB 96 s, F160W 0.00 GB 192 s
+HST|None | NGC-7318B | WFC3/IR | 1 filters | total 0.6 GB | F140W 0.60 GB 15694 s
+HST|None | NGC-7318B-UVIS3 | WFC3/UVIS | 1 filters | total 0.6 GB | F657N 0.61 GB 5200 s
+HST|7328 | NGC7319 | NICMOS/NIC2 | 1 filters | total 0.0 GB | F160W 0.00 GB 768 s
+HST|7328 | BLANK | NICMOS/NIC1 | 1 filters | total 0.0 GB | F160W 0.00 GB 768 s
+HST|7328 | BLANK | NICMOS/NIC3 | 1 filters | total 0.0 GB | F160W 0.00 GB 768 s
+JWST|2732 | NGC-7320 | NIRCAM/IMAGE | 6 filters | total 34.1 GB | F090W 9.99 GB 7086 s, F150W 9.99 GB 7086 s, F200W 10.00 GB 7086 s, F277W 1.37 GB 7086 s, F356W 1.37 GB 7086 s, F444W 1.37 GB 7086 s
+JWST|2732 | NGC-7320 | MIRI/IMAGE | 3 filters | total 0.2 GB | F770W 0.07 GB 2664 s, F1000W 0.07 GB 2664 s, F1500W 0.07 GB 2708 s
+JWST|3445 | SQ-MRS-COS-P2-SHOCK-SOUTH | MIRI/IMAGE | 3 filters | total 0.1 GB | F560W 0.03 GB 2102 s, F1000W 0.03 GB 2102 s, F1130W 0.03 GB 2102 s
+JWST|3445 | SQ-MRS-COS-P5-BRIDGE | MIRI/IMAGE | 3 filters | total 0.1 GB | F560W 0.03 GB 3153 s, F1000W 0.03 GB 3153 s, F1130W 0.03 GB 3153 s
+JWST|3445 | SQ-MRS-BRIDGE-ALMAFIELD5 | MIRI/IMAGE | 3 filters | total 0.1 GB | F560W 0.03 GB 2102 s, F1000W 0.03 GB 2102 s, F1130W 0.03 GB 2102 s
+JWST|3445 | SQ-MRS-COS-P1-SHOCK-CENTER | MIRI/IMAGE | 3 filters | total 0.1 GB | F560W 0.03 GB 2102 s, F1000W 0.03 GB 2102 s, F1130W 0.03 GB 2102 s
+JWST|3445 | SQ-MRS-COS-P3-SHOCK-NORTH | MIRI/IMAGE | 3 filters | total 0.1 GB | F560W 0.03 GB 2102 s, F1000W 0.03 GB 2102 s, F1130W 0.03 GB 2102 s
+JWST|3445 | SQ-MRS-COS-P7-SQA | MIRI/IMAGE | 3 filters | total 0.1 GB | F560W 0.03 GB 2102 s, F1000W 0.03 GB 2102 s, F1130W 0.03 GB 2102 s
+JWST|2732 | NGC-7319-MRS | MIRI/IMAGE | 3 filters | total 0.1 GB | F770W 0.03 GB 899 s, F1000W 0.03 GB 899 s, F1130W 0.03 GB 899 s
+JWST|3445 | SQ-MRS-SKY-BACKGROUND | MIRI/IMAGE | 3 filters | total 0.1 GB | F560W 0.03 GB 3153 s, F1000W 0.03 GB 3153 s, F1130W 0.03 GB 3153 s
+JWST|2732 | NGC-7319-BG | MIRI/IMAGE | 3 filters | total 0.1 GB | F770W 0.03 GB 450 s, F1000W 0.03 GB 450 s, F1130W 0.03 GB 450 s
