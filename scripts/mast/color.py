@@ -808,6 +808,9 @@ def main():
         stack = [n[0] for n in norm]
         for name, (x, top) in zip(names, norm):
             log(f"{name}: signal scale {top:.4g}, lit pixels {(x > 0.05).mean() * 100:.1f}%")
+        bo = os.environ.get("BLACK_OVERRIDE", "").strip()   # one black point for this run, whatever the finishing table says (for black-point strips)
+        if bo:
+            black = float(bo)
         for pname, pal in PALETTES.items():
             if pname in RANKED:
                 variants = [(e, *normalize_keep_haze(raw, e, black)) for e in NORM_EXPS]
@@ -823,6 +826,8 @@ def main():
                     cols = [c * (1 - tw["soften"].get(n, 0.0)) + SOFT_PINK * tw["soften"].get(n, 0.0) for c, n in zip(base_cols, names)]
                 img, colors = compose(stk2, waves, pal, RANKED.get(pname), cols, tw.get("whiten", 0.0), tw.get("stretch") or (fin or {}).get("stretch"), xl)
                 suffix = "" if e is None else f"-n{int(round(e * 100)):02d}" + ("" if vname == "base" else f"-{vname}")
+                if bo:
+                    suffix += f"-black{bo}"
                 where = f"{chosen[0]['obs_collection']} {instrument.split('/')[0]}, {target}, program {proposal}"
                 if "+" in collection:
                     where = " + ".join(f"{c} {i.split('/')[0]} {p}" for c, i, p in zip(collection.split("+"), instrument.split("+"), proposal.split("+"))) + (" + Chandra ACIS" if xl is not None else "") + f", {target.split('+')[0]}"

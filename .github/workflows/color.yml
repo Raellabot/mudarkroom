@@ -40,6 +40,9 @@ on:
       size_cap_gb:
         description: "Largest single mosaic file to download, in GB (files over this are left out; one file at a time is kept on the runner)"
         default: "6"
+      black_override:
+        description: "Empty: use the black point of the finishing table; a number: use it instead (the file names get -black<number>)"
+        default: ""
       find:
         description: "Required: space-separated COLLECTION|proposal_id (|target) to look up in MAST; with specs empty it only lists the targets and filters (groups.txt)"
         default: ""
@@ -71,6 +74,7 @@ jobs:
       NORM_EXPS: ${{ inputs.norm_exps }}
       VARIANTS: ${{ inputs.variants }}
       SIZE_CAP_GB: ${{ inputs.size_cap_gb }}
+      BLACK_OVERRIDE: ${{ inputs.black_override }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
