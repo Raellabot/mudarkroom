@@ -1,0 +1,738 @@
+field orion-m42: ra 83.82 dec -5.39 radius 0.3 deg
+== Chandra (Chandra Data Archive)
+113 public observations within 0.3 deg
+obsid 3 | TRAPEZIUM | ACIS-S | grating HETG | TE | 49.5 ks | events 718694 | proposal 01200028 | released 2000-12-08 | 83.8125 -5.3915 | evt2 name unknown
+obsid 4 | TRAPEZIUM | ACIS-S | grating HETG | TE | 30.9 ks | events 424555 | proposal 01200028 | released 2000-12-14 | 83.8125 -5.3915 | evt2 name unknown
+obsid 18 | TRAPEZIUMCLUSTER | ACIS-I | grating NONE | TE | 46.8 ks | events 682205 | proposal 01200039 | released 2001-05-19 | 83.8125 -5.3889 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao01/cat2/18/primary/acisf00018N005_evt2.fits.gz
+    image acisf00018N005_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf00018N005_full_img2.fits | 0.2-20.0 keV | 0.4 MB
+obsid 26 | ORIONTRAPEZIUMSFR | HRC-I | grating NONE |  | 62.8 ks | events 2154779 | proposal 01200061 | released 2001-04-06 | 83.8196 -5.3900 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao01/cat2/26/primary/hrcf00026N008_evt2.fits.gz
+    image hrcf00026N008_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image hrcf00026N008_full_img2.fits | 0.2-20.0 keV | 0.7 MB
+obsid 634 | OMC2 | ACIS-I | grating NONE | TE | 88.0 ks | events 518928 | proposal 01200704 | released 2001-01-27 | 83.8332 -5.0916 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao01/cat2/634/primary/acisf00634N005_evt2.fits.gz
+    image acisf00634N005_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf00634N005_full_img2.fits | 0.2-20.0 keV | 0.5 MB
+obsid 1522 | TRAPEZIUMCLUSTER | ACIS-I | grating NONE | TE | 38.4 ks | events 556034 | proposal 01200039 | released 2001-05-19 | 83.8125 -5.3889 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao01/cat2/1522/primary/acisf01522N005_evt2.fits.gz
+    image acisf01522N005_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf01522N005_full_img2.fits | 0.2-20.0 keV | 0.4 MB
+obsid 2548 | ONCFLANKINGFIELDS | ACIS-I | grating NONE | TE | 47.8 ks | events 392605 | proposal 03200289 | released 2003-09-11 | 83.7733 -5.6846 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao03/cat2/2548/primary/acisf02548N004_evt2.fits.gz
+    image acisf02548N004_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf02548N004_full_img2.fits | 0.2-20.0 keV | 0.4 MB
+obsid 2567 | HD37022 | ACIS-S | grating HETG | TE | 46.4 ks | events 759215 | proposal 03200677 | released 2003-01-11 | 83.8187 -5.3898 | evt2 name unknown
+obsid 2568 | HD37022 | ACIS-S | grating HETG | TE | 46.3 ks | events 671712 | proposal 03200677 | released 2003-02-22 | 83.8187 -5.3898 | evt2 name unknown
+obsid 3498 | ORIONNEBULACLUSTER | ACIS-I | grating NONE | TE | 69.0 ks | events 642716 | proposal 04200026 | released 2004-01-29 | 83.8196 -5.3900 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao04/cat2/3498/primary/acisf03498N004_evt2.fits.gz
+    image acisf03498N004_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf03498N004_full_img2.fits | 0.2-20.0 keV | 0.4 MB
+obsid 3744 | ORIONNEBULACLUSTER | ACIS-I | grating NONE | TE | 164.2 ks | events 1496414 | proposal 04200331 | released 2004-01-29 | 83.8196 -5.3900 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao04/cat2/3744/primary/acisf03744N004_evt2.fits.gz
+    image acisf03744N004_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf03744N004_full_img2.fits | 0.2-20.0 keV | 0.4 MB
+obsid 4373 | ORIONNEBULACLUSTER | ACIS-I | grating NONE | TE | 171.5 ks | events 1522614 | proposal 04200331 | released 2004-01-29 | 83.8196 -5.3900 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao04/cat2/4373/primary/acisf04373N004_evt2.fits.gz
+    image acisf04373N004_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf04373N004_full_img2.fits | 0.2-20.0 keV | 0.4 MB
+obsid 4374 | ORIONNEBULACLUSTER | ACIS-I | grating NONE | TE | 169.0 ks | events 1573398 | proposal 04200331 | released 2004-01-29 | 83.8196 -5.3900 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao04/cat2/4374/primary/acisf04374N004_evt2.fits.gz
+    image acisf04374N004_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf04374N004_full_img2.fits | 0.2-20.0 keV | 0.4 MB
+obsid 4395 | ORIONNEBULACLUSTER | ACIS-I | grating NONE | TE | 99.9 ks | events 939345 | proposal 04200331 | released 2004-01-29 | 83.8196 -5.3900 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao04/cat2/4395/primary/acisf04395N004_evt2.fits.gz
+    image acisf04395N004_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf04395N004_full_img2.fits | 0.2-20.0 keV | 0.4 MB
+obsid 4396 | ORIONNEBULACLUSTER | ACIS-I | grating NONE | TE | 164.5 ks | events 1522524 | proposal 04200331 | released 2004-01-29 | 83.8196 -5.3900 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao04/cat2/4396/primary/acisf04396N004_evt2.fits.gz
+    image acisf04396N004_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf04396N004_full_img2.fits | 0.2-20.0 keV | 0.4 MB
+obsid 4473 | ORIONNEBULACLUSTER | ACIS-S | grating HETG | TE | 49.1 ks | events 794219 | proposal 05200040 | released 2005-11-08 | 83.8337 -5.4442 | evt2 name unknown
+obsid 4474 | ORIONNEBULACLUSTER | ACIS-S | grating HETG | TE | 50.6 ks | events 807522 | proposal 05200040 | released 2005-11-26 | 83.8337 -5.4442 | evt2 name unknown
+obsid 6204 | V1118ORI | ACIS-S | grating NONE | TE | 4.7 ks | events 3367 | proposal 06208199 | released 2005-05-10 | 83.6863 -5.5615 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao06/cat2/6204/primary/acisf06204N004_evt2.fits.gz
+    image acisf06204N004_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf06204N004_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 6416 | V1118ORI | ACIS-S | grating NONE | TE | 27.8 ks | events 407931 | proposal 07200317 | released 2007-01-06 | 83.6863 -5.5615 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao07/cat2/6416/primary/acisf06416N003_evt2.fits.gz
+    image acisf06416N003_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf06416N003_full_img2.fits | 0.2-20.0 keV | 0.5 MB
+obsid 6417 | V1118ORI | ACIS-S | grating NONE | TE | 27.1 ks | events 437890 | proposal 07200317 | released 2007-02-24 | 83.6863 -5.5615 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao07/cat2/6417/primary/acisf06417N003_evt2.fits.gz
+    image acisf06417N003_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf06417N003_full_img2.fits | 0.2-20.0 keV | 0.5 MB
+obsid 6418 | V1118ORI | ACIS-S | grating NONE | TE | 29.6 ks | events 561665 | proposal 07200317 | released 2007-04-24 | 83.6863 -5.5615 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao07/cat2/6418/primary/acisf06418N003_evt2.fits.gz
+    image acisf06418N003_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf06418N003_full_img2.fits | 0.2-20.0 keV | 0.5 MB
+obsid 6419 | V1118ORI | ACIS-S | grating NONE | TE | 29.6 ks | events 662793 | proposal 07200317 | released 2007-07-26 | 83.6863 -5.5615 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao07/cat2/6419/primary/acisf06419N003_evt2.fits.gz
+    image acisf06419N003_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf06419N003_full_img2.fits | 0.2-20.0 keV | 0.6 MB
+obsid 7407 | ORIONTRAPEZIUMCLUSTER | ACIS-S | grating HETG | TE | 24.6 ks | events 456808 | proposal 08200053 | released 2007-12-05 | 83.8200 -5.4012 | evt2 name unknown
+obsid 7408 | ORIONTRAPEZIUMCLUSTER | ACIS-S | grating HETG | TE | 24.9 ks | events 420676 | proposal 08200053 | released 2007-12-20 | 83.8217 -5.3879 | evt2 name unknown
+obsid 7409 | ORIONTRAPEZIUMCLUSTER | ACIS-S | grating HETG | TE | 27.1 ks | events 488917 | proposal 08200053 | released 2007-12-27 | 83.8283 -5.3794 | evt2 name unknown
+obsid 7410 | ORIONTRAPEZIUMCLUSTER | ACIS-S | grating HETG | TE | 13.0 ks | events 274855 | proposal 08200053 | released 2007-12-08 | 83.8250 -5.3681 | evt2 name unknown
+obsid 7411 | ORIONTRAPEZIUMCLUSTER | ACIS-S | grating HETG | TE | 24.6 ks | events 483185 | proposal 08200053 | released 2008-07-29 | 83.8217 -5.3588 | evt2 name unknown
+obsid 7412 | ORIONTRAPEZIUMCLUSTER | ACIS-S | grating HETG | TE | 24.8 ks | events 487896 | proposal 08200053 | released 2008-07-29 | 83.8171 -5.3526 | evt2 name unknown
+obsid 8568 | ORIONTRAPEZIUMCLUSTER | ACIS-S | grating HETG | TE | 35.9 ks | events 704757 | proposal 09200064 | released 2008-08-10 | 83.8187 -5.3898 | evt2 name unknown
+obsid 8589 | ORIONTRAPEZIUMCLUSTER | ACIS-S | grating HETG | TE | 50.4 ks | events 1003512 | proposal 09200064 | released 2008-08-10 | 83.8187 -5.3898 | evt2 name unknown
+obsid 8895 | ORIONTRAPEZIUMCLUSTER | ACIS-S | grating HETG | TE | 24.9 ks | events 501932 | proposal 09200065 | released 2008-12-10 | 83.8200 -5.4012 | evt2 name unknown
+obsid 8896 | ORIONTRAPEZIUMCLUSTER | ACIS-S | grating HETG | TE | 22.7 ks | events 457526 | proposal 09200065 | released 2008-12-01 | 83.8217 -5.3879 | evt2 name unknown
+obsid 8897 | ORIONTRAPEZIUMCLUSTER | ACIS-S | grating HETG | TE | 23.6 ks | events 460072 | proposal 09200065 | released 2008-11-16 | 83.8171 -5.3721 | evt2 name unknown
+obsid 8936 | V1118ORI | ACIS-S | grating NONE | TE | 34.7 ks | events 482634 | proposal 09200659 | released 2008-12-28 | 83.6863 -5.5615 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao09/cat2/8936/primary/acisf08936N004_evt2.fits.gz
+    image acisf08936N004_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf08936N004_full_img2.fits | 0.2-20.0 keV | 0.4 MB
+obsid 13637 | ORIONNEBULACLUSTER | ACIS-I | grating NONE | TE | 27.2 ks | events 344225 | proposal 13200630 | released 2013-10-03 | 83.8196 -5.3900 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao13/cat2/13637/primary/acisf13637N003_evt2.fits.gz
+    image acisf13637N003_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf13637N003_full_img2.fits | 0.2-20.0 keV | 0.4 MB
+obsid 14334 | ORIONNEBULACLUSTER | ACIS-I | grating NONE | TE | 8.4 ks | events 105254 | proposal 13200630 | released 2013-10-09 | 83.8196 -5.3900 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao13/cat2/14334/primary/acisf14334N004_evt2.fits.gz
+    image acisf14334N004_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf14334N004_full_img2.fits | 0.2-20.0 keV | 0.4 MB
+obsid 14335 | ORIONNEBULACLUSTER | ACIS-I | grating NONE | TE | 25.9 ks | events 320873 | proposal 13200630 | released 2013-10-05 | 83.8196 -5.3900 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao13/cat2/14335/primary/acisf14335N003_evt2.fits.gz
+    image acisf14335N003_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf14335N003_full_img2.fits | 0.2-20.0 keV | 0.4 MB
+obsid 15546 | ORIONNEBULACLUSTER | ACIS-I | grating NONE | TE | 17.8 ks | events 232905 | proposal 13200630 | released 2013-10-09 | 83.8196 -5.3900 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao13/cat2/15546/primary/acisf15546N003_evt2.fits.gz
+    image acisf15546N003_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf15546N003_full_img2.fits | 0.2-20.0 keV | 0.4 MB
+obsid 17735 | ORIONNEBULACLUSTER | ACIS-I | grating NONE | TE | 88.9 ks | events 771049 | proposal 17200180 | released 2017-11-28 | 83.8196 -5.3900 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao17/cat2/17735/primary/acisf17735N002_evt2.fits.gz
+    image acisf17735N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf17735N002_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 21854 | 2MASSJ05351918-0518393 | ACIS-S | grating NONE | TE | 19.8 ks | events 320637 | proposal 19208655 | released 2018-12-07 | 83.8312 -5.3106 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao19/cat2/21854/primary/acisf21854N003_evt2.fits.gz
+    image acisf21854N003_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf21854N003_full_img2.fits | 0.2-20.0 keV | 0.4 MB
+obsid 21855 | 2MASSJ05351918-0518393 | ACIS-S | grating NONE | TE | 19.9 ks | events 285803 | proposal 19208655 | released 2018-12-13 | 83.8312 -5.3106 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao19/cat2/21855/primary/acisf21855N003_evt2.fits.gz
+    image acisf21855N003_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf21855N003_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 22334 | ORIONNEBULACLUSTER | ACIS-S | grating HETG | TE | 24.7 ks | events 351968 | proposal 21200414 | released 2020-01-02 | 83.8187 -5.3898 | evt2 name unknown
+obsid 22335 | ORIONNEBULACLUSTER | ACIS-S | grating HETG | TE | 29.7 ks | events 416728 | proposal 21200414 | released 2020-01-10 | 83.8187 -5.3898 | evt2 name unknown
+obsid 22336 | ORIONNEBULACLUSTER | ACIS-S | grating HETG | TE | 25.6 ks | events 370547 | proposal 21200414 | released 2019-12-25 | 83.8187 -5.3898 | evt2 name unknown
+obsid 22337 | ORIONNEBULACLUSTER | ACIS-S | grating HETG | TE | 37.7 ks | events 534788 | proposal 21200414 | released 2019-12-16 | 83.8187 -5.3898 | evt2 name unknown
+obsid 22338 | ORIONNEBULACLUSTER | ACIS-S | grating HETG | TE | 39.1 ks | events 565573 | proposal 21200414 | released 2020-01-02 | 83.8187 -5.3898 | evt2 name unknown
+obsid 22339 | ORIONNEBULACLUSTER | ACIS-S | grating HETG | TE | 31.6 ks | events 449477 | proposal 21200414 | released 2019-12-30 | 83.8187 -5.3898 | evt2 name unknown
+obsid 22340 | ORIONNEBULACLUSTER | ACIS-S | grating HETG | TE | 25.6 ks | events 431857 | proposal 21200414 | released 2020-10-16 | 83.8187 -5.3898 | evt2 name unknown
+obsid 22341 | ORIONNEBULACLUSTER | ACIS-S | grating HETG | TE | 32.1 ks | events 512126 | proposal 21200414 | released 2020-04-30 | 83.8187 -5.3898 | evt2 name unknown
+obsid 22342 | ORIONNEBULACLUSTER | ACIS-S | grating HETG | TE | 34.5 ks | events 537443 | proposal 21200414 | released 2020-10-21 | 83.8187 -5.3898 | evt2 name unknown
+obsid 22343 | ORIONNEBULACLUSTER | ACIS-S | grating HETG | TE | 24.7 ks | events 345877 | proposal 21200414 | released 2019-12-16 | 83.8187 -5.3898 | evt2 name unknown
+obsid 22892 | ORIONNEBULACLUSTER | ACIS-S | grating HETG | TE | 30.7 ks | events 438764 | proposal 21200414 | released 2020-01-02 | 83.8187 -5.3898 | evt2 name unknown
+obsid 22893 | ORIONNEBULACLUSTER | ACIS-S | grating HETG | TE | 24.7 ks | events 372481 | proposal 21200414 | released 2019-12-09 | 83.8187 -5.3898 | evt2 name unknown
+obsid 22904 | ORIONNEBULACLUSTER | ACIS-S | grating HETG | TE | 36.6 ks | events 542561 | proposal 21200414 | released 2019-12-12 | 83.8187 -5.3898 | evt2 name unknown
+obsid 22993 | ORIONNEBULACLUSTER | ACIS-S | grating HETG | TE | 24.6 ks | events 391072 | proposal 21200414 | released 2020-10-26 | 83.8187 -5.3898 | evt2 name unknown
+obsid 22994 | ORIONNEBULACLUSTER | ACIS-S | grating HETG | TE | 24.7 ks | events 349568 | proposal 21200414 | released 2019-12-09 | 83.8187 -5.3898 | evt2 name unknown
+obsid 22995 | ORIONNEBULACLUSTER | ACIS-S | grating HETG | TE | 38.7 ks | events 551306 | proposal 21200414 | released 2020-01-02 | 83.8187 -5.3898 | evt2 name unknown
+obsid 22996 | ORIONNEBULACLUSTER | ACIS-S | grating HETG | TE | 26.7 ks | events 398718 | proposal 21200414 | released 2020-01-10 | 83.8187 -5.3898 | evt2 name unknown
+obsid 22997 | ORIONNEBULACLUSTER | ACIS-S | grating HETG | TE | 26.6 ks | events 430158 | proposal 21200414 | released 2020-10-19 | 83.8187 -5.3898 | evt2 name unknown
+obsid 22998 | ORIONNEBULACLUSTER | ACIS-S | grating HETG | TE | 23.1 ks | events 358041 | proposal 21200414 | released 2020-11-05 | 83.8187 -5.3898 | evt2 name unknown
+obsid 22999 | ORIONNEBULACLUSTER | ACIS-S | grating HETG | TE | 35.6 ks | events 552964 | proposal 21200414 | released 2020-11-18 | 83.8187 -5.3898 | evt2 name unknown
+obsid 23000 | ORIONNEBULACLUSTER | ACIS-S | grating HETG | TE | 42.5 ks | events 601479 | proposal 21200414 | released 2020-01-02 | 83.8187 -5.3898 | evt2 name unknown
+obsid 23001 | ORIONNEBULACLUSTER | ACIS-S | grating HETG | TE | 25.6 ks | events 411230 | proposal 21200414 | released 2020-08-03 | 83.8187 -5.3898 | evt2 name unknown
+obsid 23002 | ORIONNEBULACLUSTER | ACIS-S | grating HETG | TE | 30.7 ks | events 412342 | proposal 21200414 | released 2020-12-11 | 83.8187 -5.3898 | evt2 name unknown
+obsid 23003 | ORIONNEBULACLUSTER | ACIS-S | grating HETG | TE | 24.7 ks | events 348705 | proposal 21200414 | released 2019-12-25 | 83.8187 -5.3898 | evt2 name unknown
+obsid 23004 | ORIONNEBULACLUSTER | ACIS-S | grating HETG | TE | 32.1 ks | events 437011 | proposal 21200414 | released 2020-12-18 | 83.8187 -5.3898 | evt2 name unknown
+obsid 23005 | ORIONNEBULACLUSTER | ACIS-S | grating HETG | TE | 24.7 ks | events 374201 | proposal 21200414 | released 2020-01-10 | 83.8187 -5.3898 | evt2 name unknown
+obsid 23006 | ORIONNEBULACLUSTER | ACIS-S | grating HETG | TE | 24.7 ks | events 372764 | proposal 21200414 | released 2019-12-16 | 83.8187 -5.3898 | evt2 name unknown
+obsid 23007 | ORIONNEBULACLUSTER | ACIS-S | grating HETG | TE | 37.4 ks | events 537314 | proposal 21200414 | released 2020-01-02 | 83.8187 -5.3898 | evt2 name unknown
+obsid 23008 | ORIONNEBULACLUSTER | ACIS-S | grating HETG | TE | 47.4 ks | events 694169 | proposal 21200414 | released 2019-12-03 | 83.8187 -5.3898 | evt2 name unknown
+obsid 23009 | ORIONNEBULACLUSTER | ACIS-S | grating HETG | TE | 25.0 ks | events 402779 | proposal 21200414 | released 2020-07-31 | 83.8187 -5.3898 | evt2 name unknown
+obsid 23010 | ORIONNEBULACLUSTER | ACIS-S | grating HETG | TE | 25.7 ks | events 387321 | proposal 21200414 | released 2020-08-03 | 83.8187 -5.3898 | evt2 name unknown
+obsid 23011 | ORIONNEBULACLUSTER | ACIS-S | grating HETG | TE | 51.7 ks | events 810034 | proposal 21200414 | released 2020-04-23 | 83.8187 -5.3898 | evt2 name unknown
+obsid 23012 | ORIONNEBULACLUSTER | ACIS-S | grating HETG | TE | 10.8 ks | events 177777 | proposal 21200414 | released 2020-04-03 | 83.8187 -5.3898 | evt2 name unknown
+obsid 23087 | ORIONNEBULACLUSTER | ACIS-S | grating HETG | TE | 39.5 ks | events 570258 | proposal 21200414 | released 2019-12-09 | 83.8187 -5.3898 | evt2 name unknown
+obsid 23097 | ORIONNEBULACLUSTER | ACIS-S | grating HETG | TE | 35.9 ks | events 527183 | proposal 21200414 | released 2019-12-16 | 83.8187 -5.3898 | evt2 name unknown
+obsid 23104 | ORIONNEBULACLUSTER | ACIS-S | grating HETG | TE | 24.7 ks | events 377254 | proposal 21200414 | released 2019-12-25 | 83.8187 -5.3898 | evt2 name unknown
+obsid 23114 | ORIONNEBULACLUSTER | ACIS-S | grating HETG | TE | 37.6 ks | events 514490 | proposal 21200414 | released 2020-01-10 | 83.8187 -5.3898 | evt2 name unknown
+obsid 23115 | ORIONNEBULACLUSTER | ACIS-S | grating HETG | TE | 29.7 ks | events 406088 | proposal 21200414 | released 2020-01-10 | 83.8187 -5.3898 | evt2 name unknown
+obsid 23120 | ORIONNEBULACLUSTER | ACIS-S | grating HETG | TE | 39.5 ks | events 577217 | proposal 21200414 | released 2020-01-17 | 83.8187 -5.3898 | evt2 name unknown
+obsid 23206 | ORIONNEBULACLUSTER | ACIS-S | grating HETG | TE | 17.7 ks | events 287356 | proposal 21200414 | released 2020-04-03 | 83.8187 -5.3898 | evt2 name unknown
+obsid 23207 | ORIONNEBULACLUSTER | ACIS-S | grating HETG | TE | 14.8 ks | events 236249 | proposal 21200414 | released 2020-04-06 | 83.8187 -5.3898 | evt2 name unknown
+obsid 23208 | ORIONNEBULACLUSTER | ACIS-S | grating HETG | TE | 14.8 ks | events 235583 | proposal 21200414 | released 2020-04-07 | 83.8187 -5.3898 | evt2 name unknown
+obsid 23233 | ORIONNEBULACLUSTER | ACIS-S | grating HETG | TE | 34.6 ks | events 539045 | proposal 21200414 | released 2020-05-04 | 83.8187 -5.3898 | evt2 name unknown
+obsid 24622 | ORIONNEBULACLUSTER | ACIS-S | grating HETG | TE | 24.6 ks | events 345791 | proposal 21200414 | released 2020-11-24 | 83.8187 -5.3898 | evt2 name unknown
+obsid 24623 | ORIONNEBULACLUSTER | ACIS-S | grating HETG | TE | 24.7 ks | events 365848 | proposal 21200414 | released 2020-12-02 | 83.8187 -5.3898 | evt2 name unknown
+obsid 24624 | ORIONNEBULACLUSTER | ACIS-S | grating HETG | TE | 29.7 ks | events 405897 | proposal 21200414 | released 2020-12-11 | 83.8187 -5.3898 | evt2 name unknown
+obsid 24829 | ORIONNEBULACLUSTER | ACIS-S | grating HETG | TE | 26.5 ks | events 378272 | proposal 21200414 | released 2020-12-02 | 83.8187 -5.3898 | evt2 name unknown
+obsid 24830 | ORIONNEBULACLUSTER | ACIS-S | grating HETG | TE | 26.5 ks | events 369987 | proposal 21200414 | released 2020-11-24 | 83.8187 -5.3898 | evt2 name unknown
+obsid 24831 | ORIONNEBULACLUSTER | ACIS-S | grating HETG | TE | 30.7 ks | events 430052 | proposal 21200414 | released 2021-01-06 | 83.8187 -5.3898 | evt2 name unknown
+obsid 24832 | ORIONNEBULACLUSTER | ACIS-S | grating HETG | TE | 27.6 ks | events 457899 | proposal 21200414 | released 2020-10-20 | 83.8187 -5.3898 | evt2 name unknown
+obsid 24834 | ORIONNEBULACLUSTER | ACIS-S | grating HETG | TE | 26.9 ks | events 415419 | proposal 21200414 | released 2020-10-19 | 83.8187 -5.3898 | evt2 name unknown
+obsid 24842 | ORIONNEBULACLUSTER | ACIS-S | grating HETG | TE | 29.6 ks | events 461265 | proposal 21200414 | released 2020-10-23 | 83.8187 -5.3898 | evt2 name unknown
+obsid 24873 | ORIONNEBULACLUSTER | ACIS-S | grating HETG | TE | 24.7 ks | events 344305 | proposal 21200414 | released 2020-12-01 | 83.8187 -5.3898 | evt2 name unknown
+obsid 24874 | ORIONNEBULACLUSTER | ACIS-S | grating HETG | TE | 25.7 ks | events 362346 | proposal 21200414 | released 2020-12-01 | 83.8187 -5.3898 | evt2 name unknown
+obsid 24906 | ORIONNEBULACLUSTER | ACIS-S | grating HETG | TE | 28.7 ks | events 401540 | proposal 21200414 | released 2021-01-06 | 83.8187 -5.3898 | evt2 name unknown
+obsid 26974 | ORIONNEBULACLUSTER | ACIS-I | grating NONE | TE | 10.9 ks | events 59148 | proposal 24200395 | released 2024-06-22 | 83.8196 -5.3900 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao24/cat2/26974/primary/acisf26974N002_evt2.fits.gz
+    image acisf26974N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf26974N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 26975 | ORIONNEBULACLUSTER | ACIS-I | grating NONE | TE | 12.9 ks | events 64131 | proposal 24200395 | released 2025-08-26 | 83.8196 -5.3900 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao25/cat2/26975/primary/acisf26975N001_evt2.fits.gz
+    image acisf26975N001_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf26975N001_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 27059 | ORIONNEBULACLUSTER | ACIS-I | grating NONE | TE | 10.0 ks | events 56942 | proposal 24200395 | released 2024-06-22 | 83.8196 -5.3900 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao24/cat2/27059/primary/acisf27059N002_evt2.fits.gz
+    image acisf27059N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf27059N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 28497 | ORIONNEBULACLUSTER | ACIS-I | grating NONE | TE | 15.9 ks | events 81664 | proposal 24200395 | released 2025-08-26 | 83.8196 -5.3900 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao25/cat2/28497/primary/acisf28497N001_evt2.fits.gz
+    image acisf28497N001_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf28497N001_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 29116 | ORIONNEBULACLUSTER | ACIS-I | grating NONE | TE | 13.9 ks | events 74481 | proposal 24200395 | released 2024-06-22 | 83.8196 -5.3900 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao24/cat2/29116/primary/acisf29116N002_evt2.fits.gz
+    image acisf29116N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf29116N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 29117 | ORIONNEBULACLUSTER | ACIS-I | grating NONE | TE | 11.9 ks | events 61016 | proposal 24200395 | released 2024-06-22 | 83.8196 -5.3900 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao24/cat2/29117/primary/acisf29117N003_evt2.fits.gz
+    image acisf29117N003_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf29117N003_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 29127 | ORIONNEBULACLUSTER | ACIS-I | grating NONE | TE | 11.3 ks | events 64372 | proposal 24200395 | released 2024-06-22 | 83.8196 -5.3900 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao24/cat2/29127/primary/acisf29127N002_evt2.fits.gz
+    image acisf29127N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf29127N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 29128 | ORIONNEBULACLUSTER | ACIS-I | grating NONE | TE | 9.5 ks | events 47222 | proposal 24200395 | released 2024-06-22 | 83.8196 -5.3900 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao24/cat2/29128/primary/acisf29128N002_evt2.fits.gz
+    image acisf29128N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf29128N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 30707 | ORIONNEBULACLUSTER | ACIS-I | grating NONE | TE | 11.0 ks | events 56492 | proposal 24200395 | released 2025-08-26 | 83.8196 -5.3900 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao25/cat2/30707/primary/acisf30707N001_evt2.fits.gz
+    image acisf30707N001_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf30707N001_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 30708 | ORIONNEBULACLUSTER | ACIS-I | grating NONE | TE | 12.9 ks | events 67535 | proposal 24200395 | released 2025-08-26 | 83.8196 -5.3900 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao25/cat2/30708/primary/acisf30708N001_evt2.fits.gz
+    image acisf30708N001_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf30708N001_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 30741 | ORIONNEBULACLUSTER | ACIS-I | grating NONE | TE | 14.9 ks | events 71434 | proposal 24200395 | released 2025-08-26 | 83.8196 -5.3900 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao25/cat2/30741/primary/acisf30741N001_evt2.fits.gz
+    image acisf30741N001_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf30741N001_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 31045 | ORIONNEBULASNAPSHOT1 | ACIS-I | grating NONE | TE | 11.9 ks | events 54157 | proposal 27200169 | released 2026-08-01 | 83.8196 -5.3792 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao27/cat2/31045/primary/acisf31045N001_evt2.fits.gz
+    image acisf31045N001_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf31045N001_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 31046 | ORIONNEBULASNAPSHOT2 | ACIS-I | grating NONE | TE | 11.8 ks | events 55058 | proposal 27200169 | released 2026-08-02 | 83.8196 -5.3792 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao27/cat2/31046/primary/acisf31046N001_evt2.fits.gz
+    image acisf31046N001_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf31046N001_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 31047 | ORIONNEBULASNAPSHOT3 | ACIS-I | grating NONE | TE | 10.9 ks | events 48368 | proposal 27200169 | released 2026-08-02 | 83.8196 -5.3792 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao27/cat2/31047/primary/acisf31047N001_evt2.fits.gz
+    image acisf31047N001_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf31047N001_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 31048 | ORIONNEBULASNAPSHOT4 | ACIS-I | grating NONE | TE | 11.9 ks | events 52076 | proposal 27200169 | released 2026-08-05 | 83.8196 -5.3792 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao27/cat2/31048/primary/acisf31048N001_evt2.fits.gz
+    image acisf31048N001_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf31048N001_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 31049 | ORIONNEBULASNAPSHOT5 | ACIS-I | grating NONE | TE | 11.8 ks | events 66928 | proposal 27200169 | released 2026-08-05 | 83.8196 -5.3792 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao27/cat2/31049/primary/acisf31049N001_evt2.fits.gz
+    image acisf31049N001_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf31049N001_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 31050 | ORIONNEBULASNAPSHOT6 | ACIS-I | grating NONE | TE | 10.9 ks | events 50633 | proposal 27200169 | released 2026-08-05 | 83.8196 -5.3792 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao27/cat2/31050/primary/acisf31050N001_evt2.fits.gz
+    image acisf31050N001_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf31050N001_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+imaging exposure without a grating: 1687.9 ks in total
+== Hubble and Webb (MAST)
+30450 rows from MAST, 5368 public single-filter level-3 image mosaics
+HST|11038 | NGC1976 | WFPC2/PC | 11 filters | total 2.6 GB | detection 0.30 GB 560 s, FR680N 0.22 GB 40 s, FR533N 0.26 GB 40 s, FR868N 0.26 GB 40 s, F502N 0.22 GB 80 s, F547M 0.22 GB 80 s, F656N 0.22 GB 80 s, F658N 0.22 GB 80 s, F673N 0.22 GB 80 s, F791W 0.22 GB 80 s, F953N 0.22 GB 80 s
+HST|12543 | ORION-INNER | WFC3/UVIS | 9 filters | total 2.1 GB | detection 0.33 GB 9766 s, F469N 0.22 GB 1778 s, F487N 0.22 GB 818 s, F502N 0.22 GB 696 s, F547M 0.22 GB 696 s, F656N 0.22 GB 698 s, F658N 0.22 GB 1204 s, F673N 0.22 GB 1400 s, F953N 0.22 GB 826 s
+HST|None | ORION-INNER | WFC3/UVIS | 8 filters | total 30.8 GB | F469N 3.86 GB 1778 s, F487N 3.86 GB 818 s, F502N 3.86 GB 696 s, F547M 3.86 GB 696 s, F656N 3.86 GB 9393 s, F658N 3.86 GB 1204 s, F673N 3.86 GB 1400 s, F953N 3.86 GB 826 s
+HST|9141 | NGC1976-S | WFPC2/PC | 8 filters | total 1.1 GB | detection 0.14 GB 6600 s, F437N 0.14 GB 4400 s, F469N 0.14 GB 4400 s, F487N 0.14 GB 1050 s, F502N 0.14 GB 480 s, F547M 0.14 GB 690 s, F656N 0.14 GB 280 s, F658N 0.14 GB 400 s
+HST|10921 | ORION-S-COPY | WFPC2/PC | 7 filters | total 2.0 GB | detection 0.44 GB 2250 s, F502N 0.26 GB 300 s, F547M 0.26 GB 90 s, F631N 0.26 GB 800 s, F656N 0.26 GB 180 s, F658N 0.26 GB 400 s, F673N 0.26 GB 480 s
+HST|5469 | MULTIPLE | WFPC2/PC | 7 filters | total 5.1 GB | detection 1.61 GB 7560 s, F502N 0.59 GB 1680 s, F547M 0.59 GB 360 s, F631N 0.59 GB 1440 s, F656N 0.59 GB 720 s, F658N 0.59 GB 1680 s, F673N 0.59 GB 1680 s
+HST|8121 | NGC1976-SE | WFPC2/PC | 7 filters | total 2.0 GB | detection 0.43 GB 6810 s, F502N 0.26 GB 780 s, F547M 0.26 GB 150 s, F631N 0.26 GB 1800 s, F656N 0.26 GB 780 s, F658N 0.26 GB 1500 s, F673N 0.26 GB 1800 s
+HST|10921 | HH528 | WFPC2/PC | 7 filters | total 2.0 GB | detection 0.44 GB 2300 s, F502N 0.26 GB 400 s, F547M 0.26 GB 120 s, F631N 0.26 GB 600 s, F656N 0.26 GB 240 s, F658N 0.26 GB 400 s, F673N 0.26 GB 540 s
+HST|8121 | NGC1976-NW | WFPC2/PC | 7 filters | total 2.0 GB | detection 0.44 GB 6810 s, F502N 0.26 GB 780 s, F547M 0.26 GB 150 s, F631N 0.26 GB 1800 s, F656N 0.26 GB 780 s, F658N 0.26 GB 1500 s, F673N 0.26 GB 1800 s
+HST|10246 | ORIMOS-9 | ACS/WFC | 6 filters | total 1.7 GB | detection 0.29 GB 1915 s, F435W 0.29 GB 420 s, F555W 0.29 GB 385 s, F658N 0.29 GB 340 s, F775W 0.29 GB 385 s, F850LP 0.29 GB 385 s
+HST|10246 | ORIMOS-10 | ACS/WFC | 6 filters | total 1.7 GB | detection 0.29 GB 1915 s, F435W 0.29 GB 420 s, F555W 0.29 GB 385 s, F658N 0.29 GB 340 s, F775W 0.29 GB 385 s, F850LP 0.29 GB 385 s
+HST|10246 | ORIMOS-11 | ACS/WFC | 6 filters | total 1.7 GB | detection 0.29 GB 1915 s, F435W 0.29 GB 420 s, F555W 0.29 GB 385 s, F658N 0.29 GB 340 s, F775W 0.29 GB 385 s, F850LP 0.29 GB 385 s
+HST|10246 | ORIMOS-68 | ACS/WFC | 6 filters | total 1.7 GB | detection 0.29 GB 1915 s, F435W 0.29 GB 420 s, F555W 0.29 GB 385 s, F658N 0.29 GB 340 s, F775W 0.29 GB 385 s, F850LP 0.29 GB 385 s
+HST|10246 | ORIMOS-69 | ACS/WFC | 6 filters | total 1.7 GB | detection 0.29 GB 1845 s, F435W 0.29 GB 420 s, F555W 0.29 GB 385 s, F658N 0.29 GB 270 s, F775W 0.29 GB 385 s, F850LP 0.29 GB 385 s
+HST|13419 | M42-BOX1-TRAPEZIUM-SOUTH | WFC3/UVIS | 6 filters | total 1.5 GB | detection 0.26 GB 5522 s, F225W 0.26 GB 1739 s, F280N 0.26 GB 3261 s, F336W 0.26 GB 1739 s, F373N 0.26 GB 2261 s, F656N 0.26 GB 1739 s
+HST|7114 | TRAPEZIUM-ERO | NICMOS/NIC3 | 6 filters | total 0.0 GB | F164N 0.00 GB 384 s, F166N 0.00 GB 384 s, F187N 0.00 GB 384 s, F190N 0.00 GB 256 s, F212N 0.00 GB 384 s, F215N 0.00 GB 384 s
+HST|5469 | NGC1976-LV3 | WFPC2/PC | 6 filters | total 1.6 GB | F502N 0.26 GB 100 s, F547M 0.26 GB 30 s, F631N 0.26 GB 100 s, F656N 0.26 GB 60 s, F658N 0.26 GB 100 s, F673N 0.26 GB 100 s
+HST|5469 | NGC1976-HST1 | WFPC2/PC | 6 filters | total 1.6 GB | F502N 0.26 GB 180 s, F547M 0.26 GB 30 s, F631N 0.26 GB 100 s, F656N 0.26 GB 60 s, F658N 0.26 GB 180 s, F673N 0.26 GB 180 s
+HST|10246 | ORIMOS-67 | ACS/WFC | 6 filters | total 1.7 GB | detection 0.29 GB 1915 s, F435W 0.29 GB 420 s, F555W 0.29 GB 385 s, F658N 0.29 GB 340 s, F775W 0.29 GB 385 s, F850LP 0.29 GB 385 s
+HST|5469 | NGC1976-HST3 | WFPC2/PC | 6 filters | total 1.6 GB | F502N 0.26 GB 100 s, F547M 0.26 GB 30 s, F631N 0.26 GB 100 s, F656N 0.26 GB 60 s, F658N 0.26 GB 100 s, F673N 0.26 GB 100 s
+HST|6603 | NGC1976-SW | WFPC2/PC | 6 filters | total 3.0 GB | detection 0.82 GB 5690 s, F606W-POLQ 0.49 GB 2400 s, F547M 0.49 GB 30 s, F606W 0.22 GB 300 s, F656N 0.49 GB 1600 s, F814W 0.49 GB 1660 s
+HST|12543 | ORION-QUADS | WFC3/UVIS | 6 filters | total 0.3 GB | detection ?, FQ436N 0.05 GB 1650 s, FQ437N 0.05 GB 2550 s, FQ575N 0.05 GB 2400 s, FQ672N 0.05 GB 2550 s, FQ674N 0.05 GB 1800 s
+HST|7231 | BN-IRC2 | NICMOS/NIC3 | 6 filters | total 0.0 GB | F164N 0.00 GB 352 s, F166N 0.00 GB 352 s, F187N 0.00 GB 112 s, F190N 0.00 GB 112 s, F212N 0.00 GB 224 s, F215N 0.00 GB 224 s
+HST|13419 | M42-BOX3-TRAPEZIUM-NORTH | WFC3/UVIS | 6 filters | total 1.5 GB | detection 0.26 GB 5522 s, F225W 0.26 GB 1739 s, F280N 0.26 GB 3261 s, F336W 0.26 GB 1739 s, F373N 0.26 GB 2261 s, F656N 0.26 GB 1739 s
+HST|5469 | NGC1976-HST10 | WFPC2/PC | 6 filters | total 1.6 GB | F502N 0.26 GB 180 s, F547M 0.26 GB 30 s, F631N 0.26 GB 180 s, F656N 0.26 GB 60 s, F658N 0.26 GB 180 s, F673N 0.26 GB 180 s
+HST|13419 | M42-BOX2-TRAPEZIUM-WEST | WFC3/UVIS | 6 filters | total 1.3 GB | detection 0.26 GB 5522 s, F225W 0.22 GB 1739 s, F280N 0.22 GB 3261 s, F336W 0.22 GB 1739 s, F373N 0.22 GB 2261 s, F656N 0.22 GB 1739 s
+HST|10246 | ORIMOS-70 | ACS/WFC | 6 filters | total 1.7 GB | detection 0.29 GB 1915 s, F435W 0.29 GB 420 s, F555W 0.29 GB 385 s, F658N 0.29 GB 340 s, F775W 0.29 GB 385 s, F850LP 0.29 GB 385 s
+HST|8324 | ANY | WFPC2/PC | 6 filters | total 1.2 GB | detection 0.16 GB 3320 s, F502N 0.26 GB 600 s, F631N 0.26 GB 1200 s, F656N 0.17 GB 1200 s, F658N 0.16 GB 520 s, F673N 0.24 GB 1000 s
+HST|10246 | ORIMOS-8 | ACS/WFC | 6 filters | total 1.7 GB | detection 0.29 GB 1915 s, F435W 0.29 GB 420 s, F555W 0.29 GB 385 s, F658N 0.29 GB 340 s, F775W 0.29 GB 385 s, F850LP 0.29 GB 385 s
+HST|7114 | P114-426 | NICMOS/NIC1 | 6 filters | total 0.0 GB | F110W 0.00 GB 384 s, F160W 0.00 GB 384 s, F164N 0.00 GB 288 s, F166N 0.00 GB 288 s, F187N 0.00 GB 288 s, F190N 0.00 GB 288 s
+HST|10246 | ORIMOS-12 | ACS/WFC | 6 filters | total 1.4 GB | detection 0.29 GB 1915 s, F435W 0.21 GB 420 s, F555W 0.21 GB 385 s, F658N 0.21 GB 340 s, F775W 0.21 GB 385 s, F850LP 0.21 GB 385 s
+HST|10246 | ORIMOS-22 | ACS/WFC | 6 filters | total 1.7 GB | detection 0.29 GB 1915 s, F435W 0.29 GB 420 s, F555W 0.29 GB 385 s, F658N 0.29 GB 340 s, F775W 0.29 GB 385 s, F850LP 0.29 GB 385 s
+HST|10246 | ORIMOS-23 | ACS/WFC | 6 filters | total 1.7 GB | detection 0.29 GB 1915 s, F435W 0.29 GB 420 s, F555W 0.29 GB 385 s, F658N 0.29 GB 340 s, F775W 0.29 GB 385 s, F850LP 0.29 GB 385 s
+HST|10246 | ORIMOS-21 | ACS/WFC | 6 filters | total 1.7 GB | detection 0.29 GB 1915 s, F435W 0.29 GB 420 s, F555W 0.29 GB 385 s, F658N 0.29 GB 340 s, F775W 0.29 GB 385 s, F850LP 0.29 GB 385 s
+HST|10246 | ORIMOS-66 | ACS/WFC | 6 filters | total 1.7 GB | detection 0.29 GB 1915 s, F435W 0.29 GB 420 s, F555W 0.29 GB 385 s, F658N 0.29 GB 340 s, F775W 0.29 GB 385 s, F850LP 0.29 GB 385 s
+HST|10246 | ORIMOS-24 | ACS/WFC | 6 filters | total 1.7 GB | detection 0.29 GB 1915 s, F435W 0.29 GB 420 s, F555W 0.29 GB 385 s, F658N 0.29 GB 340 s, F775W 0.29 GB 385 s, F850LP 0.29 GB 385 s
+HST|10246 | ORIMOS-50 | ACS/WFC | 6 filters | total 1.4 GB | detection 0.29 GB 1915 s, F435W 0.21 GB 420 s, F555W 0.21 GB 385 s, F658N 0.21 GB 340 s, F775W 0.21 GB 385 s, F850LP 0.21 GB 385 s
+HST|10246 | ORIMOS-49 | ACS/WFC | 6 filters | total 1.4 GB | detection 0.29 GB 1915 s, F435W 0.21 GB 420 s, F555W 0.21 GB 385 s, F658N 0.21 GB 340 s, F775W 0.21 GB 385 s, F850LP 0.21 GB 385 s
+HST|10921 | HH540-WFALL-WFPC2 | WFPC2/PC | 6 filters | total 1.0 GB | detection 0.21 GB 3280 s, F502N 0.15 GB 1000 s, F547M 0.15 GB 80 s, F656N 0.15 GB 600 s, F658N 0.15 GB 800 s, F673N 0.15 GB 800 s
+HST|10246 | ORIMOS-20 | ACS/WFC | 6 filters | total 1.4 GB | detection 0.29 GB 1470 s, F435W 0.29 GB 315 s, F555W 0.29 GB 385 s, F658N 0.00 GB 0 s, F775W 0.29 GB 385 s, F850LP 0.29 GB 385 s
+HST|10246 | ORIMOS-48 | ACS/WFC | 6 filters | total 1.7 GB | detection 0.29 GB 1915 s, F435W 0.29 GB 420 s, F555W 0.29 GB 385 s, F658N 0.29 GB 340 s, F775W 0.29 GB 385 s, F850LP 0.29 GB 385 s
+HST|10246 | ORIMOS-25 | ACS/WFC | 6 filters | total 1.7 GB | detection 0.29 GB 1915 s, F435W 0.29 GB 420 s, F555W 0.29 GB 385 s, F658N 0.29 GB 340 s, F775W 0.29 GB 385 s, F850LP 0.29 GB 385 s
+HST|10246 | ORIMOS-71 | ACS/WFC | 6 filters | total 1.7 GB | detection 0.29 GB 1915 s, F435W 0.29 GB 420 s, F555W 0.29 GB 385 s, F658N 0.29 GB 340 s, F775W 0.29 GB 385 s, F850LP 0.29 GB 385 s
+HST|10246 | ORIMOS-51 | ACS/WFC | 6 filters | total 1.4 GB | detection 0.29 GB 1915 s, F435W 0.21 GB 420 s, F555W 0.21 GB 385 s, F658N 0.21 GB 340 s, F775W 0.21 GB 385 s, F850LP 0.21 GB 385 s
+HST|10246 | ORIMOS-7 | ACS/WFC | 6 filters | total 1.7 GB | detection 0.29 GB 1915 s, F435W 0.29 GB 420 s, F555W 0.29 GB 385 s, F658N 0.29 GB 340 s, F775W 0.29 GB 385 s, F850LP 0.29 GB 385 s
+HST|10246 | ORIMOS-13 | ACS/WFC | 6 filters | total 1.4 GB | detection 0.29 GB 1915 s, F435W 0.21 GB 420 s, F555W 0.21 GB 385 s, F658N 0.21 GB 340 s, F775W 0.21 GB 385 s, F850LP 0.21 GB 385 s
+HST|10246 | ORIMOS-47 | ACS/WFC | 6 filters | total 1.7 GB | detection 0.29 GB 1915 s, F435W 0.29 GB 420 s, F555W 0.29 GB 385 s, F658N 0.29 GB 340 s, F775W 0.29 GB 385 s, F850LP 0.29 GB 385 s
+HST|10246 | ORIMOS-65 | ACS/WFC | 6 filters | total 1.7 GB | detection 0.29 GB 1915 s, F435W 0.29 GB 420 s, F555W 0.29 GB 385 s, F658N 0.29 GB 340 s, F775W 0.29 GB 385 s, F850LP 0.29 GB 385 s
+HST|8120 | NGC1976-167-317A | WFPC2/PC | 6 filters | total 1.6 GB | detection 0.34 GB 3900 s, F502N 0.25 GB 1100 s, F547M 0.25 GB 120 s, F656N 0.25 GB 580 s, F658N 0.25 GB 1100 s, F673N 0.25 GB 1000 s
+HST|10246 | ORIMOS-19 | ACS/WFC | 6 filters | total 2.0 GB | detection 0.33 GB 1915 s, F435W 0.33 GB 420 s, F555W 0.33 GB 385 s, F658N 0.33 GB 340 s, F775W 0.33 GB 385 s, F850LP 0.33 GB 385 s
+HST|7367 | NGC1976-DARK-NIC-FIELD-ONE | WFPC2/PC | 6 filters | total 1.4 GB | detection 0.28 GB 3220 s, F502N 0.21 GB 520 s, F547M 0.25 GB 200 s, F656N 0.21 GB 520 s, F658N 0.21 GB 1000 s, F673N 0.21 GB 1000 s
+HST|7514 | ANY | WFPC2/PC | 6 filters | total 1.6 GB | detection 0.35 GB 7540 s, F502N 0.26 GB 4000 s, F555W 0.23 GB 4 s, F547M 0.26 GB 430 s, F656N 0.26 GB 860 s, F658N 0.26 GB 2250 s
+HST|10246 | ORIMOS-46 | ACS/WFC | 6 filters | total 1.7 GB | detection 0.29 GB 1915 s, F435W 0.29 GB 420 s, F555W 0.29 GB 385 s, F658N 0.29 GB 340 s, F775W 0.29 GB 385 s, F850LP 0.29 GB 385 s
+HST|10246 | ORIMOS-26 | ACS/WFC | 6 filters | total 1.7 GB | detection 0.29 GB 1915 s, F435W 0.29 GB 420 s, F555W 0.29 GB 385 s, F658N 0.29 GB 340 s, F775W 0.29 GB 385 s, F850LP 0.29 GB 385 s
+HST|10246 | ORIMOS-72 | ACS/WFC | 6 filters | total 1.7 GB | detection 0.29 GB 1915 s, F435W 0.29 GB 420 s, F555W 0.29 GB 385 s, F658N 0.29 GB 340 s, F775W 0.29 GB 385 s, F850LP 0.29 GB 385 s
+HST|10246 | ORIMOS-6 | ACS/WFC | 6 filters | total 1.7 GB | detection 0.29 GB 1915 s, F435W 0.29 GB 420 s, F555W 0.29 GB 385 s, F658N 0.29 GB 340 s, F775W 0.29 GB 385 s, F850LP 0.29 GB 385 s
+HST|10246 | ORIMOS-33 | ACS/WFC | 6 filters | total 1.4 GB | detection 0.29 GB 1915 s, F435W 0.21 GB 420 s, F555W 0.21 GB 385 s, F658N 0.21 GB 340 s, F775W 0.21 GB 385 s, F850LP 0.21 GB 385 s
+HST|10246 | ORIMOS-34 | ACS/WFC | 6 filters | total 1.4 GB | detection 0.29 GB 1915 s, F435W 0.21 GB 420 s, F555W 0.21 GB 385 s, F658N 0.21 GB 340 s, F775W 0.21 GB 385 s, F850LP 0.21 GB 385 s
+HST|10246 | ORIMOS-32 | ACS/WFC | 6 filters | total 1.4 GB | detection 0.29 GB 1915 s, F435W 0.21 GB 420 s, F555W 0.21 GB 385 s, F658N 0.21 GB 340 s, F775W 0.21 GB 385 s, F850LP 0.21 GB 385 s
+HST|10246 | ORIMOS-64 | ACS/WFC | 6 filters | total 1.7 GB | detection 0.29 GB 1915 s, F435W 0.29 GB 420 s, F555W 0.29 GB 385 s, F658N 0.29 GB 340 s, F775W 0.29 GB 385 s, F850LP 0.29 GB 385 s
+HST|10246 | ORIMOS-31 | ACS/WFC | 6 filters | total 1.7 GB | detection 0.29 GB 1915 s, F435W 0.29 GB 420 s, F555W 0.29 GB 385 s, F658N 0.29 GB 340 s, F775W 0.29 GB 385 s, F850LP 0.29 GB 385 s
+HST|10246 | ORIMOS-61 | ACS/WFC | 6 filters | total 1.4 GB | detection 0.29 GB 1915 s, F435W 0.21 GB 420 s, F555W 0.21 GB 385 s, F658N 0.21 GB 340 s, F775W 0.21 GB 385 s, F850LP 0.21 GB 385 s
+HST|10246 | ORIMOS-35 | ACS/WFC | 6 filters | total 1.4 GB | detection 0.29 GB 1915 s, F435W 0.21 GB 420 s, F555W 0.21 GB 385 s, F658N 0.21 GB 340 s, F775W 0.21 GB 385 s, F850LP 0.21 GB 385 s
+HST|10246 | ORIMOS-62 | ACS/WFC | 6 filters | total 1.4 GB | detection 0.29 GB 1915 s, F435W 0.21 GB 420 s, F555W 0.21 GB 385 s, F658N 0.21 GB 340 s, F775W 0.21 GB 385 s, F850LP 0.21 GB 385 s
+HST|10246 | ORIMOS-60 | ACS/WFC | 6 filters | total 1.4 GB | detection 0.29 GB 1915 s, F435W 0.21 GB 420 s, F555W 0.21 GB 385 s, F658N 0.21 GB 340 s, F775W 0.21 GB 385 s, F850LP 0.21 GB 385 s
+HST|10246 | ORIMOS-59 | ACS/WFC | 6 filters | total 1.7 GB | detection 0.29 GB 1915 s, F435W 0.29 GB 420 s, F555W 0.29 GB 385 s, F658N 0.29 GB 340 s, F775W 0.29 GB 385 s, F850LP 0.29 GB 385 s
+HST|10246 | ORIMOS-30 | ACS/WFC | 6 filters | total 1.7 GB | detection 0.29 GB 1915 s, F435W 0.29 GB 420 s, F555W 0.29 GB 385 s, F658N 0.29 GB 340 s, F775W 0.29 GB 385 s, F850LP 0.29 GB 385 s
+HST|10246 | ORIMOS-45 | ACS/WFC | 6 filters | total 1.7 GB | detection 0.29 GB 1915 s, F435W 0.29 GB 420 s, F555W 0.29 GB 385 s, F658N 0.29 GB 340 s, F775W 0.29 GB 385 s, F850LP 0.29 GB 385 s
+HST|10246 | ORIMOS-18 | ACS/WFC | 6 filters | total 1.7 GB | detection 0.29 GB 1915 s, F435W 0.29 GB 420 s, F555W 0.29 GB 385 s, F658N 0.29 GB 340 s, F775W 0.29 GB 385 s, F850LP 0.29 GB 385 s
+HST|10246 | ORIMOS-58 | ACS/WFC | 6 filters | total 1.7 GB | detection 0.29 GB 1915 s, F435W 0.29 GB 420 s, F555W 0.29 GB 385 s, F658N 0.29 GB 340 s, F775W 0.29 GB 385 s, F850LP 0.29 GB 385 s
+HST|6056 | MULTIPLE | WFPC2/PC | 6 filters | total 2.2 GB | detection 0.46 GB 9270 s, F502N 0.35 GB 700 s, F547M 0.35 GB 570 s, F656N 0.35 GB 1400 s, F658N 0.35 GB 2600 s, F673N 0.35 GB 4000 s
+HST|10246 | ORIMOS-36 | ACS/WFC | 6 filters | total 1.4 GB | detection 0.29 GB 1915 s, F435W 0.21 GB 420 s, F555W 0.21 GB 385 s, F658N 0.21 GB 340 s, F775W 0.21 GB 385 s, F850LP 0.21 GB 385 s
+HST|10246 | ORIMOS-73 | ACS/WFC | 6 filters | total 1.7 GB | detection 0.29 GB 1915 s, F435W 0.29 GB 420 s, F555W 0.29 GB 385 s, F658N 0.29 GB 340 s, F775W 0.29 GB 385 s, F850LP 0.29 GB 385 s
+HST|10246 | ORIMOS-5 | ACS/WFC | 6 filters | total 1.8 GB | detection 0.29 GB 1915 s, F435W 0.29 GB 420 s, F555W 0.29 GB 385 s, F658N 0.29 GB 340 s, F775W 0.29 GB 385 s, F850LP 0.29 GB 385 s
+HST|10246 | ORIMOS-29 | ACS/WFC | 6 filters | total 1.7 GB | detection 0.29 GB 1915 s, F435W 0.29 GB 420 s, F555W 0.29 GB 385 s, F658N 0.29 GB 340 s, F775W 0.29 GB 385 s, F850LP 0.29 GB 385 s
+HST|10246 | ORIMOS-91 | ACS/WFC | 6 filters | total 1.7 GB | detection 0.29 GB 1915 s, F435W 0.29 GB 420 s, F555W 0.29 GB 385 s, F658N 0.29 GB 340 s, F775W 0.29 GB 385 s, F850LP 0.29 GB 385 s
+HST|10246 | ORIMOS-57 | ACS/WFC | 6 filters | total 1.7 GB | detection 0.29 GB 1915 s, F435W 0.29 GB 420 s, F555W 0.29 GB 385 s, F658N 0.29 GB 340 s, F775W 0.29 GB 385 s, F850LP 0.29 GB 385 s
+HST|10246 | ORIMOS-90 | ACS/WFC | 6 filters | total 1.7 GB | detection 0.29 GB 1915 s, F435W 0.29 GB 420 s, F555W 0.29 GB 385 s, F658N 0.29 GB 340 s, F775W 0.29 GB 385 s, F850LP 0.29 GB 385 s
+HST|10246 | ORIMOS-92 | ACS/WFC | 6 filters | total 1.7 GB | detection 0.29 GB 1915 s, F435W 0.29 GB 420 s, F555W 0.29 GB 385 s, F658N 0.29 GB 340 s, F775W 0.29 GB 385 s, F850LP 0.29 GB 385 s
+HST|10246 | ORIMOS-93 | ACS/WFC | 6 filters | total 1.7 GB | detection 0.29 GB 1915 s, F435W 0.29 GB 420 s, F555W 0.29 GB 385 s, F658N 0.29 GB 340 s, F775W 0.29 GB 385 s, F850LP 0.29 GB 385 s
+HST|10246 | ORIMOS-63 | ACS/WFC | 6 filters | total 1.4 GB | detection 0.29 GB 1915 s, F435W 0.21 GB 420 s, F555W 0.21 GB 385 s, F658N 0.21 GB 340 s, F775W 0.21 GB 385 s, F850LP 0.21 GB 385 s
+HST|10246 | ORIMOS-44 | ACS/WFC | 6 filters | total 1.7 GB | detection 0.29 GB 1915 s, F435W 0.29 GB 420 s, F555W 0.29 GB 385 s, F658N 0.29 GB 340 s, F775W 0.29 GB 385 s, F850LP 0.29 GB 385 s
+HST|10246 | ORIMOS-89 | ACS/WFC | 6 filters | total 1.7 GB | detection 0.29 GB 1915 s, F435W 0.29 GB 420 s, F555W 0.29 GB 385 s, F658N 0.29 GB 340 s, F775W 0.29 GB 385 s, F850LP 0.29 GB 385 s
+HST|9867 | OMC2-BD29-30 | NICMOS/NIC2 | 6 filters | total 0.0 GB | F110W 0.00 GB 320 s, F160W 0.00 GB 320 s, F187W 0.00 GB 150 s, F207M 0.00 GB 150 s, F212N 0.00 GB 959 s, F222M 0.00 GB 115 s
+HST|10246 | ORIMOS-94 | ACS/WFC | 6 filters | total 1.7 GB | detection 0.29 GB 1915 s, F435W 0.29 GB 420 s, F555W 0.29 GB 385 s, F658N 0.29 GB 340 s, F775W 0.29 GB 385 s, F850LP 0.29 GB 385 s
+HST|10246 | ORIMOS-37 | ACS/WFC | 6 filters | total 1.4 GB | detection 0.29 GB 1915 s, F435W 0.21 GB 420 s, F555W 0.21 GB 385 s, F658N 0.21 GB 340 s, F775W 0.21 GB 385 s, F850LP 0.21 GB 385 s
+HST|10246 | ORIMOS-17 | ACS/WFC | 6 filters | total 1.7 GB | detection 0.29 GB 1915 s, F435W 0.29 GB 420 s, F555W 0.29 GB 385 s, F658N 0.29 GB 340 s, F775W 0.29 GB 385 s, F850LP 0.29 GB 385 s
+HST|9867 | OMC2-BD31 | NICMOS/NIC2 | 6 filters | total 0.0 GB | F110W 0.00 GB 320 s, F160W 0.00 GB 320 s, F187W 0.00 GB 150 s, F207M 0.00 GB 150 s, F212N 0.00 GB 960 s, F222M 0.00 GB 115 s
+HST|10246 | ORIMOS-28 | ACS/WFC | 6 filters | total 1.7 GB | detection 0.29 GB 1915 s, F435W 0.29 GB 420 s, F555W 0.29 GB 385 s, F658N 0.29 GB 340 s, F775W 0.29 GB 385 s, F850LP 0.29 GB 385 s
+HST|10246 | ORIMOS-88 | ACS/WFC | 6 filters | total 1.7 GB | detection 0.29 GB 1915 s, F435W 0.29 GB 420 s, F555W 0.29 GB 385 s, F658N 0.29 GB 340 s, F775W 0.29 GB 385 s, F850LP 0.29 GB 385 s
+HST|10246 | ORIMOS-56 | ACS/WFC | 6 filters | total 1.7 GB | detection 0.29 GB 1915 s, F435W 0.29 GB 420 s, F555W 0.29 GB 385 s, F658N 0.29 GB 340 s, F775W 0.29 GB 385 s, F850LP 0.29 GB 385 s
+HST|10246 | ORIMOS-74 | ACS/WFC | 6 filters | total 1.7 GB | detection 0.29 GB 1915 s, F435W 0.29 GB 420 s, F555W 0.29 GB 385 s, F658N 0.29 GB 340 s, F775W 0.29 GB 385 s, F850LP 0.29 GB 385 s
+HST|10246 | ORIMOS-95 | ACS/WFC | 6 filters | total 1.7 GB | detection 0.29 GB 1915 s, F435W 0.29 GB 420 s, F555W 0.29 GB 385 s, F658N 0.29 GB 340 s, F775W 0.29 GB 385 s, F850LP 0.29 GB 385 s
+HST|10246 | ORIMOS-4 | ACS/WFC | 6 filters | total 1.7 GB | detection 0.29 GB 1915 s, F435W 0.29 GB 420 s, F555W 0.29 GB 385 s, F658N 0.29 GB 340 s, F775W 0.29 GB 385 s, F850LP 0.29 GB 385 s
+HST|10246 | ORIMOS-38 | ACS/WFC | 6 filters | total 1.7 GB | detection 0.29 GB 1915 s, F435W 0.29 GB 420 s, F555W 0.29 GB 385 s, F658N 0.29 GB 340 s, F775W 0.29 GB 385 s, F850LP 0.29 GB 385 s
+HST|10246 | ORIMOS-43 | ACS/WFC | 6 filters | total 1.8 GB | detection 0.29 GB 1915 s, F435W 0.29 GB 420 s, F555W 0.29 GB 385 s, F658N 0.29 GB 340 s, F775W 0.29 GB 385 s, F850LP 0.29 GB 385 s
+HST|10246 | ORIMOS-87 | ACS/WFC | 6 filters | total 1.7 GB | detection 0.29 GB 1915 s, F435W 0.29 GB 420 s, F555W 0.29 GB 385 s, F658N 0.29 GB 340 s, F775W 0.29 GB 385 s, F850LP 0.29 GB 385 s
+HST|10246 | ORIMOS-96 | ACS/WFC | 6 filters | total 1.7 GB | detection 0.29 GB 1915 s, F435W 0.29 GB 420 s, F555W 0.29 GB 385 s, F658N 0.29 GB 340 s, F775W 0.29 GB 385 s, F850LP 0.29 GB 385 s
+HST|10246 | ORIMOS-16 | ACS/WFC | 6 filters | total 1.7 GB | detection 0.29 GB 1915 s, F435W 0.29 GB 420 s, F555W 0.29 GB 385 s, F658N 0.29 GB 340 s, F775W 0.29 GB 385 s, F850LP 0.29 GB 385 s
+HST|10246 | ORIMOS-27 | ACS/WFC | 6 filters | total 1.7 GB | detection 0.29 GB 1915 s, F435W 0.29 GB 420 s, F555W 0.29 GB 385 s, F658N 0.29 GB 340 s, F775W 0.29 GB 385 s, F850LP 0.29 GB 385 s
+HST|10246 | ORIMOS-55 | ACS/WFC | 6 filters | total 1.7 GB | detection 0.29 GB 1915 s, F435W 0.29 GB 420 s, F555W 0.29 GB 385 s, F658N 0.29 GB 340 s, F775W 0.29 GB 385 s, F850LP 0.29 GB 385 s
+HST|10246 | ORIMOS-99 | ACS/WFC | 6 filters | total 1.7 GB | detection 0.29 GB 1915 s, F435W 0.29 GB 420 s, F555W 0.29 GB 385 s, F658N 0.29 GB 340 s, F775W 0.29 GB 385 s, F850LP 0.29 GB 385 s
+HST|10246 | ORIMOS-100 | ACS/WFC | 6 filters | total 1.7 GB | detection 0.29 GB 1915 s, F435W 0.29 GB 420 s, F555W 0.29 GB 385 s, F658N 0.29 GB 340 s, F775W 0.29 GB 385 s, F850LP 0.29 GB 385 s
+HST|10246 | ORIMOS-101 | ACS/WFC | 6 filters | total 1.7 GB | detection 0.29 GB 1915 s, F435W 0.29 GB 420 s, F555W 0.29 GB 385 s, F658N 0.29 GB 340 s, F775W 0.29 GB 385 s, F850LP 0.29 GB 385 s
+HST|10246 | ORIMOS-98 | ACS/WFC | 6 filters | total 1.7 GB | detection 0.29 GB 1915 s, F435W 0.29 GB 420 s, F555W 0.29 GB 385 s, F658N 0.29 GB 340 s, F775W 0.29 GB 385 s, F850LP 0.29 GB 385 s
+HST|10246 | ORIMOS-75 | ACS/WFC | 6 filters | total 1.7 GB | detection 0.29 GB 1915 s, F435W 0.29 GB 420 s, F555W 0.29 GB 385 s, F658N 0.29 GB 340 s, F775W 0.29 GB 385 s, F850LP 0.29 GB 385 s
+HST|10246 | ORIMOS-102 | ACS/WFC | 6 filters | total 1.7 GB | detection 0.29 GB 1915 s, F435W 0.29 GB 420 s, F555W 0.29 GB 385 s, F658N 0.29 GB 340 s, F775W 0.29 GB 385 s, F850LP 0.29 GB 385 s
+HST|10246 | ORIMOS-3 | ACS/WFC | 6 filters | total 1.7 GB | detection 0.29 GB 1915 s, F435W 0.29 GB 420 s, F555W 0.29 GB 385 s, F658N 0.29 GB 340 s, F775W 0.29 GB 385 s, F850LP 0.29 GB 385 s
+HST|10246 | ORIMOS-97 | ACS/WFC | 6 filters | total 1.7 GB | detection 0.29 GB 1915 s, F435W 0.29 GB 420 s, F555W 0.29 GB 385 s, F658N 0.29 GB 340 s, F775W 0.29 GB 385 s, F850LP 0.29 GB 385 s
+HST|10246 | ORIMOS-86 | ACS/WFC | 6 filters | total 1.7 GB | detection 0.29 GB 1915 s, F435W 0.29 GB 420 s, F555W 0.29 GB 385 s, F658N 0.29 GB 340 s, F775W 0.29 GB 385 s, F850LP 0.29 GB 385 s
+HST|10246 | ORIMOS-39 | ACS/WFC | 6 filters | total 1.7 GB | detection 0.29 GB 1915 s, F435W 0.29 GB 420 s, F555W 0.29 GB 385 s, F658N 0.29 GB 340 s, F775W 0.29 GB 385 s, F850LP 0.29 GB 385 s
+HST|10246 | ORIMOS-103 | ACS/WFC | 6 filters | total 1.7 GB | detection 0.29 GB 1915 s, F435W 0.29 GB 420 s, F555W 0.29 GB 385 s, F658N 0.29 GB 340 s, F775W 0.29 GB 385 s, F850LP 0.29 GB 385 s
+HST|10246 | ORIMOS-42 | ACS/WFC | 6 filters | total 1.7 GB | detection 0.29 GB 1915 s, F435W 0.29 GB 420 s, F555W 0.29 GB 385 s, F658N 0.29 GB 340 s, F775W 0.29 GB 385 s, F850LP 0.29 GB 385 s
+HST|10246 | ORIMOS-54 | ACS/WFC | 6 filters | total 1.7 GB | detection 0.29 GB 1915 s, F435W 0.29 GB 420 s, F555W 0.29 GB 385 s, F658N 0.29 GB 340 s, F775W 0.29 GB 385 s, F850LP 0.29 GB 385 s
+HST|10246 | ORIMOS-15 | ACS/WFC | 6 filters | total 1.7 GB | detection 0.29 GB 1915 s, F435W 0.29 GB 420 s, F555W 0.29 GB 385 s, F658N 0.29 GB 340 s, F775W 0.29 GB 385 s, F850LP 0.29 GB 385 s
+HST|10246 | ORIMOS-104 | ACS/WFC | 6 filters | total 1.7 GB | detection 0.29 GB 1915 s, F435W 0.29 GB 420 s, F555W 0.29 GB 385 s, F658N 0.29 GB 340 s, F775W 0.29 GB 385 s, F850LP 0.29 GB 385 s
+HST|10246 | ORIMOS-2 | ACS/WFC | 6 filters | total 1.7 GB | detection 0.29 GB 1915 s, F435W 0.29 GB 420 s, F555W 0.29 GB 385 s, F658N 0.29 GB 340 s, F775W 0.29 GB 385 s, F850LP 0.29 GB 385 s
+HST|10246 | ORIMOS-41 | ACS/WFC | 6 filters | total 1.7 GB | detection 0.29 GB 1915 s, F435W 0.29 GB 420 s, F555W 0.29 GB 385 s, F658N 0.29 GB 340 s, F775W 0.29 GB 385 s, F850LP 0.29 GB 385 s
+HST|10246 | ORIMOS-53 | ACS/WFC | 6 filters | total 1.7 GB | detection 0.29 GB 1915 s, F435W 0.29 GB 420 s, F555W 0.29 GB 385 s, F658N 0.29 GB 340 s, F775W 0.29 GB 385 s, F850LP 0.29 GB 385 s
+HST|10246 | ORIMOS-14 | ACS/WFC | 6 filters | total 1.7 GB | detection 0.29 GB 1915 s, F435W 0.29 GB 420 s, F555W 0.29 GB 385 s, F658N 0.29 GB 340 s, F775W 0.29 GB 385 s, F850LP 0.29 GB 385 s
+HST|10246 | ORIMOS-83 | ACS/WFC | 6 filters | total 1.4 GB | detection 0.29 GB 1915 s, F435W 0.21 GB 420 s, F555W 0.21 GB 385 s, F658N 0.21 GB 340 s, F775W 0.21 GB 385 s, F850LP 0.21 GB 385 s
+HST|10246 | ORIMOS-82 | ACS/WFC | 6 filters | total 1.4 GB | detection 0.29 GB 1915 s, F435W 0.21 GB 420 s, F555W 0.21 GB 385 s, F658N 0.21 GB 340 s, F775W 0.21 GB 385 s, F850LP 0.21 GB 385 s
+HST|10246 | ORIMOS-84 | ACS/WFC | 6 filters | total 1.4 GB | detection 0.29 GB 1915 s, F435W 0.21 GB 420 s, F555W 0.21 GB 385 s, F658N 0.21 GB 340 s, F775W 0.21 GB 385 s, F850LP 0.21 GB 385 s
+HST|10246 | ORIMOS-81 | ACS/WFC | 6 filters | total 1.4 GB | detection 0.29 GB 1915 s, F435W 0.21 GB 420 s, F555W 0.21 GB 385 s, F658N 0.21 GB 340 s, F775W 0.21 GB 385 s, F850LP 0.21 GB 385 s
+HST|17467 | HOPS370-OUTFLOW-NORTH | WFC3/IR | 6 filters | total 0.2 GB | detection 0.03 GB 2397 s, F126N 0.03 GB 2397 s, F128N 0.03 GB 2397 s, F130N 0.03 GB 2397 s, F164N 0.03 GB 2397 s, F167N 0.03 GB 2397 s
+HST|10246 | ORIMOS-80 | ACS/WFC | 6 filters | total 1.7 GB | detection 0.29 GB 1915 s, F435W 0.29 GB 420 s, F555W 0.29 GB 385 s, F658N 0.29 GB 340 s, F775W 0.29 GB 385 s, F850LP 0.29 GB 385 s
+HST|10246 | ORIMOS-85 | ACS/WFC | 6 filters | total 1.4 GB | detection 0.29 GB 1915 s, F435W 0.21 GB 420 s, F555W 0.21 GB 385 s, F658N 0.21 GB 340 s, F775W 0.21 GB 385 s, F850LP 0.21 GB 385 s
+HST|10246 | ORIMOS-1 | ACS/WFC | 6 filters | total 1.7 GB | detection 0.29 GB 1915 s, F435W 0.29 GB 420 s, F555W 0.29 GB 385 s, F658N 0.29 GB 340 s, F775W 0.29 GB 385 s, F850LP 0.29 GB 385 s
+HST|10246 | ORIMOS-79 | ACS/WFC | 6 filters | total 1.7 GB | detection 0.29 GB 1915 s, F435W 0.29 GB 420 s, F555W 0.29 GB 385 s, F658N 0.29 GB 340 s, F775W 0.29 GB 385 s, F850LP 0.29 GB 385 s
+HST|10246 | ORIMOS-40 | ACS/WFC | 6 filters | total 1.7 GB | detection 0.29 GB 1915 s, F435W 0.29 GB 420 s, F555W 0.29 GB 385 s, F658N 0.29 GB 340 s, F775W 0.29 GB 385 s, F850LP 0.29 GB 385 s
+HST|10246 | ORIMOS-52 | ACS/WFC | 6 filters | total 1.7 GB | detection 0.29 GB 1915 s, F435W 0.29 GB 420 s, F555W 0.29 GB 385 s, F658N 0.29 GB 340 s, F775W 0.29 GB 385 s, F850LP 0.29 GB 385 s
+HST|10246 | ORIMOS-78 | ACS/WFC | 6 filters | total 1.7 GB | detection 0.29 GB 1915 s, F435W 0.29 GB 420 s, F555W 0.29 GB 385 s, F658N 0.29 GB 340 s, F775W 0.29 GB 385 s, F850LP 0.29 GB 385 s
+HST|9867 | OMC2-BD1 | NICMOS/NIC2 | 6 filters | total 0.0 GB | F110W 0.00 GB 320 s, F160W 0.00 GB 320 s, F187W 0.00 GB 150 s, F207M 0.00 GB 150 s, F212N 0.00 GB 960 s, F222M 0.00 GB 115 s
+HST|10246 | ORIMOS-77 | ACS/WFC | 6 filters | total 1.7 GB | detection 0.29 GB 1915 s, F435W 0.29 GB 420 s, F555W 0.29 GB 385 s, F658N 0.29 GB 340 s, F775W 0.29 GB 385 s, F850LP 0.29 GB 385 s
+HST|10246 | ORIMOS-76 | ACS/WFC | 6 filters | total 1.7 GB | detection 0.29 GB 1915 s, F435W 0.29 GB 420 s, F555W 0.29 GB 385 s, F658N 0.29 GB 340 s, F775W 0.29 GB 385 s, F850LP 0.29 GB 385 s
+HST|9867 | OMC2-BD2 | NICMOS/NIC2 | 6 filters | total 0.0 GB | F110W 0.00 GB 320 s, F160W 0.00 GB 320 s, F187W 0.00 GB 150 s, F207M 0.00 GB 150 s, F212N 0.00 GB 959 s, F222M 0.00 GB 115 s
+HST|10246 | ANY | WFPC2/PC | 5 filters | total 1.3 GB | detection 0.25 GB 1290 s, F336W 0.25 GB 800 s, F439W 0.25 GB 80 s, F656N 0.25 GB 400 s, F814W 0.25 GB 10 s
+HST|5193 | NGC1976-ERO1 | WFPC2/PC | 5 filters | total 1.0 GB | detection 0.20 GB 1450 s, F502N 0.20 GB 400 s, F547M 0.20 GB 100 s, F656N 0.20 GB 350 s, F658N 0.20 GB 600 s
+HST|6603 | MULTIPLE | WFPC2/PC | 5 filters | total 3.1 GB | detection 0.86 GB 7070 s, F502N 0.52 GB 1200 s, F547M 0.52 GB 210 s, F631N 0.52 GB 2200 s, F656N 0.66 GB 2960 s
+HST|5085 | MULTIPLE | WFPC2/PC | 5 filters | total 2.1 GB | detection 0.52 GB 3800 s, F502N 0.39 GB 800 s, F547M 0.39 GB 200 s, F656N 0.39 GB 800 s, F658N 0.39 GB 2000 s
+HST|None | ORION-QUADS | WFC3/UVIS | 5 filters | total 19.3 GB | FQ436N 3.86 GB 1650 s, FQ437N 3.86 GB 2550 s, FQ575N 3.86 GB 2950 s, FQ672N 3.86 GB 2550 s, FQ674N 3.86 GB 1800 s
+HST|9898 | NGC1976-WFC | ACS/WFC | 5 filters | total 1.2 GB | detection 0.29 GB 3458 s, F502N 0.21 GB 1098 s, F550M 0.21 GB 800 s, F658N 0.29 GB 300 s, F660N 0.21 GB 1260 s
+HST|6603 | NGC1976-HST8-9 | WFPC2/PC | 5 filters | total 1.5 GB | F502N 0.25 GB 300 s, F547M 0.25 GB 60 s, F631N 0.25 GB 400 s, F656N 0.25 GB 300 s, F814W 0.52 GB 60 s
+HST|9898 | NGC1976-HRC | ACS/HRC | 5 filters | total 0.1 GB | detection 0.02 GB 4804 s, F502N 0.02 GB 1560 s, F550M 0.02 GB 900 s, F658N 0.02 GB 660 s, F660N 0.02 GB 1684 s
+HST|7114 | P183-405 | NICMOS/NIC2 | 5 filters | total 0.0 GB | F110W 0.00 GB 96 s, F187W 0.00 GB 96 s, F187N 0.00 GB 384 s, F212N 0.00 GB 576 s, F215N 0.00 GB 576 s
+HST|10057 | ORIONAPER8 | ACS/HRC | 5 filters | total 0.1 GB | FR388N 0.02 GB 400 s, FR459M 0.02 GB 150 s, FR505N 0.02 GB 150 s, FR656N 0.02 GB 150 s, FR914M 0.02 GB 150 s
+HST|5085 | NGC1976-6 | WFPC2/PC | 5 filters | total 0.7 GB | detection 0.13 GB 1900 s, F502N 0.13 GB 400 s, F547M 0.13 GB 100 s, F656N 0.13 GB 400 s, F658N 0.13 GB 1000 s
+HST|7114 | P114-426 | NICMOS/NIC2 | 5 filters | total 0.0 GB | POL0L 0.00 GB 384 s, POL120L 0.00 GB 384 s, POL240L 0.00 GB 384 s, F212N 0.00 GB 384 s, F215N 0.00 GB 384 s
+HST|6603 | NGC1976-252-457 | WFPC2/PC | 5 filters | total 1.5 GB | F502N 0.25 GB 300 s, F547M 0.25 GB 60 s, F631N 0.25 GB 300 s, F656N 0.25 GB 300 s, F658N 0.52 GB 600 s
+HST|5085 | NGC1976-9 | WFPC2/PC | 5 filters | total 0.7 GB | detection 0.14 GB 1900 s, F502N 0.14 GB 400 s, F547M 0.14 GB 100 s, F656N 0.14 GB 400 s, F658N 0.14 GB 1000 s
+HST|10921 | LL1 | WFPC2/PC | 5 filters | total 1.0 GB | detection 0.20 GB 860 s, F502N 0.20 GB 280 s, F547M 0.20 GB 100 s, F656N 0.20 GB 200 s, F658N 0.20 GB 280 s
+HST|9898 | ANY | WFPC2/PC | 5 filters | total 1.3 GB | detection 0.26 GB 3480 s, F502N 0.26 GB 1200 s, F547M 0.26 GB 600 s, F656N 0.26 GB 280 s, F658N 0.26 GB 1400 s
+HST|None | ORIMOS-78 | ACS/WFC | 5 filters | total 16.0 GB | F435W 3.41 GB 3360 s, F555W 3.41 GB 3080 s, F658N 3.41 GB 8828 s, F775W 2.39 GB 36175 s, F850LP 3.41 GB 3080 s
+HST|13419 | M42-BOX1-TRAPEZIUM-SOUTH | ACS/WFC | 5 filters | total 1.3 GB | detection 0.43 GB 5158 s, F435W 0.21 GB 1596 s, F502N 0.21 GB 1596 s, F658N 0.21 GB 2079 s, F660N 0.21 GB 3079 s
+HST|10921 | ANY | WFPC2/PC | 5 filters | total 1.1 GB | detection 0.22 GB 2550 s, F502N 0.22 GB 1000 s, F547M 0.22 GB 200 s, F656N 0.22 GB 650 s, F658N 0.22 GB 700 s
+HST|13419 | M42-BOX3-TRAPEZIUM-NORTH | ACS/WFC | 5 filters | total 1.3 GB | detection 0.43 GB 5158 s, F435W 0.21 GB 1596 s, F502N 0.21 GB 1596 s, F658N 0.21 GB 2079 s, F660N 0.21 GB 3079 s
+HST|7367 | NGC1976-DARK-STIS-EDGE | WFPC2/PC | 5 filters | total 1.4 GB | detection 0.35 GB 2600 s, F502N 0.26 GB 600 s, F547M 0.26 GB 400 s, F656N 0.26 GB 600 s, F658N 0.26 GB 1000 s
+HST|7367 | NGC1976-DARK-STIS-FIELD-ONE | WFPC2/PC | 5 filters | total 1.1 GB | detection 0.27 GB 2410 s, F502N 0.20 GB 690 s, F547M 0.20 GB 120 s, F656N 0.20 GB 400 s, F658N 0.20 GB 1200 s
+HST|9460 | ORION-M43 | ACS/WFC | 5 filters | total 1.5 GB | detection 0.30 GB 4000 s, F502N 0.30 GB 2000 s, F550M 0.30 GB 30 s, F658N 0.30 GB 1000 s, F660N 0.30 GB 1000 s
+HST|10921 | HH502 | ACS/WFC | 5 filters | total 1.3 GB | detection 0.39 GB 3445 s, F502N 0.22 GB 1300 s, F550M 0.22 GB 200 s, F658N 0.22 GB 945 s, F660N 0.22 GB 1000 s
+HST|9460 | ORION-HH502 | ACS/WFC | 5 filters | total 1.2 GB | detection 0.38 GB 4000 s, F502N 0.22 GB 2000 s, F550M 0.21 GB 30 s, F658N 0.22 GB 1000 s, F660N 0.22 GB 1000 s
+HST|13419 | M42-BOX2-TRAPEZIUM-WEST | ACS/WFC | 5 filters | total 1.3 GB | detection 0.43 GB 5158 s, F435W 0.21 GB 1596 s, F502N 0.21 GB 1596 s, F658N 0.21 GB 2079 s, F660N 0.21 GB 3079 s
+HST|6056 | NGC1976-POS-1SW | WFPC2/PC | 5 filters | total 1.3 GB | F502N 0.26 GB 300 s, F547M 0.26 GB 230 s, F656N 0.26 GB 700 s, F658N 0.26 GB 1300 s, F673N 0.26 GB 1900 s
+HST|6056 | NGC1976-POS-X2 | WFPC2/PC | 5 filters | total 1.3 GB | F502N 0.26 GB 400 s, F547M 0.26 GB 230 s, F656N 0.26 GB 700 s, F658N 0.26 GB 1300 s, F673N 0.26 GB 2100 s
+HST|9460 | ORION-HH505 | ACS/WFC | 5 filters | total 1.4 GB | detection 0.31 GB 4000 s, F502N 0.22 GB 2000 s, F550M 0.31 GB 30 s, F658N 0.31 GB 1000 s, F660N 0.31 GB 1000 s
+HST|None | HOPS370-OUTFLOW-NORTH | WFC3/IR | 5 filters | total 8.3 GB | F126N 1.72 GB 3595 s, F128N 1.72 GB 2397 s, F130N 1.42 GB 2397 s, F164N 1.72 GB 2996 s, F167N 1.72 GB 2996 s
+HST|8820 | NGC1976 | WFPC2/PC | 4 filters | total 0.9 GB | FR418N 0.20 GB 500 s, FR680N 0.23 GB 120 s, FR868N 0.23 GB 160 s, FR533N 0.23 GB 160 s
+HST|6056 | NGC1976-WF1 | WFPC2/PC | 4 filters | total 1.0 GB | detection 0.26 GB 1600 s, F487N 0.26 GB 600 s, F502N 0.26 GB 600 s, F547M 0.26 GB 400 s
+HST|6603 | NGC1976-HST10-16 | WFPC2/PC | 4 filters | total 0.7 GB | detection 0.21 GB 3290 s, F547M 0.16 GB 90 s, F631N 0.16 GB 1600 s, F656N 0.16 GB 1600 s
+HST|7514 | NGC1976-NIC | NICMOS/NIC1 | 4 filters | total 0.0 GB | F108N 0.00 GB 320 s, F113N 0.00 GB 320 s, F187N 0.00 GB 576 s, F190N 0.00 GB 576 s
+HST|5976 | NGC1976-NW | WFPC2/PC | 4 filters | total 1.1 GB | detection 0.27 GB 3800 s, F631N 0.26 GB 1800 s, F673N 0.26 GB 1800 s, F791W 0.26 GB 200 s
+HST|10080 | NGC1976 | WFPC2/PC | 4 filters | total 1.0 GB | FR418N 0.25 GB 500 s, FR680N 0.25 GB 120 s, FR868N 0.25 GB 180 s, FR533N 0.25 GB 160 s
+HST|7111 | OMC-2C | NICMOS/NIC1 | 4 filters | total 0.0 GB | F164N 0.00 GB 768 s, F166N 0.00 GB 768 s, F187N 0.00 GB 384 s, F190N 0.00 GB 384 s
+HST|7111 | OMC-2D | NICMOS/NIC1 | 4 filters | total 0.0 GB | F164N 0.00 GB 768 s, F166N 0.00 GB 768 s, F187N 0.00 GB 384 s, F190N 0.00 GB 384 s
+HST|5085 | NGC1976-5 | WFPC2/PC | 4 filters | total 0.5 GB | F502N 0.14 GB 200 s, F547M 0.14 GB 50 s, F656N 0.14 GB 200 s, F658N 0.14 GB 500 s
+HST|7111 | OMC-2A | NICMOS/NIC1 | 4 filters | total 0.0 GB | F164N 0.00 GB 768 s, F166N 0.00 GB 768 s, F187N 0.00 GB 384 s, F190N 0.00 GB 384 s
+HST|5085 | NGC1976-1 | WFPC2/PC | 4 filters | total 0.5 GB | F502N 0.14 GB 200 s, F547M 0.14 GB 50 s, F656N 0.14 GB 200 s, F658N 0.14 GB 500 s
+HST|13419 | M43-BOX5-BAR-SOUTHEAST | ACS/WFC | 4 filters | total 1.1 GB | detection 0.43 GB 4788 s, F435W 0.21 GB 1596 s, F502N 0.21 GB 1596 s, F658N 0.21 GB 1596 s
+HST|7111 | OMC-2E | NICMOS/NIC1 | 4 filters | total 0.0 GB | F164N 0.00 GB 768 s, F166N 0.00 GB 768 s, F187N 0.00 GB 384 s, F190N 0.00 GB 384 s
+HST|7175 | ORION-BAR | NICMOS/NIC2 | 4 filters | total 0.0 GB | F171M 0.01 GB 160 s, F180M 0.01 GB 160 s, F212N 0.01 GB 800 s, F215N 0.01 GB 800 s
+HST|7111 | OMC-2B | NICMOS/NIC1 | 4 filters | total 0.0 GB | F164N 0.00 GB 768 s, F166N 0.00 GB 768 s, F187N 0.00 GB 384 s, F190N 0.00 GB 384 s
+HST|13419 | M43-BOX5-BAR-SOUTHEAST | WFC3/UVIS | 4 filters | total 1.0 GB | detection 0.26 GB 5174 s, F225W 0.26 GB 1739 s, F373N 0.26 GB 1696 s, F656N 0.26 GB 1739 s
+HST|5976 | NGC1976-SE | WFPC2/PC | 4 filters | total 0.6 GB | detection 0.14 GB 4400 s, F631N 0.14 GB 2100 s, F673N 0.14 GB 2100 s, F791W 0.14 GB 200 s
+HST|7111 | OMC-HH1 | NICMOS/NIC1 | 4 filters | total 0.0 GB | F164N 0.00 GB 768 s, F166N 0.00 GB 768 s, F187N 0.00 GB 384 s, F190N 0.00 GB 384 s
+HST|5085 | NGC1976-2 | WFPC2/PC | 4 filters | total 0.5 GB | F502N 0.14 GB 200 s, F547M 0.14 GB 50 s, F656N 0.14 GB 200 s, F658N 0.14 GB 500 s
+HST|5085 | NGC1976-7 | WFPC2/PC | 4 filters | total 0.5 GB | F502N 0.14 GB 200 s, F547M 0.14 GB 50 s, F656N 0.14 GB 200 s, F658N 0.14 GB 500 s
+HST|5085 | NGC1976-3 | WFPC2/PC | 4 filters | total 0.5 GB | F502N 0.14 GB 200 s, F547M 0.14 GB 50 s, F656N 0.14 GB 200 s, F658N 0.14 GB 500 s
+HST|5469 | NGC1976-PAR | WFPC2/PC | 4 filters | total 1.1 GB | detection 0.35 GB 1080 s, F547M 0.26 GB 180 s, F656N 0.26 GB 480 s, F673N 0.26 GB 480 s
+HST|None | ORIMOS-63 | ACS/WFC | 4 filters | total 6.9 GB | F435W 1.73 GB 5460 s, F555W 1.73 GB 6005 s, F658N 1.73 GB 13528 s, F850LP 1.73 GB 5005 s
+HST|None | ORIMOS-103 | ACS/WFC | 4 filters | total 9.6 GB | F435W 2.39 GB 10500 s, F555W 2.39 GB 9625 s, F658N 2.39 GB 19625 s, F850LP 2.39 GB 9625 s
+HST|7111 | OMC-FINGER | NICMOS/NIC1 | 4 filters | total 0.0 GB | F164N 0.00 GB 768 s, F166N 0.00 GB 768 s, F187N 0.00 GB 384 s, F190N 0.00 GB 384 s
+HST|7111 | OMC-HH10 | NICMOS/NIC1 | 4 filters | total 0.0 GB | F164N 0.00 GB 768 s, F166N 0.00 GB 768 s, F187N 0.00 GB 384 s, F190N 0.00 GB 384 s
+HST|5085 | NGC1976-4 | WFPC2/PC | 4 filters | total 0.5 GB | F502N 0.14 GB 200 s, F547M 0.14 GB 50 s, F656N 0.14 GB 200 s, F658N 0.14 GB 500 s
+HST|5085 | NGC1976-8 | WFPC2/PC | 4 filters | total 0.5 GB | F502N 0.14 GB 200 s, F547M 0.14 GB 50 s, F656N 0.14 GB 200 s, F658N 0.14 GB 500 s
+HST|7367 | NGC1976-DARK-STIS-FIELD-FOUR | WFPC2/PC | 4 filters | total 0.8 GB | detection 0.20 GB 840 s, F547M 0.20 GB 200 s, F656N 0.20 GB 320 s, F658N 0.20 GB 320 s
+HST|7367 | NGC1976-DARK-STIS-FIELD-FIVE | WFPC2/PC | 4 filters | total 0.9 GB | detection 0.24 GB 840 s, F547M 0.24 GB 200 s, F656N 0.24 GB 320 s, F658N 0.24 GB 320 s
+HST|5085 | NGC1976-10 | WFPC2/PC | 4 filters | total 0.5 GB | F502N 0.14 GB 200 s, F547M 0.14 GB 50 s, F656N 0.14 GB 200 s, F658N 0.14 GB 500 s
+HST|13419 | M42-BOX4-BEEHIVE | WFC3/UVIS | 4 filters | total 1.0 GB | detection 0.26 GB 5217 s, F225W 0.26 GB 1739 s, F373N 0.26 GB 1739 s, F656N 0.26 GB 1739 s
+HST|7367 | NGC1976-DARK-STIS-FIELD-SIX | WFPC2/PC | 4 filters | total 0.8 GB | detection 0.20 GB 840 s, F547M 0.20 GB 200 s, F656N 0.20 GB 320 s, F658N 0.20 GB 320 s
+HST|7367 | NGC1976-DARK-STIS-FIELD-SEVEN | WFPC2/PC | 4 filters | total 0.8 GB | detection 0.20 GB 840 s, F547M 0.20 GB 200 s, F656N 0.20 GB 320 s, F658N 0.20 GB 320 s
+HST|7514 | MULTIPLE | WFPC2/PC | 4 filters | total 1.2 GB | detection 0.35 GB 7940 s, F547M 0.33 GB 14 s, F656N 0.26 GB 860 s, F658N 0.26 GB 2450 s
+HST|13419 | M42-BOX7-HH502 | ACS/WFC | 4 filters | total 1.5 GB | detection 0.43 GB 4788 s, F435W 0.43 GB 1596 s, F502N 0.43 GB 1596 s, F658N 0.21 GB 1596 s
+HST|7514 | NGC1976-SLIT1-REPEAT | WFPC2/PC | 4 filters | total 1.0 GB | F502N 0.26 GB 4200 s, F547M 0.26 GB 430 s, F656N 0.23 GB 160 s, F658N 0.23 GB 800 s
+HST|13419 | M42-BOX7-HH502 | WFC3/UVIS | 4 filters | total 1.0 GB | detection 0.26 GB 5217 s, F225W 0.26 GB 1739 s, F373N 0.26 GB 1739 s, F656N 0.26 GB 1739 s
+HST|13419 | M42-BOX4-BEEHIVE | ACS/WFC | 4 filters | total 1.7 GB | detection 0.43 GB 4788 s, F435W 0.43 GB 1596 s, F502N 0.43 GB 1596 s, F658N 0.43 GB 1596 s
+HST|9460 | ORION-M42N | ACS/WFC | 4 filters | total 1.2 GB | detection 0.30 GB 4000 s, F550M 0.30 GB 30 s, F658N 0.30 GB 2000 s, F660N 0.30 GB 2000 s
+HST|None | ORIMOS-52 | ACS/WFC | 4 filters | total 7.4 GB | F435W 1.85 GB 5880 s, F555W 1.85 GB 5390 s, F658N 1.85 GB 14940 s, F850LP 1.85 GB 5390 s
+HST|None | ORIMOS-86 | ACS/WFC | 4 filters | total 4.9 GB | F435W 1.22 GB 3780 s, F555W 1.22 GB 3465 s, F658N 1.22 GB 13240 s, F850LP 1.22 GB 3465 s
+HST|None | ORIMOS-77 | ACS/WFC | 4 filters | total 11.8 GB | F435W 2.95 GB 2100 s, F555W 2.95 GB 1925 s, F658N 2.95 GB 3736 s, F850LP 2.95 GB 1925 s
+HST|13826 | ORIMOS-46 | WFC3/IR | 3 filters | total 0.2 GB | detection 0.07 GB 2223 s, F130N 0.07 GB 1012 s, F139M 0.04 GB 1212 s
+HST|13826 | ORIMOS-48 | WFC3/IR | 3 filters | total 0.2 GB | detection 0.07 GB 2223 s, F130N 0.07 GB 1012 s, F139M 0.04 GB 1212 s
+HST|6666 | TRAPEZIUM-POS4 | WFPC2/PC | 3 filters | total 0.5 GB | detection 0.15 GB 1720 s, F547M 0.15 GB 1060 s, F791W 0.15 GB 660 s
+HST|8894 | MULTIPLE | WFPC2/PC | 3 filters | total 2.2 GB | detection 0.90 GB 4364 s, F336W 0.72 GB 3662 s, F439W 0.57 GB 702 s
+HST|9125 | ORION-183-405 | WFPC2/PC | 3 filters | total 0.9 GB | detection 0.36 GB 5600 s, F487N 0.27 GB 4000 s, F502N 0.27 GB 1600 s
+HST|None | M43-BOX5-BAR-SOUTHEAST | WFC3/UVIS | 3 filters | total 10.1 GB | F225W 3.86 GB 3435 s, F373N 3.86 GB 8479 s, F656N 2.39 GB 3478 s
+HST|6666 | TRAPEZIUM-POS6 | WFPC2/PC | 3 filters | total 0.6 GB | detection 0.19 GB 1720 s, F547M 0.19 GB 1060 s, F791W 0.19 GB 660 s
+HST|9825 | ANY | WFPC2/PC | 3 filters | total 0.9 GB | detection 0.29 GB 1750 s, F656N 0.29 GB 1400 s, F673N 0.29 GB 1750 s
+HST|6666 | TRAPEZIUM-POS5 | WFPC2/PC | 3 filters | total 0.6 GB | detection 0.19 GB 1720 s, F547M 0.19 GB 1060 s, F791W 0.19 GB 660 s
+HST|6666 | TRAPEZIUM-POS1 | WFPC2/PC | 3 filters | total 0.5 GB | detection 0.15 GB 1720 s, F547M 0.15 GB 1060 s, F791W 0.15 GB 660 s
+HST|13826 | ORIMOS-31 | WFC3/IR | 3 filters | total 0.2 GB | detection 0.07 GB 2223 s, F130N 0.07 GB 1012 s, F139M 0.04 GB 1212 s
+HST|None | ORION-M42N | ACS/WFC | 3 filters | total 7.0 GB | F550M 3.86 GB 890 s, F658N 1.42 GB 6920 s, F660N 1.73 GB 3000 s
+HST|9752 | BN-S1 | NICMOS/NIC2 | 3 filters | total 0.0 GB | POL0L 0.00 GB 768 s, POL120L 0.00 GB 768 s, POL240L 0.00 GB 704 s
+HST|9752 | BN-S2 | NICMOS/NIC2 | 3 filters | total 0.0 GB | POL0L 0.00 GB 768 s, POL120L 0.00 GB 768 s, POL240L 0.00 GB 704 s
+HST|13826 | ORIMOS-58 | WFC3/IR | 3 filters | total 0.2 GB | detection 0.07 GB 2223 s, F130N 0.07 GB 1012 s, F139M 0.04 GB 1212 s
+HST|6666 | TRAPEZIUM-POS7 | WFPC2/PC | 3 filters | total 0.6 GB | detection 0.19 GB 1720 s, F547M 0.19 GB 1060 s, F791W 0.19 GB 660 s
+HST|9752 | BN-N1 | NICMOS/NIC2 | 3 filters | total 0.0 GB | POL0L 0.00 GB 768 s, POL120L 0.00 GB 768 s, POL240L 0.00 GB 704 s
+HST|9752 | BN-N2 | NICMOS/NIC2 | 3 filters | total 0.0 GB | POL0L 0.00 GB 768 s, POL120L 0.00 GB 768 s, POL240L 0.00 GB 704 s
+HST|6666 | TRAPEZIUM-POS3 | WFPC2/PC | 3 filters | total 0.5 GB | detection 0.15 GB 1720 s, F547M 0.15 GB 1060 s, F791W 0.15 GB 660 s
+HST|8544 | ANY | WFPC2/PC | 3 filters | total 0.7 GB | detection 0.24 GB 1400 s, F300W 0.24 GB 1000 s, F606W 0.24 GB 400 s
+HST|9125 | ORION-114-426 | WFPC2/PC | 3 filters | total 0.4 GB | detection 0.18 GB 5600 s, F487N 0.13 GB 4000 s, F502N 0.13 GB 1600 s
+HST|6666 | TRAPEZIUM-POS2 | WFPC2/PC | 3 filters | total 0.5 GB | detection 0.15 GB 1720 s, F547M 0.15 GB 1060 s, F791W 0.15 GB 660 s
+HST|6666 | TRAPEZIUM-POS8 | WFPC2/PC | 3 filters | total 0.6 GB | detection 0.19 GB 1720 s, F547M 0.19 GB 1060 s, F791W 0.19 GB 660 s
+HST|13826 | ORIMOS-60 | WFC3/IR | 3 filters | total 0.2 GB | detection 0.07 GB 2223 s, F130N 0.07 GB 1012 s, F139M 0.04 GB 1212 s
+HST|13826 | ORIMOS-29 | WFC3/IR | 3 filters | total 0.2 GB | detection 0.07 GB 2223 s, F130N 0.07 GB 1012 s, F139M 0.04 GB 1212 s
+HST|13826 | ORIMOS-50 | WFC3/IR | 3 filters | total 0.2 GB | detection 0.07 GB 2223 s, F130N 0.07 GB 1012 s, F139M 0.07 GB 1212 s
+HST|13826 | ORIMOS-33 | WFC3/IR | 3 filters | total 0.2 GB | detection 0.07 GB 2223 s, F130N 0.07 GB 1012 s, F139M 0.04 GB 1212 s
+HST|9125 | ORION-121-1925 | WFPC2/PC | 3 filters | total 0.8 GB | detection 0.26 GB 3200 s, F502N 0.26 GB 1600 s, F656N 0.26 GB 1600 s
+HST|6666 | TRAPEZIUM-POS9 | WFPC2/PC | 3 filters | total 0.6 GB | detection 0.19 GB 1720 s, F547M 0.19 GB 1060 s, F791W 0.19 GB 660 s
+HST|13826 | ORIMOS-44 | WFC3/IR | 3 filters | total 0.2 GB | detection 0.07 GB 2223 s, F130N 0.07 GB 1012 s, F139M 0.04 GB 1212 s
+HST|13826 | ORIMOS-66 | WFC3/IR | 3 filters | total 0.2 GB | detection 0.07 GB 2223 s, F130N 0.07 GB 1012 s, F139M 0.04 GB 1212 s
+HST|7367 | NGC1976-DARK-STIS-FIELD-THREE | WFPC2/PC | 3 filters | total 0.8 GB | detection 0.25 GB 800 s, F547M 0.25 GB 160 s, F656N 0.25 GB 640 s
+HST|13826 | ORIMOS-9 | WFC3/IR | 3 filters | total 0.2 GB | detection 0.07 GB 2223 s, F130N 0.07 GB 1012 s, F139M 0.04 GB 1212 s
+HST|6666 | TRAPEZIUM-POS10 | WFPC2/PC | 3 filters | total 0.5 GB | detection 0.15 GB 1720 s, F547M 0.15 GB 1060 s, F791W 0.15 GB 660 s
+HST|9125 | ORION-132-1832 | WFPC2/PC | 3 filters | total 0.8 GB | detection 0.26 GB 3200 s, F502N 0.26 GB 1600 s, F656N 0.26 GB 1600 s
+HST|13826 | ORIMOS-56 | WFC3/IR | 3 filters | total 0.2 GB | detection 0.07 GB 2223 s, F130N 0.07 GB 1012 s, F139M 0.04 GB 1212 s
+HST|13826 | ORIMOS-7 | WFC3/IR | 3 filters | total 0.2 GB | detection 0.07 GB 2223 s, F130N 0.07 GB 1012 s, F139M 0.04 GB 1212 s
+HST|8805 | LOW | WFPC2/PC | 3 filters | total 0.7 GB | detection 0.24 GB 4200 s, F450W 0.24 GB 3200 s, F606W 0.24 GB 1000 s
+HST|9125 | ORION-294-606 | WFPC2/PC | 3 filters | total 0.4 GB | detection 0.13 GB 3200 s, F502N 0.13 GB 1600 s, F656N 0.13 GB 1600 s
+HST|10921 | ANY | ACS/WFC | 3 filters | total 0.6 GB | detection 0.40 GB 930 s, F658N 0.21 GB 930 s, F660N 0.00 GB 0 s
+HST|13826 | ORIMOS-68 | WFC3/IR | 3 filters | total 0.2 GB | detection 0.07 GB 2223 s, F130N 0.07 GB 1012 s, F139M 0.04 GB 1212 s
+HST|13826 | ORIMOS-27 | WFC3/IR | 3 filters | total 0.2 GB | detection 0.07 GB 2223 s, F130N 0.07 GB 1012 s, F139M 0.04 GB 1212 s
+HST|13826 | ORIMOS-62 | WFC3/IR | 3 filters | total 0.2 GB | detection 0.07 GB 2223 s, F130N 0.07 GB 1012 s, F139M 0.04 GB 1212 s
+HST|10084 | LOW | WFPC2/PC | 3 filters | total 0.4 GB | detection 0.14 GB 3800 s, F450W 0.14 GB 2800 s, F606W 0.14 GB 1000 s
+HST|13826 | ORIMOS-11 | WFC3/IR | 3 filters | total 0.2 GB | detection 0.07 GB 2223 s, F130N 0.07 GB 1012 s, F139M 0.04 GB 1212 s
+HST|None | HH502 | ACS/WFC | 3 filters | total 7.2 GB | F502N 2.39 GB 1300 s, F550M 2.39 GB 200 s, F660N 2.39 GB 1000 s
+HST|13826 | ORIMOS-5 | WFC3/IR | 3 filters | total 0.2 GB | detection 0.07 GB 2223 s, F130N 0.07 GB 1012 s, F139M 0.04 GB 1212 s
+HST|9460 | ANY | ACS/HRC | 3 filters | total 0.1 GB | detection 0.02 GB 1576 s, F330W 0.02 GB 788 s, F550M 0.02 GB 788 s
+HST|13826 | ORIMOS-22 | WFC3/IR | 3 filters | total 0.2 GB | detection 0.07 GB 2223 s, F130N 0.07 GB 1012 s, F139M 0.04 GB 1212 s
+HST|13826 | 19-WFC3PRIME | WFC3/IR | 3 filters | total 0.1 GB | detection 0.04 GB 2223 s, F130N 0.04 GB 1012 s, F139M 0.03 GB 1212 s
+HST|13826 | ORIMOS-54 | WFC3/IR | 3 filters | total 0.2 GB | detection 0.07 GB 2223 s, F130N 0.07 GB 1012 s, F139M 0.04 GB 1212 s
+HST|13826 | 11-WFC3PRIME | WFC3/IR | 3 filters | total 0.1 GB | detection 0.04 GB 2223 s, F130N 0.04 GB 1012 s, F139M 0.03 GB 1212 s
+HST|13826 | ORIMOS-42 | WFC3/IR | 3 filters | total 0.2 GB | detection 0.07 GB 2223 s, F130N 0.07 GB 1012 s, F139M 0.04 GB 1212 s
+HST|13826 | ORIMOS-70 | WFC3/IR | 3 filters | total 0.2 GB | detection 0.07 GB 2223 s, F130N 0.07 GB 1012 s, F139M 0.04 GB 1212 s
+HST|13826 | ORIMOS-18 | WFC3/IR | 3 filters | total 0.2 GB | detection 0.07 GB 2223 s, F130N 0.07 GB 1012 s, F139M 0.04 GB 1212 s
+HST|7961 | ANY | NICMOS/NIC3 | 3 filters | total 0.0 GB | F110W 0.00 GB 12 s, F160W 0.00 GB 24 s, F222M 0.00 GB 42 s
+HST|13826 | ORIMOS-24 | WFC3/IR | 3 filters | total 0.2 GB | detection 0.07 GB 2223 s, F130N 0.07 GB 1012 s, F139M 0.04 GB 1212 s
+HST|13826 | ORIMOS-13 | WFC3/IR | 3 filters | total 0.2 GB | detection 0.07 GB 2223 s, F130N 0.07 GB 1012 s, F139M 0.04 GB 1212 s
+HST|13826 | ORIMOS-80 | WFC3/IR | 3 filters | total 0.2 GB | detection 0.07 GB 2223 s, F130N 0.07 GB 1012 s, F139M 0.04 GB 1212 s
+HST|13826 | ORIMOS-82 | WFC3/IR | 3 filters | total 0.2 GB | detection 0.07 GB 2223 s, F130N 0.07 GB 1012 s, F139M 0.04 GB 1212 s
+HST|13826 | ORIMOS-3 | WFC3/IR | 3 filters | total 0.2 GB | detection 0.07 GB 2223 s, F130N 0.07 GB 1012 s, F139M 0.04 GB 1212 s
+HST|13826 | ORIMOS-37 | WFC3/IR | 3 filters | total 0.2 GB | detection 0.07 GB 2223 s, F130N 0.07 GB 1012 s, F139M 0.07 GB 1212 s
+HST|8083 | ANY | NICMOS/NIC3 | 3 filters | total 0.0 GB | F110W 0.00 GB 12 s, F160W 0.00 GB 24 s, F222M 0.00 GB 42 s
+HST|13826 | ORIMOS-78 | WFC3/IR | 3 filters | total 0.2 GB | detection 0.07 GB 2223 s, F130N 0.07 GB 1012 s, F139M 0.04 GB 1212 s
+HST|13826 | ORIMOS-52 | WFC3/IR | 3 filters | total 0.2 GB | detection 0.07 GB 2223 s, F130N 0.07 GB 1012 s, F139M 0.04 GB 1212 s
+HST|13826 | ORIMOS-16 | WFC3/IR | 3 filters | total 0.2 GB | detection 0.07 GB 2223 s, F130N 0.07 GB 1012 s, F139M 0.04 GB 1212 s
+HST|13826 | ORIMOS-72 | WFC3/IR | 3 filters | total 0.2 GB | detection 0.07 GB 2223 s, F130N 0.07 GB 1012 s, F139M 0.04 GB 1212 s
+HST|13826 | ORIMOS-40 | WFC3/IR | 3 filters | total 0.2 GB | detection 0.07 GB 2223 s, F130N 0.07 GB 1012 s, F139M 0.04 GB 1212 s
+HST|13826 | ORIMOS-84 | WFC3/IR | 3 filters | total 0.2 GB | detection 0.07 GB 2223 s, F130N 0.07 GB 1012 s, F139M 0.04 GB 1212 s
+HST|9710 | ANY | WFPC2/PC | 3 filters | total 0.8 GB | detection 0.25 GB 2200 s, F300W 0.25 GB 1700 s, F606W 0.25 GB 500 s
+HST|13826 | ORIMOS-26 | WFC3/IR | 3 filters | total 0.2 GB | detection 0.07 GB 2223 s, F130N 0.07 GB 1012 s, F139M 0.04 GB 1212 s
+HST|13826 | ORIMOS-89 | WFC3/IR | 3 filters | total 0.2 GB | detection 0.07 GB 2223 s, F130N 0.07 GB 1012 s, F139M 0.07 GB 1212 s
+HST|13826 | ORIMOS-1 | WFC3/IR | 3 filters | total 0.2 GB | detection 0.07 GB 2223 s, F130N 0.07 GB 1012 s, F139M 0.04 GB 1212 s
+HST|13826 | ORIMOS-76 | WFC3/IR | 3 filters | total 0.2 GB | detection 0.06 GB 2223 s, F130N 0.06 GB 1012 s, F139M 0.04 GB 1212 s
+HST|13826 | ORIMOS-100 | WFC3/IR | 3 filters | total 0.2 GB | detection 0.07 GB 2223 s, F130N 0.07 GB 1012 s, F139M 0.04 GB 1212 s
+HST|13826 | ORIMOS-39 | WFC3/IR | 3 filters | total 0.2 GB | detection 0.07 GB 2223 s, F130N 0.07 GB 1012 s, F139M 0.04 GB 1212 s
+HST|13826 | ORIMOS-87 | WFC3/IR | 3 filters | total 0.2 GB | detection 0.07 GB 2223 s, F130N 0.07 GB 1012 s, F139M 0.04 GB 1212 s
+HST|13826 | ORIMOS-14 | WFC3/IR | 3 filters | total 0.2 GB | detection 0.07 GB 2223 s, F130N 0.07 GB 1012 s, F139M 0.04 GB 1212 s
+HST|13826 | ORIMOS-74 | WFC3/IR | 3 filters | total 0.2 GB | detection 0.07 GB 2223 s, F130N 0.07 GB 1012 s, F139M 0.04 GB 1212 s
+HST|13826 | 46-WFC3PRIME | WFC3/IR | 3 filters | total 0.2 GB | detection 0.07 GB 2223 s, F130N 0.07 GB 1012 s, F139M 0.03 GB 1212 s
+HST|10603 | 2MASSI05352157-0509389 | ACS/WFC | 3 filters | total 1.0 GB | detection 0.32 GB 2000 s, F555W 0.32 GB 1000 s, F814W 0.32 GB 1000 s
+HST|13826 | ORIMOS-93 | WFC3/IR | 3 filters | total 0.2 GB | detection 0.06 GB 2223 s, F130N 0.06 GB 1012 s, F139M 0.04 GB 1212 s
+HST|13826 | ORIMOS-98 | WFC3/IR | 3 filters | total 0.2 GB | detection 0.07 GB 2223 s, F130N 0.07 GB 1012 s, F139M 0.04 GB 1212 s
+HST|10603 | 2MASSI05352157-0509389 | NICMOS/NIC2 | 3 filters | total 0.0 GB | F110W 0.00 GB 1024 s, F160W 0.00 GB 768 s, F205W 0.00 GB 768 s
+HST|13826 | ORIMOS-95 | WFC3/IR | 3 filters | total 0.2 GB | detection 0.07 GB 2223 s, F130N 0.07 GB 1012 s, F139M 0.04 GB 1212 s
+HST|9676 | LOW | WFPC2/PC | 3 filters | total 0.8 GB | detection 0.26 GB 4000 s, F450W 0.26 GB 3000 s, F606W 0.26 GB 1000 s
+HST|13826 | ORIMOS-102 | WFC3/IR | 3 filters | total 0.2 GB | detection 0.07 GB 2223 s, F130N 0.07 GB 1012 s, F139M 0.04 GB 1212 s
+HST|13826 | ORIMOS-104 | WFC3/IR | 3 filters | total 0.2 GB | detection 0.07 GB 2223 s, F130N 0.07 GB 1012 s, F139M 0.04 GB 1212 s
+HST|13826 | ORIMOS-11 | ACS/WFC | 2 filters | total 1.3 GB | detection 0.67 GB 1368 s, F775W 0.67 GB 1368 s
+HST|13826 | ORIMOS-68 | ACS/WFC | 2 filters | total 1.4 GB | detection 0.71 GB 1368 s, F775W 0.71 GB 1368 s
+HST|13826 | ORIMOS-70 | ACS/WFC | 2 filters | total 1.3 GB | detection 0.67 GB 1368 s, F775W 0.67 GB 1368 s
+HST|15141 | ISF7 | WFC3/IR | 2 filters | total 0.2 GB | detection 0.11 GB 2199 s, F160W 0.11 GB 2199 s
+HST|9825 | M42-01 | ACS/WFC | 2 filters | total 1.3 GB | detection 0.66 GB 2036 s, F658N 0.66 GB 2036 s
+HST|None | ORIMOS-19 | ACS/WFC | 2 filters | total 7.7 GB | F555W 3.86 GB 23870 s, F850LP 3.86 GB 23870 s
+HST|None | NGC1976-WFC | ACS/WFC | 2 filters | total 7.7 GB | F658N 3.86 GB 80051 s, F660N 3.86 GB 14497 s
+HST|None | ORIMOS-70 | WFC3/IR | 2 filters | total 7.7 GB | F130N 3.86 GB 21620 s, F139M 3.86 GB 23023 s
+HST|7217 | TRAPEZIUM-CL | NICMOS/NIC3 | 2 filters | total 0.0 GB | F110W 0.01 GB 864 s, F160W 0.01 GB 720 s
+HST|8894 | ORION-NEBULA-TRAP.CENTER | WFPC2/PC | 2 filters | total 0.5 GB | F336W 0.25 GB 400 s, F439W 0.25 GB 160 s
+HST|15141 | ISF8 | WFC3/IR | 2 filters | total 0.2 GB | detection 0.11 GB 2199 s, F160W 0.09 GB 2199 s
+HST|13826 | ORIMOS-9 | ACS/WFC | 2 filters | total 1.4 GB | detection 0.71 GB 1368 s, F775W 0.71 GB 1368 s
+HST|15141 | ISF9 | WFC3/IR | 2 filters | total 0.2 GB | detection 0.11 GB 2199 s, F160W 0.11 GB 2199 s
+HST|None | M42-BOX2-TRAPEZIUM-WEST | WFC3/UVIS | 2 filters | total 7.7 GB | F280N 3.86 GB 6522 s, F336W 3.86 GB 2630 s
+HST|None | ORION-HH505 | ACS/WFC | 2 filters | total 7.7 GB | F502N 3.86 GB 14378 s, F550M 3.86 GB 1060 s
+HST|10620 | OMC-2GPRIME | NICMOS/NIC2 | 2 filters | total 0.0 GB | F212N 0.00 GB 1024 s, F215N 0.00 GB 1024 s
+HST|9825 | M42-06 | ACS/WFC | 2 filters | total 1.3 GB | detection 0.66 GB 2036 s, F658N 0.66 GB 2036 s
+HST|7514 | NGC1976-NIC | NICMOS/NIC2 | 2 filters | total 0.0 GB | F187N 0.00 GB 896 s, F190N 0.00 GB 896 s
+HST|7175 | ORION-BAR | NICMOS/NIC3 | 2 filters | total 0.0 GB | F212N 0.00 GB 800 s, F215N 0.00 GB 800 s
+HST|None | ORIMOS-84 | WFC3/IR | 2 filters | total 7.7 GB | F130N 3.86 GB 35411 s, F139M 3.86 GB 42411 s
+HST|None | M42-BOX4-BEEHIVE | WFC3/UVIS | 2 filters | total 7.7 GB | F225W 3.86 GB 5217 s, F373N 3.86 GB 9696 s
+HST|9825 | M42-02 | ACS/WFC | 2 filters | total 1.3 GB | detection 0.66 GB 2036 s, F658N 0.66 GB 2036 s
+HST|15141 | ISF10 | WFC3/IR | 2 filters | total 0.2 GB | detection 0.11 GB 2199 s, F160W 0.09 GB 2199 s
+HST|13826 | ORIMOS-22 | ACS/WFC | 2 filters | total 1.4 GB | detection 0.71 GB 1368 s, F775W 0.71 GB 1368 s
+HST|13826 | ORIMOS-24 | ACS/WFC | 2 filters | total 1.4 GB | detection 0.71 GB 1368 s, F775W 0.71 GB 1368 s
+HST|7111 | OMC-2C | NICMOS/NIC2 | 2 filters | total 0.0 GB | F212N 0.00 GB 1280 s, F215N 0.00 GB 1120 s
+HST|7367 | NGC1976-DARK-STIS-FIELD-TWO | WFPC2/PC | 2 filters | total 0.5 GB | detection 0.25 GB 1000 s, F502N 0.25 GB 1000 s
+HST|13826 | 19-WFC3PRIME | ACS/WFC | 2 filters | total 1.2 GB | detection 0.62 GB 1368 s, F775W 0.62 GB 1368 s
+HST|10057 | ORIONAPER8 | ACS/WFC | 2 filters | total 0.4 GB | FR601N 0.21 GB 700 s, FR782N 0.21 GB 700 s
+HST|7367 | NGC1976-DARK-NIC-FIELD-THREE | NICMOS/NIC1 | 2 filters | total 0.0 GB | F187N 0.00 GB 384 s, F190N 0.00 GB 384 s
+HST|9125 | ORION-218-354 | WFPC2/PC | 2 filters | total 0.5 GB | detection 0.26 GB 1600 s, F656N 0.26 GB 1600 s
+HST|7111 | OMC-2D | NICMOS/NIC2 | 2 filters | total 0.0 GB | F212N 0.00 GB 1280 s, F215N 0.00 GB 1120 s
+HST|6603 | NGC1976-WF1 | WFPC2/PC | 2 filters | total 0.5 GB | F547M 0.25 GB 30 s, F656N 0.25 GB 400 s
+HST|7111 | OMC-2A | NICMOS/NIC2 | 2 filters | total 0.0 GB | F212N 0.00 GB 1280 s, F215N 0.00 GB 1120 s
+HST|7175 | ORION-BAR | NICMOS/NIC1 | 2 filters | total 0.1 GB | F164N 0.03 GB 800 s, F166N 0.03 GB 800 s
+HST|13826 | ORIMOS-13 | ACS/WFC | 2 filters | total 1.2 GB | detection 0.71 GB 1368 s, F775W 0.53 GB 1368 s
+HST|7367 | NGC1976-DARK-NIC-FIELD-TWO | NICMOS/NIC1 | 2 filters | total 0.0 GB | F187N 0.00 GB 384 s, F190N 0.00 GB 384 s
+HST|7111 | OMC-2B | NICMOS/NIC2 | 2 filters | total 0.0 GB | F212N 0.00 GB 1280 s, F215N 0.00 GB 1120 s
+HST|7111 | OMC-2E | NICMOS/NIC2 | 2 filters | total 0.0 GB | F212N 0.00 GB 1280 s, F215N 0.00 GB 1120 s
+HST|8054 | NGC1976 | WFPC2/PC | 2 filters | total 0.4 GB | FR680N 0.20 GB 160 s, FR533N 0.20 GB 160 s
+HST|7367 | NGC1976-DARK-NIC-FIELD-ONE | NICMOS/NIC2 | 2 filters | total 0.0 GB | F165M 0.00 GB 1536 s, F222M 0.00 GB 1536 s
+HST|None | ORIONAPER8 | ACS/WFC | 2 filters | total 7.7 GB | FR601N 3.86 GB 700 s, FR782N 3.86 GB 701 s
+HST|8894 | ORION-NEBULA-FIELD2 | WFPC2/PC | 2 filters | total 0.5 GB | F336W 0.25 GB 400 s, F439W 0.25 GB 160 s
+HST|7367 | NGC1976-DARK-NIC-FIELD-ONE | NICMOS/NIC1 | 2 filters | total 0.0 GB | F110M 0.00 GB 1536 s, F187N 0.00 GB 1280 s
+HST|8894 | ORION-NEBULA-FIELD3 | WFPC2/PC | 2 filters | total 0.5 GB | F336W 0.25 GB 400 s, F439W 0.25 GB 160 s
+HST|13826 | ORIMOS-50 | ACS/WFC | 2 filters | total 1.2 GB | detection 0.71 GB 1368 s, F775W 0.53 GB 1368 s
+HST|5370 | HI-LAT | WFPC2/PC | 2 filters | total 0.5 GB | detection 0.26 GB 1200 s, F814W 0.26 GB 1200 s
+HST|7111 | OMC-HH1 | NICMOS/NIC2 | 2 filters | total 0.0 GB | F212N 0.00 GB 1280 s, F215N 0.00 GB 1120 s
+HST|8894 | ORION-NEBULA-POS4 | WFPC2/PC | 2 filters | total 0.5 GB | F336W 0.25 GB 400 s, F439W 0.25 GB 160 s
+HST|9669 | NGC1976 | ACS/HRC | 2 filters | total 0.1 GB | detection 0.04 GB 1560 s, F606W 0.04 GB 1560 s
+HST|13826 | ORIMOS-66 | ACS/WFC | 2 filters | total 1.2 GB | detection 0.65 GB 1368 s, F775W 0.53 GB 1368 s
+HST|9016 | NGC1976 | ACS/HRC | 2 filters | total 0.0 GB | detection 0.02 GB 675 s, F606W 0.02 GB 4750 s
+HST|13826 | ORIMOS-48 | ACS/WFC | 2 filters | total 1.2 GB | detection 0.71 GB 1368 s, F775W 0.53 GB 1368 s
+HST|7111 | OMC-HH10 | NICMOS/NIC2 | 2 filters | total 0.0 GB | F212N 0.00 GB 1280 s, F215N 0.00 GB 1120 s
+HST|7111 | OMC-FINGER | NICMOS/NIC2 | 2 filters | total 0.0 GB | F212N 0.00 GB 1280 s, F215N 0.00 GB 1120 s
+HST|None | ORIMOS-29 | WFC3/IR | 2 filters | total 3.4 GB | F130N 1.72 GB 8467 s, F139M 1.72 GB 7270 s
+HST|None | ORIMOS-78 | WFC3/IR | 2 filters | total 4.8 GB | F130N 2.39 GB 18211 s, F139M 2.39 GB 21811 s
+HST|9480 | ANY | ACS/WFC | 2 filters | total 0.6 GB | detection 0.30 GB 2125 s, F775W 0.30 GB 2125 s
+HST|13826 | ORIMOS-72 | ACS/WFC | 2 filters | total 1.4 GB | detection 0.71 GB 1368 s, F775W 0.71 GB 1368 s
+HST|9825 | M42-09 | ACS/WFC | 2 filters | total 1.0 GB | detection 0.66 GB 2036 s, F658N 0.32 GB 2036 s
+HST|9825 | M43-03 | ACS/WFC | 2 filters | total 1.0 GB | detection 0.66 GB 2036 s, F658N 0.32 GB 2036 s
+HST|10921 | ANY | NICMOS/NIC3 | 2 filters | total 0.0 GB | F212N 0.00 GB 1280 s, F215N 0.00 GB 1152 s
+HST|13826 | ORIMOS-26 | ACS/WFC | 2 filters | total 1.2 GB | detection 0.71 GB 1368 s, F775W 0.53 GB 1368 s
+HST|12543 | ORION-QUADS | ACS/WFC | 2 filters | total 0.5 GB | detection 0.30 GB 2400 s, F658N 0.21 GB 2400 s
+HST|6603 | NGC1976-PC10 | WFPC2/PC | 2 filters | total 0.5 GB | detection 0.26 GB 1600 s, F656N 0.26 GB 1600 s
+HST|13826 | ORIMOS-7 | ACS/WFC | 2 filters | total 1.4 GB | detection 0.71 GB 1368 s, F775W 0.71 GB 1368 s
+HST|9825 | M42-07 | ACS/WFC | 2 filters | total 1.3 GB | detection 0.66 GB 2036 s, F658N 0.66 GB 2036 s
+HST|9676 | ANY | WFPC2/PC | 2 filters | total 0.5 GB | detection 0.23 GB 1900 s, F606W 0.23 GB 1900 s
+HST|6603 | NGC1976-STIS-LV | WFPC2/PC | 2 filters | total 0.5 GB | detection 0.26 GB 800 s, F656N 0.26 GB 800 s
+HST|13826 | ORIMOS-33 | ACS/WFC | 2 filters | total 1.2 GB | detection 0.71 GB 1368 s, F775W 0.53 GB 1368 s
+HST|9825 | M42-16 | ACS/WFC | 2 filters | total 1.0 GB | detection 0.66 GB 2036 s, F658N 0.32 GB 2036 s
+HST|9825 | M42-15 | ACS/WFC | 2 filters | total 1.0 GB | detection 0.66 GB 2036 s, F658N 0.32 GB 2036 s
+HST|6603 | NGC1976-STIS-HST1 | WFPC2/PC | 2 filters | total 0.5 GB | detection 0.24 GB 800 s, F656N 0.24 GB 800 s
+HST|13826 | ORIMOS-62 | ACS/WFC | 2 filters | total 1.2 GB | detection 0.65 GB 1368 s, F775W 0.53 GB 1368 s
+HST|7514 | NGC1976-SLIT4 | WFPC2/PC | 2 filters | total 0.6 GB | F547M 0.26 GB 7 s, F656N 0.33 GB 750 s
+HST|8805 | ANY | WFPC2/PC | 2 filters | total 0.5 GB | detection 0.23 GB 1400 s, F606W 0.23 GB 1400 s
+HST|13826 | ORIMOS-60 | ACS/WFC | 2 filters | total 1.2 GB | detection 0.71 GB 1368 s, F775W 0.53 GB 1368 s
+HST|13826 | ORIMOS-31 | ACS/WFC | 2 filters | total 1.2 GB | detection 0.67 GB 1368 s, F775W 0.53 GB 1368 s
+HST|13826 | ORIMOS-46 | ACS/WFC | 2 filters | total 1.2 GB | detection 0.71 GB 1368 s, F775W 0.53 GB 1368 s
+HST|7514 | NGC1976-SLIT5 | WFPC2/PC | 2 filters | total 0.6 GB | F502N 0.33 GB 140 s, F547M 0.26 GB 7 s
+HST|9825 | M42-17 | ACS/WFC | 2 filters | total 1.0 GB | detection 0.66 GB 2036 s, F658N 0.32 GB 2036 s
+HST|12543 | ORION-INNER | ACS/WFC | 2 filters | total 1.2 GB | detection 0.62 GB 4100 s, F658N 0.62 GB 4100 s
+HST|9709 | ANY | WFPC2/PC | 2 filters | total 0.5 GB | detection 0.25 GB 900 s, F606W 0.25 GB 900 s
+HST|8090 | ANY | WFPC2/PC | 2 filters | total 0.5 GB | detection 0.25 GB 1200 s, F606W 0.25 GB 1200 s
+HST|10552 | ORI-PARALLAX2 | ACS/WFC | 2 filters | total 1.1 GB | detection 0.53 GB 3300 s, F814W 0.53 GB 3300 s
+HST|13826 | 46-WFC3PRIME | ACS/WFC | 2 filters | total 1.5 GB | detection 0.73 GB 1368 s, F775W 0.73 GB 1368 s
+HST|9825 | M42-04 | ACS/WFC | 2 filters | total 1.0 GB | detection 0.66 GB 2036 s, F658N 0.32 GB 2036 s
+HST|13826 | ORIMOS-93 | ACS/WFC | 2 filters | total 1.9 GB | detection 0.93 GB 1368 s, F775W 0.93 GB 1368 s
+HST|9825 | M42-14 | ACS/WFC | 2 filters | total 1.0 GB | detection 0.66 GB 2036 s, F658N 0.32 GB 2036 s
+HST|13826 | ORIMOS-58 | ACS/WFC | 2 filters | total 1.2 GB | detection 0.71 GB 1368 s, F775W 0.53 GB 1368 s
+HST|9825 | M42-10 | ACS/WFC | 2 filters | total 1.0 GB | detection 0.66 GB 2036 s, F658N 0.32 GB 2036 s
+HST|13826 | ORIMOS-37 | ACS/WFC | 2 filters | total 1.2 GB | detection 0.71 GB 1368 s, F775W 0.53 GB 1368 s
+HST|13826 | ORIMOS-74 | ACS/WFC | 2 filters | total 1.4 GB | detection 0.72 GB 1368 s, F775W 0.72 GB 1368 s
+HST|9825 | M42-05 | ACS/WFC | 2 filters | total 1.0 GB | detection 0.66 GB 2036 s, F658N 0.32 GB 2036 s
+HST|7786 | PAR | WFPC2/PC | 2 filters | total 0.5 GB | detection 0.23 GB 700 s, F300W 0.23 GB 700 s
+HST|13826 | ORIMOS-18 | ACS/WFC | 2 filters | total 1.4 GB | detection 0.69 GB 1368 s, F775W 0.69 GB 1368 s
+HST|13826 | ORIMOS-100 | ACS/WFC | 2 filters | total 1.4 GB | detection 0.71 GB 1368 s, F775W 0.71 GB 1368 s
+HST|6253 | PAR | WFPC2/PC | 2 filters | total 0.5 GB | detection 0.24 GB 2800 s, F300W 0.24 GB 2800 s
+HST|15141 | ISF6 | WFC3/IR | 2 filters | total 0.2 GB | detection 0.11 GB 2199 s, F160W 0.09 GB 2199 s
+HST|9825 | M42-08 | ACS/WFC | 2 filters | total 1.0 GB | detection 0.66 GB 2036 s, F658N 0.32 GB 2036 s
+HST|13826 | ORIMOS-95 | ACS/WFC | 2 filters | total 1.4 GB | detection 0.71 GB 1368 s, F775W 0.71 GB 1368 s
+HST|13826 | ORIMOS-5 | ACS/WFC | 2 filters | total 1.4 GB | detection 0.71 GB 1368 s, F775W 0.71 GB 1368 s
+HST|13826 | ORIMOS-29 | ACS/WFC | 2 filters | total 1.2 GB | detection 0.71 GB 1368 s, F775W 0.53 GB 1368 s
+HST|9825 | M42-18 | ACS/WFC | 2 filters | total 1.0 GB | detection 0.66 GB 2036 s, F658N 0.32 GB 2036 s
+HST|15141 | ISF5 | WFC3/IR | 2 filters | total 0.2 GB | detection 0.11 GB 2199 s, F160W 0.11 GB 2199 s
+HST|13826 | ORIMOS-89 | ACS/WFC | 2 filters | total 1.3 GB | detection 0.65 GB 1368 s, F775W 0.65 GB 1368 s
+HST|13826 | ORIMOS-44 | ACS/WFC | 2 filters | total 1.2 GB | detection 0.71 GB 1368 s, F775W 0.53 GB 1368 s
+HST|11548 | HOPS-56 | NICMOS/NIC2 | 2 filters | total 0.0 GB | F160W 0.00 GB 1215 s, F205W 0.00 GB 768 s
+HST|13826 | 11-WFC3PRIME | ACS/WFC | 2 filters | total 1.5 GB | detection 1.02 GB 1368 s, F775W 0.52 GB 1368 s
+HST|11548 | HOPS-57 | NICMOS/NIC2 | 2 filters | total 0.0 GB | F160W 0.00 GB 1216 s, F205W 0.00 GB 768 s
+HST|13826 | ORIMOS-56 | ACS/WFC | 2 filters | total 1.2 GB | detection 0.71 GB 1368 s, F775W 0.53 GB 1368 s
+HST|9825 | M42-13 | ACS/WFC | 2 filters | total 0.9 GB | detection 0.57 GB 2036 s, F658N 0.32 GB 2036 s
+HST|13826 | ORIMOS-39 | ACS/WFC | 2 filters | total 1.4 GB | detection 0.71 GB 1368 s, F775W 0.71 GB 1368 s
+HST|11548 | HOPS-48 | WFC3/IR | 2 filters | total 0.0 GB | detection 0.03 GB 2496 s, F160W 0.01 GB 2496 s
+HST|10921 | LL2-WFALL-WFPC2 | WFPC2/PC | 2 filters | total 0.5 GB | detection 0.26 GB 1600 s, F656N 0.26 GB 1600 s
+HST|15141 | ISF11 | WFC3/IR | 2 filters | total 0.2 GB | detection 0.10 GB 2099 s, F160W 0.10 GB 2099 s
+HST|7961 | ANY | NICMOS/NIC1 | 2 filters | total 0.0 GB | F110W 0.00 GB 96 s, F160W 0.00 GB 192 s
+HST|11548 | HOPS-58M | WFC3/IR | 2 filters | total 0.0 GB | detection 0.02 GB 2496 s, F160W 0.01 GB 2496 s
+HST|13826 | ORIMOS-102 | ACS/WFC | 2 filters | total 1.3 GB | detection 0.67 GB 1368 s, F775W 0.67 GB 1368 s
+HST|15141 | ISF12 | WFC3/IR | 2 filters | total 0.2 GB | detection 0.09 GB 2099 s, F160W 0.09 GB 2099 s
+HST|9825 | M42-11 | ACS/WFC | 2 filters | total 1.0 GB | detection 0.66 GB 2036 s, F658N 0.32 GB 2036 s
+HST|13826 | ORIMOS-27 | ACS/WFC | 2 filters | total 1.1 GB | detection 0.55 GB 1368 s, F775W 0.53 GB 1368 s
+HST|9825 | M43-23 | ACS/WFC | 2 filters | total 1.3 GB | detection 0.66 GB 2036 s, F658N 0.66 GB 2036 s
+HST|9825 | M42-22 | ACS/WFC | 2 filters | total 1.0 GB | detection 0.66 GB 2036 s, F658N 0.32 GB 2036 s
+HST|7961 | ANY | NICMOS/NIC2 | 2 filters | total 0.0 GB | F110W 0.00 GB 24 s, F160W 0.00 GB 72 s
+HST|13826 | ORIMOS-98 | ACS/WFC | 2 filters | total 1.2 GB | detection 0.71 GB 1368 s, F775W 0.53 GB 1368 s
+HST|13826 | ORIMOS-87 | ACS/WFC | 2 filters | total 1.4 GB | detection 0.72 GB 1368 s, F775W 0.72 GB 1368 s
+HST|9825 | M42-24 | ACS/WFC | 2 filters | total 1.0 GB | detection 0.66 GB 2036 s, F658N 0.32 GB 2036 s
+HST|8083 | ANY | NICMOS/NIC1 | 2 filters | total 0.0 GB | F110W 0.00 GB 96 s, F160W 0.00 GB 192 s
+HST|13826 | ORIMOS-104 | ACS/WFC | 2 filters | total 1.4 GB | detection 0.71 GB 1368 s, F775W 0.71 GB 1368 s
+HST|13826 | ORIMOS-16 | ACS/WFC | 2 filters | total 1.3 GB | detection 0.65 GB 1368 s, F775W 0.65 GB 1368 s
+HST|9825 | M42-19 | ACS/WFC | 2 filters | total 1.0 GB | detection 0.66 GB 2036 s, F658N 0.32 GB 2036 s
+HST|8083 | ANY | NICMOS/NIC2 | 2 filters | total 0.0 GB | F110W 0.00 GB 24 s, F160W 0.00 GB 72 s
+HST|9825 | M42-21 | ACS/WFC | 2 filters | total 1.0 GB | detection 0.66 GB 2036 s, F658N 0.32 GB 2036 s
+HST|13826 | ORIMOS-3 | ACS/WFC | 2 filters | total 1.4 GB | detection 0.69 GB 1368 s, F775W 0.69 GB 1368 s
+HST|11548 | HOPS-45 | NICMOS/NIC2 | 2 filters | total 0.0 GB | F160W 0.00 GB 1215 s, F205W 0.00 GB 768 s
+HST|11548 | HOPS-60 | WFC3/IR | 2 filters | total 0.0 GB | detection 0.02 GB 2496 s, F160W 0.01 GB 2496 s
+HST|9825 | M42-25 | ACS/WFC | 2 filters | total 1.0 GB | detection 0.66 GB 2036 s, F658N 0.32 GB 2036 s
+HST|13826 | ORIMOS-42 | ACS/WFC | 2 filters | total 1.2 GB | detection 0.71 GB 1368 s, F775W 0.53 GB 1368 s
+HST|13826 | ORIMOS-54 | ACS/WFC | 2 filters | total 1.2 GB | detection 0.71 GB 1368 s, F775W 0.53 GB 1368 s
+HST|9702 | ANY | NICMOS/NIC2 | 2 filters | total 0.0 GB | F222M 0.00 GB 640 s, F237M 0.00 GB 640 s
+HST|11548 | HOPS-50 | WFC3/IR | 2 filters | total 0.0 GB | detection 0.02 GB 2496 s, F160W 0.01 GB 2496 s
+HST|9825 | M42-12 | ACS/WFC | 2 filters | total 1.3 GB | detection 0.66 GB 2036 s, F658N 0.66 GB 2036 s
+HST|11548 | HOPS-40 | WFC3/IR | 2 filters | total 0.0 GB | detection 0.03 GB 2496 s, F160W 0.01 GB 2496 s
+HST|None | ORIMOS-39 | WFC3/IR | 2 filters | total 3.7 GB | F130N 1.85 GB 6070 s, F139M 1.85 GB 7270 s
+HST|9825 | M42-20 | ACS/WFC | 2 filters | total 1.0 GB | detection 0.66 GB 2036 s, F658N 0.32 GB 2036 s
+HST|11548 | HOPS-44 | NICMOS/NIC2 | 2 filters | total 0.0 GB | F160W 0.00 GB 1216 s, F205W 0.00 GB 768 s
+HST|11548 | HOPS-62 | NICMOS/NIC2 | 2 filters | total 0.0 GB | F160W 0.00 GB 1216 s, F205W 0.00 GB 768 s
+HST|13826 | ORIMOS-84 | ACS/WFC | 2 filters | total 1.3 GB | detection 0.74 GB 1368 s, F775W 0.53 GB 1368 s
+HST|13826 | ORIMOS-82 | ACS/WFC | 2 filters | total 1.3 GB | detection 0.79 GB 1368 s, F775W 0.53 GB 1368 s
+HST|None | 2MASSI05352157-0509389 | ACS/WFC | 2 filters | total 7.7 GB | F555W 3.86 GB 1000 s, F814W 3.86 GB 500 s
+HST|11548 | HOPS-43 | NICMOS/NIC2 | 2 filters | total 0.0 GB | F160W 0.00 GB 1215 s, F205W 0.00 GB 768 s
+HST|13826 | ORIMOS-80 | ACS/WFC | 2 filters | total 1.3 GB | detection 0.76 GB 1368 s, F775W 0.53 GB 1368 s
+HST|9825 | M42-26 | ACS/WFC | 2 filters | total 1.0 GB | detection 0.66 GB 2036 s, F658N 0.32 GB 2036 s
+HST|11548 | HOPS-42 | NICMOS/NIC2 | 2 filters | total 0.0 GB | F160W 0.00 GB 1216 s, F205W 0.00 GB 768 s
+HST|11548 | HOPS-38 | WFC3/IR | 2 filters | total 0.0 GB | detection 0.03 GB 2496 s, F160W 0.01 GB 2496 s
+HST|11548 | HOPS-63M | WFC3/IR | 2 filters | total 0.0 GB | detection 0.01 GB 2496 s, F160W 0.01 GB 2496 s
+HST|13826 | ORIMOS-14 | ACS/WFC | 2 filters | total 1.4 GB | detection 0.71 GB 1368 s, F775W 0.71 GB 1368 s
+HST|11548 | HOPS-46 | NICMOS/NIC2 | 2 filters | total 0.0 GB | F160W 0.00 GB 1215 s, F205W 0.00 GB 768 s
+HST|14181 | HOPS382 | WFC3/IR | 2 filters | total 0.0 GB | detection 0.03 GB 1597 s, F160W 0.01 GB 1597 s
+HST|13826 | ORIMOS-78 | ACS/WFC | 2 filters | total 1.2 GB | detection 0.65 GB 1368 s, F775W 0.53 GB 1368 s
+HST|13826 | ORIMOS-1 | ACS/WFC | 2 filters | total 1.4 GB | detection 0.71 GB 1368 s, F775W 0.71 GB 1368 s
+HST|11548 | HOPS-65 | NICMOS/NIC2 | 2 filters | total 0.0 GB | F160W 0.00 GB 1216 s, F205W 0.00 GB 768 s
+HST|13826 | ORIMOS-52 | ACS/WFC | 2 filters | total 1.2 GB | detection 0.71 GB 1368 s, F775W 0.53 GB 1368 s
+HST|13826 | ORIMOS-40 | ACS/WFC | 2 filters | total 1.2 GB | detection 0.71 GB 1368 s, F775W 0.53 GB 1368 s
+HST|11548 | HOPS-67M | WFC3/IR | 2 filters | total 0.0 GB | detection 0.01 GB 2496 s, F160W 0.01 GB 2496 s
+HST|13763 | HOPS71B | WFC3/IR | 2 filters | total 0.0 GB | detection 0.02 GB 248 s, F160W 0.02 GB 248 s
+HST|15141 | ISF4 | WFC3/IR | 2 filters | total 0.2 GB | detection 0.11 GB 2199 s, F160W 0.09 GB 2199 s
+HST|None | ORIMOS-93 | WFC3/IR | 2 filters | total 6.8 GB | F130N 3.41 GB 6070 s, F139M 3.41 GB 7270 s
+HST|15141 | ISF3 | WFC3/IR | 2 filters | total 0.2 GB | detection 0.11 GB 2199 s, F160W 0.11 GB 2199 s
+HST|11548 | HOPS-73 | WFC3/IR | 2 filters | total 0.0 GB | detection 0.03 GB 2496 s, F160W 0.01 GB 2496 s
+HST|11548 | HOPS-71 | NICMOS/NIC2 | 2 filters | total 0.0 GB | F160W 0.00 GB 1216 s, F205W 0.00 GB 768 s
+HST|11548 | HOPS-72 | NICMOS/NIC2 | 2 filters | total 0.0 GB | F160W 0.00 GB 1215 s, F205W 0.00 GB 768 s
+HST|13826 | ORIMOS-76 | ACS/WFC | 2 filters | total 1.4 GB | detection 0.84 GB 1368 s, F775W 0.53 GB 1368 s
+HST|11548 | HOPS-74M | WFC3/IR | 2 filters | total 0.0 GB | detection 0.02 GB 2496 s, F160W 0.02 GB 2496 s
+HST|15141 | ISF13 | WFC3/IR | 2 filters | total 0.2 GB | detection 0.11 GB 2199 s, F160W 0.09 GB 2199 s
+HST|11548 | HOPS-77 | WFC3/IR | 2 filters | total 0.0 GB | detection 0.03 GB 2496 s, F160W 0.01 GB 2496 s
+HST|14709 | HOPS79 | WFC3/IR | 2 filters | total 0.0 GB | detection 0.01 GB 248 s, F160W 0.01 GB 248 s
+HST|14181 | HOPS26 | WFC3/IR | 2 filters | total 0.0 GB | detection 0.03 GB 1597 s, F160W 0.01 GB 1597 s
+HST|11548 | HOPS-41 | NICMOS/NIC2 | 2 filters | total 0.0 GB | F160W 0.00 GB 1215 s, F205W 0.00 GB 768 s
+HST|11548 | HOPS-82 | WFC3/IR | 2 filters | total 0.0 GB | detection 0.03 GB 2496 s, F160W 0.01 GB 2496 s
+HST|15141 | ISF14 | WFC3/IR | 2 filters | total 0.2 GB | detection 0.11 GB 2199 s, F160W 0.09 GB 2199 s
+HST|11548 | HOPS-76 | NICMOS/NIC2 | 2 filters | total 0.0 GB | F160W 0.00 GB 1216 s, F205W 0.00 GB 768 s
+HST|11548 | HOPS-81 | WFC3/IR | 2 filters | total 0.0 GB | detection 0.02 GB 2496 s, F160W 0.02 GB 2496 s
+HST|None | ORIMOS-20 | ACS/WFC | 1 filters | total 3.9 GB | F435W 3.86 GB 33915 s
+HST|None | ORIMOS-70 | ACS/WFC | 1 filters | total 3.9 GB | F775W 3.86 GB 64495 s
+HST|None | M42-BOX3-TRAPEZIUM-NORTH | WFC3/UVIS | 1 filters | total 3.9 GB | F280N 3.86 GB 9783 s
+HST|6603 | NGC1976-HST1 | WFPC2/PC | 1 filters | total 0.3 GB | F656N 0.25 GB 200 s
+HST|7514 | NGC1976-SLIT1-REPEAT2 | STIS/CCD | 1 filters | total 0.0 GB | MIRVIS 0.01 GB 40 s
+HST|7217 | TRAPEZIUM-CL | NICMOS/NIC2 | 1 filters | total 0.0 GB | F237M 0.03 GB 2160 s
+HST|7231 | BN-IRC2 | NICMOS/NIC2 | 1 filters | total 0.0 GB | F237M 0.00 GB 2450 s
+HST|7231 | BN-IRC2 | NICMOS/NIC1 | 1 filters | total 0.0 GB | F170M 0.00 GB 2452 s
+HST|7217 | TRAPEZIUM-CL | NICMOS/NIC1 | 1 filters | total 0.1 GB | F160W 0.09 GB 2160 s
+HST|6603 | NGC1976-PC151-SIX | WFPC2/PC | 1 filters | total 0.3 GB | F656N 0.25 GB 200 s
+HST|None | ORIMOS-84 | ACS/WFC | 1 filters | total 3.9 GB | F775W 3.86 GB 72382 s
+HST|None | ORIMOS-68 | ACS/WFC | 1 filters | total 1.7 GB | F775W 1.73 GB 17535 s
+HST|9125 | ANY | STIS/CCD | 1 filters | total 0.0 GB | MIRVIS 0.01 GB 1200 s
+HST|10921 | HH540 | ACS/WFC | 1 filters | total 0.0 GB | F658N 0.00 GB 0 s
+HST|9248 | ANY | STIS/CCD | 1 filters | total 0.0 GB | MIRVIS 0.01 GB 400 s
+HST|7514 | NGC1976-SLIT1DN-REPEAT | WFPC2/PC | 1 filters | total 0.2 GB | F656N 0.23 GB 350 s
+HST|7514 | NGC1976-SLIT2-REPEAT | WFPC2/PC | 1 filters | total 0.2 GB | F658N 0.23 GB 700 s
+HST|10552 | ORI-PARALLAX1 | ACS/WFC | 1 filters | total 0.2 GB | F814W 0.22 GB 1440 s
+HST|None | ORI-PARALLAX2 | ACS/WFC | 1 filters | total 3.9 GB | F814W 3.86 GB 6600 s
+HST|None | M42-BOX7-HH502 | WFC3/UVIS | 1 filters | total 2.4 GB | F225W 2.39 GB 1739 s
+HST|None | ORION-M43 | ACS/WFC | 1 filters | total 1.7 GB | F502N 1.73 GB 2000 s
+HST|7908 | ANY | STIS/CCD | 1 filters | total 0.0 GB | MIRVIS 0.01 GB 1050 s
+HST|None | HOPS382 | WFC3/IR | 1 filters | total 3.9 GB | F160W 3.86 GB 11182 s
+HST|None | HOPS-58M | WFC3/IR | 1 filters | total 3.9 GB | F160W 3.86 GB 4992 s
+HST|None | ORIMOS-54 | ACS/WFC | 1 filters | total 1.8 GB | F775W 1.85 GB 20438 s
+HST|None | ORIMOS-39 | ACS/WFC | 1 filters | total 1.2 GB | F775W 1.22 GB 14409 s
+HST|None | HOPS-63M | WFC3/IR | 1 filters | total 1.7 GB | F160W 1.72 GB 2496 s
+HST|None | HOPS79 | WFC3/IR | 1 filters | total 3.9 GB | F160W 3.86 GB 36964 s
+HST|None | HOPS24 | WFC3/IR | 1 filters | total 3.4 GB | F160W 3.41 GB 11031 s
+HST|None | ANY | ACS/WFC | 1 filters | total 3.9 GB | F775W 3.86 GB 4821 s
+JWST|1256 | TRAPEZIUM-CLUSTER-P1 | NIRCAM/IMAGE | 10 filters | total 148.0 GB | F115W 26.60 GB 7215 s, F140M 26.48 GB 7730 s, F182M 26.47 GB 7730 s, F187N 26.48 GB 7730 s, F212N 26.48 GB 7730 s, F277W 3.06 GB 7730 s, F300M 3.06 GB 7730 s, F335M 3.06 GB 7730 s, F360M 3.06 GB 7730 s, F444W 3.23 GB 7215 s
+JWST|1288 | ORIBAR-IMAGING-NIRCAM | NIRCAM/IMAGE | 9 filters | total 9.0 GB | F140M 1.51 GB 172 s, F182M 1.51 GB 172 s, F187N 1.51 GB 172 s, F210M 1.51 GB 172 s, F212N 1.51 GB 172 s, F277W 0.36 GB 172 s, F300M 0.36 GB 172 s, F335M 0.36 GB 172 s, F480M 0.36 GB 172 s
+JWST|1288 | ORIBAR-IMAGING-MIRI | NIRCAM/IMAGE | 7 filters | total 13.3 GB | F182M 2.99 GB 1160 s, F187N 2.99 GB 1160 s, F210M 2.99 GB 1160 s, F212N 2.99 GB 1160 s, F300M 0.44 GB 1160 s, F335M 0.44 GB 1160 s, F410M 0.44 GB 1160 s
+JWST|5804 | OMC2-SW | NIRCAM/IMAGE | 5 filters | total 5.9 GB | F187N 1.73 GB 805 s, F210M 1.74 GB 805 s, F212N 1.73 GB 859 s, F360M 0.36 GB 805 s, F480M 0.36 GB 805 s
+JWST|5804 | OMC2-SE | NIRCAM/IMAGE | 5 filters | total 5.9 GB | F187N 1.73 GB 805 s, F210M 1.73 GB 805 s, F212N 1.73 GB 859 s, F360M 0.36 GB 805 s, F480M 0.36 GB 805 s
+JWST|5804 | OMC2-NE | NIRCAM/IMAGE | 5 filters | total 5.9 GB | F187N 1.73 GB 805 s, F210M 1.73 GB 805 s, F212N 1.73 GB 859 s, F360M 0.36 GB 805 s, F480M 0.36 GB 805 s
+JWST|5804 | OMC2-NW | NIRCAM/IMAGE | 5 filters | total 5.9 GB | F187N 1.73 GB 805 s, F210M 1.73 GB 805 s, F212N 1.73 GB 859 s, F360M 0.36 GB 805 s, F480M 0.36 GB 805 s
+JWST|5804 | OMC3-SE | NIRCAM/IMAGE | 5 filters | total 5.9 GB | F187N 1.74 GB 805 s, F210M 1.73 GB 805 s, F212N 1.74 GB 859 s, F360M 0.36 GB 805 s, F480M 0.36 GB 805 s
+JWST|1288 | ORIBAR-IMAGING-MIRI | MIRI/IMAGE | 4 filters | total 0.0 GB | F770W 0.00 GB 2215 s, F1130W 0.00 GB 2215 s, F1500W 0.00 GB 2215 s, F2550W 0.00 GB 2215 s
+JWST|5552 | HOPS-108 | NIRCAM/IMAGE | 4 filters | total 9.0 GB | F200W 3.71 GB 859 s, F212N 3.71 GB 859 s, F360M 0.78 GB 859 s, F480M 0.78 GB 859 s
+JWST|7433 | OMC3-N | NIRCAM/IMAGE | 4 filters | total 7.1 GB | F150W 2.94 GB 1224 s, F200W 2.94 GB 1224 s, F356W 0.61 GB 1224 s, F480M 0.61 GB 1224 s
+JWST|1288 | ORIBAR-MIRI-IFU-H2 | MIRI/IMAGE | 3 filters | total 0.1 GB | F770W 0.04 GB 4695 s, F1130W 0.04 GB 4695 s, F1500W 0.04 GB 4695 s
+JWST|5804 | HOPS-56-MIRI | MIRI/IMAGE | 3 filters | total 0.1 GB | F770W 0.03 GB 4205 s, F1280W 0.03 GB 4205 s, F1800W 0.03 GB 4205 s
+JWST|5804 | HOPS-60-MIRI | MIRI/IMAGE | 3 filters | total 0.1 GB | F770W 0.03 GB 4205 s, F1280W 0.03 GB 4205 s, F1800W 0.03 GB 4205 s
+JWST|5804 | HOPS-108-MIRI | MIRI/IMAGE | 3 filters | total 0.1 GB | F770W 0.03 GB 4205 s, F1280W 0.03 GB 5351 s, F1800W 0.03 GB 4205 s
+JWST|1802 | HOPS370-SPECTROSCOPY | MIRI/IMAGE | 3 filters | total 0.1 GB | F770W 0.03 GB 4484 s, F1280W 0.03 GB 4484 s, F1500W 0.03 GB 4484 s
+JWST|1802 | HOPS370-BACKGROUND | MIRI/IMAGE | 3 filters | total 0.1 GB | F770W 0.03 GB 1121 s, F1280W 0.03 GB 1121 s, F1500W 0.03 GB 1121 s
+JWST|5804 | HOPS-394-MIRI | MIRI/IMAGE | 3 filters | total 0.1 GB | F770W 0.03 GB 4587 s, F1280W 0.03 GB 7645 s, F1800W 0.03 GB 4587 s
+JWST|5804 | HOPS-73-MIRI | MIRI/IMAGE | 3 filters | total 0.1 GB | F770W 0.03 GB 4587 s, F1280W 0.03 GB 7645 s, F1800W 0.03 GB 4587 s
+JWST|5804 | HOPS-75-MIRI | MIRI/IMAGE | 3 filters | total 0.1 GB | F770W 0.03 GB 4205 s, F1280W 0.03 GB 4205 s, F1800W 0.03 GB 4205 s
+JWST|5804 | HOPS-78-MIRI | MIRI/IMAGE | 3 filters | total 0.1 GB | F770W 0.03 GB 4587 s, F1280W 0.03 GB 7645 s, F1800W 0.03 GB 4587 s
+JWST|5804 | HEFE-MIRI-bkdg | MIRI/IMAGE | 3 filters | total 0.1 GB | F770W 0.04 GB 1433 s, F1280W 0.04 GB 1911 s, F1800W 0.04 GB 1051 s
+JWST|1228 | TARGETS | NIRCAM/IMAGE | 2 filters | total 0.6 GB | F360M 0.29 GB 1031 s, F444W 0.29 GB 1031 s
+JWST|5552 | HOPS108_MSAcat_13Dec2024 | NIRCAM/IMAGE | 2 filters | total 2.4 GB | F187N 1.22 GB 1675 s, F212N 1.22 GB 8375 s
+JWST|1854 | HOPS68-THERM-SKY | MIRI/IMAGE | 1 filters | total 0.0 GB | F560W 0.03 GB 167 s
+JWST|1854 | HOPS68-THERM | MIRI/IMAGE | 1 filters | total 0.0 GB | F560W 0.03 GB 666 s
