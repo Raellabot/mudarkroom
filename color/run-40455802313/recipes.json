@@ -1,0 +1,90 @@
+[
+ {
+  "picture": "orionbar-nircam-creative5-n50-black20.jpg",
+  "palette": "creative5",
+  "collection": "JWST",
+  "target": "ORIBAR-IMAGING-NIRCAM",
+  "proposal_id": "1288",
+  "instrument": "NIRCAM/IMAGE",
+  "title": "Radiative Feedback from Massive Stars as Traced by Multiband Imaging and Spectroscopic Mosaics",
+  "grid": {
+   "width": 2119,
+   "height": 1017,
+   "reduction": 5,
+   "arcsec_per_pixel": 0.15614759218331703,
+   "reference_filter": "F210M"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F140M",
+    "center_nm": 1405.0,
+    "color": "#1a4cff",
+    "obs_id": "jw01288-o001_t011_nircam_clear-f140m",
+    "exposure_s": 171.788,
+    "product": "mast:JWST/product/jw01288-o001_t011_nircam_clear-f140m_i2d.fits"
+   },
+   {
+    "filter": "F187N",
+    "center_nm": 1873.5,
+    "color": "#05c7ff",
+    "obs_id": "jw01288-o001_t011_nircam_clear-f187n",
+    "exposure_s": 171.788,
+    "product": "mast:JWST/product/jw01288-o001_t011_nircam_clear-f187n_i2d.fits"
+   },
+   {
+    "filter": "F210M",
+    "center_nm": 2096.5,
+    "color": "#91e6ab",
+    "obs_id": "jw01288-o001_t011_nircam_clear-f210m",
+    "exposure_s": 171.788,
+    "product": "mast:JWST/product/jw01288-o001_t011_nircam_clear-f210m_i2d.fits"
+   },
+   {
+    "filter": "F277W",
+    "center_nm": 2771.5,
+    "color": "#f7b884",
+    "obs_id": "jw01288-o001_t011_nircam_clear-f277w",
+    "exposure_s": 171.788,
+    "product": "mast:JWST/product/jw01288-o001_t011_nircam_clear-f277w_i2d.fits"
+   },
+   {
+    "filter": "F300M",
+    "center_nm": 2992.0,
+    "color": "#fc6fa8",
+    "obs_id": "jw01288-o001_t011_nircam_clear-f300m",
+    "exposure_s": 171.788,
+    "product": "mast:JWST/product/jw01288-o001_t011_nircam_clear-f300m_i2d.fits"
+   },
+   {
+    "filter": "F480M",
+    "center_nm": 4819.5,
+    "color": "#f261d1",
+    "obs_id": "jw01288-o001_t011_nircam_clear-f480m",
+    "exposure_s": 171.788,
+    "product": "mast:JWST/product/jw01288-o001_t011_nircam_clear-f480m_i2d.fits"
+   }
+  ],
+  "black_percentile": 20.0,
+  "finishing": {
+   "box": [
+    0.025,
+    1.0,
+    0.52,
+    1.0
+   ],
+   "black": 40,
+   "fill": [
+    6.0,
+    3,
+    90
+   ]
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]
