@@ -1,0 +1,2 @@
+JWST|BulletCluster|4598|NIRCAM/IMAGE|3  rows=8  filters=['F090W', 'F115W', 'F150W', 'F200W', 'F277W', 'F356W', 'F410M', 'F444W']
+JWST|BulletCluster|4598|NIRISS/IMAGE|3  rows=3  filters=['CLEAR;F115W', 'CLEAR;F150W', 'CLEAR;F200W']
