@@ -1,0 +1,166 @@
+[
+ {
+  "picture": "bullet-nircam-creative5-n50.jpg",
+  "palette": "creative5",
+  "collection": "JWST",
+  "target": "BulletCluster",
+  "proposal_id": "4598",
+  "instrument": "NIRCAM/IMAGE",
+  "title": "Silver Bullet for Dark Matter",
+  "grid": {
+   "width": 2291,
+   "height": 1040,
+   "reduction": 5,
+   "arcsec_per_pixel": 0.15614176419301354,
+   "reference_filter": "F200W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F090W",
+    "center_nm": 900.0,
+    "color": "#1a4cff",
+    "obs_id": "jw04598-o001_t001_nircam_clear-f090w",
+    "exposure_s": 6399.116000000001,
+    "product": "mast:JWST/product/jw04598-o001_t001_nircam_clear-f090w_i2d.fits"
+   },
+   {
+    "filter": "F115W",
+    "center_nm": 1147.5,
+    "color": "#05c7ff",
+    "obs_id": "jw04598-o001_t001_nircam_clear-f115w",
+    "exposure_s": 6399.116000000001,
+    "product": "mast:JWST/product/jw04598-o001_t001_nircam_clear-f115w_i2d.fits"
+   },
+   {
+    "filter": "F200W",
+    "center_nm": 1990.5,
+    "color": "#91e6ab",
+    "obs_id": "jw04598-o001_t001_nircam_clear-f200w",
+    "exposure_s": 6399.116000000001,
+    "product": "mast:JWST/product/jw04598-o001_t001_nircam_clear-f200w_i2d.fits"
+   },
+   {
+    "filter": "F277W",
+    "center_nm": 2771.5,
+    "color": "#f7b884",
+    "obs_id": "jw04598-o001_t001_nircam_clear-f277w",
+    "exposure_s": 6399.116000000001,
+    "product": "mast:JWST/product/jw04598-o001_t001_nircam_clear-f277w_i2d.fits"
+   },
+   {
+    "filter": "F410M",
+    "center_nm": 4082.5,
+    "color": "#fc6fa8",
+    "obs_id": "jw04598-o001_t001_nircam_clear-f410m",
+    "exposure_s": 6399.116000000001,
+    "product": "mast:JWST/product/jw04598-o001_t001_nircam_clear-f410m_i2d.fits"
+   },
+   {
+    "filter": "F444W",
+    "center_nm": 4433.0,
+    "color": "#f261d1",
+    "obs_id": "jw04598-o001_t001_nircam_clear-f444w",
+    "exposure_s": 6399.116000000001,
+    "product": "mast:JWST/product/jw04598-o001_t001_nircam_clear-f444w_i2d.fits"
+   }
+  ],
+  "black_percentile": 1.0,
+  "finishing": {
+   "box": [
+    0.03,
+    1.0,
+    0.0,
+    1.0
+   ]
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ },
+ {
+  "picture": "bullet-nircam-creative5-n50-white.jpg",
+  "palette": "creative5",
+  "collection": "JWST",
+  "target": "BulletCluster",
+  "proposal_id": "4598",
+  "instrument": "NIRCAM/IMAGE",
+  "title": "Silver Bullet for Dark Matter",
+  "grid": {
+   "width": 2291,
+   "height": 1040,
+   "reduction": 5,
+   "arcsec_per_pixel": 0.15614176419301354,
+   "reference_filter": "F200W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "white",
+  "filters": [
+   {
+    "filter": "F090W",
+    "center_nm": 900.0,
+    "color": "#1a4cff",
+    "obs_id": "jw04598-o001_t001_nircam_clear-f090w",
+    "exposure_s": 6399.116000000001,
+    "product": "mast:JWST/product/jw04598-o001_t001_nircam_clear-f090w_i2d.fits"
+   },
+   {
+    "filter": "F115W",
+    "center_nm": 1147.5,
+    "color": "#05c7ff",
+    "obs_id": "jw04598-o001_t001_nircam_clear-f115w",
+    "exposure_s": 6399.116000000001,
+    "product": "mast:JWST/product/jw04598-o001_t001_nircam_clear-f115w_i2d.fits"
+   },
+   {
+    "filter": "F200W",
+    "center_nm": 1990.5,
+    "color": "#91e6ab",
+    "obs_id": "jw04598-o001_t001_nircam_clear-f200w",
+    "exposure_s": 6399.116000000001,
+    "product": "mast:JWST/product/jw04598-o001_t001_nircam_clear-f200w_i2d.fits"
+   },
+   {
+    "filter": "F277W",
+    "center_nm": 2771.5,
+    "color": "#f7b884",
+    "obs_id": "jw04598-o001_t001_nircam_clear-f277w",
+    "exposure_s": 6399.116000000001,
+    "product": "mast:JWST/product/jw04598-o001_t001_nircam_clear-f277w_i2d.fits"
+   },
+   {
+    "filter": "F410M",
+    "center_nm": 4082.5,
+    "color": "#fc6fa8",
+    "obs_id": "jw04598-o001_t001_nircam_clear-f410m",
+    "exposure_s": 6399.116000000001,
+    "product": "mast:JWST/product/jw04598-o001_t001_nircam_clear-f410m_i2d.fits"
+   },
+   {
+    "filter": "F444W",
+    "center_nm": 4433.0,
+    "color": "#f261d1",
+    "obs_id": "jw04598-o001_t001_nircam_clear-f444w",
+    "exposure_s": 6399.116000000001,
+    "product": "mast:JWST/product/jw04598-o001_t001_nircam_clear-f444w_i2d.fits"
+   }
+  ],
+  "black_percentile": 1.0,
+  "finishing": {
+   "box": [
+    0.03,
+    1.0,
+    0.0,
+    1.0
+   ]
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]
