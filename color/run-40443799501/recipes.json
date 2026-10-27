@@ -1,0 +1,140 @@
+[
+ {
+  "picture": "antennae-nircam-creative5-n50.jpg",
+  "palette": "creative5",
+  "collection": "JWST",
+  "target": "ANTENNAE-NIRCAM",
+  "proposal_id": "2581",
+  "instrument": "NIRCAM/IMAGE",
+  "title": "Come Out, Come Out, Wherever You Are: Seeking All the Massive Young Clusters Hidden in the Antennae",
+  "grid": {
+   "width": 2270,
+   "height": 2259,
+   "reduction": 2,
+   "arcsec_per_pixel": 0.06148698311365603,
+   "reference_filter": "F150W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F150W",
+    "center_nm": 1499.5,
+    "color": "#1a4cff",
+    "obs_id": "jw02581-o001_t001_nircam_clear-f150w",
+    "exposure_s": 7472.784,
+    "product": "mast:JWST/product/jw02581-o001_t001_nircam_clear-f150w_i2d.fits"
+   },
+   {
+    "filter": "F187N",
+    "center_nm": 1873.5,
+    "color": "#00e6ff",
+    "obs_id": "jw02581-o001_t001_nircam_clear-f187n",
+    "exposure_s": 3736.392,
+    "product": "mast:JWST/product/jw02581-o001_t001_nircam_clear-f187n_i2d.fits"
+   },
+   {
+    "filter": "F335M",
+    "center_nm": 3357.5,
+    "color": "#f2e673",
+    "obs_id": "jw02581-o001_t001_nircam_clear-f335m",
+    "exposure_s": 3736.392,
+    "product": "mast:JWST/product/jw02581-o001_t001_nircam_clear-f335m_i2d.fits"
+   },
+   {
+    "filter": "F360M",
+    "center_nm": 3620.5,
+    "color": "#ff739e",
+    "obs_id": "jw02581-o001_t001_nircam_clear-f360m",
+    "exposure_s": 3736.392,
+    "product": "mast:JWST/product/jw02581-o001_t001_nircam_clear-f360m_i2d.fits"
+   },
+   {
+    "filter": "F410M",
+    "center_nm": 4082.5,
+    "color": "#f261d1",
+    "obs_id": "jw02581-o001_t001_nircam_clear-f410m",
+    "exposure_s": 3736.392,
+    "product": "mast:JWST/product/jw02581-o001_t001_nircam_clear-f410m_i2d.fits"
+   }
+  ],
+  "black_percentile": 30,
+  "finishing": {
+   "black": 30
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ },
+ {
+  "picture": "antennae-nircam-creative5-n50-white.jpg",
+  "palette": "creative5",
+  "collection": "JWST",
+  "target": "ANTENNAE-NIRCAM",
+  "proposal_id": "2581",
+  "instrument": "NIRCAM/IMAGE",
+  "title": "Come Out, Come Out, Wherever You Are: Seeking All the Massive Young Clusters Hidden in the Antennae",
+  "grid": {
+   "width": 2270,
+   "height": 2259,
+   "reduction": 2,
+   "arcsec_per_pixel": 0.06148698311365603,
+   "reference_filter": "F150W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "white",
+  "filters": [
+   {
+    "filter": "F150W",
+    "center_nm": 1499.5,
+    "color": "#1a4cff",
+    "obs_id": "jw02581-o001_t001_nircam_clear-f150w",
+    "exposure_s": 7472.784,
+    "product": "mast:JWST/product/jw02581-o001_t001_nircam_clear-f150w_i2d.fits"
+   },
+   {
+    "filter": "F187N",
+    "center_nm": 1873.5,
+    "color": "#00e6ff",
+    "obs_id": "jw02581-o001_t001_nircam_clear-f187n",
+    "exposure_s": 3736.392,
+    "product": "mast:JWST/product/jw02581-o001_t001_nircam_clear-f187n_i2d.fits"
+   },
+   {
+    "filter": "F335M",
+    "center_nm": 3357.5,
+    "color": "#f2e673",
+    "obs_id": "jw02581-o001_t001_nircam_clear-f335m",
+    "exposure_s": 3736.392,
+    "product": "mast:JWST/product/jw02581-o001_t001_nircam_clear-f335m_i2d.fits"
+   },
+   {
+    "filter": "F360M",
+    "center_nm": 3620.5,
+    "color": "#ff739e",
+    "obs_id": "jw02581-o001_t001_nircam_clear-f360m",
+    "exposure_s": 3736.392,
+    "product": "mast:JWST/product/jw02581-o001_t001_nircam_clear-f360m_i2d.fits"
+   },
+   {
+    "filter": "F410M",
+    "center_nm": 4082.5,
+    "color": "#f261d1",
+    "obs_id": "jw02581-o001_t001_nircam_clear-f410m",
+    "exposure_s": 3736.392,
+    "product": "mast:JWST/product/jw02581-o001_t001_nircam_clear-f410m_i2d.fits"
+   }
+  ],
+  "black_percentile": 30,
+  "finishing": {
+   "black": 30
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]
