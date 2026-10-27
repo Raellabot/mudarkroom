@@ -1,0 +1,154 @@
+[
+ {
+  "picture": "sn1987a-1726-creative5-n50.jpg",
+  "palette": "creative5",
+  "collection": "JWST",
+  "target": "SN-1987A",
+  "proposal_id": "1726",
+  "instrument": "NIRCAM/IMAGE",
+  "title": "Shocks and expanding ejecta in Supernova 1987A",
+  "grid": {
+   "width": 810,
+   "height": 795,
+   "reduction": 1,
+   "arcsec_per_pixel": 0.03092850621248339,
+   "reference_filter": "F150W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F150W",
+    "center_nm": 1499.5,
+    "color": "#1a4cff",
+    "obs_id": "jw01726-o001_t001_nircam_clear-f150w-sub320",
+    "exposure_s": 1346.9939999999997,
+    "product": "mast:JWST/product/jw01726-o001_t001_nircam_clear-f150w-sub320_i2d.fits"
+   },
+   {
+    "filter": "F200W",
+    "center_nm": 1990.5,
+    "color": "#00e6ff",
+    "obs_id": "jw01726-o001_t001_nircam_clear-f200w-sub320",
+    "exposure_s": 1154.565,
+    "product": "mast:JWST/product/jw01726-o001_t001_nircam_clear-f200w-sub320_i2d.fits"
+   },
+   {
+    "filter": "F212N",
+    "center_nm": 2121.5,
+    "color": "#f2e673",
+    "obs_id": "jw01726-o001_t001_nircam_clear-f212n-sub320",
+    "exposure_s": 28286.801999999996,
+    "product": "mast:JWST/product/jw01726-o001_t001_nircam_clear-f212n-sub320_i2d.fits"
+   },
+   {
+    "filter": "F356W",
+    "center_nm": 3560.0,
+    "color": "#ff739e",
+    "obs_id": "jw01726-o001_t001_nircam_clear-f356w-sub320",
+    "exposure_s": 1346.9939999999997,
+    "product": "mast:JWST/product/jw01726-o001_t001_nircam_clear-f356w-sub320_i2d.fits"
+   },
+   {
+    "filter": "F444W",
+    "center_nm": 4433.0,
+    "color": "#f261d1",
+    "obs_id": "jw01726-o001_t001_nircam_clear-f444w-sub320",
+    "exposure_s": 1154.565,
+    "product": "mast:JWST/product/jw01726-o001_t001_nircam_clear-f444w-sub320_i2d.fits"
+   }
+  ],
+  "black_percentile": 20,
+  "finishing": {
+   "nofill": true,
+   "black": 20,
+   "upscale": 4,
+   "sky": [
+    83.86679,
+    -69.26975,
+    7.0
+   ]
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ },
+ {
+  "picture": "sn1987a-1726-creative5-n50-white.jpg",
+  "palette": "creative5",
+  "collection": "JWST",
+  "target": "SN-1987A",
+  "proposal_id": "1726",
+  "instrument": "NIRCAM/IMAGE",
+  "title": "Shocks and expanding ejecta in Supernova 1987A",
+  "grid": {
+   "width": 810,
+   "height": 795,
+   "reduction": 1,
+   "arcsec_per_pixel": 0.03092850621248339,
+   "reference_filter": "F150W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "white",
+  "filters": [
+   {
+    "filter": "F150W",
+    "center_nm": 1499.5,
+    "color": "#1a4cff",
+    "obs_id": "jw01726-o001_t001_nircam_clear-f150w-sub320",
+    "exposure_s": 1346.9939999999997,
+    "product": "mast:JWST/product/jw01726-o001_t001_nircam_clear-f150w-sub320_i2d.fits"
+   },
+   {
+    "filter": "F200W",
+    "center_nm": 1990.5,
+    "color": "#00e6ff",
+    "obs_id": "jw01726-o001_t001_nircam_clear-f200w-sub320",
+    "exposure_s": 1154.565,
+    "product": "mast:JWST/product/jw01726-o001_t001_nircam_clear-f200w-sub320_i2d.fits"
+   },
+   {
+    "filter": "F212N",
+    "center_nm": 2121.5,
+    "color": "#f2e673",
+    "obs_id": "jw01726-o001_t001_nircam_clear-f212n-sub320",
+    "exposure_s": 28286.801999999996,
+    "product": "mast:JWST/product/jw01726-o001_t001_nircam_clear-f212n-sub320_i2d.fits"
+   },
+   {
+    "filter": "F356W",
+    "center_nm": 3560.0,
+    "color": "#ff739e",
+    "obs_id": "jw01726-o001_t001_nircam_clear-f356w-sub320",
+    "exposure_s": 1346.9939999999997,
+    "product": "mast:JWST/product/jw01726-o001_t001_nircam_clear-f356w-sub320_i2d.fits"
+   },
+   {
+    "filter": "F444W",
+    "center_nm": 4433.0,
+    "color": "#f261d1",
+    "obs_id": "jw01726-o001_t001_nircam_clear-f444w-sub320",
+    "exposure_s": 1154.565,
+    "product": "mast:JWST/product/jw01726-o001_t001_nircam_clear-f444w-sub320_i2d.fits"
+   }
+  ],
+  "black_percentile": 20,
+  "finishing": {
+   "nofill": true,
+   "black": 20,
+   "upscale": 4,
+   "sky": [
+    83.86679,
+    -69.26975,
+    7.0
+   ]
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]
