@@ -1,0 +1,7 @@
+[     0s] == casa-miri: 6 filters: ['F560W', 'F770W', 'F1130W', 'F1280W', 'F2100W', 'F2550W']
+[     1s] aligned arrays found in the cache; no download
+[    12s] casa-miri: finishing steps applied: ['black', 'box', 'fill']
+[    12s] cropped to 2959x2765 px where 6 of 6 filters have data
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/astropy/visualization/lupton_rgb.py:645: RuntimeWarning: invalid value encountered in divide
+  fInorm = np.where(Int <= 0, 0, np.true_divide(fI, Int))
+[    13s] done: 1 pictures
