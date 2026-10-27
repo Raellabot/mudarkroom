@@ -1,0 +1,4 @@
+[     0s] == pillars-nircam: 5 filters: ['F090W', 'F187N', 'F200W', 'F335M', 'F444W']
+[     0s] aligned arrays found in the cache; no download
+[     1s] pillars-nircam: samples saved (796x477 px per filter)
+[     1s] done: 0 pictures
