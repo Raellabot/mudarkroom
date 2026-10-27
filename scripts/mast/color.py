@@ -497,7 +497,7 @@ FINISH = {
     "ngc602-multi": {"nofill": True, "destripe": (288, 75), "black": 50, "xray_dim": (0.55, 40)},   # the brightest X-ray source is dimmed by 55% over a 40 px radius
     "sn1987a-1726": {"nofill": True, "black": 20, "upscale": 4, "sky": (83.86679, -69.26975, 7.0)},   # a 25 arcsecond close-up of the remnant
     "casa-miri": {"box": (0.02, 0.955, 0.12, 0.985), "black": 35, "fill": (4.0, 3, 40)},   # crops away the ragged edges of the MIRI mosaic
-    "orionbar-nircam": {"box": (0.025, 1.0, 0.52, 1.0), "black": 40, "fill": (6.0, 3, 90)},   # the pointing across the Bar; the other pointing is a separate patch of nebula
+    "orionbar-nircam": {"box": (0.055, 1.0, 0.52, 1.0), "black": 40, "fill": (6.0, 3, 90)},   # the pointing across the Bar; the other pointing is a separate patch of nebula
     "cartwheel-nircam": {"black": 20},
     "m82-nircam": {"box": (0.0, 1.0, 0.27, 0.73), "black": 10, "stretch": 0.12, "fill": (4.0, 3, 40)},   # the galaxy is a narrow band in the middle of a wide frame
     "elgordo-nircam": {"box": (0.0, 1.0, 0.565, 1.0), "black": 55, "fill": (8.0, 4, 130)},   # the right pointing holds the cluster; the left one is a different field
