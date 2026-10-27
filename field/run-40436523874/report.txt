@@ -1,0 +1,20 @@
+field cartwheel: ra 9.4213 dec -33.7164 radius 0.1 deg
+== Chandra (Chandra Data Archive)
+3 public observations within 0.1 deg
+obsid 2019 | CARTWHEEL | ACIS-S | grating NONE | TE | 76.1 ks | events 739139 | proposal 02600302 | released 2002-06-04 | 9.4167 -33.7161 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao02/cat6/2019/primary/acisf02019N006_evt2.fits.gz
+    image acisf02019N006_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf02019N006_full_img2.fits | 0.2-20.0 keV | 0.6 MB
+obsid 9531 | CARTWHEEL | ACIS-S | grating NONE | TE | 51.4 ks | events 810971 | proposal 09620205 | released 2009-09-11 | 9.4167 -33.7161 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao09/cat6/9531/primary/acisf09531N003_evt2.fits.gz
+    image acisf09531N003_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf09531N003_full_img2.fits | 0.2-20.0 keV | 0.4 MB
+obsid 9807 | CARTWHEEL | ACIS-S | grating NONE | TE | 49.5 ks | events 774339 | proposal 09620205 | released 2009-09-11 | 9.4167 -33.7161 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao09/cat6/9807/primary/acisf09807N003_evt2.fits.gz
+    image acisf09807N003_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf09807N003_full_img2.fits | 0.2-20.0 keV | 0.5 MB
+imaging exposure without a grating: 177.1 ks in total
+== Hubble and Webb (MAST)
+168 rows from MAST, 25 public single-filter level-3 image mosaics
+HST|5410 | AM0035-335 | WFPC2/PC | 3 filters | total 0.8 GB | detection 0.26 GB 5000 s, F450W 0.26 GB 3200 s, F814W 0.26 GB 1800 s
+JWST|2727 | NAME-CARTWHEEL | NIRCAM/IMAGE | 6 filters | total 2.3 GB | F090W 0.63 GB 2749 s, F150W 0.63 GB 2749 s, F200W 0.63 GB 2749 s, F277W 0.14 GB 2749 s, F356W 0.14 GB 2749 s, F444W 0.14 GB 2749 s
+JWST|2727 | NAME-CARTWHEEL | MIRI/IMAGE | 4 filters | total 0.2 GB | F770W 0.06 GB 4040 s, F1000W 0.06 GB 4040 s, F1280W 0.06 GB 4040 s, F1800W 0.06 GB 4085 s
+JWST|2754 | SN2021AFDX | MIRI/IMAGE | 3 filters | total 0.1 GB | F1500W 0.04 GB 400 s, F2100W 0.04 GB 2786 s, F2550W 0.04 GB 9324 s
+JWST|2754 | SN2021AFDX-BG | MIRI/IMAGE | 1 filters | total 0.0 GB | F2550W 0.04 GB 2242 s
