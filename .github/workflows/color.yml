@@ -37,6 +37,9 @@ on:
       variants:
         description: "Tweaks of the ranked palettes, comma-separated: base, deep (darker bluer sky), soft (softer pinks), deepsoft, white and whiter (bright star cores toward white)"
         default: "base"
+      size_cap_gb:
+        description: "Largest single mosaic file to download, in GB (files over this are left out; one file at a time is kept on the runner)"
+        default: "6"
       find:
         description: "Required: space-separated COLLECTION|proposal_id (|target) to look up in MAST; with specs empty it only lists the targets and filters (groups.txt)"
         default: ""
@@ -67,6 +70,7 @@ jobs:
       CACHE_ONLY: ${{ inputs.cache_only }}
       NORM_EXPS: ${{ inputs.norm_exps }}
       VARIANTS: ${{ inputs.variants }}
+      SIZE_CAP_GB: ${{ inputs.size_cap_gb }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
