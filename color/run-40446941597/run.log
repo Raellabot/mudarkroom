@@ -1,0 +1,9 @@
+[     0s] == sn1987a-1726: 5 filters: ['F150W', 'F200W', 'F212N', 'F356W', 'F444W']
+[     0s] aligned arrays found in the cache; no download
+WARNING: FITSFixedWarning: 'obsfix' made the change 'Set OBSGEO-L to   -46.694797 from OBSGEO-[XYZ].
+Set OBSGEO-B to   -16.371046 from OBSGEO-[XYZ].
+Set OBSGEO-H to 1478832142.256 from OBSGEO-[XYZ]'. [astropy.wcs.wcs]
+[     0s] sn1987a-1726: cropped to 425x436 px around RA 83.86679 Dec -69.26975
+[     0s] sn1987a-1726: finishing steps applied: ['black', 'nofill', 'sky', 'upscale']
+[     0s] cropped to 251x261 px where 5 of 5 filters have data
+[     0s] done: 1 pictures
