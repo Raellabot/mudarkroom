@@ -485,7 +485,7 @@ FINISH = {
     "primer-uds": {"nofill": True, "destripe": (288, 75), "black": 90},
     "smacs0723": {"box": (0.0, 1.0, 0.55, 1.0), "dense": 0.97},   # the cluster half; the other module's field is left out
     "ngc602-multi": {"nofill": True, "destripe": (288, 75), "black": 50, "xray_dim": (0.55, 40)},   # the brightest X-ray source is dimmed by 55% over a 40 px radius
-    "ngc346-nircam": {"box": (0.01, 0.955, 0.575, 0.99), "black": 30, "fill": (8.0, 4), "destripe": (288, 75)},   # the right pointing holds the nebula; the left one is star field; gaps between detectors are filled
+    "ngc346-nircam": {"box": (0.01, 0.925, 0.575, 0.99), "black": 30, "fill": (8.0, 4), "destripe": (288, 75)},   # the right pointing holds the nebula; the left one is star field; gaps between detectors are filled
     "antennae-nircam": {"black": 30},   # a darker sky: the default black point leaves a milky halo over the whole frame
     "westerlund1-nircam": {"black": 1.0},   # fills the masked cores of saturated stars and the gap strip
     "ngc3324-multi": {"nofill": True, "black": 50},   # the Cosmic Cliffs; black point and X-ray dimming are tuned on the exported samples
