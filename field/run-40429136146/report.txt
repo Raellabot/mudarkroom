@@ -1,0 +1,1560 @@
+field galactic-center: ra 266.4168 dec -29.0078 radius 0.25 deg
+== Chandra (Chandra Data Archive)
+275 public observations within 0.25 deg
+obsid 242 | SGRA* | ACIS-I | grating NONE | TE | 45.9 ks | events 822726 | proposal 01600040 | released 2000-11-03 | 266.4167 -29.0078 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao01/cat6/242/primary/acisf00242N004_evt2.fits.gz
+    image acisf00242N004_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf00242N004_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 945 | GALACTICCENTERARC | ACIS-I | grating NONE | TE | 48.8 ks | events 566805 | proposal 01910566 | released 2001-07-19 | 266.5833 -28.8667 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao01/cat9/945/primary/acisf00945N005_evt2.fits.gz
+    image acisf00945N005_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf00945N005_full_img2.fits | 0.2-20.0 keV | 0.4 MB
+obsid 1561 | SGRA* | ACIS-I | grating NONE | TE | 49.3 ks | events 860889 | proposal 02600049 | released 2002-10-15 | 266.4167 -29.0078 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao02/cat6/1561/primary/acisf01561N008_evt2.fits.gz
+    image acisf01561N008_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf01561N008_full_img2.fits | 0.2-20.0 keV | 0.4 MB
+obsid 2282 | GALACTICCENTERSURVEY | ACIS-I | grating NONE | TE | 10.6 ks | events 68726 | proposal 02910585 | released 2001-07-25 | 266.5954 -29.0376 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao02/cat9/2282/primary/acisf02282N005_evt2.fits.gz
+    image acisf02282N005_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf02282N005_full_img2.fits | 0.2-20.0 keV | 0.4 MB
+obsid 2284 | GALACTICCENTERSURVEY | ACIS-I | grating NONE | TE | 10.6 ks | events 86299 | proposal 02910585 | released 2001-07-25 | 266.4050 -28.9362 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao02/cat9/2284/primary/acisf02284N005_evt2.fits.gz
+    image acisf02284N005_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf02284N005_full_img2.fits | 0.2-20.0 keV | 0.4 MB
+obsid 2287 | GALACTICCENTERSURVEY | ACIS-I | grating NONE | TE | 10.6 ks | events 60279 | proposal 02910585 | released 2001-07-25 | 266.2150 -28.8344 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao02/cat9/2287/primary/acisf02287N005_evt2.fits.gz
+    image acisf02287N005_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf02287N005_full_img2.fits | 0.2-20.0 keV | 0.4 MB
+obsid 2291 | GALACTICCENTERSURVEY | ACIS-I | grating NONE | TE | 10.6 ks | events 57368 | proposal 02910585 | released 2001-07-25 | 266.4793 -29.2042 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao02/cat9/2291/primary/acisf02291N005_evt2.fits.gz
+    image acisf02291N005_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf02291N005_full_img2.fits | 0.2-20.0 keV | 0.4 MB
+obsid 2293 | GALACTICCENTERSURVEY | ACIS-I | grating NONE | TE | 11.1 ks | events 72017 | proposal 02910585 | released 2001-07-31 | 266.2887 -29.1026 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao02/cat9/2293/primary/acisf02293N005_evt2.fits.gz
+    image acisf02293N005_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf02293N005_full_img2.fits | 0.2-20.0 keV | 0.4 MB
+obsid 2943 | SGRA* | ACIS-I | grating NONE | TE | 37.7 ks | events 342953 | proposal 03600940 | released 2003-06-06 | 266.4167 -29.0078 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao03/cat6/2943/primary/acisf02943N006_evt2.fits.gz
+    image acisf02943N006_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf02943N006_full_img2.fits | 0.2-20.0 keV | 0.4 MB
+obsid 2951 | SGRA* | ACIS-I | grating NONE | TE | 12.4 ks | events 93380 | proposal 03601019 | released 2003-02-22 | 266.4167 -29.0078 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao03/cat6/2951/primary/acisf02951N004_evt2.fits.gz
+    image acisf02951N004_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf02951N004_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 2952 | SGRA* | ACIS-I | grating NONE | TE | 11.9 ks | events 112130 | proposal 03601019 | released 2003-03-29 | 266.4167 -29.0078 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao03/cat6/2952/primary/acisf02952N004_evt2.fits.gz
+    image acisf02952N004_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf02952N004_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 2953 | SGRA* | ACIS-I | grating NONE | TE | 11.6 ks | events 150539 | proposal 03601019 | released 2003-04-25 | 266.4167 -29.0078 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao03/cat6/2953/primary/acisf02953N006_evt2.fits.gz
+    image acisf02953N006_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf02953N006_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 2954 | SGRA* | ACIS-I | grating NONE | TE | 12.5 ks | events 94268 | proposal 03601019 | released 2003-05-13 | 266.4167 -29.0078 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao03/cat6/2954/primary/acisf02954N004_evt2.fits.gz
+    image acisf02954N004_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf02954N004_full_img2.fits | 0.2-20.0 keV | 0.4 MB
+obsid 3392 | SGRA* | ACIS-I | grating NONE | TE | 166.7 ks | events 1230220 | proposal 03600940 | released 2003-06-06 | 266.4167 -29.0078 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao03/cat6/3392/primary/acisf03392N004_evt2.fits.gz
+    image acisf03392N004_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf03392N004_full_img2.fits | 0.2-20.0 keV | 0.4 MB
+obsid 3393 | SGRA* | ACIS-I | grating NONE | TE | 158.0 ks | events 1160876 | proposal 03600940 | released 2003-06-06 | 266.4167 -29.0078 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao03/cat6/3393/primary/acisf03393N004_evt2.fits.gz
+    image acisf03393N004_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf03393N004_full_img2.fits | 0.2-20.0 keV | 0.4 MB
+obsid 3549 | SGRA* | ACIS-I | grating NONE | TE | 24.8 ks | events 270261 | proposal 04600054 | released 2004-06-23 | 266.4167 -29.0078 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao04/cat6/3549/primary/acisf03549N004_evt2.fits.gz
+    image acisf03549N004_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf03549N004_full_img2.fits | 0.2-20.0 keV | 0.4 MB
+obsid 3663 | SGRA* | ACIS-I | grating NONE | TE | 38.0 ks | events 334580 | proposal 03600940 | released 2003-06-06 | 266.4167 -29.0078 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao03/cat6/3663/primary/acisf03663N004_evt2.fits.gz
+    image acisf03663N004_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf03663N004_full_img2.fits | 0.2-20.0 keV | 0.4 MB
+obsid 3665 | SGRA* | ACIS-I | grating NONE | TE | 89.9 ks | events 666806 | proposal 03600940 | released 2003-06-06 | 266.4167 -29.0078 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao03/cat6/3665/primary/acisf03665N004_evt2.fits.gz
+    image acisf03665N004_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf03665N004_full_img2.fits | 0.2-20.0 keV | 0.4 MB
+obsid 4500 | ARCHESCLUSTER | ACIS-I | grating NONE | TE | 98.6 ks | events 1339108 | proposal 05200465 | released 2005-06-18 | 266.4596 -28.8222 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao05/cat2/4500/primary/acisf04500N006_evt2.fits.gz
+    image acisf04500N006_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf04500N006_full_img2.fits | 0.2-20.0 keV | 0.5 MB
+obsid 4683 | SGRA* | ACIS-I | grating NONE | TE | 49.5 ks | events 406658 | proposal 05600051 | released 2005-07-13 | 266.4167 -29.0078 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao05/cat6/4683/primary/acisf04683N004_evt2.fits.gz
+    image acisf04683N004_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf04683N004_full_img2.fits | 0.2-20.0 keV | 0.4 MB
+obsid 4684 | SGRA* | ACIS-I | grating NONE | TE | 49.5 ks | events 408119 | proposal 05600051 | released 2005-07-15 | 266.4167 -29.0078 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao05/cat6/4684/primary/acisf04684N004_evt2.fits.gz
+    image acisf04684N004_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf04684N004_full_img2.fits | 0.2-20.0 keV | 0.4 MB
+obsid 5360 | CXOGCJ174540.0-290030 | ACIS-I | grating NONE | TE | 5.1 ks | events 41513 | proposal 05628184 | released 2004-08-30 | 266.4167 -29.0078 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao05/cat6/5360/primary/acisf05360N004_evt2.fits.gz
+    image acisf05360N004_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf05360N004_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 5950 | SGRA* | ACIS-I | grating NONE | TE | 48.5 ks | events 483002 | proposal 06621003 | released 2006-07-26 | 266.4167 -29.0078 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao06/cat6/5950/primary/acisf05950N004_evt2.fits.gz
+    image acisf05950N004_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf05950N004_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 5951 | SGRA* | ACIS-I | grating NONE | TE | 44.6 ks | events 482046 | proposal 06621003 | released 2006-07-31 | 266.4167 -29.0078 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao06/cat6/5951/primary/acisf05951N004_evt2.fits.gz
+    image acisf05951N004_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf05951N004_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 5952 | SGRA* | ACIS-I | grating NONE | TE | 45.3 ks | events 471728 | proposal 06621003 | released 2006-08-01 | 266.4167 -29.0078 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao06/cat6/5952/primary/acisf05952N006_evt2.fits.gz
+    image acisf05952N006_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf05952N006_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 5953 | SGRA* | ACIS-I | grating NONE | TE | 45.4 ks | events 441535 | proposal 06621003 | released 2006-08-01 | 266.4167 -29.0078 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao06/cat6/5953/primary/acisf05953N005_evt2.fits.gz
+    image acisf05953N005_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf05953N005_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 5954 | SGRA* | ACIS-I | grating NONE | TE | 17.8 ks | events 260971 | proposal 06621003 | released 2007-07-19 | 266.4167 -29.0078 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao06/cat6/5954/primary/acisf05954N006_evt2.fits.gz
+    image acisf05954N006_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf05954N006_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 6113 | SGRA* | ACIS-I | grating NONE | TE | 4.9 ks | events 39516 | proposal 06621003 | released 2006-02-28 | 266.4167 -29.0078 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao06/cat6/6113/primary/acisf06113N004_evt2.fits.gz
+    image acisf06113N004_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf06113N004_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 6190 | GALACTICCENTERSURVEY | HRC-I | grating NONE |  | 5.2 ks | events 202859 | proposal 06401083 | released 2006-06-06 | 266.4167 -29.0031 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao06/cat4/6190/primary/hrcf06190N006_evt2.fits.gz
+    image hrcf06190N006_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image hrcf06190N006_full_img2.fits | 0.2-20.0 keV | 0.7 MB
+obsid 6191 | GALACTICCENTERSURVEY | HRC-I | grating NONE |  | 4.3 ks | events 179500 | proposal 06401083 | released 2006-10-21 | 266.4167 -29.0031 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao06/cat4/6191/primary/hrcf06191N006_evt2.fits.gz
+    image hrcf06191N006_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image hrcf06191N006_full_img2.fits | 0.2-20.0 keV | 0.8 MB
+obsid 6311 | GRS1741.9-2853ANDXMMJ174457-2850.3 | ACIS-I | grating NONE | TE | 4.0 ks | events 25077 | proposal 06401083 | released 2006-07-01 | 266.3721 -28.8508 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao06/cat4/6311/primary/acisf06311N004_evt2.fits.gz
+    image acisf06311N004_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf06311N004_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 6363 | SGRA* | ACIS-I | grating NONE | TE | 29.8 ks | events 260224 | proposal 06621003 | released 2007-07-19 | 266.4167 -29.0078 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao06/cat6/6363/primary/acisf06363N003_evt2.fits.gz
+    image acisf06363N003_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf06363N003_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 6602 | GRS1741.9-2853 | ACIS-I | grating NONE | TE | 5.1 ks | events 94122 | proposal 07400607 | released 2008-03-13 | 266.3112 -28.9389 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao07/cat4/6602/primary/acisf06602N004_evt2.fits.gz
+    image acisf06602N004_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf06602N004_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 6603 | GRS1741.9-2853 | ACIS-I | grating NONE | TE | 4.9 ks | events 79923 | proposal 07400607 | released 2008-04-09 | 266.3112 -28.9389 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao07/cat4/6603/primary/acisf06603N004_evt2.fits.gz
+    image acisf06603N004_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf06603N004_full_img2.fits | 0.2-20.0 keV | 0.4 MB
+obsid 6604 | GRS1741.9-2853 | ACIS-I | grating NONE | TE | 5.1 ks | events 85395 | proposal 07400607 | released 2008-04-19 | 266.3112 -28.9389 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao07/cat4/6604/primary/acisf06604N004_evt2.fits.gz
+    image acisf06604N004_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf06604N004_full_img2.fits | 0.2-20.0 keV | 0.4 MB
+obsid 6605 | GRS1741.9-2853 | ACIS-I | grating NONE | TE | 5.1 ks | events 82349 | proposal 07400607 | released 2008-05-02 | 266.3112 -28.9389 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao07/cat4/6605/primary/acisf06605N004_evt2.fits.gz
+    image acisf06605N004_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf06605N004_full_img2.fits | 0.2-20.0 keV | 0.4 MB
+obsid 6606 | GRS1741.9-2853 | ACIS-I | grating NONE | TE | 5.0 ks | events 78160 | proposal 07400607 | released 2008-05-17 | 266.3112 -28.9389 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao07/cat4/6606/primary/acisf06606N004_evt2.fits.gz
+    image acisf06606N004_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf06606N004_full_img2.fits | 0.2-20.0 keV | 0.4 MB
+obsid 6639 | SGRA* | ACIS-I | grating NONE | TE | 4.5 ks | events 71086 | proposal 07400822 | released 2007-04-12 | 266.4167 -29.0078 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao07/cat4/6639/primary/acisf06639N003_evt2.fits.gz
+    image acisf06639N003_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf06639N003_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 6640 | SGRA* | ACIS-I | grating NONE | TE | 5.1 ks | events 46709 | proposal 07400822 | released 2007-05-05 | 266.4167 -29.0078 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao07/cat4/6640/primary/acisf06640N003_evt2.fits.gz
+    image acisf06640N003_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf06640N003_full_img2.fits | 0.2-20.0 keV | 0.4 MB
+obsid 6641 | SGRA* | ACIS-I | grating NONE | TE | 5.1 ks | events 45663 | proposal 07400822 | released 2007-06-04 | 266.4167 -29.0078 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao07/cat4/6641/primary/acisf06641N003_evt2.fits.gz
+    image acisf06641N003_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf06641N003_full_img2.fits | 0.2-20.0 keV | 0.4 MB
+obsid 6642 | SGRA* | ACIS-I | grating NONE | TE | 5.1 ks | events 45385 | proposal 07400822 | released 2007-07-05 | 266.4167 -29.0078 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao07/cat4/6642/primary/acisf06642N003_evt2.fits.gz
+    image acisf06642N003_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf06642N003_full_img2.fits | 0.2-20.0 keV | 0.4 MB
+obsid 6643 | SGRA* | ACIS-I | grating NONE | TE | 5.0 ks | events 43248 | proposal 07400822 | released 2007-07-31 | 266.4167 -29.0078 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao07/cat4/6643/primary/acisf06643N003_evt2.fits.gz
+    image acisf06643N003_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf06643N003_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 6644 | SGRA* | ACIS-I | grating NONE | TE | 5.0 ks | events 42506 | proposal 07400822 | released 2007-08-23 | 266.4167 -29.0078 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao07/cat4/6644/primary/acisf06644N003_evt2.fits.gz
+    image acisf06644N003_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf06644N003_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 6645 | SGRA* | ACIS-I | grating NONE | TE | 5.1 ks | events 49872 | proposal 07400822 | released 2007-09-26 | 266.4167 -29.0078 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao07/cat4/6645/primary/acisf06645N003_evt2.fits.gz
+    image acisf06645N003_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf06645N003_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 6646 | SGRA* | ACIS-I | grating NONE | TE | 5.1 ks | events 45286 | proposal 07400822 | released 2007-10-29 | 266.4167 -29.0078 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao07/cat4/6646/primary/acisf06646N003_evt2.fits.gz
+    image acisf06646N003_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf06646N003_full_img2.fits | 0.2-20.0 keV | 0.4 MB
+obsid 7034 | GALACTICCENTERSURVEY | ACIS-I | grating NONE | TE | 39.6 ks | events 507910 | proposal 07910613 | released 2007-02-23 | 266.2046 -28.8454 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao07/cat9/7034/primary/acisf07034N004_evt2.fits.gz
+    image acisf07034N004_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf07034N004_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 7035 | GALACTICCENTERSURVEY | ACIS-I | grating NONE | TE | 38.0 ks | events 481886 | proposal 07910613 | released 2006-07-28 | 266.2796 -29.1177 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao07/cat9/7035/primary/acisf07035N003_evt2.fits.gz
+    image acisf07035N003_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf07035N003_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 7037 | GALACTICCENTERSURVEY | ACIS-I | grating NONE | TE | 39.4 ks | events 469182 | proposal 07910613 | released 2006-08-28 | 266.4729 -29.2209 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao07/cat9/7037/primary/acisf07037N003_evt2.fits.gz
+    image acisf07037N003_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf07037N003_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 7554 | SGRA* | ACIS-I | grating NONE | TE | 5.1 ks | events 54754 | proposal 08400783 | released 2008-02-12 | 266.4167 -29.0078 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao08/cat4/7554/primary/acisf07554N004_evt2.fits.gz
+    image acisf07554N004_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf07554N004_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 7555 | SGRA* | ACIS-I | grating NONE | TE | 5.1 ks | events 57127 | proposal 08400783 | released 2008-03-26 | 266.4167 -29.0078 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao08/cat4/7555/primary/acisf07555N004_evt2.fits.gz
+    image acisf07555N004_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf07555N004_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 7556 | SGRA* | ACIS-I | grating NONE | TE | 5.0 ks | events 53602 | proposal 08400783 | released 2008-05-18 | 266.4167 -29.0078 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao08/cat4/7556/primary/acisf07556N004_evt2.fits.gz
+    image acisf07556N004_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf07556N004_full_img2.fits | 0.2-20.0 keV | 0.4 MB
+obsid 7557 | SGRA* | ACIS-I | grating NONE | TE | 5.0 ks | events 50672 | proposal 08400783 | released 2008-07-20 | 266.4167 -29.0078 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao08/cat4/7557/primary/acisf07557N003_evt2.fits.gz
+    image acisf07557N003_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf07557N003_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 7558 | SGRA* | ACIS-I | grating NONE | TE | 5.0 ks | events 51614 | proposal 08400783 | released 2008-09-04 | 266.4167 -29.0078 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao08/cat4/7558/primary/acisf07558N003_evt2.fits.gz
+    image acisf07558N003_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf07558N003_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 7559 | SGRA* | ACIS-I | grating NONE | TE | 5.0 ks | events 51044 | proposal 08400783 | released 2008-10-29 | 266.4167 -29.0078 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao08/cat4/7559/primary/acisf07559N003_evt2.fits.gz
+    image acisf07559N003_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf07559N003_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 8532 | GALACTICCENTERSURVEY | HRC-I | grating NONE |  | 5.1 ks | events 304381 | proposal 09400003 | released 2008-07-25 | 266.4167 -29.0031 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao09/cat4/8532/primary/hrcf08532N006_evt2.fits.gz
+    image hrcf08532N006_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image hrcf08532N006_full_img2.fits | 0.2-20.0 keV | 0.8 MB
+obsid 9036 | GALACTICCENTERSURVEY | HRC-I | grating NONE |  | 5.1 ks | events 340374 | proposal 09400397 | released 2009-07-17 | 266.4167 -29.0031 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao09/cat4/9036/primary/hrcf09036N005_evt2.fits.gz
+    image hrcf09036N005_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image hrcf09036N005_full_img2.fits | 0.2-20.0 keV | 0.8 MB
+obsid 9073 | GALACTICCENTERSURVEY | HRC-I | grating NONE |  | 5.1 ks | events 325441 | proposal 09400397 | released 2009-05-12 | 266.4167 -29.0031 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao09/cat4/9073/primary/hrcf09073N005_evt2.fits.gz
+    image hrcf09073N005_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image hrcf09073N005_full_img2.fits | 0.2-20.0 keV | 0.8 MB
+obsid 9169 | SGRA* | ACIS-I | grating NONE | TE | 27.6 ks | events 330906 | proposal 09700091 | released 2009-05-06 | 266.4167 -29.0078 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao09/cat7/9169/primary/acisf09169N003_evt2.fits.gz
+    image acisf09169N003_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf09169N003_full_img2.fits | 0.2-20.0 keV | 0.4 MB
+obsid 9170 | SGRA* | ACIS-I | grating NONE | TE | 26.8 ks | events 318638 | proposal 09700091 | released 2009-05-07 | 266.4167 -29.0078 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao09/cat7/9170/primary/acisf09170N003_evt2.fits.gz
+    image acisf09170N003_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf09170N003_full_img2.fits | 0.2-20.0 keV | 0.4 MB
+obsid 9171 | SGRA* | ACIS-I | grating NONE | TE | 27.7 ks | events 340584 | proposal 09700091 | released 2009-05-11 | 266.4167 -29.0078 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao09/cat7/9171/primary/acisf09171N003_evt2.fits.gz
+    image acisf09171N003_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf09171N003_full_img2.fits | 0.2-20.0 keV | 0.4 MB
+obsid 9172 | SGRA* | ACIS-I | grating NONE | TE | 27.4 ks | events 337764 | proposal 09700091 | released 2009-05-13 | 266.4167 -29.0078 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao09/cat7/9172/primary/acisf09172N003_evt2.fits.gz
+    image acisf09172N003_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf09172N003_full_img2.fits | 0.2-20.0 keV | 0.4 MB
+obsid 9173 | SGRA* | ACIS-I | grating NONE | TE | 27.8 ks | events 344035 | proposal 09700091 | released 2009-07-28 | 266.4167 -29.0078 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao09/cat7/9173/primary/acisf09173N003_evt2.fits.gz
+    image acisf09173N003_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf09173N003_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 9174 | SGRA* | ACIS-I | grating NONE | TE | 28.8 ks | events 355362 | proposal 09700091 | released 2009-07-27 | 266.4167 -29.0078 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao09/cat7/9174/primary/acisf09174N003_evt2.fits.gz
+    image acisf09174N003_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf09174N003_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 10556 | SGRA* | ACIS-I | grating NONE | TE | 112.5 ks | events 961311 | proposal 10620790 | released 2010-05-22 | 266.4167 -29.0078 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao10/cat6/10556/primary/acisf10556N003_evt2.fits.gz
+    image acisf10556N003_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf10556N003_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 11843 | SGRA* | ACIS-I | grating NONE | TE | 78.9 ks | events 527481 | proposal 11620048 | released 2011-05-17 | 266.4167 -29.0078 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao11/cat6/11843/primary/acisf11843N003_evt2.fits.gz
+    image acisf11843N003_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf11843N003_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 12451 | SWIFTJ174535.5-285921 | ACIS-I | grating NONE | TE | 1.0 ks | events 431 | proposal 12400454 | released 2012-07-22 | 266.3979 -28.9893 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao12/cat4/12451/primary/acisf12451N003_evt2.fits.gz
+    image acisf12451N003_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf12451N003_full_img2.fits | 0.2-20.0 keV | 0.0 MB
+obsid 12949 | SGRACOMPLEX | ACIS-I | grating NONE | TE | 58.5 ks | events 372876 | proposal 12910860 | released 2012-08-01 | 266.4987 -28.9711 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao12/cat9/12949/primary/acisf12949N003_evt2.fits.gz
+    image acisf12949N003_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf12949N003_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 13016 | SGRA* | ACIS-I | grating NONE | TE | 17.8 ks | events 116499 | proposal 12620873 | released 2012-03-30 | 266.4167 -29.0078 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao12/cat6/13016/primary/acisf13016N003_evt2.fits.gz
+    image acisf13016N003_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf13016N003_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 13017 | SGRA* | ACIS-I | grating NONE | TE | 17.8 ks | events 114968 | proposal 12620873 | released 2012-04-01 | 266.4167 -29.0078 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao12/cat6/13017/primary/acisf13017N003_evt2.fits.gz
+    image acisf13017N003_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf13017N003_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 13438 | SGRACOMPLEX | ACIS-I | grating NONE | TE | 66.2 ks | events 428847 | proposal 12910860 | released 2012-08-01 | 266.4987 -28.9711 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao12/cat9/13438/primary/acisf13438N004_evt2.fits.gz
+    image acisf13438N004_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf13438N004_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 13508 | SGRACOMPLEX | ACIS-I | grating NONE | TE | 31.5 ks | events 200561 | proposal 12910860 | released 2012-08-01 | 266.4987 -28.9711 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao12/cat9/13508/primary/acisf13508N003_evt2.fits.gz
+    image acisf13508N003_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf13508N003_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 13838 | SGRA* | ACIS-S | grating HETG | TE | 98.3 ks | events 1045318 | proposal 13620807 | released 2012-08-03 | 266.4167 -29.0078 | evt2 name unknown
+obsid 13839 | SGRA* | ACIS-S | grating HETG | TE | 173.9 ks | events 2203285 | proposal 13620807 | released 2012-07-27 | 266.4167 -29.0078 | evt2 name unknown
+obsid 13840 | SGRA* | ACIS-S | grating HETG | TE | 160.4 ks | events 1768326 | proposal 13620807 | released 2012-07-30 | 266.4167 -29.0078 | evt2 name unknown
+obsid 13841 | SGRA* | ACIS-S | grating HETG | TE | 44.5 ks | events 530584 | proposal 13620807 | released 2012-07-19 | 266.4167 -29.0078 | evt2 name unknown
+obsid 13842 | SGRA* | ACIS-S | grating HETG | TE | 189.3 ks | events 2015130 | proposal 13620807 | released 2012-07-25 | 266.4167 -29.0078 | evt2 name unknown
+obsid 13843 | SGRA* | ACIS-S | grating HETG | TE | 119.1 ks | events 1307728 | proposal 13620807 | released 2012-10-31 | 266.4167 -29.0078 | evt2 name unknown
+obsid 13844 | SGRA* | ACIS-S | grating HETG | TE | 19.8 ks | events 221807 | proposal 13620807 | released 2012-07-11 | 266.4167 -29.0078 | evt2 name unknown
+obsid 13845 | SGRA* | ACIS-S | grating HETG | TE | 133.5 ks | events 1599424 | proposal 13620807 | released 2012-05-23 | 266.4167 -29.0078 | evt2 name unknown
+obsid 13846 | SGRA* | ACIS-S | grating HETG | TE | 55.4 ks | events 688629 | proposal 13620807 | released 2012-05-25 | 266.4167 -29.0078 | evt2 name unknown
+obsid 13847 | SGRA* | ACIS-S | grating HETG | TE | 152.0 ks | events 1829521 | proposal 13620807 | released 2012-05-03 | 266.4167 -29.0078 | evt2 name unknown
+obsid 13848 | SGRA* | ACIS-S | grating HETG | TE | 96.9 ks | events 1162711 | proposal 13620807 | released 2012-05-11 | 266.4167 -29.0078 | evt2 name unknown
+obsid 13849 | SGRA* | ACIS-S | grating HETG | TE | 176.4 ks | events 2091155 | proposal 13620807 | released 2012-05-16 | 266.4167 -29.0078 | evt2 name unknown
+obsid 13850 | SGRA* | ACIS-S | grating HETG | TE | 59.3 ks | events 726466 | proposal 13620807 | released 2012-02-08 | 266.4167 -29.0078 | evt2 name unknown
+obsid 13851 | SGRA* | ACIS-S | grating HETG | TE | 105.7 ks | events 1125382 | proposal 13620807 | released 2012-10-19 | 266.4167 -29.0078 | evt2 name unknown
+obsid 13852 | SGRA* | ACIS-S | grating HETG | TE | 154.5 ks | events 1627175 | proposal 13620807 | released 2012-08-06 | 266.4167 -29.0078 | evt2 name unknown
+obsid 13853 | SGRA* | ACIS-S | grating HETG | TE | 72.7 ks | events 956730 | proposal 13620807 | released 2012-07-20 | 266.4167 -29.0078 | evt2 name unknown
+obsid 13854 | SGRA* | ACIS-S | grating HETG | TE | 22.8 ks | events 251865 | proposal 13620807 | released 2012-03-21 | 266.4167 -29.0078 | evt2 name unknown
+obsid 13855 | SGRA* | ACIS-S | grating HETG | TE | 19.8 ks | events 226582 | proposal 13620807 | released 2012-03-23 | 266.4167 -29.0078 | evt2 name unknown
+obsid 13856 | SGRA* | ACIS-S | grating HETG | TE | 39.5 ks | events 428793 | proposal 13620807 | released 2012-03-16 | 266.4167 -29.0078 | evt2 name unknown
+obsid 13857 | SGRA* | ACIS-S | grating HETG | TE | 39.0 ks | events 422775 | proposal 13620807 | released 2012-03-18 | 266.4167 -29.0078 | evt2 name unknown
+obsid 14392 | SGRA* | ACIS-S | grating HETG | TE | 58.5 ks | events 722047 | proposal 13620807 | released 2012-02-17 | 266.4167 -29.0078 | evt2 name unknown
+obsid 14393 | SGRA* | ACIS-S | grating HETG | TE | 41.0 ks | events 505586 | proposal 13620807 | released 2012-02-15 | 266.4167 -29.0078 | evt2 name unknown
+obsid 14394 | SGRA* | ACIS-S | grating HETG | TE | 17.8 ks | events 217815 | proposal 13620807 | released 2012-02-15 | 266.4167 -29.0078 | evt2 name unknown
+obsid 14413 | SGRA* | ACIS-S | grating HETG | TE | 14.5 ks | events 161600 | proposal 13620807 | released 2012-03-22 | 266.4167 -29.0078 | evt2 name unknown
+obsid 14414 | SGRA* | ACIS-S | grating HETG | TE | 19.8 ks | events 228393 | proposal 13620807 | released 2012-03-25 | 266.4167 -29.0078 | evt2 name unknown
+obsid 14427 | SGRA* | ACIS-S | grating HETG | TE | 79.0 ks | events 957283 | proposal 13620807 | released 2012-05-09 | 266.4167 -29.0078 | evt2 name unknown
+obsid 14432 | SGRA* | ACIS-S | grating HETG | TE | 73.3 ks | events 790582 | proposal 13620807 | released 2012-08-01 | 266.4167 -29.0078 | evt2 name unknown
+obsid 14438 | SGRA* | ACIS-S | grating HETG | TE | 25.5 ks | events 333678 | proposal 13620807 | released 2012-05-21 | 266.4167 -29.0078 | evt2 name unknown
+obsid 14439 | SGRA* | ACIS-S | grating HETG | TE | 110.3 ks | events 1156470 | proposal 13620807 | released 2012-08-13 | 266.4167 -29.0078 | evt2 name unknown
+obsid 14460 | SGRA* | ACIS-S | grating HETG | TE | 23.7 ks | events 270640 | proposal 13620807 | released 2012-07-11 | 266.4167 -29.0078 | evt2 name unknown
+obsid 14461 | SGRA* | ACIS-S | grating HETG | TE | 50.3 ks | events 585085 | proposal 13620807 | released 2012-07-19 | 266.4167 -29.0078 | evt2 name unknown
+obsid 14462 | SGRA* | ACIS-S | grating HETG | TE | 131.6 ks | events 1437054 | proposal 13620807 | released 2012-10-18 | 266.4167 -29.0078 | evt2 name unknown
+obsid 14463 | SGRA* | ACIS-S | grating HETG | TE | 30.4 ks | events 321416 | proposal 13620807 | released 2012-10-18 | 266.4167 -29.0078 | evt2 name unknown
+obsid 14465 | SGRA* | ACIS-S | grating HETG | TE | 43.8 ks | events 545366 | proposal 13620807 | released 2012-07-25 | 266.4167 -29.0078 | evt2 name unknown
+obsid 14466 | SGRA* | ACIS-S | grating HETG | TE | 44.5 ks | events 482359 | proposal 13620807 | released 2012-07-23 | 266.4167 -29.0078 | evt2 name unknown
+obsid 14468 | SGRA* | ACIS-S | grating HETG | TE | 144.2 ks | events 1582383 | proposal 13620807 | released 2012-11-05 | 266.4167 -29.0078 | evt2 name unknown
+obsid 14701 | SGRJ1745-2900 | HRC-S | grating NONE |  | 9.7 ks | events 380762 | proposal 14500204 | released 2014-04-30 | 266.4175 -29.0079 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao14/cat5/14701/primary/hrcf14701N004_evt2.fits.gz
+    image hrcf14701N004_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image hrcf14701N004_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 14702 | SGRJ1745-2900 | ACIS-S | grating NONE | TE | 13.7 ks | events 23500 | proposal 14500204 | released 2014-05-13 | 266.4175 -29.0079 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao14/cat5/14702/primary/acisf14702N003_evt2.fits.gz
+    image acisf14702N003_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf14702N003_full_img2.fits | 0.2-20.0 keV | 0.0 MB
+obsid 14703 | SGRJ1745-2900 | ACIS-S | grating NONE | TE | 16.8 ks | events 26830 | proposal 14500204 | released 2014-06-06 | 266.4175 -29.0079 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao14/cat5/14703/primary/acisf14703N003_evt2.fits.gz
+    image acisf14703N003_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf14703N003_full_img2.fits | 0.2-20.0 keV | 0.0 MB
+obsid 14704 | SGRJ1745-2900 | ACIS-S | grating NONE | TE | 36.3 ks | events 49820 | proposal 14500204 | released 2014-10-24 | 266.4175 -29.0079 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao14/cat5/14704/primary/acisf14704N003_evt2.fits.gz
+    image acisf14704N003_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf14704N003_full_img2.fits | 0.2-20.0 keV | 0.0 MB
+obsid 14897 | NAMEX-RAYTHREADG0.13-0.11 | ACIS-I | grating NONE | TE | 50.6 ks | events 489238 | proposal 14610232 | released 2014-08-08 | 266.5833 -28.8667 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao14/cat6/14897/primary/acisf14897N003_evt2.fits.gz
+    image acisf14897N003_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf14897N003_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 14941 | SGRA* | ACIS-I | grating NONE | TE | 19.8 ks | events 120191 | proposal 14620924 | released 2014-04-07 | 266.4167 -29.0078 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao14/cat6/14941/primary/acisf14941N003_evt2.fits.gz
+    image acisf14941N003_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf14941N003_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 14942 | SGRA* | ACIS-I | grating NONE | TE | 19.8 ks | events 124701 | proposal 14620924 | released 2014-04-16 | 266.4167 -29.0078 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao14/cat6/14942/primary/acisf14942N003_evt2.fits.gz
+    image acisf14942N003_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf14942N003_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 14943 | SGRA* | ACIS-S | grating NONE | TE | 18.2 ks | events 26259 | proposal 14620924 | released 2014-10-18 | 266.4167 -29.0078 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao14/cat6/14943/primary/acisf14943N003_evt2.fits.gz
+    image acisf14943N003_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf14943N003_full_img2.fits | 0.2-20.0 keV | 0.0 MB
+obsid 14944 | SGRA* | ACIS-S | grating NONE | TE | 18.2 ks | events 27569 | proposal 14620924 | released 2014-09-23 | 266.4167 -29.0078 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao14/cat6/14944/primary/acisf14944N003_evt2.fits.gz
+    image acisf14944N003_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf14944N003_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 14945 | SGRA* | ACIS-S | grating NONE | TE | 18.2 ks | events 27194 | proposal 14620924 | released 2014-09-03 | 266.4167 -29.0078 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao14/cat6/14945/primary/acisf14945N003_evt2.fits.gz
+    image acisf14945N003_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf14945N003_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 14946 | SGRA* | ACIS-S | grating NONE | TE | 18.2 ks | events 26735 | proposal 14620924 | released 2014-07-03 | 266.4167 -29.0078 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao14/cat6/14946/primary/acisf14946N003_evt2.fits.gz
+    image acisf14946N003_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf14946N003_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 15040 | SGRA | ACIS-S | grating HETG | TE | 23.8 ks | events 140953 | proposal 14700824 | released 2013-07-18 | 266.4168 -29.0078 | evt2 name unknown
+obsid 15041 | SGRA | ACIS-S | grating NONE | TE | 45.4 ks | events 65909 | proposal 14700824 | released 2013-08-29 | 266.4167 -29.0078 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao14/cat7/15041/primary/acisf15041N003_evt2.fits.gz
+    image acisf15041N003_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf15041N003_full_img2.fits | 0.2-20.0 keV | 0.0 MB
+obsid 15042 | SGRA | ACIS-S | grating NONE | TE | 45.7 ks | events 125546 | proposal 14700824 | released 2013-09-13 | 266.4167 -29.0078 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao14/cat7/15042/primary/acisf15042N003_evt2.fits.gz
+    image acisf15042N003_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf15042N003_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 15043 | SGRA | ACIS-S | grating NONE | TE | 45.4 ks | events 73125 | proposal 14700824 | released 2013-10-15 | 266.4167 -29.0078 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao14/cat7/15043/primary/acisf15043N003_evt2.fits.gz
+    image acisf15043N003_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf15043N003_full_img2.fits | 0.2-20.0 keV | 0.0 MB
+obsid 15044 | SGRA | ACIS-S | grating NONE | TE | 42.7 ks | events 61230 | proposal 14700824 | released 2013-11-07 | 266.4167 -29.0078 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao14/cat7/15044/primary/acisf15044N003_evt2.fits.gz
+    image acisf15044N003_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf15044N003_full_img2.fits | 0.2-20.0 keV | 0.0 MB
+obsid 15045 | SGRA | ACIS-S | grating NONE | TE | 45.4 ks | events 62130 | proposal 14700824 | released 2013-11-29 | 266.4167 -29.0078 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao14/cat7/15045/primary/acisf15045N003_evt2.fits.gz
+    image acisf15045N003_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf15045N003_full_img2.fits | 0.2-20.0 keV | 0.0 MB
+obsid 15568 | SGRA* | ACIS-S | grating HETG | TE | 35.6 ks | events 380148 | proposal 13620807 | released 2012-10-22 | 266.4167 -29.0078 | evt2 name unknown
+obsid 15570 | SGRA* | ACIS-S | grating HETG | TE | 67.8 ks | events 743417 | proposal 13620807 | released 2012-10-29 | 266.4167 -29.0078 | evt2 name unknown
+obsid 15651 | SGRA | ACIS-S | grating HETG | TE | 13.8 ks | events 77417 | proposal 14700824 | released 2013-07-18 | 266.4168 -29.0078 | evt2 name unknown
+obsid 15654 | SGRA | ACIS-S | grating HETG | TE | 9.0 ks | events 49460 | proposal 14700824 | released 2013-07-18 | 266.4168 -29.0078 | evt2 name unknown
+obsid 16210 | SGRA* | ACIS-S | grating NONE | TE | 17.0 ks | events 20960 | proposal 15620853 | released 2014-08-06 | 266.4167 -29.0078 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao15/cat6/16210/primary/acisf16210N003_evt2.fits.gz
+    image acisf16210N003_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf16210N003_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 16211 | SGRA* | ACIS-S | grating NONE | TE | 41.8 ks | events 46993 | proposal 15620853 | released 2014-04-15 | 266.4167 -29.0078 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao15/cat6/16211/primary/acisf16211N003_evt2.fits.gz
+    image acisf16211N003_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf16211N003_full_img2.fits | 0.2-20.0 keV | 0.0 MB
+obsid 16212 | SGRA* | ACIS-S | grating NONE | TE | 45.4 ks | events 51513 | proposal 15620853 | released 2014-05-05 | 266.4167 -29.0078 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao15/cat6/16212/primary/acisf16212N003_evt2.fits.gz
+    image acisf16212N003_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf16212N003_full_img2.fits | 0.2-20.0 keV | 0.0 MB
+obsid 16213 | SGRA* | ACIS-S | grating NONE | TE | 45.0 ks | events 50719 | proposal 15620853 | released 2014-05-29 | 266.4167 -29.0078 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao15/cat6/16213/primary/acisf16213N003_evt2.fits.gz
+    image acisf16213N003_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf16213N003_full_img2.fits | 0.2-20.0 keV | 0.0 MB
+obsid 16214 | SGRA* | ACIS-S | grating NONE | TE | 45.4 ks | events 62693 | proposal 15620853 | released 2014-06-21 | 266.4167 -29.0078 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao15/cat6/16214/primary/acisf16214N003_evt2.fits.gz
+    image acisf16214N003_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf16214N003_full_img2.fits | 0.2-20.0 keV | 0.0 MB
+obsid 16215 | SGRA* | ACIS-S | grating NONE | TE | 41.5 ks | events 44345 | proposal 15620853 | released 2014-08-18 | 266.4167 -29.0078 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao15/cat6/16215/primary/acisf16215N002_evt2.fits.gz
+    image acisf16215N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf16215N002_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 16216 | SGRA* | ACIS-S | grating NONE | TE | 42.7 ks | events 46367 | proposal 15620853 | released 2014-09-04 | 266.4167 -29.0078 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao15/cat6/16216/primary/acisf16216N002_evt2.fits.gz
+    image acisf16216N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf16216N002_full_img2.fits | 0.2-20.0 keV | 0.0 MB
+obsid 16217 | SGRA* | ACIS-S | grating NONE | TE | 34.5 ks | events 37347 | proposal 15620853 | released 2014-10-03 | 266.4167 -29.0078 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao15/cat6/16217/primary/acisf16217N002_evt2.fits.gz
+    image acisf16217N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf16217N002_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 16218 | SGRA* | ACIS-S | grating NONE | TE | 36.3 ks | events 42802 | proposal 15620853 | released 2014-11-21 | 266.4167 -29.0078 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao15/cat6/16218/primary/acisf16218N002_evt2.fits.gz
+    image acisf16218N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf16218N002_full_img2.fits | 0.2-20.0 keV | 0.0 MB
+obsid 16508 | SGRA | ACIS-S | grating NONE | TE | 43.4 ks | events 54289 | proposal 14700824 | released 2014-03-23 | 266.4167 -29.0078 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao14/cat7/16508/primary/acisf16508N003_evt2.fits.gz
+    image acisf16508N003_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf16508N003_full_img2.fits | 0.2-20.0 keV | 0.0 MB
+obsid 16597 | SGRA* | ACIS-S | grating NONE | TE | 16.5 ks | events 17814 | proposal 15620853 | released 2014-08-06 | 266.4167 -29.0078 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao15/cat6/16597/primary/acisf16597N003_evt2.fits.gz
+    image acisf16597N003_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf16597N003_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 16963 | SGRA* | ACIS-S | grating NONE | TE | 22.7 ks | events 30083 | proposal 16620053 | released 2016-02-13 | 266.4167 -29.0078 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao16/cat6/16963/primary/acisf16963N002_evt2.fits.gz
+    image acisf16963N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf16963N002_full_img2.fits | 0.2-20.0 keV | 0.0 MB
+obsid 16964 | SGRA* | ACIS-S | grating NONE | TE | 22.6 ks | events 29962 | proposal 16620053 | released 2016-10-21 | 266.4167 -29.0078 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao16/cat6/16964/primary/acisf16964N002_evt2.fits.gz
+    image acisf16964N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf16964N002_full_img2.fits | 0.2-20.0 keV | 0.0 MB
+obsid 16965 | SGRA* | ACIS-S | grating NONE | TE | 22.7 ks | events 29813 | proposal 16620053 | released 2016-08-18 | 266.4167 -29.0078 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao16/cat6/16965/primary/acisf16965N002_evt2.fits.gz
+    image acisf16965N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf16965N002_full_img2.fits | 0.2-20.0 keV | 0.0 MB
+obsid 16966 | SGRA* | ACIS-S | grating NONE | TE | 22.7 ks | events 32003 | proposal 16620053 | released 2016-05-15 | 266.4167 -29.0078 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao16/cat6/16966/primary/acisf16966N002_evt2.fits.gz
+    image acisf16966N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf16966N002_full_img2.fits | 0.2-20.0 keV | 0.0 MB
+obsid 17236 | SGRA | ACIS-I | grating NONE | TE | 79.0 ks | events 490872 | proposal 16910519 | released 2016-04-27 | 266.5729 -28.9169 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao16/cat9/17236/primary/acisf17236N002_evt2.fits.gz
+    image acisf17236N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf17236N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 17237 | SGRA | ACIS-I | grating NONE | TE | 20.8 ks | events 214943 | proposal 16910519 | released 2017-05-20 | 266.5587 -28.9146 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao17/cat9/17237/primary/acisf17237N002_evt2.fits.gz
+    image acisf17237N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf17237N002_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 17238 | SGRA | ACIS-I | grating NONE | TE | 65.2 ks | events 444073 | proposal 16910519 | released 2018-07-23 | 266.5587 -28.9146 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao18/cat9/17238/primary/acisf17238N002_evt2.fits.gz
+    image acisf17238N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf17238N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 17239 | SGRA | ACIS-I | grating NONE | TE | 79.0 ks | events 825419 | proposal 16910519 | released 2016-08-24 | 266.5292 -28.8860 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao16/cat9/17239/primary/acisf17239N002_evt2.fits.gz
+    image acisf17239N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf17239N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 17240 | SGRA | ACIS-I | grating NONE | TE | 74.7 ks | events 553148 | proposal 16910519 | released 2017-07-25 | 266.5400 -28.8955 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao17/cat9/17240/primary/acisf17240N002_evt2.fits.gz
+    image acisf17240N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf17240N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 17241 | SGRA | ACIS-I | grating NONE | TE | 24.8 ks | events 169834 | proposal 16910519 | released 2018-10-09 | 266.5292 -28.8860 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao18/cat9/17241/primary/acisf17241N002_evt2.fits.gz
+    image acisf17241N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf17241N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 17857 | AXJ1745.6-2901 | ACIS-S | grating HETG | TE | 117.2 ks | events 970219 | proposal 17400623 | released 2016-08-13 | 266.3988 -29.0261 | evt2 name unknown
+obsid 18055 | SGRA* | ACIS-S | grating NONE | TE | 22.7 ks | events 136193 | proposal 17620528 | released 2017-02-15 | 266.4167 -29.0078 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao17/cat6/18055/primary/acisf18055N002_evt2.fits.gz
+    image acisf18055N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf18055N002_full_img2.fits | 0.2-20.0 keV | 0.0 MB
+obsid 18056 | SGRA* | ACIS-S | grating NONE | TE | 21.8 ks | events 130599 | proposal 17620528 | released 2017-02-16 | 266.4167 -29.0078 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao17/cat6/18056/primary/acisf18056N003_evt2.fits.gz
+    image acisf18056N003_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf18056N003_full_img2.fits | 0.2-20.0 keV | 0.0 MB
+obsid 18057 | SGRA* | ACIS-S | grating NONE | TE | 22.7 ks | events 26605 | proposal 17620528 | released 2017-10-10 | 266.4167 -29.0078 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao17/cat6/18057/primary/acisf18057N002_evt2.fits.gz
+    image acisf18057N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf18057N002_full_img2.fits | 0.2-20.0 keV | 0.0 MB
+obsid 18058 | SGRA* | ACIS-S | grating NONE | TE | 22.7 ks | events 25994 | proposal 17620528 | released 2017-10-16 | 266.4167 -29.0078 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao17/cat6/18058/primary/acisf18058N002_evt2.fits.gz
+    image acisf18058N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf18058N002_full_img2.fits | 0.2-20.0 keV | 0.0 MB
+obsid 18321 | GC-GBINTERFACE | ACIS-I | grating NONE | TE | 2.0 ks | events 18019 | proposal 17300653 | released 2017-07-15 | 266.5204 -28.9483 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao17/cat3/18321/primary/acisf18321N002_evt2.fits.gz
+    image acisf18321N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf18321N002_full_img2.fits | 0.2-20.0 keV | 0.4 MB
+obsid 18330 | GC-GBINTERFACE | ACIS-I | grating NONE | TE | 1.9 ks | events 9952 | proposal 17300653 | released 2017-07-16 | 266.2572 -28.8349 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao17/cat3/18330/primary/acisf18330N002_evt2.fits.gz
+    image acisf18330N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf18330N002_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 18731 | SGRA* | ACIS-S | grating NONE | TE | 78.4 ks | events 172987 | proposal 17620813 | released 2017-07-14 | 266.4167 -29.0078 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao17/cat6/18731/primary/acisf18731N002_evt2.fits.gz
+    image acisf18731N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf18731N002_full_img2.fits | 0.2-20.0 keV | 0.0 MB
+obsid 18732 | SGRA* | ACIS-S | grating NONE | TE | 76.6 ks | events 118138 | proposal 17620813 | released 2017-07-20 | 266.4167 -29.0078 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao17/cat6/18732/primary/acisf18732N002_evt2.fits.gz
+    image acisf18732N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf18732N002_full_img2.fits | 0.2-20.0 keV | 0.0 MB
+obsid 18852 | SGRA | ACIS-I | grating NONE | TE | 52.4 ks | events 566447 | proposal 16910519 | released 2017-05-20 | 266.5587 -28.9146 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao17/cat9/18852/primary/acisf18852N002_evt2.fits.gz
+    image acisf18852N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf18852N002_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 19703 | SGRA* | ACIS-S | grating NONE | TE | 81.0 ks | events 109308 | proposal 18620763 | released 2018-07-18 | 266.4167 -29.0078 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao18/cat6/19703/primary/acisf19703N002_evt2.fits.gz
+    image acisf19703N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf19703N002_full_img2.fits | 0.2-20.0 keV | 0.0 MB
+obsid 19704 | SGRA* | ACIS-S | grating NONE | TE | 78.4 ks | events 91936 | proposal 18620763 | released 2018-07-27 | 266.4167 -29.0078 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao18/cat6/19704/primary/acisf19704N002_evt2.fits.gz
+    image acisf19704N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf19704N002_full_img2.fits | 0.2-20.0 keV | 0.0 MB
+obsid 19726 | SGRA* | ACIS-S | grating NONE | TE | 28.2 ks | events 31690 | proposal 18620742 | released 2018-04-07 | 266.4167 -29.0078 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao18/cat6/19726/primary/acisf19726N002_evt2.fits.gz
+    image acisf19726N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf19726N002_full_img2.fits | 0.2-20.0 keV | 0.0 MB
+obsid 19727 | SGRA* | ACIS-S | grating NONE | TE | 27.8 ks | events 31482 | proposal 18620742 | released 2018-04-09 | 266.4167 -29.0078 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao18/cat6/19727/primary/acisf19727N002_evt2.fits.gz
+    image acisf19727N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf19727N002_full_img2.fits | 0.2-20.0 keV | 0.0 MB
+obsid 20040 | SGRA* | ACIS-S | grating NONE | TE | 27.5 ks | events 31625 | proposal 19620007 | released 2018-04-13 | 266.4167 -29.0078 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao19/cat6/20040/primary/acisf20040N002_evt2.fits.gz
+    image acisf20040N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf20040N002_full_img2.fits | 0.2-20.0 keV | 0.0 MB
+obsid 20041 | SGRA* | ACIS-S | grating NONE | TE | 30.9 ks | events 35675 | proposal 19620007 | released 2018-04-13 | 266.4167 -29.0078 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao19/cat6/20041/primary/acisf20041N002_evt2.fits.gz
+    image acisf20041N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf20041N002_full_img2.fits | 0.2-20.0 keV | 0.0 MB
+obsid 20118 | SGRA | ACIS-I | grating NONE | TE | 13.9 ks | events 97731 | proposal 16910519 | released 2018-07-23 | 266.5587 -28.9146 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao18/cat9/20118/primary/acisf20118N002_evt2.fits.gz
+    image acisf20118N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf20118N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 20344 | SGRA* | ACIS-S | grating NONE | TE | 29.1 ks | events 34635 | proposal 19620284 | released 2019-04-23 | 266.4167 -29.0078 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao19/cat6/20344/primary/acisf20344N002_evt2.fits.gz
+    image acisf20344N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf20344N002_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 20345 | SGRA* | ACIS-S | grating NONE | TE | 28.5 ks | events 33371 | proposal 19620284 | released 2019-04-23 | 266.4167 -29.0078 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao19/cat6/20345/primary/acisf20345N002_evt2.fits.gz
+    image acisf20345N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf20345N002_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 20346 | SGRA* | ACIS-S | grating NONE | TE | 30.0 ks | events 35354 | proposal 19620284 | released 2019-04-25 | 266.4167 -29.0078 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao19/cat6/20346/primary/acisf20346N002_evt2.fits.gz
+    image acisf20346N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf20346N002_full_img2.fits | 0.2-20.0 keV | 0.0 MB
+obsid 20347 | SGRA* | ACIS-S | grating NONE | TE | 32.7 ks | events 36901 | proposal 19620284 | released 2019-04-25 | 266.4167 -29.0078 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao19/cat6/20347/primary/acisf20347N002_evt2.fits.gz
+    image acisf20347N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf20347N002_full_img2.fits | 0.2-20.0 keV | 0.0 MB
+obsid 20446 | SGRA* | ACIS-S | grating NONE | TE | 52.3 ks | events 60813 | proposal 19700482 | released 2020-07-22 | 266.4167 -29.0078 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao19/cat7/20446/primary/acisf20446N002_evt2.fits.gz
+    image acisf20446N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf20446N002_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 20447 | SGRA* | ACIS-S | grating NONE | TE | 52.3 ks | events 61734 | proposal 19700482 | released 2020-07-26 | 266.4167 -29.0078 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao19/cat7/20447/primary/acisf20447N002_evt2.fits.gz
+    image acisf20447N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf20447N002_full_img2.fits | 0.2-20.0 keV | 0.0 MB
+obsid 20750 | SGRA* | ACIS-S | grating NONE | TE | 24.3 ks | events 29184 | proposal 19620796 | released 2020-08-16 | 266.4167 -29.0078 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao19/cat6/20750/primary/acisf20750N002_evt2.fits.gz
+    image acisf20750N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf20750N002_full_img2.fits | 0.2-20.0 keV | 0.0 MB
+obsid 20751 | SGRA* | ACIS-S | grating NONE | TE | 24.3 ks | events 29866 | proposal 19620796 | released 2020-08-20 | 266.4167 -29.0078 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao19/cat6/20751/primary/acisf20751N002_evt2.fits.gz
+    image acisf20751N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf20751N002_full_img2.fits | 0.2-20.0 keV | 0.0 MB
+obsid 20807 | SGRA | ACIS-I | grating NONE | TE | 27.7 ks | events 191251 | proposal 16910519 | released 2018-10-09 | 266.5292 -28.8860 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao18/cat9/20807/primary/acisf20807N003_evt2.fits.gz
+    image acisf20807N003_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf20807N003_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 20808 | SGRA | ACIS-I | grating NONE | TE | 26.7 ks | events 184371 | proposal 16910519 | released 2018-10-09 | 266.5292 -28.8860 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao18/cat9/20808/primary/acisf20808N002_evt2.fits.gz
+    image acisf20808N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf20808N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 21453 | SGRA* | ACIS-S | grating NONE | TE | 30.0 ks | events 34454 | proposal 20700293 | released 2020-04-01 | 266.4167 -29.0078 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao20/cat7/21453/primary/acisf21453N002_evt2.fits.gz
+    image acisf21453N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf21453N002_full_img2.fits | 0.2-20.0 keV | 0.0 MB
+obsid 21454 | SGRA* | ACIS-S | grating NONE | TE | 30.5 ks | events 35813 | proposal 20700293 | released 2020-04-01 | 266.4167 -29.0078 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao20/cat7/21454/primary/acisf21454N002_evt2.fits.gz
+    image acisf21454N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf21454N002_full_img2.fits | 0.2-20.0 keV | 0.0 MB
+obsid 21455 | SGRA* | ACIS-S | grating NONE | TE | 30.0 ks | events 34667 | proposal 20700293 | released 2020-04-01 | 266.4167 -29.0078 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao20/cat7/21455/primary/acisf21455N002_evt2.fits.gz
+    image acisf21455N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf21455N002_full_img2.fits | 0.2-20.0 keV | 0.0 MB
+obsid 21456 | SGRA* | ACIS-S | grating NONE | TE | 30.0 ks | events 34625 | proposal 20700293 | released 2020-04-02 | 266.4167 -29.0078 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao20/cat7/21456/primary/acisf21456N002_evt2.fits.gz
+    image acisf21456N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf21456N002_full_img2.fits | 0.2-20.0 keV | 0.0 MB
+obsid 22230 | SGRA* | ACIS-S | grating NONE | TE | 52.3 ks | events 61543 | proposal 19700482 | released 2020-07-22 | 266.4167 -29.0078 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao19/cat7/22230/primary/acisf22230N002_evt2.fits.gz
+    image acisf22230N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf22230N002_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 22288 | SGRA* | ACIS-S | grating NONE | TE | 24.2 ks | events 28571 | proposal 19620796 | released 2020-08-16 | 266.4167 -29.0078 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao19/cat6/22288/primary/acisf22288N002_evt2.fits.gz
+    image acisf22288N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf22288N002_full_img2.fits | 0.2-20.0 keV | 0.0 MB
+obsid 22592 | SGRA* | ACIS-S | grating NONE | TE | 20.1 ks | events 31984 | proposal 21700382 | released 2022-05-24 | 266.4168 -29.0078 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao21/cat7/22592/primary/acisf22592N002_evt2.fits.gz
+    image acisf22592N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf22592N002_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 22593 | SGRA* | ACIS-S | grating NONE | TE | 21.2 ks | events 33737 | proposal 21700382 | released 2022-05-25 | 266.4168 -29.0078 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao21/cat7/22593/primary/acisf22593N002_evt2.fits.gz
+    image acisf22593N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf22593N002_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 22594 | SGRA* | ACIS-S | grating NONE | TE | 18.2 ks | events 23378 | proposal 21700382 | released 2022-06-21 | 266.4168 -29.0078 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao21/cat7/22594/primary/acisf22594N002_evt2.fits.gz
+    image acisf22594N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf22594N002_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 22595 | SGRA* | ACIS-S | grating NONE | TE | 18.8 ks | events 31244 | proposal 21700382 | released 2022-06-21 | 266.4168 -29.0078 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao21/cat7/22595/primary/acisf22595N002_evt2.fits.gz
+    image acisf22595N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf22595N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 22604 | SGRA* | ACIS-S | grating NONE | TE | 30.0 ks | events 48256 | proposal 21700401 | released 2021-03-27 | 266.4168 -29.0078 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao21/cat7/22604/primary/acisf22604N002_evt2.fits.gz
+    image acisf22604N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf22604N002_full_img2.fits | 0.2-20.0 keV | 0.0 MB
+obsid 22707 | SGRA* | ACIS-I | grating NONE | TE | 25.7 ks | events 206510 | proposal 21620612 | released 2021-08-25 | 266.4168 -29.0078 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao21/cat6/22707/primary/acisf22707N002_evt2.fits.gz
+    image acisf22707N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf22707N002_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 22937 | SGRA* | ACIS-I | grating NONE | TE | 48.4 ks | events 381649 | proposal 21620612 | released 2021-08-25 | 266.4168 -29.0078 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao21/cat6/22937/primary/acisf22937N002_evt2.fits.gz
+    image acisf22937N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf22937N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 23295 | SGRA* | ACIS-I | grating NONE | TE | 23.4 ks | events 188897 | proposal 21620612 | released 2021-08-25 | 266.4168 -29.0078 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao21/cat6/23295/primary/acisf23295N002_evt2.fits.gz
+    image acisf23295N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf23295N002_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 23641 | CMZMOLECULARCLOUD | ACIS-I | grating NONE | TE | 27.7 ks | events 176365 | proposal 22910118 | released 2023-04-10 | 266.5429 -28.8853 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao22/cat9/23641/primary/acisf23641N003_evt2.fits.gz
+    image acisf23641N003_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf23641N003_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 23665 | SGRA* | ACIS-S | grating NONE | TE | 22.7 ks | events 26117 | proposal 22700099 | released 2022-04-11 | 266.4168 -29.0078 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao22/cat7/23665/primary/acisf23665N002_evt2.fits.gz
+    image acisf23665N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf23665N002_full_img2.fits | 0.2-20.0 keV | 0.0 MB
+obsid 23666 | SGRA* | ACIS-S | grating NONE | TE | 22.7 ks | events 26779 | proposal 22700099 | released 2022-04-11 | 266.4168 -29.0078 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao22/cat7/23666/primary/acisf23666N002_evt2.fits.gz
+    image acisf23666N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf23666N002_full_img2.fits | 0.2-20.0 keV | 0.0 MB
+obsid 23667 | SGRA* | ACIS-S | grating NONE | TE | 23.5 ks | events 27093 | proposal 22700099 | released 2022-04-15 | 266.4168 -29.0078 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao22/cat7/23667/primary/acisf23667N002_evt2.fits.gz
+    image acisf23667N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf23667N002_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 23668 | SGRA* | ACIS-S | grating NONE | TE | 22.7 ks | events 25658 | proposal 22700099 | released 2022-04-18 | 266.4168 -29.0078 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao22/cat7/23668/primary/acisf23668N002_evt2.fits.gz
+    image acisf23668N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf23668N002_full_img2.fits | 0.2-20.0 keV | 0.0 MB
+obsid 23737 | SGRA* | ACIS-S | grating NONE | TE | 21.2 ks | events 32767 | proposal 22700265 | released 2022-06-27 | 266.4168 -29.0078 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao22/cat7/23737/primary/acisf23737N002_evt2.fits.gz
+    image acisf23737N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf23737N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 23738 | SGRA* | ACIS-S | grating NONE | TE | 20.3 ks | events 31469 | proposal 22700265 | released 2022-07-28 | 266.4168 -29.0078 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao22/cat7/23738/primary/acisf23738N002_evt2.fits.gz
+    image acisf23738N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf23738N002_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 23739 | SGRA* | ACIS-S | grating NONE | TE | 20.3 ks | events 32251 | proposal 22700265 | released 2022-07-30 | 266.4168 -29.0078 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao22/cat7/23739/primary/acisf23739N002_evt2.fits.gz
+    image acisf23739N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf23739N002_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 24358 | CMZMOLECULARCLOUD | ACIS-I | grating NONE | TE | 18.6 ks | events 120436 | proposal 22910118 | released 2023-03-13 | 266.5429 -28.8853 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao22/cat9/24358/primary/acisf24358N002_evt2.fits.gz
+    image acisf24358N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf24358N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 24359 | CMZMOLECULARCLOUD | ACIS-I | grating NONE | TE | 29.7 ks | events 244138 | proposal 22910118 | released 2023-09-15 | 266.5429 -28.8853 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao22/cat9/24359/primary/acisf24359N002_evt2.fits.gz
+    image acisf24359N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf24359N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 24360 | CMZMOLECULARCLOUD | ACIS-I | grating NONE | TE | 14.9 ks | events 313926 | proposal 22910118 | released 2023-06-22 | 266.5429 -28.8853 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao22/cat9/24360/primary/acisf24360N002_evt2.fits.gz
+    image acisf24360N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf24360N002_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 24361 | CMZMOLECULARCLOUD | ACIS-I | grating NONE | TE | 29.7 ks | events 191747 | proposal 22910118 | released 2023-09-23 | 266.5429 -28.8853 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao22/cat9/24361/primary/acisf24361N002_evt2.fits.gz
+    image acisf24361N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf24361N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 24362 | CMZMOLECULARCLOUD | ACIS-I | grating NONE | TE | 13.9 ks | events 91121 | proposal 22910118 | released 2023-02-04 | 266.5429 -28.8853 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao22/cat9/24362/primary/acisf24362N002_evt2.fits.gz
+    image acisf24362N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf24362N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 24363 | CMZMOLECULARCLOUD | ACIS-I | grating NONE | TE | 27.7 ks | events 249941 | proposal 22910118 | released 2023-06-30 | 266.5429 -28.8853 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao22/cat9/24363/primary/acisf24363N002_evt2.fits.gz
+    image acisf24363N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf24363N002_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 24364 | CMZMOLECULARCLOUD | ACIS-I | grating NONE | TE | 10.5 ks | events 82808 | proposal 22910118 | released 2023-08-08 | 266.5429 -28.8853 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao22/cat9/24364/primary/acisf24364N002_evt2.fits.gz
+    image acisf24364N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf24364N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 24365 | CMZMOLECULARCLOUD | ACIS-I | grating NONE | TE | 29.3 ks | events 241150 | proposal 22910118 | released 2023-04-10 | 266.5429 -28.8853 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao22/cat9/24365/primary/acisf24365N002_evt2.fits.gz
+    image acisf24365N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf24365N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 24366 | CMZMOLECULARCLOUD | ACIS-I | grating NONE | TE | 14.7 ks | events 94653 | proposal 22910118 | released 2023-10-10 | 266.5429 -28.8853 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao22/cat9/24366/primary/acisf24366N002_evt2.fits.gz
+    image acisf24366N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf24366N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 24367 | CMZMOLECULARCLOUD | ACIS-I | grating NONE | TE | 17.7 ks | events 115845 | proposal 22910118 | released 2023-02-06 | 266.5429 -28.8853 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao22/cat9/24367/primary/acisf24367N003_evt2.fits.gz
+    image acisf24367N003_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf24367N003_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 24368 | CMZMOLECULARCLOUD | ACIS-I | grating NONE | TE | 27.2 ks | events 219937 | proposal 22910118 | released 2023-07-21 | 266.5429 -28.8853 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao22/cat9/24368/primary/acisf24368N002_evt2.fits.gz
+    image acisf24368N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf24368N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 24369 | CMZMOLECULARCLOUD | ACIS-I | grating NONE | TE | 15.9 ks | events 145526 | proposal 22910118 | released 2023-07-07 | 266.5429 -28.8853 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao22/cat9/24369/primary/acisf24369N002_evt2.fits.gz
+    image acisf24369N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf24369N002_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 24370 | CMZMOLECULARCLOUD | ACIS-I | grating NONE | TE | 29.5 ks | events 234035 | proposal 22910118 | released 2023-04-18 | 266.5429 -28.8853 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao22/cat9/24370/primary/acisf24370N002_evt2.fits.gz
+    image acisf24370N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf24370N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 24371 | CMZMOLECULARCLOUD | ACIS-I | grating NONE | TE | 29.0 ks | events 189233 | proposal 22910118 | released 2023-09-18 | 266.5429 -28.8853 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao22/cat9/24371/primary/acisf24371N002_evt2.fits.gz
+    image acisf24371N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf24371N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 24372 | CMZMOLECULARCLOUD | ACIS-I | grating NONE | TE | 32.7 ks | events 210747 | proposal 22910118 | released 2023-08-03 | 266.5429 -28.8853 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao22/cat9/24372/primary/acisf24372N002_evt2.fits.gz
+    image acisf24372N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf24372N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 24373 | CMZMOLECULARCLOUD | ACIS-I | grating NONE | TE | 27.7 ks | events 181032 | proposal 22910118 | released 2023-02-28 | 266.5429 -28.8853 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao22/cat9/24373/primary/acisf24373N002_evt2.fits.gz
+    image acisf24373N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf24373N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 24374 | CMZMOLECULARCLOUD | ACIS-I | grating NONE | TE | 27.5 ks | events 218460 | proposal 22910118 | released 2023-09-27 | 266.5429 -28.8853 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao22/cat9/24374/primary/acisf24374N002_evt2.fits.gz
+    image acisf24374N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf24374N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 24375 | CMZMOLECULARCLOUD | ACIS-I | grating NONE | TE | 27.5 ks | events 167887 | proposal 22910118 | released 2023-08-08 | 266.5429 -28.8853 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao22/cat9/24375/primary/acisf24375N002_evt2.fits.gz
+    image acisf24375N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf24375N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 24376 | CMZMOLECULARCLOUD | ACIS-I | grating NONE | TE | 18.8 ks | events 126892 | proposal 22910118 | released 2023-07-05 | 266.5429 -28.8853 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao22/cat9/24376/primary/acisf24376N002_evt2.fits.gz
+    image acisf24376N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf24376N002_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 24750 | CMZMOLECULARCLOUD | ACIS-I | grating NONE | TE | 10.9 ks | events 71706 | proposal 22910683 | released 2023-09-30 | 266.5429 -28.8853 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao22/cat9/24750/primary/acisf24750N003_evt2.fits.gz
+    image acisf24750N003_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf24750N003_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 24815 | CMZMOLECULARCLOUD | ACIS-I | grating NONE | TE | 27.7 ks | events 221646 | proposal 22910683 | released 2023-10-02 | 266.5429 -28.8853 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao22/cat9/24815/primary/acisf24815N003_evt2.fits.gz
+    image acisf24815N003_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf24815N003_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 24816 | CMZMOLECULARCLOUD | ACIS-I | grating NONE | TE | 29.7 ks | events 228073 | proposal 22910683 | released 2023-09-13 | 266.5429 -28.8853 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao22/cat9/24816/primary/acisf24816N002_evt2.fits.gz
+    image acisf24816N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf24816N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 24817 | CMZMOLECULARCLOUD | ACIS-I | grating NONE | TE | 28.0 ks | events 167226 | proposal 22910683 | released 2023-10-03 | 266.5429 -28.8853 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao22/cat9/24817/primary/acisf24817N002_evt2.fits.gz
+    image acisf24817N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf24817N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 24818 | CMZMOLECULARCLOUD | ACIS-I | grating NONE | TE | 13.8 ks | events 89891 | proposal 22910683 | released 2023-08-08 | 266.5429 -28.8853 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao22/cat9/24818/primary/acisf24818N002_evt2.fits.gz
+    image acisf24818N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf24818N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 24819 | CMZMOLECULARCLOUD | ACIS-I | grating NONE | TE | 26.9 ks | events 166466 | proposal 22910683 | released 2023-09-05 | 266.5429 -28.8853 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao22/cat9/24819/primary/acisf24819N002_evt2.fits.gz
+    image acisf24819N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf24819N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 24820 | CMZMOLECULARCLOUD | ACIS-I | grating NONE | TE | 12.9 ks | events 85140 | proposal 22910683 | released 2023-03-13 | 266.5429 -28.8853 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao22/cat9/24820/primary/acisf24820N002_evt2.fits.gz
+    image acisf24820N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf24820N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 24821 | CMZMOLECULARCLOUD | ACIS-I | grating NONE | TE | 27.2 ks | events 172667 | proposal 22910683 | released 2023-06-09 | 266.5429 -28.8853 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao22/cat9/24821/primary/acisf24821N002_evt2.fits.gz
+    image acisf24821N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf24821N002_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 24822 | CMZMOLECULARCLOUD | ACIS-I | grating NONE | TE | 17.7 ks | events 106181 | proposal 22910683 | released 2023-08-07 | 266.5429 -28.8853 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao22/cat9/24822/primary/acisf24822N002_evt2.fits.gz
+    image acisf24822N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf24822N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 24823 | CMZMOLECULARCLOUD | ACIS-I | grating NONE | TE | 9.0 ks | events 68001 | proposal 22910683 | released 2022-06-09 | 266.5429 -28.8853 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao22/cat9/24823/primary/acisf24823N002_evt2.fits.gz
+    image acisf24823N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf24823N002_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 25059 | CMZMOLECULARCLOUD | ACIS-I | grating NONE | TE | 20.8 ks | events 158878 | proposal 22910683 | released 2022-06-09 | 266.5429 -28.8853 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao22/cat9/25059/primary/acisf25059N002_evt2.fits.gz
+    image acisf25059N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf25059N002_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 25297 | SGRA* | ACIS-S | grating NONE | TE | 23.9 ks | events 32248 | proposal 23700182 | released 2023-03-21 | 266.4168 -29.0078 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao23/cat7/25297/primary/acisf25297N002_evt2.fits.gz
+    image acisf25297N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf25297N002_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 25298 | SGRA* | ACIS-S | grating NONE | TE | 23.2 ks | events 31836 | proposal 23700182 | released 2023-03-24 | 266.4168 -29.0078 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao23/cat7/25298/primary/acisf25298N002_evt2.fits.gz
+    image acisf25298N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf25298N002_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 25299 | SGRA* | ACIS-S | grating NONE | TE | 21.3 ks | events 28215 | proposal 23700182 | released 2023-03-24 | 266.4168 -29.0078 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao23/cat7/25299/primary/acisf25299N002_evt2.fits.gz
+    image acisf25299N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf25299N002_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 25300 | SGRA* | ACIS-S | grating NONE | TE | 23.2 ks | events 30610 | proposal 23700182 | released 2023-03-27 | 266.4168 -29.0078 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao23/cat7/25300/primary/acisf25300N002_evt2.fits.gz
+    image acisf25300N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf25300N002_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 26294 | CMZMOLECULARCLOUD | ACIS-I | grating NONE | TE | 15.0 ks | events 98878 | proposal 22910118 | released 2023-02-04 | 266.5429 -28.8853 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao22/cat9/26294/primary/acisf26294N003_evt2.fits.gz
+    image acisf26294N003_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf26294N003_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 26295 | CMZMOLECULARCLOUD | ACIS-I | grating NONE | TE | 11.9 ks | events 77815 | proposal 22910118 | released 2023-02-06 | 266.5429 -28.8853 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao22/cat9/26295/primary/acisf26295N002_evt2.fits.gz
+    image acisf26295N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf26295N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 26302 | CMZMOLECULARCLOUD | ACIS-I | grating NONE | TE | 19.1 ks | events 123920 | proposal 22910118 | released 2023-08-08 | 266.5429 -28.8853 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao22/cat9/26302/primary/acisf26302N002_evt2.fits.gz
+    image acisf26302N002_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf26302N002_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 26303 | CMZMOLECULARCLOUD | ACIS-I | grating NONE | TE | 15.8 ks | events 104246 | proposal 22910683 | released 2023-08-08 | 266.5429 -28.8853 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao22/cat9/26303/primary/acisf26303N002_evt2.fits.gz
+    image acisf26303N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf26303N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 26304 | CMZMOLECULARCLOUD | ACIS-I | grating NONE | TE | 11.9 ks | events 74657 | proposal 22910683 | released 2023-08-07 | 266.5429 -28.8853 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao22/cat9/26304/primary/acisf26304N002_evt2.fits.gz
+    image acisf26304N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf26304N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 26353 | CMZMOLECULARCLOUD | ACIS-I | grating NONE | TE | 10.1 ks | events 67954 | proposal 22910118 | released 2023-03-13 | 266.5429 -28.8853 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao22/cat9/26353/primary/acisf26353N002_evt2.fits.gz
+    image acisf26353N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf26353N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 26355 | CMZMOLECULARCLOUD | ACIS-I | grating NONE | TE | 16.7 ks | events 107698 | proposal 22910683 | released 2023-03-13 | 266.5429 -28.8853 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao22/cat9/26355/primary/acisf26355N002_evt2.fits.gz
+    image acisf26355N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf26355N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 26438 | CMZMOLECULARCLOUD | ACIS-I | grating NONE | TE | 14.9 ks | events 310242 | proposal 22910118 | released 2023-06-22 | 266.5429 -28.8853 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao22/cat9/26438/primary/acisf26438N002_evt2.fits.gz
+    image acisf26438N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf26438N002_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 26445 | CMZMOLECULARCLOUD | ACIS-I | grating NONE | TE | 10.0 ks | events 67232 | proposal 22910118 | released 2023-07-05 | 266.5429 -28.8853 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao22/cat9/26445/primary/acisf26445N002_evt2.fits.gz
+    image acisf26445N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf26445N002_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 26448 | CMZMOLECULARCLOUD | ACIS-I | grating NONE | TE | 16.4 ks | events 149753 | proposal 22910118 | released 2023-07-07 | 266.5429 -28.8853 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao22/cat9/26448/primary/acisf26448N002_evt2.fits.gz
+    image acisf26448N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf26448N002_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 26757 | SGRA* | ACIS-S | grating NONE | TE | 22.7 ks | events 25972 | proposal 24700241 | released 2023-10-13 | 266.4168 -29.0078 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao24/cat7/26757/primary/acisf26757N002_evt2.fits.gz
+    image acisf26757N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf26757N002_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 26758 | SGRA* | ACIS-S | grating NONE | TE | 23.2 ks | events 26018 | proposal 24700241 | released 2023-10-17 | 266.4168 -29.0078 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao24/cat7/26758/primary/acisf26758N002_evt2.fits.gz
+    image acisf26758N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf26758N002_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 26759 | SGRA* | ACIS-S | grating NONE | TE | 23.5 ks | events 25852 | proposal 24700241 | released 2023-10-18 | 266.4168 -29.0078 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao24/cat7/26759/primary/acisf26759N002_evt2.fits.gz
+    image acisf26759N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf26759N002_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 26760 | SGRA* | ACIS-S | grating NONE | TE | 23.6 ks | events 25572 | proposal 24700241 | released 2023-10-20 | 266.4168 -29.0078 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao24/cat7/26760/primary/acisf26760N002_evt2.fits.gz
+    image acisf26760N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf26760N002_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 27256 | CMZMOLECULARCLOUD | ACIS-I | grating NONE | TE | 19.8 ks | events 123422 | proposal 22910683 | released 2023-09-30 | 266.5429 -28.8853 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao22/cat9/27256/primary/acisf27256N002_evt2.fits.gz
+    image acisf27256N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf27256N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 27408 | CMZMOLECULARCLOUD | ACIS-I | grating NONE | TE | 32.6 ks | events 188436 | proposal 24910520 | released 2025-01-01 | 266.5505 -28.8887 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao24/cat9/27408/primary/acisf27408N002_evt2.fits.gz
+    image acisf27408N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf27408N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 27437 | CMZMOLECULARCLOUD | ACIS-I | grating NONE | TE | 10.6 ks | events 59162 | proposal 24910520 | released 2025-01-01 | 266.5505 -28.8887 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao24/cat9/27437/primary/acisf27437N002_evt2.fits.gz
+    image acisf27437N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf27437N002_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 27438 | CMZMOLECULARCLOUD | ACIS-I | grating NONE | TE | 23.8 ks | events 110772 | proposal 24910520 | released 2025-01-01 | 266.5505 -28.8887 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao24/cat9/27438/primary/acisf27438N002_evt2.fits.gz
+    image acisf27438N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf27438N002_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 27439 | CMZMOLECULARCLOUD | ACIS-I | grating NONE | TE | 32.3 ks | events 271224 | proposal 24910520 | released 2025-01-01 | 266.5505 -28.8887 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao24/cat9/27439/primary/acisf27439N002_evt2.fits.gz
+    image acisf27439N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf27439N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 27440 | CMZMOLECULARCLOUD | ACIS-I | grating NONE | TE | 15.9 ks | events 73036 | proposal 24910520 | released 2025-01-01 | 266.5505 -28.8887 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao24/cat9/27440/primary/acisf27440N002_evt2.fits.gz
+    image acisf27440N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf27440N002_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 27441 | CMZMOLECULARCLOUD | ACIS-I | grating NONE | TE | 14.7 ks | events 81812 | proposal 24910520 | released 2025-01-01 | 266.5505 -28.8887 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao24/cat9/27441/primary/acisf27441N002_evt2.fits.gz
+    image acisf27441N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf27441N002_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 27463 | CMZMOLECULARCLOUD | ACIS-I | grating NONE | TE | 14.9 ks | events 95956 | proposal 22910118 | released 2023-10-10 | 266.5429 -28.8853 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao22/cat9/27463/primary/acisf27463N002_evt2.fits.gz
+    image acisf27463N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf27463N002_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 28229 | SGRA* | ACIS-S | grating NONE | TE | 23.2 ks | events 26745 | proposal 15700000 | released 2024-08-09 | 266.4168 -29.0078 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao25/cat7/28229/primary/acisf28229N002_evt2.fits.gz
+    image acisf28229N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf28229N002_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 28230 | SGRA* | ACIS-S | grating NONE | TE | 23.2 ks | events 27607 | proposal 25700310 | released 2024-10-07 | 266.4168 -29.0078 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao25/cat7/28230/primary/acisf28230N002_evt2.fits.gz
+    image acisf28230N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf28230N002_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 28231 | SGRA* | ACIS-S | grating NONE | TE | 21.2 ks | events 24560 | proposal 25700310 | released 2024-10-08 | 266.4168 -29.0078 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao25/cat7/28231/primary/acisf28231N002_evt2.fits.gz
+    image acisf28231N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf28231N002_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 28232 | SGRA* | ACIS-S | grating NONE | TE | 23.2 ks | events 27478 | proposal 25700310 | released 2024-10-10 | 266.4168 -29.0078 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao25/cat7/28232/primary/acisf28232N002_evt2.fits.gz
+    image acisf28232N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf28232N002_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 28828 | CMZMOLECULARCLOUD | ACIS-I | grating NONE | TE | 14.9 ks | events 230997 | proposal 25910507 | released 2026-01-05 | 266.5505 -28.8887 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao25/cat9/28828/primary/acisf28828N001_evt2.fits.gz
+    image acisf28828N001_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf28828N001_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 28857 | CMZMOLECULARCLOUD | ACIS-I | grating NONE | TE | 12.9 ks | events 74856 | proposal 25910507 | released 2026-01-05 | 266.5505 -28.8887 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao25/cat9/28857/primary/acisf28857N001_evt2.fits.gz
+    image acisf28857N001_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf28857N001_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 28858 | CMZMOLECULARCLOUD | ACIS-I | grating NONE | TE | 13.9 ks | events 142171 | proposal 25910507 | released 2026-01-05 | 266.5505 -28.8887 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao25/cat9/28858/primary/acisf28858N001_evt2.fits.gz
+    image acisf28858N001_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf28858N001_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 29451 | CMZMOLECULARCLOUD | ACIS-I | grating NONE | TE | 16.4 ks | events 74858 | proposal 24910520 | released 2025-01-01 | 266.5505 -28.8887 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao24/cat9/29451/primary/acisf29451N002_evt2.fits.gz
+    image acisf29451N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf29451N002_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 29455 | CMZMOLECULARCLOUD | ACIS-I | grating NONE | TE | 17.6 ks | events 98861 | proposal 24910520 | released 2025-01-01 | 266.5505 -28.8887 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao24/cat9/29455/primary/acisf29455N002_evt2.fits.gz
+    image acisf29455N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf29455N002_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 29466 | CMZMOLECULARCLOUD | ACIS-I | grating NONE | TE | 16.9 ks | events 95972 | proposal 24910520 | released 2025-01-01 | 266.5505 -28.8887 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao24/cat9/29466/primary/acisf29466N002_evt2.fits.gz
+    image acisf29466N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf29466N002_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 29496 | SGRA* | ACIS-S | grating NONE | TE | 25.2 ks | events 30698 | proposal 25700310 | released 2025-03-09 | 266.4168 -29.0078 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao25/cat7/29496/primary/acisf29496N002_evt2.fits.gz
+    image acisf29496N002_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf29496N002_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 29749 | MAXIJ1744-294 | ACIS-S | grating HETG | TE | 9.3 ks | events 135836 | proposal 26400115 | released 2025-09-10 | 266.4247 -29.0097 | evt2 name unknown
+obsid 30854 | CMZMOLECULARCLOUD | ACIS-I | grating NONE | TE | 13.9 ks | events 217570 | proposal 25910507 | released 2026-01-05 | 266.5505 -28.8887 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao25/cat9/30854/primary/acisf30854N001_evt2.fits.gz
+    image acisf30854N001_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf30854N001_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 30855 | CMZMOLECULARCLOUD | ACIS-I | grating NONE | TE | 12.9 ks | events 213428 | proposal 25910507 | released 2026-01-05 | 266.5505 -28.8887 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao25/cat9/30855/primary/acisf30855N001_evt2.fits.gz
+    image acisf30855N001_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf30855N001_full_img2.fits | 0.2-20.0 keV | 0.2 MB
+obsid 30947 | CMZMOLECULARCLOUD | ACIS-I | grating NONE | TE | 14.9 ks | events 128938 | proposal 25910507 | released 2026-01-05 | 266.5505 -28.8887 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao25/cat9/30947/primary/acisf30947N001_evt2.fits.gz
+    image acisf30947N001_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf30947N001_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 30984 | CMZMOLECULARCLOUD | ACIS-I | grating NONE | TE | 10.6 ks | events 61090 | proposal 25910507 | released 2026-01-05 | 266.5505 -28.8887 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao25/cat9/30984/primary/acisf30984N001_evt2.fits.gz
+    image acisf30984N001_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf30984N001_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 30985 | CMZMOLECULARCLOUD | ACIS-I | grating NONE | TE | 10.5 ks | events 60554 | proposal 25910507 | released 2026-01-05 | 266.5505 -28.8887 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao25/cat9/30985/primary/acisf30985N001_evt2.fits.gz
+    image acisf30985N001_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf30985N001_full_img2.fits | 0.2-20.0 keV | 0.3 MB
+obsid 31019 | SGRA* | ACIS-S | grating NONE | TE | 23.2 ks | events 85527 | proposal 27700354 | released 2026-02-06 | 266.4168 -29.0078 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao27/cat7/31019/primary/acisf31019N001_evt2.fits.gz
+    image acisf31019N001_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf31019N001_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 31020 | SGRA* | ACIS-S | grating NONE | TE | 23.2 ks | events 83173 | proposal 27700354 | released 2026-02-08 | 266.4168 -29.0078 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao27/cat7/31020/primary/acisf31020N001_evt2.fits.gz
+    image acisf31020N001_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf31020N001_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 31021 | SGRA* | ACIS-S | grating NONE | TE | 24.9 ks | events 89651 | proposal 27700354 | released 2026-02-10 | 266.4168 -29.0078 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao27/cat7/31021/primary/acisf31021N001_evt2.fits.gz
+    image acisf31021N001_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf31021N001_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+obsid 31022 | SGRA* | ACIS-S | grating NONE | TE | 24.9 ks | events 87094 | proposal 27700354 | released 2026-02-12 | 266.4168 -29.0078 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao27/cat7/31022/primary/acisf31022N001_evt2.fits.gz
+    image acisf31022N001_cntr_img2.fits | 0.2-20.0 keV | 2.1 MB
+    image acisf31022N001_full_img2.fits | 0.2-20.0 keV | 0.1 MB
+imaging exposure without a grating: 6326.3 ks in total
+== Hubble and Webb (MAST)
+12633 rows from MAST, 2512 public single-filter level-3 image mosaics
+HST|13408 | WR102KA | WFC3/IR | 5 filters | total 0.1 GB | detection 0.03 GB 9575 s, F128N 0.03 GB 3591 s, F130N 0.03 GB 3591 s, F164N 0.01 GB 1198 s, F167N 0.01 GB 1199 s
+HST|7364 | STAR-CLUS-174550-284925 | NICMOS/NIC2 | 5 filters | total 0.0 GB | F110W 0.00 GB 1024 s, F160W 0.00 GB 1024 s, F187N 0.00 GB 1024 s, F190N 0.00 GB 1024 s, F205W 0.00 GB 1024 s
+HST|11671 | SGRA | WFC3/IR | 4 filters | total 0.1 GB | detection 0.03 GB 10683 s, F127M 0.03 GB 7191 s, F139M 0.03 GB 3492 s, F153M 0.01 GB 7350 s
+HST|7250 | GC-B | NICMOS/NIC3 | 4 filters | total 0.0 GB | F160W 0.00 GB 64 s, F187N 0.00 GB 160 s, F190N 0.00 GB 160 s, F222M 0.00 GB 128 s
+HST|7250 | GC-C | NICMOS/NIC3 | 4 filters | total 0.0 GB | F160W 0.00 GB 64 s, F187N 0.00 GB 160 s, F190N 0.00 GB 160 s, F222M 0.00 GB 128 s
+HST|7250 | GC-A | NICMOS/NIC3 | 4 filters | total 0.0 GB | F160W 0.00 GB 64 s, F187N 0.00 GB 160 s, F190N 0.00 GB 160 s, F222M 0.00 GB 128 s
+HST|7250 | GC-D | NICMOS/NIC3 | 4 filters | total 0.0 GB | F160W 0.00 GB 64 s, F187N 0.00 GB 160 s, F190N 0.00 GB 160 s, F222M 0.00 GB 128 s
+HST|7320 | GALCENT | NICMOS/NIC2 | 4 filters | total 0.0 GB | F187N 0.00 GB 128 s, F190N 0.00 GB 128 s, F212N 0.00 GB 768 s, F215N 0.00 GB 640 s
+HST|7214 | GALACTIC-CENTER | NICMOS/NIC2 | 4 filters | total 0.0 GB | F187N 0.00 GB 960 s, F190N 0.00 GB 960 s, F212N 0.00 GB 960 s, F215N 0.00 GB 960 s
+HST|12182 | MW-NSC-V38 | WFC3/IR | 4 filters | total 0.2 GB | detection 0.07 GB 6037 s, F127M 0.01 GB 1797 s, F139M 0.07 GB 1994 s, F153M 0.07 GB 2243 s
+HST|12182 | MW-NSC-V43 | WFC3/IR | 4 filters | total 0.2 GB | detection 0.06 GB 5787 s, F127M 0.01 GB 1797 s, F139M 0.06 GB 2193 s, F153M 0.06 GB 2243 s
+HST|12182 | MW-NSC-V35 | WFC3/IR | 4 filters | total 0.2 GB | detection 0.06 GB 5787 s, F127M 0.01 GB 1797 s, F139M 0.06 GB 2193 s, F153M 0.06 GB 2243 s
+HST|12182 | MW-NSC-V37-COPY | WFC3/IR | 4 filters | total 0.2 GB | detection 0.05 GB 6236 s, F127M 0.05 GB 4043 s, F139M 0.05 GB 2193 s, F153M 0.01 GB 249 s
+HST|12182 | MW-NSC-V40 | WFC3/IR | 4 filters | total 0.1 GB | F127M 0.01 GB 1797 s, detection 0.05 GB 2243 s, F139M 0.01 GB 997 s, F153M 0.05 GB 2243 s
+HST|12182 | MW-NSC-V38-COPY-1 | WFC3/IR | 4 filters | total 0.1 GB | detection 0.03 GB 2394 s, F127M 0.01 GB 1397 s, F139M 0.01 GB 997 s, F153M 0.07 GB 2243 s
+HST|None | WR102KA | WFC3/IR | 4 filters | total 14.0 GB | F128N 3.67 GB 3591 s, F130N 2.96 GB 3591 s, F164N 3.67 GB 1197 s, F167N 3.67 GB 1197 s
+HST|11671 | ARCHES | WFC3/IR | 4 filters | total 0.1 GB | F127M 0.03 GB 7191 s, detection 0.03 GB 10683 s, F139M 0.03 GB 3492 s, F153M 0.03 GB 7359 s
+HST|7364 | UNKNOWN-TARGET-1 | NICMOS/NIC1 | 4 filters | total 0.1 GB | F090M 0.01 GB 1024 s, F110W 0.00 GB 2048 s, F145M 0.00 GB 1024 s, F170M 0.04 GB 4096 s
+HST|11671 | QUINTUPLET | WFC3/IR | 4 filters | total 0.1 GB | detection 0.03 GB 10683 s, F127M 0.03 GB 7191 s, F139M 0.03 GB 3492 s, F153M 0.03 GB 7359 s
+HST|15199 | SGR-A | WFC3/IR | 3 filters | total 0.1 GB | F127M 0.03 GB 1997 s, detection 0.03 GB 7535 s, F153M 0.03 GB 5538 s
+HST|15348 | SGR-1745-29 | WFC3/IR | 3 filters | total 0.1 GB | detection 0.03 GB 1795 s, F125W 0.03 GB 898 s, F160W 0.03 GB 898 s
+HST|15498 | SGR-A | WFC3/IR | 3 filters | total 0.1 GB | F127M 0.03 GB 1997 s, detection 0.03 GB 7535 s, F153M 0.03 GB 5538 s
+HST|7320 | GALCENT | NICMOS/NIC1 | 3 filters | total 0.0 GB | F164N 0.00 GB 640 s, F166N 0.00 GB 768 s, F187N 0.00 GB 384 s
+HST|10179 | SGR-A | NICMOS/NIC1 | 3 filters | total 0.0 GB | F160W 0.00 GB 1664 s, F187N 0.00 GB 1792 s, F190N 0.00 GB 1792 s
+HST|9457 | 20-ARCSEC-GC | NICMOS/NIC2 | 3 filters | total 0.0 GB | F110W 0.00 GB 704 s, F160W 0.00 GB 96 s, F222M 0.00 GB 288 s
+HST|7222 | GALCENTER-1 | NICMOS/NIC2 | 3 filters | total 0.0 GB | F110W 0.00 GB 320 s, F160W 0.00 GB 112 s, F222M 0.00 GB 416 s
+HST|7222 | GALCENTER-4 | NICMOS/NIC2 | 3 filters | total 0.0 GB | F110W 0.00 GB 320 s, F160W 0.00 GB 112 s, F222M 0.00 GB 416 s
+HST|7222 | GALCENTER-2 | NICMOS/NIC2 | 3 filters | total 0.0 GB | F110W 0.00 GB 320 s, F160W 0.00 GB 112 s, F222M 0.00 GB 416 s
+HST|7222 | GALCENTER-3 | NICMOS/NIC2 | 3 filters | total 0.0 GB | F110W 0.00 GB 320 s, F160W 0.00 GB 112 s, F222M 0.00 GB 416 s
+HST|12182 | MW-NSC-V42 | WFC3/IR | 3 filters | total 0.1 GB | F127M 0.06 GB 3594 s, F139M 0.01 GB 997 s, F153M 0.01 GB 997 s
+HST|12182 | MW-NSC-V36 | WFC3/IR | 3 filters | total 0.1 GB | F127M 0.06 GB 3594 s, F139M 0.01 GB 997 s, F153M 0.01 GB 997 s
+HST|9457 | 60-ARCSEC-GC | NICMOS/NIC2 | 3 filters | total 0.0 GB | F110W 0.00 GB 704 s, F160W 0.00 GB 96 s, F222M 0.00 GB 288 s
+HST|7222 | NEARCENTER-3 | NICMOS/NIC2 | 3 filters | total 0.0 GB | F110W 0.00 GB 320 s, F160W 0.00 GB 112 s, F222M 0.00 GB 416 s
+HST|7222 | NEARCENTER-2 | NICMOS/NIC2 | 3 filters | total 0.0 GB | F110W 0.00 GB 320 s, F160W 0.00 GB 112 s, F222M 0.00 GB 416 s
+HST|7222 | NEARCENTER-4 | NICMOS/NIC2 | 3 filters | total 0.0 GB | F110W 0.00 GB 320 s, F160W 0.00 GB 112 s, F222M 0.00 GB 416 s
+HST|12182 | MW-NSC-V41 | WFC3/IR | 3 filters | total 0.0 GB | F127M 0.01 GB 1797 s, F139M 0.01 GB 997 s, F153M 0.01 GB 997 s
+HST|12182 | MW-NSC-V37 | WFC3/IR | 3 filters | total 0.0 GB | F127M 0.01 GB 1797 s, F139M 0.01 GB 997 s, F153M 0.01 GB 997 s
+HST|7222 | NEARCENTER-1 | NICMOS/NIC2 | 3 filters | total 0.0 GB | F110W 0.00 GB 320 s, F160W 0.00 GB 112 s, F222M 0.00 GB 416 s
+HST|7909 | LOW | WFPC2/PC | 3 filters | total 0.8 GB | detection 0.26 GB 4600 s, F450W 0.26 GB 3500 s, F606W 0.26 GB 1100 s
+HST|7786 | PAR | WFPC2/PC | 3 filters | total 0.8 GB | detection 0.26 GB 520 s, F160BW 0.26 GB 520 s, F814W 0.26 GB 140 s
+HST|7364 | CC4 | NICMOS/NIC2 | 3 filters | total 0.0 GB | F110W 0.00 GB 768 s, F160W 0.00 GB 512 s, F205W 0.00 GB 768 s
+HST|13408 | G0.120-0.048 | WFC3/IR | 3 filters | total 0.1 GB | detection 0.03 GB 2394 s, F164N 0.03 GB 1197 s, F167N 0.03 GB 1197 s
+HST|7364 | UNKNOWN-TARGET-1 | NICMOS/NIC3 | 3 filters | total 0.0 GB | F110W 0.00 GB 1024 s, F160W 0.00 GB 3072 s, F222M 0.00 GB 1024 s
+HST|7364 | STAR-CLUS-174615-284946 | NICMOS/NIC2 | 3 filters | total 0.0 GB | F110W 0.02 GB 4096 s, F160W 0.02 GB 4096 s, F205W 0.02 GB 4096 s
+HST|13408 | PISTOL | WFC3/IR | 3 filters | total 0.1 GB | detection 0.03 GB 2394 s, F164N 0.03 GB 1197 s, F167N 0.03 GB 1197 s
+HST|7364 | CC1 | NICMOS/NIC2 | 3 filters | total 0.0 GB | F110W 0.00 GB 768 s, F160W 0.00 GB 512 s, F205W 0.00 GB 768 s
+HST|12318 | SGRA | WFC3/IR | 2 filters | total 0.1 GB | detection 0.03 GB 7359 s, F153M 0.03 GB 7359 s
+HST|12667 | SGRA | WFC3/IR | 2 filters | total 0.1 GB | detection 0.03 GB 7359 s, F153M 0.03 GB 7359 s
+HST|13049 | MW-NSC-V40 | WFC3/IR | 2 filters | total 0.1 GB | detection 0.07 GB 2243 s, F153M 0.07 GB 2243 s
+HST|13049 | MW-NSC-V43 | WFC3/IR | 2 filters | total 0.1 GB | detection 0.07 GB 2243 s, F153M 0.07 GB 2243 s
+HST|13049 | MW-NSC-V38 | WFC3/IR | 2 filters | total 0.1 GB | detection 0.07 GB 2243 s, F153M 0.07 GB 2243 s
+HST|13316 | SGR-A | WFC3/IR | 2 filters | total 0.1 GB | detection 0.03 GB 16562 s, F153M 0.03 GB 16562 s
+HST|13403 | NAME-SGR-A | WFC3/IR | 2 filters | total 0.1 GB | detection 0.03 GB 14441 s, F153M 0.03 GB 14441 s
+HST|14147 | SGRA-NC | WFC3/IR | 2 filters | total 0.0 GB | detection 0.03 GB 7735 s, F105W 0.01 GB 7735 s
+HST|15667 | SGR-A | WFC3/IR | 2 filters | total 0.1 GB | detection 0.03 GB 15009 s, F153M 0.03 GB 15009 s
+HST|15894 | SGR-A | WFC3/IR | 2 filters | total 0.1 GB | detection 0.03 GB 6985 s, F153M 0.03 GB 6985 s
+HST|16004 | SGR-A | WFC3/IR | 2 filters | total 0.1 GB | detection 0.03 GB 9429 s, F153M 0.03 GB 9429 s
+HST|16681 | NAME-SGR-A | WFC3/IR | 2 filters | total 0.1 GB | detection 0.03 GB 6284 s, F153M 0.03 GB 6284 s
+HST|16990 | NAME-SGR-A | WFC3/IR | 2 filters | total 0.1 GB | detection 0.03 GB 6284 s, F153M 0.03 GB 6284 s
+HST|17409 | NAME-SGR-A | WFC3/IR | 2 filters | total 0.1 GB | detection 0.03 GB 6284 s, F153M 0.03 GB 6284 s
+HST|None | SGR-1745-29 | WFC3/IR | 2 filters | total 7.3 GB | F125W 3.67 GB 898 s, F160W 3.67 GB 898 s
+HST|None | SGR-A | WFC3/IR | 2 filters | total 6.6 GB | F127M 2.96 GB 1997 s, F153M 3.67 GB 95555 s
+HST|7320 | GALCENT-C3A | NICMOS/NIC3 | 2 filters | total 0.0 GB | F164N 0.00 GB 512 s, F166N 0.00 GB 512 s
+HST|7320 | GALCENT-C1A | NICMOS/NIC1 | 2 filters | total 0.0 GB | F164N 0.00 GB 1152 s, F166N 0.00 GB 1152 s
+HST|7214 | GALACTIC-CENTER | NICMOS/NIC1 | 2 filters | total 0.0 GB | F110M 0.00 GB 2496 s, F160W 0.00 GB 2496 s
+HST|7214 | GALACTIC-CENTER-IRS7 | NICMOS/NIC1 | 2 filters | total 0.0 GB | F110M 0.00 GB 72 s, F160W 0.00 GB 24 s
+HST|7214 | GALACTIC-CENTER-2 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F196N 0.00 GB 1280 s, F200N 0.00 GB 1280 s
+HST|7222 | GALACTICCENTER | NICMOS/NIC2 | 2 filters | total 0.0 GB | F160W 0.00 GB 104 s, F222M 0.00 GB 360 s
+HST|7842 | GCPAA1 | NICMOS/NIC1 | 2 filters | total 0.0 GB | F187N 0.00 GB 1152 s, F190N 0.00 GB 1152 s
+HST|7842 | GCPAA2 | NICMOS/NIC1 | 2 filters | total 0.0 GB | F187N 0.00 GB 1152 s, F190N 0.00 GB 1152 s
+HST|7842 | GCPAA3 | NICMOS/NIC1 | 2 filters | total 0.0 GB | F187N 0.00 GB 1152 s, F190N 0.00 GB 1152 s
+HST|7250 | GC | NICMOS/NIC2 | 2 filters | total 0.0 GB | F187N 0.00 GB 1216 s, F190N 0.00 GB 1215 s
+HST|7844 | GC-H2-4 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F212N 0.00 GB 512 s, F215N 0.00 GB 512 s
+HST|7844 | GC-H2-12 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F212N 0.00 GB 512 s, F215N 0.00 GB 512 s
+HST|9457 | GALCENTER | NICMOS/NIC2 | 2 filters | total 0.0 GB | F110W 0.00 GB 640 s, F160W 0.00 GB 96 s
+HST|10415 | GCPAA1A | NICMOS/NIC1 | 2 filters | total 0.0 GB | F187N 0.00 GB 1152 s, F190N 0.00 GB 1152 s
+HST|10415 | GCPAA2A | NICMOS/NIC1 | 2 filters | total 0.0 GB | F187N 0.00 GB 1152 s, F190N 0.00 GB 1152 s
+HST|10859 | SGR-A | NICMOS/NIC1 | 2 filters | total 0.0 GB | F145M 0.00 GB 576 s, F170M 0.00 GB 576 s
+HST|11120 | GC-SURVEY-315 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-316 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-317 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|7844 | GC-H2-8 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F212N 0.00 GB 512 s, F215N 0.00 GB 512 s
+HST|7844 | GC-H2-10 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F212N 0.00 GB 448 s, F215N 0.00 GB 448 s
+HST|11120 | GC-SURVEY-318 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|13049 | MW-NSC-V35 | WFC3/IR | 2 filters | total 0.1 GB | detection 0.07 GB 2243 s, F153M 0.07 GB 2243 s
+HST|7320 | GALCENT-C3B | NICMOS/NIC3 | 2 filters | total 0.0 GB | F164N 0.00 GB 192 s, F166N 0.00 GB 192 s
+HST|7844 | GC-H2-3 | NICMOS/NIC2 | 2 filters | total 0.0 GB | F212N 0.00 GB 448 s, F215N 0.00 GB 448 s
+HST|7844 | GC-H2-4 | NICMOS/NIC1 | 2 filters | total 0.0 GB | F164N 0.01 GB 448 s, F166N 0.01 GB 448 s
+HST|7844 | GC-H2-3 | NICMOS/NIC1 | 2 filters | total 0.0 GB | F164N 0.01 GB 448 s, F166N 0.01 GB 448 s
+HST|7844 | GC-H2-8 | NICMOS/NIC1 | 2 filters | total 0.0 GB | F164N 0.01 GB 448 s, F166N 0.01 GB 448 s
+HST|7842 | GCPAA3 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 1152 s, F190N 0.00 GB 1152 s
+HST|7320 | GALCENT-C3C | NICMOS/NIC3 | 2 filters | total 0.0 GB | F164N 0.00 GB 192 s, F166N 0.00 GB 192 s
+HST|7842 | GCPAA1 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 1152 s, F190N 0.00 GB 1152 s
+HST|7320 | GALCENT-C1A | NICMOS/NIC2 | 2 filters | total 0.0 GB | F187N 0.00 GB 1152 s, F190N 0.00 GB 1152 s
+HST|7842 | GCPAA2 | NICMOS/NIC2 | 2 filters | total 0.0 GB | F187N 0.00 GB 1152 s, F190N 0.00 GB 1152 s
+HST|7842 | GCPAA1 | NICMOS/NIC2 | 2 filters | total 0.0 GB | F187N 0.00 GB 1152 s, F190N 0.00 GB 1152 s
+HST|7842 | GCPAA2 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 1152 s, F190N 0.00 GB 1152 s
+HST|7842 | GCPAA3 | NICMOS/NIC2 | 2 filters | total 0.0 GB | F187N 0.00 GB 1152 s, F190N 0.00 GB 1152 s
+HST|7214 | GALACTIC-CENTER-2 | NICMOS/NIC2 | 2 filters | total 0.0 GB | F212N 0.00 GB 960 s, F215N 0.00 GB 960 s
+HST|7250 | GC | NICMOS/NIC1 | 2 filters | total 0.0 GB | F110M 0.00 GB 1216 s, F160W 0.00 GB 1215 s
+HST|7844 | GC-H2-1 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F212N 0.00 GB 512 s, F215N 0.00 GB 512 s
+HST|7844 | GC-H2-11 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F212N 0.00 GB 448 s, F215N 0.00 GB 448 s
+HST|11120 | GC-SURVEY-274 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-279 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|7844 | GC-H2-3 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F212N 0.00 GB 448 s, F215N 0.00 GB 448 s
+HST|7844 | GC-H2-4 | NICMOS/NIC2 | 2 filters | total 0.0 GB | F212N 0.00 GB 448 s, F215N 0.00 GB 448 s
+HST|7844 | GC-H2-8 | NICMOS/NIC2 | 2 filters | total 0.0 GB | F212N 0.00 GB 448 s, F215N 0.00 GB 448 s
+HST|7844 | GC-H2-9 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F212N 0.00 GB 512 s, F215N 0.00 GB 512 s
+HST|11120 | GC-SURVEY-313 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-314 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-336 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-329 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-319 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-320 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|12663 | MW-NSC-V36 | WFC3/IR | 2 filters | total 0.1 GB | detection 0.06 GB 2243 s, F153M 0.06 GB 2243 s
+HST|7844 | GC-H2-6 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F212N 0.00 GB 512 s, F215N 0.00 GB 512 s
+HST|12663 | MW-NSC-V43 | WFC3/IR | 2 filters | total 0.1 GB | detection 0.06 GB 2243 s, F153M 0.06 GB 2243 s
+HST|7844 | GC-H2-7 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F212N 0.00 GB 448 s, F215N 0.00 GB 448 s
+HST|7844 | GC-H2-2 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F212N 0.00 GB 448 s, F215N 0.00 GB 448 s
+HST|7844 | GC-H2-2 | NICMOS/NIC2 | 2 filters | total 0.0 GB | F212N 0.00 GB 448 s, F215N 0.00 GB 448 s
+HST|12663 | MW-NSC-V38 | WFC3/IR | 2 filters | total 0.1 GB | detection 0.07 GB 2243 s, F153M 0.07 GB 2243 s
+HST|12663 | MW-NSC-V37 | WFC3/IR | 2 filters | total 0.1 GB | detection 0.05 GB 2243 s, F153M 0.05 GB 2243 s
+HST|12182 | MW-NSC-V38-COPY | WFC3/IR | 2 filters | total 0.1 GB | F127M 0.07 GB 4043 s, F153M 0.01 GB 249 s
+HST|7844 | GC-H2-1 | NICMOS/NIC1 | 2 filters | total 0.0 GB | F164N 0.01 GB 448 s, F166N 0.01 GB 448 s
+HST|7844 | GC-H2-12 | NICMOS/NIC1 | 2 filters | total 0.0 GB | F164N 0.01 GB 448 s, F166N 0.01 GB 448 s
+HST|7844 | GC-H2-2 | NICMOS/NIC1 | 2 filters | total 0.0 GB | F164N 0.01 GB 448 s, F166N 0.01 GB 448 s
+HST|11120 | GC-SURVEY-278 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-275 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|9480 | ANY | ACS/WFC | 2 filters | total 0.4 GB | detection 0.22 GB 2134 s, F775W 0.22 GB 2134 s
+HST|7844 | GC-H2-5 | NICMOS/NIC2 | 2 filters | total 0.0 GB | F212N 0.00 GB 448 s, F215N 0.00 GB 448 s
+HST|7844 | GC-H2-10 | NICMOS/NIC1 | 2 filters | total 0.0 GB | F164N 0.01 GB 448 s, F166N 0.01 GB 448 s
+HST|7844 | GC-H2-5 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F212N 0.00 GB 448 s, F215N 0.00 GB 448 s
+HST|11120 | GC-SURVEY-333 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|7844 | GC-H2-6 | NICMOS/NIC1 | 2 filters | total 0.0 GB | F164N 0.01 GB 448 s, F166N 0.01 GB 448 s
+HST|7844 | GC-H2-1 | NICMOS/NIC2 | 2 filters | total 0.0 GB | F212N 0.00 GB 448 s, F215N 0.00 GB 448 s
+HST|7844 | GC-H2-5 | NICMOS/NIC1 | 2 filters | total 0.0 GB | F164N 0.01 GB 448 s, F166N 0.01 GB 448 s
+HST|11120 | GC-SURVEY-332 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|9984 | ANY | ACS/WFC | 2 filters | total 0.4 GB | detection 0.21 GB 1800 s, F775W 0.21 GB 1800 s
+HST|7844 | GC-H2-6 | NICMOS/NIC2 | 2 filters | total 0.0 GB | F212N 0.00 GB 448 s, F215N 0.00 GB 448 s
+HST|7844 | GC-H2-11 | NICMOS/NIC1 | 2 filters | total 0.0 GB | F164N 0.01 GB 448 s, F166N 0.01 GB 448 s
+HST|13049 | MW-NSC-V41 | WFC3/IR | 2 filters | total 0.1 GB | detection 0.06 GB 2243 s, F153M 0.06 GB 2243 s
+HST|11120 | GC-SURVEY-273 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-280 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|7844 | GC-H2-12 | NICMOS/NIC2 | 2 filters | total 0.0 GB | F212N 0.00 GB 448 s, F215N 0.00 GB 448 s
+HST|7844 | GC-H2-7 | NICMOS/NIC1 | 2 filters | total 0.0 GB | F164N 0.01 GB 448 s, F166N 0.01 GB 448 s
+HST|7844 | GC-H2-11 | NICMOS/NIC2 | 2 filters | total 0.0 GB | F212N 0.00 GB 448 s, F215N 0.00 GB 448 s
+HST|7844 | GC-H2-10 | NICMOS/NIC2 | 2 filters | total 0.0 GB | F212N 0.00 GB 448 s, F215N 0.00 GB 448 s
+HST|11120 | GC-SURVEY-335 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-330 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-312 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-311 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-322 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-321 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-277 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-276 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-283 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-334 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-331 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-270 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-340 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-325 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|7844 | GC-H2-7 | NICMOS/NIC2 | 2 filters | total 0.0 GB | F212N 0.00 GB 448 s, F215N 0.00 GB 448 s
+HST|9457 | NEARCENTER | NICMOS/NIC2 | 2 filters | total 0.0 GB | F110W 0.00 GB 640 s, F160W 0.00 GB 96 s
+HST|7222 | NEARCENTER | NICMOS/NIC2 | 2 filters | total 0.0 GB | F160W 0.00 GB 104 s, F222M 0.00 GB 360 s
+HST|7844 | GC-H2-9 | NICMOS/NIC1 | 2 filters | total 0.0 GB | F164N 0.01 GB 448 s, F166N 0.01 GB 448 s
+HST|12663 | MW-NSC-V38-COPY-1 | WFC3/IR | 2 filters | total 0.1 GB | detection 0.07 GB 2243 s, F153M 0.07 GB 2243 s
+HST|11120 | GC-SURVEY-284 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-269 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-262 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-259 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-339 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-326 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-364 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-365 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|7844 | GC-H2-9 | NICMOS/NIC2 | 2 filters | total 0.0 GB | F212N 0.00 GB 448 s, F215N 0.00 GB 448 s
+HST|11120 | GC-SURVEY-263 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-258 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-309 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-310 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-361 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-323 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-324 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-368 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-282 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-337 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-271 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-328 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-255 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-266 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-281 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-360 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-369 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-272 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-338 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-327 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-261 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-260 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|12915 | GAL-CEN-FIELD1 | WFC3/IR | 2 filters | total 0.1 GB | detection 0.06 GB 2294 s, F139M 0.03 GB 2294 s
+HST|13771 | GAL-CEN-FIELD1 | WFC3/IR | 2 filters | total 0.1 GB | detection 0.06 GB 2294 s, F139M 0.03 GB 2300 s
+HST|11120 | GC-SURVEY-264 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-257 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-363 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-366 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-362 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-367 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-308 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-307 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|12915 | GAL-CEN-FIELD3 | ACS/WFC | 2 filters | total 0.5 GB | detection 0.24 GB 110 s, F850LP 0.24 GB 110 s
+HST|13771 | GAL-CEN-FIELD3 | ACS/WFC | 2 filters | total 0.5 GB | detection 0.24 GB 101 s, F850LP 0.24 GB 101 s
+HST|11120 | GC-SURVEY-254 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-287 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-267 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-344 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-357 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-372 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-256 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-265 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-359 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-370 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-288 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-343 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|None | MW-NSC-V43 | WFC3/IR | 2 filters | total 6.8 GB | F139M 3.41 GB 48070 s, F153M 3.41 GB 6729 s
+HST|11120 | GC-SURVEY-210 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-215 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|12915 | GAL-CEN-FIELD2 | WFC3/IR | 2 filters | total 0.1 GB | detection 0.06 GB 2294 s, F139M 0.03 GB 2294 s
+HST|13771 | GAL-CEN-FIELD2 | WFC3/IR | 2 filters | total 0.1 GB | detection 0.06 GB 2294 s, F139M 0.03 GB 2294 s
+HST|11120 | GC-SURVEY-211 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-214 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-253 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-268 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-388 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-381 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-251 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-358 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-385 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-371 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-384 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-356 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-305 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-306 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-206 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-219 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-286 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-341 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-392 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-377 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-285 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-342 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-252 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-218 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-355 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-207 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-216 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-209 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-389 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|12915 | GAL-CEN-FIELD3 | WFC3/IR | 2 filters | total 0.1 GB | detection 0.06 GB 2294 s, F139M 0.06 GB 2294 s
+HST|13771 | GAL-CEN-FIELD3 | WFC3/IR | 2 filters | total 0.1 GB | detection 0.06 GB 2294 s, F139M 0.03 GB 2300 s
+HST|11120 | GC-SURVEY-212 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-213 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-380 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-250 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-387 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-382 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-353 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-386 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-383 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-205 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-220 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-304 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-303 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-391 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-291 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-378 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-348 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-223 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-249 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-396 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-292 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-373 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-354 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-347 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-217 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-208 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-390 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-379 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-195 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-198 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-247 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-199 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-194 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-412 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-413 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-352 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-409 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-416 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-222 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-202 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-191 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|7909 | ANY | WFPC2/PC | 2 filters | total 0.5 GB | detection 0.26 GB 2200 s, F606W 0.26 GB 2200 s
+HST|11120 | GC-SURVEY-224 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-393 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-408 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-376 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-395 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-417 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-301 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-302 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-374 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-248 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-290 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-345 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-351 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-203 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-190 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-289 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|None | QUINTUPLET | WFC3/IR | 2 filters | total 2.7 GB | F127M 0.32 GB 7191 s, F153M 2.40 GB 65605 s
+HST|11120 | GC-SURVEY-346 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-405 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-420 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-196 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-197 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-221 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-246 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-200 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-193 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|9244 | ANY | WFPC2/PC | 2 filters | total 0.5 GB | detection 0.26 GB 2500 s, F606W 0.26 GB 2500 s
+HST|11120 | GC-SURVEY-227 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-394 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-349 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-411 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-414 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-375 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-187 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-410 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-400 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-415 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-201 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-192 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|9676 | ANY | WFPC2/PC | 2 filters | total 0.5 GB | detection 0.26 GB 1100 s, F606W 0.26 GB 1100 s
+HST|11120 | GC-SURVEY-404 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-421 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-407 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-418 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-245 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|10084 | ANY | WFPC2/PC | 2 filters | total 0.5 GB | detection 0.26 GB 1000 s, F606W 0.26 GB 1000 s
+HST|11120 | GC-SURVEY-350 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|13771 | GAL-CEN-FIELD4 | WFC3/IR | 2 filters | total 0.1 GB | detection 0.06 GB 2294 s, F139M 0.03 GB 2300 s
+HST|12915 | GAL-CEN-FIELD4 | WFC3/IR | 2 filters | total 0.1 GB | detection 0.06 GB 2294 s, F139M 0.03 GB 2294 s
+HST|11120 | GC-SURVEY-300 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-299 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-295 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-204 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-189 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-406 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-228 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-296 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-419 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-186 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|12915 | GAL-CEN-FIELD2 | ACS/WFC | 2 filters | total 0.5 GB | detection 0.24 GB 110 s, F850LP 0.24 GB 110 s
+HST|13771 | GAL-CEN-FIELD2 | ACS/WFC | 2 filters | total 0.5 GB | detection 0.24 GB 101 s, F850LP 0.24 GB 101 s
+HST|11120 | GC-SURVEY-399 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-401 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-424 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-226 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|6254 | PAR | WFPC2/PC | 2 filters | total 0.5 GB | detection 0.26 GB 2000 s, F814W 0.26 GB 2000 s
+HST|11120 | GC-SURVEY-147 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-142 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-243 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-143 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-146 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-188 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-397 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-440 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-433 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-403 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-437 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-436 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-422 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-151 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-444 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-429 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-244 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-183 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-150 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-225 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-185 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-297 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-298 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-398 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-294 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-441 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-432 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-402 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-423 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-293 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-231 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-155 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-148 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-141 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-144 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-145 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-242 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-448 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-425 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-439 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-434 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-438 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-435 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-182 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-152 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-184 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-443 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-430 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-241 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-232 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-154 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-149 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-445 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-428 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-442 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-431 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-230 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-156 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-181 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-447 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-135 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-138 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-179 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-159 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-426 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-139 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-134 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-239 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-456 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-457 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-453 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-131 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-460 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-229 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-153 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-452 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-461 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-240 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-446 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-130 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-427 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-449 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-464 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-180 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-158 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-235 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-127 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-178 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-160 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|None | G0.120-0.048 | WFC3/IR | 2 filters | total 2.7 GB | F164N 0.27 GB 2394 s, F167N 2.40 GB 2394 s
+HST|11120 | GC-SURVEY-465 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-136 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-137 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-140 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-133 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|12915 | GAL-CEN-FIELD4 | ACS/WFC | 2 filters | total 0.5 GB | detection 0.24 GB 110 s, F850LP 0.21 GB 110 s
+HST|13771 | GAL-CEN-FIELD4 | ACS/WFC | 2 filters | total 0.5 GB | detection 0.24 GB 101 s, F850LP 0.21 GB 101 s
+HST|11120 | GC-SURVEY-238 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-455 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-458 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-132 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-454 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-459 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-236 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-126 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-451 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-462 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-163 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-237 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-468 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-129 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-157 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-177 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|12915 | GAL-CEN-FIELD1 | ACS/WFC | 2 filters | total 0.5 GB | detection 0.27 GB 110 s, F850LP 0.27 GB 110 s
+HST|13771 | GAL-CEN-FIELD1 | ACS/WFC | 2 filters | total 0.5 GB | detection 0.27 GB 101 s, F850LP 0.27 GB 101 s
+HST|14613 | ARCHES | WFC3/IR | 2 filters | total 0.1 GB | detection 0.03 GB 7359 s, F153M 0.03 GB 7359 s
+HST|12318 | ARCHES | WFC3/IR | 2 filters | total 0.1 GB | detection 0.03 GB 7359 s, F153M 0.03 GB 7359 s
+HST|12667 | ARCHES | WFC3/IR | 2 filters | total 0.1 GB | detection 0.03 GB 7359 s, F153M 0.03 GB 7359 s
+HST|11120 | GC-SURVEY-450 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-463 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-123 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-175 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-128 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-234 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-466 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-83 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-78 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-79 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-82 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-164 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-125 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-162 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-488 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-481 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-233 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-87 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-485 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-484 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-122 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-467 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-176 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-492 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-477 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-86 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-489 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-480 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-124 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-174 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-91 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-161 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-473 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-119 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-167 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-84 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-77 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-80 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-81 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-90 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-121 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-487 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-482 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-88 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-173 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-486 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-483 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-476 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-491 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-478 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-85 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-95 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-490 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-479 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-118 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-168 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-92 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-469 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-120 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-166 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|14613 | QUINTUPLET | WFC3/IR | 2 filters | total 0.1 GB | detection 0.03 GB 7359 s, F153M 0.03 GB 7359 s
+HST|12318 | QUINTUPLET | WFC3/IR | 2 filters | total 0.1 GB | detection 0.03 GB 7359 s, F153M 0.03 GB 7359 s
+HST|12667 | QUINTUPLET | WFC3/IR | 2 filters | total 0.1 GB | detection 0.03 GB 7359 s, F153M 0.03 GB 7359 s
+HST|11120 | GC-SURVEY-474 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-89 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-94 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-75 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-74 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-71 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-472 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-475 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-500 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-501 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-497 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-504 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-496 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-115 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-505 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-70 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-117 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-165 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-96 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-493 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-508 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|None | PISTOL | WFC3/IR | 2 filters | total 0.4 GB | F164N 0.32 GB 1197 s, F167N 0.04 GB 1197 s
+HST|11120 | GC-SURVEY-99 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-470 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-67 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-171 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-509 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-93 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-66 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-76 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|7364 | G0.15-0.05 | NICMOS/NIC2 | 2 filters | total 0.0 GB | F187N 0.00 GB 1024 s, F190N 0.00 GB 1024 s
+HST|11120 | GC-SURVEY-471 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-116 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-73 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-114 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-512 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-72 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-98 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-499 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-502 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-498 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-503 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-172 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-495 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-506 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-63 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-69 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-100 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-494 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-513 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-507 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-170 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-68 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-510 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-62 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-113 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-103 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-111 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-65 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-516 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-97 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-23 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-22 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-511 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-169 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-27 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-536 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-529 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-533 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-532 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-64 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-59 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-540 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-525 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-26 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-514 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-537 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-528 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-102 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-112 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-31 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-104 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-61 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-110 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-521 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-58 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-30 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-515 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-524 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-24 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-21 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-28 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-60 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-535 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-530 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-35 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-534 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-531 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-107 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-101 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-539 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-25 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-526 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-109 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-517 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-55 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-538 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-527 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-32 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-34 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-57 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-522 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-520 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-29 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-108 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|11120 | GC-SURVEY-523 | NICMOS/NIC3 | 2 filters | total 0.0 GB | F187N 0.00 GB 192 s, F190N 0.00 GB 192 s
+HST|None | SGRA-NC | WFC3/IR | 1 filters | total 3.7 GB | F105W 3.67 GB 12825 s
+HST|None | MW-NSC-V38-COPY-1 | WFC3/IR | 1 filters | total 3.7 GB | F127M 3.67 GB 27856 s
+HST|None | MW-NSC-V35 | WFC3/IR | 1 filters | total 3.7 GB | F139M 3.67 GB 72703 s
+HST|13049 | MW-NSC-V35-COPY | WFC3/IR | 1 filters | total 0.0 GB | F153M 0.01 GB 249 s
+HST|13049 | MW-NSC-V37-COPY | WFC3/IR | 1 filters | total 0.0 GB | F153M 0.01 GB 249 s
+HST|13049 | MW-NSC-V43-COPY | WFC3/IR | 1 filters | total 0.0 GB | F153M 0.01 GB 249 s
+HST|13049 | NAME-SGR-A | WFC3/IR | 1 filters | total 0.0 GB | F153M 0.01 GB 997 s
+HST|13049 | NAME-SGR-A-OFFSET | WFC3/IR | 1 filters | total 0.0 GB | F153M 0.01 GB 249 s
+HST|7225 | GALCENTER-1 | NICMOS/NIC1 | 1 filters | total 0.0 GB | F145M 0.00 GB 384 s
+HST|7225 | GALCENTER-2 | NICMOS/NIC1 | 1 filters | total 0.0 GB | F145M 0.00 GB 384 s
+HST|7225 | GALCENTER-3 | NICMOS/NIC1 | 1 filters | total 0.0 GB | F145M 0.00 GB 384 s
+HST|7225 | GALCENTER-4 | NICMOS/NIC1 | 1 filters | total 0.0 GB | F145M 0.00 GB 384 s
+HST|7225 | GALCENTER | NICMOS/NIC1 | 1 filters | total 0.0 GB | F145M 0.00 GB 384 s
+HST|7214 | GALACTIC-CENTER-2 | NICMOS/NIC1 | 1 filters | total 0.0 GB | F160W 0.00 GB 2496 s
+HST|7214 | GALACTIC-CENTER-IRS7-2 | NICMOS/NIC1 | 1 filters | total 0.0 GB | F160W 0.00 GB 24 s
+HST|7222 | GALCENTER-1 | NICMOS/NIC1 | 1 filters | total 0.0 GB | F110M 0.00 GB 896 s
+HST|7222 | GALCENTER-2 | NICMOS/NIC1 | 1 filters | total 0.0 GB | F110M 0.00 GB 896 s
+HST|7222 | GALCENTER-3 | NICMOS/NIC1 | 1 filters | total 0.0 GB | F110M 0.00 GB 896 s
+HST|7222 | GALCENTER-4 | NICMOS/NIC1 | 1 filters | total 0.0 GB | F110M 0.00 GB 896 s
+HST|9457 | GALCENTER-1 | NICMOS/NIC1 | 1 filters | total 0.0 GB | F145M 0.00 GB 384 s
+HST|9457 | GALCENTER-2 | NICMOS/NIC1 | 1 filters | total 0.0 GB | F145M 0.00 GB 384 s
+HST|9457 | GALCENTER-4 | NICMOS/NIC1 | 1 filters | total 0.0 GB | F145M 0.00 GB 384 s
+HST|9457 | GALCENTER | NICMOS/NIC1 | 1 filters | total 0.0 GB | F145M 0.00 GB 384 s
+HST|9457 | GALCENTER-3 | NICMOS/NIC1 | 1 filters | total 0.0 GB | F145M 0.00 GB 384 s
+HST|7250 | GC-C | NICMOS/NIC1 | 1 filters | total 0.0 GB | F160W 0.00 GB 148 s
+HST|7225 | GALCENTER-2 | NICMOS/NIC3 | 1 filters | total 0.0 GB | F160W 0.00 GB 367 s
+HST|7225 | GALCENTER-3 | NICMOS/NIC3 | 1 filters | total 0.0 GB | F160W 0.00 GB 368 s
+HST|7225 | GALCENTER-1 | NICMOS/NIC3 | 1 filters | total 0.0 GB | F160W 0.00 GB 367 s
+HST|7225 | GALCENTER-4 | NICMOS/NIC3 | 1 filters | total 0.0 GB | F160W 0.00 GB 367 s
+HST|7225 | GALCENTER-4 | NICMOS/NIC2 | 1 filters | total 0.0 GB | F160W 0.00 GB 368 s
+HST|7225 | GALCENTER-3 | NICMOS/NIC2 | 1 filters | total 0.0 GB | F160W 0.00 GB 367 s
+HST|7225 | GALCENTER-2 | NICMOS/NIC2 | 1 filters | total 0.0 GB | F160W 0.00 GB 367 s
+HST|7225 | GALCENTER-1 | NICMOS/NIC2 | 1 filters | total 0.0 GB | F160W 0.00 GB 367 s
+HST|7225 | GALCENTER | NICMOS/NIC3 | 1 filters | total 0.0 GB | F160W 0.00 GB 367 s
+HST|7225 | GALCENTER | NICMOS/NIC2 | 1 filters | total 0.0 GB | F160W 0.00 GB 368 s
+HST|7250 | GC-C | NICMOS/NIC2 | 1 filters | total 0.0 GB | F160W 0.00 GB 148 s
+HST|7250 | GC-B | NICMOS/NIC1 | 1 filters | total 0.0 GB | F160W 0.00 GB 148 s
+HST|12663 | MW-NSC-V43-COPY | WFC3/IR | 1 filters | total 0.0 GB | F153M 0.01 GB 249 s
+HST|12663 | MW-NSC-V35-COPY | WFC3/IR | 1 filters | total 0.0 GB | F153M 0.01 GB 249 s
+HST|12182 | MW-NSC-V41-COPY | WFC3/IR | 1 filters | total 0.0 GB | F153M 0.01 GB 249 s
+HST|13049 | MW-NSC-V42 | WFC3/IR | 1 filters | total 0.0 GB | F153M 0.01 GB 997 s
+HST|12663 | MW-NSC-V42 | WFC3/IR | 1 filters | total 0.0 GB | F153M 0.01 GB 997 s
+HST|12182 | MW-NSC-V43-COPY | WFC3/IR | 1 filters | total 0.0 GB | F153M 0.01 GB 249 s
+HST|13049 | MW-NSC-V36 | WFC3/IR | 1 filters | total 0.0 GB | F153M 0.01 GB 997 s
+HST|12182 | MW-NSC-V35-COPY | WFC3/IR | 1 filters | total 0.0 GB | F153M 0.01 GB 249 s
+HST|12663 | MW-NSC-V41-COPY | WFC3/IR | 1 filters | total 0.0 GB | F153M 0.01 GB 249 s
+HST|7250 | GC | NICMOS/NIC3 | 1 filters | total 0.0 GB | F160W 0.00 GB 1211 s
+HST|12663 | MW-NSC-V37-COPY | WFC3/IR | 1 filters | total 0.0 GB | F153M 0.01 GB 249 s
+HST|7250 | GC-D | NICMOS/NIC1 | 1 filters | total 0.0 GB | F160W 0.00 GB 148 s
+HST|12663 | MW-NSC-V40 | WFC3/IR | 1 filters | total 0.0 GB | F153M 0.01 GB 997 s
+HST|None | ANY | ACS/WFC | 1 filters | total 3.0 GB | F775W 2.96 GB 1734 s
+HST|7250 | GC-B | NICMOS/NIC2 | 1 filters | total 0.0 GB | F160W 0.00 GB 148 s
+HST|7250 | GC-A | NICMOS/NIC1 | 1 filters | total 0.0 GB | F160W 0.00 GB 148 s
+HST|12663 | MW-NSC-V35 | WFC3/IR | 1 filters | total 0.0 GB | F153M 0.01 GB 997 s
+HST|12663 | MW-NSC-V41 | WFC3/IR | 1 filters | total 0.0 GB | F153M 0.01 GB 997 s
+HST|13049 | MW-NSC-V37 | WFC3/IR | 1 filters | total 0.0 GB | F153M 0.01 GB 997 s
+HST|7250 | GC-D | NICMOS/NIC2 | 1 filters | total 0.0 GB | F160W 0.00 GB 148 s
+HST|7250 | GC-A | NICMOS/NIC2 | 1 filters | total 0.0 GB | F160W 0.00 GB 148 s
+HST|7222 | NEARCENTER-3 | NICMOS/NIC1 | 1 filters | total 0.0 GB | F110M 0.00 GB 896 s
+HST|7222 | NEARCENTER-2 | NICMOS/NIC1 | 1 filters | total 0.0 GB | F110M 0.00 GB 896 s
+HST|7222 | NEARCENTER-4 | NICMOS/NIC1 | 1 filters | total 0.0 GB | F110M 0.00 GB 896 s
+HST|7222 | NEARCENTER-1 | NICMOS/NIC1 | 1 filters | total 0.0 GB | F110M 0.00 GB 896 s
+HST|12663 | MW-NSC-V38-COPY | WFC3/IR | 1 filters | total 0.0 GB | F153M 0.01 GB 249 s
+HST|13049 | MW-NSC-V41-OFFSET | WFC3/IR | 1 filters | total 0.0 GB | F153M 0.01 GB 249 s
+HST|12663 | MW-NSC-V38-COPY-2 | WFC3/IR | 1 filters | total 0.0 GB | F153M 0.01 GB 997 s
+HST|12182 | MW-NSC-V38-COPY-2 | WFC3/IR | 1 filters | total 0.0 GB | F153M 0.01 GB 997 s
+HST|13049 | MW-NSC-V38-COPY-2 | WFC3/IR | 1 filters | total 0.0 GB | F153M 0.01 GB 997 s
+HST|None | GAL-CEN-FIELD3 | ACS/WFC | 1 filters | total 3.4 GB | F850LP 3.41 GB 2220 s
+HST|8062 | LOW-LATITUDE-FIELD | STIS/CCD | 1 filters | total 0.0 GB | MIRVIS 0.01 GB 303 s
+HST|7781 | UNKNOWN-TARGET-1 | STIS/CCD | 1 filters | total 0.0 GB | MIRVIS 0.00 GB 300 s
+HST|None | MW-NSC-V42 | WFC3/IR | 1 filters | total 3.4 GB | F127M 3.41 GB 3594 s
+HST|None | GAL-CEN-FIELD1 | WFC3/IR | 1 filters | total 2.4 GB | F139M 2.40 GB 34511 s
+HST|7910 | ANY | STIS/CCD | 1 filters | total 0.0 GB | MIRVIS 0.01 GB 655 s
+HST|None | GAL-CEN-FIELD3 | WFC3/IR | 1 filters | total 1.1 GB | F139M 1.13 GB 32114 s
+HST|None | GAL-CEN-FIELD4 | WFC3/IR | 1 filters | total 0.2 GB | F139M 0.20 GB 8080 s
+HST|None | GAL-CEN-FIELD1 | ACS/WFC | 1 filters | total 1.5 GB | F850LP 1.50 GB 1266 s
+HST|None | ARCHES | WFC3/IR | 1 filters | total 0.3 GB | F127M 0.27 GB 14382 s
+JWST|3571 | GAL-CENTER-Tile-2 | MIRI/IMAGE | 5 filters | total 0.2 GB | F560W 0.03 GB 888 s, F770W 0.03 GB 888 s, F1000W 0.03 GB 888 s, F1280W 0.04 GB 666 s, F1500W 0.04 GB 666 s
+JWST|3571 | GAL-CENTER-Tile-3 | MIRI/IMAGE | 5 filters | total 0.2 GB | F560W 0.03 GB 888 s, F770W 0.03 GB 888 s, F1000W 0.03 GB 888 s, F1280W 0.04 GB 666 s, F1500W 0.04 GB 666 s
+JWST|3571 | GAL-CENTER | MIRI/IMAGE | 5 filters | total 0.2 GB | F560W 0.03 GB 888 s, F770W 0.03 GB 888 s, F1000W 0.03 GB 888 s, F1280W 0.04 GB 666 s, F1500W 0.04 GB 666 s
+JWST|3571 | GAL-CENTER-Tile-6 | MIRI/IMAGE | 5 filters | total 0.2 GB | F560W 0.03 GB 888 s, F770W 0.03 GB 888 s, F1000W 0.03 GB 888 s, F1280W 0.04 GB 666 s, F1500W 0.04 GB 666 s
+JWST|3571 | GAL-CENTER-Tile-4 | MIRI/IMAGE | 5 filters | total 0.2 GB | F560W 0.03 GB 888 s, F770W 0.03 GB 888 s, F1000W 0.03 GB 888 s, F1280W 0.04 GB 666 s, F1500W 0.04 GB 666 s
+JWST|3958 | SICKLE-NIR-POS | NIRCAM/IMAGE | 5 filters | total 0.8 GB | F182M 0.24 GB 402 s, F187N 0.24 GB 402 s, F210M 0.24 GB 402 s, F335M 0.04 GB 402 s, F480M 0.04 GB 402 s
+JWST|2491 | GC-RC2-MIRI | MIRI/IMAGE | 3 filters | total 0.1 GB | F560W 0.03 GB 1576 s, F770W 0.03 GB 1576 s, F1130W 0.03 GB 3219 s
+JWST|1266 | GC-MIRI | MIRI/IMAGE | 3 filters | total 0.1 GB | F560W 0.03 GB 522 s, F770W 0.03 GB 522 s, F1130W 0.03 GB 522 s
+JWST|1266 | MIRI-GC-BCKGR-1 | MIRI/IMAGE | 3 filters | total 0.1 GB | F560W 0.03 GB 261 s, F770W 0.03 GB 261 s, F1130W 0.03 GB 261 s
+JWST|2491 | MIRI-GC-BCKGR-1 | MIRI/IMAGE | 3 filters | total 0.1 GB | F560W 0.03 GB 394 s, F770W 0.03 GB 394 s, F1130W 0.03 GB 805 s
+JWST|3958 | SICKLE-MIRI-POS1 | MIRI/IMAGE | 3 filters | total 0.0 GB | F770W 0.01 GB 108 s, F1130W 0.01 GB 108 s, F1500W 0.01 GB 108 s
+JWST|3958 | SICKLE-MIRI-POS2 | MIRI/IMAGE | 3 filters | total 0.0 GB | F770W 0.01 GB 108 s, F1130W 0.01 GB 108 s, F1500W 0.01 GB 108 s
+JWST|1306 | NAME-GAL-CENTER | NIRCAM/IMAGE | 2 filters | total 1.7 GB | F182M 1.39 GB 1278 s, F360M 0.29 GB 1278 s
+JWST|1939 | GALCEN | NIRCAM/IMAGE | 2 filters | total 3.3 GB | F115W 1.66 GB 2577 s, F212N 1.66 GB 1288 s
+JWST|2235 | SGRA | NIRCAM/IMAGE | 2 filters | total 0.1 GB | F210M 0.08 GB 19087 s, F480M 0.01 GB 19087 s
+JWST|2772 | NAME-GAL-CENTER | NIRCAM/IMAGE | 2 filters | total 1.7 GB | F140M 1.39 GB 1278 s, F250M 0.29 GB 1278 s
+JWST|4515 | NAME-GAL-CENTER | NIRCAM/IMAGE | 2 filters | total 1.7 GB | F182M 1.39 GB 1278 s, F360M 0.29 GB 913 s
+JWST|9257 | NSC_CENTRAL | NIRCAM/IMAGE | 2 filters | total 15.6 GB | F212N 14.01 GB 7730 s, F480M 1.55 GB 7730 s
+JWST|10678 | GC_63 | NIRCAM/IMAGE | 2 filters | total 2.1 GB | F212N 1.73 GB 1031 s, F480M 0.36 GB 1031 s
+JWST|5368 | NSC_CENTRAL | NIRCAM/IMAGE | 2 filters | total 3.0 GB | F212N 2.62 GB 2577 s, F480M 0.41 GB 2577 s
+JWST|10678 | GC_64 | NIRCAM/IMAGE | 2 filters | total 2.1 GB | F212N 1.73 GB 1031 s, F480M 0.36 GB 1031 s
+JWST|10678 | GC_65 | NIRCAM/IMAGE | 2 filters | total 2.1 GB | F212N 1.73 GB 1031 s, F480M 0.36 GB 1031 s
+JWST|10678 | GC_61 | NIRCAM/IMAGE | 2 filters | total 2.1 GB | F212N 1.73 GB 1031 s, F480M 0.36 GB 1031 s
+JWST|10678 | GC_46 | NIRCAM/IMAGE | 2 filters | total 2.1 GB | F212N 1.73 GB 1031 s, F480M 0.36 GB 1031 s
+JWST|10678 | GC_70 | NIRCAM/IMAGE | 2 filters | total 2.1 GB | F212N 1.73 GB 1031 s, F480M 0.36 GB 1031 s
+JWST|10678 | GC_69 | NIRCAM/IMAGE | 2 filters | total 2.1 GB | F212N 1.73 GB 1031 s, F480M 0.36 GB 1031 s
+JWST|10678 | GC_71 | NIRCAM/IMAGE | 2 filters | total 2.1 GB | F212N 1.73 GB 1031 s, F480M 0.36 GB 1031 s
+JWST|10678 | GC_41 | NIRCAM/IMAGE | 2 filters | total 2.1 GB | F212N 1.73 GB 1031 s, F480M 0.36 GB 1031 s
+JWST|10678 | GC_42 | NIRCAM/IMAGE | 2 filters | total 2.1 GB | F212N 1.73 GB 1031 s, F480M 0.36 GB 1031 s
+JWST|10678 | GC_66 | NIRCAM/IMAGE | 2 filters | total 2.1 GB | F212N 1.73 GB 1031 s, F480M 0.36 GB 1031 s
+JWST|10678 | GC_60 | NIRCAM/IMAGE | 2 filters | total 2.1 GB | F212N 1.73 GB 1031 s, F480M 0.36 GB 1031 s
+JWST|10678 | GC_68 | NIRCAM/IMAGE | 2 filters | total 2.1 GB | F212N 1.73 GB 1031 s, F480M 0.36 GB 1031 s
+JWST|10678 | GC_40 | NIRCAM/IMAGE | 2 filters | total 2.1 GB | F212N 1.73 GB 1031 s, F480M 0.36 GB 1031 s
+JWST|10678 | GC_72 | NIRCAM/IMAGE | 2 filters | total 2.1 GB | F212N 1.73 GB 1031 s, F480M 0.36 GB 1031 s
+JWST|10678 | GC_43 | NIRCAM/IMAGE | 2 filters | total 2.1 GB | F212N 1.73 GB 1031 s, F480M 0.36 GB 1031 s
+JWST|10678 | GC_67 | NIRCAM/IMAGE | 2 filters | total 2.1 GB | F212N 1.73 GB 1031 s, F480M 0.36 GB 1031 s
+JWST|10678 | GC_73 | NIRCAM/IMAGE | 2 filters | total 2.1 GB | F212N 1.73 GB 1031 s, F480M 0.36 GB 1031 s
+JWST|10678 | GC_44 | NIRCAM/IMAGE | 2 filters | total 2.1 GB | F212N 1.73 GB 1031 s, F480M 0.36 GB 1031 s
+JWST|10678 | GC_77 | NIRCAM/IMAGE | 2 filters | total 2.1 GB | F212N 1.73 GB 1031 s, F480M 0.36 GB 1031 s
+JWST|10678 | GC_76 | NIRCAM/IMAGE | 2 filters | total 2.1 GB | F212N 1.73 GB 859 s, F480M 0.36 GB 859 s
+JWST|10678 | GC_78 | NIRCAM/IMAGE | 2 filters | total 2.1 GB | F212N 1.73 GB 1031 s, F480M 0.36 GB 1031 s
+JWST|10678 | GC_75 | NIRCAM/IMAGE | 2 filters | total 2.1 GB | F212N 1.73 GB 1031 s, F480M 0.36 GB 1031 s
+JWST|10678 | GC_79 | NIRCAM/IMAGE | 2 filters | total 2.1 GB | F212N 1.73 GB 1031 s, F480M 0.36 GB 1031 s
+JWST|10678 | GC_45 | NIRCAM/IMAGE | 2 filters | total 2.1 GB | F212N 1.73 GB 1031 s, F480M 0.36 GB 1031 s
+JWST|10678 | GC_74 | NIRCAM/IMAGE | 2 filters | total 2.1 GB | F212N 1.73 GB 1031 s, F480M 0.36 GB 1031 s
+JWST|10678 | GC_80 | NIRCAM/IMAGE | 2 filters | total 2.1 GB | F212N 1.73 GB 1031 s, F480M 0.36 GB 1031 s
+JWST|10678 | GC_84 | NIRCAM/IMAGE | 2 filters | total 2.1 GB | F212N 1.73 GB 1031 s, F480M 0.36 GB 1031 s
+JWST|10678 | GC_83 | NIRCAM/IMAGE | 2 filters | total 2.1 GB | F212N 1.73 GB 1031 s, F480M 0.36 GB 1031 s
+JWST|10678 | GC_85 | NIRCAM/IMAGE | 2 filters | total 2.1 GB | F212N 1.73 GB 1031 s, F480M 0.36 GB 1031 s
+JWST|10678 | GC_82 | NIRCAM/IMAGE | 2 filters | total 2.1 GB | F212N 1.73 GB 1031 s, F480M 0.36 GB 1031 s
+JWST|10678 | GC_86 | NIRCAM/IMAGE | 2 filters | total 2.1 GB | F212N 1.73 GB 1031 s, F480M 0.36 GB 1031 s
+JWST|10678 | GC_81 | NIRCAM/IMAGE | 2 filters | total 2.1 GB | F212N 1.73 GB 1031 s, F480M 0.36 GB 1031 s
+JWST|10678 | GC_87 | NIRCAM/IMAGE | 2 filters | total 2.1 GB | F212N 1.73 GB 1031 s, F480M 0.36 GB 1031 s
+JWST|10678 | GC_40 | MIRI/IMAGE | 1 filters | total 0.0 GB | F770W 0.05 GB 100 s
+JWST|10678 | GC_41 | MIRI/IMAGE | 1 filters | total 0.0 GB | F770W 0.05 GB 100 s
+JWST|2075 | NAME-SGR-A-UV-CLOUD-POS-2 | MIRI/IMAGE | 1 filters | total 0.0 GB | F560W 0.03 GB 2031 s
+JWST|2075 | NAME-SGR-A-BCKG-POS-2 | MIRI/IMAGE | 1 filters | total 0.0 GB | F560W 0.03 GB 2031 s
+JWST|10678 | GC_42 | MIRI/IMAGE | 1 filters | total 0.0 GB | F770W 0.05 GB 100 s
+JWST|10678 | GC_46 | MIRI/IMAGE | 1 filters | total 0.0 GB | F770W 0.05 GB 100 s
+JWST|10678 | GC_43 | MIRI/IMAGE | 1 filters | total 0.0 GB | F770W 0.05 GB 100 s
+JWST|10678 | GC_44 | MIRI/IMAGE | 1 filters | total 0.0 GB | F770W 0.05 GB 100 s
+JWST|2045 | NAME-ARCHES-CLUSTER | NIRCAM/IMAGE | 1 filters | total 1.7 GB | F212N 1.66 GB 1933 s
+JWST|10678 | GC_45 | MIRI/IMAGE | 1 filters | total 0.0 GB | F770W 0.05 GB 100 s
+JWST|10678 | GC_61 | MIRI/IMAGE | 1 filters | total 0.0 GB | F770W 0.05 GB 100 s
+JWST|2045 | NAME-QUINTUPLET-CLUSTER | NIRCAM/IMAGE | 1 filters | total 1.7 GB | F212N 1.66 GB 902 s
+JWST|10678 | GC_60 | MIRI/IMAGE | 1 filters | total 0.0 GB | F770W 0.05 GB 100 s
+JWST|10678 | GC_63 | MIRI/IMAGE | 1 filters | total 0.0 GB | F770W 0.05 GB 100 s
+JWST|10678 | GC_64 | MIRI/IMAGE | 1 filters | total 0.0 GB | F770W 0.05 GB 100 s
+JWST|10678 | GC_65 | MIRI/IMAGE | 1 filters | total 0.0 GB | F770W 0.05 GB 100 s
+JWST|10678 | GC_66 | MIRI/IMAGE | 1 filters | total 0.0 GB | F770W 0.05 GB 100 s
+JWST|10678 | GC_68 | MIRI/IMAGE | 1 filters | total 0.0 GB | F770W 0.05 GB 100 s
+JWST|10678 | GC_69 | MIRI/IMAGE | 1 filters | total 0.0 GB | F770W 0.05 GB 100 s
+JWST|10678 | GC_67 | MIRI/IMAGE | 1 filters | total 0.0 GB | F770W 0.05 GB 100 s
+JWST|10678 | GC_70 | MIRI/IMAGE | 1 filters | total 0.0 GB | F770W 0.05 GB 100 s
+JWST|10678 | GC_71 | MIRI/IMAGE | 1 filters | total 0.0 GB | F770W 0.05 GB 100 s
+JWST|10678 | GC_72 | MIRI/IMAGE | 1 filters | total 0.0 GB | F770W 0.05 GB 100 s
