@@ -533,8 +533,8 @@ FINISH = {
     "casa-miri": {"box": (0.02, 0.955, 0.12, 0.985), "black": 35, "fill": (4.0, 3, 40)},   # crops away the ragged edges of the MIRI mosaic
     "orionbar-nircam": {"box": (0.055, 1.0, 0.52, 1.0), "black": 40, "fill": (6.0, 3, 90)},   # the pointing across the Bar; the other pointing is a separate patch of nebula
     "bullet-nircam": {"box": (0.025, 1.0, 0.0, 1.0), "nofill": True},   # trims the ragged top edge
-    "hourglass": {"sky": (204.8958, -67.3711, 11.0), "black": 40, "upscale": 4},   # a close-up of the nebula inside the small camera chip of the WFPC2 mosaic
-    "ic63": {"box": (0.04, 0.965, 0.0, 1.0), "black": 40, "fill": (4.0, 3, 40)},   # trims the ragged top and bottom edges and fills the thin gap between the camera chips
+    "hourglass": {"sky": (204.8946, -67.3808, 11.0), "black": 40, "upscale": 3},   # a close-up of the nebula inside the small camera chip of the WFPC2 mosaic
+    "ic63": {"box": (0.04, 0.965, 0.0, 1.0), "black": 40, "fill": (8.0, 4, 130)},   # trims the ragged top and bottom edges and fills the thin gap between the camera chips
     "cartwheel-nircam": {"black": 20},
     "m82-nircam": {"box": (0.0, 1.0, 0.27, 0.73), "black": 10, "stretch": 0.12, "fill": (4.0, 3, 40)},   # the galaxy is a narrow band in the middle of a wide frame
     "elgordo-nircam": {"box": (0.0, 1.0, 0.565, 1.0), "black": 55, "fill": (8.0, 4, 130)},   # the right pointing holds the cluster; the left one is a different field
