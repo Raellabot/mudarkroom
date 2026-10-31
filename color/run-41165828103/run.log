@@ -1,0 +1,9 @@
+[     2s] 2014-10-08T12:00:00Z AIA 131: L, 4096x4096, min 0, max 249
+[     4s] 2014-10-08T12:00:00Z AIA 171: L, 4096x4096, min 0, max 255
+[     6s] 2014-10-08T12:00:00Z AIA 193: L, 4096x4096, min 0, max 255
+[     7s] 2014-10-08T12:00:00Z AIA 211: L, 4096x4096, min 0, max 255
+[     8s] 2014-10-08T12:00:00Z AIA 304: L, 4096x4096, min 0, max 255
+[     9s] 2014-10-08T12:00:00Z AIA 335: L, 4096x4096, min 0, max 255
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/astropy/visualization/lupton_rgb.py:645: RuntimeWarning: invalid value encountered in divide
+  fInorm = np.where(Int <= 0, 0, np.true_divide(fI, Int))
+[    15s] sun-20141008-1200: 15 pictures
