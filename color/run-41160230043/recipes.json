@@ -1,0 +1,170 @@
+[
+ {
+  "picture": "ic63-ghost-n50-black1.jpg",
+  "palette": "ghost",
+  "collection": "HST",
+  "target": "IC-63",
+  "proposal_id": "14186",
+  "instrument": "WFC3/UVIS",
+  "title": "Mapping dust extinction properties across the IC 63 photodissociation region",
+  "grid": {
+   "width": 2065,
+   "height": 2224,
+   "reduction": 2,
+   "arcsec_per_pixel": 0.079240001738071,
+   "reference_filter": "F814W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F275W",
+    "center_nm": 274.5,
+    "color": "#591acc",
+    "obs_id": "icxc01010",
+    "exposure_s": 1200,
+    "product": "mast:HST/product/icxc01010_drz.fits"
+   },
+   {
+    "filter": "F336W",
+    "center_nm": 336.6,
+    "color": "#1ad9cc",
+    "obs_id": "icxc01020",
+    "exposure_s": 1300,
+    "product": "mast:HST/product/icxc01020_drz.fits"
+   },
+   {
+    "filter": "F475W",
+    "center_nm": 475.8,
+    "color": "#c7b2ff",
+    "obs_id": "icxc02030",
+    "exposure_s": 1800,
+    "product": "mast:HST/product/icxc02030_drz.fits"
+   },
+   {
+    "filter": "F625W",
+    "center_nm": 627.4,
+    "color": "#d90d26",
+    "obs_id": "icxc02010",
+    "exposure_s": 1680,
+    "product": "mast:HST/product/icxc02010_drz.fits"
+   },
+   {
+    "filter": "F814W",
+    "center_nm": 831.9,
+    "color": "#fa1991",
+    "obs_id": "icxc01030",
+    "exposure_s": 1796,
+    "product": "mast:HST/product/icxc01030_drz.fits"
+   }
+  ],
+  "black_percentile": 1.0,
+  "finishing": {
+   "box": [
+    0.04,
+    0.965,
+    0.0,
+    1.0
+   ],
+   "black": 40,
+   "fill": [
+    8.0,
+    4,
+    130
+   ]
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ },
+ {
+  "picture": "horsehead-ghost-n50-black1.jpg",
+  "palette": "ghost",
+  "collection": "JWST",
+  "target": "HORSEHEAD-FILAMENT-IMAGING",
+  "proposal_id": "1192",
+  "instrument": "NIRCAM/IMAGE",
+  "title": "Physics and Chemistry of PDR Fronts",
+  "grid": {
+   "width": 2189,
+   "height": 2166,
+   "reduction": 2,
+   "arcsec_per_pixel": 0.06148236085385206,
+   "reference_filter": "F070W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F070W",
+    "center_nm": 701.0,
+    "color": "#591acc",
+    "obs_id": "jw01192-o015_t015_nircam_clear-f070w",
+    "exposure_s": 1095.15,
+    "product": "mast:JWST/product/jw01192-o015_t015_nircam_clear-f070w_i2d.fits"
+   },
+   {
+    "filter": "F140M",
+    "center_nm": 1405.0,
+    "color": "#26b3cc",
+    "obs_id": "jw01192-o015_t015_nircam_clear-f140m",
+    "exposure_s": 1095.15,
+    "product": "mast:JWST/product/jw01192-o015_t015_nircam_clear-f140m_i2d.fits"
+   },
+   {
+    "filter": "F210M",
+    "center_nm": 2096.5,
+    "color": "#82c2eb",
+    "obs_id": "jw01192-o015_t015_nircam_clear-f210m",
+    "exposure_s": 1095.15,
+    "product": "mast:JWST/product/jw01192-o015_t015_nircam_clear-f210m_i2d.fits"
+   },
+   {
+    "filter": "F212N",
+    "center_nm": 2121.5,
+    "color": "#ce70a8",
+    "obs_id": "jw01192-o015_t015_nircam_clear-f212n",
+    "exposure_s": 1578.306,
+    "product": "mast:JWST/product/jw01192-o015_t015_nircam_clear-f212n_i2d.fits"
+   },
+   {
+    "filter": "F300M",
+    "center_nm": 2992.0,
+    "color": "#df0f3c",
+    "obs_id": "jw01192-o015_t015_nircam_clear-f300m",
+    "exposure_s": 1095.15,
+    "product": "mast:JWST/product/jw01192-o015_t015_nircam_clear-f300m_i2d.fits"
+   },
+   {
+    "filter": "F430M",
+    "center_nm": 4282.5,
+    "color": "#fa1991",
+    "obs_id": "jw01192-o015_t015_nircam_clear-f430m",
+    "exposure_s": 1095.15,
+    "product": "mast:JWST/product/jw01192-o015_t015_nircam_clear-f430m_i2d.fits"
+   }
+  ],
+  "black_percentile": 1.0,
+  "finishing": {
+   "box": [
+    0.5,
+    1.0,
+    0.0,
+    1.0
+   ],
+   "black": 45,
+   "fill": [
+    8.0,
+    4,
+    90
+   ]
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]
