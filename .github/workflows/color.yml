@@ -43,6 +43,12 @@ on:
       black_override:
         description: "Empty: use the black point of the finishing table; a number: use it instead (the file names get -black<number>)"
         default: ""
+      extra:
+        description: "Instead of MAST sets: 'sun DATE [DATE ...]' (AIA frames from Helioviewer, dates like 2026-10-30T12:00:00Z) or 'wise [RA DEC SIZE_DEG]' (the Witch Head from IRSA); find and specs are then ignored"
+        default: ""
+      blacks:
+        description: "Extra black points for the sun and wise pictures, comma-separated percentiles (the black-point strips)"
+        default: ""
       find:
         description: "Required: space-separated COLLECTION|proposal_id (|target) to look up in MAST; with specs empty it only lists the targets and filters (groups.txt)"
         default: ""
@@ -75,6 +81,8 @@ jobs:
       VARIANTS: ${{ inputs.variants }}
       SIZE_CAP_GB: ${{ inputs.size_cap_gb }}
       BLACK_OVERRIDE: ${{ inputs.black_override }}
+      EXTRA: ${{ inputs.extra }}
+      BLACKS: ${{ inputs.blacks }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -87,6 +95,7 @@ jobs:
           key: color-${{ inputs.max_side }}-${{ inputs.max_filters }}-${{ github.run_id }}
           restore-keys: color-${{ inputs.max_side }}-${{ inputs.max_filters }}-
       - name: Get the rows of the programs from MAST (one or several, space-separated COLLECTION|proposal)
+        if: inputs.extra == ''
         run: |
           [ -n "$FIND" ] || { echo "find is empty: give COLLECTION|proposal_id"; exit 1; }
           mkdir -p out/find
@@ -106,7 +115,7 @@ jobs:
           print("rows in the merged file:", len(rows))
           PY
       - name: Make the color pictures
-        if: inputs.specs != ''
+        if: inputs.specs != '' && inputs.extra == ''
         timeout-minutes: 50   # stops the picture step early enough that the saves below still run inside the 60-minute cap
         run: |
           set -o pipefail
@@ -114,6 +123,15 @@ jobs:
           df -h . | tail -1
           ROWS="out/find/rows.json.gz"
           python -u scripts/mast/color.py out "$ROWS" $SPECS 2>&1 | tee out/run.log
+      - name: Make the Sun or Witch Head pictures
+        if: inputs.extra != ''
+        timeout-minutes: 50
+        run: |
+          set -o pipefail
+          pip install reproject
+          mkdir -p out
+          read -r KIND ARGS <<< "$EXTRA"
+          python -u "scripts/sky/$KIND.py" out $ARGS 2>&1 | tee out/run.log
       - name: Drop half-downloaded files before saving the cache
         if: always()
         run: |
