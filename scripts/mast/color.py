@@ -535,6 +535,7 @@ FINISH = {
     "bullet-nircam": {"box": (0.025, 1.0, 0.0, 1.0), "nofill": True},   # trims the ragged top edge
     "hourglass": {"sky": (204.8946, -67.3808, 11.0), "black": 40, "stretch": 0.15, "upscale": 3},   # a close-up of the nebula inside the small camera chip of the WFPC2 mosaic
     "ic63": {"box": (0.04, 0.965, 0.0, 1.0), "black": 40, "fill": (8.0, 4, 130)},   # trims the ragged top and bottom edges and fills the thin gap between the camera chips
+    "horsehead": {"box": (0.5, 1.0, 0.0, 1.0), "black": 45, "fill": (8.0, 4, 90)},   # the glowing ridge only; the other half of the pointing is blank background field
     "cartwheel-nircam": {"black": 20},
     "m82-nircam": {"box": (0.0, 1.0, 0.27, 0.73), "black": 10, "stretch": 0.12, "fill": (4.0, 3, 40)},   # the galaxy is a narrow band in the middle of a wide frame
     "elgordo-nircam": {"box": (0.0, 1.0, 0.565, 1.0), "black": 55, "fill": (8.0, 4, 130)},   # the right pointing holds the cluster; the left one is a different field
