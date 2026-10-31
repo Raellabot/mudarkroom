@@ -20,7 +20,7 @@ on:
         description: "Lupton softening Q"
         default: "8"
       palettes:
-        description: "Comma-separated palettes: chromatic, creative, creative2, creative3, stsci, creativerank, creative5, ghoul"
+        description: "Comma-separated palettes: chromatic, creative, creative2, creative3, stsci, creativerank, creative5, ghoul, ghost, slime"
         default: "chromatic,creative"
       flatten:
         description: "1 removes the slowly changing sky background of each filter, 0 leaves it"

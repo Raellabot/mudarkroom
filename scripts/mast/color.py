@@ -132,9 +132,27 @@ def ghoul_colors(n):
     return out
 
 
-RANKED = {"stsci": stsci_colors, "creativerank": creativerank_colors, "creative5": creative5_colors, "ghoul": ghoul_colors}
-ALL_PALETTES = {"chromatic": chromatic, "creative": creative, "creative2": creative2, "creative3": creative3, "stsci": None, "creativerank": None, "creative5": None, "ghoul": None}
-PALETTE_NAMES = {"chromatic": "chromatic palette", "creative": "creative palette", "creative2": "creative palette 2", "creative3": "creative palette 3", "stsci": "NASA-style hues, by rank", "creativerank": "creative palette 4, by rank", "creative5": "creative palette 5, by rank", "ghoul": "ghoul palette, by rank"}
+# Ghost palette: violet, ghost teal, pale lilac, blood red and the pink #fa1991, so bright gas reads cold and pale instead of yellow.
+GHOST = [(0.00, (0.35, 0.10, 0.80)), (0.25, (0.10, 0.85, 0.80)), (0.50, (0.78, 0.70, 1.00)), (0.75, (0.85, 0.05, 0.15)), (1.00, (0.980, 0.098, 0.569))]
+# Slime palette: deep purple, sickly green, bone, blood red and the pink #fa1991.
+SLIME = [(0.00, (0.30, 0.05, 0.70)), (0.25, (0.20, 0.95, 0.35)), (0.50, (0.85, 0.95, 0.60)), (0.75, (0.75, 0.05, 0.20)), (1.00, (0.980, 0.098, 0.569))]
+
+
+def stops_colors(stops, n):
+    out = []
+    for i in range(n):
+        t = i / (n - 1) if n > 1 else 0.0
+        for (a, ca), (b, cb) in zip(stops, stops[1:]):
+            if t <= b:
+                k = (t - a) / (b - a)
+                out.append(np.array(ca) * (1 - k) + np.array(cb) * k)
+                break
+    return out
+
+
+RANKED = {"stsci": stsci_colors, "creativerank": creativerank_colors, "creative5": creative5_colors, "ghoul": ghoul_colors, "ghost": lambda n: stops_colors(GHOST, n), "slime": lambda n: stops_colors(SLIME, n)}
+ALL_PALETTES = {"chromatic": chromatic, "creative": creative, "creative2": creative2, "creative3": creative3, "stsci": None, "creativerank": None, "creative5": None, "ghoul": None, "ghost": None, "slime": None}
+PALETTE_NAMES = {"chromatic": "chromatic palette", "creative": "creative palette", "creative2": "creative palette 2", "creative3": "creative palette 3", "stsci": "NASA-style hues, by rank", "creativerank": "creative palette 4, by rank", "creative5": "creative palette 5, by rank", "ghoul": "ghoul palette, by rank", "ghost": "ghost palette, by rank", "slime": "slime palette, by rank"}
 PALETTES = {k: ALL_PALETTES[k] for k in os.environ.get("PALETTES", "chromatic,creative").split(",") if k in ALL_PALETTES}
 
 
@@ -515,6 +533,8 @@ FINISH = {
     "casa-miri": {"box": (0.02, 0.955, 0.12, 0.985), "black": 35, "fill": (4.0, 3, 40)},   # crops away the ragged edges of the MIRI mosaic
     "orionbar-nircam": {"box": (0.055, 1.0, 0.52, 1.0), "black": 40, "fill": (6.0, 3, 90)},   # the pointing across the Bar; the other pointing is a separate patch of nebula
     "bullet-nircam": {"box": (0.025, 1.0, 0.0, 1.0), "nofill": True},   # trims the ragged top edge
+    "hourglass": {"sky": (204.8958, -67.3711, 11.0), "black": 40, "upscale": 4},   # a close-up of the nebula inside the small camera chip of the WFPC2 mosaic
+    "ic63": {"box": (0.04, 0.965, 0.0, 1.0), "black": 40, "fill": (4.0, 3, 40)},   # trims the ragged top and bottom edges and fills the thin gap between the camera chips
     "cartwheel-nircam": {"black": 20},
     "m82-nircam": {"box": (0.0, 1.0, 0.27, 0.73), "black": 10, "stretch": 0.12, "fill": (4.0, 3, 40)},   # the galaxy is a narrow band in the middle of a wide frame
     "elgordo-nircam": {"box": (0.0, 1.0, 0.565, 1.0), "black": 55, "fill": (8.0, 4, 130)},   # the right pointing holds the cluster; the left one is a different field
