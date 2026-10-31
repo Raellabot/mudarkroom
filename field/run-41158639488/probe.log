@@ -1,0 +1,14 @@
+field ic63: ra 14.86 dec 60.9 radius 0.1 deg
+== Chandra (Chandra Data Archive)
+1 public observations within 0.1 deg
+obsid 8892 | [APD2013]IC63#5 | ACIS-I | grating NONE | TE | 19.8 ks | events 128628 | proposal 09200028 | released 2009-03-25 | 14.7917 60.8944 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao09/cat2/8892/primary/acisf08892N003_evt2.fits.gz
+    image acisf08892N003_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf08892N003_full_img2.fits | 0.2-20.0 keV | 0.4 MB
+imaging exposure without a grating: 19.8 ks in total
+== Hubble and Webb (MAST)
+450 rows from MAST, 51 public single-filter level-3 image mosaics
+HST|14186 | IC-63 | WFC3/UVIS | 6 filters | total 1.7 GB | detection 0.29 GB 4296 s, F275W 0.29 GB 1200 s, F336W 0.29 GB 1300 s, F475W 0.29 GB 1800 s, F625W 0.29 GB 1680 s, F814W 0.29 GB 1796 s
+HST|None | IC-63 | WFC3/UVIS | 5 filters | total 0.6 GB | F275W 0.11 GB 1898 s, F336W 0.11 GB 1300 s, F475W 0.11 GB 1805 s, F625W 0.11 GB 1680 s, F814W 0.11 GB 1801 s
+HST|7175 | IC63-PEAK | NICMOS/NIC2 | 4 filters | total 0.0 GB | F171M 0.00 GB 320 s, F180M 0.00 GB 320 s, F212N 0.00 GB 1728 s, F215N 0.00 GB 1728 s
+HST|14186 | IC-63 | WFC3/IR | 3 filters | total 0.0 GB | detection 0.02 GB 798 s, F110W 0.02 GB 698 s, F160W 0.02 GB 798 s
+HST|None | IC-63 | WFC3/IR | 2 filters | total 0.1 GB | F110W 0.01 GB 698 s, F160W 0.11 GB 798 s
