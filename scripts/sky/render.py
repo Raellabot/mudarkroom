@@ -12,10 +12,13 @@ STOPS = {
 }
 
 
+TWO = {"ghoul": (0.75, 1.0), "ghost": (0.25, 1.0), "slime": (0.5, 1.0)}   # where a two-filter picture samples each palette, so the three do not collapse to violet and pink
+
+
 def palette_colors(name, n):
     out = []
     for i in range(n):
-        t = i / (n - 1) if n > 1 else 0.0
+        t = TWO[name][i] if n == 2 and name in TWO else i / (n - 1) if n > 1 else 0.0
         for (a, ca), (b, cb) in zip(STOPS[name], STOPS[name][1:]):
             if t <= b:
                 k = (t - a) / (b - a)
