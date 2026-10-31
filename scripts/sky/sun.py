@@ -37,7 +37,11 @@ def reduce(a, side):
 
 
 T0 = time.time()
-outdir, dates = sys.argv[1], sys.argv[2:]
+outdir, args = sys.argv[1], sys.argv[2:]
+dates = [a for a in args if not a.startswith("ch=")]
+chans = [a[3:].split(",") for a in args if a.startswith("ch=")]   # ch=171,193 limits the channels, e.g. to NASA's pumpkin recipe
+if chans:
+    SOURCES = [(ang, sid) for ang, sid in SOURCES if ang in chans[0]]
 os.makedirs(outdir, exist_ok=True)
 for date in dates:
     arrays, names = [], []
@@ -50,6 +54,6 @@ for date in dates:
         log(f"{date} AIA {ang}: {im.mode}, {a.shape[1]}x{a.shape[0]}, min {a.min():.0f}, max {a.max():.0f}")
         arrays.append(reduce(a, SIDE))
         names.append(f"AIA {ang} Å")
-    label = "sun-" + date.replace(":", "").replace("-", "")[:13].replace("T", "-")
+    label = "sun-" + date.replace(":", "").replace("-", "")[:13].replace("T", "-") + ("-" + "-".join(a for a, _ in SOURCES) if chans else "")
     made = render.render(outdir, label, names, arrays, f"SDO AIA, {date} UTC, from Helioviewer JPEG 2000 frames", BLACK, BLACKS)
     log(f"{label}: {len(made)} pictures")
