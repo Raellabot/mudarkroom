@@ -1,0 +1,230 @@
+[
+ {
+  "picture": "hourglass-ghoul-n50.jpg",
+  "palette": "ghoul",
+  "collection": "HST",
+  "target": "MYCN18",
+  "proposal_id": "6221",
+  "instrument": "WFPC2/PC",
+  "title": null,
+  "grid": {
+   "width": 2201,
+   "height": 2196,
+   "reduction": 2,
+   "arcsec_per_pixel": 0.09107599999999824,
+   "reference_filter": "F631N"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F502N",
+    "center_nm": 501.2,
+    "color": "#611fb2",
+    "obs_id": "hst_6221_01_wfpc2_pc_f502n_u2rc01",
+    "exposure_s": 1400,
+    "product": "mast:HST/product/hst_6221_01_wfpc2_pc_f502n_u2rc01_drz.fits"
+   },
+   {
+    "filter": "F547M",
+    "center_nm": 546.8,
+    "color": "#4cf2d9",
+    "obs_id": "u2rc0106t",
+    "exposure_s": 200,
+    "product": "mast:HST/product/u2rc0106t_drw.fits"
+   },
+   {
+    "filter": "F631N",
+    "center_nm": 630.6,
+    "color": "#8cff1f",
+    "obs_id": "hst_6221_01_wfpc2_pc_f631n_u2rc01",
+    "exposure_s": 700,
+    "product": "mast:HST/product/hst_6221_01_wfpc2_pc_f631n_u2rc01_drz.fits"
+   },
+   {
+    "filter": "F656N",
+    "center_nm": 656.4,
+    "color": "#ff660a",
+    "obs_id": "u2rc0101t",
+    "exposure_s": 600,
+    "product": "mast:HST/product/u2rc0101t_drw.fits"
+   },
+   {
+    "filter": "F658N",
+    "center_nm": 659.1,
+    "color": "#fa1991",
+    "obs_id": "u2rc0107t",
+    "exposure_s": 700,
+    "product": "mast:HST/product/u2rc0107t_drw.fits"
+   }
+  ],
+  "black_percentile": 40,
+  "finishing": {
+   "sky": [
+    204.8946,
+    -67.3808,
+    11.0
+   ],
+   "black": 40,
+   "stretch": 0.15,
+   "upscale": 3
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ },
+ {
+  "picture": "hourglass-ghost-n50.jpg",
+  "palette": "ghost",
+  "collection": "HST",
+  "target": "MYCN18",
+  "proposal_id": "6221",
+  "instrument": "WFPC2/PC",
+  "title": null,
+  "grid": {
+   "width": 2201,
+   "height": 2196,
+   "reduction": 2,
+   "arcsec_per_pixel": 0.09107599999999824,
+   "reference_filter": "F631N"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F502N",
+    "center_nm": 501.2,
+    "color": "#591acc",
+    "obs_id": "hst_6221_01_wfpc2_pc_f502n_u2rc01",
+    "exposure_s": 1400,
+    "product": "mast:HST/product/hst_6221_01_wfpc2_pc_f502n_u2rc01_drz.fits"
+   },
+   {
+    "filter": "F547M",
+    "center_nm": 546.8,
+    "color": "#1ad9cc",
+    "obs_id": "u2rc0106t",
+    "exposure_s": 200,
+    "product": "mast:HST/product/u2rc0106t_drw.fits"
+   },
+   {
+    "filter": "F631N",
+    "center_nm": 630.6,
+    "color": "#c7b2ff",
+    "obs_id": "hst_6221_01_wfpc2_pc_f631n_u2rc01",
+    "exposure_s": 700,
+    "product": "mast:HST/product/hst_6221_01_wfpc2_pc_f631n_u2rc01_drz.fits"
+   },
+   {
+    "filter": "F656N",
+    "center_nm": 656.4,
+    "color": "#d90d26",
+    "obs_id": "u2rc0101t",
+    "exposure_s": 600,
+    "product": "mast:HST/product/u2rc0101t_drw.fits"
+   },
+   {
+    "filter": "F658N",
+    "center_nm": 659.1,
+    "color": "#fa1991",
+    "obs_id": "u2rc0107t",
+    "exposure_s": 700,
+    "product": "mast:HST/product/u2rc0107t_drw.fits"
+   }
+  ],
+  "black_percentile": 40,
+  "finishing": {
+   "sky": [
+    204.8946,
+    -67.3808,
+    11.0
+   ],
+   "black": 40,
+   "stretch": 0.15,
+   "upscale": 3
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ },
+ {
+  "picture": "hourglass-slime-n50.jpg",
+  "palette": "slime",
+  "collection": "HST",
+  "target": "MYCN18",
+  "proposal_id": "6221",
+  "instrument": "WFPC2/PC",
+  "title": null,
+  "grid": {
+   "width": 2201,
+   "height": 2196,
+   "reduction": 2,
+   "arcsec_per_pixel": 0.09107599999999824,
+   "reference_filter": "F631N"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F502N",
+    "center_nm": 501.2,
+    "color": "#4c0db2",
+    "obs_id": "hst_6221_01_wfpc2_pc_f502n_u2rc01",
+    "exposure_s": 1400,
+    "product": "mast:HST/product/hst_6221_01_wfpc2_pc_f502n_u2rc01_drz.fits"
+   },
+   {
+    "filter": "F547M",
+    "center_nm": 546.8,
+    "color": "#33f259",
+    "obs_id": "u2rc0106t",
+    "exposure_s": 200,
+    "product": "mast:HST/product/u2rc0106t_drw.fits"
+   },
+   {
+    "filter": "F631N",
+    "center_nm": 630.6,
+    "color": "#d9f299",
+    "obs_id": "hst_6221_01_wfpc2_pc_f631n_u2rc01",
+    "exposure_s": 700,
+    "product": "mast:HST/product/hst_6221_01_wfpc2_pc_f631n_u2rc01_drz.fits"
+   },
+   {
+    "filter": "F656N",
+    "center_nm": 656.4,
+    "color": "#bf0d33",
+    "obs_id": "u2rc0101t",
+    "exposure_s": 600,
+    "product": "mast:HST/product/u2rc0101t_drw.fits"
+   },
+   {
+    "filter": "F658N",
+    "center_nm": 659.1,
+    "color": "#fa1991",
+    "obs_id": "u2rc0107t",
+    "exposure_s": 700,
+    "product": "mast:HST/product/u2rc0107t_drw.fits"
+   }
+  ],
+  "black_percentile": 40,
+  "finishing": {
+   "sky": [
+    204.8946,
+    -67.3808,
+    11.0
+   ],
+   "black": 40,
+   "stretch": 0.15,
+   "upscale": 3
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

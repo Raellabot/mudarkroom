@@ -1,0 +1,8 @@
+[     0s] == hourglass: 5 filters: ['F502N', 'F547M', 'F631N', 'F656N', 'F658N']
+[     0s] aligned arrays found in the cache; no download
+[     0s] hourglass: cropped to 242x242 px around RA 204.8946 Dec -67.3808
+[     0s] hourglass: finishing steps applied: ['black', 'sky', 'stretch', 'upscale']
+[     0s] cropped to 242x242 px where 5 of 5 filters have data
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/astropy/visualization/lupton_rgb.py:645: RuntimeWarning: invalid value encountered in divide
+  fInorm = np.where(Int <= 0, 0, np.true_divide(fI, Int))
+[     0s] done: 3 pictures
