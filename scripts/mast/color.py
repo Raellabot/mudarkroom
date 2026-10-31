@@ -482,12 +482,12 @@ def phase_shift(a, ref):
 
 
 # Per-subject finishing in order: crop to a box, crop to dense data, fill holes, crop and align on a planet, remove row stripes.
-# Replaces the rows that are far noisier than the rest (the thin line where two camera chips meet) by a straight line between the good rows above and below.
+# Replaces the rows that are far noisier than the rest (the thin line where two camera chips meet, even when it spans only part of the width) by a straight line between the good rows above and below.
 def heal_rows(a, k=3.0, grow=2):
     d = np.abs(np.diff(a, axis=0))
     with warnings.catch_warnings():
         warnings.simplefilter("ignore")
-        r = np.nanmedian(d, axis=1)
+        r = np.nanpercentile(d, 60, axis=1)
     base = np.nanmedian(r)
     bad = np.zeros(a.shape[0], dtype=bool)
     bad[1:] = np.nan_to_num(r, nan=0.0) > k * base
@@ -563,8 +563,8 @@ FINISH = {
     "casa-miri": {"box": (0.02, 0.955, 0.12, 0.985), "black": 35, "fill": (4.0, 3, 40)},   # crops away the ragged edges of the MIRI mosaic
     "orionbar-nircam": {"box": (0.055, 1.0, 0.52, 1.0), "black": 40, "fill": (6.0, 3, 90)},   # the pointing across the Bar; the other pointing is a separate patch of nebula
     "bullet-nircam": {"box": (0.025, 1.0, 0.0, 1.0), "nofill": True},   # trims the ragged top edge
-    "hourglass": {"sky": (204.8946, -67.3808, 11.0), "black": 40, "stretch": 0.15, "upscale": 3},   # a close-up of the nebula inside the small camera chip of the WFPC2 mosaic
-    "ic63": {"box": (0.04, 0.965, 0.0, 1.0), "black": 40, "fill": (8.0, 4, 130), "heal": (3.0, 2), "rot180": True},   # trims the ragged top and bottom edges and fills the thin gap between the camera chips
+    "hourglass": {"sky": (204.8946, -67.3808, 9.0), "black": 40, "stretch": 0.15, "upscale": 3},   # a close-up of the nebula inside the small camera chip of the WFPC2 mosaic
+    "ic63": {"box": (0.04, 0.965, 0.0, 1.0), "black": 40, "fill": (8.0, 4, 130), "heal": (2.0, 2), "rot180": True},   # trims the ragged top and bottom edges and fills the thin gap between the camera chips
     "horsehead": {"box": (0.5, 1.0, 0.52, 1.0), "black": 70},   # the right detector only, where the glowing ridge sits on an even background; the left one sits at another level and the other half of the pointing is blank field
     "cartwheel-nircam": {"black": 20},
     "m82-nircam": {"box": (0.0, 1.0, 0.27, 0.73), "black": 10, "stretch": 0.12, "fill": (4.0, 3, 40)},   # the galaxy is a narrow band in the middle of a wide frame
