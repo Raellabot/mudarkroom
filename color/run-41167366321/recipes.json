@@ -1,0 +1,230 @@
+[
+ {
+  "picture": "catshead-ghoul-n50-black45.jpg",
+  "palette": "ghoul",
+  "collection": "JWST",
+  "target": "Star-Forming-Pillar",
+  "proposal_id": "12591",
+  "instrument": "NIRCAM/IMAGE",
+  "title": "MIRI and NIRCam imaging of star forming pillar",
+  "grid": {
+   "width": 2287,
+   "height": 946,
+   "reduction": 5,
+   "arcsec_per_pixel": 0.15612485091850062,
+   "reference_filter": "F212N"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F090W",
+    "center_nm": 900.0,
+    "color": "#611fb2",
+    "obs_id": "jw12591-o003_t001_nircam_clear-f090w",
+    "exposure_s": 1181.045,
+    "product": "mast:JWST/product/jw12591-o003_t001_nircam_clear-f090w_i2d.fits"
+   },
+   {
+    "filter": "F187N",
+    "center_nm": 1873.5,
+    "color": "#4cf2d9",
+    "obs_id": "jw12591-o003_t001_nircam_clear-f187n",
+    "exposure_s": 1825.25,
+    "product": "mast:JWST/product/jw12591-o003_t001_nircam_clear-f187n_i2d.fits"
+   },
+   {
+    "filter": "F212N",
+    "center_nm": 2121.5,
+    "color": "#8cff1f",
+    "obs_id": "jw12591-o003_t001_nircam_clear-f212n",
+    "exposure_s": 1825.25,
+    "product": "mast:JWST/product/jw12591-o003_t001_nircam_clear-f212n_i2d.fits"
+   },
+   {
+    "filter": "F277W",
+    "center_nm": 2771.5,
+    "color": "#ff660a",
+    "obs_id": "jw12591-o003_t001_nircam_clear-f277w",
+    "exposure_s": 1181.045,
+    "product": "mast:JWST/product/jw12591-o003_t001_nircam_clear-f277w_i2d.fits"
+   },
+   {
+    "filter": "F335M",
+    "center_nm": 3357.5,
+    "color": "#fa1991",
+    "obs_id": "jw12591-o003_t001_nircam_clear-f335m",
+    "exposure_s": 1825.25,
+    "product": "mast:JWST/product/jw12591-o003_t001_nircam_clear-f335m_i2d.fits"
+   }
+  ],
+  "black_percentile": 45.0,
+  "finishing": {
+   "box": [
+    0.0,
+    1.0,
+    0.15,
+    0.85
+   ],
+   "black": 55,
+   "rot90": 1
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ },
+ {
+  "picture": "catshead-ghost-n50-black45.jpg",
+  "palette": "ghost",
+  "collection": "JWST",
+  "target": "Star-Forming-Pillar",
+  "proposal_id": "12591",
+  "instrument": "NIRCAM/IMAGE",
+  "title": "MIRI and NIRCam imaging of star forming pillar",
+  "grid": {
+   "width": 2287,
+   "height": 946,
+   "reduction": 5,
+   "arcsec_per_pixel": 0.15612485091850062,
+   "reference_filter": "F212N"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F090W",
+    "center_nm": 900.0,
+    "color": "#591acc",
+    "obs_id": "jw12591-o003_t001_nircam_clear-f090w",
+    "exposure_s": 1181.045,
+    "product": "mast:JWST/product/jw12591-o003_t001_nircam_clear-f090w_i2d.fits"
+   },
+   {
+    "filter": "F187N",
+    "center_nm": 1873.5,
+    "color": "#1ad9cc",
+    "obs_id": "jw12591-o003_t001_nircam_clear-f187n",
+    "exposure_s": 1825.25,
+    "product": "mast:JWST/product/jw12591-o003_t001_nircam_clear-f187n_i2d.fits"
+   },
+   {
+    "filter": "F212N",
+    "center_nm": 2121.5,
+    "color": "#c7b2ff",
+    "obs_id": "jw12591-o003_t001_nircam_clear-f212n",
+    "exposure_s": 1825.25,
+    "product": "mast:JWST/product/jw12591-o003_t001_nircam_clear-f212n_i2d.fits"
+   },
+   {
+    "filter": "F277W",
+    "center_nm": 2771.5,
+    "color": "#d90d26",
+    "obs_id": "jw12591-o003_t001_nircam_clear-f277w",
+    "exposure_s": 1181.045,
+    "product": "mast:JWST/product/jw12591-o003_t001_nircam_clear-f277w_i2d.fits"
+   },
+   {
+    "filter": "F335M",
+    "center_nm": 3357.5,
+    "color": "#fa1991",
+    "obs_id": "jw12591-o003_t001_nircam_clear-f335m",
+    "exposure_s": 1825.25,
+    "product": "mast:JWST/product/jw12591-o003_t001_nircam_clear-f335m_i2d.fits"
+   }
+  ],
+  "black_percentile": 45.0,
+  "finishing": {
+   "box": [
+    0.0,
+    1.0,
+    0.15,
+    0.85
+   ],
+   "black": 55,
+   "rot90": 1
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ },
+ {
+  "picture": "catshead-slime-n50-black45.jpg",
+  "palette": "slime",
+  "collection": "JWST",
+  "target": "Star-Forming-Pillar",
+  "proposal_id": "12591",
+  "instrument": "NIRCAM/IMAGE",
+  "title": "MIRI and NIRCam imaging of star forming pillar",
+  "grid": {
+   "width": 2287,
+   "height": 946,
+   "reduction": 5,
+   "arcsec_per_pixel": 0.15612485091850062,
+   "reference_filter": "F212N"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F090W",
+    "center_nm": 900.0,
+    "color": "#4c0db2",
+    "obs_id": "jw12591-o003_t001_nircam_clear-f090w",
+    "exposure_s": 1181.045,
+    "product": "mast:JWST/product/jw12591-o003_t001_nircam_clear-f090w_i2d.fits"
+   },
+   {
+    "filter": "F187N",
+    "center_nm": 1873.5,
+    "color": "#33f259",
+    "obs_id": "jw12591-o003_t001_nircam_clear-f187n",
+    "exposure_s": 1825.25,
+    "product": "mast:JWST/product/jw12591-o003_t001_nircam_clear-f187n_i2d.fits"
+   },
+   {
+    "filter": "F212N",
+    "center_nm": 2121.5,
+    "color": "#d9f299",
+    "obs_id": "jw12591-o003_t001_nircam_clear-f212n",
+    "exposure_s": 1825.25,
+    "product": "mast:JWST/product/jw12591-o003_t001_nircam_clear-f212n_i2d.fits"
+   },
+   {
+    "filter": "F277W",
+    "center_nm": 2771.5,
+    "color": "#bf0d33",
+    "obs_id": "jw12591-o003_t001_nircam_clear-f277w",
+    "exposure_s": 1181.045,
+    "product": "mast:JWST/product/jw12591-o003_t001_nircam_clear-f277w_i2d.fits"
+   },
+   {
+    "filter": "F335M",
+    "center_nm": 3357.5,
+    "color": "#fa1991",
+    "obs_id": "jw12591-o003_t001_nircam_clear-f335m",
+    "exposure_s": 1825.25,
+    "product": "mast:JWST/product/jw12591-o003_t001_nircam_clear-f335m_i2d.fits"
+   }
+  ],
+  "black_percentile": 45.0,
+  "finishing": {
+   "box": [
+    0.0,
+    1.0,
+    0.15,
+    0.85
+   ],
+   "black": 55,
+   "rot90": 1
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]
