@@ -110,5 +110,5 @@ else:
 arrays = [np.where(np.isfinite(a), a, np.nanmedian(a)) for a in arrays]
 y0, y1, x0, x1 = (float(v) for v in os.environ.get("WISE_BOX", "0.06,0.80,0.285,0.82").split(","))   # rows run south to north, columns east to west
 arrays = [a[int(y0 * n):int(y1 * n), int(x0 * n):int(x1 * n)] for a in arrays]
-made = render.render(outdir, "witchhead", names, arrays, f"WISE AllWISE atlas, Witch Head Nebula (IC 2118), {size:g}° field", BLACK, BLACKS, flip=True, rot180=True)
+made = render.render(outdir, "witchhead", names, arrays, f"WISE AllWISE atlas, Witch Head Nebula (IC 2118), {size:g}° field", BLACK, BLACKS, flip=False, rot180=True)
 log(f"{len(made)} pictures")
