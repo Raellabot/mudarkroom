@@ -1,0 +1,22 @@
+field horsehead: ra 85.246 dec -2.458 radius 0.1 deg
+== Chandra (Chandra Data Archive)
+0 public observations within 0.1 deg
+imaging exposure without a grating: 0.0 ks in total
+== Hubble and Webb (MAST)
+1018 rows from MAST, 181 public single-filter level-3 image mosaics
+HST|8874 | B33-POS6 | WFPC2/PC | 5 filters | total 1.3 GB | detection 0.33 GB 2640 s, F439W 0.24 GB 840 s, F555W 0.24 GB 208 s, F656N 0.24 GB 1300 s, F814W 0.24 GB 292 s
+HST|8874 | B33-POS3 | WFPC2/PC | 5 filters | total 1.3 GB | detection 0.33 GB 3940 s, F439W 0.25 GB 840 s, F555W 0.25 GB 208 s, F656N 0.25 GB 2600 s, F814W 0.25 GB 292 s
+HST|8874 | B33-POS5 | WFPC2/PC | 5 filters | total 1.3 GB | detection 0.33 GB 3940 s, F439W 0.24 GB 840 s, F555W 0.24 GB 208 s, F656N 0.24 GB 2600 s, F814W 0.24 GB 292 s
+HST|8874 | B33-POS4 | WFPC2/PC | 5 filters | total 1.3 GB | detection 0.33 GB 3940 s, F439W 0.25 GB 840 s, F555W 0.25 GB 208 s, F656N 0.25 GB 2600 s, F814W 0.25 GB 292 s
+HST|12812 | HORSEHEAD-COPY | WFC3/IR | 3 filters | total 0.0 GB | detection 0.02 GB 2512 s, F110W 0.01 GB 1106 s, F160W 0.01 GB 1406 s
+HST|11548 | HOPS-294 | WFC3/IR | 2 filters | total 0.0 GB | detection 0.02 GB 2496 s, F160W 0.02 GB 2496 s
+HST|12812 | ANY | ACS/WFC | 2 filters | total 0.7 GB | detection 0.43 GB 2200 s, F658N 0.22 GB 2200 s
+HST|None | HORSEHEAD-COPY | WFC3/IR | 1 filters | total 1.6 GB | F110W 1.64 GB 8294 s
+HST|None | HOPS-294 | WFC3/IR | 1 filters | total 1.6 GB | F160W 1.64 GB 14446 s
+HST|None | ANY | ACS/WFC | 1 filters | total 1.6 GB | F658N 1.64 GB 19800 s
+HST|None | HOPS-295 | WFC3/IR | 1 filters | total 1.8 GB | F160W 1.84 GB 5308 s
+HST|8562 | ANY | STIS/CCD | 1 filters | total 0.0 GB | MIRVIS 0.01 GB 400 s
+JWST|1192 | HORSEHEAD-FILAMENT-IMAGING | NIRCAM/IMAGE | 10 filters | total 3.7 GB | F070W 0.53 GB 1095 s, F090W 0.53 GB 1095 s, F140M 0.53 GB 1095 s, F187N 0.53 GB 1578 s, F210M 0.53 GB 1095 s, F212N 0.53 GB 1578 s, F250M 0.12 GB 1095 s, F300M 0.12 GB 1095 s, F335M 0.12 GB 1095 s, F430M 0.12 GB 1095 s
+JWST|1192 | HORSEHEAD-FILAMENT-IMAGING | MIRI/IMAGE | 9 filters | total 0.3 GB | F560W 0.03 GB 100 s, F770W 0.03 GB 100 s, F1000W 0.03 GB 1041 s, F1130W 0.03 GB 1041 s, F1280W 0.03 GB 1041 s, F1500W 0.03 GB 1041 s, F1800W 0.03 GB 1249 s, F2100W 0.03 GB 1249 s, F2550W 0.03 GB 1249 s
+JWST|1192 | HORSEHEAD-FILAMENT | MIRI/IMAGE | 3 filters | total 0.1 GB | F560W 0.03 GB 866 s, F770W 0.03 GB 866 s, F1000W 0.03 GB 866 s
+JWST|1192 | HORSEHEAD-BACKGROUND | MIRI/IMAGE | 3 filters | total 0.1 GB | F560W 0.03 GB 144 s, F770W 0.03 GB 144 s, F1000W 0.03 GB 144 s
