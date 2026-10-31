@@ -8,7 +8,7 @@ import render
 
 UA = os.environ.get("CONTACT_INFO") or "CONTACT-INFO"
 BLACKS = [float(v) for v in os.environ.get("BLACKS", "").split(",") if v.strip()]
-BLACK = float(os.environ.get("SUN_BLACK", "30"))
+BLACK = float(os.environ.get("SUN_BLACK", "65"))
 SIDE = int(os.environ.get("SUN_SIDE", "2048"))
 # Helioviewer source ids of the AIA channels, in wavelength order (angstroms).
 SOURCES = [("131", 9), ("171", 10), ("193", 11), ("211", 12), ("304", 13), ("335", 14)]
