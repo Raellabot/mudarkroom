@@ -1,0 +1,32 @@
+field catshead: ra 161.499 dec -60.1066 radius 0.08 deg
+== Chandra (Chandra Data Archive)
+0 public observations within 0.08 deg
+imaging exposure without a grating: 0.0 ks in total
+== Hubble and Webb (MAST)
+3522 rows from MAST, 189 public single-filter level-3 image mosaics
+HST|18206 | NGC-3372 | WFC3/UVIS | 6 filters | total 1.6 GB | detection 0.26 GB 1950 s, F475W 0.26 GB 90 s, F502N 0.26 GB 600 s, F657N 0.26 GB 300 s, F673N 0.26 GB 900 s, F814W 0.26 GB 60 s
+HST|13391 | HH903 | WFC3/IR | 5 filters | total 0.1 GB | detection 0.02 GB 9588 s, F126N 0.02 GB 2397 s, F130N 0.01 GB 2995 s, F164N 0.02 GB 2397 s, F167N 0.02 GB 2397 s
+HST|13391 | HH1006 | WFC3/IR | 5 filters | total 0.1 GB | detection 0.02 GB 9588 s, F126N 0.01 GB 2400 s, F130N 0.01 GB 2400 s, F164N 0.01 GB 2400 s, F167N 0.01 GB 2400 s
+HST|None | HH1004-1005 | WFC3/IR | 4 filters | total 15.4 GB | F126N 3.86 GB 9588 s, F130N 3.86 GB 9588 s, F164N 3.86 GB 9588 s, F167N 3.86 GB 9588 s
+HST|None | HH903 | WFC3/IR | 4 filters | total 12.2 GB | F126N 3.05 GB 4794 s, F130N 3.05 GB 4794 s, F164N 3.05 GB 4794 s, F167N 3.05 GB 4794 s
+HST|8083 | ANY | NICMOS/NIC3 | 3 filters | total 0.0 GB | F110W 0.00 GB 12 s, F160W 0.00 GB 24 s, F222M 0.00 GB 42 s
+HST|10241 | NGC3372-POS23 | ACS/WFC | 2 filters | total 1.0 GB | detection 0.49 GB 2000 s, F658N 0.49 GB 2000 s
+HST|13390 | NGC3372-POS23 | ACS/WFC | 2 filters | total 0.9 GB | detection 0.45 GB 2240 s, F658N 0.45 GB 2240 s
+HST|13791 | N3372-POS22 | ACS/WFC | 2 filters | total 0.8 GB | detection 0.42 GB 2240 s, F658N 0.42 GB 2240 s
+HST|10475 | N3372-POS22 | ACS/WFC | 2 filters | total 0.8 GB | detection 0.41 GB 2000 s, F658N 0.41 GB 2000 s
+HST|8083 | ANY | NICMOS/NIC2 | 2 filters | total 0.0 GB | F110W 0.00 GB 24 s, F160W 0.00 GB 72 s
+HST|10241 | NGC3372-POS23 | WFPC2/PC | 2 filters | total 1.0 GB | detection 0.52 GB 1400 s, F673N 0.52 GB 1400 s
+HST|18206 | ANY | ACS/WFC | 2 filters | total 0.8 GB | detection 0.42 GB 2000 s, F658N 0.42 GB 2000 s
+HST|8083 | ANY | NICMOS/NIC1 | 2 filters | total 0.0 GB | F110W 0.00 GB 96 s, F160W 0.00 GB 192 s
+HST|13791 | N3372-POS24 | ACS/WFC | 2 filters | total 0.8 GB | detection 0.42 GB 2240 s, F658N 0.42 GB 2240 s
+HST|10475 | N3372-POS24 | ACS/WFC | 2 filters | total 0.8 GB | detection 0.41 GB 2000 s, F658N 0.41 GB 2000 s
+HST|13391 | HH903 | ACS/WFC | 2 filters | total 0.9 GB | detection 0.44 GB 7200 s, F658N 0.44 GB 7200 s
+HST|10475 | N3372-POS21 | ACS/WFC | 2 filters | total 0.5 GB | detection 0.27 GB 1000 s, F658N 0.27 GB 1000 s
+HST|13791 | N3372-POS21 | ACS/WFC | 2 filters | total 0.6 GB | detection 0.28 GB 890 s, F658N 0.28 GB 890 s
+HST|None | N3372-POS21 | ACS/WFC | 1 filters | total 3.9 GB | F658N 3.86 GB 58082 s
+HST|None | N3372-POS29 | ACS/WFC | 1 filters | total 3.0 GB | F658N 3.05 GB 44506 s
+JWST|12591 | Star-Forming-Pillar | NIRCAM/IMAGE | 5 filters | total 5.9 GB | F090W 1.73 GB 1181 s, F187N 1.73 GB 1825 s, F212N 1.73 GB 1825 s, F277W 0.36 GB 1181 s, F335M 0.36 GB 1825 s
+JWST|12591 | Star-Forming-Pillar | MIRI/IMAGE | 3 filters | total 0.7 GB | F770W 0.23 GB 2997 s, F1130W 0.23 GB 2997 s, F1500W 0.23 GB 2997 s
+JWST|5408 | HH-903 | NIRCAM/IMAGE | 1 filters | total 0.4 GB | F444W 0.36 GB 773 s
+JWST|5408 | HH1006 | NIRCAM/IMAGE | 1 filters | total 0.4 GB | F444W 0.36 GB 773 s
+JWST|5408 | HH1159-HH1164 | NIRCAM/IMAGE | 1 filters | total 0.4 GB | F444W 0.36 GB 773 s
