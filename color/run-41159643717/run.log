@@ -1,0 +1,23 @@
+[     0s] == hourglass: 5 filters: ['F502N', 'F547M', 'F631N', 'F656N', 'F658N']
+[     1s] F502N: 4403x4392 px at 0.0455 arcsec/px, 232 MB
+[     1s] F547M: 4392x4374 px at 0.0455 arcsec/px, 231 MB
+[     1s] F631N: 4403x4392 px at 0.0455 arcsec/px, 232 MB
+[     2s] F656N: 4393x4372 px at 0.0455 arcsec/px, 231 MB
+[     2s] F658N: 4394x4375 px at 0.0455 arcsec/px, 231 MB
+[     2s] grid from F631N: 2201x2196 px (reduced 2x), 0.091 arcsec/px
+[     6s] downloaded hst_6221_01_wfpc2_pc_f502n_u2rc01_drz.fits: 232 MB
+[     7s] F502N: aligned (reduced 2x), covers 46% of the grid
+[    10s] downloaded u2rc0106t_drw.fits: 231 MB
+[    12s] F547M: aligned (reduced 2x), covers 46% of the grid
+[    15s] downloaded hst_6221_01_wfpc2_pc_f631n_u2rc01_drz.fits: 232 MB
+[    16s] F631N: aligned (reduced 2x), covers 46% of the grid
+[    19s] downloaded u2rc0101t_drw.fits: 231 MB
+[    20s] F656N: aligned (reduced 1x), covers 46% of the grid
+[    23s] downloaded u2rc0107t_drw.fits: 231 MB
+[    24s] F658N: aligned (reduced 1x), covers 46% of the grid
+[    26s] hourglass: cropped to 242x242 px around RA 204.8946 Dec -67.3808
+[    26s] hourglass: finishing steps applied: ['black', 'sky', 'upscale']
+[    26s] cropped to 242x242 px where 5 of 5 filters have data
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/astropy/visualization/lupton_rgb.py:645: RuntimeWarning: invalid value encountered in divide
+  fInorm = np.where(Int <= 0, 0, np.true_divide(fI, Int))
+[    26s] done: 2 pictures
