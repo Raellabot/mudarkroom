@@ -1,0 +1,2 @@
+JWST|Star-Forming-Pillar|12591|NIRCAM/IMAGE|3  rows=8  filters=['F090W', 'F187N', 'F212N', 'F277W', 'F335M', 'F444W;F470N']
+JWST|Star-Forming-Pillar|12591|MIRI/IMAGE|3  rows=3  filters=['F1130W', 'F1500W', 'F770W']
