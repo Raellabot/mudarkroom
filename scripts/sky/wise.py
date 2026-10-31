@@ -10,7 +10,7 @@ import render
 
 UA = os.environ.get("CONTACT_INFO") or "CONTACT-INFO"
 BLACKS = [float(v) for v in os.environ.get("BLACKS", "").split(",") if v.strip()]
-BLACK = float(os.environ.get("WISE_BLACK", "40"))
+BLACK = float(os.environ.get("WISE_BLACK", "50"))
 PIX = float(os.environ.get("WISE_ARCSEC_PER_PX", "3.0"))
 BASE = "https://irsa.ipac.caltech.edu/ibe"
 BANDS = [(1, "W1 3.4 µm"), (2, "W2 4.6 µm"), (3, "W3 12 µm"), (4, "W4 22 µm")]
@@ -29,6 +29,26 @@ def get(url, tries=3):
             log(f"{url[-90:]}: attempt {attempt + 1} failed: {e}")
             time.sleep(5)
     return None
+
+
+# Each tile has its own sky level: the offsets that make the overlapping tiles agree (least squares over the pairs that overlap), with the offsets summing to zero.
+def solve_offsets(tiles_px):
+    k = len(tiles_px)
+    rows, rhs = [], []
+    for i in range(k):
+        for j in range(i + 1, k):
+            a, b = tiles_px[i][::4, ::4], tiles_px[j][::4, ::4]
+            m = np.isfinite(a) & np.isfinite(b)
+            if m.sum() > 5000:
+                r = np.zeros(k)
+                r[i], r[j] = 1.0, -1.0
+                rows.append(r)
+                rhs.append(float(np.median(a[m] - b[m])))
+    if not rows:
+        return np.zeros(k)
+    rows.append(np.ones(k))
+    rhs.append(0.0)
+    return np.linalg.lstsq(np.array(rows), np.array(rhs), rcond=None)[0]
 
 
 outdir = sys.argv[1]
@@ -51,26 +71,42 @@ w.wcs.ctype = ["RA---TAN", "DEC--TAN"]
 w.wcs.crval = [ra, dec]
 w.wcs.crpix = [n / 2.0 + 0.5, n / 2.0 + 0.5]
 w.wcs.cdelt = [-PIX / 3600.0, PIX / 3600.0]
-arrays, names = [], []
-for band, name in BANDS:
-    acc, cnt = np.zeros((n, n), np.float32), np.zeros((n, n), np.float32)
-    for cid in tiles:
-        url = f"{BASE}/data/wise/allwise/p3am_cdd/{cid[:2]}/{cid[:4]}/{cid}/{cid}-w{band}-int-3.fits"
-        blob = get(url)
-        if blob is None:
-            log(f"{cid} W{band}: not found, skipped")
-            continue
-        with fits.open(__import__("io").BytesIO(blob)) as h:
-            data, hdr = h[0].data.astype(np.float32), h[0].header
-        reproj, foot = reproject_interp((data, WCS(hdr)), w, shape_out=(n, n))
-        ok = np.isfinite(reproj) & (foot > 0.5)
-        acc[ok] += reproj[ok]
-        cnt[ok] += 1
-        log(f"W{band} {cid}: {int(ok.sum())} px on the grid")
-    out = np.where(cnt > 0, acc / np.maximum(cnt, 1), np.nan).astype(np.float32)
-    arrays.append(out)
-    names.append(name)
+WORK = os.environ.get("WORK_DIR", "work")
+os.makedirs(WORK, exist_ok=True)
+cache = os.path.join(WORK, f"witchhead-{n}.npz")
+if os.path.exists(cache):
+    z = np.load(cache)
+    arrays, names = [z[f"a{i}"] for i in range(len(BANDS))], [name for _, name in BANDS]
+    log("mosaics found in the cache; no download")
+else:
+    arrays, names = [], []
+    for band, name in BANDS:
+        tl = []
+        for cid in tiles:
+            url = f"{BASE}/data/wise/allwise/p3am_cdd/{cid[:2]}/{cid[:4]}/{cid}/{cid}-w{band}-int-3.fits"
+            blob = get(url)
+            if blob is None:
+                log(f"{cid} W{band}: not found, skipped")
+                continue
+            with fits.open(io.BytesIO(blob)) as h:
+                data, hdr = h[0].data.astype(np.float32), h[0].header
+            reproj, foot = reproject_interp((data, WCS(hdr)), w, shape_out=(n, n))
+            tl.append(np.where(np.isfinite(reproj) & (foot > 0.5), reproj, np.nan).astype(np.float32))
+            log(f"W{band} {cid}: {int(np.isfinite(tl[-1]).sum())} px on the grid")
+        off = solve_offsets(tl)
+        log(f"W{band} tile offsets: " + ", ".join(f"{o:.2f}" for o in off))
+        acc, cnt = np.zeros((n, n), np.float32), np.zeros((n, n), np.float32)
+        for t, o in zip(tl, off):
+            ok = np.isfinite(t)
+            acc[ok] += t[ok] - o
+            cnt[ok] += 1
+        arrays.append(np.where(cnt > 0, acc / np.maximum(cnt, 1), np.nan).astype(np.float32))
+        names.append(name)
+        del tl
+    np.savez_compressed(cache, **{f"a{i}": a for i, a in enumerate(arrays)})
 # Fill the few pixels no tile covers with the median so the stretch is not thrown off.
 arrays = [np.where(np.isfinite(a), a, np.nanmedian(a)) for a in arrays]
-made = render.render(outdir, "witchhead", names, arrays, f"WISE AllWISE atlas, Witch Head Nebula (IC 2118), {size:g}° field", BLACK, BLACKS, flip=True)
+y0, y1, x0, x1 = (float(v) for v in os.environ.get("WISE_BOX", "0.03,0.80,0.15,0.82").split(","))   # rows run south to north, columns east to west
+arrays = [a[int(y0 * n):int(y1 * n), int(x0 * n):int(x1 * n)] for a in arrays]
+made = render.render(outdir, "witchhead", names, arrays, f"WISE AllWISE atlas, Witch Head Nebula (IC 2118), {size:g}° field", BLACK, BLACKS, flip=True, rot180=True)
 log(f"{len(made)} pictures")
