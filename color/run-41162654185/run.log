@@ -1,0 +1,56 @@
+[    13s] search reply starts: in_row_id,in_ra,in_dec,band,crval1,crval2,ra1,dec1,ra2,dec2,ra3,dec3,ra4,dec4,magzp,magzpunc,coadd_id,date_obs1,mid_obs,date_obs2,numfrms,qa_status | 1,76.299999999999997,-6.9000000000000004,1,75.949648000000,-6.057778000000,76.737694111208,-6.839647613318,75.161986606340,-6.839648167653,75.1642659070
+[    13s] 12 tiles: ['0744m046_ac51', '0744m061_ac51', '0747m076_ac51', '0750m091_ac51', '0759m046_ac51', '0759m061_ac51', '0762m076_ac51', '0765m091_ac51', '0774m046_ac51', '0774m061_ac51', '0777m076_ac51', '0781m091_ac51']
+[    24s] W1 0744m046_ac51: 19659 px on the grid
+[    37s] W1 0744m061_ac51: 1160857 px on the grid
+[    46s] W1 0747m076_ac51: 1895708 px on the grid
+[    46s] ltech.edu/ibe/data/wise/allwise/p3am_cdd/07/0750/0750m091_ac51/0750m091_ac51-w1-int-3.fits: attempt 1 failed: <urlopen error [Errno 104] Connection reset by peer>
+[    61s] W1 0750m091_ac51: 323569 px on the grid
+[    75s] W1 0759m046_ac51: 56651 px on the grid
+[    85s] W1 0759m061_ac51: 3469282 px on the grid
+[    96s] W1 0762m076_ac51: 3524607 px on the grid
+[   105s] W1 0765m091_ac51: 439586 px on the grid
+[   115s] W1 0774m046_ac51: 45241 px on the grid
+[   124s] W1 0774m061_ac51: 2706842 px on the grid
+[   137s] W1 0777m076_ac51: 2024435 px on the grid
+[   146s] W1 0781m091_ac51: 159623 px on the grid
+[   157s] W2 0744m046_ac51: 19659 px on the grid
+[   166s] W2 0744m061_ac51: 1160857 px on the grid
+[   167s] ltech.edu/ibe/data/wise/allwise/p3am_cdd/07/0747/0747m076_ac51/0747m076_ac51-w2-int-3.fits: attempt 1 failed: <urlopen error [Errno 104] Connection reset by peer>
+[   181s] W2 0747m076_ac51: 1895708 px on the grid
+[   190s] W2 0750m091_ac51: 323569 px on the grid
+[   202s] W2 0759m046_ac51: 56651 px on the grid
+[   211s] W2 0759m061_ac51: 3469282 px on the grid
+[   221s] W2 0762m076_ac51: 3524607 px on the grid
+[   230s] W2 0765m091_ac51: 439586 px on the grid
+[   249s] W2 0774m046_ac51: 45241 px on the grid
+[   269s] W2 0774m061_ac51: 2706842 px on the grid
+[   279s] W2 0777m076_ac51: 2024435 px on the grid
+[   289s] W2 0781m091_ac51: 159623 px on the grid
+[   303s] W3 0744m046_ac51: 19659 px on the grid
+[   313s] W3 0744m061_ac51: 1160857 px on the grid
+[   322s] W3 0747m076_ac51: 1895708 px on the grid
+[   322s] ltech.edu/ibe/data/wise/allwise/p3am_cdd/07/0750/0750m091_ac51/0750m091_ac51-w3-int-3.fits: attempt 1 failed: <urlopen error [Errno 104] Connection reset by peer>
+[   336s] W3 0750m091_ac51: 323569 px on the grid
+[   346s] W3 0759m046_ac51: 56651 px on the grid
+[   355s] W3 0759m061_ac51: 3469282 px on the grid
+[   365s] W3 0762m076_ac51: 3524607 px on the grid
+[   374s] W3 0765m091_ac51: 439586 px on the grid
+[   385s] W3 0774m046_ac51: 45241 px on the grid
+[   397s] W3 0774m061_ac51: 2706847 px on the grid
+[   409s] W3 0777m076_ac51: 2024435 px on the grid
+[   419s] W3 0781m091_ac51: 159623 px on the grid
+[   431s] W4 0744m046_ac51: 19659 px on the grid
+[   442s] W4 0744m061_ac51: 1160857 px on the grid
+[   453s] W4 0747m076_ac51: 1895708 px on the grid
+[   462s] W4 0750m091_ac51: 323569 px on the grid
+[   472s] W4 0759m046_ac51: 56651 px on the grid
+[   481s] W4 0759m061_ac51: 3469282 px on the grid
+[   490s] W4 0762m076_ac51: 3524607 px on the grid
+[   504s] W4 0765m091_ac51: 439586 px on the grid
+[   513s] W4 0774m046_ac51: 45241 px on the grid
+[   523s] W4 0774m061_ac51: 2706847 px on the grid
+[   533s] W4 0777m076_ac51: 2024435 px on the grid
+[   542s] W4 0781m091_ac51: 159623 px on the grid
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/astropy/visualization/lupton_rgb.py:645: RuntimeWarning: invalid value encountered in divide
+  fInorm = np.where(Int <= 0, 0, np.true_divide(fI, Int))
+[   560s] 15 pictures
