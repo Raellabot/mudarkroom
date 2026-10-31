@@ -1,0 +1,16 @@
+[     0s] == ic63: 5 filters: ['F275W', 'F336W', 'F475W', 'F625W', 'F814W']
+[     0s] aligned arrays found in the cache; no download
+[    11s] healed 0 noisy rows
+[    11s] healed 0 noisy rows
+[    12s] healed 0 noisy rows
+[    12s] healed 0 noisy rows
+[    12s] healed 0 noisy rows
+[    12s] ic63: finishing steps applied: ['black', 'box', 'fill', 'heal', 'rot180']
+[    12s] cropped to 2062x2058 px where 5 of 5 filters have data
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/astropy/visualization/lupton_rgb.py:645: RuntimeWarning: invalid value encountered in divide
+  fInorm = np.where(Int <= 0, 0, np.true_divide(fI, Int))
+[    14s] == horsehead: 6 filters: ['F070W', 'F140M', 'F210M', 'F212N', 'F300M', 'F430M']
+[    15s] aligned arrays found in the cache; no download
+[    16s] horsehead: finishing steps applied: ['black', 'box']
+[    16s] cropped to 1044x1052 px where 6 of 6 filters have data
+[    17s] done: 6 pictures
