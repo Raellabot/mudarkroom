@@ -483,8 +483,8 @@ def phase_shift(a, ref):
 
 # Per-subject finishing in order: crop to a box, crop to dense data, fill holes, crop and align on a planet, remove row stripes.
 # Replaces the rows that are far noisier than the rest (the thin line where two camera chips meet, even when it spans only part of the width) by a straight line between the good rows above and below.
-def heal_rows(a, k=5.0, grow=12):
-    # in rows where far more pixels than usual stand out from their 3x3 median, the specks (with their vertical tails) are replaced by the local mean of the pixels around them that are not specks
+def heal_rows(a, k=5.0, grow=12, lo=0.0, hi=1.0):
+    # in rows (of the lo..hi share of the height, plus the 4% at each edge) where far more pixels than usual stand out from their 3x3 median, the specks (with their vertical tails) are replaced by the local mean of the pixels around them that are not specks
     b = np.nan_to_num(a, nan=0.0)
     res = np.abs(b - ndi.median_filter(b, size=3))
     pos = res[res > 0]
@@ -492,6 +492,8 @@ def heal_rows(a, k=5.0, grow=12):
     hit = res > thr
     frac = hit.mean(axis=1)
     zone = ndi.binary_dilation(frac > k * max(np.median(frac), 0.002), iterations=grow)
+    rows = np.arange(a.shape[0]) / a.shape[0]
+    zone &= (rows >= lo) & (rows <= hi) | (rows < 0.04) | (rows > 0.96)
     sel = ndi.binary_dilation(hit & zone[:, None], structure=np.ones((25, 5), dtype=bool))
     good = (~sel).astype(np.float32)
     fill = ndi.gaussian_filter(b * good, 4.0) / np.maximum(ndi.gaussian_filter(good, 4.0), 1e-3)
@@ -555,7 +557,7 @@ FINISH = {
     "orionbar-nircam": {"box": (0.055, 1.0, 0.52, 1.0), "black": 40, "fill": (6.0, 3, 90)},   # the pointing across the Bar; the other pointing is a separate patch of nebula
     "bullet-nircam": {"box": (0.025, 1.0, 0.0, 1.0), "nofill": True},   # trims the ragged top edge
     "hourglass": {"sky": (204.8946, -67.3808, 9.0), "black": 40, "stretch": 0.15, "upscale": 3},   # a close-up of the nebula inside the small camera chip of the WFPC2 mosaic
-    "ic63": {"box": (0.04, 0.965, 0.0, 1.0), "black": 40, "fill": (8.0, 4, 130), "heal": (5.0, 12), "rot180": True},   # trims the ragged top and bottom edges and fills the thin gap between the camera chips
+    "ic63": {"box": (0.04, 0.965, 0.0, 1.0), "black": 40, "fill": (8.0, 4, 130), "heal": (5.0, 12, 0.36, 0.64), "rot180": True},   # trims the ragged top and bottom edges and fills the thin gap between the camera chips
     "horsehead": {"box": (0.5, 1.0, 0.52, 1.0), "black": 70},   # the right detector only, where the glowing ridge sits on an even background; the left one sits at another level and the other half of the pointing is blank field
     "catshead": {"box": (0.0, 1.0, 0.15, 0.85), "black": 55, "rot90": 1},   # the pillar with its bright cap and the edge of the cavity, turned upright like the NASA picture
     "cartwheel-nircam": {"black": 20},
