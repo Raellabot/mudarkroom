@@ -1,0 +1,26 @@
+[    29s] search reply starts: in_row_id,in_ra,in_dec,band,crval1,crval2,ra1,dec1,ra2,dec2,ra3,dec3,ra4,dec4,magzp,magzpunc,coadd_id,date_obs1,mid_obs,date_obs2,numfrms,qa_status | 1,76.299999999999997,-6.9000000000000004,1,75.949648000000,-6.057778000000,76.737694111208,-6.839647613318,75.161986606340,-6.839648167653,75.1642659070
+[    29s] 12 tiles: ['0744m046_ac51', '0744m061_ac51', '0747m076_ac51', '0750m091_ac51', '0759m046_ac51', '0759m061_ac51', '0762m076_ac51', '0765m091_ac51', '0774m046_ac51', '0774m061_ac51', '0777m076_ac51', '0781m091_ac51']
+[    39s] W1 0744m046_ac51: 19659 px on the grid
+[    48s] W1 0744m061_ac51: 1160857 px on the grid
+[    60s] W1 0747m076_ac51: 1895708 px on the grid
+[    71s] W1 0750m091_ac51: 323569 px on the grid
+[    80s] W1 0759m046_ac51: 56651 px on the grid
+[    91s] W1 0759m061_ac51: 3469282 px on the grid
+[    91s] ltech.edu/ibe/data/wise/allwise/p3am_cdd/07/0762/0762m076_ac51/0762m076_ac51-w1-int-3.fits: attempt 1 failed: <urlopen error [Errno 104] Connection reset by peer>
+[   108s] W1 0762m076_ac51: 3524607 px on the grid
+[   241s] ltech.edu/ibe/data/wise/allwise/p3am_cdd/07/0765/0765m091_ac51/0765m091_ac51-w1-int-3.fits: attempt 1 failed: <urlopen error [Errno 110] Connection timed out>
+[   381s] ltech.edu/ibe/data/wise/allwise/p3am_cdd/07/0765/0765m091_ac51/0765m091_ac51-w1-int-3.fits: attempt 2 failed: <urlopen error [Errno 110] Connection timed out>
+[   520s] ltech.edu/ibe/data/wise/allwise/p3am_cdd/07/0765/0765m091_ac51/0765m091_ac51-w1-int-3.fits: attempt 3 failed: <urlopen error [Errno 110] Connection timed out>
+[   525s] 0765m091_ac51 W1: not found, skipped
+[   659s] ltech.edu/ibe/data/wise/allwise/p3am_cdd/07/0774/0774m046_ac51/0774m046_ac51-w1-int-3.fits: attempt 1 failed: <urlopen error [Errno 110] Connection timed out>
+[   798s] ltech.edu/ibe/data/wise/allwise/p3am_cdd/07/0774/0774m046_ac51/0774m046_ac51-w1-int-3.fits: attempt 2 failed: <urlopen error [Errno 110] Connection timed out>
+[   938s] ltech.edu/ibe/data/wise/allwise/p3am_cdd/07/0774/0774m046_ac51/0774m046_ac51-w1-int-3.fits: attempt 3 failed: <urlopen error [Errno 110] Connection timed out>
+[   943s] 0774m046_ac51 W1: not found, skipped
+[  1077s] ltech.edu/ibe/data/wise/allwise/p3am_cdd/07/0774/0774m061_ac51/0774m061_ac51-w1-int-3.fits: attempt 1 failed: <urlopen error [Errno 110] Connection timed out>
+[  1216s] ltech.edu/ibe/data/wise/allwise/p3am_cdd/07/0774/0774m061_ac51/0774m061_ac51-w1-int-3.fits: attempt 2 failed: <urlopen error [Errno 110] Connection timed out>
+[  1355s] ltech.edu/ibe/data/wise/allwise/p3am_cdd/07/0774/0774m061_ac51/0774m061_ac51-w1-int-3.fits: attempt 3 failed: <urlopen error [Errno 110] Connection timed out>
+[  1360s] 0774m061_ac51 W1: not found, skipped
+[  1495s] ltech.edu/ibe/data/wise/allwise/p3am_cdd/07/0777/0777m076_ac51/0777m076_ac51-w1-int-3.fits: attempt 1 failed: <urlopen error [Errno 110] Connection timed out>
+[  1634s] ltech.edu/ibe/data/wise/allwise/p3am_cdd/07/0777/0777m076_ac51/0777m076_ac51-w1-int-3.fits: attempt 2 failed: <urlopen error [Errno 110] Connection timed out>
+[  1773s] ltech.edu/ibe/data/wise/allwise/p3am_cdd/07/0777/0777m076_ac51/0777m076_ac51-w1-int-3.fits: attempt 3 failed: <urlopen error [Errno 110] Connection timed out>
+[  1778s] 0777m076_ac51 W1: not found, skipped
