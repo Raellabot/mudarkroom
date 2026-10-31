@@ -1,0 +1,3 @@
+HST|NGC3132|6221|WFPC2/PC|3  rows=16  filters=['F502N', 'F547M', 'F631N', 'F656N', 'F658N', 'F673N', 'detection']
+HST|MYCN18|6221|WFPC2/PC|3  rows=13  filters=['F502N', 'F547M', 'F631N', 'F656N', 'F658N', 'detection']
+HST|CRL2688|6221|WFPC2/PC|3  rows=7  filters=['F606W', 'F606W-POLQ', 'detection']

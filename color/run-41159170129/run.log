@@ -1,0 +1,41 @@
+[     0s] == hourglass: 5 filters: ['F502N', 'F547M', 'F631N', 'F656N', 'F658N']
+[     1s] F502N: 4403x4392 px at 0.0455 arcsec/px, 232 MB
+[     1s] F547M: 4392x4374 px at 0.0455 arcsec/px, 231 MB
+[     2s] F631N: 4403x4392 px at 0.0455 arcsec/px, 232 MB
+[     2s] F656N: 4393x4372 px at 0.0455 arcsec/px, 231 MB
+[     3s] F658N: 4394x4375 px at 0.0455 arcsec/px, 231 MB
+[     3s] grid from F631N: 2201x2196 px (reduced 2x), 0.091 arcsec/px
+[     8s] downloaded hst_6221_01_wfpc2_pc_f502n_u2rc01_drz.fits: 232 MB
+[     9s] F502N: aligned (reduced 2x), covers 46% of the grid
+[    14s] downloaded u2rc0106t_drw.fits: 231 MB
+[    15s] F547M: aligned (reduced 2x), covers 46% of the grid
+[    19s] downloaded hst_6221_01_wfpc2_pc_f631n_u2rc01_drz.fits: 232 MB
+[    20s] F631N: aligned (reduced 2x), covers 46% of the grid
+[    25s] downloaded u2rc0101t_drw.fits: 231 MB
+[    26s] F656N: aligned (reduced 1x), covers 46% of the grid
+[    30s] downloaded u2rc0107t_drw.fits: 231 MB
+[    31s] F658N: aligned (reduced 1x), covers 46% of the grid
+[    32s] cropped to 1859x2167 px where 5 of 5 filters have data
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/astropy/visualization/lupton_rgb.py:645: RuntimeWarning: invalid value encountered in divide
+  fInorm = np.where(Int <= 0, 0, np.true_divide(fI, Int))
+[    33s] == ic63: 5 filters: ['F275W', 'F336W', 'F475W', 'F625W', 'F814W']
+[    33s] F275W: 4130x4448 px at 0.0396 arcsec/px, 221 MB
+[    34s] F336W: 4130x4448 px at 0.0396 arcsec/px, 221 MB
+[    34s] F475W: 4129x4447 px at 0.0396 arcsec/px, 221 MB
+[    35s] F625W: 4129x4448 px at 0.0396 arcsec/px, 221 MB
+[    36s] F814W: 4130x4448 px at 0.0396 arcsec/px, 221 MB
+[    36s] grid from F814W: 2065x2224 px (reduced 2x), 0.079 arcsec/px
+[    41s] downloaded icxc01010_drz.fits: 221 MB
+[    42s] F275W: aligned (reduced 2x), covers 94% of the grid
+[    46s] downloaded icxc01020_drz.fits: 221 MB
+[    47s] F336W: aligned (reduced 2x), covers 94% of the grid
+[    51s] downloaded icxc02030_drz.fits: 221 MB
+[    52s] F475W: aligned (reduced 2x), covers 94% of the grid
+[    56s] downloaded icxc02010_drz.fits: 221 MB
+[    57s] F625W: aligned (reduced 1x), covers 94% of the grid
+[    61s] downloaded icxc01030_drz.fits: 221 MB
+[    62s] F814W: aligned (reduced 2x), covers 94% of the grid
+[    64s] cropped to 2062x2222 px where 5 of 5 filters have data
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/astropy/visualization/lupton_rgb.py:645: RuntimeWarning: invalid value encountered in divide
+  fInorm = np.where(Int <= 0, 0, np.true_divide(fI, Int))
+[    65s] done: 2 pictures
