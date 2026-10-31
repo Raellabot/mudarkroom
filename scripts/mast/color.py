@@ -566,6 +566,7 @@ FINISH = {
     "hourglass": {"sky": (204.8946, -67.3808, 9.0), "black": 40, "stretch": 0.15, "upscale": 3},   # a close-up of the nebula inside the small camera chip of the WFPC2 mosaic
     "ic63": {"box": (0.04, 0.965, 0.0, 1.0), "black": 40, "fill": (8.0, 4, 130), "heal": (2.0, 2), "rot180": True},   # trims the ragged top and bottom edges and fills the thin gap between the camera chips
     "horsehead": {"box": (0.5, 1.0, 0.52, 1.0), "black": 70},   # the right detector only, where the glowing ridge sits on an even background; the left one sits at another level and the other half of the pointing is blank field
+    "catshead": {"box": (0.0, 1.0, 0.15, 0.85), "black": 55, "rot90": 1},   # the pillar with its bright cap and the edge of the cavity, turned upright like the NASA picture
     "cartwheel-nircam": {"black": 20},
     "m82-nircam": {"box": (0.0, 1.0, 0.27, 0.73), "black": 10, "stretch": 0.12, "fill": (4.0, 3, 40)},   # the galaxy is a narrow band in the middle of a wide frame
     "elgordo-nircam": {"box": (0.0, 1.0, 0.565, 1.0), "black": 55, "fill": (8.0, 4, 130)},   # the right pointing holds the cluster; the left one is a different field
@@ -692,7 +693,7 @@ def whiten_bright(img, k):
     return np.clip(np.rint(f * 255.0), 0, 255).astype(np.uint8)
 
 
-def compose(stack, waves, palette, ranked=None, colors=None, whiten=0.0, stretch=None, xray=None, rot180=False):
+def compose(stack, waves, palette, ranked=None, colors=None, whiten=0.0, stretch=None, xray=None, rot180=False, rot90=0):
     lw = np.log(np.array(waves, dtype=float))
     t = (lw - lw.min()) / (lw.max() - lw.min()) if lw.max() > lw.min() else np.zeros_like(lw)
     if colors is None:
@@ -712,6 +713,8 @@ def compose(stack, waves, palette, ranked=None, colors=None, whiten=0.0, stretch
         img = np.ascontiguousarray(img[::-1])
     if rot180:  # turned half a circle, for sets whose upright view is the other way up
         img = np.ascontiguousarray(img[::-1, ::-1])
+    if rot90:  # quarter turns counterclockwise, applied last
+        img = np.ascontiguousarray(np.rot90(img, rot90))
     return img, colors
 
 
@@ -898,7 +901,7 @@ def main():
                 if e is not None:
                     base_cols = RANKED[pname](len(stk2))
                     cols = [c * (1 - tw["soften"].get(n, 0.0)) + SOFT_PINK * tw["soften"].get(n, 0.0) for c, n in zip(base_cols, names)]
-                img, colors = compose(stk2, waves, pal, RANKED.get(pname), cols, tw.get("whiten", 0.0), tw.get("stretch") or (fin or {}).get("stretch"), xl, bool((fin or {}).get("rot180")))
+                img, colors = compose(stk2, waves, pal, RANKED.get(pname), cols, tw.get("whiten", 0.0), tw.get("stretch") or (fin or {}).get("stretch"), xl, bool((fin or {}).get("rot180")), int((fin or {}).get("rot90", 0)))
                 suffix = "" if e is None else f"-n{int(round(e * 100)):02d}" + ("" if vname == "base" else f"-{vname}")
                 if bo:
                     suffix += f"-black{bo}"
