@@ -1,5 +1,5 @@
 # Makes ghoul pictures of the Witch Head Nebula (IC 2118) from the four WISE bands in IRSA's AllWISE atlas (usage: wise.py OUTDIR [RA DEC SIZE_DEG]).
-import csv, io, os, sys, time, urllib.parse, urllib.request
+import concurrent.futures, csv, io, os, sys, time, urllib.parse, urllib.request
 from astropy.io import fits
 from astropy.wcs import WCS
 import numpy as np
@@ -21,10 +21,10 @@ def log(*a):
     print(f"[{time.time() - T0:6.0f}s]", *a, flush=True)
 
 
-def get(url, tries=3):
+def get(url, tries=4):
     for attempt in range(tries):
         try:
-            return urllib.request.urlopen(urllib.request.Request(url, headers={"User-Agent": UA}), timeout=300).read()
+            return urllib.request.urlopen(urllib.request.Request(url, headers={"User-Agent": UA}), timeout=90).read()
         except Exception as e:  # noqa: BLE001
             log(f"{url[-90:]}: attempt {attempt + 1} failed: {e}")
             time.sleep(5)
@@ -82,9 +82,10 @@ else:
     arrays, names = [], []
     for band, name in BANDS:
         tl = []
-        for cid in tiles:
-            url = f"{BASE}/data/wise/allwise/p3am_cdd/{cid[:2]}/{cid[:4]}/{cid}/{cid}-w{band}-int-3.fits"
-            blob = get(url)
+        urls = {cid: f"{BASE}/data/wise/allwise/p3am_cdd/{cid[:2]}/{cid[:4]}/{cid}/{cid}-w{band}-int-3.fits" for cid in tiles}
+        with concurrent.futures.ThreadPoolExecutor(max_workers=4) as pool:   # the tiles of one band, four at a time
+            blobs = dict(zip(urls, pool.map(get, urls.values())))
+        for cid, blob in blobs.items():
             if blob is None:
                 log(f"{cid} W{band}: not found, skipped")
                 continue
@@ -93,6 +94,7 @@ else:
             reproj, foot = reproject_interp((data, WCS(hdr)), w, shape_out=(n, n))
             tl.append(np.where(np.isfinite(reproj) & (foot > 0.5), reproj, np.nan).astype(np.float32))
             log(f"W{band} {cid}: {int(np.isfinite(tl[-1]).sum())} px on the grid")
+        del blobs
         off = solve_offsets(tl)
         log(f"W{band} tile offsets: " + ", ".join(f"{o:.2f}" for o in off))
         acc, cnt = np.zeros((n, n), np.float32), np.zeros((n, n), np.float32)
