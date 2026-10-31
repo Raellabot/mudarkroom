@@ -1,0 +1,6 @@
+[    20s] search reply starts: in_row_id,in_ra,in_dec,band,crval1,crval2,ra1,dec1,ra2,dec2,ra3,dec3,ra4,dec4,magzp,magzpunc,coadd_id,date_obs1,mid_obs,date_obs2,numfrms,qa_status | 1,76.299999999999997,-6.9000000000000004,1,75.949648000000,-6.057778000000,76.737694111208,-6.839647613318,75.161986606340,-6.839648167653,75.1642659070
+[    20s] 12 tiles: ['0744m046_ac51', '0744m061_ac51', '0747m076_ac51', '0750m091_ac51', '0759m046_ac51', '0759m061_ac51', '0762m076_ac51', '0765m091_ac51', '0774m046_ac51', '0774m061_ac51', '0777m076_ac51', '0781m091_ac51']
+[    21s] mosaics found in the cache; no download
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/astropy/visualization/lupton_rgb.py:645: RuntimeWarning: invalid value encountered in divide
+  fInorm = np.where(Int <= 0, 0, np.true_divide(fI, Int))
+[    27s] 18 pictures
