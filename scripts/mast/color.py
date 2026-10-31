@@ -116,9 +116,25 @@ def creative5_colors(n):
     return out
 
 
-RANKED = {"stsci": stsci_colors, "creativerank": creativerank_colors, "creative5": creative5_colors}
-ALL_PALETTES = {"chromatic": chromatic, "creative": creative, "creative2": creative2, "creative3": creative3, "stsci": None, "creativerank": None, "creative5": None}
-PALETTE_NAMES = {"chromatic": "chromatic palette", "creative": "creative palette", "creative2": "creative palette 2", "creative3": "creative palette 3", "stsci": "NASA-style hues, by rank", "creativerank": "creative palette 4, by rank", "creative5": "creative palette 5, by rank"}
+# Ghoul palette: a bruise violet, ghost teal, toxic green and pumpkin for the short to middle wavelengths, ending in the pink #fa1991 for the longest.
+GHOUL = [(0.00, (0.38, 0.12, 0.70)), (0.25, (0.30, 0.95, 0.85)), (0.50, (0.55, 1.00, 0.12)), (0.75, (1.00, 0.40, 0.04)), (1.00, (0.980, 0.098, 0.569))]
+
+
+def ghoul_colors(n):
+    out = []
+    for i in range(n):
+        t = i / (n - 1) if n > 1 else 0.0
+        for (a, ca), (b, cb) in zip(GHOUL, GHOUL[1:]):
+            if t <= b:
+                k = (t - a) / (b - a)
+                out.append(np.array(ca) * (1 - k) + np.array(cb) * k)
+                break
+    return out
+
+
+RANKED = {"stsci": stsci_colors, "creativerank": creativerank_colors, "creative5": creative5_colors, "ghoul": ghoul_colors}
+ALL_PALETTES = {"chromatic": chromatic, "creative": creative, "creative2": creative2, "creative3": creative3, "stsci": None, "creativerank": None, "creative5": None, "ghoul": None}
+PALETTE_NAMES = {"chromatic": "chromatic palette", "creative": "creative palette", "creative2": "creative palette 2", "creative3": "creative palette 3", "stsci": "NASA-style hues, by rank", "creativerank": "creative palette 4, by rank", "creative5": "creative palette 5, by rank", "ghoul": "ghoul palette, by rank"}
 PALETTES = {k: ALL_PALETTES[k] for k in os.environ.get("PALETTES", "chromatic,creative").split(",") if k in ALL_PALETTES}
 
 
