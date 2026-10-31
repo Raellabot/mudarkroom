@@ -1,0 +1,263 @@
+[
+ {
+  "picture": "ic63-ghoul-n50-black1.jpg",
+  "palette": "ghoul",
+  "collection": "HST",
+  "target": "IC-63",
+  "proposal_id": "14186",
+  "instrument": "WFC3/UVIS",
+  "title": "Mapping dust extinction properties across the IC 63 photodissociation region",
+  "grid": {
+   "width": 2065,
+   "height": 2224,
+   "reduction": 2,
+   "arcsec_per_pixel": 0.079240001738071,
+   "reference_filter": "F814W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F275W",
+    "center_nm": 274.5,
+    "color": "#611fb2",
+    "obs_id": "icxc01010",
+    "exposure_s": 1200,
+    "product": "mast:HST/product/icxc01010_drz.fits"
+   },
+   {
+    "filter": "F336W",
+    "center_nm": 336.6,
+    "color": "#4cf2d9",
+    "obs_id": "icxc01020",
+    "exposure_s": 1300,
+    "product": "mast:HST/product/icxc01020_drz.fits"
+   },
+   {
+    "filter": "F475W",
+    "center_nm": 475.8,
+    "color": "#8cff1f",
+    "obs_id": "icxc02030",
+    "exposure_s": 1800,
+    "product": "mast:HST/product/icxc02030_drz.fits"
+   },
+   {
+    "filter": "F625W",
+    "center_nm": 627.4,
+    "color": "#ff660a",
+    "obs_id": "icxc02010",
+    "exposure_s": 1680,
+    "product": "mast:HST/product/icxc02010_drz.fits"
+   },
+   {
+    "filter": "F814W",
+    "center_nm": 831.9,
+    "color": "#fa1991",
+    "obs_id": "icxc01030",
+    "exposure_s": 1796,
+    "product": "mast:HST/product/icxc01030_drz.fits"
+   }
+  ],
+  "black_percentile": 1.0,
+  "finishing": {
+   "box": [
+    0.04,
+    0.965,
+    0.0,
+    1.0
+   ],
+   "black": 40,
+   "fill": [
+    8.0,
+    4,
+    130
+   ],
+   "heal": [
+    5.0,
+    12,
+    0.36,
+    0.64
+   ],
+   "rot180": true
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ },
+ {
+  "picture": "ic63-ghost-n50-black1.jpg",
+  "palette": "ghost",
+  "collection": "HST",
+  "target": "IC-63",
+  "proposal_id": "14186",
+  "instrument": "WFC3/UVIS",
+  "title": "Mapping dust extinction properties across the IC 63 photodissociation region",
+  "grid": {
+   "width": 2065,
+   "height": 2224,
+   "reduction": 2,
+   "arcsec_per_pixel": 0.079240001738071,
+   "reference_filter": "F814W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F275W",
+    "center_nm": 274.5,
+    "color": "#591acc",
+    "obs_id": "icxc01010",
+    "exposure_s": 1200,
+    "product": "mast:HST/product/icxc01010_drz.fits"
+   },
+   {
+    "filter": "F336W",
+    "center_nm": 336.6,
+    "color": "#1ad9cc",
+    "obs_id": "icxc01020",
+    "exposure_s": 1300,
+    "product": "mast:HST/product/icxc01020_drz.fits"
+   },
+   {
+    "filter": "F475W",
+    "center_nm": 475.8,
+    "color": "#c7b2ff",
+    "obs_id": "icxc02030",
+    "exposure_s": 1800,
+    "product": "mast:HST/product/icxc02030_drz.fits"
+   },
+   {
+    "filter": "F625W",
+    "center_nm": 627.4,
+    "color": "#d90d26",
+    "obs_id": "icxc02010",
+    "exposure_s": 1680,
+    "product": "mast:HST/product/icxc02010_drz.fits"
+   },
+   {
+    "filter": "F814W",
+    "center_nm": 831.9,
+    "color": "#fa1991",
+    "obs_id": "icxc01030",
+    "exposure_s": 1796,
+    "product": "mast:HST/product/icxc01030_drz.fits"
+   }
+  ],
+  "black_percentile": 1.0,
+  "finishing": {
+   "box": [
+    0.04,
+    0.965,
+    0.0,
+    1.0
+   ],
+   "black": 40,
+   "fill": [
+    8.0,
+    4,
+    130
+   ],
+   "heal": [
+    5.0,
+    12,
+    0.36,
+    0.64
+   ],
+   "rot180": true
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ },
+ {
+  "picture": "ic63-slime-n50-black1.jpg",
+  "palette": "slime",
+  "collection": "HST",
+  "target": "IC-63",
+  "proposal_id": "14186",
+  "instrument": "WFC3/UVIS",
+  "title": "Mapping dust extinction properties across the IC 63 photodissociation region",
+  "grid": {
+   "width": 2065,
+   "height": 2224,
+   "reduction": 2,
+   "arcsec_per_pixel": 0.079240001738071,
+   "reference_filter": "F814W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F275W",
+    "center_nm": 274.5,
+    "color": "#4c0db2",
+    "obs_id": "icxc01010",
+    "exposure_s": 1200,
+    "product": "mast:HST/product/icxc01010_drz.fits"
+   },
+   {
+    "filter": "F336W",
+    "center_nm": 336.6,
+    "color": "#33f259",
+    "obs_id": "icxc01020",
+    "exposure_s": 1300,
+    "product": "mast:HST/product/icxc01020_drz.fits"
+   },
+   {
+    "filter": "F475W",
+    "center_nm": 475.8,
+    "color": "#d9f299",
+    "obs_id": "icxc02030",
+    "exposure_s": 1800,
+    "product": "mast:HST/product/icxc02030_drz.fits"
+   },
+   {
+    "filter": "F625W",
+    "center_nm": 627.4,
+    "color": "#bf0d33",
+    "obs_id": "icxc02010",
+    "exposure_s": 1680,
+    "product": "mast:HST/product/icxc02010_drz.fits"
+   },
+   {
+    "filter": "F814W",
+    "center_nm": 831.9,
+    "color": "#fa1991",
+    "obs_id": "icxc01030",
+    "exposure_s": 1796,
+    "product": "mast:HST/product/icxc01030_drz.fits"
+   }
+  ],
+  "black_percentile": 1.0,
+  "finishing": {
+   "box": [
+    0.04,
+    0.965,
+    0.0,
+    1.0
+   ],
+   "black": 40,
+   "fill": [
+    8.0,
+    4,
+    130
+   ],
+   "heal": [
+    5.0,
+    12,
+    0.36,
+    0.64
+   ],
+   "rot180": true
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]
