@@ -492,7 +492,7 @@ def heal_rows(a, k=5.0, grow=12):
     hit = res > thr
     frac = hit.mean(axis=1)
     zone = ndi.binary_dilation(frac > k * max(np.median(frac), 0.002), iterations=grow)
-    sel = ndi.binary_dilation(hit & zone[:, None], structure=np.ones((13, 5), dtype=bool))
+    sel = ndi.binary_dilation(hit & zone[:, None], structure=np.ones((25, 5), dtype=bool))
     good = (~sel).astype(np.float32)
     fill = ndi.gaussian_filter(b * good, 4.0) / np.maximum(ndi.gaussian_filter(good, 4.0), 1e-3)
     out = a.copy()
@@ -525,7 +525,7 @@ def finish_arrays(arrs, fin, scale=1.0):
         log("planet offsets between filters (px): " + ", ".join(f"({dy:.1f},{dx:.1f})" for dy, dx in shifts))
         a = [shift_img(x, -dy, -dx) for x, (dy, dx) in zip(a, shifts)]
     if fin.get("heal"):
-        a = [heal_rows(x, *fin["heal"]) for x in a]
+        a = [heal_rows(heal_rows(x, *fin["heal"]), *fin["heal"]) for x in a]   # twice: the second pass catches the tails the first one left
     if fin.get("destripe"):
         seg, win = fin["destripe"]
         a = [row_destripe(x, seg=max(8, int(seg * scale)), win=max(5, int(win * scale))) for x in a]
