@@ -483,25 +483,21 @@ def phase_shift(a, ref):
 
 # Per-subject finishing in order: crop to a box, crop to dense data, fill holes, crop and align on a planet, remove row stripes.
 # Replaces the rows that are far noisier than the rest (the thin line where two camera chips meet, even when it spans only part of the width) by a straight line between the good rows above and below.
-def heal_rows(a, k=5.0, grow=3):
-    # a row is noisy when far more of its pixels than usual stand out from their 3x3 median; noisy runs of rows are filled in from the clean rows on either side
+def heal_rows(a, k=5.0, grow=12):
+    # in rows where far more pixels than usual stand out from their 3x3 median, the specks (with their vertical tails) are replaced by the local mean of the pixels around them that are not specks
     b = np.nan_to_num(a, nan=0.0)
     res = np.abs(b - ndi.median_filter(b, size=3))
     pos = res[res > 0]
     thr = 8.0 * (np.median(pos) if pos.size else 0.0) + 1e-12
-    frac = (res > thr).mean(axis=1)
-    bad = ndi.binary_dilation(frac > k * max(np.median(frac), 0.002), iterations=grow)
+    hit = res > thr
+    frac = hit.mean(axis=1)
+    zone = ndi.binary_dilation(frac > k * max(np.median(frac), 0.002), iterations=grow)
+    sel = ndi.binary_dilation(hit & zone[:, None], structure=np.ones((13, 5), dtype=bool))
+    good = (~sel).astype(np.float32)
+    fill = ndi.gaussian_filter(b * good, 4.0) / np.maximum(ndi.gaussian_filter(good, 4.0), 1e-3)
     out = a.copy()
-    lab, n = ndi.label(bad)
-    for sl in ndi.find_objects(lab):
-        y0, y1 = sl[0].start, sl[0].stop - 1
-        if y0 > 0 and y1 + 1 < a.shape[0]:
-            for j in range(y0, y1 + 1):
-                w = (j - y0 + 1) / (y1 - y0 + 2)
-                out[j] = a[y0 - 1] * (1 - w) + a[y1 + 1] * w
-        else:
-            out[y0:y1 + 1] = a[y1 + 1] if y0 == 0 and y1 + 1 < a.shape[0] else a[y0 - 1]
-    log(f"healed {int(bad.sum())} noisy rows in {n} runs")
+    out[sel] = fill[sel]
+    log(f"healed {int(zone.sum())} noisy rows, {int(sel.sum())} px")
     return out
 
 
@@ -559,7 +555,7 @@ FINISH = {
     "orionbar-nircam": {"box": (0.055, 1.0, 0.52, 1.0), "black": 40, "fill": (6.0, 3, 90)},   # the pointing across the Bar; the other pointing is a separate patch of nebula
     "bullet-nircam": {"box": (0.025, 1.0, 0.0, 1.0), "nofill": True},   # trims the ragged top edge
     "hourglass": {"sky": (204.8946, -67.3808, 9.0), "black": 40, "stretch": 0.15, "upscale": 3},   # a close-up of the nebula inside the small camera chip of the WFPC2 mosaic
-    "ic63": {"box": (0.04, 0.965, 0.0, 1.0), "black": 40, "fill": (8.0, 4, 130), "heal": (5.0, 3), "rot180": True},   # trims the ragged top and bottom edges and fills the thin gap between the camera chips
+    "ic63": {"box": (0.04, 0.965, 0.0, 1.0), "black": 40, "fill": (8.0, 4, 130), "heal": (5.0, 12), "rot180": True},   # trims the ragged top and bottom edges and fills the thin gap between the camera chips
     "horsehead": {"box": (0.5, 1.0, 0.52, 1.0), "black": 70},   # the right detector only, where the glowing ridge sits on an even background; the left one sits at another level and the other half of the pointing is blank field
     "catshead": {"box": (0.0, 1.0, 0.15, 0.85), "black": 55, "rot90": 1},   # the pillar with its bright cap and the edge of the cavity, turned upright like the NASA picture
     "cartwheel-nircam": {"black": 20},
