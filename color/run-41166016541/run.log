@@ -1,0 +1,65 @@
+[     5s] search reply starts: in_row_id,in_ra,in_dec,band,crval1,crval2,ra1,dec1,ra2,dec2,ra3,dec3,ra4,dec4,magzp,magzpunc,coadd_id,date_obs1,mid_obs,date_obs2,numfrms,qa_status | 1,76.299999999999997,-6.9000000000000004,1,75.949648000000,-6.057778000000,76.737694111208,-6.839647613318,75.161986606340,-6.839648167653,75.1642659070
+[     5s] 12 tiles: ['0744m046_ac51', '0744m061_ac51', '0747m076_ac51', '0750m091_ac51', '0759m046_ac51', '0759m061_ac51', '0762m076_ac51', '0765m091_ac51', '0774m046_ac51', '0774m061_ac51', '0777m076_ac51', '0781m091_ac51']
+[    21s] W1 0744m046_ac51: 19659 px on the grid
+[    31s] W1 0744m061_ac51: 1160857 px on the grid
+[    41s] W1 0747m076_ac51: 1895708 px on the grid
+[    52s] W1 0750m091_ac51: 323569 px on the grid
+[    62s] W1 0759m046_ac51: 56651 px on the grid
+[    72s] W1 0759m061_ac51: 3469282 px on the grid
+[    82s] W1 0762m076_ac51: 3524607 px on the grid
+[    93s] W1 0765m091_ac51: 439586 px on the grid
+[   103s] W1 0774m046_ac51: 45241 px on the grid
+[   114s] W1 0774m061_ac51: 2706842 px on the grid
+[   124s] W1 0777m076_ac51: 2024435 px on the grid
+[   134s] W1 0781m091_ac51: 159623 px on the grid
+[   134s] W1 tile offsets: -0.00, -0.15, -0.09, 0.00, 0.00, 0.03, 0.05, -0.17, -0.00, 0.24, 0.09, -0.00
+[   135s] ltech.edu/ibe/data/wise/allwise/p3am_cdd/07/0744/0744m061_ac51/0744m061_ac51-w2-int-3.fits: attempt 1 failed: <urlopen error [Errno 104] Connection reset by peer>
+[   135s] ltech.edu/ibe/data/wise/allwise/p3am_cdd/07/0750/0750m091_ac51/0750m091_ac51-w2-int-3.fits: attempt 1 failed: <urlopen error [Errno 104] Connection reset by peer>
+[   137s] ltech.edu/ibe/data/wise/allwise/p3am_cdd/07/0765/0765m091_ac51/0765m091_ac51-w2-int-3.fits: attempt 1 failed: <urlopen error [Errno 104] Connection reset by peer>
+[   155s] W2 0744m046_ac51: 19659 px on the grid
+[   166s] W2 0744m061_ac51: 1160857 px on the grid
+[   176s] W2 0747m076_ac51: 1895708 px on the grid
+[   186s] W2 0750m091_ac51: 323569 px on the grid
+[   196s] W2 0759m046_ac51: 56651 px on the grid
+[   207s] W2 0759m061_ac51: 3469282 px on the grid
+[   217s] W2 0762m076_ac51: 3524607 px on the grid
+[   227s] W2 0765m091_ac51: 439586 px on the grid
+[   238s] W2 0774m046_ac51: 45241 px on the grid
+[   248s] W2 0774m061_ac51: 2706842 px on the grid
+[   258s] W2 0777m076_ac51: 2024435 px on the grid
+[   268s] W2 0781m091_ac51: 159623 px on the grid
+[   269s] W2 tile offsets: 0.00, 0.75, -0.79, -0.00, 0.00, 0.53, -0.32, -0.55, -0.00, 0.54, -0.16, -0.00
+[   269s] ltech.edu/ibe/data/wise/allwise/p3am_cdd/07/0747/0747m076_ac51/0747m076_ac51-w3-int-3.fits: attempt 1 failed: <urlopen error [Errno 104] Connection reset by peer>
+[   271s] ltech.edu/ibe/data/wise/allwise/p3am_cdd/07/0759/0759m046_ac51/0759m046_ac51-w3-int-3.fits: attempt 1 failed: <urlopen error [Errno 104] Connection reset by peer>
+[   290s] W3 0744m046_ac51: 19659 px on the grid
+[   300s] W3 0744m061_ac51: 1160857 px on the grid
+[   310s] W3 0747m076_ac51: 1895708 px on the grid
+[   320s] W3 0750m091_ac51: 323569 px on the grid
+[   331s] W3 0759m046_ac51: 56651 px on the grid
+[   341s] W3 0759m061_ac51: 3469282 px on the grid
+[   351s] W3 0762m076_ac51: 3524607 px on the grid
+[   361s] W3 0765m091_ac51: 439586 px on the grid
+[   372s] W3 0774m046_ac51: 45241 px on the grid
+[   382s] W3 0774m061_ac51: 2706847 px on the grid
+[   392s] W3 0777m076_ac51: 2024435 px on the grid
+[   402s] W3 0781m091_ac51: 159623 px on the grid
+[   403s] W3 tile offsets: 0.00, 27.09, 6.84, -0.00, 0.00, 12.01, -12.48, -29.32, 0.00, 13.25, -17.39, 0.00
+[   403s] ltech.edu/ibe/data/wise/allwise/p3am_cdd/07/0747/0747m076_ac51/0747m076_ac51-w4-int-3.fits: attempt 1 failed: <urlopen error [Errno 104] Connection reset by peer>
+[   411s] ltech.edu/ibe/data/wise/allwise/p3am_cdd/07/0762/0762m076_ac51/0762m076_ac51-w4-int-3.fits: attempt 1 failed: <urlopen error [Errno 104] Connection reset by peer>
+[   416s] ltech.edu/ibe/data/wise/allwise/p3am_cdd/07/0762/0762m076_ac51/0762m076_ac51-w4-int-3.fits: attempt 2 failed: <urlopen error [Errno 104] Connection reset by peer>
+[   434s] W4 0744m046_ac51: 19659 px on the grid
+[   444s] W4 0744m061_ac51: 1160857 px on the grid
+[   455s] W4 0747m076_ac51: 1895708 px on the grid
+[   465s] W4 0750m091_ac51: 323569 px on the grid
+[   475s] W4 0759m046_ac51: 56651 px on the grid
+[   485s] W4 0759m061_ac51: 3469282 px on the grid
+[   496s] W4 0762m076_ac51: 3524607 px on the grid
+[   506s] W4 0765m091_ac51: 439586 px on the grid
+[   516s] W4 0774m046_ac51: 45241 px on the grid
+[   526s] W4 0774m061_ac51: 2706847 px on the grid
+[   537s] W4 0777m076_ac51: 2024435 px on the grid
+[   547s] W4 0781m091_ac51: 159623 px on the grid
+[   547s] W4 tile offsets: 0.00, 5.12, 1.30, 0.00, 0.00, 3.15, -2.05, -6.38, 0.00, 2.10, -3.24, 0.00
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/astropy/visualization/lupton_rgb.py:645: RuntimeWarning: invalid value encountered in divide
+  fInorm = np.where(Int <= 0, 0, np.true_divide(fI, Int))
+[   580s] 18 pictures
