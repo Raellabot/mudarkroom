@@ -1,0 +1,10 @@
+field hourglass: ra 204.896 dec -67.371 radius 0.05 deg
+== Chandra (Chandra Data Archive)
+1 public observations within 0.05 deg
+obsid 2576 | PNMYCN18 | ACIS-S | grating NONE | TE | 39.5 ks | events 412780 | proposal 03200776 | released 2004-01-07 | 204.8946 -67.3808 | evt2 0 MB https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao03/cat2/2576/primary/acisf02576N004_evt2.fits.gz
+    image acisf02576N004_cntr_img2.fits | 0.2-20.0 keV | 2.2 MB
+    image acisf02576N004_full_img2.fits | 0.2-20.0 keV | 0.4 MB
+imaging exposure without a grating: 39.5 ks in total
+== Hubble and Webb (MAST)
+735 rows from MAST, 13 public single-filter level-3 image mosaics
+HST|6221 | MYCN18 | WFPC2/PC | 6 filters | total 1.4 GB | detection 0.23 GB 3600 s, F502N 0.23 GB 1400 s, F547M 0.23 GB 200 s, F631N 0.23 GB 700 s, F656N 0.23 GB 600 s, F658N 0.23 GB 700 s
