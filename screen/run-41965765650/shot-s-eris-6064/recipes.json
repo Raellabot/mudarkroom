@@ -1,0 +1,71 @@
+[
+ {
+  "picture": "s-eris-6064-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "JWST",
+  "target": "Eris",
+  "proposal_id": "6064",
+  "instrument": "NIRCAM/IMAGE",
+  "title": "Constraining the dynamical evolution of the outer solar system with trans-Neptunian binaries",
+  "grid": {
+   "width": 405,
+   "height": 407,
+   "reduction": 1,
+   "arcsec_per_pixel": 0.06242121072806329,
+   "reference_filter": "F300M"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F070W",
+    "center_nm": 701.0,
+    "color": "#1a4cff",
+    "obs_id": "jw06064-o011_t009_nircam_clear-f070w-sub400p",
+    "exposure_s": 834.743,
+    "product": "mast:JWST/product/jw06064-o011_t009_nircam_clear-f070w-sub400p_i2d.fits"
+   },
+   {
+    "filter": "F115W",
+    "center_nm": 1147.5,
+    "color": "#00e6ff",
+    "obs_id": "jw06064-o011_t009_nircam_clear-f115w-sub400p",
+    "exposure_s": 1646.302,
+    "product": "mast:JWST/product/jw06064-o011_t009_nircam_clear-f115w-sub400p_i2d.fits"
+   },
+   {
+    "filter": "F210M",
+    "center_nm": 2096.5,
+    "color": "#1aff33",
+    "obs_id": "jw06064-o011_t009_nircam_clear-f210m-sub400p",
+    "exposure_s": 4498.347,
+    "product": "mast:JWST/product/jw06064-o011_t009_nircam_clear-f210m-sub400p_i2d.fits"
+   },
+   {
+    "filter": "F300M",
+    "center_nm": 2992.0,
+    "color": "#ff800d",
+    "obs_id": "jw06064-o011_t009_nircam_clear-f300m-sub400p",
+    "exposure_s": 4498.347,
+    "product": "mast:JWST/product/jw06064-o011_t009_nircam_clear-f300m-sub400p_i2d.fits"
+   },
+   {
+    "filter": "F360M",
+    "center_nm": 3620.5,
+    "color": "#ff1a1a",
+    "obs_id": "jw06064-o011_t009_nircam_clear-f360m-sub400p",
+    "exposure_s": 1646.302,
+    "product": "mast:JWST/product/jw06064-o011_t009_nircam_clear-f360m-sub400p_i2d.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

@@ -1,0 +1,71 @@
+[
+ {
+  "picture": "s-ngc-4861-12497-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "NGC-4861",
+  "proposal_id": "12497",
+  "instrument": "WFC3/UVIS",
+  "title": "Constraining Stellar Feedback : A Census of Shock-ionized Gas in Nearby Starbursts Galaxies.",
+  "grid": {
+   "width": 1032,
+   "height": 1098,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.15848000347614213,
+   "reference_filter": "F673N"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F487N",
+    "center_nm": 487.2,
+    "color": "#1a4cff",
+    "obs_id": "ibse02010",
+    "exposure_s": 2676,
+    "product": "mast:HST/product/ibse02010_drz.fits"
+   },
+   {
+    "filter": "F502N",
+    "center_nm": 501.1,
+    "color": "#00e6ff",
+    "obs_id": "ibse02040",
+    "exposure_s": 1200,
+    "product": "mast:HST/product/ibse02040_drz.fits"
+   },
+   {
+    "filter": "F547M",
+    "center_nm": 547.0,
+    "color": "#1aff33",
+    "obs_id": "ibse02050",
+    "exposure_s": 1338,
+    "product": "mast:HST/product/ibse02050_drz.fits"
+   },
+   {
+    "filter": "F673N",
+    "center_nm": 676.9,
+    "color": "#ff800d",
+    "obs_id": "ibse02020",
+    "exposure_s": 2787,
+    "product": "mast:HST/product/ibse02020_drz.fits"
+   },
+   {
+    "filter": "F814W",
+    "center_nm": 831.9,
+    "color": "#ff1a1a",
+    "obs_id": "ibse02060",
+    "exposure_s": 1044,
+    "product": "mast:HST/product/ibse02060_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

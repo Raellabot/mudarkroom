@@ -1,0 +1,71 @@
+[
+ {
+  "picture": "s-denis0205-1159-11136-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "DENIS0205-1159",
+  "proposal_id": "11136",
+  "instrument": "NICMOS/NIC1",
+  "title": "Resolving Ultracool Astrophysics with Brown Dwarf Binaries",
+  "grid": {
+   "width": 316,
+   "height": 286,
+   "reduction": 1,
+   "arcsec_per_pixel": 0.043210971119712394,
+   "reference_filter": "F090M"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F090M",
+    "center_nm": 905.4,
+    "color": "#1a4cff",
+    "obs_id": "na2602010",
+    "exposure_s": 880,
+    "product": "mast:HST/product/na2602010_mos.fits"
+   },
+   {
+    "filter": "F110M",
+    "center_nm": 1103.6,
+    "color": "#00e6ff",
+    "obs_id": "na2602020",
+    "exposure_s": 119.938,
+    "product": "mast:HST/product/na2602020_mos.fits"
+   },
+   {
+    "filter": "F110W",
+    "center_nm": 1136.0,
+    "color": "#1aff33",
+    "obs_id": "na2602070",
+    "exposure_s": 14.955,
+    "product": "mast:HST/product/na2602070_mos.fits"
+   },
+   {
+    "filter": "F145M",
+    "center_nm": 1456.3,
+    "color": "#ff800d",
+    "obs_id": "na2602050",
+    "exposure_s": 319.969002,
+    "product": "mast:HST/product/na2602050_mos.fits"
+   },
+   {
+    "filter": "F170M",
+    "center_nm": 1707.1,
+    "color": "#ff1a1a",
+    "obs_id": "na2602060",
+    "exposure_s": 159.969,
+    "product": "mast:HST/product/na2602060_mos.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

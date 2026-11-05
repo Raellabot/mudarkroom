@@ -1,0 +1,20 @@
+[     0s] == s-ecliptic-ra60-1063: 5 filters: ['F115W', 'F150W2', 'F210M', 'F277W', 'F322W2']
+[     1s] F115W: file is 3.1 GB, over the 3.0 GB cap; this filter is left out
+[     1s] F150W2: file is 3.1 GB, over the 3.0 GB cap; this filter is left out
+[     2s] F210M: file is 3.0 GB, over the 3.0 GB cap; this filter is left out
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set DATE-BEG to '2022-04-04T09:29:07.420' from MJD-BEG.
+Set DATE-AVG to '2022-04-04T10:48:09.894' from MJD-AVG.
+Set DATE-END to '2022-04-04T11:51:58.411' from MJD-END'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'obsfix' made the change 'Set OBSGEO-L to  -164.065136 from OBSGEO-[XYZ].
+Set OBSGEO-B to    11.824286 from OBSGEO-[XYZ].
+Set OBSGEO-H to 1216096139.560 from OBSGEO-[XYZ]'. [astropy.wcs.wcs]
+[     3s] F277W: 5639x2881 px at 0.0630 arcsec/px, 520 MB
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set DATE-BEG to '2022-04-04T12:02:47.827' from MJD-BEG.
+Set DATE-AVG to '2022-04-04T13:21:36.149' from MJD-AVG.
+Set DATE-END to '2022-04-04T14:25:07.458' from MJD-END'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'obsfix' made the change 'Set OBSGEO-L to  -163.979257 from OBSGEO-[XYZ].
+Set OBSGEO-B to    11.793859 from OBSGEO-[XYZ].
+Set OBSGEO-H to 1216098391.792 from OBSGEO-[XYZ]'. [astropy.wcs.wcs]
+[     3s] F322W2: 5639x2881 px at 0.0630 arcsec/px, 520 MB
+[     3s] s-ecliptic-ra60-1063 failed: fewer than three filters can be used
+[     3s] done: 0 pictures

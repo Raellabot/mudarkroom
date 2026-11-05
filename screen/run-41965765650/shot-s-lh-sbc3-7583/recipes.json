@@ -1,0 +1,71 @@
+[
+ {
+  "picture": "s-lh-sbc3-7583-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "JWST",
+  "target": "LH-SBC3",
+  "proposal_id": "7583",
+  "instrument": "NIRCAM/IMAGE",
+  "title": "Unique H-alpha imaging of a z=3.95 starbursting protocluster",
+  "grid": {
+   "width": 1119,
+   "height": 509,
+   "reduction": 9,
+   "arcsec_per_pixel": 0.28103459684460197,
+   "reference_filter": "F200W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F115W",
+    "center_nm": 1147.5,
+    "color": "#1a4cff",
+    "obs_id": "jw07583-o001_t001_nircam_clear-f115w",
+    "exposure_s": 4208.812,
+    "product": "mast:JWST/product/jw07583-o001_t001_nircam_clear-f115w_i2d.fits"
+   },
+   {
+    "filter": "F150W",
+    "center_nm": 1499.5,
+    "color": "#00e6ff",
+    "obs_id": "jw07583-o001_t001_nircam_clear-f150w",
+    "exposure_s": 4208.812,
+    "product": "mast:JWST/product/jw07583-o001_t001_nircam_clear-f150w_i2d.fits"
+   },
+   {
+    "filter": "F200W",
+    "center_nm": 1990.5,
+    "color": "#1aff33",
+    "obs_id": "jw07583-o001_t001_nircam_clear-f200w",
+    "exposure_s": 6270.271999999999,
+    "product": "mast:JWST/product/jw07583-o001_t001_nircam_clear-f200w_i2d.fits"
+   },
+   {
+    "filter": "F322W2",
+    "center_nm": 3221.5,
+    "color": "#ff800d",
+    "obs_id": "jw07583-o001_t001_nircam_clear-f322w2",
+    "exposure_s": 2061.46,
+    "product": "mast:JWST/product/jw07583-o001_t001_nircam_clear-f322w2_i2d.fits"
+   },
+   {
+    "filter": "F444W",
+    "center_nm": 4433.0,
+    "color": "#ff1a1a",
+    "obs_id": "jw07583-o001_t001_nircam_clear-f444w",
+    "exposure_s": 2061.46,
+    "product": "mast:JWST/product/jw07583-o001_t001_nircam_clear-f444w_i2d.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

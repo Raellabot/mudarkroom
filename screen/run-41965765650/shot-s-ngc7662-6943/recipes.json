@@ -1,0 +1,71 @@
+[
+ {
+  "picture": "s-ngc7662-6943-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "NGC7662",
+  "proposal_id": "6943",
+  "instrument": "WFPC2/PC",
+  "title": "WFPC2 Cycle 6: Throughput Verification for Narrow Band Filters",
+  "grid": {
+   "width": 1128,
+   "height": 1132,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.18216399999999383,
+   "reference_filter": "F673N"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F375N",
+    "center_nm": 373.2,
+    "color": "#1a4cff",
+    "obs_id": "u3z00801m",
+    "exposure_s": 200,
+    "product": "mast:HST/product/u3z00801m_drw.fits"
+   },
+   {
+    "filter": "F502N",
+    "center_nm": 501.2,
+    "color": "#00e6ff",
+    "obs_id": "u3z00803m",
+    "exposure_s": 100,
+    "product": "mast:HST/product/u3z00803m_drw.fits"
+   },
+   {
+    "filter": "F631N",
+    "center_nm": 630.6,
+    "color": "#1aff33",
+    "obs_id": "u3z00807m",
+    "exposure_s": 300,
+    "product": "mast:HST/product/u3z00807m_drw.fits"
+   },
+   {
+    "filter": "F656N",
+    "center_nm": 656.4,
+    "color": "#ff800d",
+    "obs_id": "u3z00804m",
+    "exposure_s": 100,
+    "product": "mast:HST/product/u3z00804m_drw.fits"
+   },
+   {
+    "filter": "F673N",
+    "center_nm": 673.2,
+    "color": "#ff1a1a",
+    "obs_id": "u3z00805m",
+    "exposure_s": 260,
+    "product": "mast:HST/product/u3z00805m_drw.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

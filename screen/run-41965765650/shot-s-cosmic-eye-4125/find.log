@@ -1,0 +1,3 @@
+  page 1/1 rows so far 24 of 24
+JWST|COSMIC.EYE|4125|NIRSPEC/IFU|2  rows=16  filters=['CLEAR;PRISM', 'F170LP;G235M']
+JWST|COSMIC.EYE|4125|NIRCAM/IMAGE|3  rows=6  filters=['F115W', 'F150W', 'F182M', 'F277W', 'F356W', 'F444W']

@@ -1,0 +1,55 @@
+[
+ {
+  "picture": "s-s305-offset-4547-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "JWST",
+  "target": "S305_offset",
+  "proposal_id": "4547",
+  "instrument": "NIRCAM/IMAGE",
+  "title": "The stellar & sub-stellar initial mass function in Sharpless 305: imaging",
+  "grid": {
+   "width": 1030,
+   "height": 927,
+   "reduction": 7,
+   "arcsec_per_pixel": 0.4403428210053255,
+   "reference_filter": "F444W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F300M",
+    "center_nm": 2992.0,
+    "color": "#1a4cff",
+    "obs_id": "jw04547-o001_t001_nircam_clear-f300m",
+    "exposure_s": 3092.183999999998,
+    "product": "mast:JWST/product/jw04547-o001_t001_nircam_clear-f300m_i2d.fits"
+   },
+   {
+    "filter": "F335M",
+    "center_nm": 3357.5,
+    "color": "#1aff33",
+    "obs_id": "jw04547-o001_t001_nircam_clear-f335m",
+    "exposure_s": 3092.183999999998,
+    "product": "mast:JWST/product/jw04547-o001_t001_nircam_clear-f335m_i2d.fits"
+   },
+   {
+    "filter": "F444W",
+    "center_nm": 4433.0,
+    "color": "#ff1a1a",
+    "obs_id": "jw04547-o001_t001_nircam_clear-f444w",
+    "exposure_s": 3092.183999999998,
+    "product": "mast:JWST/product/jw04547-o001_t001_nircam_clear-f444w_i2d.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

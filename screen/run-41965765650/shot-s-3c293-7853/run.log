@@ -1,0 +1,22 @@
+[     0s] == s-3c293-7853: 5 filters: ['F160W', 'F171M', 'F180M', 'POL240L', 'POL120L']
+[     0s] F160W: 302x256 px at 0.0757 arcsec/px, 1 MB
+[     0s] F171M: 302x256 px at 0.0757 arcsec/px, 1 MB
+[     1s] F180M: 302x256 px at 0.0757 arcsec/px, 1 MB
+[     1s] POL240L: 302x256 px at 0.0757 arcsec/px, 1 MB
+[     1s] POL120L: 302x256 px at 0.0757 arcsec/px, 1 MB
+[     1s] grid from F160W: 302x256 px (reduced 1x), 0.076 arcsec/px
+[     1s] downloaded n4ug03010_mos.fits: 1 MB
+[     1s] F160W: aligned (reduced 1x), covers 99% of the grid
+[     1s] downloaded n4ug04010_mos.fits: 1 MB
+[     1s] F171M: aligned (reduced 1x), covers 98% of the grid
+[     1s] downloaded n4ug04030_mos.fits: 1 MB
+[     1s] F180M: aligned (reduced 1x), covers 98% of the grid
+[     2s] downloaded n4ug03040_mos.fits: 1 MB
+[     2s] POL240L: aligned (reduced 1x), covers 99% of the grid
+[     2s] downloaded n4ug03030_mos.fits: 1 MB
+[     2s] POL120L: aligned (reduced 1x), covers 99% of the grid
+[     2s] s-3c293-7853: finishing steps applied: ['dense']
+[     2s] cropped to 288x246 px where 5 of 5 filters have data
+/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/astropy/visualization/lupton_rgb.py:645: RuntimeWarning: invalid value encountered in divide
+  fInorm = np.where(Int <= 0, 0, np.true_divide(fI, Int))
+[     2s] done: 1 pictures

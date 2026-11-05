@@ -1,0 +1,22 @@
+[     0s] == s-denis0205-1159-11136: 5 filters: ['F090M', 'F110M', 'F110W', 'F145M', 'F170M']
+[     0s] F090M: 316x286 px at 0.0432 arcsec/px, 2 MB
+[     0s] F110M: 316x286 px at 0.0432 arcsec/px, 2 MB
+[     0s] F110W: 316x286 px at 0.0432 arcsec/px, 2 MB
+[     0s] F145M: 316x286 px at 0.0432 arcsec/px, 2 MB
+[     1s] F170M: 316x286 px at 0.0432 arcsec/px, 2 MB
+[     1s] grid from F090M: 316x286 px (reduced 1x), 0.043 arcsec/px
+[     1s] downloaded na2602010_mos.fits: 2 MB
+[     1s] F090M: aligned (reduced 1x), covers 98% of the grid
+[     1s] downloaded na2602020_mos.fits: 2 MB
+[     1s] F110M: aligned (reduced 1x), covers 98% of the grid
+[     1s] downloaded na2602070_mos.fits: 2 MB
+[     1s] F110W: aligned (reduced 1x), covers 98% of the grid
+[     1s] downloaded na2602050_mos.fits: 2 MB
+[     1s] F145M: aligned (reduced 1x), covers 98% of the grid
+[     1s] downloaded na2602060_mos.fits: 2 MB
+[     1s] F170M: aligned (reduced 1x), covers 98% of the grid
+[     1s] s-denis0205-1159-11136: finishing steps applied: ['dense']
+[     1s] cropped to 285x263 px where 5 of 5 filters have data
+/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/astropy/visualization/lupton_rgb.py:645: RuntimeWarning: invalid value encountered in divide
+  fInorm = np.where(Int <= 0, 0, np.true_divide(fI, Int))
+[     1s] done: 1 pictures

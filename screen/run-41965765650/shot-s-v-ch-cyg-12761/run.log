@@ -1,0 +1,22 @@
+[     0s] == s-v-ch-cyg-12761: 5 filters: ['F275W', 'F336W', 'F502N', 'F547M', 'F673N']
+[     0s] F275W: 1036x1091 px at 0.0396 arcsec/px, 14 MB
+[     1s] F336W: 1036x1091 px at 0.0396 arcsec/px, 14 MB
+[     1s] F502N: 1436x1457 px at 0.0396 arcsec/px, 25 MB
+[     1s] F547M: 1436x1457 px at 0.0396 arcsec/px, 25 MB
+[     2s] F673N: 1436x1457 px at 0.0396 arcsec/px, 25 MB
+[     2s] grid from F502N: 718x728 px (reduced 2x), 0.079 arcsec/px
+[     3s] downloaded ibum01050_drz.fits: 14 MB
+[     3s] F275W: aligned (reduced 1x), covers 51% of the grid
+[     3s] downloaded ibum01010_drz.fits: 14 MB
+[     3s] F336W: aligned (reduced 1x), covers 51% of the grid
+[     4s] downloaded hst_12761_01_wfc3_uvis_f502n_ibum01_drc.fits: 25 MB
+[     4s] F502N: aligned (reduced 2x), covers 51% of the grid
+[     5s] downloaded hst_12761_01_wfc3_uvis_f547m_ibum01_drc.fits: 25 MB
+[     5s] F547M: aligned (reduced 2x), covers 51% of the grid
+[     6s] downloaded hst_12761_01_wfc3_uvis_f673n_ibum01_drc.fits: 25 MB
+[     6s] F673N: aligned (reduced 2x), covers 51% of the grid
+[     6s] s-v-ch-cyg-12761: finishing steps applied: ['dense']
+[     6s] cropped to 396x364 px where 5 of 5 filters have data
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/astropy/visualization/lupton_rgb.py:645: RuntimeWarning: invalid value encountered in divide
+  fInorm = np.where(Int <= 0, 0, np.true_divide(fI, Int))
+[     7s] done: 1 pictures

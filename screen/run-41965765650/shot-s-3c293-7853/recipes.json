@@ -1,0 +1,71 @@
+[
+ {
+  "picture": "s-3c293-7853-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "3C293",
+  "proposal_id": "7853",
+  "instrument": "NICMOS/NIC2",
+  "title": "Deep IR imaging of two gas-rich radio galaxies",
+  "grid": {
+   "width": 302,
+   "height": 256,
+   "reduction": 1,
+   "arcsec_per_pixel": 0.07566099506676369,
+   "reference_filter": "F160W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F160W",
+    "center_nm": 1608.9,
+    "color": "#1a4cff",
+    "obs_id": "n4ug03010",
+    "exposure_s": 2176,
+    "product": "mast:HST/product/n4ug03010_mos.fits"
+   },
+   {
+    "filter": "F171M",
+    "center_nm": 1721.3,
+    "color": "#00e6ff",
+    "obs_id": "n4ug04010",
+    "exposure_s": 2176,
+    "product": "mast:HST/product/n4ug04010_mos.fits"
+   },
+   {
+    "filter": "F180M",
+    "center_nm": 1797.2,
+    "color": "#1aff33",
+    "obs_id": "n4ug04030",
+    "exposure_s": 2176,
+    "product": "mast:HST/product/n4ug04030_mos.fits"
+   },
+   {
+    "filter": "POL240L",
+    "center_nm": 2050.0,
+    "color": "#ff800d",
+    "obs_id": "n4ug03040",
+    "exposure_s": 2176,
+    "product": "mast:HST/product/n4ug03040_mos.fits"
+   },
+   {
+    "filter": "POL120L",
+    "center_nm": 2050.0,
+    "color": "#ff1a1a",
+    "obs_id": "n4ug03030",
+    "exposure_s": 2176,
+    "product": "mast:HST/product/n4ug03030_mos.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

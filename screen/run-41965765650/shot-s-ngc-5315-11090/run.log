@@ -1,0 +1,22 @@
+[     0s] == s-ngc-5315-11090: 5 filters: ['F439W', 'F555W', 'F656N', 'F658N', 'F673N']
+[     1s] F439W: 4213x4187 px at 0.0455 arcsec/px, 212 MB
+[     1s] F555W: 4213x4187 px at 0.0455 arcsec/px, 212 MB
+[     2s] F656N: 4213x4187 px at 0.0455 arcsec/px, 212 MB
+[     3s] F658N: 4213x4187 px at 0.0455 arcsec/px, 212 MB
+[     4s] F673N: 4213x4187 px at 0.0455 arcsec/px, 212 MB
+[     4s] grid from F673N: 1053x1046 px (reduced 4x), 0.182 arcsec/px
+[     9s] downloaded hst_11090_03_wfpc2_pc_f439w_u9ws03_drz.fits: 212 MB
+[    10s] F439W: aligned (reduced 4x), covers 51% of the grid
+[    15s] downloaded hst_11090_03_wfpc2_pc_f555w_u9ws03_drz.fits: 212 MB
+[    15s] F555W: aligned (reduced 4x), covers 51% of the grid
+[    22s] downloaded hst_11090_03_wfpc2_pc_f656n_u9ws03_drz.fits: 212 MB
+[    22s] F656N: aligned (reduced 4x), covers 51% of the grid
+[    27s] downloaded hst_11090_03_wfpc2_pc_f658n_u9ws03_drz.fits: 212 MB
+[    28s] F658N: aligned (reduced 4x), covers 51% of the grid
+[    33s] downloaded hst_11090_03_wfpc2_pc_f673n_u9ws03_drz.fits: 212 MB
+[    33s] F673N: aligned (reduced 4x), covers 51% of the grid
+[    34s] s-ngc-5315-11090: finishing steps applied: ['dense']
+[    34s] cropped to 418x557 px where 5 of 5 filters have data
+/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/astropy/visualization/lupton_rgb.py:645: RuntimeWarning: invalid value encountered in divide
+  fInorm = np.where(Int <= 0, 0, np.true_divide(fI, Int))
+[    34s] done: 1 pictures

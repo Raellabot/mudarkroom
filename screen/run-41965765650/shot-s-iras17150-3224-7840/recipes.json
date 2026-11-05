@@ -1,0 +1,71 @@
+[
+ {
+  "picture": "s-iras17150-3224-7840-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "IRAS17150-3224",
+  "proposal_id": "7840",
+  "instrument": "NICMOS/NIC2",
+  "title": "Near-IR Imaging and Polarimetry of Bipolar Proto-Planetary Nebulae",
+  "grid": {
+   "width": 276,
+   "height": 276,
+   "reduction": 1,
+   "arcsec_per_pixel": 0.07566094991675709,
+   "reference_filter": "F160W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F160W",
+    "center_nm": 1608.9,
+    "color": "#1a4cff",
+    "obs_id": "n4kq050s0",
+    "exposure_s": 1344,
+    "product": "mast:HST/product/n4kq050s0_mos.fits"
+   },
+   {
+    "filter": "POL120L",
+    "center_nm": 2050.0,
+    "color": "#00e6ff",
+    "obs_id": "n4kq050m0",
+    "exposure_s": 1344,
+    "product": "mast:HST/product/n4kq050m0_mos.fits"
+   },
+   {
+    "filter": "POL240L",
+    "center_nm": 2050.0,
+    "color": "#1aff33",
+    "obs_id": "n4kq050p0",
+    "exposure_s": 1344,
+    "product": "mast:HST/product/n4kq050p0_mos.fits"
+   },
+   {
+    "filter": "F212N",
+    "center_nm": 2121.3,
+    "color": "#ff800d",
+    "obs_id": "n4kq050d0",
+    "exposure_s": 816,
+    "product": "mast:HST/product/n4kq050d0_mos.fits"
+   },
+   {
+    "filter": "F222M",
+    "center_nm": 2218.4,
+    "color": "#ff1a1a",
+    "obs_id": "n4kq050v0",
+    "exposure_s": 2496,
+    "product": "mast:HST/product/n4kq050v0_mos.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

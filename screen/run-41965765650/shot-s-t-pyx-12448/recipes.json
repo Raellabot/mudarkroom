@@ -1,0 +1,71 @@
+[
+ {
+  "picture": "s-t-pyx-12448-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "T-PYX",
+  "proposal_id": "12448",
+  "instrument": "WFC3/UVIS",
+  "title": "Towards a Detailed Understanding of T Pyx, Its Outbursts and Shell",
+  "grid": {
+   "width": 1030,
+   "height": 1089,
+   "reduction": 2,
+   "arcsec_per_pixel": 0.0792400017380714,
+   "reference_filter": "F547M"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F225W",
+    "center_nm": 236.8,
+    "color": "#1a4cff",
+    "obs_id": "iboj12030",
+    "exposure_s": 1197,
+    "product": "mast:HST/product/iboj12030_drz.fits"
+   },
+   {
+    "filter": "F487N",
+    "center_nm": 487.2,
+    "color": "#00e6ff",
+    "obs_id": "iboj60020",
+    "exposure_s": 68,
+    "product": "mast:HST/product/iboj60020_drz.fits"
+   },
+   {
+    "filter": "F547M",
+    "center_nm": 547.0,
+    "color": "#1aff33",
+    "obs_id": "iboj23010",
+    "exposure_s": 5295,
+    "product": "mast:HST/product/iboj23010_drz.fits"
+   },
+   {
+    "filter": "F656N",
+    "center_nm": 656.2,
+    "color": "#ff800d",
+    "obs_id": "iboj60040",
+    "exposure_s": 268,
+    "product": "mast:HST/product/iboj60040_drz.fits"
+   },
+   {
+    "filter": "F600LP",
+    "center_nm": 797.5,
+    "color": "#ff1a1a",
+    "obs_id": "iboj17040",
+    "exposure_s": 40,
+    "product": "mast:HST/product/iboj17040_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

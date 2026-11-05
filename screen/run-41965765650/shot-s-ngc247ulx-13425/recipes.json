@@ -1,0 +1,71 @@
+[
+ {
+  "picture": "s-ngc247ulx-13425-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST+HST+HST",
+  "target": "NGC247ULX+NGC247ULX+NGC247ULX",
+  "proposal_id": "13425+13425+13425",
+  "instrument": "ACS/SBC+WFC3/IR+WFC3/UVIS",
+  "title": "Multiwavelength Test For A Standard Accretion Disk Around An Intermediate Mass Black Hole Candidate",
+  "grid": {
+   "width": 547,
+   "height": 487,
+   "reduction": 1,
+   "arcsec_per_pixel": 0.1282500028610226,
+   "reference_filter": "F160W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F165LP",
+    "center_nm": 182.5,
+    "color": "#1a4cff",
+    "obs_id": "jc8e01010",
+    "exposure_s": 152,
+    "product": "mast:HST/product/jc8e01010_drz.fits"
+   },
+   {
+    "filter": "F336W",
+    "center_nm": 336.6,
+    "color": "#00e6ff",
+    "obs_id": "ic8ea1020",
+    "exposure_s": 466,
+    "product": "mast:HST/product/ic8ea1020_drz.fits"
+   },
+   {
+    "filter": "F606W",
+    "center_nm": 594.0,
+    "color": "#1aff33",
+    "obs_id": "ic8ea1040",
+    "exposure_s": 96,
+    "product": "mast:HST/product/ic8ea1040_drz.fits"
+   },
+   {
+    "filter": "F814W",
+    "center_nm": 831.9,
+    "color": "#ff800d",
+    "obs_id": "ic8ea1050",
+    "exposure_s": 200,
+    "product": "mast:HST/product/ic8ea1050_drz.fits"
+   },
+   {
+    "filter": "F160W",
+    "center_nm": 1543.2,
+    "color": "#ff1a1a",
+    "obs_id": "ic8ea1070",
+    "exposure_s": 302.72174,
+    "product": "mast:HST/product/ic8ea1070_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

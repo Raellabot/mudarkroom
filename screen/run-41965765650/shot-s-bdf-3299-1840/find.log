@@ -1,0 +1,3 @@
+  page 1/1 rows so far 11 of 11
+JWST|BDF-3299|1840|NIRCAM/IMAGE|3  rows=6  filters=['F115W', 'F150W', 'F200W', 'F277W', 'F356W', 'F444W']
+JWST|BDF-3299|1840|NIRSPEC/IFU|2  rows=4  filters=['F290LP;G395M']

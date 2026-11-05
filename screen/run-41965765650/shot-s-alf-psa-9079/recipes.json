@@ -1,0 +1,71 @@
+[
+ {
+  "picture": "s-alf-psa-9079-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "JWST",
+  "target": "-alf-PsA",
+  "proposal_id": "9079",
+  "instrument": "NIRCAM/IMAGE",
+  "title": "JWST/NIRCam multi-color monitoring of a rare catastrophic collision directly imaged in a nearby planetary system",
+  "grid": {
+   "width": 1086,
+   "height": 1080,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.12298342255637747,
+   "reference_filter": "F090W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F090W",
+    "center_nm": 900.0,
+    "color": "#1a4cff",
+    "obs_id": "jw09079-o007_t001_nircam_clear-f090w",
+    "exposure_s": 2630.5099999999998,
+    "product": "mast:JWST/product/jw09079-o007_t001_nircam_clear-f090w_i2d.fits"
+   },
+   {
+    "filter": "F140M",
+    "center_nm": 1405.0,
+    "color": "#00e6ff",
+    "obs_id": "jw09079-o006_t001_nircam_clear-f140m",
+    "exposure_s": 2630.5099999999998,
+    "product": "mast:JWST/product/jw09079-o006_t001_nircam_clear-f140m_i2d.fits"
+   },
+   {
+    "filter": "F182M",
+    "center_nm": 1845.0,
+    "color": "#1aff33",
+    "obs_id": "jw09079-o003_t001_nircam_clear-f182m",
+    "exposure_s": 2630.5099999999998,
+    "product": "mast:JWST/product/jw09079-o003_t001_nircam_clear-f182m_i2d.fits"
+   },
+   {
+    "filter": "F300M",
+    "center_nm": 2992.0,
+    "color": "#ff800d",
+    "obs_id": "jw09079-o001_t001_nircam_clear-f300m",
+    "exposure_s": 2630.5099999999998,
+    "product": "mast:JWST/product/jw09079-o001_t001_nircam_clear-f300m_i2d.fits"
+   },
+   {
+    "filter": "F360M",
+    "center_nm": 3620.5,
+    "color": "#ff1a1a",
+    "obs_id": "jw09079-o007_t001_nircam_clear-f360m",
+    "exposure_s": 2630.5099999999998,
+    "product": "mast:JWST/product/jw09079-o007_t001_nircam_clear-f360m_i2d.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

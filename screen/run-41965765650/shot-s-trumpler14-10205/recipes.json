@@ -1,0 +1,71 @@
+[
+ {
+  "picture": "s-trumpler14-10205-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "TRUMPLER14",
+  "proposal_id": "10205",
+  "instrument": "ACS/HRC",
+  "title": "Critical STIS Spectroscopy and ACS Imagery at the Top of the IMF",
+  "grid": {
+   "width": 808,
+   "height": 785,
+   "reduction": 2,
+   "arcsec_per_pixel": 0.04999999999999982,
+   "reference_filter": "F502N"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F220W",
+    "center_nm": 242.5,
+    "color": "#1a4cff",
+    "obs_id": "j8yx01010",
+    "exposure_s": 1,
+    "product": "mast:HST/product/j8yx01010_drz.fits"
+   },
+   {
+    "filter": "F435W",
+    "center_nm": 425.0,
+    "color": "#00e6ff",
+    "obs_id": "j8yx01030",
+    "exposure_s": 0.2082,
+    "product": "mast:HST/product/j8yx01030_drz.fits"
+   },
+   {
+    "filter": "F502N",
+    "center_nm": 502.2,
+    "color": "#1aff33",
+    "obs_id": "hst_10205_01_acs_hrc_f502n_j8yx01",
+    "exposure_s": 122,
+    "product": "mast:HST/product/hst_10205_01_acs_hrc_f502n_j8yx01_drz.fits"
+   },
+   {
+    "filter": "F550M",
+    "center_nm": 558.0,
+    "color": "#ff800d",
+    "obs_id": "hst_10205_01_acs_hrc_f550m_j8yx01",
+    "exposure_s": 634.2082,
+    "product": "mast:HST/product/hst_10205_01_acs_hrc_f550m_j8yx01_drz.fits"
+   },
+   {
+    "filter": "F850LP",
+    "center_nm": 895.0,
+    "color": "#ff1a1a",
+    "obs_id": "hst_10205_01_acs_hrc_f850lp_j8yx01",
+    "exposure_s": 204.4,
+    "product": "mast:HST/product/hst_10205_01_acs_hrc_f850lp_j8yx01_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

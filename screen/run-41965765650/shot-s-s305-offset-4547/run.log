@@ -1,0 +1,54 @@
+[     0s] == s-s305-offset-4547: 5 filters: ['F140M', 'F212N', 'F300M', 'F335M', 'F444W']
+[     1s] F140M: file is 9.3 GB, over the 3.0 GB cap; this filter is left out
+[     1s] F212N: file is 9.3 GB, over the 3.0 GB cap; this filter is left out
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set DATE-BEG to '2025-03-31T07:33:13.067' from MJD-BEG.
+Set DATE-AVG to '2025-03-31T10:57:43.660' from MJD-AVG.
+Set DATE-END to '2025-03-31T14:23:32.636' from MJD-END'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'obsfix' made the change 'Set OBSGEO-L to  -151.126265 from OBSGEO-[XYZ].
+Set OBSGEO-B to     1.783207 from OBSGEO-[XYZ].
+Set OBSGEO-H to 1249887569.833 from OBSGEO-[XYZ]'. [astropy.wcs.wcs]
+[     2s] F300M: 7217x6489 px at 0.0629 arcsec/px, 1499 MB
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set DATE-BEG to '2025-03-31T08:27:15.496' from MJD-BEG.
+Set DATE-AVG to '2025-03-31T11:51:50.463' from MJD-AVG.
+Set DATE-END to '2025-03-31T15:17:13.753' from MJD-END'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'obsfix' made the change 'Set OBSGEO-L to  -151.057319 from OBSGEO-[XYZ].
+Set OBSGEO-B to     1.745113 from OBSGEO-[XYZ].
+Set OBSGEO-H to 1250186564.579 from OBSGEO-[XYZ]'. [astropy.wcs.wcs]
+[     2s] F335M: 7216x6489 px at 0.0629 arcsec/px, 1499 MB
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set DATE-BEG to '2025-03-31T08:09:43.273' from MJD-BEG.
+Set DATE-AVG to '2025-03-31T11:34:04.827' from MJD-AVG.
+Set DATE-END to '2025-03-31T14:59:41.466' from MJD-END'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'obsfix' made the change 'Set OBSGEO-L to  -151.079686 from OBSGEO-[XYZ].
+Set OBSGEO-B to     1.757474 from OBSGEO-[XYZ].
+Set OBSGEO-H to 1250089437.433 from OBSGEO-[XYZ]'. [astropy.wcs.wcs]
+[     3s] F444W: 7216x6489 px at 0.0629 arcsec/px, 1499 MB
+[     3s] grid from F444W: 1030x927 px (reduced 7x), 0.440 arcsec/px
+[   190s] downloaded jw04547-o001_t001_nircam_clear-f300m_i2d.fits: 1499 MB
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set DATE-BEG to '2025-03-31T07:33:13.067' from MJD-BEG.
+Set DATE-AVG to '2025-03-31T10:57:43.660' from MJD-AVG.
+Set DATE-END to '2025-03-31T14:23:32.636' from MJD-END'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'obsfix' made the change 'Set OBSGEO-L to  -151.126265 from OBSGEO-[XYZ].
+Set OBSGEO-B to     1.783207 from OBSGEO-[XYZ].
+Set OBSGEO-H to 1249887569.833 from OBSGEO-[XYZ]'. [astropy.wcs.wcs]
+[   191s] F300M: aligned (reduced 7x), covers 98% of the grid
+[   555s] downloaded jw04547-o001_t001_nircam_clear-f335m_i2d.fits: 1499 MB
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set DATE-BEG to '2025-03-31T08:27:15.496' from MJD-BEG.
+Set DATE-AVG to '2025-03-31T11:51:50.463' from MJD-AVG.
+Set DATE-END to '2025-03-31T15:17:13.753' from MJD-END'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'obsfix' made the change 'Set OBSGEO-L to  -151.057319 from OBSGEO-[XYZ].
+Set OBSGEO-B to     1.745113 from OBSGEO-[XYZ].
+Set OBSGEO-H to 1250186564.579 from OBSGEO-[XYZ]'. [astropy.wcs.wcs]
+[   556s] F335M: aligned (reduced 7x), covers 98% of the grid
+[   836s] downloaded jw04547-o001_t001_nircam_clear-f444w_i2d.fits: 1499 MB
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set DATE-BEG to '2025-03-31T08:09:43.273' from MJD-BEG.
+Set DATE-AVG to '2025-03-31T11:34:04.827' from MJD-AVG.
+Set DATE-END to '2025-03-31T14:59:41.466' from MJD-END'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'obsfix' made the change 'Set OBSGEO-L to  -151.079686 from OBSGEO-[XYZ].
+Set OBSGEO-B to     1.757474 from OBSGEO-[XYZ].
+Set OBSGEO-H to 1250089437.433 from OBSGEO-[XYZ]'. [astropy.wcs.wcs]
+[   837s] F444W: aligned (reduced 7x), covers 98% of the grid
+[   838s] s-s305-offset-4547: finishing steps applied: ['dense']
+[   838s] cropped to 1002x902 px where 3 of 3 filters have data
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/astropy/visualization/lupton_rgb.py:645: RuntimeWarning: invalid value encountered in divide
+  fInorm = np.where(Int <= 0, 0, np.true_divide(fI, Int))
+[   838s] done: 1 pictures

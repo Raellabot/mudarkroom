@@ -1,0 +1,71 @@
+[
+ {
+  "picture": "s-1rxsj1609-12507-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "1RXSJ1609",
+  "proposal_id": "12507",
+  "instrument": "WFC3/UVIS",
+  "title": "The Formation and Fundamental Properties of Wide Planetary-Mass Companions",
+  "grid": {
+   "width": 1032,
+   "height": 1089,
+   "reduction": 1,
+   "arcsec_per_pixel": 0.03962000086903566,
+   "reference_filter": "F390W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F390W",
+    "center_nm": 387.1,
+    "color": "#1a4cff",
+    "obs_id": "ibsm23010",
+    "exposure_s": 2640,
+    "product": "mast:HST/product/ibsm23010_drz.fits"
+   },
+   {
+    "filter": "F555W",
+    "center_nm": 550.4,
+    "color": "#00e6ff",
+    "obs_id": "ibsm23050",
+    "exposure_s": 640,
+    "product": "mast:HST/product/ibsm23050_drz.fits"
+   },
+   {
+    "filter": "F625W",
+    "center_nm": 627.4,
+    "color": "#1aff33",
+    "obs_id": "ibsm23030",
+    "exposure_s": 320,
+    "product": "mast:HST/product/ibsm23030_drz.fits"
+   },
+   {
+    "filter": "F656N",
+    "center_nm": 656.2,
+    "color": "#ff800d",
+    "obs_id": "ibsm23020",
+    "exposure_s": 2200,
+    "product": "mast:HST/product/ibsm23020_drz.fits"
+   },
+   {
+    "filter": "F850LP",
+    "center_nm": 924.4,
+    "color": "#ff1a1a",
+    "obs_id": "ibsm23040",
+    "exposure_s": 120,
+    "product": "mast:HST/product/ibsm23040_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

@@ -1,0 +1,20 @@
+[     0s] == s-cluster-nircam-12491: 5 filters: ['F115W', 'F187N', 'F200W', 'F335M', 'F444W']
+[     1s] F115W: file is 6.3 GB, over the 3.0 GB cap; this filter is left out
+[     1s] F187N: file is 6.3 GB, over the 3.0 GB cap; this filter is left out
+[     2s] F200W: file is 6.3 GB, over the 3.0 GB cap; this filter is left out
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set DATE-BEG to '2025-12-17T12:09:24.868' from MJD-BEG.
+Set DATE-AVG to '2025-12-17T13:54:53.309' from MJD-AVG.
+Set DATE-END to '2025-12-17T15:40:28.890' from MJD-END'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'obsfix' made the change 'Set OBSGEO-L to    85.349827 from OBSGEO-[XYZ].
+Set OBSGEO-B to    10.888546 from OBSGEO-[XYZ].
+Set OBSGEO-H to 1691048588.310 from OBSGEO-[XYZ]'. [astropy.wcs.wcs]
+[     3s] F335M: 5688x6035 px at 0.0629 arcsec/px, 1099 MB
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set DATE-BEG to '2025-12-17T12:35:43.204' from MJD-BEG.
+Set DATE-AVG to '2025-12-17T14:20:07.219' from MJD-AVG.
+Set DATE-END to '2025-12-17T16:04:38.360' from MJD-END'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'obsfix' made the change 'Set OBSGEO-L to    85.350829 from OBSGEO-[XYZ].
+Set OBSGEO-B to    10.888031 from OBSGEO-[XYZ].
+Set OBSGEO-H to 1691039863.983 from OBSGEO-[XYZ]'. [astropy.wcs.wcs]
+[     3s] F444W: 5688x6035 px at 0.0629 arcsec/px, 1099 MB
+[     3s] s-cluster-nircam-12491 failed: fewer than three filters can be used
+[     3s] done: 0 pictures

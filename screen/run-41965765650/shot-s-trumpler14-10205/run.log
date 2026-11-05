@@ -1,0 +1,22 @@
+[     0s] == s-trumpler14-10205: 5 filters: ['F220W', 'F435W', 'F502N', 'F550M', 'F850LP']
+[     1s] F220W: 1239x1144 px at 0.0250 arcsec/px, 17 MB
+[     1s] F435W: 1239x1144 px at 0.0250 arcsec/px, 17 MB
+[     2s] F502N: 1616x1571 px at 0.0250 arcsec/px, 31 MB
+[     3s] F550M: 1616x1571 px at 0.0250 arcsec/px, 31 MB
+[     3s] F850LP: 1616x1571 px at 0.0250 arcsec/px, 31 MB
+[     3s] grid from F502N: 808x785 px (reduced 2x), 0.050 arcsec/px
+[     5s] downloaded j8yx01010_drz.fits: 17 MB
+[     5s] F220W: aligned (reduced 1x), covers 50% of the grid
+[     6s] downloaded j8yx01030_drz.fits: 17 MB
+[     6s] F435W: aligned (reduced 1x), covers 50% of the grid
+[     7s] downloaded hst_10205_01_acs_hrc_f502n_j8yx01_drz.fits: 31 MB
+[     8s] F502N: aligned (reduced 2x), covers 52% of the grid
+[     9s] downloaded hst_10205_01_acs_hrc_f550m_j8yx01_drz.fits: 31 MB
+[     9s] F550M: aligned (reduced 2x), covers 52% of the grid
+[    10s] downloaded hst_10205_01_acs_hrc_f850lp_j8yx01_drz.fits: 31 MB
+[    11s] F850LP: aligned (reduced 2x), covers 50% of the grid
+[    11s] s-trumpler14-10205: finishing steps applied: ['dense']
+[    11s] cropped to 510x366 px where 5 of 5 filters have data
+/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/astropy/visualization/lupton_rgb.py:645: RuntimeWarning: invalid value encountered in divide
+  fInorm = np.where(Int <= 0, 0, np.true_divide(fI, Int))
+[    11s] done: 1 pictures

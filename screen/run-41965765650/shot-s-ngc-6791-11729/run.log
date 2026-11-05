@@ -1,0 +1,22 @@
+[     0s] == s-ngc-6791-11729: 5 filters: ['F336W', 'F390M', 'F395N', 'F410M', 'F547M']
+[     0s] F336W: 5853x5930 px at 0.0396 arcsec/px, 417 MB
+[     0s] F390M: 5853x5930 px at 0.0396 arcsec/px, 417 MB
+[     0s] F395N: 5853x5930 px at 0.0396 arcsec/px, 417 MB
+[     1s] F410M: 5853x5930 px at 0.0396 arcsec/px, 417 MB
+[     1s] F547M: 4124x4385 px at 0.0396 arcsec/px, 217 MB
+[     1s] grid from F336W: 1170x1186 px (reduced 5x), 0.198 arcsec/px
+[     5s] downloaded hst_11729_01_wfc3_uvis_f336w_ib2j01_drc.fits: 417 MB
+[     6s] F336W: aligned (reduced 5x), covers 49% of the grid
+[    10s] downloaded hst_11729_01_wfc3_uvis_f390m_ib2j01_drc.fits: 417 MB
+[    11s] F390M: aligned (reduced 5x), covers 49% of the grid
+[    13s] downloaded hst_11729_01_wfc3_uvis_f395n_ib2j01_drc.fits: 417 MB
+[    14s] F395N: aligned (reduced 5x), covers 49% of the grid
+[    16s] downloaded hst_11729_01_wfc3_uvis_f410m_ib2j01_drc.fits: 417 MB
+[    16s] F410M: aligned (reduced 5x), covers 49% of the grid
+[    18s] downloaded ib2j01020_drz.fits: 217 MB
+[    19s] F547M: aligned (reduced 4x), covers 48% of the grid
+[    20s] s-ngc-6791-11729: finishing steps applied: ['dense']
+[    20s] cropped to 619x573 px where 5 of 5 filters have data
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/astropy/visualization/lupton_rgb.py:645: RuntimeWarning: invalid value encountered in divide
+  fInorm = np.where(Int <= 0, 0, np.true_divide(fI, Int))
+[    20s] done: 1 pictures

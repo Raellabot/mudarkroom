@@ -1,0 +1,71 @@
+[
+ {
+  "picture": "s-ngc-247-ucd1-14748-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "NGC-247-UCD1",
+  "proposal_id": "14748",
+  "instrument": "WFC3/UVIS",
+  "title": "A close-up view of the star formation history of a young ultracompact dwarf",
+  "grid": {
+   "width": 1034,
+   "height": 1127,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.1584800034761415,
+   "reference_filter": "F606W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F225W",
+    "center_nm": 236.8,
+    "color": "#1a4cff",
+    "obs_id": "idb401020",
+    "exposure_s": 294,
+    "product": "mast:HST/product/idb401020_drz.fits"
+   },
+   {
+    "filter": "F275W",
+    "center_nm": 274.5,
+    "color": "#00e6ff",
+    "obs_id": "idb401030",
+    "exposure_s": 260,
+    "product": "mast:HST/product/idb401030_drz.fits"
+   },
+   {
+    "filter": "F390W",
+    "center_nm": 387.1,
+    "color": "#1aff33",
+    "obs_id": "idb402020",
+    "exposure_s": 82,
+    "product": "mast:HST/product/idb402020_drz.fits"
+   },
+   {
+    "filter": "F606W",
+    "center_nm": 594.0,
+    "color": "#ff800d",
+    "obs_id": "idb402010",
+    "exposure_s": 7274,
+    "product": "mast:HST/product/idb402010_drz.fits"
+   },
+   {
+    "filter": "F814W",
+    "center_nm": 831.9,
+    "color": "#ff1a1a",
+    "obs_id": "idb402030",
+    "exposure_s": 160,
+    "product": "mast:HST/product/idb402030_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

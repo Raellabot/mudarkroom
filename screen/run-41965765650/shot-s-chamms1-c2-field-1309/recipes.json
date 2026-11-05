@@ -1,0 +1,71 @@
+[
+ {
+  "picture": "s-chamms1-c2-field-1309-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "JWST",
+  "target": "CHAMMS1-C2-FIELD",
+  "proposal_id": "1309",
+  "instrument": "NIRCAM/IMAGE",
+  "title": "IceAge: Chemical evolution of ices during star formation",
+  "grid": {
+   "width": 1138,
+   "height": 799,
+   "reduction": 9,
+   "arcsec_per_pixel": 0.28103264067539263,
+   "reference_filter": "F140M"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F140M",
+    "center_nm": 1405.0,
+    "color": "#1a4cff",
+    "obs_id": "jw01309-o024_t005_nircam_clear-f140m",
+    "exposure_s": 322.1039999999999,
+    "product": "mast:JWST/product/jw01309-o024_t005_nircam_clear-f140m_i2d.fits"
+   },
+   {
+    "filter": "F150W",
+    "center_nm": 1499.5,
+    "color": "#00e6ff",
+    "obs_id": "jw01309-o023_t005_nircam_clear-f150w",
+    "exposure_s": 6184.367999999997,
+    "product": "mast:JWST/product/jw01309-o023_t005_nircam_clear-f150w_i2d.fits"
+   },
+   {
+    "filter": "F182M",
+    "center_nm": 1845.0,
+    "color": "#1aff33",
+    "obs_id": "jw01309-o025_t005_nircam_clear-f182m",
+    "exposure_s": 322.1039999999999,
+    "product": "mast:JWST/product/jw01309-o025_t005_nircam_clear-f182m_i2d.fits"
+   },
+   {
+    "filter": "F410M",
+    "center_nm": 4082.5,
+    "color": "#ff800d",
+    "obs_id": "jw01309-o024_t005_nircam_clear-f410m",
+    "exposure_s": 322.1039999999999,
+    "product": "mast:JWST/product/jw01309-o024_t005_nircam_clear-f410m_i2d.fits"
+   },
+   {
+    "filter": "F430M",
+    "center_nm": 4282.5,
+    "color": "#ff1a1a",
+    "obs_id": "jw01309-o025_t005_nircam_clear-f430m",
+    "exposure_s": 322.1039999999999,
+    "product": "mast:JWST/product/jw01309-o025_t005_nircam_clear-f430m_i2d.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

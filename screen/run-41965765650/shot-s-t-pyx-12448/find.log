@@ -1,0 +1,3 @@
+  page 1/1 rows so far 120 of 120
+HST|T-PYX|12448|WFC3/UVIS|3  rows=65  filters=['F225W', 'F487N', 'F502N', 'F547M', 'F600LP', 'F656N', 'F658N', 'FQ422M', 'detection']
+HST|T-PYX|12448|STIS/CCD|1  rows=20  filters=['MIRVIS']

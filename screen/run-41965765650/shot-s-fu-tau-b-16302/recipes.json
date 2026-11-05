@@ -1,0 +1,71 @@
+[
+ {
+  "picture": "s-fu-tau-b-16302-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "FU-TAU-B",
+  "proposal_id": "16302",
+  "instrument": "WFC3/UVIS",
+  "title": "Accretion Rates as a Diagnostic Tool for the Origin of Planetary-mass Companions",
+  "grid": {
+   "width": 520,
+   "height": 548,
+   "reduction": 1,
+   "arcsec_per_pixel": 0.03962000086903547,
+   "reference_filter": "F225W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F225W",
+    "center_nm": 236.8,
+    "color": "#1a4cff",
+    "obs_id": "iec302010",
+    "exposure_s": 1953,
+    "product": "mast:HST/product/iec302010_drz.fits"
+   },
+   {
+    "filter": "F438W",
+    "center_nm": 431.4,
+    "color": "#00e6ff",
+    "obs_id": "iec302030",
+    "exposure_s": 420,
+    "product": "mast:HST/product/iec302030_drz.fits"
+   },
+   {
+    "filter": "F555W",
+    "center_nm": 550.4,
+    "color": "#1aff33",
+    "obs_id": "iec302040",
+    "exposure_s": 126,
+    "product": "mast:HST/product/iec302040_drz.fits"
+   },
+   {
+    "filter": "F625W",
+    "center_nm": 627.4,
+    "color": "#ff800d",
+    "obs_id": "iec302050",
+    "exposure_s": 111,
+    "product": "mast:HST/product/iec302050_drz.fits"
+   },
+   {
+    "filter": "F775W",
+    "center_nm": 772.8,
+    "color": "#ff1a1a",
+    "obs_id": "iec302060",
+    "exposure_s": 126,
+    "product": "mast:HST/product/iec302060_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

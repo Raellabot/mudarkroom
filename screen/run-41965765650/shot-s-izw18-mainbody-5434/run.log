@@ -1,0 +1,22 @@
+[     0s] == s-izw18-mainbody-5434: 5 filters: ['F439W', 'F502N', 'F555W', 'F658N', 'F702W']
+[     1s] F439W: 4151x4121 px at 0.0455 arcsec/px, 205 MB
+[     1s] F502N: 4650x4642 px at 0.0455 arcsec/px, 259 MB
+[     2s] F555W: 4650x4642 px at 0.0455 arcsec/px, 259 MB
+[     2s] F658N: 4650x4642 px at 0.0455 arcsec/px, 259 MB
+[     3s] F702W: 4650x4642 px at 0.0455 arcsec/px, 259 MB
+[     3s] grid from F702W: 1162x1160 px (reduced 4x), 0.182 arcsec/px
+[     8s] downloaded hst_5434_03_wfpc2_pc_f439w_u2f903_drz.fits: 205 MB
+[     8s] F439W: aligned (reduced 4x), covers 38% of the grid
+[    18s] downloaded hst_5434_02_wfpc2_pc_f502n_u2f902_drz.fits: 259 MB
+[    18s] F502N: aligned (reduced 4x), covers 41% of the grid
+[    23s] downloaded hst_5434_01_wfpc2_pc_f555w_u2f901_drz.fits: 259 MB
+[    24s] F555W: aligned (reduced 4x), covers 41% of the grid
+[    30s] downloaded hst_5434_02_wfpc2_pc_f658n_u2f902_drz.fits: 259 MB
+[    30s] F658N: aligned (reduced 4x), covers 41% of the grid
+[    36s] downloaded hst_5434_02_wfpc2_pc_f702w_u2f902_drz.fits: 259 MB
+[    36s] F702W: aligned (reduced 4x), covers 41% of the grid
+[    37s] s-izw18-mainbody-5434: finishing steps applied: ['dense']
+[    37s] cropped to 423x408 px where 5 of 5 filters have data
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/astropy/visualization/lupton_rgb.py:645: RuntimeWarning: invalid value encountered in divide
+  fInorm = np.where(Int <= 0, 0, np.true_divide(fI, Int))
+[    37s] done: 1 pictures

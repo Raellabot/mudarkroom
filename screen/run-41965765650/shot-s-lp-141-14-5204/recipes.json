@@ -1,0 +1,71 @@
+[
+ {
+  "picture": "s-lp-141-14-5204-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "JWST",
+  "target": "LP-141-14",
+  "proposal_id": "5204",
+  "instrument": "MIRI/IMAGE",
+  "title": "Probing the Dynamical History and the Mid-IR SED of WD 1856b",
+  "grid": {
+   "width": 1118,
+   "height": 1139,
+   "reduction": 1,
+   "arcsec_per_pixel": 0.11091616124001372,
+   "reference_filter": "F1000W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F560W",
+    "center_nm": 5600.0,
+    "color": "#1a4cff",
+    "obs_id": "jw05204-o001_t001_miri_f560w",
+    "exposure_s": 111,
+    "product": "mast:JWST/product/jw05204-o001_t001_miri_f560w_i2d.fits"
+   },
+   {
+    "filter": "F1000W",
+    "center_nm": 10000.0,
+    "color": "#00e6ff",
+    "obs_id": "jw05204-o001_t001_miri_f1000w",
+    "exposure_s": 133.2,
+    "product": "mast:JWST/product/jw05204-o001_t001_miri_f1000w_i2d.fits"
+   },
+   {
+    "filter": "F1130W",
+    "center_nm": 11300.0,
+    "color": "#1aff33",
+    "obs_id": "jw05204-o001_t001_miri_f1130w",
+    "exposure_s": 399.604,
+    "product": "mast:JWST/product/jw05204-o001_t001_miri_f1130w_i2d.fits"
+   },
+   {
+    "filter": "F1280W",
+    "center_nm": 12800.0,
+    "color": "#ff800d",
+    "obs_id": "jw05204-o001_t001_miri_f1280w",
+    "exposure_s": 277.504,
+    "product": "mast:JWST/product/jw05204-o001_t001_miri_f1280w_i2d.fits"
+   },
+   {
+    "filter": "F1800W",
+    "center_nm": 18000.0,
+    "color": "#ff1a1a",
+    "obs_id": "jw05204-o002_t001_miri_f1800w",
+    "exposure_s": 1354.22,
+    "product": "mast:JWST/product/jw05204-o002_t001_miri_f1800w_i2d.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

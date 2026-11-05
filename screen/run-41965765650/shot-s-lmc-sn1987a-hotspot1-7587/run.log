@@ -1,0 +1,22 @@
+[     0s] == s-lmc-sn1987a-hotspot1-7587: 5 filters: ['F300W', 'F439W', 'F450W', 'F656N', 'F814W']
+[     1s] F300W: 3289x3376 px at 0.0455 arcsec/px, 133 MB
+[     1s] F439W: 3289x3376 px at 0.0455 arcsec/px, 133 MB
+[     2s] F450W: 3289x3376 px at 0.0455 arcsec/px, 133 MB
+[     3s] F656N: 3289x3376 px at 0.0455 arcsec/px, 178 MB
+[     3s] F814W: 3289x3376 px at 0.0455 arcsec/px, 133 MB
+[     3s] grid from F814W: 1096x1125 px (reduced 3x), 0.137 arcsec/px
+[     7s] downloaded hst_7587_56_wfpc2_pc_f300w_u4fx56_drz.fits: 133 MB
+[     7s] F300W: aligned (reduced 3x), covers 81% of the grid
+[    11s] downloaded hst_7587_56_wfpc2_pc_f439w_u4fx56_drz.fits: 133 MB
+[    12s] F439W: aligned (reduced 3x), covers 80% of the grid
+[    15s] downloaded hst_7587_56_wfpc2_pc_f450w_u4fx56_drz.fits: 133 MB
+[    15s] F450W: aligned (reduced 3x), covers 81% of the grid
+[    19s] downloaded hst_7587_56_wfpc2_pc_f656n_u4fx56_drz.fits: 178 MB
+[    20s] F656N: aligned (reduced 3x), covers 81% of the grid
+[    23s] downloaded hst_7587_56_wfpc2_pc_f814w_u4fx56_drz.fits: 133 MB
+[    23s] F814W: aligned (reduced 3x), covers 81% of the grid
+[    24s] s-lmc-sn1987a-hotspot1-7587: finishing steps applied: ['dense']
+[    24s] cropped to 791x808 px where 5 of 5 filters have data
+/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/astropy/visualization/lupton_rgb.py:645: RuntimeWarning: invalid value encountered in divide
+  fInorm = np.where(Int <= 0, 0, np.true_divide(fI, Int))
+[    24s] done: 1 pictures

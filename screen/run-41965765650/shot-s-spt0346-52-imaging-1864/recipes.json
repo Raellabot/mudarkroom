@@ -1,0 +1,71 @@
+[
+ {
+  "picture": "s-spt0346-52-imaging-1864-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "JWST+JWST",
+  "target": "SPT0346-52-IMAGING+SPT0346-52-IMAGING",
+  "proposal_id": "1864+1864",
+  "instrument": "MIRI/IMAGE+NIRCAM/IMAGE",
+  "title": "The Formation of a Primeval Hyperstarburst Galaxy at z~6",
+  "grid": {
+   "width": 1134,
+   "height": 1129,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.1229819142978589,
+   "reference_filter": "F200W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F200W",
+    "center_nm": 1990.5,
+    "color": "#1a4cff",
+    "obs_id": "jw01864-o001_t001_nircam_clear-f200w",
+    "exposure_s": 1975.568000000001,
+    "product": "mast:JWST/product/jw01864-o001_t001_nircam_clear-f200w_i2d.fits"
+   },
+   {
+    "filter": "F444W",
+    "center_nm": 4433.0,
+    "color": "#00e6ff",
+    "obs_id": "jw01864-o001_t001_nircam_clear-f444w",
+    "exposure_s": 773.0479999999999,
+    "product": "mast:JWST/product/jw01864-o001_t001_nircam_clear-f444w_i2d.fits"
+   },
+   {
+    "filter": "F1280W",
+    "center_nm": 12800.0,
+    "color": "#1aff33",
+    "obs_id": "jw01864-o009_t001_miri_f1280w",
+    "exposure_s": 777.012,
+    "product": "mast:JWST/product/jw01864-o009_t001_miri_f1280w_i2d.fits"
+   },
+   {
+    "filter": "F1500W",
+    "center_nm": 15000.0,
+    "color": "#ff800d",
+    "obs_id": "jw01864-o009_t001_miri_f1500w",
+    "exposure_s": 777.012,
+    "product": "mast:JWST/product/jw01864-o009_t001_miri_f1500w_i2d.fits"
+   },
+   {
+    "filter": "F2100W",
+    "center_nm": 21000.0,
+    "color": "#ff1a1a",
+    "obs_id": "jw01864-o009_t001_miri_f2100w",
+    "exposure_s": 1332.02,
+    "product": "mast:JWST/product/jw01864-o009_t001_miri_f2100w_i2d.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

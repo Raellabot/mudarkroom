@@ -1,0 +1,71 @@
+[
+ {
+  "picture": "s-he0512-3329-9896-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "HE0512-3329",
+  "proposal_id": "9896",
+  "instrument": "ACS/HRC",
+  "title": "A Survey of Extinction Curves to Redshift z=1",
+  "grid": {
+   "width": 1175,
+   "height": 1147,
+   "reduction": 1,
+   "arcsec_per_pixel": 0.025000000372529,
+   "reference_filter": "F814W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F220W",
+    "center_nm": 242.5,
+    "color": "#1a4cff",
+    "obs_id": "j8nw01010",
+    "exposure_s": 2136,
+    "product": "mast:HST/product/j8nw01010_drz.fits"
+   },
+   {
+    "filter": "F330W",
+    "center_nm": 335.0,
+    "color": "#00e6ff",
+    "obs_id": "j8nw01030",
+    "exposure_s": 129,
+    "product": "mast:HST/product/j8nw01030_drz.fits"
+   },
+   {
+    "filter": "F435W",
+    "center_nm": 425.0,
+    "color": "#1aff33",
+    "obs_id": "j8nw01040",
+    "exposure_s": 36,
+    "product": "mast:HST/product/j8nw01040_drz.fits"
+   },
+   {
+    "filter": "F555W",
+    "center_nm": 545.0,
+    "color": "#ff800d",
+    "obs_id": "j8nw01050",
+    "exposure_s": 27,
+    "product": "mast:HST/product/j8nw01050_drz.fits"
+   },
+   {
+    "filter": "F814W",
+    "center_nm": 833.5,
+    "color": "#ff1a1a",
+    "obs_id": "j8nw01070",
+    "exposure_s": 18,
+    "product": "mast:HST/product/j8nw01070_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]
