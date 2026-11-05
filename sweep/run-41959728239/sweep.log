@@ -1,0 +1,57 @@
+HST: page 1 of 28, 25000 rows so far
+HST: page 2 of 28, 50000 rows so far
+HST: page 3 of 28, 75000 rows so far
+HST: page 4 of 28, 100000 rows so far
+HST: page 5 of 28, 125000 rows so far
+HST: page 6 of 28, 150000 rows so far
+HST: page 7 of 28, 175000 rows so far
+HST: page 8 of 28, 200000 rows so far
+HST: page 9 of 28, 225000 rows so far
+HST: page 10 of 28, 250000 rows so far
+HST: page 11 of 28, 275000 rows so far
+HST: page 12 of 28, 300000 rows so far
+HST: page 13 of 28, 325000 rows so far
+HST: page 14 of 28, 350000 rows so far
+HST: page 15 of 28, 375000 rows so far
+HST: page 16 of 28, 400000 rows so far
+HST: page 17 of 28, 425000 rows so far
+HST: page 18 of 28, 450000 rows so far
+HST: page 19 of 28, 475000 rows so far
+HST: page 20 of 28, 500000 rows so far
+HST: page 21 of 28, 525000 rows so far
+HST: page 22 of 28, 550000 rows so far
+HST: page 23 of 28, 575000 rows so far
+HST: page 24 of 28, 600000 rows so far
+HST: page 25 of 28, 625000 rows so far
+HST: page 26 of 28, 650000 rows so far
+HST: page 27 of 28, 675000 rows so far
+HST: page 28 of 28, 676738 rows so far
+JWST: page 1 of 1, 22399 rows so far
+HAP: page 1 of 0, 0 rows so far
+Rows returned per collection: HST 676738, JWST 22399, HAP 0
+
+HST: 60571 target groups with at least one usable filter
+  with 2+ filters: 31985
+  with 3+ filters: 12840
+  with 4+ filters: 6811
+  with 5+ filters: 3897
+  with 6+ filters: 2295
+  programs with a 3+ filter target: 2414
+
+JWST: 3640 target groups with at least one usable filter
+  with 2+ filters: 3012
+  with 3+ filters: 2318
+  with 4+ filters: 1414
+  with 5+ filters: 1008
+  with 6+ filters: 691
+  programs with a 3+ filter target: 544
+
+HAP: 0 target groups with at least one usable filter
+  with 2+ filters: 0
+  with 3+ filters: 0
+  with 4+ filters: 0
+  with 5+ filters: 0
+  with 6+ filters: 0
+  programs with a 3+ filter target: 0
+
+Distinct target names across everything with 3+ filters: 10579

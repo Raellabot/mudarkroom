@@ -1,0 +1,27 @@
+Rows returned per collection: HST 676738, JWST 22399, HAP 0
+
+HST: 60571 target groups with at least one usable filter
+  with 2+ filters: 31985
+  with 3+ filters: 12840
+  with 4+ filters: 6811
+  with 5+ filters: 3897
+  with 6+ filters: 2295
+  programs with a 3+ filter target: 2414
+
+JWST: 3640 target groups with at least one usable filter
+  with 2+ filters: 3012
+  with 3+ filters: 2318
+  with 4+ filters: 1414
+  with 5+ filters: 1008
+  with 6+ filters: 691
+  programs with a 3+ filter target: 544
+
+HAP: 0 target groups with at least one usable filter
+  with 2+ filters: 0
+  with 3+ filters: 0
+  with 4+ filters: 0
+  with 5+ filters: 0
+  with 6+ filters: 0
+  programs with a 3+ filter target: 0
+
+Distinct target names across everything with 3+ filters: 10579
