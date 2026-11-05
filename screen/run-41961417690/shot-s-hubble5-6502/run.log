@@ -1,0 +1,21 @@
+[     0s] == s-hubble5-6502: 5 filters: ['F469N', 'F502N', 'F631N', 'F656N', 'F673N']
+[     1s] F469N: 4676x4676 px at 0.0455 arcsec/px, 263 MB
+[     1s] F502N: 4687x4687 px at 0.0455 arcsec/px, 264 MB
+[     1s] F631N: 4687x4687 px at 0.0455 arcsec/px, 264 MB
+[     2s] F656N: 4687x4687 px at 0.0455 arcsec/px, 264 MB
+[     4s] F673N: 4687x4687 px at 0.0455 arcsec/px, 264 MB
+[     4s] grid from F673N: 1171x1171 px (reduced 4x), 0.182 arcsec/px
+[     9s] downloaded u42i010hr_drw.fits: 263 MB
+[     9s] F469N: aligned (reduced 4x), covers 41% of the grid
+[    13s] downloaded hst_6502_01_wfpc2_pc_f502n_u42i01_drz.fits: 264 MB
+[    14s] F502N: aligned (reduced 4x), covers 41% of the grid
+[    18s] downloaded hst_6502_01_wfpc2_pc_f631n_u42i01_drz.fits: 264 MB
+[    19s] F631N: aligned (reduced 4x), covers 41% of the grid
+[    23s] downloaded hst_6502_01_wfpc2_pc_f656n_u42i01_drz.fits: 264 MB
+[    24s] F656N: aligned (reduced 4x), covers 41% of the grid
+[   181s] downloaded hst_6502_01_wfpc2_pc_f673n_u42i01_drz.fits: 264 MB
+[   181s] F673N: aligned (reduced 4x), covers 41% of the grid
+[   182s] cropped to 887x1162 px where 5 of 5 filters have data
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/astropy/visualization/lupton_rgb.py:645: RuntimeWarning: invalid value encountered in divide
+  fInorm = np.where(Int <= 0, 0, np.true_divide(fI, Int))
+[   182s] done: 1 pictures

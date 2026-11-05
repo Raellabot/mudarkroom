@@ -1,0 +1,69 @@
+[
+ {
+  "picture": "s-ngc3077-9144-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "NGC3077",
+  "proposal_id": "9144",
+  "instrument": "WFPC2/PC",
+  "title": null,
+  "grid": {
+   "width": 1161,
+   "height": 1158,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.18215599999999824,
+   "reference_filter": "F656N"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F300W",
+    "center_nm": 292.0,
+    "color": "#1a4cff",
+    "obs_id": "hst_9144_03_wfpc2_pc_f300w_u6eu03",
+    "exposure_s": 2400,
+    "product": "mast:HST/product/hst_9144_03_wfpc2_pc_f300w_u6eu03_drz.fits"
+   },
+   {
+    "filter": "F502N",
+    "center_nm": 501.2,
+    "color": "#00e6ff",
+    "obs_id": "hst_9144_03_wfpc2_pc_f502n_u6eu03",
+    "exposure_s": 950,
+    "product": "mast:HST/product/hst_9144_03_wfpc2_pc_f502n_u6eu03_drz.fits"
+   },
+   {
+    "filter": "F547M",
+    "center_nm": 546.8,
+    "color": "#1aff33",
+    "obs_id": "u6eu0401r",
+    "exposure_s": 600,
+    "product": "mast:HST/product/u6eu0401r_drw.fits"
+   },
+   {
+    "filter": "F656N",
+    "center_nm": 656.4,
+    "color": "#ff800d",
+    "obs_id": "hst_9144_03_wfpc2_pc_f656n_u6eu03",
+    "exposure_s": 1100,
+    "product": "mast:HST/product/hst_9144_03_wfpc2_pc_f656n_u6eu03_drz.fits"
+   },
+   {
+    "filter": "F814W",
+    "center_nm": 790.5,
+    "color": "#ff1a1a",
+    "obs_id": "u6eu0402r",
+    "exposure_s": 400,
+    "product": "mast:HST/product/u6eu0402r_drw.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": null,
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

@@ -1,0 +1,21 @@
+[     0s] == s-ngc1068-5754: 5 filters: ['F218W', 'F343N', 'F502N', 'F547M', 'F791W']
+[     1s] F218W: 4352x4375 px at 0.0455 arcsec/px, 229 MB
+[     1s] F343N: 4352x4375 px at 0.0455 arcsec/px, 229 MB
+[     2s] F502N: 4352x4375 px at 0.0455 arcsec/px, 229 MB
+[     3s] F547M: 4352x4375 px at 0.0455 arcsec/px, 229 MB
+[     6s] F791W: 4352x4375 px at 0.0455 arcsec/px, 229 MB
+[     6s] grid from F791W: 1088x1093 px (reduced 4x), 0.182 arcsec/px
+[    15s] downloaded hst_5754_01_wfpc2_pc_f218w_u2m301_drz.fits: 229 MB
+[    15s] F218W: aligned (reduced 4x), covers 47% of the grid
+[    21s] downloaded hst_5754_01_wfpc2_pc_f343n_u2m301_drz.fits: 229 MB
+[    21s] F343N: aligned (reduced 4x), covers 47% of the grid
+[    28s] downloaded hst_5754_01_wfpc2_pc_f502n_u2m301_drz.fits: 229 MB
+[    29s] F502N: aligned (reduced 4x), covers 47% of the grid
+[    35s] downloaded hst_5754_01_wfpc2_pc_f547m_u2m301_drz.fits: 229 MB
+[    36s] F547M: aligned (reduced 4x), covers 47% of the grid
+[    41s] downloaded hst_5754_01_wfpc2_pc_f791w_u2m301_drz.fits: 229 MB
+[    42s] F791W: aligned (reduced 4x), covers 47% of the grid
+[    42s] cropped to 918x1083 px where 5 of 5 filters have data
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/astropy/visualization/lupton_rgb.py:645: RuntimeWarning: invalid value encountered in divide
+  fInorm = np.where(Int <= 0, 0, np.true_divide(fI, Int))
+[    43s] done: 1 pictures

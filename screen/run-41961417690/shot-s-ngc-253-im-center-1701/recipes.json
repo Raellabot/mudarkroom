@@ -1,0 +1,69 @@
+[
+ {
+  "picture": "s-ngc-253-im-center-1701-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "JWST+JWST",
+  "target": "NGC-253-IM-CENTER+NGC-253-IM-CENTER",
+  "proposal_id": "1701+1701",
+  "instrument": "MIRI/IMAGE+NIRCAM/IMAGE",
+  "title": "Dissecting the Prototypical Starbursts NGC 253 and M 82 and Their Cool Galactic Winds",
+  "grid": {
+   "width": 1145,
+   "height": 519,
+   "reduction": 10,
+   "arcsec_per_pixel": 0.31224503741914905,
+   "reference_filter": "F140M"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F140M",
+    "center_nm": 1405.0,
+    "color": "#1a4cff",
+    "obs_id": "jw01701-o053_t021_nircam_clear-f140m",
+    "exposure_s": 4079.9699999999993,
+    "product": "mast:JWST/product/jw01701-o053_t021_nircam_clear-f140m_i2d.fits"
+   },
+   {
+    "filter": "F250M",
+    "center_nm": 2503.5,
+    "color": "#00e6ff",
+    "obs_id": "jw01701-o053_t021_nircam_clear-f250m",
+    "exposure_s": 4079.9699999999993,
+    "product": "mast:JWST/product/jw01701-o053_t021_nircam_clear-f250m_i2d.fits"
+   },
+   {
+    "filter": "F360M",
+    "center_nm": 3620.5,
+    "color": "#1aff33",
+    "obs_id": "jw01701-o053_t021_nircam_clear-f360m",
+    "exposure_s": 4079.9699999999993,
+    "product": "mast:JWST/product/jw01701-o053_t021_nircam_clear-f360m_i2d.fits"
+   },
+   {
+    "filter": "F560W",
+    "center_nm": 5600.0,
+    "color": "#ff800d",
+    "obs_id": "jw01701-o002_t021_miri_f560w-sub128",
+    "exposure_s": 9.52,
+    "product": "mast:JWST/product/jw01701-o002_t021_miri_f560w-sub128_i2d.fits"
+   },
+   {
+    "filter": "F1130W",
+    "center_nm": 11300.0,
+    "color": "#ff1a1a",
+    "obs_id": "jw01701-o002_t021_miri_f1130w-sub128",
+    "exposure_s": 9.52,
+    "product": "mast:JWST/product/jw01701-o002_t021_miri_f1130w-sub128_i2d.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": null,
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

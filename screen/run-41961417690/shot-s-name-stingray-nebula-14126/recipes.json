@@ -1,0 +1,69 @@
+[
+ {
+  "picture": "s-name-stingray-nebula-14126-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "NAME-STINGRAY-NEBULA",
+  "proposal_id": "14126",
+  "instrument": "WFC3/UVIS",
+  "title": null,
+  "grid": {
+   "width": 671,
+   "height": 652,
+   "reduction": 1,
+   "arcsec_per_pixel": 0.03962000086903494,
+   "reference_filter": "F438W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F438W",
+    "center_nm": 431.4,
+    "color": "#1a4cff",
+    "obs_id": "hst_14126_01_wfc3_uvis_f438w_icxh01",
+    "exposure_s": 124,
+    "product": "mast:HST/product/hst_14126_01_wfc3_uvis_f438w_icxh01_drc.fits"
+   },
+   {
+    "filter": "F502N",
+    "center_nm": 501.1,
+    "color": "#00e6ff",
+    "obs_id": "hst_14126_01_wfc3_uvis_f502n_icxh01",
+    "exposure_s": 660,
+    "product": "mast:HST/product/hst_14126_01_wfc3_uvis_f502n_icxh01_drc.fits"
+   },
+   {
+    "filter": "F625W",
+    "center_nm": 627.4,
+    "color": "#1aff33",
+    "obs_id": "hst_14126_01_wfc3_uvis_f625w_icxh01",
+    "exposure_s": 94,
+    "product": "mast:HST/product/hst_14126_01_wfc3_uvis_f625w_icxh01_drc.fits"
+   },
+   {
+    "filter": "F656N",
+    "center_nm": 656.2,
+    "color": "#ff800d",
+    "obs_id": "icxh01050",
+    "exposure_s": 382,
+    "product": "mast:HST/product/icxh01050_drz.fits"
+   },
+   {
+    "filter": "F673N",
+    "center_nm": 676.9,
+    "color": "#ff1a1a",
+    "obs_id": "icxh01060",
+    "exposure_s": 360,
+    "product": "mast:HST/product/icxh01060_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": null,
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

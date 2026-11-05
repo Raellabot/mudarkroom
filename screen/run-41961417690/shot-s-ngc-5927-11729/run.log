@@ -1,0 +1,21 @@
+[     0s] == s-ngc-5927-11729: 5 filters: ['F336W', 'F390M', 'F395N', 'F410M', 'F547M']
+[     1s] F336W: 5574x5705 px at 0.0396 arcsec/px, 382 MB
+[     1s] F390M: 5574x5705 px at 0.0396 arcsec/px, 382 MB
+[     2s] F395N: 4124x4385 px at 0.0396 arcsec/px, 217 MB
+[     3s] F410M: 5574x5705 px at 0.0396 arcsec/px, 382 MB
+[     3s] F547M: 4124x4385 px at 0.0396 arcsec/px, 217 MB
+[     3s] grid from F336W: 1114x1141 px (reduced 5x), 0.198 arcsec/px
+[    13s] downloaded hst_11729_05_wfc3_uvis_f336w_ib2j05_drc.fits: 382 MB
+[    13s] F336W: aligned (reduced 5x), covers 53% of the grid
+[    34s] downloaded hst_11729_05_wfc3_uvis_f390m_ib2j05_drc.fits: 382 MB
+[    34s] F390M: aligned (reduced 5x), covers 53% of the grid
+[    60s] downloaded ib2j05011_drz.fits: 217 MB
+[    60s] F395N: aligned (reduced 4x), covers 53% of the grid
+[    82s] downloaded hst_11729_05_wfc3_uvis_f410m_ib2j05_drc.fits: 382 MB
+[    83s] F410M: aligned (reduced 5x), covers 53% of the grid
+[    88s] downloaded ib2j05020_drz.fits: 217 MB
+[    88s] F547M: aligned (reduced 5x), covers 53% of the grid
+[    89s] cropped to 1107x1040 px where 5 of 5 filters have data
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/astropy/visualization/lupton_rgb.py:645: RuntimeWarning: invalid value encountered in divide
+  fInorm = np.where(Int <= 0, 0, np.true_divide(fI, Int))
+[    89s] done: 1 pictures

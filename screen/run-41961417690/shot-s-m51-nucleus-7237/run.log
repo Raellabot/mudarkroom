@@ -1,0 +1,21 @@
+[     0s] == s-m51-nucleus-7237: 5 filters: ['F110W', 'F187N', 'F212N', 'F215N', 'F222M']
+[     1s] F110W: 275x256 px at 0.0759 arcsec/px, 1 MB
+[     1s] F187N: 275x256 px at 0.0759 arcsec/px, 1 MB
+[     2s] F212N: 275x256 px at 0.0759 arcsec/px, 1 MB
+[     3s] F215N: 275x256 px at 0.0759 arcsec/px, 1 MB
+[     4s] F222M: 282x256 px at 0.0759 arcsec/px, 1 MB
+[     4s] grid from F222M: 282x256 px (reduced 1x), 0.076 arcsec/px
+[     4s] downloaded n48r01010_mos.fits: 1 MB
+[     4s] F110W: aligned (reduced 1x), covers 97% of the grid
+[     5s] downloaded n48r01060_mos.fits: 1 MB
+[     5s] F187N: aligned (reduced 1x), covers 97% of the grid
+[     6s] downloaded n48r01030_mos.fits: 1 MB
+[     6s] F212N: aligned (reduced 1x), covers 97% of the grid
+[     6s] downloaded n48r01040_mos.fits: 1 MB
+[     6s] F215N: aligned (reduced 1x), covers 97% of the grid
+[     7s] downloaded n48r01080_mos.fits: 1 MB
+[     7s] F222M: aligned (reduced 1x), covers 99% of the grid
+[     7s] cropped to 275x256 px where 5 of 5 filters have data
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/astropy/visualization/lupton_rgb.py:645: RuntimeWarning: invalid value encountered in divide
+  fInorm = np.where(Int <= 0, 0, np.true_divide(fI, Int))
+[     7s] done: 1 pictures

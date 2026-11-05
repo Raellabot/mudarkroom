@@ -1,0 +1,69 @@
+[
+ {
+  "picture": "s-hh1-2-13484-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "HH1-2",
+  "proposal_id": "13484",
+  "instrument": "WFC3/UVIS",
+  "title": "Structure, Excitation, and Evolution of Shocks: A Multi- Wavelength Study of Herbig-Haro 1/2",
+  "grid": {
+   "width": 1060,
+   "height": 1118,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.15848000347614208,
+   "reference_filter": "F280N"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F280N",
+    "center_nm": 279.6,
+    "color": "#1a4cff",
+    "obs_id": "ic9c04010",
+    "exposure_s": 5484,
+    "product": "mast:HST/product/ic9c04010_drz.fits"
+   },
+   {
+    "filter": "F487N",
+    "center_nm": 487.2,
+    "color": "#00e6ff",
+    "obs_id": "ic9c03020",
+    "exposure_s": 2798,
+    "product": "mast:HST/product/ic9c03020_drz.fits"
+   },
+   {
+    "filter": "F502N",
+    "center_nm": 501.1,
+    "color": "#1aff33",
+    "obs_id": "ic9c01020",
+    "exposure_s": 2798,
+    "product": "mast:HST/product/ic9c01020_drz.fits"
+   },
+   {
+    "filter": "F631N",
+    "center_nm": 630.4,
+    "color": "#ff800d",
+    "obs_id": "ic9c01030",
+    "exposure_s": 2798,
+    "product": "mast:HST/product/ic9c01030_drz.fits"
+   },
+   {
+    "filter": "F673N",
+    "center_nm": 676.9,
+    "color": "#ff1a1a",
+    "obs_id": "ic9c03030",
+    "exposure_s": 2798,
+    "product": "mast:HST/product/ic9c03030_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": null,
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

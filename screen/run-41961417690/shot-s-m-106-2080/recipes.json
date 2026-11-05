@@ -1,0 +1,53 @@
+[
+ {
+  "picture": "s-m-106-2080-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "JWST",
+  "target": "M-106",
+  "proposal_id": "2080",
+  "instrument": "NIRCAM/IMAGE",
+  "title": "Exploration of the Nuclear Jet Impact on the Interstellar Medium in Seyfert Galaxy NGC 4258",
+  "grid": {
+   "width": 1122,
+   "height": 664,
+   "reduction": 6,
+   "arcsec_per_pixel": 0.3774256866728964,
+   "reference_filter": "F300M"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F300M",
+    "center_nm": 2992.0,
+    "color": "#1a4cff",
+    "obs_id": "jw02080-o001_t001_nircam_clear-f300m",
+    "exposure_s": 934.098,
+    "product": "mast:JWST/product/jw02080-o001_t001_nircam_clear-f300m_i2d.fits"
+   },
+   {
+    "filter": "F335M",
+    "center_nm": 3357.5,
+    "color": "#1aff33",
+    "obs_id": "jw02080-o001_t001_nircam_clear-f335m",
+    "exposure_s": 934.098,
+    "product": "mast:JWST/product/jw02080-o001_t001_nircam_clear-f335m_i2d.fits"
+   },
+   {
+    "filter": "F430M",
+    "center_nm": 4282.5,
+    "color": "#ff1a1a",
+    "obs_id": "jw02080-o001_t001_nircam_clear-f430m",
+    "exposure_s": 7472.793,
+    "product": "mast:JWST/product/jw02080-o001_t001_nircam_clear-f430m_i2d.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": null,
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

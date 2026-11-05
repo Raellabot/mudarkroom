@@ -1,0 +1,21 @@
+[     0s] == s-hh1-2-13484: 5 filters: ['F280N', 'F487N', 'F502N', 'F631N', 'F673N']
+[     0s] F280N: 4241x4473 px at 0.0396 arcsec/px, 228 MB
+[     0s] F487N: 4131x4447 px at 0.0396 arcsec/px, 221 MB
+[     1s] F502N: 4130x4447 px at 0.0396 arcsec/px, 221 MB
+[     1s] F631N: 4130x4447 px at 0.0396 arcsec/px, 221 MB
+[     1s] F673N: 4130x4447 px at 0.0396 arcsec/px, 221 MB
+[     1s] grid from F280N: 1060x1118 px (reduced 4x), 0.158 arcsec/px
+[     3s] downloaded ic9c04010_drz.fits: 228 MB
+[     3s] F280N: aligned (reduced 4x), covers 94% of the grid
+[     5s] downloaded ic9c03020_drz.fits: 221 MB
+[     5s] F487N: aligned (reduced 3x), covers 85% of the grid
+[     6s] downloaded ic9c01020_drz.fits: 221 MB
+[     7s] F502N: aligned (reduced 3x), covers 85% of the grid
+[     8s] downloaded ic9c01030_drz.fits: 221 MB
+[     8s] F631N: aligned (reduced 3x), covers 85% of the grid
+[    10s] downloaded ic9c03030_drz.fits: 221 MB
+[    11s] F673N: aligned (reduced 3x), covers 85% of the grid
+[    12s] cropped to 1038x1107 px where 5 of 5 filters have data
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/astropy/visualization/lupton_rgb.py:645: RuntimeWarning: invalid value encountered in divide
+  fInorm = np.where(Int <= 0, 0, np.true_divide(fI, Int))
+[    12s] done: 1 pictures

@@ -1,0 +1,69 @@
+[
+ {
+  "picture": "s-ngc4449-nircam-1783-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "JWST",
+  "target": "NGC4449-NIRCAM",
+  "proposal_id": "1783",
+  "instrument": "NIRCAM/IMAGE",
+  "title": "JWST probes Feedback in Emerging extrAgalactic Star clusTers: JWST-FEAST",
+  "grid": {
+   "width": 1146,
+   "height": 520,
+   "reduction": 10,
+   "arcsec_per_pixel": 0.3122606079927619,
+   "reference_filter": "F200W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F115W",
+    "center_nm": 1147.5,
+    "color": "#1a4cff",
+    "obs_id": "jw01783-o006_t006_nircam_clear-f115w",
+    "exposure_s": 1116.624,
+    "product": "mast:JWST/product/jw01783-o006_t006_nircam_clear-f115w_i2d.fits"
+   },
+   {
+    "filter": "F187N",
+    "center_nm": 1873.5,
+    "color": "#00e6ff",
+    "obs_id": "jw01783-o006_t006_nircam_clear-f187n",
+    "exposure_s": 2319.144,
+    "product": "mast:JWST/product/jw01783-o006_t006_nircam_clear-f187n_i2d.fits"
+   },
+   {
+    "filter": "F200W",
+    "center_nm": 1990.5,
+    "color": "#1aff33",
+    "obs_id": "jw01783-o006_t006_nircam_clear-f200w",
+    "exposure_s": 1116.624,
+    "product": "mast:JWST/product/jw01783-o006_t006_nircam_clear-f200w_i2d.fits"
+   },
+   {
+    "filter": "F300M",
+    "center_nm": 2992.0,
+    "color": "#ff800d",
+    "obs_id": "jw01783-o006_t006_nircam_clear-f300m",
+    "exposure_s": 601.256,
+    "product": "mast:JWST/product/jw01783-o006_t006_nircam_clear-f300m_i2d.fits"
+   },
+   {
+    "filter": "F444W",
+    "center_nm": 4433.0,
+    "color": "#ff1a1a",
+    "obs_id": "jw01783-o006_t006_nircam_clear-f444w",
+    "exposure_s": 1116.624,
+    "product": "mast:JWST/product/jw01783-o006_t006_nircam_clear-f444w_i2d.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": null,
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

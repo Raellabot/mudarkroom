@@ -1,0 +1,21 @@
+[     0s] == s-ngc3256-13333: 5 filters: ['FQ387N', 'FQ492N', 'F621M', 'FQ634N', 'F673N']
+[     0s] FQ387N: 8116x8084 px at 0.0396 arcsec/px, 788 MB
+[     0s] FQ492N: 4136x4451 px at 0.0396 arcsec/px, 221 MB
+[     1s] F621M: 4134x4507 px at 0.0396 arcsec/px, 224 MB
+[     1s] FQ634N: 4135x4451 px at 0.0396 arcsec/px, 221 MB
+[     1s] F673N: 4139x4568 px at 0.0396 arcsec/px, 227 MB
+[     1s] grid from FQ387N: 1159x1154 px (reduced 7x), 0.277 arcsec/px
+[     9s] downloaded hst_13333_01_wfc3_uvis_fq492n_icah01_drc.fits: 788 MB
+[    10s] FQ387N: aligned (reduced 7x), covers 26% of the grid
+[    12s] downloaded icah01010_drz.fits: 221 MB
+[    12s] FQ492N: aligned (reduced 6x), covers 26% of the grid
+[    14s] downloaded icah01030_drz.fits: 224 MB
+[    14s] F621M: aligned (reduced 6x), covers 27% of the grid
+[    17s] downloaded icah02020_drz.fits: 221 MB
+[    17s] FQ634N: aligned (reduced 7x), covers 26% of the grid
+[    22s] downloaded icah01020_drz.fits: 227 MB
+[    23s] F673N: aligned (reduced 6x), covers 27% of the grid
+[    23s] cropped to 714x678 px where 4 of 5 filters have data
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/astropy/visualization/lupton_rgb.py:645: RuntimeWarning: invalid value encountered in divide
+  fInorm = np.where(Int <= 0, 0, np.true_divide(fI, Int))
+[    23s] done: 1 pictures

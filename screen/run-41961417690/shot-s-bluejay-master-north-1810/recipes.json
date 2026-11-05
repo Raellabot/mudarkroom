@@ -1,0 +1,69 @@
+[
+ {
+  "picture": "s-bluejay-master-north-1810-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "JWST",
+  "target": "BLUEJAY-MASTER-NORTH",
+  "proposal_id": "1810",
+  "instrument": "NIRCAM/IMAGE",
+  "title": "The Stellar and Gas Content of Galaxies at Cosmic Noon",
+  "grid": {
+   "width": 1098,
+   "height": 487,
+   "reduction": 9,
+   "arcsec_per_pixel": 0.28108223414892325,
+   "reference_filter": "F200W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F090W",
+    "center_nm": 900.0,
+    "color": "#1a4cff",
+    "obs_id": "jw01810-o001_t001_nircam_clear-f090w",
+    "exposure_s": 5497.228,
+    "product": "mast:JWST/product/jw01810-o001_t001_nircam_clear-f090w_i2d.fits"
+   },
+   {
+    "filter": "F150W",
+    "center_nm": 1499.5,
+    "color": "#00e6ff",
+    "obs_id": "jw01810-o001_t001_nircam_clear-f150w",
+    "exposure_s": 21988.904,
+    "product": "mast:JWST/product/jw01810-o001_t001_nircam_clear-f150w_i2d.fits"
+   },
+   {
+    "filter": "F200W",
+    "center_nm": 1990.5,
+    "color": "#1aff33",
+    "obs_id": "jw01810-o001_t001_nircam_clear-f200w",
+    "exposure_s": 21988.904,
+    "product": "mast:JWST/product/jw01810-o001_t001_nircam_clear-f200w_i2d.fits"
+   },
+   {
+    "filter": "F277W",
+    "center_nm": 2771.5,
+    "color": "#ff800d",
+    "obs_id": "jw01810-o001_t001_nircam_clear-f277w",
+    "exposure_s": 16491.68,
+    "product": "mast:JWST/product/jw01810-o001_t001_nircam_clear-f277w_i2d.fits"
+   },
+   {
+    "filter": "F444W",
+    "center_nm": 4433.0,
+    "color": "#ff1a1a",
+    "obs_id": "jw01810-o001_t001_nircam_clear-f444w",
+    "exposure_s": 21988.904,
+    "product": "mast:JWST/product/jw01810-o001_t001_nircam_clear-f444w_i2d.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": null,
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

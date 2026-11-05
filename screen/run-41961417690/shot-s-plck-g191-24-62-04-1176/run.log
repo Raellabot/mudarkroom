@@ -1,0 +1,9 @@
+Traceback (most recent call last):
+  File "/home/runner/work/mudarkroom/mudarkroom/scripts/mast/color.py", line 865, in <module>
+    main()
+  File "/home/runner/work/mudarkroom/mudarkroom/scripts/mast/color.py", line 726, in main
+    chosen = pick_all(rows, collection, target, proposal, instrument)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/mudarkroom/mudarkroom/scripts/mast/color.py", line 158, in pick_all
+    raise ValueError("the first four spec fields need the same number of '+' separated values")
+ValueError: the first four spec fields need the same number of '+' separated values

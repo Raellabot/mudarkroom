@@ -1,0 +1,20 @@
+[     0s] == s-io160-9440: 5 filters: ['F220W', 'F330W', 'F550M', 'F775W', 'F850LP']
+[     1s] F220W: 1163x1136 px at 0.0250 arcsec/px, 16 MB
+[     1s] F330W: 1163x1136 px at 0.0250 arcsec/px, 16 MB
+[     2s] F550M: 1163x1136 px at 0.0250 arcsec/px, 16 MB
+[     2s] F775W: 1163x1136 px at 0.0250 arcsec/px, 16 MB
+[     3s] F850LP: 1163x1136 px at 0.0250 arcsec/px, 16 MB
+[     3s] grid from F330W: 1163x1136 px (reduced 1x), 0.025 arcsec/px
+[     4s] downloaded j6n504010_drz.fits: 16 MB
+[     4s] F220W: aligned (reduced 1x), covers 0% of the grid
+[     5s] downloaded j6n501acq_drz.fits: 16 MB
+[     5s] F330W: aligned (reduced 1x), covers 89% of the grid
+[     6s] downloaded j6n502irq_drz.fits: 16 MB
+[     6s] F550M: aligned (reduced 1x), covers 0% of the grid
+[     7s] downloaded j6n504ogq_drz.fits: 16 MB
+[     7s] F775W: aligned (reduced 1x), covers 0% of the grid
+[     8s] downloaded j6n504ohq_drz.fits: 16 MB
+[     8s] F850LP: aligned (reduced 1x), covers 0% of the grid
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/astropy/visualization/lupton_rgb.py:645: RuntimeWarning: invalid value encountered in divide
+  fInorm = np.where(Int <= 0, 0, np.true_divide(fI, Int))
+[     9s] done: 1 pictures

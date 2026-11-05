@@ -1,0 +1,69 @@
+[
+ {
+  "picture": "s-messier-092-11729-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "MESSIER-092",
+  "proposal_id": "11729",
+  "instrument": "WFC3/UVIS",
+  "title": null,
+  "grid": {
+   "width": 1098,
+   "height": 1066,
+   "reduction": 5,
+   "arcsec_per_pixel": 0.1981000043451747,
+   "reference_filter": "F336W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F336W",
+    "center_nm": 336.6,
+    "color": "#1a4cff",
+    "obs_id": "hst_11729_04_wfc3_uvis_f336w_ib2j04",
+    "exposure_s": 880,
+    "product": "mast:HST/product/hst_11729_04_wfc3_uvis_f336w_ib2j04_drc.fits"
+   },
+   {
+    "filter": "F390M",
+    "center_nm": 389.6,
+    "color": "#00e6ff",
+    "obs_id": "hst_11729_04_wfc3_uvis_f390m_ib2j04",
+    "exposure_s": 1450,
+    "product": "mast:HST/product/hst_11729_04_wfc3_uvis_f390m_ib2j04_drc.fits"
+   },
+   {
+    "filter": "F395N",
+    "center_nm": 395.6,
+    "color": "#1aff33",
+    "obs_id": "hst_11729_04_wfc3_uvis_f395n_ib2j04",
+    "exposure_s": 2020,
+    "product": "mast:HST/product/hst_11729_04_wfc3_uvis_f395n_ib2j04_drc.fits"
+   },
+   {
+    "filter": "F410M",
+    "center_nm": 410.8,
+    "color": "#ff800d",
+    "obs_id": "hst_11729_04_wfc3_uvis_f410m_ib2j04",
+    "exposure_s": 1570,
+    "product": "mast:HST/product/hst_11729_04_wfc3_uvis_f410m_ib2j04_drc.fits"
+   },
+   {
+    "filter": "F547M",
+    "center_nm": 547.0,
+    "color": "#ff1a1a",
+    "obs_id": "ib2j04020",
+    "exposure_s": 445,
+    "product": "mast:HST/product/ib2j04020_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": null,
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]
