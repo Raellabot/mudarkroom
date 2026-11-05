@@ -1,0 +1,134 @@
+name: Screen candidates
+
+# Run by hand: makes one small test picture for each candidate in a batch file, several at a time (pictures go to the `results` branch under screen/).
+on:
+  workflow_dispatch:
+    inputs:
+      batch:
+        description: "Batch file in the repo, one candidate per line as COLLECTION|proposal|target|instrument|label"
+        default: "catalog/batch1.txt"
+      max_side:
+        description: "Longest side of the test pictures in pixels"
+        default: "1200"
+      max_filters:
+        description: "Most filters in one picture"
+        default: "5"
+      size_cap_gb:
+        description: "Largest single mosaic file to download, in GB"
+        default: "3"
+
+concurrency:
+  group: screen
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  plan:
+    runs-on: ubuntu-latest
+    outputs:
+      matrix: ${{ steps.m.outputs.matrix }}
+    steps:
+      - uses: actions/checkout@v4
+      - id: m
+        run: |
+          python3 - <<'PY' >> "$GITHUB_OUTPUT"
+          import json, os
+          items = []
+          for line in open(os.environ["BATCH"]):
+              line = line.strip()
+              if line and not line.startswith("#"):
+                  c, p, t, i, l = line.split("|")[:5]
+                  items.append({"line": line, "label": l})
+          print("matrix=" + json.dumps({"include": items}))
+          PY
+        env:
+          BATCH: ${{ inputs.batch }}
+
+  shoot:
+    needs: plan
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    strategy:
+      fail-fast: false
+      max-parallel: 10
+      matrix: ${{ fromJson(needs.plan.outputs.matrix) }}
+    env:
+      CONTACT_INFO: ${{ secrets.CONTACT_INFO }}
+      MAX_SIDE: ${{ inputs.max_side }}
+      MAX_FILTERS: ${{ inputs.max_filters }}
+      SIZE_CAP_GB: ${{ inputs.size_cap_gb }}
+      PALETTES: stsci
+      NO_DOWNLOAD: "0"
+      WORK_DIR: work
+      LINE: ${{ matrix.line }}
+      LABEL: ${{ matrix.label }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install numpy pillow scipy astropy
+      - name: Make the test picture
+        run: |
+          set -o pipefail
+          mkdir -p out/find work
+          IFS='|' read -r C P T I L <<< "$LINE"
+          IFS='+' read -ra CS <<< "$C"
+          IFS='+' read -ra PS <<< "$P"
+          IFS='+' read -ra TS <<< "$T"
+          n=0
+          for k in "${!CS[@]}"; do
+            n=$((n+1))
+            python -u scripts/mast/find_rows.py "out/find/$n" "${CS[$k]}" "${PS[$k]}" "${TS[$k]}" 2>&1 | tee -a out/find.log
+          done
+          python3 - <<'PY'
+          import glob, gzip, json
+          rows = []
+          for f in sorted(glob.glob("out/find/*/rows.json.gz")):
+              rows += json.load(gzip.open(f))["rows"]
+          with gzip.open("out/find/rows.json.gz", "wt") as g:
+              json.dump({"complete": True, "rows": rows}, g)
+          PY
+          python -u scripts/mast/color.py out out/find/rows.json.gz "$C|$T|$P|$I|$L|50" 2>&1 | tee out/run.log
+      - name: Keep only the small files
+        if: always()
+        run: |
+          rm -rf out/find work
+          find out -name '*.npz' -delete
+          ls -la out
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: shot-${{ matrix.label }}
+          path: out
+          retention-days: 3
+
+  gather:
+    needs: shoot
+    if: always()
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          path: shots
+      - name: Save to the results branch
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          rm -rf /tmp/mc && git worktree prune
+          if git fetch -q origin results 2>/dev/null; then
+            git worktree add -q -B results /tmp/mc origin/results
+          else
+            git worktree add -q --detach /tmp/mc HEAD
+            git -C /tmp/mc checkout -q --orphan results
+            git -C /tmp/mc rm -rq --cached . >/dev/null 2>&1 || true
+            find /tmp/mc -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf {} +
+          fi
+          mkdir -p "/tmp/mc/screen/run-$GITHUB_RUN_ID"
+          cp -r shots/. "/tmp/mc/screen/run-$GITHUB_RUN_ID/"
+          git -C /tmp/mc add -f screen
+          git -C /tmp/mc commit -q -m "Screening pictures (run $GITHUB_RUN_ID)" || { echo "no changes"; exit 0; }
+          git -C /tmp/mc push -q origin results
