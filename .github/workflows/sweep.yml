@@ -1,0 +1,53 @@
+name: Sweep counts
+
+# Run by hand: counts the public Hubble and Webb image sets with several filters, without downloading pictures (report goes to the `results` branch).
+on:
+  workflow_dispatch:
+    inputs:
+      collections:
+        description: "Space-separated MAST collections"
+        default: "HST JWST HAP"
+
+concurrency:
+  group: mast-sweep
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  sweep:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    env:
+      CONTACT_INFO: ${{ secrets.CONTACT_INFO }}
+      COLLECTIONS: ${{ inputs.collections }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Sweep
+        run: |
+          set -o pipefail
+          mkdir -p out
+          python -u scripts/mast/sweep.py out 2>&1 | tee out/sweep.log
+      - name: Save to the results branch
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          rm -rf /tmp/mc && git worktree prune
+          if git fetch -q origin results 2>/dev/null; then
+            git worktree add -q -B results /tmp/mc origin/results
+          else
+            git worktree add -q --detach /tmp/mc HEAD
+            git -C /tmp/mc checkout -q --orphan results
+            git -C /tmp/mc rm -rq --cached . >/dev/null 2>&1 || true
+            find /tmp/mc -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf {} +
+          fi
+          mkdir -p "/tmp/mc/sweep/run-$GITHUB_RUN_ID"
+          cp -r out/. "/tmp/mc/sweep/run-$GITHUB_RUN_ID/"
+          git -C /tmp/mc add -f sweep
+          git -C /tmp/mc commit -q -m "Sweep (run $GITHUB_RUN_ID)" || { echo "no changes"; exit 0; }
+          git -C /tmp/mc push -q origin results
