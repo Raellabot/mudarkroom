@@ -60,6 +60,7 @@ jobs:
       MAX_FILTERS: ${{ inputs.max_filters }}
       SIZE_CAP_GB: ${{ inputs.size_cap_gb }}
       PALETTES: stsci
+      AUTO_FINISH: "1"
       NO_DOWNLOAD: "0"
       WORK_DIR: work
       LINE: ${{ matrix.line }}

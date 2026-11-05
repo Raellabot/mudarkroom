@@ -520,6 +520,7 @@ XRAY = {
 }
 XRAY_COLOR = np.array([0.55, 1.00, 0.10])   # lime green
 FINISH_ON = os.environ.get("FINISH", "1") == "1"
+AUTO_FINISH = os.environ.get("AUTO_FINISH", "0") == "1"
 
 
 # Background off, then scaled so the 99.7th percentile of the signal is 1. NaN (no coverage) becomes 0.
@@ -774,6 +775,8 @@ def main():
             log(f"{label}: samples saved ({small[0].shape[1]}x{small[0].shape[0]} px per filter)")
             continue
         fin = FINISH.get(label) if FINISH_ON else None
+        if fin is None and AUTO_FINISH:   # no hand-made finishing: crop to the solid part of the frame
+            fin = {"dense": 0.97}
         if fin and fin.get("sky"):   # crop to a square of half-width `half` arcsec around a sky position (RA, Dec in degrees)
             ra, dec, half = fin["sky"]
             gw = WCS(fits.Header.fromstring(grid["wcs"]))
