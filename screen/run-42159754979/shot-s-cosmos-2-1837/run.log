@@ -1,0 +1,8 @@
+[     0s] == s-cosmos-2-1837: 5 filters: ['F090W', 'F150W', 'F277W', 'F356W', 'F444W']
+[     1s] F090W: file is 35.6 GB, over the 3.0 GB cap; this filter is left out
+[     1s] F150W: file is 31.3 GB, over the 3.0 GB cap; this filter is left out
+[     1s] F277W: file is 4.6 GB, over the 3.0 GB cap; this filter is left out
+[     2s] F356W: file is 4.6 GB, over the 3.0 GB cap; this filter is left out
+[     2s] F444W: file is 4.3 GB, over the 3.0 GB cap; this filter is left out
+[     2s] s-cosmos-2-1837 failed: fewer than three filters can be used
+[     2s] done: 0 pictures
