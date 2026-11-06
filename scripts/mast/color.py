@@ -160,10 +160,13 @@ def pick_all(rows, collection, target, proposal, instrument):
     if len(groups) == 1:
         return pick(rows, *groups[0])
     chosen = sorted((r for g in groups for r in pick(rows, *g, limit=10 ** 6)), key=lambda r: (r["em_min"] + r["em_max"]) / 2)
-    names = [r["filters"] for r in chosen]
-    if len(set(names)) != len(names):
-        raise ValueError(f"the same filter name comes from two sources: {sorted({n for n in names if names.count(n) > 1})}")
-    return thin(chosen, MAX_FILTERS)
+    seen, kept = set(), []
+    for r in chosen:
+        # a filter that two sources both carry is used once (the first source listed wins)
+        if r["filters"] not in seen:
+            seen.add(r["filters"])
+            kept.append(r)
+    return thin(kept, MAX_FILTERS)
 
 
 # ---- download and reduce -------------------------------------------------------------------------------------------------------------------
