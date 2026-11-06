@@ -1,0 +1,55 @@
+[
+ {
+  "picture": "s-ngc-3201-13297-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "NGC-3201",
+  "proposal_id": "13297",
+  "instrument": "WFC3/UVIS",
+  "title": "The HST Legacy Survey of Galactic Globular Clusters: Shedding UV Light on Their Populations and Formation",
+  "grid": {
+   "width": 1104,
+   "height": 1168,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.15848000347613972,
+   "reference_filter": "F336W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F275W",
+    "center_nm": 274.5,
+    "color": "#1a4cff",
+    "obs_id": "icau02020",
+    "exposure_s": 1516,
+    "product": "mast:HST/product/icau02020_drz.fits"
+   },
+   {
+    "filter": "F336W",
+    "center_nm": 336.6,
+    "color": "#1aff33",
+    "obs_id": "icau02010",
+    "exposure_s": 620,
+    "product": "mast:HST/product/icau02010_drz.fits"
+   },
+   {
+    "filter": "F438W",
+    "center_nm": 431.4,
+    "color": "#ff1a1a",
+    "obs_id": "icau01v2q",
+    "exposure_s": 68,
+    "product": "mast:HST/product/icau01v2q_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]
