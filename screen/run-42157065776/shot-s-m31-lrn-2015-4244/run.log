@@ -1,0 +1,82 @@
+[     0s] == s-m31-lrn-2015-4244: 5 filters: ['F560W', 'F1000W', 'F1280W', 'F1800W', 'F2550W']
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set DATE-BEG to '2025-01-16T02:23:13.016' from MJD-BEG.
+Set DATE-AVG to '2025-01-16T02:26:42.549' from MJD-AVG.
+Set DATE-END to '2025-01-16T02:30:12.050' from MJD-END'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'obsfix' made the change 'Set OBSGEO-L to    94.715990 from OBSGEO-[XYZ].
+Set OBSGEO-B to    12.586787 from OBSGEO-[XYZ].
+Set OBSGEO-H to 1664856275.332 from OBSGEO-[XYZ]'. [astropy.wcs.wcs]
+[     1s] F560W: 1066x1059 px at 0.1109 arcsec/px, 32 MB
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set DATE-BEG to '2025-01-16T02:43:31.332' from MJD-BEG.
+Set DATE-AVG to '2025-01-16T02:47:25.802' from MJD-AVG.
+Set DATE-END to '2025-01-16T02:51:20.273' from MJD-END'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'obsfix' made the change 'Set OBSGEO-L to    94.721492 from OBSGEO-[XYZ].
+Set OBSGEO-B to    12.589782 from OBSGEO-[XYZ].
+Set OBSGEO-H to 1664799967.428 from OBSGEO-[XYZ]'. [astropy.wcs.wcs]
+[     1s] F1000W: 1067x1059 px at 0.1109 arcsec/px, 32 MB
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set DATE-BEG to '2025-01-16T03:05:21.135' from MJD-BEG.
+Set DATE-AVG to '2025-01-16T03:08:10.431' from MJD-AVG.
+Set DATE-END to '2025-01-16T03:10:56.975' from MJD-END'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'obsfix' made the change 'Set OBSGEO-L to    94.727296 from OBSGEO-[XYZ].
+Set OBSGEO-B to    12.592940 from OBSGEO-[XYZ].
+Set OBSGEO-H to 1664740523.801 from OBSGEO-[XYZ]'. [astropy.wcs.wcs]
+[     2s] F1280W: 1112x1106 px at 0.1109 arcsec/px, 35 MB
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set DATE-BEG to '2025-01-16T03:22:39.081' from MJD-BEG.
+Set DATE-AVG to '2025-01-16T03:25:38.044' from MJD-AVG.
+Set DATE-END to '2025-01-16T03:28:37.006' from MJD-END'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'obsfix' made the change 'Set OBSGEO-L to    94.731980 from OBSGEO-[XYZ].
+Set OBSGEO-B to    12.595490 from OBSGEO-[XYZ].
+Set OBSGEO-H to 1664692509.679 from OBSGEO-[XYZ]'. [astropy.wcs.wcs]
+[     3s] F1800W: 1112x1106 px at 0.1109 arcsec/px, 35 MB
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set DATE-BEG to '2025-01-16T03:46:55.959' from MJD-BEG.
+Set DATE-AVG to '2025-01-16T03:53:07.842' from MJD-AVG.
+Set DATE-END to '2025-01-16T03:59:22.509' from MJD-END'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'obsfix' made the change 'Set OBSGEO-L to    94.738744 from OBSGEO-[XYZ].
+Set OBSGEO-B to    12.599171 from OBSGEO-[XYZ].
+Set OBSGEO-H to 1664623118.976 from OBSGEO-[XYZ]'. [astropy.wcs.wcs]
+[     4s] F2550W: 1111x1106 px at 0.1109 arcsec/px, 35 MB
+[     4s] grid from F1280W: 1112x1106 px (reduced 1x), 0.111 arcsec/px
+[     5s] downloaded jw04244-o002_t002_miri_f560w_i2d.fits: 32 MB
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set DATE-BEG to '2025-01-16T02:23:13.016' from MJD-BEG.
+Set DATE-AVG to '2025-01-16T02:26:42.549' from MJD-AVG.
+Set DATE-END to '2025-01-16T02:30:12.050' from MJD-END'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'obsfix' made the change 'Set OBSGEO-L to    94.715990 from OBSGEO-[XYZ].
+Set OBSGEO-B to    12.586787 from OBSGEO-[XYZ].
+Set OBSGEO-H to 1664856275.332 from OBSGEO-[XYZ]'. [astropy.wcs.wcs]
+[     6s] F560W: aligned (reduced 1x), covers 66% of the grid
+[    10s] downloaded jw04244-o002_t002_miri_f1000w_i2d.fits: 32 MB
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set DATE-BEG to '2025-01-16T02:43:31.332' from MJD-BEG.
+Set DATE-AVG to '2025-01-16T02:47:25.802' from MJD-AVG.
+Set DATE-END to '2025-01-16T02:51:20.273' from MJD-END'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'obsfix' made the change 'Set OBSGEO-L to    94.721492 from OBSGEO-[XYZ].
+Set OBSGEO-B to    12.589782 from OBSGEO-[XYZ].
+Set OBSGEO-H to 1664799967.428 from OBSGEO-[XYZ]'. [astropy.wcs.wcs]
+[    11s] F1000W: aligned (reduced 1x), covers 66% of the grid
+[    12s] downloaded jw04244-o002_t002_miri_f1280w_i2d.fits: 35 MB
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set DATE-BEG to '2025-01-16T03:05:21.135' from MJD-BEG.
+Set DATE-AVG to '2025-01-16T03:08:10.431' from MJD-AVG.
+Set DATE-END to '2025-01-16T03:10:56.975' from MJD-END'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'obsfix' made the change 'Set OBSGEO-L to    94.727296 from OBSGEO-[XYZ].
+Set OBSGEO-B to    12.592940 from OBSGEO-[XYZ].
+Set OBSGEO-H to 1664740523.801 from OBSGEO-[XYZ]'. [astropy.wcs.wcs]
+[    12s] F1280W: aligned (reduced 1x), covers 74% of the grid
+[    14s] downloaded jw04244-o002_t002_miri_f1800w_i2d.fits: 35 MB
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set DATE-BEG to '2025-01-16T03:22:39.081' from MJD-BEG.
+Set DATE-AVG to '2025-01-16T03:25:38.044' from MJD-AVG.
+Set DATE-END to '2025-01-16T03:28:37.006' from MJD-END'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'obsfix' made the change 'Set OBSGEO-L to    94.731980 from OBSGEO-[XYZ].
+Set OBSGEO-B to    12.595490 from OBSGEO-[XYZ].
+Set OBSGEO-H to 1664692509.679 from OBSGEO-[XYZ]'. [astropy.wcs.wcs]
+[    14s] F1800W: aligned (reduced 1x), covers 74% of the grid
+[    15s] downloaded jw04244-o002_t002_miri_f2550w_i2d.fits: 35 MB
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set DATE-BEG to '2025-01-16T03:46:55.959' from MJD-BEG.
+Set DATE-AVG to '2025-01-16T03:53:07.842' from MJD-AVG.
+Set DATE-END to '2025-01-16T03:59:22.509' from MJD-END'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'obsfix' made the change 'Set OBSGEO-L to    94.738744 from OBSGEO-[XYZ].
+Set OBSGEO-B to    12.599171 from OBSGEO-[XYZ].
+Set OBSGEO-H to 1664623118.976 from OBSGEO-[XYZ]'. [astropy.wcs.wcs]
+[    16s] F2550W: aligned (reduced 1x), covers 74% of the grid
+[    17s] s-m31-lrn-2015-4244: finishing steps applied: ['dense']
+[    17s] cropped to 660x381 px where 5 of 5 filters have data
+/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/astropy/visualization/lupton_rgb.py:645: RuntimeWarning: invalid value encountered in divide
+  fInorm = np.where(Int <= 0, 0, np.true_divide(fI, Int))
+[    17s] done: 1 pictures

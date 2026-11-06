@@ -1,0 +1,71 @@
+[
+ {
+  "picture": "s-3c273-9294-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "3C273",
+  "proposal_id": "9294",
+  "instrument": "ACS/WFC",
+  "title": "Observations of the Host Galaxy of 3C 273",
+  "grid": {
+   "width": 932,
+   "height": 930,
+   "reduction": 3,
+   "arcsec_per_pixel": 0.14999999999999472,
+   "reference_filter": "F850LP"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F435W",
+    "center_nm": 425.0,
+    "color": "#1a4cff",
+    "obs_id": "j8ea03010",
+    "exposure_s": 1821,
+    "product": "mast:HST/product/j8ea03010_drz.fits"
+   },
+   {
+    "filter": "F475W",
+    "center_nm": 470.0,
+    "color": "#00e6ff",
+    "obs_id": "hst_9294_02_acs_wfc_f475w_j8ea02",
+    "exposure_s": 1805,
+    "product": "mast:HST/product/hst_9294_02_acs_wfc_f475w_j8ea02_drz.fits"
+   },
+   {
+    "filter": "FR601N",
+    "center_nm": 601.1,
+    "color": "#1aff33",
+    "obs_id": "j8ea02020",
+    "exposure_s": 2120,
+    "product": "mast:HST/product/j8ea02021_drz.fits"
+   },
+   {
+    "filter": "FR782N",
+    "center_nm": 781.6,
+    "color": "#ff800d",
+    "obs_id": "j8ea01020",
+    "exposure_s": 2120,
+    "product": "mast:HST/product/j8ea01021_drz.fits"
+   },
+   {
+    "filter": "F850LP",
+    "center_nm": 895.0,
+    "color": "#ff1a1a",
+    "obs_id": "hst_9294_01_acs_wfc_f850lp_j8ea01",
+    "exposure_s": 1810,
+    "product": "mast:HST/product/hst_9294_01_acs_wfc_f850lp_j8ea01_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

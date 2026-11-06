@@ -1,0 +1,71 @@
+[
+ {
+  "picture": "s-eso137-g034-16841-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "ESO137-G034",
+  "proposal_id": "16841",
+  "instrument": "WFC3/UVIS",
+  "title": null,
+  "grid": {
+   "width": 1185,
+   "height": 1080,
+   "reduction": 7,
+   "arcsec_per_pixel": 0.2773399999999923,
+   "reference_filter": "FQ387N"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "FQ387N",
+    "center_nm": 387.4,
+    "color": "#1a4cff",
+    "obs_id": "hst_16841_01_wfc3_uvis_fq492n_ier601",
+    "exposure_s": 2000,
+    "product": "mast:HST/product/hst_16841_01_wfc3_uvis_fq492n_ier601_drc.fits"
+   },
+   {
+    "filter": "FQ492N",
+    "center_nm": 493.4,
+    "color": "#00e6ff",
+    "obs_id": "ier601040",
+    "exposure_s": 2000,
+    "product": "mast:HST/product/ier601040_drz.fits"
+   },
+   {
+    "filter": "F547M",
+    "center_nm": 547.0,
+    "color": "#1aff33",
+    "obs_id": "ier601030",
+    "exposure_s": 254,
+    "product": "mast:HST/product/ier601030_drz.fits"
+   },
+   {
+    "filter": "F673N",
+    "center_nm": 676.9,
+    "color": "#ff800d",
+    "obs_id": "ier601020",
+    "exposure_s": 2000,
+    "product": "mast:HST/product/ier601020_drz.fits"
+   },
+   {
+    "filter": "F763M",
+    "center_nm": 763.5,
+    "color": "#ff1a1a",
+    "obs_id": "ier601010",
+    "exposure_s": 262,
+    "product": "mast:HST/product/ier601010_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

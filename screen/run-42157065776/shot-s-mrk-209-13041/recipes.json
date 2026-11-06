@@ -1,0 +1,71 @@
+[
+ {
+  "picture": "s-mrk-209-13041-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "MRK-209",
+  "proposal_id": "13041",
+  "instrument": "WFC3/UVIS",
+  "title": "Diagnosing Ionization Mechanisms in Blue Compact Dwarfs, the Local Analogues to Primordial Galaxies",
+  "grid": {
+   "width": 1175,
+   "height": 725,
+   "reduction": 6,
+   "arcsec_per_pixel": 0.2377200052142096,
+   "reference_filter": "FQ508N"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F336W",
+    "center_nm": 336.6,
+    "color": "#1a4cff",
+    "obs_id": "ic0q02010",
+    "exposure_s": 377,
+    "product": "mast:HST/product/ic0q02010_drz.fits"
+   },
+   {
+    "filter": "F469N",
+    "center_nm": 468.9,
+    "color": "#00e6ff",
+    "obs_id": "ic0q02030",
+    "exposure_s": 3070,
+    "product": "mast:HST/product/ic0q02030_drz.fits"
+   },
+   {
+    "filter": "FQ508N",
+    "center_nm": 509.2,
+    "color": "#1aff33",
+    "obs_id": "hst_13041_a2_wfc3_uvis_fq674n_ic0qa2",
+    "exposure_s": 2057,
+    "product": "mast:HST/product/hst_13041_a2_wfc3_uvis_fq674n_ic0qa2_drc.fits"
+   },
+   {
+    "filter": "F656N",
+    "center_nm": 656.2,
+    "color": "#ff800d",
+    "obs_id": "ic0q02080",
+    "exposure_s": 633,
+    "product": "mast:HST/product/ic0q02080_drz.fits"
+   },
+   {
+    "filter": "F814W",
+    "center_nm": 831.9,
+    "color": "#ff1a1a",
+    "obs_id": "ic0q02090",
+    "exposure_s": 543,
+    "product": "mast:HST/product/ic0q02090_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

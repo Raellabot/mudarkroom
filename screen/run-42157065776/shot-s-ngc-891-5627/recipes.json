@@ -1,0 +1,71 @@
+[
+ {
+  "picture": "s-ngc-891-5627-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "JWST+JWST",
+  "target": "NGC-891+NGC-891",
+  "proposal_id": "5627+5627",
+  "instrument": "MIRI/IMAGE+NIRCAM/IMAGE",
+  "title": "Dust and Molecular Gas in Galactic Winds and Fountains: A JWST Survey of Nearby Highly Inclined Starburst and Active Disk Galaxies",
+  "grid": {
+   "width": 1133,
+   "height": 1128,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.12297378795392722,
+   "reference_filter": "F187N"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F187N",
+    "center_nm": 1873.5,
+    "color": "#1a4cff",
+    "obs_id": "jw05627-o007_t003_nircam_clear-f187n",
+    "exposure_s": 1631.988,
+    "product": "mast:JWST/product/jw05627-o007_t003_nircam_clear-f187n_i2d.fits"
+   },
+   {
+    "filter": "F335M",
+    "center_nm": 3357.5,
+    "color": "#00e6ff",
+    "obs_id": "jw05627-o007_t003_nircam_clear-f335m",
+    "exposure_s": 1631.988,
+    "product": "mast:JWST/product/jw05627-o007_t003_nircam_clear-f335m_i2d.fits"
+   },
+   {
+    "filter": "F1130W",
+    "center_nm": 11300.0,
+    "color": "#1aff33",
+    "obs_id": "jw05627-o006_t003_miri_f1130w-sub128",
+    "exposure_s": 2.38,
+    "product": "mast:JWST/product/jw05627-o006_t003_miri_f1130w-sub128_i2d.fits"
+   },
+   {
+    "filter": "F1500W",
+    "center_nm": 15000.0,
+    "color": "#ff800d",
+    "obs_id": "jw05627-o006_t003_miri_f1500w-sub128",
+    "exposure_s": 2.38,
+    "product": "mast:JWST/product/jw05627-o006_t003_miri_f1500w-sub128_i2d.fits"
+   },
+   {
+    "filter": "F1800W",
+    "center_nm": 18000.0,
+    "color": "#ff1a1a",
+    "obs_id": "jw05627-o006_t003_miri_f1800w-sub128",
+    "exposure_s": 2.38,
+    "product": "mast:JWST/product/jw05627-o006_t003_miri_f1800w-sub128_i2d.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

@@ -1,0 +1,71 @@
+[
+ {
+  "picture": "s-cl-westerlund-2-nircam-3523-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "JWST",
+  "target": "CL-WESTERLUND-2-NIRCAM",
+  "proposal_id": "3523",
+  "instrument": "NIRCAM/IMAGE",
+  "title": "Evolution of protoplanetary disks and early stellar evolution in starburst: A NIRCam and MIRI observation of the young starburst cluster Westerlund 2",
+  "grid": {
+   "width": 1097,
+   "height": 485,
+   "reduction": 9,
+   "arcsec_per_pixel": 0.2810275272386855,
+   "reference_filter": "F115W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F115W",
+    "center_nm": 1147.5,
+    "color": "#1a4cff",
+    "obs_id": "jw03523-o005_t001_nircam_clear-f115w",
+    "exposure_s": 1460.2,
+    "product": "mast:JWST/product/jw03523-o005_t001_nircam_clear-f115w_i2d.fits"
+   },
+   {
+    "filter": "F182M",
+    "center_nm": 1845.0,
+    "color": "#00e6ff",
+    "obs_id": "jw03523-o005_t001_nircam_clear-f182m",
+    "exposure_s": 1460.2,
+    "product": "mast:JWST/product/jw03523-o005_t001_nircam_clear-f182m_i2d.fits"
+   },
+   {
+    "filter": "F212N",
+    "center_nm": 2121.5,
+    "color": "#1aff33",
+    "obs_id": "jw03523-o005_t001_nircam_clear-f212n",
+    "exposure_s": 1460.2,
+    "product": "mast:JWST/product/jw03523-o005_t001_nircam_clear-f212n_i2d.fits"
+   },
+   {
+    "filter": "F300M",
+    "center_nm": 2992.0,
+    "color": "#ff800d",
+    "obs_id": "jw03523-o005_t001_nircam_clear-f300m",
+    "exposure_s": 1460.2,
+    "product": "mast:JWST/product/jw03523-o005_t001_nircam_clear-f300m_i2d.fits"
+   },
+   {
+    "filter": "F410M",
+    "center_nm": 4082.5,
+    "color": "#ff1a1a",
+    "obs_id": "jw03523-o005_t001_nircam_clear-f410m",
+    "exposure_s": 1460.2,
+    "product": "mast:JWST/product/jw03523-o005_t001_nircam_clear-f410m_i2d.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

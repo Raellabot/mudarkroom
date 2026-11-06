@@ -1,0 +1,8 @@
+  page 1/1 rows so far 17 of 17
+HST|NGC2500|13364|WFC3/UVIS|3  rows=11  filters=['F275W', 'F336W', 'F438W', 'F555W', 'F814W', 'detection']
+HST|NGC2500|13364|ACS/WFC|3  rows=5  filters=['F435W', 'F814W', 'detection']
+HST|NGC2500|13364|WFC3/UVIS|2  rows=1  filters=['F555W']
+  page 1/1 rows so far 17 of 17
+HST|NGC2500|13364|WFC3/UVIS|3  rows=11  filters=['F275W', 'F336W', 'F438W', 'F555W', 'F814W', 'detection']
+HST|NGC2500|13364|ACS/WFC|3  rows=5  filters=['F435W', 'F814W', 'detection']
+HST|NGC2500|13364|WFC3/UVIS|2  rows=1  filters=['F555W']

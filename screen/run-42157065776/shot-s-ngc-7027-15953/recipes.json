@@ -1,0 +1,71 @@
+[
+ {
+  "picture": "s-ngc-7027-15953-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST+HST",
+  "target": "NGC-7027+NGC-7027",
+  "proposal_id": "15953+15953",
+  "instrument": "WFC3/IR+WFC3/UVIS",
+  "title": "Young and Rapidly Evolving: a Panchromatic WFC3 Imaging Study of the Planetary Nebulae NGC 7027 and NGC 6302",
+  "grid": {
+   "width": 1049,
+   "height": 1091,
+   "reduction": 5,
+   "arcsec_per_pixel": 0.1981000043451747,
+   "reference_filter": "F502N"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "FQ243N",
+    "center_nm": 242.1,
+    "color": "#1a4cff",
+    "obs_id": "ie3o03010",
+    "exposure_s": 1140,
+    "product": "mast:HST/product/ie3o03010_drz.fits"
+   },
+   {
+    "filter": "F502N",
+    "center_nm": 501.1,
+    "color": "#00e6ff",
+    "obs_id": "hst_15953_03_wfc3_uvis_f502n_ie3o03",
+    "exposure_s": 1030,
+    "product": "mast:HST/product/hst_15953_03_wfc3_uvis_f502n_ie3o03_drc.fits"
+   },
+   {
+    "filter": "F110W",
+    "center_nm": 1148.8,
+    "color": "#1aff33",
+    "obs_id": "ie3o04050",
+    "exposure_s": 556,
+    "product": "mast:HST/product/ie3o04050_drz.fits"
+   },
+   {
+    "filter": "F130N",
+    "center_nm": 1301.0,
+    "color": "#ff800d",
+    "obs_id": "ie3o04040",
+    "exposure_s": 506,
+    "product": "mast:HST/product/ie3o04040_drz.fits"
+   },
+   {
+    "filter": "F167N",
+    "center_nm": 1667.5,
+    "color": "#ff1a1a",
+    "obs_id": "ie3o04020",
+    "exposure_s": 1306,
+    "product": "mast:HST/product/ie3o04020_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

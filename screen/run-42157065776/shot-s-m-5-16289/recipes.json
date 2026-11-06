@@ -1,0 +1,71 @@
+[
+ {
+  "picture": "s-m-5-16289-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST+HST",
+  "target": "M-5+M-5",
+  "proposal_id": "16289+16289",
+  "instrument": "WFC3/IR+WFC3/UVIS",
+  "title": "Multiple stellar populations in Globular Clusters: exploring the low mass regime",
+  "grid": {
+   "width": 724,
+   "height": 716,
+   "reduction": 2,
+   "arcsec_per_pixel": 0.25649999999999606,
+   "reference_filter": "F110W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F275W",
+    "center_nm": 274.5,
+    "color": "#1a4cff",
+    "obs_id": "ieau01020",
+    "exposure_s": 1360,
+    "product": "mast:HST/product/ieau01020_drz.fits"
+   },
+   {
+    "filter": "F336W",
+    "center_nm": 336.6,
+    "color": "#00e6ff",
+    "obs_id": "ieau01010",
+    "exposure_s": 696,
+    "product": "mast:HST/product/ieau01010_drz.fits"
+   },
+   {
+    "filter": "F438W",
+    "center_nm": 431.4,
+    "color": "#1aff33",
+    "obs_id": "ieau02cfq",
+    "exposure_s": 102,
+    "product": "mast:HST/product/ieau02cfq_drz.fits"
+   },
+   {
+    "filter": "F110W",
+    "center_nm": 1148.8,
+    "color": "#ff800d",
+    "obs_id": "hst_16289_03_wfc3_ir_f110w_ieau03",
+    "exposure_s": 1325.87986,
+    "product": "mast:HST/product/hst_16289_03_wfc3_ir_f110w_ieau03_drz.fits"
+   },
+   {
+    "filter": "F160W",
+    "center_nm": 1543.2,
+    "color": "#ff1a1a",
+    "obs_id": "hst_16289_07_wfc3_ir_f160w_ieau07",
+    "exposure_s": 2628.816261,
+    "product": "mast:HST/product/hst_16289_07_wfc3_ir_f160w_ieau07_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

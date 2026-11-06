@@ -1,0 +1,71 @@
+[
+ {
+  "picture": "s-ngc-5548-12365-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "NGC-5548",
+  "proposal_id": "12365",
+  "instrument": "WFC3/UVIS",
+  "title": "A CHandra survey of Extended Emission-line Regions in nearby Seyfert galaxies {CHEERS}",
+  "grid": {
+   "width": 1022,
+   "height": 1082,
+   "reduction": 2,
+   "arcsec_per_pixel": 0.07924000173807116,
+   "reference_filter": "F621M"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "FQ508N",
+    "center_nm": 509.2,
+    "color": "#1a4cff",
+    "obs_id": "ibly04010",
+    "exposure_s": 578,
+    "product": "mast:HST/product/ibly04011_drz.fits"
+   },
+   {
+    "filter": "F547M",
+    "center_nm": 547.0,
+    "color": "#00e6ff",
+    "obs_id": "ibly04fuq",
+    "exposure_s": 16,
+    "product": "mast:HST/product/ibly04fuq_drz.fits"
+   },
+   {
+    "filter": "F621M",
+    "center_nm": 621.5,
+    "color": "#1aff33",
+    "obs_id": "ibly04fvq",
+    "exposure_s": 206,
+    "product": "mast:HST/product/ibly04fvq_drz.fits"
+   },
+   {
+    "filter": "F665N",
+    "center_nm": 665.5,
+    "color": "#ff800d",
+    "obs_id": "ibly04020",
+    "exposure_s": 462,
+    "product": "mast:HST/product/ibly04021_drz.fits"
+   },
+   {
+    "filter": "F680N",
+    "center_nm": 688.2,
+    "color": "#ff1a1a",
+    "obs_id": "ibly04fwq",
+    "exposure_s": 318,
+    "product": "mast:HST/product/ibly04fwq_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

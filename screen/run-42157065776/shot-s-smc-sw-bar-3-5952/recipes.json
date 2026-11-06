@@ -1,0 +1,71 @@
+[
+ {
+  "picture": "s-smc-sw-bar-3-5952-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "JWST+JWST",
+  "target": "SMC-SW-Bar-3+SMC-SW-Bar-3",
+  "proposal_id": "5952+5952",
+  "instrument": "MIRI/IMAGE+NIRCAM/IMAGE",
+  "title": "Zooming-in on the sub-grid physics of PAHs at 20% solar metallicity",
+  "grid": {
+   "width": 1160,
+   "height": 547,
+   "reduction": 9,
+   "arcsec_per_pixel": 0.2810496913962894,
+   "reference_filter": "F150W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F150W",
+    "center_nm": 1499.5,
+    "color": "#1a4cff",
+    "obs_id": "jw05952-o002_t002_nircam_clear-f150w",
+    "exposure_s": 6699.744,
+    "product": "mast:JWST/product/jw05952-o002_t002_nircam_clear-f150w_i2d.fits"
+   },
+   {
+    "filter": "F212N",
+    "center_nm": 2121.5,
+    "color": "#00e6ff",
+    "obs_id": "jw05952-o002_t002_nircam_clear-f212n",
+    "exposure_s": 6699.744,
+    "product": "mast:JWST/product/jw05952-o002_t002_nircam_clear-f212n_i2d.fits"
+   },
+   {
+    "filter": "F360M",
+    "center_nm": 3620.5,
+    "color": "#1aff33",
+    "obs_id": "jw05952-o002_t002_nircam_clear-f360m",
+    "exposure_s": 6699.744,
+    "product": "mast:JWST/product/jw05952-o002_t002_nircam_clear-f360m_i2d.fits"
+   },
+   {
+    "filter": "F1000W",
+    "center_nm": 10000.0,
+    "color": "#ff800d",
+    "obs_id": "jw05952-o003_t002_miri_f1000w",
+    "exposure_s": 6726.695999999998,
+    "product": "mast:JWST/product/jw05952-o003_t002_miri_f1000w_i2d.fits"
+   },
+   {
+    "filter": "F2100W",
+    "center_nm": 21000.0,
+    "color": "#ff1a1a",
+    "obs_id": "jw05952-o003_t002_miri_f2100w",
+    "exposure_s": 11521.968,
+    "product": "mast:JWST/product/jw05952-o003_t002_miri_f2100w_i2d.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

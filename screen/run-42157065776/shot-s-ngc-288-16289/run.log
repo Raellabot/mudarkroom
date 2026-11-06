@@ -1,0 +1,22 @@
+[     0s] == s-ngc-288-16289: 5 filters: ['F275W', 'F336W', 'F438W', 'F110W', 'F160W']
+[     1s] F275W: 4201x4460 px at 0.0396 arcsec/px, 225 MB
+[     1s] F336W: 4201x4461 px at 0.0396 arcsec/px, 225 MB
+[     1s] F438W: 4124x4385 px at 0.0396 arcsec/px, 217 MB
+[     2s] F110W: 1222x1308 px at 0.1283 arcsec/px, 19 MB
+[     2s] F160W: 1048x1162 px at 0.1283 arcsec/px, 15 MB
+[     2s] grid from F336W: 1050x1115 px (reduced 4x), 0.158 arcsec/px
+[     8s] downloaded ieau08020_drz.fits: 225 MB
+[     8s] F275W: aligned (reduced 3x), covers 94% of the grid
+[    13s] downloaded ieau08010_drz.fits: 225 MB
+[    13s] F336W: aligned (reduced 4x), covers 94% of the grid
+[    16s] downloaded ieau08oeq_drz.fits: 217 MB
+[    17s] F438W: aligned (reduced 4x), covers 90% of the grid
+[    18s] downloaded hst_16289_12_wfc3_ir_f110w_ieau12_drz.fits: 19 MB
+[    18s] F110W: aligned (reduced 1x), covers 57% of the grid
+[    18s] downloaded hst_16289_19_wfc3_ir_f160w_ieau19_drz.fits: 15 MB
+[    19s] F160W: aligned (reduced 1x), covers 57% of the grid
+[    19s] s-ngc-288-16289: finishing steps applied: ['dense']
+[    19s] cropped to 725x633 px where 5 of 5 filters have data
+/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/astropy/visualization/lupton_rgb.py:645: RuntimeWarning: invalid value encountered in divide
+  fInorm = np.where(Int <= 0, 0, np.true_divide(fI, Int))
+[    19s] done: 1 pictures

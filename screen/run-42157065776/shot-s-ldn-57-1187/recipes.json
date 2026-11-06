@@ -1,0 +1,63 @@
+[
+ {
+  "picture": "s-ldn-57-1187-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "JWST",
+  "target": "LDN-57",
+  "proposal_id": "1187",
+  "instrument": "NIRCAM/IMAGE",
+  "title": "Extinction Mapping of Pre-stellar Cores",
+  "grid": {
+   "width": 988,
+   "height": 984,
+   "reduction": 5,
+   "arcsec_per_pixel": 0.3145334619799044,
+   "reference_filter": "F444W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F115W",
+    "center_nm": 1147.5,
+    "color": "#1a4cff",
+    "obs_id": "jw01187-o035_t003_nircam_clear-f115w",
+    "exposure_s": 515.364,
+    "product": "mast:JWST/product/jw01187-o035_t003_nircam_clear-f115w_i2d.fits"
+   },
+   {
+    "filter": "F200W",
+    "center_nm": 1990.5,
+    "color": "#1aff33",
+    "obs_id": "jw01187-o035_t003_nircam_clear-f200w",
+    "exposure_s": 515.364,
+    "product": "mast:JWST/product/jw01187-o035_t003_nircam_clear-f200w_i2d.fits"
+   },
+   {
+    "filter": "F300M",
+    "center_nm": 2992.0,
+    "color": "#ff800d",
+    "obs_id": "jw01187-o032_t003_nircam_clear-f300m",
+    "exposure_s": 2061.456,
+    "product": "mast:JWST/product/jw01187-o032_t003_nircam_clear-f300m_i2d.fits"
+   },
+   {
+    "filter": "F444W",
+    "center_nm": 4433.0,
+    "color": "#ff1a1a",
+    "obs_id": "jw01187-o035_t003_nircam_clear-f444w",
+    "exposure_s": 944.8340000000001,
+    "product": "mast:JWST/product/jw01187-o035_t003_nircam_clear-f444w_i2d.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

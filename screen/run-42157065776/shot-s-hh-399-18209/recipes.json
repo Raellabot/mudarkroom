@@ -1,0 +1,71 @@
+[
+ {
+  "picture": "s-hh-399-18209-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "HH-399",
+  "proposal_id": "18209",
+  "instrument": "WFC3/UVIS",
+  "title": "Narrowband observations of protostellar outflows in M20",
+  "grid": {
+   "width": 1031,
+   "height": 1096,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.15847999999999962,
+   "reference_filter": "F814W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F475W",
+    "center_nm": 475.8,
+    "color": "#1a4cff",
+    "obs_id": "ifrp11vtq",
+    "exposure_s": 90,
+    "product": "mast:HST/product/ifrp11vtq_drz.fits"
+   },
+   {
+    "filter": "F502N",
+    "center_nm": 501.1,
+    "color": "#00e6ff",
+    "obs_id": "ifrp14f3q",
+    "exposure_s": 600,
+    "product": "mast:HST/product/ifrp14f3q_drz.fits"
+   },
+   {
+    "filter": "F656N",
+    "center_nm": 656.2,
+    "color": "#1aff33",
+    "obs_id": "ifrp15g8q",
+    "exposure_s": 500,
+    "product": "mast:HST/product/ifrp15g8q_drz.fits"
+   },
+   {
+    "filter": "F673N",
+    "center_nm": 676.9,
+    "color": "#ff800d",
+    "obs_id": "ifrp14f8q",
+    "exposure_s": 800,
+    "product": "mast:HST/product/ifrp14f8q_drz.fits"
+   },
+   {
+    "filter": "F814W",
+    "center_nm": 831.9,
+    "color": "#ff1a1a",
+    "obs_id": "ifrp14f1q",
+    "exposure_s": 90,
+    "product": "mast:HST/product/ifrp14f1q_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

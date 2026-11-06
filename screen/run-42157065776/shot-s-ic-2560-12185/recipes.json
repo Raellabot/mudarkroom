@@ -1,0 +1,71 @@
+[
+ {
+  "picture": "s-ic-2560-12185-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST+HST",
+  "target": "IC-2560+IC-2560",
+  "proposal_id": "12185+12185",
+  "instrument": "WFC3/IR+WFC3/UVIS",
+  "title": "The Hosts of Megamaser Disk Galaxies",
+  "grid": {
+   "width": 1032,
+   "height": 1097,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.15848000347614263,
+   "reference_filter": "F336W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F336W",
+    "center_nm": 336.6,
+    "color": "#1a4cff",
+    "obs_id": "ibig05030",
+    "exposure_s": 1254,
+    "product": "mast:HST/product/ibig05030_drz.fits"
+   },
+   {
+    "filter": "F438W",
+    "center_nm": 431.4,
+    "color": "#00e6ff",
+    "obs_id": "ibig05040",
+    "exposure_s": 410,
+    "product": "mast:HST/product/ibig05040_drz.fits"
+   },
+   {
+    "filter": "F814W",
+    "center_nm": 831.9,
+    "color": "#1aff33",
+    "obs_id": "ibig05050",
+    "exposure_s": 2084,
+    "product": "mast:HST/product/ibig05050_drz.fits"
+   },
+   {
+    "filter": "F110W",
+    "center_nm": 1148.8,
+    "color": "#ff800d",
+    "obs_id": "ibig05010",
+    "exposure_s": 147.018556,
+    "product": "mast:HST/product/ibig05010_drz.fits"
+   },
+   {
+    "filter": "F160W",
+    "center_nm": 1543.2,
+    "color": "#ff1a1a",
+    "obs_id": "ibig05020",
+    "exposure_s": 422.073488,
+    "product": "mast:HST/product/ibig05020_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

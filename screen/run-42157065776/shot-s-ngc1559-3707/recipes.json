@@ -1,0 +1,71 @@
+[
+ {
+  "picture": "s-ngc1559-3707-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "JWST+JWST",
+  "target": "NGC1559+NGC1559",
+  "proposal_id": "3707+3707",
+  "instrument": "MIRI/IMAGE+NIRCAM/IMAGE",
+  "title": "A JWST Census of the Local Galaxy Population: Anchoring the Physics of the Matter Cycle",
+  "grid": {
+   "width": 1190,
+   "height": 761,
+   "reduction": 2,
+   "arcsec_per_pixel": 0.22183344340525152,
+   "reference_filter": "F770W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F150W",
+    "center_nm": 1499.5,
+    "color": "#1a4cff",
+    "obs_id": "jw03707-o014_t008_nircam_clear-f150w",
+    "exposure_s": 214.736,
+    "product": "mast:JWST/product/jw03707-o014_t008_nircam_clear-f150w_i2d.fits"
+   },
+   {
+    "filter": "F187N",
+    "center_nm": 1873.5,
+    "color": "#00e6ff",
+    "obs_id": "jw03707-o014_t008_nircam_clear-f187n",
+    "exposure_s": 386.524,
+    "product": "mast:JWST/product/jw03707-o014_t008_nircam_clear-f187n_i2d.fits"
+   },
+   {
+    "filter": "F300M",
+    "center_nm": 2992.0,
+    "color": "#1aff33",
+    "obs_id": "jw03707-o014_t008_nircam_clear-f300m",
+    "exposure_s": 214.736,
+    "product": "mast:JWST/product/jw03707-o014_t008_nircam_clear-f300m_i2d.fits"
+   },
+   {
+    "filter": "F770W",
+    "center_nm": 7700.0,
+    "color": "#ff800d",
+    "obs_id": "jw03707-o013_t008_miri_f770w",
+    "exposure_s": 266.3999999999999,
+    "product": "mast:JWST/product/jw03707-o013_t008_miri_f770w_i2d.fits"
+   },
+   {
+    "filter": "F2100W",
+    "center_nm": 21000.0,
+    "color": "#ff1a1a",
+    "obs_id": "jw03707-o013_t008_miri_f2100w",
+    "exposure_s": 1032.312,
+    "product": "mast:JWST/product/jw03707-o013_t008_miri_f2100w_i2d.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

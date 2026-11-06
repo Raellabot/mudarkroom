@@ -1,0 +1,71 @@
+[
+ {
+  "picture": "s-ngc5291-s-14727-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST+HST",
+  "target": "NGC5291-S+NGC5291-S",
+  "proposal_id": "14727+14727",
+  "instrument": "WFC3/IR+WFC3/UVIS",
+  "title": "Probing Super Star Cluster formation in the most favorable environments: the metal-enriched, gas-rich and turbulent collisional ring of NGC 5291",
+  "grid": {
+   "width": 1043,
+   "height": 1104,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.15848000347614258,
+   "reference_filter": "F336W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F336W",
+    "center_nm": 336.6,
+    "color": "#1a4cff",
+    "obs_id": "id6s02040",
+    "exposure_s": 1512,
+    "product": "mast:HST/product/id6s02040_drz.fits"
+   },
+   {
+    "filter": "F475W",
+    "center_nm": 475.8,
+    "color": "#00e6ff",
+    "obs_id": "id6s02010",
+    "exposure_s": 736,
+    "product": "mast:HST/product/id6s02010_drz.fits"
+   },
+   {
+    "filter": "F606W",
+    "center_nm": 594.0,
+    "color": "#1aff33",
+    "obs_id": "id6s02020",
+    "exposure_s": 736,
+    "product": "mast:HST/product/id6s02020_drz.fits"
+   },
+   {
+    "filter": "F814W",
+    "center_nm": 831.9,
+    "color": "#ff800d",
+    "obs_id": "id6s02030",
+    "exposure_s": 736,
+    "product": "mast:HST/product/id6s02030_drz.fits"
+   },
+   {
+    "filter": "F160W",
+    "center_nm": 1543.2,
+    "color": "#ff1a1a",
+    "obs_id": "id6s02050",
+    "exposure_s": 3612,
+    "product": "mast:HST/product/id6s02050_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

@@ -1,0 +1,14 @@
+[     0s] == s-cosmos-1-1837: 5 filters: ['F090W', 'F150W', 'F277W', 'F444W', 'F1800W']
+[     1s] F090W: file is 34.7 GB, over the 3.0 GB cap; this filter is left out
+[     1s] F150W: file is 34.7 GB, over the 3.0 GB cap; this filter is left out
+[     2s] F277W: file is 4.2 GB, over the 3.0 GB cap; this filter is left out
+[     2s] F444W: file is 4.2 GB, over the 3.0 GB cap; this filter is left out
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set DATE-BEG to '2023-04-27T14:21:36.255' from MJD-BEG.
+Set DATE-AVG to '2023-05-14T18:14:40.253' from MJD-AVG.
+Set DATE-END to '2023-05-26T19:47:42.198' from MJD-END'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'obsfix' made the change 'Set OBSGEO-L to  -116.853069 from OBSGEO-[XYZ].
+Set OBSGEO-B to   -13.409758 from OBSGEO-[XYZ].
+Set OBSGEO-H to 1412220181.765 from OBSGEO-[XYZ]'. [astropy.wcs.wcs]
+[     3s] F1800W: 5728x5111 px at 0.1109 arcsec/px, 1055 MB
+[     3s] s-cosmos-1-1837 failed: fewer than three filters can be used
+[     3s] done: 0 pictures

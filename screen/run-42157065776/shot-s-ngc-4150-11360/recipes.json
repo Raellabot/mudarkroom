@@ -1,0 +1,71 @@
+[
+ {
+  "picture": "s-ngc-4150-11360-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST+HST",
+  "target": "NGC-4150+NGC-4150",
+  "proposal_id": "11360+11360",
+  "instrument": "WFC3/IR+WFC3/UVIS",
+  "title": "Star Formation in Nearby Galaxies",
+  "grid": {
+   "width": 1033,
+   "height": 1109,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.15848000347614075,
+   "reference_filter": "F438W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F225W",
+    "center_nm": 236.8,
+    "color": "#1a4cff",
+    "obs_id": "ib6w22010",
+    "exposure_s": 3252,
+    "product": "mast:HST/product/ib6w22010_drz.fits"
+   },
+   {
+    "filter": "F438W",
+    "center_nm": 431.4,
+    "color": "#00e6ff",
+    "obs_id": "ib6w21040",
+    "exposure_s": 2173,
+    "product": "mast:HST/product/ib6w21040_drz.fits"
+   },
+   {
+    "filter": "F555W",
+    "center_nm": 550.4,
+    "color": "#1aff33",
+    "obs_id": "ib6w21020",
+    "exposure_s": 1414,
+    "product": "mast:HST/product/ib6w21020_drz.fits"
+   },
+   {
+    "filter": "F814W",
+    "center_nm": 831.9,
+    "color": "#ff800d",
+    "obs_id": "ib6w22020",
+    "exposure_s": 2048,
+    "product": "mast:HST/product/ib6w22020_drz.fits"
+   },
+   {
+    "filter": "F160W",
+    "center_nm": 1543.2,
+    "color": "#ff1a1a",
+    "obs_id": "ib6w21050",
+    "exposure_s": 2397.697266,
+    "product": "mast:HST/product/ib6w21050_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

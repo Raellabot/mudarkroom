@@ -1,0 +1,87 @@
+[     0s] == s-m-64-3177: 5 filters: ['F150W', 'F200W', 'F300M', 'F430M', 'F1130W']
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set DATE-BEG to '2024-06-18T18:07:45.123' from MJD-BEG.
+Set DATE-AVG to '2024-06-18T18:14:54.613' from MJD-AVG.
+Set DATE-END to '2024-06-18T18:22:04.110' from MJD-END'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'obsfix' made the change 'Set OBSGEO-L to   -87.705131 from OBSGEO-[XYZ].
+Set OBSGEO-B to   -36.693234 from OBSGEO-[XYZ].
+Set OBSGEO-H to 1743239646.457 from OBSGEO-[XYZ]'. [astropy.wcs.wcs]
+[     0s] F150W: 4539x4519 px at 0.0307 arcsec/px, 575 MB
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set DATE-BEG to '2024-06-18T18:26:43.237' from MJD-BEG.
+Set DATE-AVG to '2024-06-18T18:32:26.829' from MJD-AVG.
+Set DATE-END to '2024-06-18T18:38:10.445' from MJD-END'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'obsfix' made the change 'Set OBSGEO-L to   -87.703077 from OBSGEO-[XYZ].
+Set OBSGEO-B to   -36.694577 from OBSGEO-[XYZ].
+Set OBSGEO-H to 1743258760.871 from OBSGEO-[XYZ]'. [astropy.wcs.wcs]
+[     0s] F200W: 4540x4518 px at 0.0307 arcsec/px, 575 MB
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set DATE-BEG to '2024-06-18T18:26:43.237' from MJD-BEG.
+Set DATE-AVG to '2024-06-18T18:32:26.841' from MJD-AVG.
+Set DATE-END to '2024-06-18T18:38:10.445' from MJD-END'. [astropy.wcs.wcs]
+[     0s] F300M: 2174x2167 px at 0.0630 arcsec/px, 132 MB
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set DATE-BEG to '2024-06-18T18:07:45.123' from MJD-BEG.
+Set DATE-AVG to '2024-06-18T18:14:54.616' from MJD-AVG.
+Set DATE-END to '2024-06-18T18:22:04.110' from MJD-END'. [astropy.wcs.wcs]
+[     1s] F430M: 2174x2167 px at 0.0630 arcsec/px, 132 MB
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set DATE-BEG to '2024-06-18T18:07:35.156' from MJD-BEG.
+Set DATE-AVG to '2024-06-18T18:22:51.288' from MJD-AVG.
+Set DATE-END to '2024-06-18T18:37:00.109' from MJD-END'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'obsfix' made the change 'Set OBSGEO-L to   -87.705249 from OBSGEO-[XYZ].
+Set OBSGEO-B to   -36.693156 from OBSGEO-[XYZ].
+Set OBSGEO-H to 1743238544.299 from OBSGEO-[XYZ]'. [astropy.wcs.wcs]
+[     1s] F1130W: 1086x1076 px at 0.1109 arcsec/px, 33 MB
+[     1s] grid from F200W: 1135x1129 px (reduced 4x), 0.123 arcsec/px
+[    16s] downloaded jw03177-o002_t001_nircam_clear-f150w_i2d.fits: 575 MB
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set DATE-BEG to '2024-06-18T18:07:45.123' from MJD-BEG.
+Set DATE-AVG to '2024-06-18T18:14:54.613' from MJD-AVG.
+Set DATE-END to '2024-06-18T18:22:04.110' from MJD-END'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'obsfix' made the change 'Set OBSGEO-L to   -87.705131 from OBSGEO-[XYZ].
+Set OBSGEO-B to   -36.693234 from OBSGEO-[XYZ].
+Set OBSGEO-H to 1743239646.457 from OBSGEO-[XYZ]'. [astropy.wcs.wcs]
+[    17s] F150W: aligned (reduced 4x), covers 98% of the grid
+[    21s] downloaded jw03177-o002_t001_nircam_clear-f200w_i2d.fits: 575 MB
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set DATE-BEG to '2024-06-18T18:26:43.237' from MJD-BEG.
+Set DATE-AVG to '2024-06-18T18:32:26.829' from MJD-AVG.
+Set DATE-END to '2024-06-18T18:38:10.445' from MJD-END'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'obsfix' made the change 'Set OBSGEO-L to   -87.703077 from OBSGEO-[XYZ].
+Set OBSGEO-B to   -36.694577 from OBSGEO-[XYZ].
+Set OBSGEO-H to 1743258760.871 from OBSGEO-[XYZ]'. [astropy.wcs.wcs]
+[    21s] F200W: aligned (reduced 4x), covers 98% of the grid
+[    22s] downloaded jw03177-o002_t001_nircam_clear-f300m_i2d.fits: 132 MB
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set DATE-BEG to '2024-06-18T18:26:43.237' from MJD-BEG.
+Set DATE-AVG to '2024-06-18T18:32:26.841' from MJD-AVG.
+Set DATE-END to '2024-06-18T18:38:10.445' from MJD-END'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'obsfix' made the change 'Set OBSGEO-L to   -87.703077 from OBSGEO-[XYZ].
+Set OBSGEO-B to   -36.694577 from OBSGEO-[XYZ].
+Set OBSGEO-H to 1743258760.871 from OBSGEO-[XYZ]'. [astropy.wcs.wcs]
+[    22s] F300M: aligned (reduced 1x), covers 94% of the grid
+[    23s] downloaded jw03177-o002_t001_nircam_clear-f430m_i2d.fits: 132 MB
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set DATE-BEG to '2024-06-18T18:07:45.123' from MJD-BEG.
+Set DATE-AVG to '2024-06-18T18:14:54.616' from MJD-AVG.
+Set DATE-END to '2024-06-18T18:22:04.110' from MJD-END'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'obsfix' made the change 'Set OBSGEO-L to   -87.705131 from OBSGEO-[XYZ].
+Set OBSGEO-B to   -36.693234 from OBSGEO-[XYZ].
+Set OBSGEO-H to 1743239646.457 from OBSGEO-[XYZ]'. [astropy.wcs.wcs]
+[    24s] F430M: aligned (reduced 1x), covers 94% of the grid
+[    24s] downloaded jw03177-o002_t001_miri_f1130w_i2d.fits: 33 MB
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set DATE-BEG to '2024-06-18T18:07:35.156' from MJD-BEG.
+Set DATE-AVG to '2024-06-18T18:22:51.288' from MJD-AVG.
+Set DATE-END to '2024-06-18T18:37:00.109' from MJD-END'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'obsfix' made the change 'Set OBSGEO-L to   -87.705249 from OBSGEO-[XYZ].
+Set OBSGEO-B to   -36.693156 from OBSGEO-[XYZ].
+Set OBSGEO-H to 1743238544.299 from OBSGEO-[XYZ]'. [astropy.wcs.wcs]
+[    24s] F1130W: aligned (reduced 1x), covers 0% of the grid
+Traceback (most recent call last):
+  File "/home/runner/work/mudarkroom/mudarkroom/scripts/mast/color.py", line 868, in <module>
+    main()
+  File "/home/runner/work/mudarkroom/mudarkroom/scripts/mast/color.py", line 793, in main
+    raw = aligned = finish_arrays(raw, fin, float(os.environ.get("FINISH_SCALE", "1")))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/mudarkroom/mudarkroom/scripts/mast/color.py", line 458, in finish_arrays
+    y0, y1, x0, x1 = dense_crop_box(a, fin["dense"])
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/mudarkroom/mudarkroom/scripts/mast/color.py", line 397, in dense_crop_box
+    y0, y1, x0, x1 = ys.min(), ys.max() + 1, xs.min(), xs.max() + 1
+                     ^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/numpy/_core/_methods.py", line 45, in _amin
+    return umr_minimum(a, axis, None, out, keepdims, initial, where)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: zero-size array to reduction operation minimum which has no identity

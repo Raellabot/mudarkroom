@@ -1,0 +1,71 @@
+[
+ {
+  "picture": "s-pn-tc-1-4706-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "JWST",
+  "target": "PN-TC-1",
+  "proposal_id": "4706",
+  "instrument": "MIRI/IMAGE",
+  "title": "Fullerenes in Tc 1: a quantitative study of the interaction of large molecules with their radiative environment.",
+  "grid": {
+   "width": 599,
+   "height": 632,
+   "reduction": 1,
+   "arcsec_per_pixel": 0.11083847618881798,
+   "reference_filter": "F560W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F560W",
+    "center_nm": 5600.0,
+    "color": "#1a4cff",
+    "obs_id": "jw04706-o009_t008_miri_f560w-brightsky",
+    "exposure_s": 17.304,
+    "product": "mast:JWST/product/jw04706-o009_t008_miri_f560w-brightsky_i2d.fits"
+   },
+   {
+    "filter": "F1000W",
+    "center_nm": 10000.0,
+    "color": "#00e6ff",
+    "obs_id": "jw04706-o009_t008_miri_f1000w-brightsky",
+    "exposure_s": 17.304,
+    "product": "mast:JWST/product/jw04706-o009_t008_miri_f1000w-brightsky_i2d.fits"
+   },
+   {
+    "filter": "F1280W",
+    "center_nm": 12800.0,
+    "color": "#1aff33",
+    "obs_id": "jw04706-o009_t008_miri_f1280w-brightsky",
+    "exposure_s": 17.304,
+    "product": "mast:JWST/product/jw04706-o009_t008_miri_f1280w-brightsky_i2d.fits"
+   },
+   {
+    "filter": "F1800W",
+    "center_nm": 18000.0,
+    "color": "#ff800d",
+    "obs_id": "jw04706-o009_t008_miri_f1800w-brightsky",
+    "exposure_s": 17.304,
+    "product": "mast:JWST/product/jw04706-o009_t008_miri_f1800w-brightsky_i2d.fits"
+   },
+   {
+    "filter": "F2550W",
+    "center_nm": 25500.0,
+    "color": "#ff1a1a",
+    "obs_id": "jw04706-o009_t008_miri_f2550w-brightsky",
+    "exposure_s": 17.304,
+    "product": "mast:JWST/product/jw04706-o009_t008_miri_f2550w-brightsky_i2d.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

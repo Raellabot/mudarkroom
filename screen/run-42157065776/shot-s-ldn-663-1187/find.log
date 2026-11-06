@@ -1,0 +1,4 @@
+  page 1/1 rows so far 2000 of 2000
+JWST|LDN-663|1187|NIRCAM/IMAGE|3  rows=23  filters=['F070W', 'F090W', 'F115W', 'F150W', 'F200W', 'F277W', 'F300M', 'F356W', 'F444W']
+JWST|LDN-663|1187|NIRCAM/GRISM|2  rows=16  filters=['F356W;GRISMC']
+JWST|LDN-663|1187|NIRCAM/IMAGE|2  rows=1  filters=['F115W']
