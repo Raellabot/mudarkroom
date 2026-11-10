@@ -1,0 +1,71 @@
+[
+ {
+  "picture": "s-ngc-5189-12812-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "NGC-5189",
+  "proposal_id": "12812",
+  "instrument": "WFC3/UVIS",
+  "title": "Hubble Heritage",
+  "grid": {
+   "width": 1033,
+   "height": 1121,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.1584800034761426,
+   "reference_filter": "F606W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F502N",
+    "center_nm": 501.1,
+    "color": "#1a4cff",
+    "obs_id": "ibxl04040",
+    "exposure_s": 8400,
+    "product": "mast:HST/product/ibxl04040_drz.fits"
+   },
+   {
+    "filter": "F606W",
+    "center_nm": 594.0,
+    "color": "#00e6ff",
+    "obs_id": "ibxl04050",
+    "exposure_s": 300,
+    "product": "mast:HST/product/ibxl04050_drz.fits"
+   },
+   {
+    "filter": "F657N",
+    "center_nm": 657.1,
+    "color": "#1aff33",
+    "obs_id": "ibxl04020",
+    "exposure_s": 3900,
+    "product": "mast:HST/product/ibxl04020_drz.fits"
+   },
+   {
+    "filter": "F673N",
+    "center_nm": 676.9,
+    "color": "#ff800d",
+    "obs_id": "ibxl04010",
+    "exposure_s": 4200,
+    "product": "mast:HST/product/ibxl04010_drz.fits"
+   },
+   {
+    "filter": "F814W",
+    "center_nm": 831.9,
+    "color": "#ff1a1a",
+    "obs_id": "ibxl04030",
+    "exposure_s": 360,
+    "product": "mast:HST/product/ibxl04030_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

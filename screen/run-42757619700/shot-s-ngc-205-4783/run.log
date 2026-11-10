@@ -1,0 +1,82 @@
+[     0s] == s-ngc-205-4783: 5 filters: ['F090W', 'F115W', 'F150W', 'F356W', 'F444W']
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set DATE-BEG to '2024-11-24T04:28:03.988' from MJD-BEG.
+Set DATE-AVG to '2024-11-24T04:42:32.363' from MJD-AVG.
+Set DATE-END to '2024-11-24T04:57:03.437' from MJD-END'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'obsfix' made the change 'Set OBSGEO-L to    84.488288 from OBSGEO-[XYZ].
+Set OBSGEO-B to    15.524538 from OBSGEO-[XYZ].
+Set OBSGEO-H to 1653600654.292 from OBSGEO-[XYZ]'. [astropy.wcs.wcs]
+[     1s] F090W: 9881x4380 px at 0.0312 arcsec/px, 1212 MB
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set DATE-BEG to '2024-11-24T05:02:46.966' from MJD-BEG.
+Set DATE-AVG to '2024-11-24T05:22:44.128' from MJD-AVG.
+Set DATE-END to '2024-11-24T05:42:41.290' from MJD-END'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'obsfix' made the change 'Set OBSGEO-L to    84.498626 from OBSGEO-[XYZ].
+Set OBSGEO-B to    15.516617 from OBSGEO-[XYZ].
+Set OBSGEO-H to 1653663980.831 from OBSGEO-[XYZ]'. [astropy.wcs.wcs]
+[     1s] F115W: 9881x4380 px at 0.0312 arcsec/px, 1212 MB
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set DATE-BEG to '2024-11-24T05:48:24.820' from MJD-BEG.
+Set DATE-AVG to '2024-11-24T06:08:22.014' from MJD-AVG.
+Set DATE-END to '2024-11-24T06:28:19.208' from MJD-END'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'obsfix' made the change 'Set OBSGEO-L to    84.511682 from OBSGEO-[XYZ].
+Set OBSGEO-B to    15.506596 from OBSGEO-[XYZ].
+Set OBSGEO-H to 1653743910.008 from OBSGEO-[XYZ]'. [astropy.wcs.wcs]
+[     1s] F150W: 9881x4380 px at 0.0312 arcsec/px, 1212 MB
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set DATE-BEG to '2024-11-24T05:02:46.966' from MJD-BEG.
+Set DATE-AVG to '2024-11-24T05:22:44.144' from MJD-AVG.
+Set DATE-END to '2024-11-24T05:42:41.354' from MJD-END'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'obsfix' made the change 'Set OBSGEO-L to    84.498626 from OBSGEO-[XYZ].
+Set OBSGEO-B to    15.516617 from OBSGEO-[XYZ].
+Set OBSGEO-H to 1653663982.702 from OBSGEO-[XYZ]'. [astropy.wcs.wcs]
+[     2s] F356W: 4869x2109 px at 0.0629 arcsec/px, 288 MB
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set DATE-BEG to '2024-11-24T04:28:03.988' from MJD-BEG.
+Set DATE-AVG to '2024-11-24T04:42:32.377' from MJD-AVG.
+Set DATE-END to '2024-11-24T04:57:03.437' from MJD-END'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'obsfix' made the change 'Set OBSGEO-L to    84.488289 from OBSGEO-[XYZ].
+Set OBSGEO-B to    15.524538 from OBSGEO-[XYZ].
+Set OBSGEO-H to 1653600656.168 from OBSGEO-[XYZ]'. [astropy.wcs.wcs]
+[     2s] F444W: 4868x2109 px at 0.0629 arcsec/px, 288 MB
+[     2s] grid from F090W: 1097x486 px (reduced 9x), 0.281 arcsec/px
+[   118s] downloaded jw04783-o003_t003_nircam_clear-f090w_i2d.fits: 1212 MB
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set DATE-BEG to '2024-11-24T04:28:03.988' from MJD-BEG.
+Set DATE-AVG to '2024-11-24T04:42:32.363' from MJD-AVG.
+Set DATE-END to '2024-11-24T04:57:03.437' from MJD-END'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'obsfix' made the change 'Set OBSGEO-L to    84.488288 from OBSGEO-[XYZ].
+Set OBSGEO-B to    15.524538 from OBSGEO-[XYZ].
+Set OBSGEO-H to 1653600654.292 from OBSGEO-[XYZ]'. [astropy.wcs.wcs]
+[   119s] F090W: aligned (reduced 9x), covers 77% of the grid
+[   137s] downloaded jw04783-o003_t003_nircam_clear-f115w_i2d.fits: 1212 MB
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set DATE-BEG to '2024-11-24T05:02:46.966' from MJD-BEG.
+Set DATE-AVG to '2024-11-24T05:22:44.128' from MJD-AVG.
+Set DATE-END to '2024-11-24T05:42:41.290' from MJD-END'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'obsfix' made the change 'Set OBSGEO-L to    84.498626 from OBSGEO-[XYZ].
+Set OBSGEO-B to    15.516617 from OBSGEO-[XYZ].
+Set OBSGEO-H to 1653663980.831 from OBSGEO-[XYZ]'. [astropy.wcs.wcs]
+[   137s] F115W: aligned (reduced 9x), covers 77% of the grid
+[   814s] downloaded jw04783-o003_t003_nircam_clear-f150w_i2d.fits: 1212 MB
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set DATE-BEG to '2024-11-24T05:48:24.820' from MJD-BEG.
+Set DATE-AVG to '2024-11-24T06:08:22.014' from MJD-AVG.
+Set DATE-END to '2024-11-24T06:28:19.208' from MJD-END'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'obsfix' made the change 'Set OBSGEO-L to    84.511682 from OBSGEO-[XYZ].
+Set OBSGEO-B to    15.506596 from OBSGEO-[XYZ].
+Set OBSGEO-H to 1653743910.008 from OBSGEO-[XYZ]'. [astropy.wcs.wcs]
+[   815s] F150W: aligned (reduced 9x), covers 77% of the grid
+[   823s] downloaded jw04783-o003_t003_nircam_clear-f356w_i2d.fits: 288 MB
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set DATE-BEG to '2024-11-24T05:02:46.966' from MJD-BEG.
+Set DATE-AVG to '2024-11-24T05:22:44.144' from MJD-AVG.
+Set DATE-END to '2024-11-24T05:42:41.354' from MJD-END'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'obsfix' made the change 'Set OBSGEO-L to    84.498626 from OBSGEO-[XYZ].
+Set OBSGEO-B to    15.516617 from OBSGEO-[XYZ].
+Set OBSGEO-H to 1653663982.702 from OBSGEO-[XYZ]'. [astropy.wcs.wcs]
+[   823s] F356W: aligned (reduced 4x), covers 79% of the grid
+[   966s] downloaded jw04783-o003_t003_nircam_clear-f444w_i2d.fits: 288 MB
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set DATE-BEG to '2024-11-24T04:28:03.988' from MJD-BEG.
+Set DATE-AVG to '2024-11-24T04:42:32.377' from MJD-AVG.
+Set DATE-END to '2024-11-24T04:57:03.437' from MJD-END'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'obsfix' made the change 'Set OBSGEO-L to    84.488289 from OBSGEO-[XYZ].
+Set OBSGEO-B to    15.524538 from OBSGEO-[XYZ].
+Set OBSGEO-H to 1653600656.168 from OBSGEO-[XYZ]'. [astropy.wcs.wcs]
+[   966s] F444W: aligned (reduced 4x), covers 79% of the grid
+[   967s] s-ngc-205-4783: finishing steps applied: ['dense']
+[   967s] cropped to 1088x477 px where 5 of 5 filters have data
+/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/astropy/visualization/lupton_rgb.py:645: RuntimeWarning: invalid value encountered in divide
+  fInorm = np.where(Int <= 0, 0, np.true_divide(fI, Int))
+[   967s] done: 1 pictures

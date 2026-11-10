@@ -1,0 +1,63 @@
+[
+ {
+  "picture": "s-rxj1131-1231-2046-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "JWST",
+  "target": "RXJ1131-1231",
+  "proposal_id": "2046",
+  "instrument": "MIRI/IMAGE",
+  "title": "A definitive test of the dark matter paradigm on small scales",
+  "grid": {
+   "width": 660,
+   "height": 633,
+   "reduction": 1,
+   "arcsec_per_pixel": 0.11081954172161304,
+   "reference_filter": "F2550W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F560W",
+    "center_nm": 5600.0,
+    "color": "#1a4cff",
+    "obs_id": "jw02046-o032_t031_miri_f560w-brightsky",
+    "exposure_s": 54.513,
+    "product": "mast:JWST/product/jw02046-o032_t031_miri_f560w-brightsky_i2d.fits"
+   },
+   {
+    "filter": "F1280W",
+    "center_nm": 12800.0,
+    "color": "#1aff33",
+    "obs_id": "jw02046-o032_t031_miri_f1280w-brightsky",
+    "exposure_s": 54.513,
+    "product": "mast:JWST/product/jw02046-o032_t031_miri_f1280w-brightsky_i2d.fits"
+   },
+   {
+    "filter": "F1800W",
+    "center_nm": 18000.0,
+    "color": "#ff800d",
+    "obs_id": "jw02046-o032_t031_miri_f1800w-brightsky",
+    "exposure_s": 51.91800000000001,
+    "product": "mast:JWST/product/jw02046-o032_t031_miri_f1800w-brightsky_i2d.fits"
+   },
+   {
+    "filter": "F2550W",
+    "center_nm": 25500.0,
+    "color": "#ff1a1a",
+    "obs_id": "jw02046-o032_t031_miri_f2550w-brightsky",
+    "exposure_s": 537.3389999999999,
+    "product": "mast:JWST/product/jw02046-o032_t031_miri_f2550w-brightsky_i2d.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

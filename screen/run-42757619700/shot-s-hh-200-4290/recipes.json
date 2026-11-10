@@ -1,0 +1,63 @@
+[
+ {
+  "picture": "s-hh-200-4290-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "JWST",
+  "target": "HH-200",
+  "proposal_id": "4290",
+  "instrument": "NIRCAM/IMAGE",
+  "title": "Dust Settling and Grain Evolution across the Nearby Population of Edge-on Protoplanetary Disks",
+  "grid": {
+   "width": 404,
+   "height": 406,
+   "reduction": 1,
+   "arcsec_per_pixel": 0.06241405535974584,
+   "reference_filter": "F300M"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F115W",
+    "center_nm": 1147.5,
+    "color": "#1a4cff",
+    "obs_id": "jw04290-o023_t012_nircam_clear-f115w-sub400p",
+    "exposure_s": 516.748,
+    "product": "mast:JWST/product/jw04290-o023_t012_nircam_clear-f115w-sub400p_i2d.fits"
+   },
+   {
+    "filter": "F200W",
+    "center_nm": 1990.5,
+    "color": "#1aff33",
+    "obs_id": "jw04290-o023_t012_nircam_clear-f200w-sub400p",
+    "exposure_s": 516.748,
+    "product": "mast:JWST/product/jw04290-o023_t012_nircam_clear-f200w-sub400p_i2d.fits"
+   },
+   {
+    "filter": "F300M",
+    "center_nm": 2992.0,
+    "color": "#ff800d",
+    "obs_id": "jw04290-o023_t012_nircam_clear-f300m-sub400p",
+    "exposure_s": 516.748,
+    "product": "mast:JWST/product/jw04290-o023_t012_nircam_clear-f300m-sub400p_i2d.fits"
+   },
+   {
+    "filter": "F460M",
+    "center_nm": 4631.0,
+    "color": "#ff1a1a",
+    "obs_id": "jw04290-o023_t012_nircam_clear-f460m-sub400p",
+    "exposure_s": 516.748,
+    "product": "mast:JWST/product/jw04290-o023_t012_nircam_clear-f460m-sub400p_i2d.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

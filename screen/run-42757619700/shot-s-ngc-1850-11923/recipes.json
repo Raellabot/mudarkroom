@@ -1,0 +1,71 @@
+[
+ {
+  "picture": "s-ngc-1850-11923-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "NGC-1850",
+  "proposal_id": "11923",
+  "instrument": "WFC3/UVIS",
+  "title": "UVIS Filter Wedge Check",
+  "grid": {
+   "width": 1029,
+   "height": 1086,
+   "reduction": 1,
+   "arcsec_per_pixel": 0.039620000869035644,
+   "reference_filter": "F410M"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F218W",
+    "center_nm": 222.0,
+    "color": "#1a4cff",
+    "obs_id": "ibch01tzq",
+    "exposure_s": 28,
+    "product": "mast:HST/product/ibch01tzq_drz.fits"
+   },
+   {
+    "filter": "F410M",
+    "center_nm": 410.8,
+    "color": "#00e6ff",
+    "obs_id": "ibch01urq",
+    "exposure_s": 6,
+    "product": "mast:HST/product/ibch01urq_drz.fits"
+   },
+   {
+    "filter": "FQ575N",
+    "center_nm": 575.7,
+    "color": "#1aff33",
+    "obs_id": "ibcha1vpq",
+    "exposure_s": 111,
+    "product": "mast:HST/product/ibcha1vpq_drz.fits"
+   },
+   {
+    "filter": "F673N",
+    "center_nm": 676.9,
+    "color": "#ff800d",
+    "obs_id": "ibch01u9q",
+    "exposure_s": 21,
+    "product": "mast:HST/product/ibch01u9q_drz.fits"
+   },
+   {
+    "filter": "F953N",
+    "center_nm": 953.2,
+    "color": "#ff1a1a",
+    "obs_id": "ibch01txq",
+    "exposure_s": 204,
+    "product": "mast:HST/product/ibch01txq_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

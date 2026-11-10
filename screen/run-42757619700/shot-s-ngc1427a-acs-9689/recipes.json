@@ -1,0 +1,71 @@
+[
+ {
+  "picture": "s-ngc1427a-acs-9689-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "NGC1427A-ACS",
+  "proposal_id": "9689",
+  "instrument": "ACS/WFC",
+  "title": "The Impending Destruction of NGC 1427A",
+  "grid": {
+   "width": 1059,
+   "height": 1103,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.19999999999999904,
+   "reference_filter": "F625W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F475W",
+    "center_nm": 470.0,
+    "color": "#1a4cff",
+    "obs_id": "j8kk01020",
+    "exposure_s": 1960,
+    "product": "mast:HST/product/j8kk01020_drz.fits"
+   },
+   {
+    "filter": "F625W",
+    "center_nm": 625.0,
+    "color": "#00e6ff",
+    "obs_id": "j8kk01030",
+    "exposure_s": 1820,
+    "product": "mast:HST/product/j8kk01030_drz.fits"
+   },
+   {
+    "filter": "F660N",
+    "center_nm": 659.0,
+    "color": "#1aff33",
+    "obs_id": "j8kk01010",
+    "exposure_s": 1790,
+    "product": "mast:HST/product/j8kk01010_drz.fits"
+   },
+   {
+    "filter": "F775W",
+    "center_nm": 775.0,
+    "color": "#ff800d",
+    "obs_id": "j8kk01040",
+    "exposure_s": 1430,
+    "product": "mast:HST/product/j8kk01040_drz.fits"
+   },
+   {
+    "filter": "F850LP",
+    "center_nm": 895.0,
+    "color": "#ff1a1a",
+    "obs_id": "j8kk01050",
+    "exposure_s": 1470,
+    "product": "mast:HST/product/j8kk01050_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

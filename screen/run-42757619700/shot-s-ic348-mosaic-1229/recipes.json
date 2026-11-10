@@ -1,0 +1,71 @@
+[
+ {
+  "picture": "s-ic348-mosaic-1229-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "JWST",
+  "target": "IC348-MOSAIC",
+  "proposal_id": "1229",
+  "instrument": "NIRCAM/IMAGE",
+  "title": "The Physics of Brown Dwarfs - Part #2",
+  "grid": {
+   "width": 1154,
+   "height": 836,
+   "reduction": 10,
+   "arcsec_per_pixel": 0.31229731511288966,
+   "reference_filter": "F182M"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F140M",
+    "center_nm": 1405.0,
+    "color": "#1a4cff",
+    "obs_id": "jw01229-o001_t001_nircam_clear-f140m",
+    "exposure_s": 601.26,
+    "product": "mast:JWST/product/jw01229-o001_t001_nircam_clear-f140m_i2d.fits"
+   },
+   {
+    "filter": "F182M",
+    "center_nm": 1845.0,
+    "color": "#00e6ff",
+    "obs_id": "jw01229-o001_t001_nircam_clear-f182m",
+    "exposure_s": 601.26,
+    "product": "mast:JWST/product/jw01229-o001_t001_nircam_clear-f182m_i2d.fits"
+   },
+   {
+    "filter": "F277W",
+    "center_nm": 2771.5,
+    "color": "#1aff33",
+    "obs_id": "jw01229-o001_t001_nircam_clear-f277w",
+    "exposure_s": 601.26,
+    "product": "mast:JWST/product/jw01229-o001_t001_nircam_clear-f277w_i2d.fits"
+   },
+   {
+    "filter": "F360M",
+    "center_nm": 3620.5,
+    "color": "#ff800d",
+    "obs_id": "jw01229-o001_t001_nircam_clear-f360m",
+    "exposure_s": 601.26,
+    "product": "mast:JWST/product/jw01229-o001_t001_nircam_clear-f360m_i2d.fits"
+   },
+   {
+    "filter": "F444W",
+    "center_nm": 4433.0,
+    "color": "#ff1a1a",
+    "obs_id": "jw01229-o001_t001_nircam_clear-f444w",
+    "exposure_s": 601.26,
+    "product": "mast:JWST/product/jw01229-o001_t001_nircam_clear-f444w_i2d.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

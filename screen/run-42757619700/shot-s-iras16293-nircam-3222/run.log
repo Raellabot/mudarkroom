@@ -1,0 +1,19 @@
+[     0s] == s-iras16293-nircam-3222: 4 filters: ['F200W', 'F212N', 'F360M', 'F480M']
+[     0s] F200W: file is 3.7 GB, over the 3.0 GB cap; this filter is left out
+[     1s] F212N: file is 3.7 GB, over the 3.0 GB cap; this filter is left out
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set DATE-BEG to '2023-07-19T18:16:17.035' from MJD-BEG.
+Set DATE-AVG to '2023-07-19T18:42:32.938' from MJD-AVG.
+Set DATE-END to '2023-07-19T19:08:16.624' from MJD-END'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'obsfix' made the change 'Set OBSGEO-L to   -76.595946 from OBSGEO-[XYZ].
+Set OBSGEO-B to   -36.641277 from OBSGEO-[XYZ].
+Set OBSGEO-H to 1722429211.494 from OBSGEO-[XYZ]'. [astropy.wcs.wcs]
+[     1s] F360M: 5648x4937 px at 0.0629 arcsec/px, 781 MB
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set DATE-BEG to '2023-07-19T19:20:32.200' from MJD-BEG.
+Set DATE-AVG to '2023-07-19T19:47:14.990' from MJD-AVG.
+Set DATE-END to '2023-07-19T20:13:57.741' from MJD-END'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'obsfix' made the change 'Set OBSGEO-L to   -76.585641 from OBSGEO-[XYZ].
+Set OBSGEO-B to   -36.632632 from OBSGEO-[XYZ].
+Set OBSGEO-H to 1722357928.794 from OBSGEO-[XYZ]'. [astropy.wcs.wcs]
+[     2s] F480M: 5647x4937 px at 0.0629 arcsec/px, 781 MB
+[     2s] s-iras16293-nircam-3222 failed: fewer than three filters can be used
+[     2s] done: 0 pictures

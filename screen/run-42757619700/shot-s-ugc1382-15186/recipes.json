@@ -1,0 +1,71 @@
+[
+ {
+  "picture": "s-ugc1382-15186-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "UGC1382",
+  "proposal_id": "15186",
+  "instrument": "WFC3/UVIS",
+  "title": "Enabling HST UV Exploration of the Low Surface Brightness Universe: A Pilot Study with the WFC3 X Filter Set",
+  "grid": {
+   "width": 1032,
+   "height": 1097,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.1584799999999987,
+   "reference_filter": "F275W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F275W",
+    "center_nm": 274.5,
+    "color": "#1a4cff",
+    "obs_id": "idj554040",
+    "exposure_s": 2703,
+    "product": "mast:HST/product/idj554040_drz.fits"
+   },
+   {
+    "filter": "F300X",
+    "center_nm": 292.8,
+    "color": "#00e6ff",
+    "obs_id": "idj554010",
+    "exposure_s": 2592,
+    "product": "mast:HST/product/idj554010_drz.fits"
+   },
+   {
+    "filter": "F438W",
+    "center_nm": 431.4,
+    "color": "#1aff33",
+    "obs_id": "idj554050",
+    "exposure_s": 1572,
+    "product": "mast:HST/product/idj554050_drz.fits"
+   },
+   {
+    "filter": "F600LP",
+    "center_nm": 797.5,
+    "color": "#ff800d",
+    "obs_id": "idj554030",
+    "exposure_s": 854,
+    "product": "mast:HST/product/idj554030_drz.fits"
+   },
+   {
+    "filter": "F814W",
+    "center_nm": 831.9,
+    "color": "#ff1a1a",
+    "obs_id": "idj554060",
+    "exposure_s": 848,
+    "product": "mast:HST/product/idj554060_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

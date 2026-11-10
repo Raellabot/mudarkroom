@@ -1,0 +1,71 @@
+[
+ {
+  "picture": "s-m4-15933-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "M4",
+  "proposal_id": "15933",
+  "instrument": "WFC3/UVIS",
+  "title": "Completing the HST Parallax Legacy: M4",
+  "grid": {
+   "width": 949,
+   "height": 1184,
+   "reduction": 6,
+   "arcsec_per_pixel": 0.2377200052142096,
+   "reference_filter": "F547M"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F336W",
+    "center_nm": 336.6,
+    "color": "#1a4cff",
+    "obs_id": "ie0n01010",
+    "exposure_s": 120,
+    "product": "mast:HST/product/ie0n01010_drz.fits"
+   },
+   {
+    "filter": "F467M",
+    "center_nm": 468.2,
+    "color": "#00e6ff",
+    "obs_id": "ie0na2010",
+    "exposure_s": 40,
+    "product": "mast:HST/product/ie0na2010_drz.fits"
+   },
+   {
+    "filter": "F547M",
+    "center_nm": 547.0,
+    "color": "#1aff33",
+    "obs_id": "hst_15933_02_wfc3_uvis_f547m_ie0n02",
+    "exposure_s": 30,
+    "product": "mast:HST/product/hst_15933_02_wfc3_uvis_f547m_ie0n02_drc.fits"
+   },
+   {
+    "filter": "F606W",
+    "center_nm": 594.0,
+    "color": "#ff800d",
+    "obs_id": "ie0n01b7q",
+    "exposure_s": 350,
+    "product": "mast:HST/product/ie0n01b7q_drz.fits"
+   },
+   {
+    "filter": "F850LP",
+    "center_nm": 924.4,
+    "color": "#ff1a1a",
+    "obs_id": "ie0n03020",
+    "exposure_s": 14,
+    "product": "mast:HST/product/ie0n03020_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

@@ -1,0 +1,71 @@
+[
+ {
+  "picture": "s-ngc5139-wfc-15764-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "NGC5139-WFC",
+  "proposal_id": "15764",
+  "instrument": "ACS/WFC",
+  "title": "ACS CCD Stability Monitor",
+  "grid": {
+   "width": 1052,
+   "height": 1060,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.19999999999999665,
+   "reference_filter": "F435W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F435W",
+    "center_nm": 425.0,
+    "color": "#1a4cff",
+    "obs_id": "je6402gzq",
+    "exposure_s": 339,
+    "product": "mast:HST/product/je6402gzq_drz.fits"
+   },
+   {
+    "filter": "F555W",
+    "center_nm": 545.0,
+    "color": "#00e6ff",
+    "obs_id": "je6404pjq",
+    "exposure_s": 339,
+    "product": "mast:HST/product/je6404pjq_drz.fits"
+   },
+   {
+    "filter": "F625W",
+    "center_nm": 625.0,
+    "color": "#1aff33",
+    "obs_id": "je6404prq",
+    "exposure_s": 339,
+    "product": "mast:HST/product/je6404prq_drz.fits"
+   },
+   {
+    "filter": "F660N",
+    "center_nm": 659.0,
+    "color": "#ff800d",
+    "obs_id": "je6404r0q",
+    "exposure_s": 339,
+    "product": "mast:HST/product/je6404r0q_drz.fits"
+   },
+   {
+    "filter": "F850LP",
+    "center_nm": 895.0,
+    "color": "#ff1a1a",
+    "obs_id": "je6404pzq",
+    "exposure_s": 339,
+    "product": "mast:HST/product/je6404pzq_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

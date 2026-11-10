@@ -1,0 +1,22 @@
+[     0s] == s-macs0429-0253-12788: 5 filters: ['F225W', 'F336W', 'F475W', 'F775W', 'F850LP']
+[     0s] F225W: 4129x4390 px at 0.0396 arcsec/px, 218 MB
+[     1s] F336W: 4129x4391 px at 0.0396 arcsec/px, 218 MB
+[     1s] F475W: 4214x4241 px at 0.0500 arcsec/px, 215 MB
+[     1s] F775W: 4214x4245 px at 0.0500 arcsec/px, 215 MB
+[     1s] F850LP: 4213x4245 px at 0.0500 arcsec/px, 215 MB
+[     1s] grid from F775W: 1053x1061 px (reduced 4x), 0.200 arcsec/px
+[     4s] downloaded ibzqa6030_drz.fits: 218 MB
+[     5s] F225W: aligned (reduced 5x), covers 56% of the grid
+[    60s] downloaded ibzqb6030_drz.fits: 218 MB
+[    60s] F336W: aligned (reduced 5x), covers 59% of the grid
+[    62s] downloaded jbzqa1010_drz.fits: 215 MB
+[    62s] F475W: aligned (reduced 4x), covers 92% of the grid
+[   141s] downloaded jbzqa1020_drz.fits: 215 MB
+[   141s] F775W: aligned (reduced 4x), covers 92% of the grid
+[   144s] downloaded jbzqa0020_drz.fits: 215 MB
+[   145s] F850LP: aligned (reduced 4x), covers 92% of the grid
+[   145s] s-macs0429-0253-12788: finishing steps applied: ['dense']
+[   145s] cropped to 544x573 px where 5 of 5 filters have data
+/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/astropy/visualization/lupton_rgb.py:645: RuntimeWarning: invalid value encountered in divide
+  fInorm = np.where(Int <= 0, 0, np.true_divide(fI, Int))
+[   145s] done: 1 pictures

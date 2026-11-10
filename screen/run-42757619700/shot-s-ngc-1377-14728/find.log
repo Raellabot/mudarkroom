@@ -1,0 +1,3 @@
+  page 1/1 rows so far 16 of 16
+HST|NGC-1377|14728|WFC3/IR|3  rows=9  filters=['F125W', 'F128N', 'F160W', 'F164N', 'detection']
+HST|NGC-1377|14728|WFC3/UVIS|3  rows=7  filters=['F336W', 'F555W', 'F814W', 'detection']

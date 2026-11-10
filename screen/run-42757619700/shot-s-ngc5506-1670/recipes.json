@@ -1,0 +1,55 @@
+[
+ {
+  "picture": "s-ngc5506-1670-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "JWST",
+  "target": "NGC5506",
+  "proposal_id": "1670",
+  "instrument": "MIRI/IMAGE",
+  "title": "Closing in on the launching sites of AGN outflows",
+  "grid": {
+   "width": 297,
+   "height": 304,
+   "reduction": 1,
+   "arcsec_per_pixel": 0.11008078261571809,
+   "reference_filter": "F560W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F560W",
+    "center_nm": 5600.0,
+    "color": "#1a4cff",
+    "obs_id": "jw01670-o007_t001_miri_f560w-sub256",
+    "exposure_s": 2197.832,
+    "product": "mast:JWST/product/jw01670-o007_t001_miri_f560w-sub256_i2d.fits"
+   },
+   {
+    "filter": "F1000W",
+    "center_nm": 10000.0,
+    "color": "#1aff33",
+    "obs_id": "jw01670-o007_t001_miri_f1000w-sub256",
+    "exposure_s": 2197.832,
+    "product": "mast:JWST/product/jw01670-o007_t001_miri_f1000w-sub256_i2d.fits"
+   },
+   {
+    "filter": "F1500W",
+    "center_nm": 15000.0,
+    "color": "#ff1a1a",
+    "obs_id": "jw01670-o007_t001_miri_f1500w-sub256",
+    "exposure_s": 2197.832,
+    "product": "mast:JWST/product/jw01670-o007_t001_miri_f1500w-sub256_i2d.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

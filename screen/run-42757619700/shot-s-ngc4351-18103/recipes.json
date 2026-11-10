@@ -1,0 +1,71 @@
+[
+ {
+  "picture": "s-ngc4351-18103-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "NGC4351",
+  "proposal_id": "18103",
+  "instrument": "WFC3/UVIS",
+  "title": "Anatomy of a fall: Dissecting the environment-driven transformation of late-type Virgo cluster galaxies with HST UV-optical imaging of star clusters, associations, and HII regions",
+  "grid": {
+   "width": 1033,
+   "height": 1119,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.15847999999999887,
+   "reference_filter": "F438W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F275W",
+    "center_nm": 274.5,
+    "color": "#1a4cff",
+    "obs_id": "ifoq17060",
+    "exposure_s": 2028,
+    "product": "mast:HST/product/ifoq17060_drz.fits"
+   },
+   {
+    "filter": "F336W",
+    "center_nm": 336.6,
+    "color": "#00e6ff",
+    "obs_id": "ifoq17050",
+    "exposure_s": 996,
+    "product": "mast:HST/product/ifoq17050_drz.fits"
+   },
+   {
+    "filter": "F438W",
+    "center_nm": 431.4,
+    "color": "#1aff33",
+    "obs_id": "ifoq17040",
+    "exposure_s": 1044,
+    "product": "mast:HST/product/ifoq17040_drz.fits"
+   },
+   {
+    "filter": "F657N",
+    "center_nm": 657.1,
+    "color": "#ff800d",
+    "obs_id": "ifoq54020",
+    "exposure_s": 2130,
+    "product": "mast:HST/product/ifoq54020_drz.fits"
+   },
+   {
+    "filter": "F814W",
+    "center_nm": 831.9,
+    "color": "#ff1a1a",
+    "obs_id": "ifoq17030",
+    "exposure_s": 687,
+    "product": "mast:HST/product/ifoq17030_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

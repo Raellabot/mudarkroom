@@ -1,0 +1,55 @@
+[
+ {
+  "picture": "s-ngc-3370-2875-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "JWST",
+  "target": "NGC-3370",
+  "proposal_id": "2875",
+  "instrument": "NIRCAM/IMAGE",
+  "title": "Scrutinizing the Dirtiest Cepheids, a Test of the Hubble Tension",
+  "grid": {
+   "width": 1119,
+   "height": 508,
+   "reduction": 9,
+   "arcsec_per_pixel": 0.28102052402257294,
+   "reference_filter": "F090W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F090W",
+    "center_nm": 900.0,
+    "color": "#1a4cff",
+    "obs_id": "jw02875-o002_t007_nircam_clear-f090w",
+    "exposure_s": 1889.672,
+    "product": "mast:JWST/product/jw02875-o002_t007_nircam_clear-f090w_i2d.fits"
+   },
+   {
+    "filter": "F150W",
+    "center_nm": 1499.5,
+    "color": "#1aff33",
+    "obs_id": "jw02875-o002_t007_nircam_clear-f150w",
+    "exposure_s": 2104.408,
+    "product": "mast:JWST/product/jw02875-o002_t007_nircam_clear-f150w_i2d.fits"
+   },
+   {
+    "filter": "F277W",
+    "center_nm": 2771.5,
+    "color": "#ff1a1a",
+    "obs_id": "jw02875-o002_t007_nircam_clear-f277w",
+    "exposure_s": 3994.08,
+    "product": "mast:JWST/product/jw02875-o002_t007_nircam_clear-f277w_i2d.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

@@ -1,0 +1,71 @@
+[
+ {
+  "picture": "s-rxj1601-9-2008-12506-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "RXJ1601.9-2008",
+  "proposal_id": "12506",
+  "instrument": "WFC3/UVIS",
+  "title": "A Precise Mass-Luminosity-Temperature Relation for Young Stars",
+  "grid": {
+   "width": 520,
+   "height": 547,
+   "reduction": 1,
+   "arcsec_per_pixel": 0.03962000086903556,
+   "reference_filter": "F850LP"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F225W",
+    "center_nm": 236.8,
+    "color": "#1a4cff",
+    "obs_id": "ibsl22010",
+    "exposure_s": 66,
+    "product": "mast:HST/product/ibsl22010_drz.fits"
+   },
+   {
+    "filter": "F390W",
+    "center_nm": 387.1,
+    "color": "#00e6ff",
+    "obs_id": "ibsl22050",
+    "exposure_s": 3,
+    "product": "mast:HST/product/ibsl22050_drz.fits"
+   },
+   {
+    "filter": "F467M",
+    "center_nm": 468.2,
+    "color": "#1aff33",
+    "obs_id": "ibsl22070",
+    "exposure_s": 3,
+    "product": "mast:HST/product/ibsl22070_drz.fits"
+   },
+   {
+    "filter": "F656N",
+    "center_nm": 656.2,
+    "color": "#ff800d",
+    "obs_id": "ibsl220d0",
+    "exposure_s": 5.2,
+    "product": "mast:HST/product/ibsl220d0_drz.fits"
+   },
+   {
+    "filter": "F850LP",
+    "center_nm": 924.4,
+    "color": "#ff1a1a",
+    "obs_id": "ibsl220b0",
+    "exposure_s": 4,
+    "product": "mast:HST/product/ibsl220b0_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

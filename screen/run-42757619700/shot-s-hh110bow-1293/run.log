@@ -1,0 +1,18 @@
+[     0s] == s-hh110bow-1293: 3 filters: ['F212N', 'F460M', 'F560W']
+[     0s] F212N: file is 5.9 GB, over the 3.0 GB cap; this filter is left out
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set DATE-BEG to '2022-10-24T21:36:30.645' from MJD-BEG.
+Set DATE-AVG to '2022-10-24T22:48:31.266' from MJD-AVG.
+Set DATE-END to '2022-10-25T00:00:29.772' from MJD-END'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'obsfix' made the change 'Set OBSGEO-L to    47.353149 from OBSGEO-[XYZ].
+Set OBSGEO-B to    30.065366 from OBSGEO-[XYZ].
+Set OBSGEO-H to 1314619149.912 from OBSGEO-[XYZ]'. [astropy.wcs.wcs]
+[     1s] F460M: 6148x5268 px at 0.0629 arcsec/px, 1037 MB
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set DATE-BEG to '2022-10-24T21:36:17.049' from MJD-BEG.
+Set DATE-AVG to '2022-10-24T22:48:53.188' from MJD-AVG.
+Set DATE-END to '2022-10-25T00:01:22.572' from MJD-END'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'obsfix' made the change 'Set OBSGEO-L to    47.353608 from OBSGEO-[XYZ].
+Set OBSGEO-B to    30.065362 from OBSGEO-[XYZ].
+Set OBSGEO-H to 1314620913.591 from OBSGEO-[XYZ]'. [astropy.wcs.wcs]
+[     1s] F560W: 1613x2772 px at 0.1109 arcsec/px, 125 MB
+[     1s] s-hh110bow-1293 failed: fewer than three filters can be used
+[     1s] done: 0 pictures

@@ -1,0 +1,71 @@
+[
+ {
+  "picture": "s-ngc-5135-2064-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "JWST",
+  "target": "NGC-5135",
+  "proposal_id": "2064",
+  "instrument": "MIRI/IMAGE",
+  "title": "Dust in the Wind: testing a new paradigm for the nature of AGN feedback",
+  "grid": {
+   "width": 341,
+   "height": 343,
+   "reduction": 1,
+   "arcsec_per_pixel": 0.11047549266485676,
+   "reference_filter": "F1500W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F560W",
+    "center_nm": 5600.0,
+    "color": "#1a4cff",
+    "obs_id": "jw02064-o061_t006_miri_f560w-sub256",
+    "exposure_s": 358.224,
+    "product": "mast:JWST/product/jw02064-o061_t006_miri_f560w-sub256_i2d.fits"
+   },
+   {
+    "filter": "F1000W",
+    "center_nm": 10000.0,
+    "color": "#00e6ff",
+    "obs_id": "jw02064-o061_t006_miri_f1000w-sub256",
+    "exposure_s": 358.224,
+    "product": "mast:JWST/product/jw02064-o061_t006_miri_f1000w-sub256_i2d.fits"
+   },
+   {
+    "filter": "F1500W",
+    "center_nm": 15000.0,
+    "color": "#1aff33",
+    "obs_id": "jw02064-o061_t006_miri_f1500w-sub256",
+    "exposure_s": 358.224,
+    "product": "mast:JWST/product/jw02064-o061_t006_miri_f1500w-sub256_i2d.fits"
+   },
+   {
+    "filter": "F1800W",
+    "center_nm": 18000.0,
+    "color": "#ff800d",
+    "obs_id": "jw02064-o061_t006_miri_f1800w-sub256",
+    "exposure_s": 358.224,
+    "product": "mast:JWST/product/jw02064-o061_t006_miri_f1800w-sub256_i2d.fits"
+   },
+   {
+    "filter": "F2100W",
+    "center_nm": 21000.0,
+    "color": "#ff1a1a",
+    "obs_id": "jw02064-o061_t006_miri_f2100w-sub256",
+    "exposure_s": 358.224,
+    "product": "mast:JWST/product/jw02064-o061_t006_miri_f2100w-sub256_i2d.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

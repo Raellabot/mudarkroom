@@ -1,0 +1,71 @@
+[
+ {
+  "picture": "s-ngc-4654-15654-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "NGC-4654",
+  "proposal_id": "15654",
+  "instrument": "WFC3/UVIS",
+  "title": "PHANGS-HST: Linking Stars and Gas throughout the Scales of Star Formation",
+  "grid": {
+   "width": 1033,
+   "height": 1120,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.1584800034761408,
+   "reference_filter": "F275W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F275W",
+    "center_nm": 274.5,
+    "color": "#1a4cff",
+    "obs_id": "idxr35060",
+    "exposure_s": 2190,
+    "product": "mast:HST/product/idxr35060_drz.fits"
+   },
+   {
+    "filter": "F336W",
+    "center_nm": 336.6,
+    "color": "#00e6ff",
+    "obs_id": "idxr35050",
+    "exposure_s": 1110,
+    "product": "mast:HST/product/idxr35050_drz.fits"
+   },
+   {
+    "filter": "F438W",
+    "center_nm": 431.4,
+    "color": "#1aff33",
+    "obs_id": "idxr35040",
+    "exposure_s": 1050,
+    "product": "mast:HST/product/idxr35040_drz.fits"
+   },
+   {
+    "filter": "F555W",
+    "center_nm": 550.4,
+    "color": "#ff800d",
+    "obs_id": "idxr35070",
+    "exposure_s": 670,
+    "product": "mast:HST/product/idxr35070_drz.fits"
+   },
+   {
+    "filter": "F814W",
+    "center_nm": 831.9,
+    "color": "#ff1a1a",
+    "obs_id": "idxr35030",
+    "exposure_s": 830,
+    "product": "mast:HST/product/idxr35030_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

@@ -1,0 +1,71 @@
+[
+ {
+  "picture": "s-ngc104-wfc-14402-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "NGC104-WFC",
+  "proposal_id": "14402",
+  "instrument": "ACS/WFC",
+  "title": null,
+  "grid": {
+   "width": 965,
+   "height": 964,
+   "reduction": 5,
+   "arcsec_per_pixel": 0.24999999999999117,
+   "reference_filter": "F435W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F435W",
+    "center_nm": 425.0,
+    "color": "#1a4cff",
+    "obs_id": "hst_14402_16_acs_wfc_f435w-pol120uv_jd0q16",
+    "exposure_s": 678,
+    "product": "mast:HST/product/hst_14402_16_acs_wfc_f435w-pol120uv_jd0q16_drz.fits"
+   },
+   {
+    "filter": "F555W",
+    "center_nm": 545.0,
+    "color": "#00e6ff",
+    "obs_id": "jd0q13kfq",
+    "exposure_s": 339,
+    "product": "mast:HST/product/jd0q13kfq_drz.fits"
+   },
+   {
+    "filter": "F625W",
+    "center_nm": 625.0,
+    "color": "#1aff33",
+    "obs_id": "jd0q13kiq",
+    "exposure_s": 339,
+    "product": "mast:HST/product/jd0q13kiq_drz.fits"
+   },
+   {
+    "filter": "F660N",
+    "center_nm": 659.0,
+    "color": "#ff800d",
+    "obs_id": "jd0q13l3q",
+    "exposure_s": 339,
+    "product": "mast:HST/product/jd0q13l3q_drz.fits"
+   },
+   {
+    "filter": "F850LP",
+    "center_nm": 895.0,
+    "color": "#ff1a1a",
+    "obs_id": "jd0q13kmq",
+    "exposure_s": 339,
+    "product": "mast:HST/product/jd0q13kmq_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

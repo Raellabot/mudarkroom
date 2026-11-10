@@ -1,0 +1,71 @@
+[
+ {
+  "picture": "s-ngc-6888-edge-17882-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "NGC-6888-EDGE",
+  "proposal_id": "17882",
+  "instrument": "WFC3/UVIS",
+  "title": "Narrowband Imaging of NGC 6888",
+  "grid": {
+   "width": 1032,
+   "height": 1159,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.15847999999999537,
+   "reference_filter": "F438W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F438W",
+    "center_nm": 431.4,
+    "color": "#1a4cff",
+    "obs_id": "ifiv01010",
+    "exposure_s": 120,
+    "product": "mast:HST/product/ifiv01010_drz.fits"
+   },
+   {
+    "filter": "F502N",
+    "center_nm": 501.1,
+    "color": "#00e6ff",
+    "obs_id": "ifiv01020",
+    "exposure_s": 4000,
+    "product": "mast:HST/product/ifiv01020_drz.fits"
+   },
+   {
+    "filter": "F656N",
+    "center_nm": 656.2,
+    "color": "#1aff33",
+    "obs_id": "ifiv01040",
+    "exposure_s": 2400,
+    "product": "mast:HST/product/ifiv01040_drz.fits"
+   },
+   {
+    "filter": "F658N",
+    "center_nm": 658.6,
+    "color": "#ff800d",
+    "obs_id": "ifiv01050",
+    "exposure_s": 2100,
+    "product": "mast:HST/product/ifiv01050_drz.fits"
+   },
+   {
+    "filter": "F814W",
+    "center_nm": 831.9,
+    "color": "#ff1a1a",
+    "obs_id": "ifiv01030",
+    "exposure_s": 120,
+    "product": "mast:HST/product/ifiv01030_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

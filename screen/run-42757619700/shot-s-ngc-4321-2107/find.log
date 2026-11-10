@@ -1,0 +1,3 @@
+  page 1/1 rows so far 20 of 20
+JWST|NGC-4321|2107|MIRI/IMAGE|3  rows=12  filters=['F1000W', 'F1130W', 'F2100W', 'F770W']
+JWST|NGC-4321|2107|NIRCAM/IMAGE|3  rows=8  filters=['F200W', 'F300M', 'F335M', 'F360M']
