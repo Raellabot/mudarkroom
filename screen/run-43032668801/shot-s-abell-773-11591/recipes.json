@@ -1,0 +1,55 @@
+[
+ {
+  "picture": "s-abell-773-11591-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST+HST",
+  "target": "ABELL-773+ABELL-773",
+  "proposal_id": "11591+11591",
+  "instrument": "ACS/WFC+WFC3/IR",
+  "title": null,
+  "grid": {
+   "width": 1011,
+   "height": 1004,
+   "reduction": 6,
+   "arcsec_per_pixel": 0.29999999999998944,
+   "reference_filter": "F814W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F814W",
+    "center_nm": 833.5,
+    "color": "#1a4cff",
+    "obs_id": "hst_11591_21_acs_wfc_f814w_jb5m21",
+    "exposure_s": 9120,
+    "product": "mast:HST/product/hst_11591_21_acs_wfc_f814w_jb5m21_drc.fits"
+   },
+   {
+    "filter": "F110W",
+    "center_nm": 1148.8,
+    "color": "#1aff33",
+    "obs_id": "ib5m11010",
+    "exposure_s": 2412,
+    "product": "mast:HST/product/ib5m11010_drz.fits"
+   },
+   {
+    "filter": "F160W",
+    "center_nm": 1543.2,
+    "color": "#ff1a1a",
+    "obs_id": "ib5m11020",
+    "exposure_s": 2412,
+    "product": "mast:HST/product/ib5m11020_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

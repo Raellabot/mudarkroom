@@ -1,0 +1,55 @@
+[
+ {
+  "picture": "s-eso057-sc075-10595-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "ESO057-SC075",
+  "proposal_id": "10595",
+  "instrument": "ACS/WFC",
+  "title": null,
+  "grid": {
+   "width": 1194,
+   "height": 1197,
+   "reduction": 5,
+   "arcsec_per_pixel": 0.24999999999999117,
+   "reference_filter": "F435W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F435W",
+    "center_nm": 425.0,
+    "color": "#1a4cff",
+    "obs_id": "hst_10595_08_acs_wfc_f435w_j9es08",
+    "exposure_s": 735,
+    "product": "mast:HST/product/hst_10595_08_acs_wfc_f435w_j9es08_drc.fits"
+   },
+   {
+    "filter": "F555W",
+    "center_nm": 545.0,
+    "color": "#1aff33",
+    "obs_id": "hst_10595_08_acs_wfc_f555w_j9es08",
+    "exposure_s": 705,
+    "product": "mast:HST/product/hst_10595_08_acs_wfc_f555w_j9es08_drc.fits"
+   },
+   {
+    "filter": "F814W",
+    "center_nm": 833.5,
+    "color": "#ff1a1a",
+    "obs_id": "hst_10595_08_acs_wfc_f814w_j9es08",
+    "exposure_s": 695,
+    "product": "mast:HST/product/hst_10595_08_acs_wfc_f814w_j9es08_drc.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

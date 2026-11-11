@@ -1,0 +1,55 @@
+[
+ {
+  "picture": "s-eso-454-29-14074-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST+HST",
+  "target": "ESO-454-29+ESO-454-29",
+  "proposal_id": "14074+14074",
+  "instrument": "ACS/WFC+WFC3/IR",
+  "title": "Opening the Window on Galaxy Assembly: Ages and Structural Parameters of Globular Clusters Towards the Galactic Bulge",
+  "grid": {
+   "width": 1110,
+   "height": 1122,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.1999999999999996,
+   "reference_filter": "F606W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F606W",
+    "center_nm": 595.0,
+    "color": "#1a4cff",
+    "obs_id": "jcx309010",
+    "exposure_s": 2036,
+    "product": "mast:HST/product/jcx309010_drz.fits"
+   },
+   {
+    "filter": "F110W",
+    "center_nm": 1148.8,
+    "color": "#1aff33",
+    "obs_id": "hst_14074_10_wfc3_ir_f110w_icx310",
+    "exposure_s": 1246.1541320000001,
+    "product": "mast:HST/product/hst_14074_10_wfc3_ir_f110w_icx310_drz.fits"
+   },
+   {
+    "filter": "F160W",
+    "center_nm": 1543.2,
+    "color": "#ff1a1a",
+    "obs_id": "icx310020",
+    "exposure_s": 1271.154642,
+    "product": "mast:HST/product/icx310020_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

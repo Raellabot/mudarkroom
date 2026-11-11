@@ -1,0 +1,55 @@
+[
+ {
+  "picture": "s-ic-3418-pos1-12756-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST+HST",
+  "target": "IC-3418-POS1+IC-3418-POS1",
+  "proposal_id": "12756+12756",
+  "instrument": "ACS/WFC+WFC3/UVIS",
+  "title": "X-raying the spectacular star-forming trail behind IC 3418",
+  "grid": {
+   "width": 1055,
+   "height": 1074,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.19999999999999846,
+   "reference_filter": "F475W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F275W",
+    "center_nm": 274.5,
+    "color": "#1a4cff",
+    "obs_id": "ibuba1010",
+    "exposure_s": 2646,
+    "product": "mast:HST/product/ibuba1010_drz.fits"
+   },
+   {
+    "filter": "F475W",
+    "center_nm": 470.0,
+    "color": "#1aff33",
+    "obs_id": "jbub01020",
+    "exposure_s": 1456,
+    "product": "mast:HST/product/jbub01020_drz.fits"
+   },
+   {
+    "filter": "F814W",
+    "center_nm": 833.5,
+    "color": "#ff1a1a",
+    "obs_id": "jbub01010",
+    "exposure_s": 678,
+    "product": "mast:HST/product/jbub01010_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

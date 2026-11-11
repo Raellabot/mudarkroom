@@ -1,0 +1,63 @@
+[
+ {
+  "picture": "s-psz1-g295-24-21-55-14205-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST+HST",
+  "target": "PSZ1-G295.24-21.55+PSZ1-G295.24-21.55",
+  "proposal_id": "14205+14205",
+  "instrument": "ACS/WFC+WFC3/IR",
+  "title": "Early Quiescent Galaxies Under the Magnifying Glass",
+  "grid": {
+   "width": 1058,
+   "height": 1088,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.19999999999999968,
+   "reference_filter": "F555W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F555W",
+    "center_nm": 545.0,
+    "color": "#1a4cff",
+    "obs_id": "jcvx03010",
+    "exposure_s": 2724,
+    "product": "mast:HST/product/jcvx03010_drz.fits"
+   },
+   {
+    "filter": "F814W",
+    "center_nm": 833.5,
+    "color": "#1aff33",
+    "obs_id": "jcvx03020",
+    "exposure_s": 2880,
+    "product": "mast:HST/product/jcvx03020_drz.fits"
+   },
+   {
+    "filter": "F105W",
+    "center_nm": 1052.7,
+    "color": "#ff800d",
+    "obs_id": "icvx02020",
+    "exposure_s": 1396.930908,
+    "product": "mast:HST/product/icvx02020_drz.fits"
+   },
+   {
+    "filter": "F160W",
+    "center_nm": 1543.2,
+    "color": "#ff1a1a",
+    "obs_id": "icvx02010",
+    "exposure_s": 1396.930908,
+    "product": "mast:HST/product/icvx02010_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

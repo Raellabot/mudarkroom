@@ -1,0 +1,55 @@
+[
+ {
+  "picture": "s-eso-390-6-12008-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST+HST",
+  "target": "ESO-390-6+ESO-390-6",
+  "proposal_id": "12008+12008",
+  "instrument": "ACS/WFC+WFC3/UVIS",
+  "title": "Primordial formation of close binaries in globular clusters with low density cores",
+  "grid": {
+   "width": 1054,
+   "height": 1075,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.19999999999999948,
+   "reference_filter": "F625W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F336W",
+    "center_nm": 336.6,
+    "color": "#1a4cff",
+    "obs_id": "ibdj05010",
+    "exposure_s": 970,
+    "product": "mast:HST/product/ibdj05010_drz.fits"
+   },
+   {
+    "filter": "F625W",
+    "center_nm": 625.0,
+    "color": "#1aff33",
+    "obs_id": "jbdj06020",
+    "exposure_s": 291,
+    "product": "mast:HST/product/jbdj06020_drz.fits"
+   },
+   {
+    "filter": "F658N",
+    "center_nm": 658.1,
+    "color": "#ff1a1a",
+    "obs_id": "jbdj06010",
+    "exposure_s": 1212,
+    "product": "mast:HST/product/jbdj06010_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

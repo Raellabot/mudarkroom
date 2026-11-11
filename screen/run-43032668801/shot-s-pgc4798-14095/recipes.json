@@ -1,0 +1,55 @@
+[
+ {
+  "picture": "s-pgc4798-14095-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST+HST",
+  "target": "PGC4798+PGC4798",
+  "proposal_id": "14095+14095",
+  "instrument": "WFC3/IR+WFC3/UVIS",
+  "title": "Calibrating the Dusty Cosmos: Extinction Maps of Nearby Galaxies",
+  "grid": {
+   "width": 690,
+   "height": 718,
+   "reduction": 2,
+   "arcsec_per_pixel": 0.2565000057220434,
+   "reference_filter": "F132N"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F673N",
+    "center_nm": 676.9,
+    "color": "#1a4cff",
+    "obs_id": "icvz11020",
+    "exposure_s": 400,
+    "product": "mast:HST/product/icvz11020_drz.fits"
+   },
+   {
+    "filter": "F110W",
+    "center_nm": 1148.8,
+    "color": "#1aff33",
+    "obs_id": "icvz11010",
+    "exposure_s": 298.462098,
+    "product": "mast:HST/product/icvz11010_drz.fits"
+   },
+   {
+    "filter": "F132N",
+    "center_nm": 1319.3,
+    "color": "#ff1a1a",
+    "obs_id": "hst_14095_11_wfc3_ir_f132n_icvz11",
+    "exposure_s": 1002.165711,
+    "product": "mast:HST/product/hst_14095_11_wfc3_ir_f132n_icvz11_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

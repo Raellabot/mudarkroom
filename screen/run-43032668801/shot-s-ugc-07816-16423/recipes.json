@@ -1,0 +1,55 @@
+[
+ {
+  "picture": "s-ugc-07816-16423-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST+HST",
+  "target": "UGC-07816+UGC-07816",
+  "proposal_id": "16423+16423",
+  "instrument": "WFC3/IR+WFC3/UVIS",
+  "title": "A CHANDRA LOOK AT VARIABILITY-SELECTED LOW-MASS AGN CANDIDATES",
+  "grid": {
+   "width": 1031,
+   "height": 1090,
+   "reduction": 2,
+   "arcsec_per_pixel": 0.07924000173806917,
+   "reference_filter": "F300X"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F300X",
+    "center_nm": 292.8,
+    "color": "#1a4cff",
+    "obs_id": "ieh303020",
+    "exposure_s": 822,
+    "product": "mast:HST/product/ieh303020_drz.fits"
+   },
+   {
+    "filter": "F606W",
+    "center_nm": 594.0,
+    "color": "#1aff33",
+    "obs_id": "ieh303030",
+    "exposure_s": 480,
+    "product": "mast:HST/product/ieh303030_drz.fits"
+   },
+   {
+    "filter": "F110W",
+    "center_nm": 1148.8,
+    "color": "#ff1a1a",
+    "obs_id": "ieh303010",
+    "exposure_s": 238.703536,
+    "product": "mast:HST/product/ieh303010_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

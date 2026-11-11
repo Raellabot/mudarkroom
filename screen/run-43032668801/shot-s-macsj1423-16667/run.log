@@ -1,0 +1,27 @@
+[     0s] == s-macsj1423-16667: 3 filters: ['F435W', 'F606W', 'F814W']
+[     1s] F435W: 4961x4970 px at 0.0500 arcsec/px, 296 MB
+[     1s] F606W: 7795x7763 px at 0.0396 arcsec/px, 726 MB
+[     2s] F814W: 7782x7743 px at 0.0396 arcsec/px, 723 MB
+[     2s] grid from F606W: 1113x1109 px (reduced 7x), 0.277 arcsec/px
+[    16s] downloaded jeou01010_drz.fits: 296 MB
+[    16s] F435W: aligned (reduced 5x), covers 0% of the grid
+[    31s] downloaded hst_16667_01_wfc3_uvis_f606w_ieou01_drc.fits: 726 MB
+[    32s] F606W: aligned (reduced 6x), covers 45% of the grid
+[    47s] downloaded hst_16667_05_wfc3_uvis_f814w_ieou05_drc.fits: 723 MB
+[    48s] F814W: aligned (reduced 6x), covers 45% of the grid
+Traceback (most recent call last):
+  File "/home/runner/work/mudarkroom/mudarkroom/scripts/mast/color.py", line 871, in <module>
+    main()
+  File "/home/runner/work/mudarkroom/mudarkroom/scripts/mast/color.py", line 796, in main
+    raw = aligned = finish_arrays(raw, fin, float(os.environ.get("FINISH_SCALE", "1")))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/mudarkroom/mudarkroom/scripts/mast/color.py", line 461, in finish_arrays
+    y0, y1, x0, x1 = dense_crop_box(a, fin["dense"])
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/mudarkroom/mudarkroom/scripts/mast/color.py", line 400, in dense_crop_box
+    y0, y1, x0, x1 = ys.min(), ys.max() + 1, xs.min(), xs.max() + 1
+                     ^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/numpy/_core/_methods.py", line 45, in _amin
+    return umr_minimum(a, axis, None, out, keepdims, initial, where)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: zero-size array to reduction operation minimum which has no identity

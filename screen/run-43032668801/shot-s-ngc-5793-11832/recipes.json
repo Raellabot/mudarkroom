@@ -1,0 +1,55 @@
+[
+ {
+  "picture": "s-ngc-5793-11832-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST+HST",
+  "target": "NGC-5793+NGC-5793",
+  "proposal_id": "11832+11832",
+  "instrument": "WFC3/IR+WFC3/UVIS",
+  "title": "The Structure and Physics of the Youngest Radio Galaxies",
+  "grid": {
+   "width": 1032,
+   "height": 1111,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.15848000347614224,
+   "reference_filter": "F775W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F475W",
+    "center_nm": 475.8,
+    "color": "#1a4cff",
+    "obs_id": "ib8t01020",
+    "exposure_s": 1600,
+    "product": "mast:HST/product/ib8t01020_drz.fits"
+   },
+   {
+    "filter": "F775W",
+    "center_nm": 772.8,
+    "color": "#1aff33",
+    "obs_id": "ib8t01030",
+    "exposure_s": 720,
+    "product": "mast:HST/product/ib8t01030_drz.fits"
+   },
+   {
+    "filter": "F160W",
+    "center_nm": 1543.2,
+    "color": "#ff1a1a",
+    "obs_id": "ib8t01010",
+    "exposure_s": 2606,
+    "product": "mast:HST/product/ib8t01010_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

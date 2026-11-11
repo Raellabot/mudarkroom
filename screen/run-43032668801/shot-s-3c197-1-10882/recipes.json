@@ -1,0 +1,55 @@
+[
+ {
+  "picture": "s-3c197-1-10882-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "3C197.1",
+  "proposal_id": "10882",
+  "instrument": "ACS/WFC",
+  "title": "Emission Line Snapshots of 3CR Radio Galaxies",
+  "grid": {
+   "width": 1042,
+   "height": 1037,
+   "reduction": 2,
+   "arcsec_per_pixel": 0.09999999999999964,
+   "reference_filter": "FR716N"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "FR551N",
+    "center_nm": 550.7,
+    "color": "#1a4cff",
+    "obs_id": "j9ob56020",
+    "exposure_s": 500,
+    "product": "mast:HST/product/j9ob56020_drz.fits"
+   },
+   {
+    "filter": "FR647M",
+    "center_nm": 647.0,
+    "color": "#1aff33",
+    "obs_id": "j9ob56srq",
+    "exposure_s": 60,
+    "product": "mast:HST/product/j9ob56srq_drz.fits"
+   },
+   {
+    "filter": "FR716N",
+    "center_nm": 716.1,
+    "color": "#ff1a1a",
+    "obs_id": "j9ob56010",
+    "exposure_s": 400,
+    "product": "mast:HST/product/j9ob56010_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

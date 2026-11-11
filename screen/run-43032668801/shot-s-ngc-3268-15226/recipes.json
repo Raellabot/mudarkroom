@@ -1,0 +1,55 @@
+[
+ {
+  "picture": "s-ngc-3268-15226-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST+HST",
+  "target": "NGC-3268+NGC-3268",
+  "proposal_id": "15226+15226",
+  "instrument": "WFC3/IR+WFC3/UVIS",
+  "title": "Stellar Luminosity Profiles for Precision Measurements of Black Hole Mass in Early-Type Galaxies",
+  "grid": {
+   "width": 845,
+   "height": 782,
+   "reduction": 2,
+   "arcsec_per_pixel": 0.2565000057220413,
+   "reference_filter": "F160W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F555W",
+    "center_nm": 550.4,
+    "color": "#1a4cff",
+    "obs_id": "idjq02030",
+    "exposure_s": 536,
+    "product": "mast:HST/product/idjq02030_drz.fits"
+   },
+   {
+    "filter": "F110W",
+    "center_nm": 1148.8,
+    "color": "#1aff33",
+    "obs_id": "idjq02020",
+    "exposure_s": 498.463746,
+    "product": "mast:HST/product/idjq02020_drz.fits"
+   },
+   {
+    "filter": "F160W",
+    "center_nm": 1543.2,
+    "color": "#ff1a1a",
+    "obs_id": "idjq02010",
+    "exposure_s": 996.927492,
+    "product": "mast:HST/product/idjq02010_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

@@ -1,0 +1,55 @@
+[
+ {
+  "picture": "s-eso420-g013-16914-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "ESO420-G013",
+  "proposal_id": "16914",
+  "instrument": "WFC3/UVIS",
+  "title": "In the Belly of the Beast: Star Cluster Formation and Evolution in the Centers of local LIRGs",
+  "grid": {
+   "width": 1062,
+   "height": 1128,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.1584799999999991,
+   "reference_filter": "F336W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F336W",
+    "center_nm": 336.6,
+    "color": "#1a4cff",
+    "obs_id": "ieu006010",
+    "exposure_s": 2372,
+    "product": "mast:HST/product/ieu006010_drz.fits"
+   },
+   {
+    "filter": "F438W",
+    "center_nm": 431.4,
+    "color": "#1aff33",
+    "obs_id": "ieu010010",
+    "exposure_s": 1308,
+    "product": "mast:HST/product/ieu010010_drz.fits"
+   },
+   {
+    "filter": "F814W",
+    "center_nm": 831.9,
+    "color": "#ff1a1a",
+    "obs_id": "ieu010020",
+    "exposure_s": 911,
+    "product": "mast:HST/product/ieu010020_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

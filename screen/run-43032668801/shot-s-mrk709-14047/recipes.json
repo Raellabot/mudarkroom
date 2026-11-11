@@ -1,0 +1,55 @@
+[
+ {
+  "picture": "s-mrk709-14047-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST+HST",
+  "target": "MRK709+MRK709",
+  "proposal_id": "14047+14047",
+  "instrument": "WFC3/IR+WFC3/UVIS",
+  "title": "Confirming the AGN in a Low-Metallicity Dwarf Galaxy with the HSA and HST",
+  "grid": {
+   "width": 1032,
+   "height": 1090,
+   "reduction": 2,
+   "arcsec_per_pixel": 0.07924000173806812,
+   "reference_filter": "F621M"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F621M",
+    "center_nm": 621.5,
+    "color": "#1a4cff",
+    "obs_id": "icsu01020",
+    "exposure_s": 1612,
+    "product": "mast:HST/product/icsu01020_drz.fits"
+   },
+   {
+    "filter": "F680N",
+    "center_nm": 688.2,
+    "color": "#1aff33",
+    "obs_id": "icsu01010",
+    "exposure_s": 2344,
+    "product": "mast:HST/product/icsu01010_drz.fits"
+   },
+   {
+    "filter": "F110W",
+    "center_nm": 1148.8,
+    "color": "#ff1a1a",
+    "obs_id": "icsu01030",
+    "exposure_s": 422.073488,
+    "product": "mast:HST/product/icsu01030_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

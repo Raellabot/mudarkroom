@@ -1,0 +1,63 @@
+[
+ {
+  "picture": "s-ugc-11185-12525-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST+HST",
+  "target": "UGC-11185+UGC-11185",
+  "proposal_id": "12525+12525",
+  "instrument": "ACS/WFC+WFC3/UVIS",
+  "title": "Giant Ionized Clouds Around Local AGN - Obscuration and History",
+  "grid": {
+   "width": 1053,
+   "height": 1060,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.19999999999999982,
+   "reference_filter": "FR656N"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "FR505N",
+    "center_nm": 504.5,
+    "color": "#1a4cff",
+    "obs_id": "jbqva6020",
+    "exposure_s": 2784,
+    "product": "mast:HST/product/jbqva6020_drz.fits"
+   },
+   {
+    "filter": "F621M",
+    "center_nm": 621.5,
+    "color": "#1aff33",
+    "obs_id": "ibqv06020",
+    "exposure_s": 1404,
+    "product": "mast:HST/product/ibqv06020_drz.fits"
+   },
+   {
+    "filter": "FR656N",
+    "center_nm": 656.1,
+    "color": "#ff800d",
+    "obs_id": "jbqva6010",
+    "exposure_s": 2630,
+    "product": "mast:HST/product/jbqva6010_drz.fits"
+   },
+   {
+    "filter": "F763M",
+    "center_nm": 763.5,
+    "color": "#ff1a1a",
+    "obs_id": "ibqv06010",
+    "exposure_s": 1204,
+    "product": "mast:HST/product/ibqv06010_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

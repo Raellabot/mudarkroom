@@ -1,0 +1,63 @@
+[
+ {
+  "picture": "s-aco-1758-se-14096-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "ACO-1758-SE",
+  "proposal_id": "14096",
+  "instrument": "WFC3/IR",
+  "title": "RELICS: Reionization Lensing Cluster Survey",
+  "grid": {
+   "width": 1137,
+   "height": 961,
+   "reduction": 1,
+   "arcsec_per_pixel": 0.12825000286102253,
+   "reference_filter": "F105W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F105W",
+    "center_nm": 1052.7,
+    "color": "#1a4cff",
+    "obs_id": "iczg24020",
+    "exposure_s": 756,
+    "product": "mast:HST/product/iczg24020_drz.fits"
+   },
+   {
+    "filter": "F125W",
+    "center_nm": 1249.0,
+    "color": "#1aff33",
+    "obs_id": "iczg24030",
+    "exposure_s": 431,
+    "product": "mast:HST/product/iczg24030_drz.fits"
+   },
+   {
+    "filter": "F140W",
+    "center_nm": 1398.3,
+    "color": "#ff800d",
+    "obs_id": "iczg24010",
+    "exposure_s": 406,
+    "product": "mast:HST/product/iczg24010_drz.fits"
+   },
+   {
+    "filter": "F160W",
+    "center_nm": 1543.2,
+    "color": "#ff1a1a",
+    "obs_id": "iczg24040",
+    "exposure_s": 1106,
+    "product": "mast:HST/product/iczg24040_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

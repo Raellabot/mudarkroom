@@ -1,0 +1,55 @@
+[
+ {
+  "picture": "s-eso302-g014-17151-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "ESO302-G014",
+  "proposal_id": "17151",
+  "instrument": "WFC3/UVIS",
+  "title": "Massive star clusters in low star formation regime dwarfs?",
+  "grid": {
+   "width": 1048,
+   "height": 1146,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.15847999999999957,
+   "reference_filter": "F438W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F275W",
+    "center_nm": 274.5,
+    "color": "#1a4cff",
+    "obs_id": "if0k09010",
+    "exposure_s": 2533,
+    "product": "mast:HST/product/if0k09010_drz.fits"
+   },
+   {
+    "filter": "F438W",
+    "center_nm": 431.4,
+    "color": "#1aff33",
+    "obs_id": "if0k13020",
+    "exposure_s": 1050,
+    "product": "mast:HST/product/if0k13020_drz.fits"
+   },
+   {
+    "filter": "F814W",
+    "center_nm": 831.9,
+    "color": "#ff1a1a",
+    "obs_id": "if0k09030",
+    "exposure_s": 1050,
+    "product": "mast:HST/product/if0k09030_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

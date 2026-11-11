@@ -1,0 +1,55 @@
+[
+ {
+  "picture": "s-macsj1459-4-1810-16670-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST+HST",
+  "target": "MACSJ1459.4-1810+MACSJ1459.4-1810",
+  "proposal_id": "16670+16670",
+  "instrument": "ACS/WFC+WFC3/IR",
+  "title": "They almost got away: a SNAPshot survey of extreme galaxy clusters at z=0.2-0.5",
+  "grid": {
+   "width": 1056,
+   "height": 1089,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.19999999999999923,
+   "reference_filter": "F814W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F814W",
+    "center_nm": 833.5,
+    "color": "#1a4cff",
+    "obs_id": "jenq80010",
+    "exposure_s": 1200,
+    "product": "mast:HST/product/jenq80010_drz.fits"
+   },
+   {
+    "filter": "F110W",
+    "center_nm": 1148.8,
+    "color": "#1aff33",
+    "obs_id": "ienq81010",
+    "exposure_s": 706,
+    "product": "mast:HST/product/ienq81010_drz.fits"
+   },
+   {
+    "filter": "F140W",
+    "center_nm": 1398.3,
+    "color": "#ff1a1a",
+    "obs_id": "ienq81020",
+    "exposure_s": 706,
+    "product": "mast:HST/product/ienq81020_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]
