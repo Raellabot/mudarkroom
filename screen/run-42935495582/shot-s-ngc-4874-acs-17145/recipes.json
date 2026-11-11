@@ -1,0 +1,63 @@
+[
+ {
+  "picture": "s-ngc-4874-acs-17145-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "NGC-4874-ACS",
+  "proposal_id": "17145",
+  "instrument": "ACS/WFC",
+  "title": "Clearing a Window Into Galaxy Formation: The Impact of Globular Cluster Metallicity Distributions",
+  "grid": {
+   "width": 1056,
+   "height": 1063,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.19999999999999163,
+   "reference_filter": "F555W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F435W",
+    "center_nm": 425.0,
+    "color": "#1a4cff",
+    "obs_id": "jewj06010",
+    "exposure_s": 4563,
+    "product": "mast:HST/product/jewj06010_drz.fits"
+   },
+   {
+    "filter": "F555W",
+    "center_nm": 545.0,
+    "color": "#1aff33",
+    "obs_id": "jewj07010",
+    "exposure_s": 4563,
+    "product": "mast:HST/product/jewj07010_drz.fits"
+   },
+   {
+    "filter": "F606W",
+    "center_nm": 595.0,
+    "color": "#ff800d",
+    "obs_id": "jewj05010",
+    "exposure_s": 2235,
+    "product": "mast:HST/product/jewj05010_drz.fits"
+   },
+   {
+    "filter": "F850LP",
+    "center_nm": 895.0,
+    "color": "#ff1a1a",
+    "obs_id": "jewj08010",
+    "exposure_s": 4563,
+    "product": "mast:HST/product/jewj08010_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

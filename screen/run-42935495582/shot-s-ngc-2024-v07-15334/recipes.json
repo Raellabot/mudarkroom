@@ -1,0 +1,55 @@
+[
+ {
+  "picture": "s-ngc-2024-v07-15334-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "NGC-2024-V07",
+  "proposal_id": "15334",
+  "instrument": "WFC3/IR",
+  "title": "Towards high accuracy tests on the substellar IMF in young clusters. A survey in NGC 2024.",
+  "grid": {
+   "width": 1091,
+   "height": 966,
+   "reduction": 1,
+   "arcsec_per_pixel": 0.1282500028610226,
+   "reference_filter": "F130N"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F105W",
+    "center_nm": 1052.7,
+    "color": "#1a4cff",
+    "obs_id": "idje07020",
+    "exposure_s": 129,
+    "product": "mast:HST/product/idje07020_drz.fits"
+   },
+   {
+    "filter": "F130N",
+    "center_nm": 1301.0,
+    "color": "#1aff33",
+    "obs_id": "idje07030",
+    "exposure_s": 1818,
+    "product": "mast:HST/product/idje07030_drz.fits"
+   },
+   {
+    "filter": "F139M",
+    "center_nm": 1384.5,
+    "color": "#ff1a1a",
+    "obs_id": "idje07010",
+    "exposure_s": 384,
+    "product": "mast:HST/product/idje07010_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

@@ -1,0 +1,55 @@
+[
+ {
+  "picture": "s-3c191-14739-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "3C191",
+  "proposal_id": "14739",
+  "instrument": "ACS/WFC",
+  "title": "Imaging BALQSO outflows: a critical step in assessing AGN feedback",
+  "grid": {
+   "width": 1074,
+   "height": 1064,
+   "reduction": 2,
+   "arcsec_per_pixel": 0.09999999999999837,
+   "reference_filter": "FR462N"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "FR423N",
+    "center_nm": 423.4,
+    "color": "#1a4cff",
+    "obs_id": "jdag02010",
+    "exposure_s": 1360,
+    "product": "mast:HST/product/jdag02010_drz.fits"
+   },
+   {
+    "filter": "FR462N",
+    "center_nm": 462.2,
+    "color": "#1aff33",
+    "obs_id": "jdaga2010",
+    "exposure_s": 1440,
+    "product": "mast:HST/product/jdaga2010_drz.fits"
+   },
+   {
+    "filter": "F625W",
+    "center_nm": 625.0,
+    "color": "#ff1a1a",
+    "obs_id": "jdagb2010",
+    "exposure_s": 1440,
+    "product": "mast:HST/product/jdagb2010_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

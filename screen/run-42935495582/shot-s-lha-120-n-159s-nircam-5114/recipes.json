@@ -1,0 +1,71 @@
+[
+ {
+  "picture": "s-lha-120-n-159s-nircam-5114-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "JWST",
+  "target": "LHA-120-N-159S-NIRCam",
+  "proposal_id": "5114",
+  "instrument": "NIRCAM/IMAGE",
+  "title": "Tracing the evolution of circumstellar and protoplanetary disks at low metallicity",
+  "grid": {
+   "width": 1097,
+   "height": 486,
+   "reduction": 9,
+   "arcsec_per_pixel": 0.2810397630925231,
+   "reference_filter": "F115W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F115W",
+    "center_nm": 1147.5,
+    "color": "#1a4cff",
+    "obs_id": "jw05114-o011_t009_nircam_clear-f115w",
+    "exposure_s": 429.472,
+    "product": "mast:JWST/product/jw05114-o011_t009_nircam_clear-f115w_i2d.fits"
+   },
+   {
+    "filter": "F187N",
+    "center_nm": 1873.5,
+    "color": "#00e6ff",
+    "obs_id": "jw05114-o011_t009_nircam_clear-f187n",
+    "exposure_s": 429.472,
+    "product": "mast:JWST/product/jw05114-o011_t009_nircam_clear-f187n_i2d.fits"
+   },
+   {
+    "filter": "F212N",
+    "center_nm": 2121.5,
+    "color": "#1aff33",
+    "obs_id": "jw05114-o011_t009_nircam_clear-f212n",
+    "exposure_s": 515.364,
+    "product": "mast:JWST/product/jw05114-o011_t009_nircam_clear-f212n_i2d.fits"
+   },
+   {
+    "filter": "F335M",
+    "center_nm": 3357.5,
+    "color": "#ff800d",
+    "obs_id": "jw05114-o011_t009_nircam_clear-f335m",
+    "exposure_s": 429.472,
+    "product": "mast:JWST/product/jw05114-o011_t009_nircam_clear-f335m_i2d.fits"
+   },
+   {
+    "filter": "F460M",
+    "center_nm": 4631.0,
+    "color": "#ff1a1a",
+    "obs_id": "jw05114-o011_t009_nircam_clear-f460m",
+    "exposure_s": 429.472,
+    "product": "mast:JWST/product/jw05114-o011_t009_nircam_clear-f460m_i2d.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

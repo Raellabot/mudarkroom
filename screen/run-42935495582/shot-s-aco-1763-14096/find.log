@@ -1,0 +1,8 @@
+  page 1/1 rows so far 63 of 63
+HST|ACO-1763|14096|WFC3/IR|3  rows=52  filters=['F105W', 'F125W', 'F140W', 'F160W', 'detection']
+HST|ACO-1763|14096|ACS/WFC|3  rows=8  filters=['F435W', 'F606W', 'F814W', 'detection']
+HST|ACO-1763|14096|WFC3/UVIS|3  rows=3  filters=['F350LP', 'detection']
+  page 1/1 rows so far 63 of 63
+HST|ACO-1763|14096|WFC3/IR|3  rows=52  filters=['F105W', 'F125W', 'F140W', 'F160W', 'detection']
+HST|ACO-1763|14096|ACS/WFC|3  rows=8  filters=['F435W', 'F606W', 'F814W', 'detection']
+HST|ACO-1763|14096|WFC3/UVIS|3  rows=3  filters=['F350LP', 'detection']

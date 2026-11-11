@@ -1,0 +1,63 @@
+[
+ {
+  "picture": "s-iras16562-3959-14465-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "IRAS16562-3959",
+  "proposal_id": "14465",
+  "instrument": "WFC3/IR",
+  "title": "Peering to the Heart of Massive Star Birth",
+  "grid": {
+   "width": 1114,
+   "height": 985,
+   "reduction": 1,
+   "arcsec_per_pixel": 0.12825000286102123,
+   "reference_filter": "F128N"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F110W",
+    "center_nm": 1148.8,
+    "color": "#1a4cff",
+    "obs_id": "id3105v3q",
+    "exposure_s": 399.233154,
+    "product": "mast:HST/product/id3105v3q_drz.fits"
+   },
+   {
+    "filter": "F128N",
+    "center_nm": 1283.8,
+    "color": "#1aff33",
+    "obs_id": "id3105010",
+    "exposure_s": 898.467164,
+    "product": "mast:HST/product/id3105010_drz.fits"
+   },
+   {
+    "filter": "F160W",
+    "center_nm": 1543.2,
+    "color": "#ff800d",
+    "obs_id": "id3105v5q",
+    "exposure_s": 399.233154,
+    "product": "mast:HST/product/id3105v5q_drz.fits"
+   },
+   {
+    "filter": "F164N",
+    "center_nm": 1645.0,
+    "color": "#ff1a1a",
+    "obs_id": "id3105020",
+    "exposure_s": 898.467164,
+    "product": "mast:HST/product/id3105020_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

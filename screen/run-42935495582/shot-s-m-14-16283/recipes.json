@@ -1,0 +1,63 @@
+[
+ {
+  "picture": "s-m-14-16283-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "M-14",
+  "proposal_id": "16283",
+  "instrument": "WFC3/UVIS",
+  "title": "Understanding the Extreme Population in the Globular Cluster NGC 6402 (M14): Breaking the Degeneracy of Cluster Formation Scenarios",
+  "grid": {
+   "width": 1037,
+   "height": 1102,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.15847999999999945,
+   "reference_filter": "F275W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F275W",
+    "center_nm": 274.5,
+    "color": "#1a4cff",
+    "obs_id": "ieav13020",
+    "exposure_s": 2353,
+    "product": "mast:HST/product/ieav13020_drz.fits"
+   },
+   {
+    "filter": "F336W",
+    "center_nm": 336.6,
+    "color": "#1aff33",
+    "obs_id": "ieav07e2q",
+    "exposure_s": 761,
+    "product": "mast:HST/product/ieav07e2q_drz.fits"
+   },
+   {
+    "filter": "F438W",
+    "center_nm": 431.4,
+    "color": "#ff800d",
+    "obs_id": "ieav02b8q",
+    "exposure_s": 348,
+    "product": "mast:HST/product/ieav02b8q_drz.fits"
+   },
+   {
+    "filter": "F814W",
+    "center_nm": 831.9,
+    "color": "#ff1a1a",
+    "obs_id": "ieav01abq",
+    "exposure_s": 253,
+    "product": "mast:HST/product/ieav01abq_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

@@ -1,0 +1,55 @@
+[
+ {
+  "picture": "s-aco-s-1063-3293-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "JWST",
+  "target": "ACO-S-1063",
+  "proposal_id": "3293",
+  "instrument": "NIRCAM/IMAGE",
+  "title": "JWSTs GLIMPSE: gravitational lensing & NIRCam imaging to probe early galaxy formation and sources of reionization",
+  "grid": {
+   "width": 993,
+   "height": 460,
+   "reduction": 5,
+   "arcsec_per_pixel": 0.3145296154023558,
+   "reference_filter": "F410M"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F277W",
+    "center_nm": 2771.5,
+    "color": "#1a4cff",
+    "obs_id": "jw03293-o001_t001_nircam_clear-f277w",
+    "exposure_s": 80396.92799999994,
+    "product": "mast:JWST/product/jw03293-o001_t001_nircam_clear-f277w_i2d.fits"
+   },
+   {
+    "filter": "F410M",
+    "center_nm": 4082.5,
+    "color": "#1aff33",
+    "obs_id": "jw03293-o001_t001_nircam_clear-f410m",
+    "exposure_s": 60297.69600000005,
+    "product": "mast:JWST/product/jw03293-o001_t001_nircam_clear-f410m_i2d.fits"
+   },
+   {
+    "filter": "F480M",
+    "center_nm": 4819.5,
+    "color": "#ff1a1a",
+    "obs_id": "jw03293-o001_t001_nircam_clear-f480m",
+    "exposure_s": 80396.92799999994,
+    "product": "mast:JWST/product/jw03293-o001_t001_nircam_clear-f480m_i2d.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

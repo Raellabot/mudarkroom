@@ -1,0 +1,3 @@
+[     0s] == s-ngc1275-nw-10546: 3 filters: ['F435W', 'F550M', 'F625W']
+[     0s] s-ngc1275-nw-10546 failed: could not read the header of mast:HST/product/j9bb01030_drz.fits without downloading it
+[     0s] done: 0 pictures

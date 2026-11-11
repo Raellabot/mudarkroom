@@ -1,0 +1,71 @@
+[
+ {
+  "picture": "s-ugc-7577-16162-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST+HST",
+  "target": "UGC-7577+UGC-7577",
+  "proposal_id": "16162+16162",
+  "instrument": "WFC3/IR+WFC3/UVIS",
+  "title": "Solving the metallicity dependence of evolved star evolution and completing HSTs near-IR legacy in the Local Volume",
+  "grid": {
+   "width": 1032,
+   "height": 1097,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.15847999999999776,
+   "reference_filter": "F475W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F475W",
+    "center_nm": 475.8,
+    "color": "#1a4cff",
+    "obs_id": "ied308010",
+    "exposure_s": 2589,
+    "product": "mast:HST/product/ied308010_drz.fits"
+   },
+   {
+    "filter": "F110W",
+    "center_nm": 1148.8,
+    "color": "#00e6ff",
+    "obs_id": "hst_16162_07_wfc3_ir_f110w_ied307",
+    "exposure_s": 2596.157729,
+    "product": "mast:HST/product/hst_16162_07_wfc3_ir_f110w_ied307_drz.fits"
+   },
+   {
+    "filter": "F139M",
+    "center_nm": 1384.5,
+    "color": "#1aff33",
+    "obs_id": "ied307020",
+    "exposure_s": 897.6969,
+    "product": "mast:HST/product/ied307020_drz.fits"
+   },
+   {
+    "filter": "F153M",
+    "center_nm": 1534.0,
+    "color": "#ff800d",
+    "obs_id": "ied307030",
+    "exposure_s": 797.696046,
+    "product": "mast:HST/product/ied307030_drz.fits"
+   },
+   {
+    "filter": "F160W",
+    "center_nm": 1543.2,
+    "color": "#ff1a1a",
+    "obs_id": "hst_16162_07_wfc3_ir_f160w_ied307",
+    "exposure_s": 2596.157729,
+    "product": "mast:HST/product/hst_16162_07_wfc3_ir_f160w_ied307_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

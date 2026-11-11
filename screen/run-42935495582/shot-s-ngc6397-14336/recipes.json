@@ -1,0 +1,71 @@
+[
+ {
+  "picture": "s-ngc6397-14336-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "NGC6397",
+  "proposal_id": "14336",
+  "instrument": "WFC3/UVIS",
+  "title": "A Direct Distance to an Ancient Metal-Poor Star Cluster",
+  "grid": {
+   "width": 517,
+   "height": 1002,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.3169600069522819,
+   "reference_filter": "F850LP"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F336W",
+    "center_nm": 336.6,
+    "color": "#1a4cff",
+    "obs_id": "icu503010",
+    "exposure_s": 120,
+    "product": "mast:HST/product/icu503010_drz.fits"
+   },
+   {
+    "filter": "F467M",
+    "center_nm": 468.2,
+    "color": "#00e6ff",
+    "obs_id": "icu503020",
+    "exposure_s": 44,
+    "product": "mast:HST/product/icu503020_drz.fits"
+   },
+   {
+    "filter": "F547M",
+    "center_nm": 547.0,
+    "color": "#1aff33",
+    "obs_id": "icu504010",
+    "exposure_s": 22,
+    "product": "mast:HST/product/icu504010_drz.fits"
+   },
+   {
+    "filter": "F606W",
+    "center_nm": 594.0,
+    "color": "#ff800d",
+    "obs_id": "icu503ftq",
+    "exposure_s": 350,
+    "product": "mast:HST/product/icu503ftq_drz.fits"
+   },
+   {
+    "filter": "F850LP",
+    "center_nm": 924.4,
+    "color": "#ff1a1a",
+    "obs_id": "icu504020",
+    "exposure_s": 22,
+    "product": "mast:HST/product/icu504020_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

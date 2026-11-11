@@ -1,0 +1,55 @@
+[
+ {
+  "picture": "s-ngc-2444-acs-16435-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "NGC-2444-ACS",
+  "proposal_id": "16435",
+  "instrument": "ACS/WFC",
+  "title": "Imaging of Arp 143",
+  "grid": {
+   "width": 1058,
+   "height": 1104,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.19999999999999904,
+   "reference_filter": "F814W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F475W",
+    "center_nm": 470.0,
+    "color": "#1a4cff",
+    "obs_id": "jehe01010",
+    "exposure_s": 3600,
+    "product": "mast:HST/product/jehe01010_drz.fits"
+   },
+   {
+    "filter": "F606W",
+    "center_nm": 595.0,
+    "color": "#1aff33",
+    "obs_id": "jehe01020",
+    "exposure_s": 2400,
+    "product": "mast:HST/product/jehe01020_drz.fits"
+   },
+   {
+    "filter": "F814W",
+    "center_nm": 833.5,
+    "color": "#ff1a1a",
+    "obs_id": "jehe01030",
+    "exposure_s": 2800,
+    "product": "mast:HST/product/jehe01030_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

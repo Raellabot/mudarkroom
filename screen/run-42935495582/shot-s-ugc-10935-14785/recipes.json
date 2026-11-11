@@ -1,0 +1,63 @@
+[
+ {
+  "picture": "s-ugc-10935-14785-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "UGC-10935",
+  "proposal_id": "14785",
+  "instrument": "WFC3/UVIS",
+  "title": "Enhanced rates of tidal disruptions in E+A galaxies: resolving the central dynamics of post-starburst galactic nuclei with HST observations",
+  "grid": {
+   "width": 1036,
+   "height": 1091,
+   "reduction": 1,
+   "arcsec_per_pixel": 0.039620000869035644,
+   "reference_filter": "F625W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F275W",
+    "center_nm": 274.5,
+    "color": "#1a4cff",
+    "obs_id": "id8r04010",
+    "exposure_s": 680,
+    "product": "mast:HST/product/id8r04010_drz.fits"
+   },
+   {
+    "filter": "F475W",
+    "center_nm": 475.8,
+    "color": "#1aff33",
+    "obs_id": "id8r04040",
+    "exposure_s": 1540,
+    "product": "mast:HST/product/id8r04040_drz.fits"
+   },
+   {
+    "filter": "F625W",
+    "center_nm": 627.4,
+    "color": "#ff800d",
+    "obs_id": "id8r04030",
+    "exposure_s": 1176,
+    "product": "mast:HST/product/id8r04030_drz.fits"
+   },
+   {
+    "filter": "F814W",
+    "center_nm": 831.9,
+    "color": "#ff1a1a",
+    "obs_id": "id8r04060",
+    "exposure_s": 490,
+    "product": "mast:HST/product/id8r04060_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

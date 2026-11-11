@@ -1,0 +1,55 @@
+[
+ {
+  "picture": "s-ngc4038-n-tail-11577-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "NGC4038-N-TAIL",
+  "proposal_id": "11577",
+  "instrument": "ACS/WFC",
+  "title": "Opening New Windows on the Antennae with WFC3",
+  "grid": {
+   "width": 1053,
+   "height": 1059,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.19999999999999893,
+   "reference_filter": "F435W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F435W",
+    "center_nm": 425.0,
+    "color": "#1a4cff",
+    "obs_id": "jb5u34010",
+    "exposure_s": 844,
+    "product": "mast:HST/product/jb5u34010_drz.fits"
+   },
+   {
+    "filter": "F555W",
+    "center_nm": 545.0,
+    "color": "#1aff33",
+    "obs_id": "jb5u34020",
+    "exposure_s": 740,
+    "product": "mast:HST/product/jb5u34020_drz.fits"
+   },
+   {
+    "filter": "F814W",
+    "center_nm": 833.5,
+    "color": "#ff1a1a",
+    "obs_id": "jb5u34zjq",
+    "exposure_s": 461,
+    "product": "mast:HST/product/jb5u34zjq_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

@@ -1,0 +1,55 @@
+[
+ {
+  "picture": "s-ngc1754-16361-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "NGC1754",
+  "proposal_id": "16361",
+  "instrument": "WFC3/UVIS",
+  "title": "A new reading of the core size-age distribution of LMC clusters: changing the paradigm of star cluster formation",
+  "grid": {
+   "width": 1033,
+   "height": 1099,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.15847999999999693,
+   "reference_filter": "F606W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F300X",
+    "center_nm": 292.8,
+    "color": "#1a4cff",
+    "obs_id": "iedx06030",
+    "exposure_s": 5613,
+    "product": "mast:HST/product/iedx06030_drz.fits"
+   },
+   {
+    "filter": "F606W",
+    "center_nm": 594.0,
+    "color": "#1aff33",
+    "obs_id": "iedx05030",
+    "exposure_s": 2485,
+    "product": "mast:HST/product/iedx05030_drz.fits"
+   },
+   {
+    "filter": "F814W",
+    "center_nm": 831.9,
+    "color": "#ff1a1a",
+    "obs_id": "iedx05020",
+    "exposure_s": 2714,
+    "product": "mast:HST/product/iedx05020_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

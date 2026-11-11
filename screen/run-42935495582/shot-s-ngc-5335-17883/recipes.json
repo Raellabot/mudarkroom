@@ -1,0 +1,55 @@
+[
+ {
+  "picture": "s-ngc-5335-17883-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "NGC-5335",
+  "proposal_id": "17883",
+  "instrument": "WFC3/UVIS",
+  "title": "Broadband imaging of NGC 5335",
+  "grid": {
+   "width": 1032,
+   "height": 1126,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.15847999999999987,
+   "reference_filter": "F814W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F475W",
+    "center_nm": 475.8,
+    "color": "#1a4cff",
+    "obs_id": "ifiw02010",
+    "exposure_s": 2700,
+    "product": "mast:HST/product/ifiw02010_drz.fits"
+   },
+   {
+    "filter": "F625W",
+    "center_nm": 627.4,
+    "color": "#1aff33",
+    "obs_id": "ifiw02020",
+    "exposure_s": 2025,
+    "product": "mast:HST/product/ifiw02020_drz.fits"
+   },
+   {
+    "filter": "F814W",
+    "center_nm": 831.9,
+    "color": "#ff1a1a",
+    "obs_id": "ifiw02030",
+    "exposure_s": 2025,
+    "product": "mast:HST/product/ifiw02030_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

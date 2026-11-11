@@ -1,0 +1,3 @@
+  page 1/1 rows so far 21 of 21
+HST|NGC5102|14742|WFC3/UVIS|3  rows=7  filters=['F336W', 'F547M', 'F814W', 'detection']
+HST|NGC5102|14742|STIS/CCD|1  rows=1  filters=['MIRVIS']

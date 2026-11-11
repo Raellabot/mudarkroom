@@ -1,0 +1,55 @@
+[
+ {
+  "picture": "s-cl0152-1357-pos2-9290-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "CL0152-1357-POS2",
+  "proposal_id": "9290",
+  "instrument": "ACS/WFC",
+  "title": "The Morphological, Photometric, and Spectroscopic Properties of Intermediate Redshift Cluster Galaxies:",
+  "grid": {
+   "width": 1019,
+   "height": 1019,
+   "reduction": 6,
+   "arcsec_per_pixel": 0.29999999999998944,
+   "reference_filter": "F850LP"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F625W",
+    "center_nm": 625.0,
+    "color": "#1a4cff",
+    "obs_id": "j8eh03030",
+    "exposure_s": 4750,
+    "product": "mast:HST/product/j8eh03030_drz.fits"
+   },
+   {
+    "filter": "F775W",
+    "center_nm": 775.0,
+    "color": "#1aff33",
+    "obs_id": "j8eh03040",
+    "exposure_s": 4800,
+    "product": "mast:HST/product/j8eh03040_drz.fits"
+   },
+   {
+    "filter": "F850LP",
+    "center_nm": 895.0,
+    "color": "#ff1a1a",
+    "obs_id": "hst_9290_04_acs_wfc_f850lp_j8eh04",
+    "exposure_s": 5950,
+    "product": "mast:HST/product/hst_9290_04_acs_wfc_f850lp_j8eh04_drc.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

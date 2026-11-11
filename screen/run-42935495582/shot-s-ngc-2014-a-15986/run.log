@@ -1,0 +1,19 @@
+[     0s] == s-ngc-2014-a-15986: 4 filters: ['F475W', 'F502N', 'F657N', 'F814W']
+[     0s] F475W: 4130x4387 px at 0.0396 arcsec/px, 218 MB
+[     1s] F502N: 4151x4464 px at 0.0396 arcsec/px, 223 MB
+[     1s] F657N: 4150x4463 px at 0.0396 arcsec/px, 222 MB
+[     2s] F814W: 4129x4387 px at 0.0396 arcsec/px, 218 MB
+[     2s] grid from F502N: 1037x1116 px (reduced 4x), 0.158 arcsec/px
+[     5s] downloaded ie6d55vpq_drz.fits: 218 MB
+[     6s] F475W: aligned (reduced 3x), covers 73% of the grid
+[     9s] downloaded ie6da5010_drz.fits: 223 MB
+[    10s] F502N: aligned (reduced 4x), covers 94% of the grid
+[   127s] downloaded ie6db5020_drz.fits: 222 MB
+[   127s] F657N: aligned (reduced 3x), covers 55% of the grid
+[   206s] downloaded ie6db5whq_drz.fits: 218 MB
+[   207s] F814W: aligned (reduced 3x), covers 55% of the grid
+[   207s] s-ngc-2014-a-15986: finishing steps applied: ['dense']
+[   207s] cropped to 702x759 px where 4 of 4 filters have data
+/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/astropy/visualization/lupton_rgb.py:645: RuntimeWarning: invalid value encountered in divide
+  fInorm = np.where(Int <= 0, 0, np.true_divide(fI, Int))
+[   208s] done: 1 pictures

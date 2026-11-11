@@ -1,0 +1,63 @@
+[
+ {
+  "picture": "s-ngc2023-s-acs-9741-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "NGC2023-S-ACS",
+  "proposal_id": "9741",
+  "instrument": "ACS/WFC",
+  "title": "The Exciting Wavelength of Extended Red Emission",
+  "grid": {
+   "width": 1055,
+   "height": 1074,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.1999999999999994,
+   "reference_filter": "F475W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F475W",
+    "center_nm": 470.0,
+    "color": "#1a4cff",
+    "obs_id": "j8mw01010",
+    "exposure_s": 800,
+    "product": "mast:HST/product/j8mw01010_drz.fits"
+   },
+   {
+    "filter": "F625W",
+    "center_nm": 625.0,
+    "color": "#1aff33",
+    "obs_id": "j8mw01020",
+    "exposure_s": 800,
+    "product": "mast:HST/product/j8mw01020_drz.fits"
+   },
+   {
+    "filter": "F658N",
+    "center_nm": 658.1,
+    "color": "#ff800d",
+    "obs_id": "j8mw01050",
+    "exposure_s": 1380,
+    "product": "mast:HST/product/j8mw01050_drz.fits"
+   },
+   {
+    "filter": "F850LP",
+    "center_nm": 895.0,
+    "color": "#ff1a1a",
+    "obs_id": "j8mw01030",
+    "exposure_s": 1200,
+    "product": "mast:HST/product/j8mw01030_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

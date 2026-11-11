@@ -1,0 +1,55 @@
+[
+ {
+  "picture": "s-iras16272-4837-ir-8887-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "JWST",
+  "target": "IRAS16272-4837_IR",
+  "proposal_id": "8887",
+  "instrument": "MIRI/IMAGE",
+  "title": "Bridge the gas and ice of complex organic molecules in high-mass protostars",
+  "grid": {
+   "width": 1032,
+   "height": 1028,
+   "reduction": 1,
+   "arcsec_per_pixel": 0.11090632957676028,
+   "reference_filter": "F1000W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F560W",
+    "center_nm": 5600.0,
+    "color": "#1a4cff",
+    "obs_id": "jw08887-o030_t030_miri_f560w",
+    "exposure_s": 333.004,
+    "product": "mast:JWST/product/jw08887-o030_t030_miri_f560w_i2d.fits"
+   },
+   {
+    "filter": "F770W",
+    "center_nm": 7700.0,
+    "color": "#1aff33",
+    "obs_id": "jw08887-o030_t030_miri_f770w",
+    "exposure_s": 222.004,
+    "product": "mast:JWST/product/jw08887-o030_t030_miri_f770w_i2d.fits"
+   },
+   {
+    "filter": "F1000W",
+    "center_nm": 10000.0,
+    "color": "#ff1a1a",
+    "obs_id": "jw08887-o030_t030_miri_f1000w",
+    "exposure_s": 277.504,
+    "product": "mast:JWST/product/jw08887-o030_t030_miri_f1000w_i2d.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

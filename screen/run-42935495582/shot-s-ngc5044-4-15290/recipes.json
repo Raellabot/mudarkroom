@@ -1,0 +1,55 @@
+[
+ {
+  "picture": "s-ngc5044-4-15290-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "NGC5044-4",
+  "proposal_id": "15290",
+  "instrument": "WFC3/UVIS",
+  "title": "Spectacular optical filaments in the X-ray brightest group cool core",
+  "grid": {
+   "width": 1033,
+   "height": 1126,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.15848000347614075,
+   "reference_filter": "F300X"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F300X",
+    "center_nm": 292.8,
+    "color": "#1a4cff",
+    "obs_id": "idh502010",
+    "exposure_s": 2607,
+    "product": "mast:HST/product/idh502010_drz.fits"
+   },
+   {
+    "filter": "F665N",
+    "center_nm": 665.5,
+    "color": "#1aff33",
+    "obs_id": "idh502030",
+    "exposure_s": 1684,
+    "product": "mast:HST/product/idh502030_drz.fits"
+   },
+   {
+    "filter": "F814W",
+    "center_nm": 831.9,
+    "color": "#ff1a1a",
+    "obs_id": "idh502020",
+    "exposure_s": 834,
+    "product": "mast:HST/product/idh502020_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

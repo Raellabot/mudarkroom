@@ -1,0 +1,63 @@
+[
+ {
+  "picture": "s-m-106-halo-e1-16743-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST+HST",
+  "target": "M-106-HALO-E1+M-106-HALO-E1",
+  "proposal_id": "16743+16743",
+  "instrument": "ACS/WFC+WFC3/IR",
+  "title": "A High-accuracy, Geometric Calibration of the Tip of the Red Giant Branch in the Halo of NGC 4258",
+  "grid": {
+   "width": 1056,
+   "height": 1063,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.199999999999997,
+   "reference_filter": "F814W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F606W",
+    "center_nm": 595.0,
+    "color": "#1a4cff",
+    "obs_id": "jeq904010",
+    "exposure_s": 5146,
+    "product": "mast:HST/product/jeq904010_drz.fits"
+   },
+   {
+    "filter": "F814W",
+    "center_nm": 833.5,
+    "color": "#1aff33",
+    "obs_id": "jeq902010",
+    "exposure_s": 5146,
+    "product": "mast:HST/product/jeq902010_drz.fits"
+   },
+   {
+    "filter": "F110W",
+    "center_nm": 1148.8,
+    "color": "#ff800d",
+    "obs_id": "ieq903020",
+    "exposure_s": 5612,
+    "product": "mast:HST/product/ieq903020_drz.fits"
+   },
+   {
+    "filter": "F160W",
+    "center_nm": 1543.2,
+    "color": "#ff1a1a",
+    "obs_id": "ieq901020",
+    "exposure_s": 5612,
+    "product": "mast:HST/product/ieq901020_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

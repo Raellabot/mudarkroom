@@ -1,0 +1,55 @@
+[
+ {
+  "picture": "s-ngc4402-10528-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "NGC4402",
+  "proposal_id": "10528",
+  "instrument": "ACS/WFC",
+  "title": "Ram Pressure Stripping and Dense Cloud Ablation in the Virgo Spiral NGC 4402",
+  "grid": {
+   "width": 1057,
+   "height": 1089,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.1999999999999999,
+   "reference_filter": "F606W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F435W",
+    "center_nm": 425.0,
+    "color": "#1a4cff",
+    "obs_id": "j9dj01010",
+    "exposure_s": 7678,
+    "product": "mast:HST/product/j9dj01010_drz.fits"
+   },
+   {
+    "filter": "F606W",
+    "center_nm": 595.0,
+    "color": "#1aff33",
+    "obs_id": "j9dj01020",
+    "exposure_s": 2337,
+    "product": "mast:HST/product/j9dj01020_drz.fits"
+   },
+   {
+    "filter": "F814W",
+    "center_nm": 833.5,
+    "color": "#ff1a1a",
+    "obs_id": "j9dj01030",
+    "exposure_s": 2373,
+    "product": "mast:HST/product/j9dj01030_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

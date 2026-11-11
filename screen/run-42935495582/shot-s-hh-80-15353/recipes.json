@@ -1,0 +1,63 @@
+[
+ {
+  "picture": "s-hh-80-15353-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "HH-80",
+  "proposal_id": "15353",
+  "instrument": "WFC3/UVIS",
+  "title": "Luminous Herbig-Haro objects from a massive protostar: The unique case of HH 80/81",
+  "grid": {
+   "width": 1032,
+   "height": 1111,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.1584800034761427,
+   "reference_filter": "F487N"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F487N",
+    "center_nm": 487.2,
+    "color": "#1a4cff",
+    "obs_id": "idis02010",
+    "exposure_s": 5590,
+    "product": "mast:HST/product/idis02010_drz.fits"
+   },
+   {
+    "filter": "F502N",
+    "center_nm": 501.1,
+    "color": "#1aff33",
+    "obs_id": "idis05010",
+    "exposure_s": 5590,
+    "product": "mast:HST/product/idis05010_drz.fits"
+   },
+   {
+    "filter": "F656N",
+    "center_nm": 656.2,
+    "color": "#ff800d",
+    "obs_id": "idis01010",
+    "exposure_s": 2740,
+    "product": "mast:HST/product/idis01010_drz.fits"
+   },
+   {
+    "filter": "F673N",
+    "center_nm": 676.9,
+    "color": "#ff1a1a",
+    "obs_id": "idis03010",
+    "exposure_s": 5590,
+    "product": "mast:HST/product/idis03010_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

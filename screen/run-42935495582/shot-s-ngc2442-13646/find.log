@@ -1,0 +1,3 @@
+  page 1/1 rows so far 66 of 66
+HST|NGC2442|13646|WFC3/UVIS|3  rows=48  filters=['F350LP', 'F555W', 'F814W', 'detection']
+HST|NGC2442|13646|WFC3/IR|3  rows=18  filters=['F160W', 'detection']

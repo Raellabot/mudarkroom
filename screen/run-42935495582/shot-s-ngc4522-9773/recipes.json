@@ -1,0 +1,55 @@
+[
+ {
+  "picture": "s-ngc4522-9773-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "NGC4522",
+  "proposal_id": "9773",
+  "instrument": "ACS/WFC",
+  "title": "Ram Pressure Stripping in the Virgo Spiral NGC 4522",
+  "grid": {
+   "width": 1057,
+   "height": 1089,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.19999999999999177,
+   "reference_filter": "F606W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F435W",
+    "center_nm": 425.0,
+    "color": "#1a4cff",
+    "obs_id": "j8r102010",
+    "exposure_s": 7356,
+    "product": "mast:HST/product/j8r102010_drz.fits"
+   },
+   {
+    "filter": "F606W",
+    "center_nm": 595.0,
+    "color": "#1aff33",
+    "obs_id": "j8r101030",
+    "exposure_s": 2358,
+    "product": "mast:HST/product/j8r101030_drz.fits"
+   },
+   {
+    "filter": "F814W",
+    "center_nm": 833.5,
+    "color": "#ff1a1a",
+    "obs_id": "j8r101010",
+    "exposure_s": 2268,
+    "product": "mast:HST/product/j8r101010_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

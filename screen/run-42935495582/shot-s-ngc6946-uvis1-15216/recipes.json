@@ -1,0 +1,55 @@
+[
+ {
+  "picture": "s-ngc6946-uvis1-15216-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "NGC6946-UVIS1",
+  "proposal_id": "15216",
+  "instrument": "WFC3/UVIS",
+  "title": "Characterizing the Supernova Remnant Population of the Fireworks Galaxy, NGC 6946",
+  "grid": {
+   "width": 1032,
+   "height": 1116,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.1584800034761416,
+   "reference_filter": "F547M"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F547M",
+    "center_nm": 547.0,
+    "color": "#1a4cff",
+    "obs_id": "idk401050",
+    "exposure_s": 1473,
+    "product": "mast:HST/product/idk401050_drz.fits"
+   },
+   {
+    "filter": "F657N",
+    "center_nm": 657.1,
+    "color": "#1aff33",
+    "obs_id": "idk401030",
+    "exposure_s": 2826,
+    "product": "mast:HST/product/idk401030_drz.fits"
+   },
+   {
+    "filter": "F673N",
+    "center_nm": 676.9,
+    "color": "#ff1a1a",
+    "obs_id": "idk401040",
+    "exposure_s": 3853,
+    "product": "mast:HST/product/idk401040_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

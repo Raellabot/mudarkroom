@@ -1,0 +1,22 @@
+[     0s] == s-abell611-12460: 5 filters: ['F225W', 'F336W', 'F435W', 'F775W', 'F850LP']
+[     0s] F225W: 4129x4389 px at 0.0396 arcsec/px, 218 MB
+[     0s] F336W: 4129x4391 px at 0.0396 arcsec/px, 218 MB
+[     1s] F435W: 4218x4255 px at 0.0500 arcsec/px, 216 MB
+[     1s] F775W: 4213x4242 px at 0.0500 arcsec/px, 215 MB
+[     1s] F850LP: 4218x4255 px at 0.0500 arcsec/px, 216 MB
+[     1s] grid from F435W: 1054x1063 px (reduced 4x), 0.200 arcsec/px
+[     3s] downloaded ibs5a6030_drz.fits: 218 MB
+[     3s] F225W: aligned (reduced 5x), covers 56% of the grid
+[     5s] downloaded ibs5b6030_drz.fits: 218 MB
+[     5s] F336W: aligned (reduced 5x), covers 59% of the grid
+[     8s] downloaded jbs5a5010_drz.fits: 216 MB
+[     8s] F435W: aligned (reduced 4x), covers 92% of the grid
+[    12s] downloaded jbs5a0010_drz.fits: 215 MB
+[    12s] F775W: aligned (reduced 3x), covers 91% of the grid
+[    13s] downloaded jbs5a8010_drz.fits: 216 MB
+[    14s] F850LP: aligned (reduced 4x), covers 92% of the grid
+[    14s] s-abell611-12460: finishing steps applied: ['dense']
+[    14s] cropped to 544x571 px where 5 of 5 filters have data
+/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/astropy/visualization/lupton_rgb.py:645: RuntimeWarning: invalid value encountered in divide
+  fInorm = np.where(Int <= 0, 0, np.true_divide(fI, Int))
+[    14s] done: 1 pictures

@@ -1,0 +1,55 @@
+[
+ {
+  "picture": "s-sh2-284-3-17218-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "SH2-284-3",
+  "proposal_id": "17218",
+  "instrument": "WFC3/IR",
+  "title": "The Initial Mass Function in a Low Metallicity Environment of the Milky Way",
+  "grid": {
+   "width": 1144,
+   "height": 1013,
+   "reduction": 1,
+   "arcsec_per_pixel": 0.12824999999999775,
+   "reference_filter": "F139M"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F125W",
+    "center_nm": 1249.0,
+    "color": "#1a4cff",
+    "obs_id": "ieyx14010",
+    "exposure_s": 597.692871,
+    "product": "mast:HST/product/ieyx14010_drz.fits"
+   },
+   {
+    "filter": "F139M",
+    "center_nm": 1384.5,
+    "color": "#1aff33",
+    "obs_id": "ieyx15030",
+    "exposure_s": 1197.693786,
+    "product": "mast:HST/product/ieyx15030_drz.fits"
+   },
+   {
+    "filter": "F160W",
+    "center_nm": 1543.2,
+    "color": "#ff1a1a",
+    "obs_id": "ieyx52020",
+    "exposure_s": 297.691911,
+    "product": "mast:HST/product/ieyx52020_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

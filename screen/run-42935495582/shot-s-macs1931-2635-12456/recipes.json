@@ -1,0 +1,71 @@
+[
+ {
+  "picture": "s-macs1931-2635-12456-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST+HST",
+  "target": "MACS1931-2635+MACS1931-2635",
+  "proposal_id": "12456+12456",
+  "instrument": "ACS/WFC+WFC3/UVIS",
+  "title": "Through a Lens, Darkly - New Constraints on the Fundamental Components of the Cosmos",
+  "grid": {
+   "width": 1054,
+   "height": 1063,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.19999999999999601,
+   "reference_filter": "F850LP"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F225W",
+    "center_nm": 236.8,
+    "color": "#1a4cff",
+    "obs_id": "ibt2a6030",
+    "exposure_s": 3628,
+    "product": "mast:HST/product/ibt2a6030_drz.fits"
+   },
+   {
+    "filter": "F336W",
+    "center_nm": 336.6,
+    "color": "#00e6ff",
+    "obs_id": "ibt2b6030",
+    "exposure_s": 2273,
+    "product": "mast:HST/product/ibt2b6030_drz.fits"
+   },
+   {
+    "filter": "F475W",
+    "center_nm": 470.0,
+    "color": "#1aff33",
+    "obs_id": "jbt2a1010",
+    "exposure_s": 1032,
+    "product": "mast:HST/product/jbt2a1010_drz.fits"
+   },
+   {
+    "filter": "F775W",
+    "center_nm": 775.0,
+    "color": "#ff800d",
+    "obs_id": "jbt2a1020",
+    "exposure_s": 1011,
+    "product": "mast:HST/product/jbt2a1020_drz.fits"
+   },
+   {
+    "filter": "F850LP",
+    "center_nm": 895.0,
+    "color": "#ff1a1a",
+    "obs_id": "jbt2a3010",
+    "exposure_s": 1032,
+    "product": "mast:HST/product/jbt2a3010_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

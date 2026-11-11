@@ -1,0 +1,55 @@
+[
+ {
+  "picture": "s-ic348-41-14626-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "IC348-41",
+  "proposal_id": "14626",
+  "instrument": "WFC3/IR",
+  "title": "DASH Mapping of IC348: The IMF from 2 to 80 Jupiter Masses",
+  "grid": {
+   "width": 883,
+   "height": 1107,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.5129999999999876,
+   "reference_filter": "F125W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F125W",
+    "center_nm": 1249.0,
+    "color": "#1a4cff",
+    "obs_id": "id8y18010",
+    "exposure_s": 2124,
+    "product": "mast:HST/product/id8y18010_drz.fits"
+   },
+   {
+    "filter": "F139M",
+    "center_nm": 1384.5,
+    "color": "#1aff33",
+    "obs_id": "id8y16010",
+    "exposure_s": 2124,
+    "product": "mast:HST/product/id8y16010_drz.fits"
+   },
+   {
+    "filter": "F160W",
+    "center_nm": 1543.2,
+    "color": "#ff1a1a",
+    "obs_id": "id8y17010",
+    "exposure_s": 2124,
+    "product": "mast:HST/product/id8y17010_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

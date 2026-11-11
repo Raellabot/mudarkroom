@@ -1,0 +1,30 @@
+[     0s] == s-ngc-1316-13691: 4 filters: ['F606W', 'F814W', 'F110W', 'F160W']
+[     1s] F606W: 6030x6025 px at 0.0500 arcsec/px, 436 MB
+[     1s] F814W: 5999x5986 px at 0.0500 arcsec/px, 431 MB
+[     2s] F110W: 1033x1157 px at 0.1283 arcsec/px, 15 MB
+[     3s] F160W: 1099x1215 px at 0.1283 arcsec/px, 16 MB
+[     3s] grid from F606W: 1005x1004 px (reduced 6x), 0.300 arcsec/px
+[    12s] downloaded hst_13691_37_acs_wfc_f606w_jcnw37_drc.fits: 436 MB
+[    13s] F606W: aligned (reduced 6x), covers 47% of the grid
+[    27s] downloaded hst_13691_36_acs_wfc_f814w_jcnw36_drc.fits: 431 MB
+[    27s] F814W: aligned (reduced 6x), covers 47% of the grid
+[    28s] downloaded hst_13691_37_wfc3_ir_f110w_icnw37_drz.fits: 15 MB
+[    28s] F110W: aligned (reduced 2x), covers 0% of the grid
+[    30s] downloaded hst_13691_32_wfc3_ir_f160w_icnw32_drz.fits: 16 MB
+[    30s] F160W: aligned (reduced 2x), covers 0% of the grid
+Traceback (most recent call last):
+  File "/home/runner/work/mudarkroom/mudarkroom/scripts/mast/color.py", line 871, in <module>
+    main()
+  File "/home/runner/work/mudarkroom/mudarkroom/scripts/mast/color.py", line 796, in main
+    raw = aligned = finish_arrays(raw, fin, float(os.environ.get("FINISH_SCALE", "1")))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/mudarkroom/mudarkroom/scripts/mast/color.py", line 461, in finish_arrays
+    y0, y1, x0, x1 = dense_crop_box(a, fin["dense"])
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/mudarkroom/mudarkroom/scripts/mast/color.py", line 400, in dense_crop_box
+    y0, y1, x0, x1 = ys.min(), ys.max() + 1, xs.min(), xs.max() + 1
+                     ^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/numpy/_core/_methods.py", line 45, in _amin
+    return umr_minimum(a, axis, None, out, keepdims, initial, where)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: zero-size array to reduction operation minimum which has no identity

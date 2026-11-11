@@ -1,0 +1,30 @@
+[     0s] == s-ngc1977p2042-12250: 4 filters: ['F280N', 'F373N', 'F656N', 'F658N']
+[     1s] F280N: 4162x4459 px at 0.0396 arcsec/px, 223 MB
+[     2s] F373N: 4162x4459 px at 0.0396 arcsec/px, 223 MB
+[     2s] F656N: 4161x4459 px at 0.0396 arcsec/px, 223 MB
+[     3s] F658N: 4232x4300 px at 0.0500 arcsec/px, 219 MB
+[     3s] grid from F658N: 1058x1075 px (reduced 4x), 0.200 arcsec/px
+[     8s] downloaded ibgv01020_drz.fits: 223 MB
+[     9s] F280N: aligned (reduced 5x), covers 0% of the grid
+[    14s] downloaded ibgv02020_drz.fits: 223 MB
+[    15s] F373N: aligned (reduced 5x), covers 0% of the grid
+[    20s] downloaded ibgv03020_drz.fits: 223 MB
+[    20s] F656N: aligned (reduced 5x), covers 18% of the grid
+[    25s] downloaded jbgv02010_drz.fits: 219 MB
+[    26s] F658N: aligned (reduced 4x), covers 93% of the grid
+Traceback (most recent call last):
+  File "/home/runner/work/mudarkroom/mudarkroom/scripts/mast/color.py", line 871, in <module>
+    main()
+  File "/home/runner/work/mudarkroom/mudarkroom/scripts/mast/color.py", line 796, in main
+    raw = aligned = finish_arrays(raw, fin, float(os.environ.get("FINISH_SCALE", "1")))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/mudarkroom/mudarkroom/scripts/mast/color.py", line 461, in finish_arrays
+    y0, y1, x0, x1 = dense_crop_box(a, fin["dense"])
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/mudarkroom/mudarkroom/scripts/mast/color.py", line 400, in dense_crop_box
+    y0, y1, x0, x1 = ys.min(), ys.max() + 1, xs.min(), xs.max() + 1
+                     ^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/numpy/_core/_methods.py", line 45, in _amin
+    return umr_minimum(a, axis, None, out, keepdims, initial, where)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: zero-size array to reduction operation minimum which has no identity

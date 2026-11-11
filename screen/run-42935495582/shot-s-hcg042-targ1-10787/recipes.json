@@ -1,0 +1,55 @@
+[
+ {
+  "picture": "s-hcg042-targ1-10787-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "HCG042-TARG1",
+  "proposal_id": "10787",
+  "instrument": "ACS/WFC",
+  "title": "Modes of Star Formation and Nuclear Activity in an Early Universe Laboratory",
+  "grid": {
+   "width": 1054,
+   "height": 1060,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.19999999999999796,
+   "reference_filter": "F435W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F435W",
+    "center_nm": 425.0,
+    "color": "#1a4cff",
+    "obs_id": "j9q713010",
+    "exposure_s": 1710,
+    "product": "mast:HST/product/j9q713010_drz.fits"
+   },
+   {
+    "filter": "F606W",
+    "center_nm": 595.0,
+    "color": "#1aff33",
+    "obs_id": "j9q713030",
+    "exposure_s": 1230,
+    "product": "mast:HST/product/j9q713030_drz.fits"
+   },
+   {
+    "filter": "F814W",
+    "center_nm": 833.5,
+    "color": "#ff1a1a",
+    "obs_id": "j9q713020",
+    "exposure_s": 1080,
+    "product": "mast:HST/product/j9q713020_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

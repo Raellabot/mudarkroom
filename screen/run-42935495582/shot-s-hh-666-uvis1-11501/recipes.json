@@ -1,0 +1,55 @@
+[
+ {
+  "picture": "s-hh-666-uvis1-11501-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "HH-666-UVIS1",
+  "proposal_id": "11501",
+  "instrument": "WFC3/UVIS",
+  "title": null,
+  "grid": {
+   "width": 984,
+   "height": 1038,
+   "reduction": 5,
+   "arcsec_per_pixel": 0.1981000043451747,
+   "reference_filter": "F502N"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F502N",
+    "center_nm": 501.1,
+    "color": "#1a4cff",
+    "obs_id": "hst_11501_01_wfc3_uvis_f502n_ibcx01",
+    "exposure_s": 2070,
+    "product": "mast:HST/product/hst_11501_01_wfc3_uvis_f502n_ibcx01_drc.fits"
+   },
+   {
+    "filter": "F656N",
+    "center_nm": 656.2,
+    "color": "#1aff33",
+    "obs_id": "hst_11501_01_wfc3_uvis_f656n_ibcx01",
+    "exposure_s": 2040,
+    "product": "mast:HST/product/hst_11501_01_wfc3_uvis_f656n_ibcx01_drc.fits"
+   },
+   {
+    "filter": "F673N",
+    "center_nm": 676.9,
+    "color": "#ff1a1a",
+    "obs_id": "hst_11501_01_wfc3_uvis_f673n_ibcx01",
+    "exposure_s": 2430,
+    "product": "mast:HST/product/hst_11501_01_wfc3_uvis_f673n_ibcx01_drc.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

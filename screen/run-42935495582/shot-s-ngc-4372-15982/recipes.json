@@ -1,0 +1,55 @@
+[
+ {
+  "picture": "s-ngc-4372-15982-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "NGC-4372",
+  "proposal_id": "15982",
+  "instrument": "WFC3/UVIS",
+  "title": "Gyros in High-Mode Science Checkout",
+  "grid": {
+   "width": 961,
+   "height": 1003,
+   "reduction": 5,
+   "arcsec_per_pixel": 0.1981000043451747,
+   "reference_filter": "F606W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F275W",
+    "center_nm": 274.5,
+    "color": "#1a4cff",
+    "obs_id": "idzv04010",
+    "exposure_s": 1568,
+    "product": "mast:HST/product/idzv04010_drz.fits"
+   },
+   {
+    "filter": "F606W",
+    "center_nm": 594.0,
+    "color": "#1aff33",
+    "obs_id": "hst_15982_04_wfc3_uvis_f606w_idzv04",
+    "exposure_s": 412,
+    "product": "mast:HST/product/hst_15982_04_wfc3_uvis_f606w_idzv04_drc.fits"
+   },
+   {
+    "filter": "F814W",
+    "center_nm": 831.9,
+    "color": "#ff1a1a",
+    "obs_id": "hst_15982_04_wfc3_uvis_f814w_idzv04",
+    "exposure_s": 410,
+    "product": "mast:HST/product/hst_15982_04_wfc3_uvis_f814w_idzv04_drc.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

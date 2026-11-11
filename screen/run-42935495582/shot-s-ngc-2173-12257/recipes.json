@@ -1,0 +1,55 @@
+[
+ {
+  "picture": "s-ngc-2173-12257-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "NGC-2173",
+  "proposal_id": "12257",
+  "instrument": "WFC3/UVIS",
+  "title": "The Nature of Multiple Main Sequence Turn-offs and Dual Red Clumps in Magellanic Cloud Star Clusters",
+  "grid": {
+   "width": 1041,
+   "height": 1114,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.15848000347614227,
+   "reference_filter": "F814W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F336W",
+    "center_nm": 336.6,
+    "color": "#1a4cff",
+    "obs_id": "ibhy11040",
+    "exposure_s": 2200,
+    "product": "mast:HST/product/ibhy11040_drz.fits"
+   },
+   {
+    "filter": "F475W",
+    "center_nm": 475.8,
+    "color": "#1aff33",
+    "obs_id": "ibhy11050",
+    "exposure_s": 1520,
+    "product": "mast:HST/product/ibhy11050_drz.fits"
+   },
+   {
+    "filter": "F814W",
+    "center_nm": 831.9,
+    "color": "#ff1a1a",
+    "obs_id": "ibhy11030",
+    "exposure_s": 1980,
+    "product": "mast:HST/product/ibhy11030_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

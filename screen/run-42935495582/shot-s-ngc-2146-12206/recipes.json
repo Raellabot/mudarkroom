@@ -1,0 +1,63 @@
+[
+ {
+  "picture": "s-ngc-2146-12206-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "NGC-2146",
+  "proposal_id": "12206",
+  "instrument": "WFC3/IR",
+  "title": "Starburst-driven shocks and feedback in the near-IR at high resolution",
+  "grid": {
+   "width": 1091,
+   "height": 965,
+   "reduction": 1,
+   "arcsec_per_pixel": 0.1282500028610215,
+   "reference_filter": "F160W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F110W",
+    "center_nm": 1148.8,
+    "color": "#1a4cff",
+    "obs_id": "ibjf04040",
+    "exposure_s": 897.693786,
+    "product": "mast:HST/product/ibjf04040_drz.fits"
+   },
+   {
+    "filter": "F128N",
+    "center_nm": 1283.8,
+    "color": "#1aff33",
+    "obs_id": "ibjf04010",
+    "exposure_s": 1797.696534,
+    "product": "mast:HST/product/ibjf04010_drz.fits"
+   },
+   {
+    "filter": "F160W",
+    "center_nm": 1543.2,
+    "color": "#ff800d",
+    "obs_id": "ibjf04020",
+    "exposure_s": 1197.694701,
+    "product": "mast:HST/product/ibjf04020_drz.fits"
+   },
+   {
+    "filter": "F164N",
+    "center_nm": 1645.0,
+    "color": "#ff1a1a",
+    "obs_id": "ibjf04030",
+    "exposure_s": 2397.695619,
+    "product": "mast:HST/product/ibjf04030_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

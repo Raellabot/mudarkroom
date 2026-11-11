@@ -1,0 +1,63 @@
+[
+ {
+  "picture": "s-ngc-2014-a-15986-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "NGC-2014-A",
+  "proposal_id": "15986",
+  "instrument": "WFC3/UVIS",
+  "title": "WFC3 mosaic of NGC 2020 and NGC 2014",
+  "grid": {
+   "width": 1037,
+   "height": 1116,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.15848000347612967,
+   "reference_filter": "F502N"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F475W",
+    "center_nm": 475.8,
+    "color": "#1a4cff",
+    "obs_id": "ie6d55vpq",
+    "exposure_s": 40,
+    "product": "mast:HST/product/ie6d55vpq_drz.fits"
+   },
+   {
+    "filter": "F502N",
+    "center_nm": 501.1,
+    "color": "#1aff33",
+    "obs_id": "ie6da5010",
+    "exposure_s": 1360,
+    "product": "mast:HST/product/ie6da5010_drz.fits"
+   },
+   {
+    "filter": "F657N",
+    "center_nm": 657.1,
+    "color": "#ff800d",
+    "obs_id": "ie6db5020",
+    "exposure_s": 840,
+    "product": "mast:HST/product/ie6db5020_drz.fits"
+   },
+   {
+    "filter": "F814W",
+    "center_nm": 831.9,
+    "color": "#ff1a1a",
+    "obs_id": "ie6db5whq",
+    "exposure_s": 30,
+    "product": "mast:HST/product/ie6db5whq_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

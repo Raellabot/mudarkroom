@@ -1,0 +1,19 @@
+[     0s] == s-ngc-4874-acs-17145: 4 filters: ['F435W', 'F555W', 'F606W', 'F850LP']
+[     0s] F435W: 4225x4255 px at 0.0500 arcsec/px, 216 MB
+[     1s] F555W: 4227x4254 px at 0.0500 arcsec/px, 216 MB
+[     1s] F606W: 4217x4244 px at 0.0500 arcsec/px, 215 MB
+[     2s] F850LP: 4225x4253 px at 0.0500 arcsec/px, 216 MB
+[     2s] grid from F555W: 1056x1063 px (reduced 4x), 0.200 arcsec/px
+[     5s] downloaded jewj06010_drz.fits: 216 MB
+[     5s] F435W: aligned (reduced 3x), covers 84% of the grid
+[     8s] downloaded jewj07010_drz.fits: 216 MB
+[     8s] F555W: aligned (reduced 4x), covers 92% of the grid
+[    11s] downloaded jewj05010_drz.fits: 215 MB
+[    11s] F606W: aligned (reduced 3x), covers 87% of the grid
+[    14s] downloaded jewj08010_drz.fits: 216 MB
+[    14s] F850LP: aligned (reduced 4x), covers 84% of the grid
+[    15s] s-ngc-4874-acs-17145: finishing steps applied: ['dense']
+[    15s] cropped to 800x828 px where 4 of 4 filters have data
+/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/astropy/visualization/lupton_rgb.py:645: RuntimeWarning: invalid value encountered in divide
+  fInorm = np.where(Int <= 0, 0, np.true_divide(fI, Int))
+[    15s] done: 1 pictures

@@ -1,0 +1,63 @@
+[
+ {
+  "picture": "s-sgrb2-nircam-5365-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "JWST",
+  "target": "SGRB2_NIRCAM",
+  "proposal_id": "5365",
+  "instrument": "NIRCAM/IMAGE",
+  "title": "Identifying, counting, and mapping YSOs in Sgr B2: our Galaxys most massive molecular cloud",
+  "grid": {
+   "width": 1146,
+   "height": 519,
+   "reduction": 10,
+   "arcsec_per_pixel": 0.31222962181918834,
+   "reference_filter": "F212N"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F150W",
+    "center_nm": 1499.5,
+    "color": "#1a4cff",
+    "obs_id": "jw05365-o001_t001_nircam_clear-f150w",
+    "exposure_s": 3092.183999999998,
+    "product": "mast:JWST/product/jw05365-o001_t001_nircam_clear-f150w_i2d.fits"
+   },
+   {
+    "filter": "F212N",
+    "center_nm": 2121.5,
+    "color": "#1aff33",
+    "obs_id": "jw05365-o001_t001_nircam_clear-f212n",
+    "exposure_s": 3092.183999999998,
+    "product": "mast:JWST/product/jw05365-o001_t001_nircam_clear-f212n_i2d.fits"
+   },
+   {
+    "filter": "F360M",
+    "center_nm": 3620.5,
+    "color": "#ff800d",
+    "obs_id": "jw05365-o001_t001_nircam_clear-f360m",
+    "exposure_s": 3092.183999999998,
+    "product": "mast:JWST/product/jw05365-o001_t001_nircam_clear-f360m_i2d.fits"
+   },
+   {
+    "filter": "F480M",
+    "center_nm": 4819.5,
+    "color": "#ff1a1a",
+    "obs_id": "jw05365-o001_t001_nircam_clear-f480m",
+    "exposure_s": 3092.183999999998,
+    "product": "mast:JWST/product/jw05365-o001_t001_nircam_clear-f480m_i2d.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

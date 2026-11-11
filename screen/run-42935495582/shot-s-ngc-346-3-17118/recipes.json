@@ -1,0 +1,63 @@
+[
+ {
+  "picture": "s-ngc-346-3-17118-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "NGC-346-3",
+  "proposal_id": "17118",
+  "instrument": "WFC3/UVIS",
+  "title": "Taming the BEAST of N66 to resolve how star formation shapes the interstellar medium at low metallicity",
+  "grid": {
+   "width": 1034,
+   "height": 1099,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.15847999999999515,
+   "reference_filter": "F336W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F225W",
+    "center_nm": 236.8,
+    "color": "#1a4cff",
+    "obs_id": "if1h03030",
+    "exposure_s": 2782,
+    "product": "mast:HST/product/if1h03030_drz.fits"
+   },
+   {
+    "filter": "F275W",
+    "center_nm": 274.5,
+    "color": "#1aff33",
+    "obs_id": "if1h03020",
+    "exposure_s": 2160,
+    "product": "mast:HST/product/if1h03020_drz.fits"
+   },
+   {
+    "filter": "F336W",
+    "center_nm": 336.6,
+    "color": "#ff800d",
+    "obs_id": "if1h03010",
+    "exposure_s": 1381,
+    "product": "mast:HST/product/if1h03010_drz.fits"
+   },
+   {
+    "filter": "F475W",
+    "center_nm": 475.8,
+    "color": "#ff1a1a",
+    "obs_id": "if1h03040",
+    "exposure_s": 1205,
+    "product": "mast:HST/product/if1h03040_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

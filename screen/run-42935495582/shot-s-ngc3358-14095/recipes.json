@@ -1,0 +1,71 @@
+[
+ {
+  "picture": "s-ngc3358-14095-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST+HST",
+  "target": "NGC3358+NGC3358",
+  "proposal_id": "14095+14095",
+  "instrument": "WFC3/IR+WFC3/UVIS",
+  "title": "Calibrating the Dusty Cosmos: Extinction Maps of Nearby Galaxies",
+  "grid": {
+   "width": 1031,
+   "height": 1096,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.15848000347614213,
+   "reference_filter": "F665N"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F625W",
+    "center_nm": 627.4,
+    "color": "#1a4cff",
+    "obs_id": "icvz89ypq",
+    "exposure_s": 120,
+    "product": "mast:HST/product/icvz89ypq_drz.fits"
+   },
+   {
+    "filter": "F665N",
+    "center_nm": 665.5,
+    "color": "#00e6ff",
+    "obs_id": "icvz89yrq",
+    "exposure_s": 300,
+    "product": "mast:HST/product/icvz89yrq_drz.fits"
+   },
+   {
+    "filter": "F110W",
+    "center_nm": 1148.8,
+    "color": "#1aff33",
+    "obs_id": "icvz89010",
+    "exposure_s": 298.462098,
+    "product": "mast:HST/product/icvz89010_drz.fits"
+   },
+   {
+    "filter": "F128N",
+    "center_nm": 1283.8,
+    "color": "#ff800d",
+    "obs_id": "icvz89ylq",
+    "exposure_s": 499.231873,
+    "product": "mast:HST/product/icvz89ylq_drz.fits"
+   },
+   {
+    "filter": "F130N",
+    "center_nm": 1301.0,
+    "color": "#ff1a1a",
+    "obs_id": "icvz89ynq",
+    "exposure_s": 502.933838,
+    "product": "mast:HST/product/icvz89ynq_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

@@ -1,0 +1,63 @@
+[
+ {
+  "picture": "s-ngc1291-pos2-10402-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "NGC1291-POS2",
+  "proposal_id": "10402",
+  "instrument": "ACS/WFC",
+  "title": "The Formation and Evolution of Spirals: An ACS and WFPC2 Imaging Survey of Nearby Galaxies",
+  "grid": {
+   "width": 1053,
+   "height": 1059,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.19999999999999737,
+   "reference_filter": "F435W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F435W",
+    "center_nm": 425.0,
+    "color": "#1a4cff",
+    "obs_id": "j96r02010",
+    "exposure_s": 1400,
+    "product": "mast:HST/product/j96r02010_drz.fits"
+   },
+   {
+    "filter": "F555W",
+    "center_nm": 545.0,
+    "color": "#1aff33",
+    "obs_id": "j96r02030",
+    "exposure_s": 750,
+    "product": "mast:HST/product/j96r02030_drz.fits"
+   },
+   {
+    "filter": "F658N",
+    "center_nm": 658.1,
+    "color": "#ff800d",
+    "obs_id": "j96r02040",
+    "exposure_s": 1600,
+    "product": "mast:HST/product/j96r02040_drz.fits"
+   },
+   {
+    "filter": "F814W",
+    "center_nm": 833.5,
+    "color": "#ff1a1a",
+    "obs_id": "j96r02020",
+    "exposure_s": 700,
+    "product": "mast:HST/product/j96r02020_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

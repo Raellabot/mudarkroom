@@ -1,0 +1,4 @@
+[     0s] == s-ngc-2336-center-15990: 3 filters: ['F435W', 'F555W', 'F814W']
+[     1s] F435W: 4213x4303 px at 0.0500 arcsec/px, 218 MB
+[     1s] s-ngc-2336-center-15990 failed: could not read the header of mast:HST/product/je6w03020_drz.fits without downloading it
+[     1s] done: 0 pictures

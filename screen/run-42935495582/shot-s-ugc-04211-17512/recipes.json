@@ -1,0 +1,55 @@
+[
+ {
+  "picture": "s-ugc-04211-17512-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "UGC-04211",
+  "proposal_id": "17512",
+  "instrument": "ACS/WFC",
+  "title": "Probing SMBH/Galaxy Co-Evolution with Dual and Binary AGN",
+  "grid": {
+   "width": 1065,
+   "height": 1068,
+   "reduction": 2,
+   "arcsec_per_pixel": 0.09999999999999955,
+   "reference_filter": "FR505N"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "FR505N",
+    "center_nm": 504.5,
+    "color": "#1a4cff",
+    "obs_id": "jf9712010",
+    "exposure_s": 1136,
+    "product": "mast:HST/product/jf9712010_drz.fits"
+   },
+   {
+    "filter": "FR647M",
+    "center_nm": 647.0,
+    "color": "#1aff33",
+    "obs_id": "jf9712030",
+    "exposure_s": 120,
+    "product": "mast:HST/product/jf9712030_drz.fits"
+   },
+   {
+    "filter": "FR656N",
+    "center_nm": 656.1,
+    "color": "#ff1a1a",
+    "obs_id": "jf9712020",
+    "exposure_s": 300,
+    "product": "mast:HST/product/jf9712020_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

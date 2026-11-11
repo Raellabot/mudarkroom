@@ -1,0 +1,4 @@
+  page 1/1 rows so far 81 of 81
+HST|M1337|15640|WFC3/UVIS|3  rows=47  filters=['F350LP', 'F555W', 'F814W', 'detection']
+HST|M1337|15640|WFC3/IR|3  rows=33  filters=['F160W', 'detection']
+HST|M1337|15640|WFC3/IR|2  rows=1  filters=['F160W']

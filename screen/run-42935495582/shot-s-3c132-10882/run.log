@@ -1,0 +1,16 @@
+[     0s] == s-3c132-10882: 3 filters: ['FR601N', 'FR647M', 'FR782N']
+[     0s] FR601N: 2143x2123 px at 0.0500 arcsec/px, 55 MB
+[     1s] FR647M: 2082x2072 px at 0.0500 arcsec/px, 52 MB
+[     1s] FR782N: 2143x2122 px at 0.0500 arcsec/px, 55 MB
+[     1s] grid from FR601N: 1071x1061 px (reduced 2x), 0.100 arcsec/px
+[     2s] downloaded j9ob77020_drz.fits: 55 MB
+[     2s] FR601N: aligned (reduced 2x), covers 95% of the grid
+[     2s] downloaded j9obb7x1q_drz.fits: 52 MB
+[     3s] FR647M: aligned (reduced 1x), covers 41% of the grid
+[     3s] downloaded j9ob77010_drz.fits: 55 MB
+[     4s] FR782N: aligned (reduced 1x), covers 94% of the grid
+[     4s] s-3c132-10882: finishing steps applied: ['dense']
+[     4s] cropped to 601x681 px where 3 of 3 filters have data
+/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/astropy/visualization/lupton_rgb.py:645: RuntimeWarning: invalid value encountered in divide
+  fInorm = np.where(Int <= 0, 0, np.true_divide(fI, Int))
+[     4s] done: 1 pictures

@@ -1,0 +1,55 @@
+[
+ {
+  "picture": "s-ngc-1313-e-15330-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "NGC-1313-E",
+  "proposal_id": "15330",
+  "instrument": "WFC3/IR",
+  "title": "The Emergence of Star Clusters",
+  "grid": {
+   "width": 1089,
+   "height": 962,
+   "reduction": 1,
+   "arcsec_per_pixel": 0.12825000286102184,
+   "reference_filter": "F160W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F110W",
+    "center_nm": 1148.8,
+    "color": "#1a4cff",
+    "obs_id": "idny03020",
+    "exposure_s": 1000,
+    "product": "mast:HST/product/idny03020_drz.fits"
+   },
+   {
+    "filter": "F128N",
+    "center_nm": 1283.8,
+    "color": "#1aff33",
+    "obs_id": "idny03010",
+    "exposure_s": 3000,
+    "product": "mast:HST/product/idny03010_drz.fits"
+   },
+   {
+    "filter": "F160W",
+    "center_nm": 1543.2,
+    "color": "#ff1a1a",
+    "obs_id": "idny03030",
+    "exposure_s": 1800,
+    "product": "mast:HST/product/idny03030_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

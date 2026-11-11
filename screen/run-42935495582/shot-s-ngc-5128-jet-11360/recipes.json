@@ -1,0 +1,55 @@
+[
+ {
+  "picture": "s-ngc-5128-jet-11360-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "NGC-5128-JET",
+  "proposal_id": "11360",
+  "instrument": "WFC3/UVIS",
+  "title": "Star Formation in Nearby Galaxies",
+  "grid": {
+   "width": 1049,
+   "height": 1133,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.15848000347614197,
+   "reference_filter": "F814W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F225W",
+    "center_nm": 236.8,
+    "color": "#1a4cff",
+    "obs_id": "ib6wrb030",
+    "exposure_s": 2232,
+    "product": "mast:HST/product/ib6wrb030_drz.fits"
+   },
+   {
+    "filter": "F657N",
+    "center_nm": 657.1,
+    "color": "#1aff33",
+    "obs_id": "ib6wrb010",
+    "exposure_s": 1640,
+    "product": "mast:HST/product/ib6wrb010_drz.fits"
+   },
+   {
+    "filter": "F814W",
+    "center_nm": 831.9,
+    "color": "#ff1a1a",
+    "obs_id": "ib6wrb020",
+    "exposure_s": 1050,
+    "product": "mast:HST/product/ib6wrb020_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

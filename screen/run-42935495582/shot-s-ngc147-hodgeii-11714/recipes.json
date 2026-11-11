@@ -1,0 +1,55 @@
+[
+ {
+  "picture": "s-ngc147-hodgeii-11714-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "NGC147-HODGEII",
+  "proposal_id": "11714",
+  "instrument": "WFC3/UVIS",
+  "title": "Snapshot Survey for Planetary Nebulae in Local Group Globular Clusters",
+  "grid": {
+   "width": 1039,
+   "height": 1093,
+   "reduction": 1,
+   "arcsec_per_pixel": 0.03962000086903566,
+   "reference_filter": "F502N"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F502N",
+    "center_nm": 501.1,
+    "color": "#1a4cff",
+    "obs_id": "ib7794010",
+    "exposure_s": 600,
+    "product": "mast:HST/product/ib7794010_drz.fits"
+   },
+   {
+    "filter": "F555W",
+    "center_nm": 550.4,
+    "color": "#1aff33",
+    "obs_id": "ib7794020",
+    "exposure_s": 300,
+    "product": "mast:HST/product/ib7794020_drz.fits"
+   },
+   {
+    "filter": "F814W",
+    "center_nm": 831.9,
+    "color": "#ff1a1a",
+    "obs_id": "ib7794030",
+    "exposure_s": 300,
+    "product": "mast:HST/product/ib7794030_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

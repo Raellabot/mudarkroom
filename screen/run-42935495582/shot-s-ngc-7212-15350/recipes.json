@@ -1,0 +1,55 @@
+[
+ {
+  "picture": "s-ngc-7212-15350-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "NGC-7212",
+  "proposal_id": "15350",
+  "instrument": "ACS/WFC",
+  "title": "Resolved BPT Mapping of Nearby AGN",
+  "grid": {
+   "width": 1063,
+   "height": 1040,
+   "reduction": 2,
+   "arcsec_per_pixel": 0.09999999999999946,
+   "reference_filter": "FR505N"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "FR505N",
+    "center_nm": 504.5,
+    "color": "#1a4cff",
+    "obs_id": "jdlx18030",
+    "exposure_s": 760,
+    "product": "mast:HST/product/jdlx18030_drz.fits"
+   },
+   {
+    "filter": "FR656N",
+    "center_nm": 656.1,
+    "color": "#1aff33",
+    "obs_id": "jdlx18020",
+    "exposure_s": 200,
+    "product": "mast:HST/product/jdlx18020_drz.fits"
+   },
+   {
+    "filter": "FR716N",
+    "center_nm": 716.1,
+    "color": "#ff1a1a",
+    "obs_id": "jdlx18010",
+    "exposure_s": 760,
+    "product": "mast:HST/product/jdlx18010_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

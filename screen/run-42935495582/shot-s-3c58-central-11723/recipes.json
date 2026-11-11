@@ -1,0 +1,63 @@
+[
+ {
+  "picture": "s-3c58-central-11723-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "3C58-CENTRAL",
+  "proposal_id": "11723",
+  "instrument": "WFC3/UVIS",
+  "title": "Imaging the Crab Nebula-Like Supernova Remnant 3C 58",
+  "grid": {
+   "width": 932,
+   "height": 1179,
+   "reduction": 5,
+   "arcsec_per_pixel": 0.1981000043451747,
+   "reference_filter": "F657N"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F625W",
+    "center_nm": 627.4,
+    "color": "#1a4cff",
+    "obs_id": "ib3102050",
+    "exposure_s": 1800,
+    "product": "mast:HST/product/ib3102050_drz.fits"
+   },
+   {
+    "filter": "F645N",
+    "center_nm": 645.3,
+    "color": "#1aff33",
+    "obs_id": "ib3102040",
+    "exposure_s": 1230,
+    "product": "mast:HST/product/ib3102040_drz.fits"
+   },
+   {
+    "filter": "F657N",
+    "center_nm": 657.1,
+    "color": "#ff800d",
+    "obs_id": "hst_11723_02_wfc3_uvis_f657n_ib3102",
+    "exposure_s": 3180,
+    "product": "mast:HST/product/hst_11723_02_wfc3_uvis_f657n_ib3102_drc.fits"
+   },
+   {
+    "filter": "F775W",
+    "center_nm": 772.8,
+    "color": "#ff1a1a",
+    "obs_id": "ib3102060",
+    "exposure_s": 1950,
+    "product": "mast:HST/product/ib3102060_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]
