@@ -1,0 +1,19 @@
+[     0s] == s-afgl5180-17086: 4 filters: ['F110W', 'F128N', 'F160W', 'F164N']
+[     0s] F110W: 1087x962 px at 0.1282 arcsec/px, 13 MB
+[     0s] F128N: 1087x962 px at 0.1282 arcsec/px, 13 MB
+[     1s] F160W: 1087x962 px at 0.1282 arcsec/px, 13 MB
+[     1s] F164N: 1087x961 px at 0.1282 arcsec/px, 13 MB
+[     1s] grid from F110W: 1087x962 px (reduced 1x), 0.128 arcsec/px
+[     1s] downloaded ievy02010_drz.fits: 13 MB
+[     1s] F110W: aligned (reduced 1x), covers 99% of the grid
+[     2s] downloaded ievy02020_drz.fits: 13 MB
+[     2s] F128N: aligned (reduced 1x), covers 99% of the grid
+[     2s] downloaded ievy02030_drz.fits: 13 MB
+[     2s] F160W: aligned (reduced 1x), covers 99% of the grid
+[     2s] downloaded ievy02040_drz.fits: 13 MB
+[     2s] F164N: aligned (reduced 1x), covers 99% of the grid
+[     3s] s-afgl5180-17086: finishing steps applied: ['dense']
+[     3s] cropped to 1062x957 px where 4 of 4 filters have data
+/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/astropy/visualization/lupton_rgb.py:645: RuntimeWarning: invalid value encountered in divide
+  fInorm = np.where(Int <= 0, 0, np.true_divide(fI, Int))
+[     3s] done: 1 pictures

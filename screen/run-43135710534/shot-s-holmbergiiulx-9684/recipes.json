@@ -1,0 +1,71 @@
+[
+ {
+  "picture": "s-holmbergiiulx-9684-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "HOLMBERGIIULX",
+  "proposal_id": "9684",
+  "instrument": "ACS/WFC",
+  "title": "The Ultraluminous X-Ray Source in Holmberg II",
+  "grid": {
+   "width": 1054,
+   "height": 1061,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.1999999999999952,
+   "reference_filter": "FR462N"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "FR459M",
+    "center_nm": 458.8,
+    "color": "#1a4cff",
+    "obs_id": "j8k902010",
+    "exposure_s": 1440,
+    "product": "mast:HST/product/j8k902010_drz.fits"
+   },
+   {
+    "filter": "FR462N",
+    "center_nm": 462.2,
+    "color": "#00e6ff",
+    "obs_id": "j8k951010",
+    "exposure_s": 5000,
+    "product": "mast:HST/product/j8k951010_drz.fits"
+   },
+   {
+    "filter": "FR505N",
+    "center_nm": 504.5,
+    "color": "#1aff33",
+    "obs_id": "j8k902030",
+    "exposure_s": 800,
+    "product": "mast:HST/product/j8k902030_drz.fits"
+   },
+   {
+    "filter": "F550M",
+    "center_nm": 558.0,
+    "color": "#ff800d",
+    "obs_id": "j8k902040",
+    "exposure_s": 720,
+    "product": "mast:HST/product/j8k902040_drz.fits"
+   },
+   {
+    "filter": "FR656N",
+    "center_nm": 656.1,
+    "color": "#ff1a1a",
+    "obs_id": "j8k902020",
+    "exposure_s": 1440,
+    "product": "mast:HST/product/j8k902020_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

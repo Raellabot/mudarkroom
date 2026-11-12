@@ -1,0 +1,63 @@
+[
+ {
+  "picture": "s-gal-222731-093954-15087-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "GAL-222731-093954",
+  "proposal_id": "15087",
+  "instrument": "WFC3/UVIS",
+  "title": "Star Cluster Populations of Interacting Dwarf Galaxies",
+  "grid": {
+   "width": 1032,
+   "height": 1097,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.1584800034761414,
+   "reference_filter": "F665N"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F336W",
+    "center_nm": 336.6,
+    "color": "#1a4cff",
+    "obs_id": "idml11030",
+    "exposure_s": 1185,
+    "product": "mast:HST/product/idml11030_drz.fits"
+   },
+   {
+    "filter": "F621M",
+    "center_nm": 621.5,
+    "color": "#1aff33",
+    "obs_id": "idml11040",
+    "exposure_s": 700,
+    "product": "mast:HST/product/idml11040_drz.fits"
+   },
+   {
+    "filter": "F665N",
+    "center_nm": 665.5,
+    "color": "#ff800d",
+    "obs_id": "idml11010",
+    "exposure_s": 1920,
+    "product": "mast:HST/product/idml11010_drz.fits"
+   },
+   {
+    "filter": "F814W",
+    "center_nm": 831.9,
+    "color": "#ff1a1a",
+    "obs_id": "idml11020",
+    "exposure_s": 700,
+    "product": "mast:HST/product/idml11020_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

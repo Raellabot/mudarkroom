@@ -1,0 +1,63 @@
+[
+ {
+  "picture": "s-bpmg-2mass-j18103569-5513435-18139-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "BPMG-2MASS-J18103569-5513435",
+  "proposal_id": "18139",
+  "instrument": "WFC3/UVIS",
+  "title": "Tracing Accretion in the Planetary Regime: A Comprehensive UV/Optical Survey of the Late Stages of Planet Formation",
+  "grid": {
+   "width": 742,
+   "height": 749,
+   "reduction": 1,
+   "arcsec_per_pixel": 0.039619999999998906,
+   "reference_filter": "F336W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F225W",
+    "center_nm": 236.8,
+    "color": "#1a4cff",
+    "obs_id": "ifpf23010",
+    "exposure_s": 1866,
+    "product": "mast:HST/product/ifpf23010_drz.fits"
+   },
+   {
+    "filter": "F336W",
+    "center_nm": 336.6,
+    "color": "#1aff33",
+    "obs_id": "hst_18139_23_wfc3_uvis_f336w_ifpf23",
+    "exposure_s": 1116,
+    "product": "mast:HST/product/hst_18139_23_wfc3_uvis_f336w_ifpf23_drc.fits"
+   },
+   {
+    "filter": "F625W",
+    "center_nm": 627.4,
+    "color": "#ff800d",
+    "obs_id": "hst_18139_23_wfc3_uvis_f625w_ifpf23",
+    "exposure_s": 450,
+    "product": "mast:HST/product/hst_18139_23_wfc3_uvis_f625w_ifpf23_drc.fits"
+   },
+   {
+    "filter": "F656N",
+    "center_nm": 656.2,
+    "color": "#ff1a1a",
+    "obs_id": "hst_18139_23_wfc3_uvis_f656n_ifpf23",
+    "exposure_s": 1200,
+    "product": "mast:HST/product/hst_18139_23_wfc3_uvis_f656n_ifpf23_drc.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

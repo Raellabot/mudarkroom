@@ -1,0 +1,71 @@
+[
+ {
+  "picture": "s-sn2009ip-16649-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "SN2009IP",
+  "proposal_id": "16649",
+  "instrument": "WFC3/UVIS",
+  "title": "The final word on SN 2009ip: is it dead?",
+  "grid": {
+   "width": 1033,
+   "height": 1090,
+   "reduction": 1,
+   "arcsec_per_pixel": 0.039619999999999926,
+   "reference_filter": "F657N"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F275W",
+    "center_nm": 274.5,
+    "color": "#1a4cff",
+    "obs_id": "ieqe01010",
+    "exposure_s": 2480,
+    "product": "mast:HST/product/ieqe01010_drz.fits"
+   },
+   {
+    "filter": "F555W",
+    "center_nm": 550.4,
+    "color": "#00e6ff",
+    "obs_id": "ieqe03020",
+    "exposure_s": 1034,
+    "product": "mast:HST/product/ieqe03021_drz.fits"
+   },
+   {
+    "filter": "F606W",
+    "center_nm": 594.0,
+    "color": "#1aff33",
+    "obs_id": "ieqe03030",
+    "exposure_s": 634,
+    "product": "mast:HST/product/ieqe03031_drz.fits"
+   },
+   {
+    "filter": "F657N",
+    "center_nm": 657.1,
+    "color": "#ff800d",
+    "obs_id": "ieqe02010",
+    "exposure_s": 5344,
+    "product": "mast:HST/product/ieqe02010_drz.fits"
+   },
+   {
+    "filter": "F814W",
+    "center_nm": 831.9,
+    "color": "#ff1a1a",
+    "obs_id": "ieqe03010",
+    "exposure_s": 634,
+    "product": "mast:HST/product/ieqe03011_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

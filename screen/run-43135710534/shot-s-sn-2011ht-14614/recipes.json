@@ -1,0 +1,63 @@
+[
+ {
+  "picture": "s-sn-2011ht-14614-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "SN-2011HT",
+  "proposal_id": "14614",
+  "instrument": "WFC3/UVIS",
+  "title": "Death or Survival? Determining the nature of SNe IIn-P explosions",
+  "grid": {
+   "width": 1031,
+   "height": 1097,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.15848000347614263,
+   "reference_filter": "F438W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F275W",
+    "center_nm": 274.5,
+    "color": "#1a4cff",
+    "obs_id": "id6u01020",
+    "exposure_s": 3038,
+    "product": "mast:HST/product/id6u01020_drz.fits"
+   },
+   {
+    "filter": "F438W",
+    "center_nm": 431.4,
+    "color": "#1aff33",
+    "obs_id": "id6u01010",
+    "exposure_s": 2932,
+    "product": "mast:HST/product/id6u01010_drz.fits"
+   },
+   {
+    "filter": "F555W",
+    "center_nm": 550.4,
+    "color": "#ff800d",
+    "obs_id": "id6u01030",
+    "exposure_s": 1386,
+    "product": "mast:HST/product/id6u01030_drz.fits"
+   },
+   {
+    "filter": "F814W",
+    "center_nm": 831.9,
+    "color": "#ff1a1a",
+    "obs_id": "id6u01040",
+    "exposure_s": 1386,
+    "product": "mast:HST/product/id6u01040_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

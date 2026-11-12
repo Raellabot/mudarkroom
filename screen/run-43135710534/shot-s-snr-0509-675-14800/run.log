@@ -1,0 +1,19 @@
+[     0s] == s-snr-0509-675-14800: 4 filters: ['FQ387N', 'F390M', 'F410M', 'FQ422M']
+[     0s] FQ387N: 6457x5935 px at 0.0396 arcsec/px, 460 MB
+[     1s] F390M: 4130x4390 px at 0.0396 arcsec/px, 218 MB
+[     1s] F410M: 4130x4390 px at 0.0396 arcsec/px, 218 MB
+[     2s] FQ422M: 4130x4390 px at 0.0396 arcsec/px, 218 MB
+[     2s] grid from FQ387N: 1076x989 px (reduced 6x), 0.238 arcsec/px
+[    11s] downloaded hst_14800_01_wfc3_uvis_fq422m_id7o01_drc.fits: 460 MB
+[    11s] FQ387N: aligned (reduced 6x), covers 44% of the grid
+[    14s] downloaded id7o01010_drz.fits: 218 MB
+[    15s] F390M: aligned (reduced 6x), covers 44% of the grid
+[    18s] downloaded id7o01020_drz.fits: 218 MB
+[    18s] F410M: aligned (reduced 5x), covers 44% of the grid
+[    26s] downloaded id7o01030_drz.fits: 218 MB
+[    26s] FQ422M: aligned (reduced 6x), covers 44% of the grid
+[    27s] s-snr-0509-675-14800: finishing steps applied: ['dense']
+[    27s] cropped to 359x471 px where 4 of 4 filters have data
+/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/astropy/visualization/lupton_rgb.py:645: RuntimeWarning: invalid value encountered in divide
+  fInorm = np.where(Int <= 0, 0, np.true_divide(fI, Int))
+[    27s] done: 1 pictures

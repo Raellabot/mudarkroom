@@ -1,0 +1,63 @@
+[
+ {
+  "picture": "s-he-0435-1223-1198-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "JWST",
+  "target": "HE-0435-1223",
+  "proposal_id": "1198",
+  "instrument": "NIRCAM/IMAGE",
+  "title": "IFU spectroscopy of the host galaxies of strongly lensed quasars",
+  "grid": {
+   "width": 1160,
+   "height": 548,
+   "reduction": 9,
+   "arcsec_per_pixel": 0.28105848857710597,
+   "reference_filter": "F115W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F115W",
+    "center_nm": 1147.5,
+    "color": "#1a4cff",
+    "obs_id": "jw01198-o007_t005_nircam_clear-f115w",
+    "exposure_s": 1803.776,
+    "product": "mast:JWST/product/jw01198-o007_t005_nircam_clear-f115w_i2d.fits"
+   },
+   {
+    "filter": "F150W",
+    "center_nm": 1499.5,
+    "color": "#1aff33",
+    "obs_id": "jw01198-o007_t005_nircam_clear-f150w",
+    "exposure_s": 1803.776,
+    "product": "mast:JWST/product/jw01198-o007_t005_nircam_clear-f150w_i2d.fits"
+   },
+   {
+    "filter": "F277W",
+    "center_nm": 2771.5,
+    "color": "#ff800d",
+    "obs_id": "jw01198-o007_t005_nircam_clear-f277w",
+    "exposure_s": 1803.776,
+    "product": "mast:JWST/product/jw01198-o007_t005_nircam_clear-f277w_i2d.fits"
+   },
+   {
+    "filter": "F356W",
+    "center_nm": 3560.0,
+    "color": "#ff1a1a",
+    "obs_id": "jw01198-o007_t005_nircam_clear-f356w",
+    "exposure_s": 1803.776,
+    "product": "mast:JWST/product/jw01198-o007_t005_nircam_clear-f356w_i2d.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

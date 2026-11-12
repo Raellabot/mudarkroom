@@ -1,0 +1,4 @@
+  page 1/1 rows so far 132 of 132
+HST|IPTF16GEU|14862|WFC3/UVIS|3  rows=58  filters=['F390W', 'F475W', 'F625W', 'F814W', 'detection']
+HST|IPTF16GEU|14862|WFC3/IR|3  rows=52  filters=['F105W', 'F110W', 'F160W', 'detection']
+HST|IPTF16GEU|14862|WFC3/IR|2  rows=21  filters=['G102']

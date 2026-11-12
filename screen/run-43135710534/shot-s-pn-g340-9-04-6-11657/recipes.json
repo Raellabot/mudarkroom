@@ -1,0 +1,63 @@
+[
+ {
+  "picture": "s-pn-g340-9-04-6-11657-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "PN-G340.9-04.6",
+  "proposal_id": "11657",
+  "instrument": "WFC3/UVIS",
+  "title": "The population of compact planetary nebulae in the Galactic Disk",
+  "grid": {
+   "width": 1025,
+   "height": 576,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.15848000347614266,
+   "reference_filter": "F502N"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F502N",
+    "center_nm": 501.1,
+    "color": "#1a4cff",
+    "obs_id": "ib1b99010",
+    "exposure_s": 200,
+    "product": "mast:HST/product/ib1b99011_drz.fits"
+   },
+   {
+    "filter": "F200LP",
+    "center_nm": 595.3,
+    "color": "#1aff33",
+    "obs_id": "ib1b99020",
+    "exposure_s": 110,
+    "product": "mast:HST/product/ib1b99020_drz.fits"
+   },
+   {
+    "filter": "F350LP",
+    "center_nm": 659.6,
+    "color": "#ff800d",
+    "obs_id": "ib1b99030",
+    "exposure_s": 110,
+    "product": "mast:HST/product/ib1b99030_drz.fits"
+   },
+   {
+    "filter": "F814W",
+    "center_nm": 831.9,
+    "color": "#ff1a1a",
+    "obs_id": "ib1b99jhq",
+    "exposure_s": 50,
+    "product": "mast:HST/product/ib1b99jhq_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

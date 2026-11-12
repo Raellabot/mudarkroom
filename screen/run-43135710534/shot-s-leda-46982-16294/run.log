@@ -1,0 +1,22 @@
+[     0s] == s-leda-46982-16294: 5 filters: ['F225W', 'F336W', 'F467M', 'F502N', 'F658N']
+[     1s] F225W: 1035x1092 px at 0.0396 arcsec/px, 14 MB
+[     1s] F336W: 1035x1092 px at 0.0396 arcsec/px, 14 MB
+[     2s] F467M: 1035x1092 px at 0.0396 arcsec/px, 14 MB
+[     2s] F502N: 1035x1092 px at 0.0396 arcsec/px, 14 MB
+[     3s] F658N: 1035x1092 px at 0.0396 arcsec/px, 14 MB
+[     3s] grid from F225W: 1035x1092 px (reduced 1x), 0.040 arcsec/px
+[     4s] downloaded iedt03010_drz.fits: 14 MB
+[     4s] F225W: aligned (reduced 1x), covers 94% of the grid
+[     5s] downloaded iedt01040_drz.fits: 14 MB
+[     5s] F336W: aligned (reduced 1x), covers 94% of the grid
+[     6s] downloaded iedt03030_drz.fits: 14 MB
+[     6s] F467M: aligned (reduced 1x), covers 94% of the grid
+[     7s] downloaded iedt03020_drz.fits: 14 MB
+[     7s] F502N: aligned (reduced 1x), covers 94% of the grid
+[     8s] downloaded iedt03040_drz.fits: 14 MB
+[     9s] F658N: aligned (reduced 1x), covers 94% of the grid
+[     9s] s-leda-46982-16294: finishing steps applied: ['dense']
+[     9s] cropped to 963x970 px where 5 of 5 filters have data
+/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/astropy/visualization/lupton_rgb.py:645: RuntimeWarning: invalid value encountered in divide
+  fInorm = np.where(Int <= 0, 0, np.true_divide(fI, Int))
+[    10s] done: 1 pictures

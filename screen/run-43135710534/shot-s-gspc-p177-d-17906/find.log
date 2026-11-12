@@ -1,0 +1,4 @@
+  page 1/1 rows so far 37 of 37
+HST|GSPC-P177-D|17906|WFC3/IR|3  rows=14  filters=['F098M', 'F110W', 'F140W', 'F160W', 'detection']
+HST|GSPC-P177-D|17906|WFC3/UVIS|3  rows=11  filters=['F275W', 'F336W', 'F475W', 'F606W', 'F814W', 'detection']
+HST|GSPC-P177-D|17906|WFC3/IR|2  rows=6  filters=['G102', 'G141']

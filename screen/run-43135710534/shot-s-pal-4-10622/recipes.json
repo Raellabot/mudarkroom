@@ -1,0 +1,71 @@
+[
+ {
+  "picture": "s-pal-4-10622-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "PAL-4",
+  "proposal_id": "10622",
+  "instrument": "ACS/WFC",
+  "title": "ACS Photometric Calibration from Faint Standards",
+  "grid": {
+   "width": 1053,
+   "height": 1059,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.1999999999999983,
+   "reference_filter": "F850LP"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F435W",
+    "center_nm": 425.0,
+    "color": "#1a4cff",
+    "obs_id": "j9bg01040",
+    "exposure_s": 430,
+    "product": "mast:HST/product/j9bg01041_drz.fits"
+   },
+   {
+    "filter": "F555W",
+    "center_nm": 545.0,
+    "color": "#00e6ff",
+    "obs_id": "j9bg01010",
+    "exposure_s": 250,
+    "product": "mast:HST/product/j9bg01011_drz.fits"
+   },
+   {
+    "filter": "F606W",
+    "center_nm": 595.0,
+    "color": "#1aff33",
+    "obs_id": "j9bg01070",
+    "exposure_s": 120,
+    "product": "mast:HST/product/j9bg01071_drz.fits"
+   },
+   {
+    "filter": "F775W",
+    "center_nm": 775.0,
+    "color": "#ff800d",
+    "obs_id": "j9bg01060",
+    "exposure_s": 210,
+    "product": "mast:HST/product/j9bg01061_drz.fits"
+   },
+   {
+    "filter": "F850LP",
+    "center_nm": 895.0,
+    "color": "#ff1a1a",
+    "obs_id": "j9bg01030",
+    "exposure_s": 380,
+    "product": "mast:HST/product/j9bg01031_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

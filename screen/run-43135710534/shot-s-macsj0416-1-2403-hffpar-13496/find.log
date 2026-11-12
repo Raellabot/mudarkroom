@@ -1,0 +1,3 @@
+  page 1/1 rows so far 253 of 253
+HST|MACSJ0416.1-2403-HFFPAR|13496|WFC3/IR|3  rows=160  filters=['F105W', 'F125W', 'F140W', 'F160W', 'detection']
+HST|MACSJ0416.1-2403-HFFPAR|13496|ACS/WFC|3  rows=93  filters=['F435W', 'F606W', 'F814W', 'detection']

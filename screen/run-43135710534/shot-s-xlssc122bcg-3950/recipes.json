@@ -1,0 +1,63 @@
+[
+ {
+  "picture": "s-xlssc122bcg-3950-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "JWST",
+  "target": "XLSSC122BCG",
+  "proposal_id": "3950",
+  "instrument": "NIRCAM/IMAGE",
+  "title": "Unlocking the Early Universe for Weak Lensing with JWST: High-Precision Analysis of z=2 Galaxy Cluster XLSSC122",
+  "grid": {
+   "width": 1140,
+   "height": 530,
+   "reduction": 9,
+   "arcsec_per_pixel": 0.2810794172220975,
+   "reference_filter": "F200W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F090W",
+    "center_nm": 900.0,
+    "color": "#1a4cff",
+    "obs_id": "jw03950-o001_t002_nircam_clear-f090w",
+    "exposure_s": 7558.688000000001,
+    "product": "mast:JWST/product/jw03950-o001_t002_nircam_clear-f090w_i2d.fits"
+   },
+   {
+    "filter": "F200W",
+    "center_nm": 1990.5,
+    "color": "#1aff33",
+    "obs_id": "jw03950-o001_t002_nircam_clear-f200w",
+    "exposure_s": 4208.816,
+    "product": "mast:JWST/product/jw03950-o001_t002_nircam_clear-f200w_i2d.fits"
+   },
+   {
+    "filter": "F277W",
+    "center_nm": 2771.5,
+    "color": "#ff800d",
+    "obs_id": "jw03950-o001_t002_nircam_clear-f277w",
+    "exposure_s": 7558.688000000001,
+    "product": "mast:JWST/product/jw03950-o001_t002_nircam_clear-f277w_i2d.fits"
+   },
+   {
+    "filter": "F356W",
+    "center_nm": 3560.0,
+    "color": "#ff1a1a",
+    "obs_id": "jw03950-o001_t002_nircam_clear-f356w",
+    "exposure_s": 4208.816,
+    "product": "mast:JWST/product/jw03950-o001_t002_nircam_clear-f356w_i2d.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

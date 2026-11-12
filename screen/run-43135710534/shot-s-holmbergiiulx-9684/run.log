@@ -1,0 +1,22 @@
+[     0s] == s-holmbergiiulx-9684: 5 filters: ['FR459M', 'FR462N', 'FR505N', 'F550M', 'FR656N']
+[     1s] FR459M: 4222x4239 px at 0.0500 arcsec/px, 215 MB
+[     1s] FR462N: 4218x4244 px at 0.0500 arcsec/px, 215 MB
+[     2s] FR505N: 4221x4240 px at 0.0500 arcsec/px, 215 MB
+[     2s] F550M: 4221x4240 px at 0.0500 arcsec/px, 215 MB
+[     3s] FR656N: 4221x4240 px at 0.0500 arcsec/px, 215 MB
+[     3s] grid from FR462N: 1054x1061 px (reduced 4x), 0.200 arcsec/px
+[     8s] downloaded j8k902010_drz.fits: 215 MB
+[     9s] FR459M: aligned (reduced 4x), covers 56% of the grid
+[    15s] downloaded j8k951010_drz.fits: 215 MB
+[    15s] FR462N: aligned (reduced 4x), covers 92% of the grid
+[    20s] downloaded j8k902030_drz.fits: 215 MB
+[    20s] FR505N: aligned (reduced 4x), covers 56% of the grid
+[    26s] downloaded j8k902040_drz.fits: 215 MB
+[    26s] F550M: aligned (reduced 4x), covers 26% of the grid
+[    35s] downloaded j8k902020_drz.fits: 215 MB
+[    35s] FR656N: aligned (reduced 3x), covers 56% of the grid
+[    36s] s-holmbergiiulx-9684: finishing steps applied: ['dense']
+[    36s] cropped to 286x326 px where 5 of 5 filters have data
+/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/astropy/visualization/lupton_rgb.py:645: RuntimeWarning: invalid value encountered in divide
+  fInorm = np.where(Int <= 0, 0, np.true_divide(fI, Int))
+[    36s] done: 1 pictures

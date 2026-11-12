@@ -1,0 +1,63 @@
+[
+ {
+  "picture": "s-sn-2008ge-12999-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "SN-2008GE",
+  "proposal_id": "12999",
+  "instrument": "ACS/WFC",
+  "title": "Are the Progenitors of SN 2002cx-like Objects Massive Stars or White Dwarfs?",
+  "grid": {
+   "width": 1054,
+   "height": 1075,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.199999999999997,
+   "reference_filter": "F555W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F435W",
+    "center_nm": 425.0,
+    "color": "#1a4cff",
+    "obs_id": "jc2l01010",
+    "exposure_s": 1168,
+    "product": "mast:HST/product/jc2l01010_drz.fits"
+   },
+   {
+    "filter": "F555W",
+    "center_nm": 545.0,
+    "color": "#1aff33",
+    "obs_id": "jc2l01020",
+    "exposure_s": 768,
+    "product": "mast:HST/product/jc2l01020_drz.fits"
+   },
+   {
+    "filter": "F625W",
+    "center_nm": 625.0,
+    "color": "#ff800d",
+    "obs_id": "jc2l01040",
+    "exposure_s": 844,
+    "product": "mast:HST/product/jc2l01040_drz.fits"
+   },
+   {
+    "filter": "F814W",
+    "center_nm": 833.5,
+    "color": "#ff1a1a",
+    "obs_id": "jc2l01030",
+    "exposure_s": 1244,
+    "product": "mast:HST/product/jc2l01030_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

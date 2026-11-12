@@ -1,0 +1,22 @@
+[     0s] == s-jo206-16223: 5 filters: ['F275W', 'F336W', 'F606W', 'F680N', 'F814W']
+[     1s] F275W: 4140x4568 px at 0.0396 arcsec/px, 227 MB
+[     1s] F336W: 4135x4508 px at 0.0396 arcsec/px, 224 MB
+[     2s] F606W: 4135x4507 px at 0.0396 arcsec/px, 224 MB
+[     3s] F680N: 4135x4507 px at 0.0396 arcsec/px, 224 MB
+[     3s] F814W: 4135x4506 px at 0.0396 arcsec/px, 224 MB
+[     3s] grid from F275W: 1035x1142 px (reduced 4x), 0.158 arcsec/px
+[     8s] downloaded iedv09020_drz.fits: 227 MB
+[     8s] F275W: aligned (reduced 4x), covers 94% of the grid
+[    13s] downloaded iedv09010_drz.fits: 224 MB
+[    14s] F336W: aligned (reduced 4x), covers 92% of the grid
+[    18s] downloaded iedv50010_drz.fits: 224 MB
+[    19s] F606W: aligned (reduced 3x), covers 92% of the grid
+[    23s] downloaded iedv10030_drz.fits: 224 MB
+[    24s] F680N: aligned (reduced 3x), covers 88% of the grid
+[    29s] downloaded iedv50020_drz.fits: 224 MB
+[    29s] F814W: aligned (reduced 4x), covers 92% of the grid
+[    30s] s-jo206-16223: finishing steps applied: ['dense']
+[    30s] cropped to 866x905 px where 5 of 5 filters have data
+/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/astropy/visualization/lupton_rgb.py:645: RuntimeWarning: invalid value encountered in divide
+  fInorm = np.where(Int <= 0, 0, np.true_divide(fI, Int))
+[    30s] done: 1 pictures

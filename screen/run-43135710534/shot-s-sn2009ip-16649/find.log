@@ -1,0 +1,3 @@
+  page 1/1 rows so far 18 of 18
+HST|SN2009IP|16649|WFC3/UVIS|3  rows=13  filters=['F275W', 'F555W', 'F606W', 'F657N', 'F814W', 'detection']
+HST|SN2009IP|16649|WFC3/IR|3  rows=5  filters=['F125W', 'F160W', 'detection']

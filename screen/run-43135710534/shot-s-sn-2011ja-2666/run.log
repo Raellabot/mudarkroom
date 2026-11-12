@@ -1,0 +1,82 @@
+[     0s] == s-sn-2011ja-2666: 5 filters: ['F560W', 'F1130W', 'F1500W', 'F1800W', 'F2550W']
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set DATE-BEG to '2023-07-21T23:33:10.906' from MJD-BEG.
+Set DATE-AVG to '2023-07-21T23:36:13.389' from MJD-AVG.
+Set DATE-END to '2023-07-21T23:39:14.464' from MJD-END'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'obsfix' made the change 'Set OBSGEO-L to   -76.036211 from OBSGEO-[XYZ].
+Set OBSGEO-B to   -36.179470 from OBSGEO-[XYZ].
+Set OBSGEO-H to 1718805725.348 from OBSGEO-[XYZ]'. [astropy.wcs.wcs]
+[     0s] F560W: 1178x1171 px at 0.1109 arcsec/px, 39 MB
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set DATE-BEG to '2023-07-21T23:51:38.169' from MJD-BEG.
+Set DATE-AVG to '2023-07-21T23:54:40.652' from MJD-AVG.
+Set DATE-END to '2023-07-21T23:57:41.727' from MJD-END'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'obsfix' made the change 'Set OBSGEO-L to   -76.032683 from OBSGEO-[XYZ].
+Set OBSGEO-B to   -36.176617 from OBSGEO-[XYZ].
+Set OBSGEO-H to 1718783958.818 from OBSGEO-[XYZ]'. [astropy.wcs.wcs]
+[     0s] F1130W: 1178x1171 px at 0.1109 arcsec/px, 39 MB
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set DATE-BEG to '2023-07-22T00:09:26.584' from MJD-BEG.
+Set DATE-AVG to '2023-07-22T00:12:26.987' from MJD-AVG.
+Set DATE-END to '2023-07-22T00:15:27.390' from MJD-END'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'obsfix' made the change 'Set OBSGEO-L to   -76.029275 from OBSGEO-[XYZ].
+Set OBSGEO-B to   -36.173861 from OBSGEO-[XYZ].
+Set OBSGEO-H to 1718762942.145 from OBSGEO-[XYZ]'. [astropy.wcs.wcs]
+[     0s] F1500W: 1178x1171 px at 0.1109 arcsec/px, 39 MB
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set DATE-BEG to '2023-07-22T00:18:11.128' from MJD-BEG.
+Set DATE-AVG to '2023-07-22T00:21:13.562' from MJD-AVG.
+Set DATE-END to '2023-07-22T00:24:14.621' from MJD-END'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'obsfix' made the change 'Set OBSGEO-L to   -76.027600 from OBSGEO-[XYZ].
+Set OBSGEO-B to   -36.172508 from OBSGEO-[XYZ].
+Set OBSGEO-H to 1718752618.912 from OBSGEO-[XYZ]'. [astropy.wcs.wcs]
+[     1s] F1800W: 1178x1171 px at 0.1109 arcsec/px, 39 MB
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set DATE-BEG to '2023-07-22T00:36:32.822' from MJD-BEG.
+Set DATE-AVG to '2023-07-22T00:39:37.385' from MJD-AVG.
+Set DATE-END to '2023-07-22T00:42:36.380' from MJD-END'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'obsfix' made the change 'Set OBSGEO-L to   -76.024081 from OBSGEO-[XYZ].
+Set OBSGEO-B to   -36.169663 from OBSGEO-[XYZ].
+Set OBSGEO-H to 1718730926.395 from OBSGEO-[XYZ]'. [astropy.wcs.wcs]
+[     1s] F2550W: 1178x1171 px at 0.1109 arcsec/px, 39 MB
+[     1s] grid from F560W: 1178x1171 px (reduced 1x), 0.111 arcsec/px
+[     1s] downloaded jw02666-o006_t003_miri_f560w_i2d.fits: 39 MB
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set DATE-BEG to '2023-07-21T23:33:10.906' from MJD-BEG.
+Set DATE-AVG to '2023-07-21T23:36:13.389' from MJD-AVG.
+Set DATE-END to '2023-07-21T23:39:14.464' from MJD-END'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'obsfix' made the change 'Set OBSGEO-L to   -76.036211 from OBSGEO-[XYZ].
+Set OBSGEO-B to   -36.179470 from OBSGEO-[XYZ].
+Set OBSGEO-H to 1718805725.348 from OBSGEO-[XYZ]'. [astropy.wcs.wcs]
+[     2s] F560W: aligned (reduced 1x), covers 77% of the grid
+[     2s] downloaded jw02666-o006_t003_miri_f1130w_i2d.fits: 39 MB
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set DATE-BEG to '2023-07-21T23:51:38.169' from MJD-BEG.
+Set DATE-AVG to '2023-07-21T23:54:40.652' from MJD-AVG.
+Set DATE-END to '2023-07-21T23:57:41.727' from MJD-END'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'obsfix' made the change 'Set OBSGEO-L to   -76.032683 from OBSGEO-[XYZ].
+Set OBSGEO-B to   -36.176617 from OBSGEO-[XYZ].
+Set OBSGEO-H to 1718783958.818 from OBSGEO-[XYZ]'. [astropy.wcs.wcs]
+[     2s] F1130W: aligned (reduced 1x), covers 77% of the grid
+[     3s] downloaded jw02666-o006_t003_miri_f1500w_i2d.fits: 39 MB
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set DATE-BEG to '2023-07-22T00:09:26.584' from MJD-BEG.
+Set DATE-AVG to '2023-07-22T00:12:26.987' from MJD-AVG.
+Set DATE-END to '2023-07-22T00:15:27.390' from MJD-END'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'obsfix' made the change 'Set OBSGEO-L to   -76.029275 from OBSGEO-[XYZ].
+Set OBSGEO-B to   -36.173861 from OBSGEO-[XYZ].
+Set OBSGEO-H to 1718762942.145 from OBSGEO-[XYZ]'. [astropy.wcs.wcs]
+[     3s] F1500W: aligned (reduced 1x), covers 77% of the grid
+[     3s] downloaded jw02666-o006_t003_miri_f1800w_i2d.fits: 39 MB
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set DATE-BEG to '2023-07-22T00:18:11.128' from MJD-BEG.
+Set DATE-AVG to '2023-07-22T00:21:13.562' from MJD-AVG.
+Set DATE-END to '2023-07-22T00:24:14.621' from MJD-END'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'obsfix' made the change 'Set OBSGEO-L to   -76.027600 from OBSGEO-[XYZ].
+Set OBSGEO-B to   -36.172508 from OBSGEO-[XYZ].
+Set OBSGEO-H to 1718752618.912 from OBSGEO-[XYZ]'. [astropy.wcs.wcs]
+[     4s] F1800W: aligned (reduced 1x), covers 77% of the grid
+[     4s] downloaded jw02666-o006_t003_miri_f2550w_i2d.fits: 39 MB
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set DATE-BEG to '2023-07-22T00:36:32.822' from MJD-BEG.
+Set DATE-AVG to '2023-07-22T00:39:37.385' from MJD-AVG.
+Set DATE-END to '2023-07-22T00:42:36.380' from MJD-END'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'obsfix' made the change 'Set OBSGEO-L to   -76.024081 from OBSGEO-[XYZ].
+Set OBSGEO-B to   -36.169663 from OBSGEO-[XYZ].
+Set OBSGEO-H to 1718730926.395 from OBSGEO-[XYZ]'. [astropy.wcs.wcs]
+[     4s] F2550W: aligned (reduced 1x), covers 77% of the grid
+[     6s] s-sn-2011ja-2666: finishing steps applied: ['dense']
+[     6s] cropped to 770x801 px where 5 of 5 filters have data
+/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/astropy/visualization/lupton_rgb.py:645: RuntimeWarning: invalid value encountered in divide
+  fInorm = np.where(Int <= 0, 0, np.true_divide(fI, Int))
+[     6s] done: 1 pictures

@@ -1,0 +1,22 @@
+[     0s] == s-hops361-center-16493: 5 filters: ['F126N', 'F128N', 'F130N', 'F164N', 'F167N']
+[     0s] F126N: 1106x979 px at 0.1282 arcsec/px, 13 MB
+[     1s] F128N: 1106x979 px at 0.1282 arcsec/px, 13 MB
+[     1s] F130N: 1106x979 px at 0.1282 arcsec/px, 13 MB
+[     1s] F164N: 1116x988 px at 0.1282 arcsec/px, 13 MB
+[     1s] F167N: 1116x988 px at 0.1282 arcsec/px, 13 MB
+[     1s] grid from F164N: 1116x988 px (reduced 1x), 0.128 arcsec/px
+[     2s] downloaded iej707010_drz.fits: 13 MB
+[     2s] F126N: aligned (reduced 1x), covers 97% of the grid
+[     2s] downloaded iej708010_drz.fits: 13 MB
+[     3s] F128N: aligned (reduced 1x), covers 97% of the grid
+[     3s] downloaded iej708020_drz.fits: 13 MB
+[     3s] F130N: aligned (reduced 1x), covers 97% of the grid
+[     4s] downloaded iej701010_drz.fits: 13 MB
+[     4s] F164N: aligned (reduced 1x), covers 99% of the grid
+[     4s] downloaded iej702010_drz.fits: 13 MB
+[     4s] F167N: aligned (reduced 1x), covers 99% of the grid
+[     5s] s-hops361-center-16493: finishing steps applied: ['dense']
+[     5s] cropped to 1080x967 px where 5 of 5 filters have data
+/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/astropy/visualization/lupton_rgb.py:645: RuntimeWarning: invalid value encountered in divide
+  fInorm = np.where(Int <= 0, 0, np.true_divide(fI, Int))
+[     5s] done: 1 pictures

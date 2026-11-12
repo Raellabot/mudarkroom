@@ -1,0 +1,63 @@
+[
+ {
+  "picture": "s-irc0222b-12896-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "IRC0222B",
+  "proposal_id": "12896",
+  "instrument": "WFC3/IR",
+  "title": "At the Turn of the Tide: WFC3/IR Imaging and Spectroscopy of Two Galaxy Clusters at z~2",
+  "grid": {
+   "width": 1138,
+   "height": 1008,
+   "reduction": 1,
+   "arcsec_per_pixel": 0.12825000286102148,
+   "reference_filter": "F105W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F105W",
+    "center_nm": 1052.7,
+    "color": "#1a4cff",
+    "obs_id": "ic1411010",
+    "exposure_s": 2174,
+    "product": "mast:HST/product/ic1411010_drz.fits"
+   },
+   {
+    "filter": "F125W",
+    "center_nm": 1249.0,
+    "color": "#1aff33",
+    "obs_id": "ic1412010",
+    "exposure_s": 1324,
+    "product": "mast:HST/product/ic1412010_drz.fits"
+   },
+   {
+    "filter": "F140W",
+    "center_nm": 1398.3,
+    "color": "#ff800d",
+    "obs_id": "ic1405010",
+    "exposure_s": 712,
+    "product": "mast:HST/product/ic1405010_drz.fits"
+   },
+   {
+    "filter": "F160W",
+    "center_nm": 1543.2,
+    "color": "#ff1a1a",
+    "obs_id": "ic1412020",
+    "exposure_s": 2624,
+    "product": "mast:HST/product/ic1412020_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

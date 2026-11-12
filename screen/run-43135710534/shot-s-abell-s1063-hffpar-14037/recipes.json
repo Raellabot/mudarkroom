@@ -1,0 +1,55 @@
+[
+ {
+  "picture": "s-abell-s1063-hffpar-14037-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "ABELL-S1063-HFFPAR",
+  "proposal_id": "14037",
+  "instrument": "ACS/WFC",
+  "title": "HST Frontier Fields - Observations of Abell S1063",
+  "grid": {
+   "width": 1055,
+   "height": 1084,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.19999999999999346,
+   "reference_filter": "F435W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F435W",
+    "center_nm": 425.0,
+    "color": "#1a4cff",
+    "obs_id": "jcqt94010",
+    "exposure_s": 5080,
+    "product": "mast:HST/product/jcqt94010_drz.fits"
+   },
+   {
+    "filter": "F606W",
+    "center_nm": 595.0,
+    "color": "#1aff33",
+    "obs_id": "jcqt67010",
+    "exposure_s": 5046,
+    "product": "mast:HST/product/jcqt67010_drz.fits"
+   },
+   {
+    "filter": "F814W",
+    "center_nm": 833.5,
+    "color": "#ff1a1a",
+    "obs_id": "jcqt60010",
+    "exposure_s": 5146,
+    "product": "mast:HST/product/jcqt60010_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

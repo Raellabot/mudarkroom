@@ -1,0 +1,3 @@
+  page 1/1 rows so far 10 of 10
+JWST|CHA-IR-NEBULA|4290|NIRCAM/IMAGE|3  rows=8  filters=['F115W', 'F200W', 'F300M', 'F460M']
+JWST|CHA-IR-NEBULA|4290|MIRI/IMAGE|3  rows=2  filters=['F1280W', 'F770W']

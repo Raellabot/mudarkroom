@@ -1,0 +1,71 @@
+[
+ {
+  "picture": "s-pencil-nebula-9698-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "PENCIL-NEBULA",
+  "proposal_id": "9698",
+  "instrument": "ACS/WFC",
+  "title": "Hubble Heritage Observations of NGC 2736 {Pencil Nebula}",
+  "grid": {
+   "width": 1055,
+   "height": 1074,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.19999999999999005,
+   "reference_filter": "F502N"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F435W",
+    "center_nm": 425.0,
+    "color": "#1a4cff",
+    "obs_id": "j8ko01010",
+    "exposure_s": 700,
+    "product": "mast:HST/product/j8ko01010_drz.fits"
+   },
+   {
+    "filter": "F502N",
+    "center_nm": 502.2,
+    "color": "#00e6ff",
+    "obs_id": "j8ko04010",
+    "exposure_s": 2200,
+    "product": "mast:HST/product/j8ko04010_drz.fits"
+   },
+   {
+    "filter": "F555W",
+    "center_nm": 545.0,
+    "color": "#1aff33",
+    "obs_id": "j8ko02010",
+    "exposure_s": 700,
+    "product": "mast:HST/product/j8ko02010_drz.fits"
+   },
+   {
+    "filter": "F658N",
+    "center_nm": 658.1,
+    "color": "#ff800d",
+    "obs_id": "j8ko03020",
+    "exposure_s": 1400,
+    "product": "mast:HST/product/j8ko03020_drz.fits"
+   },
+   {
+    "filter": "F775W",
+    "center_nm": 775.0,
+    "color": "#ff1a1a",
+    "obs_id": "j8ko03010",
+    "exposure_s": 700,
+    "product": "mast:HST/product/j8ko03010_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

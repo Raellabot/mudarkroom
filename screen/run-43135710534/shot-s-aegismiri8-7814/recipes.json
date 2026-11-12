@@ -1,0 +1,71 @@
+[
+ {
+  "picture": "s-aegismiri8-7814-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "JWST",
+  "target": "AEGISMIRI8",
+  "proposal_id": "7814",
+  "instrument": "NIRCAM/IMAGE",
+  "title": "MINERVA: Unlocking the Hidden Gems of the Distant Universe and Completing HST and JWSTs Imaging Legacy with Medium Bands",
+  "grid": {
+   "width": 1101,
+   "height": 490,
+   "reduction": 9,
+   "arcsec_per_pixel": 0.2810267507545772,
+   "reference_filter": "F182M"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F140M",
+    "center_nm": 1405.0,
+    "color": "#1a4cff",
+    "obs_id": "jw07814-o031_t030_nircam_clear-f140m",
+    "exposure_s": 1889.672,
+    "product": "mast:JWST/product/jw07814-o031_t030_nircam_clear-f140m_i2d.fits"
+   },
+   {
+    "filter": "F182M",
+    "center_nm": 1845.0,
+    "color": "#00e6ff",
+    "obs_id": "jw07814-o031_t030_nircam_clear-f182m",
+    "exposure_s": 1889.672,
+    "product": "mast:JWST/product/jw07814-o031_t030_nircam_clear-f182m_i2d.fits"
+   },
+   {
+    "filter": "F210M",
+    "center_nm": 2096.5,
+    "color": "#1aff33",
+    "obs_id": "jw07814-o031_t030_nircam_clear-f210m",
+    "exposure_s": 1889.672,
+    "product": "mast:JWST/product/jw07814-o031_t030_nircam_clear-f210m_i2d.fits"
+   },
+   {
+    "filter": "F250M",
+    "center_nm": 2503.5,
+    "color": "#ff800d",
+    "obs_id": "jw07814-o031_t030_nircam_clear-f250m",
+    "exposure_s": 3779.344000000001,
+    "product": "mast:JWST/product/jw07814-o031_t030_nircam_clear-f250m_i2d.fits"
+   },
+   {
+    "filter": "F460M",
+    "center_nm": 4631.0,
+    "color": "#ff1a1a",
+    "obs_id": "jw07814-o031_t030_nircam_clear-f460m",
+    "exposure_s": 3779.344000000001,
+    "product": "mast:JWST/product/jw07814-o031_t030_nircam_clear-f460m_i2d.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

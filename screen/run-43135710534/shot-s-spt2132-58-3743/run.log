@@ -1,0 +1,49 @@
+[     0s] == s-spt2132-58-3743: 3 filters: ['F200W', 'F356W', 'F444W']
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set DATE-BEG to '2023-10-06T06:52:21.371' from MJD-BEG.
+Set DATE-AVG to '2023-10-06T07:12:20.597' from MJD-AVG.
+Set DATE-END to '2023-10-06T07:30:28.424' from MJD-END'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'obsfix' made the change 'Set OBSGEO-L to    13.318657 from OBSGEO-[XYZ].
+Set OBSGEO-B to    22.747638 from OBSGEO-[XYZ].
+Set OBSGEO-H to 1237004325.242 from OBSGEO-[XYZ]'. [astropy.wcs.wcs]
+[     1s] F200W: 10402x4910 px at 0.0312 arcsec/px, 1635 MB
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set DATE-BEG to '2023-10-06T06:52:21.435' from MJD-BEG.
+Set DATE-AVG to '2023-10-06T07:01:43.762' from MJD-AVG.
+Set DATE-END to '2023-10-06T07:11:08.809' from MJD-END'. [astropy.wcs.wcs]
+[     1s] F356W: 5126x2366 px at 0.0629 arcsec/px, 340 MB
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set DATE-BEG to '2023-10-06T07:15:26.508' from MJD-BEG.
+Set DATE-AVG to '2023-10-06T07:22:57.434' from MJD-AVG.
+Set DATE-END to '2023-10-06T07:30:28.360' from MJD-END'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'obsfix' made the change 'Set OBSGEO-L to    13.354629 from OBSGEO-[XYZ].
+Set OBSGEO-B to    22.759981 from OBSGEO-[XYZ].
+Set OBSGEO-H to 1237050458.218 from OBSGEO-[XYZ]'. [astropy.wcs.wcs]
+[     2s] F444W: 5125x2366 px at 0.0629 arcsec/px, 340 MB
+[     2s] grid from F200W: 1155x545 px (reduced 9x), 0.281 arcsec/px
+[   184s] downloaded jw03743-o012_t004_nircam_clear-f200w_i2d.fits: 1635 MB
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set DATE-BEG to '2023-10-06T06:52:21.371' from MJD-BEG.
+Set DATE-AVG to '2023-10-06T07:12:20.597' from MJD-AVG.
+Set DATE-END to '2023-10-06T07:30:28.424' from MJD-END'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'obsfix' made the change 'Set OBSGEO-L to    13.318657 from OBSGEO-[XYZ].
+Set OBSGEO-B to    22.747638 from OBSGEO-[XYZ].
+Set OBSGEO-H to 1237004325.242 from OBSGEO-[XYZ]'. [astropy.wcs.wcs]
+[   185s] F200W: aligned (reduced 9x), covers 87% of the grid
+[   192s] downloaded jw03743-o012_t004_nircam_clear-f356w_i2d.fits: 340 MB
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set DATE-BEG to '2023-10-06T06:52:21.435' from MJD-BEG.
+Set DATE-AVG to '2023-10-06T07:01:43.762' from MJD-AVG.
+Set DATE-END to '2023-10-06T07:11:08.809' from MJD-END'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'obsfix' made the change 'Set OBSGEO-L to    13.318657 from OBSGEO-[XYZ].
+Set OBSGEO-B to    22.747638 from OBSGEO-[XYZ].
+Set OBSGEO-H to 1237004325.242 from OBSGEO-[XYZ]'. [astropy.wcs.wcs]
+[   192s] F356W: aligned (reduced 4x), covers 84% of the grid
+[   199s] downloaded jw03743-o012_t004_nircam_clear-f444w_i2d.fits: 340 MB
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set DATE-BEG to '2023-10-06T07:15:26.508' from MJD-BEG.
+Set DATE-AVG to '2023-10-06T07:22:57.434' from MJD-AVG.
+Set DATE-END to '2023-10-06T07:30:28.360' from MJD-END'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'obsfix' made the change 'Set OBSGEO-L to    13.354629 from OBSGEO-[XYZ].
+Set OBSGEO-B to    22.759981 from OBSGEO-[XYZ].
+Set OBSGEO-H to 1237050458.218 from OBSGEO-[XYZ]'. [astropy.wcs.wcs]
+[   199s] F444W: aligned (reduced 4x), covers 84% of the grid
+[   200s] s-spt2132-58-3743: finishing steps applied: ['dense']
+[   200s] cropped to 1146x536 px where 3 of 3 filters have data
+/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/astropy/visualization/lupton_rgb.py:645: RuntimeWarning: invalid value encountered in divide
+  fInorm = np.where(Int <= 0, 0, np.true_divide(fI, Int))
+[   200s] done: 1 pictures

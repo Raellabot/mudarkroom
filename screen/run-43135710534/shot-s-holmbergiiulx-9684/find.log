@@ -1,0 +1,3 @@
+  page 1/1 rows so far 24 of 24
+HST|HOLMBERGIIULX|9684|ACS|2  rows=16  filters=['None']
+HST|HOLMBERGIIULX|9684|ACS/WFC|3  rows=8  filters=['F550M', 'FR459M', 'FR462N', 'FR505N', 'FR656N', 'detection']

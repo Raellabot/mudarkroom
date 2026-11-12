@@ -1,0 +1,71 @@
+[
+ {
+  "picture": "s-hops361-sw-16493-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "HOPS361-SW",
+  "proposal_id": "16493",
+  "instrument": "WFC3/IR",
+  "title": "Investigating the Outflows and Shocks of HOPS 361",
+  "grid": {
+   "width": 1116,
+   "height": 988,
+   "reduction": 1,
+   "arcsec_per_pixel": 0.1282499999999994,
+   "reference_filter": "F164N"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F126N",
+    "center_nm": 1258.7,
+    "color": "#1a4cff",
+    "obs_id": "iej711010",
+    "exposure_s": 1800,
+    "product": "mast:HST/product/iej711010_drz.fits"
+   },
+   {
+    "filter": "F128N",
+    "center_nm": 1283.8,
+    "color": "#00e6ff",
+    "obs_id": "iej712010",
+    "exposure_s": 1800,
+    "product": "mast:HST/product/iej712010_drz.fits"
+   },
+   {
+    "filter": "F130N",
+    "center_nm": 1301.0,
+    "color": "#1aff33",
+    "obs_id": "iej712020",
+    "exposure_s": 600,
+    "product": "mast:HST/product/iej712020_drz.fits"
+   },
+   {
+    "filter": "F164N",
+    "center_nm": 1645.0,
+    "color": "#ff800d",
+    "obs_id": "iej705010",
+    "exposure_s": 2400,
+    "product": "mast:HST/product/iej705010_drz.fits"
+   },
+   {
+    "filter": "F167N",
+    "center_nm": 1667.5,
+    "color": "#ff1a1a",
+    "obs_id": "iej706010",
+    "exposure_s": 2400,
+    "product": "mast:HST/product/iej706010_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

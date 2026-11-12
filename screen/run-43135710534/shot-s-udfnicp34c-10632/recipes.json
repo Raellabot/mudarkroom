@@ -1,0 +1,55 @@
+[
+ {
+  "picture": "s-udfnicp34c-10632-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "UDFNICP34C",
+  "proposal_id": "10632",
+  "instrument": "ACS/WFC",
+  "title": "Searching for galaxies at z>6.5 in the Hubble Ultra Deep Field",
+  "grid": {
+   "width": 1053,
+   "height": 1064,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.1999999999999982,
+   "reference_filter": "F850LP"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F606W",
+    "center_nm": 595.0,
+    "color": "#1a4cff",
+    "obs_id": "j9cu64dnq",
+    "exposure_s": 1200,
+    "product": "mast:HST/product/j9cu64dnq_drz.fits"
+   },
+   {
+    "filter": "F775W",
+    "center_nm": 775.0,
+    "color": "#1aff33",
+    "obs_id": "j9cus5vrq",
+    "exposure_s": 1250,
+    "product": "mast:HST/product/j9cus5vrq_drz.fits"
+   },
+   {
+    "filter": "F850LP",
+    "center_nm": 895.0,
+    "color": "#ff1a1a",
+    "obs_id": "j9cu32010",
+    "exposure_s": 2500,
+    "product": "mast:HST/product/j9cu32010_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

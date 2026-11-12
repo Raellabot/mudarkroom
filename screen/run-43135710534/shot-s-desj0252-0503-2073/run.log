@@ -1,0 +1,19 @@
+[     0s] == s-desj0252-0503-2073: 4 filters: ['F090W', 'F115W', 'F277W', 'F444W']
+[     0s] F090W: file is 4.0 GB, over the 3.0 GB cap; this filter is left out
+[     0s] F115W: file is 4.0 GB, over the 3.0 GB cap; this filter is left out
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set DATE-BEG to '2022-08-21T23:34:53.603' from MJD-BEG.
+Set DATE-AVG to '2022-08-22T01:10:01.133' from MJD-AVG.
+Set DATE-END to '2022-08-22T02:45:09.510' from MJD-END'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'obsfix' made the change 'Set OBSGEO-L to   -55.999861 from OBSGEO-[XYZ].
+Set OBSGEO-B to   -24.812677 from OBSGEO-[XYZ].
+Set OBSGEO-H to 1579166704.037 from OBSGEO-[XYZ]'. [astropy.wcs.wcs]
+[     0s] F277W: 5654x4698 px at 0.0629 arcsec/px, 744 MB
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set DATE-BEG to '2022-08-22T00:38:12.831' from MJD-BEG.
+Set DATE-AVG to '2022-08-22T02:13:18.688' from MJD-AVG.
+Set DATE-END to '2022-08-22T03:48:19.699' from MJD-END'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'obsfix' made the change 'Set OBSGEO-L to   -55.970449 from OBSGEO-[XYZ].
+Set OBSGEO-B to   -24.785166 from OBSGEO-[XYZ].
+Set OBSGEO-H to 1578789347.757 from OBSGEO-[XYZ]'. [astropy.wcs.wcs]
+[     1s] F444W: 5654x4697 px at 0.0629 arcsec/px, 744 MB
+[     1s] s-desj0252-0503-2073 failed: fewer than three filters can be used
+[     1s] done: 0 pictures

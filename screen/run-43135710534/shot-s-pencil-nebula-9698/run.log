@@ -1,0 +1,22 @@
+[     0s] == s-pencil-nebula-9698: 5 filters: ['F435W', 'F502N', 'F555W', 'F658N', 'F775W']
+[     1s] F435W: 4219x4299 px at 0.0500 arcsec/px, 218 MB
+[     1s] F502N: 4220x4299 px at 0.0500 arcsec/px, 218 MB
+[     2s] F555W: 4219x4298 px at 0.0500 arcsec/px, 218 MB
+[     2s] F658N: 4219x4298 px at 0.0500 arcsec/px, 218 MB
+[     3s] F775W: 4219x4299 px at 0.0500 arcsec/px, 218 MB
+[     3s] grid from F502N: 1055x1074 px (reduced 4x), 0.200 arcsec/px
+[    10s] downloaded j8ko01010_drz.fits: 218 MB
+[    10s] F435W: aligned (reduced 4x), covers 93% of the grid
+[    16s] downloaded j8ko04010_drz.fits: 218 MB
+[    16s] F502N: aligned (reduced 4x), covers 93% of the grid
+[    22s] downloaded j8ko02010_drz.fits: 218 MB
+[    22s] F555W: aligned (reduced 3x), covers 93% of the grid
+[    28s] downloaded j8ko03020_drz.fits: 218 MB
+[    28s] F658N: aligned (reduced 3x), covers 93% of the grid
+[    33s] downloaded j8ko03010_drz.fits: 218 MB
+[    34s] F775W: aligned (reduced 3x), covers 93% of the grid
+[    35s] s-pencil-nebula-9698: finishing steps applied: ['dense']
+[    35s] cropped to 971x1002 px where 5 of 5 filters have data
+/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/astropy/visualization/lupton_rgb.py:645: RuntimeWarning: invalid value encountered in divide
+  fInorm = np.where(Int <= 0, 0, np.true_divide(fI, Int))
+[    35s] done: 1 pictures

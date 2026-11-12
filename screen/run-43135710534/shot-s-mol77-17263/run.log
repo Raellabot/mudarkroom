@@ -1,0 +1,19 @@
+[     0s] == s-mol77-17263: 4 filters: ['F110W', 'F128N', 'F160W', 'F164N']
+[     0s] F110W: 1091x967 px at 0.1282 arcsec/px, 13 MB
+[     1s] F128N: 1091x966 px at 0.1282 arcsec/px, 13 MB
+[     1s] F160W: 1099x975 px at 0.1282 arcsec/px, 13 MB
+[     2s] F164N: 1091x967 px at 0.1282 arcsec/px, 13 MB
+[     2s] grid from F160W: 1099x975 px (reduced 1x), 0.128 arcsec/px
+[     2s] downloaded if2o01010_drz.fits: 13 MB
+[     3s] F110W: aligned (reduced 1x), covers 97% of the grid
+[     3s] downloaded if2o02020_drz.fits: 13 MB
+[     3s] F128N: aligned (reduced 1x), covers 94% of the grid
+[     4s] downloaded if2o01030_drz.fits: 13 MB
+[     4s] F160W: aligned (reduced 1x), covers 99% of the grid
+[     5s] downloaded if2o01040_drz.fits: 13 MB
+[     5s] F164N: aligned (reduced 1x), covers 97% of the grid
+[     6s] s-mol77-17263: finishing steps applied: ['dense']
+[     6s] cropped to 992x866 px where 4 of 4 filters have data
+/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/astropy/visualization/lupton_rgb.py:645: RuntimeWarning: invalid value encountered in divide
+  fInorm = np.where(Int <= 0, 0, np.true_divide(fI, Int))
+[     6s] done: 1 pictures

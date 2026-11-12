@@ -1,0 +1,33 @@
+[     0s] == s-ngc-7099-m-30-13297: 5 filters: ['F275W', 'F336W', 'F438W', 'F475W', 'F814W']
+[     0s] F275W: 4416x4674 px at 0.0396 arcsec/px, 248 MB
+[     1s] F336W: 4417x4675 px at 0.0396 arcsec/px, 248 MB
+[     1s] F438W: 4125x4386 px at 0.0396 arcsec/px, 217 MB
+[     2s] F475W: 4212x4239 px at 0.0500 arcsec/px, 214 MB
+[     2s] F814W: 4211x4239 px at 0.0500 arcsec/px, 214 MB
+[     2s] grid from F475W: 1053x1059 px (reduced 4x), 0.200 arcsec/px
+[     6s] downloaded icau0c020_drz.fits: 248 MB
+[     6s] F275W: aligned (reduced 5x), covers 0% of the grid
+[    10s] downloaded icau0d010_drz.fits: 248 MB
+[    10s] F336W: aligned (reduced 5x), covers 0% of the grid
+[    13s] downloaded icau0dhhq_drz.fits: 217 MB
+[    14s] F438W: aligned (reduced 5x), covers 0% of the grid
+[    40s] downloaded jcau0dhkq_drz.fits: 214 MB
+[    41s] F475W: aligned (reduced 4x), covers 92% of the grid
+[    44s] downloaded jcau0dhpq_drz.fits: 214 MB
+[    45s] F814W: aligned (reduced 4x), covers 85% of the grid
+Traceback (most recent call last):
+  File "/home/runner/work/mudarkroom/mudarkroom/scripts/mast/color.py", line 871, in <module>
+    main()
+  File "/home/runner/work/mudarkroom/mudarkroom/scripts/mast/color.py", line 796, in main
+    raw = aligned = finish_arrays(raw, fin, float(os.environ.get("FINISH_SCALE", "1")))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/mudarkroom/mudarkroom/scripts/mast/color.py", line 461, in finish_arrays
+    y0, y1, x0, x1 = dense_crop_box(a, fin["dense"])
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/mudarkroom/mudarkroom/scripts/mast/color.py", line 400, in dense_crop_box
+    y0, y1, x0, x1 = ys.min(), ys.max() + 1, xs.min(), xs.max() + 1
+                     ^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/numpy/_core/_methods.py", line 45, in _amin
+    return umr_minimum(a, axis, None, out, keepdims, initial, where)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: zero-size array to reduction operation minimum which has no identity

@@ -1,0 +1,19 @@
+[     0s] == s-snr0548-70-4-13282: 4 filters: ['F475W', 'F555W', 'F656N', 'F814W']
+[     0s] F475W: 6642x6426 px at 0.0396 arcsec/px, 512 MB
+[     0s] F555W: 6642x6426 px at 0.0396 arcsec/px, 512 MB
+[     0s] F656N: 4134x4504 px at 0.0396 arcsec/px, 224 MB
+[     1s] F814W: 6642x6426 px at 0.0396 arcsec/px, 512 MB
+[     1s] grid from F475W: 1107x1071 px (reduced 6x), 0.238 arcsec/px
+[     4s] downloaded hst_13282_05_wfc3_uvis_f475w_icco05_drc.fits: 512 MB
+[     5s] F475W: aligned (reduced 6x), covers 48% of the grid
+[     8s] downloaded hst_13282_05_wfc3_uvis_f555w_icco05_drc.fits: 512 MB
+[     9s] F555W: aligned (reduced 6x), covers 48% of the grid
+[    10s] downloaded icco05030_drz.fits: 224 MB
+[    10s] F656N: aligned (reduced 5x), covers 41% of the grid
+[    14s] downloaded hst_13282_05_wfc3_uvis_f814w_icco05_drc.fits: 512 MB
+[    15s] F814W: aligned (reduced 6x), covers 48% of the grid
+[    15s] s-snr0548-70-4-13282: finishing steps applied: ['dense']
+[    15s] cropped to 537x470 px where 4 of 4 filters have data
+/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/astropy/visualization/lupton_rgb.py:645: RuntimeWarning: invalid value encountered in divide
+  fInorm = np.where(Int <= 0, 0, np.true_divide(fI, Int))
+[    16s] done: 1 pictures

@@ -1,0 +1,3 @@
+  page 1/1 rows so far 16 of 16
+HST|WFIJ2026-4536|12874|WFC3/UVIS|3  rows=11  filters=['F410M', 'F547M', 'F689M', 'F763M', 'F845M', 'detection']
+HST|WFIJ2026-4536|12874|WFC3/IR|3  rows=5  filters=['F125W', 'F160W', 'detection']

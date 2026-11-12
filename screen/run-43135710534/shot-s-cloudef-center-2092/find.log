@@ -1,0 +1,3 @@
+  page 1/1 rows so far 8 of 8
+JWST|CLOUDEF-CENTER|2092|NIRCAM/IMAGE|3  rows=4  filters=['F150W2;F162M', 'F210M', 'F360M', 'F480M']
+JWST|CLOUDEF-CENTER|2092|MIRI/IMAGE|3  rows=4  filters=['F2100W', 'F770W']

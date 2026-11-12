@@ -1,0 +1,22 @@
+[     0s] == s-phoenix-a-13102: 5 filters: ['F225W', 'F336W', 'F475W', 'F625W', 'F814W']
+[     1s] F225W: 2045x2166 px at 0.0396 arcsec/px, 53 MB
+[     1s] F336W: 2046x2166 px at 0.0396 arcsec/px, 53 MB
+[     2s] F475W: 2045x2166 px at 0.0396 arcsec/px, 53 MB
+[     3s] F625W: 2045x2166 px at 0.0396 arcsec/px, 53 MB
+[     3s] F814W: 2046x2166 px at 0.0396 arcsec/px, 53 MB
+[     3s] grid from F336W: 1023x1083 px (reduced 2x), 0.079 arcsec/px
+[     5s] downloaded ic3o01010_drz.fits: 53 MB
+[     5s] F225W: aligned (reduced 2x), covers 93% of the grid
+[     7s] downloaded ic3o01020_drz.fits: 53 MB
+[     7s] F336W: aligned (reduced 2x), covers 93% of the grid
+[    10s] downloaded ic3o02010_drz.fits: 53 MB
+[    10s] F475W: aligned (reduced 2x), covers 93% of the grid
+[    11s] downloaded ic3o02020_drz.fits: 53 MB
+[    11s] F625W: aligned (reduced 2x), covers 93% of the grid
+[    13s] downloaded ic3o02030_drz.fits: 53 MB
+[    13s] F814W: aligned (reduced 2x), covers 93% of the grid
+[    14s] s-phoenix-a-13102: finishing steps applied: ['dense']
+[    14s] cropped to 916x929 px where 5 of 5 filters have data
+/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/astropy/visualization/lupton_rgb.py:645: RuntimeWarning: invalid value encountered in divide
+  fInorm = np.where(Int <= 0, 0, np.true_divide(fI, Int))
+[    14s] done: 1 pictures

@@ -1,0 +1,71 @@
+[
+ {
+  "picture": "s-n132d-12001-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "N132D",
+  "proposal_id": "12001",
+  "instrument": "ACS/WFC",
+  "title": "Emission-line Imaging of Young SNRs in the Magellanic Clouds",
+  "grid": {
+   "width": 1055,
+   "height": 1074,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.19999999999999984,
+   "reference_filter": "F850LP"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F475W",
+    "center_nm": 470.0,
+    "color": "#1a4cff",
+    "obs_id": "j8r801010",
+    "exposure_s": 1520,
+    "product": "mast:HST/product/j8r801010_drz.fits"
+   },
+   {
+    "filter": "F550M",
+    "center_nm": 558.0,
+    "color": "#00e6ff",
+    "obs_id": "j8r801020",
+    "exposure_s": 1800,
+    "product": "mast:HST/product/j8r801020_drz.fits"
+   },
+   {
+    "filter": "F658N",
+    "center_nm": 658.1,
+    "color": "#1aff33",
+    "obs_id": "j8r801030",
+    "exposure_s": 1440,
+    "product": "mast:HST/product/j8r801030_drz.fits"
+   },
+   {
+    "filter": "F775W",
+    "center_nm": 775.0,
+    "color": "#ff800d",
+    "obs_id": "j8r801050",
+    "exposure_s": 1440,
+    "product": "mast:HST/product/j8r801050_drz.fits"
+   },
+   {
+    "filter": "F850LP",
+    "center_nm": 895.0,
+    "color": "#ff1a1a",
+    "obs_id": "j8r801040",
+    "exposure_s": 1440,
+    "product": "mast:HST/product/j8r801040_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

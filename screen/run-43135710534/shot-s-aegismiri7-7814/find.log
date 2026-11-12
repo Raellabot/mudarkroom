@@ -1,0 +1,3 @@
+  page 1/1 rows so far 8 of 8
+JWST|AEGISMIRI7|7814|NIRCAM/IMAGE|3  rows=6  filters=['F140M', 'F150W2;F162M', 'F182M', 'F210M', 'F250M', 'F460M']
+JWST|AEGISMIRI7|7814|MIRI/IMAGE|3  rows=2  filters=['F1280W', 'F1800W']

@@ -1,0 +1,19 @@
+[     0s] == s-kug0201-103-12018: 4 filters: ['F336W', 'F438W', 'F606W', 'F814W']
+[     1s] F336W: 512x540 px at 0.0396 arcsec/px, 3 MB
+[     1s] F438W: 512x540 px at 0.0396 arcsec/px, 3 MB
+[     2s] F606W: 512x540 px at 0.0396 arcsec/px, 3 MB
+[     2s] F814W: 512x540 px at 0.0396 arcsec/px, 3 MB
+[     2s] grid from F438W: 512x540 px (reduced 1x), 0.040 arcsec/px
+[     3s] downloaded ibdp19040_drz.fits: 3 MB
+[     3s] F336W: aligned (reduced 1x), covers 93% of the grid
+[     4s] downloaded ibdp19010_drz.fits: 3 MB
+[     4s] F438W: aligned (reduced 1x), covers 93% of the grid
+[     5s] downloaded ibdp19020_drz.fits: 3 MB
+[     5s] F606W: aligned (reduced 1x), covers 93% of the grid
+[     5s] downloaded ibdp19030_drz.fits: 3 MB
+[     5s] F814W: aligned (reduced 1x), covers 93% of the grid
+[     6s] s-kug0201-103-12018: finishing steps applied: ['dense']
+[     6s] cropped to 476x476 px where 4 of 4 filters have data
+/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/astropy/visualization/lupton_rgb.py:645: RuntimeWarning: invalid value encountered in divide
+  fInorm = np.where(Int <= 0, 0, np.true_divide(fI, Int))
+[     6s] done: 1 pictures

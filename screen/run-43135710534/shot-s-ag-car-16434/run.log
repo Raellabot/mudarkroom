@@ -1,0 +1,19 @@
+[     0s] == s-ag-car-16434: 4 filters: ['F275W', 'F547M', 'F657N', 'F845M']
+[     1s] F275W: 4139x4574 px at 0.0396 arcsec/px, 227 MB
+[     1s] F547M: 4134x4511 px at 0.0396 arcsec/px, 224 MB
+[     2s] F657N: 4134x4511 px at 0.0396 arcsec/px, 224 MB
+[     2s] F845M: 4134x4511 px at 0.0396 arcsec/px, 224 MB
+[     2s] grid from F275W: 1034x1143 px (reduced 4x), 0.158 arcsec/px
+[     7s] downloaded iehh01010_drz.fits: 227 MB
+[     7s] F275W: aligned (reduced 4x), covers 94% of the grid
+[    11s] downloaded iehh02010_drz.fits: 224 MB
+[    12s] F547M: aligned (reduced 4x), covers 92% of the grid
+[    16s] downloaded iehh02020_drz.fits: 224 MB
+[    17s] F657N: aligned (reduced 3x), covers 93% of the grid
+[    22s] downloaded iehh02030_drz.fits: 224 MB
+[    22s] F845M: aligned (reduced 3x), covers 93% of the grid
+[    23s] s-ag-car-16434: finishing steps applied: ['dense']
+[    23s] cropped to 973x1007 px where 4 of 4 filters have data
+/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/astropy/visualization/lupton_rgb.py:645: RuntimeWarning: invalid value encountered in divide
+  fInorm = np.where(Int <= 0, 0, np.true_divide(fI, Int))
+[    24s] done: 1 pictures

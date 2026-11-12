@@ -1,0 +1,63 @@
+[
+ {
+  "picture": "s-cloanthus-12891-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "CLOANTHUS",
+  "proposal_id": "12891",
+  "instrument": "WFC3/UVIS",
+  "title": "Search For Binaries Among Ultra-Slow Rotating Trojans, Hildas, and Outer Main Belt Asteroids",
+  "grid": {
+   "width": 1030,
+   "height": 1087,
+   "reduction": 1,
+   "arcsec_per_pixel": 0.03962000086903375,
+   "reference_filter": "F555W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F336W",
+    "center_nm": 336.6,
+    "color": "#1a4cff",
+    "obs_id": "ibyk03dbq",
+    "exposure_s": 100,
+    "product": "mast:HST/product/ibyk03dbq_drz.fits"
+   },
+   {
+    "filter": "F438W",
+    "center_nm": 431.4,
+    "color": "#1aff33",
+    "obs_id": "ibyk03d5q",
+    "exposure_s": 60,
+    "product": "mast:HST/product/ibyk03d5q_drz.fits"
+   },
+   {
+    "filter": "F555W",
+    "center_nm": 550.4,
+    "color": "#ff800d",
+    "obs_id": "ibyk03d8q",
+    "exposure_s": 40,
+    "product": "mast:HST/product/ibyk03d8q_drz.fits"
+   },
+   {
+    "filter": "F814W",
+    "center_nm": 831.9,
+    "color": "#ff1a1a",
+    "obs_id": "ibyk03deq",
+    "exposure_s": 40,
+    "product": "mast:HST/product/ibyk03deq_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

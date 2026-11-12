@@ -1,0 +1,71 @@
+[
+ {
+  "picture": "s-makani-1865-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "JWST+JWST",
+  "target": "MAKANI+MAKANI",
+  "proposal_id": "1865+1865",
+  "instrument": "MIRI/IMAGE+NIRCAM/IMAGE",
+  "title": "Witnessing the Circumgalactic Medium in Formation: The Warm Dust and Molecular Gas in a Record-Breaking Galactic Wind",
+  "grid": {
+   "width": 1116,
+   "height": 1139,
+   "reduction": 1,
+   "arcsec_per_pixel": 0.11092350477538584,
+   "reference_filter": "F770W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F187N",
+    "center_nm": 1873.5,
+    "color": "#1a4cff",
+    "obs_id": "jw01865-o002_t001_nircam_clear-f187n-sub400p",
+    "exposure_s": 3246.232,
+    "product": "mast:JWST/product/jw01865-o002_t001_nircam_clear-f187n-sub400p_i2d.fits"
+   },
+   {
+    "filter": "F770W",
+    "center_nm": 7700.0,
+    "color": "#00e6ff",
+    "obs_id": "jw01865-o001_t001_miri_f770w",
+    "exposure_s": 3041.444,
+    "product": "mast:JWST/product/jw01865-o001_t001_miri_f770w_i2d.fits"
+   },
+   {
+    "filter": "F1130W",
+    "center_nm": 11300.0,
+    "color": "#1aff33",
+    "obs_id": "jw01865-o001_t001_miri_f1130w",
+    "exposure_s": 3019.244,
+    "product": "mast:JWST/product/jw01865-o001_t001_miri_f1130w_i2d.fits"
+   },
+   {
+    "filter": "F1800W",
+    "center_nm": 18000.0,
+    "color": "#ff800d",
+    "obs_id": "jw01865-o001_t001_miri_f1800w",
+    "exposure_s": 2985.944,
+    "product": "mast:JWST/product/jw01865-o001_t001_miri_f1800w_i2d.fits"
+   },
+   {
+    "filter": "F2550W",
+    "center_nm": 25500.0,
+    "color": "#ff1a1a",
+    "obs_id": "jw01865-o001_t001_miri_f2550w",
+    "exposure_s": 4417.864,
+    "product": "mast:JWST/product/jw01865-o001_t001_miri_f2550w_i2d.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

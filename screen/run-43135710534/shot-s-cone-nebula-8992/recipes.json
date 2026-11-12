@@ -1,0 +1,63 @@
+[
+ {
+  "picture": "s-cone-nebula-8992-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "CONE-NEBULA",
+  "proposal_id": "8992",
+  "instrument": "ACS/WFC",
+  "title": "SMOV3b ACS Early Release Observations",
+  "grid": {
+   "width": 1171,
+   "height": 1141,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.19999999999999296,
+   "reference_filter": "F502N"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F435W",
+    "center_nm": 425.0,
+    "color": "#1a4cff",
+    "obs_id": "j8cw05040",
+    "exposure_s": 1560,
+    "product": "mast:HST/product/j8cw05040_drz.fits"
+   },
+   {
+    "filter": "F502N",
+    "center_nm": 502.2,
+    "color": "#1aff33",
+    "obs_id": "hst_8992_05_acs_wfc_f502n_j8cw05",
+    "exposure_s": 4430,
+    "product": "mast:HST/product/hst_8992_05_acs_wfc_f502n_j8cw05_drc.fits"
+   },
+   {
+    "filter": "F658N",
+    "center_nm": 658.1,
+    "color": "#ff800d",
+    "obs_id": "hst_8992_06_acs_wfc_f658n_j8cw06",
+    "exposure_s": 4530,
+    "product": "mast:HST/product/hst_8992_06_acs_wfc_f658n_j8cw06_drc.fits"
+   },
+   {
+    "filter": "F814W",
+    "center_nm": 833.5,
+    "color": "#ff1a1a",
+    "obs_id": "j8cw06040",
+    "exposure_s": 1560,
+    "product": "mast:HST/product/j8cw06040_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

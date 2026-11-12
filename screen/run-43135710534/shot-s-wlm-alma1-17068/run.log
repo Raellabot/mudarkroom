@@ -1,0 +1,22 @@
+[     0s] == s-wlm-alma1-17068: 5 filters: ['F275W', 'F336W', 'F438W', 'F625W', 'F656N']
+[     1s] F275W: 4132x4456 px at 0.0396 arcsec/px, 221 MB
+[     1s] F336W: 4132x4457 px at 0.0396 arcsec/px, 221 MB
+[     2s] F438W: 4132x4456 px at 0.0396 arcsec/px, 221 MB
+[     2s] F625W: 4127x4458 px at 0.0396 arcsec/px, 221 MB
+[     3s] F656N: 4126x4456 px at 0.0396 arcsec/px, 221 MB
+[     3s] grid from F336W: 1033x1114 px (reduced 4x), 0.158 arcsec/px
+[   119s] downloaded iey401020_drz.fits: 221 MB
+[   120s] F275W: aligned (reduced 3x), covers 94% of the grid
+[   123s] downloaded iey401010_drz.fits: 221 MB
+[   124s] F336W: aligned (reduced 4x), covers 94% of the grid
+[   127s] downloaded iey401040_drz.fits: 221 MB
+[   128s] F438W: aligned (reduced 3x), covers 94% of the grid
+[   131s] downloaded iey402010_drz.fits: 221 MB
+[   132s] F625W: aligned (reduced 3x), covers 94% of the grid
+[   136s] downloaded iey4z2020_drz.fits: 221 MB
+[   136s] F656N: aligned (reduced 3x), covers 94% of the grid
+[   137s] s-wlm-alma1-17068: finishing steps applied: ['dense']
+[   137s] cropped to 969x994 px where 5 of 5 filters have data
+/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/astropy/visualization/lupton_rgb.py:645: RuntimeWarning: invalid value encountered in divide
+  fInorm = np.where(Int <= 0, 0, np.true_divide(fI, Int))
+[   138s] done: 1 pictures

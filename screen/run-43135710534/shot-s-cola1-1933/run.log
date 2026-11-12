@@ -1,0 +1,13 @@
+[     0s] == s-cola1-1933: 4 filters: ['F115W', 'F150W', 'F200W', 'F356W']
+[     1s] F115W: file is 7.2 GB, over the 3.0 GB cap; this filter is left out
+[     1s] F150W: file is 3.5 GB, over the 3.0 GB cap; this filter is left out
+[     2s] F200W: file is 7.2 GB, over the 3.0 GB cap; this filter is left out
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set DATE-BEG to '2023-01-06T22:11:07.049' from MJD-BEG.
+Set DATE-AVG to '2023-01-07T04:16:45.978' from MJD-AVG.
+Set DATE-END to '2023-01-07T10:21:18.292' from MJD-END'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'obsfix' made the change 'Set OBSGEO-L to   101.660264 from OBSGEO-[XYZ].
+Set OBSGEO-B to     7.467398 from OBSGEO-[XYZ].
+Set OBSGEO-H to 1695203362.419 from OBSGEO-[XYZ]'. [astropy.wcs.wcs]
+[     3s] F356W: 8070x2902 px at 0.0629 arcsec/px, 656 MB
+[     3s] s-cola1-1933 failed: fewer than three filters can be used
+[     3s] done: 0 pictures

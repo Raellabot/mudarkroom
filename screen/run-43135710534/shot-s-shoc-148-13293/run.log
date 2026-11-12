@@ -1,0 +1,22 @@
+[     0s] == s-shoc-148-13293: 5 filters: ['FR423N', 'FR462N', 'FR551N', 'FR601N', 'FR647M']
+[     0s] FR423N: 4212x4240 px at 0.0500 arcsec/px, 214 MB
+[     0s] FR462N: 4212x4240 px at 0.0500 arcsec/px, 214 MB
+[     1s] FR551N: 4213x4249 px at 0.0500 arcsec/px, 215 MB
+[     1s] FR601N: 4212x4241 px at 0.0500 arcsec/px, 215 MB
+[     1s] FR647M: 4212x4241 px at 0.0500 arcsec/px, 215 MB
+[     1s] grid from FR551N: 1053x1062 px (reduced 4x), 0.200 arcsec/px
+[     5s] downloaded jcag10040_drz.fits: 214 MB
+[     6s] FR423N: aligned (reduced 4x), covers 92% of the grid
+[     8s] downloaded jcag06020_drz.fits: 214 MB
+[     8s] FR462N: aligned (reduced 3x), covers 13% of the grid
+[    10s] downloaded jcag10020_drz.fits: 215 MB
+[    10s] FR551N: aligned (reduced 4x), covers 92% of the grid
+[    11s] downloaded jcag06010_drz.fits: 215 MB
+[    11s] FR601N: aligned (reduced 3x), covers 13% of the grid
+[    13s] downloaded jcag10010_drz.fits: 215 MB
+[    13s] FR647M: aligned (reduced 4x), covers 92% of the grid
+[    14s] s-shoc-148-13293: finishing steps applied: ['dense']
+[    14s] cropped to 254x295 px where 5 of 5 filters have data
+/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/astropy/visualization/lupton_rgb.py:645: RuntimeWarning: invalid value encountered in divide
+  fInorm = np.where(Int <= 0, 0, np.true_divide(fI, Int))
+[    14s] done: 1 pictures

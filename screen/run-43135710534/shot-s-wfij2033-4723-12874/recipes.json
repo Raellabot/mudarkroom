@@ -1,0 +1,63 @@
+[
+ {
+  "picture": "s-wfij2033-4723-12874-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "WFIJ2033-4723",
+  "proposal_id": "12874",
+  "instrument": "WFC3/UVIS",
+  "title": "Quasar accretion disks: is the standard model valid?",
+  "grid": {
+   "width": 1036,
+   "height": 1091,
+   "reduction": 1,
+   "arcsec_per_pixel": 0.03962000086903562,
+   "reference_filter": "F467M"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F467M",
+    "center_nm": 468.2,
+    "color": "#1a4cff",
+    "obs_id": "ibyh07010",
+    "exposure_s": 240,
+    "product": "mast:HST/product/ibyh07010_drz.fits"
+   },
+   {
+    "filter": "F621M",
+    "center_nm": 621.5,
+    "color": "#1aff33",
+    "obs_id": "ibyh07020",
+    "exposure_s": 120,
+    "product": "mast:HST/product/ibyh07020_drz.fits"
+   },
+   {
+    "filter": "F763M",
+    "center_nm": 763.5,
+    "color": "#ff800d",
+    "obs_id": "ibyh07030",
+    "exposure_s": 140,
+    "product": "mast:HST/product/ibyh07030_drz.fits"
+   },
+   {
+    "filter": "F814W",
+    "center_nm": 831.9,
+    "color": "#ff1a1a",
+    "obs_id": "ibyh07040",
+    "exposure_s": 72,
+    "product": "mast:HST/product/ibyh07040_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

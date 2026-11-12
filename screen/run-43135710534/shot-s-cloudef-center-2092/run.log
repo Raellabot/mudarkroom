@@ -1,0 +1,18 @@
+[     0s] == s-cloudef-center-2092: 3 filters: ['F210M', 'F360M', 'F480M']
+[     1s] F210M: file is 3.9 GB, over the 3.0 GB cap; this filter is left out
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set DATE-BEG to '2023-03-19T13:24:02.179' from MJD-BEG.
+Set DATE-AVG to '2023-03-19T14:13:06.452' from MJD-AVG.
+Set DATE-END to '2023-03-19T15:02:10.741' from MJD-END'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'obsfix' made the change 'Set OBSGEO-L to   169.300433 from OBSGEO-[XYZ].
+Set OBSGEO-B to    18.517300 from OBSGEO-[XYZ].
+Set OBSGEO-H to 1256350005.130 from OBSGEO-[XYZ]'. [astropy.wcs.wcs]
+[     1s] F360M: 5681x4085 px at 0.0629 arcsec/px, 650 MB
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set DATE-BEG to '2023-03-19T13:56:47.041' from MJD-BEG.
+Set DATE-AVG to '2023-03-19T14:45:57.694' from MJD-AVG.
+Set DATE-END to '2023-03-19T15:35:17.043' from MJD-END'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'obsfix' made the change 'Set OBSGEO-L to   169.349359 from OBSGEO-[XYZ].
+Set OBSGEO-B to    18.509228 from OBSGEO-[XYZ].
+Set OBSGEO-H to 1256203615.705 from OBSGEO-[XYZ]'. [astropy.wcs.wcs]
+[     2s] F480M: 5680x4085 px at 0.0629 arcsec/px, 650 MB
+[     2s] s-cloudef-center-2092 failed: fewer than three filters can be used
+[     2s] done: 0 pictures

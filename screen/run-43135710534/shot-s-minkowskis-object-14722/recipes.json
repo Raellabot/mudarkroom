@@ -1,0 +1,71 @@
+[
+ {
+  "picture": "s-minkowskis-object-14722-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "MINKOWSKIS-OBJECT",
+  "proposal_id": "14722",
+  "instrument": "WFC3/UVIS",
+  "title": "A Local Laboratory for Studying Positive Feedback from Supermassive Black Holes",
+  "grid": {
+   "width": 1032,
+   "height": 1097,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.15848000347613775,
+   "reference_filter": "F665N"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F336W",
+    "center_nm": 336.6,
+    "color": "#1a4cff",
+    "obs_id": "id5s01010",
+    "exposure_s": 2464,
+    "product": "mast:HST/product/id5s01010_drz.fits"
+   },
+   {
+    "filter": "F438W",
+    "center_nm": 431.4,
+    "color": "#00e6ff",
+    "obs_id": "id5s02010",
+    "exposure_s": 2468,
+    "product": "mast:HST/product/id5s02010_drz.fits"
+   },
+   {
+    "filter": "F555W",
+    "center_nm": 550.4,
+    "color": "#1aff33",
+    "obs_id": "id5s03010",
+    "exposure_s": 2484,
+    "product": "mast:HST/product/id5s03010_drz.fits"
+   },
+   {
+    "filter": "F665N",
+    "center_nm": 665.5,
+    "color": "#ff800d",
+    "obs_id": "id5s05010",
+    "exposure_s": 5040,
+    "product": "mast:HST/product/id5s05010_drz.fits"
+   },
+   {
+    "filter": "F814W",
+    "center_nm": 831.9,
+    "color": "#ff1a1a",
+    "obs_id": "id5s04010",
+    "exposure_s": 2484,
+    "product": "mast:HST/product/id5s04010_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

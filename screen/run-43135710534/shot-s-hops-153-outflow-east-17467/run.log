@@ -1,0 +1,22 @@
+[     0s] == s-hops-153-outflow-east-17467: 5 filters: ['F126N', 'F128N', 'F130N', 'F164N', 'F167N']
+[     1s] F126N: 1116x988 px at 0.1282 arcsec/px, 13 MB
+[     2s] F128N: 1116x988 px at 0.1282 arcsec/px, 13 MB
+[     2s] F130N: 1116x988 px at 0.1282 arcsec/px, 13 MB
+[     3s] F164N: 1116x988 px at 0.1282 arcsec/px, 13 MB
+[     4s] F167N: 1116x988 px at 0.1282 arcsec/px, 13 MB
+[     4s] grid from F128N: 1116x988 px (reduced 1x), 0.128 arcsec/px
+[     5s] downloaded if9u03010_drz.fits: 13 MB
+[     5s] F126N: aligned (reduced 1x), covers 99% of the grid
+[     7s] downloaded if9u04010_drz.fits: 13 MB
+[     7s] F128N: aligned (reduced 1x), covers 99% of the grid
+[     8s] downloaded if9u05010_drz.fits: 13 MB
+[     9s] F130N: aligned (reduced 1x), covers 99% of the grid
+[    10s] downloaded if9u01010_drz.fits: 13 MB
+[    10s] F164N: aligned (reduced 1x), covers 99% of the grid
+[    11s] downloaded if9u02010_drz.fits: 13 MB
+[    11s] F167N: aligned (reduced 1x), covers 99% of the grid
+[    13s] s-hops-153-outflow-east-17467: finishing steps applied: ['dense']
+[    13s] cropped to 1090x975 px where 5 of 5 filters have data
+/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/astropy/visualization/lupton_rgb.py:645: RuntimeWarning: invalid value encountered in divide
+  fInorm = np.where(Int <= 0, 0, np.true_divide(fI, Int))
+[    13s] done: 1 pictures

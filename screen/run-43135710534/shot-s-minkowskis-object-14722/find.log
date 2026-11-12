@@ -1,0 +1,3 @@
+  page 1/1 rows so far 18 of 18
+HST|MINKOWSKIS-OBJECT|14722|WFC3/UVIS|3  rows=15  filters=['F336W', 'F438W', 'F555W', 'F665N', 'F814W', 'detection']
+HST|MINKOWSKIS-OBJECT|14722|WFC3/IR|3  rows=3  filters=['F125W', 'detection']

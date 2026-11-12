@@ -1,0 +1,3 @@
+  page 1/1 rows so far 50 of 50
+HST|WRAY-16-147|15677|WFC3/UVIS|3  rows=14  filters=['F475W', 'F502N', 'F606W', 'F656N', 'F658N', 'F673N', 'detection']
+HST|WRAY-16-147|15677|STIS/CCD|1  rows=2  filters=['MIRVIS']

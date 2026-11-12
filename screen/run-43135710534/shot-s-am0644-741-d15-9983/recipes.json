@@ -1,0 +1,63 @@
+[
+ {
+  "picture": "s-am0644-741-d15-9983-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "AM0644-741-D15",
+  "proposal_id": "9983",
+  "instrument": "ACS/WFC",
+  "title": "Hubble Heritage Observations of Ring Galaxy AM0644-741",
+  "grid": {
+   "width": 1055,
+   "height": 1074,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.19999999999999707,
+   "reference_filter": "F555W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F435W",
+    "center_nm": 425.0,
+    "color": "#1a4cff",
+    "obs_id": "j8my04y4q",
+    "exposure_s": 1400,
+    "product": "mast:HST/product/j8my04y4q_drz.fits"
+   },
+   {
+    "filter": "F555W",
+    "center_nm": 545.0,
+    "color": "#1aff33",
+    "obs_id": "j8my05010",
+    "exposure_s": 2200,
+    "product": "mast:HST/product/j8my05010_drz.fits"
+   },
+   {
+    "filter": "F625W",
+    "center_nm": 625.0,
+    "color": "#ff800d",
+    "obs_id": "j8my04xzq",
+    "exposure_s": 550,
+    "product": "mast:HST/product/j8my04xzq_drz.fits"
+   },
+   {
+    "filter": "F814W",
+    "center_nm": 833.5,
+    "color": "#ff1a1a",
+    "obs_id": "j8my03vnq",
+    "exposure_s": 400,
+    "product": "mast:HST/product/j8my03vnq_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

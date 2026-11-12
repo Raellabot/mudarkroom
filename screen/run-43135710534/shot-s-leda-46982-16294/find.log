@@ -1,0 +1,3 @@
+  page 1/1 rows so far 23 of 23
+HST|LEDA-46982|16294|WFC3/UVIS|3  rows=20  filters=['F225W', 'F280N', 'F336W', 'F373N', 'F467M', 'F487N', 'F502N', 'F621M', 'F658N', 'detection']
+HST|LEDA-46982|16294|COS/NUV|2  rows=1  filters=['MIRRORA']

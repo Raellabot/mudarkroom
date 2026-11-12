@@ -1,0 +1,71 @@
+[
+ {
+  "picture": "s-1e-0102-2-7219-13378-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "1E-0102.2-7219",
+  "proposal_id": "13378",
+  "instrument": "WFC3/UVIS",
+  "title": null,
+  "grid": {
+   "width": 964,
+   "height": 916,
+   "reduction": 5,
+   "arcsec_per_pixel": 0.1981000043451747,
+   "reference_filter": "FQ243N"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "FQ243N",
+    "center_nm": 242.1,
+    "color": "#1a4cff",
+    "obs_id": "hst_13378_01_wfc3_uvis_fq243n_icbq01",
+    "exposure_s": 3198,
+    "product": "mast:HST/product/hst_13378_01_wfc3_uvis_fq243n_icbq01_drc.fits"
+   },
+   {
+    "filter": "F373N",
+    "center_nm": 373.1,
+    "color": "#00e6ff",
+    "obs_id": "icbq01050",
+    "exposure_s": 2268,
+    "product": "mast:HST/product/icbq01050_drz.fits"
+   },
+   {
+    "filter": "F502N",
+    "center_nm": 501.1,
+    "color": "#1aff33",
+    "obs_id": "hst_13378_02_wfc3_uvis_f502n_icbq02",
+    "exposure_s": 2753,
+    "product": "mast:HST/product/hst_13378_02_wfc3_uvis_f502n_icbq02_drc.fits"
+   },
+   {
+    "filter": "F657N",
+    "center_nm": 657.1,
+    "color": "#ff800d",
+    "obs_id": "hst_13378_03_wfc3_uvis_f657n_icbq03",
+    "exposure_s": 2755,
+    "product": "mast:HST/product/hst_13378_03_wfc3_uvis_f657n_icbq03_drc.fits"
+   },
+   {
+    "filter": "F673N",
+    "center_nm": 676.9,
+    "color": "#ff1a1a",
+    "obs_id": "hst_13378_03_wfc3_uvis_f673n_icbq03",
+    "exposure_s": 2865,
+    "product": "mast:HST/product/hst_13378_03_wfc3_uvis_f673n_icbq03_drc.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

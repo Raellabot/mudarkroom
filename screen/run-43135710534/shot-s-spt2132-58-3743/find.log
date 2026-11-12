@@ -1,0 +1,4 @@
+  page 1/1 rows so far 11 of 11
+JWST|SPT2132-58|3743|MIRI/IMAGE|3  rows=3  filters=['F1000W', 'F560W', 'F770W']
+JWST|SPT2132-58|3743|NIRCAM/IMAGE|3  rows=3  filters=['F200W', 'F356W', 'F444W']
+JWST|SPT2132-58|3743|NIRSPEC/IMAGE|2  rows=2  filters=['F140X;MIRROR']

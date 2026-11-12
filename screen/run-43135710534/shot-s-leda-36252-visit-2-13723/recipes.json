@@ -1,0 +1,71 @@
+[
+ {
+  "picture": "s-leda-36252-visit-2-13723-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "LEDA-36252-VISIT-2",
+  "proposal_id": "13723",
+  "instrument": "WFC3/UVIS",
+  "title": "Multiband Observations of a Local Tadpole Galaxy",
+  "grid": {
+   "width": 1033,
+   "height": 1112,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.15848000347614274,
+   "reference_filter": "F657N"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F438W",
+    "center_nm": 431.4,
+    "color": "#1a4cff",
+    "obs_id": "icof02010",
+    "exposure_s": 1248,
+    "product": "mast:HST/product/icof02010_drz.fits"
+   },
+   {
+    "filter": "F547M",
+    "center_nm": 547.0,
+    "color": "#00e6ff",
+    "obs_id": "icof02020",
+    "exposure_s": 1248,
+    "product": "mast:HST/product/icof02020_drz.fits"
+   },
+   {
+    "filter": "F606W",
+    "center_nm": 594.0,
+    "color": "#1aff33",
+    "obs_id": "icof02030",
+    "exposure_s": 1310,
+    "product": "mast:HST/product/icof02030_drz.fits"
+   },
+   {
+    "filter": "F657N",
+    "center_nm": 657.1,
+    "color": "#ff800d",
+    "obs_id": "icof02050",
+    "exposure_s": 2624,
+    "product": "mast:HST/product/icof02050_drz.fits"
+   },
+   {
+    "filter": "F814W",
+    "center_nm": 831.9,
+    "color": "#ff1a1a",
+    "obs_id": "icof02040",
+    "exposure_s": 1310,
+    "product": "mast:HST/product/icof02040_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

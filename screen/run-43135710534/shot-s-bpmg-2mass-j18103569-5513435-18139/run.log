@@ -1,0 +1,19 @@
+[     0s] == s-bpmg-2mass-j18103569-5513435-18139: 4 filters: ['F225W', 'F336W', 'F625W', 'F656N']
+[     0s] F225W: 520x548 px at 0.0396 arcsec/px, 4 MB
+[     0s] F336W: 742x749 px at 0.0396 arcsec/px, 7 MB
+[     0s] F625W: 742x749 px at 0.0396 arcsec/px, 7 MB
+[     1s] F656N: 742x749 px at 0.0396 arcsec/px, 7 MB
+[     1s] grid from F336W: 742x749 px (reduced 1x), 0.040 arcsec/px
+[     1s] downloaded ifpf23010_drz.fits: 4 MB
+[     1s] F225W: aligned (reduced 1x), covers 48% of the grid
+[     1s] downloaded hst_18139_23_wfc3_uvis_f336w_ifpf23_drc.fits: 7 MB
+[     1s] F336W: aligned (reduced 1x), covers 48% of the grid
+[     1s] downloaded hst_18139_23_wfc3_uvis_f625w_ifpf23_drc.fits: 7 MB
+[     2s] F625W: aligned (reduced 1x), covers 48% of the grid
+[     2s] downloaded hst_18139_23_wfc3_uvis_f656n_ifpf23_drc.fits: 7 MB
+[     2s] F656N: aligned (reduced 1x), covers 48% of the grid
+[     2s] s-bpmg-2mass-j18103569-5513435-18139: finishing steps applied: ['dense']
+[     2s] cropped to 396x354 px where 4 of 4 filters have data
+/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/astropy/visualization/lupton_rgb.py:645: RuntimeWarning: invalid value encountered in divide
+  fInorm = np.where(Int <= 0, 0, np.true_divide(fI, Int))
+[     2s] done: 1 pictures

@@ -1,0 +1,4 @@
+  page 1/1 rows so far 216 of 216
+HST|ABELL-2744-HFFPAR|13495|WFC3/IR|3  rows=110  filters=['F105W', 'F125W', 'F140W', 'F160W', 'detection']
+HST|ABELL-2744-HFFPAR|13495|ACS/WFC|3  rows=105  filters=['F435W', 'F606W', 'F814W', 'detection']
+HST|ABELL-2744-HFFPAR|13495|WFC3/IR|2  rows=1  filters=['F160W']

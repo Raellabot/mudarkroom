@@ -1,0 +1,63 @@
+[
+ {
+  "picture": "s-afgl5180-17086-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "AFGL5180",
+  "proposal_id": "17086",
+  "instrument": "WFC3/IR",
+  "title": "Blowin in the Wind - Proper Motion Kinematics of Massive Protostellar Outflows",
+  "grid": {
+   "width": 1087,
+   "height": 962,
+   "reduction": 1,
+   "arcsec_per_pixel": 0.12824999999999828,
+   "reference_filter": "F110W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F110W",
+    "center_nm": 1148.8,
+    "color": "#1a4cff",
+    "obs_id": "ievy02010",
+    "exposure_s": 298.462098,
+    "product": "mast:HST/product/ievy02010_drz.fits"
+   },
+   {
+    "filter": "F128N",
+    "center_nm": 1283.8,
+    "color": "#1aff33",
+    "obs_id": "ievy02020",
+    "exposure_s": 698.465454,
+    "product": "mast:HST/product/ievy02020_drz.fits"
+   },
+   {
+    "filter": "F160W",
+    "center_nm": 1543.2,
+    "color": "#ff800d",
+    "obs_id": "ievy02030",
+    "exposure_s": 447.69314700000007,
+    "product": "mast:HST/product/ievy02030_drz.fits"
+   },
+   {
+    "filter": "F164N",
+    "center_nm": 1645.0,
+    "color": "#ff1a1a",
+    "obs_id": "ievy02040",
+    "exposure_s": 898.467164,
+    "product": "mast:HST/product/ievy02040_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

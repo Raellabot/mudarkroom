@@ -1,0 +1,22 @@
+[     0s] == s-malin-2-15186: 5 filters: ['F275W', 'F300X', 'F438W', 'F600LP', 'F814W']
+[     0s] F275W: 4129x4390 px at 0.0396 arcsec/px, 218 MB
+[     0s] F300X: 4129x4390 px at 0.0396 arcsec/px, 218 MB
+[     0s] F438W: 4129x4390 px at 0.0396 arcsec/px, 218 MB
+[     0s] F600LP: 4129x4391 px at 0.0396 arcsec/px, 218 MB
+[     1s] F814W: 4129x4390 px at 0.0396 arcsec/px, 218 MB
+[     1s] grid from F600LP: 1032x1097 px (reduced 4x), 0.158 arcsec/px
+[     2s] downloaded idj558010_drz.fits: 218 MB
+[     2s] F275W: aligned (reduced 3x), covers 93% of the grid
+[     3s] downloaded idj557010_drz.fits: 218 MB
+[     4s] F300X: aligned (reduced 3x), covers 93% of the grid
+[     5s] downloaded idj558020_drz.fits: 218 MB
+[     5s] F438W: aligned (reduced 4x), covers 93% of the grid
+[     6s] downloaded idj557030_drz.fits: 218 MB
+[     7s] F600LP: aligned (reduced 4x), covers 93% of the grid
+[    10s] downloaded idj558030_drz.fits: 218 MB
+[    11s] F814W: aligned (reduced 3x), covers 93% of the grid
+[    12s] s-malin-2-15186: finishing steps applied: ['dense']
+[    12s] cropped to 953x977 px where 5 of 5 filters have data
+/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/astropy/visualization/lupton_rgb.py:645: RuntimeWarning: invalid value encountered in divide
+  fInorm = np.where(Int <= 0, 0, np.true_divide(fI, Int))
+[    12s] done: 1 pictures

@@ -1,0 +1,63 @@
+[
+ {
+  "picture": "s-pleiades2-2143-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "JWST",
+  "target": "PLEIADES2",
+  "proposal_id": "2143",
+  "instrument": "NIRCAM/IMAGE",
+  "title": "The turbulent magnetized interstellar medium: looking for ambipolar diffusion in the Pleiades",
+  "grid": {
+   "width": 1144,
+   "height": 474,
+   "reduction": 10,
+   "arcsec_per_pixel": 0.31230531275675294,
+   "reference_filter": "F200W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F200W",
+    "center_nm": 1990.5,
+    "color": "#1a4cff",
+    "obs_id": "jw02143-o002_t002_nircam_clear-f200w",
+    "exposure_s": 3994.08,
+    "product": "mast:JWST/product/jw02143-o002_t002_nircam_clear-f200w_i2d.fits"
+   },
+   {
+    "filter": "F212N",
+    "center_nm": 2121.5,
+    "color": "#1aff33",
+    "obs_id": "jw02143-o002_t002_nircam_clear-f212n",
+    "exposure_s": 11338.032,
+    "product": "mast:JWST/product/jw02143-o002_t002_nircam_clear-f212n_i2d.fits"
+   },
+   {
+    "filter": "F277W",
+    "center_nm": 2771.5,
+    "color": "#ff800d",
+    "obs_id": "jw02143-o002_t002_nircam_clear-f277w",
+    "exposure_s": 3994.08,
+    "product": "mast:JWST/product/jw02143-o002_t002_nircam_clear-f277w_i2d.fits"
+   },
+   {
+    "filter": "F335M",
+    "center_nm": 3357.5,
+    "color": "#ff1a1a",
+    "obs_id": "jw02143-o002_t002_nircam_clear-f335m",
+    "exposure_s": 11338.032,
+    "product": "mast:JWST/product/jw02143-o002_t002_nircam_clear-f335m_i2d.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

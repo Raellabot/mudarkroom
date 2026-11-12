@@ -1,0 +1,3 @@
+  page 1/1 rows so far 6 of 6
+JWST|LA-PEQUENA|2775|NIRCAM/IMAGE|3  rows=5  filters=['F070W', 'F115W', 'F356W', 'F430M', 'F460M']
+JWST|LA-PEQUENA|2775|MIRI/IMAGE|3  rows=1  filters=['F1280W']

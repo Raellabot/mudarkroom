@@ -1,0 +1,19 @@
+[     0s] == s-deml249-13282: 4 filters: ['F475W', 'F555W', 'F656N', 'F814W']
+[     1s] F475W: 6536x5763 px at 0.0396 arcsec/px, 452 MB
+[     1s] F555W: 6536x5763 px at 0.0396 arcsec/px, 452 MB
+[     2s] F656N: 4133x4508 px at 0.0396 arcsec/px, 224 MB
+[     2s] F814W: 6536x5763 px at 0.0396 arcsec/px, 452 MB
+[     2s] grid from F475W: 1089x960 px (reduced 6x), 0.238 arcsec/px
+[    12s] downloaded hst_13282_07_wfc3_uvis_f475w_icco07_drc.fits: 452 MB
+[    12s] F475W: aligned (reduced 6x), covers 57% of the grid
+[    21s] downloaded hst_13282_07_wfc3_uvis_f555w_icco07_drc.fits: 452 MB
+[    22s] F555W: aligned (reduced 6x), covers 57% of the grid
+[    26s] downloaded icco07030_drz.fits: 224 MB
+[    26s] F656N: aligned (reduced 6x), covers 46% of the grid
+[    35s] downloaded hst_13282_07_wfc3_uvis_f814w_icco07_drc.fits: 452 MB
+[    35s] F814W: aligned (reduced 6x), covers 57% of the grid
+[    35s] s-deml249-13282: finishing steps applied: ['dense']
+[    35s] cropped to 562x510 px where 4 of 4 filters have data
+/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/astropy/visualization/lupton_rgb.py:645: RuntimeWarning: invalid value encountered in divide
+  fInorm = np.where(Int <= 0, 0, np.true_divide(fI, Int))
+[    36s] done: 1 pictures

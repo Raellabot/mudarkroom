@@ -1,0 +1,71 @@
+[
+ {
+  "picture": "s-wlm-alma1-17068-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "WLM-ALMA1",
+  "proposal_id": "17068",
+  "instrument": "WFC3/UVIS",
+  "title": "Young Stars and Gas Structure within the ALMA Coverage of Dwarf Irregular Galaxy WLM",
+  "grid": {
+   "width": 1033,
+   "height": 1114,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.15847999999998694,
+   "reference_filter": "F336W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F275W",
+    "center_nm": 274.5,
+    "color": "#1a4cff",
+    "obs_id": "iey401020",
+    "exposure_s": 2220,
+    "product": "mast:HST/product/iey401020_drz.fits"
+   },
+   {
+    "filter": "F336W",
+    "center_nm": 336.6,
+    "color": "#00e6ff",
+    "obs_id": "iey401010",
+    "exposure_s": 1230,
+    "product": "mast:HST/product/iey401010_drz.fits"
+   },
+   {
+    "filter": "F438W",
+    "center_nm": 431.4,
+    "color": "#1aff33",
+    "obs_id": "iey401040",
+    "exposure_s": 1760,
+    "product": "mast:HST/product/iey401040_drz.fits"
+   },
+   {
+    "filter": "F625W",
+    "center_nm": 627.4,
+    "color": "#ff800d",
+    "obs_id": "iey402010",
+    "exposure_s": 700,
+    "product": "mast:HST/product/iey402010_drz.fits"
+   },
+   {
+    "filter": "F656N",
+    "center_nm": 656.2,
+    "color": "#ff1a1a",
+    "obs_id": "iey4z2020",
+    "exposure_s": 1600,
+    "product": "mast:HST/product/iey4z2020_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

@@ -1,0 +1,63 @@
+[
+ {
+  "picture": "s-adf22-a1-nircam-3547-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "JWST",
+  "target": "ADF22.A1-NIRCAM",
+  "proposal_id": "3547",
+  "instrument": "NIRCAM/IMAGE",
+  "title": "Revealing the early phase of the co-evolution of galaxies and super-massive black holes at a z=3 proto-cluster core",
+  "grid": {
+   "width": 1098,
+   "height": 487,
+   "reduction": 9,
+   "arcsec_per_pixel": 0.28103378504652965,
+   "reference_filter": "F200W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F115W",
+    "center_nm": 1147.5,
+    "color": "#1a4cff",
+    "obs_id": "jw03547-o006_t002_nircam_clear-f115w",
+    "exposure_s": 1868.199,
+    "product": "mast:JWST/product/jw03547-o006_t002_nircam_clear-f115w_i2d.fits"
+   },
+   {
+    "filter": "F200W",
+    "center_nm": 1990.5,
+    "color": "#1aff33",
+    "obs_id": "jw03547-o011_t002_nircam_clear-f200w",
+    "exposure_s": 1868.199,
+    "product": "mast:JWST/product/jw03547-o011_t002_nircam_clear-f200w_i2d.fits"
+   },
+   {
+    "filter": "F356W",
+    "center_nm": 3560.0,
+    "color": "#ff800d",
+    "obs_id": "jw03547-o006_t002_nircam_clear-f356w",
+    "exposure_s": 1868.199,
+    "product": "mast:JWST/product/jw03547-o006_t002_nircam_clear-f356w_i2d.fits"
+   },
+   {
+    "filter": "F444W",
+    "center_nm": 4433.0,
+    "color": "#ff1a1a",
+    "obs_id": "jw03547-o011_t002_nircam_clear-f444w",
+    "exposure_s": 1868.199,
+    "product": "mast:JWST/product/jw03547-o011_t002_nircam_clear-f444w_i2d.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

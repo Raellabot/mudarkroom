@@ -1,0 +1,71 @@
+[
+ {
+  "picture": "s-la-pequena-2775-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "JWST",
+  "target": "LA-PEQUENA",
+  "proposal_id": "2775",
+  "instrument": "NIRCAM/IMAGE",
+  "title": "A Census of Star Formation and Early Quenching in a High-z Galaxy Cluster",
+  "grid": {
+   "width": 1119,
+   "height": 508,
+   "reduction": 9,
+   "arcsec_per_pixel": 0.2810402252606519,
+   "reference_filter": "F070W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F070W",
+    "center_nm": 701.0,
+    "color": "#1a4cff",
+    "obs_id": "jw02775-o001_t001_nircam_clear-f070w",
+    "exposure_s": 5411.332,
+    "product": "mast:JWST/product/jw02775-o001_t001_nircam_clear-f070w_i2d.fits"
+   },
+   {
+    "filter": "F115W",
+    "center_nm": 1147.5,
+    "color": "#00e6ff",
+    "obs_id": "jw02775-o001_t001_nircam_clear-f115w",
+    "exposure_s": 1245.464,
+    "product": "mast:JWST/product/jw02775-o001_t001_nircam_clear-f115w_i2d.fits"
+   },
+   {
+    "filter": "F356W",
+    "center_nm": 3560.0,
+    "color": "#1aff33",
+    "obs_id": "jw02775-o001_t001_nircam_clear-f356w",
+    "exposure_s": 1245.464,
+    "product": "mast:JWST/product/jw02775-o001_t001_nircam_clear-f356w_i2d.fits"
+   },
+   {
+    "filter": "F430M",
+    "center_nm": 4282.5,
+    "color": "#ff800d",
+    "obs_id": "jw02775-o001_t001_nircam_clear-f430m",
+    "exposure_s": 2490.932,
+    "product": "mast:JWST/product/jw02775-o001_t001_nircam_clear-f430m_i2d.fits"
+   },
+   {
+    "filter": "F460M",
+    "center_nm": 4631.0,
+    "color": "#ff1a1a",
+    "obs_id": "jw02775-o001_t001_nircam_clear-f460m",
+    "exposure_s": 2920.4,
+    "product": "mast:JWST/product/jw02775-o001_t001_nircam_clear-f460m_i2d.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

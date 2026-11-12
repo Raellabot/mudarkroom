@@ -1,0 +1,4 @@
+  page 1/1 rows so far 36 of 36
+HST|SN1993J|12531|WFC3/UVIS|3  rows=21  filters=['F218W', 'F275W', 'F336W', 'F438W', 'F555W', 'F625W', 'F814W', 'F850LP', 'detection']
+HST|SN1993J|12531|WFC3/IR|3  rows=7  filters=['F105W', 'F125W', 'F160W', 'detection']
+HST|SN1993J|12531|COS/NUV|2  rows=3  filters=['MIRRORA']

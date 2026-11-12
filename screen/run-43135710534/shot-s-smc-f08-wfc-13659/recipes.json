@@ -1,0 +1,63 @@
+[
+ {
+  "picture": "s-smc-f08-wfc-13659-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "SMC-F08-WFC",
+  "proposal_id": "13659",
+  "instrument": "ACS/WFC",
+  "title": "A New View of Dust at Low Metallicity: The First Maps of SMC Extinction Curves",
+  "grid": {
+   "width": 1060,
+   "height": 1066,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.19999999999999446,
+   "reference_filter": "F814W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F475W",
+    "center_nm": 470.0,
+    "color": "#1a4cff",
+    "obs_id": "jcnl10040",
+    "exposure_s": 2067,
+    "product": "mast:HST/product/jcnl10040_drz.fits"
+   },
+   {
+    "filter": "F550M",
+    "center_nm": 558.0,
+    "color": "#1aff33",
+    "obs_id": "jcnl10020",
+    "exposure_s": 742,
+    "product": "mast:HST/product/jcnl10020_drz.fits"
+   },
+   {
+    "filter": "F658N",
+    "center_nm": 658.1,
+    "color": "#ff800d",
+    "obs_id": "jcnl10030",
+    "exposure_s": 1600,
+    "product": "mast:HST/product/jcnl10030_drz.fits"
+   },
+   {
+    "filter": "F814W",
+    "center_nm": 833.5,
+    "color": "#ff1a1a",
+    "obs_id": "jcnl10010",
+    "exposure_s": 1860,
+    "product": "mast:HST/product/jcnl10010_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

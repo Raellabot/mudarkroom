@@ -1,0 +1,8 @@
+  page 1/1 rows so far 22 of 22
+HST|SWBAR-F02|15912|WFC3/IR|3  rows=12  filters=['F110W', 'F160W', 'detection']
+HST|SWBAR-F02|15912|ACS/WFC|3  rows=5  filters=['F475W', 'F814W', 'detection']
+HST|SWBAR-F02|15912|WFC3/UVIS|3  rows=5  filters=['F547M', 'F657N', 'detection']
+  page 1/1 rows so far 22 of 22
+HST|SWBAR-F02|15912|WFC3/IR|3  rows=12  filters=['F110W', 'F160W', 'detection']
+HST|SWBAR-F02|15912|ACS/WFC|3  rows=5  filters=['F475W', 'F814W', 'detection']
+HST|SWBAR-F02|15912|WFC3/UVIS|3  rows=5  filters=['F547M', 'F657N', 'detection']

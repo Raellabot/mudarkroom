@@ -1,0 +1,71 @@
+[
+ {
+  "picture": "s-shoc-148-13293-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "SHOC-148",
+  "proposal_id": "13293",
+  "instrument": "ACS/WFC",
+  "title": "Green Pea Galaxies: Extreme, Optically-Thin Starbursts?",
+  "grid": {
+   "width": 1053,
+   "height": 1062,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.1999999999999988,
+   "reference_filter": "FR551N"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "FR423N",
+    "center_nm": 423.4,
+    "color": "#1a4cff",
+    "obs_id": "jcag10040",
+    "exposure_s": 2028,
+    "product": "mast:HST/product/jcag10040_drz.fits"
+   },
+   {
+    "filter": "FR462N",
+    "center_nm": 462.2,
+    "color": "#00e6ff",
+    "obs_id": "jcag06020",
+    "exposure_s": 1267,
+    "product": "mast:HST/product/jcag06020_drz.fits"
+   },
+   {
+    "filter": "FR551N",
+    "center_nm": 550.7,
+    "color": "#1aff33",
+    "obs_id": "jcag10020",
+    "exposure_s": 3261,
+    "product": "mast:HST/product/jcag10020_drz.fits"
+   },
+   {
+    "filter": "FR601N",
+    "center_nm": 601.1,
+    "color": "#ff800d",
+    "obs_id": "jcag06010",
+    "exposure_s": 910,
+    "product": "mast:HST/product/jcag06010_drz.fits"
+   },
+   {
+    "filter": "FR647M",
+    "center_nm": 647.0,
+    "color": "#ff1a1a",
+    "obs_id": "jcag10010",
+    "exposure_s": 814,
+    "product": "mast:HST/product/jcag10010_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

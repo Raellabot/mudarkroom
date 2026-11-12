@@ -1,0 +1,63 @@
+[
+ {
+  "picture": "s-sag-dig-16162-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "SAG-DIG",
+  "proposal_id": "16162",
+  "instrument": "WFC3/IR",
+  "title": "Solving the metallicity dependence of evolved star evolution and completing HSTs near-IR legacy in the Local Volume",
+  "grid": {
+   "width": 710,
+   "height": 725,
+   "reduction": 2,
+   "arcsec_per_pixel": 0.2565000057220434,
+   "reference_filter": "F139M"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F110W",
+    "center_nm": 1148.8,
+    "color": "#1a4cff",
+    "obs_id": "ied322040",
+    "exposure_s": 1196.925048,
+    "product": "mast:HST/product/ied322040_drz.fits"
+   },
+   {
+    "filter": "F139M",
+    "center_nm": 1384.5,
+    "color": "#1aff33",
+    "obs_id": "hst_16162_22_wfc3_ir_f139m_ied322",
+    "exposure_s": 805.099976,
+    "product": "mast:HST/product/hst_16162_22_wfc3_ir_f139m_ied322_drz.fits"
+   },
+   {
+    "filter": "F153M",
+    "center_nm": 1534.0,
+    "color": "#ff800d",
+    "obs_id": "hst_16162_22_wfc3_ir_f153m_ied322",
+    "exposure_s": 805.099976,
+    "product": "mast:HST/product/hst_16162_22_wfc3_ir_f153m_ied322_drz.fits"
+   },
+   {
+    "filter": "F160W",
+    "center_nm": 1543.2,
+    "color": "#ff1a1a",
+    "obs_id": "ied322050",
+    "exposure_s": 1196.925048,
+    "product": "mast:HST/product/ied322050_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

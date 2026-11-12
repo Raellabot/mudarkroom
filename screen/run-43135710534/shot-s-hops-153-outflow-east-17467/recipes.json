@@ -1,0 +1,71 @@
+[
+ {
+  "picture": "s-hops-153-outflow-east-17467-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "HOPS-153-OUTFLOW-EAST",
+  "proposal_id": "17467",
+  "instrument": "WFC3/IR",
+  "title": "An HST + JWST Investigation of Two Protostellar Outflows in Orion: Tracing Jets From 100 au to 100,000 au",
+  "grid": {
+   "width": 1116,
+   "height": 988,
+   "reduction": 1,
+   "arcsec_per_pixel": 0.1282499999999999,
+   "reference_filter": "F128N"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F126N",
+    "center_nm": 1258.7,
+    "color": "#1a4cff",
+    "obs_id": "if9u03010",
+    "exposure_s": 2396.928712,
+    "product": "mast:HST/product/if9u03010_drz.fits"
+   },
+   {
+    "filter": "F128N",
+    "center_nm": 1283.8,
+    "color": "#00e6ff",
+    "obs_id": "if9u04010",
+    "exposure_s": 2396.928712,
+    "product": "mast:HST/product/if9u04010_drz.fits"
+   },
+   {
+    "filter": "F130N",
+    "center_nm": 1301.0,
+    "color": "#1aff33",
+    "obs_id": "if9u05010",
+    "exposure_s": 2396.928712,
+    "product": "mast:HST/product/if9u05010_drz.fits"
+   },
+   {
+    "filter": "F164N",
+    "center_nm": 1645.0,
+    "color": "#ff800d",
+    "obs_id": "if9u01010",
+    "exposure_s": 2396.928712,
+    "product": "mast:HST/product/if9u01010_drz.fits"
+   },
+   {
+    "filter": "F167N",
+    "center_nm": 1667.5,
+    "color": "#ff1a1a",
+    "obs_id": "if9u02010",
+    "exposure_s": 2396.928712,
+    "product": "mast:HST/product/if9u02010_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

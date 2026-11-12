@@ -1,0 +1,71 @@
+[
+ {
+  "picture": "s-wray-16-147-15677-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "WRAY-16-147",
+  "proposal_id": "15677",
+  "instrument": "WFC3/UVIS",
+  "title": "Spectroscopy and Imaging of the Southern Crab Nebula",
+  "grid": {
+   "width": 1034,
+   "height": 1124,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.15848000347613764,
+   "reference_filter": "F673N"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F475W",
+    "center_nm": 475.8,
+    "color": "#1a4cff",
+    "obs_id": "idyh01edq",
+    "exposure_s": 30,
+    "product": "mast:HST/product/idyh01edq_drz.fits"
+   },
+   {
+    "filter": "F502N",
+    "center_nm": 501.1,
+    "color": "#00e6ff",
+    "obs_id": "idyh01020",
+    "exposure_s": 3750,
+    "product": "mast:HST/product/idyh01020_drz.fits"
+   },
+   {
+    "filter": "F606W",
+    "center_nm": 594.0,
+    "color": "#1aff33",
+    "obs_id": "idyh02rlq",
+    "exposure_s": 20,
+    "product": "mast:HST/product/idyh02rlq_drz.fits"
+   },
+   {
+    "filter": "F658N",
+    "center_nm": 658.6,
+    "color": "#ff800d",
+    "obs_id": "idyh02010",
+    "exposure_s": 3100,
+    "product": "mast:HST/product/idyh02010_drz.fits"
+   },
+   {
+    "filter": "F673N",
+    "center_nm": 676.9,
+    "color": "#ff1a1a",
+    "obs_id": "idyh02020",
+    "exposure_s": 3750,
+    "product": "mast:HST/product/idyh02020_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

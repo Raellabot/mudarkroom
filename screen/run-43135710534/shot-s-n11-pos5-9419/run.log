@@ -1,0 +1,22 @@
+[     0s] == s-n11-pos5-9419: 5 filters: ['F435W', 'F550M', 'F658N', 'F660N', 'F814W']
+[     0s] F435W: 4213x4238 px at 0.0500 arcsec/px, 214 MB
+[     1s] F550M: 4890x4910 px at 0.0500 arcsec/px, 288 MB
+[     1s] F658N: 4212x4238 px at 0.0500 arcsec/px, 214 MB
+[     2s] F660N: 4212x4237 px at 0.0500 arcsec/px, 214 MB
+[     2s] F814W: 4212x4238 px at 0.0500 arcsec/px, 214 MB
+[     2s] grid from F550M: 978x982 px (reduced 5x), 0.250 arcsec/px
+[     6s] downloaded j8dj05030_drz.fits: 214 MB
+[     7s] F435W: aligned (reduced 4x), covers 68% of the grid
+[    11s] downloaded hst_9419_05_acs_wfc_f550m_j8dj05_drc.fits: 288 MB
+[    12s] F550M: aligned (reduced 4x), covers 68% of the grid
+[    15s] downloaded j8dj05060_drz.fits: 214 MB
+[    16s] F658N: aligned (reduced 4x), covers 68% of the grid
+[    19s] downloaded j8dj05040_drz.fits: 214 MB
+[    20s] F660N: aligned (reduced 4x), covers 68% of the grid
+[    24s] downloaded j8dj05050_drz.fits: 214 MB
+[    24s] F814W: aligned (reduced 4x), covers 68% of the grid
+[    24s] s-n11-pos5-9419: finishing steps applied: ['dense']
+[    24s] cropped to 640x707 px where 5 of 5 filters have data
+/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/astropy/visualization/lupton_rgb.py:645: RuntimeWarning: invalid value encountered in divide
+  fInorm = np.where(Int <= 0, 0, np.true_divide(fI, Int))
+[    25s] done: 1 pictures

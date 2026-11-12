@@ -1,0 +1,63 @@
+[
+ {
+  "picture": "s-iptf16geu-14862-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "IPTF16GEU",
+  "proposal_id": "14862",
+  "instrument": "WFC3/UVIS",
+  "title": "Resolving the multiple images of the strongly lensed SNIa iPTF16geu",
+  "grid": {
+   "width": 521,
+   "height": 547,
+   "reduction": 1,
+   "arcsec_per_pixel": 0.039620000869035575,
+   "reference_filter": "F814W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F390W",
+    "center_nm": 387.1,
+    "color": "#1a4cff",
+    "obs_id": "idd402040",
+    "exposure_s": 429,
+    "product": "mast:HST/product/idd402040_drz.fits"
+   },
+   {
+    "filter": "F475W",
+    "center_nm": 475.8,
+    "color": "#1aff33",
+    "obs_id": "idd403010",
+    "exposure_s": 378,
+    "product": "mast:HST/product/idd403010_drz.fits"
+   },
+   {
+    "filter": "F625W",
+    "center_nm": 627.4,
+    "color": "#ff800d",
+    "obs_id": "idd406010",
+    "exposure_s": 804,
+    "product": "mast:HST/product/idd406010_drz.fits"
+   },
+   {
+    "filter": "F814W",
+    "center_nm": 831.9,
+    "color": "#ff1a1a",
+    "obs_id": "idd410020",
+    "exposure_s": 480,
+    "product": "mast:HST/product/idd410020_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

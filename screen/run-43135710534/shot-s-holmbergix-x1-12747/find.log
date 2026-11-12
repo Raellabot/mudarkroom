@@ -1,0 +1,3 @@
+  page 1/1 rows so far 45 of 45
+HST|HOLMBERGIX-X1|12747|WFC3/UVIS|3  rows=31  filters=['F225W', 'F336W', 'F438W', 'F547M', 'F621M', 'F689M', 'F763M', 'F845M', 'detection']
+HST|HOLMBERGIX-X1|12747|WFC3/IR|3  rows=14  filters=['F098M', 'F125W', 'F160W', 'detection']

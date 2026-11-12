@@ -1,0 +1,63 @@
+[
+ {
+  "picture": "s-wr102ka-13408-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "WR102KA",
+  "proposal_id": "13408",
+  "instrument": "WFC3/IR",
+  "title": null,
+  "grid": {
+   "width": 744,
+   "height": 746,
+   "reduction": 2,
+   "arcsec_per_pixel": 0.2565000057220434,
+   "reference_filter": "F128N"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F128N",
+    "center_nm": 1283.8,
+    "color": "#1a4cff",
+    "obs_id": "hst_13408_03_wfc3_ir_f128n_icc003",
+    "exposure_s": 3590.787600000001,
+    "product": "mast:HST/product/hst_13408_03_wfc3_ir_f128n_icc003_drz.fits"
+   },
+   {
+    "filter": "F130N",
+    "center_nm": 1301.0,
+    "color": "#1aff33",
+    "obs_id": "hst_13408_03_wfc3_ir_f130n_icc003",
+    "exposure_s": 3590.787600000001,
+    "product": "mast:HST/product/hst_13408_03_wfc3_ir_f130n_icc003_drz.fits"
+   },
+   {
+    "filter": "F164N",
+    "center_nm": 1645.0,
+    "color": "#ff800d",
+    "obs_id": "icc003010",
+    "exposure_s": 1198,
+    "product": "mast:HST/product/icc003010_drz.fits"
+   },
+   {
+    "filter": "F167N",
+    "center_nm": 1667.5,
+    "color": "#ff1a1a",
+    "obs_id": "icc003020",
+    "exposure_s": 1199,
+    "product": "mast:HST/product/icc003020_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]
