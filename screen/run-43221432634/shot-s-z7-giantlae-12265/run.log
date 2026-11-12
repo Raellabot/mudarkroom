@@ -1,0 +1,16 @@
+[     0s] == s-z7-giantlae-12265: 3 filters: ['F098M', 'F125W', 'F160W']
+[     0s] F098M: 1460x1444 px at 0.1283 arcsec/px, 25 MB
+[     1s] F125W: 1459x1444 px at 0.1283 arcsec/px, 25 MB
+[     1s] F160W: 1460x1444 px at 0.1283 arcsec/px, 26 MB
+[     1s] grid from F098M: 730x722 px (reduced 2x), 0.257 arcsec/px
+[     2s] downloaded hst_12265_05_wfc3_ir_f098m_ibhi05_drz.fits: 25 MB
+[     2s] F098M: aligned (reduced 2x), covers 50% of the grid
+[     2s] downloaded hst_12265_01_wfc3_ir_f125w_ibhi01_drz.fits: 25 MB
+[     2s] F125W: aligned (reduced 2x), covers 50% of the grid
+[     3s] downloaded hst_12265_03_wfc3_ir_f160w_ibhi03_drz.fits: 26 MB
+[     3s] F160W: aligned (reduced 2x), covers 50% of the grid
+[     3s] s-z7-giantlae-12265: finishing steps applied: ['dense']
+[     3s] cropped to 358x344 px where 3 of 3 filters have data
+/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/astropy/visualization/lupton_rgb.py:645: RuntimeWarning: invalid value encountered in divide
+  fInorm = np.where(Int <= 0, 0, np.true_divide(fI, Int))
+[     3s] done: 1 pictures

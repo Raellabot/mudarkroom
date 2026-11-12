@@ -1,0 +1,55 @@
+[
+ {
+  "picture": "s-hefe-miri-bkdg-5804-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "JWST",
+  "target": "HEFE-MIRI-bkdg",
+  "proposal_id": "5804",
+  "instrument": "MIRI/IMAGE",
+  "title": "HEFE: High Angular Resolution observations of Stellar Emergence in Filamentary Environments",
+  "grid": {
+   "width": 1200,
+   "height": 1160,
+   "reduction": 1,
+   "arcsec_per_pixel": 0.110907593633628,
+   "reference_filter": "F770W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F770W",
+    "center_nm": 7700.0,
+    "color": "#1a4cff",
+    "obs_id": "jw05804-o037_t025_miri_f770w",
+    "exposure_s": 1433.396,
+    "product": "mast:JWST/product/jw05804-o037_t025_miri_f770w_i2d.fits"
+   },
+   {
+    "filter": "F1280W",
+    "center_nm": 12800.0,
+    "color": "#1aff33",
+    "obs_id": "jw05804-o035_t025_miri_f1280w",
+    "exposure_s": 1911.192,
+    "product": "mast:JWST/product/jw05804-o035_t025_miri_f1280w_i2d.fits"
+   },
+   {
+    "filter": "F1800W",
+    "center_nm": 18000.0,
+    "color": "#ff1a1a",
+    "obs_id": "jw05804-o035_t025_miri_f1800w",
+    "exposure_s": 1146.716,
+    "product": "mast:JWST/product/jw05804-o035_t025_miri_f1800w_i2d.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

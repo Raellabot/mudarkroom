@@ -1,0 +1,55 @@
+[
+ {
+  "picture": "s-westerlund2-e-15238-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "WESTERLUND2-E",
+  "proposal_id": "15238",
+  "instrument": "WFC3/IR",
+  "title": null,
+  "grid": {
+   "width": 980,
+   "height": 835,
+   "reduction": 3,
+   "arcsec_per_pixel": 0.38475,
+   "reference_filter": "F139M"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F110W",
+    "center_nm": 1148.8,
+    "color": "#1a4cff",
+    "obs_id": "hst_15238_07_wfc3_ir_f110w_idnm07",
+    "exposure_s": 658.807785,
+    "product": "mast:HST/product/hst_15238_07_wfc3_ir_f110w_idnm07_drz.fits"
+   },
+   {
+    "filter": "F139M",
+    "center_nm": 1384.5,
+    "color": "#1aff33",
+    "obs_id": "hst_15238_07_wfc3_ir_f139m_idnm07",
+    "exposure_s": 1058.814209,
+    "product": "mast:HST/product/hst_15238_07_wfc3_ir_f139m_idnm07_drz.fits"
+   },
+   {
+    "filter": "F160W",
+    "center_nm": 1543.2,
+    "color": "#ff1a1a",
+    "obs_id": "idnm07010",
+    "exposure_s": 484,
+    "product": "mast:HST/product/idnm07010_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

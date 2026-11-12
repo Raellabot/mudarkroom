@@ -1,0 +1,55 @@
+[
+ {
+  "picture": "s-q2352-13733-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST+HST",
+  "target": "Q2352+Q2352",
+  "proposal_id": "13733+13733",
+  "instrument": "WFC3/IR+WFC3/UVIS",
+  "title": "The Stellar Continuum Light from Damped Lyman-alpha Absorber Galaxies Detected with Integral Field Spectroscopy",
+  "grid": {
+   "width": 1032,
+   "height": 1097,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.15848000347614236,
+   "reference_filter": "F606W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F606W",
+    "center_nm": 594.0,
+    "color": "#1a4cff",
+    "obs_id": "icop04010",
+    "exposure_s": 2496,
+    "product": "mast:HST/product/icop04010_drz.fits"
+   },
+   {
+    "filter": "F105W",
+    "center_nm": 1052.7,
+    "color": "#1aff33",
+    "obs_id": "icop06010",
+    "exposure_s": 2612,
+    "product": "mast:HST/product/icop06010_drz.fits"
+   },
+   {
+    "filter": "F160W",
+    "center_nm": 1543.2,
+    "color": "#ff1a1a",
+    "obs_id": "icop09010",
+    "exposure_s": 2612,
+    "product": "mast:HST/product/icop09010_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

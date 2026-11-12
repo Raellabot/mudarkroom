@@ -1,0 +1,55 @@
+[
+ {
+  "picture": "s-irc0222a-12896-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "IRC0222A",
+  "proposal_id": "12896",
+  "instrument": "WFC3/IR",
+  "title": "At the Turn of the Tide: WFC3/IR Imaging and Spectroscopy of Two Galaxy Clusters at z~2",
+  "grid": {
+   "width": 1138,
+   "height": 1008,
+   "reduction": 1,
+   "arcsec_per_pixel": 0.12825000286102176,
+   "reference_filter": "F160W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F105W",
+    "center_nm": 1052.7,
+    "color": "#1a4cff",
+    "obs_id": "ic1403010",
+    "exposure_s": 2174,
+    "product": "mast:HST/product/ic1403010_drz.fits"
+   },
+   {
+    "filter": "F125W",
+    "center_nm": 1249.0,
+    "color": "#1aff33",
+    "obs_id": "ic1404010",
+    "exposure_s": 1324,
+    "product": "mast:HST/product/ic1404010_drz.fits"
+   },
+   {
+    "filter": "F160W",
+    "center_nm": 1543.2,
+    "color": "#ff1a1a",
+    "obs_id": "ic1404020",
+    "exposure_s": 2624,
+    "product": "mast:HST/product/ic1404020_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

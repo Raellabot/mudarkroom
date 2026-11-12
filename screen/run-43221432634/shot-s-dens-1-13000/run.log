@@ -1,0 +1,16 @@
+[     0s] == s-dens-1-13000: 3 filters: ['F110W', 'F139M', 'F160W']
+[     1s] F110W: 1452x1422 px at 0.1283 arcsec/px, 25 MB
+[     2s] F139M: 1452x1422 px at 0.1283 arcsec/px, 25 MB
+[     2s] F160W: 1452x1422 px at 0.1283 arcsec/px, 25 MB
+[     2s] grid from F110W: 726x711 px (reduced 2x), 0.257 arcsec/px
+[     4s] downloaded hst_13000_01_wfc3_ir_f110w_ic0i01_drz.fits: 25 MB
+[     4s] F110W: aligned (reduced 2x), covers 51% of the grid
+[     5s] downloaded hst_13000_01_wfc3_ir_f139m_ic0i01_drz.fits: 25 MB
+[     5s] F139M: aligned (reduced 2x), covers 51% of the grid
+[     6s] downloaded hst_13000_01_wfc3_ir_f160w_ic0i01_drz.fits: 25 MB
+[     6s] F160W: aligned (reduced 2x), covers 51% of the grid
+[     7s] s-dens-1-13000: finishing steps applied: ['dense']
+[     7s] cropped to 365x348 px where 3 of 3 filters have data
+/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/astropy/visualization/lupton_rgb.py:645: RuntimeWarning: invalid value encountered in divide
+  fInorm = np.where(Int <= 0, 0, np.true_divide(fI, Int))
+[     7s] done: 1 pictures

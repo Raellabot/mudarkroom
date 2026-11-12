@@ -1,0 +1,55 @@
+[
+ {
+  "picture": "s-ngc4699-15133-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST+HST",
+  "target": "NGC4699+NGC4699",
+  "proposal_id": "15133+15133",
+  "instrument": "WFC3/IR+WFC3/UVIS",
+  "title": "Solving the Mystery of Galaxy Bulges and Bulge Substructure",
+  "grid": {
+   "width": 1089,
+   "height": 963,
+   "reduction": 1,
+   "arcsec_per_pixel": 0.12825000286102228,
+   "reference_filter": "F160W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F475W",
+    "center_nm": 475.8,
+    "color": "#1a4cff",
+    "obs_id": "idkv20020",
+    "exposure_s": 700,
+    "product": "mast:HST/product/idkv20020_drz.fits"
+   },
+   {
+    "filter": "F814W",
+    "center_nm": 831.9,
+    "color": "#1aff33",
+    "obs_id": "idkv20010",
+    "exposure_s": 500,
+    "product": "mast:HST/product/idkv20010_drz.fits"
+   },
+   {
+    "filter": "F160W",
+    "center_nm": 1543.2,
+    "color": "#ff1a1a",
+    "obs_id": "idkv20030",
+    "exposure_s": 596.924196,
+    "product": "mast:HST/product/idkv20030_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

@@ -1,0 +1,63 @@
+[
+ {
+  "picture": "s-ep250207b-17806-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST+HST",
+  "target": "EP250207B+EP250207B",
+  "proposal_id": "17806+17806",
+  "instrument": "WFC3/IR+WFC3/UVIS",
+  "title": "R-process kilonovae associated with merger-driven gamma-ray bursts",
+  "grid": {
+   "width": 1032,
+   "height": 1097,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.158479999999993,
+   "reference_filter": "F606W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F606W",
+    "center_nm": 594.0,
+    "color": "#1a4cff",
+    "obs_id": "iffx03010",
+    "exposure_s": 2020,
+    "product": "mast:HST/product/iffx03010_drz.fits"
+   },
+   {
+    "filter": "F105W",
+    "center_nm": 1052.7,
+    "color": "#1aff33",
+    "obs_id": "iffx15010",
+    "exposure_s": 2212,
+    "product": "mast:HST/product/iffx15010_drz.fits"
+   },
+   {
+    "filter": "F125W",
+    "center_nm": 1249.0,
+    "color": "#ff800d",
+    "obs_id": "iffx11010",
+    "exposure_s": 2212,
+    "product": "mast:HST/product/iffx11010_drz.fits"
+   },
+   {
+    "filter": "F160W",
+    "center_nm": 1543.2,
+    "color": "#ff1a1a",
+    "obs_id": "iffx13010",
+    "exposure_s": 2212,
+    "product": "mast:HST/product/iffx13010_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

@@ -1,0 +1,55 @@
+[
+ {
+  "picture": "s-spt2349-17779-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "SPT2349",
+  "proposal_id": "17779",
+  "instrument": "ACS/WFC",
+  "title": "A massive protocluster at z=4.3 selected by the South Pole Telescope",
+  "grid": {
+   "width": 1054,
+   "height": 1074,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.19999999999999318,
+   "reference_filter": "F814W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F435W",
+    "center_nm": 425.0,
+    "color": "#1a4cff",
+    "obs_id": "jfe917010",
+    "exposure_s": 4742,
+    "product": "mast:HST/product/jfe917010_drz.fits"
+   },
+   {
+    "filter": "F606W",
+    "center_nm": 595.0,
+    "color": "#1aff33",
+    "obs_id": "jfe920010",
+    "exposure_s": 4742,
+    "product": "mast:HST/product/jfe920010_drz.fits"
+   },
+   {
+    "filter": "F814W",
+    "center_nm": 833.5,
+    "color": "#ff1a1a",
+    "obs_id": "jfe923010",
+    "exposure_s": 2336,
+    "product": "mast:HST/product/jfe923010_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

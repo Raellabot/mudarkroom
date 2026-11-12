@@ -1,0 +1,55 @@
+[
+ {
+  "picture": "s-desj0118-3115-17455-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST+HST",
+  "target": "DESJ0118-3115+DESJ0118-3115",
+  "proposal_id": "17455+17455",
+  "instrument": "WFC3/IR+WFC3/UVIS",
+  "title": "A Snapshot Survey of Sub-arcsec Dual Quasars and Lenses at z>2",
+  "grid": {
+   "width": 549,
+   "height": 488,
+   "reduction": 1,
+   "arcsec_per_pixel": 0.128249999999999,
+   "reference_filter": "F160W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F475W",
+    "center_nm": 475.8,
+    "color": "#1a4cff",
+    "obs_id": "if8a15010",
+    "exposure_s": 450,
+    "product": "mast:HST/product/if8a15010_drz.fits"
+   },
+   {
+    "filter": "F625W",
+    "center_nm": 627.4,
+    "color": "#1aff33",
+    "obs_id": "if8a15020",
+    "exposure_s": 450,
+    "product": "mast:HST/product/if8a15020_drz.fits"
+   },
+   {
+    "filter": "F160W",
+    "center_nm": 1543.2,
+    "color": "#ff1a1a",
+    "obs_id": "if8a15030",
+    "exposure_s": 422.073488,
+    "product": "mast:HST/product/if8a15030_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

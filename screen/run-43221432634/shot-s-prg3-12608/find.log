@@ -1,0 +1,8 @@
+  page 1/1 rows so far 16 of 16
+HST|PRG3|12608|WFC3/IR|2  rows=6  filters=['G141']
+HST|PRG3|12608|WFC3/UVIS|3  rows=5  filters=['F475W', 'F814W', 'detection']
+HST|PRG3|12608|WFC3/IR|3  rows=4  filters=['F140W', 'detection']
+  page 1/1 rows so far 16 of 16
+HST|PRG3|12608|WFC3/IR|2  rows=6  filters=['G141']
+HST|PRG3|12608|WFC3/UVIS|3  rows=5  filters=['F475W', 'F814W', 'detection']
+HST|PRG3|12608|WFC3/IR|3  rows=4  filters=['F140W', 'detection']

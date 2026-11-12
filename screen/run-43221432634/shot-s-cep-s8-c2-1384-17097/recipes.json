@@ -1,0 +1,55 @@
+[
+ {
+  "picture": "s-cep-s8-c2-1384-17097-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST+HST",
+  "target": "CEP-S8-C2-1384+CEP-S8-C2-1384",
+  "proposal_id": "17097+17097",
+  "instrument": "WFC3/IR+WFC3/UVIS",
+  "title": "Reinforcing the Distance Ladder with Cepheids in the Core of the SMC",
+  "grid": {
+   "width": 779,
+   "height": 1056,
+   "reduction": 5,
+   "arcsec_per_pixel": 0.64125,
+   "reference_filter": "F160W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F555W",
+    "center_nm": 550.4,
+    "color": "#1a4cff",
+    "obs_id": "iev908050",
+    "exposure_s": 5,
+    "product": "mast:HST/product/iev908050_drz.fits"
+   },
+   {
+    "filter": "F814W",
+    "center_nm": 831.9,
+    "color": "#1aff33",
+    "obs_id": "iev908040",
+    "exposure_s": 5,
+    "product": "mast:HST/product/iev908040_drz.fits"
+   },
+   {
+    "filter": "F160W",
+    "center_nm": 1543.2,
+    "color": "#ff1a1a",
+    "obs_id": "hst_17097_tz_wfc3_ir_f160w_iev9tz",
+    "exposure_s": 121.73152100000003,
+    "product": "mast:HST/product/hst_17097_tz_wfc3_ir_f160w_iev9tz_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

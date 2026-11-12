@@ -1,0 +1,16 @@
+[     0s] == s-glimpse-c01-14183: 3 filters: ['F814W', 'F139M', 'F153M']
+[     0s] F814W: 4145x4407 px at 0.0396 arcsec/px, 219 MB
+[     0s] F139M: 1087x962 px at 0.1283 arcsec/px, 13 MB
+[     0s] F153M: 1087x962 px at 0.1283 arcsec/px, 13 MB
+[     0s] grid from F814W: 1036x1101 px (reduced 4x), 0.158 arcsec/px
+[     2s] downloaded icws01040_drz.fits: 219 MB
+[     2s] F814W: aligned (reduced 4x), covers 94% of the grid
+[     2s] downloaded icws01020_drz.fits: 13 MB
+[     2s] F139M: aligned (reduced 1x), covers 59% of the grid
+[     3s] downloaded icws01030_drz.fits: 13 MB
+[     3s] F153M: aligned (reduced 1x), covers 59% of the grid
+[     3s] s-glimpse-c01-14183: finishing steps applied: ['dense']
+[     3s] cropped to 826x712 px where 3 of 3 filters have data
+/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/astropy/visualization/lupton_rgb.py:645: RuntimeWarning: invalid value encountered in divide
+  fInorm = np.where(Int <= 0, 0, np.true_divide(fI, Int))
+[     3s] done: 1 pictures

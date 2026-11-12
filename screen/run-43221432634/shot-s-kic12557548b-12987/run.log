@@ -1,0 +1,22 @@
+[     0s] == s-kic12557548b-12987: 5 filters: ['F555W', 'F775W', 'F125W', 'F140W', 'F160W']
+[     0s] F555W: 1286x1325 px at 0.0396 arcsec/px, 21 MB
+[     0s] F775W: 1286x1325 px at 0.0396 arcsec/px, 21 MB
+[     0s] F125W: 807x690 px at 0.1283 arcsec/px, 7 MB
+[     1s] F140W: 549x488 px at 0.1283 arcsec/px, 3 MB
+[     1s] F160W: 807x690 px at 0.1283 arcsec/px, 7 MB
+[     1s] grid from F125W: 807x690 px (reduced 1x), 0.128 arcsec/px
+[     1s] downloaded hst_12987_01_wfc3_uvis_f555w_ibyf01_drc.fits: 21 MB
+[     1s] F555W: aligned (reduced 3x), covers 18% of the grid
+[     2s] downloaded hst_12987_01_wfc3_uvis_f775w_ibyf01_drc.fits: 21 MB
+[     2s] F775W: aligned (reduced 3x), covers 18% of the grid
+[     2s] downloaded hst_12987_01_wfc3_ir_f125w_ibyf01_drz.fits: 7 MB
+[     2s] F125W: aligned (reduced 1x), covers 48% of the grid
+[     2s] downloaded ibyf01060_drz.fits: 3 MB
+[     2s] F140W: aligned (reduced 1x), covers 48% of the grid
+[     2s] downloaded hst_12987_01_wfc3_ir_f160w_ibyf01_drz.fits: 7 MB
+[     2s] F160W: aligned (reduced 1x), covers 48% of the grid
+[     3s] s-kic12557548b-12987: finishing steps applied: ['dense']
+[     3s] cropped to 245x259 px where 5 of 5 filters have data
+/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/astropy/visualization/lupton_rgb.py:645: RuntimeWarning: invalid value encountered in divide
+  fInorm = np.where(Int <= 0, 0, np.true_divide(fI, Int))
+[     3s] done: 1 pictures

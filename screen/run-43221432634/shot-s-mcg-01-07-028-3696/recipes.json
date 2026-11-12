@@ -1,0 +1,55 @@
+[
+ {
+  "picture": "s-mcg-01-07-028-3696-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "JWST",
+  "target": "MCG-01-07-028",
+  "proposal_id": "3696",
+  "instrument": "MIRI/IMAGE",
+  "title": "A population of hidden tidal disruptions in the local universe: Revealing the energetics of the most luminous infrared transients with JWST",
+  "grid": {
+   "width": 1049,
+   "height": 1030,
+   "reduction": 1,
+   "arcsec_per_pixel": 0.11090543685149663,
+   "reference_filter": "F560W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F560W",
+    "center_nm": 5600.0,
+    "color": "#1a4cff",
+    "obs_id": "jw03696-o003_t002_miri_f560w",
+    "exposure_s": 888.012,
+    "product": "mast:JWST/product/jw03696-o003_t002_miri_f560w_i2d.fits"
+   },
+   {
+    "filter": "F1000W",
+    "center_nm": 10000.0,
+    "color": "#1aff33",
+    "obs_id": "jw03696-o003_t002_miri_f1000w",
+    "exposure_s": 888.012,
+    "product": "mast:JWST/product/jw03696-o003_t002_miri_f1000w_i2d.fits"
+   },
+   {
+    "filter": "F1800W",
+    "center_nm": 18000.0,
+    "color": "#ff1a1a",
+    "obs_id": "jw03696-o003_t002_miri_f1800w",
+    "exposure_s": 2231.132,
+    "product": "mast:JWST/product/jw03696-o003_t002_miri_f1800w_i2d.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

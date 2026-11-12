@@ -1,0 +1,63 @@
+[
+ {
+  "picture": "s-for-j0332-3557-14093-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST+HST",
+  "target": "FOR-J0332-3557+FOR-J0332-3557",
+  "proposal_id": "14093+14093",
+  "instrument": "WFC3/IR+WFC3/UVIS",
+  "title": "Stellar Populations and Physical Conditions at ~100 pc Resolution in a Lensed Galaxy at z ~ 4",
+  "grid": {
+   "width": 1032,
+   "height": 1097,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.15848000347613653,
+   "reference_filter": "F814W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F606W",
+    "center_nm": 594.0,
+    "color": "#1a4cff",
+    "obs_id": "icyu02010",
+    "exposure_s": 1080,
+    "product": "mast:HST/product/icyu02010_drz.fits"
+   },
+   {
+    "filter": "F814W",
+    "center_nm": 831.9,
+    "color": "#1aff33",
+    "obs_id": "icyu02020",
+    "exposure_s": 1170,
+    "product": "mast:HST/product/icyu02020_drz.fits"
+   },
+   {
+    "filter": "F125W",
+    "center_nm": 1249.0,
+    "color": "#ff800d",
+    "obs_id": "icyu01020",
+    "exposure_s": 1209,
+    "product": "mast:HST/product/icyu01020_drz.fits"
+   },
+   {
+    "filter": "F160W",
+    "center_nm": 1543.2,
+    "color": "#ff1a1a",
+    "obs_id": "icyu01010",
+    "exposure_s": 1359,
+    "product": "mast:HST/product/icyu01010_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

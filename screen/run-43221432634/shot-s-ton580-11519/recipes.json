@@ -1,0 +1,63 @@
+[
+ {
+  "picture": "s-ton580-11519-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST+HST",
+  "target": "TON580+TON580",
+  "proposal_id": "11519+11519",
+  "instrument": "WFC3/IR+WFC3/UVIS",
+  "title": "COS-GTO: Great Wall Tomography",
+  "grid": {
+   "width": 1031,
+   "height": 1096,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.1584800034761425,
+   "reference_filter": "F600LP"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F600LP",
+    "center_nm": 797.5,
+    "color": "#1a4cff",
+    "obs_id": "ib4l01020",
+    "exposure_s": 1316,
+    "product": "mast:HST/product/ib4l01021_drz.fits"
+   },
+   {
+    "filter": "F098M",
+    "center_nm": 986.1,
+    "color": "#1aff33",
+    "obs_id": "ib4l01010",
+    "exposure_s": 2106,
+    "product": "mast:HST/product/ib4l01010_drz.fits"
+   },
+   {
+    "filter": "F125W",
+    "center_nm": 1249.0,
+    "color": "#ff800d",
+    "obs_id": "ib4l01tfq",
+    "exposure_s": 1402.936768,
+    "product": "mast:HST/product/ib4l01tfq_drz.fits"
+   },
+   {
+    "filter": "F160W",
+    "center_nm": 1543.2,
+    "color": "#ff1a1a",
+    "obs_id": "ib4l01tlq",
+    "exposure_s": 1402.934326,
+    "product": "mast:HST/product/ib4l01tlq_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

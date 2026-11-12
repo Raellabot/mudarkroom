@@ -1,0 +1,55 @@
+[
+ {
+  "picture": "s-dens-3-13000-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "DENS-3",
+  "proposal_id": "13000",
+  "instrument": "WFC3/IR",
+  "title": null,
+  "grid": {
+   "width": 659,
+   "height": 615,
+   "reduction": 2,
+   "arcsec_per_pixel": 0.2565000057220434,
+   "reference_filter": "F110W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F110W",
+    "center_nm": 1148.8,
+    "color": "#1a4cff",
+    "obs_id": "hst_13000_03_wfc3_ir_f110w_ic0i03",
+    "exposure_s": 2470.576598,
+    "product": "mast:HST/product/hst_13000_03_wfc3_ir_f110w_ic0i03_drz.fits"
+   },
+   {
+    "filter": "F139M",
+    "center_nm": 1384.5,
+    "color": "#1aff33",
+    "obs_id": "hst_13000_03_wfc3_ir_f139m_ic0i03",
+    "exposure_s": 4941.153196,
+    "product": "mast:HST/product/hst_13000_03_wfc3_ir_f139m_ic0i03_drz.fits"
+   },
+   {
+    "filter": "F160W",
+    "center_nm": 1543.2,
+    "color": "#ff1a1a",
+    "obs_id": "hst_13000_03_wfc3_ir_f160w_ic0i03",
+    "exposure_s": 2470.576598,
+    "product": "mast:HST/product/hst_13000_03_wfc3_ir_f160w_ic0i03_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

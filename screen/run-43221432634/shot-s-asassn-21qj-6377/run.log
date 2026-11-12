@@ -1,0 +1,63 @@
+[     0s] == s-asassn-21qj-6377: 3 filters: ['F770W', 'F1000W', 'F1130W']
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set DATE-BEG to '2025-05-19T17:49:31.430' from MJD-BEG.
+Set DATE-AVG to '2025-05-19T20:45:26.705' from MJD-AVG.
+Set DATE-END to '2025-05-19T23:41:21.585' from MJD-END'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'obsfix' made the change 'Set OBSGEO-L to   -99.004608 from OBSGEO-[XYZ].
+Set OBSGEO-B to   -30.417665 from OBSGEO-[XYZ].
+Set OBSGEO-H to 1689288689.802 from OBSGEO-[XYZ]'. [astropy.wcs.wcs]
+[     1s] F770W: 1050x1029 px at 0.1109 arcsec/px, 31 MB
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set DATE-BEG to '2024-11-20T21:18:29.474' from MJD-BEG.
+Set DATE-AVG to '2024-11-20T22:08:36.971' from MJD-AVG.
+Set DATE-END to '2024-11-20T22:58:45.875' from MJD-END'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'obsfix' made the change 'Set OBSGEO-L to    82.962727 from OBSGEO-[XYZ].
+Set OBSGEO-B to    16.589556 from OBSGEO-[XYZ].
+Set OBSGEO-H to 1643673172.235 from OBSGEO-[XYZ]'. [astropy.wcs.wcs]
+[     1s] F1000W: 1050x1029 px at 0.1109 arcsec/px, 30 MB
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set DATE-BEG to '2024-11-20T23:27:07.034' from MJD-BEG.
+Set DATE-AVG to '2024-11-21T00:17:22.179' from MJD-AVG.
+Set DATE-END to '2024-11-21T01:07:31.756' from MJD-END'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'obsfix' made the change 'Set OBSGEO-L to    83.008359 from OBSGEO-[XYZ].
+Set OBSGEO-B to    16.560247 from OBSGEO-[XYZ].
+Set OBSGEO-H to 1643990716.672 from OBSGEO-[XYZ]'. [astropy.wcs.wcs]
+[     2s] F1130W: 1050x1029 px at 0.1109 arcsec/px, 30 MB
+[     2s] grid from F1000W: 1050x1029 px (reduced 1x), 0.111 arcsec/px
+[     3s] downloaded jw06377-o002_t001_miri_f770w_i2d.fits: 31 MB
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set DATE-BEG to '2025-05-19T17:49:31.430' from MJD-BEG.
+Set DATE-AVG to '2025-05-19T20:45:26.705' from MJD-AVG.
+Set DATE-END to '2025-05-19T23:41:21.585' from MJD-END'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'obsfix' made the change 'Set OBSGEO-L to   -99.004608 from OBSGEO-[XYZ].
+Set OBSGEO-B to   -30.417665 from OBSGEO-[XYZ].
+Set OBSGEO-H to 1689288689.802 from OBSGEO-[XYZ]'. [astropy.wcs.wcs]
+[     3s] F770W: aligned (reduced 1x), covers 0% of the grid
+[     4s] downloaded jw06377-o001_t001_miri_f1000w_i2d.fits: 30 MB
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set DATE-BEG to '2024-11-20T21:18:29.474' from MJD-BEG.
+Set DATE-AVG to '2024-11-20T22:08:36.971' from MJD-AVG.
+Set DATE-END to '2024-11-20T22:58:45.875' from MJD-END'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'obsfix' made the change 'Set OBSGEO-L to    82.962727 from OBSGEO-[XYZ].
+Set OBSGEO-B to    16.589556 from OBSGEO-[XYZ].
+Set OBSGEO-H to 1643673172.235 from OBSGEO-[XYZ]'. [astropy.wcs.wcs]
+[     4s] F1000W: aligned (reduced 1x), covers 70% of the grid
+[     5s] downloaded jw06377-o001_t001_miri_f1130w_i2d.fits: 30 MB
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set DATE-BEG to '2024-11-20T23:27:07.034' from MJD-BEG.
+Set DATE-AVG to '2024-11-21T00:17:22.179' from MJD-AVG.
+Set DATE-END to '2024-11-21T01:07:31.756' from MJD-END'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'obsfix' made the change 'Set OBSGEO-L to    83.008359 from OBSGEO-[XYZ].
+Set OBSGEO-B to    16.560247 from OBSGEO-[XYZ].
+Set OBSGEO-H to 1643990716.672 from OBSGEO-[XYZ]'. [astropy.wcs.wcs]
+[     5s] F1130W: aligned (reduced 1x), covers 70% of the grid
+Traceback (most recent call last):
+  File "/home/runner/work/mudarkroom/mudarkroom/scripts/mast/color.py", line 871, in <module>
+    main()
+  File "/home/runner/work/mudarkroom/mudarkroom/scripts/mast/color.py", line 796, in main
+    raw = aligned = finish_arrays(raw, fin, float(os.environ.get("FINISH_SCALE", "1")))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/mudarkroom/mudarkroom/scripts/mast/color.py", line 461, in finish_arrays
+    y0, y1, x0, x1 = dense_crop_box(a, fin["dense"])
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/mudarkroom/mudarkroom/scripts/mast/color.py", line 400, in dense_crop_box
+    y0, y1, x0, x1 = ys.min(), ys.max() + 1, xs.min(), xs.max() + 1
+                     ^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/numpy/_core/_methods.py", line 45, in _amin
+    return umr_minimum(a, axis, None, out, keepdims, initial, where)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: zero-size array to reduction operation minimum which has no identity

@@ -1,0 +1,55 @@
+[
+ {
+  "picture": "s-kk-cen-13335-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST+HST",
+  "target": "KK-CEN+KK-CEN",
+  "proposal_id": "13335+13335",
+  "instrument": "WFC3/IR+WFC3/UVIS",
+  "title": null,
+  "grid": {
+   "width": 1083,
+   "height": 959,
+   "reduction": 1,
+   "arcsec_per_pixel": 0.12825000286102162,
+   "reference_filter": "F160W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F555W",
+    "center_nm": 550.4,
+    "color": "#1a4cff",
+    "obs_id": "hst_13335_57_wfc3_uvis_f555w_ic9t57",
+    "exposure_s": 63,
+    "product": "mast:HST/product/hst_13335_57_wfc3_uvis_f555w_ic9t57_drc.fits"
+   },
+   {
+    "filter": "F814W",
+    "center_nm": 831.9,
+    "color": "#1aff33",
+    "obs_id": "ic9t57nlq",
+    "exposure_s": 3,
+    "product": "mast:HST/product/ic9t57nlq_drz.fits"
+   },
+   {
+    "filter": "F160W",
+    "center_nm": 1543.2,
+    "color": "#ff1a1a",
+    "obs_id": "ic9t57nuq",
+    "exposure_s": 29.32291,
+    "product": "mast:HST/product/ic9t57nuq_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

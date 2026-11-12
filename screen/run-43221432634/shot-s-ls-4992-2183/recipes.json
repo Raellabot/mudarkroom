@@ -1,0 +1,55 @@
+[
+ {
+  "picture": "s-ls-4992-2183-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "JWST",
+  "target": "LS-4992",
+  "proposal_id": "2183",
+  "instrument": "MIRI/IMAGE",
+  "title": "Illuminating the dust properties in the diffuse ISM with JWST",
+  "grid": {
+   "width": 1050,
+   "height": 1029,
+   "reduction": 1,
+   "arcsec_per_pixel": 0.11090530691067815,
+   "reference_filter": "F1130W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F770W",
+    "center_nm": 7700.0,
+    "color": "#1a4cff",
+    "obs_id": "jw02183-o025_t009_miri_f770w",
+    "exposure_s": 210.904,
+    "product": "mast:JWST/product/jw02183-o025_t009_miri_f770w_i2d.fits"
+   },
+   {
+    "filter": "F1000W",
+    "center_nm": 10000.0,
+    "color": "#1aff33",
+    "obs_id": "jw02183-o025_t009_miri_f1000w",
+    "exposure_s": 210.904,
+    "product": "mast:JWST/product/jw02183-o025_t009_miri_f1000w_i2d.fits"
+   },
+   {
+    "filter": "F1130W",
+    "center_nm": 11300.0,
+    "color": "#ff1a1a",
+    "obs_id": "jw02183-o025_t009_miri_f1130w",
+    "exposure_s": 210.904,
+    "product": "mast:JWST/product/jw02183-o025_t009_miri_f1130w_i2d.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

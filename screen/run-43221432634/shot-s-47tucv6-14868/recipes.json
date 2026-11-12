@@ -1,0 +1,71 @@
+[
+ {
+  "picture": "s-47tucv6-14868-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST+HST+HST",
+  "target": "47TUCV6+47TUCV6+47TUCV6",
+  "proposal_id": "14868+14868+14868",
+  "instrument": "ACS/WFC+WFC3/IR+WFC3/UVIS",
+  "title": null,
+  "grid": {
+   "width": 1113,
+   "height": 1092,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.19999999999999296,
+   "reference_filter": "F850LP"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F775W",
+    "center_nm": 772.8,
+    "color": "#1a4cff",
+    "obs_id": "hst_14868_01_wfc3_uvis_f775w_iddh01",
+    "exposure_s": 1088,
+    "product": "mast:HST/product/hst_14868_01_wfc3_uvis_f775w_iddh01_drc.fits"
+   },
+   {
+    "filter": "F850LP",
+    "center_nm": 895.0,
+    "color": "#00e6ff",
+    "obs_id": "hst_14868_02_acs_wfc_f850lp_jddh02",
+    "exposure_s": 1060,
+    "product": "mast:HST/product/hst_14868_02_acs_wfc_f850lp_jddh02_drc.fits"
+   },
+   {
+    "filter": "F098M",
+    "center_nm": 986.1,
+    "color": "#1aff33",
+    "obs_id": "hst_14868_04_wfc3_ir_f098m_iddh04",
+    "exposure_s": 2723.3283969999998,
+    "product": "mast:HST/product/hst_14868_04_wfc3_ir_f098m_iddh04_drz.fits"
+   },
+   {
+    "filter": "F125W",
+    "center_nm": 1249.0,
+    "color": "#ff800d",
+    "obs_id": "hst_14868_05_wfc3_ir_f125w_iddh05",
+    "exposure_s": 2723.3283969999998,
+    "product": "mast:HST/product/hst_14868_05_wfc3_ir_f125w_iddh05_drz.fits"
+   },
+   {
+    "filter": "F160W",
+    "center_nm": 1543.2,
+    "color": "#ff1a1a",
+    "obs_id": "hst_14868_03_wfc3_ir_f160w_iddh03",
+    "exposure_s": 2723.3283969999998,
+    "product": "mast:HST/product/hst_14868_03_wfc3_ir_f160w_iddh03_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

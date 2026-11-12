@@ -1,0 +1,71 @@
+[
+ {
+  "picture": "s-sn2022jox-3295-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "JWST",
+  "target": "SN2022JOX",
+  "proposal_id": "3295",
+  "instrument": "MIRI/IMAGE",
+  "title": "Is there enough? Cosmic dust formation in normal core-collapse supernovae in the first ~5 years post-explosion",
+  "grid": {
+   "width": 1178,
+   "height": 1171,
+   "reduction": 1,
+   "arcsec_per_pixel": 0.11091115368207324,
+   "reference_filter": "F560W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F560W",
+    "center_nm": 5600.0,
+    "color": "#1a4cff",
+    "obs_id": "jw03295-o004_t009_miri_f560w",
+    "exposure_s": 111,
+    "product": "mast:JWST/product/jw03295-o004_t009_miri_f560w_i2d.fits"
+   },
+   {
+    "filter": "F1000W",
+    "center_nm": 10000.0,
+    "color": "#00e6ff",
+    "obs_id": "jw03295-o004_t009_miri_f1000w",
+    "exposure_s": 111,
+    "product": "mast:JWST/product/jw03295-o004_t009_miri_f1000w_i2d.fits"
+   },
+   {
+    "filter": "F1280W",
+    "center_nm": 12800.0,
+    "color": "#1aff33",
+    "obs_id": "jw03295-o004_t009_miri_f1280w",
+    "exposure_s": 111,
+    "product": "mast:JWST/product/jw03295-o004_t009_miri_f1280w_i2d.fits"
+   },
+   {
+    "filter": "F1800W",
+    "center_nm": 18000.0,
+    "color": "#ff800d",
+    "obs_id": "jw03295-o004_t009_miri_f1800w",
+    "exposure_s": 111,
+    "product": "mast:JWST/product/jw03295-o004_t009_miri_f1800w_i2d.fits"
+   },
+   {
+    "filter": "F2550W",
+    "center_nm": 25500.0,
+    "color": "#ff1a1a",
+    "obs_id": "jw03295-o004_t009_miri_f2550w",
+    "exposure_s": 111,
+    "product": "mast:JWST/product/jw03295-o004_t009_miri_f2550w_i2d.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

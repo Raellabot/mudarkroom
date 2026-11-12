@@ -1,0 +1,55 @@
+[
+ {
+  "picture": "s-mrk-1066-bg-7802-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "JWST",
+  "target": "Mrk-1066-BG",
+  "proposal_id": "7802",
+  "instrument": "MIRI/IMAGE",
+  "title": "Dust in shocks: The missing link in AGN feedback",
+  "grid": {
+   "width": 282,
+   "height": 284,
+   "reduction": 1,
+   "arcsec_per_pixel": 0.11010077435792447,
+   "reference_filter": "F1000W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F560W",
+    "center_nm": 5600.0,
+    "color": "#1a4cff",
+    "obs_id": "jw07802-o005_t007_miri_f560w-sub256",
+    "exposure_s": 444.006,
+    "product": "mast:JWST/product/jw07802-o005_t007_miri_f560w-sub256_i2d.fits"
+   },
+   {
+    "filter": "F1000W",
+    "center_nm": 10000.0,
+    "color": "#1aff33",
+    "obs_id": "jw07802-o005_t007_miri_f1000w-sub256",
+    "exposure_s": 444.006,
+    "product": "mast:JWST/product/jw07802-o005_t007_miri_f1000w-sub256_i2d.fits"
+   },
+   {
+    "filter": "F1130W",
+    "center_nm": 11300.0,
+    "color": "#ff1a1a",
+    "obs_id": "jw07802-o005_t007_miri_f1130w-sub256",
+    "exposure_s": 444.006,
+    "product": "mast:JWST/product/jw07802-o005_t007_miri_f1130w-sub256_i2d.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

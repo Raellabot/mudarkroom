@@ -1,0 +1,55 @@
+[
+ {
+  "picture": "s-ion3-17133-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST+HST",
+  "target": "ION3+ION3",
+  "proposal_id": "17133+17133",
+  "instrument": "WFC3/IR+WFC3/UVIS",
+  "title": "Mapping the morphology of the ionizing radiation from a LyC emitting galaxy at z=4.00",
+  "grid": {
+   "width": 1057,
+   "height": 1115,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.15847999999999954,
+   "reference_filter": "F814W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F390W",
+    "center_nm": 387.1,
+    "color": "#1a4cff",
+    "obs_id": "iex901010",
+    "exposure_s": 8514,
+    "product": "mast:HST/product/iex901010_drz.fits"
+   },
+   {
+    "filter": "F814W",
+    "center_nm": 831.9,
+    "color": "#1aff33",
+    "obs_id": "iex904010",
+    "exposure_s": 2448,
+    "product": "mast:HST/product/iex904010_drz.fits"
+   },
+   {
+    "filter": "F140W",
+    "center_nm": 1398.3,
+    "color": "#ff1a1a",
+    "obs_id": "iex905010",
+    "exposure_s": 2612,
+    "product": "mast:HST/product/iex905010_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

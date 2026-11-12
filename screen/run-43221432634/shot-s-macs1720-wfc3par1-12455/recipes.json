@@ -1,0 +1,55 @@
+[
+ {
+  "picture": "s-macs1720-wfc3par1-12455-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST+HST",
+  "target": "MACS1720-WFC3PAR1+MACS1720-WFC3PAR1",
+  "proposal_id": "12455+12455",
+  "instrument": "WFC3/IR+WFC3/UVIS",
+  "title": "Through a Lens, Darkly - New Constraints on the Fundamental Components of the Cosmos",
+  "grid": {
+   "width": 1031,
+   "height": 1096,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.15848000347614283,
+   "reference_filter": "F350LP"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F350LP",
+    "center_nm": 659.6,
+    "color": "#1a4cff",
+    "obs_id": "ibsya0idq",
+    "exposure_s": 616,
+    "product": "mast:HST/product/ibsya0idq_drz.fits"
+   },
+   {
+    "filter": "F125W",
+    "center_nm": 1249.0,
+    "color": "#1aff33",
+    "obs_id": "ibsya0i0q",
+    "exposure_s": 702.934448,
+    "product": "mast:HST/product/ibsya0i0q_drz.fits"
+   },
+   {
+    "filter": "F160W",
+    "center_nm": 1543.2,
+    "color": "#ff1a1a",
+    "obs_id": "hst_12455_a5_wfc3_ir_f160w_ibsya5",
+    "exposure_s": 1205.8714599999998,
+    "product": "mast:HST/product/hst_12455_a5_wfc3_ir_f160w_ibsya5_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

@@ -1,0 +1,55 @@
+[
+ {
+  "picture": "s-28-12335-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST+HST",
+  "target": "28+28",
+  "proposal_id": "12335+12335",
+  "instrument": "WFC3/IR+WFC3/UVIS",
+  "title": "IR Asterisms",
+  "grid": {
+   "width": 1031,
+   "height": 1096,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.15848000347614247,
+   "reference_filter": "F555W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F555W",
+    "center_nm": 550.4,
+    "color": "#1a4cff",
+    "obs_id": "iblva2qkq",
+    "exposure_s": 0.8,
+    "product": "mast:HST/product/iblva2qkq_drz.fits"
+   },
+   {
+    "filter": "F125W",
+    "center_nm": 1249.0,
+    "color": "#1aff33",
+    "obs_id": "iblvb2030",
+    "exposure_s": 2,
+    "product": "mast:HST/product/iblvb2030_drz.fits"
+   },
+   {
+    "filter": "F160W",
+    "center_nm": 1543.2,
+    "color": "#ff1a1a",
+    "obs_id": "iblva2040",
+    "exposure_s": 2,
+    "product": "mast:HST/product/iblva2040_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

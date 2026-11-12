@@ -1,0 +1,55 @@
+[
+ {
+  "picture": "s-wg0214-2105-15652-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST+HST",
+  "target": "WG0214-2105+WG0214-2105",
+  "proposal_id": "15652+15652",
+  "instrument": "WFC3/IR+WFC3/UVIS",
+  "title": "H0, the stellar initial mass function, and other dark matters from a large sample of quadruply imaged quasars",
+  "grid": {
+   "width": 737,
+   "height": 756,
+   "reduction": 2,
+   "arcsec_per_pixel": 0.2565000057220434,
+   "reference_filter": "F160W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F475X",
+    "center_nm": 513.9,
+    "color": "#1a4cff",
+    "obs_id": "idxoz3010",
+    "exposure_s": 792,
+    "product": "mast:HST/product/idxoz3010_drz.fits"
+   },
+   {
+    "filter": "F814W",
+    "center_nm": 831.9,
+    "color": "#1aff33",
+    "obs_id": "idxoz3020",
+    "exposure_s": 1428,
+    "product": "mast:HST/product/idxoz3020_drz.fits"
+   },
+   {
+    "filter": "F160W",
+    "center_nm": 1543.2,
+    "color": "#ff1a1a",
+    "obs_id": "hst_15652_03_wfc3_ir_f160w_idxo03",
+    "exposure_s": 2196.932374,
+    "product": "mast:HST/product/hst_15652_03_wfc3_ir_f160w_idxo03_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

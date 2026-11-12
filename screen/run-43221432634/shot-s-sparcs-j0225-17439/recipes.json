@@ -1,0 +1,55 @@
+[
+ {
+  "picture": "s-sparcs-j0225-17439-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "SPARCS-J0225",
+  "proposal_id": "17439",
+  "instrument": "WFC3/IR",
+  "title": "Skeletons in the Cluster: Unveiling the Stellar Mass Backbone of z=1.6 Galaxies",
+  "grid": {
+   "width": 1098,
+   "height": 992,
+   "reduction": 1,
+   "arcsec_per_pixel": 0.12824999999999942,
+   "reference_filter": "F105W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F105W",
+    "center_nm": 1052.7,
+    "color": "#1a4cff",
+    "obs_id": "ifa404010",
+    "exposure_s": 4724,
+    "product": "mast:HST/product/ifa404010_drz.fits"
+   },
+   {
+    "filter": "F140W",
+    "center_nm": 1398.3,
+    "color": "#1aff33",
+    "obs_id": "ifa401010",
+    "exposure_s": 2412,
+    "product": "mast:HST/product/ifa401010_drz.fits"
+   },
+   {
+    "filter": "F160W",
+    "center_nm": 1543.2,
+    "color": "#ff1a1a",
+    "obs_id": "ifa403010",
+    "exposure_s": 2411.749268,
+    "product": "mast:HST/product/ifa403010_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

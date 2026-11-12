@@ -1,0 +1,55 @@
+[
+ {
+  "picture": "s-irasf05187-1017-15241-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "IRASF05187-1017",
+  "proposal_id": "15241",
+  "instrument": "WFC3/IR",
+  "title": "Clumpy Star Formation in Local LIRGS",
+  "grid": {
+   "width": 1090,
+   "height": 963,
+   "reduction": 1,
+   "arcsec_per_pixel": 0.12825000286102234,
+   "reference_filter": "F160W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F110W",
+    "center_nm": 1148.8,
+    "color": "#1a4cff",
+    "obs_id": "idod15010",
+    "exposure_s": 172,
+    "product": "mast:HST/product/idod15010_drz.fits"
+   },
+   {
+    "filter": "F132N",
+    "center_nm": 1319.3,
+    "color": "#1aff33",
+    "obs_id": "idod15030",
+    "exposure_s": 2012,
+    "product": "mast:HST/product/idod15030_drz.fits"
+   },
+   {
+    "filter": "F160W",
+    "center_nm": 1543.2,
+    "color": "#ff1a1a",
+    "obs_id": "idod15020",
+    "exposure_s": 172,
+    "product": "mast:HST/product/idod15020_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

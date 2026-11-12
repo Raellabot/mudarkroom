@@ -1,0 +1,3 @@
+  page 1/1 rows so far 19 of 19
+JWST|Gz9p3|4530|NIRSPEC/IFU|2  rows=7  filters=['CLEAR;PRISM']
+JWST|Gz9p3|4530|MIRI/IMAGE|3  rows=6  filters=['F1000W', 'F560W', 'F770W']

@@ -1,0 +1,63 @@
+[
+ {
+  "picture": "s-sn2021gno-16922-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST+HST",
+  "target": "SN2021GNO+SN2021GNO",
+  "proposal_id": "16922+16922",
+  "instrument": "WFC3/IR+WFC3/UVIS",
+  "title": "Late-time Observations of Calcium-Rich Transient SN 2021gno",
+  "grid": {
+   "width": 1032,
+   "height": 1098,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.15847999999999524,
+   "reference_filter": "F555W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F555W",
+    "center_nm": 550.4,
+    "color": "#1a4cff",
+    "obs_id": "ietp03040",
+    "exposure_s": 1480,
+    "product": "mast:HST/product/ietp03040_drz.fits"
+   },
+   {
+    "filter": "F814W",
+    "center_nm": 831.9,
+    "color": "#1aff33",
+    "obs_id": "ietp03030",
+    "exposure_s": 840,
+    "product": "mast:HST/product/ietp03030_drz.fits"
+   },
+   {
+    "filter": "F110W",
+    "center_nm": 1148.8,
+    "color": "#ff800d",
+    "obs_id": "ietp02010",
+    "exposure_s": 1112,
+    "product": "mast:HST/product/ietp02010_drz.fits"
+   },
+   {
+    "filter": "F160W",
+    "center_nm": 1543.2,
+    "color": "#ff1a1a",
+    "obs_id": "ietp02020",
+    "exposure_s": 1212,
+    "product": "mast:HST/product/ietp02020_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

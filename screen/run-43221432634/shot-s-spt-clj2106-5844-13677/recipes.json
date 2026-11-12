@@ -1,0 +1,55 @@
+[
+ {
+  "picture": "s-spt-clj2106-5844-13677-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST+HST",
+  "target": "SPT-CLJ2106-5844+SPT-CLJ2106-5844",
+  "proposal_id": "13677+13677",
+  "instrument": "WFC3/IR+WFC3/UVIS",
+  "title": "See Change: Testing time-varying dark energy with z>1 supernovae and their massive cluster hosts",
+  "grid": {
+   "width": 1031,
+   "height": 1096,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.1584800034761422,
+   "reference_filter": "F814W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F814W",
+    "center_nm": 831.9,
+    "color": "#1a4cff",
+    "obs_id": "icn154kyq",
+    "exposure_s": 458,
+    "product": "mast:HST/product/icn154kyq_drz.fits"
+   },
+   {
+    "filter": "F105W",
+    "center_nm": 1052.7,
+    "color": "#1aff33",
+    "obs_id": "icn10e020",
+    "exposure_s": 900,
+    "product": "mast:HST/product/icn10e020_drz.fits"
+   },
+   {
+    "filter": "F140W",
+    "center_nm": 1398.3,
+    "color": "#ff1a1a",
+    "obs_id": "icn158010",
+    "exposure_s": 1050,
+    "product": "mast:HST/product/icn158010_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

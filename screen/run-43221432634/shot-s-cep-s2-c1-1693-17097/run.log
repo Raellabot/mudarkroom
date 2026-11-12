@@ -1,0 +1,6 @@
+[     0s] == s-cep-s2-c1-1693-17097: 3 filters: ['F555W', 'F814W', 'F160W']
+[     0s] F555W: 1030x1087 px at 0.0396 arcsec/px, 14 MB
+[     0s] F814W: file is 4.3 GB, over the 3.0 GB cap; this filter is left out
+[     0s] F160W: 6877x4776 px at 0.1283 arcsec/px, 394 MB
+[     0s] s-cep-s2-c1-1693-17097 failed: fewer than three filters can be used
+[     0s] done: 0 pictures

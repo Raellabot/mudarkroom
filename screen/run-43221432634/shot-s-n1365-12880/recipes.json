@@ -1,0 +1,55 @@
+[
+ {
+  "picture": "s-n1365-12880-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST+HST",
+  "target": "N1365+N1365",
+  "proposal_id": "12880+12880",
+  "instrument": "WFC3/IR+WFC3/UVIS",
+  "title": "The Hubble Constant: Completing HSTs Legacy with WFC3",
+  "grid": {
+   "width": 1031,
+   "height": 1096,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.1584800034761426,
+   "reference_filter": "F814W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F555W",
+    "center_nm": 550.4,
+    "color": "#1a4cff",
+    "obs_id": "ic1391b3q",
+    "exposure_s": 470,
+    "product": "mast:HST/product/ic1391b3q_drz.fits"
+   },
+   {
+    "filter": "F814W",
+    "center_nm": 831.9,
+    "color": "#1aff33",
+    "obs_id": "ic1392h2q",
+    "exposure_s": 590,
+    "product": "mast:HST/product/ic1392h2q_drz.fits"
+   },
+   {
+    "filter": "F160W",
+    "center_nm": 1543.2,
+    "color": "#ff1a1a",
+    "obs_id": "ic1390010",
+    "exposure_s": 1206,
+    "product": "mast:HST/product/ic1390010_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

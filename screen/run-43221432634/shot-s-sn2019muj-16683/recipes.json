@@ -1,0 +1,55 @@
+[
+ {
+  "picture": "s-sn2019muj-16683-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST+HST",
+  "target": "SN2019MUJ+SN2019MUJ",
+  "proposal_id": "16683+16683",
+  "instrument": "WFC3/IR+WFC3/UVIS",
+  "title": "Radioactive Stars: Bound Remnants from White Dwarf Supernovae",
+  "grid": {
+   "width": 1032,
+   "height": 1097,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.15847999999999923,
+   "reference_filter": "F555W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F555W",
+    "center_nm": 550.4,
+    "color": "#1a4cff",
+    "obs_id": "ien602020",
+    "exposure_s": 2360,
+    "product": "mast:HST/product/ien602020_drz.fits"
+   },
+   {
+    "filter": "F814W",
+    "center_nm": 831.9,
+    "color": "#1aff33",
+    "obs_id": "ien602010",
+    "exposure_s": 2368,
+    "product": "mast:HST/product/ien602010_drz.fits"
+   },
+   {
+    "filter": "F125W",
+    "center_nm": 1249.0,
+    "color": "#ff1a1a",
+    "obs_id": "ien602030",
+    "exposure_s": 2512,
+    "product": "mast:HST/product/ien602030_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

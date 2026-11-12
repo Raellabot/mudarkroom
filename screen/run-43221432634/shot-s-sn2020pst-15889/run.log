@@ -1,0 +1,22 @@
+[     0s] == s-sn2020pst-15889: 5 filters: ['F098M', 'F105W', 'F125W', 'F140W', 'F160W']
+[     0s] F098M: 1095x969 px at 0.1283 arcsec/px, 13 MB
+[     1s] F105W: 1095x969 px at 0.1283 arcsec/px, 13 MB
+[     1s] F125W: 1095x969 px at 0.1283 arcsec/px, 13 MB
+[     2s] F140W: 1095x969 px at 0.1283 arcsec/px, 13 MB
+[     2s] F160W: 1095x968 px at 0.1283 arcsec/px, 13 MB
+[     2s] grid from F140W: 1095x969 px (reduced 1x), 0.128 arcsec/px
+[     3s] downloaded ie5442020_drz.fits: 13 MB
+[     3s] F098M: aligned (reduced 1x), covers 95% of the grid
+[     4s] downloaded ie5442060_drz.fits: 13 MB
+[     4s] F105W: aligned (reduced 1x), covers 95% of the grid
+[     4s] downloaded ie5442070_drz.fits: 13 MB
+[     5s] F125W: aligned (reduced 1x), covers 91% of the grid
+[     5s] downloaded ie5442040_drz.fits: 13 MB
+[     5s] F140W: aligned (reduced 1x), covers 99% of the grid
+[     6s] downloaded ie5443010_drz.fits: 13 MB
+[     6s] F160W: aligned (reduced 1x), covers 92% of the grid
+[     7s] s-sn2020pst-15889: finishing steps applied: ['dense']
+[     7s] cropped to 984x886 px where 5 of 5 filters have data
+/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/astropy/visualization/lupton_rgb.py:645: RuntimeWarning: invalid value encountered in divide
+  fInorm = np.where(Int <= 0, 0, np.true_divide(fI, Int))
+[     7s] done: 1 pictures

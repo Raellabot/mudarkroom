@@ -1,0 +1,16 @@
+[     0s] == s-uvista-j-2-pvd-14895: 3 filters: ['F098M', 'F125W', 'F160W']
+[     0s] F098M: 1096x971 px at 0.1283 arcsec/px, 13 MB
+[     1s] F125W: 1095x971 px at 0.1283 arcsec/px, 13 MB
+[     1s] F160W: 1095x971 px at 0.1283 arcsec/px, 13 MB
+[     1s] grid from F098M: 1096x971 px (reduced 1x), 0.128 arcsec/px
+[     2s] downloaded iddu05030_drz.fits: 13 MB
+[     2s] F098M: aligned (reduced 1x), covers 99% of the grid
+[     3s] downloaded iddu05020_drz.fits: 13 MB
+[     3s] F125W: aligned (reduced 1x), covers 99% of the grid
+[     3s] downloaded iddu05010_drz.fits: 13 MB
+[     3s] F160W: aligned (reduced 1x), covers 99% of the grid
+[     4s] s-uvista-j-2-pvd-14895: finishing steps applied: ['dense']
+[     4s] cropped to 1071x965 px where 3 of 3 filters have data
+/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/astropy/visualization/lupton_rgb.py:645: RuntimeWarning: invalid value encountered in divide
+  fInorm = np.where(Int <= 0, 0, np.true_divide(fI, Int))
+[     4s] done: 1 pictures

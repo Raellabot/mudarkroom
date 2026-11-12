@@ -1,0 +1,71 @@
+[
+ {
+  "picture": "s-n11-field-9419-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "N11-FIELD",
+  "proposal_id": "9419",
+  "instrument": "ACS/WFC",
+  "title": "The Complete IMF of a Massive Young Cluster",
+  "grid": {
+   "width": 982,
+   "height": 987,
+   "reduction": 5,
+   "arcsec_per_pixel": 0.24999999999999117,
+   "reference_filter": "F550M"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F435W",
+    "center_nm": 425.0,
+    "color": "#1a4cff",
+    "obs_id": "j8dj07030",
+    "exposure_s": 466,
+    "product": "mast:HST/product/j8dj07030_drz.fits"
+   },
+   {
+    "filter": "F550M",
+    "center_nm": 558.0,
+    "color": "#00e6ff",
+    "obs_id": "hst_9419_07_acs_wfc_f550m_j8dj07",
+    "exposure_s": 1379,
+    "product": "mast:HST/product/hst_9419_07_acs_wfc_f550m_j8dj07_drc.fits"
+   },
+   {
+    "filter": "F658N",
+    "center_nm": 658.1,
+    "color": "#1aff33",
+    "obs_id": "j8dj07060",
+    "exposure_s": 813,
+    "product": "mast:HST/product/j8dj07060_drz.fits"
+   },
+   {
+    "filter": "F660N",
+    "center_nm": 659.0,
+    "color": "#ff800d",
+    "obs_id": "j8dj07040",
+    "exposure_s": 813,
+    "product": "mast:HST/product/j8dj07040_drz.fits"
+   },
+   {
+    "filter": "F814W",
+    "center_nm": 833.5,
+    "color": "#ff1a1a",
+    "obs_id": "j8dj07050",
+    "exposure_s": 467,
+    "product": "mast:HST/product/j8dj07050_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

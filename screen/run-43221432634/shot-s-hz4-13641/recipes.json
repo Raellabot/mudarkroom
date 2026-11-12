@@ -1,0 +1,55 @@
+[
+ {
+  "picture": "s-hz4-13641-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "HZ4",
+  "proposal_id": "13641",
+  "instrument": "WFC3/IR",
+  "title": "A Detailed Dynamical And Morphological Study Of 5<z<6 Star, Dust, and Galaxy Formation With ALMA And HST",
+  "grid": {
+   "width": 1131,
+   "height": 1046,
+   "reduction": 1,
+   "arcsec_per_pixel": 0.12825000286102203,
+   "reference_filter": "F105W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F105W",
+    "center_nm": 1052.7,
+    "color": "#1a4cff",
+    "obs_id": "icow04040",
+    "exposure_s": 2612,
+    "product": "mast:HST/product/icow04040_drz.fits"
+   },
+   {
+    "filter": "F125W",
+    "center_nm": 1249.0,
+    "color": "#1aff33",
+    "obs_id": "icow04050",
+    "exposure_s": 2712,
+    "product": "mast:HST/product/icow04050_drz.fits"
+   },
+   {
+    "filter": "F160W",
+    "center_nm": 1543.2,
+    "color": "#ff1a1a",
+    "obs_id": "icow04060",
+    "exposure_s": 2712,
+    "product": "mast:HST/product/icow04060_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

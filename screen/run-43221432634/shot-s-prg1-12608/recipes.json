@@ -1,0 +1,55 @@
+[
+ {
+  "picture": "s-prg1-12608-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST+HST",
+  "target": "PRG1+PRG1",
+  "proposal_id": "12608+12608",
+  "instrument": "WFC3/IR+WFC3/UVIS",
+  "title": "Small-scale Morphology and Continuum Colors of Giant Lya Nebulae",
+  "grid": {
+   "width": 746,
+   "height": 761,
+   "reduction": 2,
+   "arcsec_per_pixel": 0.2565000057220434,
+   "reference_filter": "F140W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F475W",
+    "center_nm": 475.8,
+    "color": "#1a4cff",
+    "obs_id": "ibrb01010",
+    "exposure_s": 8716,
+    "product": "mast:HST/product/ibrb01010_drz.fits"
+   },
+   {
+    "filter": "F814W",
+    "center_nm": 831.9,
+    "color": "#1aff33",
+    "obs_id": "ibrb02010",
+    "exposure_s": 11658,
+    "product": "mast:HST/product/ibrb02010_drz.fits"
+   },
+   {
+    "filter": "F140W",
+    "center_nm": 1398.3,
+    "color": "#ff1a1a",
+    "obs_id": "hst_12608_04_wfc3_ir_f140w_ibrb04",
+    "exposure_s": 11599.95025,
+    "product": "mast:HST/product/hst_12608_04_wfc3_ir_f140w_ibrb04_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

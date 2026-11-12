@@ -1,0 +1,3 @@
+  page 1/1 rows so far 58 of 58
+JWST|SN2024PXL|6580|NIRSPEC/SLIT|2  rows=12  filters=['F170LP;G235M', 'F290LP;G395M']
+JWST|SN2024PXL|6580|MIRI/IMAGE|3  rows=6  filters=['F1000W', 'F560W', 'F770W']

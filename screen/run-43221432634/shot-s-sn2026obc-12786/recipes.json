@@ -1,0 +1,63 @@
+[
+ {
+  "picture": "s-sn2026obc-12786-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "JWST",
+  "target": "SN2026OBC",
+  "proposal_id": "12786",
+  "instrument": "MIRI/IMAGE",
+  "title": "JWST Observations of Dust, Molecular Gas, Extended CSM, and the Innermost Ejecta in and around a Nearby Type Icn Supernova",
+  "grid": {
+   "width": 1200,
+   "height": 1117,
+   "reduction": 1,
+   "arcsec_per_pixel": 0.11092292165156471,
+   "reference_filter": "F1280W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F1130W",
+    "center_nm": 11300.0,
+    "color": "#1a4cff",
+    "obs_id": "jw12786-o004_t001_miri_f1130w",
+    "exposure_s": 277.504,
+    "product": "mast:JWST/product/jw12786-o004_t001_miri_f1130w_i2d.fits"
+   },
+   {
+    "filter": "F1280W",
+    "center_nm": 12800.0,
+    "color": "#1aff33",
+    "obs_id": "jw12786-o004_t001_miri_f1280w",
+    "exposure_s": 277.504,
+    "product": "mast:JWST/product/jw12786-o004_t001_miri_f1280w_i2d.fits"
+   },
+   {
+    "filter": "F1500W",
+    "center_nm": 15000.0,
+    "color": "#ff800d",
+    "obs_id": "jw12786-o004_t001_miri_f1500w",
+    "exposure_s": 277.504,
+    "product": "mast:JWST/product/jw12786-o004_t001_miri_f1500w_i2d.fits"
+   },
+   {
+    "filter": "F1800W",
+    "center_nm": 18000.0,
+    "color": "#ff1a1a",
+    "obs_id": "jw12786-o004_t001_miri_f1800w",
+    "exposure_s": 699.312,
+    "product": "mast:JWST/product/jw12786-o004_t001_miri_f1800w_i2d.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

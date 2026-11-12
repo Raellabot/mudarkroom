@@ -1,0 +1,55 @@
+[
+ {
+  "picture": "s-z7-giantlae-12265-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "Z7-GIANTLAE",
+  "proposal_id": "12265",
+  "instrument": "WFC3/IR",
+  "title": null,
+  "grid": {
+   "width": 730,
+   "height": 722,
+   "reduction": 2,
+   "arcsec_per_pixel": 0.2565000057220434,
+   "reference_filter": "F098M"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F098M",
+    "center_nm": 986.1,
+    "color": "#1a4cff",
+    "obs_id": "hst_12265_05_wfc3_ir_f098m_ibhi05",
+    "exposure_s": 7835.252927999999,
+    "product": "mast:HST/product/hst_12265_05_wfc3_ir_f098m_ibhi05_drz.fits"
+   },
+   {
+    "filter": "F125W",
+    "center_nm": 1249.0,
+    "color": "#1aff33",
+    "obs_id": "hst_12265_01_wfc3_ir_f125w_ibhi01",
+    "exposure_s": 6133.771124000003,
+    "product": "mast:HST/product/hst_12265_01_wfc3_ir_f125w_ibhi01_drz.fits"
+   },
+   {
+    "filter": "F160W",
+    "center_nm": 1543.2,
+    "color": "#ff1a1a",
+    "obs_id": "hst_12265_03_wfc3_ir_f160w_ibhi03",
+    "exposure_s": 7770.533808000004,
+    "product": "mast:HST/product/hst_12265_03_wfc3_ir_f160w_ibhi03_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

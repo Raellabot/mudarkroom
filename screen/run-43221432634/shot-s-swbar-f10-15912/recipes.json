@@ -1,0 +1,63 @@
+[
+ {
+  "picture": "s-swbar-f10-15912-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST+HST",
+  "target": "SWBAR-F10+SWBAR-F10",
+  "proposal_id": "15912+15912",
+  "instrument": "ACS/WFC+WFC3/UVIS",
+  "title": "Measuring the Star Formation Efficiency of Molecular Clouds in the Small Magellanic Cloud",
+  "grid": {
+   "width": 1052,
+   "height": 1074,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.19999999999999957,
+   "reference_filter": "F475W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F475W",
+    "center_nm": 470.0,
+    "color": "#1a4cff",
+    "obs_id": "je4t12020",
+    "exposure_s": 2210,
+    "product": "mast:HST/product/je4t12020_drz.fits"
+   },
+   {
+    "filter": "F547M",
+    "center_nm": 547.0,
+    "color": "#1aff33",
+    "obs_id": "ie4t10030",
+    "exposure_s": 900,
+    "product": "mast:HST/product/ie4t10030_drz.fits"
+   },
+   {
+    "filter": "F657N",
+    "center_nm": 657.1,
+    "color": "#ff800d",
+    "obs_id": "ie4t10040",
+    "exposure_s": 1800,
+    "product": "mast:HST/product/ie4t10040_drz.fits"
+   },
+   {
+    "filter": "F814W",
+    "center_nm": 833.5,
+    "color": "#ff1a1a",
+    "obs_id": "je4t12010",
+    "exposure_s": 2275,
+    "product": "mast:HST/product/je4t12010_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

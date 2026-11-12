@@ -1,0 +1,55 @@
+[
+ {
+  "picture": "s-spirits-16tn-14258-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST+HST",
+  "target": "SPIRITS-16TN+SPIRITS-16TN",
+  "proposal_id": "14258+14258",
+  "instrument": "WFC3/IR+WFC3/UVIS",
+  "title": "The Nature of SPIRITS Mid-Infrared Extragalactic Transients",
+  "grid": {
+   "width": 1031,
+   "height": 1092,
+   "reduction": 1,
+   "arcsec_per_pixel": 0.03962000086903563,
+   "reference_filter": "F814W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F814W",
+    "center_nm": 831.9,
+    "color": "#1a4cff",
+    "obs_id": "id2808010",
+    "exposure_s": 1425,
+    "product": "mast:HST/product/id2808010_drz.fits"
+   },
+   {
+    "filter": "F110W",
+    "center_nm": 1148.8,
+    "color": "#1aff33",
+    "obs_id": "id2808020",
+    "exposure_s": 738.2526869999999,
+    "product": "mast:HST/product/id2808020_drz.fits"
+   },
+   {
+    "filter": "F160W",
+    "center_nm": 1543.2,
+    "color": "#ff1a1a",
+    "obs_id": "id2808030",
+    "exposure_s": 403.06210200000004,
+    "product": "mast:HST/product/id2808030_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

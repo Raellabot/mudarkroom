@@ -1,0 +1,55 @@
+[
+ {
+  "picture": "s-pa30-4-9111-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "JWST",
+  "target": "Pa30-4",
+  "proposal_id": "9111",
+  "instrument": "MIRI/IMAGE",
+  "title": "An Infrared View of the Type Iax Supernova Remnant Pa 30",
+  "grid": {
+   "width": 1032,
+   "height": 1028,
+   "reduction": 1,
+   "arcsec_per_pixel": 0.11091851435301228,
+   "reference_filter": "F770W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F770W",
+    "center_nm": 7700.0,
+    "color": "#1a4cff",
+    "obs_id": "jw09111-o004_t004_miri_f770w",
+    "exposure_s": 2231.132,
+    "product": "mast:JWST/product/jw09111-o004_t004_miri_f770w_i2d.fits"
+   },
+   {
+    "filter": "F1280W",
+    "center_nm": 12800.0,
+    "color": "#1aff33",
+    "obs_id": "jw09111-o004_t004_miri_f1280w",
+    "exposure_s": 2231.132,
+    "product": "mast:JWST/product/jw09111-o004_t004_miri_f1280w_i2d.fits"
+   },
+   {
+    "filter": "F2550W",
+    "center_nm": 25500.0,
+    "color": "#ff1a1a",
+    "obs_id": "jw09111-o004_t004_miri_f2550w",
+    "exposure_s": 2231.132,
+    "product": "mast:JWST/product/jw09111-o004_t004_miri_f2550w_i2d.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

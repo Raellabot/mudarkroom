@@ -1,0 +1,63 @@
+[
+ {
+  "picture": "s-sn2024xuo-9251-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "JWST",
+  "target": "SN2024xuo",
+  "proposal_id": "9251",
+  "instrument": "MIRI/IMAGE",
+  "title": "Probing Pre-Existing Dust in SN 2024xuo with JWST: Insights into Massive Star Evolution",
+  "grid": {
+   "width": 1111,
+   "height": 1106,
+   "reduction": 1,
+   "arcsec_per_pixel": 0.11091254767239887,
+   "reference_filter": "F1500W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F1500W",
+    "center_nm": 15000.0,
+    "color": "#1a4cff",
+    "obs_id": "jw09251-o002_t001_miri_f1500w",
+    "exposure_s": 111,
+    "product": "mast:JWST/product/jw09251-o002_t001_miri_f1500w_i2d.fits"
+   },
+   {
+    "filter": "F1800W",
+    "center_nm": 18000.0,
+    "color": "#1aff33",
+    "obs_id": "jw09251-o002_t001_miri_f1800w",
+    "exposure_s": 111,
+    "product": "mast:JWST/product/jw09251-o002_t001_miri_f1800w_i2d.fits"
+   },
+   {
+    "filter": "F2100W",
+    "center_nm": 21000.0,
+    "color": "#ff800d",
+    "obs_id": "jw09251-o002_t001_miri_f2100w",
+    "exposure_s": 111,
+    "product": "mast:JWST/product/jw09251-o002_t001_miri_f2100w_i2d.fits"
+   },
+   {
+    "filter": "F2550W",
+    "center_nm": 25500.0,
+    "color": "#ff1a1a",
+    "obs_id": "jw09251-o002_t001_miri_f2550w",
+    "exposure_s": 111,
+    "product": "mast:JWST/product/jw09251-o002_t001_miri_f2550w_i2d.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

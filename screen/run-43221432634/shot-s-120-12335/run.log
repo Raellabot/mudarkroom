@@ -1,0 +1,19 @@
+[     0s] == s-120-12335: 4 filters: ['F555W', 'F105W', 'F125W', 'F160W']
+[     1s] F555W: 4125x4384 px at 0.0396 arcsec/px, 217 MB
+[     1s] F105W: 139x124 px at 0.1283 arcsec/px, 0 MB
+[     2s] F125W: 139x124 px at 0.1283 arcsec/px, 0 MB
+[     3s] F160W: 139x124 px at 0.1283 arcsec/px, 0 MB
+[     3s] grid from F555W: 1031x1096 px (reduced 4x), 0.158 arcsec/px
+[     8s] downloaded iblva3pmq_drz.fits: 217 MB
+[     8s] F555W: aligned (reduced 4x), covers 93% of the grid
+[     9s] downloaded iblv03090_drz.fits: 0 MB
+[     9s] F105W: aligned (reduced 1x), covers 1% of the grid
+[    10s] downloaded iblv03070_drz.fits: 0 MB
+[    10s] F125W: aligned (reduced 1x), covers 1% of the grid
+[    11s] downloaded iblv03080_drz.fits: 0 MB
+[    11s] F160W: aligned (reduced 1x), covers 1% of the grid
+[    11s] s-120-12335: finishing steps applied: ['dense']
+[    11s] cropped to 111x100 px where 4 of 4 filters have data
+/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/astropy/visualization/lupton_rgb.py:645: RuntimeWarning: invalid value encountered in divide
+  fInorm = np.where(Int <= 0, 0, np.true_divide(fI, Int))
+[    11s] done: 1 pictures

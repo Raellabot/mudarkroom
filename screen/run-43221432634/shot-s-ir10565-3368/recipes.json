@@ -1,0 +1,55 @@
+[
+ {
+  "picture": "s-ir10565-3368-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "JWST",
+  "target": "IR10565",
+  "proposal_id": "3368",
+  "instrument": "MIRI/IMAGE",
+  "title": "A JWST Survey of Ultraluminous Infrared Galaxies",
+  "grid": {
+   "width": 561,
+   "height": 562,
+   "reduction": 1,
+   "arcsec_per_pixel": 0.1100810646734454,
+   "reference_filter": "F560W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F560W",
+    "center_nm": 5600.0,
+    "color": "#1a4cff",
+    "obs_id": "jw03368-o019_t013_miri_f560w-brightsky",
+    "exposure_s": 888.012,
+    "product": "mast:JWST/product/jw03368-o019_t013_miri_f560w-brightsky_i2d.fits"
+   },
+   {
+    "filter": "F770W",
+    "center_nm": 7700.0,
+    "color": "#1aff33",
+    "obs_id": "jw03368-o019_t013_miri_f770w-brightsky",
+    "exposure_s": 888.012,
+    "product": "mast:JWST/product/jw03368-o019_t013_miri_f770w-brightsky_i2d.fits"
+   },
+   {
+    "filter": "F1500W",
+    "center_nm": 15000.0,
+    "color": "#ff1a1a",
+    "obs_id": "jw03368-o019_t013_miri_f1500w-brightsky",
+    "exposure_s": 888.012,
+    "product": "mast:JWST/product/jw03368-o019_t013_miri_f1500w-brightsky_i2d.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

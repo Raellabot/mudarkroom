@@ -1,0 +1,3 @@
+  page 1/1 rows so far 41 of 41
+JWST|VDB111|7772|NIRSPEC/IFU|2  rows=8  filters=['F290LP;G395M']
+JWST|VDB111|7772|MIRI/IMAGE|3  rows=3  filters=['F1000W', 'F1130W', 'F770W']

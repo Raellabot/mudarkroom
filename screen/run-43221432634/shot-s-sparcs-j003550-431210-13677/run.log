@@ -1,0 +1,16 @@
+[     0s] == s-sparcs-j003550-431210-13677: 3 filters: ['F814W', 'F105W', 'F140W']
+[     0s] F814W: 4125x4385 px at 0.0396 arcsec/px, 217 MB
+[     0s] F105W: 1091x966 px at 0.1283 arcsec/px, 13 MB
+[     0s] F140W: 1091x965 px at 0.1283 arcsec/px, 13 MB
+[     0s] grid from F814W: 1031x1096 px (reduced 4x), 0.158 arcsec/px
+[     2s] downloaded icn173z4q_drz.fits: 217 MB
+[     2s] F814W: aligned (reduced 4x), covers 93% of the grid
+[     2s] downloaded icn175020_drz.fits: 13 MB
+[     3s] F105W: aligned (reduced 1x), covers 60% of the grid
+[     3s] downloaded icn175010_drz.fits: 13 MB
+[     3s] F140W: aligned (reduced 1x), covers 60% of the grid
+[     4s] s-sparcs-j003550-431210-13677: finishing steps applied: ['dense']
+[     4s] cropped to 665x714 px where 3 of 3 filters have data
+/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/astropy/visualization/lupton_rgb.py:645: RuntimeWarning: invalid value encountered in divide
+  fInorm = np.where(Int <= 0, 0, np.true_divide(fI, Int))
+[     4s] done: 1 pictures

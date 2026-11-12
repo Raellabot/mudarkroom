@@ -1,0 +1,55 @@
+[
+ {
+  "picture": "s-ax-j1600-9-5142-5842-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "JWST",
+  "target": "AX-J1600.9-5142",
+  "proposal_id": "5842",
+  "instrument": "MIRI/IMAGE",
+  "title": "What lies beyond the inner spiral of Apep?",
+  "grid": {
+   "width": 602,
+   "height": 581,
+   "reduction": 2,
+   "arcsec_per_pixel": 0.22181738597151474,
+   "reference_filter": "F1500W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F770W",
+    "center_nm": 7700.0,
+    "color": "#1a4cff",
+    "obs_id": "jw05842-o001_t001_miri_f770w",
+    "exposure_s": 932.4120000000001,
+    "product": "mast:JWST/product/jw05842-o001_t001_miri_f770w_i2d.fits"
+   },
+   {
+    "filter": "F1500W",
+    "center_nm": 15000.0,
+    "color": "#1aff33",
+    "obs_id": "jw05842-o001_t001_miri_f1500w",
+    "exposure_s": 2464.236,
+    "product": "mast:JWST/product/jw05842-o001_t001_miri_f1500w_i2d.fits"
+   },
+   {
+    "filter": "F2550W",
+    "center_nm": 25500.0,
+    "color": "#ff1a1a",
+    "obs_id": "jw05842-o001_t001_miri_f2550w",
+    "exposure_s": 1631.724,
+    "product": "mast:JWST/product/jw05842-o001_t001_miri_f2550w_i2d.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

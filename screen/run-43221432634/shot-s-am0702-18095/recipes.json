@@ -1,0 +1,55 @@
+[
+ {
+  "picture": "s-am0702-18095-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "AM0702",
+  "proposal_id": "18095",
+  "instrument": "WFC3/IR",
+  "title": "The Hidden Engines That Could: Tracing Clump Formation and Evolution in the Hearts of Infrared-Luminous AGN Hosts",
+  "grid": {
+   "width": 1089,
+   "height": 963,
+   "reduction": 1,
+   "arcsec_per_pixel": 0.12824999999999906,
+   "reference_filter": "F110W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F110W",
+    "center_nm": 1148.8,
+    "color": "#1a4cff",
+    "obs_id": "ifoc16020",
+    "exposure_s": 171.744536,
+    "product": "mast:HST/product/ifoc16020_drz.fits"
+   },
+   {
+    "filter": "F132N",
+    "center_nm": 1319.3,
+    "color": "#1aff33",
+    "obs_id": "ifoc16010",
+    "exposure_s": 1611.734132,
+    "product": "mast:HST/product/ifoc16010_drz.fits"
+   },
+   {
+    "filter": "F160W",
+    "center_nm": 1543.2,
+    "color": "#ff1a1a",
+    "obs_id": "ifoc16030",
+    "exposure_s": 171.744536,
+    "product": "mast:HST/product/ifoc16030_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

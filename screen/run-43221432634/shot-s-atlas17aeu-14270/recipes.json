@@ -1,0 +1,55 @@
+[
+ {
+  "picture": "s-atlas17aeu-14270-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST+HST",
+  "target": "ATLAS17AEU+ATLAS17AEU",
+  "proposal_id": "14270+14270",
+  "instrument": "WFC3/IR+WFC3/UVIS",
+  "title": "The late time behaviour and environments of the first gravitational wave transients",
+  "grid": {
+   "width": 1032,
+   "height": 1097,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.1584799999999995,
+   "reference_filter": "F390W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F390W",
+    "center_nm": 387.1,
+    "color": "#1a4cff",
+    "obs_id": "idffab010",
+    "exposure_s": 2736,
+    "product": "mast:HST/product/idffab010_drz.fits"
+   },
+   {
+    "filter": "F606W",
+    "center_nm": 594.0,
+    "color": "#1aff33",
+    "obs_id": "idffaa010",
+    "exposure_s": 1460,
+    "product": "mast:HST/product/idffaa010_drz.fits"
+   },
+   {
+    "filter": "F140W",
+    "center_nm": 1398.3,
+    "color": "#ff1a1a",
+    "obs_id": "idffaa020",
+    "exposure_s": 1006,
+    "product": "mast:HST/product/idffaa020_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

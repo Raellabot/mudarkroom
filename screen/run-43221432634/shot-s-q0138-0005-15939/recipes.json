@@ -1,0 +1,55 @@
+[
+ {
+  "picture": "s-q0138-0005-15939-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST+HST",
+  "target": "Q0138-0005+Q0138-0005",
+  "proposal_id": "15939+15939",
+  "instrument": "WFC3/IR+WFC3/UVIS",
+  "title": "The stellar populations of gas-rich absorbing galaxies detected with VLT/MUSE and ALMA: the essential link to the baryon cycle",
+  "grid": {
+   "width": 1032,
+   "height": 1097,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.15848000347614175,
+   "reference_filter": "F475W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F475W",
+    "center_nm": 475.8,
+    "color": "#1a4cff",
+    "obs_id": "ie4i07010",
+    "exposure_s": 2367,
+    "product": "mast:HST/product/ie4i07010_drz.fits"
+   },
+   {
+    "filter": "F625W",
+    "center_nm": 627.4,
+    "color": "#1aff33",
+    "obs_id": "ie4i19010",
+    "exposure_s": 2364,
+    "product": "mast:HST/product/ie4i19010_drz.fits"
+   },
+   {
+    "filter": "F105W",
+    "center_nm": 1052.7,
+    "color": "#ff1a1a",
+    "obs_id": "ie4i20010",
+    "exposure_s": 2412,
+    "product": "mast:HST/product/ie4i20010_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

@@ -1,0 +1,16 @@
+[     0s] == s-atlas17aeu-14270: 3 filters: ['F390W', 'F606W', 'F140W']
+[     0s] F390W: 4131x4390 px at 0.0396 arcsec/px, 218 MB
+[     1s] F606W: 4130x4388 px at 0.0396 arcsec/px, 218 MB
+[     1s] F140W: 1088x964 px at 0.1283 arcsec/px, 13 MB
+[     1s] grid from F390W: 1032x1097 px (reduced 4x), 0.158 arcsec/px
+[     4s] downloaded idffab010_drz.fits: 218 MB
+[     5s] F390W: aligned (reduced 4x), covers 93% of the grid
+[     7s] downloaded idffaa010_drz.fits: 218 MB
+[     7s] F606W: aligned (reduced 3x), covers 93% of the grid
+[     8s] downloaded idffaa020_drz.fits: 13 MB
+[     8s] F140W: aligned (reduced 1x), covers 34% of the grid
+[     8s] s-atlas17aeu-14270: finishing steps applied: ['dense']
+[     8s] cropped to 628x545 px where 3 of 3 filters have data
+/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/astropy/visualization/lupton_rgb.py:645: RuntimeWarning: invalid value encountered in divide
+  fInorm = np.where(Int <= 0, 0, np.true_divide(fI, Int))
+[     8s] done: 1 pictures

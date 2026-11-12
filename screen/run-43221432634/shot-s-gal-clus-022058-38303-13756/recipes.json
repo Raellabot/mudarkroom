@@ -1,0 +1,55 @@
+[
+ {
+  "picture": "s-gal-clus-022058-38303-13756-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST+HST",
+  "target": "GAL-CLUS-022058-38303+GAL-CLUS-022058-38303",
+  "proposal_id": "13756+13756",
+  "instrument": "WFC3/IR+WFC3/UVIS",
+  "title": "Rings within Rings: High Resolution Imaging of a Spectacular Gravitational Lens",
+  "grid": {
+   "width": 1032,
+   "height": 1111,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.1584800034761428,
+   "reference_filter": "F775W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F555W",
+    "center_nm": 550.4,
+    "color": "#1a4cff",
+    "obs_id": "icmt01040",
+    "exposure_s": 1227,
+    "product": "mast:HST/product/icmt01040_drz.fits"
+   },
+   {
+    "filter": "F775W",
+    "center_nm": 772.8,
+    "color": "#1aff33",
+    "obs_id": "icmt01050",
+    "exposure_s": 1270,
+    "product": "mast:HST/product/icmt01050_drz.fits"
+   },
+   {
+    "filter": "F160W",
+    "center_nm": 1543.2,
+    "color": "#ff1a1a",
+    "obs_id": "icmt01060",
+    "exposure_s": 2812,
+    "product": "mast:HST/product/icmt01060_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

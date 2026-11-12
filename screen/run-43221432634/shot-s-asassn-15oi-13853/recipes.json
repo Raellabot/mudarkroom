@@ -1,0 +1,55 @@
+[
+ {
+  "picture": "s-asassn-15oi-13853-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST+HST",
+  "target": "ASASSN-15OI+ASASSN-15OI",
+  "proposal_id": "13853+13853",
+  "instrument": "WFC3/IR+WFC3/UVIS",
+  "title": "UV Spectroscopy of Newly Discovered Tidal Disruption Flares",
+  "grid": {
+   "width": 1032,
+   "height": 1097,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.15848000347613111,
+   "reference_filter": "F606W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F225W",
+    "center_nm": 236.8,
+    "color": "#1a4cff",
+    "obs_id": "icsg03020",
+    "exposure_s": 1146,
+    "product": "mast:HST/product/icsg03021_drz.fits"
+   },
+   {
+    "filter": "F606W",
+    "center_nm": 594.0,
+    "color": "#1aff33",
+    "obs_id": "icsg03010",
+    "exposure_s": 1200,
+    "product": "mast:HST/product/icsg03010_drz.fits"
+   },
+   {
+    "filter": "F160W",
+    "center_nm": 1543.2,
+    "color": "#ff1a1a",
+    "obs_id": "icsg03030",
+    "exposure_s": 2697.6992790000004,
+    "product": "mast:HST/product/icsg03030_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

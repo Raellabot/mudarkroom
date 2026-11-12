@@ -1,0 +1,22 @@
+[     0s] == s-47tucv6-14868: 5 filters: ['F775W', 'F850LP', 'F098M', 'F125W', 'F160W']
+[     1s] F775W: 4529x4279 px at 0.0396 arcsec/px, 233 MB
+[     1s] F850LP: 4453x4369 px at 0.0500 arcsec/px, 234 MB
+[     2s] F098M: 1278x1312 px at 0.1283 arcsec/px, 20 MB
+[     2s] F125W: 1278x1311 px at 0.1283 arcsec/px, 20 MB
+[     3s] F160W: 1279x1311 px at 0.1283 arcsec/px, 20 MB
+[     3s] grid from F850LP: 1113x1092 px (reduced 4x), 0.200 arcsec/px
+[     6s] downloaded hst_14868_01_wfc3_uvis_f775w_iddh01_drc.fits: 233 MB
+[     7s] F775W: aligned (reduced 5x), covers 54% of the grid
+[    10s] downloaded hst_14868_02_acs_wfc_f850lp_jddh02_drc.fits: 234 MB
+[    11s] F850LP: aligned (reduced 4x), covers 87% of the grid
+[    12s] downloaded hst_14868_04_wfc3_ir_f098m_iddh04_drz.fits: 20 MB
+[    12s] F098M: aligned (reduced 1x), covers 52% of the grid
+[    13s] downloaded hst_14868_05_wfc3_ir_f125w_iddh05_drz.fits: 20 MB
+[    13s] F125W: aligned (reduced 1x), covers 52% of the grid
+[    14s] downloaded hst_14868_03_wfc3_ir_f160w_iddh03_drz.fits: 20 MB
+[    14s] F160W: aligned (reduced 1x), covers 52% of the grid
+[    15s] s-47tucv6-14868: finishing steps applied: ['dense']
+[    15s] cropped to 763x777 px where 5 of 5 filters have data
+/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/astropy/visualization/lupton_rgb.py:645: RuntimeWarning: invalid value encountered in divide
+  fInorm = np.where(Int <= 0, 0, np.true_divide(fI, Int))
+[    15s] done: 1 pictures
