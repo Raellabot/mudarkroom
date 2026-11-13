@@ -1,0 +1,63 @@
+[
+ {
+  "picture": "s-um461-15860-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST+HST",
+  "target": "UM461+UM461",
+  "proposal_id": "15860+15860",
+  "instrument": "ACS/WFC+WFC3/UVIS",
+  "title": "Accretion-Triggered Starbursts in Tadpole Galaxies",
+  "grid": {
+   "width": 1084,
+   "height": 1079,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.1999999999999991,
+   "reference_filter": "F814W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F390W",
+    "center_nm": 387.1,
+    "color": "#1a4cff",
+    "obs_id": "ie0504010",
+    "exposure_s": 2535,
+    "product": "mast:HST/product/ie0504010_drz.fits"
+   },
+   {
+    "filter": "F547M",
+    "center_nm": 547.0,
+    "color": "#1aff33",
+    "obs_id": "ie0504020",
+    "exposure_s": 2568,
+    "product": "mast:HST/product/ie0504020_drz.fits"
+   },
+   {
+    "filter": "F657N",
+    "center_nm": 657.1,
+    "color": "#ff800d",
+    "obs_id": "ie0504030",
+    "exposure_s": 2562,
+    "product": "mast:HST/product/ie0504030_drz.fits"
+   },
+   {
+    "filter": "F814W",
+    "center_nm": 833.5,
+    "color": "#ff1a1a",
+    "obs_id": "je0508010",
+    "exposure_s": 2096,
+    "product": "mast:HST/product/je0508010_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

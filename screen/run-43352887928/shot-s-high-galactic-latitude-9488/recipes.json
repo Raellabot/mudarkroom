@@ -1,0 +1,55 @@
+[
+ {
+  "picture": "s-high-galactic-latitude-9488-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "HIGH-GALACTIC-LATITUDE",
+  "proposal_id": "9488",
+  "instrument": "ACS/WFC",
+  "title": null,
+  "grid": {
+   "width": 1187,
+   "height": 1187,
+   "reduction": 5,
+   "arcsec_per_pixel": 0.24999999999999117,
+   "reference_filter": "F475W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F475W",
+    "center_nm": 470.0,
+    "color": "#1a4cff",
+    "obs_id": "hst_9488_cx_acs_wfc_f475w_j8i0cx",
+    "exposure_s": 4201,
+    "product": "mast:HST/product/hst_9488_cx_acs_wfc_f475w_j8i0cx_drc.fits"
+   },
+   {
+    "filter": "F775W",
+    "center_nm": 775.0,
+    "color": "#1aff33",
+    "obs_id": "hst_9488_cx_acs_wfc_f775w_j8i0cx",
+    "exposure_s": 5280,
+    "product": "mast:HST/product/hst_9488_cx_acs_wfc_f775w_j8i0cx_drc.fits"
+   },
+   {
+    "filter": "F850LP",
+    "center_nm": 895.0,
+    "color": "#ff1a1a",
+    "obs_id": "hst_9488_cx_acs_wfc_f850lp_j8i0cx",
+    "exposure_s": 4921,
+    "product": "mast:HST/product/hst_9488_cx_acs_wfc_f850lp_j8i0cx_drc.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

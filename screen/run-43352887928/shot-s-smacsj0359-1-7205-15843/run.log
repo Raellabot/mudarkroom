@@ -1,0 +1,3 @@
+[     0s] == s-smacsj0359-1-7205-15843: 3 filters: ['F606W', 'F110W', 'F140W']
+[     0s] s-smacsj0359-1-7205-15843 failed: could not read the header of mast:HST/product/je281g010_drz.fits without downloading it
+[     0s] done: 0 pictures

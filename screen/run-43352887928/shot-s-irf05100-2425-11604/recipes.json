@@ -1,0 +1,55 @@
+[
+ {
+  "picture": "s-irf05100-2425-11604-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "IRF05100-2425",
+  "proposal_id": "11604",
+  "instrument": "ACS/WFC",
+  "title": "The Nuclear Structure of OH Megamaser Galaxies",
+  "grid": {
+   "width": 1053,
+   "height": 1060,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.1999999999999994,
+   "reference_filter": "F814W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "FR656N",
+    "center_nm": 656.1,
+    "color": "#1a4cff",
+    "obs_id": "jb6e11010",
+    "exposure_s": 600,
+    "product": "mast:HST/product/jb6e11010_drz.fits"
+   },
+   {
+    "filter": "F814W",
+    "center_nm": 833.5,
+    "color": "#1aff33",
+    "obs_id": "jb6e11020",
+    "exposure_s": 600,
+    "product": "mast:HST/product/jb6e11020_drz.fits"
+   },
+   {
+    "filter": "FR914M",
+    "center_nm": 914.2,
+    "color": "#ff1a1a",
+    "obs_id": "jb6e11bmq",
+    "exposure_s": 200,
+    "product": "mast:HST/product/jb6e11bmq_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

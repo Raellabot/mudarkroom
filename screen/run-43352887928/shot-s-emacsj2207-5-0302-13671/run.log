@@ -1,0 +1,4 @@
+[     0s] == s-emacsj2207-5-0302-13671: 4 filters: ['F606W', 'F814W', 'F110W', 'F140W']
+[     0s] F606W: 4227x4358 px at 0.0500 arcsec/px, 221 MB
+[     0s] s-emacsj2207-5-0302-13671 failed: could not read the header of mast:HST/product/jcoz88010_drz.fits without downloading it
+[     0s] done: 0 pictures

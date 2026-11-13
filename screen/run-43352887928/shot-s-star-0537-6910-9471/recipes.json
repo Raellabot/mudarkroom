@@ -1,0 +1,55 @@
+[
+ {
+  "picture": "s-star-0537-6910-9471-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "STAR-0537-6910",
+  "proposal_id": "9471",
+  "instrument": "ACS/WFC",
+  "title": "The Hunt for the Optical Counterpart of the Fastest Pulsar.",
+  "grid": {
+   "width": 1053,
+   "height": 1059,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.1999999999999981,
+   "reference_filter": "F435W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F435W",
+    "center_nm": 425.0,
+    "color": "#1a4cff",
+    "obs_id": "j8fg01010",
+    "exposure_s": 3200,
+    "product": "mast:HST/product/j8fg01011_drz.fits"
+   },
+   {
+    "filter": "F555W",
+    "center_nm": 545.0,
+    "color": "#1aff33",
+    "obs_id": "j8fg01020",
+    "exposure_s": 2800,
+    "product": "mast:HST/product/j8fg01021_drz.fits"
+   },
+   {
+    "filter": "F814W",
+    "center_nm": 833.5,
+    "color": "#ff1a1a",
+    "obs_id": "j8fg01030",
+    "exposure_s": 2800,
+    "product": "mast:HST/product/j8fg01031_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

@@ -1,0 +1,16 @@
+[     0s] == s-high-galactic-latitude-9488: 3 filters: ['F475W', 'F775W', 'F850LP']
+[     0s] F475W: 5935x5938 px at 0.0500 arcsec/px, 423 MB
+[     0s] F775W: 5935x5938 px at 0.0500 arcsec/px, 423 MB
+[     1s] F850LP: 5935x5938 px at 0.0500 arcsec/px, 423 MB
+[     1s] grid from F475W: 1187x1187 px (reduced 5x), 0.250 arcsec/px
+[     5s] downloaded hst_9488_cx_acs_wfc_f475w_j8i0cx_drc.fits: 423 MB
+[     6s] F475W: aligned (reduced 4x), covers 46% of the grid
+[     8s] downloaded hst_9488_cx_acs_wfc_f775w_j8i0cx_drc.fits: 423 MB
+[     9s] F775W: aligned (reduced 4x), covers 47% of the grid
+[    12s] downloaded hst_9488_cx_acs_wfc_f850lp_j8i0cx_drc.fits: 423 MB
+[    13s] F850LP: aligned (reduced 4x), covers 47% of the grid
+[    13s] s-high-galactic-latitude-9488: finishing steps applied: ['dense']
+[    13s] cropped to 606x546 px where 3 of 3 filters have data
+/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/astropy/visualization/lupton_rgb.py:645: RuntimeWarning: invalid value encountered in divide
+  fInorm = np.where(Int <= 0, 0, np.true_divide(fI, Int))
+[    13s] done: 1 pictures

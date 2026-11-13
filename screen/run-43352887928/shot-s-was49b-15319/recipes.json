@@ -1,0 +1,71 @@
+[
+ {
+  "picture": "s-was49b-15319-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST+HST+HST",
+  "target": "WAS49B+WAS49B+WAS49B",
+  "proposal_id": "15319+15319+15319",
+  "instrument": "ACS/WFC+WFC3/IR+WFC3/UVIS",
+  "title": "The HST View of Was 49b: An Overmassive AGN in a Merging Dwarf Galaxy?",
+  "grid": {
+   "width": 1032,
+   "height": 1097,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.15848000347614188,
+   "reference_filter": "F225W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F225W",
+    "center_nm": 236.8,
+    "color": "#1a4cff",
+    "obs_id": "idip51010",
+    "exposure_s": 1684,
+    "product": "mast:HST/product/idip51010_drz.fits"
+   },
+   {
+    "filter": "FR551N",
+    "center_nm": 550.7,
+    "color": "#00e6ff",
+    "obs_id": "jdip02010",
+    "exposure_s": 1084,
+    "product": "mast:HST/product/jdip02010_drz.fits"
+   },
+   {
+    "filter": "FR647M",
+    "center_nm": 647.0,
+    "color": "#1aff33",
+    "obs_id": "jdip02020",
+    "exposure_s": 440,
+    "product": "mast:HST/product/jdip02020_drz.fits"
+   },
+   {
+    "filter": "FR914M",
+    "center_nm": 914.2,
+    "color": "#ff800d",
+    "obs_id": "jdip02040",
+    "exposure_s": 440,
+    "product": "mast:HST/product/jdip02040_drz.fits"
+   },
+   {
+    "filter": "F160W",
+    "center_nm": 1543.2,
+    "color": "#ff1a1a",
+    "obs_id": "idip01020",
+    "exposure_s": 424,
+    "product": "mast:HST/product/idip01020_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

@@ -1,0 +1,22 @@
+[     0s] == s-was49b-15319: 5 filters: ['F225W', 'FR551N', 'FR647M', 'FR914M', 'F160W']
+[     1s] F225W: 4130x4388 px at 0.0396 arcsec/px, 218 MB
+[     1s] FR551N: 2089x2078 px at 0.0500 arcsec/px, 52 MB
+[     1s] FR647M: 2089x2078 px at 0.0500 arcsec/px, 52 MB
+[     2s] FR914M: 2130x2080 px at 0.0500 arcsec/px, 53 MB
+[     2s] F160W: 549x488 px at 0.1283 arcsec/px, 3 MB
+[     2s] grid from F225W: 1032x1097 px (reduced 4x), 0.158 arcsec/px
+[     5s] downloaded idip51010_drz.fits: 218 MB
+[     6s] F225W: aligned (reduced 4x), covers 93% of the grid
+[     7s] downloaded jdip02010_drz.fits: 52 MB
+[     7s] FR551N: aligned (reduced 3x), covers 34% of the grid
+[     8s] downloaded jdip02020_drz.fits: 52 MB
+[     8s] FR647M: aligned (reduced 3x), covers 34% of the grid
+[    10s] downloaded jdip02040_drz.fits: 53 MB
+[    10s] FR914M: aligned (reduced 3x), covers 34% of the grid
+[    10s] downloaded idip01020_drz.fits: 3 MB
+[    10s] F160W: aligned (reduced 1x), covers 15% of the grid
+[    11s] s-was49b-15319: finishing steps applied: ['dense']
+[    11s] cropped to 396x342 px where 5 of 5 filters have data
+/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/astropy/visualization/lupton_rgb.py:645: RuntimeWarning: invalid value encountered in divide
+  fInorm = np.where(Int <= 0, 0, np.true_divide(fI, Int))
+[    11s] done: 1 pictures

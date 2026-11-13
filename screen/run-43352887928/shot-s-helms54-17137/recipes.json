@@ -1,0 +1,63 @@
+[
+ {
+  "picture": "s-helms54-17137-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST+HST",
+  "target": "HELMS54+HELMS54",
+  "proposal_id": "17137+17137",
+  "instrument": "ACS/WFC+WFC3/IR",
+  "title": "Rise of the Titans: Stellar Properties of a Binary Hyper-Luminous Starburst Within the First Billion Years",
+  "grid": {
+   "width": 1055,
+   "height": 1075,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.19999999999999615,
+   "reference_filter": "F606W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F606W",
+    "center_nm": 595.0,
+    "color": "#1a4cff",
+    "obs_id": "jezl01010",
+    "exposure_s": 4283,
+    "product": "mast:HST/product/jezl01010_drz.fits"
+   },
+   {
+    "filter": "F098M",
+    "center_nm": 986.1,
+    "color": "#1aff33",
+    "obs_id": "iezl52010",
+    "exposure_s": 2512,
+    "product": "mast:HST/product/iezl52010_drz.fits"
+   },
+   {
+    "filter": "F125W",
+    "center_nm": 1249.0,
+    "color": "#ff800d",
+    "obs_id": "iezl02020",
+    "exposure_s": 2512,
+    "product": "mast:HST/product/iezl02020_drz.fits"
+   },
+   {
+    "filter": "F160W",
+    "center_nm": 1543.2,
+    "color": "#ff1a1a",
+    "obs_id": "iezl03010",
+    "exposure_s": 5212,
+    "product": "mast:HST/product/iezl03010_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

@@ -1,0 +1,55 @@
+[
+ {
+  "picture": "s-lozn2-9075-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "LOZN2",
+  "proposal_id": "9075",
+  "instrument": "ACS/WFC",
+  "title": "Cosmological Parameters from Type Ia Supernovae at High Redshift",
+  "grid": {
+   "width": 1053,
+   "height": 1059,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.19999999999999504,
+   "reference_filter": "F625W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F625W",
+    "center_nm": 625.0,
+    "color": "#1a4cff",
+    "obs_id": "j6fl4bstq",
+    "exposure_s": 600,
+    "product": "mast:HST/product/j6fl4bstq_drz.fits"
+   },
+   {
+    "filter": "F775W",
+    "center_nm": 775.0,
+    "color": "#1aff33",
+    "obs_id": "j6fl4e010",
+    "exposure_s": 2000,
+    "product": "mast:HST/product/j6fl4e011_drz.fits"
+   },
+   {
+    "filter": "F850LP",
+    "center_nm": 895.0,
+    "color": "#ff1a1a",
+    "obs_id": "j6fl4f010",
+    "exposure_s": 2100,
+    "product": "mast:HST/product/j6fl4f011_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

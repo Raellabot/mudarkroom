@@ -1,0 +1,55 @@
+[
+ {
+  "picture": "s-sn2009md-12559-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "SN2009MD",
+  "proposal_id": "12559",
+  "instrument": "ACS/WFC",
+  "title": "Stellar Forensics III: A post-explosion view of the progenitors of core-collapse supernovae",
+  "grid": {
+   "width": 1070,
+   "height": 1034,
+   "reduction": 1,
+   "arcsec_per_pixel": 0.04999999999999887,
+   "reference_filter": "F555W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F435W",
+    "center_nm": 425.0,
+    "color": "#1a4cff",
+    "obs_id": "jbq702020",
+    "exposure_s": 1072,
+    "product": "mast:HST/product/jbq702020_drz.fits"
+   },
+   {
+    "filter": "F555W",
+    "center_nm": 545.0,
+    "color": "#1aff33",
+    "obs_id": "jbq702030",
+    "exposure_s": 1700,
+    "product": "mast:HST/product/jbq702030_drz.fits"
+   },
+   {
+    "filter": "F814W",
+    "center_nm": 833.5,
+    "color": "#ff1a1a",
+    "obs_id": "jbq702010",
+    "exposure_s": 1536,
+    "product": "mast:HST/product/jbq702010_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

@@ -1,0 +1,15 @@
+  page 1/1 rows so far 32 of 32
+HST|WAS49B|15319|ACS|2  rows=16  filters=['None']
+HST|WAS49B|15319|WFC3/IR|3  rows=6  filters=['F160W', 'detection']
+HST|WAS49B|15319|WFC3/UVIS|3  rows=6  filters=['F225W', 'detection']
+HST|WAS49B|15319|ACS/WFC|3  rows=4  filters=['FR551N', 'FR647M', 'FR716N', 'FR914M']
+  page 1/1 rows so far 32 of 32
+HST|WAS49B|15319|ACS|2  rows=16  filters=['None']
+HST|WAS49B|15319|WFC3/IR|3  rows=6  filters=['F160W', 'detection']
+HST|WAS49B|15319|WFC3/UVIS|3  rows=6  filters=['F225W', 'detection']
+HST|WAS49B|15319|ACS/WFC|3  rows=4  filters=['FR551N', 'FR647M', 'FR716N', 'FR914M']
+  page 1/1 rows so far 32 of 32
+HST|WAS49B|15319|ACS|2  rows=16  filters=['None']
+HST|WAS49B|15319|WFC3/IR|3  rows=6  filters=['F160W', 'detection']
+HST|WAS49B|15319|WFC3/UVIS|3  rows=6  filters=['F225W', 'detection']
+HST|WAS49B|15319|ACS/WFC|3  rows=4  filters=['FR551N', 'FR647M', 'FR716N', 'FR914M']

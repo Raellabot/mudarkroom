@@ -1,0 +1,19 @@
+[     0s] == s-helms54-17137: 4 filters: ['F606W', 'F098M', 'F125W', 'F160W']
+[     0s] F606W: 4222x4302 px at 0.0500 arcsec/px, 218 MB
+[     0s] F098M: 1143x1013 px at 0.1282 arcsec/px, 14 MB
+[     0s] F125W: 1144x1013 px at 0.1282 arcsec/px, 14 MB
+[     1s] F160W: 1144x1013 px at 0.1282 arcsec/px, 14 MB
+[     1s] grid from F606W: 1055x1075 px (reduced 4x), 0.200 arcsec/px
+[     2s] downloaded jezl01010_drz.fits: 218 MB
+[     2s] F606W: aligned (reduced 4x), covers 93% of the grid
+[     3s] downloaded iezl52010_drz.fits: 14 MB
+[     3s] F098M: aligned (reduced 1x), covers 41% of the grid
+[     3s] downloaded iezl02020_drz.fits: 14 MB
+[     3s] F125W: aligned (reduced 1x), covers 41% of the grid
+[     3s] downloaded iezl03010_drz.fits: 14 MB
+[     3s] F160W: aligned (reduced 1x), covers 41% of the grid
+[     4s] s-helms54-17137: finishing steps applied: ['dense']
+[     4s] cropped to 476x467 px where 4 of 4 filters have data
+/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/astropy/visualization/lupton_rgb.py:645: RuntimeWarning: invalid value encountered in divide
+  fInorm = np.where(Int <= 0, 0, np.true_divide(fI, Int))
+[     4s] done: 1 pictures

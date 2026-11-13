@@ -1,0 +1,63 @@
+[
+ {
+  "picture": "s-spt-clj0512-3848-15937-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST+HST",
+  "target": "SPT-CLJ0512-3848+SPT-CLJ0512-3848",
+  "proposal_id": "15937+15937",
+  "instrument": "ACS/WFC+WFC3/IR",
+  "title": "Focusing The Next Generation of Extraordinary Cluster Lenses for JWST",
+  "grid": {
+   "width": 1055,
+   "height": 1075,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.19999999999999635,
+   "reference_filter": "F814W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F606W",
+    "center_nm": 595.0,
+    "color": "#1a4cff",
+    "obs_id": "je2z04010",
+    "exposure_s": 1843.647995,
+    "product": "mast:HST/product/je2z04010_drz.fits"
+   },
+   {
+    "filter": "F814W",
+    "center_nm": 833.5,
+    "color": "#1aff33",
+    "obs_id": "je2z04020",
+    "exposure_s": 2148.70401,
+    "product": "mast:HST/product/je2z04020_drz.fits"
+   },
+   {
+    "filter": "F105W",
+    "center_nm": 1052.7,
+    "color": "#ff800d",
+    "obs_id": "ie2z03010",
+    "exposure_s": 1212,
+    "product": "mast:HST/product/ie2z03010_drz.fits"
+   },
+   {
+    "filter": "F140W",
+    "center_nm": 1398.3,
+    "color": "#ff1a1a",
+    "obs_id": "ie2z03020",
+    "exposure_s": 1212,
+    "product": "mast:HST/product/ie2z03020_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

@@ -1,0 +1,19 @@
+[     0s] == s-sn2007fo-12170: 4 filters: ['F300X', 'F390W', 'F606W', 'F814W']
+[     1s] F300X: 4124x4385 px at 0.0396 arcsec/px, 217 MB
+[     1s] F390W: 4130x4389 px at 0.0396 arcsec/px, 218 MB
+[     2s] F606W: 4220x4243 px at 0.0500 arcsec/px, 215 MB
+[     3s] F814W: 4211x4238 px at 0.0500 arcsec/px, 214 MB
+[     3s] grid from F606W: 1055x1060 px (reduced 4x), 0.200 arcsec/px
+[     8s] downloaded ibhq02021_drz.fits: 217 MB
+[     8s] F300X: aligned (reduced 5x), covers 38% of the grid
+[    13s] downloaded ibhq02010_drz.fits: 218 MB
+[    13s] F390W: aligned (reduced 5x), covers 38% of the grid
+[    18s] downloaded jbhq01020_drz.fits: 215 MB
+[    18s] F606W: aligned (reduced 4x), covers 92% of the grid
+[    23s] downloaded jbhq01010_drz.fits: 214 MB
+[    24s] F814W: aligned (reduced 3x), covers 91% of the grid
+[    24s] s-sn2007fo-12170: finishing steps applied: ['dense']
+[    24s] cropped to 449x390 px where 4 of 4 filters have data
+/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/astropy/visualization/lupton_rgb.py:645: RuntimeWarning: invalid value encountered in divide
+  fInorm = np.where(Int <= 0, 0, np.true_divide(fI, Int))
+[    24s] done: 1 pictures

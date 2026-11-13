@@ -1,0 +1,55 @@
+[
+ {
+  "picture": "s-ddo82-10915-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "DDO82",
+  "proposal_id": "10915",
+  "instrument": "ACS/WFC",
+  "title": "ACS Nearby Galaxy Survey",
+  "grid": {
+   "width": 1057,
+   "height": 1089,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.1999999999999987,
+   "reference_filter": "F475W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F475W",
+    "center_nm": 470.0,
+    "color": "#1a4cff",
+    "obs_id": "j9ra1n010",
+    "exposure_s": 2400,
+    "product": "mast:HST/product/j9ra1n010_drz.fits"
+   },
+   {
+    "filter": "F606W",
+    "center_nm": 595.0,
+    "color": "#1aff33",
+    "obs_id": "j9ra1n030",
+    "exposure_s": 2454,
+    "product": "mast:HST/product/j9ra1n030_drz.fits"
+   },
+   {
+    "filter": "F814W",
+    "center_nm": 833.5,
+    "color": "#ff1a1a",
+    "obs_id": "j9ra1n020",
+    "exposure_s": 2442,
+    "product": "mast:HST/product/j9ra1n020_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

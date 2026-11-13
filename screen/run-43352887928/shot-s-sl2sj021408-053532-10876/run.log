@@ -1,0 +1,16 @@
+[     0s] == s-sl2sj021408-053532-10876: 3 filters: ['F475W', 'F606W', 'F814W']
+[     0s] F475W: 4208x4237 px at 0.0500 arcsec/px, 214 MB
+[     1s] F606W: 4213x4238 px at 0.0500 arcsec/px, 214 MB
+[     1s] F814W: 4214x4239 px at 0.0500 arcsec/px, 214 MB
+[     1s] grid from F814W: 1053x1059 px (reduced 4x), 0.200 arcsec/px
+[     4s] downloaded j9s802egq_drz.fits: 214 MB
+[     4s] F475W: aligned (reduced 4x), covers 91% of the grid
+[     7s] downloaded j9s802ehq_drz.fits: 214 MB
+[     8s] F606W: aligned (reduced 4x), covers 91% of the grid
+[    11s] downloaded j9s802ejq_drz.fits: 214 MB
+[    11s] F814W: aligned (reduced 4x), covers 92% of the grid
+[    12s] s-sl2sj021408-053532-10876: finishing steps applied: ['dense']
+[    12s] cropped to 1049x1028 px where 3 of 3 filters have data
+/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/astropy/visualization/lupton_rgb.py:645: RuntimeWarning: invalid value encountered in divide
+  fInorm = np.where(Int <= 0, 0, np.true_divide(fI, Int))
+[    12s] done: 1 pictures

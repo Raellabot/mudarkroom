@@ -1,0 +1,63 @@
+[
+ {
+  "picture": "s-emacsj0841-8-0429-15843-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST+HST",
+  "target": "EMACSJ0841.8-0429+EMACSJ0841.8-0429",
+  "proposal_id": "15843+15843",
+  "instrument": "ACS/WFC+WFC3/IR",
+  "title": "Beyond MACS: A Snapshot Survey of the Most Massive Clusters of Galaxies at z=0.5-1",
+  "grid": {
+   "width": 1056,
+   "height": 1090,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.1999999999999913,
+   "reference_filter": "F606W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F606W",
+    "center_nm": 595.0,
+    "color": "#1a4cff",
+    "obs_id": "je281s010",
+    "exposure_s": 1200,
+    "product": "mast:HST/product/je281s010_drz.fits"
+   },
+   {
+    "filter": "F814W",
+    "center_nm": 833.5,
+    "color": "#1aff33",
+    "obs_id": "je282c010",
+    "exposure_s": 1200,
+    "product": "mast:HST/product/je282c010_drz.fits"
+   },
+   {
+    "filter": "F110W",
+    "center_nm": 1148.8,
+    "color": "#ff800d",
+    "obs_id": "ie282m010",
+    "exposure_s": 706,
+    "product": "mast:HST/product/ie282m010_drz.fits"
+   },
+   {
+    "filter": "F140W",
+    "center_nm": 1398.3,
+    "color": "#ff1a1a",
+    "obs_id": "ie282m020",
+    "exposure_s": 706,
+    "product": "mast:HST/product/ie282m020_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

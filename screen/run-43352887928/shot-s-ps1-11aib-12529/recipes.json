@@ -1,0 +1,63 @@
+[
+ {
+  "picture": "s-ps1-11aib-12529-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST+HST",
+  "target": "PS1-11AIB+PS1-11AIB",
+  "proposal_id": "12529+12529",
+  "instrument": "ACS/WFC+WFC3/IR",
+  "title": "What Powers Natures Most Luminous Supernovae?",
+  "grid": {
+   "width": 1054,
+   "height": 1074,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.1999999999999988,
+   "reference_filter": "F625W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F625W",
+    "center_nm": 625.0,
+    "color": "#1a4cff",
+    "obs_id": "jbrs07010",
+    "exposure_s": 1000,
+    "product": "mast:HST/product/jbrs07010_drz.fits"
+   },
+   {
+    "filter": "F775W",
+    "center_nm": 775.0,
+    "color": "#1aff33",
+    "obs_id": "jbrs08020",
+    "exposure_s": 1160,
+    "product": "mast:HST/product/jbrs08020_drz.fits"
+   },
+   {
+    "filter": "F110W",
+    "center_nm": 1148.8,
+    "color": "#ff800d",
+    "obs_id": "ibrs06010",
+    "exposure_s": 1012,
+    "product": "mast:HST/product/ibrs06010_drz.fits"
+   },
+   {
+    "filter": "F160W",
+    "center_nm": 1543.2,
+    "color": "#ff1a1a",
+    "obs_id": "ibrs06020",
+    "exposure_s": 1012,
+    "product": "mast:HST/product/ibrs06020_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

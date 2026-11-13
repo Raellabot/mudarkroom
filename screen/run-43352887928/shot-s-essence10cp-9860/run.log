@@ -1,0 +1,16 @@
+[     0s] == s-essence10cp-9860: 3 filters: ['F625W', 'F775W', 'F850LP']
+[     0s] F625W: 538x572 px at 0.0500 arcsec/px, 4 MB
+[     1s] F775W: 538x572 px at 0.0500 arcsec/px, 4 MB
+[     1s] F850LP: 538x572 px at 0.0500 arcsec/px, 4 MB
+[     1s] grid from F625W: 538x572 px (reduced 1x), 0.050 arcsec/px
+[     1s] downloaded j8rcj1010_drz.fits: 4 MB
+[     1s] F625W: aligned (reduced 1x), covers 93% of the grid
+[     1s] downloaded j8rc95010_drz.fits: 4 MB
+[     2s] F775W: aligned (reduced 1x), covers 93% of the grid
+[     2s] downloaded j8rc94020_drz.fits: 4 MB
+[     2s] F850LP: aligned (reduced 1x), covers 93% of the grid
+[     2s] s-essence10cp-9860: finishing steps applied: ['dense']
+[     2s] cropped to 491x537 px where 3 of 3 filters have data
+/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/astropy/visualization/lupton_rgb.py:645: RuntimeWarning: invalid value encountered in divide
+  fInorm = np.where(Int <= 0, 0, np.true_divide(fI, Int))
+[     2s] done: 1 pictures

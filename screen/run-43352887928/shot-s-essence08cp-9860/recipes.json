@@ -1,0 +1,55 @@
+[
+ {
+  "picture": "s-essence08cp-9860-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "ESSENCE08CP",
+  "proposal_id": "9860",
+  "instrument": "ACS/WFC",
+  "title": "ESSENCE: Measuring the Dark Energy Equation of State",
+  "grid": {
+   "width": 538,
+   "height": 572,
+   "reduction": 1,
+   "arcsec_per_pixel": 0.04999999999999986,
+   "reference_filter": "F625W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F625W",
+    "center_nm": 625.0,
+    "color": "#1a4cff",
+    "obs_id": "j8rc72010",
+    "exposure_s": 500,
+    "product": "mast:HST/product/j8rc72010_drz.fits"
+   },
+   {
+    "filter": "F775W",
+    "center_nm": 775.0,
+    "color": "#1aff33",
+    "obs_id": "j8rc75010",
+    "exposure_s": 1000,
+    "product": "mast:HST/product/j8rc75010_drz.fits"
+   },
+   {
+    "filter": "F850LP",
+    "center_nm": 895.0,
+    "color": "#ff1a1a",
+    "obs_id": "j8rc73020",
+    "exposure_s": 1200,
+    "product": "mast:HST/product/j8rc73020_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

@@ -1,0 +1,63 @@
+[
+ {
+  "picture": "s-sn2007fo-12170-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST+HST",
+  "target": "SN2007FO+SN2007FO",
+  "proposal_id": "12170+12170",
+  "instrument": "ACS/WFC+WFC3/UVIS",
+  "title": "A direct UV search for the progenitor of the nearby type Ib SN 2007fo",
+  "grid": {
+   "width": 1055,
+   "height": 1060,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.19999999999999865,
+   "reference_filter": "F606W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F300X",
+    "center_nm": 292.8,
+    "color": "#1a4cff",
+    "obs_id": "ibhq02020",
+    "exposure_s": 760,
+    "product": "mast:HST/product/ibhq02021_drz.fits"
+   },
+   {
+    "filter": "F390W",
+    "center_nm": 387.1,
+    "color": "#1aff33",
+    "obs_id": "ibhq02010",
+    "exposure_s": 1472,
+    "product": "mast:HST/product/ibhq02010_drz.fits"
+   },
+   {
+    "filter": "F606W",
+    "center_nm": 595.0,
+    "color": "#ff800d",
+    "obs_id": "jbhq01020",
+    "exposure_s": 1360,
+    "product": "mast:HST/product/jbhq01020_drz.fits"
+   },
+   {
+    "filter": "F814W",
+    "center_nm": 833.5,
+    "color": "#ff1a1a",
+    "obs_id": "jbhq01010",
+    "exposure_s": 437,
+    "product": "mast:HST/product/jbhq01010_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

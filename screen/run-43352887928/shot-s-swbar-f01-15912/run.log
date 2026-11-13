@@ -1,0 +1,3 @@
+[     0s] == s-swbar-f01-15912: 4 filters: ['F475W', 'F547M', 'F657N', 'F814W']
+[     0s] s-swbar-f01-15912 failed: could not read the header of mast:HST/product/je4t01020_drz.fits without downloading it
+[     0s] done: 0 pictures
