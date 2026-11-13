@@ -52,7 +52,7 @@ jobs:
     timeout-minutes: 45
     strategy:
       fail-fast: false
-      max-parallel: 10
+      max-parallel: 20
       matrix: ${{ fromJson(needs.plan.outputs.matrix) }}
     env:
       CONTACT_INFO: ${{ secrets.CONTACT_INFO }}
