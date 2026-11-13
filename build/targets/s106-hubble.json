@@ -1,0 +1,57 @@
+{
+  "id": "s106-hubble",
+  "name": "Sh2-106 (Hubble)",
+  "blurb": "Sh2-106, a star-forming nebula, seen by Hubble.",
+  "label": "s106-hubble",
+  "spec": "HST|S106|12326|WFC3/UVIS|s106-hubble",
+  "find": [
+    "HST|12326|S106"
+  ],
+  "type": "Nebula",
+  "aliases": [
+    "S106",
+    "Sharpless 2-106",
+    "Snow Angel",
+    "IRS 4",
+    "S106 IR",
+    "bipolar nebula",
+    "star-forming region",
+    "nebula"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A massive young star, IRS 4, hidden in a dusty cocoon, blows out twin lobes of hot gas, while a ring of dust and gas pinches the nebula into an hourglass. The spread wings give this nebula its nickname, the celestial snow angel.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-13",
+    "claims": [
+      {
+        "text": "S106, also Sh2-106 or Sharpless 2-106, is a bipolar star-forming region",
+        "source": "https://science.nasa.gov/asset/hubble/star-forming-region-s106/"
+      },
+      {
+        "text": "A massive young star, IRS 4, drives it",
+        "source": "https://science.nasa.gov/asset/hubble/star-forming-region-s106/"
+      },
+      {
+        "text": "The central star, also called S106 IR, sits in a dusty cocoon",
+        "source": "https://science.nasa.gov/missions/hubble/hubble-serves-up-a-holiday-snow-angel"
+      },
+      {
+        "text": "Twin lobes of hot gas stretch from the central star",
+        "source": "https://science.nasa.gov/missions/hubble/hubble-serves-up-a-holiday-snow-angel"
+      },
+      {
+        "text": "A ring of dust and gas pinches the nebula into an hourglass",
+        "source": "https://science.nasa.gov/asset/hubble/star-forming-region-s106/"
+      },
+      {
+        "text": "It looks like a celestial snow angel",
+        "source": "https://science.nasa.gov/missions/hubble/hubble-serves-up-a-holiday-snow-angel"
+      }
+    ]
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "id": "gmpj0840-0529-webb",
+  "name": "J0840-0529 (Webb)",
+  "blurb": "J0840-0529, a dual quasar, seen by Webb.",
+  "label": "gmpj08400529-webb",
+  "spec": "JWST|GMPJ0840-0529|4204|NIRCAM/IMAGE|gmpj08400529-webb",
+  "find": [
+    "JWST|4204|GMPJ0840-0529"
+  ],
+  "type": "Black hole",
+  "aliases": [
+    "GMPJ0840-0529",
+    "dual quasar",
+    "dual AGN",
+    "quasar pair",
+    "active galaxy"
+  ],
+  "missions": [
+    "Webb"
+  ],
+  "story": "Two active galactic nuclei shine here, less than an arcsecond apart. Gaia first hinted at the pair, and spectra showed two distinct glowing cores rather than a single lensed one.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-13",
+    "claims": [
+      {
+        "text": "J0840-0529 is a dual AGN (two distinct quasars), not a lensed quasar",
+        "source": "https://arxiv.org/html/2305.11850v3"
+      },
+      {
+        "text": "The two components are separated by 0.385 arcseconds",
+        "source": "https://arxiv.org/html/2305.11850v3"
+      },
+      {
+        "text": "It was selected with the Gaia Multi Peak (GMP) technique",
+        "source": "https://arxiv.org/html/2305.11850v3"
+      },
+      {
+        "text": "MUSE adaptive-optics spectroscopy confirmed dual AGN among Gaia Multi Peak candidates",
+        "source": "https://arxiv.org/abs/2305.11850"
+      }
+    ]
+  }
+}

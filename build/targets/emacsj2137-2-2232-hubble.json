@@ -1,0 +1,41 @@
+{
+  "id": "emacsj2137-2-2232-hubble",
+  "name": "eMACS J2137.2-2232 (Hubble)",
+  "blurb": "eMACS J2137.2-2232, a massive, X-ray-luminous galaxy cluster, seen by Hubble.",
+  "label": "emacsj213722232-hubble",
+  "spec": "HST+HST|EMACSJ2137.2-2232+EMACSJ2137.2-2232|15132+15132|ACS/WFC+WFC3/IR|emacsj213722232-hubble",
+  "find": [
+    "HST|15132|EMACSJ2137.2-2232"
+  ],
+  "type": "Galaxy cluster",
+  "aliases": [
+    "eMACSJ2137.2-2232",
+    "EMACSJ2137.2-2232",
+    "galaxy cluster",
+    "cluster of galaxies"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A vast gathering of galaxies held together by gravity, among the most X-ray-luminous clusters of its era. Hubble took a snapshot of it in a hunt for the strongest cosmic lenses.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-13",
+    "claims": [
+      {
+        "text": "eMACS J2137.2-2232 is a highly X-ray-luminous galaxy cluster from the extended Massive Cluster Survey",
+        "source": "https://arxiv.org/html/2404.11659v1"
+      },
+      {
+        "text": "Target of a Hubble snapshot survey of the most massive clusters to find powerful lenses",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15132/"
+      },
+      {
+        "text": "Survey goal: identify the most powerful gravitational lenses at higher redshift",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/14098/"
+      }
+    ]
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "id": "kiso3867-hubble",
+  "name": "Kiso 3867 (Hubble)",
+  "blurb": "Kiso 3867, a metal-poor tadpole dwarf galaxy, seen by Hubble.",
+  "label": "kiso3867-hubble",
+  "spec": "HST+HST|KISO3867+KISO3867|15860+15860|ACS/WFC+WFC3/UVIS|kiso3867-hubble",
+  "find": [
+    "HST|15860|KISO3867"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "KISO3867",
+    "KUG 0937+298",
+    "KUG0937+298",
+    "tadpole galaxy",
+    "dwarf galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A small galaxy shaped like a tadpole, with its star formation crowded into a bright head. Astronomers think an inflow of fresh, nearly pristine gas set off this burst.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-13",
+    "claims": [
+      {
+        "text": "Kiso 3867 is a tadpole galaxy, a metal-poor dwarf with a dominant star-forming region, observed by Hubble",
+        "source": "https://ar5iv.labs.arxiv.org/html/2211.09292"
+      },
+      {
+        "text": "Alternate designation KUG0937+298",
+        "source": "https://ar5iv.labs.arxiv.org/html/2211.09292"
+      },
+      {
+        "text": "Star formation is prominent in its head",
+        "source": "https://ar5iv.labs.arxiv.org/html/2211.09292"
+      },
+      {
+        "text": "Accretion of metal-poor gas is thought to have stimulated the star formation",
+        "source": "https://ar5iv.labs.arxiv.org/html/2211.09292"
+      },
+      {
+        "text": "Tadpole galaxies have a giant star-forming region at the end of an elongated body",
+        "source": "https://ar5iv.arxiv.org/html/1203.2486"
+      }
+    ]
+  }
+}

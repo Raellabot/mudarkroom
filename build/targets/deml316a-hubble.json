@@ -1,0 +1,50 @@
+{
+  "id": "deml316a-hubble",
+  "name": "DEM L316A (Hubble)",
+  "blurb": "DEM L316A, the remnant of a supernova in the Large Magellanic Cloud, seen by Hubble.",
+  "label": "deml316a-hubble",
+  "spec": "HST|DEML316A|13282|WFC3/UVIS|deml316a-hubble",
+  "find": [
+    "HST|13282|DEML316A"
+  ],
+  "type": "Supernova remnant",
+  "aliases": [
+    "DEML316A",
+    "supernova remnant",
+    "nebula",
+    "Large Magellanic Cloud",
+    "LMC"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "These rippling wisps of gas are what remains of a star that exploded long ago. Astronomers think the blast was a Type Ia supernova, set off when a white dwarf took on more matter from a companion than it could hold.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-13",
+    "claims": [
+      {
+        "text": "DEM L316A is a supernova remnant (wisps of ionized gas)",
+        "source": "https://esahubble.org/images/potw1630a/"
+      },
+      {
+        "text": "It lies in the Large Magellanic Cloud",
+        "source": "https://www.esa.int/ESA_Multimedia/Images/2016/07/A_long-dead_star"
+      },
+      {
+        "text": "It formed in a Type Ia supernova",
+        "source": "https://www.esa.int/ESA_Multimedia/Images/2016/07/A_long-dead_star"
+      },
+      {
+        "text": "Type Ia: a white dwarf takes more material than it can handle from a companion",
+        "source": "https://esahubble.org/images/potw1630a/"
+      },
+      {
+        "text": "The pointing matches DEM L316A",
+        "source": "https://esahubble.org/images/potw1630a/"
+      }
+    ]
+  }
+}

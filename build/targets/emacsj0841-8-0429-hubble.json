@@ -1,0 +1,40 @@
+{
+  "id": "emacsj0841-8-0429-hubble",
+  "name": "eMACS J0841.8-0429 (Hubble)",
+  "blurb": "eMACS J0841.8-0429, a massive galaxy cluster, seen by Hubble.",
+  "label": "emacsj084180429-hubble",
+  "spec": "HST+HST|EMACSJ0841.8-0429+EMACSJ0841.8-0429|15843+15843|ACS/WFC+WFC3/IR|emacsj084180429-hubble",
+  "find": [
+    "HST|15843|EMACSJ0841.8-0429"
+  ],
+  "type": "Galaxy cluster",
+  "aliases": [
+    "eMACSJ0841.8-0429",
+    "galaxy cluster",
+    "cluster of galaxies"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A distant crowd of galaxies bound by gravity, found by its X-ray glow and imaged by Hubble in a hunt for the universe's most powerful natural lenses.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-13",
+    "claims": [
+      {
+        "text": "eMACS J0841.8-0429 is a galaxy cluster in the eMACS sample, with HST imaging in F606W, F814W, F110W, F140W",
+        "source": "https://arxiv.org/html/2404.11659v1"
+      },
+      {
+        "text": "eMACS (extended Massive Cluster Survey) is an X-ray selected survey for very massive distant clusters",
+        "source": "https://arxiv.org/html/2404.11659v1"
+      },
+      {
+        "text": "HST program 15843 snapshots the most X-ray luminous distant clusters to find the strongest gravitational lenses; eMACSJ0841.8-0429 is a target",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15843/"
+      }
+    ]
+  }
+}

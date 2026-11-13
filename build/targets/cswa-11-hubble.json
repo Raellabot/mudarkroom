@@ -1,0 +1,55 @@
+{
+  "id": "cswa-11-hubble",
+  "name": "CSWA 11 (Hubble)",
+  "blurb": "CSWA 11, a galaxy group acting as a gravitational lens, seen by Hubble.",
+  "label": "cswa11-hubble",
+  "spec": "HST|CSWA-11|14362|ACS/WFC|cswa11-hubble",
+  "find": [
+    "HST|14362|CSWA-11"
+  ],
+  "type": "Galaxy cluster",
+  "aliases": [
+    "SDSS J0800+0812",
+    "CASSOWARY 11",
+    "CSWA-11",
+    "gravitational lens",
+    "galaxy group",
+    "lensed galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "The gravity of this group of galaxies bends the light of a far more distant galaxy into an arc around its central galaxy. Astronomers studied it in a search for fossil groups, where one massive galaxy has come to dominate its neighbors.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-13",
+    "claims": [
+      {
+        "text": "CSWA 11 is the CASSOWARY lens SDSS J0800+0812, with a central lensing galaxy",
+        "source": "https://arxiv.org/pdf/1302.2663"
+      },
+      {
+        "text": "Hubble target CSWA-11 is at RA 08 00 13.06, Dec +08 12 08.4, matching the archive pointing",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/14362/"
+      },
+      {
+        "text": "The lensed galaxy appears as an arc and lies far behind the lens (source z = 1.408 vs lens z = 0.314)",
+        "source": "https://arxiv.org/pdf/1302.2663"
+      },
+      {
+        "text": "CSWA 11 is a lensing galaxy group",
+        "source": "https://arxiv.org/pdf/1711.06205"
+      },
+      {
+        "text": "The Hubble program searched for fossil group progenitors among CASSOWARY lenses",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/14362/"
+      },
+      {
+        "text": "A fossil group is one where a massive brightest galaxy dominates",
+        "source": "https://arxiv.org/pdf/1711.06205"
+      }
+    ]
+  }
+}

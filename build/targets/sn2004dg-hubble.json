@@ -1,0 +1,50 @@
+{
+  "id": "sn2004dg-hubble",
+  "name": "NGC 5806, host of SN 2004dg (Hubble)",
+  "blurb": "NGC 5806, a spiral galaxy that hosted supernova SN 2004dg, seen by Hubble.",
+  "label": "sn2004dg-hubble",
+  "spec": "HST|SN2004DG|10187|ACS/WFC|sn2004dg-hubble",
+  "find": [
+    "HST|10187|SN2004DG"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "SN 2004dg",
+    "SN2004DG",
+    "spiral galaxy",
+    "active galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Hubble returned to this spiral galaxy to pinpoint where the supernova SN 2004dg had exploded, comparing with images it had taken before the star blew up. At the galaxy's core, a supermassive black hole is pulling in large amounts of matter.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-13",
+    "claims": [
+      {
+        "text": "NGC 5806 is a spiral galaxy",
+        "source": "https://esahubble.org/images/potw1235a/"
+      },
+      {
+        "text": "It hosted SN 2004dg, which Hubble imaged to pinpoint its location",
+        "source": "https://esahubble.org/images/potw1235a/"
+      },
+      {
+        "text": "Hubble had pre-explosion images of the galaxy",
+        "source": "https://esahubble.org/images/potw1235a/"
+      },
+      {
+        "text": "It has an active nucleus with a supermassive black hole pulling in matter",
+        "source": "https://esahubble.org/images/potw1235a/"
+      },
+      {
+        "text": "Pointing matches NGC 5806",
+        "source": "https://esahubble.org/images/potw1235a/"
+      }
+    ]
+  }
+}

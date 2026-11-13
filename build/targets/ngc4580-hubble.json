@@ -1,0 +1,45 @@
+{
+  "id": "ngc4580-hubble",
+  "name": "NGC 4580 (Hubble)",
+  "blurb": "NGC 4580, a spiral galaxy, seen by Hubble.",
+  "label": "ngc4580-hubble",
+  "spec": "HST+HST|NGC4580+NGC4580|15133+15133|WFC3/IR+WFC3/UVIS|ngc4580-hubble",
+  "find": [
+    "HST|15133|NGC4580"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "NGC4580",
+    "spiral galaxy",
+    "Virgo Cluster galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "This Virgo Cluster spiral has lost the gas from its outer disk: stars still form inside a sharp boundary and not beyond it, yet its stellar disk, with faint spiral arms, carries on undisturbed.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-13",
+    "claims": [
+      {
+        "text": "NGC 4580 is a gas-stripped spiral galaxy in the Virgo Cluster",
+        "source": "https://arxiv.org/pdf/0807.3747"
+      },
+      {
+        "text": "Star formation is normal within a well-defined radius and absent beyond, with an undisturbed stellar disk",
+        "source": "https://arxiv.org/pdf/0807.3747"
+      },
+      {
+        "text": "It has stellar spiral arms beyond the truncation radius",
+        "source": "https://arxiv.org/pdf/0807.3747"
+      },
+      {
+        "text": "NGC4580 is a target of Hubble program 15133 on galaxy bulges",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15133/"
+      }
+    ]
+  }
+}

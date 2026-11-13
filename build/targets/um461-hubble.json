@@ -1,0 +1,47 @@
+{
+  "id": "um461-hubble",
+  "name": "UM 461 (Hubble)",
+  "blurb": "UM 461, a tadpole-shaped dwarf galaxy, seen by Hubble.",
+  "label": "um461-hubble",
+  "spec": "HST+HST|UM461+UM461|15860+15860|ACS/WFC+WFC3/UVIS|um461-hubble",
+  "find": [
+    "HST|15860|UM461"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "UM461",
+    "tadpole galaxy",
+    "dwarf galaxy",
+    "compact dwarf galaxy",
+    "starburst galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "UM 461 is a metal-poor dwarf whose star formation is concentrated in one bright head. A drop in metallicity there hints that even more metal-poor gas falling in set off the burst.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-13",
+    "claims": [
+      {
+        "text": "UM 461 is one of four nearby tadpole galaxies imaged by Hubble",
+        "source": "https://arxiv.org/abs/2211.09292"
+      },
+      {
+        "text": "Tadpole galaxies are metal-poor dwarfs with one dominant star-forming region",
+        "source": "https://arxiv.org/abs/2211.09292"
+      },
+      {
+        "text": "A metallicity drop in the head suggests accretion of lower-metallicity gas triggered star formation",
+        "source": "https://arxiv.org/abs/2211.09292"
+      },
+      {
+        "text": "UM461 is a compact dwarf target of program 15860 on accretion-triggered starbursts in tadpole galaxies",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15860/"
+      }
+    ]
+  }
+}

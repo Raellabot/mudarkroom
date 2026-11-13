@@ -1,0 +1,52 @@
+{
+  "id": "mrgp0918-webb",
+  "name": "PSZ1 G295.24-21.55 (Webb)",
+  "blurb": "PSZ1 G295.24-21.55, a galaxy cluster acting as a gravitational lens, seen by Webb.",
+  "label": "mrgp0918-webb",
+  "spec": "JWST|MRGP0918|4903|NIRCAM/IMAGE|mrgp0918-webb",
+  "find": [
+    "JWST|4903|MRGP0918"
+  ],
+  "type": "Galaxy cluster",
+  "aliases": [
+    "MRG-P0918",
+    "MRGP0918",
+    "PSZ1-G295.24-21.55",
+    "galaxy cluster",
+    "gravitational lens",
+    "lensed galaxy",
+    "quiescent galaxy"
+  ],
+  "missions": [
+    "Webb"
+  ],
+  "story": "The gravity of this galaxy cluster stretches and magnifies a far more distant galaxy behind it, MRG-P0918, one that had already stopped forming stars when the universe was young. The cluster also produces several other multiply imaged systems.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-13",
+    "claims": [
+      {
+        "text": "MRG-P0918 is magnified by the cluster PSZ1 G295.24-21.55",
+        "source": "https://arxiv.org/pdf/1806.06814"
+      },
+      {
+        "text": "MRG-P0918 is a lensed quiescent galaxy at z = 2.36, at 09:18:34.1 -81:03:08",
+        "source": "https://arxiv.org/pdf/1806.06814"
+      },
+      {
+        "text": "The image of MRG-P0918 is highly elongated (singly imaged)",
+        "source": "https://arxiv.org/pdf/1806.06814"
+      },
+      {
+        "text": "The cluster produces several multiple-image systems",
+        "source": "https://arxiv.org/pdf/1806.06814"
+      },
+      {
+        "text": "JWST program 4903 targets MRGP0918, one of four lensed quiescent galaxies observed within about 1 Gyr of quenching",
+        "source": "https://www.stsci.edu/jwst-program-info/download/jwst/pdf/4903/"
+      }
+    ]
+  }
+}

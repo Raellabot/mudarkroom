@@ -1,0 +1,50 @@
+{
+  "id": "smacsj0510-2-4519-hubble",
+  "name": "Abell 3322 (Hubble)",
+  "blurb": "Abell 3322, a massive galaxy cluster, seen by Hubble.",
+  "label": "smacsj051024519-hubble",
+  "spec": "HST+HST|SMACSJ0510.2-4519+SMACSJ0510.2-4519|16670+16670|ACS/WFC+WFC3/IR|smacsj051024519-hubble",
+  "find": [
+    "HST|16670|SMACSJ0510.2-4519"
+  ],
+  "type": "Galaxy cluster",
+  "aliases": [
+    "A3322",
+    "SMACS J0510.2-4519",
+    "SMACSJ0510.2-4519",
+    "2MASX J05101744-4519179",
+    "galaxy cluster"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A cosmic leviathan of galaxies that shines brightly in X-rays, with its brightest members lined up as if the cluster were still taking shape. Clusters like this act as gravitational telescopes, magnifying more distant objects behind them.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-13",
+    "claims": [
+      {
+        "text": "Abell 3322 is a massive galaxy cluster imaged by Hubble; central galaxy 2MASX J05101744-4519179 at RA 5 10 17.69, Dec -45 19 24.12 (matches the pointing)",
+        "source": "https://esahubble.org/images/potw2333a/"
+      },
+      {
+        "text": "It is highly luminous at X-ray wavelengths, a 'cosmic leviathan'",
+        "source": "https://esahubble.org/images/potw2333a/"
+      },
+      {
+        "text": "Its brightest cluster galaxies are aligned, suggesting the cluster is observed in formation",
+        "source": "https://esahubble.org/images/potw2333a/"
+      },
+      {
+        "text": "Clusters like this act as gravitational telescopes through lensing",
+        "source": "https://esahubble.org/images/potw2333a/"
+      },
+      {
+        "text": "SMACSJ0510.2-4519 is a target of Ebeling's snapshot survey of extreme clusters (program 16670)",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/16670/"
+      }
+    ]
+  }
+}

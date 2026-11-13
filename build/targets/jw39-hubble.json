@@ -1,0 +1,49 @@
+{
+  "id": "jw39-hubble",
+  "name": "JW39 (Hubble)",
+  "blurb": "JW39, a jellyfish galaxy, seen by Hubble.",
+  "label": "jw39-hubble",
+  "spec": "HST|JW39|16223|WFC3/UVIS|jw39-hubble",
+  "find": [
+    "HST|16223|JW39"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "IC 4141",
+    "jellyfish galaxy",
+    "spiral galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Drifting through the hot gas of a galaxy cluster, this galaxy is having its own gas swept back into long trailing ribbons. New stars are being born in those tendrils, much as they are in the galaxy's disk.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-13",
+    "claims": [
+      {
+        "text": "JW39 is a jellyfish galaxy",
+        "source": "https://esahubble.org/images/potw2321a/"
+      },
+      {
+        "text": "It lies in a galaxy cluster; ram-pressure stripping pulls gas into trailing ribbons of star formation",
+        "source": "https://science.nasa.gov/missions/hubble/hubble-captures-a-drifting-galaxy/"
+      },
+      {
+        "text": "Star formation in the tentacles is not noticeably different from the disk",
+        "source": "https://esahubble.org/images/potw2321a/"
+      },
+      {
+        "text": "Alias IC 4141",
+        "source": "https://esahubble.org/images/potw2321a/"
+      },
+      {
+        "text": "It is a spiral galaxy",
+        "source": "https://science.nasa.gov/missions/hubble/hubble-captures-a-drifting-galaxy/"
+      }
+    ]
+  }
+}

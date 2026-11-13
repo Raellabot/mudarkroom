@@ -1,0 +1,45 @@
+{
+  "id": "n7541-hubble",
+  "name": "NGC 7541 (Hubble)",
+  "blurb": "NGC 7541, a barred spiral galaxy, seen by Hubble.",
+  "label": "n7541-hubble",
+  "spec": "HST|N7541|15145|WFC3/UVIS|n7541-hubble",
+  "find": [
+    "HST|15145|N7541"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "N7541",
+    "barred spiral galaxy",
+    "spiral galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A barred spiral forming stars at a higher-than-usual rate, a hint that its bar funnels gas inward to feed new stars. With its nearby companion, NGC 7537, it makes up a pair of galaxies.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-13",
+    "claims": [
+      {
+        "text": "NGC 7541 is a barred spiral galaxy",
+        "source": "https://esahubble.org/images/potw2004a/"
+      },
+      {
+        "text": "It has a higher-than-usual star formation rate",
+        "source": "https://esahubble.org/images/potw2004a/"
+      },
+      {
+        "text": "Bars funnel material inward to make new stars",
+        "source": "https://esahubble.org/images/potw2004a/"
+      },
+      {
+        "text": "It forms a pair with companion NGC 7537",
+        "source": "https://esahubble.org/images/potw2004a/"
+      }
+    ]
+  }
+}

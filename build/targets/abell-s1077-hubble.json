@@ -1,0 +1,49 @@
+{
+  "id": "abell-s1077-hubble",
+  "name": "Abell S1077 (Hubble)",
+  "blurb": "Abell S1077, a galaxy cluster, seen by Hubble.",
+  "label": "abells1077-hubble",
+  "spec": "HST+HST|ABELL-S1077+ABELL-S1077|11591+11591|ACS/WFC+WFC3/IR|abells1077-hubble",
+  "find": [
+    "HST|11591|ABELL-S1077"
+  ],
+  "type": "Galaxy cluster",
+  "aliases": [
+    "AS1077",
+    "galaxy cluster",
+    "cluster of galaxies",
+    "gravitational lens"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A vast gathering of galaxies held together by its own gravity, so massive that it bends the light of galaxies far behind it. The thin streaks that look like scratches on a lens are those distant galaxies, stretched by the cluster's pull.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-13",
+    "claims": [
+      {
+        "text": "Abell S1077 is a galaxy cluster",
+        "source": "https://esahubble.org/images/potw1319a/"
+      },
+      {
+        "text": "Galaxy clusters are held together by their gravity",
+        "source": "https://esahubble.org/images/potw1319a/"
+      },
+      {
+        "text": "The cluster's mass bends light passing through it",
+        "source": "https://esahubble.org/images/potw1319a/"
+      },
+      {
+        "text": "Stretched streaks in the field are distant galaxies distorted by the cluster",
+        "source": "https://esahubble.org/images/potw1319a/"
+      },
+      {
+        "text": "Program 11591 targets ABELL-S1077 as one of its lensing clusters (AS1077 used as label)",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/11591/"
+      }
+    ]
+  }
+}

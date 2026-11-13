@@ -1,0 +1,51 @@
+{
+  "id": "ptf09ge-host-hubble",
+  "name": "Host galaxy of PTF09ge (Hubble)",
+  "blurb": "The host galaxy of PTF09ge, a barred lenticular galaxy where a star was torn apart by a black hole, seen by Hubble.",
+  "label": "ptf09gehost-hubble",
+  "spec": "HST|PTF09GE-HOST|14717|WFC3/UVIS|ptf09gehost-hubble",
+  "find": [
+    "HST|14717|PTF09GE-HOST"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "PTF09ge",
+    "PTF09GE-HOST",
+    "lenticular galaxy",
+    "barred lenticular galaxy",
+    "tidal disruption event",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "In this galaxy's core, a star passed too close to the central supermassive black hole and was ripped apart. Hubble's sharp eye traces extended arms reaching out from two knots in its disk.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-13",
+    "claims": [
+      {
+        "text": "PTF09ge likely arose from the tidal disruption of a star by a supermassive black hole",
+        "source": "https://ar5iv.arxiv.org/html/1405.1415"
+      },
+      {
+        "text": "A TDE is observed when a star passes close enough to a supermassive black hole",
+        "source": "https://arxiv.org/pdf/2002.02498"
+      },
+      {
+        "text": "The host of PTF09ge is a barred lenticular galaxy",
+        "source": "https://arxiv.org/pdf/2002.02498"
+      },
+      {
+        "text": "Its host shows extended arms reaching from two blue knots in the disk, in HST program 14717 imaging",
+        "source": "https://arxiv.org/pdf/2002.02498"
+      },
+      {
+        "text": "Program 14717 targeted the PTF09ge host as a post-starburst TDE host",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/14717/"
+      }
+    ]
+  }
+}

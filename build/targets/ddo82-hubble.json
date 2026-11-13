@@ -1,0 +1,50 @@
+{
+  "id": "ddo82-hubble",
+  "name": "DDO 82 (Hubble)",
+  "blurb": "DDO 82, a dwarf irregular galaxy, seen by Hubble.",
+  "label": "ddo82-hubble",
+  "spec": "HST|DDO82|10915|ACS/WFC|ddo82-hubble",
+  "find": [
+    "HST|10915|DDO82"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "UGC 5692",
+    "dwarf galaxy",
+    "dwarf irregular galaxy",
+    "Magellanic spiral",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A loose haze of stars in the M81 Group, DDO 82 still hints at spiral structure, though gravitational tugs from its neighbors have blurred it.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-13",
+    "claims": [
+      {
+        "text": "DDO 82 is a dwarf irregular galaxy, classified Sm (Magellanic spiral)",
+        "source": "https://esahubble.org/images/potw1226a/"
+      },
+      {
+        "text": "DDO 82 is also known as UGC 5692",
+        "source": "https://esahubble.org/images/potw1226a/"
+      },
+      {
+        "text": "DDO 82 is part of the M81 Group",
+        "source": "https://esahubble.org/images/potw1226a/"
+      },
+      {
+        "text": "It shows a hint of structure, made less evident by gravitational interactions",
+        "source": "https://esahubble.org/images/potw1226a/"
+      },
+      {
+        "text": "DDO 82 lies in Ursa Major",
+        "source": "https://esahubble.org/images/potw1226a/"
+      }
+    ]
+  }
+}

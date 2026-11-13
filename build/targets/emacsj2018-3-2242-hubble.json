@@ -1,0 +1,41 @@
+{
+  "id": "emacsj2018-3-2242-hubble",
+  "name": "eMACS J2018.3-2242 (Hubble)",
+  "blurb": "eMACS J2018.3-2242, a massive galaxy cluster, seen by Hubble.",
+  "label": "emacsj201832242-hubble",
+  "spec": "HST+HST|EMACSJ2018.3-2242+EMACSJ2018.3-2242|14098+14098|ACS/WFC+WFC3/IR|emacsj201832242-hubble",
+  "find": [
+    "HST|14098|EMACSJ2018.3-2242"
+  ],
+  "type": "Galaxy cluster",
+  "aliases": [
+    "EMACSJ2018.3-2242",
+    "eMACSJ2018.3-2242",
+    "galaxy cluster",
+    "X-ray luminous cluster"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A crowd of galaxies bound together by gravity, among the most massive clusters known at this great distance. Hubble surveyed it while searching for the universe's most powerful natural lenses.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-13",
+    "claims": [
+      {
+        "text": "eMACS J2018.3-2242 is a galaxy cluster in the eMACS sample of highly X-ray luminous clusters at z of about 0.5-0.9",
+        "source": "https://arxiv.org/html/2404.11659v1"
+      },
+      {
+        "text": "It was a target of a Hubble snapshot survey of the most massive galaxy clusters at z>0.5",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/14098/"
+      },
+      {
+        "text": "The survey aimed to find the most powerful gravitational lenses",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/14098/"
+      }
+    ]
+  }
+}

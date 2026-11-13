@@ -1,0 +1,57 @@
+{
+  "id": "iptf16fnl-hubble",
+  "name": "Mrk 950, host of iPTF16fnl (Hubble)",
+  "blurb": "Mrk 950, a post-starburst galaxy that hosted the tidal disruption event iPTF16fnl, seen by Hubble.",
+  "label": "iptf16fnl-hubble",
+  "spec": "HST|IPTF16FNL|17765|WFC3/UVIS|iptf16fnl-hubble",
+  "find": [
+    "HST|17765|IPTF16FNL"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "Markarian 950",
+    "Mrk 950",
+    "iPTF16fnl",
+    "IPTF16FNL",
+    "post-starburst galaxy",
+    "E+A galaxy",
+    "tidal disruption event",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "We see this galaxy nearly edge-on. In 2016 a star that strayed too close to its central black hole was torn apart by tidal forces, a flare astronomers named iPTF16fnl.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-13",
+    "claims": [
+      {
+        "text": "The host galaxy of iPTF16fnl is Markarian 950 (Mrk 950)",
+        "source": "https://ar5iv.labs.arxiv.org/html/1703.00965"
+      },
+      {
+        "text": "iPTF16fnl is a likely tidal disruption event discovered by the iPTF survey",
+        "source": "https://iopscience.iop.org/article/10.3847/1538-4357/aa7579"
+      },
+      {
+        "text": "A tidal disruption event is when a star is torn apart by tidal forces (of a black hole)",
+        "source": "https://ar5iv.labs.arxiv.org/html/1703.00965"
+      },
+      {
+        "text": "The host is a post-starburst (E+A) galaxy",
+        "source": "https://ar5iv.labs.arxiv.org/html/1703.00965"
+      },
+      {
+        "text": "The host is seen edge-on",
+        "source": "https://ar5iv.labs.arxiv.org/html/1703.00965"
+      },
+      {
+        "text": "Hubble program 17765 surveys tidal disruption event host galaxies and targeted iPTF16fnl",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/17765/"
+      }
+    ]
+  }
+}

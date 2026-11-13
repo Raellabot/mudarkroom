@@ -1,0 +1,47 @@
+{
+  "id": "lrg-4-606-hubble",
+  "name": "LRG-4-606 (Hubble)",
+  "blurb": "LRG-4-606, a luminous red galaxy at the core of a lensing galaxy cluster, seen by Hubble.",
+  "label": "lrg4606-hubble",
+  "spec": "HST|LRG-4-606|11602|WFC3/UVIS|lrg4606-hubble",
+  "find": [
+    "HST|11602|LRG-4-606"
+  ],
+  "type": "Galaxy cluster",
+  "aliases": [
+    "LRG 4-606",
+    "SDSS J090002.79+223403.6",
+    "luminous red galaxy",
+    "gravitational lens",
+    "lensed arc",
+    "galaxy cluster"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "The gravity of this massive galaxy and its neighbors warps space itself, stretching the light of far more distant galaxies into narrow arcs. Here the arcs happen to line up into a rare half-circle.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-13",
+    "claims": [
+      {
+        "text": "LRG-4-606 is a Luminous Red Galaxy surrounded by a galaxy cluster",
+        "source": "https://esahubble.org/images/potw1139a/"
+      },
+      {
+        "text": "Background galaxies are stretched into arcs by gravitational lensing; the arcs combine to form a half-circle",
+        "source": "https://esahubble.org/images/potw1139a/"
+      },
+      {
+        "text": "Program 11602 imaged LRG-4-606 as a UV-bright lensed arc system with a lensed galaxy at z about 2",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/11602/"
+      },
+      {
+        "text": "Same system catalogued as SDSS J090002.79+223403.6",
+        "source": "https://arxiv.org/pdf/0910.4600"
+      }
+    ]
+  }
+}

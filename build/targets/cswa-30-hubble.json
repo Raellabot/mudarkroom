@@ -1,0 +1,51 @@
+{
+  "id": "cswa-30-hubble",
+  "name": "CSWA 30 (Hubble)",
+  "blurb": "CSWA 30, a strong-lensing galaxy group on its way to becoming a fossil group, seen by Hubble.",
+  "label": "cswa30-hubble",
+  "spec": "HST|CSWA-30|14362|ACS/WFC|cswa30-hubble",
+  "find": [
+    "HST|14362|CSWA-30"
+  ],
+  "type": "Galaxy cluster",
+  "aliases": [
+    "CASSOWARY 30",
+    "CSWA-30",
+    "fossil group progenitor",
+    "galaxy group",
+    "gravitational lens",
+    "strong lens"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "This galaxy group bends the light of more distant galaxies with its gravity, and its members are still settling toward the center. In time they are expected to merge into one giant galaxy, leaving a lonely fossil group.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-13",
+    "claims": [
+      {
+        "text": "CSWA 30 is a galaxy group that is a fossil group progenitor",
+        "source": "https://arxiv.org/pdf/1806.06819"
+      },
+      {
+        "text": "It is a strong gravitational lens",
+        "source": "https://arxiv.org/pdf/1806.06819"
+      },
+      {
+        "text": "CSWA stands for the CASSOWARY catalog (CAmbridge Sloan Survey of Wide ARcs in the Sky)",
+        "source": "https://arxiv.org/pdf/1711.06205"
+      },
+      {
+        "text": "Fossil groups are thought to be the end state of groups whose bright members merge into one central elliptical",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/14362/"
+      },
+      {
+        "text": "These progenitors are in mid assembly of their brightest group galaxy, with merging environments at their centers",
+        "source": "https://arxiv.org/pdf/1806.06819"
+      }
+    ]
+  }
+}

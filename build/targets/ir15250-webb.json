@@ -1,0 +1,51 @@
+{
+  "id": "ir15250-webb",
+  "name": "IRAS 15250+3609 (Webb)",
+  "blurb": "IRAS 15250+3609, an ultraluminous infrared galaxy, seen by Webb.",
+  "label": "ir15250-webb",
+  "spec": "JWST|IR15250|3368|NIRCAM/IMAGE|ir15250-webb",
+  "find": [
+    "JWST|3368|IR15250"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "IR15250",
+    "ULIRG",
+    "ultraluminous infrared galaxy",
+    "interacting galaxies",
+    "OH megamaser",
+    "galaxy"
+  ],
+  "missions": [
+    "Webb"
+  ],
+  "story": "Most of this galaxy's light is hidden by dust and given off again as infrared, a hallmark of galaxies caught in mergers. Here a dwarf galaxy is falling into the host's core in a minor merger.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-13",
+    "claims": [
+      {
+        "text": "IRAS 15250+3609 is an ultraluminous infrared galaxy",
+        "source": "https://arxiv.org/pdf/0907.1236"
+      },
+      {
+        "text": "Webb program 3368 (A JWST Survey of Ultraluminous Infrared Galaxies) observed IR15250, an interacting infrared galaxy",
+        "source": "https://www.stsci.edu/jwst/phase2-public/3368.pdf"
+      },
+      {
+        "text": "ULIRGs emit most of their light from dust and are linked to galaxy mergers",
+        "source": "https://www.stsci.edu/jwst/phase2-public/3368.pdf"
+      },
+      {
+        "text": "A dwarf galaxy is falling into the host's nuclear region in a minor merger",
+        "source": "https://evlbi.org/evn-newsletter/january-2026/iras152503609-minor-merger-revealed-oh-megamaser"
+      },
+      {
+        "text": "It hosts an OH megamaser",
+        "source": "https://evlbi.org/evn-newsletter/january-2026/iras152503609-minor-merger-revealed-oh-megamaser"
+      }
+    ]
+  }
+}

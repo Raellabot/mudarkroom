@@ -1,0 +1,42 @@
+{
+  "id": "lrg-3-817-hubble",
+  "name": "LRG-3-817 (Hubble)",
+  "blurb": "LRG-3-817, a distant galaxy stretched into a long arc by a foreground galaxy cluster, seen by Hubble.",
+  "label": "lrg3817-hubble",
+  "spec": "HST|LRG-3-817|11602|WFC3/UVIS|lrg3817-hubble",
+  "find": [
+    "HST|11602|LRG-3-817"
+  ],
+  "type": "Galaxy cluster",
+  "aliases": [
+    "SDSS J090122.37+181432.3",
+    "SDSS J0901+1814",
+    "gravitational lens",
+    "lensed galaxy",
+    "galaxy cluster"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "The gravity of a foreground galaxy cluster bends and magnifies the light of a far more distant galaxy, drawing it out into a long arc beside the cluster's center.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-13",
+    "claims": [
+      {
+        "text": "LRG-3-817, also known as SDSS J090122.37+181432.3, is a galaxy stretched into an arc by a foreground cluster",
+        "source": "https://science.nasa.gov/missions/hubble/hubble-spies-galaxy-through-cosmic-lens"
+      },
+      {
+        "text": "ESA/Hubble image of LRG-3-817 shows a long arc beside the central galaxy cluster",
+        "source": "https://esahubble.org/images/potw2045a/"
+      },
+      {
+        "text": "The arc is a lensed background galaxy far behind a central luminous red galaxy in a cluster",
+        "source": "https://arxiv.org/pdf/0910.4600"
+      }
+    ]
+  }
+}

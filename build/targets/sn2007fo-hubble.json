@@ -1,0 +1,52 @@
+{
+  "id": "sn2007fo-hubble",
+  "name": "NGC 7714, host of SN 2007fo (Hubble)",
+  "blurb": "NGC 7714, a starburst spiral galaxy that hosted the supernova SN 2007fo, seen by Hubble.",
+  "label": "sn2007fo-hubble",
+  "spec": "HST+HST|SN2007FO+SN2007FO|12170+12170|ACS/WFC+WFC3/UVIS|sn2007fo-hubble",
+  "find": [
+    "HST|12170|SN2007FO"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "Arp 284",
+    "SN 2007fo",
+    "SN2007FO",
+    "starburst galaxy",
+    "spiral galaxy",
+    "interacting galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A spiral galaxy bursting with new stars after a close brush with its neighbor NGC 7715, which pulled out a ring and long tails of stars. In 2007 a massive star exploded near its nucleus as the Type Ib supernova SN 2007fo.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-13",
+    "claims": [
+      {
+        "text": "SN 2007fo, a type Ib supernova, exploded in NGC 7714",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/12170/"
+      },
+      {
+        "text": "SN 2007fo was found in the nucleus of NGC 7714 in 2007 and is type Ib",
+        "source": "https://w.astro.berkeley.edu/bait/2007/sn2007fo.html"
+      },
+      {
+        "text": "NGC 7714 is a spiral, Wolf-Rayet starburst galaxy",
+        "source": "https://esahubble.org/news/heic1503/"
+      },
+      {
+        "text": "NGC 7714 and NGC 7715 interacted; the pair is Arp 284",
+        "source": "https://esahubble.org/news/heic1503/"
+      },
+      {
+        "text": "A ring and two long tails of stars emerged from NGC 7714",
+        "source": "https://esahubble.org/news/heic1503/"
+      }
+    ]
+  }
+}

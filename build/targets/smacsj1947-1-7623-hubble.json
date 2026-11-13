@@ -1,0 +1,36 @@
+{
+  "id": "smacsj1947-1-7623-hubble",
+  "name": "SMACS J1947.1-7623 (Hubble)",
+  "blurb": "SMACS J1947.1-7623, a massive galaxy cluster, seen by Hubble.",
+  "label": "smacsj194717623-hubble",
+  "spec": "HST+HST|SMACSJ1947.1-7623+SMACSJ1947.1-7623|16670+16670|ACS/WFC+WFC3/IR|smacsj194717623-hubble",
+  "find": [
+    "HST|16670|SMACSJ1947.1-7623"
+  ],
+  "type": "Galaxy cluster",
+  "aliases": [
+    "SMACSJ1947.1-7623",
+    "galaxy cluster",
+    "cluster of galaxies"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Hubble took quick snapshots of extreme, X-ray-bright galaxy clusters like this one, hunting for new gravitational lenses that magnify the distant universe.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-13",
+    "claims": [
+      {
+        "text": "SMACSJ1947.1-7623 is a target of Hubble program 16670, a snapshot survey of extreme galaxy clusters",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/16670/"
+      },
+      {
+        "text": "The survey targets highly X-ray luminous clusters and aims to find new gravitational lenses",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/16670/"
+      }
+    ]
+  }
+}

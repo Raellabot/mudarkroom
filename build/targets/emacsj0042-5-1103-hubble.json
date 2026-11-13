@@ -1,0 +1,41 @@
+{
+  "id": "emacsj0042-5-1103-hubble",
+  "name": "eMACS J0042.5-1103 (Hubble)",
+  "blurb": "eMACS J0042.5-1103, a massive galaxy cluster, seen by Hubble.",
+  "label": "emacsj004251103-hubble",
+  "spec": "HST+HST|EMACSJ0042.5-1103+EMACSJ0042.5-1103|14098+14098|ACS/WFC+WFC3/IR|emacsj004251103-hubble",
+  "find": [
+    "HST|14098|EMACSJ0042.5-1103"
+  ],
+  "type": "Galaxy cluster",
+  "aliases": [
+    "eMACSJ0042.5-1103",
+    "EMACSJ0042.5-1103",
+    "galaxy cluster",
+    "cluster of galaxies"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Found in an all-sky X-ray survey as one of the most X-ray-luminous galaxy clusters, this cluster looks highly disturbed rather than settled.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-13",
+    "claims": [
+      {
+        "text": "eMACS J0042.5-1103 is one of the eMACS galaxy clusters",
+        "source": "https://arxiv.org/html/2404.11659v1"
+      },
+      {
+        "text": "eMACS clusters are highly X-ray luminous clusters discovered in ROSAT All-Sky Survey data",
+        "source": "https://arxiv.org/html/2404.11659v1"
+      },
+      {
+        "text": "Its morphology is classed as highly disturbed",
+        "source": "https://arxiv.org/html/2404.11659v1"
+      }
+    ]
+  }
+}

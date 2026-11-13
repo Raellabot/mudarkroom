@@ -1,0 +1,50 @@
+{
+  "id": "lrg-3-757-hubble",
+  "name": "LRG 3-757 (Hubble)",
+  "blurb": "LRG 3-757, a massive galaxy bending a more distant galaxy into an Einstein ring, seen by Hubble.",
+  "label": "lrg3757-hubble",
+  "spec": "HST|LRG-3-757|11602|WFC3/UVIS|lrg3757-hubble",
+  "find": [
+    "HST|11602|LRG-3-757"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "Cosmic Horseshoe",
+    "Einstein ring",
+    "gravitational lens",
+    "luminous red galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "The gravity of a massive galaxy magnifies and warps the light of a far more distant galaxy into a nearly complete ring. The alignment is so exact that the system is nicknamed the Cosmic Horseshoe.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-13",
+    "claims": [
+      {
+        "text": "LRG 3-757 is one of the Luminous Red Galaxies, with an unusually large mass",
+        "source": "https://esahubble.org/images/potw1151a/"
+      },
+      {
+        "text": "A background galaxy is magnified and warped into a nearly complete ring",
+        "source": "https://esahubble.org/images/potw1151a/"
+      },
+      {
+        "text": "The lensed galaxy forms an Einstein ring requiring exact alignment",
+        "source": "https://science.nasa.gov/image-detail/einstein-ring-lrg-3-757/"
+      },
+      {
+        "text": "The system's nickname is the Cosmic Horseshoe",
+        "source": "https://science.nasa.gov/image-detail/einstein-ring-lrg-3-757/"
+      },
+      {
+        "text": "Program 11602 targets LRG-3-757, a strongly lensed star-forming galaxy",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/11602/"
+      }
+    ]
+  }
+}

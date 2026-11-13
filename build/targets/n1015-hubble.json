@@ -1,0 +1,58 @@
+{
+  "id": "n1015-hubble",
+  "name": "NGC 1015, host of SN 2009ig (Hubble)",
+  "blurb": "NGC 1015, a barred spiral galaxy, seen by Hubble.",
+  "label": "n1015-hubble",
+  "spec": "HST|N1015|12880|WFC3/UVIS|n1015-hubble",
+  "find": [
+    "HST|12880|N1015"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "N1015",
+    "SN 2009ig",
+    "barred spiral galaxy",
+    "spiral galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A barred spiral seen face-on, its smooth, tightly wound arms swirling out from a ring around a central bar of gas and stars. In 2009 a Type Ia supernova, SN 2009ig, flared here, the kind of exploding white dwarf astronomers use to measure distances across the Universe.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-13",
+    "claims": [
+      {
+        "text": "NGC 1015 is a barred spiral galaxy",
+        "source": "https://esahubble.org/images/potw1811a/"
+      },
+      {
+        "text": "Seen face-on",
+        "source": "https://esahubble.org/images/potw1811a/"
+      },
+      {
+        "text": "Smooth, tightly wound arms and a central bar of gas and stars",
+        "source": "https://esahubble.org/images/potw1811a/"
+      },
+      {
+        "text": "Arms swirl out from a ring encircling the bar",
+        "source": "https://esahubble.org/images/potw1811a/"
+      },
+      {
+        "text": "Type Ia supernova SN 2009ig was spotted in NGC 1015 in 2009",
+        "source": "https://esahubble.org/images/potw1811a/"
+      },
+      {
+        "text": "Type Ia supernovae are exploding white dwarfs used to measure distances",
+        "source": "https://esahubble.org/images/potw1811a/"
+      },
+      {
+        "text": "Program 12880 target N1015 is NGC 1015, with alternate name SN09IG",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/12880/"
+      }
+    ]
+  }
+}

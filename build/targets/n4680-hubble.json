@@ -1,0 +1,45 @@
+{
+  "id": "n4680-hubble",
+  "name": "NGC 4680, host of SN 1997bp (Hubble)",
+  "blurb": "NGC 4680, a spiral galaxy, seen by Hubble.",
+  "label": "n4680-hubble",
+  "spec": "HST|N4680|15640|WFC3/UVIS|n4680-hubble",
+  "find": [
+    "HST|15640|N4680"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "SN 1997bp",
+    "spiral galaxy",
+    "lenticular galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "NGC 4680's spiral arms are faint and loosely defined, so it is sometimes classed as a lenticular galaxy instead. In 1997 it hosted a supernova, SN 1997bp, spotted by an amateur astronomer.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-13",
+    "claims": [
+      {
+        "text": "NGC 4680 is a spiral galaxy, sometimes classified as lenticular",
+        "source": "https://esahubble.org/images/potw2123a/"
+      },
+      {
+        "text": "Its spiral arms are not clearly defined",
+        "source": "https://esahubble.org/images/potw2123a/"
+      },
+      {
+        "text": "NGC 4680 hosted SN 1997bp in 1997, identified by amateur astronomer Robert Evans",
+        "source": "https://esahubble.org/images/potw2123a/"
+      },
+      {
+        "text": "N4680 is a spiral-galaxy target of program 15640 (Cepheid/SN Ia host calibration)",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15640/"
+      }
+    ]
+  }
+}

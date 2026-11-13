@@ -1,0 +1,37 @@
+{
+  "id": "spt-clj0512-3848-hubble",
+  "name": "SPT-CL J0512-3848 (Hubble)",
+  "blurb": "SPT-CL J0512-3848, a massive galaxy cluster, seen by Hubble.",
+  "label": "sptclj05123848-hubble",
+  "spec": "HST+HST|SPT-CLJ0512-3848+SPT-CLJ0512-3848|15937+15937|ACS/WFC+WFC3/IR|sptclj05123848-hubble",
+  "find": [
+    "HST|15937|SPT-CLJ0512-3848"
+  ],
+  "type": "Galaxy cluster",
+  "aliases": [
+    "SPT-CLJ0512-3848",
+    "galaxy cluster",
+    "gravitational lens",
+    "cluster of galaxies"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "This massive galaxy cluster showed signs of strong gravitational lensing, so Hubble studied it as a candidate natural telescope for magnifying far more distant galaxies.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-13",
+    "claims": [
+      {
+        "text": "SPT-CL J0512-3848 is a cluster of galaxies and gravitational lens targeted by Hubble",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15937/"
+      },
+      {
+        "text": "The program observed new massive clusters with strong lensing evidence to calibrate them as cosmic telescopes for JWST",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15937/"
+      }
+    ]
+  }
+}

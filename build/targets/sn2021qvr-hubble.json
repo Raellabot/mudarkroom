@@ -1,0 +1,59 @@
+{
+  "id": "sn2021qvr-hubble",
+  "name": "NGC 7678, host of SN 2021qvr (Hubble)",
+  "blurb": "NGC 7678, a spiral galaxy, seen by Hubble.",
+  "label": "sn2021qvr-hubble",
+  "spec": "HST|SN2021QVR|16874|WFC3/UVIS|sn2021qvr-hubble",
+  "find": [
+    "HST|16874|SN2021QVR"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "Arp 28",
+    "SN 2021qvr",
+    "AT2021qvr",
+    "ATLAS21zqo",
+    "spiral galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A bright spiral with one heavy arm, listed as Arp 28 in the Atlas of Peculiar Galaxies. In 2021 an extremely rare Type II-L supernova, SN 2021qvr, exploded here, and Hubble followed up to pin down the star that gave rise to it.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-13",
+    "claims": [
+      {
+        "text": "NGC 7678 is a bright spiral galaxy",
+        "source": "https://esahubble.org/images/potw2112a/"
+      },
+      {
+        "text": "Catalogued as Arp 28 among spiral galaxies with one heavy arm",
+        "source": "https://esahubble.org/images/potw2112a/"
+      },
+      {
+        "text": "SN 2021qvr is in NGC 7678",
+        "source": "https://www.physics.purdue.edu/brightsupernovae/sn2021/sn2021qvr.html"
+      },
+      {
+        "text": "AT2021qvr / ATLAS21zqo was discovered in NGC 7678 in 2021",
+        "source": "https://ui.adsabs.harvard.edu/abs/2021TNSAN.175....1S"
+      },
+      {
+        "text": "SN 2021qvr is an extremely rare Type II-L supernova",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/16874/"
+      },
+      {
+        "text": "The Hubble program studies the progenitor candidate in pre-explosion imaging",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/16874/"
+      },
+      {
+        "text": "Program 16874 target position matches the supernova in NGC 7678",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/16874/"
+      }
+    ]
+  }
+}

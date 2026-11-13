@@ -1,0 +1,41 @@
+{
+  "id": "n7329-hubble",
+  "name": "NGC 7329 (Hubble)",
+  "blurb": "NGC 7329, a barred spiral galaxy, seen by Hubble.",
+  "label": "n7329-hubble",
+  "spec": "HST|N7329|15640|WFC3/UVIS|n7329-hubble",
+  "find": [
+    "HST|15640|N7329"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "N7329",
+    "spiral galaxy",
+    "barred spiral galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A stellar whirlpool with a bar of stars across its center. Hubble studied it for a program designed to refine the Hubble constant, the rate at which the universe is expanding.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-13",
+    "claims": [
+      {
+        "text": "NGC 7329 is a barred spiral galaxy, a 'stellar whirlpool'",
+        "source": "https://science.nasa.gov/?p=885335"
+      },
+      {
+        "text": "NGC 7329 is a spiral galaxy imaged by Hubble's WFC3",
+        "source": "https://esahubble.org/images/potw2149a/"
+      },
+      {
+        "text": "Observed as part of a program designed to help refine the Hubble Constant",
+        "source": "https://science.nasa.gov/?p=885335"
+      }
+    ]
+  }
+}

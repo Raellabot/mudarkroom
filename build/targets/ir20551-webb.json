@@ -1,0 +1,49 @@
+{
+  "id": "ir20551-webb",
+  "name": "IRAS 20551-4250 (Webb)",
+  "blurb": "IRAS 20551-4250, an ultraluminous infrared galaxy formed by two colliding galaxies, seen by Webb.",
+  "label": "ir20551-webb",
+  "spec": "JWST|IR20551|3368|NIRCAM/IMAGE|ir20551-webb",
+  "find": [
+    "JWST|3368|IR20551"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "ESO 286-19",
+    "ESO 286-IG019",
+    "IR20551",
+    "ultraluminous infrared galaxy",
+    "ULIRG",
+    "galaxy merger",
+    "interacting galaxies",
+    "galaxy"
+  ],
+  "missions": [
+    "Webb"
+  ],
+  "story": "Two disk galaxies have crashed together and are merging into one, flinging out tidal tails as they go. The tangled system blazes in infrared light.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-13",
+    "claims": [
+      {
+        "text": "IRAS 20551-4250 is an ultraluminous infrared galaxy (ULIRG)",
+        "source": "https://arxiv.org/abs/2604.18671"
+      },
+      {
+        "text": "Also named ESO 286-19 or ESO 286-IG019; called IR20551",
+        "source": "https://arxiv.org/pdf/2604.18671"
+      },
+      {
+        "text": "It is a late-stage merger with tidal tails",
+        "source": "https://arxiv.org/pdf/2604.18671"
+      },
+      {
+        "text": "It formed from two disc galaxies now colliding and is an exceptionally luminous infrared source",
+        "source": "https://esahubble.org/images/heic0810cj/"
+      }
+    ]
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "id": "n2608-hubble",
+  "name": "NGC 2608, host of SN 2001bg (Hubble)",
+  "blurb": "NGC 2608, a barred spiral galaxy, seen by Hubble.",
+  "label": "n2608-hubble",
+  "spec": "HST|N2608|15145|WFC3/UVIS|n2608-hubble",
+  "find": [
+    "HST|15145|N2608"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "N2608",
+    "SN 2001bg",
+    "barred spiral galaxy",
+    "spiral galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Arm-like structures sweep around the central bar of this barred spiral, a slightly stretched, smaller cousin of our Milky Way. It hosted the Type Ia supernova SN 2001bg, which made it a target for refining the cosmic distance scale.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-13",
+    "claims": [
+      {
+        "text": "NGC 2608 is a barred spiral galaxy",
+        "source": "https://esahubble.org/images/potw2023a/"
+      },
+      {
+        "text": "It appears as a slightly stretched, smaller version of the Milky Way",
+        "source": "https://esahubble.org/images/potw2023a/"
+      },
+      {
+        "text": "Its arms are anchored by a prominent central bar",
+        "source": "https://science.nasa.gov/?p=21938"
+      },
+      {
+        "text": "SN 2001bg occurred in NGC 2608",
+        "source": "https://ui.adsabs.harvard.edu/abs/2001IAUC.7622....2G/abstract"
+      },
+      {
+        "text": "SN 2001bg was a Type Ia supernova",
+        "source": "https://tamkin3.eps.harvard.edu/iauc/07600/07622.html"
+      },
+      {
+        "text": "The Hubble program observed Cepheids in hosts of Type Ia supernovae to measure the Hubble constant; N2608 is a target",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15145/"
+      }
+    ]
+  }
+}

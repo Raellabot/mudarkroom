@@ -1,0 +1,49 @@
+{
+  "id": "ir23128-n-webb",
+  "name": "IRAS 23128-5919 (Webb)",
+  "blurb": "IRAS 23128-5919, a pair of merging galaxies, seen by Webb.",
+  "label": "ir23128n-webb",
+  "spec": "JWST|IR23128-N|3368|NIRCAM/IMAGE|ir23128n-webb",
+  "find": [
+    "JWST|3368|IR23128-N"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "ESO 148-2",
+    "ESO 148-IG002",
+    "AM 2312-591",
+    "ultraluminous infrared galaxy",
+    "ULIRG",
+    "merging galaxies",
+    "interacting galaxies",
+    "galaxy"
+  ],
+  "missions": [
+    "Webb"
+  ],
+  "story": "Two disk galaxies are colliding, their dusty cores buried at the heart of the merger. Together they rank among the most luminous infrared galaxies known.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-13",
+    "claims": [
+      {
+        "text": "IRAS 23128-5919 is an ultraluminous infrared galaxy made of a pair of interacting late-type galaxies",
+        "source": "https://arxiv.org/abs/astro-ph/0206150"
+      },
+      {
+        "text": "ESO 148-2 (also ESO 148-IG002, AM 2312-591) sits at RA 23h15m46.84s, Dec -59 03 13, the same position as this pointing",
+        "source": "https://science.nasa.gov/asset/hubble/hubble-interacting-galaxy-eso-148-2/"
+      },
+      {
+        "text": "ESO 148-2 is a merger of two former disk galaxies, among the most luminous infrared galaxies known",
+        "source": "https://science.nasa.gov/asset/hubble/hubble-interacting-galaxy-eso-148-2/"
+      },
+      {
+        "text": "The cores of the two galaxies are embedded in hot dust",
+        "source": "https://science.nasa.gov/asset/hubble/hubble-interacting-galaxy-eso-148-2/"
+      }
+    ]
+  }
+}

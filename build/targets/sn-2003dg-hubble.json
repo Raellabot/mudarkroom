@@ -1,0 +1,53 @@
+{
+  "id": "sn-2003dg-hubble",
+  "name": "UGC 6934, host of SN 2003dg (Hubble)",
+  "blurb": "UGC 6934, a spiral galaxy, seen by Hubble.",
+  "label": "sn2003dg-hubble",
+  "spec": "HST|SN-2003DG|13698|WFC3/UVIS|sn2003dg-hubble",
+  "find": [
+    "HST|13698|SN-2003DG"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "SN 2003dg",
+    "spiral galaxy",
+    "disk galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "In 2003 a rare calcium-rich supernova, SN 2003dg, flared in this disk galaxy, in line with the dark lane of dust across its center.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-13",
+    "claims": [
+      {
+        "text": "SN 2003dg's host galaxy is UGC 6934",
+        "source": "https://arxiv.org/pdf/1602.08098"
+      },
+      {
+        "text": "UGC 6934 is a spiral, classified SA(r)cd: sp; SN 2003dg was 2.7 arcsec E, 3.1 arcsec S of its nucleus at 11:57:31.97 -01:15:13.6 (matches the pointing)",
+        "source": "https://w.astro.berkeley.edu/bait/2003/sn2003dg.html"
+      },
+      {
+        "text": "SN 2003dg is a calcium-rich supernova",
+        "source": "https://arxiv.org/pdf/1602.08098"
+      },
+      {
+        "text": "SN 2003dg was discovered in 2003 by KAIT/LOTOSS",
+        "source": "https://w.astro.berkeley.edu/bait/2003/sn2003dg.html"
+      },
+      {
+        "text": "Host described as disk-dominated, ~Sbc",
+        "source": "https://arxiv.org/pdf/1602.08098"
+      },
+      {
+        "text": "Program 13698 images the SN 2003dg site, which lies on its host's stellar disk",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/13698/"
+      }
+    ]
+  }
+}

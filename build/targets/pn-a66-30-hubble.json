@@ -1,0 +1,46 @@
+{
+  "id": "pn-a66-30-hubble",
+  "name": "Abell 30 (Hubble)",
+  "blurb": "Abell 30, a born-again planetary nebula, seen by Hubble.",
+  "label": "pna6630-hubble",
+  "spec": "HST|PN-A66-30|11599|WFC3/UVIS|pna6630-hubble",
+  "find": [
+    "HST|11599|PN-A66-30"
+  ],
+  "type": "Nebula",
+  "aliases": [
+    "PN A66 30",
+    "PN-A66-30",
+    "born-again planetary nebula",
+    "planetary nebula",
+    "nebula"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "The star at the center of this planetary nebula flared back to life late in its career and threw out knots of helium- and carbon-rich material. Its wind now streams past those knots, sculpting them into tail-like shapes.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-13",
+    "claims": [
+      {
+        "text": "Abell 30 is a 'born-again' planetary nebula",
+        "source": "https://www.esa.int/ESA_Multimedia/Images/2012/11/Abell_30_a_born-again_planetary_nebula"
+      },
+      {
+        "text": "During the born-again phase it expelled knots of helium and carbon-rich material",
+        "source": "https://www.esa.int/ESA_Multimedia/Images/2012/11/Abell_30_a_born-again_planetary_nebula"
+      },
+      {
+        "text": "A fast wind streams past the knots, forming tail-like structures",
+        "source": "https://www.esa.int/ESA_Multimedia/Images/2012/11/Abell_30_a_born-again_planetary_nebula"
+      },
+      {
+        "text": "PN-A66-30 is the archive label for this planetary nebula",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/11599/"
+      }
+    ]
+  }
+}

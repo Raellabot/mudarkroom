@@ -1,0 +1,45 @@
+{
+  "id": "plckg171-40-7-webb",
+  "name": "PLCK G171.9-40.7 (Webb)",
+  "blurb": "PLCK G171.9-40.7, a massive galaxy cluster, seen by Webb.",
+  "label": "plckg171407-webb",
+  "spec": "JWST|PLCKG171-40.7|6882|NIRCAM/IMAGE|plckg171407-webb",
+  "find": [
+    "JWST|6882|PLCKG171-40.7"
+  ],
+  "type": "Galaxy cluster",
+  "aliases": [
+    "PLCKG171.9-40.7",
+    "PLCKG171-40.7",
+    "galaxy cluster",
+    "cluster of galaxies"
+  ],
+  "missions": [
+    "Webb"
+  ],
+  "story": "Discovered by the Planck satellite, this hot, disturbed cluster of galaxies is one of the massive clusters Webb is using as a natural lens to hunt for faint, distant galaxies.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-13",
+    "claims": [
+      {
+        "text": "PLCK G171.9-40.7 is a hot, X-ray luminous galaxy cluster found by Planck",
+        "source": "https://arxiv.org/abs/1302.0218"
+      },
+      {
+        "text": "The cluster is hot and disturbed",
+        "source": "https://arxiv.org/abs/1302.0218"
+      },
+      {
+        "text": "It hosts a giant radio halo",
+        "source": "https://arxiv.org/abs/1302.0218"
+      },
+      {
+        "text": "JWST VENUS (program 6882) observes PLCKG171-40.7 among 60 massive lensing clusters",
+        "source": "https://www.stsci.edu/jwst-program-info/download/jwst/pdf/6882/"
+      }
+    ]
+  }
+}

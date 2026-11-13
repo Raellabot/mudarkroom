@@ -1,0 +1,41 @@
+{
+  "id": "n3583-hubble",
+  "name": "NGC 3583 (Hubble)",
+  "blurb": "NGC 3583, a barred spiral galaxy, seen by Hubble.",
+  "label": "n3583-hubble",
+  "spec": "HST|N3583|15145|WFC3/UVIS|n3583-hubble",
+  "find": [
+    "HST|15145|N3583"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "N3583",
+    "barred spiral galaxy",
+    "spiral galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Two arms twist outward from the central bar of this spiral galaxy. Two stars have exploded here as supernovae, one in 1975 and another in 2015, each a white dwarf pushed past its limit by a companion.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-13",
+    "claims": [
+      {
+        "text": "NGC 3583 is a barred spiral galaxy with two arms",
+        "source": "https://esahubble.org/images/potw2018a/"
+      },
+      {
+        "text": "Two supernovae, in 1975 and 2015, from white dwarfs in binary systems",
+        "source": "https://esahubble.org/images/potw2018a/"
+      },
+      {
+        "text": "Observed in program 15145 (Hubble constant from Cepheids in hosts of Type Ia supernovae)",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15145/"
+      }
+    ]
+  }
+}

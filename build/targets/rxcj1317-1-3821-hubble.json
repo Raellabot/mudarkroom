@@ -1,0 +1,42 @@
+{
+  "id": "rxcj1317-1-3821-hubble",
+  "name": "RXC J1317.1-3821 (Hubble)",
+  "blurb": "RXC J1317.1-3821, a massive galaxy cluster, seen by Hubble.",
+  "label": "rxcj131713821-hubble",
+  "spec": "HST+HST|RXCJ1317.1-3821+RXCJ1317.1-3821|17593+17593|ACS/WFC+WFC3/IR|rxcj131713821-hubble",
+  "find": [
+    "HST|17593|RXCJ1317.1-3821"
+  ],
+  "type": "Galaxy cluster",
+  "aliases": [
+    "RXCJ1317.1-3821",
+    "MCXM-J1317.1-3821",
+    "galaxy cluster",
+    "cluster of galaxies",
+    "gravitational lens"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A massive cluster of galaxies studied as a natural lens telescope, whose gravity can magnify galaxies lying far behind it.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-13",
+    "claims": [
+      {
+        "text": "RXC J1317.1-3821 is one of the most massive clusters in its survey and a lens candidate",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/17593/"
+      },
+      {
+        "text": "Massive clusters like it serve as gravitational lens telescopes magnifying background galaxies",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/17593/"
+      },
+      {
+        "text": "Alternate name MCXM-J1317.1-3821",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/17593/"
+      }
+    ]
+  }
+}

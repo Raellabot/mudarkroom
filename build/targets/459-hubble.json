@@ -1,0 +1,52 @@
+{
+  "id": "459-hubble",
+  "name": "SDSS-RM RMID 459 (Hubble)",
+  "blurb": "SDSS-RM RMID 459, a distant galaxy with an active, black-hole-powered core, seen by Hubble.",
+  "label": "459-hubble",
+  "spec": "HST+HST|459+459|17708+17708|WFC3/IR+WFC3/UVIS|459-hubble",
+  "find": [
+    "HST|17708|459"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "RMID 459",
+    "SDSS-RM 459",
+    "459",
+    "active galaxy",
+    "AGN",
+    "quasar host galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Astronomers weighed the black hole at this galaxy's heart by timing how the glow of gas around it echoes changes in its brightness. Hubble's task was to tease the galaxy's own starlight apart from the glare of its active core.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-13",
+    "claims": [
+      {
+        "text": "Program 17708 target 459 is RMID 459 of the SDSS Reverberation Mapping project, at the pointing position",
+        "source": "https://arxiv.org/pdf/2005.03663"
+      },
+      {
+        "text": "RMID 459 has a measured MgII reverberation lag and black hole mass (gold sample)",
+        "source": "https://arxiv.org/pdf/2005.03663"
+      },
+      {
+        "text": "Program targets are broad-line AGNs with direct reverberation-mapping black hole masses",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/17708/"
+      },
+      {
+        "text": "Hubble imaging separates nuclear AGN light from host starlight",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/17708/"
+      },
+      {
+        "text": "The SDSS-RM sources are quasars (alias 'quasar host galaxy')",
+        "source": "https://arxiv.org/pdf/2005.03663"
+      }
+    ]
+  }
+}

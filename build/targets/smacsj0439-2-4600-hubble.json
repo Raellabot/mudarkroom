@@ -1,0 +1,41 @@
+{
+  "id": "smacsj0439-2-4600-hubble",
+  "name": "SMACS J0439.2-4600 (Hubble)",
+  "blurb": "SMACS J0439.2-4600, a massive galaxy cluster, seen by Hubble.",
+  "label": "smacsj043924600-hubble",
+  "spec": "HST+HST|SMACSJ0439.2-4600+SMACSJ0439.2-4600|15843+15843|ACS/WFC+WFC3/IR|smacsj043924600-hubble",
+  "find": [
+    "HST|15843|SMACSJ0439.2-4600"
+  ],
+  "type": "Galaxy cluster",
+  "aliases": [
+    "SMACSJ0439.2-4600",
+    "SMACS J0439",
+    "galaxy cluster",
+    "cluster of galaxies"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A distant, massive cluster of galaxies. Hubble caught it in a quick survey hunting the most massive clusters for powerful natural lenses.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-13",
+    "claims": [
+      {
+        "text": "SMACSJ0439.2-4600 is a massive galaxy cluster observed in a Hubble snapshot survey of the most massive clusters",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15843/"
+      },
+      {
+        "text": "The survey aims to find powerful gravitational lenses",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15843/"
+      },
+      {
+        "text": "The surveyed clusters are distant (z=0.5-1)",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15843/"
+      }
+    ]
+  }
+}

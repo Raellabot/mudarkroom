@@ -1,0 +1,42 @@
+{
+  "id": "emacsj1419-1-0624-hubble",
+  "name": "eMACS J1419.1-0624 (Hubble)",
+  "blurb": "eMACS J1419.1-0624, a massive galaxy cluster, seen by Hubble.",
+  "label": "emacsj141910624-hubble",
+  "spec": "HST+HST|EMACSJ1419.1-0624+EMACSJ1419.1-0624|15132+15132|ACS/WFC+WFC3/IR|emacsj141910624-hubble",
+  "find": [
+    "HST|15132|EMACSJ1419.1-0624"
+  ],
+  "type": "Galaxy cluster",
+  "aliases": [
+    "eMACSJ1419.1-0624",
+    "EMACSJ1419.1-0624",
+    "eMACS J1419",
+    "galaxy cluster",
+    "cluster of galaxies"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A distant, massive cluster of galaxies, found because its hot gas shines so brightly in X-rays. Hubble visited it in a quick survey hunting the most massive clusters for powerful natural lenses.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-13",
+    "claims": [
+      {
+        "text": "eMACSJ1419.1-0624 is a galaxy cluster in the eMACS sample of extremely X-ray luminous clusters",
+        "source": "https://arxiv.org/html/2404.11659v1"
+      },
+      {
+        "text": "eMACS is an X-ray selected cluster survey",
+        "source": "https://arxiv.org/html/2404.11659v1"
+      },
+      {
+        "text": "Hubble observed it in a snapshot survey of the most massive clusters, aiming to find powerful gravitational lenses",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15132/"
+      }
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "id": "star-0537-6910-hubble",
+  "name": "PSR J0537-6910 in N157B (Hubble)",
+  "blurb": "PSR J0537-6910, a young X-ray pulsar at the center of the supernova remnant N157B in the Large Magellanic Cloud, seen by Hubble.",
+  "label": "star05376910-hubble",
+  "spec": "HST|STAR-0537-6910|9471|ACS/WFC|star05376910-hubble",
+  "find": [
+    "HST|9471|STAR-0537-6910"
+  ],
+  "type": "Supernova remnant",
+  "aliases": [
+    "STAR-0537-6910",
+    "N157B",
+    "pulsar",
+    "X-ray pulsar",
+    "supernova remnant",
+    "Large Magellanic Cloud",
+    "LMC"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Somewhere in this crowded field of stars spins a young pulsar, left at the heart of the supernova remnant N157B. Hubble searched here for a faint glimpse of this elusive object.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-13",
+    "claims": [
+      {
+        "text": "PSR J0537-6910 (target STAR-0537-6910) is a fast, young X-ray pulsar at the center of supernova remnant N157B in the Large Magellanic Cloud",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/list/9471/"
+      },
+      {
+        "text": "Hubble's ACS searched this field for the pulsar's elusive optical counterpart",
+        "source": "https://arxiv.org/abs/astro-ph/0411047"
+      }
+    ]
+  }
+}

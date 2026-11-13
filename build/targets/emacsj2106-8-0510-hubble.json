@@ -1,0 +1,36 @@
+{
+  "id": "emacsj2106-8-0510-hubble",
+  "name": "eMACS J2106.8-0510 (Hubble)",
+  "blurb": "eMACS J2106.8-0510, a galaxy cluster, seen by Hubble.",
+  "label": "emacsj210680510-hubble",
+  "spec": "HST+HST|EMACSJ2106.8-0510+EMACSJ2106.8-0510|16670+16670|ACS/WFC+WFC3/IR|emacsj210680510-hubble",
+  "find": [
+    "HST|16670|EMACSJ2106.8-0510"
+  ],
+  "type": "Galaxy cluster",
+  "aliases": [
+    "EMACSJ2106.8-0510",
+    "galaxy cluster",
+    "cluster of galaxies"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A great crowd of galaxies, one of the extreme, massive clusters that Hubble caught in a survey of quick snapshot exposures.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-13",
+    "claims": [
+      {
+        "text": "eMACS J2106.8-0510 is a target of Hubble program 16670, a snapshot survey of extreme galaxy clusters",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/16670/"
+      },
+      {
+        "text": "The survey targets truly massive galaxy clusters",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/16670/"
+      }
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "id": "emacsj2116-0-0225-hubble",
+  "name": "eMACS J2116.0-0225 (Hubble)",
+  "blurb": "eMACS J2116.0-0225, a massive galaxy cluster, seen by Hubble.",
+  "label": "emacsj211600225-hubble",
+  "spec": "HST+HST|EMACSJ2116.0-0225+EMACSJ2116.0-0225|16670+16670|ACS/WFC+WFC3/IR|emacsj211600225-hubble",
+  "find": [
+    "HST|16670|EMACSJ2116.0-0225"
+  ],
+  "type": "Galaxy cluster",
+  "aliases": [
+    "EMACSJ2116.0-0225",
+    "eMACSJ2116.0-0225",
+    "galaxy cluster",
+    "cluster of galaxies"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Hubble took quick snapshots of extreme, X-ray-bright galaxy clusters like this one, hunting for new gravitational lenses that magnify the distant universe.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-13",
+    "claims": [
+      {
+        "text": "EMACSJ2116.0-0225 is a target of Hubble program 16670, a snapshot survey of extreme galaxy clusters",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/16670/"
+      },
+      {
+        "text": "The survey targets highly X-ray luminous clusters and aims to find new gravitational lenses",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/16670/"
+      }
+    ]
+  }
+}

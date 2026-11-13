@@ -1,0 +1,38 @@
+{
+  "id": "sn-2001co-hubble",
+  "name": "NGC 5559, host of SN 2001co (Hubble)",
+  "blurb": "NGC 5559, a spiral galaxy, seen by Hubble.",
+  "label": "sn2001co-hubble",
+  "spec": "HST|SN-2001CO|13698|WFC3/UVIS|sn2001co-hubble",
+  "find": [
+    "HST|13698|SN-2001CO"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "SN 2001co",
+    "2001co",
+    "spiral galaxy",
+    "galaxy",
+    "calcium-rich supernova"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "New stars are being born along the spiral arms of NGC 5559, which sweep out around a bright central bulge. In 2001 a calcium-rich supernova, 2001co, flared in its disk near those star-forming regions.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-13",
+    "claims": [
+      {
+        "text": "NGC 5559 is a spiral galaxy with star-forming spiral arms around a bright bulge",
+        "source": "https://esahubble.org/images/potw1736a/"
+      },
+      {
+        "text": "Calcium-rich supernova 2001co occurred in the disc of NGC 5559 near star-forming regions, observed in 2001",
+        "source": "https://esahubble.org/images/potw1736a/"
+      }
+    ]
+  }
+}

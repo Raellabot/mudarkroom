@@ -1,0 +1,50 @@
+{
+  "id": "n0691-uvis-hubble",
+  "name": "NGC 691 (Hubble)",
+  "blurb": "NGC 691, a spiral galaxy, seen by Hubble.",
+  "label": "n0691uvis-hubble",
+  "spec": "HST|N0691-UVIS|15145|WFC3/UVIS|n0691uvis-hubble",
+  "find": [
+    "HST|15145|N0691-UVIS"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "N0691",
+    "N0691-UVIS",
+    "NGC 691 group",
+    "spiral galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Layers of stars and winding spiral arms fill this galaxy, which gives its name to a small group of galaxies bound together by gravity. William Herschel discovered it nearly two centuries before Hubble launched.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-13",
+    "claims": [
+      {
+        "text": "NGC 691 is a spiral galaxy imaged by Hubble's WFC3",
+        "source": "https://esahubble.org/images/potw2122a/"
+      },
+      {
+        "text": "It is the eponymous member of the NGC 691 galaxy group, a group of gravitationally bound galaxies",
+        "source": "https://esahubble.org/images/potw2122a/"
+      },
+      {
+        "text": "Discovered by William Herschel almost 200 years before Hubble launched",
+        "source": "https://esahubble.org/images/potw2008a/"
+      },
+      {
+        "text": "Hubble captured layers of stars and spiralling arms in NGC 691",
+        "source": "https://esahubble.org/images/potw2008a/"
+      },
+      {
+        "text": "N0691-UVIS is a spiral-galaxy target of program 15145 at the pointing position",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15145/"
+      }
+    ]
+  }
+}

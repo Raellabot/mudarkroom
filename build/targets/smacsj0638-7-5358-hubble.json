@@ -1,0 +1,46 @@
+{
+  "id": "smacsj0638-7-5358-hubble",
+  "name": "SMACS J0638.7-5358 (Hubble)",
+  "blurb": "SMACS J0638.7-5358, a galaxy cluster, seen by Hubble.",
+  "label": "smacsj063875358-hubble",
+  "spec": "HST+HST|SMACSJ0638.7-5358+SMACSJ0638.7-5358|16670+16670|ACS/WFC+WFC3/IR|smacsj063875358-hubble",
+  "find": [
+    "HST|16670|SMACSJ0638.7-5358"
+  ],
+  "type": "Galaxy cluster",
+  "aliases": [
+    "SMACSJ0638.7-5358",
+    "ACT-CL J0638-5358",
+    "AS0592",
+    "galaxy cluster",
+    "cluster of galaxies"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A massive gathering of galaxies, one of the extreme clusters Hubble surveyed in quick snapshot exposures. Radio telescopes find a diffuse halo of radio emission spread through the cluster.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-13",
+    "claims": [
+      {
+        "text": "SMACS J0638.7-5358 is a target of Hubble program 16670, a snapshot survey of extreme galaxy clusters",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/16670/"
+      },
+      {
+        "text": "The survey targets truly massive galaxy clusters",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/16670/"
+      },
+      {
+        "text": "A galaxy cluster at this position is ACT-CL J0638-5358, alternate ID AS0592",
+        "source": "https://gs66-vdclambda.ndc.nasa.gov/product/act/act_sz_clusters_2008/act-cl_j0638-5358.html"
+      },
+      {
+        "text": "The cluster J0638.7-5358 hosts a radio halo",
+        "source": "https://arxiv.org/pdf/2509.05442"
+      }
+    ]
+  }
+}

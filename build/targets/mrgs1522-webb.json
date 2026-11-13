@@ -1,0 +1,48 @@
+{
+  "id": "mrgs1522-webb",
+  "name": "SDSS J1522+2535 (Webb)",
+  "blurb": "SDSS J1522+2535, a galaxy cluster magnifying the distant galaxy MRG-S1522, seen by Webb.",
+  "label": "mrgs1522-webb",
+  "spec": "JWST|MRGS1522|4903|NIRCAM/IMAGE|mrgs1522-webb",
+  "find": [
+    "JWST|4903|MRGS1522"
+  ],
+  "type": "Galaxy cluster",
+  "aliases": [
+    "SDSSJ1522+2535",
+    "MRG-S1522",
+    "MRGS1522",
+    "Magnified Red Galaxy",
+    "quiescent galaxy",
+    "gravitational lens",
+    "galaxy cluster"
+  ],
+  "missions": [
+    "Webb"
+  ],
+  "story": "The gravity of this foreground galaxy cluster magnifies a far more distant galaxy that had already stopped making stars. Webb looked closely to learn how, and how quickly, that galaxy's star formation shut down.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-13",
+    "claims": [
+      {
+        "text": "MRG-S1522 is a lensed quiescent galaxy whose lens is the cluster SDSSJ1522+2535",
+        "source": "https://arxiv.org/pdf/1806.06814"
+      },
+      {
+        "text": "MRG stands for Magnified Red Galaxy",
+        "source": "https://arxiv.org/pdf/1806.06814"
+      },
+      {
+        "text": "Webb program 4903 studies gravitationally lensed quiescent galaxies",
+        "source": "https://www.stsci.edu/jwst-program-info/download/jwst/pdf/4903/"
+      },
+      {
+        "text": "The program aims to learn how and how quickly star formation ended",
+        "source": "https://www.stsci.edu/jwst-program-info/download/jwst/pdf/4903/"
+      }
+    ]
+  }
+}

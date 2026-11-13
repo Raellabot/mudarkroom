@@ -1,0 +1,36 @@
+{
+  "id": "smacsj0406-0-4916-hubble",
+  "name": "SMACS J0406.0-4916 (Hubble)",
+  "blurb": "SMACS J0406.0-4916, a massive galaxy cluster, seen by Hubble.",
+  "label": "smacsj040604916-hubble",
+  "spec": "HST+HST|SMACSJ0406.0-4916+SMACSJ0406.0-4916|15843+15843|ACS/WFC+WFC3/IR|smacsj040604916-hubble",
+  "find": [
+    "HST|15843|SMACSJ0406.0-4916"
+  ],
+  "type": "Galaxy cluster",
+  "aliases": [
+    "SMACSJ0406.0-4916",
+    "galaxy cluster",
+    "cluster of galaxies"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A massive cluster of galaxies, imaged by Hubble in a snapshot survey searching for the strongest natural gravitational lenses.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-13",
+    "claims": [
+      {
+        "text": "SMACSJ0406.0-4916 is a target of HST program 15843, a snapshot survey of the most massive galaxy clusters",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15843/"
+      },
+      {
+        "text": "The survey aims to find the strongest gravitational lenses",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15843/"
+      }
+    ]
+  }
+}

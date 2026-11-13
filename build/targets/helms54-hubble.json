@@ -1,0 +1,55 @@
+{
+  "id": "helms54-hubble",
+  "name": "HeLMS-54 (Hubble)",
+  "blurb": "HeLMS-54, a pair of merging, dust-filled starburst galaxies, seen by Hubble.",
+  "label": "helms54-hubble",
+  "spec": "HST+HST|HELMS54+HELMS54|17137+17137|ACS/WFC+WFC3/IR|helms54-hubble",
+  "find": [
+    "HST|17137|HELMS54"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "HELMS54",
+    "HeLMS 54",
+    "starburst galaxy",
+    "merging galaxies",
+    "galaxy merger",
+    "galaxies"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Two dusty galaxies, each forming stars at a furious pace, are merging in the young universe. Astronomers hope this view also reveals whether other galaxies are gathering around them.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-13",
+    "claims": [
+      {
+        "text": "HeLMS-54 is a binary hyper-luminous starburst",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/17137/"
+      },
+      {
+        "text": "It consists of two merging galaxies",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/17137/"
+      },
+      {
+        "text": "It is gas-rich and dusty with intense star formation",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/17137/"
+      },
+      {
+        "text": "It is seen in the young universe",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/17137/"
+      },
+      {
+        "text": "The program searches for a surrounding proto-cluster",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/17137/"
+      },
+      {
+        "text": "The pointing is HeLMS-54",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/17137/"
+      }
+    ]
+  }
+}

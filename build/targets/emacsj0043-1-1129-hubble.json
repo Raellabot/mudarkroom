@@ -1,0 +1,41 @@
+{
+  "id": "emacsj0043-1-1129-hubble",
+  "name": "eMACS J0043.1-1129 (Hubble)",
+  "blurb": "eMACS J0043.1-1129, a massive, X-ray-luminous galaxy cluster, seen by Hubble.",
+  "label": "emacsj004311129-hubble",
+  "spec": "HST+HST|EMACSJ0043.1-1129+EMACSJ0043.1-1129|14098+14098|ACS/WFC+WFC3/IR|emacsj004311129-hubble",
+  "find": [
+    "HST|14098|EMACSJ0043.1-1129"
+  ],
+  "type": "Galaxy cluster",
+  "aliases": [
+    "eMACSJ0043.1-1129",
+    "EMACSJ0043.1-1129",
+    "galaxy cluster",
+    "cluster of galaxies"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A great swarm of galaxies, picked out from the whole sky by its brilliant X-ray glow. Hubble surveyed clusters like this one to find the most powerful natural lenses in the distant universe.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-13",
+    "claims": [
+      {
+        "text": "eMACS J0043.1-1129 is a highly X-ray-luminous galaxy cluster from the extended Massive Cluster Survey",
+        "source": "https://arxiv.org/html/2404.11659v1"
+      },
+      {
+        "text": "Target of a Hubble snapshot survey of the most massive clusters, aimed at finding powerful gravitational lenses",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/14098/"
+      },
+      {
+        "text": "eMACS is an X-ray selected survey based on the ROSAT All-Sky Survey",
+        "source": "https://arxiv.org/html/2404.11659v1"
+      }
+    ]
+  }
+}

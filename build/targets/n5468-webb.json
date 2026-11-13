@@ -1,0 +1,44 @@
+{
+  "id": "n5468-webb",
+  "name": "NGC 5468 (Webb)",
+  "blurb": "NGC 5468, a face-on spiral galaxy, seen by Webb.",
+  "label": "n5468-webb",
+  "spec": "JWST|N5468|1685|NIRCAM/IMAGE|n5468-webb",
+  "find": [
+    "JWST|1685|N5468"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "spiral galaxy",
+    "Cepheid host galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Webb"
+  ],
+  "story": "We see this spiral face-on, its loose, open arms laid out in full. Its pulsating Cepheid stars, checked against a supernova in the same galaxy, are mileposts for measuring how fast the universe is expanding.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-13",
+    "claims": [
+      {
+        "text": "NGC 5468 is a spiral galaxy seen face-on with a loose, open spiral pattern",
+        "source": "https://science.nasa.gov/missions/hubble/hubble-spots-galaxys-dramatic-details/"
+      },
+      {
+        "text": "Its Cepheids are milepost markers for the expansion rate",
+        "source": "https://esawebb.org/images/weic2408a/"
+      },
+      {
+        "text": "The Cepheid distance was cross-checked with a Type Ia supernova in the galaxy",
+        "source": "https://esawebb.org/images/weic2408a/"
+      },
+      {
+        "text": "Cepheid host galaxy (alias)",
+        "source": "https://science.nasa.gov/asset/hubble/ngc-5468-webb-nircam-hubble-wfc3/"
+      }
+    ]
+  }
+}

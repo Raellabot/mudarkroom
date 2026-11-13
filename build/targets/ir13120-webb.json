@@ -1,0 +1,55 @@
+{
+  "id": "ir13120-webb",
+  "name": "IRAS 13120-5453 (Webb)",
+  "blurb": "IRAS 13120-5453, an ultraluminous infrared galaxy, seen by Webb.",
+  "label": "ir13120-webb",
+  "spec": "JWST|IR13120|3368|NIRCAM/IMAGE|ir13120-webb",
+  "find": [
+    "JWST|3368|IR13120"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "IR13120",
+    "ULIRG",
+    "ultraluminous infrared galaxy",
+    "infrared galaxy",
+    "galaxy merger",
+    "galaxy"
+  ],
+  "missions": [
+    "Webb"
+  ],
+  "story": "A galaxy in the aftermath of a merger, with a single nucleus and a compact burst of star birth at its core. An active galactic nucleus and winds may also stir the gas at its heart.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-13",
+    "claims": [
+      {
+        "text": "IRAS 13120-5453 is a single-nucleus ultraluminous infrared galaxy",
+        "source": "https://ui.adsabs.harvard.edu/abs/2017ApJ...835..213P"
+      },
+      {
+        "text": "It is classified as a post-merger system",
+        "source": "https://arxiv.org/pdf/1612.04401"
+      },
+      {
+        "text": "It hosts a compact starburst",
+        "source": "https://ui.adsabs.harvard.edu/abs/2017ApJ...835..213P"
+      },
+      {
+        "text": "An active galactic nucleus and winds may contribute to heating",
+        "source": "https://ui.adsabs.harvard.edu/abs/2017ApJ...835..213P"
+      },
+      {
+        "text": "Archive target IR13120 is at the position of IRAS 13120-5453",
+        "source": "https://arxiv.org/pdf/1612.04401"
+      },
+      {
+        "text": "IR13120 is a target of the JWST ULIRG survey (program 3368), described as infrared and interacting galaxies",
+        "source": "https://www.stsci.edu/jwst/phase2-public/3368.pdf"
+      }
+    ]
+  }
+}

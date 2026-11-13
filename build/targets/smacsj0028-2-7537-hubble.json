@@ -1,0 +1,36 @@
+{
+  "id": "smacsj0028-2-7537-hubble",
+  "name": "SMACS J0028.2-7537 (Hubble)",
+  "blurb": "SMACS J0028.2-7537, a galaxy cluster, seen by Hubble.",
+  "label": "smacsj002827537-hubble",
+  "spec": "HST+HST|SMACSJ0028.2-7537+SMACSJ0028.2-7537|15843+15843|ACS/WFC+WFC3/IR|smacsj002827537-hubble",
+  "find": [
+    "HST|15843|SMACSJ0028.2-7537"
+  ],
+  "type": "Galaxy cluster",
+  "aliases": [
+    "SMACSJ0028.2-7537",
+    "galaxy cluster",
+    "cluster of galaxies"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A distant gathering of galaxies, chosen for study by its X-ray glow. Hubble photographed it in a survey searching for the most powerful gravitational lenses.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-13",
+    "claims": [
+      {
+        "text": "SMACS J0028.2-7537 is a target of a Hubble snapshot survey of X-ray-selected massive galaxy clusters",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15843/"
+      },
+      {
+        "text": "Survey goal: find the most powerful gravitational lenses for later study",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15843/"
+      }
+    ]
+  }
+}
