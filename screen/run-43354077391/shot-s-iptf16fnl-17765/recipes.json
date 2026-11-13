@@ -1,0 +1,55 @@
+[
+ {
+  "picture": "s-iptf16fnl-17765-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "IPTF16FNL",
+  "proposal_id": "17765",
+  "instrument": "WFC3/UVIS",
+  "title": "GHOSTBUSTERS: Determining the origin of tidal disruption events with a high-resolution survey of their host galaxies",
+  "grid": {
+   "width": 1032,
+   "height": 1097,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.15847999999999932,
+   "reference_filter": "F225W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F225W",
+    "center_nm": 236.8,
+    "color": "#1a4cff",
+    "obs_id": "ifcf03010",
+    "exposure_s": 2226,
+    "product": "mast:HST/product/ifcf03010_drz.fits"
+   },
+   {
+    "filter": "F438W",
+    "center_nm": 431.4,
+    "color": "#1aff33",
+    "obs_id": "ifcf03020",
+    "exposure_s": 2212,
+    "product": "mast:HST/product/ifcf03020_drz.fits"
+   },
+   {
+    "filter": "F625W",
+    "center_nm": 627.4,
+    "color": "#ff1a1a",
+    "obs_id": "ifcf03030",
+    "exposure_s": 2227,
+    "product": "mast:HST/product/ifcf03030_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

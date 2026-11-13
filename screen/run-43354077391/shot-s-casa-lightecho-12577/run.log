@@ -1,0 +1,16 @@
+[     0s] == s-casa-lightecho-12577: 3 filters: ['F275W', 'F390W', 'F606W']
+[     0s] F275W: 2048x2169 px at 0.0396 arcsec/px, 53 MB
+[     1s] F390W: 2048x2169 px at 0.0396 arcsec/px, 53 MB
+[     1s] F606W: 2048x2169 px at 0.0396 arcsec/px, 53 MB
+[     1s] grid from F606W: 1024x1084 px (reduced 2x), 0.079 arcsec/px
+[     2s] downloaded ibqo01010_drz.fits: 53 MB
+[     2s] F275W: aligned (reduced 2x), covers 93% of the grid
+[     3s] downloaded ibqo01030_drz.fits: 53 MB
+[     4s] F390W: aligned (reduced 2x), covers 94% of the grid
+[     5s] downloaded ibqo01020_drz.fits: 53 MB
+[     5s] F606W: aligned (reduced 2x), covers 93% of the grid
+[     5s] s-casa-lightecho-12577: finishing steps applied: ['dense']
+[     5s] cropped to 955x959 px where 3 of 3 filters have data
+/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/astropy/visualization/lupton_rgb.py:645: RuntimeWarning: invalid value encountered in divide
+  fInorm = np.where(Int <= 0, 0, np.true_divide(fI, Int))
+[     6s] done: 1 pictures

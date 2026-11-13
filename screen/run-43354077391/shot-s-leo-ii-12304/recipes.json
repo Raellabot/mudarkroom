@@ -1,0 +1,55 @@
+[
+ {
+  "picture": "s-leo-ii-12304-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "LEO-II",
+  "proposal_id": "12304",
+  "instrument": "WFC3/UVIS",
+  "title": "Metallicity distribution functions of 4 Local Group dwarf galaxies",
+  "grid": {
+   "width": 1032,
+   "height": 1097,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.1584800034761413,
+   "reference_filter": "F390M"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F390M",
+    "center_nm": 389.6,
+    "color": "#1a4cff",
+    "obs_id": "ibgr03050",
+    "exposure_s": 5256,
+    "product": "mast:HST/product/ibgr03050_drz.fits"
+   },
+   {
+    "filter": "F555W",
+    "center_nm": 550.4,
+    "color": "#1aff33",
+    "obs_id": "ibgr03040",
+    "exposure_s": 880,
+    "product": "mast:HST/product/ibgr03040_drz.fits"
+   },
+   {
+    "filter": "F814W",
+    "center_nm": 831.9,
+    "color": "#ff1a1a",
+    "obs_id": "ibgr03030",
+    "exposure_s": 750,
+    "product": "mast:HST/product/ibgr03030_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

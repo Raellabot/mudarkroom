@@ -1,0 +1,55 @@
+[
+ {
+  "picture": "s-sn-2001co-13698-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "SN-2001CO",
+  "proposal_id": "13698",
+  "instrument": "WFC3/UVIS",
+  "title": "The environments and progenitors of calcium-rich transients",
+  "grid": {
+   "width": 1031,
+   "height": 1090,
+   "reduction": 2,
+   "arcsec_per_pixel": 0.07924000173806844,
+   "reference_filter": "F665N"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F438W",
+    "center_nm": 431.4,
+    "color": "#1a4cff",
+    "obs_id": "iclg04020",
+    "exposure_s": 990,
+    "product": "mast:HST/product/iclg04020_drz.fits"
+   },
+   {
+    "filter": "F606W",
+    "center_nm": 594.0,
+    "color": "#1aff33",
+    "obs_id": "iclg04010",
+    "exposure_s": 990,
+    "product": "mast:HST/product/iclg04010_drz.fits"
+   },
+   {
+    "filter": "F665N",
+    "center_nm": 665.5,
+    "color": "#ff1a1a",
+    "obs_id": "iclg04030",
+    "exposure_s": 2640,
+    "product": "mast:HST/product/iclg04030_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

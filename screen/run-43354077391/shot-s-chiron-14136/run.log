@@ -1,0 +1,27 @@
+[     0s] == s-chiron-14136: 3 filters: ['F300X', 'F475X', 'F350LP']
+[     1s] F300X: 516x543 px at 0.0396 arcsec/px, 4 MB
+[     1s] F475X: 516x543 px at 0.0396 arcsec/px, 4 MB
+[     2s] F350LP: 516x543 px at 0.0396 arcsec/px, 4 MB
+[     2s] grid from F300X: 516x543 px (reduced 1x), 0.040 arcsec/px
+[     3s] downloaded icxl01fzq_drz.fits: 4 MB
+[     3s] F300X: aligned (reduced 1x), covers 94% of the grid
+[     4s] downloaded icxl02e3q_drz.fits: 4 MB
+[     4s] F475X: aligned (reduced 1x), covers 0% of the grid
+[     5s] downloaded icxl03icq_drz.fits: 4 MB
+[     5s] F350LP: aligned (reduced 1x), covers 0% of the grid
+Traceback (most recent call last):
+  File "/home/runner/work/mudarkroom/mudarkroom/scripts/mast/color.py", line 871, in <module>
+    main()
+  File "/home/runner/work/mudarkroom/mudarkroom/scripts/mast/color.py", line 796, in main
+    raw = aligned = finish_arrays(raw, fin, float(os.environ.get("FINISH_SCALE", "1")))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/mudarkroom/mudarkroom/scripts/mast/color.py", line 461, in finish_arrays
+    y0, y1, x0, x1 = dense_crop_box(a, fin["dense"])
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/mudarkroom/mudarkroom/scripts/mast/color.py", line 400, in dense_crop_box
+    y0, y1, x0, x1 = ys.min(), ys.max() + 1, xs.min(), xs.max() + 1
+                     ^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/numpy/_core/_methods.py", line 45, in _amin
+    return umr_minimum(a, axis, None, out, keepdims, initial, where)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: zero-size array to reduction operation minimum which has no identity

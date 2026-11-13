@@ -1,0 +1,16 @@
+[     0s] == s-bulge-stanek-11664: 3 filters: ['F390W', 'F555W', 'F814W']
+[     0s] F390W: 4130x4390 px at 0.0396 arcsec/px, 218 MB
+[     0s] F555W: 4130x4465 px at 0.0396 arcsec/px, 221 MB
+[     1s] F814W: 4130x4466 px at 0.0396 arcsec/px, 222 MB
+[     1s] grid from F814W: 1032x1116 px (reduced 4x), 0.158 arcsec/px
+[     2s] downloaded ib3m12010_drz.fits: 218 MB
+[     3s] F390W: aligned (reduced 3x), covers 92% of the grid
+[     4s] downloaded ib3m13020_drz.fits: 221 MB
+[     4s] F555W: aligned (reduced 3x), covers 94% of the grid
+[     5s] downloaded ib3m13010_drz.fits: 222 MB
+[     6s] F814W: aligned (reduced 4x), covers 94% of the grid
+[     6s] s-bulge-stanek-11664: finishing steps applied: ['dense']
+[     6s] cropped to 955x978 px where 3 of 3 filters have data
+/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/astropy/visualization/lupton_rgb.py:645: RuntimeWarning: invalid value encountered in divide
+  fInorm = np.where(Int <= 0, 0, np.true_divide(fI, Int))
+[     6s] done: 1 pictures

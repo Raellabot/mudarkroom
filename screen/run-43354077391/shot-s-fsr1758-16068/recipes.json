@@ -1,0 +1,55 @@
+[
+ {
+  "picture": "s-fsr1758-16068-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "FSR1758",
+  "proposal_id": "16068",
+  "instrument": "WFC3/UVIS",
+  "title": "The most massive low density globular cluster",
+  "grid": {
+   "width": 1032,
+   "height": 1097,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.15847999999999918,
+   "reference_filter": "F300X"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F300X",
+    "center_nm": 292.8,
+    "color": "#1a4cff",
+    "obs_id": "ieh706010",
+    "exposure_s": 1059,
+    "product": "mast:HST/product/ieh706010_drz.fits"
+   },
+   {
+    "filter": "F606W",
+    "center_nm": 594.0,
+    "color": "#1aff33",
+    "obs_id": "ieh705020",
+    "exposure_s": 806,
+    "product": "mast:HST/product/ieh705020_drz.fits"
+   },
+   {
+    "filter": "F814W",
+    "center_nm": 831.9,
+    "color": "#ff1a1a",
+    "obs_id": "ieh705jvq",
+    "exposure_s": 237,
+    "product": "mast:HST/product/ieh705jvq_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

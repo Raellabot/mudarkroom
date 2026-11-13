@@ -1,0 +1,16 @@
+[     0s] == s-passage-par42-17461: 3 filters: ['F475W', 'F625W', 'F814W']
+[     1s] F475W: 4230x4497 px at 0.0396 arcsec/px, 228 MB
+[     1s] F625W: 4230x4497 px at 0.0396 arcsec/px, 228 MB
+[     2s] F814W: 4225x4360 px at 0.0500 arcsec/px, 221 MB
+[     2s] grid from F814W: 1056x1090 px (reduced 4x), 0.200 arcsec/px
+[    36s] downloaded if9806010_drz.fits: 228 MB
+[    36s] F475W: aligned (reduced 5x), covers 61% of the grid
+[    41s] downloaded if9806020_drz.fits: 228 MB
+[    42s] F625W: aligned (reduced 5x), covers 61% of the grid
+[    47s] downloaded jf986a010_drz.fits: 221 MB
+[    48s] F814W: aligned (reduced 4x), covers 93% of the grid
+[    48s] s-passage-par42-17461: finishing steps applied: ['dense']
+[    48s] cropped to 695x706 px where 3 of 3 filters have data
+/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/astropy/visualization/lupton_rgb.py:645: RuntimeWarning: invalid value encountered in divide
+  fInorm = np.where(Int <= 0, 0, np.true_divide(fI, Int))
+[    48s] done: 1 pictures

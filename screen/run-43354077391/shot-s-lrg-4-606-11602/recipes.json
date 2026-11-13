@@ -1,0 +1,55 @@
+[
+ {
+  "picture": "s-lrg-4-606-11602-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "LRG-4-606",
+  "proposal_id": "11602",
+  "instrument": "WFC3/UVIS",
+  "title": "High-resolution imaging of three new UV-bright lensed arcs",
+  "grid": {
+   "width": 1034,
+   "height": 1126,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.15848000347614158,
+   "reference_filter": "F475W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F475W",
+    "center_nm": 475.8,
+    "color": "#1a4cff",
+    "obs_id": "ib4803010",
+    "exposure_s": 5460,
+    "product": "mast:HST/product/ib4803010_drz.fits"
+   },
+   {
+    "filter": "F606W",
+    "center_nm": 594.0,
+    "color": "#1aff33",
+    "obs_id": "ib4803030",
+    "exposure_s": 2412,
+    "product": "mast:HST/product/ib4803030_drz.fits"
+   },
+   {
+    "filter": "F814W",
+    "center_nm": 831.9,
+    "color": "#ff1a1a",
+    "obs_id": "ib4803020",
+    "exposure_s": 5598,
+    "product": "mast:HST/product/ib4803020_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

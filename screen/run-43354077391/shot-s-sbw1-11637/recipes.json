@@ -1,0 +1,55 @@
+[
+ {
+  "picture": "s-sbw1-11637-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "SBW1",
+  "proposal_id": "11637",
+  "instrument": "WFC3/UVIS",
+  "title": "A Closeup View of a Twin of SN 1987A Before Explosion",
+  "grid": {
+   "width": 1025,
+   "height": 576,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.15848000347614272,
+   "reference_filter": "F658N"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F502N",
+    "center_nm": 501.1,
+    "color": "#1a4cff",
+    "obs_id": "ib4i01010",
+    "exposure_s": 420,
+    "product": "mast:HST/product/ib4i01010_drz.fits"
+   },
+   {
+    "filter": "F656N",
+    "center_nm": 656.2,
+    "color": "#1aff33",
+    "obs_id": "ib4i01030",
+    "exposure_s": 840,
+    "product": "mast:HST/product/ib4i01030_drz.fits"
+   },
+   {
+    "filter": "F658N",
+    "center_nm": 658.6,
+    "color": "#ff1a1a",
+    "obs_id": "ib4i01020",
+    "exposure_s": 960,
+    "product": "mast:HST/product/ib4i01020_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

@@ -1,0 +1,55 @@
+[
+ {
+  "picture": "s-css100217-12117-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "CSS100217",
+  "proposal_id": "12117",
+  "instrument": "WFC3/UVIS",
+  "title": "Determining the Nature of an Exceptional Optical Transient",
+  "grid": {
+   "width": 1048,
+   "height": 1106,
+   "reduction": 1,
+   "arcsec_per_pixel": 0.03962000086903558,
+   "reference_filter": "F763M"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F390W",
+    "center_nm": 387.1,
+    "color": "#1a4cff",
+    "obs_id": "ibfw01010",
+    "exposure_s": 315,
+    "product": "mast:HST/product/ibfw01010_drz.fits"
+   },
+   {
+    "filter": "F555W",
+    "center_nm": 550.4,
+    "color": "#1aff33",
+    "obs_id": "ibfw01020",
+    "exposure_s": 245,
+    "product": "mast:HST/product/ibfw01020_drz.fits"
+   },
+   {
+    "filter": "F763M",
+    "center_nm": 763.5,
+    "color": "#ff1a1a",
+    "obs_id": "ibfw01030",
+    "exposure_s": 525,
+    "product": "mast:HST/product/ibfw01030_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

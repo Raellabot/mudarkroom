@@ -1,0 +1,55 @@
+[
+ {
+  "picture": "s-ptf09ge-host-14717-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "PTF09GE-HOST",
+  "proposal_id": "14717",
+  "instrument": "WFC3/UVIS",
+  "title": "What is Enhancing the Tidal Disruption Rate of Stars in Post-Starburst Galaxies?",
+  "grid": {
+   "width": 1032,
+   "height": 1097,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.15847999999999973,
+   "reference_filter": "F438W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F438W",
+    "center_nm": 431.4,
+    "color": "#1a4cff",
+    "obs_id": "idah01010",
+    "exposure_s": 5876,
+    "product": "mast:HST/product/idah01010_drz.fits"
+   },
+   {
+    "filter": "F625W",
+    "center_nm": 627.4,
+    "color": "#1aff33",
+    "obs_id": "idah02010",
+    "exposure_s": 2624,
+    "product": "mast:HST/product/idah02010_drz.fits"
+   },
+   {
+    "filter": "F814W",
+    "center_nm": 831.9,
+    "color": "#ff1a1a",
+    "obs_id": "idah03010",
+    "exposure_s": 2624,
+    "product": "mast:HST/product/idah03010_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

@@ -1,0 +1,16 @@
+[     0s] == s-sn2012bl-12582: 3 filters: ['F225W', 'F275W', 'F336W']
+[     0s] F225W: 2045x2167 px at 0.0396 arcsec/px, 53 MB
+[     0s] F275W: 2046x2167 px at 0.0396 arcsec/px, 53 MB
+[     1s] F336W: 2046x2167 px at 0.0396 arcsec/px, 53 MB
+[     1s] grid from F275W: 1023x1083 px (reduced 2x), 0.079 arcsec/px
+[     1s] downloaded ibxb05020_drz.fits: 53 MB
+[     2s] F225W: aligned (reduced 2x), covers 93% of the grid
+[     4s] downloaded ibxb05010_drz.fits: 53 MB
+[     5s] F275W: aligned (reduced 2x), covers 93% of the grid
+[     5s] downloaded ibxb05030_drz.fits: 53 MB
+[     5s] F336W: aligned (reduced 2x), covers 93% of the grid
+[     6s] s-sn2012bl-12582: finishing steps applied: ['dense']
+[     6s] cropped to 955x959 px where 3 of 3 filters have data
+/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/astropy/visualization/lupton_rgb.py:645: RuntimeWarning: invalid value encountered in divide
+  fInorm = np.where(Int <= 0, 0, np.true_divide(fI, Int))
+[     6s] done: 1 pictures

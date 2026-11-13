@@ -1,0 +1,55 @@
+[
+ {
+  "picture": "s-39p-16921-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "39P",
+  "proposal_id": "16921",
+  "instrument": "WFC3/UVIS",
+  "title": "Enabling a First in a Lifetime Multi-Wavelength Gas and Dust Coma Characterization of the Centaur 39P/Oterma",
+  "grid": {
+   "width": 1031,
+   "height": 1087,
+   "reduction": 1,
+   "arcsec_per_pixel": 0.03961999999999994,
+   "reference_filter": "F625W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F475W",
+    "center_nm": 475.8,
+    "color": "#1a4cff",
+    "obs_id": "ietu01h7q",
+    "exposure_s": 376,
+    "product": "mast:HST/product/ietu01h7q_drz.fits"
+   },
+   {
+    "filter": "F625W",
+    "center_nm": 627.4,
+    "color": "#1aff33",
+    "obs_id": "ietu01hmq",
+    "exposure_s": 358,
+    "product": "mast:HST/product/ietu01hmq_drz.fits"
+   },
+   {
+    "filter": "F775W",
+    "center_nm": 772.8,
+    "color": "#ff1a1a",
+    "obs_id": "ietu01hoq",
+    "exposure_s": 508,
+    "product": "mast:HST/product/ietu01hoq_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

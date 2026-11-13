@@ -1,0 +1,63 @@
+[
+ {
+  "picture": "s-gb1155-0147-17831-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST+HST+HST",
+  "target": "GB1155-0147+GB1155-0147+GB1155-0147",
+  "proposal_id": "17831+17831+17831",
+  "instrument": "ACS/WFC+WFC3/IR+WFC3/UVIS",
+  "title": "Ionization Echoes of Fading AGN",
+  "grid": {
+   "width": 1053,
+   "height": 1060,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.1999999999999992,
+   "reference_filter": "FR853N"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "FR656N",
+    "center_nm": 656.1,
+    "color": "#1a4cff",
+    "obs_id": "jfg653010",
+    "exposure_s": 2242,
+    "product": "mast:HST/product/jfg653010_drz.fits"
+   },
+   {
+    "filter": "F775W",
+    "center_nm": 772.8,
+    "color": "#1aff33",
+    "obs_id": "ifg604010",
+    "exposure_s": 2484,
+    "product": "mast:HST/product/ifg604010_drz.fits"
+   },
+   {
+    "filter": "FR853N",
+    "center_nm": 853.1,
+    "color": "#ff800d",
+    "obs_id": "jfg603020",
+    "exposure_s": 2224,
+    "product": "mast:HST/product/jfg603020_drz.fits"
+   },
+   {
+    "filter": "F098M",
+    "center_nm": 986.1,
+    "color": "#ff1a1a",
+    "obs_id": "ifg604020",
+    "exposure_s": 2212,
+    "product": "mast:HST/product/ifg604020_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

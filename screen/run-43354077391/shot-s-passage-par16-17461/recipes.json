@@ -1,0 +1,55 @@
+[
+ {
+  "picture": "s-passage-par16-17461-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST+HST",
+  "target": "PASSAGE-PAR16+PASSAGE-PAR16",
+  "proposal_id": "17461+17461",
+  "instrument": "ACS/WFC+WFC3/UVIS",
+  "title": "Unlocking the rich potential of JWST slitless spectroscopy with the help of HST: an optical follow-up campaign",
+  "grid": {
+   "width": 1056,
+   "height": 1090,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.1999999999999991,
+   "reference_filter": "F814W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F475W",
+    "center_nm": 475.8,
+    "color": "#1a4cff",
+    "obs_id": "if9802010",
+    "exposure_s": 2487,
+    "product": "mast:HST/product/if9802010_drz.fits"
+   },
+   {
+    "filter": "F625W",
+    "center_nm": 627.4,
+    "color": "#1aff33",
+    "obs_id": "if9802020",
+    "exposure_s": 2478,
+    "product": "mast:HST/product/if9802020_drz.fits"
+   },
+   {
+    "filter": "F814W",
+    "center_nm": 833.5,
+    "color": "#ff1a1a",
+    "obs_id": "jf982a010",
+    "exposure_s": 2190,
+    "product": "mast:HST/product/jf982a010_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

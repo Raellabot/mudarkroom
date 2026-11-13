@@ -1,0 +1,55 @@
+[
+ {
+  "picture": "s-lindsay1-14069-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "LINDSAY1",
+  "proposal_id": "14069",
+  "instrument": "WFC3/UVIS",
+  "title": "Searching For Multiple Populations in Massive Young and Intermediate Age Clusters",
+  "grid": {
+   "width": 1032,
+   "height": 1111,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.15848000347614263,
+   "reference_filter": "F438W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F336W",
+    "center_nm": 336.6,
+    "color": "#1a4cff",
+    "obs_id": "icz610020",
+    "exposure_s": 2900,
+    "product": "mast:HST/product/icz610020_drz.fits"
+   },
+   {
+    "filter": "F343N",
+    "center_nm": 344.6,
+    "color": "#1aff33",
+    "obs_id": "icz610010",
+    "exposure_s": 4800,
+    "product": "mast:HST/product/icz610010_drz.fits"
+   },
+   {
+    "filter": "F438W",
+    "center_nm": 431.4,
+    "color": "#ff1a1a",
+    "obs_id": "icz610030",
+    "exposure_s": 1040,
+    "product": "mast:HST/product/icz610030_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

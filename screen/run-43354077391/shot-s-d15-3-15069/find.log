@@ -1,0 +1,3 @@
+  page 1/1 rows so far 10 of 10
+HST|D15-3|15069|WFC3/UVIS|3  rows=7  filters=['F225W', 'F336W', 'F467M', 'detection']
+HST|D15-3|15069|WFC3/IR|3  rows=3  filters=['F125W', 'detection']

@@ -1,0 +1,3 @@
+  page 1/1 rows so far 13 of 13
+HST|IPTF15AF-HOST|14717|WFC3/UVIS|3  rows=10  filters=['F438W', 'F625W', 'F814W', 'detection']
+HST|IPTF15AF-HOST|14717|STIS/CCD|1  rows=1  filters=['MIRVIS']

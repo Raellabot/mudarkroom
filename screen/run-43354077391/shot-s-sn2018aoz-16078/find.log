@@ -1,0 +1,3 @@
+  page 1/1 rows so far 13 of 13
+HST|SN2018AOZ|16078|WFC3/UVIS|3  rows=9  filters=['F438W', 'F555W', 'F600LP', 'detection']
+HST|SN2018AOZ|16078|WFC3/IR|3  rows=4  filters=['F110W', 'detection']

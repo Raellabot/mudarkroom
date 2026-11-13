@@ -1,0 +1,16 @@
+[     0s] == s-name-sanduleaks-star-12868: 3 filters: ['F656N', 'F658N', 'F673N']
+[     0s] F656N: 4129x4388 px at 0.0396 arcsec/px, 218 MB
+[     1s] F658N: 4130x4388 px at 0.0396 arcsec/px, 218 MB
+[     1s] F673N: 4130x4389 px at 0.0396 arcsec/px, 218 MB
+[     1s] grid from F673N: 1032x1097 px (reduced 4x), 0.158 arcsec/px
+[     3s] downloaded ic1p01010_drz.fits: 218 MB
+[     4s] F656N: aligned (reduced 3x), covers 93% of the grid
+[     7s] downloaded ic1p01020_drz.fits: 218 MB
+[     7s] F658N: aligned (reduced 4x), covers 93% of the grid
+[    13s] downloaded ic1p01030_drz.fits: 218 MB
+[    13s] F673N: aligned (reduced 4x), covers 93% of the grid
+[    14s] s-name-sanduleaks-star-12868: finishing steps applied: ['dense']
+[    14s] cropped to 959x978 px where 3 of 3 filters have data
+/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/astropy/visualization/lupton_rgb.py:645: RuntimeWarning: invalid value encountered in divide
+  fInorm = np.where(Int <= 0, 0, np.true_divide(fI, Int))
+[    14s] done: 1 pictures

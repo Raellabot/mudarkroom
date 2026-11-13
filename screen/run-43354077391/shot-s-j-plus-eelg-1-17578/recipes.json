@@ -1,0 +1,55 @@
+[
+ {
+  "picture": "s-j-plus-eelg-1-17578-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "J-PLUS-EELG-1",
+  "proposal_id": "17578",
+  "instrument": "WFC3/UVIS",
+  "title": "Eat Your Green Pea Galaxies!7",
+  "grid": {
+   "width": 1031,
+   "height": 1090,
+   "reduction": 2,
+   "arcsec_per_pixel": 0.07923999999999984,
+   "reference_filter": "F665N"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F225W",
+    "center_nm": 236.8,
+    "color": "#1a4cff",
+    "obs_id": "ifaq01010",
+    "exposure_s": 423,
+    "product": "mast:HST/product/ifaq01010_drz.fits"
+   },
+   {
+    "filter": "F665N",
+    "center_nm": 665.5,
+    "color": "#1aff33",
+    "obs_id": "ifaq01020",
+    "exposure_s": 333,
+    "product": "mast:HST/product/ifaq01020_drz.fits"
+   },
+   {
+    "filter": "F775W",
+    "center_nm": 772.8,
+    "color": "#ff1a1a",
+    "obs_id": "ifaq01030",
+    "exposure_s": 300,
+    "product": "mast:HST/product/ifaq01030_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

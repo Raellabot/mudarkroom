@@ -1,0 +1,55 @@
+[
+ {
+  "picture": "s-sn2023jwr-17128-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "SN2023JWR",
+  "proposal_id": "17128",
+  "instrument": "WFC3/UVIS",
+  "title": "Reducing Type Ia Supernova Distance Biases by Separating Reddening and Intrinsic Color",
+  "grid": {
+   "width": 1058,
+   "height": 1121,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.15847999999999562,
+   "reference_filter": "F336W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F300X",
+    "center_nm": 292.8,
+    "color": "#1a4cff",
+    "obs_id": "if1z59050",
+    "exposure_s": 702,
+    "product": "mast:HST/product/if1z59050_drz.fits"
+   },
+   {
+    "filter": "F336W",
+    "center_nm": 336.6,
+    "color": "#1aff33",
+    "obs_id": "hst_17128_59_wfc3_uvis_f336w_if1z59",
+    "exposure_s": 664,
+    "product": "mast:HST/product/hst_17128_59_wfc3_uvis_f336w_if1z59_drc.fits"
+   },
+   {
+    "filter": "F555W",
+    "center_nm": 550.4,
+    "color": "#ff1a1a",
+    "obs_id": "if1z59060",
+    "exposure_s": 60,
+    "product": "mast:HST/product/if1z59060_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

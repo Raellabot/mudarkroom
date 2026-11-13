@@ -1,0 +1,4 @@
+  page 1/1 rows so far 54 of 54
+HST|SN2012ET|12582|WFC3/UVIS|3  rows=28  filters=['F225W', 'F275W', 'F336W', 'detection']
+HST|SN2012ET|12582|WFC3/IR|3  rows=20  filters=['F125W', 'F160W', 'detection']
+HST|SN2012ET|12582|STIS/CCD|1  rows=1  filters=['MIRVIS']

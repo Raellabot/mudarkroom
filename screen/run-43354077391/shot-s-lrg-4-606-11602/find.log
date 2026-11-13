@@ -1,0 +1,3 @@
+  page 1/1 rows so far 12 of 12
+HST|LRG-4-606|11602|WFC3/UVIS|3  rows=7  filters=['F475W', 'F606W', 'F814W', 'detection']
+HST|LRG-4-606|11602|WFC3/IR|3  rows=5  filters=['F110W', 'F160W', 'detection']

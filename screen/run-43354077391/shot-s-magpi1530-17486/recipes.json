@@ -1,0 +1,63 @@
+[
+ {
+  "picture": "s-magpi1530-17486-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "MAGPI1530",
+  "proposal_id": "17486",
+  "instrument": "WFC3/UVIS",
+  "title": "UV-MAGPI: Sharpening our View of Dust Attenuation",
+  "grid": {
+   "width": 1032,
+   "height": 1097,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.15847999999999932,
+   "reference_filter": "F275W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F225W",
+    "center_nm": 236.8,
+    "color": "#1a4cff",
+    "obs_id": "if7s06010",
+    "exposure_s": 2341,
+    "product": "mast:HST/product/if7s06010_drz.fits"
+   },
+   {
+    "filter": "F275W",
+    "center_nm": 274.5,
+    "color": "#1aff33",
+    "obs_id": "if7s06020",
+    "exposure_s": 2321,
+    "product": "mast:HST/product/if7s06020_drz.fits"
+   },
+   {
+    "filter": "F336W",
+    "center_nm": 336.6,
+    "color": "#ff800d",
+    "obs_id": "if7s06030",
+    "exposure_s": 1293,
+    "product": "mast:HST/product/if7s06030_drz.fits"
+   },
+   {
+    "filter": "F390W",
+    "center_nm": 387.1,
+    "color": "#ff1a1a",
+    "obs_id": "if7s06040",
+    "exposure_s": 730,
+    "product": "mast:HST/product/if7s06040_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

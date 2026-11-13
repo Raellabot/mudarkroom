@@ -1,0 +1,55 @@
+[
+ {
+  "picture": "s-30764-16280-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "30764",
+  "proposal_id": "16280",
+  "instrument": "WFC3/UVIS",
+  "title": "Quasi-Hildas Objects: The Missing Link Between The Hildas and Centaurs Populations",
+  "grid": {
+   "width": 1030,
+   "height": 1087,
+   "reduction": 1,
+   "arcsec_per_pixel": 0.039619999999999135,
+   "reference_filter": "F625W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F475W",
+    "center_nm": 475.8,
+    "color": "#1a4cff",
+    "obs_id": "ieca02e8q",
+    "exposure_s": 100,
+    "product": "mast:HST/product/ieca02e8q_drz.fits"
+   },
+   {
+    "filter": "F625W",
+    "center_nm": 627.4,
+    "color": "#1aff33",
+    "obs_id": "ieca02ecq",
+    "exposure_s": 100,
+    "product": "mast:HST/product/ieca02ecq_drz.fits"
+   },
+   {
+    "filter": "F775W",
+    "center_nm": 772.8,
+    "color": "#ff1a1a",
+    "obs_id": "ieca02efq",
+    "exposure_s": 120,
+    "product": "mast:HST/product/ieca02efq_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

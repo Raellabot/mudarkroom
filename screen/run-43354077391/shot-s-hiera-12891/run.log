@@ -1,0 +1,19 @@
+[     0s] == s-hiera-12891: 4 filters: ['F336W', 'F438W', 'F555W', 'F814W']
+[     0s] F336W: 1030x1087 px at 0.0396 arcsec/px, 14 MB
+[     1s] F438W: 1030x1087 px at 0.0396 arcsec/px, 14 MB
+[     1s] F555W: 1030x1087 px at 0.0396 arcsec/px, 14 MB
+[     2s] F814W: 1031x1087 px at 0.0396 arcsec/px, 14 MB
+[     2s] grid from F814W: 1031x1087 px (reduced 1x), 0.040 arcsec/px
+[     2s] downloaded ibyk06roq_drz.fits: 14 MB
+[     2s] F336W: aligned (reduced 1x), covers 93% of the grid
+[     3s] downloaded ibyk06rmq_drz.fits: 14 MB
+[     3s] F438W: aligned (reduced 1x), covers 93% of the grid
+[     4s] downloaded ibyk06rhq_drz.fits: 14 MB
+[     4s] F555W: aligned (reduced 1x), covers 80% of the grid
+[     5s] downloaded ibyk06rnq_drz.fits: 14 MB
+[     5s] F814W: aligned (reduced 1x), covers 94% of the grid
+[     5s] s-hiera-12891: finishing steps applied: ['dense']
+[     5s] cropped to 890x847 px where 4 of 4 filters have data
+/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/astropy/visualization/lupton_rgb.py:645: RuntimeWarning: invalid value encountered in divide
+  fInorm = np.where(Int <= 0, 0, np.true_divide(fI, Int))
+[     5s] done: 1 pictures

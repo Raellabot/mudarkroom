@@ -1,0 +1,55 @@
+[
+ {
+  "picture": "s-rare-helms-10-13718-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST+HST",
+  "target": "RARE-HELMS-10+RARE-HELMS-10",
+  "proposal_id": "13718+13718",
+  "instrument": "ACS/WFC+WFC3/IR",
+  "title": "The nature and environment of the earliest dusty starburst galaxies",
+  "grid": {
+   "width": 1054,
+   "height": 1061,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.19999999999999982,
+   "reference_filter": "F435W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F435W",
+    "center_nm": 425.0,
+    "color": "#1a4cff",
+    "obs_id": "jcjj06010",
+    "exposure_s": 2192,
+    "product": "mast:HST/product/jcjj06010_drz.fits"
+   },
+   {
+    "filter": "F105W",
+    "center_nm": 1052.7,
+    "color": "#1aff33",
+    "obs_id": "icjj03020",
+    "exposure_s": 1412,
+    "product": "mast:HST/product/icjj03020_drz.fits"
+   },
+   {
+    "filter": "F160W",
+    "center_nm": 1543.2,
+    "color": "#ff1a1a",
+    "obs_id": "icjj03010",
+    "exposure_s": 987,
+    "product": "mast:HST/product/icjj03010_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

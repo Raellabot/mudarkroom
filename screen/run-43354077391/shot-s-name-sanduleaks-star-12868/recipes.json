@@ -1,0 +1,55 @@
+[
+ {
+  "picture": "s-name-sanduleaks-star-12868-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "NAME-SANDULEAKS-STAR",
+  "proposal_id": "12868",
+  "instrument": "WFC3/UVIS",
+  "title": "Unveiling the giant jet from Sanduleaks star in the Large Magellanic Cloud",
+  "grid": {
+   "width": 1032,
+   "height": 1097,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.15848000347614233,
+   "reference_filter": "F673N"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F656N",
+    "center_nm": 656.2,
+    "color": "#1a4cff",
+    "obs_id": "ic1p01010",
+    "exposure_s": 2672,
+    "product": "mast:HST/product/ic1p01010_drz.fits"
+   },
+   {
+    "filter": "F658N",
+    "center_nm": 658.6,
+    "color": "#1aff33",
+    "obs_id": "ic1p01020",
+    "exposure_s": 2862,
+    "product": "mast:HST/product/ic1p01020_drz.fits"
+   },
+   {
+    "filter": "F673N",
+    "center_nm": 676.9,
+    "color": "#ff1a1a",
+    "obs_id": "ic1p01030",
+    "exposure_s": 3139,
+    "product": "mast:HST/product/ic1p01030_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

@@ -1,0 +1,55 @@
+[
+ {
+  "picture": "s-adfs27-15919-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST+HST",
+  "target": "ADFS27+ADFS27",
+  "proposal_id": "15919+15919",
+  "instrument": "ACS/WFC+WFC3/IR",
+  "title": "Rise of the Titans: Unveiling the Nature of a Binary Hyper-Luminous Starburst at Redshift 6",
+  "grid": {
+   "width": 1055,
+   "height": 1075,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.19999999999999588,
+   "reference_filter": "F606W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F606W",
+    "center_nm": 595.0,
+    "color": "#1a4cff",
+    "obs_id": "je1r01010",
+    "exposure_s": 4800,
+    "product": "mast:HST/product/je1r01010_drz.fits"
+   },
+   {
+    "filter": "F098M",
+    "center_nm": 986.1,
+    "color": "#1aff33",
+    "obs_id": "ie1r02010",
+    "exposure_s": 2712,
+    "product": "mast:HST/product/ie1r02010_drz.fits"
+   },
+   {
+    "filter": "F160W",
+    "center_nm": 1543.2,
+    "color": "#ff1a1a",
+    "obs_id": "ie1r02020",
+    "exposure_s": 5612,
+    "product": "mast:HST/product/ie1r02020_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

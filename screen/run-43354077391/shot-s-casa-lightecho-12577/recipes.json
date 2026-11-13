@@ -1,0 +1,55 @@
+[
+ {
+  "picture": "s-casa-lightecho-12577-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "CASA-LIGHTECHO",
+  "proposal_id": "12577",
+  "instrument": "WFC3/UVIS",
+  "title": "Spectral Time Series of the Cas A Supernova",
+  "grid": {
+   "width": 1024,
+   "height": 1084,
+   "reduction": 2,
+   "arcsec_per_pixel": 0.07924000173807139,
+   "reference_filter": "F606W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F275W",
+    "center_nm": 274.5,
+    "color": "#1a4cff",
+    "obs_id": "ibqo01010",
+    "exposure_s": 900,
+    "product": "mast:HST/product/ibqo01010_drz.fits"
+   },
+   {
+    "filter": "F390W",
+    "center_nm": 387.1,
+    "color": "#1aff33",
+    "obs_id": "ibqo01030",
+    "exposure_s": 300,
+    "product": "mast:HST/product/ibqo01030_drz.fits"
+   },
+   {
+    "filter": "F606W",
+    "center_nm": 594.0,
+    "color": "#ff1a1a",
+    "obs_id": "ibqo01020",
+    "exposure_s": 300,
+    "product": "mast:HST/product/ibqo01020_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

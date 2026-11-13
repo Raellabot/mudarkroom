@@ -1,0 +1,27 @@
+[     0s] == s-mcbridge-bg2-13834: 3 filters: ['F606W', 'F775W', 'F814W']
+[     1s] F606W: 4133x4391 px at 0.0396 arcsec/px, 218 MB
+[     1s] F775W: 4229x4243 px at 0.0500 arcsec/px, 215 MB
+[     2s] F814W: 4134x4394 px at 0.0396 arcsec/px, 218 MB
+[     2s] grid from F775W: 1057x1060 px (reduced 4x), 0.200 arcsec/px
+[     7s] downloaded icmk03030_drz.fits: 218 MB
+[     7s] F606W: aligned (reduced 5x), covers 0% of the grid
+[    12s] downloaded jcmk03020_drz.fits: 215 MB
+[    12s] F775W: aligned (reduced 4x), covers 92% of the grid
+[    17s] downloaded icmk03040_drz.fits: 218 MB
+[    18s] F814W: aligned (reduced 5x), covers 0% of the grid
+Traceback (most recent call last):
+  File "/home/runner/work/mudarkroom/mudarkroom/scripts/mast/color.py", line 871, in <module>
+    main()
+  File "/home/runner/work/mudarkroom/mudarkroom/scripts/mast/color.py", line 796, in main
+    raw = aligned = finish_arrays(raw, fin, float(os.environ.get("FINISH_SCALE", "1")))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/mudarkroom/mudarkroom/scripts/mast/color.py", line 461, in finish_arrays
+    y0, y1, x0, x1 = dense_crop_box(a, fin["dense"])
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/mudarkroom/mudarkroom/scripts/mast/color.py", line 400, in dense_crop_box
+    y0, y1, x0, x1 = ys.min(), ys.max() + 1, xs.min(), xs.max() + 1
+                     ^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/numpy/_core/_methods.py", line 45, in _amin
+    return umr_minimum(a, axis, None, out, keepdims, initial, where)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: zero-size array to reduction operation minimum which has no identity

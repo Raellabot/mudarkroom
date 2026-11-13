@@ -1,0 +1,19 @@
+[     0s] == s-sed4-14898: 4 filters: ['F225W', 'F336W', 'F606W', 'F814W']
+[     1s] F225W: 520x548 px at 0.0396 arcsec/px, 4 MB
+[     1s] F336W: 520x548 px at 0.0396 arcsec/px, 4 MB
+[     2s] F606W: 520x548 px at 0.0396 arcsec/px, 4 MB
+[     3s] F814W: 520x548 px at 0.0396 arcsec/px, 4 MB
+[     3s] grid from F225W: 520x548 px (reduced 1x), 0.040 arcsec/px
+[     4s] downloaded ide204020_drz.fits: 4 MB
+[     4s] F225W: aligned (reduced 1x), covers 94% of the grid
+[     4s] downloaded ide204030_drz.fits: 4 MB
+[     5s] F336W: aligned (reduced 1x), covers 94% of the grid
+[     5s] downloaded ide204040_drz.fits: 4 MB
+[     5s] F606W: aligned (reduced 1x), covers 94% of the grid
+[     6s] downloaded ide204050_drz.fits: 4 MB
+[     6s] F814W: aligned (reduced 1x), covers 94% of the grid
+[     6s] s-sed4-14898: finishing steps applied: ['dense']
+[     6s] cropped to 494x494 px where 4 of 4 filters have data
+/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/astropy/visualization/lupton_rgb.py:645: RuntimeWarning: invalid value encountered in divide
+  fInorm = np.where(Int <= 0, 0, np.true_divide(fI, Int))
+[     7s] done: 1 pictures

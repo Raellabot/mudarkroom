@@ -1,0 +1,55 @@
+[
+ {
+  "picture": "s-her-a-13065-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "HER-A",
+  "proposal_id": "13065",
+  "instrument": "WFC3/UVIS",
+  "title": "Imaging the Host Galaxy and Cluster of Hercules A",
+  "grid": {
+   "width": 829,
+   "height": 1082,
+   "reduction": 5,
+   "arcsec_per_pixel": 0.19810000434517755,
+   "reference_filter": "F814W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F336W",
+    "center_nm": 336.6,
+    "color": "#1a4cff",
+    "obs_id": "ic0p01030",
+    "exposure_s": 3656,
+    "product": "mast:HST/product/ic0p01030_drz.fits"
+   },
+   {
+    "filter": "F606W",
+    "center_nm": 594.0,
+    "color": "#1aff33",
+    "obs_id": "ic0p01010",
+    "exposure_s": 1760,
+    "product": "mast:HST/product/ic0p01010_drz.fits"
+   },
+   {
+    "filter": "F814W",
+    "center_nm": 831.9,
+    "color": "#ff1a1a",
+    "obs_id": "ic0p01020",
+    "exposure_s": 1928,
+    "product": "mast:HST/product/ic0p01020_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

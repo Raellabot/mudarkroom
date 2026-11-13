@@ -1,0 +1,55 @@
+[
+ {
+  "picture": "s-spt-cl-j2228-5828-16488-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST+HST",
+  "target": "SPT-CL-J2228-5828+SPT-CL-J2228-5828",
+  "proposal_id": "16488+16488",
+  "instrument": "ACS/WFC+WFC3/IR",
+  "title": "An XMM-Newton+HST study of an extreme, high-redshift cluster merger",
+  "grid": {
+   "width": 998,
+   "height": 750,
+   "reduction": 2,
+   "arcsec_per_pixel": 0.2564999999999996,
+   "reference_filter": "F140W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F606W",
+    "center_nm": 595.0,
+    "color": "#1a4cff",
+    "obs_id": "jeiu04010",
+    "exposure_s": 1784,
+    "product": "mast:HST/product/jeiu04010_drz.fits"
+   },
+   {
+    "filter": "F814W",
+    "center_nm": 833.5,
+    "color": "#1aff33",
+    "obs_id": "jeiu11010",
+    "exposure_s": 1784,
+    "product": "mast:HST/product/jeiu11010_drz.fits"
+   },
+   {
+    "filter": "F140W",
+    "center_nm": 1398.3,
+    "color": "#ff1a1a",
+    "obs_id": "hst_16488_08_wfc3_ir_f140w_ieiu08",
+    "exposure_s": 3785.264832,
+    "product": "mast:HST/product/hst_16488_08_wfc3_ir_f140w_ieiu08_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

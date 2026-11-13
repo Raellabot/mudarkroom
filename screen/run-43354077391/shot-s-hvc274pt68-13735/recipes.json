@@ -1,0 +1,55 @@
+[
+ {
+  "picture": "s-hvc274pt68-13735-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST+HST",
+  "target": "HVC274PT68+HVC274PT68",
+  "proposal_id": "13735+13735",
+  "instrument": "ACS/WFC+WFC3/UVIS",
+  "title": "A New Dwarf Galaxy Associated with an Ultra-Compact High Velocity Cloud",
+  "grid": {
+   "width": 1054,
+   "height": 1060,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.1999999999999995,
+   "reference_filter": "F814W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F275W",
+    "center_nm": 274.5,
+    "color": "#1a4cff",
+    "obs_id": "icmo52010",
+    "exposure_s": 2480,
+    "product": "mast:HST/product/icmo52010_drz.fits"
+   },
+   {
+    "filter": "F606W",
+    "center_nm": 595.0,
+    "color": "#1aff33",
+    "obs_id": "jcmo01010",
+    "exposure_s": 2196,
+    "product": "mast:HST/product/jcmo01010_drz.fits"
+   },
+   {
+    "filter": "F814W",
+    "center_nm": 833.5,
+    "color": "#ff1a1a",
+    "obs_id": "jcmo01020",
+    "exposure_s": 2336,
+    "product": "mast:HST/product/jcmo01020_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

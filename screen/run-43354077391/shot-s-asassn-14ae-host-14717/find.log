@@ -1,0 +1,3 @@
+  page 1/1 rows so far 13 of 13
+HST|ASASSN-14AE-HOST|14717|WFC3/UVIS|3  rows=9  filters=['F438W', 'F625W', 'F814W', 'detection']
+HST|ASASSN-14AE-HOST|14717|STIS/CCD|1  rows=1  filters=['MIRVIS']

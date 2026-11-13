@@ -1,0 +1,3 @@
+  page 1/1 rows so far 42 of 42
+HST|BULGE-OGLE29|11664|WFC3/IR|3  rows=28  filters=['F110W', 'F160W', 'detection']
+HST|BULGE-OGLE29|11664|WFC3/UVIS|3  rows=14  filters=['F390W', 'F555W', 'F814W', 'detection']
