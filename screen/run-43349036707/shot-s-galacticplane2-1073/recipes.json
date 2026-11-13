@@ -1,0 +1,63 @@
+[
+ {
+  "picture": "s-galacticplane2-1073-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "JWST",
+  "target": "GALACTICPLANE2",
+  "proposal_id": "1073",
+  "instrument": "NIRCAM/IMAGE",
+  "title": "NIRCam Dither Pattern Verification",
+  "grid": {
+   "width": 1120,
+   "height": 508,
+   "reduction": 9,
+   "arcsec_per_pixel": 0.2810616958241589,
+   "reference_filter": "F115W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F070W",
+    "center_nm": 701.0,
+    "color": "#1a4cff",
+    "obs_id": "jw01073-o006_t003_nircam_clear-f070w",
+    "exposure_s": 773.046,
+    "product": "mast:JWST/product/jw01073-o006_t003_nircam_clear-f070w_i2d.fits"
+   },
+   {
+    "filter": "F115W",
+    "center_nm": 1147.5,
+    "color": "#1aff33",
+    "obs_id": "jw01073-o007_t003_nircam_clear-f115w",
+    "exposure_s": 687.152,
+    "product": "mast:JWST/product/jw01073-o007_t003_nircam_clear-f115w_i2d.fits"
+   },
+   {
+    "filter": "F150W",
+    "center_nm": 1499.5,
+    "color": "#ff800d",
+    "obs_id": "jw01073-o007_t003_nircam_clear-f150w",
+    "exposure_s": 687.152,
+    "product": "mast:JWST/product/jw01073-o007_t003_nircam_clear-f150w_i2d.fits"
+   },
+   {
+    "filter": "F277W",
+    "center_nm": 2771.5,
+    "color": "#ff1a1a",
+    "obs_id": "jw01073-o007_t003_nircam_clear-f277w",
+    "exposure_s": 1374.304,
+    "product": "mast:JWST/product/jw01073-o007_t003_nircam_clear-f277w_i2d.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

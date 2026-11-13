@@ -1,0 +1,3 @@
+  page 1/1 rows so far 22 of 22
+JWST|MRGP0918|4903|NIRSPEC/IFU|2  rows=16  filters=['F100LP;G140M', 'F170LP;G235M']
+JWST|MRGP0918|4903|NIRCAM/IMAGE|3  rows=4  filters=['F115W', 'F200W', 'F277W', 'F444W']

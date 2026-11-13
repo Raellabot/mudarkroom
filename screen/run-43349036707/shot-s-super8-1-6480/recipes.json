@@ -1,0 +1,63 @@
+[
+ {
+  "picture": "s-super8-1-6480-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "JWST",
+  "target": "SUPER8-1",
+  "proposal_id": "6480",
+  "instrument": "NIRCAM/IMAGE",
+  "title": "Revealing the Lifecycle and Environment of Massive z~7 Galaxies",
+  "grid": {
+   "width": 1182,
+   "height": 495,
+   "reduction": 9,
+   "arcsec_per_pixel": 0.28103193170737045,
+   "reference_filter": "F200W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F090W",
+    "center_nm": 900.0,
+    "color": "#1a4cff",
+    "obs_id": "jw06480-o021_t021_nircam_clear-f090w",
+    "exposure_s": 1245.464,
+    "product": "mast:JWST/product/jw06480-o021_t021_nircam_clear-f090w_i2d.fits"
+   },
+   {
+    "filter": "F150W",
+    "center_nm": 1499.5,
+    "color": "#1aff33",
+    "obs_id": "jw06480-o021_t021_nircam_clear-f150w",
+    "exposure_s": 815.996,
+    "product": "mast:JWST/product/jw06480-o021_t021_nircam_clear-f150w_i2d.fits"
+   },
+   {
+    "filter": "F200W",
+    "center_nm": 1990.5,
+    "color": "#ff800d",
+    "obs_id": "jw06480-o021_t021_nircam_clear-f200w",
+    "exposure_s": 773.046,
+    "product": "mast:JWST/product/jw06480-o021_t021_nircam_clear-f200w_i2d.fits"
+   },
+   {
+    "filter": "F444W",
+    "center_nm": 4433.0,
+    "color": "#ff1a1a",
+    "obs_id": "jw06480-o021_t021_nircam_clear-f444w",
+    "exposure_s": 773.046,
+    "product": "mast:JWST/product/jw06480-o021_t021_nircam_clear-f444w_i2d.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

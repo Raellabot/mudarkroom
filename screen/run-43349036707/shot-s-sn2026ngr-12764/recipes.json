@@ -1,0 +1,63 @@
+[
+ {
+  "picture": "s-sn2026ngr-12764-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "JWST",
+  "target": "SN2026ngr",
+  "proposal_id": "12764",
+  "instrument": "NIRCAM/IMAGE",
+  "title": "Zooming In on SN2026ngr: A Gravitationally Lensed Type Ia Supernova Magnified by 100",
+  "grid": {
+   "width": 1119,
+   "height": 508,
+   "reduction": 9,
+   "arcsec_per_pixel": 0.28101571009391796,
+   "reference_filter": "F115W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F090W",
+    "center_nm": 900.0,
+    "color": "#1a4cff",
+    "obs_id": "jw12764-o004_t003_nircam_clear-f090w",
+    "exposure_s": 472.416,
+    "product": "mast:JWST/product/jw12764-o004_t003_nircam_clear-f090w_i2d.fits"
+   },
+   {
+    "filter": "F115W",
+    "center_nm": 1147.5,
+    "color": "#1aff33",
+    "obs_id": "jw12764-o004_t003_nircam_clear-f115w",
+    "exposure_s": 472.416,
+    "product": "mast:JWST/product/jw12764-o004_t003_nircam_clear-f115w_i2d.fits"
+   },
+   {
+    "filter": "F150W",
+    "center_nm": 1499.5,
+    "color": "#ff800d",
+    "obs_id": "jw12764-o004_t003_nircam_clear-f150w",
+    "exposure_s": 472.416,
+    "product": "mast:JWST/product/jw12764-o004_t003_nircam_clear-f150w_i2d.fits"
+   },
+   {
+    "filter": "F277W",
+    "center_nm": 2771.5,
+    "color": "#ff1a1a",
+    "obs_id": "jw12764-o004_t003_nircam_clear-f277w",
+    "exposure_s": 1417.248,
+    "product": "mast:JWST/product/jw12764-o004_t003_nircam_clear-f277w_i2d.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

@@ -1,0 +1,55 @@
+[
+ {
+  "picture": "s-nircam-pt-1-2516-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "JWST",
+  "target": "NIRCAM-PT-1",
+  "proposal_id": "2516",
+  "instrument": "NIRCAM/IMAGE",
+  "title": "Revealing the hidden stellar emission in the highest-fidelity ALMA-mapped submillimeter galaxies",
+  "grid": {
+   "width": 1134,
+   "height": 1129,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.12298449694228963,
+   "reference_filter": "F200W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F200W",
+    "center_nm": 1990.5,
+    "color": "#1a4cff",
+    "obs_id": "jw02516-o001_t001_nircam_clear-f200w",
+    "exposure_s": 3779.344000000001,
+    "product": "mast:JWST/product/jw02516-o001_t001_nircam_clear-f200w_i2d.fits"
+   },
+   {
+    "filter": "F356W",
+    "center_nm": 3560.0,
+    "color": "#1aff33",
+    "obs_id": "jw02516-o001_t001_nircam_clear-f356w",
+    "exposure_s": 1889.672,
+    "product": "mast:JWST/product/jw02516-o001_t001_nircam_clear-f356w_i2d.fits"
+   },
+   {
+    "filter": "F444W",
+    "center_nm": 4433.0,
+    "color": "#ff1a1a",
+    "obs_id": "jw02516-o001_t001_nircam_clear-f444w",
+    "exposure_s": 1889.672,
+    "product": "mast:JWST/product/jw02516-o001_t001_nircam_clear-f444w_i2d.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

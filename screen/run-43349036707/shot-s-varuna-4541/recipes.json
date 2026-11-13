@@ -1,0 +1,55 @@
+[
+ {
+  "picture": "s-varuna-4541-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "JWST",
+  "target": "VARUNA",
+  "proposal_id": "4541",
+  "instrument": "NIRCAM/IMAGE",
+  "title": "Search for Varunas Satellite",
+  "grid": {
+   "width": 404,
+   "height": 406,
+   "reduction": 1,
+   "arcsec_per_pixel": 0.06242232817962432,
+   "reference_filter": "F250M"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F070W",
+    "center_nm": 701.0,
+    "color": "#1a4cff",
+    "obs_id": "jw04541-o001_t001_nircam_clear-f070w-sub400p",
+    "exposure_s": 159,
+    "product": "mast:JWST/product/jw04541-o001_t001_nircam_clear-f070w-sub400p_i2d.fits"
+   },
+   {
+    "filter": "F090W",
+    "center_nm": 900.0,
+    "color": "#1aff33",
+    "obs_id": "jw04541-o001_t001_nircam_clear-f090w-sub400p",
+    "exposure_s": 159,
+    "product": "mast:JWST/product/jw04541-o001_t001_nircam_clear-f090w-sub400p_i2d.fits"
+   },
+   {
+    "filter": "F250M",
+    "center_nm": 2503.5,
+    "color": "#ff1a1a",
+    "obs_id": "jw04541-o001_t001_nircam_clear-f250m-sub400p",
+    "exposure_s": 318,
+    "product": "mast:JWST/product/jw04541-o001_t001_nircam_clear-f250m-sub400p_i2d.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

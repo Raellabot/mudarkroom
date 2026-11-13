@@ -1,0 +1,3 @@
+  page 1/1 rows so far 5 of 5
+JWST|ESO-HA-569|4290|NIRCAM/IMAGE|3  rows=4  filters=['F115W', 'F200W', 'F300M', 'F460M']
+JWST|ESO-HA-569|4290|MIRI/IMAGE|3  rows=1  filters=['F770W']

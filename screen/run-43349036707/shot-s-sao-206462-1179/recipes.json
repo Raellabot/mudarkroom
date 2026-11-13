@@ -1,0 +1,55 @@
+[
+ {
+  "picture": "s-sao-206462-1179-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "JWST",
+  "target": "SAO-206462",
+  "proposal_id": "1179",
+  "instrument": "NIRCAM/IMAGE",
+  "title": "YSO Imaging",
+  "grid": {
+   "width": 171,
+   "height": 172,
+   "reduction": 1,
+   "arcsec_per_pixel": 0.06241622683828356,
+   "reference_filter": "F410M"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F187N",
+    "center_nm": 1873.5,
+    "color": "#1a4cff",
+    "obs_id": "jw01179-o002_t001_nircam_clear-f187n-sub160p",
+    "exposure_s": 1337.472,
+    "product": "mast:JWST/product/jw01179-o002_t001_nircam_clear-f187n-sub160p_i2d.fits"
+   },
+   {
+    "filter": "F200W",
+    "center_nm": 1990.5,
+    "color": "#1aff33",
+    "obs_id": "jw01179-o002_t001_nircam_clear-f200w-sub160p",
+    "exposure_s": 1337.472,
+    "product": "mast:JWST/product/jw01179-o002_t001_nircam_clear-f200w-sub160p_i2d.fits"
+   },
+   {
+    "filter": "F410M",
+    "center_nm": 4082.5,
+    "color": "#ff1a1a",
+    "obs_id": "jw01179-o002_t001_nircam_clear-f410m-sub160p",
+    "exposure_s": 1337.472,
+    "product": "mast:JWST/product/jw01179-o002_t001_nircam_clear-f410m-sub160p_i2d.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

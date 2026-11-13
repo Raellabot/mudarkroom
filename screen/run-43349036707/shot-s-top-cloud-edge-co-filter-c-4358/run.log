@@ -1,0 +1,18 @@
+[     0s] == s-top-cloud-edge-co-filter-c-4358: 3 filters: ['F182M', 'F200W', 'F430M']
+[     1s] F182M: file is 3.1 GB, over the 3.0 GB cap; this filter is left out
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set DATE-BEG to '2024-04-13T20:36:22.177' from MJD-BEG.
+Set DATE-AVG to '2024-04-13T21:30:27.734' from MJD-AVG.
+Set DATE-END to '2024-04-13T22:25:05.520' from MJD-END'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'obsfix' made the change 'Set OBSGEO-L to  -131.859044 from OBSGEO-[XYZ].
+Set OBSGEO-B to    -6.869991 from OBSGEO-[XYZ].
+Set OBSGEO-H to 1337042053.507 from OBSGEO-[XYZ]'. [astropy.wcs.wcs]
+[     1s] F200W: 9931x7558 px at 0.0312 arcsec/px, 2402 MB
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set DATE-BEG to '2024-04-13T20:36:22.113' from MJD-BEG.
+Set DATE-AVG to '2024-04-13T21:30:27.742' from MJD-AVG.
+Set DATE-END to '2024-04-13T22:25:05.584' from MJD-END'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'obsfix' made the change 'Set OBSGEO-L to  -131.859043 from OBSGEO-[XYZ].
+Set OBSGEO-B to    -6.869992 from OBSGEO-[XYZ].
+Set OBSGEO-H to 1337042061.433 from OBSGEO-[XYZ]'. [astropy.wcs.wcs]
+[     2s] F430M: 4879x3682 px at 0.0629 arcsec/px, 503 MB
+[     2s] s-top-cloud-edge-co-filter-c-4358 failed: fewer than three filters can be used
+[     2s] done: 0 pictures

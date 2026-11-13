@@ -1,0 +1,55 @@
+[
+ {
+  "picture": "s-459-17708-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST+HST",
+  "target": "459+459",
+  "proposal_id": "17708+17708",
+  "instrument": "WFC3/IR+WFC3/UVIS",
+  "title": "The Black Hole Mass - Stellar Mass Relation with Reverberation Mapping AGNs at 1<z<1.8",
+  "grid": {
+   "width": 1032,
+   "height": 1090,
+   "reduction": 2,
+   "arcsec_per_pixel": 0.07923999999999408,
+   "reference_filter": "F625W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F625W",
+    "center_nm": 627.4,
+    "color": "#1a4cff",
+    "obs_id": "ifev22030",
+    "exposure_s": 1928,
+    "product": "mast:HST/product/ifev22030_drz.fits"
+   },
+   {
+    "filter": "F105W",
+    "center_nm": 1052.7,
+    "color": "#1aff33",
+    "obs_id": "ifev22020",
+    "exposure_s": 1394.2569600000002,
+    "product": "mast:HST/product/ifev22020_drz.fits"
+   },
+   {
+    "filter": "F160W",
+    "center_nm": 1543.2,
+    "color": "#ff1a1a",
+    "obs_id": "ifev22010",
+    "exposure_s": 697.12848,
+    "product": "mast:HST/product/ifev22010_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

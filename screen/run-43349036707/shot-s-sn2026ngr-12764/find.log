@@ -1,0 +1,4 @@
+  page 1/1 rows so far 31 of 31
+JWST|SN2026ngr|12764|NIRCAM/IMAGE|-1  rows=12  filters=['F090W;F277W', 'F115W;F277W', 'F150W;F277W']
+JWST|SN2026ngr|12764|NIRSPEC/IFU|2  rows=12  filters=['F100LP;G140M']
+JWST|SN2026ngr|12764|NIRCAM/IMAGE|3  rows=4  filters=['F090W', 'F115W', 'F150W', 'F277W']

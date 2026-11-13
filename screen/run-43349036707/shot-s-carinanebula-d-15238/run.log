@@ -1,0 +1,16 @@
+[     0s] == s-carinanebula-d-15238: 3 filters: ['F110W', 'F139M', 'F160W']
+[     1s] F110W: 2166x2985 px at 0.1282 arcsec/px, 78 MB
+[     1s] F139M: 2166x2985 px at 0.1282 arcsec/px, 78 MB
+[     2s] F160W: 1095x2784 px at 0.1282 arcsec/px, 37 MB
+[     2s] grid from F110W: 722x995 px (reduced 3x), 0.385 arcsec/px
+[    55s] downloaded hst_15238_0n_wfc3_ir_f110w_idnm0n_drz.fits: 78 MB
+[    55s] F110W: aligned (reduced 2x), covers 46% of the grid
+[    57s] downloaded hst_15238_0n_wfc3_ir_f139m_idnm0n_drz.fits: 78 MB
+[    57s] F139M: aligned (reduced 2x), covers 46% of the grid
+[    59s] downloaded idnm0n010_drz.fits: 37 MB
+[    59s] F160W: aligned (reduced 2x), covers 46% of the grid
+[    59s] s-carinanebula-d-15238: finishing steps applied: ['dense']
+[    59s] cropped to 189x467 px where 3 of 3 filters have data
+/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/astropy/visualization/lupton_rgb.py:645: RuntimeWarning: invalid value encountered in divide
+  fInorm = np.where(Int <= 0, 0, np.true_divide(fI, Int))
+[    59s] done: 1 pictures

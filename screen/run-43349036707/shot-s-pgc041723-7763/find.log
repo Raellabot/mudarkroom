@@ -1,0 +1,3 @@
+  page 1/1 rows so far 5 of 5
+JWST|PGC041723|7763|NIRCAM/IMAGE|3  rows=3  filters=['F115W', 'F150W', 'F277W']
+JWST|PGC041723|7763|NIRISS/IMAGE|3  rows=2  filters=['CLEAR;F115W', 'F277W']

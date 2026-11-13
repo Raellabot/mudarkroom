@@ -1,0 +1,3 @@
+  page 1/1 rows so far 5 of 5
+JWST|PSF-J0313-1806|1764|NIRCAM/IMAGE|3  rows=4  filters=['F090W', 'F115W', 'F250M', 'F360M']
+JWST|PSF-J0313-1806|1764|MIRI/IMAGE|3  rows=1  filters=['F560W']

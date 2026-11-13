@@ -1,0 +1,82 @@
+[     0s] == s-plckg171-40-7-6882: 5 filters: ['F090W', 'F150W', 'F210M', 'F356W', 'F444W']
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set DATE-BEG to '2025-09-13T20:28:01.787' from MJD-BEG.
+Set DATE-AVG to '2025-09-13T20:47:21.375' from MJD-AVG.
+Set DATE-END to '2025-09-13T21:06:40.990' from MJD-END'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'obsfix' made the change 'Set OBSGEO-L to   -20.020426 from OBSGEO-[XYZ].
+Set OBSGEO-B to     5.381650 from OBSGEO-[XYZ].
+Set OBSGEO-H to 1223878719.321 from OBSGEO-[XYZ]'. [astropy.wcs.wcs]
+[     1s] F090W: 10072x4571 px at 0.0312 arcsec/px, 1289 MB
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set DATE-BEG to '2025-09-13T21:50:42.197' from MJD-BEG.
+Set DATE-AVG to '2025-09-13T22:03:19.148' from MJD-AVG.
+Set DATE-END to '2025-09-13T22:15:56.122' from MJD-END'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'obsfix' made the change 'Set OBSGEO-L to   -19.905354 from OBSGEO-[XYZ].
+Set OBSGEO-B to     5.444191 from OBSGEO-[XYZ].
+Set OBSGEO-H to 1223610960.220 from OBSGEO-[XYZ]'. [astropy.wcs.wcs]
+[     1s] F150W: 10073x4571 px at 0.0312 arcsec/px, 1290 MB
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set DATE-BEG to '2025-09-13T22:53:30.803' from MJD-BEG.
+Set DATE-AVG to '2025-09-13T23:13:02.484' from MJD-AVG.
+Set DATE-END to '2025-09-13T23:32:31.446' from MJD-END'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'obsfix' made the change 'Set OBSGEO-L to   -19.813625 from OBSGEO-[XYZ].
+Set OBSGEO-B to     5.493992 from OBSGEO-[XYZ].
+Set OBSGEO-H to 1223399144.549 from OBSGEO-[XYZ]'. [astropy.wcs.wcs]
+[     1s] F210M: 10072x4572 px at 0.0312 arcsec/px, 1290 MB
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set DATE-BEG to '2025-09-13T21:50:42.197' from MJD-BEG.
+Set DATE-AVG to '2025-09-13T22:03:19.160' from MJD-AVG.
+Set DATE-END to '2025-09-13T22:15:56.122' from MJD-END'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'obsfix' made the change 'Set OBSGEO-L to   -19.905352 from OBSGEO-[XYZ].
+Set OBSGEO-B to     5.444191 from OBSGEO-[XYZ].
+Set OBSGEO-H to 1223610956.707 from OBSGEO-[XYZ]'. [astropy.wcs.wcs]
+[     2s] F356W: 4964x2204 px at 0.0629 arcsec/px, 307 MB
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set DATE-BEG to '2025-09-13T21:12:45.999' from MJD-BEG.
+Set DATE-AVG to '2025-09-13T21:28:52.310' from MJD-AVG.
+Set DATE-END to '2025-09-13T21:44:58.652' from MJD-END'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'obsfix' made the change 'Set OBSGEO-L to   -19.958003 from OBSGEO-[XYZ].
+Set OBSGEO-B to     5.415586 from OBSGEO-[XYZ].
+Set OBSGEO-H to 1223733185.388 from OBSGEO-[XYZ]'. [astropy.wcs.wcs]
+[     2s] F444W: 4963x2204 px at 0.0629 arcsec/px, 307 MB
+[     2s] grid from F210M: 1119x508 px (reduced 9x), 0.281 arcsec/px
+[    94s] downloaded jw06882-o016_t016_nircam_clear-f090w_i2d.fits: 1289 MB
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set DATE-BEG to '2025-09-13T20:28:01.787' from MJD-BEG.
+Set DATE-AVG to '2025-09-13T20:47:21.375' from MJD-AVG.
+Set DATE-END to '2025-09-13T21:06:40.990' from MJD-END'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'obsfix' made the change 'Set OBSGEO-L to   -20.020426 from OBSGEO-[XYZ].
+Set OBSGEO-B to     5.381650 from OBSGEO-[XYZ].
+Set OBSGEO-H to 1223878719.321 from OBSGEO-[XYZ]'. [astropy.wcs.wcs]
+[    95s] F090W: aligned (reduced 8x), covers 84% of the grid
+[   121s] downloaded jw06882-o016_t016_nircam_clear-f150w_i2d.fits: 1290 MB
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set DATE-BEG to '2025-09-13T21:50:42.197' from MJD-BEG.
+Set DATE-AVG to '2025-09-13T22:03:19.148' from MJD-AVG.
+Set DATE-END to '2025-09-13T22:15:56.122' from MJD-END'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'obsfix' made the change 'Set OBSGEO-L to   -19.905354 from OBSGEO-[XYZ].
+Set OBSGEO-B to     5.444191 from OBSGEO-[XYZ].
+Set OBSGEO-H to 1223610960.220 from OBSGEO-[XYZ]'. [astropy.wcs.wcs]
+[   121s] F150W: aligned (reduced 8x), covers 84% of the grid
+[   199s] downloaded jw06882-o016_t016_nircam_clear-f210m_i2d.fits: 1290 MB
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set DATE-BEG to '2025-09-13T22:53:30.803' from MJD-BEG.
+Set DATE-AVG to '2025-09-13T23:13:02.484' from MJD-AVG.
+Set DATE-END to '2025-09-13T23:32:31.446' from MJD-END'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'obsfix' made the change 'Set OBSGEO-L to   -19.813625 from OBSGEO-[XYZ].
+Set OBSGEO-B to     5.493992 from OBSGEO-[XYZ].
+Set OBSGEO-H to 1223399144.549 from OBSGEO-[XYZ]'. [astropy.wcs.wcs]
+[   199s] F210M: aligned (reduced 9x), covers 84% of the grid
+[   219s] downloaded jw06882-o016_t016_nircam_clear-f356w_i2d.fits: 307 MB
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set DATE-BEG to '2025-09-13T21:50:42.197' from MJD-BEG.
+Set DATE-AVG to '2025-09-13T22:03:19.160' from MJD-AVG.
+Set DATE-END to '2025-09-13T22:15:56.122' from MJD-END'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'obsfix' made the change 'Set OBSGEO-L to   -19.905352 from OBSGEO-[XYZ].
+Set OBSGEO-B to     5.444191 from OBSGEO-[XYZ].
+Set OBSGEO-H to 1223610956.707 from OBSGEO-[XYZ]'. [astropy.wcs.wcs]
+[   220s] F356W: aligned (reduced 4x), covers 81% of the grid
+[   229s] downloaded jw06882-o016_t016_nircam_clear-f444w_i2d.fits: 307 MB
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set DATE-BEG to '2025-09-13T21:12:45.999' from MJD-BEG.
+Set DATE-AVG to '2025-09-13T21:28:52.310' from MJD-AVG.
+Set DATE-END to '2025-09-13T21:44:58.652' from MJD-END'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'obsfix' made the change 'Set OBSGEO-L to   -19.958003 from OBSGEO-[XYZ].
+Set OBSGEO-B to     5.415586 from OBSGEO-[XYZ].
+Set OBSGEO-H to 1223733185.388 from OBSGEO-[XYZ]'. [astropy.wcs.wcs]
+[   229s] F444W: aligned (reduced 4x), covers 81% of the grid
+[   230s] s-plckg171-40-7-6882: finishing steps applied: ['dense']
+[   230s] cropped to 1109x499 px where 5 of 5 filters have data
+/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/astropy/visualization/lupton_rgb.py:645: RuntimeWarning: invalid value encountered in divide
+  fInorm = np.where(Int <= 0, 0, np.true_divide(fI, Int))
+[   230s] done: 1 pictures

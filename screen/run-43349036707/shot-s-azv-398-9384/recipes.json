@@ -1,0 +1,63 @@
+[
+ {
+  "picture": "s-azv-398-9384-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "JWST",
+  "target": "AzV-398",
+  "proposal_id": "9384",
+  "instrument": "NIRCAM/IMAGE",
+  "title": "Does the 2175 A extinction bump grains form in dense molecular gas?",
+  "grid": {
+   "width": 1160,
+   "height": 549,
+   "reduction": 9,
+   "arcsec_per_pixel": 0.2810374237386336,
+   "reference_filter": "F210M"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F210M",
+    "center_nm": 2096.5,
+    "color": "#1a4cff",
+    "obs_id": "jw09384-o003_t003_nircam_clear-f210m",
+    "exposure_s": 429.472,
+    "product": "mast:JWST/product/jw09384-o003_t003_nircam_clear-f210m_i2d.fits"
+   },
+   {
+    "filter": "F212N",
+    "center_nm": 2121.5,
+    "color": "#1aff33",
+    "obs_id": "jw09384-o003_t003_nircam_clear-f212n",
+    "exposure_s": 429.472,
+    "product": "mast:JWST/product/jw09384-o003_t003_nircam_clear-f212n_i2d.fits"
+   },
+   {
+    "filter": "F300M",
+    "center_nm": 2992.0,
+    "color": "#ff800d",
+    "obs_id": "jw09384-o003_t003_nircam_clear-f300m",
+    "exposure_s": 429.472,
+    "product": "mast:JWST/product/jw09384-o003_t003_nircam_clear-f300m_i2d.fits"
+   },
+   {
+    "filter": "F335M",
+    "center_nm": 3357.5,
+    "color": "#ff1a1a",
+    "obs_id": "jw09384-o003_t003_nircam_clear-f335m",
+    "exposure_s": 429.472,
+    "product": "mast:JWST/product/jw09384-o003_t003_nircam_clear-f335m_i2d.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

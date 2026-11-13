@@ -1,0 +1,19 @@
+[     0s] == s-hops-373-5552: 4 filters: ['F200W', 'F212N', 'F360M', 'F480M']
+[     1s] F200W: file is 3.7 GB, over the 3.0 GB cap; this filter is left out
+[     1s] F212N: file is 3.7 GB, over the 3.0 GB cap; this filter is left out
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set DATE-BEG to '2024-10-19T21:31:12.888' from MJD-BEG.
+Set DATE-AVG to '2024-10-19T21:52:27.123' from MJD-AVG.
+Set DATE-END to '2024-10-19T22:13:41.342' from MJD-END'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'obsfix' made the change 'Set OBSGEO-L to    50.137667 from OBSGEO-[XYZ].
+Set OBSGEO-B to    25.903419 from OBSGEO-[XYZ].
+Set OBSGEO-H to 1395774741.898 from OBSGEO-[XYZ]'. [astropy.wcs.wcs]
+[     2s] F360M: 5648x4934 px at 0.0629 arcsec/px, 781 MB
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set DATE-BEG to '2024-10-19T22:25:46.037' from MJD-BEG.
+Set DATE-AVG to '2024-10-19T22:46:51.896' from MJD-AVG.
+Set DATE-END to '2024-10-19T23:07:57.723' from MJD-END'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'obsfix' made the change 'Set OBSGEO-L to    50.204001 from OBSGEO-[XYZ].
+Set OBSGEO-B to    25.900637 from OBSGEO-[XYZ].
+Set OBSGEO-H to 1396159828.151 from OBSGEO-[XYZ]'. [astropy.wcs.wcs]
+[     3s] F480M: 5646x4934 px at 0.0629 arcsec/px, 780 MB
+[     3s] s-hops-373-5552 failed: fewer than three filters can be used
+[     3s] done: 0 pictures

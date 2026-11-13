@@ -1,0 +1,63 @@
+[
+ {
+  "picture": "s-psf-j0313-1806-1764-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "JWST",
+  "target": "PSF-J0313-1806",
+  "proposal_id": "1764",
+  "instrument": "NIRCAM/IMAGE",
+  "title": "A Comprehensive JWST View of the Most Distant Quasars Deep Into the Epoch of Reionization",
+  "grid": {
+   "width": 165,
+   "height": 166,
+   "reduction": 1,
+   "arcsec_per_pixel": 0.06241255820942761,
+   "reference_filter": "F250M"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F090W",
+    "center_nm": 900.0,
+    "color": "#1a4cff",
+    "obs_id": "jw01764-o010_t008_nircam_clear-f090w-sub160p",
+    "exposure_s": 188.082,
+    "product": "mast:JWST/product/jw01764-o010_t008_nircam_clear-f090w-sub160p_i2d.fits"
+   },
+   {
+    "filter": "F115W",
+    "center_nm": 1147.5,
+    "color": "#1aff33",
+    "obs_id": "jw01764-o010_t008_nircam_clear-f115w-sub160p",
+    "exposure_s": 188.082,
+    "product": "mast:JWST/product/jw01764-o010_t008_nircam_clear-f115w-sub160p_i2d.fits"
+   },
+   {
+    "filter": "F250M",
+    "center_nm": 2503.5,
+    "color": "#ff800d",
+    "obs_id": "jw01764-o010_t008_nircam_clear-f250m-sub160p",
+    "exposure_s": 188.082,
+    "product": "mast:JWST/product/jw01764-o010_t008_nircam_clear-f250m-sub160p_i2d.fits"
+   },
+   {
+    "filter": "F360M",
+    "center_nm": 3620.5,
+    "color": "#ff1a1a",
+    "obs_id": "jw01764-o010_t008_nircam_clear-f360m-sub160p",
+    "exposure_s": 188.082,
+    "product": "mast:JWST/product/jw01764-o010_t008_nircam_clear-f360m-sub160p_i2d.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

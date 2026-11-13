@@ -1,0 +1,3 @@
+  page 1/1 rows so far 12 of 12
+JWST|DES0228|7893|NIRSPEC/SLIT|2  rows=4  filters=['F170LP;G235M']
+JWST|DES0228|7893|NIRCAM/IMAGE|3  rows=4  filters=['F090W', 'F150W2;F162M', 'F277W', 'F444W']
