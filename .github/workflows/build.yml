@@ -1,0 +1,156 @@
+name: Build subjects
+
+# Run by hand: builds each darkroom subject in a batch file (no upload) and keeps the finished files as assets of a release, the stockpile that the private repo's go-live run uploads.
+on:
+  workflow_dispatch:
+    inputs:
+      batch:
+        description: "Batch file in the repo, one target id per line (each needs build/targets/<id>.json)"
+        default: "build/batches/test.txt"
+      release:
+        description: "Release tag that holds this batch's built files (made if missing)"
+        default: "stock-test"
+      only:
+        description: "Target ids to build instead of the whole batch, separated by spaces (for retries)"
+        default: ""
+      max_side:
+        description: "Longest side of the aligned grid in pixels (also the largest exported layer)"
+        default: "1600"
+      max_filters:
+        description: "Most optical filters in one target"
+        default: "6"
+      size_cap_gb:
+        description: "Largest single mosaic file to download, in GB"
+        default: "6"
+
+concurrency:
+  group: build
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  plan:
+    runs-on: ubuntu-latest
+    outputs:
+      matrix: ${{ steps.m.outputs.matrix }}
+    env:
+      GH_TOKEN: ${{ github.token }}
+      BATCH: ${{ inputs.batch }}
+      ONLY: ${{ inputs.only }}
+      RELEASE: ${{ inputs.release }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Make the release if it is missing
+        run: |
+          echo "$RELEASE" | grep -Eq '^stock-[a-z0-9-]+$' || { echo "release tag must look like stock-batch-9"; exit 1; }
+          gh release view "$RELEASE" >/dev/null 2>&1 || gh release create "$RELEASE" --title "$RELEASE" --notes "Built darkroom subjects waiting to go live (not uploaded yet)."
+      - id: m
+        run: |
+          python3 - <<'PY' >> "$GITHUB_OUTPUT"
+          import json, os, re
+          ids = os.environ["ONLY"].split() or [l.strip() for l in open(os.environ["BATCH"]) if l.strip() and not l.startswith("#")]
+          for t in ids:
+              assert re.fullmatch(r"[a-z0-9-]+", t), "bad target id: " + t
+              assert os.path.isfile(f"build/targets/{t}.json"), "no build/targets/" + t + ".json"
+          print("matrix=" + json.dumps({"include": [{"target": t} for t in ids]}))
+          PY
+
+  build:
+    needs: plan
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    strategy:
+      fail-fast: false
+      max-parallel: 10
+      matrix: ${{ fromJson(needs.plan.outputs.matrix) }}
+    env:
+      CONTACT_INFO: ${{ secrets.CONTACT_INFO }}
+      GH_TOKEN: ${{ github.token }}
+      RELEASE: ${{ inputs.release }}
+      TARGET: ${{ matrix.target }}
+      MAX_SIDE: ${{ inputs.max_side }}
+      EXPORT_SIDE: ${{ inputs.max_side }}
+      MAX_FILTERS: ${{ inputs.max_filters }}
+      NO_DOWNLOAD: "0"
+      SIZE_CAP_GB: ${{ inputs.size_cap_gb }}
+      WORK_DIR: work
+    defaults:
+      run:
+        working-directory: build
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install astropy jsonschema numpy pillow scipy
+      - uses: actions/cache/restore@v4
+        with:
+          path: build/work
+          key: build-${{ matrix.target }}-${{ inputs.max_side }}-${{ inputs.max_filters }}-${{ github.run_id }}
+          restore-keys: build-${{ matrix.target }}-${{ inputs.max_side }}-${{ inputs.max_filters }}-
+      - name: Check the target
+        run: python3 scripts/check_target.py "targets/$TARGET.json"
+      - name: Get the rows of the programs from MAST
+        run: |
+          mkdir -p out/find
+          n=0
+          for spec in $(python3 -c "import json,os; print(' '.join(json.load(open('targets/' + os.environ['TARGET'] + '.json'))['find']))"); do
+            n=$((n+1))
+            IFS='|' read -r C P T <<< "$spec"
+            python -u scripts/mast/find_rows.py "out/find/$n" "$C" "$P" $T 2>&1 | tee -a out/find.log
+          done
+          python3 - <<'PY'
+          import glob, gzip, json
+          rows = []
+          for f in sorted(glob.glob("out/find/*/rows.json.gz")):
+              rows += json.load(gzip.open(f))["rows"]
+          with gzip.open("out/find/rows.json.gz", "wt") as g:
+              json.dump({"complete": True, "rows": rows}, g)
+          print("rows in the merged file:", len(rows))
+          PY
+      - name: Export the layers
+        timeout-minutes: 50
+        run: |
+          set -o pipefail
+          mkdir -p out/export work
+          python -u scripts/export_target.py "targets/$TARGET.json" out/export out/find/rows.json.gz 2>&1 | tee out/run.log
+      - name: Check the manifest against the schema
+        run: |
+          python3 - <<'PY'
+          import json, os
+          import jsonschema
+          t = os.environ["TARGET"]
+          m = json.load(open(f"out/export/{json.load(open(f'targets/{t}.json'))['id']}/manifest.json"))
+          jsonschema.validate(m, json.load(open("schema/manifest.schema.json")))
+          print("manifest is valid:", len(m["layers"]), "layers,", len(m["presets"]), "presets")
+          PY
+      - name: Check the description against what was exported
+        run: |
+          id=$(python3 -c "import json,os; print(json.load(open('targets/' + os.environ['TARGET'] + '.json'))['id'])")
+          python3 scripts/check_text.py --strict --manifest "out/export/$id/manifest.json" "targets/$TARGET.json"
+      - name: Add the built files to the stockpile release
+        run: |
+          id=$(python3 -c "import json,os; print(json.load(open('targets/' + os.environ['TARGET'] + '.json'))['id'])")
+          mkdir -p /tmp/b/$TARGET /tmp/c/$TARGET
+          cp -r "out/export/$id/." "/tmp/b/$TARGET/"
+          rm -rf "/tmp/b/$TARGET/check"
+          cp "targets/$TARGET.json" "/tmp/b/$TARGET/target.json"
+          cp -r "out/export/$id/check/." "/tmp/c/$TARGET/" 2>/dev/null || true
+          cp out/*.log "/tmp/c/$TARGET/" 2>/dev/null || true
+          tar -C /tmp/b -cf "/tmp/$TARGET.tar" "$TARGET"
+          tar -C /tmp/c -cf "/tmp/$TARGET-check.tar" "$TARGET"
+          ls -la /tmp/*.tar
+          gh release upload "$RELEASE" "/tmp/$TARGET.tar" "/tmp/$TARGET-check.tar" --clobber
+      - name: Drop half-downloaded files before saving the cache
+        if: always()
+        run: |
+          find work -name '*.part' -delete 2>/dev/null || true
+          find work -name '*.fits' -delete 2>/dev/null || true
+          du -sh work 2>/dev/null || true
+      - uses: actions/cache/save@v4
+        if: always()
+        with:
+          path: build/work
+          key: build-${{ matrix.target }}-${{ inputs.max_side }}-${{ inputs.max_filters }}-${{ github.run_id }}

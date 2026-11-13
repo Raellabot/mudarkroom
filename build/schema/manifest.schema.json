@@ -1,0 +1,327 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Cosmic Darkroom target manifest",
+  "description": "One manifest.json per target, stored at <target-id>/manifest.json in the interactive-darkroom bucket.",
+  "type": "object",
+  "required": [
+    "id",
+    "name",
+    "grid",
+    "layers",
+    "credits",
+    "sources",
+    "presets"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "version": {
+      "type": "integer",
+      "const": 1
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$"
+    },
+    "name": {
+      "type": "string"
+    },
+    "blurb": {
+      "type": "string"
+    },
+    "grid": {
+      "type": "object",
+      "required": [
+        "width",
+        "height",
+        "arcsec_per_pixel"
+      ],
+      "properties": {
+        "width": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "height": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "arcsec_per_pixel": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        "preview_width": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "preview_height": {
+          "type": "integer",
+          "minimum": 1
+        }
+      }
+    },
+    "layers": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "mission",
+          "instrument",
+          "label",
+          "kind",
+          "file",
+          "encoding",
+          "default_color"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-z0-9-]+$"
+          },
+          "mission": {
+            "enum": [
+              "HST",
+              "JWST",
+              "Chandra",
+              "ALMA",
+              "Cassini",
+              "Juno"
+            ]
+          },
+          "instrument": {
+            "type": "string"
+          },
+          "label": {
+            "type": "string",
+            "description": "Filter or band name shown on the page."
+          },
+          "kind": {
+            "enum": [
+              "optical-ir",
+              "xray",
+              "radio"
+            ]
+          },
+          "center_nm": {
+            "type": "number",
+            "description": "Band center in nanometers, used to order layers by wavelength."
+          },
+          "file": {
+            "type": "string",
+            "description": "Full-size layer file, relative to the target folder."
+          },
+          "preview_file": {
+            "type": "string",
+            "description": "Small layer file for a fast first paint."
+          },
+          "encoding": {
+            "type": "object",
+            "required": [
+              "format",
+              "scale"
+            ],
+            "properties": {
+              "format": {
+                "const": "float16-le-gzip",
+                "description": "Raw little-endian half floats, row-major, top row first, gzipped."
+              },
+              "scale": {
+                "type": "number",
+                "exclusiveMinimum": 0,
+                "description": "Value that the 99.7th percentile of the black-subtracted signal was divided by; multiply back to recover relative flux."
+              },
+              "noise_floor": {
+                "type": "number",
+                "description": "X-ray layers: the asinh softening level in stored units; the page draws asinh(v / noise_floor) / asinh(1 / noise_floor)."
+              },
+              "percentiles": {
+                "type": "object",
+                "description": "Stored-value percentiles (keys are percent) of the layer's pixels, so the page can turn a black-point percentile into a level without a histogram.",
+                "additionalProperties": {
+                  "type": "number"
+                }
+              }
+            }
+          },
+          "default_color": {
+            "type": "string",
+            "pattern": "^#[0-9a-fA-F]{6}$"
+          },
+          "default_weight": {
+            "type": "number",
+            "minimum": 0,
+            "default": 1
+          },
+          "obs_ids": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "exposure_s": {
+            "type": "number"
+          },
+          "primary_source": {
+            "type": "string",
+            "format": "uri",
+            "description": "Link back to the archive holding the original data."
+          },
+          "blend": {
+            "enum": [
+              "add",
+              "screen"
+            ],
+            "default": "add",
+            "description": "How the layer is combined with the others; the lime X-ray layer is screened over the picture."
+          },
+          "dim": {
+            "type": "object",
+            "description": "X-ray layers: dims the brightest source after the stretch, as mudarkroom does: layer * (1 - strength * exp(-d^2 / (2 * radius_px^2))); x and y are pixels in the stored layer, y from the top.",
+            "required": [
+              "strength",
+              "radius_px",
+              "x",
+              "y"
+            ],
+            "properties": {
+              "strength": {
+                "type": "number"
+              },
+              "radius_px": {
+                "type": "number"
+              },
+              "x": {
+                "type": "number"
+              },
+              "y": {
+                "type": "number"
+              }
+            }
+          }
+        }
+      }
+    },
+    "presets": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "name",
+          "colors",
+          "stretch",
+          "black_point",
+          "white_point",
+          "saturation"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-z0-9-]+$"
+          },
+          "name": {
+            "type": "string"
+          },
+          "colors": {
+            "type": "object",
+            "description": "Layer id to hex color.",
+            "additionalProperties": {
+              "type": "string",
+              "pattern": "^#[0-9a-fA-F]{6}$"
+            }
+          },
+          "weights": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "number",
+              "minimum": 0
+            }
+          },
+          "stretch": {
+            "type": "number",
+            "exclusiveMinimum": 0
+          },
+          "softening": {
+            "type": "number",
+            "exclusiveMinimum": 0
+          },
+          "black_point": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 100,
+            "description": "Percentile of each layer treated as black."
+          },
+          "white_point": {
+            "type": "number",
+            "exclusiveMinimum": 0,
+            "maximum": 100
+          },
+          "saturation": {
+            "type": "number",
+            "minimum": 0
+          }
+        }
+      }
+    },
+    "black_point_strip": {
+      "type": "object",
+      "description": "Black-point settings shown side by side in the comparison strip view.",
+      "required": [
+        "values"
+      ],
+      "properties": {
+        "values": {
+          "type": "array",
+          "items": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 100
+          },
+          "minItems": 2
+        }
+      }
+    },
+    "credits": {
+      "type": "object",
+      "required": [
+        "line"
+      ],
+      "properties": {
+        "line": {
+          "type": "string",
+          "description": "Credit line drawn on the page and baked into every PNG export."
+        },
+        "made_by": {
+          "type": "string"
+        }
+      }
+    },
+    "sources": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "name",
+          "url"
+        ],
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "url": {
+            "type": "string",
+            "format": "uri"
+          }
+        }
+      }
+    },
+    "build": {
+      "type": "string",
+      "description": "Id of the export that made the files; the page adds it to layer URLs as ?v= so a new export is never served from an old cache."
+    }
+  }
+}

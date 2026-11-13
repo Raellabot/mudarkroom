@@ -1,0 +1,66 @@
+{
+  "id": "252-52365-webb",
+  "name": "252-52365 in NGC 1977 (Webb)",
+  "blurb": "252-52365, a young star with a planet-forming disk irradiated by a nearby hot star in NGC 1977, seen by Webb.",
+  "label": "25252365-webb",
+  "spec": "JWST|252-52365|5269|MIRI/IMAGE|25252365-webb",
+  "find": [
+    "JWST|5269|252-52365"
+  ],
+  "type": "Young star",
+  "aliases": [
+    "252-52365",
+    "KCFF#6",
+    "NGC 1977",
+    "Running Man Nebula",
+    "42 Orionis",
+    "42 Ori",
+    "proplyd",
+    "protoplanetary disk",
+    "young star"
+  ],
+  "missions": [
+    "Webb"
+  ],
+  "story": "One of seven proplyds in the Running Man Nebula, young stars whose disks are being slowly stripped by ultraviolet light from the B star 42 Orionis. They are the first proplyds found around a B star rather than an O star.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-12",
+    "claims": [
+      {
+        "text": "252-52365 is a JWST program 5269 target at RA 05 35 22.54, Dec -04 52 37.1, classed as a proplyd/protoplanetary disk",
+        "source": "https://www.stsci.edu/jwst-program-info/download/jwst/pdf/5269/"
+      },
+      {
+        "text": "Program 5269 targets seven proplyds in NGC 1977 around the B star 42 Ori, exposed to strong external UV",
+        "source": "https://www.stsci.edu/jwst-program-info/download/jwst/pdf/5269/"
+      },
+      {
+        "text": "252-52365 is KCFF#6, a disk around a 0.5 solar-mass star in NGC 1977 near 42 Ori",
+        "source": "https://arxiv.org/pdf/2608.17226"
+      },
+      {
+        "text": "42 Ori is a B1V star; the disks lie near it in NGC 1977",
+        "source": "https://arxiv.org/pdf/2608.17226"
+      },
+      {
+        "text": "The disks lose mass externally (being stripped) as well as accreting",
+        "source": "https://arxiv.org/pdf/2608.17226"
+      },
+      {
+        "text": "Proplyds are young stars; the seven in NGC 1977 point toward 42 Ori, its main UV source, and are the first proplyds found around a B star",
+        "source": "https://www.repository.cam.ac.uk/handle/1810/276100"
+      },
+      {
+        "text": "NGC 1977 is commonly known as the Running Man Nebula, a reflection nebula",
+        "source": "https://noirlab.edu/public/images/noao-n1977spokes/"
+      },
+      {
+        "text": "NGC 1977 is part of the Running Man complex near the Orion Nebula",
+        "source": "https://science.nasa.gov/missions/hubble/hubble-witnesses-shock-wave-of-colliding-gases-in-running-man-nebula/"
+      }
+    ]
+  }
+}

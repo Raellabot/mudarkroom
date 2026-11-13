@@ -1,0 +1,54 @@
+{
+  "id": "als-15181-webb",
+  "name": "ALS 15181 (Webb)",
+  "blurb": "ALS 15181, a B-type star toward the Cygnus OB2 association, seen by Webb.",
+  "label": "als15181-webb",
+  "spec": "JWST|ALS-15181|2183|MIRI/IMAGE|als15181-webb",
+  "find": [
+    "JWST|2183|ALS-15181"
+  ],
+  "type": "Nebula",
+  "aliases": [
+    "[MT91] 435",
+    "2MASS J20331106+4110321",
+    "Cygnus OB2",
+    "B star",
+    "star"
+  ],
+  "missions": [
+    "Webb"
+  ],
+  "story": "Webb looked toward this star to read the faint fingerprints that thin dust drifting between the stars leaves in its light. It is one of a dozen O and B stars chosen to study the Milky Way's diffuse interstellar dust.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-12",
+    "claims": [
+      {
+        "text": "ALS 15181 is a B star (B0 V)",
+        "source": "https://www.arxiv.org/pdf/2506.20033"
+      },
+      {
+        "text": "ALS 15181 is also designated [MT91] 435 and 2MASS J20331106+4110321",
+        "source": "https://www.arxiv.org/pdf/2506.20033"
+      },
+      {
+        "text": "It was included (as [MT91] 435) in a survey of the Cygnus OB2 association",
+        "source": "https://arxiv.org/abs/astro-ph/0609772"
+      },
+      {
+        "text": "Program 2183 groups ALS 15181 among its Cygnus targets",
+        "source": "https://www.stsci.edu/jwst-program-info/download/jwst/pdf/2183/"
+      },
+      {
+        "text": "The program detects the absorption fingerprint of diffuse interstellar dust in the light of background O and B stars",
+        "source": "https://www.stsci.edu/jwst-program-info/download/jwst/pdf/2183/"
+      },
+      {
+        "text": "It is one of twelve O and B stars in the program",
+        "source": "https://www.stsci.edu/jwst-program-info/download/jwst/pdf/2183/"
+      }
+    ]
+  }
+}
