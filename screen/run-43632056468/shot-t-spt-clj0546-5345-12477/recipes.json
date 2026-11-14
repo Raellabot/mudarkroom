@@ -1,0 +1,47 @@
+[
+ {
+  "picture": "t-spt-clj0546-5345-12477-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "SPT-CLJ0546-5345",
+  "proposal_id": "12477",
+  "instrument": "ACS/WFC",
+  "title": "Weak lensing masses of the highest redshift galaxy clusters from the South Pole Telescope SZ survey",
+  "grid": {
+   "width": 1058,
+   "height": 1104,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.1999999999999948,
+   "reference_filter": "F814W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F606W",
+    "center_nm": 595.0,
+    "color": "#2699ff",
+    "obs_id": "jbqz12010",
+    "exposure_s": 1920,
+    "product": "mast:HST/product/jbqz12010_drz.fits"
+   },
+   {
+    "filter": "F814W",
+    "center_nm": 833.5,
+    "color": "#ffa626",
+    "obs_id": "jbqz15010",
+    "exposure_s": 1916,
+    "product": "mast:HST/product/jbqz15010_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

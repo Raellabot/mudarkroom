@@ -1,0 +1,47 @@
+[
+ {
+  "picture": "t-andromeda-xxvi-13699-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "ANDROMEDA-XXVI",
+  "proposal_id": "13699",
+  "instrument": "ACS/WFC",
+  "title": "Fellowship of the Andromeda Dwarf Galaxies: A Census of their Extended Star Formation Histories",
+  "grid": {
+   "width": 1053,
+   "height": 1059,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.19999999999999152,
+   "reference_filter": "F606W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F606W",
+    "center_nm": 595.0,
+    "color": "#2699ff",
+    "obs_id": "jcn812010",
+    "exposure_s": 1168,
+    "product": "mast:HST/product/jcn812011_drz.fits"
+   },
+   {
+    "filter": "F814W",
+    "center_nm": 833.5,
+    "color": "#ffa626",
+    "obs_id": "jcn812020",
+    "exposure_s": 1168,
+    "product": "mast:HST/product/jcn812021_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

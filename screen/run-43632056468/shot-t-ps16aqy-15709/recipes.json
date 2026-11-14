@@ -1,0 +1,47 @@
+[
+ {
+  "picture": "t-ps16aqy-15709-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST+HST",
+  "target": "PS16AQY+PS16AQY",
+  "proposal_id": "15709+15709",
+  "instrument": "ACS/WFC+WFC3/UVIS",
+  "title": "An extreme interacting supernova from a very massive star: probing the immediate and galaxy-scale environment of a new pair-instability candidate",
+  "grid": {
+   "width": 1054,
+   "height": 1061,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.19999999999999787,
+   "reference_filter": "F775W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F390W",
+    "center_nm": 387.1,
+    "color": "#2699ff",
+    "obs_id": "idyya1010",
+    "exposure_s": 2784,
+    "product": "mast:HST/product/idyya1010_drz.fits"
+   },
+   {
+    "filter": "F775W",
+    "center_nm": 775.0,
+    "color": "#ffa626",
+    "obs_id": "jdyy01010",
+    "exposure_s": 2496,
+    "product": "mast:HST/product/jdyy01010_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

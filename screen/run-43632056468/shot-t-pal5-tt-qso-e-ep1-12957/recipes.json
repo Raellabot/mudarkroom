@@ -1,0 +1,47 @@
+[
+ {
+  "picture": "t-pal5-tt-qso-e-ep1-12957-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST+HST",
+  "target": "PAL5-TT-QSO-E-EP1+PAL5-TT-QSO-E-EP1",
+  "proposal_id": "12957+12957",
+  "instrument": "ACS/WFC+WFC3/UVIS",
+  "title": "The Proper Motion of Palomar 5 and its Tidal Tails",
+  "grid": {
+   "width": 1047,
+   "height": 1112,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.15848000347614194,
+   "reference_filter": "F606W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F606W",
+    "center_nm": 594.0,
+    "color": "#2699ff",
+    "obs_id": "ibyd05020",
+    "exposure_s": 2398,
+    "product": "mast:HST/product/ibyd05020_drz.fits"
+   },
+   {
+    "filter": "F814W",
+    "center_nm": 831.9,
+    "color": "#ffa626",
+    "obs_id": "ibyd04020",
+    "exposure_s": 2398,
+    "product": "mast:HST/product/ibyd04020_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

@@ -1,0 +1,47 @@
+[
+ {
+  "picture": "t-cas-a-ne-jet-1-15361-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "CAS-A-NE-JET-1",
+  "proposal_id": "15361",
+  "instrument": "WFC3/IR",
+  "title": "The Mysterious High-Velocity Ejecta Jets in Cassiopeia A",
+  "grid": {
+   "width": 1090,
+   "height": 963,
+   "reduction": 1,
+   "arcsec_per_pixel": 0.12825000286102076,
+   "reference_filter": "F098M"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F098M",
+    "center_nm": 986.1,
+    "color": "#2699ff",
+    "obs_id": "idgm01010",
+    "exposure_s": 2812,
+    "product": "mast:HST/product/idgm01010_drz.fits"
+   },
+   {
+    "filter": "F164N",
+    "center_nm": 1645.0,
+    "color": "#ffa626",
+    "obs_id": "idgm01020",
+    "exposure_s": 2800,
+    "product": "mast:HST/product/idgm01020_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

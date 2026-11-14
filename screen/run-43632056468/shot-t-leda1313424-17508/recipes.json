@@ -1,0 +1,47 @@
+[
+ {
+  "picture": "t-leda1313424-17508-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "LEDA1313424",
+  "proposal_id": "17508",
+  "instrument": "ACS/WFC",
+  "title": "HST imaging of a newly discovered many-ringed galaxy",
+  "grid": {
+   "width": 862,
+   "height": 981,
+   "reduction": 5,
+   "arcsec_per_pixel": 0.24999999999999928,
+   "reference_filter": "F814W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F475W",
+    "center_nm": 470.0,
+    "color": "#2699ff",
+    "obs_id": "jf8m01010",
+    "exposure_s": 2025,
+    "product": "mast:HST/product/jf8m01010_drz.fits"
+   },
+   {
+    "filter": "F814W",
+    "center_nm": 833.5,
+    "color": "#ffa626",
+    "obs_id": "jf8m01020",
+    "exposure_s": 1923.7200010000001,
+    "product": "mast:HST/product/jf8m01020_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

@@ -1,0 +1,47 @@
+[
+ {
+  "picture": "t-ps1-10pm-13022-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST+HST",
+  "target": "PS1-10PM+PS1-10PM",
+  "proposal_id": "13022+13022",
+  "instrument": "ACS/WFC+WFC3/IR",
+  "title": "Staring into the Beasts Lair: HST Observations of the Host Galaxies of Pan-STARRS Ultra-luminous Supernovae",
+  "grid": {
+   "width": 1055,
+   "height": 1060,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.19999999999999182,
+   "reference_filter": "F606W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F606W",
+    "center_nm": 595.0,
+    "color": "#2699ff",
+    "obs_id": "jbyz03010",
+    "exposure_s": 1960,
+    "product": "mast:HST/product/jbyz03010_drz.fits"
+   },
+   {
+    "filter": "F110W",
+    "center_nm": 1148.8,
+    "color": "#ffa626",
+    "obs_id": "ibyz06010",
+    "exposure_s": 2412,
+    "product": "mast:HST/product/ibyz06010_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

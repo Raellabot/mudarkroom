@@ -1,0 +1,47 @@
+[
+ {
+  "picture": "t-star-clus-135621-271004-11680-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "STAR-CLUS-135621-271004",
+  "proposal_id": "11680",
+  "instrument": "WFC3/UVIS",
+  "title": "The Main Sequence Luminosity Function of Low-Mass Globular Clusters",
+  "grid": {
+   "width": 1032,
+   "height": 1097,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.15848000347614064,
+   "reference_filter": "F606W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F606W",
+    "center_nm": 594.0,
+    "color": "#2699ff",
+    "obs_id": "ib2d01010",
+    "exposure_s": 2460,
+    "product": "mast:HST/product/ib2d01010_drz.fits"
+   },
+   {
+    "filter": "F814W",
+    "center_nm": 831.9,
+    "color": "#ffa626",
+    "obs_id": "ib2d01020",
+    "exposure_s": 2480,
+    "product": "mast:HST/product/ib2d01020_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

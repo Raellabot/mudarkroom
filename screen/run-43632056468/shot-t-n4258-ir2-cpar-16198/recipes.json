@@ -1,0 +1,47 @@
+[
+ {
+  "picture": "t-n4258-ir2-cpar-16198-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "N4258-IR2-CPAR",
+  "proposal_id": "16198",
+  "instrument": "ACS/WFC",
+  "title": "From Masers to Coma, A Single Step Measurement of the Hubble Constant and a Reservoir of New SNe Ia",
+  "grid": {
+   "width": 1054,
+   "height": 1062,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.19999999999999868,
+   "reference_filter": "F814W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F606W",
+    "center_nm": 595.0,
+    "color": "#2699ff",
+    "obs_id": "jebi14020",
+    "exposure_s": 1059,
+    "product": "mast:HST/product/jebi14020_drz.fits"
+   },
+   {
+    "filter": "F814W",
+    "center_nm": 833.5,
+    "color": "#ffa626",
+    "obs_id": "jebi14010",
+    "exposure_s": 1132,
+    "product": "mast:HST/product/jebi14010_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

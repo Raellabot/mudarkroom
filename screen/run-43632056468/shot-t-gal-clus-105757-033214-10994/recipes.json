@@ -1,0 +1,47 @@
+[
+ {
+  "picture": "t-gal-clus-105757-033214-10994-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "GAL-CLUS-105757-033214",
+  "proposal_id": "10994",
+  "instrument": "ACS/WFC",
+  "title": "Infalling Groups and the Origin of Early-Type Galaxies",
+  "grid": {
+   "width": 1057,
+   "height": 1090,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.19999999999999152,
+   "reference_filter": "F606W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F606W",
+    "center_nm": 595.0,
+    "color": "#2699ff",
+    "obs_id": "j9q101010",
+    "exposure_s": 2235,
+    "product": "mast:HST/product/j9q101010_drz.fits"
+   },
+   {
+    "filter": "F814W",
+    "center_nm": 833.5,
+    "color": "#ffa626",
+    "obs_id": "j9q102010",
+    "exposure_s": 2235,
+    "product": "mast:HST/product/j9q102010_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

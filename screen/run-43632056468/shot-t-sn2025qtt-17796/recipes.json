@@ -1,0 +1,47 @@
+[
+ {
+  "picture": "t-sn2025qtt-17796-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "SN2025QTT",
+  "proposal_id": "17796",
+  "instrument": "WFC3/UVIS",
+  "title": "Tracing the mass-loss history from type II supernova explosions back through the red supergaint phase.",
+  "grid": {
+   "width": 1032,
+   "height": 1097,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.15847999999999968,
+   "reference_filter": "F390W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F275W",
+    "center_nm": 274.5,
+    "color": "#2699ff",
+    "obs_id": "ifgq24010",
+    "exposure_s": 1324,
+    "product": "mast:HST/product/ifgq24010_drz.fits"
+   },
+   {
+    "filter": "F390W",
+    "center_nm": 387.1,
+    "color": "#ffa626",
+    "obs_id": "ifgq17020",
+    "exposure_s": 1060,
+    "product": "mast:HST/product/ifgq17020_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

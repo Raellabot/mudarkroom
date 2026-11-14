@@ -1,0 +1,47 @@
+[
+ {
+  "picture": "t-p2010-a2-12053-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "P2010-A2",
+  "proposal_id": "12053",
+  "instrument": "WFC3/UVIS",
+  "title": "Hubble Investigation of the Unusual Object P/2010 A2",
+  "grid": {
+   "width": 1031,
+   "height": 1096,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.15848000347614247,
+   "reference_filter": "F606W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F606W",
+    "center_nm": 594.0,
+    "color": "#2699ff",
+    "obs_id": "ibe212wuq",
+    "exposure_s": 537,
+    "product": "mast:HST/product/ibe212wuq_drz.fits"
+   },
+   {
+    "filter": "F814W",
+    "center_nm": 831.9,
+    "color": "#ffa626",
+    "obs_id": "ibe213x4q",
+    "exposure_s": 537,
+    "product": "mast:HST/product/ibe213x4q_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

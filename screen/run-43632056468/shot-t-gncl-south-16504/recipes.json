@@ -1,0 +1,47 @@
+[
+ {
+  "picture": "t-gncl-south-16504-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "GNCL-SOUTH",
+  "proposal_id": "16504",
+  "instrument": "WFC3/IR",
+  "title": "A Spectroscopically Confirmed Massively Star-forming Protocluster at z = 3.14",
+  "grid": {
+   "width": 1114,
+   "height": 986,
+   "reduction": 1,
+   "arcsec_per_pixel": 0.12824999999999814,
+   "reference_filter": "F110W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F110W",
+    "center_nm": 1148.8,
+    "color": "#2699ff",
+    "obs_id": "iejo04010",
+    "exposure_s": 5248,
+    "product": "mast:HST/product/iejo04010_drz.fits"
+   },
+   {
+    "filter": "F160W",
+    "center_nm": 1543.2,
+    "color": "#ffa626",
+    "obs_id": "iejo02010",
+    "exposure_s": 2624,
+    "product": "mast:HST/product/iejo02010_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

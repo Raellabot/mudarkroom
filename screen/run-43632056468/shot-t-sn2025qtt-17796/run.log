@@ -1,0 +1,13 @@
+[     0s] == t-sn2025qtt-17796: 2 filters: ['F275W', 'F390W']
+[     1s] F275W: 4128x4387 px at 0.0396 arcsec/px, 217 MB
+[     1s] F390W: 4128x4388 px at 0.0396 arcsec/px, 218 MB
+[     1s] grid from F390W: 1032x1097 px (reduced 4x), 0.158 arcsec/px
+[     7s] downloaded ifgq24010_drz.fits: 217 MB
+[     7s] F275W: aligned (reduced 4x), covers 54% of the grid
+[    12s] downloaded ifgq17020_drz.fits: 218 MB
+[    13s] F390W: aligned (reduced 4x), covers 93% of the grid
+[    13s] t-sn2025qtt-17796: finishing steps applied: ['dense']
+[    13s] cropped to 534x481 px where 2 of 2 filters have data
+/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/astropy/visualization/lupton_rgb.py:645: RuntimeWarning: invalid value encountered in divide
+  fInorm = np.where(Int <= 0, 0, np.true_divide(fI, Int))
+[    13s] done: 1 pictures

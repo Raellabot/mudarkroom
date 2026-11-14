@@ -1,0 +1,47 @@
+[
+ {
+  "picture": "t-ison-fixed-13229-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "ISON-FIXED",
+  "proposal_id": "13229",
+  "instrument": "WFC3/UVIS",
+  "title": "Hubble Heritage imaging of Comet ISON",
+  "grid": {
+   "width": 1031,
+   "height": 1119,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.15848000347614255,
+   "reference_filter": "F606W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F606W",
+    "center_nm": 594.0,
+    "color": "#2699ff",
+    "obs_id": "ic7i11010",
+    "exposure_s": 1320,
+    "product": "mast:HST/product/ic7i11010_drz.fits"
+   },
+   {
+    "filter": "F814W",
+    "center_nm": 831.9,
+    "color": "#ffa626",
+    "obs_id": "ic7i11020",
+    "exposure_s": 980,
+    "product": "mast:HST/product/ic7i11020_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

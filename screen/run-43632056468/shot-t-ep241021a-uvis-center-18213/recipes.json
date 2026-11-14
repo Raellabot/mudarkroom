@@ -1,0 +1,47 @@
+[
+ {
+  "picture": "t-ep241021a-uvis-center-18213-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "EP241021A-UVIS-CENTER",
+  "proposal_id": "18213",
+  "instrument": "WFC3/UVIS",
+  "title": "Imaging of EP241021a during the flattening in the optical light curve: an exotic gamma-ray burst or a peculiar jetted tidal disruption event?",
+  "grid": {
+   "width": 1031,
+   "height": 1096,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.15847999999999898,
+   "reference_filter": "F814W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F606W",
+    "center_nm": 594.0,
+    "color": "#2699ff",
+    "obs_id": "ifrq01010",
+    "exposure_s": 2080,
+    "product": "mast:HST/product/ifrq01010_drz.fits"
+   },
+   {
+    "filter": "F814W",
+    "center_nm": 831.9,
+    "color": "#ffa626",
+    "obs_id": "ifrq01020",
+    "exposure_s": 840,
+    "product": "mast:HST/product/ifrq01020_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

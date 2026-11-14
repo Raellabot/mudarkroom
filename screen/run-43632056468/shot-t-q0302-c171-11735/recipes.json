@@ -1,0 +1,47 @@
+[
+ {
+  "picture": "t-q0302-c171-11735-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST+HST",
+  "target": "Q0302-C171+Q0302-C171",
+  "proposal_id": "11735+11735",
+  "instrument": "ACS/WFC+WFC3/IR",
+  "title": "The LSD project: dynamics, merging and stellar populations of a sample of well-studied LBGs at z~3",
+  "grid": {
+   "width": 1054,
+   "height": 1060,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.1999999999999987,
+   "reference_filter": "F625W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F625W",
+    "center_nm": 625.0,
+    "color": "#2699ff",
+    "obs_id": "jb4dg1010",
+    "exposure_s": 2208,
+    "product": "mast:HST/product/jb4dg1010_drz.fits"
+   },
+   {
+    "filter": "F160W",
+    "center_nm": 1543.2,
+    "color": "#ffa626",
+    "obs_id": "ib4dg2010",
+    "exposure_s": 2612,
+    "product": "mast:HST/product/ib4dg2010_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

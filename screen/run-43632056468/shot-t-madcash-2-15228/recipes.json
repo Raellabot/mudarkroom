@@ -1,0 +1,47 @@
+[
+ {
+  "picture": "t-madcash-2-15228-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "MADCASH-2",
+  "proposal_id": "15228",
+  "instrument": "ACS/WFC",
+  "title": "Testing Galaxy Evolution in Unexplored Environments: the First Faint Dwarf Satellites of Local Volume LMC Analogs",
+  "grid": {
+   "width": 1058,
+   "height": 1105,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.19999999999999687,
+   "reference_filter": "F814W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F606W",
+    "center_nm": 595.0,
+    "color": "#2699ff",
+    "obs_id": "jdjw02010",
+    "exposure_s": 2160,
+    "product": "mast:HST/product/jdjw02010_drz.fits"
+   },
+   {
+    "filter": "F814W",
+    "center_nm": 833.5,
+    "color": "#ffa626",
+    "obs_id": "jdjw02020",
+    "exposure_s": 2200,
+    "product": "mast:HST/product/jdjw02020_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

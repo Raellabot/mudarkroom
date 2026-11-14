@@ -1,0 +1,13 @@
+[     0s] == t-noah-12099: 2 filters: ['F125W', 'F160W']
+[     0s] F125W: 1092x964 px at 0.1283 arcsec/px, 13 MB
+[     1s] F160W: 1093x964 px at 0.1283 arcsec/px, 13 MB
+[     1s] grid from F160W: 1093x964 px (reduced 1x), 0.128 arcsec/px
+[     2s] downloaded ibfun1030_drz.fits: 13 MB
+[     2s] F125W: aligned (reduced 1x), covers 99% of the grid
+[     2s] downloaded ibfun1020_drz.fits: 13 MB
+[     3s] F160W: aligned (reduced 1x), covers 99% of the grid
+[     3s] t-noah-12099: finishing steps applied: ['dense']
+[     3s] cropped to 1068x959 px where 2 of 2 filters have data
+/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/astropy/visualization/lupton_rgb.py:645: RuntimeWarning: invalid value encountered in divide
+  fInorm = np.where(Int <= 0, 0, np.true_divide(fI, Int))
+[     3s] done: 1 pictures

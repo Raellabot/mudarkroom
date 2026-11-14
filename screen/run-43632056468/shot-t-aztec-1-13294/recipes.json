@@ -1,0 +1,47 @@
+[
+ {
+  "picture": "t-aztec-1-13294-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "AZTEC-1",
+  "proposal_id": "13294",
+  "instrument": "WFC3/IR",
+  "title": "Characterizing the formation of the primordial red sequence",
+  "grid": {
+   "width": 1118,
+   "height": 989,
+   "reduction": 1,
+   "arcsec_per_pixel": 0.1282500028610222,
+   "reference_filter": "F125W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F125W",
+    "center_nm": 1249.0,
+    "color": "#2699ff",
+    "obs_id": "iccb03020",
+    "exposure_s": 2612,
+    "product": "mast:HST/product/iccb03020_drz.fits"
+   },
+   {
+    "filter": "F160W",
+    "center_nm": 1543.2,
+    "color": "#ffa626",
+    "obs_id": "iccb03030",
+    "exposure_s": 2812,
+    "product": "mast:HST/product/iccb03030_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

@@ -1,0 +1,47 @@
+[
+ {
+  "picture": "t-george2-12099-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "GEORGE2",
+  "proposal_id": "12099",
+  "instrument": "WFC3/IR",
+  "title": "Supernova Follow-up for MCT",
+  "grid": {
+   "width": 652,
+   "height": 606,
+   "reduction": 2,
+   "arcsec_per_pixel": 0.2565000057220434,
+   "reference_filter": "F160W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F125W",
+    "center_nm": 1249.0,
+    "color": "#2699ff",
+    "obs_id": "ibfug3020",
+    "exposure_s": 1206,
+    "product": "mast:HST/product/ibfug3020_drz.fits"
+   },
+   {
+    "filter": "F160W",
+    "center_nm": 1543.2,
+    "color": "#ffa626",
+    "obs_id": "hst_12099_g4_wfc3_ir_f160w_ibfug4",
+    "exposure_s": 1255.8718869999998,
+    "product": "mast:HST/product/hst_12099_g4_wfc3_ir_f160w_ibfug4_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

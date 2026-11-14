@@ -1,0 +1,13 @@
+[     0s] == t-camille-ir2-13063: 2 filters: ['F125W', 'F160W']
+[     0s] F125W: 1090x960 px at 0.1283 arcsec/px, 13 MB
+[     0s] F160W: 1216x1106 px at 0.1283 arcsec/px, 16 MB
+[     0s] grid from F160W: 608x553 px (reduced 2x), 0.257 arcsec/px
+[     1s] downloaded ic6hc7020_drz.fits: 13 MB
+[     1s] F125W: aligned (reduced 2x), covers 77% of the grid
+[     1s] downloaded hst_13063_c7_wfc3_ir_f160w_ic6hc7_drz.fits: 16 MB
+[     1s] F160W: aligned (reduced 2x), covers 77% of the grid
+[     1s] t-camille-ir2-13063: finishing steps applied: ['dense']
+[     1s] cropped to 482x417 px where 2 of 2 filters have data
+/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/astropy/visualization/lupton_rgb.py:645: RuntimeWarning: invalid value encountered in divide
+  fInorm = np.where(Int <= 0, 0, np.true_divide(fI, Int))
+[     1s] done: 1 pictures

@@ -1,0 +1,47 @@
+[
+ {
+  "picture": "t-udg-5b-15277-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "UDG-5B",
+  "proposal_id": "15277",
+  "instrument": "ACS/WFC",
+  "title": "Weighing Ultra-Diffuse Galaxies: Bridging the environmental gap",
+  "grid": {
+   "width": 1054,
+   "height": 1075,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.1999999999999991,
+   "reference_filter": "F606W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F606W",
+    "center_nm": 595.0,
+    "color": "#2699ff",
+    "obs_id": "jdhk10020",
+    "exposure_s": 2624,
+    "product": "mast:HST/product/jdhk10020_drz.fits"
+   },
+   {
+    "filter": "F814W",
+    "center_nm": 833.5,
+    "color": "#ffa626",
+    "obs_id": "jdhk10010",
+    "exposure_s": 2486,
+    "product": "mast:HST/product/jdhk10010_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

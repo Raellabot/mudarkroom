@@ -1,0 +1,13 @@
+[     0s] == t-rare-helms-65-14083: 2 filters: ['F105W', 'F160W']
+[     0s] F105W: 1199x1291 px at 0.1283 arcsec/px, 19 MB
+[     0s] F160W: 1199x1291 px at 0.1283 arcsec/px, 19 MB
+[     0s] grid from F105W: 599x645 px (reduced 2x), 0.257 arcsec/px
+[     1s] downloaded hst_14083_02_wfc3_ir_f105w_icu402_drz.fits: 19 MB
+[     1s] F105W: aligned (reduced 2x), covers 67% of the grid
+[     1s] downloaded hst_14083_02_wfc3_ir_f160w_icu402_drz.fits: 19 MB
+[     1s] F160W: aligned (reduced 2x), covers 67% of the grid
+[     1s] t-rare-helms-65-14083: finishing steps applied: ['dense']
+[     1s] cropped to 391x449 px where 2 of 2 filters have data
+/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/astropy/visualization/lupton_rgb.py:645: RuntimeWarning: invalid value encountered in divide
+  fInorm = np.where(Int <= 0, 0, np.true_divide(fI, Int))
+[     1s] done: 1 pictures

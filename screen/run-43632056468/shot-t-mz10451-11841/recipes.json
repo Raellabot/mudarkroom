@@ -1,0 +1,47 @@
+[
+ {
+  "picture": "t-mz10451-11841-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "MZ10451",
+  "proposal_id": "11841",
+  "instrument": "WFC3/UVIS",
+  "title": "The Formation of Brightest Cluster Galaxies",
+  "grid": {
+   "width": 710,
+   "height": 1059,
+   "reduction": 6,
+   "arcsec_per_pixel": 0.23772000521421274,
+   "reference_filter": "F475W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F475W",
+    "center_nm": 475.8,
+    "color": "#2699ff",
+    "obs_id": "ib9201010",
+    "exposure_s": 2540,
+    "product": "mast:HST/product/ib9201010_drz.fits"
+   },
+   {
+    "filter": "F814W",
+    "center_nm": 831.9,
+    "color": "#ffa626",
+    "obs_id": "ib9202010",
+    "exposure_s": 2540,
+    "product": "mast:HST/product/ib9202010_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

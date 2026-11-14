@@ -1,0 +1,13 @@
+[     0s] == t-aco-370-bridge1-16757: 2 filters: ['F105W', 'F160W']
+[     0s] F105W: 1118x989 px at 0.1282 arcsec/px, 13 MB
+[     1s] F160W: 1117x989 px at 0.1282 arcsec/px, 13 MB
+[     1s] grid from F105W: 1118x989 px (reduced 1x), 0.128 arcsec/px
+[     2s] downloaded ieny01040_drz.fits: 13 MB
+[     2s] F105W: aligned (reduced 1x), covers 99% of the grid
+[     3s] downloaded ieny01030_drz.fits: 13 MB
+[     3s] F160W: aligned (reduced 1x), covers 98% of the grid
+[     3s] t-aco-370-bridge1-16757: finishing steps applied: ['dense']
+[     3s] cropped to 1092x969 px where 2 of 2 filters have data
+/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/astropy/visualization/lupton_rgb.py:645: RuntimeWarning: invalid value encountered in divide
+  fInorm = np.where(Int <= 0, 0, np.true_divide(fI, Int))
+[     3s] done: 1 pictures

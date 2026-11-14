@@ -1,0 +1,47 @@
+[
+ {
+  "picture": "t-sdf02-12329-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "SDF02",
+  "proposal_id": "12329",
+  "instrument": "WFC3/IR",
+  "title": "Physical Properties of Spectroscopically Confirmed Galaxies at 5.7<z<7 in the Subaru Deep Field",
+  "grid": {
+   "width": 1089,
+   "height": 963,
+   "reduction": 1,
+   "arcsec_per_pixel": 0.12825000286102212,
+   "reference_filter": "F125W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F125W",
+    "center_nm": 1249.0,
+    "color": "#2699ff",
+    "obs_id": "ibl102010",
+    "exposure_s": 2612,
+    "product": "mast:HST/product/ibl102010_drz.fits"
+   },
+   {
+    "filter": "F160W",
+    "center_nm": 1543.2,
+    "color": "#ffa626",
+    "obs_id": "ibl102020",
+    "exposure_s": 2612,
+    "product": "mast:HST/product/ibl102020_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

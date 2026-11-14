@@ -1,0 +1,47 @@
+[
+ {
+  "picture": "t-mcs-j0416-1-2403-bridge2-16757-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "MCS-J0416.1-2403-BRIDGE2",
+  "proposal_id": "16757",
+  "instrument": "WFC3/IR",
+  "title": "Intracluster Light in the Frontier Fields",
+  "grid": {
+   "width": 1118,
+   "height": 989,
+   "reduction": 1,
+   "arcsec_per_pixel": 0.12824999999999898,
+   "reference_filter": "F105W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F105W",
+    "center_nm": 1052.7,
+    "color": "#2699ff",
+    "obs_id": "ieny14040",
+    "exposure_s": 2412,
+    "product": "mast:HST/product/ieny14040_drz.fits"
+   },
+   {
+    "filter": "F160W",
+    "center_nm": 1543.2,
+    "color": "#ffa626",
+    "obs_id": "ieny14030",
+    "exposure_s": 2412,
+    "product": "mast:HST/product/ieny14030_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

@@ -1,0 +1,13 @@
+[     0s] == t-agel020613-011417-18479: 2 filters: ['F200LP', 'F814W']
+[     1s] F200LP: 5690x5804 px at 0.0396 arcsec/px, 397 MB
+[     1s] F814W: 4128x4388 px at 0.0396 arcsec/px, 218 MB
+[     1s] grid from F200LP: 1138x1160 px (reduced 5x), 0.198 arcsec/px
+[    10s] downloaded hst_18479_01_wfc3_uvis_f200lp_ifyz01_drc.fits: 397 MB
+[    11s] F200LP: aligned (reduced 4x), covers 52% of the grid
+[    15s] downloaded ifyz01040_drz.fits: 218 MB
+[    16s] F814W: aligned (reduced 4x), covers 51% of the grid
+[    16s] t-agel020613-011417-18479: finishing steps applied: ['dense']
+[    16s] cropped to 634x590 px where 2 of 2 filters have data
+/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/astropy/visualization/lupton_rgb.py:645: RuntimeWarning: invalid value encountered in divide
+  fInorm = np.where(Int <= 0, 0, np.true_divide(fI, Int))
+[    16s] done: 1 pictures
