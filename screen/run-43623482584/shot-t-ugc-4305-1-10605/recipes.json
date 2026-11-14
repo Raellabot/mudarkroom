@@ -1,0 +1,47 @@
+[
+ {
+  "picture": "t-ugc-4305-1-10605-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "UGC-4305-1",
+  "proposal_id": "10605",
+  "instrument": "ACS/WFC",
+  "title": "Quantifying Star Formation and Feedback: The M81 Group Dwarf Galaxies",
+  "grid": {
+   "width": 1055,
+   "height": 1074,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.19999999999999732,
+   "reference_filter": "F555W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F555W",
+    "center_nm": 545.0,
+    "color": "#2699ff",
+    "obs_id": "j9cm07010",
+    "exposure_s": 4660,
+    "product": "mast:HST/product/j9cm07010_drz.fits"
+   },
+   {
+    "filter": "F814W",
+    "center_nm": 833.5,
+    "color": "#ffa626",
+    "obs_id": "j9cm07020",
+    "exposure_s": 4660,
+    "product": "mast:HST/product/j9cm07020_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

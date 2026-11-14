@@ -1,0 +1,47 @@
+[
+ {
+  "picture": "t-dw0508m3818-18061-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "DW0508M3818",
+  "proposal_id": "18061",
+  "instrument": "WFC3/UVIS",
+  "title": "Hubble Census of Nearby Satellites",
+  "grid": {
+   "width": 1032,
+   "height": 1111,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.158479999999994,
+   "reference_filter": "F606W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F606W",
+    "center_nm": 594.0,
+    "color": "#2699ff",
+    "obs_id": "ifmy42010",
+    "exposure_s": 794,
+    "product": "mast:HST/product/ifmy42010_drz.fits"
+   },
+   {
+    "filter": "F814W",
+    "center_nm": 831.9,
+    "color": "#ffa626",
+    "obs_id": "ifmy42020",
+    "exposure_s": 1262,
+    "product": "mast:HST/product/ifmy42020_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

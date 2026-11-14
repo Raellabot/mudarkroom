@@ -1,0 +1,47 @@
+[
+ {
+  "picture": "t-abell-1185-f2-new-17212-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "ABELL-1185-F2-NEW",
+  "proposal_id": "17212",
+  "instrument": "WFC3/UVIS",
+  "title": "Caught in the Act: The Hierarchical Formation of Abell 1185",
+  "grid": {
+   "width": 1043,
+   "height": 1108,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.15847999999999982,
+   "reference_filter": "F600LP"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F475X",
+    "center_nm": 513.9,
+    "color": "#2699ff",
+    "obs_id": "ieyi2bapq",
+    "exposure_s": 751,
+    "product": "mast:HST/product/ieyi2bapq_drz.fits"
+   },
+   {
+    "filter": "F600LP",
+    "center_nm": 797.5,
+    "color": "#ffa626",
+    "obs_id": "ieyi2b020",
+    "exposure_s": 1440,
+    "product": "mast:HST/product/ieyi2b020_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

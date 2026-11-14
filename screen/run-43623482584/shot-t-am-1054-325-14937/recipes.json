@@ -1,0 +1,47 @@
+[
+ {
+  "picture": "t-am-1054-325-14937-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "AM-1054-325",
+  "proposal_id": "14937",
+  "instrument": "WFC3/UVIS",
+  "title": "Neutral Hydrogen in Tidal Tails: Probing the Extremes of Star Formation",
+  "grid": {
+   "width": 1032,
+   "height": 1097,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.15847999999999957,
+   "reference_filter": "F336W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F336W",
+    "center_nm": 336.6,
+    "color": "#2699ff",
+    "obs_id": "idgv02010",
+    "exposure_s": 3440,
+    "product": "mast:HST/product/idgv02010_drz.fits"
+   },
+   {
+    "filter": "F438W",
+    "center_nm": 431.4,
+    "color": "#ffa626",
+    "obs_id": "idgv02020",
+    "exposure_s": 1520,
+    "product": "mast:HST/product/idgv02020_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

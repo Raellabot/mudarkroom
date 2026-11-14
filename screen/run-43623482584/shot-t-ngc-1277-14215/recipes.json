@@ -1,0 +1,47 @@
+[
+ {
+  "picture": "t-ngc-1277-14215-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "NGC-1277",
+  "proposal_id": "14215",
+  "instrument": "ACS/WFC",
+  "title": "The pristine globular cluster population of the primordial relic galaxy NGC1277",
+  "grid": {
+   "width": 1055,
+   "height": 1061,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.19999999999999887,
+   "reference_filter": "F475W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F475W",
+    "center_nm": 470.0,
+    "color": "#2699ff",
+    "obs_id": "jctt01010",
+    "exposure_s": 2280,
+    "product": "mast:HST/product/jctt01010_drz.fits"
+   },
+   {
+    "filter": "F850LP",
+    "center_nm": 895.0,
+    "color": "#ffa626",
+    "obs_id": "jctt01020",
+    "exposure_s": 2432,
+    "product": "mast:HST/product/jctt01020_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

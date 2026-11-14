@@ -1,0 +1,47 @@
+[
+ {
+  "picture": "t-c-1730-333-5381-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "JWST",
+  "target": "C-1730-333",
+  "proposal_id": "5381",
+  "instrument": "NIRCAM/IMAGE",
+  "title": "Unveiling the compact object and stellar populations of globular clusters Terzan 5 and Liller 1",
+  "grid": {
+   "width": 1084,
+   "height": 1079,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.12299504242816857,
+   "reference_filter": "F200W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F200W",
+    "center_nm": 1990.5,
+    "color": "#2699ff",
+    "obs_id": "jw05381-o003_t002_nircam_clear-f200w",
+    "exposure_s": 23191.428,
+    "product": "mast:JWST/product/jw05381-o003_t002_nircam_clear-f200w_i2d.fits"
+   },
+   {
+    "filter": "F356W",
+    "center_nm": 3560.0,
+    "color": "#ffa626",
+    "obs_id": "jw05381-o003_t002_nircam_clear-f356w",
+    "exposure_s": 23191.428,
+    "product": "mast:JWST/product/jw05381-o003_t002_nircam_clear-f356w_i2d.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

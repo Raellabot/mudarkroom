@@ -1,0 +1,47 @@
+[
+ {
+  "picture": "t-f2m2222-0202-12942-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "F2M2222-0202",
+  "proposal_id": "12942",
+  "instrument": "WFC3/IR",
+  "title": "Testing the Merger Hypothesis for Black Hole/Galaxy Co-Evolution at z~2",
+  "grid": {
+   "width": 1089,
+   "height": 963,
+   "reduction": 1,
+   "arcsec_per_pixel": 0.12825000286102214,
+   "reference_filter": "F125W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F125W",
+    "center_nm": 1249.0,
+    "color": "#2699ff",
+    "obs_id": "ibyu19020",
+    "exposure_s": 896.935304,
+    "product": "mast:HST/product/ibyu19020_drz.fits"
+   },
+   {
+    "filter": "F160W",
+    "center_nm": 1543.2,
+    "color": "#ffa626",
+    "obs_id": "ibyu13010",
+    "exposure_s": 1596.926268,
+    "product": "mast:HST/product/ibyu13010_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

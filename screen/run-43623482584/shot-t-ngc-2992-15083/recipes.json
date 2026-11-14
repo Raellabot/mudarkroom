@@ -1,0 +1,47 @@
+[
+ {
+  "picture": "t-ngc-2992-15083-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST+HST",
+  "target": "NGC-2992+NGC-2992",
+  "proposal_id": "15083+15083",
+  "instrument": "ACS/WFC+WFC3/UVIS",
+  "title": "Star Clusters in Tidal Debris: A UV Survey of Stellar Populations, Galaxy Interactions, and Evolution",
+  "grid": {
+   "width": 1054,
+   "height": 1060,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.19999999999999882,
+   "reference_filter": "F435W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F336W",
+    "center_nm": 336.6,
+    "color": "#2699ff",
+    "obs_id": "idle03020",
+    "exposure_s": 2230,
+    "product": "mast:HST/product/idle03020_drz.fits"
+   },
+   {
+    "filter": "F435W",
+    "center_nm": 425.0,
+    "color": "#ffa626",
+    "obs_id": "jdle04010",
+    "exposure_s": 2100,
+    "product": "mast:HST/product/jdle04010_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

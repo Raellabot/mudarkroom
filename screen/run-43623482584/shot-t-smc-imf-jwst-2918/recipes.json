@@ -1,0 +1,47 @@
+[
+ {
+  "picture": "t-smc-imf-jwst-2918-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "JWST",
+  "target": "SMC-IMF-JWST",
+  "proposal_id": "2918",
+  "instrument": "NIRCAM/IMAGE",
+  "title": "Does the Stellar Initial Mass Function Depend on Metallicity?",
+  "grid": {
+   "width": 1099,
+   "height": 488,
+   "reduction": 9,
+   "arcsec_per_pixel": 0.2810474176991223,
+   "reference_filter": "F150W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F150W",
+    "center_nm": 1499.5,
+    "color": "#2699ff",
+    "obs_id": "jw02918-o001_t001_nircam_clear-f150w",
+    "exposure_s": 13399.488000000005,
+    "product": "mast:JWST/product/jw02918-o001_t001_nircam_clear-f150w_i2d.fits"
+   },
+   {
+    "filter": "F322W2",
+    "center_nm": 3221.5,
+    "color": "#ffa626",
+    "obs_id": "jw02918-o001_t001_nircam_clear-f322w2",
+    "exposure_s": 13399.488000000005,
+    "product": "mast:JWST/product/jw02918-o001_t001_nircam_clear-f322w2_i2d.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

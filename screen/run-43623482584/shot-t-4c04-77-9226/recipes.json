@@ -1,0 +1,47 @@
+[
+ {
+  "picture": "t-4c04-77-9226-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "JWST",
+  "target": "4C04.77",
+  "proposal_id": "9226",
+  "instrument": "NIRCAM/IMAGE",
+  "title": "A legacy epoch for Hubbles optical jets: a reference for the future",
+  "grid": {
+   "width": 982,
+   "height": 978,
+   "reduction": 5,
+   "arcsec_per_pixel": 0.15372793063484622,
+   "reference_filter": "F070W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F070W",
+    "center_nm": 701.0,
+    "color": "#2699ff",
+    "obs_id": "jw09226-o006_t006_nircam_clear-f070w",
+    "exposure_s": 944.836,
+    "product": "mast:JWST/product/jw09226-o006_t006_nircam_clear-f070w_i2d.fits"
+   },
+   {
+    "filter": "F444W",
+    "center_nm": 4433.0,
+    "color": "#ffa626",
+    "obs_id": "jw09226-o006_t006_nircam_clear-f444w",
+    "exposure_s": 944.836,
+    "product": "mast:JWST/product/jw09226-o006_t006_nircam_clear-f444w_i2d.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

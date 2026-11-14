@@ -1,0 +1,47 @@
+[
+ {
+  "picture": "t-abell399-3-14-0-12937-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "ABELL399-3-14-0",
+  "proposal_id": "12937",
+  "instrument": "ACS/WFC",
+  "title": "Direct Confirmation of Intracluster Stars as SN Ia Progenitors",
+  "grid": {
+   "width": 1067,
+   "height": 1073,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.19999999999999957,
+   "reference_filter": "F606W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F606W",
+    "center_nm": 595.0,
+    "color": "#2699ff",
+    "obs_id": "jc2p03010",
+    "exposure_s": 1800,
+    "product": "mast:HST/product/jc2p03010_drz.fits"
+   },
+   {
+    "filter": "F814W",
+    "center_nm": 833.5,
+    "color": "#ffa626",
+    "obs_id": "jc2p03020",
+    "exposure_s": 1980,
+    "product": "mast:HST/product/jc2p03020_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

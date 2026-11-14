@@ -1,0 +1,47 @@
+[
+ {
+  "picture": "t-ngc3627-10433-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "NGC3627",
+  "proposal_id": "10433",
+  "instrument": "ACS/WFC",
+  "title": "The Cepheid PL-Z",
+  "grid": {
+   "width": 1179,
+   "height": 1180,
+   "reduction": 5,
+   "arcsec_per_pixel": 0.24999999999999117,
+   "reference_filter": "F814W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F555W",
+    "center_nm": 545.0,
+    "color": "#2699ff",
+    "obs_id": "j95o01050",
+    "exposure_s": 2224,
+    "product": "mast:HST/product/j95o01050_drz.fits"
+   },
+   {
+    "filter": "F814W",
+    "center_nm": 833.5,
+    "color": "#ffa626",
+    "obs_id": "hst_10433_01_acs_wfc_f814w_j95o01",
+    "exposure_s": 8872,
+    "product": "mast:HST/product/hst_10433_01_acs_wfc_f814w_j95o01_drc.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

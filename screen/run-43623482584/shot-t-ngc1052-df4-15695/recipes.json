@@ -1,0 +1,47 @@
+[
+ {
+  "picture": "t-ngc1052-df4-15695-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "NGC1052-DF4",
+  "proposal_id": "15695",
+  "instrument": "ACS/WFC",
+  "title": "An accurate distance to the controversial low-dark matter galaxy NGC1052-DF4",
+  "grid": {
+   "width": 1089,
+   "height": 1079,
+   "reduction": 5,
+   "arcsec_per_pixel": 0.24999999999999117,
+   "reference_filter": "F814W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F606W",
+    "center_nm": 595.0,
+    "color": "#2699ff",
+    "obs_id": "jdz501010",
+    "exposure_s": 2020,
+    "product": "mast:HST/product/jdz501010_drz.fits"
+   },
+   {
+    "filter": "F814W",
+    "center_nm": 833.5,
+    "color": "#ffa626",
+    "obs_id": "hst_15695_04_acs_wfc_f814w_jdz504",
+    "exposure_s": 4100,
+    "product": "mast:HST/product/hst_15695_04_acs_wfc_f814w_jdz504_drc.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

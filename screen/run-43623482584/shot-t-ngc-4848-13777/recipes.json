@@ -1,0 +1,47 @@
+[
+ {
+  "picture": "t-ngc-4848-13777-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "NGC-4848",
+  "proposal_id": "13777",
+  "instrument": "WFC3/UVIS",
+  "title": "Morphological Transformation in the Coma Cluster",
+  "grid": {
+   "width": 1067,
+   "height": 1132,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.15848000347614116,
+   "reference_filter": "F350LP"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F350LP",
+    "center_nm": 659.6,
+    "color": "#2699ff",
+    "obs_id": "icnv04030",
+    "exposure_s": 2155,
+    "product": "mast:HST/product/icnv04030_drz.fits"
+   },
+   {
+    "filter": "F600LP",
+    "center_nm": 797.5,
+    "color": "#ffa626",
+    "obs_id": "icnv04040",
+    "exposure_s": 2990,
+    "product": "mast:HST/product/icnv04040_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

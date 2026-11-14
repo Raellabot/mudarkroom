@@ -1,0 +1,5 @@
+[     0s] == t-booi-3849: 2 filters: ['F150W', 'F322W2']
+[     0s] F150W: file is 37.5 GB, over the 3.0 GB cap; this filter is left out
+[     1s] F322W2: file is 3.5 GB, over the 3.0 GB cap; this filter is left out
+[     1s] t-booi-3849 failed: fewer than 2 filters can be used
+[     1s] done: 0 pictures

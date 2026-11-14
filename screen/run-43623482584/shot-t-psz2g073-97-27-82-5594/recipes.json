@@ -1,0 +1,47 @@
+[
+ {
+  "picture": "t-psz2g073-97-27-82-5594-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "JWST",
+  "target": "PSZ2G073.97-27.82",
+  "proposal_id": "5594",
+  "instrument": "NIRCAM/IMAGE",
+  "title": "JWST Cluster SLICE - Strong LensIng and Cluster Evolution",
+  "grid": {
+   "width": 1180,
+   "height": 1176,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.12297169773233885,
+   "reference_filter": "F150W2"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F150W2",
+    "center_nm": 1671.0,
+    "color": "#2699ff",
+    "obs_id": "jw05594-o012_t014_nircam_clear-f150w2",
+    "exposure_s": 1835.991,
+    "product": "mast:JWST/product/jw05594-o012_t014_nircam_clear-f150w2_i2d.fits"
+   },
+   {
+    "filter": "F322W2",
+    "center_nm": 3221.5,
+    "color": "#ffa626",
+    "obs_id": "jw05594-o012_t014_nircam_clear-f322w2",
+    "exposure_s": 1835.991,
+    "product": "mast:JWST/product/jw05594-o012_t014_nircam_clear-f322w2_i2d.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

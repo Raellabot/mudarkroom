@@ -1,0 +1,47 @@
+[
+ {
+  "picture": "t-ngc-4302-ir-14913-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "NGC-4302-IR",
+  "proposal_id": "14913",
+  "instrument": "WFC3/IR",
+  "title": "WFC3 imaging of galaxy pair NGC 4298 and NGC 4302",
+  "grid": {
+   "width": 702,
+   "height": 904,
+   "reduction": 3,
+   "arcsec_per_pixel": 0.3847499999999993,
+   "reference_filter": "F125W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F125W",
+    "center_nm": 1249.0,
+    "color": "#2699ff",
+    "obs_id": "iddt01010",
+    "exposure_s": 2118,
+    "product": "mast:HST/product/iddt01010_drz.fits"
+   },
+   {
+    "filter": "F160W",
+    "center_nm": 1543.2,
+    "color": "#ffa626",
+    "obs_id": "iddt15010",
+    "exposure_s": 2118,
+    "product": "mast:HST/product/iddt15010_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

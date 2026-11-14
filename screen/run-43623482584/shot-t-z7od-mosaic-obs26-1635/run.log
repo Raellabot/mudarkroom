@@ -1,0 +1,11 @@
+[     0s] == t-z7od-mosaic-obs26-1635: 2 filters: ['F150W2', 'F444W']
+[     0s] F150W2: file is 9.2 GB, over the 3.0 GB cap; this filter is left out
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set DATE-BEG to '2022-12-04T16:45:04.400' from MJD-BEG.
+Set DATE-AVG to '2022-12-04T21:06:31.913' from MJD-AVG.
+Set DATE-END to '2022-12-05T02:42:46.775' from MJD-END'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'obsfix' made the change 'Set OBSGEO-L to    94.484845 from OBSGEO-[XYZ].
+Set OBSGEO-B to    14.320436 from OBSGEO-[XYZ].
+Set OBSGEO-H to 1636849576.168 from OBSGEO-[XYZ]'. [astropy.wcs.wcs]
+[     1s] F444W: 5700x6455 px at 0.0629 arcsec/px, 1325 MB
+[     1s] t-z7od-mosaic-obs26-1635 failed: fewer than 2 filters can be used
+[     1s] done: 0 pictures
