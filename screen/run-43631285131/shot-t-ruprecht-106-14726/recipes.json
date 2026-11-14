@@ -1,0 +1,47 @@
+[
+ {
+  "picture": "t-ruprecht-106-14726-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "RUPRECHT-106",
+  "proposal_id": "14726",
+  "instrument": "WFC3/UVIS",
+  "title": "Ruprecht 106: Too small to succeed?",
+  "grid": {
+   "width": 1032,
+   "height": 1097,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.15848000347614258,
+   "reference_filter": "F336W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F336W",
+    "center_nm": 336.6,
+    "color": "#2699ff",
+    "obs_id": "id8s01010",
+    "exposure_s": 3300,
+    "product": "mast:HST/product/id8s01010_drz.fits"
+   },
+   {
+    "filter": "F438W",
+    "center_nm": 431.4,
+    "color": "#ffa626",
+    "obs_id": "id8s05pfq",
+    "exposure_s": 571,
+    "product": "mast:HST/product/id8s05pfq_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

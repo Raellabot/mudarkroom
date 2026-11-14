@@ -1,0 +1,47 @@
+[
+ {
+  "picture": "t-ps1-12sk-15236-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "PS1-12SK",
+  "proposal_id": "15236",
+  "instrument": "WFC3/UVIS",
+  "title": "The mystery of a supposed massive star exploding in a brightest cluster galaxy",
+  "grid": {
+   "width": 1033,
+   "height": 1119,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.15848000347614227,
+   "reference_filter": "F625W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F300X",
+    "center_nm": 292.8,
+    "color": "#2699ff",
+    "obs_id": "idhi01010",
+    "exposure_s": 2688,
+    "product": "mast:HST/product/idhi01010_drz.fits"
+   },
+   {
+    "filter": "F625W",
+    "center_nm": 627.4,
+    "color": "#ffa626",
+    "obs_id": "idhi05020",
+    "exposure_s": 1050,
+    "product": "mast:HST/product/idhi05020_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

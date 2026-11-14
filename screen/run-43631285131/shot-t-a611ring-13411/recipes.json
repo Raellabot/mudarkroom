@@ -1,0 +1,47 @@
+[
+ {
+  "picture": "t-a611ring-13411-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "A611RING",
+  "proposal_id": "13411",
+  "instrument": "WFC3/IR",
+  "title": "Dissecting the intensely star-forming clumps in a z ~ 2 Einstein Ring",
+  "grid": {
+   "width": 1098,
+   "height": 968,
+   "reduction": 1,
+   "arcsec_per_pixel": 0.1282500028610228,
+   "reference_filter": "F105W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F105W",
+    "center_nm": 1052.7,
+    "color": "#2699ff",
+    "obs_id": "ic9803010",
+    "exposure_s": 862,
+    "product": "mast:HST/product/ic9803010_drz.fits"
+   },
+   {
+    "filter": "F140W",
+    "center_nm": 1398.3,
+    "color": "#ffa626",
+    "obs_id": "ic9801030",
+    "exposure_s": 481,
+    "product": "mast:HST/product/ic9801030_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

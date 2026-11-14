@@ -1,0 +1,47 @@
+[
+ {
+  "picture": "t-f575-3-15427-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "F575-3",
+  "proposal_id": "15427",
+  "instrument": "WFC3/IR",
+  "title": "Exploring the Nature of Dark Matter Through Near-IR CMDs of LSB Galaxies",
+  "grid": {
+   "width": 1088,
+   "height": 960,
+   "reduction": 1,
+   "arcsec_per_pixel": 0.1282500028610219,
+   "reference_filter": "F110W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F110W",
+    "center_nm": 1148.8,
+    "color": "#2699ff",
+    "obs_id": "idr501020",
+    "exposure_s": 1306,
+    "product": "mast:HST/product/idr501020_drz.fits"
+   },
+   {
+    "filter": "F160W",
+    "center_nm": 1543.2,
+    "color": "#ffa626",
+    "obs_id": "idr503010",
+    "exposure_s": 1406,
+    "product": "mast:HST/product/idr503010_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

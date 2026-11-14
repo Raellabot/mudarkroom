@@ -1,0 +1,47 @@
+[
+ {
+  "picture": "t-andromeda-xv-13739-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "ANDROMEDA-XV",
+  "proposal_id": "13739",
+  "instrument": "ACS/WFC",
+  "title": "Is the First Epoch of Star Formation in Satellite Galaxies Universal? - Part II",
+  "grid": {
+   "width": 1053,
+   "height": 1059,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.1999999999999984,
+   "reference_filter": "F814W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F475W",
+    "center_nm": 470.0,
+    "color": "#2699ff",
+    "obs_id": "jcnb30010",
+    "exposure_s": 3991,
+    "product": "mast:HST/product/jcnb30010_drz.fits"
+   },
+   {
+    "filter": "F814W",
+    "center_nm": 833.5,
+    "color": "#ffa626",
+    "obs_id": "jcnb30020",
+    "exposure_s": 3157,
+    "product": "mast:HST/product/jcnb30020_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

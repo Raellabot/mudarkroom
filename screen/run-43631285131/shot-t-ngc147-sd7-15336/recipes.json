@@ -1,0 +1,47 @@
+[
+ {
+  "picture": "t-ngc147-sd7-15336-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "NGC147-SD7",
+  "proposal_id": "15336",
+  "instrument": "ACS/WFC",
+  "title": "The Globular Cluster Systems of Local Group Dwarf Galaxies",
+  "grid": {
+   "width": 1156,
+   "height": 1146,
+   "reduction": 5,
+   "arcsec_per_pixel": 0.24999999999999117,
+   "reference_filter": "F814W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F606W",
+    "center_nm": 595.0,
+    "color": "#2699ff",
+    "obs_id": "jdjf03010",
+    "exposure_s": 2460,
+    "product": "mast:HST/product/jdjf03010_drz.fits"
+   },
+   {
+    "filter": "F814W",
+    "center_nm": 833.5,
+    "color": "#ffa626",
+    "obs_id": "hst_15336_03_acs_wfc_f814w_jdjf03",
+    "exposure_s": 5148,
+    "product": "mast:HST/product/hst_15336_03_acs_wfc_f814w_jdjf03_drc.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

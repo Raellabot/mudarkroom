@@ -1,0 +1,13 @@
+[     0s] == t-masosa-14699: 2 filters: ['F110W', 'F160W']
+[     1s] F110W: 1403x1439 px at 0.1283 arcsec/px, 24 MB
+[     1s] F160W: 1403x1439 px at 0.1283 arcsec/px, 24 MB
+[     1s] grid from F110W: 701x719 px (reduced 2x), 0.257 arcsec/px
+[     3s] downloaded hst_14699_02_wfc3_ir_f110w_id8l02_drz.fits: 24 MB
+[     3s] F110W: aligned (reduced 2x), covers 51% of the grid
+[     4s] downloaded hst_14699_02_wfc3_ir_f160w_id8l02_drz.fits: 24 MB
+[     4s] F160W: aligned (reduced 2x), covers 51% of the grid
+[     4s] t-masosa-14699: finishing steps applied: ['dense']
+[     4s] cropped to 349x368 px where 2 of 2 filters have data
+/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/astropy/visualization/lupton_rgb.py:645: RuntimeWarning: invalid value encountered in divide
+  fInorm = np.where(Int <= 0, 0, np.true_divide(fI, Int))
+[     4s] done: 1 pictures

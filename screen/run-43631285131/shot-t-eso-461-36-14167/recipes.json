@@ -1,0 +1,47 @@
+[
+ {
+  "picture": "t-eso-461-36-14167-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "ESO-461-36",
+  "proposal_id": "14167",
+  "instrument": "WFC3/IR",
+  "title": "Draining the Local Void",
+  "grid": {
+   "width": 1114,
+   "height": 986,
+   "reduction": 1,
+   "arcsec_per_pixel": 0.1282500028610225,
+   "reference_filter": "F110W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F110W",
+    "center_nm": 1148.8,
+    "color": "#2699ff",
+    "obs_id": "icuh02010",
+    "exposure_s": 1306,
+    "product": "mast:HST/product/icuh02010_drz.fits"
+   },
+   {
+    "filter": "F160W",
+    "center_nm": 1543.2,
+    "color": "#ffa626",
+    "obs_id": "icuh02020",
+    "exposure_s": 1306,
+    "product": "mast:HST/product/icuh02020_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

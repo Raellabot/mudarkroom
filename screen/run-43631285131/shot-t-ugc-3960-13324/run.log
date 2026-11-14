@@ -1,0 +1,13 @@
+[     0s] == t-ugc-3960-13324: 2 filters: ['F475W', 'F814W']
+[     0s] F475W: 4129x4446 px at 0.0396 arcsec/px, 220 MB
+[     1s] F814W: 4139x4457 px at 0.0396 arcsec/px, 222 MB
+[     1s] grid from F814W: 1034x1114 px (reduced 4x), 0.158 arcsec/px
+[     4s] downloaded ic8a12040_drz.fits: 220 MB
+[     5s] F475W: aligned (reduced 3x), covers 93% of the grid
+[     8s] downloaded ic8a12030_drz.fits: 222 MB
+[     9s] F814W: aligned (reduced 4x), covers 94% of the grid
+[     9s] t-ugc-3960-13324: finishing steps applied: ['dense']
+[     9s] cropped to 972x991 px where 2 of 2 filters have data
+/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/astropy/visualization/lupton_rgb.py:645: RuntimeWarning: invalid value encountered in divide
+  fInorm = np.where(Int <= 0, 0, np.true_divide(fI, Int))
+[     9s] done: 1 pictures

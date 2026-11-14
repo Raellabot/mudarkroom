@@ -1,0 +1,47 @@
+[
+ {
+  "picture": "t-boss1244-lyc-17159-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "BOSS1244-LYC",
+  "proposal_id": "17159",
+  "instrument": "WFC3/UVIS",
+  "title": "Escaping Lyman Continuum from the Overdensities of Extreme Emission Line Galaxies at z~2.2",
+  "grid": {
+   "width": 1032,
+   "height": 1097,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.1584799999999977,
+   "reference_filter": "F475W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F225W",
+    "center_nm": 236.8,
+    "color": "#2699ff",
+    "obs_id": "iexi04010",
+    "exposure_s": 8250,
+    "product": "mast:HST/product/iexi04010_drz.fits"
+   },
+   {
+    "filter": "F475W",
+    "center_nm": 475.8,
+    "color": "#ffa626",
+    "obs_id": "iexi07010",
+    "exposure_s": 2505,
+    "product": "mast:HST/product/iexi07010_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

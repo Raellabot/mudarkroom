@@ -1,0 +1,47 @@
+[
+ {
+  "picture": "t-cfhqs-j003311-40-012524-9-12974-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "CFHQS-J003311.40-012524.9",
+  "proposal_id": "12974",
+  "instrument": "WFC3/IR",
+  "title": "WFC3IR Imaging of UV-Faint z=6 Quasars: Star-Forming Host Galaxies of AGN in the Early Universe",
+  "grid": {
+   "width": 1132,
+   "height": 1002,
+   "reduction": 1,
+   "arcsec_per_pixel": 0.1282500028610223,
+   "reference_filter": "F125W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F125W",
+    "center_nm": 1249.0,
+    "color": "#2699ff",
+    "obs_id": "ic0z01020",
+    "exposure_s": 4823.498536,
+    "product": "mast:HST/product/ic0z01020_drz.fits"
+   },
+   {
+    "filter": "F160W",
+    "center_nm": 1543.2,
+    "color": "#ffa626",
+    "obs_id": "ic0z01010",
+    "exposure_s": 4823.498536,
+    "product": "mast:HST/product/ic0z01010_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

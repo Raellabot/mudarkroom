@@ -1,0 +1,47 @@
+[
+ {
+  "picture": "t-cygloop-nenr1-15893-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "CYGLOOP-NENR1",
+  "proposal_id": "15893",
+  "instrument": "WFC3/UVIS",
+  "title": "Observing Changes in the Primary Shock Front of the Cygnus Loop: An HST 20+ Year Perspective",
+  "grid": {
+   "width": 1045,
+   "height": 1125,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.1584800034761427,
+   "reference_filter": "F502N"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F502N",
+    "center_nm": 501.1,
+    "color": "#2699ff",
+    "obs_id": "ie1p02010",
+    "exposure_s": 7414,
+    "product": "mast:HST/product/ie1p02010_drz.fits"
+   },
+   {
+    "filter": "F656N",
+    "center_nm": 656.2,
+    "color": "#ffa626",
+    "obs_id": "ie1p01010",
+    "exposure_s": 7414,
+    "product": "mast:HST/product/ie1p01010_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

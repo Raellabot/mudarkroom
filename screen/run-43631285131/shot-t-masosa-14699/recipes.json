@@ -1,0 +1,47 @@
+[
+ {
+  "picture": "t-masosa-14699-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "MASOSA",
+  "proposal_id": "14699",
+  "instrument": "WFC3/IR",
+  "title": null,
+  "grid": {
+   "width": 701,
+   "height": 719,
+   "reduction": 2,
+   "arcsec_per_pixel": 0.2565000057220434,
+   "reference_filter": "F110W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F110W",
+    "center_nm": 1148.8,
+    "color": "#2699ff",
+    "obs_id": "hst_14699_02_wfc3_ir_f110w_id8l02",
+    "exposure_s": 5223.501952,
+    "product": "mast:HST/product/hst_14699_02_wfc3_ir_f110w_id8l02_drz.fits"
+   },
+   {
+    "filter": "F160W",
+    "center_nm": 1543.2,
+    "color": "#ffa626",
+    "obs_id": "hst_14699_02_wfc3_ir_f160w_id8l02",
+    "exposure_s": 5223.501952,
+    "product": "mast:HST/product/hst_14699_02_wfc3_ir_f160w_id8l02_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

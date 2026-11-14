@@ -1,0 +1,47 @@
+[
+ {
+  "picture": "t-wake-17301-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "WAKE",
+  "proposal_id": "17301",
+  "instrument": "WFC3/UVIS",
+  "title": "Ultraviolet imaging of a candidate runaway supermassive black hole",
+  "grid": {
+   "width": 1032,
+   "height": 1097,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.15847999999999962,
+   "reference_filter": "F200LP"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F200LP",
+    "center_nm": 595.3,
+    "color": "#2699ff",
+    "obs_id": "if3x06010",
+    "exposure_s": 2496,
+    "product": "mast:HST/product/if3x06010_drz.fits"
+   },
+   {
+    "filter": "F350LP",
+    "center_nm": 659.6,
+    "color": "#ffa626",
+    "obs_id": "if3x06020",
+    "exposure_s": 2487,
+    "product": "mast:HST/product/if3x06020_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

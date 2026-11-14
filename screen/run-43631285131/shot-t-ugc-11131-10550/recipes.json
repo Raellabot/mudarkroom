@@ -1,0 +1,47 @@
+[
+ {
+  "picture": "t-ugc-11131-10550-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "UGC-11131",
+  "proposal_id": "10550",
+  "instrument": "ACS/WFC",
+  "title": "The Nature of LSB galaxies revealed by their Globular Clusters",
+  "grid": {
+   "width": 1054,
+   "height": 1060,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.1999999999999887,
+   "reference_filter": "F475W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F475W",
+    "center_nm": 470.0,
+    "color": "#2699ff",
+    "obs_id": "j9cr05010",
+    "exposure_s": 1200,
+    "product": "mast:HST/product/j9cr05010_drz.fits"
+   },
+   {
+    "filter": "F775W",
+    "center_nm": 775.0,
+    "color": "#ffa626",
+    "obs_id": "j9cr05020",
+    "exposure_s": 800,
+    "product": "mast:HST/product/j9cr05020_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

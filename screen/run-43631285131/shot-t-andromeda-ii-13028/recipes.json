@@ -1,0 +1,47 @@
+[
+ {
+  "picture": "t-andromeda-ii-13028-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "ANDROMEDA-II",
+  "proposal_id": "13028",
+  "instrument": "ACS/WFC",
+  "title": "Is the First Epoch of Star Formation in Satellite Galaxies Universal?: M31 vs. Milky Way dSphs",
+  "grid": {
+   "width": 1053,
+   "height": 1060,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.19999999999999615,
+   "reference_filter": "F475W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F475W",
+    "center_nm": 470.0,
+    "color": "#2699ff",
+    "obs_id": "jc1d08010",
+    "exposure_s": 3999,
+    "product": "mast:HST/product/jc1d08010_drz.fits"
+   },
+   {
+    "filter": "F814W",
+    "center_nm": 833.5,
+    "color": "#ffa626",
+    "obs_id": "jc1d08020",
+    "exposure_s": 3187,
+    "product": "mast:HST/product/jc1d08020_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

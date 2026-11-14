@@ -1,0 +1,47 @@
+[
+ {
+  "picture": "t-and-xix-15302-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST+HST",
+  "target": "AND-XIX+AND-XIX",
+  "proposal_id": "15302+15302",
+  "instrument": "ACS/WFC+WFC3/UVIS",
+  "title": "Unveiling the formation of Andromeda XIX - a uniquely diffuse Local Group galaxy",
+  "grid": {
+   "width": 1013,
+   "height": 1016,
+   "reduction": 6,
+   "arcsec_per_pixel": 0.2377200052142096,
+   "reference_filter": "F814W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F606W",
+    "center_nm": 594.0,
+    "color": "#2699ff",
+    "obs_id": "idjy04040",
+    "exposure_s": 2758,
+    "product": "mast:HST/product/idjy04041_drz.fits"
+   },
+   {
+    "filter": "F814W",
+    "center_nm": 831.9,
+    "color": "#ffa626",
+    "obs_id": "hst_15302_08_wfc3_uvis_f814w_idjy08",
+    "exposure_s": 5426,
+    "product": "mast:HST/product/hst_15302_08_wfc3_uvis_f814w_idjy08_drc.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

@@ -1,0 +1,47 @@
+[
+ {
+  "picture": "t-ngc-5139-brwnv1v3-16247-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST+HST",
+  "target": "NGC-5139-BRWNV1V3+NGC-5139-BRWNV1V3",
+  "proposal_id": "16247+16247",
+  "instrument": "ACS/WFC+WFC3/UVIS",
+  "title": "The radial chromosomic map of Omega Centauri",
+  "grid": {
+   "width": 1132,
+   "height": 1197,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.15847999999999776,
+   "reference_filter": "F606W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F606W",
+    "center_nm": 594.0,
+    "color": "#2699ff",
+    "obs_id": "iebd02020",
+    "exposure_s": 673,
+    "product": "mast:HST/product/iebd02020_drz.fits"
+   },
+   {
+    "filter": "F814W",
+    "center_nm": 831.9,
+    "color": "#ffa626",
+    "obs_id": "iebd02010",
+    "exposure_s": 1405,
+    "product": "mast:HST/product/iebd02010_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

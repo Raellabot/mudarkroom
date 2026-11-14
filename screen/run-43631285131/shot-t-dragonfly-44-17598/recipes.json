@@ -1,0 +1,47 @@
+[
+ {
+  "picture": "t-dragonfly-44-17598-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "DRAGONFLY-44",
+  "proposal_id": "17598",
+  "instrument": "WFC3/UVIS",
+  "title": "The globular clusters of Dragonfly 44",
+  "grid": {
+   "width": 1007,
+   "height": 1035,
+   "reduction": 5,
+   "arcsec_per_pixel": 0.19809999999999914,
+   "reference_filter": "F200LP"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F200LP",
+    "center_nm": 595.3,
+    "color": "#2699ff",
+    "obs_id": "ifbl02010",
+    "exposure_s": 4994,
+    "product": "mast:HST/product/ifbl02010_drz.fits"
+   },
+   {
+    "filter": "F350LP",
+    "center_nm": 659.6,
+    "color": "#ffa626",
+    "obs_id": "ifbl55010",
+    "exposure_s": 5012,
+    "product": "mast:HST/product/ifbl55010_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

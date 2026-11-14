@@ -1,0 +1,3 @@
+  page 1/1 rows so far 64 of 64
+HST|NAME-WLM-GALAXY|13768|ACS/WFC|3  rows=63  filters=['F475W', 'F814W', 'detection']
+HST|NAME-WLM-GALAXY|13768|ACS/WFC|2  rows=1  filters=['F475W']

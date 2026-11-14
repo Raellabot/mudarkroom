@@ -1,0 +1,47 @@
+[
+ {
+  "picture": "t-bootes-i-3-15317-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "BOOTES-I-3",
+  "proposal_id": "15317",
+  "instrument": "ACS/WFC",
+  "title": "The Low-Mass Stellar Initial Mass Function: Ultra-Faint Dwarf Galaxies Revisited",
+  "grid": {
+   "width": 1052,
+   "height": 1060,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.19999999999999962,
+   "reference_filter": "F606W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F606W",
+    "center_nm": 595.0,
+    "color": "#2699ff",
+    "obs_id": "jdir12010",
+    "exposure_s": 2448,
+    "product": "mast:HST/product/jdir12011_drz.fits"
+   },
+   {
+    "filter": "F814W",
+    "center_nm": 833.5,
+    "color": "#ffa626",
+    "obs_id": "jdir09020",
+    "exposure_s": 2516,
+    "product": "mast:HST/product/jdir09021_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

@@ -1,0 +1,47 @@
+[
+ {
+  "picture": "t-macsj0159-0-3412-15843-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "MACSJ0159.0-3412",
+  "proposal_id": "15843",
+  "instrument": "WFC3/IR",
+  "title": "Beyond MACS: A Snapshot Survey of the Most Massive Clusters of Galaxies at z=0.5-1",
+  "grid": {
+   "width": 1087,
+   "height": 962,
+   "reduction": 1,
+   "arcsec_per_pixel": 0.12825000286102195,
+   "reference_filter": "F140W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F110W",
+    "center_nm": 1148.8,
+    "color": "#2699ff",
+    "obs_id": "ie2898010",
+    "exposure_s": 706,
+    "product": "mast:HST/product/ie2898010_drz.fits"
+   },
+   {
+    "filter": "F140W",
+    "center_nm": 1398.3,
+    "color": "#ffa626",
+    "obs_id": "ie2898020",
+    "exposure_s": 706,
+    "product": "mast:HST/product/ie2898020_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

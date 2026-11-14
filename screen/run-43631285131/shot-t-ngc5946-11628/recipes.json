@@ -1,0 +1,47 @@
+[
+ {
+  "picture": "t-ngc5946-11628-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "NGC5946",
+  "proposal_id": "11628",
+  "instrument": "WFC3/UVIS",
+  "title": "Globular Cluster Candidates for Hosting a Central Black Hole",
+  "grid": {
+   "width": 1032,
+   "height": 1097,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.15848000347614255,
+   "reference_filter": "F555W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F438W",
+    "center_nm": 431.4,
+    "color": "#2699ff",
+    "obs_id": "ib2y01010",
+    "exposure_s": 1500,
+    "product": "mast:HST/product/ib2y01010_drz.fits"
+   },
+   {
+    "filter": "F555W",
+    "center_nm": 550.4,
+    "color": "#ffa626",
+    "obs_id": "ib2y01020",
+    "exposure_s": 240,
+    "product": "mast:HST/product/ib2y01020_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

@@ -1,0 +1,47 @@
+[
+ {
+  "picture": "t-2masxj13275493-3132187-10429-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "2MASXJ13275493-3132187",
+  "proposal_id": "10429",
+  "instrument": "ACS/WFC",
+  "title": "Streaming Towards Shapley: The Mass of the Richest Galaxy Concentration in the Local Universe",
+  "grid": {
+   "width": 1009,
+   "height": 1009,
+   "reduction": 6,
+   "arcsec_per_pixel": 0.29999999999998944,
+   "reference_filter": "F814W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F475W",
+    "center_nm": 470.0,
+    "color": "#2699ff",
+    "obs_id": "j95t24060",
+    "exposure_s": 1080,
+    "product": "mast:HST/product/j95t24060_drz.fits"
+   },
+   {
+    "filter": "F814W",
+    "center_nm": 833.5,
+    "color": "#ffa626",
+    "obs_id": "hst_10429_21_acs_wfc_f814w_j95t21",
+    "exposure_s": 13260,
+    "product": "mast:HST/product/hst_10429_21_acs_wfc_f814w_j95t21_drc.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

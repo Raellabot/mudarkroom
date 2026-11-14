@@ -1,0 +1,13 @@
+[     0s] == t-cassiopeia-10430: 2 filters: ['F435W', 'F555W']
+[     1s] F435W: 5445x5371 px at 0.0500 arcsec/px, 351 MB
+[     1s] F555W: 4222x4242 px at 0.0500 arcsec/px, 215 MB
+[     1s] grid from F435W: 1089x1074 px (reduced 5x), 0.250 arcsec/px
+[     9s] downloaded hst_10430_02_acs_wfc_f435w_j96302_drc.fits: 351 MB
+[     9s] F435W: aligned (reduced 4x), covers 58% of the grid
+[    14s] downloaded j96301010_drz.fits: 215 MB
+[    15s] F555W: aligned (reduced 4x), covers 56% of the grid
+[    15s] t-cassiopeia-10430: finishing steps applied: ['dense']
+[    15s] cropped to 600x634 px where 2 of 2 filters have data
+/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/astropy/visualization/lupton_rgb.py:645: RuntimeWarning: invalid value encountered in divide
+  fInorm = np.where(Int <= 0, 0, np.true_divide(fI, Int))
+[    15s] done: 1 pictures

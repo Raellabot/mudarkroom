@@ -1,0 +1,47 @@
+[
+ {
+  "picture": "t-m-35-14020-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST+HST",
+  "target": "M-35+M-35",
+  "proposal_id": "14020+14020",
+  "instrument": "WFC3/IR+WFC3/UVIS",
+  "title": "WFC3 Photometric Repeatibility",
+  "grid": {
+   "width": 543,
+   "height": 484,
+   "reduction": 1,
+   "arcsec_per_pixel": 0.12825000286102187,
+   "reference_filter": "F140W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F621M",
+    "center_nm": 621.5,
+    "color": "#2699ff",
+    "obs_id": "icro04vbq",
+    "exposure_s": 30,
+    "product": "mast:HST/product/icro04vbq_drz.fits"
+   },
+   {
+    "filter": "F140W",
+    "center_nm": 1398.3,
+    "color": "#ffa626",
+    "obs_id": "icro01zdq",
+    "exposure_s": 8.774724,
+    "product": "mast:HST/product/icro01zdq_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

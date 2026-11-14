@@ -1,0 +1,47 @@
+[
+ {
+  "picture": "t-ngc3585-a-14852-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "NGC3585-A",
+  "proposal_id": "14852",
+  "instrument": "ACS/WFC",
+  "title": "A Statistically Robust Constraint on the Evolution of Field LMXBs",
+  "grid": {
+   "width": 1061,
+   "height": 1088,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.1999999999999986,
+   "reference_filter": "F850LP"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F475W",
+    "center_nm": 470.0,
+    "color": "#2699ff",
+    "obs_id": "jdch03020",
+    "exposure_s": 806,
+    "product": "mast:HST/product/jdch03020_drz.fits"
+   },
+   {
+    "filter": "F850LP",
+    "center_nm": 895.0,
+    "color": "#ffa626",
+    "obs_id": "jdch03010",
+    "exposure_s": 1185,
+    "product": "mast:HST/product/jdch03010_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]
