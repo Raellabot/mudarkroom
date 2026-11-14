@@ -16,6 +16,7 @@ UA = os.environ.get("CONTACT_INFO") or "CONTACT-INFO"
 DOWNLOAD = "https://mast.stsci.edu/api/v0.1/Download/file?uri="
 MAX_SIDE = int(os.environ.get("MAX_SIDE", "2600"))
 MAX_FILTERS = int(os.environ.get("MAX_FILTERS", "6"))
+MIN_FILTERS = int(os.environ.get("MIN_FILTERS", "2"))
 WORK = os.environ.get("WORK_DIR", "work")
 STRETCH = float(os.environ.get("STRETCH", "0.25"))
 Q = float(os.environ.get("Q", "8"))
@@ -78,9 +79,10 @@ def creative3(t):
 
 
 # Ranked palettes: a filter's hue depends on its rank among the filters, not its wavelength; "stsci" copies the hues of STScI's color keys.
-STSCI_HUES = {"blue": (0.10, 0.30, 1.00), "cyan": (0.00, 0.90, 1.00), "green": (0.10, 1.00, 0.20), "yellow": (1.00, 0.95, 0.10), "orange": (1.00, 0.50, 0.05), "red": (1.00, 0.10, 0.10)}
+# Two filters get azure and amber, which add up to white, so stars stay white without a made-up middle filter.
+STSCI_HUES = {"azure": (0.15, 0.60, 1.20), "amber": (1.20, 0.65, 0.15), "blue": (0.10, 0.30, 1.00), "cyan": (0.00, 0.90, 1.00), "green": (0.10, 1.00, 0.20), "yellow": (1.00, 0.95, 0.10), "orange": (1.00, 0.50, 0.05), "red": (1.00, 0.10, 0.10)}
 STSCI_BY_COUNT = {
-    2: ["blue", "red"], 3: ["blue", "green", "red"], 4: ["blue", "green", "orange", "red"], 5: ["blue", "cyan", "green", "orange", "red"],
+    2: ["azure", "amber"], 3: ["blue", "green", "red"], 4: ["blue", "green", "orange", "red"], 5: ["blue", "cyan", "green", "orange", "red"],
     6: ["blue", "cyan", "green", "yellow", "orange", "red"],
 }
 
@@ -354,8 +356,8 @@ def align(chosen, work, label=None):
         w = WCS(hdr)
         heads[r["filters"]] = (r, w, (int(hdr["NAXIS2"]), int(hdr["NAXIS1"])), size)
         log(f"{r['filters']}: {hdr['NAXIS1']}x{hdr['NAXIS2']} px at {scale_of(w):.4f} arcsec/px, {size / 1e6:.0f} MB")
-    if len(heads) < 3:
-        raise RuntimeError("fewer than three filters can be used")
+    if len(heads) < MIN_FILTERS:
+        raise RuntimeError(f"fewer than {MIN_FILTERS} filters can be used")
     used = [heads[r["filters"]][0] for r in chosen if r["filters"] in heads]
     # The grid: the footprint of the filter that covers the most sky, reduced so the longest side is MAX_SIDE.
     ref_r, ref_w, ref_shape, _ = max(heads.values(), key=lambda v: v[2][0] * v[2][1] * scale_of(v[1]) ** 2)
@@ -455,8 +457,8 @@ def align_tiles(chosen, work, label=None):
         if hs:
             heads[r["filters"]] = (r, hs)
             log(f"{r['filters']}: {len(hs)} tiles at {scale_of(hs[0][1]):.4f} arcsec/px, {sum(h[3] for h in hs) / 1e6:.0f} MB in all")
-    if len(heads) < 3:
-        raise RuntimeError("fewer than three filters can be used")
+    if len(heads) < MIN_FILTERS:
+        raise RuntimeError(f"fewer than {MIN_FILTERS} filters can be used")
     used = [heads[r["filters"]][0] for r in chosen if r["filters"] in heads]
     every = [h for _, hs in heads.values() for h in hs]
     s0 = min(scale_of(h[1]) for h in every)
@@ -946,8 +948,8 @@ def main():
         black = float(parts[5]) if len(parts) > 5 and parts[5] else 1.0  # percentile of each filter taken as black: 1 keeps gas haze, 40 to 60 gives a black sky
         chosen = pick_all(rows, collection, target, proposal, instrument)
         log(f"== {label}: {len(chosen)} filters: {[r['filters'] for r in chosen]}")
-        if len(chosen) < 3:
-            log("fewer than three plain filters; skipped")
+        if len(chosen) < MIN_FILTERS:
+            log(f"fewer than {MIN_FILTERS} plain filters; skipped")
             continue
         cache = os.path.join(WORK, f"{label}-aligned.npz")
         try:

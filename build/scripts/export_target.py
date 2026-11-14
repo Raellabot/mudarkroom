@@ -266,8 +266,8 @@ def main():
     collection, target, proposal, instrument, label = cfg["spec"].split("|")[:5]
     chosen = color.pick_all(rows, collection, target, proposal, instrument)
     print(f"== {label}: {len(chosen)} filters: {[r['filters'] for r in chosen]}", flush=True)
-    if len(chosen) < 3:
-        sys.exit("fewer than three plain filters")
+    if len(chosen) < color.MIN_FILTERS:
+        sys.exit(f"fewer than {color.MIN_FILTERS} plain filters")
     chosen, raw, grid = load_aligned(label, chosen)
     xr, xinfo = None, None
     if label in color.XRAY:
