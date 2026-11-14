@@ -1,0 +1,44 @@
+{
+  "id": "sh2-308-hubble",
+  "name": "Sh2-308 (Hubble)",
+  "blurb": "Sh2-308, a bubble of gas blown by the Wolf-Rayet star EZ Canis Majoris, seen by Hubble.",
+  "label": "sh2308-hubble",
+  "spec": "HST|SH2-308-SW-LIMB|12875|WFC3/UVIS|sh2308-hubble",
+  "find": [
+    "HST|12875|SH2-308-SW-LIMB"
+  ],
+  "type": "Nebula",
+  "aliases": [
+    "S308",
+    "EZ Canis Majoris",
+    "nebula"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Thin strands trace the edge of a vast bubble inflated by the fierce winds of a massive star. Along this southwest rim, hot gas from the bubble's interior meets its cooler shell.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-14",
+    "claims": [
+      {
+        "text": "Sh2-308 is a bubble-like shell of gas around the star EZ Canis Majoris",
+        "source": "https://esahubble.org/images/potw1716a/"
+      },
+      {
+        "text": "EZ Canis Majoris is a Wolf-Rayet star whose winds sweep up and blow out surrounding gas",
+        "source": "https://esahubble.org/images/potw1721a/"
+      },
+      {
+        "text": "The image shows thin strands of the shell, not the whole bubble",
+        "source": "https://esahubble.org/images/potw1716a/"
+      },
+      {
+        "text": "Program 12875 targets the southwest limb of the bubble S308, studying the front where the hot interior meets the cool nebular shell",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/12875/"
+      }
+    ]
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "id": "ngc-4618-hubble",
+  "name": "NGC 4618 (Hubble)",
+  "blurb": "NGC 4618, a barred spiral galaxy with a single arm, seen by Hubble.",
+  "label": "ngc4618-hubble",
+  "spec": "HST|NGC-4618|14636|ACS/WFC|ngc4618-hubble",
+  "find": [
+    "HST|14636|NGC-4618"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "NGC 4618",
+    "one-armed spiral galaxy",
+    "barred spiral galaxy",
+    "spiral galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A barred spiral with only one arm winding around its center, locked in a gravitational dance with its neighbor NGC 4625 that may one day merge them into something new, perhaps a ring galaxy.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-14",
+    "claims": [
+      {
+        "text": "NGC 4618 is a barred spiral galaxy",
+        "source": "https://esahubble.org/images/potw2012a/"
+      },
+      {
+        "text": "It has only one arm winding around its center",
+        "source": "https://esahubble.org/images/potw2012a/"
+      },
+      {
+        "text": "It forms an interacting pair with NGC 4625",
+        "source": "https://esahubble.org/images/potw2012a/"
+      },
+      {
+        "text": "The interaction may lead to a merger, possibly a ring galaxy",
+        "source": "https://esahubble.org/images/potw2012a/"
+      },
+      {
+        "text": "Program 14636 targets NGC 4618",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/list/14636/"
+      }
+    ]
+  }
+}

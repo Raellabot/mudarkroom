@@ -1,0 +1,50 @@
+{
+  "id": "macs-j2043-hubble",
+  "name": "MACS J2043.2-2144 (Hubble)",
+  "blurb": "MACS J2043.2-2144, a galaxy cluster acting as a gravitational lens, seen by Hubble.",
+  "label": "macsj2043-hubble",
+  "spec": "HST|MACSJ2043.2-2144|14148|WFC3/IR|macsj2043-hubble",
+  "find": [
+    "HST|14148|MACSJ2043.2-2144"
+  ],
+  "type": "Galaxy cluster",
+  "aliases": [
+    "RXC J2043.2-2144",
+    "RXCJ2043.2-2144",
+    "HLS J204314.2-214439",
+    "galaxy cluster",
+    "gravitational lens"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "The gravity of the galaxy cluster MACS J2043.2-2144 works as a natural lens, stretching the light of a far more distant, dust-shrouded starburst galaxy into an arc.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-14",
+    "claims": [
+      {
+        "text": "Program 14148 targets lensed submillimeter galaxies found by the Herschel Lensing Survey",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/14148/"
+      },
+      {
+        "text": "The target behind MACSJ2043.2-2144 is a starburst galaxy lensed into an arc",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/list/14148/"
+      },
+      {
+        "text": "The lensed galaxies are dust-obscured",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/14148/"
+      },
+      {
+        "text": "MACS J2043.2-2144 is also RXCJ2043.2-2144, a cluster lensing a bright submillimeter galaxy",
+        "source": "https://arxiv.org/pdf/1506.04747"
+      },
+      {
+        "text": "The lensed submillimeter source is HLS J204314.2-214439",
+        "source": "https://arxiv.org/pdf/1506.04747"
+      }
+    ]
+  }
+}

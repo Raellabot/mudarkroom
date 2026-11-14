@@ -1,0 +1,41 @@
+{
+  "id": "psz2-g114-webb",
+  "name": "PSZ2 G114.39-60.16 (Webb)",
+  "blurb": "PSZ2 G114.39-60.16, a galaxy cluster, seen by Webb.",
+  "label": "psz2g114-webb",
+  "spec": "JWST|PSZ2G114.39-60.16|5594|NIRCAM/IMAGE|psz2g114-webb",
+  "find": [
+    "JWST|5594|PSZ2G114.39-60.16"
+  ],
+  "type": "Galaxy cluster",
+  "aliases": [
+    "PSZ2G114.39-60.16",
+    "galaxy cluster",
+    "cluster of galaxies",
+    "SLICE"
+  ],
+  "missions": [
+    "Webb"
+  ],
+  "story": "A rich cluster of galaxies, one of nearly two hundred that a Webb survey studies to watch clusters grow. The survey traces how a cluster builds its central galaxy and how dark matter is spread through it.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-14",
+    "claims": [
+      {
+        "text": "PSZ2G114.39-60.16 is a galaxy cluster target (rich cluster) of JWST program 5594, Cluster SLICE",
+        "source": "https://www.stsci.edu/jwst-program-info/download/jwst/pdf/5594/"
+      },
+      {
+        "text": "The SLICE survey images 182 galaxy clusters",
+        "source": "https://www.stsci.edu/jwst-program-info/download/jwst/pdf/5594/"
+      },
+      {
+        "text": "SLICE studies how clusters build their brightest central galaxy and how dark matter is distributed",
+        "source": "https://www.stsci.edu/jwst-program-info/download/jwst/pdf/5594/"
+      }
+    ]
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "id": "ngc-1426-hubble",
+  "name": "NGC 1426 (Hubble)",
+  "blurb": "NGC 1426, an elliptical galaxy, seen by Hubble.",
+  "label": "ngc1426-hubble",
+  "spec": "HST|NGC1426|10554|ACS/WFC|ngc1426-hubble",
+  "find": [
+    "HST|10554|NGC1426"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "elliptical galaxy",
+    "E4 galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "NGC 1426 is a smooth elliptical galaxy in a sparsely populated stretch of space. It is attended by a swarm of globular star clusters that fall into two distinct populations.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-14",
+    "claims": [
+      {
+        "text": "NGC 1426 is an E4 elliptical galaxy",
+        "source": "https://ngcicproject.observers.org/NGC/NGC_14xx/NGC_1426.htm"
+      },
+      {
+        "text": "NGC 1426 is type E4, in a low-density field sample",
+        "source": "https://pdf.arxiv.org/pdf/1204.1054"
+      },
+      {
+        "text": "Program targets are low-luminosity ellipticals in low-density environments",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/10554/"
+      },
+      {
+        "text": "Its globular cluster system has a strongly bimodal color distribution",
+        "source": "https://pdf.arxiv.org/pdf/1204.1054"
+      }
+    ]
+  }
+}

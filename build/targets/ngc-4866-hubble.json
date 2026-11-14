@@ -1,0 +1,44 @@
+{
+  "id": "ngc-4866-hubble",
+  "name": "NGC 4866 (Hubble)",
+  "blurb": "NGC 4866, a nearly edge-on lenticular galaxy, seen by Hubble.",
+  "label": "ngc4866-hubble",
+  "spec": "HST|NGC4866|10594|ACS/WFC|ngc4866-hubble",
+  "find": [
+    "HST|10594|NGC4866"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "lenticular galaxy",
+    "edge-on galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Seen almost edge-on, NGC 4866 shows the flat disk of a lenticular galaxy, a form between spirals and ellipticals. Faint dust lanes trace across it, hiding part of its light.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-14",
+    "claims": [
+      {
+        "text": "NGC 4866 is a lenticular galaxy",
+        "source": "https://esahubble.org/images/potw1328a/"
+      },
+      {
+        "text": "It is seen almost edge-on, showing its disk",
+        "source": "https://science.nasa.gov/missions/hubble/nasas-hubble-sees-a-stranger-in-the-crowd/"
+      },
+      {
+        "text": "Lenticulars lie between spirals and ellipticals",
+        "source": "https://esahubble.org/images/potw1328a/"
+      },
+      {
+        "text": "Faint dust lanes cross the galaxy",
+        "source": "https://science.nasa.gov/missions/hubble/nasas-hubble-sees-a-stranger-in-the-crowd/"
+      }
+    ]
+  }
+}

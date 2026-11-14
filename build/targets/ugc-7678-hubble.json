@@ -1,0 +1,46 @@
+{
+  "id": "ugc-7678-hubble",
+  "name": "UGC 7678 (Hubble)",
+  "blurb": "UGC 7678, a dwarf irregular galaxy, seen by Hubble.",
+  "label": "ugc7678-hubble",
+  "spec": "HST|UGC-07678|14636|ACS/WFC|ugc7678-hubble",
+  "find": [
+    "HST|14636|UGC-07678"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "UGC07678",
+    "dwarf irregular galaxy",
+    "irregular galaxy",
+    "dwarf galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A small irregular galaxy in the foreground of the Virgo Cluster, UGC 7678 lies near the interacting pair NGC 4485 and NGC 4490. Hubble picks out its individual stars, which give astronomers a yardstick for its distance.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-14",
+    "claims": [
+      {
+        "text": "UGC 7678 is an Im-type dwarf near the interacting pair NGC 4485/4490",
+        "source": "https://arxiv.org/pdf/1804.00469"
+      },
+      {
+        "text": "It is in the foreground of the Virgo Cluster",
+        "source": "https://arxiv.org/pdf/1804.00469"
+      },
+      {
+        "text": "Its distance was measured from resolved stars in Hubble images of program 14636",
+        "source": "https://arxiv.org/pdf/1804.00469"
+      },
+      {
+        "text": "This pointing is UGC 7678 in program 14636",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/14636/"
+      }
+    ]
+  }
+}

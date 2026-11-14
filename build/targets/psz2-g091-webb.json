@@ -1,0 +1,41 @@
+{
+  "id": "psz2-g091-webb",
+  "name": "PSZ2 G091.79-27.00 (Webb)",
+  "blurb": "PSZ2 G091.79-27.00, a massive galaxy cluster, seen by Webb.",
+  "label": "psz2g091-webb",
+  "spec": "JWST|PSZ2G091.79-27.00|5594|NIRCAM/IMAGE|psz2g091-webb",
+  "find": [
+    "JWST|5594|PSZ2G091.79-27.00"
+  ],
+  "type": "Galaxy cluster",
+  "aliases": [
+    "PSZ2G091.79-27.00",
+    "RXC J2245.4+2808",
+    "PSZ1 G091.81-26.97",
+    "galaxy cluster"
+  ],
+  "missions": [
+    "Webb"
+  ],
+  "story": "A rich cluster of galaxies gathered around its brightest members, one of 182 massive clusters Webb is surveying to learn how infalling galaxies build up a cluster's stars and how dark matter is spread through it.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-14",
+    "claims": [
+      {
+        "text": "PSZ2G091.79-27.00 is a target of JWST program 5594 (SLICE), described as brightest cluster galaxies, rich cluster",
+        "source": "https://www.stsci.edu/jwst-program-info/download/jwst/pdf/5594/"
+      },
+      {
+        "text": "The program images 182 massive galaxy clusters to study how infalling galaxies build cluster stellar content and how dark matter is distributed",
+        "source": "https://www.stsci.edu/jwst-program-info/download/jwst/pdf/5594/"
+      },
+      {
+        "text": "Also known as RXC J2245.4+2808 and PSZ1 G091.81-26.97",
+        "source": "https://lofar-surveys.org/planck_dr2.html"
+      }
+    ]
+  }
+}

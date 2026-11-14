@@ -1,0 +1,47 @@
+{
+  "id": "macs-j0547-hubble",
+  "name": "MACS J0547.0-3904 (Hubble)",
+  "blurb": "MACS J0547.0-3904, a massive galaxy cluster, seen by Hubble.",
+  "label": "macsj0547-hubble",
+  "spec": "HST|MACSJ0547.0-3904|12166|ACS/WFC|macsj0547-hubble",
+  "find": [
+    "HST|12166|MACSJ0547.0-3904"
+  ],
+  "type": "Galaxy cluster",
+  "aliases": [
+    "MACSJ0547.0-3904",
+    "galaxy cluster"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A massive cluster of galaxies gathers around a central galaxy whose irregular, knotted structure hints at active star formation, and whose point-like core suggests an active nucleus.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-14",
+    "claims": [
+      {
+        "text": "MACS J0547.0-3904 is one of the X-ray selected massive galaxy clusters in the MACS Hubble SNAPshot surveys",
+        "source": "https://arxiv.org/abs/1706.01263"
+      },
+      {
+        "text": "MACS J0547.0-3904 is listed in the SNAPshot sample with Chandra X-ray properties",
+        "source": "https://arxiv.org/pdf/1706.01263"
+      },
+      {
+        "text": "Its brightest cluster galaxy shows pronounced, irregular structure indicative of active star formation",
+        "source": "https://arxiv.org/pdf/1706.01263"
+      },
+      {
+        "text": "The BCG has a point-like core in the SNAPshot images, coinciding with an X-ray point source, suggesting nuclear activity",
+        "source": "https://arxiv.org/pdf/1706.01263"
+      },
+      {
+        "text": "Program 12166 is one of the Ebeling MACS SNAPshot programs",
+        "source": "https://arxiv.org/pdf/1706.01263"
+      }
+    ]
+  }
+}

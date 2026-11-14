@@ -1,0 +1,43 @@
+{
+  "id": "abell-2495-hubble",
+  "name": "Abell 2495 (Hubble)",
+  "blurb": "Abell 2495, a galaxy cluster, seen by Hubble.",
+  "label": "abell2495-hubble",
+  "spec": "HST|ABELL2495-5-13-0|12937|ACS/WFC|abell2495-hubble",
+  "find": [
+    "HST|12937|ABELL2495-5-13-0"
+  ],
+  "type": "Galaxy cluster",
+  "aliases": [
+    "A2495",
+    "galaxy cluster"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Hubble looked into the galaxy cluster Abell 2495 at the spot where a Type Ia supernova had flared and faded, searching for whatever faint home its exploding star might have had.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-14",
+    "claims": [
+      {
+        "text": "Abell 2495 (A2495) is a galaxy cluster",
+        "source": "https://arxiv.org/abs/1910.05363"
+      },
+      {
+        "text": "The program (12937) takes deep Hubble imaging at the locations of apparently hostless Type Ia supernovae in rich galaxy clusters, after the supernovae faded",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/list/12937/"
+      },
+      {
+        "text": "The target position is that of the Type Ia supernova Abell2495_5_13_0 in Abell 2495",
+        "source": "https://ar5iv.arxiv.org/html/1505.03407"
+      },
+      {
+        "text": "The study searched for faint hosts at these supernova locations",
+        "source": "https://arxiv.org/abs/1505.03407v1"
+      }
+    ]
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "id": "ngc-1277-hubble",
+  "name": "NGC 1277 (Hubble)",
+  "blurb": "NGC 1277, a lenticular galaxy in the Perseus Cluster, seen by Hubble.",
+  "label": "ngc1277-hubble",
+  "spec": "HST|NGC-1277|14215|ACS/WFC|ngc1277-hubble",
+  "find": [
+    "HST|14215|NGC-1277"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "relic galaxy",
+    "red and dead galaxy",
+    "lenticular galaxy",
+    "Perseus Cluster",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A galaxy that stopped growing long ago, dubbed a relic of the early universe. Its globular star clusters are mostly metal-rich, a sign it never grew by swallowing neighboring galaxies.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-14",
+    "claims": [
+      {
+        "text": "NGC 1277 is a lenticular galaxy",
+        "source": "https://esahubble.org/images/potw1812a/"
+      },
+      {
+        "text": "NGC 1277 is a member of the Perseus Cluster",
+        "source": "https://esahubble.org/images/potw1812a/"
+      },
+      {
+        "text": "Dubbed a relic of the early universe",
+        "source": "https://esahubble.org/images/potw1812a/"
+      },
+      {
+        "text": "Its globular clusters are mostly red and metal-rich",
+        "source": "https://esahubble.org/images/potw1812a/"
+      },
+      {
+        "text": "Program 14215 targets NGC 1277 as a relic galaxy unaltered since early assembly, testing whether its globular clusters show it never accreted others",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/14215/"
+      },
+      {
+        "text": "Called a 'red and dead' galaxy; almost entirely missing blue globular clusters, suggesting it never absorbed neighboring galaxies",
+        "source": "https://www.astropix.org/image/stsci/2018-17c"
+      }
+    ]
+  }
+}

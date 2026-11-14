@@ -1,0 +1,46 @@
+{
+  "id": "ugc-8201-hubble",
+  "name": "UGC 8201 (Hubble)",
+  "blurb": "UGC 8201, a dwarf irregular galaxy in the M81 group, seen by Hubble.",
+  "label": "ugc8201-hubble",
+  "spec": "HST|UGC-08201|10605|ACS/WFC|ugc8201-hubble",
+  "find": [
+    "HST|10605|UGC-08201"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "UGC-08201",
+    "dwarf irregular galaxy",
+    "dwarf galaxy",
+    "M81 group",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A small, chaotic galaxy in the M81 group, in the constellation of Draco. It has recently finished a long period of star formation that left its mark on the whole galaxy.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-14",
+    "claims": [
+      {
+        "text": "UGC 8201 is a dwarf irregular galaxy, small and chaotic in structure",
+        "source": "https://esahubble.org/images/potw1510a/"
+      },
+      {
+        "text": "It is part of the M81 galaxy group",
+        "source": "https://esahubble.org/images/potw1510a/"
+      },
+      {
+        "text": "It lies in the constellation Draco",
+        "source": "https://esahubble.org/images/potw1510a/"
+      },
+      {
+        "text": "It recently finished a long period of star formation that affected the whole galaxy",
+        "source": "https://esahubble.org/images/potw1510a/"
+      }
+    ]
+  }
+}

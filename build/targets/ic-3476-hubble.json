@@ -1,0 +1,42 @@
+{
+  "id": "ic-3476-hubble",
+  "name": "IC 3476 (Hubble)",
+  "blurb": "IC 3476, a dwarf galaxy in the Virgo cluster, seen by Hubble.",
+  "label": "ic3476-hubble",
+  "spec": "HST|IC3476|17240|ACS/WFC|ic3476-hubble",
+  "find": [
+    "HST|17240|IC3476"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "dwarf galaxy",
+    "irregular galaxy",
+    "Virgo cluster",
+    "ram pressure stripping",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A small galaxy plowing through the Virgo cluster, where the pressure of hot gas between the galaxies is sweeping its own gas away. Star formation has shut off along its leading edge, while a curved band of giant star-forming regions crosses its front.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-14",
+    "claims": [
+      {
+        "text": "IC 3476 is a dwarf galaxy in the Virgo cluster",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/17240/"
+      },
+      {
+        "text": "IC 3476 is an IB(s)m (barred irregular) galaxy undergoing ram pressure stripping in the Virgo cluster",
+        "source": "https://arxiv.org/abs/2012.07377"
+      },
+      {
+        "text": "Star formation is quenched at the leading edge where gas was removed; a banana-shaped structure of giant HII regions crosses the front of the disk",
+        "source": "https://arxiv.org/abs/2012.07377"
+      }
+    ]
+  }
+}

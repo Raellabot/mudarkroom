@@ -1,0 +1,54 @@
+{
+  "id": "ic-3583-hubble",
+  "name": "IC 3583 (Hubble)",
+  "blurb": "IC 3583, an irregular dwarf galaxy, seen by Hubble.",
+  "label": "ic3583-hubble",
+  "spec": "HST|IC-3583|12878|ACS/WFC|ic3583-hubble",
+  "find": [
+    "HST|12878|IC-3583"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "Arp 76",
+    "irregular galaxy",
+    "dwarf galaxy",
+    "Magellanic-type dwarf",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "IC 3583 looks like a loose scatter of stars, yet a bar of stars runs through its center. On the sky it pairs with the great spiral Messier 90, though Hubble distances place it well in front of that galaxy.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-14",
+    "claims": [
+      {
+        "text": "IC 3583 is an irregular galaxy",
+        "source": "https://esahubble.org/images/potw1648a/"
+      },
+      {
+        "text": "IC 3583 is a Magellanic-type dwarf",
+        "source": "https://web3.arxiv.org/pdf/1312.6769"
+      },
+      {
+        "text": "It has a bar of stars through its center",
+        "source": "https://esahubble.org/images/potw1648a/"
+      },
+      {
+        "text": "With Messier 90 it forms the pair Arp 76",
+        "source": "https://esahubble.org/images/potw1648a/"
+      },
+      {
+        "text": "Arp 76 is an optical pair; NGC 4569 lies behind IC 3583",
+        "source": "https://web3.arxiv.org/pdf/1312.6769"
+      },
+      {
+        "text": "HST distances put IC 3583 in front of the Virgo cluster",
+        "source": "https://web3.arxiv.org/abs/1312.6769"
+      }
+    ]
+  }
+}

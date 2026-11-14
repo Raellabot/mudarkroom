@@ -1,0 +1,46 @@
+{
+  "id": "ngc-4889-hubble",
+  "name": "NGC 4889 (Hubble)",
+  "blurb": "NGC 4889, a giant elliptical galaxy in the Coma Cluster, seen by Hubble.",
+  "label": "ngc4889-hubble",
+  "spec": "HST|NGC-4889|11711|ACS/WFC|ngc4889-hubble",
+  "find": [
+    "HST|11711|NGC-4889"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "giant elliptical galaxy",
+    "elliptical galaxy",
+    "Coma Cluster",
+    "supermassive black hole",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A giant elliptical at the heart of the Coma Cluster, home to a record-breaking supermassive black hole some 21 billion times the mass of the Sun. Today that black hole lies dormant, napping between meals.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-14",
+    "claims": [
+      {
+        "text": "NGC 4889 is a giant elliptical galaxy in the Coma Cluster",
+        "source": "https://esahubble.org/news/heic1602/"
+      },
+      {
+        "text": "It hosts a record-breaking supermassive black hole of about 21 billion solar masses",
+        "source": "https://esahubble.org/news/heic1602/"
+      },
+      {
+        "text": "The black hole is dormant",
+        "source": "https://esahubble.org/news/heic1602/"
+      },
+      {
+        "text": "NGC 4889 is one of the two giant galaxies defining the core of the Coma cluster",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/11711/"
+      }
+    ]
+  }
+}

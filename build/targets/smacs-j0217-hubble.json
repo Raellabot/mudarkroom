@@ -1,0 +1,39 @@
+{
+  "id": "smacs-j0217-hubble",
+  "name": "SMACS J0217.1-5244 (Hubble)",
+  "blurb": "SMACS J0217.1-5244, a massive galaxy cluster, seen by Hubble.",
+  "label": "smacsj0217-hubble",
+  "spec": "HST|SMACSJ0217.1-5244|15843|WFC3/IR|smacsj0217-hubble",
+  "find": [
+    "HST|15843|SMACSJ0217.1-5244"
+  ],
+  "type": "Galaxy cluster",
+  "aliases": [
+    "SMACSJ0217.1-5244",
+    "galaxy cluster"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "SMACS J0217.1-5244 was chosen for a Hubble snapshot survey of the most massive, X-ray-bright galaxy clusters, a hunt for the most powerful gravitational telescopes in the distant universe.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-14",
+    "claims": [
+      {
+        "text": "SMACSJ0217.1-5244 is a target of the Beyond MACS snapshot survey of the most massive galaxy clusters",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15843/"
+      },
+      {
+        "text": "The survey targets the most X-ray luminous distant clusters",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15843/"
+      },
+      {
+        "text": "The survey aims to find the most powerful gravitational telescopes",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15843/"
+      }
+    ]
+  }
+}

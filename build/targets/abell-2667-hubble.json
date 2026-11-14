@@ -1,0 +1,46 @@
+{
+  "id": "abell-2667-hubble",
+  "name": "Abell 2667 (Hubble)",
+  "blurb": "Abell 2667, a massive galaxy cluster, seen by Hubble.",
+  "label": "abell2667-hubble",
+  "spec": "HST|A2667|16670|ACS/WFC|abell2667-hubble",
+  "find": [
+    "HST|16670|A2667"
+  ],
+  "type": "Galaxy cluster",
+  "aliases": [
+    "A2667",
+    "galaxy cluster",
+    "lensing cluster",
+    "gravitational lens",
+    "giant arc"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A dense crowd of galaxies whose combined gravity bends the light of a more distant galaxy behind its core. That background galaxy is stretched into a giant arc, giving a rare look at a faraway spiral.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-14",
+    "claims": [
+      {
+        "text": "Abell 2667 is a galaxy cluster",
+        "source": "https://esahubble.org/news/heic0705/"
+      },
+      {
+        "text": "The cluster's gravity lenses a more distant galaxy behind its core into a giant arc",
+        "source": "https://esahubble.org/news/heic0705/"
+      },
+      {
+        "text": "Abell 2667 is a lensing cluster with a giant arc; the lensed galaxy is a spiral",
+        "source": "https://arxiv.org/abs/1410.6594v1"
+      },
+      {
+        "text": "Program 16670 is a survey of massive (extreme) galaxy clusters and includes A2667",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/16670/"
+      }
+    ]
+  }
+}

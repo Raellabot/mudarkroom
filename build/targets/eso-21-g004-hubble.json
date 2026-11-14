@@ -1,0 +1,51 @@
+{
+  "id": "eso-21-g004-hubble",
+  "name": "ESO 021-G004 (Hubble)",
+  "blurb": "ESO 021-G004, a spiral galaxy with an active galactic nucleus, seen by Hubble.",
+  "label": "eso21g004-hubble",
+  "spec": "HST+HST|ESO021-G004+ESO021-G004|15181+15181|WFC3/IR+WFC3/UVIS|eso21g004-hubble",
+  "find": [
+    "HST|15181|ESO021-G004"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "ESO 021-G004",
+    "ESO021-G004",
+    "spiral galaxy",
+    "active galaxy",
+    "Seyfert galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A swirling mass of gas, dust and stars, whose blazing heart is fed by material falling toward a supermassive black hole.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-14",
+    "claims": [
+      {
+        "text": "ESO 021-G004 is a spiral galaxy",
+        "source": "https://esahubble.org/images/potw1951a/"
+      },
+      {
+        "text": "It has an active galactic nucleus",
+        "source": "https://esahubble.org/images/potw1951a/"
+      },
+      {
+        "text": "The nucleus is powered by material falling toward a supermassive black hole",
+        "source": "https://esahubble.org/images/potw1951a/"
+      },
+      {
+        "text": "Its nucleus is classed as Seyfert (program target description)",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15181/"
+      },
+      {
+        "text": "Program 15181 is an AGN study (AGN Before and After) and the pointing is ESO 021-G004",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15181/"
+      }
+    ]
+  }
+}

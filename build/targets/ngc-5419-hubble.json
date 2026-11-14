@@ -1,0 +1,41 @@
+{
+  "id": "ngc-5419-hubble",
+  "name": "NGC 5419 (Hubble)",
+  "blurb": "NGC 5419, a giant elliptical galaxy, seen by Hubble.",
+  "label": "ngc5419-hubble",
+  "spec": "HST|NGC-5419|15082|WFC3/IR|ngc5419-hubble",
+  "find": [
+    "HST|15082|NGC-5419"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "giant elliptical galaxy",
+    "elliptical galaxy",
+    "double nucleus",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A giant elliptical galaxy with a double heart: two nuclei at its center hint that it may hold two supermassive black holes. Hubble returned to test whether a black hole here has been kicked out of place.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-14",
+    "claims": [
+      {
+        "text": "NGC 5419 is a giant (core) elliptical galaxy",
+        "source": "https://arxiv.org/abs/1607.06466v1"
+      },
+      {
+        "text": "NGC 5419 shows a double nucleus and may host two supermassive black holes",
+        "source": "https://www.mpe.mpg.de/6654272/news-20161014"
+      },
+      {
+        "text": "Hubble program 15082 observed NGC 5419 as a candidate gravitationally recoiling supermassive black hole host",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15082/"
+      }
+    ]
+  }
+}

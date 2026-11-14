@@ -1,0 +1,50 @@
+{
+  "id": "ngc-4848-hubble",
+  "name": "NGC 4848 (Hubble)",
+  "blurb": "NGC 4848, a barred spiral galaxy in the Coma Cluster, seen by Hubble.",
+  "label": "ngc4848-hubble",
+  "spec": "HST|NGC-4848|13777|WFC3/UVIS|ngc4848-hubble",
+  "find": [
+    "HST|13777|NGC-4848"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "NGC4848",
+    "CGCG 160-055",
+    "barred spiral galaxy",
+    "spiral galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Speeding through the hot gas of the Coma Cluster, this barred spiral is having its own gas swept away by ram pressure. Hubble picks out the faint, wispy tails of its outer arms, giving it a ghostly look.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-14",
+    "claims": [
+      {
+        "text": "NGC 4848 is a barred spiral (SBab) galaxy",
+        "source": "https://www.aanda.org/articles/aa/full_html/2012/08/aa19933-12/aa19933-12.html"
+      },
+      {
+        "text": "NGC 4848 is a spiral galaxy in the Coma cluster",
+        "source": "https://arxiv.org/abs/astro-ph/0107049"
+      },
+      {
+        "text": "It is suffering ram pressure from its high-velocity motion through the cluster gas",
+        "source": "https://www.aanda.org/articles/aa/full_html/2012/08/aa19933-12/aa19933-12.html"
+      },
+      {
+        "text": "CGCG 160-055 is another designation",
+        "source": "https://www.aanda.org/articles/aa/full_html/2012/08/aa19933-12/aa19933-12.html"
+      },
+      {
+        "text": "Hubble shows faint wispy tails of the outer arms and a ghost-like appearance",
+        "source": "https://esahubble.org/images/potw2029a/"
+      }
+    ]
+  }
+}

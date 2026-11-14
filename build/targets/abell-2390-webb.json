@@ -1,0 +1,53 @@
+{
+  "id": "abell-2390-webb",
+  "name": "Abell 2390 (Webb)",
+  "blurb": "Abell 2390, a massive galaxy cluster, seen by Webb.",
+  "label": "abell2390-webb",
+  "spec": "JWST|PSZ2G073.97-27.82|5594|NIRCAM/IMAGE|abell2390-webb",
+  "find": [
+    "JWST|5594|PSZ2G073.97-27.82"
+  ],
+  "type": "Galaxy cluster",
+  "aliases": [
+    "PSZ2 G073.97-27.82",
+    "A2390",
+    "galaxy cluster",
+    "gravitational lens"
+  ],
+  "missions": [
+    "Webb"
+  ],
+  "story": "The combined gravity of this massive cluster acts as a lens, bending and magnifying the light of galaxies far behind it into arcs, among them one giant arc.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-14",
+    "claims": [
+      {
+        "text": "PSZ2 G073.97-27.82 is Abell 2390",
+        "source": "https://arxiv.org/pdf/1906.02339"
+      },
+      {
+        "text": "Abell 2390 is a massive cluster",
+        "source": "https://arxiv.org/pdf/2503.07484"
+      },
+      {
+        "text": "The cluster bends and magnifies background objects into large arcs",
+        "source": "https://esahubble.org/images/heic0814d/"
+      },
+      {
+        "text": "It shows a giant arc",
+        "source": "https://www.esa.int/ESA_Multimedia/Images/2024/05/Closer_Euclid_view_of_Abell_2390"
+      },
+      {
+        "text": "Strong lensing giant arc near the cluster core",
+        "source": "https://arxiv.org/pdf/2507.08545"
+      },
+      {
+        "text": "This pointing is PSZ2G073.97-27.82 in the SLICE program",
+        "source": "https://www.stsci.edu/jwst-program-info/download/jwst/pdf/5594/"
+      }
+    ]
+  }
+}

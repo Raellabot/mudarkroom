@@ -1,0 +1,40 @@
+{
+  "id": "ngc-3522-hubble",
+  "name": "NGC 3522 (Hubble)",
+  "blurb": "NGC 3522, a slowly rotating early-type galaxy, seen by Hubble.",
+  "label": "ngc3522-hubble",
+  "spec": "HST|NGC-3522|13324|WFC3/UVIS|ngc3522-hubble",
+  "find": [
+    "HST|13324|NGC-3522"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "early-type galaxy",
+    "slow rotator",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A slowly turning galaxy, one of a dozen that Hubble examined to learn how such galaxies are assembled. Its light keeps climbing toward the center instead of flattening into a core.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-14",
+    "claims": [
+      {
+        "text": "NGC 3522 was one of 12 galaxies observed by Hubble program 13324 on the assembly of early-type galaxies",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/13324/"
+      },
+      {
+        "text": "The 12 galaxies newly imaged by HST for this study are slow rotators (slowly rotating early-type galaxies)",
+        "source": "https://arxiv.org/abs/2001.11277"
+      },
+      {
+        "text": "NGC 3522 has a core-less light profile",
+        "source": "https://www.aanda.org/10.1051/0004-6361/201937040"
+      }
+    ]
+  }
+}

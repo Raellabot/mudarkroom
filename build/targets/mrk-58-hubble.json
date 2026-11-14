@@ -1,0 +1,47 @@
+{
+  "id": "mrk-58-hubble",
+  "name": "Mrk 58 (Hubble)",
+  "blurb": "Mrk 58, a spiral galaxy in the Coma cluster, seen by Hubble.",
+  "label": "mrk58-hubble",
+  "spec": "HST|MRK-58|13777|WFC3/UVIS|mrk58-hubble",
+  "find": [
+    "HST|13777|MRK-58"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "Mrk 58",
+    "Mrk058",
+    "CGCG 160-073",
+    "spiral galaxy",
+    "disk galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A disk galaxy in the crowded Coma cluster, slowly losing its gas to the hot cluster medium it moves through.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-14",
+    "claims": [
+      {
+        "text": "Mrk 58 (Mrk058, CGCG 160-073) is an Sb disk galaxy",
+        "source": "https://arxiv.org/html/astro-ph/0109316"
+      },
+      {
+        "text": "It is gas deficient",
+        "source": "https://arxiv.org/html/astro-ph/0109316"
+      },
+      {
+        "text": "It is a confirmed member of the Coma cluster",
+        "source": "https://arxiv.org/html/2207.06624"
+      },
+      {
+        "text": "Program 13777 targets Mrk 58 to study ram pressure stripping in Coma",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/13777/"
+      }
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "ngc-5982-hubble",
+  "name": "NGC 5982 (Hubble)",
+  "blurb": "NGC 5982, an elliptical galaxy, seen by Hubble.",
+  "label": "ngc5982-hubble",
+  "spec": "HST|NGC5982|9399|ACS/WFC|ngc5982-hubble",
+  "find": [
+    "HST|9399|NGC5982"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "elliptical galaxy",
+    "Draco Group",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "An elliptical galaxy in the constellation Draco, the middle member of a trio of galaxies sometimes called the Draco Group.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-14",
+    "claims": [
+      {
+        "text": "NGC 5982 is an elliptical galaxy in the middle of a trio sometimes called the Draco Group",
+        "source": "https://science.nasa.gov/apod/?date=131016"
+      },
+      {
+        "text": "The group lies in the constellation Draco",
+        "source": "https://science.nasa.gov/apod/?date=131016"
+      }
+    ]
+  }
+}

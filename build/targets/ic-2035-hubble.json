@@ -1,0 +1,46 @@
+{
+  "id": "ic-2035-hubble",
+  "name": "IC 2035 (Hubble)",
+  "blurb": "IC 2035, a lenticular galaxy, seen by Hubble.",
+  "label": "ic2035-hubble",
+  "spec": "HST|IC2035|10554|ACS/WFC|ic2035-hubble",
+  "find": [
+    "HST|10554|IC2035"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "IC2035",
+    "lenticular galaxy",
+    "S0 galaxy",
+    "early-type galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A lenticular galaxy in a quiet, thinly populated part of space, IC 2035 is attended by only a few dozen globular star clusters.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-14",
+    "claims": [
+      {
+        "text": "IC 2035 is an S0 (lenticular) galaxy",
+        "source": "https://arxiv.org/pdf/1204.1054"
+      },
+      {
+        "text": "IC 2035 is an early-type galaxy in a low-density environment",
+        "source": "https://arxiv.org/abs/1204.1054"
+      },
+      {
+        "text": "IC 2035 has only a few dozen globular cluster candidates",
+        "source": "https://arxiv.org/pdf/1204.1054"
+      },
+      {
+        "text": "The pointing is IC 2035 in program 10554",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/10554/"
+      }
+    ]
+  }
+}

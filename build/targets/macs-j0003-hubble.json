@@ -1,0 +1,36 @@
+{
+  "id": "macs-j0003-hubble",
+  "name": "MACS J0003.1-0605 (Hubble)",
+  "blurb": "MACS J0003.1-0605, a massive galaxy cluster, seen by Hubble.",
+  "label": "macsj0003-hubble",
+  "spec": "HST|MACSJ0003.1-0605|16670|ACS/WFC|macsj0003-hubble",
+  "find": [
+    "HST|16670|MACSJ0003.1-0605"
+  ],
+  "type": "Galaxy cluster",
+  "aliases": [
+    "MACSJ0003.1-0605",
+    "galaxy cluster",
+    "cluster of galaxies"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A massive cluster of galaxies, caught in a quick Hubble snapshot from a survey of extreme clusters that earlier searches had let slip away.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-14",
+    "claims": [
+      {
+        "text": "MACSJ0003.1-0605 is a target of Hubble program 16670, a SNAPshot survey of extreme (massive) galaxy clusters",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/16670/"
+      },
+      {
+        "text": "The 'They almost got away' program searches for massive clusters missed by earlier surveys",
+        "source": "https://esahubble.org/images/potw2317a/"
+      }
+    ]
+  }
+}

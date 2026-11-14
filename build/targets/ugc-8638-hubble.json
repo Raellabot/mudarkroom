@@ -1,0 +1,54 @@
+{
+  "id": "ugc-8638-hubble",
+  "name": "UGC 8638 (Hubble)",
+  "blurb": "UGC 8638, a compact irregular dwarf galaxy, seen by Hubble.",
+  "label": "ugc8638-hubble",
+  "spec": "HST|UGC8638|9771|ACS/WFC|ugc8638-hubble",
+  "find": [
+    "HST|9771|UGC8638"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "U8638",
+    "dwarf galaxy",
+    "irregular galaxy",
+    "dwarf irregular galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A small, compact irregular galaxy dotted with bright knots of stars, resolved by Hubble into its individual stars. Deep studies have found faint plumes of stars around it, likely debris of a smaller galaxy it absorbed.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-14",
+    "claims": [
+      {
+        "text": "UGC 8638 is a compact irregular galaxy imaged by Hubble ACS in snapshot program 9771",
+        "source": "https://arxiv.org/html/astro-ph/0511648"
+      },
+      {
+        "text": "UGC 8638 contains bright compact stellar associations",
+        "source": "https://arxiv.org/html/astro-ph/0511648"
+      },
+      {
+        "text": "Hubble resolves its individual stars (tip of the red giant branch measured)",
+        "source": "https://arxiv.org/html/astro-ph/0511648"
+      },
+      {
+        "text": "UGC 8638 is an Im (irregular) dwarf galaxy",
+        "source": "https://arxiv.org/html/2406.01683v1"
+      },
+      {
+        "text": "Faint stellar plumes around UGC 8638 are consistent with debris from a past merger or accretion of a satellite",
+        "source": "https://arxiv.org/html/2406.01683v1"
+      },
+      {
+        "text": "U8638 is a designation used for UGC 8638",
+        "source": "https://arxiv.org/html/astro-ph/0511648"
+      }
+    ]
+  }
+}

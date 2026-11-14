@@ -1,0 +1,40 @@
+{
+  "id": "ngc-7713-hubble",
+  "name": "NGC 7713 (Hubble)",
+  "blurb": "NGC 7713, a barred spiral galaxy, seen by Hubble.",
+  "label": "ngc7713-hubble",
+  "spec": "HST|NGC-7713|15922|ACS/WFC|ngc7713-hubble",
+  "find": [
+    "HST|15922|NGC-7713"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "barred spiral galaxy",
+    "spiral galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A barred spiral in Sculptor, caught as part of Hubble's effort to image every known nearby galaxy deeply enough to pick out its brightest stars one by one.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-14",
+    "claims": [
+      {
+        "text": "NGC 7713 is a barred spiral galaxy (type SBcd)",
+        "source": "https://ngcicproject.observers.org/NGC/NGC_77xx/NGC_7713.htm"
+      },
+      {
+        "text": "NGC 7713 is in Sculptor",
+        "source": "https://ngcicproject.observers.org/NGC/NGC_77xx/NGC_7713.htm"
+      },
+      {
+        "text": "It was observed in program 15922, 'Every Known Nearby Galaxy', which aims to image nearby galaxies deeply enough to resolve their brightest stars",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15922/"
+      }
+    ]
+  }
+}

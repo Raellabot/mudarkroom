@@ -1,0 +1,49 @@
+{
+  "id": "ngc-4600-hubble",
+  "name": "NGC 4600 (Hubble)",
+  "blurb": "NGC 4600, a dwarf lenticular galaxy, seen by Hubble.",
+  "label": "ngc4600-hubble",
+  "spec": "HST|NGC-4600|12878|ACS/WFC|ngc4600-hubble",
+  "find": [
+    "HST|12878|NGC-4600"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "dwarf lenticular galaxy",
+    "lenticular galaxy",
+    "S0 galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "NGC 4600 is a small, isolated lenticular galaxy with little gas, though a glow of hydrogen emission lingers in its core. Measuring its brightest red giant stars, Hubble placed it in front of the Virgo cluster rather than inside it.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-14",
+    "claims": [
+      {
+        "text": "NGC 4600 is a gas-poor dwarf lenticular galaxy with H-alpha emission in the core",
+        "source": "https://web3.arxiv.org/pdf/1312.6769"
+      },
+      {
+        "text": "NGC 4600 is classed S0",
+        "source": "https://ngcicproject.observers.org/NGC/NGC_46xx/NGC_4600.htm"
+      },
+      {
+        "text": "It is isolated and lies in front of the Virgo cluster",
+        "source": "https://web3.arxiv.org/pdf/1312.6769"
+      },
+      {
+        "text": "Distances measured from the tip of the red giant branch with Hubble's ACS",
+        "source": "https://web3.arxiv.org/abs/1312.6769"
+      },
+      {
+        "text": "NGC 4600 is among the galaxies placed in front of Virgo",
+        "source": "https://web3.arxiv.org/abs/1312.6769"
+      }
+    ]
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "id": "pgc-42871-hubble",
+  "name": "PGC 42871 (Hubble)",
+  "blurb": "PGC 42871, a galaxy wrapped in shells of stars, seen by Hubble.",
+  "label": "pgc42871-hubble",
+  "spec": "HST|PGC42871|10227|ACS/WFC|pgc42871-hubble",
+  "find": [
+    "HST|10227|PGC42871"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "ESO 381-12",
+    "shell galaxy",
+    "elliptical galaxy",
+    "lenticular galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Delicate shells of stars bloom outward from PGC 42871, a rare sight around a galaxy of its kind. They hint at past collisions with other galaxies, perhaps including a former spiral.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-14",
+    "claims": [
+      {
+        "text": "ESO 381-12 is also known as PGC 42871",
+        "source": "https://esahubble.org/news/heic1516/"
+      },
+      {
+        "text": "Delicate shells bloom outward, rare for its type",
+        "source": "https://esahubble.org/news/heic1516/"
+      },
+      {
+        "text": "PGC 42871 is an elliptical galaxy surrounded by shells of stars",
+        "source": "https://science.nasa.gov/image-article/apod-2018-october-29-shells-of-stars-in-elliptical-galaxy-pgc-42871/"
+      },
+      {
+        "text": "It has been in at least two collisions, one possibly with a former spiral",
+        "source": "https://science.nasa.gov/image-article/apod-2018-october-29-shells-of-stars-in-elliptical-galaxy-pgc-42871/"
+      },
+      {
+        "text": "Program lists PGC42871 as an elliptical with shell features",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/list/10227/"
+      }
+    ]
+  }
+}

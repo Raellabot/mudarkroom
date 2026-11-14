@@ -1,0 +1,54 @@
+{
+  "id": "eso-306-g017-hubble",
+  "name": "ESO 306-17 (Hubble)",
+  "blurb": "ESO 306-17, a giant elliptical galaxy at the heart of a fossil group, seen by Hubble.",
+  "label": "eso306g017-hubble",
+  "spec": "HST|ESO-306--G-017-2|10558|ACS/WFC|eso306g017-hubble",
+  "find": [
+    "HST|10558|ESO-306--G-017-2"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "ESO 306-017",
+    "ESO 306-G017",
+    "fossil group",
+    "elliptical galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "ESO 306-17 lies almost abandoned in an enormous sea of dark matter and hot gas, the lone giant of a fossil group. Astronomers wonder whether it gobbled up its former neighbors.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-14",
+    "claims": [
+      {
+        "text": "ESO 306-17 is a large, bright elliptical galaxy of the type known as a fossil group",
+        "source": "https://esahubble.org/news/heic1004/"
+      },
+      {
+        "text": "It lies in an enormous sea of dark matter and hot gas",
+        "source": "https://esahubble.org/news/heic1004/"
+      },
+      {
+        "text": "Fossil groups' light is dominated by a single, isolated, large elliptical galaxy",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/10558/"
+      },
+      {
+        "text": "Astronomers ask whether it consumed its neighbors",
+        "source": "https://esahubble.org/news/heic1004/"
+      },
+      {
+        "text": "Alternate designation ESO 306-017 / ESO-306--G-017",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/10558/"
+      },
+      {
+        "text": "ESO306-017 is a fossil group galaxy",
+        "source": "https://web3.arxiv.org/abs/1208.4060"
+      }
+    ]
+  }
+}

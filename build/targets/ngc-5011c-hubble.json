@@ -1,0 +1,52 @@
+{
+  "id": "ngc-5011c-hubble",
+  "name": "NGC 5011C (Hubble)",
+  "blurb": "NGC 5011C, a dwarf galaxy in the Centaurus A group, seen by Hubble.",
+  "label": "ngc5011c-hubble",
+  "spec": "HST|NGC5011C|12546|ACS/WFC|ngc5011c-hubble",
+  "find": [
+    "HST|12546|NGC5011C"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "NGC 5011C",
+    "dwarf galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A faint dwarf galaxy once thought to be a distant giant, it only appears to pair on the sky with NGC 5011B, which lies far beyond in the Centaurus cluster.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-14",
+    "claims": [
+      {
+        "text": "NGC 5011C is a dwarf galaxy",
+        "source": "https://eso.org/public/news/eso0709/"
+      },
+      {
+        "text": "It belongs to the Centaurus A group",
+        "source": "https://eso.org/public/news/eso0709/"
+      },
+      {
+        "text": "It was once thought to be a member of the distant Centaurus cluster",
+        "source": "https://arxiv.org/abs/astro-ph/0701280"
+      },
+      {
+        "text": "NGC 5011B and C only appear as a couple on the sky",
+        "source": "https://eso.org/public/news/eso0709/"
+      },
+      {
+        "text": "NGC 5011B is part of the much farther Centaurus cluster",
+        "source": "https://eso.org/public/news/eso0709/"
+      },
+      {
+        "text": "Program 12546 (Local Volume) includes NGC 5011C",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/12546/"
+      }
+    ]
+  }
+}

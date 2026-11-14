@@ -1,0 +1,55 @@
+{
+  "id": "ngc-4302-hubble",
+  "name": "NGC 4302 and NGC 4298 (Hubble)",
+  "blurb": "NGC 4302 and NGC 4298, a close pair of spiral galaxies, seen by Hubble.",
+  "label": "ngc4302-hubble",
+  "spec": "HST|NGC-4302-IR|14913|WFC3/IR|ngc4302-hubble",
+  "find": [
+    "HST|14913|NGC-4302-IR"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "NGC 4302",
+    "NGC 4298",
+    "galaxy pair",
+    "spiral galaxy",
+    "edge-on galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "An edge-on spiral lies beside a tilted one, separated in projection by only about 7,000 light-years, yet neither shows the tidal tails and distortions that such close neighbors usually wear.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-14",
+    "claims": [
+      {
+        "text": "NGC 4302 and NGC 4298 are spiral galaxies",
+        "source": "https://esahubble.org/news/heic1709/"
+      },
+      {
+        "text": "NGC 4302 is seen edge-on and NGC 4298 is tilted",
+        "source": "https://esahubble.org/news/heic1709/"
+      },
+      {
+        "text": "They are a close pair, separated in projection by about 7000 light-years",
+        "source": "https://esahubble.org/news/heic1709/"
+      },
+      {
+        "text": "They lack the tidal tails and deformations typical of close galaxies",
+        "source": "https://esahubble.org/news/heic1709/"
+      },
+      {
+        "text": "They form a close pair in the Virgo Cluster; program 14913 imaged them with WFC3/IR at this pointing",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/14913/"
+      },
+      {
+        "text": "NASA released a Hubble WFC3 infrared image of the pair",
+        "source": "https://science.nasa.gov/asset/hubble/infrared-image-of-galaxy-pair-ngc-4302-and-ngc-4298"
+      }
+    ]
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "id": "ngc-1439-hubble",
+  "name": "NGC 1439 (Hubble)",
+  "blurb": "NGC 1439, an elliptical galaxy, seen by Hubble.",
+  "label": "ngc1439-hubble",
+  "spec": "HST|NGC1439|10554|ACS/WFC|ngc1439-hubble",
+  "find": [
+    "HST|10554|NGC1439"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "NGC 1439",
+    "elliptical galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A quiet elliptical galaxy in a sparsely populated corner of space, watched for the globular star clusters that swarm around it.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-14",
+    "claims": [
+      {
+        "text": "NGC 1439 is an elliptical galaxy (type E1)",
+        "source": "https://arxiv.org/pdf/1204.1054"
+      },
+      {
+        "text": "It lies in a low-density environment",
+        "source": "https://arxiv.org/pdf/1204.1054"
+      },
+      {
+        "text": "Program 10554 studies globular cluster systems of ellipticals in low-density environments and targets NGC 1439",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/10554/"
+      },
+      {
+        "text": "The data come from HST program 10554",
+        "source": "https://arxiv.org/pdf/1204.1054"
+      }
+    ]
+  }
+}

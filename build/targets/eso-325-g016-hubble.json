@@ -1,0 +1,41 @@
+{
+  "id": "eso-325-g016-hubble",
+  "name": "ESO 325-G016 (Hubble)",
+  "blurb": "ESO 325-G016, the brightest galaxy of the galaxy cluster Abell 3570, seen by Hubble.",
+  "label": "eso325g016-hubble",
+  "spec": "HST|ESO325-G016|10429|ACS/WFC|eso325g016-hubble",
+  "find": [
+    "HST|10429|ESO325-G016"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "ESO 325-G16",
+    "Abell 3570",
+    "brightest cluster galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "The brightest galaxy in the cluster Abell 3570 presides over its neighbors. Earlier Hubble imaging found a compact, point-like nucleus glowing at its center.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-14",
+    "claims": [
+      {
+        "text": "ESO 325-G16 is the brightest cluster galaxy of Abell 3570",
+        "source": "https://arxiv.org/pdf/astro-ph/0211074"
+      },
+      {
+        "text": "Hubble imaging shows a central point-source nucleus in this galaxy",
+        "source": "https://arxiv.org/pdf/astro-ph/0211074"
+      },
+      {
+        "text": "ESO 325-G016 is a galaxy in the cluster Abell 3570",
+        "source": "https://arxiv.org/pdf/astro-ph/0001080"
+      }
+    ]
+  }
+}

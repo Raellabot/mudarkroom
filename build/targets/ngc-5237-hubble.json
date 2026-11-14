@@ -1,0 +1,46 @@
+{
+  "id": "ngc-5237-hubble",
+  "name": "NGC 5237 (Hubble)",
+  "blurb": "NGC 5237, a dwarf galaxy in the Centaurus A group, seen by Hubble.",
+  "label": "ngc5237-hubble",
+  "spec": "HST|NGC5237|9771|ACS/WFC|ngc5237-hubble",
+  "find": [
+    "HST|9771|NGC5237"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "NGC5237",
+    "HIPASS J1337-42",
+    "dwarf galaxy",
+    "transitional dwarf galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A compact dwarf galaxy in the Centaurus A group, NGC 5237 has an irregular heart wrapped in a smooth outer halo. Hubble resolves it into about a hundred thousand individual stars.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-14",
+    "claims": [
+      {
+        "text": "NGC 5237 is a compact galaxy of I0 type, Cen A group member",
+        "source": "https://arxiv.org/pdf/astro-ph/0603091"
+      },
+      {
+        "text": "Irregular central part and smooth periphery",
+        "source": "https://arxiv.org/pdf/astro-ph/0603091"
+      },
+      {
+        "text": "About 100,000 stars resolved in Hubble ACS data from program 9771",
+        "source": "https://arxiv.org/pdf/astro-ph/0603091"
+      },
+      {
+        "text": "NGC 5237 appears to be a dwarf transitional galaxy in the Cen A group; also HIPASS J1337-42",
+        "source": "https://www.atnf.csiro.au/research/LVHIS/data/LVHIS055.info.html"
+      }
+    ]
+  }
+}

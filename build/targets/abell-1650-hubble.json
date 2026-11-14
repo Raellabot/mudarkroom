@@ -1,0 +1,50 @@
+{
+  "id": "abell-1650-hubble",
+  "name": "Abell 1650 (Hubble)",
+  "blurb": "Abell 1650, a galaxy cluster, seen by Hubble.",
+  "label": "abell1650-hubble",
+  "spec": "HST|ABELL1650-9-13-0|12937|ACS/WFC|abell1650-hubble",
+  "find": [
+    "HST|12937|ABELL1650-9-13-0"
+  ],
+  "type": "Galaxy cluster",
+  "aliases": [
+    "A1650",
+    "galaxy cluster",
+    "cluster of galaxies",
+    "hostless supernova",
+    "intracluster stars"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A quiet stretch of the galaxy cluster Abell 1650, where a supernova once flared with no galaxy around it. Its star seems to have lived among the cluster's drifting intracluster stars, far from any home galaxy.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-14",
+    "claims": [
+      {
+        "text": "Abell 1650 is a cluster of galaxies",
+        "source": "https://arxiv.org/abs/astro-ph/0401178"
+      },
+      {
+        "text": "A1650 is an alternate designation for Abell 1650",
+        "source": "https://arxiv.org/abs/astro-ph/0401178"
+      },
+      {
+        "text": "This pointing is the location of an apparently hostless Type Ia supernova in Abell 1650, imaged after it faded",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/12937/"
+      },
+      {
+        "text": "The Abell 1650 supernova has no host galaxy",
+        "source": "https://arxiv.org/pdf/1505.03407"
+      },
+      {
+        "text": "The hostless supernovae's progenitors belong to the intracluster stellar population",
+        "source": "https://arxiv.org/pdf/1505.03407"
+      }
+    ]
+  }
+}

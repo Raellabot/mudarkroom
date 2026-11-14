@@ -1,0 +1,40 @@
+{
+  "id": "ngc-3923-hubble",
+  "name": "NGC 3923 (Hubble)",
+  "blurb": "NGC 3923, an elliptical shell galaxy, seen by Hubble.",
+  "label": "ngc3923-hubble",
+  "spec": "HST|NGC3923|9399|ACS/WFC|ngc3923-hubble",
+  "find": [
+    "HST|9399|NGC3923"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "shell galaxy",
+    "elliptical galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "An elliptical galaxy wrapped in more than twenty faint shells, like ripples spreading on a pond. They are thought to be the leftovers of a smaller companion galaxy it swallowed.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-14",
+    "claims": [
+      {
+        "text": "NGC 3923 is an elliptical galaxy and an example of a shell galaxy",
+        "source": "https://science.nasa.gov/missions/hubble/hubble-spots-the-layers-of-ngc-3923"
+      },
+      {
+        "text": "NGC 3923 has over twenty shells",
+        "source": "https://science.nasa.gov/missions/hubble/hubble-spots-the-layers-of-ngc-3923"
+      },
+      {
+        "text": "The shells are thought to form when a larger galaxy ingests a smaller companion",
+        "source": "https://science.nasa.gov/missions/hubble/hubble-spots-the-layers-of-ngc-3923"
+      }
+    ]
+  }
+}

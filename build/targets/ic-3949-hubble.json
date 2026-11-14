@@ -1,0 +1,55 @@
+{
+  "id": "ic-3949-hubble",
+  "name": "IC 3949 (Hubble)",
+  "blurb": "IC 3949, an edge-on disk galaxy in the Coma cluster, seen by Hubble.",
+  "label": "ic3949-hubble",
+  "spec": "HST|IC-3949|13777|WFC3/UVIS|ic3949-hubble",
+  "find": [
+    "HST|13777|IC-3949"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "IC 3949",
+    "IC3949",
+    "jellyfish galaxy",
+    "edge-on galaxy",
+    "disk galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A jellyfish galaxy near the heart of the Coma cluster, being stripped of its gas as it moves, with star formation stirred up along its leading half.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-14",
+    "claims": [
+      {
+        "text": "IC 3949 is an edge-on disk galaxy",
+        "source": "https://arxiv.org/pdf/2210.16013"
+      },
+      {
+        "text": "It lies at the center of the Coma Cluster",
+        "source": "https://arxiv.org/pdf/2210.16013"
+      },
+      {
+        "text": "It is a confirmed member of the Coma cluster",
+        "source": "https://arxiv.org/html/2207.06624"
+      },
+      {
+        "text": "It is a jellyfish galaxy undergoing ram pressure stripping",
+        "source": "https://arxiv.org/abs/2210.16013"
+      },
+      {
+        "text": "It shows enhanced star formation on its leading half",
+        "source": "https://arxiv.org/pdf/2210.16013"
+      },
+      {
+        "text": "Program 13777 targets IC 3949 to study ram pressure stripping of Coma spirals",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/13777/"
+      }
+    ]
+  }
+}

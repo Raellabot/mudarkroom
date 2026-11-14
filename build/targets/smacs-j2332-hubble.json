@@ -1,0 +1,41 @@
+{
+  "id": "smacs-j2332-hubble",
+  "name": "SMACS J2332.4-5358 (Hubble)",
+  "blurb": "SMACS J2332.4-5358, a massive galaxy cluster, seen by Hubble.",
+  "label": "smacsj2332-hubble",
+  "spec": "HST|SMACSJ2332.4-5358|12884|WFC3/IR|smacsj2332-hubble",
+  "find": [
+    "HST|12884|SMACSJ2332.4-5358"
+  ],
+  "type": "Galaxy cluster",
+  "aliases": [
+    "SMACS J2332.4-5358",
+    "SMACSJ2332.4-5358",
+    "galaxy cluster",
+    "cluster of galaxies"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A massive crowd of galaxies from Hubble's snapshot survey of the most massive clusters, systems whose gravity can act as a lens on the galaxies far behind them.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-14",
+    "claims": [
+      {
+        "text": "SMACS J2332.4-5358 was a target of a snapshot survey of the most massive galaxy clusters",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/12884/"
+      },
+      {
+        "text": "The survey's clusters are highly efficient gravitational lenses",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/12884/"
+      },
+      {
+        "text": "SMACS is the southern extension of the X-ray-selected MACS survey of massive clusters",
+        "source": "https://arxiv.org/pdf/1706.01263"
+      }
+    ]
+  }
+}

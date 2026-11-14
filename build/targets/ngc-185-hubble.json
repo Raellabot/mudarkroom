@@ -1,0 +1,50 @@
+{
+  "id": "ngc-185-hubble",
+  "name": "NGC 185 (Hubble)",
+  "blurb": "NGC 185, a dwarf satellite galaxy of the Andromeda galaxy, seen by Hubble.",
+  "label": "ngc185-hubble",
+  "spec": "HST|NGC185-FJJIII|15336|WFC3/UVIS|ngc185-hubble",
+  "find": [
+    "HST|15336|NGC185-FJJIII"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "NGC185",
+    "Caldwell 18",
+    "dwarf elliptical galaxy",
+    "dwarf galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A small companion of the Andromeda galaxy, NGC 185 holds clouds of dust near its center. This view is aimed at one of its globular star clusters, part of a study comparing the clusters of small galaxies with those in the halos of Andromeda and the Milky Way.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-14",
+    "claims": [
+      {
+        "text": "NGC 185 (Caldwell 18) is a dwarf galaxy and satellite of the Andromeda galaxy",
+        "source": "https://science.nasa.gov/mission/hubble/science/explore-the-night-sky/hubble-caldwell-catalog/caldwell-18/"
+      },
+      {
+        "text": "NGC 185 is a dwarf elliptical satellite of M31",
+        "source": "https://arxiv.org/pdf/2608.28434"
+      },
+      {
+        "text": "Dust clouds near the galaxy's center",
+        "source": "https://science.nasa.gov/mission/hubble/science/explore-the-night-sky/hubble-caldwell-catalog/caldwell-18/"
+      },
+      {
+        "text": "This pointing targets a globular cluster in NGC 185",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15336/"
+      },
+      {
+        "text": "The program compares dwarf-galaxy globular clusters with accreted cluster families in the M31 and Milky Way halos",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15336/"
+      }
+    ]
+  }
+}

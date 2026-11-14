@@ -1,0 +1,48 @@
+{
+  "id": "eso-444-g046-hubble",
+  "name": "ESO 444-G046 (Hubble)",
+  "blurb": "ESO 444-G046, the supergiant galaxy at the center of the cluster Abell 3558, seen by Hubble.",
+  "label": "eso444g046-hubble",
+  "spec": "HST|ESO444-G046|10429|ACS/WFC|eso444g046-hubble",
+  "find": [
+    "HST|10429|ESO444-G046"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "A3558",
+    "Abell 3558",
+    "brightest cluster galaxy",
+    "BCG",
+    "cD galaxy",
+    "Shapley Supercluster",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "The giant galaxy that rules the cluster Abell 3558, deep in the core of the Shapley Supercluster. Hubble looked here to count the swarms of globular star clusters that orbit it.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-14",
+    "claims": [
+      {
+        "text": "ESO 444-G046 is the central brightest cluster galaxy (cD/BCG) of Abell 3558",
+        "source": "https://arxiv.org/html/1410.6291"
+      },
+      {
+        "text": "Hubble program GO-10429 imaged the ESO galaxies (including ESO444-G046) for a study of their globular cluster systems",
+        "source": "https://arxiv.org/html/1410.6291"
+      },
+      {
+        "text": "Abell 3558 lies in the core of the Shapley Supercluster",
+        "source": "https://arxiv.org/pdf/2507.07549"
+      },
+      {
+        "text": "A3558 is an alternate designation for Abell 3558",
+        "source": "https://arxiv.org/pdf/2507.07549"
+      }
+    ]
+  }
+}

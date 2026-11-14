@@ -1,0 +1,58 @@
+{
+  "id": "pgc-6240-hubble",
+  "name": "PGC 6240 (Hubble)",
+  "blurb": "PGC 6240, an elliptical galaxy ringed by shells of stars, seen by Hubble.",
+  "label": "pgc6240-hubble",
+  "spec": "HST|PGC6240|10227|ACS/WFC|pgc6240-hubble",
+  "find": [
+    "HST|10227|PGC6240"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "PGC 6240",
+    "AM 0139-655",
+    "shell elliptical",
+    "elliptical galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Like a pale rose, hazy shells of stars encircle a very bright center, likely the aftermath of a recent merger that also gave rise to new, younger globular clusters.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-14",
+    "claims": [
+      {
+        "text": "PGC 6240 is an elliptical galaxy",
+        "source": "https://esahubble.org/news/heic1318/"
+      },
+      {
+        "text": "Hazy shells of stars encircle a very bright center",
+        "source": "https://esahubble.org/news/heic1318/"
+      },
+      {
+        "text": "It resembles a pale rose",
+        "source": "https://esahubble.org/news/heic1318/"
+      },
+      {
+        "text": "It likely merged with another galaxy recently",
+        "source": "https://esahubble.org/news/heic1318/"
+      },
+      {
+        "text": "The merger created new, younger globular clusters",
+        "source": "https://esahubble.org/news/heic1318/"
+      },
+      {
+        "text": "Alternate designation AM 0139-655",
+        "source": "https://www.stsci.edu/~goudfroo/Research/GCSes/AJ_137_383.pdf"
+      },
+      {
+        "text": "It was observed in HST program 10227, a study of shell ellipticals",
+        "source": "https://www.stsci.edu/~goudfroo/Research/GCSes/AJ_137_383.pdf"
+      }
+    ]
+  }
+}

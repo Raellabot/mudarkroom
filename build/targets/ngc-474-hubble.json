@@ -1,0 +1,44 @@
+{
+  "id": "ngc-474-hubble",
+  "name": "NGC 474 (Hubble)",
+  "blurb": "NGC 474, a giant elliptical galaxy wrapped in shells, seen by Hubble.",
+  "label": "ngc474-hubble",
+  "spec": "HST|NGC474|9399|ACS/WFC|ngc474-hubble",
+  "find": [
+    "HST|9399|NGC474"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "shell galaxy",
+    "elliptical galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Layered shells ripple around the core of this giant elliptical galaxy, perhaps the aftermath of it swallowing one or more smaller galaxies.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-14",
+    "claims": [
+      {
+        "text": "NGC 474 is a gigantic elliptical galaxy",
+        "source": "https://science.nasa.gov/missions/hubble/hubble-peers-through-giant-ellipticals-layers"
+      },
+      {
+        "text": "It is surrounded by complex layered shells",
+        "source": "https://science.nasa.gov/missions/hubble/hubble-peers-through-giant-ellipticals-layers"
+      },
+      {
+        "text": "The shells may be the aftereffects of absorbing one or more smaller galaxies; the cause is unknown",
+        "source": "https://science.nasa.gov/missions/hubble/hubble-peers-through-giant-ellipticals-layers"
+      },
+      {
+        "text": "The NASA release image credits D. Carter and Hubble's ACS",
+        "source": "https://science.nasa.gov/missions/hubble/hubble-peers-through-giant-ellipticals-layers"
+      }
+    ]
+  }
+}

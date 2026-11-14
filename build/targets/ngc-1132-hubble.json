@@ -1,0 +1,50 @@
+{
+  "id": "ngc-1132-hubble",
+  "name": "NGC 1132 (Hubble)",
+  "blurb": "NGC 1132, a giant elliptical galaxy, seen by Hubble.",
+  "label": "ngc1132-hubble",
+  "spec": "HST|NGC-1132|10558|ACS/WFC|ngc1132-hubble",
+  "find": [
+    "HST|10558|NGC-1132"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "NGC1132",
+    "fossil group",
+    "giant elliptical galaxy",
+    "elliptical galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "This giant elliptical is a cosmic fossil, most likely what remains of a group of galaxies that merged together. Thousands of ancient globular clusters swarm around it, probably survivors of the galaxies it swallowed.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-14",
+    "claims": [
+      {
+        "text": "NGC 1132 is a giant elliptical galaxy",
+        "source": "https://esahubble.org/news/heic0804/"
+      },
+      {
+        "text": "NGC 1132 and its dwarf companions are a fossil group, likely the remains of merged galaxies",
+        "source": "https://esahubble.org/news/heic0804/"
+      },
+      {
+        "text": "Thousands of ancient globular clusters surround it",
+        "source": "https://esahubble.org/news/heic0804/"
+      },
+      {
+        "text": "The globular clusters are likely survivors of disrupted parent galaxies",
+        "source": "https://esahubble.org/images/heic0804a/"
+      },
+      {
+        "text": "This pointing is NGC 1132 in a fossil-group program",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/10558/"
+      }
+    ]
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "id": "3c-403-webb",
+  "name": "3C 403 (Webb)",
+  "blurb": "3C 403, an X-shaped radio galaxy, seen by Webb.",
+  "label": "3c403-webb",
+  "spec": "JWST|3C403|9226|NIRCAM/IMAGE|3c403-webb",
+  "find": [
+    "JWST|9226|3C403"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "3C403",
+    "X-shaped radio galaxy",
+    "winged radio galaxy",
+    "FR II radio galaxy",
+    "radio galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Webb"
+  ],
+  "story": "Jets of plasma stream from the active core of this galaxy, and in radio light its lobes splay outward into a winged, X-like shape. Astronomers return to its jet again and again to track how that plasma moves.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-14",
+    "claims": [
+      {
+        "text": "3C 403 is an X-shaped FR II radio galaxy",
+        "source": "https://arxiv.org/abs/astro-ph/0501031"
+      },
+      {
+        "text": "Its radio morphology is called winged or X-shaped",
+        "source": "https://arxiv.org/html/2506.21403v1"
+      },
+      {
+        "text": "3C 403 has jets",
+        "source": "https://arxiv.org/html/2506.21403v1"
+      },
+      {
+        "text": "3C 403 has an active nucleus",
+        "source": "https://arxiv.org/abs/astro-ph/0501031"
+      },
+      {
+        "text": "3C 403 has an optical jet monitored to track plasma motion; this Webb program is a new epoch of that monitoring",
+        "source": "https://www.stsci.edu/jwst-program-info/download/jwst/pdf/9226/"
+      }
+    ]
+  }
+}

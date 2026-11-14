@@ -1,0 +1,41 @@
+{
+  "id": "ngc-7049-hubble",
+  "name": "NGC 7049 (Hubble)",
+  "blurb": "NGC 7049, a giant galaxy on the border between spiral and elliptical, seen by Hubble.",
+  "label": "ngc7049-hubble",
+  "spec": "HST|NGC7049|9427|ACS/WFC|ngc7049-hubble",
+  "find": [
+    "HST|9427|NGC7049"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "brightest cluster galaxy",
+    "BCG",
+    "dusty galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "An oddball giant galaxy, the brightest in its cluster, its core ringed by swirling lanes of dust and sprinkled with globular star clusters.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-14",
+    "claims": [
+      {
+        "text": "NGC 7049 is a galaxy on the border between spiral and elliptical galaxies",
+        "source": "https://esahubble.org/news/heic0905/"
+      },
+      {
+        "text": "NGC 7049 is the brightest galaxy of its cluster (Brightest Cluster Galaxy)",
+        "source": "https://esahubble.org/news/heic0905/"
+      },
+      {
+        "text": "NGC 7049 has swirling dust lanes around its core and globular clusters; described as an oddball giant galaxy",
+        "source": "https://esahubble.org/news/heic0905/"
+      }
+    ]
+  }
+}

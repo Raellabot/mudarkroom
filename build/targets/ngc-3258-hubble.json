@@ -1,0 +1,44 @@
+{
+  "id": "ngc-3258-hubble",
+  "name": "NGC 3258 (Hubble)",
+  "blurb": "NGC 3258, an elliptical galaxy in the Antlia Cluster, seen by Hubble.",
+  "label": "ngc3258-hubble",
+  "spec": "HST|NGC3258|9427|ACS/WFC|ngc3258-hubble",
+  "find": [
+    "HST|9427|NGC3258"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "elliptical galaxy",
+    "Antlia Cluster",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "One of the two large elliptical galaxies among the brightest members of the Antlia Cluster, the third nearest galaxy cluster after Virgo and Fornax. Several thousand globular star clusters swarm around it.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-14",
+    "claims": [
+      {
+        "text": "NGC 3258 is an elliptical galaxy in the Antlia Cluster",
+        "source": "https://noirlab.edu/public/images/noirlab2501e"
+      },
+      {
+        "text": "Antlia is the third nearest galaxy cluster after Virgo and Fornax",
+        "source": "https://arxiv.org/abs/astro-ph/0307200"
+      },
+      {
+        "text": "NGC 3258 is one of the two larger ellipticals among the brightest Antlia cluster galaxies",
+        "source": "https://arxiv.org/abs/astro-ph/0307200"
+      },
+      {
+        "text": "NGC 3258 contains several thousand globular clusters",
+        "source": "https://arxiv.org/abs/astro-ph/0307200"
+      }
+    ]
+  }
+}

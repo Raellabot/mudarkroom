@@ -1,0 +1,55 @@
+{
+  "id": "eso-255-ig007-hubble",
+  "name": "ESO 255-IG007 (Hubble)",
+  "blurb": "ESO 255-IG007, a quartet of interacting galaxies, seen by Hubble.",
+  "label": "eso255ig007-hubble",
+  "spec": "HST|ESO255-IG007|10592|ACS/WFC|eso255ig007-hubble",
+  "find": [
+    "HST|10592|ESO255-IG007"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "ESO 255-7",
+    "AM 0626-470",
+    "interacting galaxies",
+    "luminous infrared galaxy",
+    "galaxy group",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Three or four galaxies are tangled together here in one arc-shaped structure, and what looks like a single galaxy at its top is really two. Collisions like this can funnel gas and dust inward and set off bursts of star formation.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-14",
+    "claims": [
+      {
+        "text": "ESO 255-7 is a quartet of interacting galaxies",
+        "source": "https://esahubble.org/images/heic0810cc/"
+      },
+      {
+        "text": "Three or four galaxies share an arc-like structure",
+        "source": "https://esahubble.org/images/heic0810cc/"
+      },
+      {
+        "text": "The upper part looks like one galaxy but is two",
+        "source": "https://esahubble.org/images/heic0810cc/"
+      },
+      {
+        "text": "ESO 255-IG007 is the same object as ESO 255-7 and AM 0626-470",
+        "source": "https://science.nasa.gov/asset/hubble/hubble-interacting-galaxy-eso-255-7/"
+      },
+      {
+        "text": "Interactions can trigger bursts of star formation, funneling gas and dust inward",
+        "source": "https://esahubble.org/news/heic0810/"
+      },
+      {
+        "text": "ESO 255-IG007 is a target of an ACS survey of luminous infrared galaxies",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/10592/"
+      }
+    ]
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "id": "pgc-10922-hubble",
+  "name": "PGC 10922 (Hubble)",
+  "blurb": "PGC 10922, a lenticular galaxy ringed by faint shells, seen by Hubble.",
+  "label": "pgc10922-hubble",
+  "spec": "HST|PGC10922|10227|ACS/WFC|pgc10922-hubble",
+  "find": [
+    "HST|10227|PGC10922"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "lenticular galaxy",
+    "shell galaxy",
+    "post-starburst galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Faint arcs and shells spread outward from this galaxy, likely left by a gravitational encounter or merger, while tightly wound spirals of dust circle its bright center.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-14",
+    "claims": [
+      {
+        "text": "PGC 10922 is a lenticular galaxy",
+        "source": "https://esahubble.org/images/potw1334a/"
+      },
+      {
+        "text": "It has faint wide arcs or shells, likely from a gravitational encounter or merger",
+        "source": "https://esahubble.org/images/potw1334a/"
+      },
+      {
+        "text": "Tightly wound spirals of dark dust encircle its bright center",
+        "source": "https://esahubble.org/images/potw1334a/"
+      },
+      {
+        "text": "PGC 10922 is an early-type poststarburst galaxy with shells, likely a merger remnant",
+        "source": "https://arxiv.org/abs/0810.4621"
+      }
+    ]
+  }
+}
