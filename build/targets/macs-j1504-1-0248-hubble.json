@@ -1,0 +1,46 @@
+{
+  "id": "macs-j1504-1-0248-hubble",
+  "name": "RXC J1504.1-0248 (Hubble)",
+  "blurb": "RXC J1504.1-0248, a massive galaxy cluster, seen by Hubble.",
+  "label": "macsj150410248-hubble",
+  "spec": "HST|MACSJ1504.1-0248|16670|ACS/WFC|macsj150410248-hubble",
+  "find": [
+    "HST|16670|MACSJ1504.1-0248"
+  ],
+  "type": "Galaxy cluster",
+  "aliases": [
+    "MACS J1504.1-0248",
+    "MACSJ1504.1-0248",
+    "RXCJ1504.1-0248",
+    "galaxy cluster",
+    "cool-core cluster"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A massive cluster of galaxies gathered around a giant elliptical galaxy, inside one of the most luminous nearby cool cores known. In that central galaxy and along a long filament, new stars are forming.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-14",
+    "claims": [
+      {
+        "text": "MACS J1504.1-0248 was a target of HST program 16670, a SNAPshot survey of highly X-ray luminous clusters",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/16670/"
+      },
+      {
+        "text": "RXC J1504.1-0248 is a galaxy cluster whose center is marked by a giant elliptical galaxy at J2000 15 04 07.5 -02 48 16 (matches the pointing)",
+        "source": "https://arxiv.org/pdf/astro-ph/0507431"
+      },
+      {
+        "text": "RXC J1504.1-0248 has one of the most luminous cool cores known and is one of the most massive cool-core clusters",
+        "source": "https://arxiv.org/pdf/1003.4511"
+      },
+      {
+        "text": "Star formation occurs in the central galaxy and in a long filament",
+        "source": "https://arxiv.org/pdf/1003.4511"
+      }
+    ]
+  }
+}

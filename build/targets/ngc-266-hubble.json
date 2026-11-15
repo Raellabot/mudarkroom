@@ -1,0 +1,53 @@
+{
+  "id": "ngc-266-hubble",
+  "name": "NGC 266 (Hubble)",
+  "blurb": "NGC 266, a barred spiral galaxy, seen by Hubble.",
+  "label": "ngc266-hubble",
+  "spec": "HST|SN2005GL|14115|WFC3/UVIS|ngc266-hubble",
+  "find": [
+    "HST|14115|SN2005GL"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "SN 2005gl",
+    "barred spiral galaxy",
+    "spiral galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Hubble returned to the place in this galaxy where the supernova SN 2005gl exploded. The star that died there was likely a luminous blue variable, a rare ultra-bright kind that theory says should not explode so early, and Hubble later saw that it was gone.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-14",
+    "claims": [
+      {
+        "text": "SN 2005gl was a Type IIn supernova in the galaxy NGC 266",
+        "source": "https://arxiv.org/abs/astro-ph/0608029"
+      },
+      {
+        "text": "NGC 266 is a barred spiral galaxy",
+        "source": "https://science.nasa.gov/asset/hubble/hubble-finds-rare-progenitor-to-a-supernova/"
+      },
+      {
+        "text": "The progenitor was a rare class of ultra-bright star that, according to theory, shouldn't explode so early",
+        "source": "https://science.nasa.gov/asset/hubble/hubble-finds-rare-progenitor-to-a-supernova/"
+      },
+      {
+        "text": "The very massive progenitor star was likely a luminous blue variable",
+        "source": "https://assets.science.nasa.gov/content/dam/science/missions/hubble/releases/2009/03/STScI-01EVSRKQ4G21QD2EY4XA1AHK47.pdf"
+      },
+      {
+        "text": "Later Hubble imaging showed the progenitor star was gone",
+        "source": "https://science.nasa.gov/asset/hubble/hubble-finds-rare-progenitor-to-a-supernova/"
+      },
+      {
+        "text": "Program 14115 imaged supernova sites to confirm progenitor candidates; target SN2005GL",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/14115/"
+      }
+    ]
+  }
+}

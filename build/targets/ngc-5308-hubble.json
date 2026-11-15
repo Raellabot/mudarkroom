@@ -1,0 +1,44 @@
+{
+  "id": "ngc-5308-hubble",
+  "name": "NGC 5308 (Hubble)",
+  "blurb": "NGC 5308, an edge-on lenticular galaxy, seen by Hubble.",
+  "label": "ngc5308-hubble",
+  "spec": "HST|NGC5308|10594|ACS/WFC|ngc5308-hubble",
+  "find": [
+    "HST|10594|NGC5308"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "lenticular galaxy",
+    "galaxy",
+    "globular clusters"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A disk galaxy seen edge-on, which has used up or lost most of its gas and dust and now shines mainly with old and aging stars. Around it orbit globular clusters, dense collections of older stars that form a delicate halo around the galaxy.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-14",
+    "claims": [
+      {
+        "text": "NGC 5308 is an edge-on lenticular galaxy",
+        "source": "https://esahubble.org/images/potw1620a/"
+      },
+      {
+        "text": "Lenticular galaxies like NGC 5308 are disk galaxies that have used up or lost most of their gas and dust and consist mainly of old and aging stars",
+        "source": "https://esahubble.org/images/potw1620a/"
+      },
+      {
+        "text": "Globular clusters, dense collections of older stars, form a halo orbiting NGC 5308",
+        "source": "https://esahubble.org/images/potw1620a/"
+      },
+      {
+        "text": "NGC 5308 is a target of Hubble program 10594 on globular cluster systems",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/10594/"
+      }
+    ]
+  }
+}

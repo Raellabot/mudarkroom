@@ -1,0 +1,49 @@
+{
+  "id": "sdf61-hubble",
+  "name": "SDF61 field (Hubble)",
+  "blurb": "A deep field toward the distant galaxy SDF61 in the Subaru Deep Field, seen by Hubble.",
+  "label": "sdf61-hubble",
+  "spec": "HST|SDF61|15137|WFC3/IR|sdf61-hubble",
+  "find": [
+    "HST|15137|SDF61"
+  ],
+  "type": "Deep field",
+  "aliases": [
+    "SDF61",
+    "Subaru Deep Field",
+    "high-redshift galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Hubble looked here for a galaxy from the early universe whose light hinted at very young stars with almost no heavy elements or dust, possibly some of the first generation of stars. Such galaxies would make compelling targets for Webb.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-14",
+    "claims": [
+      {
+        "text": "SDF61 is a high-redshift galaxy targeted by HST program 15137",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15137/"
+      },
+      {
+        "text": "The targets are spectroscopically confirmed z > 6 galaxies",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15137/"
+      },
+      {
+        "text": "Five of the program's galaxies are in the Subaru Deep Field",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15137/"
+      },
+      {
+        "text": "Their light may indicate very young stellar populations with extremely low metallicity and dust, possibly Pop III dominated",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15137/"
+      },
+      {
+        "text": "They would make compelling targets for JWST spectroscopy",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15137/"
+      }
+    ]
+  }
+}

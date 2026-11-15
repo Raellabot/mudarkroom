@@ -1,0 +1,45 @@
+{
+  "id": "agc-731921-hubble",
+  "name": "AGC 731921 (Hubble)",
+  "blurb": "AGC 731921, a gas-rich dwarf galaxy, seen by Hubble.",
+  "label": "agc731921-hubble",
+  "spec": "HST|AGC731921|13750|ACS/WFC|agc731921-hubble",
+  "find": [
+    "HST|13750|AGC731921"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "dwarf galaxy",
+    "gas-rich dwarf",
+    "SHIELD galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A small, gas-rich dwarf galaxy first picked out by the ALFALFA survey, a radio survey that mapped neutral hydrogen gas across the sky. Hubble resolved its individual stars so astronomers could measure how far away it lies.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-14",
+    "claims": [
+      {
+        "text": "AGC 731921 is one of the low-mass dwarf galaxies targeted by HST program 13750 (SHIELD II), at the observed position",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/13750/"
+      },
+      {
+        "text": "AGC 731921 is a gas-rich dwarf galaxy in the SHIELD sample",
+        "source": "https://arxiv.org/pdf/2105.05100"
+      },
+      {
+        "text": "SHIELD galaxies were selected from the ALFALFA survey (Arecibo), which mapped neutral hydrogen across the sky",
+        "source": "https://arxiv.org/pdf/2105.05100"
+      },
+      {
+        "text": "Hubble images of resolved stars were used to measure the distances of these galaxies",
+        "source": "https://arxiv.org/pdf/2105.05100"
+      }
+    ]
+  }
+}

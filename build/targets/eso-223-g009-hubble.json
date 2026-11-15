@@ -1,0 +1,51 @@
+{
+  "id": "eso-223-g009-hubble",
+  "name": "ESO 223-G009 (Hubble)",
+  "blurb": "ESO 223-G009, a dwarf irregular galaxy, seen by Hubble.",
+  "label": "eso223g009-hubble",
+  "spec": "HST|E223-09|10235|ACS/WFC|eso223g009-hubble",
+  "find": [
+    "HST|10235|E223-09"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "ESO 223-09",
+    "HIPASS J1501-48",
+    "dwarf irregular galaxy",
+    "irregular galaxy",
+    "dwarf galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A lone, gas-rich dwarf irregular galaxy lying behind the Centaurus A/M 83 galaxy complex, in a part of the sky heavily dimmed by dust. It still holds plenty of gas to keep making new stars.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-14",
+    "claims": [
+      {
+        "text": "ESO 223-G009 is the galaxy's designation; HIPASS J1501-48 is another name",
+        "source": "https://www.atnf.csiro.au/research/LVHIS/data/LVHIS071.info.html"
+      },
+      {
+        "text": "ESO 223-09 is an isolated dwarf irregular (dIrr) galaxy behind and east of the Cen A/M 83 complex",
+        "source": "https://ar5iv.labs.arxiv.org/html/astro-ph/0603091"
+      },
+      {
+        "text": "It lies in a zone of strong extinction (heavily dimmed by dust)",
+        "source": "https://ar5iv.labs.arxiv.org/html/astro-ph/0603091"
+      },
+      {
+        "text": "It has a lot of gas for continuing star formation",
+        "source": "https://ar5iv.labs.arxiv.org/html/astro-ph/0603091"
+      },
+      {
+        "text": "It was observed with HST/ACS in proposals 9771 and 10235 (Centaurus galaxies)",
+        "source": "https://ar5iv.labs.arxiv.org/html/astro-ph/0603091"
+      }
+    ]
+  }
+}

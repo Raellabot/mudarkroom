@@ -1,0 +1,48 @@
+{
+  "id": "ic-5201-hubble",
+  "name": "IC 5201 (Hubble)",
+  "blurb": "IC 5201, a barred spiral galaxy, seen by Hubble.",
+  "label": "ic5201-hubble",
+  "spec": "HST|IC5201|13442|ACS/WFC|ic5201-hubble",
+  "find": [
+    "HST|13442|IC5201"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "barred spiral galaxy",
+    "spiral galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A spiral galaxy with a bar of stars slicing through its center, like two thirds of all the spirals we see, our own Milky Way included. Hubble can pick out individual stars in galaxies like this, and here it used them to help measure distances and map how nearby galaxies move.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-14",
+    "claims": [
+      {
+        "text": "IC 5201 is a barred spiral galaxy",
+        "source": "https://esahubble.org/images/potw1650a/"
+      },
+      {
+        "text": "Like two thirds of all spirals, including the Milky Way, it has a bar of stars through its center",
+        "source": "https://esahubble.org/images/potw1650a/"
+      },
+      {
+        "text": "Hubble's ACS can resolve individual stars within other galaxies",
+        "source": "https://esahubble.org/images/potw1650a/"
+      },
+      {
+        "text": "IC 5201 is a target of Hubble program 13442, which measures distances to nearby galaxies to map the local velocity field",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/13442/"
+      },
+      {
+        "text": "IC 5201 is confirmed as a barred spiral galaxy by NASA",
+        "source": "https://science.nasa.gov/?p=11054"
+      }
+    ]
+  }
+}

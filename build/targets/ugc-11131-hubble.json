@@ -1,0 +1,41 @@
+{
+  "id": "ugc-11131-hubble",
+  "name": "UGC 11131 (Hubble)",
+  "blurb": "UGC 11131, a low surface brightness galaxy, seen by Hubble.",
+  "label": "ugc11131-hubble",
+  "spec": "HST|UGC-11131|10550|ACS/WFC|ugc11131-hubble",
+  "find": [
+    "HST|10550|UGC-11131"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "UGC-11131",
+    "LSB galaxy",
+    "low surface brightness galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A galaxy whose stars spread so thinly that its disk barely glows. Hubble searched it for globular clusters, which can reveal how such faint galaxies formed and evolved.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-14",
+    "claims": [
+      {
+        "text": "UGC 11131 is a low surface brightness (LSB) galaxy targeted by HST program 10550",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/10550/"
+      },
+      {
+        "text": "The program's targets are massive LSB galaxies, with masses roughly of the Milky Way or above",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/10550/"
+      },
+      {
+        "text": "Globular clusters constrain how LSB galaxies formed and evolved",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/10550/"
+      }
+    ]
+  }
+}

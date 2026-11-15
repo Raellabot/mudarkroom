@@ -1,0 +1,55 @@
+{
+  "id": "mrk-1034-hubble",
+  "name": "Mrk 1034 (Hubble)",
+  "blurb": "Mrk 1034, a pair of spiral galaxies, seen by Hubble.",
+  "label": "mrk1034-hubble",
+  "spec": "HST|MRK1034NED02|10592|ACS/WFC|mrk1034-hubble",
+  "find": [
+    "HST|10592|MRK1034NED02"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "MRK 1034",
+    "PGC 9071",
+    "PGC 9074",
+    "galaxy pair",
+    "spiral galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Two spiral galaxies seen face-on, close enough to be bound together by gravity and probably only just beginning to interact. After maybe hundreds of millions of years, they will merge into one.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-14",
+    "claims": [
+      {
+        "text": "MRK 1034 is a galaxy pair",
+        "source": "https://esahubble.org/images/potw1325a/"
+      },
+      {
+        "text": "The pair is PGC 9074 (Sa) and PGC 9071 (Sb), two spiral galaxies",
+        "source": "https://esahubble.org/images/potw1325a/"
+      },
+      {
+        "text": "They are seen face-on",
+        "source": "https://esahubble.org/images/potw1325a/"
+      },
+      {
+        "text": "They are close enough to be bound together by gravity",
+        "source": "https://esahubble.org/images/potw1325a/"
+      },
+      {
+        "text": "They are probably only just beginning to interact",
+        "source": "https://esahubble.org/images/potw1325a/"
+      },
+      {
+        "text": "After maybe hundreds of millions of years they will merge",
+        "source": "https://esahubble.org/images/potw1325a/"
+      }
+    ]
+  }
+}

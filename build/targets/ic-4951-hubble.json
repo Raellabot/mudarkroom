@@ -1,0 +1,41 @@
+{
+  "id": "ic-4951-hubble",
+  "name": "IC 4951 (Hubble)",
+  "blurb": "IC 4951, an edge-on barred spiral galaxy, seen by Hubble.",
+  "label": "ic4951-hubble",
+  "spec": "HST|IC-4951|15922|ACS/WFC|ic4951-hubble",
+  "find": [
+    "HST|15922|IC-4951"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "IC4951",
+    "edge-on galaxy",
+    "spiral galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A nearby disk galaxy turned edge-on to us, rich in hydrogen gas. Hubble resolved its brightest stars as part of an effort to picture every known galaxy in our cosmic neighborhood and measure their distances.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-14",
+    "claims": [
+      {
+        "text": "IC 4951 is classified SBdm (barred late-type spiral) with an optical inclination of 90 degrees (edge-on)",
+        "source": "https://arxiv.org/html/1810.05467"
+      },
+      {
+        "text": "IC 4951 contains a measured reservoir of neutral hydrogen gas",
+        "source": "https://arxiv.org/html/1810.05467"
+      },
+      {
+        "text": "IC 4951 was observed in HST program 15922 'Every Known Nearby Galaxy', which resolves brightest stars in galaxies within about 10 Mpc to measure tip-of-the-red-giant-branch distances",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15922/"
+      }
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "id": "sg1120-1202-1-hubble",
+  "name": "SG1120-1202 group 1 (Hubble)",
+  "blurb": "Group 1 of the supergroup SG1120-1202, a gathering of galaxy groups, seen by Hubble.",
+  "label": "sg112012021-hubble",
+  "spec": "HST|SG1120-1|12575|WFC3/IR|sg112012021-hubble",
+  "find": [
+    "HST|12575|SG1120-1"
+  ],
+  "type": "Galaxy cluster",
+  "aliases": [
+    "SG1120-1202",
+    "SG1120",
+    "supergroup",
+    "galaxy group"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "One of four galaxy groups that are falling together and will merge into a cluster comparable in mass to the Coma Cluster. Hubble looked here for every star in and between the group's galaxies, including the faint light drifting in the space between them.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-14",
+    "claims": [
+      {
+        "text": "SG1120-1202 is a supergroup made of four X-ray luminous galaxy groups that will merge into a cluster comparable in mass to Coma",
+        "source": "https://ar5iv.arxiv.org/html/1702.00495"
+      },
+      {
+        "text": "Group 1 lies at RA 11:20:07.48, Dec -12:05:09.1, matching the HST pointing SG1120-1 (11 20 07.517, -12 05 09.40)",
+        "source": "https://ar5iv.arxiv.org/html/1702.00495"
+      },
+      {
+        "text": "HST program 12575 pointing SG1120-1 aims at a complete census of stars in and out of group galaxies (intragroup light)",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/12575/"
+      }
+    ]
+  }
+}

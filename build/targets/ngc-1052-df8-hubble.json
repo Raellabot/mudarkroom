@@ -1,0 +1,45 @@
+{
+  "id": "ngc-1052-df8-hubble",
+  "name": "NGC 1052-DF8 (Hubble)",
+  "blurb": "NGC 1052-DF8, a low surface brightness galaxy, seen by Hubble.",
+  "label": "ngc1052df8-hubble",
+  "spec": "HST|NGC1052-DF8|14644|ACS/WFC|ngc1052df8-hubble",
+  "find": [
+    "HST|14644|NGC1052-DF8"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "DF8",
+    "low surface brightness galaxy",
+    "diffuse galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A faint, diffuse galaxy first found in Dragonfly telescope images of the NGC 1052 field, where Hubble was sent to measure how far away it is. Star-forming clumps are clearly visible in its soft glow.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-14",
+    "claims": [
+      {
+        "text": "NGC 1052-DF8 is one of the very low surface brightness objects observed with HST/ACS in program 14644",
+        "source": "https://arxiv.org/pdf/1807.06016"
+      },
+      {
+        "text": "It was found in Dragonfly images and is a new discovery",
+        "source": "https://arxiv.org/pdf/1807.06016"
+      },
+      {
+        "text": "HST was used to measure distances to the galaxies",
+        "source": "https://arxiv.org/pdf/1807.06016"
+      },
+      {
+        "text": "Star-forming clumps are clearly visible in NGC 1052-DF8",
+        "source": "https://arxiv.org/pdf/1807.06016"
+      }
+    ]
+  }
+}

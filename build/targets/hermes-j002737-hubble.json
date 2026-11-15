@@ -1,0 +1,46 @@
+{
+  "id": "hermes-j002737-hubble",
+  "name": "HerMES J002737.3-020759 field (Hubble)",
+  "blurb": "A deep field toward the dusty starburst galaxy HerMES J002737.3-020759, seen by Hubble.",
+  "label": "hermesj002737-hubble",
+  "spec": "HST|RARE-HELMS-65|14083|WFC3/IR|hermesj002737-hubble",
+  "find": [
+    "HST|14083|RARE-HELMS-65"
+  ],
+  "type": "Deep field",
+  "aliases": [
+    "HELMS_RED_31",
+    "RARE-HELMS-65",
+    "dusty star-forming galaxy",
+    "starburst galaxy",
+    "deep field"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Hubble looked here for the starlight of an ultrared, dusty star-forming galaxy found in a Herschel survey. The aim was to measure its size and stellar mass, test whether gravitational lensing magnifies it, and look for neighbors in a young cluster.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-14",
+    "claims": [
+      {
+        "text": "RARE-HELMS-65 is an ultraluminous infrared galaxy target at provisional position 00 27 37.37 -02 07 58.48",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/apt/14083/"
+      },
+      {
+        "text": "HerMES J002737.3-020759 (HELMS_RED_31) is an ultrared dusty star-forming galaxy selected from HerMES",
+        "source": "https://arxiv.org/pdf/1709.04191"
+      },
+      {
+        "text": "Program 14083 studies the most luminous starburst galaxies, selected from the Herschel HerMES survey, to measure sizes, stellar masses, lensing amplification and protocluster membership",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/14083/"
+      },
+      {
+        "text": "HELMS_RED_31 is a red Herschel source studied with ALMA",
+        "source": "https://arxiv.org/html/1601.02665"
+      }
+    ]
+  }
+}

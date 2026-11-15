@@ -1,0 +1,44 @@
+{
+  "id": "macs-j1141-6-1905-hubble",
+  "name": "MACS J1141.6-1905 (Hubble)",
+  "blurb": "MACS J1141.6-1905, a massive galaxy cluster, seen by Hubble.",
+  "label": "macsj114161905-hubble",
+  "spec": "HST|MACSJ1141.6-1905|12884|WFC3/IR|macsj114161905-hubble",
+  "find": [
+    "HST|12884|MACSJ1141.6-1905"
+  ],
+  "type": "Galaxy cluster",
+  "aliases": [
+    "MACSJ1141.6-1905",
+    "galaxy cluster",
+    "gravitational lens"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A crowd of galaxies held together by gravity, around four billion light-years away. Hubble searched here for distant galaxies whose light is gravitationally lensed by the cluster.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-14",
+    "claims": [
+      {
+        "text": "MACS J1141.6-1905 is a galaxy cluster",
+        "source": "https://science.nasa.gov/missions/hubble/hubble-captures-galaxy-cluster/"
+      },
+      {
+        "text": "MACS J1141.6-1905 is around four billion light-years away",
+        "source": "https://science.nasa.gov/missions/hubble/hubble-captures-galaxy-cluster/"
+      },
+      {
+        "text": "The programs looked for distant galaxies gravitationally lensed by the cluster",
+        "source": "https://science.nasa.gov/missions/hubble/hubble-captures-galaxy-cluster/"
+      },
+      {
+        "text": "It is one of the most massive, very X-ray luminous clusters in the MACS snapshot survey",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/12884/"
+      }
+    ]
+  }
+}

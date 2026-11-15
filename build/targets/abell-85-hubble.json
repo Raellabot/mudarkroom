@@ -1,0 +1,48 @@
+{
+  "id": "abell-85-hubble",
+  "name": "Abell 85 (Hubble)",
+  "blurb": "Abell 85, a galaxy cluster, seen by Hubble.",
+  "label": "abell85-hubble",
+  "spec": "HST|ABELL85-6-08-0|12937|ACS/WFC|abell85-hubble",
+  "find": [
+    "HST|12937|ABELL85-6-08-0"
+  ],
+  "type": "Galaxy cluster",
+  "aliases": [
+    "galaxy cluster",
+    "cluster of galaxies",
+    "intracluster light"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A quiet spot inside the galaxy cluster Abell 85, where a Type Ia supernova once exploded with no galaxy around it. Hubble found nothing at its location, a sign that the star belonged to the faint population of stars stripped from their home galaxies.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-14",
+    "claims": [
+      {
+        "text": "Abell 85 is a galaxy cluster",
+        "source": "https://chandra.harvard.edu/photo/2008/darkenergy/index.html"
+      },
+      {
+        "text": "The target ABELL85-6-08-0 is the location of an apparently hostless, now-faded Type Ia supernova in Abell 85, imaged with deep HST ACS observations",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/12937/"
+      },
+      {
+        "text": "Hubble detected no object at the supernova's location; the SN Ia in Abell 85 is truly hostless",
+        "source": "https://arxiv.org/pdf/1505.03407"
+      },
+      {
+        "text": "Hostless SNe Ia support the idea that their progenitors belong to the intracluster stellar population",
+        "source": "https://arxiv.org/abs/1505.03407"
+      },
+      {
+        "text": "Intracluster light in Abell 85 is the glow of stars stripped from their home galaxies",
+        "source": "https://noirlab.edu/public/images/noirlab2333a"
+      }
+    ]
+  }
+}

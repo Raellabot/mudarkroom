@@ -1,0 +1,45 @@
+{
+  "id": "eso-274-g001-hubble",
+  "name": "ESO 274-G001 (Hubble)",
+  "blurb": "ESO 274-G001, an edge-on spiral galaxy, seen by Hubble.",
+  "label": "eso274g001-hubble",
+  "spec": "HST|E274-01|10235|ACS/WFC|eso274g001-hubble",
+  "find": [
+    "HST|10235|E274-01"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "HIPASS J1514-46",
+    "edge-on galaxy",
+    "spiral galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A late-type spiral seen edge-on at the outskirts of the Centaurus A group, glimpsed through a curtain of foreground dust and stars in our own Milky Way.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-14",
+    "claims": [
+      {
+        "text": "ESO 274-G001 is a late-type spiral galaxy in the outskirts of the Centaurus A (Cen A) group",
+        "source": "https://www.narrabri.atnf.csiro.au/research/LVHIS/data/LVHIS072.info.html"
+      },
+      {
+        "text": "Its stellar disk is seen edge-on and is obscured by foreground dust and stars of our galaxy",
+        "source": "https://www.narrabri.atnf.csiro.au/research/LVHIS/data/LVHIS072.info.html"
+      },
+      {
+        "text": "Alternate designation HIPASS J1514-46",
+        "source": "https://www.narrabri.atnf.csiro.au/research/LVHIS/data/LVHIS072.info.html"
+      },
+      {
+        "text": "Position RA 228.55595, Dec -46.80920 (matches the pointing)",
+        "source": "https://irsa.ipac.caltech.edu/data/LGA/images/eso274-g001.html"
+      }
+    ]
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "id": "palomar-2-hubble",
+  "name": "Palomar 2 (Hubble)",
+  "blurb": "Palomar 2, a globular cluster, seen by Hubble.",
+  "label": "palomar2-hubble",
+  "spec": "HST|PALOMAR2|10775|ACS/WFC|palomar2-hubble",
+  "find": [
+    "HST|10775|PALOMAR2"
+  ],
+  "type": "Star cluster",
+  "aliases": [
+    "globular cluster",
+    "star cluster",
+    "outer halo globular cluster"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Palomar 2 is a globular cluster veiled by dust, one of 15 faint Palomar clusters, and the only globular cluster we see in this part of the sky, in the constellation Auriga. Some astronomers have linked it to the Sagittarius dwarf galaxy.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-14",
+    "claims": [
+      {
+        "text": "Palomar 2 is a globular cluster, one of 15 Palomar clusters, veiled by dust",
+        "source": "https://esahubble.org/images/potw1315a"
+      },
+      {
+        "text": "It is the only globular cluster seen in this part of the sky, in the constellation Auriga",
+        "source": "https://esahubble.org/images/potw1315a"
+      },
+      {
+        "text": "Palomar 2 is an outer halo globular cluster",
+        "source": "https://esahubble.org/images/potw1315a"
+      },
+      {
+        "text": "Palomar 2 was a target of the ACS Survey of Galactic Globular Clusters, included because it has been associated with the Sagittarius dwarf",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/10775/"
+      }
+    ]
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "id": "ngc-4690-hubble",
+  "name": "NGC 4690 (Hubble)",
+  "blurb": "NGC 4690, a slowly rotating early-type galaxy, seen by Hubble.",
+  "label": "ngc4690-hubble",
+  "spec": "HST|NGC-4690|13324|WFC3/UVIS|ngc4690-hubble",
+  "find": [
+    "HST|13324|NGC-4690"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "early-type galaxy",
+    "slow rotator",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "The stars of this galaxy circle its center only slowly, and Hubble's sharp view found no flattened core at its heart. Astronomers think galaxies like it were assembled in a different way than slow rotators that do have cores.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-14",
+    "claims": [
+      {
+        "text": "NGC 4690 is one of the 12 slowly rotating early-type galaxies imaged in program 13324",
+        "source": "https://www.aanda.org/10.1051/0004-6361/201937040/pdf"
+      },
+      {
+        "text": "NGC 4690's nuclear light profile is core-less",
+        "source": "https://www.aanda.org/10.1051/0004-6361/201937040/pdf"
+      },
+      {
+        "text": "Cored and core-less slow rotators assembled through different processes",
+        "source": "https://www.aanda.org/10.1051/0004-6361/201937040"
+      },
+      {
+        "text": "Program 13324 targets early-type galaxies with low angular momentum",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/13324/"
+      }
+    ]
+  }
+}

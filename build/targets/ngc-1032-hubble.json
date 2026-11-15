@@ -1,0 +1,45 @@
+{
+  "id": "ngc-1032-hubble",
+  "name": "NGC 1032 (Hubble)",
+  "blurb": "NGC 1032, an edge-on early-type spiral galaxy, seen by Hubble.",
+  "label": "ngc1032-hubble",
+  "spec": "HST|SN-2005E|13698|ACS/WFC|ngc1032-hubble",
+  "find": [
+    "HST|13698|SN-2005E"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "NGC1032",
+    "SN 2005E",
+    "SN2005E",
+    "SN 2005E host",
+    "calcium-rich supernova",
+    "edge-on galaxy",
+    "spiral galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "An isolated galaxy seen edge-on; far out in its halo, the faint, calcium-rich supernova SN 2005E once flared. Hubble looked deep at the explosion site to search for any stars that might have given rise to it.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-14",
+    "claims": [
+      {
+        "text": "NGC 1032 is an isolated, edge-on, early-type spiral (S0/a) galaxy",
+        "source": "https://ar5iv.arxiv.org/html/0906.2003"
+      },
+      {
+        "text": "SN 2005E was a faint, calcium-rich type Ib supernova in the halo of NGC 1032",
+        "source": "https://ar5iv.arxiv.org/html/0906.2003"
+      },
+      {
+        "text": "Program 13698 imaged the SN 2005E site deeply because shallower imaging showed no underlying stellar system there",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/13698/"
+      }
+    ]
+  }
+}

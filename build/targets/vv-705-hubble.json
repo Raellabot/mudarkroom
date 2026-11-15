@@ -1,0 +1,48 @@
+{
+  "id": "vv-705-hubble",
+  "name": "VV 705 (Hubble)",
+  "blurb": "VV 705, a pair of merging galaxies, seen by Hubble.",
+  "label": "vv705-hubble",
+  "spec": "HST|VV705|10592|ACS/WFC|vv705-hubble",
+  "find": [
+    "HST|10592|VV705"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "Markarian 848",
+    "Mrk 848",
+    "I Zw 107",
+    "interacting galaxies",
+    "merging galaxies",
+    "luminous infrared galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Two galaxies seem to embrace, trailing long curved arms of gas and stars around their two cores. The pair is thought to be midway through a merger.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-14",
+    "claims": [
+      {
+        "text": "VV 705, or Markarian 848, consists of two galaxies that seem to be embracing each other, with long curved arms of gas and stars, midway through a merger",
+        "source": "https://science.nasa.gov/?p=461674"
+      },
+      {
+        "text": "VV 705 is also known as Mrk 848 and I Zw 107",
+        "source": "https://science.nasa.gov/?p=461674"
+      },
+      {
+        "text": "ESA/Hubble release image of VV 705 (Markarian 848) taken with ACS in B (435 nm) and I (814 nm)",
+        "source": "https://esahubble.org/images/heic0810bw/"
+      },
+      {
+        "text": "VV 705 is a target of HST program 10592, an ACS survey of luminous infrared galaxies (mostly interacting or merging disk galaxies)",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/10592/"
+      }
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "id": "ngc-1651-hubble",
+  "name": "NGC 1651 (Hubble)",
+  "blurb": "NGC 1651, a star cluster in the Large Magellanic Cloud, seen by Hubble.",
+  "label": "ngc1651-hubble",
+  "spec": "HST|NGC-1651|12257|WFC3/UVIS|ngc1651-hubble",
+  "find": [
+    "HST|12257|NGC-1651"
+  ],
+  "type": "Star cluster",
+  "aliases": [
+    "globular cluster",
+    "star cluster",
+    "Large Magellanic Cloud",
+    "LMC"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A crowd of stars in the Large Magellanic Cloud, a satellite galaxy of the Milky Way. Hubble studied clusters like this one because their stars do not all seem to have aged in step, challenging the idea that a cluster's stars are born together.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-14",
+    "claims": [
+      {
+        "text": "NGC 1651 is a globular cluster in the Large Magellanic Cloud, a satellite galaxy of the Milky Way",
+        "source": "https://esahubble.org/images/potw2413a/"
+      },
+      {
+        "text": "NGC 1651 is a star cluster in the LMC that exhibits an extended main sequence turnoff",
+        "source": "https://ar5iv.labs.arxiv.org/html/1503.07862"
+      },
+      {
+        "text": "HST program 12257 targets NGC 1651 because multiple main-sequence turn-offs challenge the notion that star clusters are simple stellar populations",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/12257/"
+      }
+    ]
+  }
+}

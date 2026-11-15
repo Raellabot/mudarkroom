@@ -1,0 +1,41 @@
+{
+  "id": "smc-halo-field-hubble",
+  "name": "Small Magellanic Cloud halo field (Hubble)",
+  "blurb": "A remote halo field of the Small Magellanic Cloud, seen by Hubble.",
+  "label": "smchalofield-hubble",
+  "spec": "HST|QJ0033-2|13673|ACS/WFC|smchalofield-hubble",
+  "find": [
+    "HST|13673|QJ0033-2"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "QJ0033-2",
+    "Small Magellanic Cloud",
+    "SMC",
+    "star field"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A quiet stretch of the Small Magellanic Cloud's outer halo, where Hubble counted faint, metal-poor stars to test whether the mix of stellar masses at birth depends on a galaxy's chemistry.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-14",
+    "claims": [
+      {
+        "text": "QJ0033-2 is a pointing in a remote halo field of the Small Magellanic Cloud (program 13673), at RA 00 33 55.0, Dec -70 30 07",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/13673/"
+      },
+      {
+        "text": "The field is metal-poor",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/13673/"
+      },
+      {
+        "text": "The goal is to measure how the initial mass function depends on metallicity",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/13673/"
+      }
+    ]
+  }
+}

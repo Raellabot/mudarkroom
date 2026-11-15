@@ -1,0 +1,49 @@
+{
+  "id": "sdf02-hubble",
+  "name": "Subaru Deep Field pointing 2 (Hubble)",
+  "blurb": "A deep field toward a distant galaxy in the Subaru Deep Field, seen by Hubble.",
+  "label": "sdf02-hubble",
+  "spec": "HST|SDF02|12329|WFC3/IR|sdf02-hubble",
+  "find": [
+    "HST|12329|SDF02"
+  ],
+  "type": "Deep field",
+  "aliases": [
+    "SDF02",
+    "Subaru Deep Field",
+    "SDF",
+    "deep field"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "This pointing lies in the Subaru Deep Field, where Hubble looked toward one of the most distant galaxies then known. It came to read the light of young stars in the early universe.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-14",
+    "claims": [
+      {
+        "text": "SDF stands for the Subaru Deep Field; program 12329 studies spectroscopically confirmed galaxies at 5.7<z<7 there",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/12329/"
+      },
+      {
+        "text": "SDF02 is a pointing on a high-redshift galaxy",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/list/12329/"
+      },
+      {
+        "text": "The program targets the highest-redshift galaxies known",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/12329/"
+      },
+      {
+        "text": "The WFC3 images measure the rest-frame ultraviolet light of young stellar populations",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/12329/"
+      },
+      {
+        "text": "The Subaru Deep Field is a Subaru Observatory deep galaxy survey over a blank field",
+        "source": "https://arxiv.org/abs/astro-ph/0410005"
+      }
+    ]
+  }
+}

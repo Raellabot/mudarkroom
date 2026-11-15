@@ -1,0 +1,44 @@
+{
+  "id": "jkcs-041-hubble",
+  "name": "JKCS 041 (Hubble)",
+  "blurb": "JKCS 041, a distant galaxy cluster, seen by Hubble.",
+  "label": "jkcs041-hubble",
+  "spec": "HST|JKCS041-1|12927|WFC3/IR|jkcs041-hubble",
+  "find": [
+    "HST|12927|JKCS041-1"
+  ],
+  "type": "Galaxy cluster",
+  "aliases": [
+    "JKCS041",
+    "galaxy cluster",
+    "distant galaxy cluster"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "JKCS 041 is a rich cluster in the distant universe, where most member galaxies had already stopped forming stars. Hubble came to see how their crowded surroundings shaped the growth of its compact galaxies.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-14",
+    "claims": [
+      {
+        "text": "JKCS 041 is a rich, distant galaxy cluster",
+        "source": "https://arxiv.org/abs/1310.6754"
+      },
+      {
+        "text": "Most confirmed members are quiescent (no longer forming stars)",
+        "source": "https://arxiv.org/abs/1310.6754"
+      },
+      {
+        "text": "HST program 12927 studies the role of the environment in the growth of compact red galaxies in JKCS041",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/12927/"
+      },
+      {
+        "text": "JKCS041-1 is one of the program's pointings on the cluster",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/12927/"
+      }
+    ]
+  }
+}

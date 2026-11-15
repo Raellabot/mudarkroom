@@ -1,0 +1,49 @@
+{
+  "id": "agc-749237-hubble",
+  "name": "AGC 749237 (Hubble)",
+  "blurb": "AGC 749237, a gas-rich dwarf galaxy, seen by Hubble.",
+  "label": "agc749237-hubble",
+  "spec": "HST|AGC749237|12658|ACS/WFC|agc749237-hubble",
+  "find": [
+    "HST|12658|AGC749237"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "AGC749237",
+    "SHIELD galaxy",
+    "dwarf galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A tiny, gas-rich dwarf galaxy, first found through the hydrogen gas it holds, that appears to be truly isolated in space. Hubble picked out its stars to measure how far away it is.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-14",
+    "claims": [
+      {
+        "text": "AGC 749237 is one of the low-mass, gas-rich galaxies of the SHIELD program",
+        "source": "https://arxiv.org/pdf/1402.3723"
+      },
+      {
+        "text": "AGC 749237 is a target of Hubble program 12658 on SHIELD galaxies",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/12658/"
+      },
+      {
+        "text": "SHIELD galaxies were discovered by the ALFALFA survey of neutral hydrogen (HI)",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/12658/"
+      },
+      {
+        "text": "AGC 749237 appears to be truly isolated",
+        "source": "https://arxiv.org/pdf/1402.3723"
+      },
+      {
+        "text": "Hubble imaging was used to measure its distance from its stars (tip of the red giant branch)",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/12658/"
+      }
+    ]
+  }
+}

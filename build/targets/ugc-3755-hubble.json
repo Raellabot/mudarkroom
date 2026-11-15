@@ -1,0 +1,41 @@
+{
+  "id": "ugc-3755-hubble",
+  "name": "UGC 3755 (Hubble)",
+  "blurb": "UGC 3755, a dwarf irregular galaxy, seen by Hubble.",
+  "label": "ugc3755-hubble",
+  "spec": "HST|UGC3755|10210|ACS/WFC|ugc3755-hubble",
+  "find": [
+    "HST|10210|UGC3755"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "dwarf irregular galaxy",
+    "dwarf galaxy",
+    "irregular galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A small, irregular galaxy that has been little studied. Hubble picked out its brightest red giant stars to measure how far away it is, and to test whether it belongs to a loose association of dwarf galaxies.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-14",
+    "claims": [
+      {
+        "text": "UGC 3755 is a typical dwarf irregular galaxy that has been little studied",
+        "source": "https://arxiv.org/pdf/astro-ph/0204192"
+      },
+      {
+        "text": "HST program 10210 used the tip of the red giant branch method with ACS to measure distances to dwarf galaxies in groups, UGC 3755 among them",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/list/10210/"
+      },
+      {
+        "text": "UGC 3755's membership in the 14+19 association of dwarf galaxies is in doubt",
+        "source": "https://ar5iv.arxiv.org/html/astro-ph/0603380"
+      }
+    ]
+  }
+}

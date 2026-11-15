@@ -1,0 +1,45 @@
+{
+  "id": "f615-1-hubble",
+  "name": "F615-1 (Hubble)",
+  "blurb": "F615-1, a low surface brightness dwarf galaxy, seen by Hubble.",
+  "label": "f6151-hubble",
+  "spec": "HST|F615-1|15427|WFC3/IR|f6151-hubble",
+  "find": [
+    "HST|15427|F615-1"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "low surface brightness galaxy",
+    "LSB galaxy",
+    "dwarf galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A faint, diffuse dwarf galaxy with no sign of stars forming today. Hubble picked out its individual giant stars to help weigh starlight against dark matter, and found hints of several past episodes of star birth from metal-poor gas.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-14",
+    "claims": [
+      {
+        "text": "F615-1 is a low surface brightness (LSB) dwarf galaxy targeted by HST program 15427 at RA 02 43 25.68, Dec +16 43 58.10",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15427/"
+      },
+      {
+        "text": "The program measures the near-IR mass-to-light ratio of LSB dwarfs to calibrate stellar population models used in dark matter studies",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15427/"
+      },
+      {
+        "text": "F615-1 shows no current star formation (no H-alpha emission)",
+        "source": "https://arxiv.org/abs/2012.09911"
+      },
+      {
+        "text": "F615-1's wide RGB and AGB sequences suggest multiple episodes of star formation from metal-poor gas",
+        "source": "https://arxiv.org/abs/2012.09911"
+      }
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "id": "ugc-3587-hubble",
+  "name": "UGC 3587 (Hubble)",
+  "blurb": "UGC 3587, a low surface brightness galaxy, seen by Hubble.",
+  "label": "ugc3587-hubble",
+  "spec": "HST|UGC-03587|10550|ACS/WFC|ugc3587-hubble",
+  "find": [
+    "HST|10550|UGC-03587"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "UGC 03587",
+    "low surface brightness galaxy",
+    "LSB galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "UGC 3587 is a massive galaxy with an unusually dim, diffuse glow. Hubble searched it for globular clusters, whose presence and makeup hint at how such faint galaxies formed.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-14",
+    "claims": [
+      {
+        "text": "UGC 03587 is one of six massive low surface brightness galaxies targeted by HST program 10550",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/10550/"
+      },
+      {
+        "text": "The presence or absence of globular clusters constrains how LSB galaxies formed and evolved",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/10550/"
+      },
+      {
+        "text": "An ACS/HST survey searched for globular clusters in massive LSB galaxies",
+        "source": "https://ui.adsabs.harvard.edu/abs/10.1017/S1743921307008770"
+      }
+    ]
+  }
+}

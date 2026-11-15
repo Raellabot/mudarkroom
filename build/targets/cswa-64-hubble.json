@@ -1,0 +1,46 @@
+{
+  "id": "cswa-64-hubble",
+  "name": "CSWA 64 (Hubble)",
+  "blurb": "CSWA 64, an ultra-massive lens galaxy, seen by Hubble.",
+  "label": "cswa64-hubble",
+  "spec": "HST+HST|CSWA64+CSWA64|15253+15253|WFC3/IR+WFC3/UVIS|cswa64-hubble",
+  "find": [
+    "HST|15253|CSWA64"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "CSWA64",
+    "gravitational lens",
+    "lens galaxy",
+    "early-type galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "One of the most massive lens galaxies known, its gravity bends the light of a more distant galaxy behind it into multiple images. Hubble's sharp view lets astronomers weigh the giant and map how its stars are spread.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-14",
+    "claims": [
+      {
+        "text": "CSWA64 is one of four extremely massive early-type lens galaxies targeted by HST program 15253",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15253/"
+      },
+      {
+        "text": "These are among the most massive lens galaxies known",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15253/"
+      },
+      {
+        "text": "The lens produces multiple images of a background source",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15253/"
+      },
+      {
+        "text": "Hubble imaging is used to measure the lenses' stellar mass distributions and total mass",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15253/"
+      }
+    ]
+  }
+}

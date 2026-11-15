@@ -1,0 +1,46 @@
+{
+  "id": "sdf01-hubble",
+  "name": "Subaru Deep Field pointing 1 (Hubble)",
+  "blurb": "A deep field in the Subaru Deep Field toward very distant galaxies, seen by Hubble.",
+  "label": "sdf01-hubble",
+  "spec": "HST|SDF01|12329|WFC3/IR|sdf01-hubble",
+  "find": [
+    "HST|12329|SDF01"
+  ],
+  "type": "Deep field",
+  "aliases": [
+    "SDF01",
+    "Subaru Deep Field",
+    "SDF",
+    "deep field",
+    "high-redshift galaxies"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "This small patch of the Subaru Deep Field holds galaxies already confirmed to lie at enormous distances, too faint to point out here. Hubble looked to learn how the earliest galaxies formed and how much they contributed to cosmic reionization.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-14",
+    "claims": [
+      {
+        "text": "SDF01 is a pointing at RA 13h23m46s, Dec +27d24'36\" targeting high-redshift galaxies at z = 6",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/list/12329/"
+      },
+      {
+        "text": "Program 12329 studies spectroscopically confirmed galaxies at 5.7<z<7 in the Subaru Deep Field",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/12329/"
+      },
+      {
+        "text": "The aim is to understand the earliest galaxy formation and the galaxies' contribution to cosmic reionization",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/12329/"
+      },
+      {
+        "text": "The HST WFC3 F125W/F160W imaging covered spectroscopically confirmed z>=6 galaxies, most discovered in the Subaru Deep Field",
+        "source": "https://web3.arxiv.org/abs/1303.0024v1"
+      }
+    ]
+  }
+}

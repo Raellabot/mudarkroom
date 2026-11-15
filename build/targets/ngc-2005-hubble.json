@@ -1,0 +1,45 @@
+{
+  "id": "ngc-2005-hubble",
+  "name": "NGC 2005 (Hubble)",
+  "blurb": "NGC 2005, a globular cluster in the Large Magellanic Cloud, seen by Hubble.",
+  "label": "ngc2005-hubble",
+  "spec": "HST|NGC-2005|12257|WFC3/UVIS|ngc2005-hubble",
+  "find": [
+    "HST|12257|NGC-2005"
+  ],
+  "type": "Star cluster",
+  "aliases": [
+    "globular cluster",
+    "star cluster",
+    "Large Magellanic Cloud",
+    "LMC cluster"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A globular cluster near the heart of the Large Magellanic Cloud, its stars chemically unlike their neighbors: an ancient witness to a long-past merger of galaxies.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-14",
+    "claims": [
+      {
+        "text": "NGC 2005 is a globular cluster",
+        "source": "https://esahubble.org/images/potw2424a/"
+      },
+      {
+        "text": "It lies near the heart of the Large Magellanic Cloud",
+        "source": "https://esahubble.org/images/potw2424a/"
+      },
+      {
+        "text": "Its stars are chemically distinct from the surrounding LMC stars; it is an ancient witness to a long-past merger",
+        "source": "https://esahubble.org/images/potw2424a/"
+      },
+      {
+        "text": "NGC 2005 is a target of program 12257 (Magellanic Cloud star clusters), at RA 05 30 10.0, Dec -69 45 07.8",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/12257/"
+      }
+    ]
+  }
+}

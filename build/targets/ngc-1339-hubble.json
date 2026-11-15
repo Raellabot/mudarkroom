@@ -1,0 +1,46 @@
+{
+  "id": "ngc-1339-hubble",
+  "name": "NGC 1339 (Hubble)",
+  "blurb": "NGC 1339, an elliptical galaxy in the Fornax Cluster, seen by Hubble.",
+  "label": "ngc1339-hubble",
+  "spec": "HST|FCC63|10217|ACS/WFC|ngc1339-hubble",
+  "find": [
+    "HST|10217|FCC63"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "FCC 63",
+    "elliptical galaxy",
+    "early-type galaxy",
+    "Fornax Cluster",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "An elliptical galaxy among the early-type members of the Fornax Cluster, imaged in a Hubble survey of the cluster's galaxies and the globular star clusters that swarm around them.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-14",
+    "claims": [
+      {
+        "text": "FCC 63 is NGC 1339, type E4 (elliptical), at RA 03 28 06.55, Dec -32 17 05.87",
+        "source": "https://arxiv.org/pdf/astro-ph/0702320"
+      },
+      {
+        "text": "It is one of the early-type galaxies in Fornax imaged by the ACS Fornax Cluster Survey",
+        "source": "https://arxiv.org/abs/astro-ph/0702320"
+      },
+      {
+        "text": "The survey measures globular clusters associated with these galaxies",
+        "source": "https://arxiv.org/abs/astro-ph/0702320"
+      },
+      {
+        "text": "NGC 1339 is an elliptical (E3) galaxy",
+        "source": "https://ngcicproject.observers.org/NGC/NGC_13xx/NGC_1339.htm"
+      }
+    ]
+  }
+}

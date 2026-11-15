@@ -1,0 +1,45 @@
+{
+  "id": "q0302-223-hubble",
+  "name": "Q0302-223 field (Hubble)",
+  "blurb": "A deep field toward the quasar Q0302-223, seen by Hubble.",
+  "label": "q0302223-hubble",
+  "spec": "HST|Q0302|13733|WFC3/IR|q0302223-hubble",
+  "find": [
+    "HST|13733|Q0302"
+  ],
+  "type": "Deep field",
+  "aliases": [
+    "Q0302-223",
+    "quasar",
+    "damped Lyman-alpha absorber",
+    "DLA"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "This field surrounds a distant quasar. A galaxy along the line of sight leaves a deep absorption mark in the quasar's light, known as a damped Lyman-alpha absorber, and Hubble looked here for that galaxy's faint starlight to learn about its stars and surroundings.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-14",
+    "claims": [
+      {
+        "text": "HST program 13733 target Q0302 lies at RA 03 04 49.86, Dec -22 11 51.90, with a DLA galaxy at z=1.009",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/13733/"
+      },
+      {
+        "text": "The quasar is Q0302-223 (RA 03:04:49.79, Dec -22:11:53.17), with a DLA at z = 1.009, imaged with WFC3 F105W and F160W in program 13733",
+        "source": "https://ar5iv.arxiv.org/html/1805.05960"
+      },
+      {
+        "text": "A damped Lyman-alpha absorber lies toward quasar Q0302-223",
+        "source": "https://arxiv.org/abs/1009.0025v1"
+      },
+      {
+        "text": "The program aims to characterize the stellar content and environment of DLA galaxies by probing their faint optical continuum",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/13733/"
+      }
+    ]
+  }
+}

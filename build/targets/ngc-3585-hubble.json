@@ -1,0 +1,41 @@
+{
+  "id": "ngc-3585-hubble",
+  "name": "NGC 3585 (Hubble)",
+  "blurb": "NGC 3585, an elliptical galaxy, seen by Hubble.",
+  "label": "ngc3585-hubble",
+  "spec": "HST|NGC3585-A|14852|ACS/WFC|ngc3585-hubble",
+  "find": [
+    "HST|14852|NGC3585-A"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "NGC3585",
+    "NGC3585-A",
+    "elliptical galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "This frame reaches out across the body of the elliptical galaxy NGC 3585, beyond earlier views of its center. Paired with X-ray images, it helps trace how the X-ray binaries scattered through a galaxy fade as its stars grow old.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-14",
+    "claims": [
+      {
+        "text": "NGC 3585 is an elliptical galaxy (type E7)",
+        "source": "https://arxiv.org/pdf/2004.13045"
+      },
+      {
+        "text": "NGC3585-A is an offset ACS field that extends coverage beyond archival data of the galaxy's center, for a mosaic covering the galaxy",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/14852/"
+      },
+      {
+        "text": "Program 14852 combines Chandra and HST to measure how field low-mass X-ray binaries evolve with stellar age, predicted to decline with age",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/14852/"
+      }
+    ]
+  }
+}

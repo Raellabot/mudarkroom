@@ -1,0 +1,36 @@
+{
+  "id": "vvv-cl005-hubble",
+  "name": "VVV CL005 (Hubble)",
+  "blurb": "VVV CL005, a dust-shrouded star cluster in the Milky Way, seen by Hubble.",
+  "label": "vvvcl005-hubble",
+  "spec": "HST|VVV-CL005|17918|WFC3/IR|vvvcl005-hubble",
+  "find": [
+    "HST|17918|VVV-CL005"
+  ],
+  "type": "Star cluster",
+  "aliases": [
+    "VVV-CL005",
+    "star cluster",
+    "obscured cluster"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Hidden behind thick dust in our own galaxy, this cluster was found in the VVV survey; Hubble returned to it in an effort to unveil some of the Milky Way's most heavily obscured star clusters.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-14",
+    "claims": [
+      {
+        "text": "VVV CL005 was discovered in the VVV survey, at RA 11:38:59, Dec -63:28:44",
+        "source": "https://arxiv.org/pdf/1106.3045"
+      },
+      {
+        "text": "It is a target of program 17918 on extremely obscured Galactic clusters",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/17918/"
+      }
+    ]
+  }
+}

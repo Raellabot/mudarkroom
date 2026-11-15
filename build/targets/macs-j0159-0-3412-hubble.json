@@ -1,0 +1,40 @@
+{
+  "id": "macs-j0159-0-3412-hubble",
+  "name": "MACS J0159.0-3412 (Hubble)",
+  "blurb": "MACS J0159.0-3412, a massive galaxy cluster, seen by Hubble.",
+  "label": "macsj015903412-hubble",
+  "spec": "HST|MACSJ0159.0-3412|15843|WFC3/IR|macsj015903412-hubble",
+  "find": [
+    "HST|15843|MACSJ0159.0-3412"
+  ],
+  "type": "Galaxy cluster",
+  "aliases": [
+    "MACSJ0159.0-3412",
+    "galaxy cluster",
+    "cluster of galaxies"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A swarm of galaxies bound in one of the most X-ray-luminous clusters known. Its X-ray glow shows several peaks and no clear central galaxy, marking it as one of the most disturbed clusters in its class.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-14",
+    "claims": [
+      {
+        "text": "MACS J0159.0-3412 is a cluster in a statistically complete sample of 108 of the most X-ray-luminous clusters from the MAssive Cluster Survey, at z = 0.41",
+        "source": "https://academic.oup.com/mnras/article/420/3/2120/978455"
+      },
+      {
+        "text": "Its morphological code 4 means poor X-ray-optical alignment, multiple peaks and an ambiguous brightest cluster galaxy, the most disturbed class",
+        "source": "https://academic.oup.com/mnras/article/420/3/2120/978455"
+      },
+      {
+        "text": "MACSJ0159.0-3412 is a target of HST program 15843, a snapshot survey of the most massive galaxy clusters",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15843/"
+      }
+    ]
+  }
+}

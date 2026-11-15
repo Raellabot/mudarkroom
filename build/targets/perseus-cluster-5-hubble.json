@@ -1,0 +1,45 @@
+{
+  "id": "perseus-cluster-5-hubble",
+  "name": "Perseus Cluster field 5 (Hubble)",
+  "blurb": "A field in the core of the Perseus Cluster of galaxies, seen by Hubble.",
+  "label": "perseuscluster5-hubble",
+  "spec": "HST|PERSEUSCLUSTER5|10201|ACS/WFC|perseuscluster5-hubble",
+  "find": [
+    "HST|10201|PERSEUSCLUSTER5"
+  ],
+  "type": "Galaxy cluster",
+  "aliases": [
+    "Perseus Cluster",
+    "PERSEUSCLUSTER5",
+    "galaxy cluster",
+    "dwarf galaxies"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "This is one of several Hubble pointings across the core of the rich Perseus Cluster, made to hunt for its small dwarf galaxies. Many of those dwarfs proved remarkably smooth, with few internal features.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-14",
+    "claims": [
+      {
+        "text": "PERSEUSCLUSTER5 is one of six Perseus Cluster pointings of HST program 10201 on the origin of dwarf galaxies in clusters",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/list/10201/"
+      },
+      {
+        "text": "The Hubble ACS survey targeted dwarf galaxies in the core of the rich nearby Perseus Cluster",
+        "source": "https://arxiv.org/abs/0811.3197"
+      },
+      {
+        "text": "The dwarfs found are remarkably smooth and lack internal features",
+        "source": "https://arxiv.org/abs/0811.3197"
+      },
+      {
+        "text": "The Hubble fields do not cover the central galaxy NGC 1275",
+        "source": "https://ar5iv.labs.arxiv.org/html/0811.3197"
+      }
+    ]
+  }
+}

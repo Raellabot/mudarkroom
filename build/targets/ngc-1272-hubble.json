@@ -1,0 +1,49 @@
+{
+  "id": "ngc-1272-hubble",
+  "name": "NGC 1272 (Hubble)",
+  "blurb": "NGC 1272, a giant elliptical galaxy in the Perseus Cluster, seen by Hubble.",
+  "label": "ngc1272-hubble",
+  "spec": "HST|PERSEUSCLUSTER3|10201|ACS/WFC|ngc1272-hubble",
+  "find": [
+    "HST|10201|PERSEUSCLUSTER3"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "Perseus Cluster",
+    "Perseus Cluster field 3",
+    "elliptical galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "The giant elliptical NGC 1272, one of the two brightest galaxies of the Perseus Cluster, one of the nearest rich galaxy clusters. Hubble surveyed this crowded core to find the cluster's small, faint dwarf galaxies.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-14",
+    "claims": [
+      {
+        "text": "NGC 1272 is a giant elliptical, one of the two brightest members of the Perseus Cluster",
+        "source": "https://ar5iv.arxiv.org/html/1001.1755"
+      },
+      {
+        "text": "The Perseus Cluster is one of the nearest rich galaxy clusters",
+        "source": "https://ar5iv.arxiv.org/html/1001.1755"
+      },
+      {
+        "text": "Perseus Cluster field 3 is centered at 03:19:23.17 +41:29:59.0, and NGC 1272 lies at 03:19:21.3 +41:29:26, inside this field",
+        "source": "https://arxiv.org/pdf/1202.2623"
+      },
+      {
+        "text": "The field is PERSEUSCLUSTER3 of Hubble program 10201",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/list/10201/"
+      },
+      {
+        "text": "The ACS survey of the Perseus Cluster core was used to study its dwarf galaxies",
+        "source": "https://ar5iv.arxiv.org/html/1001.1755"
+      }
+    ]
+  }
+}

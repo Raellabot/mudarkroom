@@ -1,0 +1,39 @@
+{
+  "id": "ngc-6139-hubble",
+  "name": "NGC 6139 (Hubble)",
+  "blurb": "NGC 6139, a globular cluster, seen by Hubble.",
+  "label": "ngc6139-hubble",
+  "spec": "HST|NGC6139|11628|WFC3/UVIS|ngc6139-hubble",
+  "find": [
+    "HST|11628|NGC6139"
+  ],
+  "type": "Star cluster",
+  "aliases": [
+    "globular cluster",
+    "star cluster"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A massive globular cluster, a gravitationally bound collection of aging stars that orbits the Milky Way. Hubble studied it among clusters that might harbor a black hole at their centers.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-14",
+    "claims": [
+      {
+        "text": "NGC 6139 is a massive globular cluster, a gravitationally bound collection of stars that orbits the Milky Way",
+        "source": "https://science.nasa.gov/missions/hubble/hubble-captures-cluster-of-aging-stars/"
+      },
+      {
+        "text": "NGC 6139 is home to an aging population of stars",
+        "source": "https://science.nasa.gov/missions/hubble/hubble-captures-cluster-of-aging-stars/"
+      },
+      {
+        "text": "NGC 6139 was a target of HST program 11628, 'Globular Cluster Candidates for Hosting a Central Black Hole'",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/11628/"
+      }
+    ]
+  }
+}

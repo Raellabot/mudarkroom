@@ -1,0 +1,50 @@
+{
+  "id": "dgsat-i-hubble",
+  "name": "DGSAT I (Hubble)",
+  "blurb": "DGSAT I, an ultra-diffuse galaxy, seen by Hubble.",
+  "label": "dgsati-hubble",
+  "spec": "HST|DGSAT-I|14846|ACS/WFC|dgsati-hubble",
+  "find": [
+    "HST|14846|DGSAT-I"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "DGSAT-I",
+    "ultra-diffuse galaxy",
+    "UDG",
+    "low surface brightness galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "DGSAT I spreads as wide as a giant galaxy yet glows as faintly as a dwarf, and it sits far from any crowd. Hubble counted its globular clusters to weigh the unseen dark matter around it.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-14",
+    "claims": [
+      {
+        "text": "DGSAT I is an isolated, quiescent ultra-diffuse galaxy",
+        "source": "https://arxiv.org/abs/2209.09910"
+      },
+      {
+        "text": "Ultra-diffuse galaxies have dwarf-like luminosities but giant-like sizes",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/list/14846/"
+      },
+      {
+        "text": "DGSAT I lies in a much sparser environment than similar galaxies in the Coma and Virgo clusters",
+        "source": "https://iac.edu.es/en/science-and-technology/publications/discovery-ultra-diffuse-galaxy-pisces-perseus-supercluster"
+      },
+      {
+        "text": "Hubble ACS imaging was used to count its globular clusters, as a proxy for its dark matter halo mass",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/list/14846/"
+      },
+      {
+        "text": "Hubble imaging found its globular clusters and a high cluster mass fraction consistent with an overmassive dark matter halo",
+        "source": "https://arxiv.org/abs/2209.09910"
+      }
+    ]
+  }
+}

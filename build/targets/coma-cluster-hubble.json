@@ -1,0 +1,49 @@
+{
+  "id": "coma-cluster-hubble",
+  "name": "Coma Cluster (Hubble)",
+  "blurb": "The Coma Cluster, a cluster of galaxies, seen by Hubble.",
+  "label": "comacluster-hubble",
+  "spec": "HST|COMA5-5|10861|ACS/WFC|comacluster-hubble",
+  "find": [
+    "HST|10861|COMA5-5"
+  ],
+  "type": "Galaxy cluster",
+  "aliases": [
+    "Abell 1656",
+    "Coma cluster of galaxies",
+    "galaxy cluster",
+    "galaxies"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A window into the Coma Cluster, Abell 1656, a great gathering of galaxies. Hubble's treasury survey imaged the cluster's core and infall region to study its dwarf galaxies, which hierarchical models count among the earliest galaxies.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-14",
+    "claims": [
+      {
+        "text": "The Coma cluster is a cluster of galaxies",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/10861/"
+      },
+      {
+        "text": "The Coma cluster is Abell 1656",
+        "source": "https://arxiv.org/pdf/1005.3300"
+      },
+      {
+        "text": "The survey imaged the core and infall region of the Coma cluster",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/10861/"
+      },
+      {
+        "text": "The survey studied the dwarf galaxy population, which hierarchical models count among the earliest galaxies",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/10861/"
+      },
+      {
+        "text": "COMA5-5 is a field (visit) of HST program 10861",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/10861/"
+      }
+    ]
+  }
+}

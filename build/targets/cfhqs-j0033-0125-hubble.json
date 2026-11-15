@@ -1,0 +1,50 @@
+{
+  "id": "cfhqs-j0033-0125-hubble",
+  "name": "CFHQS J0033-0125 field (Hubble)",
+  "blurb": "A deep field toward the quasar CFHQS J0033-0125, seen by Hubble.",
+  "label": "cfhqsj00330125-hubble",
+  "spec": "HST|CFHQS-J003311.40-012524.9|12974|WFC3/IR|cfhqsj00330125-hubble",
+  "find": [
+    "HST|12974|CFHQS-J003311.40-012524.9"
+  ],
+  "type": "Deep field",
+  "aliases": [
+    "CFHQS J003311.40-012524.9",
+    "CFHQS J0033-0125",
+    "quasar",
+    "z~6 quasar",
+    "deep field"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Hubble stared toward a quasar from the early universe, hunting for the starlight of the galaxy that surrounds it. The host stayed hidden, most likely veiled by dust.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-14",
+    "claims": [
+      {
+        "text": "CFHQS J003311.40-012524.9 is a target of HST program 12974, which images UV-faint z=6 quasars in the early universe",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/12974/"
+      },
+      {
+        "text": "The program aimed to detect the starlight of the host galaxies around the quasars",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/12974/"
+      },
+      {
+        "text": "CFHQS J0033-0125 is a z~6 quasar (redshift 6.13)",
+        "source": "https://arxiv.org/pdf/2007.13859"
+      },
+      {
+        "text": "No host galaxy was detected; only upper limits",
+        "source": "https://arxiv.org/pdf/2007.13859"
+      },
+      {
+        "text": "The limits likely reflect significant dust",
+        "source": "https://arxiv.org/abs/2007.13859"
+      }
+    ]
+  }
+}

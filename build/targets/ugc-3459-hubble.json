@@ -1,0 +1,46 @@
+{
+  "id": "ugc-3459-hubble",
+  "name": "UGC 3459 (Hubble)",
+  "blurb": "UGC 3459, a low surface brightness galaxy, seen by Hubble.",
+  "label": "ugc3459-hubble",
+  "spec": "HST|UGC-03459|10550|ACS/WFC|ugc3459-hubble",
+  "find": [
+    "HST|10550|UGC-03459"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "UGC 03459",
+    "UGC-03459",
+    "low surface brightness galaxy",
+    "LSB galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A massive galaxy of the dim, low surface brightness kind. Hubble searched it for globular clusters, dense collections of old stars, at a time when no globular cluster study of such galaxies had been reported.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-14",
+    "claims": [
+      {
+        "text": "UGC 3459 is a target of Hubble program 10550 on low surface brightness (LSB) galaxies and their globular clusters",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/10550/"
+      },
+      {
+        "text": "The program's sample is massive low surface brightness galaxies imaged with ACS in F475W and F775W",
+        "source": "https://core-prod.cambridgecore.org/core/services/aop-cambridge-core/content/view/5CED8E515D03A30B9409855AD41AE9AD/S1743921307008770a.pdf/globular_cluster_systems_in_massive_low_surface_brightness_galaxies.pdf"
+      },
+      {
+        "text": "No globular cluster study had been reported for LSB galaxies at the time",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/10550/"
+      },
+      {
+        "text": "Globular clusters are dense collections of older stars",
+        "source": "https://esahubble.org/images/potw1620a/"
+      }
+    ]
+  }
+}

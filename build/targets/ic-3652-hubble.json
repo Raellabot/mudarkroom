@@ -1,0 +1,42 @@
+{
+  "id": "ic-3652-hubble",
+  "name": "IC 3652 (Hubble)",
+  "blurb": "IC 3652, a dwarf elliptical galaxy in the Virgo Cluster, seen by Hubble.",
+  "label": "ic3652-hubble",
+  "spec": "HST|VCC1861|9401|ACS/WFC|ic3652-hubble",
+  "find": [
+    "HST|9401|VCC1861"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "VCC 1861",
+    "dwarf elliptical galaxy",
+    "nucleated dwarf elliptical",
+    "early-type dwarf galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A small dwarf galaxy in the Virgo Cluster, with a distinct nucleus at its center. Hubble imaged it as one of 100 early-type galaxies in the ACS Virgo Cluster Survey.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-14",
+    "claims": [
+      {
+        "text": "VCC 1861 is IC 3652, type dE0,N, one of the ACS Virgo Cluster Survey targets",
+        "source": "https://arxiv.org/pdf/astro-ph/0404138"
+      },
+      {
+        "text": "The ACS Virgo Cluster Survey imaged 100 early-type galaxies in the Virgo Cluster with Hubble",
+        "source": "https://arxiv.org/pdf/astro-ph/0404138"
+      },
+      {
+        "text": "VCC 1861 is a nucleated early-type dwarf (dwarf elliptical) galaxy in the Virgo Cluster",
+        "source": "https://arxiv.org/pdf/astro-ph/0701429"
+      }
+    ]
+  }
+}

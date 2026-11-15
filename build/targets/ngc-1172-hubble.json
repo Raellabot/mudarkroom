@@ -1,0 +1,35 @@
+{
+  "id": "ngc-1172-hubble",
+  "name": "NGC 1172 (Hubble)",
+  "blurb": "NGC 1172, an isolated elliptical galaxy, seen by Hubble.",
+  "label": "ngc1172-hubble",
+  "spec": "HST|NGC1172|10554|ACS/WFC|ngc1172-hubble",
+  "find": [
+    "HST|10554|NGC1172"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "elliptical galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A lone elliptical galaxy far from crowded neighborhoods, wrapped in an unusually rich swarm of globular star clusters. Hubble set out to measure those clusters to learn how such quiet galaxies grew.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-14",
+    "claims": [
+      {
+        "text": "NGC 1172 is an isolated elliptical galaxy with a rich globular cluster system of unusually high specific frequency",
+        "source": "https://www.cambridge.org/core/journals/proceedings-of-the-international-astronomical-union/article/widefield-study-of-ngc-1172-and-its-rich-globular-cluster-system/A90AFF8433F474D7B90189EFDF2A960C"
+      },
+      {
+        "text": "HST program 10554 measured globular cluster populations of low-luminosity ellipticals in low-density environments, NGC 1172 among them, to test models of galaxy formation",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/10554/"
+      }
+    ]
+  }
+}

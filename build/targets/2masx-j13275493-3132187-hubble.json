@@ -1,0 +1,46 @@
+{
+  "id": "2masx-j13275493-3132187-hubble",
+  "name": "2MASX J13275493-3132187 (Hubble)",
+  "blurb": "2MASX J13275493-3132187, a massive galaxy in the Shapley Supercluster, seen by Hubble.",
+  "label": "2masxj132754933132187-hubble",
+  "spec": "HST|2MASXJ13275493-3132187|10429|ACS/WFC|2masxj132754933132187-hubble",
+  "find": [
+    "HST|10429|2MASXJ13275493-3132187"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "2MASXJ13275493-3132187",
+    "J13275493-3132187",
+    "Shapley Supercluster",
+    "brightest cluster galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A massive galaxy in the Shapley Supercluster. Hubble took a long look here to measure how fast it falls through the supercluster, and found thousands of globular clusters swarming around it.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-14",
+    "claims": [
+      {
+        "text": "J13275493-3132187 is one of the galaxies imaged by HST program 10429",
+        "source": "https://arxiv.org/html/2304.11210v1"
+      },
+      {
+        "text": "The program 10429 images were taken to measure the galaxies' distances and infall velocities within the Shapley Supercluster",
+        "source": "https://arxiv.org/html/2304.11210v1"
+      },
+      {
+        "text": "The sample galaxies are massive brightest cluster galaxies in rich clusters",
+        "source": "https://arxiv.org/html/2304.11210v1"
+      },
+      {
+        "text": "Thousands of globular clusters were found around it in the deep Hubble images",
+        "source": "https://arxiv.org/html/2304.11210v1"
+      }
+    ]
+  }
+}

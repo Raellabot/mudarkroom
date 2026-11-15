@@ -1,0 +1,50 @@
+{
+  "id": "macs-j0416-1-2403-hubble",
+  "name": "MACS J0416.1-2403 bridge field (Hubble)",
+  "blurb": "A field on the outskirts of the galaxy cluster MACS J0416.1-2403, seen by Hubble.",
+  "label": "macsj041612403-hubble",
+  "spec": "HST|MCS-J0416.1-2403-BRIDGE2|16757|WFC3/IR|macsj041612403-hubble",
+  "find": [
+    "HST|16757|MCS-J0416.1-2403-BRIDGE2"
+  ],
+  "type": "Galaxy cluster",
+  "aliases": [
+    "MACSJ0416.1-2403",
+    "MCS J0416.1-2403",
+    "MACS J0416",
+    "Hubble Frontier Fields",
+    "galaxy cluster"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "This pointing bridges the gap between the cluster's core and a neighboring Hubble field. Here astronomers traced intracluster light, the faint glow of stars stripped from their galaxies and drifting freely through the cluster.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-14",
+    "claims": [
+      {
+        "text": "MACS J0416.1-2403 is a galaxy cluster studied by the Hubble Frontier Fields programme",
+        "source": "https://esahubble.org/images/heic1523a"
+      },
+      {
+        "text": "The bridge fields lie in the gap between each Frontier Field cluster's primary field and its parallel field, extending coverage outward",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/16757/"
+      },
+      {
+        "text": "The program maps intracluster light around the Frontier Field clusters",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/16757/"
+      },
+      {
+        "text": "Intracluster light comes from stars stripped from their galaxies that float freely within the cluster",
+        "source": "https://esahubble.org/news/heic1820/"
+      },
+      {
+        "text": "The cluster is also written MCS J0416.1-2403",
+        "source": "https://esahubble.org/images/heic1416b/"
+      }
+    ]
+  }
+}

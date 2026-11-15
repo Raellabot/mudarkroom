@@ -1,0 +1,41 @@
+{
+  "id": "ngc-4858-hubble",
+  "name": "NGC 4858 (Hubble)",
+  "blurb": "NGC 4858, a jellyfish galaxy in the Coma Cluster, seen by Hubble.",
+  "label": "ngc4858-hubble",
+  "spec": "HST|NGC-4858|13777|WFC3/UVIS|ngc4858-hubble",
+  "find": [
+    "HST|13777|NGC-4858"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "jellyfish galaxy",
+    "Coma Cluster galaxy",
+    "spiral galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "As NGC 4858 moves through the Coma Cluster, a fierce headwind called ram pressure is stripping gas from its disk. The pressure bends its spiral arms into shapes that look like bunny ears and drags its gas into a jellyfish-like tail.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-14",
+    "claims": [
+      {
+        "text": "NGC 4858 is a jellyfish galaxy in the Coma Cluster undergoing ram pressure stripping, studied with Hubble F350LP/F600LP images",
+        "source": "https://www.arxiv.org/abs/2506.07262"
+      },
+      {
+        "text": "NGC 4858 was a target of HST program 13777 on ram pressure stripping of bright spiral galaxies in Coma",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/13777/"
+      },
+      {
+        "text": "Ram pressure, a 'wind', strips gas from the galaxy and gives it a jellyfish look; distorted spiral arm features look like bunny ears",
+        "source": "https://news.yale.edu/2025/06/11/jellyfish-has-bunny-ears-and-swims-galaxy-cluster"
+      }
+    ]
+  }
+}

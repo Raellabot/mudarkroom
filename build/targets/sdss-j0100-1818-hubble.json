@@ -1,0 +1,52 @@
+{
+  "id": "sdss-j0100-1818-hubble",
+  "name": "SDSS J0100+1818 (Hubble)",
+  "blurb": "SDSS J0100+1818, an ultra-massive elliptical galaxy acting as a gravitational lens, seen by Hubble.",
+  "label": "sdssj01001818-hubble",
+  "spec": "HST+HST|CSWA15+CSWA15|15253+15253|WFC3/IR+WFC3/UVIS|sdssj01001818-hubble",
+  "find": [
+    "HST|15253|CSWA15"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "CSWA 115",
+    "CSWA 15",
+    "CSWA15",
+    "gravitational lens",
+    "lens galaxy",
+    "elliptical galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "An ultra-massive elliptical galaxy bends the light of more distant galaxies behind it. Around it, three background sources appear as ten separate images.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-14",
+    "claims": [
+      {
+        "text": "The HST program 15253 target CSWA15 lies at RA 01 00 49.19, Dec +18 18 27.70, redshift 0.581, observed in F438W and F160W",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15253/"
+      },
+      {
+        "text": "SDSS J0100+1818 was imaged by HST program GO-15253 in F438W and F160W",
+        "source": "https://ar5iv.labs.arxiv.org/html/2211.16528"
+      },
+      {
+        "text": "SDSS J0100+1818 is an ultra-massive elliptical (early-type) galaxy",
+        "source": "https://www.aanda.org/articles/aa/abs/2023/03/aa44680-22/aa44680-22.html"
+      },
+      {
+        "text": "SDSS J0100+1818 is surrounded by ten multiple images of three background sources",
+        "source": "https://www.aanda.org/articles/aa/abs/2023/03/aa44680-22/aa44680-22.html"
+      },
+      {
+        "text": "It was called CSWA 15 when first targeted and is now identified as CSWA 115 in the CASSOWARY catalog",
+        "source": "https://ar5iv.labs.arxiv.org/html/2211.16528"
+      }
+    ]
+  }
+}

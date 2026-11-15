@@ -1,0 +1,53 @@
+{
+  "id": "ngc-4526-hubble",
+  "name": "NGC 4526 (Hubble)",
+  "blurb": "NGC 4526, a lenticular galaxy in the Virgo cluster, seen by Hubble.",
+  "label": "ngc4526-hubble",
+  "spec": "HST|VCC1535|9401|ACS/WFC|ngc4526-hubble",
+  "find": [
+    "HST|9401|VCC1535"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "VCC 1535",
+    "lenticular galaxy",
+    "galaxy",
+    "Virgo cluster"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A galaxy somewhere between a spiral and an elliptical, with a large disk of dust lying across its center. A colossal supermassive black hole sits at its heart.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-14",
+    "claims": [
+      {
+        "text": "VCC 1535 is NGC 4526",
+        "source": "https://arxiv.org/pdf/astro-ph/0603252"
+      },
+      {
+        "text": "NGC 4526 is a lenticular galaxy, a category between spirals and ellipticals",
+        "source": "https://esahubble.org/images/potw1442a/"
+      },
+      {
+        "text": "NGC 4526 is part of the Virgo cluster",
+        "source": "https://esahubble.org/images/potw1442a/"
+      },
+      {
+        "text": "NGC 4526 has a supermassive black hole at its center",
+        "source": "https://esahubble.org/images/potw1442a/"
+      },
+      {
+        "text": "VCC 1535 (NGC 4526) hosts a large dust disk at its center",
+        "source": "https://cdsarc.cds.unistra.fr/VizieR/cats/ftp/cati/J/ApJS/164/334/notes.dat"
+      },
+      {
+        "text": "VCC1535 is a lenticular galaxy target of the ACS Virgo Cluster Survey",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/list/9401/"
+      }
+    ]
+  }
+}

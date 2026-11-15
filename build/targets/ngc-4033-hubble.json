@@ -1,0 +1,44 @@
+{
+  "id": "ngc-4033-hubble",
+  "name": "NGC 4033 (Hubble)",
+  "blurb": "NGC 4033, an elliptical galaxy, seen by Hubble.",
+  "label": "ngc4033-hubble",
+  "spec": "HST|NGC4033|10554|ACS/WFC|ngc4033-hubble",
+  "find": [
+    "HST|10554|NGC4033"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "elliptical galaxy",
+    "galaxy",
+    "globular clusters"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "An elliptical galaxy in a sparse part of space, far from crowded clusters. Hubble studied the swarm of globular star clusters around it, which likely fall into two distinct populations.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-14",
+    "claims": [
+      {
+        "text": "NGC 4033 is an elliptical (E6) galaxy",
+        "source": "https://arxiv.org/pdf/1204.1054"
+      },
+      {
+        "text": "NGC 4033 lies in a low-density environment",
+        "source": "https://arxiv.org/pdf/1204.1054"
+      },
+      {
+        "text": "NGC 4033's globular cluster color distribution is likely bimodal",
+        "source": "https://arxiv.org/pdf/1204.1054"
+      },
+      {
+        "text": "Program 10554 studied globular cluster systems of ellipticals in low-density environments, including NGC 4033",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/10554/"
+      }
+    ]
+  }
+}

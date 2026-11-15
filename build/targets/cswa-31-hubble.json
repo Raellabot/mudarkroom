@@ -1,0 +1,50 @@
+{
+  "id": "cswa-31-hubble",
+  "name": "CSWA 31 (Hubble)",
+  "blurb": "CSWA 31, a galaxy group that acts as a gravitational lens, seen by Hubble.",
+  "label": "cswa31-hubble",
+  "spec": "HST+HST|CSWA31+CSWA31|15253+15253|WFC3/IR+WFC3/UVIS|cswa31-hubble",
+  "find": [
+    "HST|15253|CSWA31"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "CASSOWARY 31",
+    "gravitational lens",
+    "galaxy group",
+    "elliptical galaxy",
+    "lensed arcs"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "An ultra-massive elliptical galaxy sits at the heart of a galaxy group whose gravity, dominated by dark matter toward its center, bends the light of more distant galaxies into giant arcs, the brightest made by a face-on spiral far behind.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-14",
+    "claims": [
+      {
+        "text": "CSWA 31 (CASSOWARY 31) is a lens system",
+        "source": "https://arxiv.org/abs/2203.13759v1"
+      },
+      {
+        "text": "The lens is a galaxy group whose brightest group galaxy is an ultra-massive elliptical",
+        "source": "https://arxiv.org/abs/2203.13759v1"
+      },
+      {
+        "text": "The group is strongly dark-matter dominated toward its center",
+        "source": "https://arxiv.org/abs/2203.13759v1"
+      },
+      {
+        "text": "The central galaxy is surrounded by giant lensed arcs; the brightest is formed by a face-on spiral",
+        "source": "https://arxiv.org/pdf/2203.13759"
+      },
+      {
+        "text": "The field is CSWA 31 (lens center RA 09:21:25.738, Dec +18:10:17.70; HST program GO-15253, F438W and F160W)",
+        "source": "https://arxiv.org/pdf/2203.13759"
+      }
+    ]
+  }
+}

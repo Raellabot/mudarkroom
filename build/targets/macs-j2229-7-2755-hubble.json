@@ -1,0 +1,41 @@
+{
+  "id": "macs-j2229-7-2755-hubble",
+  "name": "MACS J2229.7-2755 (Hubble)",
+  "blurb": "MACS J2229.7-2755, a massive galaxy cluster, seen by Hubble.",
+  "label": "macsj222972755-hubble",
+  "spec": "HST|MACSJ2229.7-2755|12884|WFC3/IR|macsj222972755-hubble",
+  "find": [
+    "HST|12884|MACSJ2229.7-2755"
+  ],
+  "type": "Galaxy cluster",
+  "aliases": [
+    "MACSJ2229.7-2755",
+    "MACS J2229.7-2755",
+    "galaxy cluster",
+    "cluster of galaxies"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A massive cluster of galaxies, one of the X-ray brightest found by the Massive Cluster Survey, with a single giant galaxy sitting right at the peak of the cluster's X-ray glow. Hubble surveyed clusters like this one hunting for bright giant arcs to study more closely.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-14",
+    "claims": [
+      {
+        "text": "MACS J2229.7-2755 is one of the X-ray brightest clusters of galaxies from the Massive Cluster Survey",
+        "source": "https://arxiv.org/pdf/1004.4683"
+      },
+      {
+        "text": "It has a pronounced cool core with the X-ray peak well aligned with a single cD (giant central) galaxy",
+        "source": "https://arxiv.org/pdf/1004.4683"
+      },
+      {
+        "text": "It is a target of Hubble program 12884, a snapshot survey of the most massive galaxy clusters, which aims to discover bright giant arcs",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/12884/"
+      }
+    ]
+  }
+}

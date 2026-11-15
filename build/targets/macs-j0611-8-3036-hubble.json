@@ -1,0 +1,39 @@
+{
+  "id": "macs-j0611-8-3036-hubble",
+  "name": "MACS J0611.8-3036 (Hubble)",
+  "blurb": "MACS J0611.8-3036, a massive galaxy cluster, seen by Hubble.",
+  "label": "macsj061183036-hubble",
+  "spec": "HST|MACSJ0611.8-3036|12884|WFC3/IR|macsj061183036-hubble",
+  "find": [
+    "HST|12884|MACSJ0611.8-3036"
+  ],
+  "type": "Galaxy cluster",
+  "aliases": [
+    "MACSJ0611.8-3036",
+    "galaxy cluster"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A massive cluster of galaxies first found by its powerful X-ray glow; clusters like this are efficient gravitational lenses, and Hubble surveyed them in search of bright, giant arcs made by more distant galaxies.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-14",
+    "claims": [
+      {
+        "text": "MACSJ0611.8-3036 is a target of the Hubble snapshot survey of the most massive galaxy clusters (program 12884), at RA 06 11 48.44, Dec -30 37 23.9",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/12884/"
+      },
+      {
+        "text": "The survey targets very X-ray luminous clusters detected by MACS",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/12884/"
+      },
+      {
+        "text": "Such clusters are highly efficient gravitational lenses; a goal is discovering bright giant arcs",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/12884/"
+      }
+    ]
+  }
+}

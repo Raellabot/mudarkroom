@@ -1,0 +1,45 @@
+{
+  "id": "sg1120-1202-2-hubble",
+  "name": "SG1120-1202 group 2 (Hubble)",
+  "blurb": "SG1120-1202 group 2, one of four galaxy groups in a supergroup, seen by Hubble.",
+  "label": "sg112012022-hubble",
+  "spec": "HST|SG1120-2|12575|WFC3/IR|sg112012022-hubble",
+  "find": [
+    "HST|12575|SG1120-2"
+  ],
+  "type": "Galaxy cluster",
+  "aliases": [
+    "SG1120-1202",
+    "SG1120-2",
+    "supergroup",
+    "galaxy group"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "One of four galaxy groups in the supergroup SG1120-1202, which will merge to form a cluster comparable in mass to Coma; Hubble looked here for the faint light of stars that drift between the galaxies.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-14",
+    "claims": [
+      {
+        "text": "SG1120-1202 is a supergroup",
+        "source": "https://arxiv.org/pdf/1702.00495"
+      },
+      {
+        "text": "It is composed of four galaxy groups that will merge to form a cluster comparable in mass to Coma",
+        "source": "https://arxiv.org/pdf/1702.00495"
+      },
+      {
+        "text": "Group 2 is at RA 11:20:13.33, Dec -11:58:50.6, matching pointing SG1120-2",
+        "source": "https://arxiv.org/pdf/1702.00495"
+      },
+      {
+        "text": "Program 12575 pointing SG1120-2 targets intragroup light, a census of stars in and out of group galaxies",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/12575/"
+      }
+    ]
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "id": "des16e2cxw-hubble",
+  "name": "DES16E2cxw field (Hubble)",
+  "blurb": "A deep field toward the Type Ia supernova DES16E2cxw, seen by Hubble.",
+  "label": "des16e2cxw-hubble",
+  "spec": "HST|DES16E2CXW|14216|WFC3/IR|des16e2cxw-hubble",
+  "find": [
+    "HST|14216|DES16E2CXW"
+  ],
+  "type": "Deep field",
+  "aliases": [
+    "DES16E2cxw",
+    "DES16E2CXW",
+    "Type Ia supernova",
+    "supernova",
+    "deep field"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Hubble came to this patch of sky to follow DES16E2cxw, a Type Ia supernova found by the Dark Energy Survey. Explosions like this one serve as cosmic yardsticks for tracing how the universe has expanded and for probing dark energy.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-14",
+    "claims": [
+      {
+        "text": "DES16E2cxw is a Type Ia supernova (SNIa) at RA 00:40:42.70, Dec -43:55:18.5",
+        "source": "https://www.astronomerstelegram.org/?read=9855"
+      },
+      {
+        "text": "DES16E2cxw was found by the Dark Energy Survey",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/14216/"
+      },
+      {
+        "text": "Hubble program 14216 (RAISIN2) observed Type Ia supernovae to trace cosmic expansion and constrain dark energy",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/14216/"
+      },
+      {
+        "text": "Type Ia supernovae serve as standard candles (cosmic yardsticks)",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/14216/"
+      }
+    ]
+  }
+}

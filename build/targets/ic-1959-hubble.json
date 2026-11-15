@@ -1,0 +1,49 @@
+{
+  "id": "ic-1959-hubble",
+  "name": "IC 1959 (Hubble)",
+  "blurb": "IC 1959, a Magellanic barred spiral galaxy, seen by Hubble.",
+  "label": "ic1959-hubble",
+  "spec": "HST|IC1959|10210|ACS/WFC|ic1959-hubble",
+  "find": [
+    "HST|10210|IC1959"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "HIPASS J0333-50",
+    "barred spiral galaxy",
+    "Magellanic spiral",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A small barred spiral of the Magellanic kind, keeping to itself with no close neighbors. Hubble measured its distance from the brightness of its brightest red giant stars.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-14",
+    "claims": [
+      {
+        "text": "IC 1959 is a Magellanic barred spiral galaxy",
+        "source": "https://www.atnf.csiro.au/research/LVHIS/data/LVHIS017.info.html"
+      },
+      {
+        "text": "IC 1959 is also known as HIPASS J0333-50",
+        "source": "https://www.atnf.csiro.au/research/LVHIS/data/LVHIS017.info.html"
+      },
+      {
+        "text": "IC 1959 has no close neighbors: its nearest neighbor, NGC 1311, is more than 1 Mpc away",
+        "source": "https://www.atnf.csiro.au/research/LVHIS/data/LVHIS017.info.html"
+      },
+      {
+        "text": "Its distance was measured from the tip of the red giant branch by Tully et al. 2006",
+        "source": "https://www.atnf.csiro.au/research/LVHIS/data/LVHIS017.info.html"
+      },
+      {
+        "text": "Tully et al. 2006 used Hubble's ACS to measure distances from the brightest red giant branch stars",
+        "source": "https://www.arxiv.org/abs/astro-ph/0603380"
+      }
+    ]
+  }
+}

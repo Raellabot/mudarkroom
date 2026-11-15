@@ -1,0 +1,49 @@
+{
+  "id": "vr7-hubble",
+  "name": "VR7 field (Hubble)",
+  "blurb": "A deep field toward the distant galaxy VR7, seen by Hubble.",
+  "label": "vr7-hubble",
+  "spec": "HST|VR7|14699|WFC3/IR|vr7-hubble",
+  "find": [
+    "HST|14699|VR7"
+  ],
+  "type": "Deep field",
+  "aliases": [
+    "VR7",
+    "Lyman-alpha emitter",
+    "LAE",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Hubble looked here for VR7, one of the most luminous Lyman-alpha emitting galaxies, seen as it was in the epoch of reionization, when early galaxies were blowing ionized bubbles in the young universe. Hubble resolved its light into two components.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-14",
+    "claims": [
+      {
+        "text": "VR7 is a luminous Lyman-alpha emitter at z=6.5",
+        "source": "https://ar5iv.labs.arxiv.org/html/1903.08171"
+      },
+      {
+        "text": "VR7 lies within the epoch of reionization",
+        "source": "https://ar5iv.labs.arxiv.org/html/1903.08171"
+      },
+      {
+        "text": "HST program 14699 targeted VR7 to study the hosts of early ionized bubbles, the most luminous Lyman-alpha emitters at z~6-7",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/14699/"
+      },
+      {
+        "text": "VR7's rest-frame UV light is described by two components",
+        "source": "https://ar5iv.labs.arxiv.org/html/1903.08171"
+      },
+      {
+        "text": "VR7 is at z=6.534 in the CFHTLS-W4/SA22 field",
+        "source": "https://ar5iv.labs.arxiv.org/html/1903.08171"
+      }
+    ]
+  }
+}

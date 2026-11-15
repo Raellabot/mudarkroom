@@ -1,0 +1,37 @@
+{
+  "id": "ngc-2213-hubble",
+  "name": "NGC 2213 (Hubble)",
+  "blurb": "NGC 2213, a star cluster in the Large Magellanic Cloud, seen by Hubble.",
+  "label": "ngc2213-hubble",
+  "spec": "HST|NGC-2213|12257|WFC3/UVIS|ngc2213-hubble",
+  "find": [
+    "HST|12257|NGC-2213"
+  ],
+  "type": "Star cluster",
+  "aliases": [
+    "NGC2213",
+    "LMC cluster",
+    "Large Magellanic Cloud",
+    "star cluster"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A dense ball of stars in the Large Magellanic Cloud. Hubble surveyed clusters like this one to test whether each really formed its stars in a single burst, as long assumed.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-14",
+    "claims": [
+      {
+        "text": "NGC 2213 is a star cluster in the Large Magellanic Cloud",
+        "source": "https://arxiv.org/abs/1803.00155"
+      },
+      {
+        "text": "Program 12257 imaged NGC 2213 among Magellanic Cloud clusters to study multiple main-sequence turn-offs, which challenge the idea that clusters are simple (single-burst) stellar populations",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/12257/"
+      }
+    ]
+  }
+}

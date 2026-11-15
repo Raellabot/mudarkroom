@@ -1,0 +1,42 @@
+{
+  "id": "ngc-4423-hubble",
+  "name": "NGC 4423 (Hubble)",
+  "blurb": "NGC 4423, an edge-on spiral galaxy in the Virgo Cluster, seen by Hubble.",
+  "label": "ngc4423-hubble",
+  "spec": "HST|NGC4423|17240|ACS/WFC|ngc4423-hubble",
+  "find": [
+    "HST|17240|NGC4423"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "edge-on galaxy",
+    "spiral galaxy",
+    "dwarf galaxy",
+    "Virgo Cluster galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "It can look like an irregular streak, but NGC 4423 is a spiral galaxy seen edge-on, so its spiral arms are hidden from view. Hubble looked here as part of a study of dwarf galaxies in the Virgo Cluster that are being stripped of their gas.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-14",
+    "claims": [
+      {
+        "text": "NGC 4423 is a spiral galaxy seen edge-on, so its spiral arms can't be seen",
+        "source": "https://esahubble.org/images/potw2410a/"
+      },
+      {
+        "text": "NGC 4423 is a dwarf galaxy in the Virgo Cluster targeted by HST program 17240",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/17240/"
+      },
+      {
+        "text": "The program studies dwarf galaxies in clusters undergoing ram pressure stripping",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/17240/"
+      }
+    ]
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "id": "ngc-2865-hubble",
+  "name": "NGC 2865 (Hubble)",
+  "blurb": "NGC 2865, a shell elliptical galaxy, seen by Hubble.",
+  "label": "ngc2865-hubble",
+  "spec": "HST|NGC2865|9399|ACS/WFC|ngc2865-hubble",
+  "find": [
+    "HST|9399|NGC2865"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "shell galaxy",
+    "elliptical galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "An elliptical galaxy that is unusually young and dynamic for its kind, wrapped in an almost closed shell of cold gas torn from a spiral galaxy it merged with.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-14",
+    "claims": [
+      {
+        "text": "NGC 2865 is an elliptical galaxy",
+        "source": "https://esahubble.org/images/potw1515a/"
+      },
+      {
+        "text": "It is relatively young and dynamic for an elliptical",
+        "source": "https://esahubble.org/images/potw1515a/"
+      },
+      {
+        "text": "Gas torn from a spiral galaxy in a merger forms an almost closed shell around it",
+        "source": "https://esahubble.org/images/potw1515a/"
+      },
+      {
+        "text": "Position RA 9h 23m 31.08s, Dec -23 9' 47.52\" (ACS, 606 and 814 nm)",
+        "source": "https://esahubble.org/images/potw1515a/"
+      }
+    ]
+  }
+}

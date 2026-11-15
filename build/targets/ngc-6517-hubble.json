@@ -1,0 +1,35 @@
+{
+  "id": "ngc-6517-hubble",
+  "name": "NGC 6517 (Hubble)",
+  "blurb": "NGC 6517, a globular cluster, seen by Hubble.",
+  "label": "ngc6517-hubble",
+  "spec": "HST|NGC6517|11628|WFC3/UVIS|ngc6517-hubble",
+  "find": [
+    "HST|11628|NGC6517"
+  ],
+  "type": "Star cluster",
+  "aliases": [
+    "globular cluster",
+    "star cluster"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A globular cluster of our Milky Way, one of several Hubble examined for clues that a black hole might lurk at its center.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-14",
+    "claims": [
+      {
+        "text": "NGC 6517 is a globular cluster at RA 18:01:50.52, Dec -08:57:31.6",
+        "source": "https://spider.seds.org/spider/MWGC/n6517.html"
+      },
+      {
+        "text": "It is a target of program 11628, 'Globular Cluster Candidates for Hosting a Central Black Hole'",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/11628/"
+      }
+    ]
+  }
+}

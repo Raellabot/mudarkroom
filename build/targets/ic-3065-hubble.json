@@ -1,0 +1,48 @@
+{
+  "id": "ic-3065-hubble",
+  "name": "IC 3065 (Hubble)",
+  "blurb": "IC 3065, a lenticular galaxy in the Virgo Cluster, seen by Hubble.",
+  "label": "ic3065-hubble",
+  "spec": "HST|VCC140|9401|ACS/WFC|ic3065-hubble",
+  "find": [
+    "HST|9401|VCC140"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "VCC 140",
+    "VCC140",
+    "lenticular galaxy",
+    "S0 galaxy",
+    "early-type galaxy",
+    "Virgo Cluster",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A smooth early-type galaxy in the Virgo Cluster, the largest gathering of elliptical and lenticular galaxies near us. Hubble imaged it as one of 100 early-type galaxies in a survey of the cluster, studying their globular clusters and measuring their distances.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-14",
+    "claims": [
+      {
+        "text": "VCC 140 is IC 3065, classified S0 (lenticular), in the ACS Virgo Cluster Survey sample",
+        "source": "https://arxiv.org/pdf/astro-ph/0404138"
+      },
+      {
+        "text": "The Virgo Cluster is the largest collection of elliptical and lenticular galaxies in the nearby universe",
+        "source": "https://ar5iv.arxiv.org/html/astro-ph/0404138"
+      },
+      {
+        "text": "The ACS Virgo Cluster Survey imaged 100 early-type galaxies in the Virgo Cluster",
+        "source": "https://ar5iv.arxiv.org/html/astro-ph/0404138"
+      },
+      {
+        "text": "Survey goals include its galaxies' globular clusters and distances",
+        "source": "https://ar5iv.arxiv.org/html/astro-ph/0404138"
+      }
+    ]
+  }
+}

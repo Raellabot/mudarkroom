@@ -1,0 +1,48 @@
+{
+  "id": "fls-1-hubble",
+  "name": "FLS 1 field (Hubble)",
+  "blurb": "A deep field toward the dusty starburst galaxy FLS 1, seen by Hubble.",
+  "label": "fls1-hubble",
+  "spec": "HST|RARE-FLS-1|13718|WFC3/IR|fls1-hubble",
+  "find": [
+    "HST|13718|RARE-FLS-1"
+  ],
+  "type": "Deep field",
+  "aliases": [
+    "RARE-FLS-1",
+    "FLS107",
+    "1HERMES S250 J170817.6+582845",
+    "HerMES",
+    "dusty starburst galaxy",
+    "submillimeter galaxy",
+    "deep field"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Somewhere in this field lies FLS 1, a dusty galaxy forming stars furiously in the early universe, found by the Herschel observatory. Hubble looked here to measure its size and stars, to check whether a foreground galaxy magnifies it, and to see whether it belongs to a gathering protocluster.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-14",
+    "claims": [
+      {
+        "text": "RARE-FLS-1 is the dusty starburst FLS107 / 1HERMES-S250-J170817.6+582845, one of the brightest spectroscopically confirmed dusty starbursts at z=4.2 to 5.3, selected from Herschel-HerMES",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/13718/"
+      },
+      {
+        "text": "The source is called FLS 1 in the Herschel/SPIRE discovery paper, at the field position, with a CO redshift of 4.29",
+        "source": "https://arxiv.org/pdf/1310.7583"
+      },
+      {
+        "text": "Hubble aimed to measure sizes and stellar masses, test for gravitational lensing, and check protocluster membership",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/13718/"
+      },
+      {
+        "text": "These are among the earliest dusty starbursts (early universe)",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/13718/"
+      }
+    ]
+  }
+}

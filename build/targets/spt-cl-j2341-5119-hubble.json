@@ -1,0 +1,44 @@
+{
+  "id": "spt-cl-j2341-5119-hubble",
+  "name": "SPT-CL J2341-5119 (Hubble)",
+  "blurb": "SPT-CL J2341-5119, a massive galaxy cluster, seen by Hubble.",
+  "label": "sptclj23415119-hubble",
+  "spec": "HST|SPTCLJ2341-5119|12246|ACS/WFC|sptclj23415119-hubble",
+  "find": [
+    "HST|12246|SPTCLJ2341-5119"
+  ],
+  "type": "Galaxy cluster",
+  "aliases": [
+    "SPTCLJ2341-5119",
+    "SPT cluster",
+    "galaxy cluster"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A massive, distant galaxy cluster found by the South Pole Telescope from the faint distortion it leaves in the cosmic microwave background. Hubble looked here to weigh it, using the way its gravity subtly bends the light of galaxies behind it.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-14",
+    "claims": [
+      {
+        "text": "SPT-CL J2341-5119 was a target of HST program 12246, a sample of high-mass clusters detected by the South Pole Telescope via their distortion of the cosmic microwave background",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/12246/"
+      },
+      {
+        "text": "The program's aim was weak lensing mass measurements of these clusters",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/12246/"
+      },
+      {
+        "text": "SPT-CL J2341-5119 is a distant cluster at spectroscopic redshift 0.9983, with an X-ray mass estimate",
+        "source": "https://arxiv.org/pdf/1006.3068"
+      },
+      {
+        "text": "SPT-CL J2341-5119 is classed as a moderate or strong cool-core cluster",
+        "source": "https://arxiv.org/pdf/1208.3368"
+      }
+    ]
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "id": "leda-1313424-hubble",
+  "name": "LEDA 1313424 (Hubble)",
+  "blurb": "LEDA 1313424, the Bullseye ring galaxy, seen by Hubble.",
+  "label": "leda1313424-hubble",
+  "spec": "HST|LEDA1313424|17508|ACS/WFC|leda1313424-hubble",
+  "find": [
+    "HST|17508|LEDA1313424"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "Bullseye",
+    "Bullseye galaxy",
+    "collisional ring galaxy",
+    "ring galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "The Bullseye: a gargantuan galaxy rippling with rings of stars, set in motion when a far smaller dwarf galaxy shot straight through its heart. Astronomers count nine rings in all, eight of them spotted by Hubble.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-14",
+    "claims": [
+      {
+        "text": "LEDA 1313424 is nicknamed the Bullseye",
+        "source": "https://www.esa.int/ESA_Multimedia/Images/2025/02/Galaxy_LEDA_1313424"
+      },
+      {
+        "text": "LEDA 1313424 is a gargantuan galaxy rippling with star-filled rings",
+        "source": "https://www.stsci.edu/contents/news-releases/2025/news-2025-006"
+      },
+      {
+        "text": "The rings formed after a far smaller dwarf galaxy shot through its heart",
+        "source": "https://www.stsci.edu/contents/news-releases/2025/news-2025-006"
+      },
+      {
+        "text": "It has nine rings; Hubble identified eight and Keck confirmed a ninth",
+        "source": "https://www.stsci.edu/contents/news-releases/2025/news-2025-006"
+      },
+      {
+        "text": "It is a collisional ring galaxy",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/17508/"
+      }
+    ]
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "id": "ic-776-hubble",
+  "name": "IC 776 (Hubble)",
+  "blurb": "IC 776, a dwarf galaxy in the Virgo cluster, seen by Hubble.",
+  "label": "ic776-hubble",
+  "spec": "HST|IC-776|17240|ACS/WFC|ic776-hubble",
+  "find": [
+    "HST|17240|IC-776"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "dwarf galaxy",
+    "weakly barred spiral",
+    "spiral galaxy",
+    "galaxy",
+    "Virgo cluster"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A ragged, disturbed disk seems to spiral around the core of this small galaxy, traced by arcs of star-forming regions. As it travels through the Virgo cluster, it feels the pressure of the intergalactic gas around it.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-14",
+    "claims": [
+      {
+        "text": "IC 776 is a dwarf galaxy",
+        "source": "https://www.esa.int/ESA_Multimedia/Images/2024/05/On_the_hunt_for_X-rays"
+      },
+      {
+        "text": "IC 776 is in the Virgo galaxy cluster",
+        "source": "https://www.esa.int/ESA_Multimedia/Images/2024/05/On_the_hunt_for_X-rays"
+      },
+      {
+        "text": "IC 776 is an SAB-type or weakly barred spiral",
+        "source": "https://www.esa.int/ESA_Multimedia/Images/2024/05/On_the_hunt_for_X-rays"
+      },
+      {
+        "text": "IC 776 has a ragged, disturbed disc spiraling around the core, with arcs of star-forming regions",
+        "source": "https://www.esa.int/ESA_Multimedia/Images/2024/05/On_the_hunt_for_X-rays"
+      },
+      {
+        "text": "Dwarf galaxies like IC 776 traveling through the Virgo cluster experience pressure from the intergalactic gas",
+        "source": "https://www.esa.int/ESA_Multimedia/Images/2024/05/On_the_hunt_for_X-rays"
+      },
+      {
+        "text": "IC 776 is a target of program 17240 on Virgo dwarfs in stripping",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/17240/"
+      }
+    ]
+  }
+}

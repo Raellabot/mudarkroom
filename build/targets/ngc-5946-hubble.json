@@ -1,0 +1,40 @@
+{
+  "id": "ngc-5946-hubble",
+  "name": "NGC 5946 (Hubble)",
+  "blurb": "NGC 5946, a globular cluster, seen by Hubble.",
+  "label": "ngc5946-hubble",
+  "spec": "HST|NGC5946|11628|WFC3/UVIS|ngc5946-hubble",
+  "find": [
+    "HST|11628|NGC5946"
+  ],
+  "type": "Star cluster",
+  "aliases": [
+    "globular cluster",
+    "core-collapsed globular cluster",
+    "star cluster"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "NGC 5946 is a tightly packed, metal-poor globular cluster whose core has collapsed. Hubble mapped how its light crowds toward the center, searching for hints of a hidden black hole.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-14",
+    "claims": [
+      {
+        "text": "NGC 5946 is a core-collapsed globular cluster",
+        "source": "https://arxiv.org/abs/astro-ph/9505114"
+      },
+      {
+        "text": "NGC 5946 is very metal-poor",
+        "source": "https://arxiv.org/abs/astro-ph/9505114"
+      },
+      {
+        "text": "HST program 11628 measured surface brightness profiles of highly concentrated globular clusters to find candidates for central black holes; NGC 5946 is a target",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/11628/"
+      }
+    ]
+  }
+}

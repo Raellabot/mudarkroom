@@ -1,0 +1,49 @@
+{
+  "id": "cygnus-loop-hubble",
+  "name": "Cygnus Loop (Hubble)",
+  "blurb": "The Cygnus Loop, a supernova remnant, seen by Hubble.",
+  "label": "cygnusloop-hubble",
+  "spec": "HST|CYGLOOP-NENR1|15893|WFC3/UVIS|cygnusloop-hubble",
+  "find": [
+    "HST|15893|CYGLOOP-NENR1"
+  ],
+  "type": "Supernova remnant",
+  "aliases": [
+    "supernova remnant",
+    "nebula",
+    "Cygnus Loop Nebula",
+    "shock front"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A very small slice of the leading edge of the Cygnus Loop, where the blast wave from an exploded star plows into the material around it. The rippling filaments of glowing hydrogen and oxygen look like a wrinkled sheet seen from the side.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-14",
+    "claims": [
+      {
+        "text": "The Cygnus Loop is a supernova remnant; target CYGLOOP-NENR1 is a filament on its shock front",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15893/"
+      },
+      {
+        "text": "The Cygnus Loop is a nebula formed by an expanding supernova bubble",
+        "source": "https://science.nasa.gov/missions/hubble/living-on-the-edge-supernova-bubble-expands-in-new-hubble-time-lapse-movie/"
+      },
+      {
+        "text": "Hubble zoomed in on a very small slice of the leading edge, where the blast wave plows into surrounding material",
+        "source": "https://science.nasa.gov/missions/hubble/living-on-the-edge-supernova-bubble-expands-in-new-hubble-time-lapse-movie/"
+      },
+      {
+        "text": "The filaments are glowing hydrogen and ionized oxygen that look like a wrinkled sheet seen from the side",
+        "source": "https://science.nasa.gov/missions/hubble/living-on-the-edge-supernova-bubble-expands-in-new-hubble-time-lapse-movie/"
+      },
+      {
+        "text": "Cygnus Loop Nebula is a name used for it",
+        "source": "https://science.nasa.gov/asset/hubble/the-cygnus-loop-nebula-shockwave-from-a-stellar-explosion/"
+      }
+    ]
+  }
+}

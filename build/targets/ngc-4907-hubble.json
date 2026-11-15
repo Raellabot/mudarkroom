@@ -1,0 +1,45 @@
+{
+  "id": "ngc-4907-hubble",
+  "name": "NGC 4907 (Hubble)",
+  "blurb": "NGC 4907, a barred spiral galaxy in the Coma Cluster, seen by Hubble.",
+  "label": "ngc4907-hubble",
+  "spec": "HST|NGC-4907|13777|WFC3/UVIS|ngc4907-hubble",
+  "find": [
+    "HST|13777|NGC-4907"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "barred spiral galaxy",
+    "spiral galaxy",
+    "galaxy",
+    "Coma Cluster"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A barred spiral galaxy showing us its face, its arms wound loosely around a central bar of stars. It belongs to the Coma Cluster, a group of over 1,000 galaxies, where Hubble studied how bright spirals are reshaped as they move through the cluster.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-14",
+    "claims": [
+      {
+        "text": "NGC 4907 is a barred spiral galaxy",
+        "source": "https://esahubble.org/images/potw2031a"
+      },
+      {
+        "text": "NGC 4907 is face-on with loosely wound arms around a central bar",
+        "source": "https://science.nasa.gov/?p=11331"
+      },
+      {
+        "text": "NGC 4907 is part of the Coma Cluster, a group of over 1,000 galaxies",
+        "source": "https://science.nasa.gov/?p=11331"
+      },
+      {
+        "text": "Hubble program 13777 targeted NGC 4907 to document the stages of ram pressure stripping of bright spiral galaxies in the Coma Cluster",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/13777/"
+      }
+    ]
+  }
+}

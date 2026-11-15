@@ -1,0 +1,39 @@
+{
+  "id": "rcs-2345-3632-hubble",
+  "name": "RCS 2345-3632 (Hubble)",
+  "blurb": "RCS 2345-3632, a distant galaxy cluster, seen by Hubble.",
+  "label": "rcs23453632-hubble",
+  "spec": "HST|RCS234526-3632.6|13687|WFC3/IR|rcs23453632-hubble",
+  "find": [
+    "HST|13687|RCS234526-3632.6"
+  ],
+  "type": "Galaxy cluster",
+  "aliases": [
+    "RCS234526-3632.6",
+    "galaxy cluster"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A distant, rich cluster of galaxies, discovered by the Red-sequence Cluster Survey. Hubble looked here to map the stars in its member galaxies and learn how massive cluster galaxies formed.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-14",
+    "claims": [
+      {
+        "text": "RCS 2345-3632 is an optically rich galaxy cluster at redshift 1.04",
+        "source": "https://arxiv.org/pdf/1105.3186"
+      },
+      {
+        "text": "RCS clusters were mostly discovered in the Red-sequence Cluster Survey",
+        "source": "https://arxiv.org/pdf/1105.3186"
+      },
+      {
+        "text": "RCS234526-3632.6 (z = 1.04) was a target of HST program 13687, which studies the formation of massive cluster galaxies with stellar mass maps",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/13687/"
+      }
+    ]
+  }
+}

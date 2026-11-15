@@ -1,0 +1,46 @@
+{
+  "id": "ugca-320-hubble",
+  "name": "UGCA 320 (Hubble)",
+  "blurb": "UGCA 320, a gas-rich dwarf irregular galaxy, seen by Hubble.",
+  "label": "ugca320-hubble",
+  "spec": "HST|UGCA-320|14636|ACS/WFC|ugca320-hubble",
+  "find": [
+    "HST|14636|UGCA-320"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "PGC 45084",
+    "dwarf irregular galaxy",
+    "dwarf galaxy",
+    "irregular galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A small, gas-rich galaxy lit by ionized gas from recent star formation, its disk most likely stirred by a recent tidal encounter with its close neighbor UGCA 319.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-14",
+    "claims": [
+      {
+        "text": "UGCA 320 is a gas-rich dwarf irregular galaxy in a nearby, relatively isolated group of dwarf galaxies",
+        "source": "https://arxiv.org/html/2509.20359v1"
+      },
+      {
+        "text": "It has abundant ionized gas powered mostly by recent star formation",
+        "source": "https://arxiv.org/html/2509.20359v1"
+      },
+      {
+        "text": "Its disturbances point to a recent tidal interaction, most likely with its close neighbor UGCA 319",
+        "source": "https://arxiv.org/html/2509.20359v1"
+      },
+      {
+        "text": "UGCA 320 is PGC 45084, a target of program 14636 at RA 13 03 16.7, Dec -17 25 23",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/14636/"
+      }
+    ]
+  }
+}

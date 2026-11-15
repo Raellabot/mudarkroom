@@ -1,0 +1,48 @@
+{
+  "id": "eso-461-36-hubble",
+  "name": "ESO 461-36 (Hubble)",
+  "blurb": "ESO 461-36, a dwarf irregular galaxy in the Local Void, seen by Hubble.",
+  "label": "eso46136-hubble",
+  "spec": "HST|ESO-461-36|14167|WFC3/IR|eso46136-hubble",
+  "find": [
+    "HST|14167|ESO-461-36"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "KK 246",
+    "KK246",
+    "ESO 461-036",
+    "ESO461-36",
+    "dwarf galaxy",
+    "irregular galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A lonely dwarf galaxy adrift in the Local Void, a vast region of nearly empty space beside our Local Group. Hubble picked out its individual stars to measure its distance and learn whether it is being pushed away from the emptiness.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-14",
+    "claims": [
+      {
+        "text": "ESO 461-36 is KK 246, a dwarf irregular galaxy within the Local Void",
+        "source": "https://esahubble.org/images/potw2020a/"
+      },
+      {
+        "text": "The Local Void lies adjacent to the Local Group",
+        "source": "https://esahubble.org/images/potw2020a/"
+      },
+      {
+        "text": "It is a lonely, isolated galaxy in the void",
+        "source": "https://science.nasa.gov/missions/hubble/hubble-sees-stellar-glitter-in-a-cosmic-void"
+      },
+      {
+        "text": "Program 14167 observed KK246 = ESO 461-36 with WFC3/IR to measure its distance from resolved stars (tip of the red giant branch) and thus its peculiar velocity, to test whether void galaxies move away from the void",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/14167/"
+      }
+    ]
+  }
+}

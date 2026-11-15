@@ -1,0 +1,40 @@
+{
+  "id": "macs-j1023-8-2715-hubble",
+  "name": "MACS J1023.8-2715 (Hubble)",
+  "blurb": "MACS J1023.8-2715, a massive galaxy cluster, seen by Hubble.",
+  "label": "macsj102382715-hubble",
+  "spec": "HST|MACSJ1023.8-2715|16670|ACS/WFC|macsj102382715-hubble",
+  "find": [
+    "HST|16670|MACSJ1023.8-2715"
+  ],
+  "type": "Galaxy cluster",
+  "aliases": [
+    "MACSJ1023.8-2715",
+    "galaxy cluster",
+    "cluster of galaxies"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A rich cluster of galaxies, one of the extreme, X-ray-bright clusters that Hubble swept up in a quick snapshot survey. Clusters like this act as gravitational telescopes, magnifying galaxies far behind them.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-14",
+    "claims": [
+      {
+        "text": "MACSJ1023.8-2715 is a target of HST program 16670, a SNAPshot survey of extreme galaxy clusters",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/16670/"
+      },
+      {
+        "text": "The survey targets highly X-ray luminous clusters; its targets are listed as rich clusters",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/16670/"
+      },
+      {
+        "text": "The survey aims to find powerful gravitational lenses ('gravitational telescopes')",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/16670/"
+      }
+    ]
+  }
+}

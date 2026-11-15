@@ -1,0 +1,44 @@
+{
+  "id": "eso-269-g058-hubble",
+  "name": "ESO 269-G058 (Hubble)",
+  "blurb": "ESO 269-G058, a dwarf galaxy in the Centaurus group, seen by Hubble.",
+  "label": "eso269g058-hubble",
+  "spec": "HST|E269-58|10235|ACS/WFC|eso269g058-hubble",
+  "find": [
+    "HST|10235|E269-58"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "dwarf galaxy",
+    "Centaurus group",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A small galaxy among the Centaurus group's dwarfs, with a prominent dust lane slicing through its center. Its elongated shape hints at a kinship with dwarf ellipticals.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-14",
+    "claims": [
+      {
+        "text": "ESO 269-G058 is a dwarf galaxy in the Centaurus group",
+        "source": "https://arxiv.org/pdf/0709.3761"
+      },
+      {
+        "text": "A prominent dust lane slices through the center of ESO 269-G058",
+        "source": "https://arxiv.org/pdf/0709.3761"
+      },
+      {
+        "text": "Its elongated shape suggests a relationship to dwarf ellipticals",
+        "source": "https://arxiv.org/pdf/0709.3761"
+      },
+      {
+        "text": "The main body of the galaxy was observed with HST ACS (Karachentsev et al. 2007)",
+        "source": "https://arxiv.org/pdf/0709.3761"
+      }
+    ]
+  }
+}

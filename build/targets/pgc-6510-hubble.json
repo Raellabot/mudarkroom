@@ -1,0 +1,50 @@
+{
+  "id": "pgc-6510-hubble",
+  "name": "PGC 6510 (Hubble)",
+  "blurb": "PGC 6510, an elliptical galaxy wrapped in shells, seen by Hubble.",
+  "label": "pgc6510-hubble",
+  "spec": "HST|PGC6510|10227|ACS/WFC|pgc6510-hubble",
+  "find": [
+    "HST|10227|PGC6510"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "MC 0148-836",
+    "shell galaxy",
+    "elliptical galaxy",
+    "post-starburst galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A disky elliptical galaxy surrounded by faint shells, the likely leftovers of a galactic merger. Many of its globular clusters seem to be of intermediate age.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-14",
+    "claims": [
+      {
+        "text": "PGC 6510 is a disky elliptical",
+        "source": "https://ar5iv.arxiv.org/html/0810.4621"
+      },
+      {
+        "text": "It features shells around its main body and is likely a merger remnant",
+        "source": "https://ar5iv.arxiv.org/html/0810.4621"
+      },
+      {
+        "text": "PGC 6510 is also MC 0148-836 (Malin & Carter)",
+        "source": "https://arxiv.org/pdf/0810.4621"
+      },
+      {
+        "text": "It is a poststarburst galaxy",
+        "source": "https://arxiv.org/pdf/0810.4621"
+      },
+      {
+        "text": "Its globular clusters are predominantly of intermediate age",
+        "source": "https://arxiv.org/pdf/0810.4621"
+      }
+    ]
+  }
+}

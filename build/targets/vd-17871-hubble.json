@@ -1,0 +1,47 @@
+{
+  "id": "vd-17871-hubble",
+  "name": "Vd-17871 field (Hubble)",
+  "blurb": "A deep field toward the starburst galaxy Vd-17871, seen by Hubble.",
+  "label": "vd17871-hubble",
+  "spec": "HST|VD-17871|13294|WFC3/IR|vd17871-hubble",
+  "find": [
+    "HST|13294|VD-17871"
+  ],
+  "type": "Deep field",
+  "aliases": [
+    "VD-17871",
+    "Vd-17871",
+    "submillimeter galaxy",
+    "starburst galaxy",
+    "COSMOS field",
+    "deep field"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Hidden in this field is Vd-17871, a distant starburst galaxy first picked out by its millimeter glow and later found to be a rotating disk. Hubble looked here to learn how massive galaxies formed and gathered dust within 1.5 billion years after the Big Bang.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-14",
+    "claims": [
+      {
+        "text": "VD-17871 is one of three millimeter-identified z>4 starburst galaxies in the COSMOS field targeted by Hubble program 13294",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/13294/"
+      },
+      {
+        "text": "Vd-17871 is a spectroscopically confirmed submillimeter galaxy at z = 4.622 in the COSMOS field, first identified at 1.2 mm",
+        "source": "https://www.aanda.org/articles/aa/full_html/2015/04/aa24996-14/T1.html"
+      },
+      {
+        "text": "Vd-17871 shows regular gas rotation on kpc scales (a disk)",
+        "source": "https://arxiv.org/pdf/1710.10181v1"
+      },
+      {
+        "text": "The program aims to understand massive galaxy formation and dust accumulation within 1.5 billion years after the Big Bang",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/13294/"
+      }
+    ]
+  }
+}

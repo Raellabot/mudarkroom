@@ -1,0 +1,56 @@
+{
+  "id": "eso-593-ig008-hubble",
+  "name": "ESO 593-IG008 (Hubble)",
+  "blurb": "ESO 593-IG008, a luminous infrared galaxy system nicknamed The Bird, seen by Hubble.",
+  "label": "eso593ig008-hubble",
+  "spec": "HST|ESO593-IG008|10592|ACS/WFC|eso593ig008-hubble",
+  "find": [
+    "HST|10592|ESO593-IG008"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "ESO 593-IG 008",
+    "IRAS 19115-2124",
+    "The Bird",
+    "Tinker Bell",
+    "interacting galaxies",
+    "luminous infrared galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Two massive spiral galaxies and a smaller irregular galaxy are merging here into a shape astronomers call The Bird. Its head, the irregular galaxy, is forming stars violently.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-14",
+    "claims": [
+      {
+        "text": "ESO 593-IG 008 is also known as IRAS 19115-2124",
+        "source": "https://www.eso.org/public/news/eso0755/"
+      },
+      {
+        "text": "Astronomers dubbed the system 'The Bird'; it also resembles a cosmic Tinker Bell",
+        "source": "https://www.eso.org/public/news/eso0755/"
+      },
+      {
+        "text": "It is composed of two massive spiral galaxies and a third irregular galaxy",
+        "source": "https://www.eso.org/public/news/eso0755/"
+      },
+      {
+        "text": "It belongs to the family of luminous infrared galaxies",
+        "source": "https://www.eso.org/public/news/eso0755/"
+      },
+      {
+        "text": "The 'head' (the irregular galaxy) is forming stars violently",
+        "source": "https://www.eso.org/public/news/eso0755/"
+      },
+      {
+        "text": "ESO593-IG008 is a target of the HST ACS survey of luminous infrared galaxies (program 10592)",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/10592/"
+      }
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": "des16e1dcx-hubble",
+  "name": "DES16E1dcx field (Hubble)",
+  "blurb": "A deep field toward the Type Ia supernova DES16E1dcx, seen by Hubble.",
+  "label": "des16e1dcx-hubble",
+  "spec": "HST|DES16E1DCX|14216|WFC3/IR|des16e1dcx-hubble",
+  "find": [
+    "HST|14216|DES16E1DCX"
+  ],
+  "type": "Deep field",
+  "aliases": [
+    "DES16E1dcx",
+    "DES16E1DCX",
+    "Type Ia supernova",
+    "supernova",
+    "RAISIN2"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Somewhere in this patch of sky, a faraway Type Ia supernova found by the Dark Energy Survey flared. Hubble followed it as part of a program using these explosions as standard candles to chart the history of cosmic expansion.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-14",
+    "claims": [
+      {
+        "text": "DES16E1dcx is a Type Ia supernova from the Dark Energy Survey, at the observed position",
+        "source": "https://www.astronomerstelegram.org/?read=9855"
+      },
+      {
+        "text": "DES16E1dcx was a target of HST program 14216 (RAISIN2), one of a sample of Type Ia supernovae discovered with the Dark Energy Survey",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/14216/"
+      },
+      {
+        "text": "The program uses Type Ia supernovae as standard candles to build the cosmic expansion history",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/14216/"
+      }
+    ]
+  }
+}

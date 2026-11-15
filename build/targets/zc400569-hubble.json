@@ -1,0 +1,39 @@
+{
+  "id": "zc400569-hubble",
+  "name": "zC400569 (Hubble)",
+  "blurb": "zC400569, a massive star-forming disk galaxy in the distant universe, seen by Hubble.",
+  "label": "zc400569-hubble",
+  "spec": "HST|ZC400569|12578|WFC3/IR|zc400569-hubble",
+  "find": [
+    "HST|12578|ZC400569"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "ZC400569",
+    "zC-400569",
+    "SINS/zC-SINF",
+    "star-forming galaxy",
+    "disk galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A distant, massive galaxy caught while forming stars at a furious pace, its rotating disk already holding a substantial central bulge. Hubble's sharp view maps where its stars lie, to learn how bulges and disks grew in young galaxies.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-14",
+    "claims": [
+      {
+        "text": "zC400569 is a massive star-forming galaxy at z~2 (z = 2.24), a rotating disk with a significant stellar bulge",
+        "source": "https://arxiv.org/pdf/1311.2596"
+      },
+      {
+        "text": "Program 12578 imaged it among 21 massive star-forming galaxies at z~2 to map stellar mass distribution and witness the growth of bulges and disks",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/12578/"
+      }
+    ]
+  }
+}

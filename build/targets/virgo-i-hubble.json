@@ -1,0 +1,42 @@
+{
+  "id": "virgo-i-hubble",
+  "name": "Virgo I (Hubble)",
+  "blurb": "Virgo I, an ultra-faint dwarf galaxy orbiting the Milky Way, seen by Hubble.",
+  "label": "virgoi-hubble",
+  "spec": "HST|VIRGOI|15332|ACS/WFC|virgoi-hubble",
+  "find": [
+    "HST|15332|VIRGOI"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "VIRGOI",
+    "dwarf galaxy",
+    "ultra-faint dwarf galaxy",
+    "Milky Way satellite",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Virgo I is one of the faintest dwarf galaxies known, a sparse scatter of stars circling our Milky Way. Hubble looked deep among those stars to confirm its true nature.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-14",
+    "claims": [
+      {
+        "text": "Virgo I is an ultra-faint dwarf satellite companion of the Milky Way",
+        "source": "https://arxiv.org/abs/1609.04346v1"
+      },
+      {
+        "text": "Virgo I is one of the faintest dwarf satellites known",
+        "source": "https://arxiv.org/abs/1609.04346v1"
+      },
+      {
+        "text": "Hubble ACS imaging was proposed to confirm Virgo I's nature with a deep color-magnitude diagram",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15332/"
+      }
+    ]
+  }
+}

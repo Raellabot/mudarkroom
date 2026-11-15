@@ -1,0 +1,35 @@
+{
+  "id": "eso-496-g010-hubble",
+  "name": "ESO 496-G010 (Hubble)",
+  "blurb": "ESO 496-G010, a nearby galaxy, seen by Hubble.",
+  "label": "eso496g010-hubble",
+  "spec": "HST|ESO-496--G-010|13442|ACS/WFC|eso496g010-hubble",
+  "find": [
+    "HST|13442|ESO-496--G-010"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "galaxy",
+    "nearby galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "One of the nearby galaxies Hubble visited to map our cosmic neighborhood in three dimensions. Astronomers gauge its distance from the brightness of its brightest red giant stars.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-14",
+    "claims": [
+      {
+        "text": "ESO 496-G010 is a target of Hubble program 13442, which measures distances to nearby galaxies",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/13442/"
+      },
+      {
+        "text": "The distances allow 3D maps of galaxy distributions",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/13442/"
+      }
+    ]
+  }
+}

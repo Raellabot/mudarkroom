@@ -1,0 +1,51 @@
+{
+  "id": "eso-383-g076-hubble",
+  "name": "ESO 383-G76 (Hubble)",
+  "blurb": "ESO 383-G76, the giant central galaxy of the cluster Abell 3571, seen by Hubble.",
+  "label": "eso383g076-hubble",
+  "spec": "HST|ESO383-G076|10429|ACS/WFC|eso383g076-hubble",
+  "find": [
+    "HST|10429|ESO383-G076"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "A3571-BCG",
+    "Abell 3571 BCG",
+    "cD galaxy",
+    "brightest cluster galaxy",
+    "elliptical galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "This is the dominant galaxy at the heart of Abell 3571, a cluster that belongs to the Shapley Supercluster. Its center holds an unusually large, flat core of stars, the kind of core astronomers think surrounds an exceptionally massive black hole.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-14",
+    "claims": [
+      {
+        "text": "ESO 383-G76 is the brightest cluster galaxy (BCG) of Abell 3571",
+        "source": "https://arxiv.org/pdf/astro-ph/0211074"
+      },
+      {
+        "text": "ESO 383-G76 (A3571-BCG) is a cD galaxy in Abell 3571, imaged by Hubble ACS in program GO-10429",
+        "source": "https://arxiv.org/pdf/1910.10240"
+      },
+      {
+        "text": "ESO 383-G76 has a large, flat (depleted) core, and the paper concludes that large-core galaxies harbor overmassive supermassive black holes",
+        "source": "https://arxiv.org/pdf/1910.10240"
+      },
+      {
+        "text": "Abell 3571 is a member of the Shapley Supercluster",
+        "source": "https://arxiv.org/pdf/astro-ph/0001162"
+      },
+      {
+        "text": "A3571-BCG is another designation used for ESO 383-G76",
+        "source": "https://arxiv.org/pdf/1910.10240"
+      }
+    ]
+  }
+}

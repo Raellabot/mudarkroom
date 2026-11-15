@@ -1,0 +1,42 @@
+{
+  "id": "ngc-7173-hubble",
+  "name": "NGC 7173 (Hubble)",
+  "blurb": "NGC 7173, an elliptical galaxy, seen by Hubble.",
+  "label": "ngc7173-hubble",
+  "spec": "HST|NGC7173|10554|ACS/WFC|ngc7173-hubble",
+  "find": [
+    "HST|10554|NGC7173"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "NGC7173",
+    "Hickson Compact Group 90",
+    "HCG 90",
+    "elliptical galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A smooth elliptical galaxy in Hickson Compact Group 90, a tight knot of galaxies where a neighboring spiral is being pulled apart. Hubble surveyed its globular clusters to compare ellipticals outside rich clusters with those inside them.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-14",
+    "claims": [
+      {
+        "text": "NGC 7173 is a smooth, normal elliptical galaxy in Hickson Compact Group 90",
+        "source": "https://science.nasa.gov/asset/hubble/trio-of-galaxies-mix-it-up/"
+      },
+      {
+        "text": "Its neighbor NGC 7174 is a spiral being pulled apart",
+        "source": "https://science.nasa.gov/asset/hubble/trio-of-galaxies-mix-it-up/"
+      },
+      {
+        "text": "Program 10554 studied the globular cluster populations of ellipticals in low-density environments to compare with rich-cluster samples; NGC7173 is a target",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/10554/"
+      }
+    ]
+  }
+}

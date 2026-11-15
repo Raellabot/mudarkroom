@@ -1,0 +1,36 @@
+{
+  "id": "ngc-6316-hubble",
+  "name": "NGC 6316 (Hubble)",
+  "blurb": "NGC 6316, a globular cluster in the Milky Way's bulge, seen by Hubble.",
+  "label": "ngc6316-hubble",
+  "spec": "HST|NGC6316|15232|WFC3/UVIS|ngc6316-hubble",
+  "find": [
+    "HST|15232|NGC6316"
+  ],
+  "type": "Star cluster",
+  "aliases": [
+    "globular cluster",
+    "bulge globular cluster",
+    "star cluster"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A globular cluster deep in the Milky Way's central bulge, likely born there rather than captured. Hubble watched its stars over time to trace how they move within the cluster.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-14",
+    "claims": [
+      {
+        "text": "NGC 6316 is a bulge globular cluster that formed in situ",
+        "source": "https://arxiv.org/pdf/2502.18607"
+      },
+      {
+        "text": "HST program 15232 measures internal proper motions of stars in Galactic globular clusters including NGC 6316",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15232/"
+      }
+    ]
+  }
+}

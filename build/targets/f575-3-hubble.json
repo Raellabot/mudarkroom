@@ -1,0 +1,45 @@
+{
+  "id": "f575-3-hubble",
+  "name": "F575-3 (Hubble)",
+  "blurb": "F575-3, a low surface brightness dwarf galaxy, seen by Hubble.",
+  "label": "f5753-hubble",
+  "spec": "HST|F575-3|15427|WFC3/IR|f5753-hubble",
+  "find": [
+    "HST|15427|F575-3"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "LSB dwarf",
+    "low surface brightness galaxy",
+    "dwarf galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A faint, diffuse dwarf galaxy whose individual stars Hubble set out to map and count, to learn how much mass hides behind its light, a key to the behavior of dark matter. Its stars turned out to be extremely poor in heavy elements.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-14",
+    "claims": [
+      {
+        "text": "F575-3 is a low surface brightness (LSB) dwarf galaxy",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15427/"
+      },
+      {
+        "text": "The program aimed to measure mass-to-light ratio, critical to understanding dark matter",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15427/"
+      },
+      {
+        "text": "The program would map and count its AGB stars",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15427/"
+      },
+      {
+        "text": "F575-3's stars indicate an extremely low mean metallicity",
+        "source": "https://arxiv.org/abs/2012.09911"
+      }
+    ]
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "id": "ngc-5920-hubble",
+  "name": "NGC 5920 (Hubble)",
+  "blurb": "NGC 5920, the brightest galaxy of the galaxy cluster MKW 3s, seen by Hubble.",
+  "label": "ngc5920-hubble",
+  "spec": "HST|NGC-5920|15082|WFC3/IR|ngc5920-hubble",
+  "find": [
+    "HST|15082|NGC-5920"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "3CR 318.1",
+    "MKW 3s",
+    "brightest cluster galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "NGC 5920 is the brightest galaxy of a nearby galaxy cluster and hosts an active black hole. Hubble checked whether that black hole sits off the galaxy's center, perhaps kicked loose by gravitational waves when two black holes merged.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-14",
+    "claims": [
+      {
+        "text": "NGC 5920 is the Brightest Cluster Galaxy of MKW 3s, a nearby cool core galaxy cluster",
+        "source": "https://export.arxiv.org/abs/2104.07677"
+      },
+      {
+        "text": "NGC 5920 is associated with the radio source 3CR 318.1",
+        "source": "https://export.arxiv.org/abs/2104.07677"
+      },
+      {
+        "text": "NGC 5920 hosts an AGN (active black hole)",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15082/"
+      },
+      {
+        "text": "The program tests whether the black hole is displaced from the galaxy center, possibly by gravitational-wave recoil after a black hole merger",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15082/"
+      }
+    ]
+  }
+}
