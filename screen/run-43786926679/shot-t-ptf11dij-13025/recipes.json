@@ -1,0 +1,47 @@
+[
+ {
+  "picture": "t-ptf11dij-13025-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST+HST",
+  "target": "PTF11DIJ+PTF11DIJ",
+  "proposal_id": "13025+13025",
+  "instrument": "WFC3/IR+WFC3/UVIS",
+  "title": "Unveiling the progenitors of the most luminous supernovae",
+  "grid": {
+   "width": 1032,
+   "height": 1097,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.15847999999999787,
+   "reference_filter": "F336W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F336W",
+    "center_nm": 336.6,
+    "color": "#2699ff",
+    "obs_id": "ic27su010",
+    "exposure_s": 2044,
+    "product": "mast:HST/product/ic27su010_drz.fits"
+   },
+   {
+    "filter": "F160W",
+    "center_nm": 1543.2,
+    "color": "#ffa626",
+    "obs_id": "ic27su020",
+    "exposure_s": 206,
+    "product": "mast:HST/product/ic27su020_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

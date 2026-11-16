@@ -1,0 +1,47 @@
+[
+ {
+  "picture": "t-spt-clj0328-2140-16017-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST+HST",
+  "target": "SPT-CLJ0328-2140+SPT-CLJ0328-2140",
+  "proposal_id": "16017+16017",
+  "instrument": "WFC3/IR+WFC3/UVIS",
+  "title": "Building the SPT-HST Legacy: Imaging Massive Clusters to z=1.5",
+  "grid": {
+   "width": 1032,
+   "height": 1114,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.15848000347614274,
+   "reference_filter": "F200LP"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F200LP",
+    "center_nm": 595.3,
+    "color": "#2699ff",
+    "obs_id": "ie75l2020",
+    "exposure_s": 741,
+    "product": "mast:HST/product/ie75l2020_drz.fits"
+   },
+   {
+    "filter": "F110W",
+    "center_nm": 1148.8,
+    "color": "#ffa626",
+    "obs_id": "ie75l2010",
+    "exposure_s": 759,
+    "product": "mast:HST/product/ie75l2010_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

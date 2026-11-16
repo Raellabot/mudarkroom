@@ -1,0 +1,47 @@
+[
+ {
+  "picture": "t-vnh0008-12535-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "VNH0008",
+  "proposal_id": "12535",
+  "instrument": "WFC3/UVIS",
+  "title": "Orbital Refinement and Characterization of New Horizons KBO candidates",
+  "grid": {
+   "width": 1031,
+   "height": 1096,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.15848000347614188,
+   "reference_filter": "F606W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F606W",
+    "center_nm": 594.0,
+    "color": "#2699ff",
+    "obs_id": "ibr012j1q",
+    "exposure_s": 455,
+    "product": "mast:HST/product/ibr012j1q_drz.fits"
+   },
+   {
+    "filter": "F814W",
+    "center_nm": 831.9,
+    "color": "#ffa626",
+    "obs_id": "ibr011isq",
+    "exposure_s": 640,
+    "product": "mast:HST/product/ibr011isq_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

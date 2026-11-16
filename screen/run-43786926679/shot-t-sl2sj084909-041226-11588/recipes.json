@@ -1,0 +1,47 @@
+[
+ {
+  "picture": "t-sl2sj084909-041226-11588-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "SL2SJ084909-041226",
+  "proposal_id": "11588",
+  "instrument": "WFC3/UVIS",
+  "title": "Galaxy-Scale Strong Lenses from the CFHTLS survey",
+  "grid": {
+   "width": 1031,
+   "height": 1097,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.1584800034761424,
+   "reference_filter": "F600LP"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F475X",
+    "center_nm": 513.9,
+    "color": "#2699ff",
+    "obs_id": "ib4a55010",
+    "exposure_s": 720,
+    "product": "mast:HST/product/ib4a55010_drz.fits"
+   },
+   {
+    "filter": "F600LP",
+    "center_nm": 797.5,
+    "color": "#ffa626",
+    "obs_id": "ib4a55020",
+    "exposure_s": 720,
+    "product": "mast:HST/product/ib4a55020_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

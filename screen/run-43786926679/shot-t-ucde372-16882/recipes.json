@@ -1,0 +1,47 @@
+[
+ {
+  "picture": "t-ucde372-16882-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "UCDE372",
+  "proposal_id": "16882",
+  "instrument": "ACS/WFC",
+  "title": "High-resolution ACS/WFC Imaging of Compact Stellar Systems in the Virgo Cluster in Support of JWST Cycle 1 Science",
+  "grid": {
+   "width": 1055,
+   "height": 1075,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.1999999999999993,
+   "reference_filter": "F850LP"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F475W",
+    "center_nm": 470.0,
+    "color": "#2699ff",
+    "obs_id": "jes604010",
+    "exposure_s": 770,
+    "product": "mast:HST/product/jes604010_drz.fits"
+   },
+   {
+    "filter": "F850LP",
+    "center_nm": 895.0,
+    "color": "#ffa626",
+    "obs_id": "jes604020",
+    "exposure_s": 1220,
+    "product": "mast:HST/product/jes604020_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

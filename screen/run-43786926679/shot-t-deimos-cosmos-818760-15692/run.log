@@ -1,0 +1,13 @@
+[     0s] == t-deimos-cosmos-818760-15692: 2 filters: ['F105W', 'F160W']
+[     1s] F105W: 1130x1005 px at 0.1283 arcsec/px, 14 MB
+[     1s] F160W: 1129x1004 px at 0.1283 arcsec/px, 14 MB
+[     1s] grid from F105W: 1130x1005 px (reduced 1x), 0.128 arcsec/px
+[     3s] downloaded idzd02020_drz.fits: 14 MB
+[     3s] F105W: aligned (reduced 1x), covers 99% of the grid
+[     4s] downloaded idzd02010_drz.fits: 14 MB
+[     4s] F160W: aligned (reduced 1x), covers 98% of the grid
+[     5s] t-deimos-cosmos-818760-15692: finishing steps applied: ['dense']
+[     5s] cropped to 1101x985 px where 2 of 2 filters have data
+/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/astropy/visualization/lupton_rgb.py:645: RuntimeWarning: invalid value encountered in divide
+  fInorm = np.where(Int <= 0, 0, np.true_divide(fI, Int))
+[     5s] done: 1 pictures

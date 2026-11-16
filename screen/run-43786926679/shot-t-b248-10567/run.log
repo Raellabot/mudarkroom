@@ -1,0 +1,13 @@
+[     0s] == t-b248-10567: 2 filters: ['F475W', 'F850LP']
+[     0s] F475W: 4214x4241 px at 0.0500 arcsec/px, 215 MB
+[     0s] F850LP: 5908x5902 px at 0.0500 arcsec/px, 419 MB
+[     0s] grid from F850LP: 1181x1180 px (reduced 5x), 0.250 arcsec/px
+[     2s] downloaded j9cw74020_drz.fits: 215 MB
+[     2s] F475W: aligned (reduced 4x), covers 47% of the grid
+[     4s] downloaded hst_10567_74_acs_wfc_f850lp_j9cw74_drc.fits: 419 MB
+[     5s] F850LP: aligned (reduced 4x), covers 47% of the grid
+[     5s] t-b248-10567: finishing steps applied: ['dense']
+[     5s] cropped to 550x606 px where 2 of 2 filters have data
+/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/astropy/visualization/lupton_rgb.py:645: RuntimeWarning: invalid value encountered in divide
+  fInorm = np.where(Int <= 0, 0, np.true_divide(fI, Int))
+[     5s] done: 1 pictures

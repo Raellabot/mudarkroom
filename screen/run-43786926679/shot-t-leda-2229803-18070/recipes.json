@@ -1,0 +1,47 @@
+[
+ {
+  "picture": "t-leda-2229803-18070-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "LEDA-2229803",
+  "proposal_id": "18070",
+  "instrument": "ACS/WFC",
+  "title": "SNAP Observations of All Unobserved Galaxies within 10 Mpc",
+  "grid": {
+   "width": 1055,
+   "height": 1075,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.19999999999999646,
+   "reference_filter": "F814W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F606W",
+    "center_nm": 595.0,
+    "color": "#2699ff",
+    "obs_id": "jfob0q010",
+    "exposure_s": 748,
+    "product": "mast:HST/product/jfob0q010_drz.fits"
+   },
+   {
+    "filter": "F814W",
+    "center_nm": 833.5,
+    "color": "#ffa626",
+    "obs_id": "jfob0q020",
+    "exposure_s": 748,
+    "product": "mast:HST/product/jfob0q020_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

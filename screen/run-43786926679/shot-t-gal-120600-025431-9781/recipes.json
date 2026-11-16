@@ -1,0 +1,47 @@
+[
+ {
+  "picture": "t-gal-120600-025431-9781-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "GAL-120600-025431",
+  "proposal_id": "9781",
+  "instrument": "ACS/WFC",
+  "title": "Galaxy Evolution in Action :  The Detailed Morphology  of  Post-Starburst Galaxy",
+  "grid": {
+   "width": 1054,
+   "height": 1060,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.19999999999999898,
+   "reference_filter": "F625W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F435W",
+    "center_nm": 425.0,
+    "color": "#2699ff",
+    "obs_id": "j8pc10020",
+    "exposure_s": 1030,
+    "product": "mast:HST/product/j8pc10020_drz.fits"
+   },
+   {
+    "filter": "F625W",
+    "center_nm": 625.0,
+    "color": "#ffa626",
+    "obs_id": "j8pc10030",
+    "exposure_s": 900,
+    "product": "mast:HST/product/j8pc10030_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

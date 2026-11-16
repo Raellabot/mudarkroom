@@ -1,0 +1,47 @@
+[
+ {
+  "picture": "t-sn2018gj-15151-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "SN2018GJ",
+  "proposal_id": "15151",
+  "instrument": "WFC3/UVIS",
+  "title": "The Stellar Origins of Supernovae",
+  "grid": {
+   "width": 1035,
+   "height": 1092,
+   "reduction": 1,
+   "arcsec_per_pixel": 0.03962000086903563,
+   "reference_filter": "F625W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F625W",
+    "center_nm": 627.4,
+    "color": "#2699ff",
+    "obs_id": "idm102010",
+    "exposure_s": 1305,
+    "product": "mast:HST/product/idm102010_drz.fits"
+   },
+   {
+    "filter": "F814W",
+    "center_nm": 831.9,
+    "color": "#ffa626",
+    "obs_id": "idm102020",
+    "exposure_s": 1305,
+    "product": "mast:HST/product/idm102020_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

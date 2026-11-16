@@ -1,0 +1,47 @@
+[
+ {
+  "picture": "t-sn1954a-14786-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "SN1954A",
+  "proposal_id": "14786",
+  "instrument": "ACS/WFC",
+  "title": "Progenitor Masses for Every Nearby Historic Core-Collapse Supernova",
+  "grid": {
+   "width": 1053,
+   "height": 1060,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.19999999999999396,
+   "reference_filter": "F435W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F435W",
+    "center_nm": 425.0,
+    "color": "#2699ff",
+    "obs_id": "jd9g06020",
+    "exposure_s": 1360,
+    "product": "mast:HST/product/jd9g06020_drz.fits"
+   },
+   {
+    "filter": "F606W",
+    "center_nm": 595.0,
+    "color": "#ffa626",
+    "obs_id": "jd9g06010",
+    "exposure_s": 774,
+    "product": "mast:HST/product/jd9g06010_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

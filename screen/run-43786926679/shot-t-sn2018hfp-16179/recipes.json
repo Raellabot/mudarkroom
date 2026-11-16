@@ -1,0 +1,47 @@
+[
+ {
+  "picture": "t-sn2018hfp-16179-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "SN2018HFP",
+  "proposal_id": "16179",
+  "instrument": "WFC3/UVIS",
+  "title": "A Snapshot Survey of the Sites of Recent, Nearby Supernovae",
+  "grid": {
+   "width": 1031,
+   "height": 1097,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.1584799999999995,
+   "reference_filter": "F555W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F555W",
+    "center_nm": 550.4,
+    "color": "#2699ff",
+    "obs_id": "ieb343020",
+    "exposure_s": 710,
+    "product": "mast:HST/product/ieb343020_drz.fits"
+   },
+   {
+    "filter": "F814W",
+    "center_nm": 831.9,
+    "color": "#ffa626",
+    "obs_id": "ieb343010",
+    "exposure_s": 780,
+    "product": "mast:HST/product/ieb343010_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

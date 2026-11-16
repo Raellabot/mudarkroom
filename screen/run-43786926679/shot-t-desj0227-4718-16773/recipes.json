@@ -1,0 +1,47 @@
+[
+ {
+  "picture": "t-desj0227-4718-16773-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST+HST",
+  "target": "DESJ0227-4718+DESJ0227-4718",
+  "proposal_id": "16773+16773",
+  "instrument": "WFC3/IR+WFC3/UVIS",
+  "title": "A SNAPshot Legacy Survey of Bright Gravitational Lenses",
+  "grid": {
+   "width": 1031,
+   "height": 1096,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.1584799999999958,
+   "reference_filter": "F200LP"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F200LP",
+    "center_nm": 595.3,
+    "color": "#2699ff",
+    "obs_id": "ienh18f8q",
+    "exposure_s": 300,
+    "product": "mast:HST/product/ienh18f8q_drz.fits"
+   },
+   {
+    "filter": "F140W",
+    "center_nm": 1398.3,
+    "color": "#ffa626",
+    "obs_id": "ienh18010",
+    "exposure_s": 897.6969,
+    "product": "mast:HST/product/ienh18010_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

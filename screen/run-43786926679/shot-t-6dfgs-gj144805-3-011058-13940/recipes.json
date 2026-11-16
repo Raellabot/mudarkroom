@@ -1,0 +1,47 @@
+[
+ {
+  "picture": "t-6dfgs-gj144805-3-011058-13940-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "6DFGS-GJ144805.3-011058",
+  "proposal_id": "13940",
+  "instrument": "WFC3/UVIS",
+  "title": "X-RAYS FROM GREEN PEA ANALOGS",
+  "grid": {
+   "width": 1032,
+   "height": 1097,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.15848000347614283,
+   "reference_filter": "F336W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F336W",
+    "center_nm": 336.6,
+    "color": "#2699ff",
+    "obs_id": "icrd01010",
+    "exposure_s": 1080,
+    "product": "mast:HST/product/icrd01010_drz.fits"
+   },
+   {
+    "filter": "F606W",
+    "center_nm": 594.0,
+    "color": "#ffa626",
+    "obs_id": "icrd01020",
+    "exposure_s": 1080,
+    "product": "mast:HST/product/icrd01020_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

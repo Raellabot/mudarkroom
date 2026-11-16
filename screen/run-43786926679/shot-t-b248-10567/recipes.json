@@ -1,0 +1,47 @@
+[
+ {
+  "picture": "t-b248-10567-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "B248",
+  "proposal_id": "10567",
+  "instrument": "ACS/WFC",
+  "title": "Securing the Faint-End Galaxy Luminosity Function with Surface Brightness Fluctuation Distances",
+  "grid": {
+   "width": 1181,
+   "height": 1180,
+   "reduction": 5,
+   "arcsec_per_pixel": 0.24999999999999117,
+   "reference_filter": "F850LP"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F475W",
+    "center_nm": 470.0,
+    "color": "#2699ff",
+    "obs_id": "j9cw74020",
+    "exposure_s": 740,
+    "product": "mast:HST/product/j9cw74020_drz.fits"
+   },
+   {
+    "filter": "F850LP",
+    "center_nm": 895.0,
+    "color": "#ffa626",
+    "obs_id": "hst_10567_74_acs_wfc_f850lp_j9cw74",
+    "exposure_s": 1260,
+    "product": "mast:HST/product/hst_10567_74_acs_wfc_f850lp_j9cw74_drc.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]
