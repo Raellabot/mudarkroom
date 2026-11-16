@@ -1,0 +1,13 @@
+[     0s] == t-coma1-2-10861: 2 filters: ['F475W', 'F814W']
+[     3s] F475W: 4225x4299 px at 0.0500 arcsec/px, 218 MB
+[     3s] F814W: 4226x4299 px at 0.0500 arcsec/px, 218 MB
+[     3s] grid from F814W: 1056x1074 px (reduced 4x), 0.200 arcsec/px
+[   274s] downloaded j9ty02040_drz.fits: 218 MB
+[   274s] F475W: aligned (reduced 4x), covers 93% of the grid
+[   417s] downloaded j9ty02030_drz.fits: 218 MB
+[   417s] F814W: aligned (reduced 4x), covers 93% of the grid
+[   418s] t-coma1-2-10861: finishing steps applied: ['dense']
+[   418s] cropped to 973x1002 px where 2 of 2 filters have data
+/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/astropy/visualization/lupton_rgb.py:645: RuntimeWarning: invalid value encountered in divide
+  fInorm = np.where(Int <= 0, 0, np.true_divide(fI, Int))
+[   418s] done: 1 pictures

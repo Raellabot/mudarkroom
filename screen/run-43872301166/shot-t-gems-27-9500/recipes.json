@@ -1,0 +1,47 @@
+[
+ {
+  "picture": "t-gems-27-9500-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "GEMS-27",
+  "proposal_id": "9500",
+  "instrument": "ACS/WFC",
+  "title": "The Evolution of Galaxy Structure from 10, 000 Galaxies with 0.1<z<1.2",
+  "grid": {
+   "width": 1057,
+   "height": 1089,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.19999999999999665,
+   "reference_filter": "F606W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F606W",
+    "center_nm": 595.0,
+    "color": "#2699ff",
+    "obs_id": "j8de27010",
+    "exposure_s": 2160,
+    "product": "mast:HST/product/j8de27010_drz.fits"
+   },
+   {
+    "filter": "F850LP",
+    "center_nm": 895.0,
+    "color": "#ffa626",
+    "obs_id": "j8de27030",
+    "exposure_s": 2286,
+    "product": "mast:HST/product/j8de27030_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

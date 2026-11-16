@@ -1,0 +1,8 @@
+  page 1/1 rows so far 8 of 8
+HST|3C469.1|16281|WFC3/IR|3  rows=3  filters=['F140W', 'detection']
+HST|3C469.1|16281|WFC3/UVIS|3  rows=3  filters=['F606W', 'detection']
+HST|3C469.1|16281|WFC3/UVIS|2  rows=2  filters=['F606W']
+  page 1/1 rows so far 8 of 8
+HST|3C469.1|16281|WFC3/IR|3  rows=3  filters=['F140W', 'detection']
+HST|3C469.1|16281|WFC3/UVIS|3  rows=3  filters=['F606W', 'detection']
+HST|3C469.1|16281|WFC3/UVIS|2  rows=2  filters=['F606W']

@@ -1,0 +1,47 @@
+[
+ {
+  "picture": "t-rm790-15849-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST+HST",
+  "target": "RM790+RM790",
+  "proposal_id": "15849+15849",
+  "instrument": "WFC3/IR+WFC3/UVIS",
+  "title": "Host galaxy properties of z~0.5 AGN with direct reverberation mapping black hole masses",
+  "grid": {
+   "width": 762,
+   "height": 753,
+   "reduction": 1,
+   "arcsec_per_pixel": 0.1282500028610217,
+   "reference_filter": "F110W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F606W",
+    "center_nm": 594.0,
+    "color": "#2699ff",
+    "obs_id": "ie2k03010",
+    "exposure_s": 2103,
+    "product": "mast:HST/product/ie2k03010_drz.fits"
+   },
+   {
+    "filter": "F110W",
+    "center_nm": 1148.8,
+    "color": "#ffa626",
+    "obs_id": "hst_15849_03_wfc3_ir_f110w_ie2k03",
+    "exposure_s": 2222.050448,
+    "product": "mast:HST/product/hst_15849_03_wfc3_ir_f110w_ie2k03_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

@@ -1,0 +1,47 @@
+[
+ {
+  "picture": "t-3c469-1-16281-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST+HST",
+  "target": "3C469.1+3C469.1",
+  "proposal_id": "16281+16281",
+  "instrument": "WFC3/IR+WFC3/UVIS",
+  "title": "High-redshift 3CR: witnessing the formation of the most massive galaxies, clusters and AGN in the Bright Ages",
+  "grid": {
+   "width": 1033,
+   "height": 1126,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.15848000347614064,
+   "reference_filter": "F606W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F606W",
+    "center_nm": 594.0,
+    "color": "#2699ff",
+    "obs_id": "iecs27020",
+    "exposure_s": 2840,
+    "product": "mast:HST/product/iecs27020_drz.fits"
+   },
+   {
+    "filter": "F140W",
+    "center_nm": 1398.3,
+    "color": "#ffa626",
+    "obs_id": "iecs27010",
+    "exposure_s": 900,
+    "product": "mast:HST/product/iecs27010_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

@@ -1,0 +1,31 @@
+[     0s] == t-ngc-4854-5989: 2 filters: ['F150W', 'F356W']
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set DATE-BEG to '2025-05-29T08:05:02.758' from MJD-BEG.
+Set DATE-AVG to '2025-05-29T08:13:40.853' from MJD-AVG.
+Set DATE-END to '2025-05-29T08:22:24.275' from MJD-END'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'obsfix' made the change 'Set OBSGEO-L to   -95.993715 from OBSGEO-[XYZ].
+Set OBSGEO-B to   -33.162896 from OBSGEO-[XYZ].
+Set OBSGEO-H to 1713696984.952 from OBSGEO-[XYZ]'. [astropy.wcs.wcs]
+[     0s] F150W: 10074x4573 px at 0.0312 arcsec/px, 1290 MB
+[     1s] F356W: 4964x2204 px at 0.0629 arcsec/px, 307 MB
+[     1s] grid from F150W: 1119x508 px (reduced 9x), 0.281 arcsec/px
+[   244s] downloaded jw05989-o027_t027_nircam_clear-f150w_i2d.fits: 1290 MB
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set DATE-BEG to '2025-05-29T08:05:02.758' from MJD-BEG.
+Set DATE-AVG to '2025-05-29T08:13:40.853' from MJD-AVG.
+Set DATE-END to '2025-05-29T08:22:24.275' from MJD-END'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'obsfix' made the change 'Set OBSGEO-L to   -95.993715 from OBSGEO-[XYZ].
+Set OBSGEO-B to   -33.162896 from OBSGEO-[XYZ].
+Set OBSGEO-H to 1713696984.952 from OBSGEO-[XYZ]'. [astropy.wcs.wcs]
+[   244s] F150W: aligned (reduced 9x), covers 84% of the grid
+[   248s] downloaded jw05989-o027_t027_nircam_clear-f356w_i2d.fits: 307 MB
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set DATE-BEG to '2025-05-29T08:05:02.758' from MJD-BEG.
+Set DATE-AVG to '2025-05-29T08:13:40.853' from MJD-AVG.
+Set DATE-END to '2025-05-29T08:22:24.275' from MJD-END'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'obsfix' made the change 'Set OBSGEO-L to   -95.993715 from OBSGEO-[XYZ].
+Set OBSGEO-B to   -33.162896 from OBSGEO-[XYZ].
+Set OBSGEO-H to 1713696984.952 from OBSGEO-[XYZ]'. [astropy.wcs.wcs]
+[   249s] F356W: aligned (reduced 4x), covers 81% of the grid
+[   249s] t-ngc-4854-5989: finishing steps applied: ['dense']
+[   249s] cropped to 1109x500 px where 2 of 2 filters have data
+/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/astropy/visualization/lupton_rgb.py:645: RuntimeWarning: invalid value encountered in divide
+  fInorm = np.where(Int <= 0, 0, np.true_divide(fI, Int))
+[   249s] done: 1 pictures

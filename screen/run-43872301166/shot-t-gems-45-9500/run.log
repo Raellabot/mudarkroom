@@ -1,0 +1,13 @@
+[     0s] == t-gems-45-9500: 2 filters: ['F606W', 'F850LP']
+[     1s] F606W: 4228x4357 px at 0.0500 arcsec/px, 221 MB
+[     1s] F850LP: 4229x4358 px at 0.0500 arcsec/px, 221 MB
+[     1s] grid from F850LP: 1057x1089 px (reduced 4x), 0.200 arcsec/px
+[   119s] downloaded j8de45010_drz.fits: 221 MB
+[   119s] F606W: aligned (reduced 4x), covers 93% of the grid
+[   241s] downloaded j8de45030_drz.fits: 221 MB
+[   242s] F850LP: aligned (reduced 4x), covers 93% of the grid
+[   242s] t-gems-45-9500: finishing steps applied: ['dense']
+[   242s] cropped to 963x1012 px where 2 of 2 filters have data
+/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/astropy/visualization/lupton_rgb.py:645: RuntimeWarning: invalid value encountered in divide
+  fInorm = np.where(Int <= 0, 0, np.true_divide(fI, Int))
+[   242s] done: 1 pictures

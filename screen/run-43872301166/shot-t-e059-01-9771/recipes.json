@@ -1,0 +1,47 @@
+[
+ {
+  "picture": "t-e059-01-9771-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "E059-01",
+  "proposal_id": "9771",
+  "instrument": "ACS/WFC",
+  "title": "The local Hubble flow and the density field within 6 Mpc",
+  "grid": {
+   "width": 1052,
+   "height": 1060,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.1999999999999973,
+   "reference_filter": "F606W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F606W",
+    "center_nm": 595.0,
+    "color": "#2699ff",
+    "obs_id": "j8mq24010",
+    "exposure_s": 1200,
+    "product": "mast:HST/product/j8mq24011_drz.fits"
+   },
+   {
+    "filter": "F814W",
+    "center_nm": 833.5,
+    "color": "#ffa626",
+    "obs_id": "j8mq24020",
+    "exposure_s": 900,
+    "product": "mast:HST/product/j8mq24021_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

@@ -1,0 +1,13 @@
+[     0s] == t-matlas-203-16711: 2 filters: ['F606W', 'F814W']
+[     1s] F606W: 4220x4246 px at 0.0500 arcsec/px, 215 MB
+[     1s] F814W: 4219x4245 px at 0.0500 arcsec/px, 215 MB
+[     1s] grid from F606W: 1055x1061 px (reduced 4x), 0.200 arcsec/px
+[    49s] downloaded jenm42010_drz.fits: 215 MB
+[    50s] F606W: aligned (reduced 4x), covers 92% of the grid
+[   297s] downloaded jenm42020_drz.fits: 215 MB
+[   297s] F814W: aligned (reduced 4x), covers 92% of the grid
+[   298s] t-matlas-203-16711: finishing steps applied: ['dense']
+[   298s] cropped to 971x989 px where 2 of 2 filters have data
+/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/astropy/visualization/lupton_rgb.py:645: RuntimeWarning: invalid value encountered in divide
+  fInorm = np.where(Int <= 0, 0, np.true_divide(fI, Int))
+[   298s] done: 1 pictures
