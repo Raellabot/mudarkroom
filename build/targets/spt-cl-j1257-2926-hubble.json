@@ -1,0 +1,44 @@
+{
+  "id": "spt-cl-j1257-2926-hubble",
+  "name": "SPT-CL J1257-2926 (Hubble)",
+  "blurb": "SPT-CL J1257-2926, a galaxy cluster, seen by Hubble.",
+  "label": "sptclj12572926-hubble",
+  "spec": "HST+HST|SPT-CLJ1257-2926+SPT-CLJ1257-2926|15307+15307|WFC3/IR+WFC3/UVIS|sptclj12572926-hubble",
+  "find": [
+    "HST|15307|SPT-CLJ1257-2926"
+  ],
+  "type": "Galaxy cluster",
+  "aliases": [
+    "SPT-CLJ1257-2926",
+    "galaxy cluster",
+    "cluster of galaxies"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A massive gathering of galaxies picked out by the SPT survey, this cluster is one of 293 that Hubble set out to photograph to build a legacy of massive clusters.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "SPT-CLJ1257-2926 is a target of Hubble program 15307, which images SPT galaxy clusters",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15307/"
+      },
+      {
+        "text": "The program's clusters were selected from the SPT cluster catalog, identified via the Sunyaev-Zel'dovich effect",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15307/"
+      },
+      {
+        "text": "Hubble set out to image 293 SPT galaxy clusters",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15307/"
+      },
+      {
+        "text": "The program aims to build an SPT-HST legacy of massive clusters",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15307/"
+      }
+    ]
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "id": "agc-223231-hubble",
+  "name": "AGC 223231 (Hubble)",
+  "blurb": "AGC 223231, a gas-rich dwarf galaxy, seen by Hubble.",
+  "label": "agc223231-hubble",
+  "spec": "HST|AGC223231|13750|ACS/WFC|agc223231-hubble",
+  "find": [
+    "HST|13750|AGC223231"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "AGC223231",
+    "dwarf galaxy",
+    "gas-rich dwarf galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "One of the extremely low-mass, gas-rich dwarf galaxies of the SHIELD survey. Hubble resolved its stars, revealing signs of recent star formation.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "AGC 223231 is one of the SHIELD II galaxies",
+        "source": "https://arxiv.org/pdf/2105.05100"
+      },
+      {
+        "text": "SHIELD galaxies are gas-rich dwarfs",
+        "source": "https://arxiv.org/pdf/2105.05100"
+      },
+      {
+        "text": "SHIELD II galaxies are extremely low-mass galaxies",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/13750/"
+      },
+      {
+        "text": "AGC 223231 shows evidence of recent star formation",
+        "source": "https://arxiv.org/pdf/2105.05100"
+      }
+    ]
+  }
+}

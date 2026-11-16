@@ -1,0 +1,45 @@
+{
+  "id": "sn-2001ir-host-hubble",
+  "name": "MCG -02-22-22, SN 2001ir field (Hubble)",
+  "blurb": "MCG -02-22-22, a spiral galaxy that hosted the supernova SN 2001ir, seen by Hubble.",
+  "label": "sn2001irhost-hubble",
+  "spec": "HST|SN2001IR|17731|WFC3/UVIS|sn2001irhost-hubble",
+  "find": [
+    "HST|17731|SN2001IR"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "SN 2001ir",
+    "SN2001IR",
+    "spiral galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "SN 2001ir was a Type IIn supernova, its light marked by narrow hydrogen lines. Years later Hubble returned to the spot to see whether the star that exploded had truly vanished.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "SN 2001ir occurred in MCG -02-22-22",
+        "source": "https://tamkin3.eps.harvard.edu/iauc/07700/07781.html"
+      },
+      {
+        "text": "MCG -02-22-22 is an Scd-type (spiral) galaxy; SN 2001ir lies at 8h36m28.12s -11 50 03.5 (matches the pointing)",
+        "source": "https://w.astro.berkeley.edu/bait/2001/sn2001ir.html"
+      },
+      {
+        "text": "SN 2001ir is of type IIn, with a spectrum dominated by narrow hydrogen lines",
+        "source": "https://tamkin3.eps.harvard.edu/iauc/07700/07784.html"
+      },
+      {
+        "text": "Hubble program 17731 images old Type IIn sites years later to see whether the progenitor disappeared; SN2001IR is a target",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/17731/"
+      }
+    ]
+  }
+}

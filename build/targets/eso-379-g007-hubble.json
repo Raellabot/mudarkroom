@@ -1,0 +1,51 @@
+{
+  "id": "eso-379-g007-hubble",
+  "name": "ESO 379-G007 (Hubble)",
+  "blurb": "ESO 379-G007, a dwarf irregular galaxy, seen by Hubble.",
+  "label": "eso379g007-hubble",
+  "spec": "HST|ESO379-007|12546|ACS/WFC|eso379g007-hubble",
+  "find": [
+    "HST|12546|ESO379-007"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "ESO379-007",
+    "HIPASS J1154-33",
+    "dwarf irregular galaxy",
+    "dwarf galaxy",
+    "irregular galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A small, irregular galaxy on the outskirts of the Centaurus A group. Hubble picked out its individual stars so astronomers could measure its distance from the brightest red giants.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "ESO 379-G007 is a dwarf irregular galaxy",
+        "source": "https://www.atnf.csiro.au/research/LVHIS/data/LVHIS035.info.html"
+      },
+      {
+        "text": "ESO 379-G007 is also known as HIPASS J1154-33",
+        "source": "https://www.atnf.csiro.au/research/LVHIS/data/LVHIS035.info.html"
+      },
+      {
+        "text": "ESO 379-G007 lies on the outskirts of the Cen A (Centaurus A) group",
+        "source": "https://www.atnf.csiro.au/research/LVHIS/data/LVHIS035.info.html"
+      },
+      {
+        "text": "ESO379-007 is a galaxy target of Hubble program 12546 at RA 11h54m43.2s, Dec -33 33 32 (matches the pointing)",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/12546/"
+      },
+      {
+        "text": "The program measures distances to nearby galaxies from the tip of the red giant branch, resolving individual stars",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/12546/"
+      }
+    ]
+  }
+}

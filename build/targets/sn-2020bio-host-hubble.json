@@ -1,0 +1,41 @@
+{
+  "id": "sn-2020bio-host-hubble",
+  "name": "NGC 5371, SN 2020bio field (Hubble)",
+  "blurb": "NGC 5371, a spiral galaxy that hosted the supernova SN 2020bio, seen by Hubble.",
+  "label": "sn2020biohost-hubble",
+  "spec": "HST|SN2020BIO|16239|WFC3/UVIS|sn2020biohost-hubble",
+  "find": [
+    "HST|16239|SN2020BIO"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "SN 2020bio",
+    "SN2020BIO",
+    "spiral galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "SN 2020bio was a double-peaked Type IIb supernova, caught within a day of its explosion in this spiral galaxy. Hubble looked back at the site later to study the explosion's aftermath and its surroundings.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "SN 2020bio exploded in the spiral galaxy NGC 5371",
+        "source": "https://ar5iv.arxiv.org/html/2301.04662"
+      },
+      {
+        "text": "SN 2020bio is a double-peaked Type IIb supernova discovered within a day of explosion",
+        "source": "https://arxiv.org/abs/2301.04662"
+      },
+      {
+        "text": "Hubble program 16239 takes late-time images of nearby supernovae to study the explosions and their environments; SN2020BIO is a target",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/16239/"
+      }
+    ]
+  }
+}

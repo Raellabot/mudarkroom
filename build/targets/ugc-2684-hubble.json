@@ -1,0 +1,38 @@
+{
+  "id": "ugc-2684-hubble",
+  "name": "UGC 2684 (Hubble)",
+  "blurb": "UGC 2684, a nearby dwarf galaxy, seen by Hubble.",
+  "label": "ugc2684-hubble",
+  "spec": "HST|UGC-02684|15922|ACS/WFC|ugc2684-hubble",
+  "find": [
+    "HST|15922|UGC-02684"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "UGC 2684",
+    "UGC 02684",
+    "U2684",
+    "dwarf galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A small dwarf galaxy in our cosmic neighborhood, one half of a wide pair of dwarfs that share nearly the same motion along our line of sight.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "UGC 2684 (listed as U2684) is one of thirty nearby dwarf galaxies in an H-alpha survey, at RA 03 20 23.7, Dec +17 17 42 (J2000), matching this pointing (RA 50.0988, Dec 17.2959)",
+        "source": "https://arxiv.org/pdf/1112.2548"
+      },
+      {
+        "text": "UGC 2684 forms a wide pair of dwarf galaxies with similar radial velocities (with UGC 2716)",
+        "source": "https://arxiv.org/pdf/1112.2548"
+      }
+    ]
+  }
+}

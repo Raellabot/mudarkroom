@@ -1,0 +1,41 @@
+{
+  "id": "des-j0133-6434-hubble",
+  "name": "DES J0133-6434 (Hubble)",
+  "blurb": "DES J0133-6434, a galaxy-galaxy strong gravitational lens, seen by Hubble.",
+  "label": "desj01336434-hubble",
+  "spec": "HST+HST|DESJ0133-6434+DESJ0133-6434|16773+16773|WFC3/IR+WFC3/UVIS|desj01336434-hubble",
+  "find": [
+    "HST|16773|DESJ0133-6434"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "DESJ0133-6434",
+    "gravitational lens",
+    "strong lens",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Here the gravity of one galaxy bends and magnifies the light of another far behind it. This lens was found by neural networks searching Dark Energy Survey images, and judged to be a definite lens.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "DESJ0133-6434 is a galaxy-galaxy strong gravitational lens candidate in the DES lens catalog, at the position of this field",
+        "source": "https://arxiv.org/pdf/1905.10522"
+      },
+      {
+        "text": "It was given grade 3, meaning definitely a lens",
+        "source": "https://arxiv.org/pdf/1905.10522"
+      },
+      {
+        "text": "Lenses in this catalog are galaxy-galaxy strong gravitational lenses found with convolutional neural networks in Dark Energy Survey imaging",
+        "source": "https://arxiv.org/abs/1905.10522"
+      }
+    ]
+  }
+}

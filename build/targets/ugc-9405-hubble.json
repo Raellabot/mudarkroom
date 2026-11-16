@@ -1,0 +1,42 @@
+{
+  "id": "ugc-9405-hubble",
+  "name": "UGC 9405 (Hubble)",
+  "blurb": "UGC 9405, an isolated dwarf irregular galaxy, seen by Hubble.",
+  "label": "ugc9405-hubble",
+  "spec": "HST|UGC09405|12546|ACS/WFC|ugc9405-hubble",
+  "find": [
+    "HST|12546|UGC09405"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "UGC09405",
+    "dwarf irregular galaxy",
+    "irregular galaxy",
+    "dwarf galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A small irregular galaxy living in isolation. Hubble resolved its stars to help map the distances and motions of galaxies in our cosmic neighborhood.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "UGC 9405 is one of twenty nearby isolated irregular dwarf galaxies",
+        "source": "https://aas.aanda.org/10.1051/aas:1998315"
+      },
+      {
+        "text": "UGC09405 is a galaxy target of Hubble program 12546",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/12546/"
+      },
+      {
+        "text": "The program uses resolved stars (tip of the red giant branch) to map the 3D distribution and velocity field of nearby galaxies",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/12546/"
+      }
+    ]
+  }
+}

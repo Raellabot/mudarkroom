@@ -1,0 +1,41 @@
+{
+  "id": "ark-90-hubble",
+  "name": "ARK 90 (Hubble)",
+  "blurb": "ARK 90, an early-type galaxy, seen by Hubble.",
+  "label": "ark90-hubble",
+  "spec": "HST+HST|ARK90+ARK90|13050+13050|WFC3/IR+WFC3/UVIS|ark90-hubble",
+  "find": [
+    "HST|13050|ARK90"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "ARK90",
+    "ARK 90",
+    "early-type galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "One of 16 nearby early-type galaxies Hubble imaged in a hunt for the most massive black holes hiding in small galaxies.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "ARK90 is a target of HST program 13050 at RA 02 42 29.035, Dec +18 09 52.88, matching this pointing (RA 40.621, Dec 18.1647)",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/13050/"
+      },
+      {
+        "text": "The program imaged 16 nearby early-type galaxies",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/13050/"
+      },
+      {
+        "text": "The program is titled The Most Massive Black Holes in Small Galaxies",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/13050/"
+      }
+    ]
+  }
+}

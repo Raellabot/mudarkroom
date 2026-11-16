@@ -1,0 +1,50 @@
+{
+  "id": "kk153-hubble",
+  "name": "KK153 (Hubble)",
+  "blurb": "KK153, a gas-rich ultra-faint dwarf galaxy, seen by Hubble.",
+  "label": "kk153-hubble",
+  "spec": "HST|LEDA-41920|18070|ACS/WFC|kk153-hubble",
+  "find": [
+    "HST|18070|LEDA-41920"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "LEDA 41920",
+    "LEDA-41920",
+    "ultra-faint dwarf galaxy",
+    "dwarf galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A faint, gas-rich dwarf galaxy in the Local Group or its outskirts, spotted by the FAST telescope. Hubble's snapshot resolves its stars to pin down how far away it really is.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "KK153 is also named LEDA 41920",
+        "source": "https://arxiv.org/html/2503.08999v1"
+      },
+      {
+        "text": "KK153 lies at RA 12h35m01.7s, Dec +58 23 11.8 (matches the pointing)",
+        "source": "https://arxiv.org/html/2503.08999v1"
+      },
+      {
+        "text": "KK153 is a gas-rich ultra-faint dwarf galaxy in the Local Group or its outskirts",
+        "source": "https://arxiv.org/html/2503.08999v1"
+      },
+      {
+        "text": "KK153 was discovered as a gas-rich dwarf with FAST",
+        "source": "https://arxiv.org/html/2503.08999v1"
+      },
+      {
+        "text": "LEDA-41920 is a target of Hubble program 18070, which resolves stars to measure distances",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/18070/"
+      }
+    ]
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "id": "sgp126512-hubble",
+  "name": "SGP126512 (Hubble)",
+  "blurb": "SGP126512, an isolated elliptical galaxy, seen by Hubble.",
+  "label": "sgp126512-hubble",
+  "spec": "HST|SGP126512|10630|ACS/WFC|sgp126512-hubble",
+  "find": [
+    "HST|10630|SGP126512"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "SGP126512",
+    "elliptical galaxy",
+    "isolated elliptical",
+    "void galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A lone elliptical galaxy far from the crowded clusters where most ellipticals live. Hubble imaged it to learn whether life in a cosmic void leaves its mark on fine details such as shells, dust lanes and nuclear disks.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "SGP126512 is a target of HST program 10630 at RA 23 24 10.13, Dec -31 09 29.29, matching this pointing (RA 351.0422, Dec -31.1581); coordinates from the 2dFGRS",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/10630/"
+      },
+      {
+        "text": "The program studies truly isolated elliptical galaxies in voids identified with the 2dFGRS",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/10630/"
+      },
+      {
+        "text": "Knowledge of ellipticals is biased toward overdense regions such as clusters",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/10630/"
+      },
+      {
+        "text": "The program looks for fine-structure features such as nuclear disks, dust lanes and shells, which may differ for void galaxies",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/10630/"
+      }
+    ]
+  }
+}

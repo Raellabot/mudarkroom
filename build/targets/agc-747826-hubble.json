@@ -1,0 +1,49 @@
+{
+  "id": "agc-747826-hubble",
+  "name": "AGC 747826 (Hubble)",
+  "blurb": "AGC 747826, a gas-rich dwarf galaxy, seen by Hubble.",
+  "label": "agc747826-hubble",
+  "spec": "HST|AGC747826|13750|ACS/WFC|agc747826-hubble",
+  "find": [
+    "HST|13750|AGC747826"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "AGC747826",
+    "dwarf galaxy",
+    "irregular galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "AGC 747826 is a small, gas-rich dwarf galaxy found by the ALFALFA survey, and compared with its siblings it has formed few new stars of late. Hubble looked at it to measure its distance from its red giant stars.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "AGC 747826 is a target of Hubble program 13750 on the SHIELD II galaxies, at this position",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/13750/"
+      },
+      {
+        "text": "SHIELD galaxies are gas-rich dwarfs selected from the ALFALFA survey",
+        "source": "https://arxiv.org/pdf/2105.05100"
+      },
+      {
+        "text": "AGC 747826 has had comparatively little recent star formation",
+        "source": "https://arxiv.org/pdf/2105.05100"
+      },
+      {
+        "text": "The SHIELD II galaxies have irregular morphologies",
+        "source": "https://arxiv.org/pdf/2105.05100"
+      },
+      {
+        "text": "The program's primary goal is TRGB (tip of the red giant branch) distances",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/13750/"
+      }
+    ]
+  }
+}

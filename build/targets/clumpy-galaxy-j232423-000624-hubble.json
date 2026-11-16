@@ -1,0 +1,41 @@
+{
+  "id": "clumpy-galaxy-j232423-000624-hubble",
+  "name": "Clumpy galaxy J232423-000624 (Hubble)",
+  "blurb": "J232423-000624, a clumpy galaxy, seen by Hubble.",
+  "label": "clumpygalaxyj232423000624-hubble",
+  "spec": "HST|VLNT-008-J232423-000624|17309|ACS/WFC|clumpygalaxyj232423000624-hubble",
+  "find": [
+    "HST|17309|VLNT-008-J232423-000624"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "VLNT-008-J232423-000624",
+    "J232423-000624",
+    "clumpy galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A galaxy studded with clumps of star formation like those in young galaxies of the early universe, one of 381 targets in a Hubble survey of such look-alikes.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "HST program 17309 (Cycle 32 snapshot, PI Vihang Mehta) is titled Resolved imaging survey of the analogs of high-z massive, star-forming clumps",
+        "source": "https://www.stsci.edu/ftp/presto/ops/program-lists/HST-TAC.html"
+      },
+      {
+        "text": "The survey images 381 clumpy galaxies with ACS in F435W and F775W",
+        "source": "https://www.stsci.edu/files/live/sites/www/files/home/hst/about/space-telescope-users-committee/presentations-and-documentation/_documents/2023_may/gap-fillers.pdf"
+      },
+      {
+        "text": "The clumps are analogous to those in high-redshift star-forming galaxies",
+        "source": "https://www.stsci.edu/files/live/sites/www/files/home/hst/about/space-telescope-users-committee/presentations-and-documentation/_documents/2023_may/gap-fillers.pdf"
+      }
+    ]
+  }
+}

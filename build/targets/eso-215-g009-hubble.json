@@ -1,0 +1,48 @@
+{
+  "id": "eso-215-g009-hubble",
+  "name": "ESO 215-G009 (Hubble)",
+  "blurb": "ESO 215-G009, an isolated dwarf irregular galaxy, seen by Hubble.",
+  "label": "eso215g009-hubble",
+  "spec": "HST|E215-09|10235|ACS/WFC|eso215g009-hubble",
+  "find": [
+    "HST|10235|E215-09"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "ESO 215-G?009",
+    "ESO215-G?009",
+    "E215-09",
+    "HIPASS J1057-48",
+    "dwarf irregular galaxy",
+    "dwarf galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A faint, isolated dwarf galaxy of old stars, wrapped in a vast cloud of hydrogen gas that reaches more than six times beyond the edge of its starlight.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "ESO215-G?009 has its optical center at RA 10 57 29.9, Dec -48 10 43 (J2000), matching this pointing (RA 164.3758, Dec -48.1789)",
+        "source": "https://ar5iv.labs.arxiv.org/html/astro-ph/0406010"
+      },
+      {
+        "text": "ESO215-G?009 is an isolated dwarf irregular galaxy with an old stellar population and very low surface brightness",
+        "source": "https://ar5iv.labs.arxiv.org/html/astro-ph/0406010"
+      },
+      {
+        "text": "Its hydrogen (HI) gas reaches more than six times beyond the edge of its stars (the Holmberg radius)",
+        "source": "https://ar5iv.labs.arxiv.org/html/astro-ph/0406010"
+      },
+      {
+        "text": "ESO 215-G?009 is a dwarf irregular galaxy also known as HIPASS J1057-48",
+        "source": "https://www.atnf.csiro.au/research/LVHIS/data/LVHIS030.info.html"
+      }
+    ]
+  }
+}

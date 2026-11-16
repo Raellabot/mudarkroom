@@ -1,0 +1,48 @@
+{
+  "id": "d634-03-hubble",
+  "name": "D634-03 (Hubble)",
+  "blurb": "D634-03, an isolated low-surface-brightness galaxy, seen by Hubble.",
+  "label": "d63403-hubble",
+  "spec": "HST|D634-03|9771|ACS/WFC|d63403-hubble",
+  "find": [
+    "HST|9771|D634-03"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "D634-03",
+    "low surface brightness galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A faint, isolated galaxy that its observers called the most unusual low-surface-brightness object on its survey list. It sits in a filament of nearby galaxies and moves out of step with the smooth expansion of space.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "D634-03 was observed with ACS/WFC in program 9771 at RA 09 08 53.50, Dec +14 34 55.00, matching this pointing (RA 137.2229, Dec 14.5819)",
+        "source": "https://archive.stsci.edu/prepds/angrrr/datalist.html"
+      },
+      {
+        "text": "D634-03 is a galaxy imaged in the HST Cycle 12 snapshot program 9771",
+        "source": "https://ar5iv.arxiv.org/html/astro-ph/0511648"
+      },
+      {
+        "text": "D634-03 is the most unusual low-surface-brightness object on the Taylor et al. (1996) list",
+        "source": "https://ar5iv.arxiv.org/html/astro-ph/0511648"
+      },
+      {
+        "text": "D634-03 is isolated and has a high peculiar velocity (moves out of step with the Hubble flow)",
+        "source": "https://ar5iv.arxiv.org/html/astro-ph/0511648"
+      },
+      {
+        "text": "D634-03 is situated in a filament with other nearby galaxies",
+        "source": "https://ar5iv.arxiv.org/html/astro-ph/0511648"
+      }
+    ]
+  }
+}

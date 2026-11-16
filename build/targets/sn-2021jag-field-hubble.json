@@ -1,0 +1,40 @@
+{
+  "id": "sn-2021jag-field-hubble",
+  "name": "SN 2021jag field (Hubble)",
+  "blurb": "The field of the transient SN 2021jag, seen by Hubble.",
+  "label": "sn2021jagfield-hubble",
+  "spec": "HST|SN2021JAG|16691|WFC3/UVIS|sn2021jagfield-hubble",
+  "find": [
+    "HST|16691|SN2021JAG"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "SN2021jag",
+    "2021jag",
+    "transient"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Hubble took a snapshot of the place where SN 2021jag appeared, one of 75 recent, well-observed transients it revisited to measure how brightly each still glowed long after the explosion and to probe its surroundings.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "SN2021JAG is a target of Hubble program 16691, Snapshot Observations of Nearby, Recent Transients and Their Environments",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/16691/"
+      },
+      {
+        "text": "The program observes a sample of 75 recent, well-observed transients",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/16691/"
+      },
+      {
+        "text": "The late-time images reveal the transients' late-time luminosity and probe their environments",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/16691/"
+      }
+    ]
+  }
+}

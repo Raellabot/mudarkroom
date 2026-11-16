@@ -1,0 +1,50 @@
+{
+  "id": "sn-2020mmz-host-hubble",
+  "name": "NGC 2814, SN 2020mmz field (Hubble)",
+  "blurb": "NGC 2814, a nearly edge-on spiral galaxy that hosted the supernova SN 2020mmz, seen by Hubble.",
+  "label": "sn2020mmzhost-hubble",
+  "spec": "HST|SN2020MMZ|17070|ACS/WFC|sn2020mmzhost-hubble",
+  "find": [
+    "HST|17070|SN2020MMZ"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "SN 2020mmz",
+    "SN2020MMZ",
+    "spiral galaxy",
+    "edge-on galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "SN 2020mmz, a Type II-L supernova, exploded in this nearly edge-on spiral and faded unusually fast in the weeks after its peak. Hubble came back to study the stars around the explosion site and learn about the star that died.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "NGC 2814 is the host galaxy of SN 2020mmz",
+        "source": "https://images.astronet.ru/pubd/2022/10/28/0001854276/pz-42-008.pdf"
+      },
+      {
+        "text": "SN 2020mmz lies in a nearly edge-on spiral galaxy",
+        "source": "https://images.astronet.ru/pubd/2022/10/28/0001854276/pz-42-008.pdf"
+      },
+      {
+        "text": "SN 2020mmz is a Type II-L supernova",
+        "source": "https://images.astronet.ru/pubd/2022/10/28/0001854276/pz-42-008.pdf"
+      },
+      {
+        "text": "SN 2020mmz declined in brightness fast for the first 20 days after maximum",
+        "source": "https://images.astronet.ru/pubd/2022/10/28/0001854276/pz-42-008.pdf"
+      },
+      {
+        "text": "SN2020MMZ is a target of Hubble program 17070, which resolves the stars around Type II supernovae to estimate progenitor masses",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/17070/"
+      }
+    ]
+  }
+}

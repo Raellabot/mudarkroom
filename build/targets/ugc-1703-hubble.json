@@ -1,0 +1,40 @@
+{
+  "id": "ugc-1703-hubble",
+  "name": "UGC 1703 (Hubble)",
+  "blurb": "UGC 1703, an isolated dwarf galaxy, seen by Hubble.",
+  "label": "ugc1703-hubble",
+  "spec": "HST|UGC1703|12546|ACS/WFC|ugc1703-hubble",
+  "find": [
+    "HST|12546|UGC1703"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "dwarf galaxy",
+    "dwarf spheroidal galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "UGC 1703 is a faint dwarf galaxy keeping its own company, a quiet spheroidal or transition-type dwarf. Hubble looked at it to measure its distance from the brightness of its red giant stars.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "UGC 1703 is a local isolated dwarf galaxy of type dSph/dTr (spheroidal or transition-type dwarf)",
+        "source": "https://arxiv.org/abs/1508.02591"
+      },
+      {
+        "text": "UGC 1703 is a target of Hubble program 12546 at this position, imaged with ACS in F606W and F814W",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/12546/"
+      },
+      {
+        "text": "The program measures distances from stars at the Tip of the Red Giant Branch",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/12546/"
+      }
+    ]
+  }
+}

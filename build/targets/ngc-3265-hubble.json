@@ -1,0 +1,39 @@
+{
+  "id": "ngc-3265-hubble",
+  "name": "NGC 3265 (Hubble)",
+  "blurb": "NGC 3265, a dusty galaxy, seen by Hubble.",
+  "label": "ngc3265-hubble",
+  "spec": "HST|NGC3265|12591|ACS/WFC|ngc3265-hubble",
+  "find": [
+    "HST|12591|NGC3265"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "galaxy",
+    "dusty galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Catalogs list NGC 3265 as an elliptical galaxy, but Hubble's sharp view revealed something messier: faint, diffuse spiral arms laced with dust.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "NGC 3265 is catalogued as Hubble class E (elliptical)",
+        "source": "https://www.mpifr-bonn.mpg.de/3399635/ngc3265"
+      },
+      {
+        "text": "In Hubble ACS images (F475W and F850LP program) NGC 3265 shows irregular, non-early-type morphology",
+        "source": "https://arxiv.org/pdf/1406.6697"
+      },
+      {
+        "text": "NGC 3265 has very diffuse spiral arms and is heavily affected by dust",
+        "source": "https://arxiv.org/pdf/1406.6697"
+      }
+    ]
+  }
+}

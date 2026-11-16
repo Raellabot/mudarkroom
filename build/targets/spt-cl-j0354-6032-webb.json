@@ -1,0 +1,44 @@
+{
+  "id": "spt-cl-j0354-6032-webb",
+  "name": "SPT-CL J0354-6032 (Webb)",
+  "blurb": "SPT-CL J0354-6032, a massive galaxy cluster, seen by Webb.",
+  "label": "sptclj03546032-webb",
+  "spec": "JWST|SPT-CLJ0354-6032|5594|NIRCAM/IMAGE|sptclj03546032-webb",
+  "find": [
+    "JWST|5594|SPT-CLJ0354-6032"
+  ],
+  "type": "Galaxy cluster",
+  "aliases": [
+    "SPT-CLJ0354-6032",
+    "galaxy cluster",
+    "cluster of galaxies"
+  ],
+  "missions": [
+    "Webb"
+  ],
+  "story": "A rich cluster of galaxies, one of the massive clusters in Webb's SLICE survey (Strong LensIng and Cluster Evolution), which traces how galaxy clusters formed over time.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "SPT-CLJ0354-6032 is a target of Webb program 5594 at RA 03 54 38.0, Dec -60 32 32 (matches the pointing)",
+        "source": "https://www.stsci.edu/jwst-program-info/download/jwst/pdf/5594/"
+      },
+      {
+        "text": "SPT-CL J0354-6032 is a rich galaxy cluster",
+        "source": "https://www.stsci.edu/jwst-program-info/download/jwst/pdf/5594/"
+      },
+      {
+        "text": "The SLICE survey images massive galaxy clusters to track cluster formation history",
+        "source": "https://www.stsci.edu/jwst-program-info/download/jwst/pdf/5594/"
+      },
+      {
+        "text": "SLICE stands for Strong LensIng and Cluster Evolution",
+        "source": "https://www.stsci.edu/jwst-program-info/download/jwst/pdf/5594/"
+      }
+    ]
+  }
+}
