@@ -1,0 +1,41 @@
+{
+  "id": "spt-cl-j0449-4901-webb",
+  "name": "SPT-CL J0449-4901 (Webb)",
+  "blurb": "SPT-CL J0449-4901, a massive galaxy cluster, seen by Webb.",
+  "label": "sptclj04494901-webb",
+  "spec": "JWST|SPT-CLJ0449-4901|5594|NIRCAM/IMAGE|sptclj04494901-webb",
+  "find": [
+    "JWST|5594|SPT-CLJ0449-4901"
+  ],
+  "type": "Galaxy cluster",
+  "aliases": [
+    "SPT-CLJ0449-4901",
+    "SPT-CL J0449-4901",
+    "galaxy cluster",
+    "cluster of galaxies"
+  ],
+  "missions": [
+    "Webb"
+  ],
+  "story": "A massive galaxy cluster found by the South Pole Telescope. Webb's SLICE survey studies clusters like this one to map their dark matter through the way their gravity bends light, and to trace how their brightest galaxies built up their stars.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "SPT-CL J0449-4901 is a massive galaxy cluster detected by the South Pole Telescope",
+        "source": "https://arxiv.org/pdf/1802.04533"
+      },
+      {
+        "text": "SLICE aims to study the buildup of stars in brightest cluster galaxies and the distribution of dark matter in clusters",
+        "source": "https://arxiv.org/html/2503.17498v1"
+      },
+      {
+        "text": "SLICE maps dark matter mainly through strong lensing",
+        "source": "https://arxiv.org/html/2503.17498v1"
+      }
+    ]
+  }
+}

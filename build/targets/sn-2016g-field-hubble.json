@@ -1,0 +1,35 @@
+{
+  "id": "sn-2016g-field-hubble",
+  "name": "SN 2016G field (Hubble)",
+  "blurb": "The site of SN 2016G, a recent nearby supernova, seen by Hubble.",
+  "label": "sn2016gfield-hubble",
+  "spec": "HST|SN2016G|16179|WFC3/UVIS|sn2016gfield-hubble",
+  "find": [
+    "HST|16179|SN2016G"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "SN2016G",
+    "supernova"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Hubble took a snapshot of the place where supernova SN 2016G appeared, in a survey of the sites of recent, nearby supernovae.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "SN 2016G is a supernova targeted by Hubble program 16179",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/16179/"
+      },
+      {
+        "text": "Program 16179 is a snapshot survey of the sites of recent, nearby supernovae",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/16179/"
+      }
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "id": "ugc-3476-hubble",
+  "name": "UGC 3476 (Hubble)",
+  "blurb": "UGC 3476, a nearby galaxy, seen by Hubble.",
+  "label": "ugc3476-hubble",
+  "spec": "HST|UGC-03476|15922|ACS/WFC|ugc3476-hubble",
+  "find": [
+    "HST|15922|UGC-03476"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "UGC 03476",
+    "nearby galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "UGC 3476 is one of the nearby galaxies Hubble visited in a push to observe every known galaxy close to home. The brightness of its brightest red giant stars tells astronomers how far away it is.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "UGC 3476 is a target of the 'Every Known Nearby Galaxy' program",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15922/"
+      },
+      {
+        "text": "The program aims at a complete sample of suspected nearby galaxies",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15922/"
+      },
+      {
+        "text": "Distances come from the tip of the red giant branch",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15922/"
+      }
+    ]
+  }
+}

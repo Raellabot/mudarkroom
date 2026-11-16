@@ -1,0 +1,47 @@
+{
+  "id": "sn-1983g-host-hubble",
+  "name": "NGC 4753, SN 1983G field (Hubble)",
+  "blurb": "NGC 4753, a lenticular galaxy and host of supernova SN 1983G, seen by Hubble.",
+  "label": "sn1983ghost-hubble",
+  "spec": "HST|SN1983G-HOST|17194|WFC3/UVIS|sn1983ghost-hubble",
+  "find": [
+    "HST|17194|SN1983G-HOST"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "NGC4753",
+    "lenticular galaxy",
+    "galaxy",
+    "SN 1983G",
+    "SN 1965I",
+    "supernova host"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A galaxy that has hosted two sibling Type Ia supernovae, SN 1965I and SN 1983G. Hubble returned to study the neighborhoods where they exploded, to learn whether local surroundings explain why siblings can differ.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "The host of SN 1983G is NGC 4753",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/17194/"
+      },
+      {
+        "text": "NGC 4753 is listed as a lenticular galaxy",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/17194/"
+      },
+      {
+        "text": "NGC 4753 also hosted SN 1965I; the two are siblings more than 100 arcseconds apart",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/17194/"
+      },
+      {
+        "text": "Program 17194 studies the local environments of low-redshift Type Ia supernova siblings (SNe Ia in the same galaxy)",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/17194/"
+      }
+    ]
+  }
+}

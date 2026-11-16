@@ -1,0 +1,46 @@
+{
+  "id": "vcc-1895-hubble",
+  "name": "VCC 1895 (Hubble)",
+  "blurb": "VCC 1895, a dwarf elliptical galaxy in the Virgo Cluster, seen by Hubble.",
+  "label": "vcc1895-hubble",
+  "spec": "HST|VCC1895|9401|ACS/WFC|vcc1895-hubble",
+  "find": [
+    "HST|9401|VCC1895"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "VCC1895",
+    "UGC 7854",
+    "dwarf elliptical galaxy",
+    "dwarf galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A dwarf galaxy in the Virgo Cluster, one of 100 early-type galaxies in a Hubble survey that set out to learn how such galaxies form and evolve.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "VCC 1895 is also UGC 7854, morphological type d:E6",
+        "source": "https://arxiv.org/pdf/astro-ph/0404138"
+      },
+      {
+        "text": "dE-type galaxies in the sample are dwarfs (dwarf ellipticals)",
+        "source": "https://arxiv.org/pdf/astro-ph/0404138"
+      },
+      {
+        "text": "The ACS Virgo Cluster Survey imaged 100 early-type galaxies that are confirmed Virgo Cluster members",
+        "source": "https://arxiv.org/pdf/astro-ph/0404138"
+      },
+      {
+        "text": "The survey aims to understand how early-type galaxies form and evolve",
+        "source": "https://arxiv.org/pdf/astro-ph/0404138"
+      }
+    ]
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "id": "sn-1995f-host-hubble",
+  "name": "NGC 2726, SN 1995F field (Hubble)",
+  "blurb": "NGC 2726, a spiral galaxy and host of SN 1995F, seen by Hubble.",
+  "label": "sn1995fhost-hubble",
+  "spec": "HST|SN1995F|14762|WFC3/UVIS|sn1995fhost-hubble",
+  "find": [
+    "HST|14762|SN1995F"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "SN 1995F",
+    "spiral galaxy",
+    "galaxy",
+    "supernova host"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A spiral galaxy that hosted SN 1995F, most likely a Type Ic supernova. Found at Saint Mary's University's Burke-Gaffney Observatory, it was the first supernova discovered from within Canada.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "SN 1995F occurred in NGC 2726",
+        "source": "https://tamkin3.eps.harvard.edu/iauc/06100/06138.html"
+      },
+      {
+        "text": "SN 1995F was most likely of type Ic",
+        "source": "https://tamkin3.eps.harvard.edu/iauc/06100/06138.html"
+      },
+      {
+        "text": "NGC 2726 is a spiral galaxy (type Sa)",
+        "source": "https://ngcicproject.observers.org/NGC/NGC_27xx/NGC_2726.htm"
+      },
+      {
+        "text": "SN 1995F was discovered at the Burke-Gaffney Observatory of Saint Mary's University",
+        "source": "https://observatory.smu.ca/bgo-about/supernova-1995f"
+      },
+      {
+        "text": "SN 1995F was the first discovery of a supernova from within Canada",
+        "source": "https://observatory.smu.ca/bgo-about/supernova-1995f"
+      }
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": "ngc-6744a-hubble",
+  "name": "NGC 6744A (Hubble)",
+  "blurb": "NGC 6744A, a dwarf irregular galaxy, seen by Hubble.",
+  "label": "ngc6744a-hubble",
+  "spec": "HST|DW1908M6343|18061|ACS/WFC|ngc6744a-hubble",
+  "find": [
+    "HST|18061|DW1908M6343"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "DW1908M6343",
+    "dwarf galaxy",
+    "irregular galaxy",
+    "satellite galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A small irregular galaxy lying along the spiral arms of NGC 6744, the larger galaxy it accompanies. Hubble visited it as part of a census of the satellite galaxies that circle Milky Way-like systems.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "NGC 6744A is an irregular galaxy (type IB(s)m) to the northwest of NGC 6744, near 19h 09m, -63 44'",
+        "source": "https://www.atnf.csiro.au/pasa/16_1/ryder/paper/node3.html"
+      },
+      {
+        "text": "NGC 6744A is a dwarf satellite of NGC 6744 lying along its spiral arms",
+        "source": "https://arxiv.org/pdf/2405.13499"
+      },
+      {
+        "text": "DW1908M6343 is a target of Hubble program 18061, a census of satellite galaxies around Milky Way-like systems",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/18061/"
+      }
+    ]
+  }
+}

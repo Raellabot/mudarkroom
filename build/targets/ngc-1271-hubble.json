@@ -1,0 +1,45 @@
+{
+  "id": "ngc-1271-hubble",
+  "name": "NGC 1271 (Hubble)",
+  "blurb": "NGC 1271, a compact early-type galaxy, seen by Hubble.",
+  "label": "ngc1271-hubble",
+  "spec": "HST+HST|NGC1271+NGC1271|13050+13050|WFC3/IR+WFC3/UVIS|ngc1271-hubble",
+  "find": [
+    "HST|13050|NGC1271"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "compact elliptical galaxy",
+    "early-type galaxy",
+    "galaxy",
+    "Perseus Cluster"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "NGC 1271 is a small, dense galaxy in the Perseus Cluster, yet the black hole at its heart is far heavier than the galaxy's modest bulge light would predict.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "NGC 1271 is an early-type galaxy in the Perseus Cluster",
+        "source": "https://arxiv.org/abs/1506.05129"
+      },
+      {
+        "text": "NGC 1271 is compact",
+        "source": "https://arxiv.org/abs/1506.05129"
+      },
+      {
+        "text": "Its black hole is far heavier than its bulge luminosity predicts",
+        "source": "https://arxiv.org/abs/1506.05129"
+      },
+      {
+        "text": "NGC 1271 is one of the compact elliptical galaxies imaged in HST program 13050",
+        "source": "https://arxiv.org/pdf/1701.05898"
+      }
+    ]
+  }
+}

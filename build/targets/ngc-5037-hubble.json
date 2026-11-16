@@ -1,0 +1,36 @@
+{
+  "id": "ngc-5037-hubble",
+  "name": "NGC 5037 (Hubble)",
+  "blurb": "NGC 5037, a spiral galaxy, seen by Hubble.",
+  "label": "ngc5037-hubble",
+  "spec": "HST+HST|NGC5037+NGC5037|15181+15181|WFC3/IR+WFC3/UVIS|ngc5037-hubble",
+  "find": [
+    "HST|15181|NGC5037"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "NGC5037",
+    "spiral galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A spiral galaxy where Hubble's sharp view picks out delicate structures of gas and dust in fine detail.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "NGC 5037 is a spiral galaxy",
+        "source": "https://esahubble.org/images/potw2121a/"
+      },
+      {
+        "text": "The image shows delicate structures of gas and dust in great detail",
+        "source": "https://esahubble.org/images/potw2121a/"
+      }
+    ]
+  }
+}

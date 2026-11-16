@@ -1,0 +1,35 @@
+{
+  "id": "ngc-4648-hubble",
+  "name": "NGC 4648 (Hubble)",
+  "blurb": "NGC 4648, a nearby spheroidal galaxy, seen by Hubble.",
+  "label": "ngc4648-hubble",
+  "spec": "HST|NGC4648|12591|ACS/WFC|ngc4648-hubble",
+  "find": [
+    "HST|12591|NGC4648"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "spheroidal galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "NGC 4648 is one of a set of faint nearby spheroidal galaxies Hubble imaged in a census of quietly feeding black holes and the dense star clusters that sit at galaxy centers.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "NGC 4648 is one of 31 faint nearby spheroidal galaxies in a Chandra/HST snapshot survey",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/12591/"
+      },
+      {
+        "text": "The survey looked for accreting black holes and nuclear star clusters",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/12591/"
+      }
+    ]
+  }
+}

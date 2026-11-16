@@ -1,0 +1,42 @@
+{
+  "id": "eso-489-056-hubble",
+  "name": "ESO 489-056 (Hubble)",
+  "blurb": "ESO 489-056, an irregular dwarf galaxy, seen by Hubble.",
+  "label": "eso489056-hubble",
+  "spec": "HST|ESO489-056|12546|ACS/WFC|eso489056-hubble",
+  "find": [
+    "HST|12546|ESO489-056"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "ESO 489-56",
+    "ESO489-056",
+    "dwarf galaxy",
+    "irregular galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "An isolated, irregular dwarf galaxy, a loose sprinkling of a few billion stars.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "ESO 489-056 is an isolated, irregular dwarf galaxy",
+        "source": "https://esahubble.org/images/potw1332a"
+      },
+      {
+        "text": "It is made of a few billion stars",
+        "source": "https://esahubble.org/images/potw1332a"
+      },
+      {
+        "text": "Alternate designation ESO 489-56",
+        "source": "https://esahubble.org/images/potw1332a"
+      }
+    ]
+  }
+}

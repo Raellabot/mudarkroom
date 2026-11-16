@@ -1,0 +1,47 @@
+{
+  "id": "sdss-j143450-62-033842-5-hubble",
+  "name": "SDSS J143450.62+033842.5 (Hubble)",
+  "blurb": "SDSS J143450.62+033842.5, a disk galaxy with an active low-mass black hole, seen by Hubble.",
+  "label": "sdssj143450620338425-hubble",
+  "spec": "HST|GH14|10596|ACS/WFC|sdssj143450620338425-hubble",
+  "find": [
+    "HST|10596|GH14"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "GH14",
+    "GH 14",
+    "disk galaxy",
+    "active galaxy",
+    "AGN",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "At the heart of this disk galaxy, an unusually light black hole powers an active nucleus. Hubble imaged it as one of 19 such hosts to learn how small black holes relate to the galaxies around them.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "GH14 is SDSS J143450.62+033842.5",
+        "source": "https://arxiv.org/pdf/0810.1972"
+      },
+      {
+        "text": "GH14 has a clear disk component",
+        "source": "https://arxiv.org/pdf/0810.1972"
+      },
+      {
+        "text": "The sample black holes are active nuclei of low mass",
+        "source": "https://arxiv.org/pdf/0810.1972"
+      },
+      {
+        "text": "Hubble imaged the host galaxies of 19 low-mass black holes",
+        "source": "https://arxiv.org/pdf/0810.1972"
+      }
+    ]
+  }
+}

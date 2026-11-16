@@ -1,0 +1,47 @@
+{
+  "id": "dw1240-1118-hubble",
+  "name": "dw1240-1118 (Hubble)",
+  "blurb": "dw1240-1118, a dwarf galaxy candidate near the Sombrero Galaxy, seen by Hubble.",
+  "label": "dw12401118-hubble",
+  "spec": "HST|DW1240M1118|18061|WFC3/UVIS|dw12401118-hubble",
+  "find": [
+    "HST|18061|DW1240M1118"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "DW1240M1118",
+    "dwarf spheroidal galaxy",
+    "dwarf galaxy",
+    "Sombrero Galaxy satellite",
+    "M104 satellite",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A faint dwarf spheroidal galaxy that probably belongs to the family of the Sombrero Galaxy. Hubble is imaging satellites like this one around Milky Way-like galaxies to test how well cosmological models work on small scales.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "dw1240-1118 is a dwarf galaxy candidate in the M104 (Sombrero) system with high membership probability",
+        "source": "https://arxiv.org/html/2312.03486v1"
+      },
+      {
+        "text": "Its morphology is a dwarf spheroidal (dSph)",
+        "source": "https://arxiv.org/html/2312.03486v1"
+      },
+      {
+        "text": "It is a target of the Hubble Census of Nearby Satellites (program 18061)",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/18061/"
+      },
+      {
+        "text": "The program surveys satellites of Milky Way-like systems to test cosmological models on small scales",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/18061/"
+      }
+    ]
+  }
+}

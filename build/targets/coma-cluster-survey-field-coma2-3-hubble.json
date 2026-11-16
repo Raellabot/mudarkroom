@@ -1,0 +1,50 @@
+{
+  "id": "coma-cluster-survey-field-coma2-3-hubble",
+  "name": "Coma Cluster, survey field Coma2_3 (Hubble)",
+  "blurb": "Coma Cluster field Coma2_3, part of a rich cluster of galaxies, seen by Hubble.",
+  "label": "comaclustersurveyfieldcoma23-hubble",
+  "spec": "HST|COMA2-3|10861|ACS/WFC|comaclustersurveyfieldcoma23-hubble",
+  "find": [
+    "HST|10861|COMA2-3"
+  ],
+  "type": "Galaxy cluster",
+  "aliases": [
+    "Coma Cluster",
+    "Abell 1656",
+    "Coma2_3",
+    "GMP2839",
+    "GMP2856",
+    "GMP2940",
+    "GMP2960",
+    "galaxy cluster",
+    "dwarf galaxies"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "This is one patch of the Coma Cluster, one of the nearest rich clusters of galaxies. Hubble's survey here hunted for faint dwarf galaxies, and the field holds four galaxies confirmed as members of the cluster.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "The Coma cluster (Abell 1656) is one of the nearest rich clusters of galaxies",
+        "source": "https://arxiv.org/abs/0801.3745"
+      },
+      {
+        "text": "The survey's aims include the faint end of the cluster luminosity function and the structure of dwarf galaxies",
+        "source": "https://arxiv.org/abs/0801.3745"
+      },
+      {
+        "text": "Field Coma2_3 (visit 10) is at 13:00:11.10 +28:01:43.0, matching this pointing",
+        "source": "https://arxiv.org/pdf/0801.3745"
+      },
+      {
+        "text": "The field contains four spectroscopically confirmed cluster members: GMP2839, GMP2856, GMP2940 and GMP2960",
+        "source": "https://arxiv.org/pdf/0801.3745"
+      }
+    ]
+  }
+}

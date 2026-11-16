@@ -1,0 +1,47 @@
+{
+  "id": "ugc-7983-hubble",
+  "name": "UGC 7983 (Hubble)",
+  "blurb": "UGC 7983, a dwarf irregular galaxy, seen by Hubble.",
+  "label": "ugc7983-hubble",
+  "spec": "HST|UGC-07983|15922|ACS/WFC|ugc7983-hubble",
+  "find": [
+    "HST|15922|UGC-07983"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "UGC 07983",
+    "UGC7983",
+    "dwarf irregular galaxy",
+    "dwarf galaxy",
+    "irregular galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A dwarf irregular galaxy, a kind thought to resemble the very earliest galaxies in the universe. Hubble caught it in a wider effort to observe every known galaxy close to the Milky Way.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "UGC 7983 is a dwarf irregular galaxy, a type thought to be similar to the very earliest galaxies",
+        "source": "https://esahubble.org/images/potw2303a/"
+      },
+      {
+        "text": "UGC 7983 was observed as part of an effort to observe every known galaxy close to the Milky Way",
+        "source": "https://esahubble.org/images/potw2303a/"
+      },
+      {
+        "text": "UGC-07983 was a target of Hubble program 15922, Every Known Nearby Galaxy",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15922/"
+      },
+      {
+        "text": "ESA/Hubble picture of UGC 7983 is at RA 12 49 46.95, Dec +3 50 35.20, ACS 606 nm and 814 nm",
+        "source": "https://esahubble.org/images/potw2303a/"
+      }
+    ]
+  }
+}

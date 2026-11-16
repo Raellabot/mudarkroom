@@ -1,0 +1,36 @@
+{
+  "id": "supernova-16caa-field-hubble",
+  "name": "Supernova 16CAA field (Hubble)",
+  "blurb": "A deep field toward the distant supernova 16CAA, seen by Hubble.",
+  "label": "supernova16caafield-hubble",
+  "spec": "HST|16CAA|14808|WFC3/IR|supernova16caafield-hubble",
+  "find": [
+    "HST|14808|16CAA"
+  ],
+  "type": "Deep field",
+  "aliases": [
+    "16CAA",
+    "supernova",
+    "deep field"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Somewhere in this field a distant supernova found by Japan's Subaru telescope flared. Hubble added infrared light to the Subaru measurements, part of a hunt for far-off Type Ia supernovae that chart the history of cosmic expansion and dark energy.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "16CAA is a target of program 14808, SUbaru Supernovae with Hubble Infrared (SUSHI)",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/14808/"
+      },
+      {
+        "text": "SUSHI pairs Subaru Hyper Suprime-Cam light curves of high-redshift Type Ia supernovae with Hubble infrared observations to improve dark energy constraints",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/14808/"
+      }
+    ]
+  }
+}

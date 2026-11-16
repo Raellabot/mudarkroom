@@ -1,0 +1,42 @@
+{
+  "id": "ngc-2683-hubble",
+  "name": "NGC 2683 (Hubble)",
+  "blurb": "NGC 2683, a spiral galaxy seen almost edge-on, seen by Hubble.",
+  "label": "ngc2683-hubble",
+  "spec": "HST|NGC2683|13442|ACS/WFC|ngc2683-hubble",
+  "find": [
+    "HST|13442|NGC2683"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "UFO Galaxy",
+    "NGC2683",
+    "spiral galaxy",
+    "edge-on spiral galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A spiral galaxy turned almost edge-on to us, its profile recalling a classic science-fiction spaceship. That shape earned it the nickname the UFO Galaxy.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "NGC 2683 is a spiral galaxy seen almost edge-on",
+        "source": "https://science.nasa.gov/missions/hubble/hubble-spies-a-spiral-galaxy-edge-on/"
+      },
+      {
+        "text": "NGC 2683 is nicknamed the UFO Galaxy",
+        "source": "https://esahubble.org/images/potw1213a/"
+      },
+      {
+        "text": "NGC 2683 was a target of Hubble program 13442 (The Geometry and Kinematics of the Local Volume, PI Tully), ACS/WFC",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/13442/"
+      }
+    ]
+  }
+}

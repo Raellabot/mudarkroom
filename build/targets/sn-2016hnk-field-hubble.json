@@ -1,0 +1,41 @@
+{
+  "id": "sn-2016hnk-field-hubble",
+  "name": "SN 2016hnk field (Hubble)",
+  "blurb": "The site of the peculiar Type Ia supernova SN 2016hnk, seen by Hubble.",
+  "label": "sn2016hnkfield-hubble",
+  "spec": "HST|SN2016HNK|16691|WFC3/UVIS|sn2016hnkfield-hubble",
+  "find": [
+    "HST|16691|SN2016HNK"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "SN2016HNK",
+    "SN 2016hnk",
+    "supernova",
+    "Type Ia supernova"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Hubble came back to the spot where this unusual Type Ia supernova exploded, long after the blast, to measure the radioactive material it made and to study its surroundings.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "SN 2016hnk is a Type Ia supernova; a later report calls it SN Ia-pec",
+        "source": "https://www.wis-tns.org/object/2016hnk"
+      },
+      {
+        "text": "SN 2016hnk was discovered by ATLAS",
+        "source": "https://www.wis-tns.org/object/2016hnk"
+      },
+      {
+        "text": "SN2016HNK is a target of program 16691, late-time imaging of nearby recent transients to measure radioactive material and probe environments",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/16691/"
+      }
+    ]
+  }
+}

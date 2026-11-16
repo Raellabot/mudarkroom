@@ -1,0 +1,51 @@
+{
+  "id": "mcg-05-14-012-hubble",
+  "name": "MCG-05-14-012 (Hubble)",
+  "blurb": "MCG-05-14-012, a lenticular galaxy with an active nucleus, seen by Hubble.",
+  "label": "mcg0514012-hubble",
+  "spec": "HST+HST|MCG-05-14-012+MCG-05-14-012|15181+15181|WFC3/IR+WFC3/UVIS|mcg0514012-hubble",
+  "find": [
+    "HST|15181|MCG-05-14-012"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "ESO 424-12",
+    "MCG-05-14-12",
+    "Seyfert galaxy",
+    "active galaxy",
+    "lenticular galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "At the heart of this galaxy is an active nucleus, a feeding black hole picked out by Swift's hard X-ray survey. Hubble looked here to study how the gas around a galaxy's center connects to its black hole's activity.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "MCG-05-14-012 is a target of Hubble program 15181 with a Seyfert nucleus",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15181/"
+      },
+      {
+        "text": "The program studies the connection between circumnuclear gas and nuclear black hole activity",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15181/"
+      },
+      {
+        "text": "In the LLAMA survey, MCG-05-14-12 is in the AGN sample with morphology S0 (lenticular)",
+        "source": "https://ar5iv.labs.arxiv.org/html/1912.07734"
+      },
+      {
+        "text": "The LLAMA AGN sample was selected from the Swift-BAT hard X-ray survey",
+        "source": "https://ar5iv.labs.arxiv.org/html/1912.07734"
+      },
+      {
+        "text": "MCG-05-14-012 is also known as ESO 424-12",
+        "source": "https://arxiv.org/pdf/1710.04224"
+      }
+    ]
+  }
+}

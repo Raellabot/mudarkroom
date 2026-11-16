@@ -1,0 +1,40 @@
+{
+  "id": "sl2s-j022357-065142-hubble",
+  "name": "SL2S J022357-065142 (Hubble)",
+  "blurb": "SL2S J022357-065142, a candidate gravitational lens, seen by Hubble.",
+  "label": "sl2sj022357065142-hubble",
+  "spec": "HST|SL2SJ022357-065142|11588|WFC3/UVIS|sl2sj022357065142-hubble",
+  "find": [
+    "HST|11588|SL2SJ022357-065142"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "SL2SJ022357-065142",
+    "gravitational lens candidate",
+    "strong lens"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A galaxy that may act as a gravitational lens, bending the light of a more distant source behind it. Hubble looked here to study how massive early-type galaxies form and evolve.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "SL2S J022357-065142 is a high-priority gravitational lens candidate in Hubble program 11588",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/11588/"
+      },
+      {
+        "text": "The program uses gravitational lensing to study the origin and evolution of early-type galaxies",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/11588/"
+      },
+      {
+        "text": "It is part of the Strong Lensing Legacy Survey (SL2S) sample",
+        "source": "https://arxiv.org/pdf/1307.4759"
+      }
+    ]
+  }
+}

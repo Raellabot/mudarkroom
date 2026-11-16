@@ -1,0 +1,47 @@
+{
+  "id": "eso-381-18-hubble",
+  "name": "ESO 381-18 (Hubble)",
+  "blurb": "ESO 381-18, an irregular dwarf galaxy, seen by Hubble.",
+  "label": "eso38118-hubble",
+  "spec": "HST|E381-018|9771|ACS/WFC|eso38118-hubble",
+  "find": [
+    "HST|9771|E381-018"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "ESO381-18",
+    "E381-018",
+    "dwarf irregular galaxy",
+    "dwarf galaxy",
+    "irregular galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A small irregular galaxy in the neighborhood of the giant spiral M83, living rather apart from its companions. It still holds neutral gas, but shows no sign of forming new stars today.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "ESO 381-18 is one of five late-type (irregular) dwarfs near the giant spiral M83 in the Centaurus A/M83 group",
+        "source": "https://arxiv.org/pdf/1103.3707"
+      },
+      {
+        "text": "ESO 381-18 is rather isolated",
+        "source": "https://arxiv.org/pdf/1103.3707"
+      },
+      {
+        "text": "ESO 381-18 has neutral gas but no evidence of ongoing star formation",
+        "source": "https://arxiv.org/pdf/1103.3707"
+      },
+      {
+        "text": "The five dwarfs were observed in HST programs GO-9771 and GO-10235",
+        "source": "https://arxiv.org/pdf/1103.3707"
+      }
+    ]
+  }
+}

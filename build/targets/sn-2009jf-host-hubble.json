@@ -1,0 +1,56 @@
+{
+  "id": "sn-2009jf-host-hubble",
+  "name": "NGC 7479, SN 2009jf field (Hubble)",
+  "blurb": "NGC 7479, a barred spiral galaxy that hosted supernova SN 2009jf, seen by Hubble.",
+  "label": "sn2009jfhost-hubble",
+  "spec": "HST|SN2009JF|11575|ACS/WFC|sn2009jfhost-hubble",
+  "find": [
+    "HST|11575|SN2009JF"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "NGC 7479",
+    "SN 2009jf",
+    "barred spiral galaxy",
+    "spiral galaxy",
+    "supernova",
+    "Type Ib supernova",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "In the barred spiral NGC 7479, a massive star that had lost its outer layers exploded as the Type Ib supernova SN 2009jf. It went off close to a young star cluster, in a crowded region where new stars are still forming.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "SN 2009jf is a Type Ib supernova",
+        "source": "https://ar5iv.arxiv.org/html/1106.3030"
+      },
+      {
+        "text": "SN 2009jf is a stripped-envelope core-collapse supernova (its massive progenitor had lost its outer layers)",
+        "source": "https://ar5iv.arxiv.org/html/1106.3030"
+      },
+      {
+        "text": "The host of SN 2009jf is NGC 7479, a barred spiral galaxy",
+        "source": "https://ar5iv.arxiv.org/html/1106.3030"
+      },
+      {
+        "text": "SN 2009jf in NGC 7479, type Ib, discovered 2009 Sept. 27.33 UT, at 23 04 52.98 +12 19 59.5",
+        "source": "https://w.astro.berkeley.edu/bait/2009/sn2009jf.html"
+      },
+      {
+        "text": "SN 2009jf is a type Ib in NGC 7479 found by LOSS",
+        "source": "https://www.physics.purdue.edu/brightsupernovae/sn2009/sn2009jf.html"
+      },
+      {
+        "text": "It occurred close to a young cluster, in a crowded environment with ongoing star formation",
+        "source": "https://ar5iv.arxiv.org/html/1106.3030"
+      }
+    ]
+  }
+}

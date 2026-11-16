@@ -1,0 +1,51 @@
+{
+  "id": "iras-f14378-3651-hubble",
+  "name": "IRAS F14378-3651 (Hubble)",
+  "blurb": "IRAS F14378-3651, an ultraluminous infrared galaxy, seen by Hubble.",
+  "label": "irasf143783651-hubble",
+  "spec": "HST|2MASXJ14405901-3704322|10592|ACS/WFC|irasf143783651-hubble",
+  "find": [
+    "HST|10592|2MASXJ14405901-3704322"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "2MASX J14405901-3704322",
+    "ultraluminous infrared galaxy",
+    "ULIRG",
+    "luminous infrared galaxy",
+    "merging galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "IRAS F14378-3651 blazes in infrared light, one of the ultraluminous galaxies that are mostly the products of violent interactions and mergers. Astronomers place it in the late stages of a merger, with a single nucleus and tidal tails.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "IRAS F14378-3651 is an ultraluminous infrared galaxy (ULIRG)",
+        "source": "https://arxiv.org/pdf/2011.11676"
+      },
+      {
+        "text": "2MASX J14405901-3704322 is the same object as IRAS F14378-3651",
+        "source": "https://arxiv.org/pdf/2011.11676"
+      },
+      {
+        "text": "Local ULIRGs are dominated by strong interactions and major mergers",
+        "source": "https://arxiv.org/pdf/2011.11676"
+      },
+      {
+        "text": "It is in a late merger stage with one nucleus and tails",
+        "source": "https://arxiv.org/pdf/2011.11676"
+      },
+      {
+        "text": "Hubble imaged it in a survey of luminous infrared galaxies",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/10592/"
+      }
+    ]
+  }
+}

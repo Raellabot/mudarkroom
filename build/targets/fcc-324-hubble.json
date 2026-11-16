@@ -1,0 +1,39 @@
+{
+  "id": "fcc-324-hubble",
+  "name": "FCC 324 (Hubble)",
+  "blurb": "FCC 324, an early-type galaxy in the Fornax Cluster, seen by Hubble.",
+  "label": "fcc324-hubble",
+  "spec": "HST|FCC324|10217|ACS/WFC|fcc324-hubble",
+  "find": [
+    "HST|10217|FCC324"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "FCC324",
+    "E358-G66",
+    "ESO 358-G66",
+    "early-type galaxy",
+    "Fornax Cluster",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "An early-type galaxy among the members of the Fornax Cluster, one of the galaxies Hubble surveyed to study the cluster's early-type population and their compact cores.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "FCC 324 is an early-type galaxy in the ACS Fornax Cluster Survey sample, also cataloged as E358-G66",
+        "source": "https://arxiv.org/pdf/1208.0338"
+      },
+      {
+        "text": "The ACS Fornax Cluster Survey targets early-type Fornax Cluster galaxies",
+        "source": "https://ar5iv.arxiv.org/html/astro-ph/0702320"
+      }
+    ]
+  }
+}

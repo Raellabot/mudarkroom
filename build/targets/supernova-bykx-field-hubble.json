@@ -1,0 +1,42 @@
+{
+  "id": "supernova-bykx-field-hubble",
+  "name": "Supernova BYKX field (Hubble)",
+  "blurb": "A deep field toward BYKX, a distant Type Ia supernova found by Subaru, seen by Hubble.",
+  "label": "supernovabykxfield-hubble",
+  "spec": "HST|BYKX|15363|WFC3/IR|supernovabykxfield-hubble",
+  "find": [
+    "HST|15363|BYKX"
+  ],
+  "type": "Deep field",
+  "aliases": [
+    "BYKX",
+    "SUSHI",
+    "Type Ia supernova",
+    "supernova",
+    "deep field"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Somewhere in this field is BYKX, a far-off exploding star caught by the Subaru telescope's supernova search. Hubble followed it in infrared light to help measure how dark energy shapes the expansion of the universe.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "BYKX is a Type Ia supernova target of program 15363",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15363/"
+      },
+      {
+        "text": "Program 15363 (SUSHI) follows supernovae discovered by Subaru's Hyper Suprime-Cam search",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15363/"
+      },
+      {
+        "text": "The program aims to improve dark energy measurements",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15363/"
+      }
+    ]
+  }
+}

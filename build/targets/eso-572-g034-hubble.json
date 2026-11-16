@@ -1,0 +1,36 @@
+{
+  "id": "eso-572-g034-hubble",
+  "name": "ESO 572-G034 (Hubble)",
+  "blurb": "ESO 572-G034, a nearby galaxy, seen by Hubble.",
+  "label": "eso572g034-hubble",
+  "spec": "HST|ESO-572--G-034|12546|ACS/WFC|eso572g034-hubble",
+  "find": [
+    "HST|12546|ESO-572--G-034"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "ESO-572--G-034",
+    "galaxy",
+    "nearby galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A galaxy in our cosmic neighborhood, the Local Volume. Hubble observed it to measure its distance from its brightest red giant stars, helping map how nearby galaxies are arranged and how they move.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "ESO 572-G034 is a target of Hubble program 12546, 'The Geometry and Kinematics of the Local Volume'",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/12546/"
+      },
+      {
+        "text": "The program measures distances to nearby galaxies from the tip of the red giant branch to map their positions and motions",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/12546/"
+      }
+    ]
+  }
+}

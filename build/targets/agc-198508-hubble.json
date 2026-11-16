@@ -1,0 +1,46 @@
+{
+  "id": "agc-198508-hubble",
+  "name": "AGC 198508 (Hubble)",
+  "blurb": "AGC 198508, a gas-rich dwarf galaxy, seen by Hubble.",
+  "label": "agc198508-hubble",
+  "spec": "HST|AGC198508|13750|ACS/WFC|agc198508-hubble",
+  "find": [
+    "HST|13750|AGC198508"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "AGC198508",
+    "dwarf galaxy",
+    "gas-rich dwarf galaxy",
+    "galaxy",
+    "SHIELD galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A faint dwarf galaxy rich in hydrogen gas and still forming stars, one of the tiny systems picked out by the ALFALFA survey. Hubble resolved its stars to measure its distance.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "AGC 198508 is one of the SHIELD II galaxies imaged by Hubble program 13750",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/13750/"
+      },
+      {
+        "text": "AGC 198508 is a dwarf galaxy",
+        "source": "https://arxiv.org/pdf/2010.00479"
+      },
+      {
+        "text": "SHIELD galaxies are gas-rich, very low-mass galaxies selected from the ALFALFA HI survey, all with recent star formation, probing the faint end of the luminosity function for star-forming galaxies",
+        "source": "https://arxiv.org/abs/1402.3723"
+      },
+      {
+        "text": "A tip-of-the-red-giant-branch distance was measured to AGC 198508 from Hubble photometry",
+        "source": "https://arxiv.org/pdf/2010.00479"
+      }
+    ]
+  }
+}

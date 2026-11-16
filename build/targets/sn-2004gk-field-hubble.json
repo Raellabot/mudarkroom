@@ -1,0 +1,37 @@
+{
+  "id": "sn-2004gk-field-hubble",
+  "name": "SN 2004gk field (Hubble)",
+  "blurb": "A field around SN 2004gk, a hydrogen-poor supernova, seen by Hubble.",
+  "label": "sn2004gkfield-hubble",
+  "spec": "HST|SN2004GK|14762|WFC3/UVIS|sn2004gkfield-hubble",
+  "find": [
+    "HST|14762|SN2004GK"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "SN2004GK",
+    "SN 2004gk",
+    "supernova site",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "The site of SN 2004gk, a Type Ic supernova, where a massive star stripped of its hydrogen exploded. Hubble returned to take a census of the bright, massive stars around the site.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "SN 2004gk is a Type Ic supernova",
+        "source": "https://blast.scimma.org/transients/2004gk/"
+      },
+      {
+        "text": "Hubble program 14762 imaged massive star populations at the sites of hydrogen-poor supernovae, including SN2004GK",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/14762/"
+      }
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "sn-2016cdd-field-hubble",
+  "name": "SN 2016cdd field (Hubble)",
+  "blurb": "The site of supernova SN 2016cdd, seen by Hubble.",
+  "label": "sn2016cddfield-hubble",
+  "spec": "HST|SN2016CDD|14762|WFC3/UVIS|sn2016cddfield-hubble",
+  "find": [
+    "HST|14762|SN2016CDD"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "SN2016CDD",
+    "SN 2016cdd",
+    "supernova"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Hubble returned to the place where supernova SN 2016cdd appeared, part of a census of the massive stars around the sites of core-collapse supernovae.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "SN2016CDD is a target of program 14762",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/14762/"
+      },
+      {
+        "text": "The program is a census of the sites of core-collapse supernovae and their massive stars",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/14762/"
+      }
+    ]
+  }
+}

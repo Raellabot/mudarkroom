@@ -1,0 +1,36 @@
+{
+  "id": "ngc-6744-hubble",
+  "name": "NGC 6744 (Hubble)",
+  "blurb": "NGC 6744, a spiral galaxy, seen by Hubble.",
+  "label": "ngc6744-hubble",
+  "spec": "HST|NGC-6744|12546|ACS/WFC|ngc6744-hubble",
+  "find": [
+    "HST|12546|NGC-6744"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "NGC 6744",
+    "spiral galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "This frame looks into part of NGC 6744, one of the largest and nearest spiral galaxies, which closely resembles our own Milky Way.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "NGC 6744 is a spiral galaxy, one of the largest and nearest spiral galaxies",
+        "source": "https://www.eso.org/public/news/eso1118/"
+      },
+      {
+        "text": "NGC 6744 closely resembles the Milky Way",
+        "source": "https://www.eso.org/public/news/eso1118/"
+      }
+    ]
+  }
+}

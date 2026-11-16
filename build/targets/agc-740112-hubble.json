@@ -1,0 +1,44 @@
+{
+  "id": "agc-740112-hubble",
+  "name": "AGC 740112 (Hubble)",
+  "blurb": "AGC 740112, a low-mass dwarf galaxy, seen by Hubble.",
+  "label": "agc740112-hubble",
+  "spec": "HST|AGC740112|13750|ACS/WFC|agc740112-hubble",
+  "find": [
+    "HST|13750|AGC740112"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "AGC740112",
+    "dwarf galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "One of the extremely low-mass dwarf galaxies in the SHIELD survey, first studied through its hydrogen gas. Hubble resolved its stars to measure how far away it is and to trace where and when it formed stars.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "AGC 740112 is a SHIELD II target",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/13750/"
+      },
+      {
+        "text": "SHIELD is the Survey of HI in Extremely Low-mass Dwarfs, studying low-mass dwarf galaxies",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/13750/"
+      },
+      {
+        "text": "SHIELD II galaxies were already imaged in hydrogen (HI) gas",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/13750/"
+      },
+      {
+        "text": "Hubble aimed to measure distances and study star formation",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/13750/"
+      }
+    ]
+  }
+}

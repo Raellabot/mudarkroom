@@ -1,0 +1,45 @@
+{
+  "id": "spt-cl-j0404-4418-webb",
+  "name": "SPT-CL J0404-4418 (Webb)",
+  "blurb": "SPT-CL J0404-4418, a galaxy cluster, seen by Webb.",
+  "label": "sptclj04044418-webb",
+  "spec": "JWST|SPT-CLJ0404-4418|5594|NIRCAM/IMAGE|sptclj04044418-webb",
+  "find": [
+    "JWST|5594|SPT-CLJ0404-4418"
+  ],
+  "type": "Galaxy cluster",
+  "aliases": [
+    "SPT-CL J0404-4418",
+    "SPT-CLJ0404-4418",
+    "galaxy cluster",
+    "SLICE"
+  ],
+  "missions": [
+    "Webb"
+  ],
+  "story": "Webb visited this galaxy cluster for SLICE, a survey that uses the way massive clusters bend and magnify the light of more distant galaxies to map where their mass lies and to follow how clusters evolve.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "SLICE (Strong LensIng and Cluster Evolution) is JWST program 5594",
+        "source": "https://arxiv.org/html/2503.17498v1"
+      },
+      {
+        "text": "SLICE targets galaxy clusters, drawn from a parent list of clusters",
+        "source": "https://arxiv.org/html/2503.17498v1"
+      },
+      {
+        "text": "SLICE uses NIRCam imaging to derive strong-lensing mass maps of clusters",
+        "source": "https://arxiv.org/abs/2503.17498"
+      },
+      {
+        "text": "SPT-CL clusters are galaxy clusters selected by the South Pole Telescope through the Sunyaev-Zel'dovich effect",
+        "source": "https://arxiv.org/pdf/1409.0850"
+      }
+    ]
+  }
+}

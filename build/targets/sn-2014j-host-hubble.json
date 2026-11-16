@@ -1,0 +1,46 @@
+{
+  "id": "sn-2014j-host-hubble",
+  "name": "M82, SN 2014J field (Hubble)",
+  "blurb": "M82, the Cigar Galaxy, at the site of supernova SN 2014J, seen by Hubble.",
+  "label": "sn2014jhost-hubble",
+  "spec": "HST|SN2014J|15166|WFC3/UVIS|sn2014jhost-hubble",
+  "find": [
+    "HST|15166|SN2014J"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "Messier 82",
+    "Cigar Galaxy",
+    "SN 2014J",
+    "starburst galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "This field frames the part of M82, the Cigar Galaxy, where SN 2014J, a Type Ia supernova, was discovered. M82 is a starburst galaxy, and Hubble returned here as part of a survey of the sites of recent, nearby supernovae.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "SN 2014J was discovered in M82",
+        "source": "https://arxiv.org/abs/1402.0849"
+      },
+      {
+        "text": "SN 2014J is a Type Ia supernova",
+        "source": "https://arxiv.org/abs/1402.0849"
+      },
+      {
+        "text": "M82 is the Cigar Galaxy, a starburst galaxy",
+        "source": "https://esahubble.org/images/heic0604a/"
+      },
+      {
+        "text": "Program 15166 is a snapshot survey of the sites of recent nearby supernovae and includes SN2014J",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15166/"
+      }
+    ]
+  }
+}

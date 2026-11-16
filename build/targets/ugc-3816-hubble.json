@@ -1,0 +1,38 @@
+{
+  "id": "ugc-3816-hubble",
+  "name": "UGC 3816 (Hubble)",
+  "blurb": "UGC 3816, a compact elliptical galaxy, seen by Hubble.",
+  "label": "ugc3816-hubble",
+  "spec": "HST+HST|UGC3816+UGC3816|13050+13050|WFC3/IR+WFC3/UVIS|ugc3816-hubble",
+  "find": [
+    "HST|13050|UGC3816"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "UGC3816",
+    "compact elliptical galaxy",
+    "elliptical galaxy",
+    "early-type galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A small galaxy whose stars swarm at extreme speeds, a hint that an outsized black hole may sit at its center. Hubble imaged its compact core to help weigh that black hole.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "UGC 3816 is a compact elliptical galaxy discovered by the Hobby-Eberly Telescope Massive Galaxy Survey",
+        "source": "https://arxiv.org/pdf/1701.05898"
+      },
+      {
+        "text": "UGC3816 is a target of Hubble program 13050, imaging small galaxies with extremely high velocity dispersions and suspected monster black holes",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/13050/"
+      }
+    ]
+  }
+}

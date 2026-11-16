@@ -1,0 +1,45 @@
+{
+  "id": "agc-210220-hubble",
+  "name": "AGC 210220 (Hubble)",
+  "blurb": "AGC 210220, an amorphous irregular dwarf galaxy, seen by Hubble.",
+  "label": "agc210220-hubble",
+  "spec": "HST|AGC210220|17480|ACS/WFC|agc210220-hubble",
+  "find": [
+    "HST|17480|AGC210220"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "AGC210220",
+    "irregular galaxy",
+    "dwarf galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "This faint, shapeless little galaxy is one of a dozen low-mass neighbors Hubble studied star by star, using its brightest red giants to measure its distance and test how the smallest galaxies hold on to their gas and stars.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "AGC 210220 is an amorphous irregular galaxy",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/17480/"
+      },
+      {
+        "text": "Program 17480 studies twelve more nearby low-mass Local Volume galaxies",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/17480/"
+      },
+      {
+        "text": "Distances come from the tip of the red giant branch in resolved stars",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/17480/"
+      },
+      {
+        "text": "The program tests whether low-mass galaxies fail to accrete and retain baryons",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/17480/"
+      }
+    ]
+  }
+}

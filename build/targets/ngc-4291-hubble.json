@@ -1,0 +1,34 @@
+{
+  "id": "ngc-4291-hubble",
+  "name": "NGC 4291 (Hubble)",
+  "blurb": "NGC 4291, a galaxy with a massive central black hole, seen by Hubble.",
+  "label": "ngc4291-hubble",
+  "spec": "HST|NGC4291|12591|ACS/WFC|ngc4291-hubble",
+  "find": [
+    "HST|12591|NGC4291"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Astronomers have weighed the black hole at the center of NGC 4291 by tracing how the galaxy's stars move around it.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "NGC 4291's central black hole mass has been measured from stellar dynamics",
+        "source": "https://arxiv.org/pdf/1011.5077"
+      },
+      {
+        "text": "NGC 4291 is a core galaxy",
+        "source": "https://arxiv.org/pdf/1011.5077"
+      }
+    ]
+  }
+}

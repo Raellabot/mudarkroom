@@ -1,0 +1,49 @@
+{
+  "id": "ngc-1827-hubble",
+  "name": "NGC 1827 (Hubble)",
+  "blurb": "NGC 1827, an edge-on spiral galaxy, seen by Hubble.",
+  "label": "ngc1827-hubble",
+  "spec": "HST|NGC1827|18061|WFC3/UVIS|ngc1827-hubble",
+  "find": [
+    "HST|18061|NGC1827"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "NGC1827",
+    "edge-on spiral galaxy",
+    "spiral galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "We see this spiral galaxy edge-on, its disk threaded with dust lanes where new stars are likely forming. Hubble took it during a survey of satellite galaxies around Milky Way-like galaxies.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "NGC 1827 is an edge-on, intermediate spiral galaxy",
+        "source": "https://science.nasa.gov/missions/hubble/nasas-hubble-spies-spirals-edge/"
+      },
+      {
+        "text": "NGC 1827 is in the constellation Columba",
+        "source": "https://science.nasa.gov/missions/hubble/nasas-hubble-spies-spirals-edge/"
+      },
+      {
+        "text": "Its disk has dust lanes where new stars are likely forming",
+        "source": "https://science.nasa.gov/missions/hubble/nasas-hubble-spies-spirals-edge/"
+      },
+      {
+        "text": "The image was taken for a survey of satellite galaxies around Milky Way-like hosts",
+        "source": "https://science.nasa.gov/missions/hubble/nasas-hubble-spies-spirals-edge/"
+      },
+      {
+        "text": "NGC 1827 is a target of program 18061, Hubble Census of Nearby Satellites",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/18061/"
+      }
+    ]
+  }
+}

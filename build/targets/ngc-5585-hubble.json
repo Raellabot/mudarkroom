@@ -1,0 +1,44 @@
+{
+  "id": "ngc-5585-hubble",
+  "name": "NGC 5585 (Hubble)",
+  "blurb": "NGC 5585, a spiral galaxy, seen by Hubble.",
+  "label": "ngc5585-hubble",
+  "spec": "HST|NGC-5585|15922|ACS/WFC|ngc5585-hubble",
+  "find": [
+    "HST|15922|NGC-5585"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "NGC5585",
+    "spiral galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Hotspots of star formation dot the faint spiral arms of NGC 5585. Its stars, dust and gas make up only a small fraction of its mass, and it holds a far higher share of dark matter than similar galaxies.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "NGC 5585 is a spiral galaxy",
+        "source": "https://esahubble.org/images/potw2038a/"
+      },
+      {
+        "text": "Hotspots of star formation along its faint spiral arms",
+        "source": "https://esahubble.org/images/potw2038a/"
+      },
+      {
+        "text": "Visible matter is only a small fraction of its mass",
+        "source": "https://esahubble.org/images/potw2038a/"
+      },
+      {
+        "text": "It contains a far higher proportion of dark matter than similar galaxies",
+        "source": "https://esahubble.org/images/potw2038a/"
+      }
+    ]
+  }
+}

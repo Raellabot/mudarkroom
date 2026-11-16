@@ -1,0 +1,40 @@
+{
+  "id": "spt-cl-j2306-2215-hubble",
+  "name": "SPT-CL J2306-2215 (Hubble)",
+  "blurb": "SPT-CL J2306-2215, a massive galaxy cluster, seen by Hubble.",
+  "label": "sptclj23062215-hubble",
+  "spec": "HST+HST|SPT-CLJ2306-2215+SPT-CLJ2306-2215|16017+16017|WFC3/IR+WFC3/UVIS|sptclj23062215-hubble",
+  "find": [
+    "HST|16017|SPT-CLJ2306-2215"
+  ],
+  "type": "Galaxy cluster",
+  "aliases": [
+    "galaxy cluster",
+    "cluster of galaxies",
+    "SPT cluster"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "SPT-CL J2306-2215 is one of the massive galaxy clusters in the SPT catalog of more than 500 systems found through the Sunyaev-Zel'dovich effect. Hubble imaged it to follow how the giant galaxies at cluster centers grow and how clusters act as gravitational lenses.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "SPT-CL J2306-2215 is a target of an HST survey of massive SPT galaxy clusters",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/16017/"
+      },
+      {
+        "text": "The SPT catalog has more than 500 systems identified via the Sunyaev-Zel'dovich effect",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/16017/"
+      },
+      {
+        "text": "Goals include brightest cluster galaxy evolution and strong lensing",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/16017/"
+      }
+    ]
+  }
+}

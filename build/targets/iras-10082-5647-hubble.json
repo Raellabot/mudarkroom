@@ -1,0 +1,49 @@
+{
+  "id": "iras-10082-5647-hubble",
+  "name": "IRAS 10082-5647 (Hubble)",
+  "blurb": "IRAS 10082-5647, a reflection nebula in Vela, seen by Hubble.",
+  "label": "iras100825647-hubble",
+  "spec": "HST|IRAS10082-5647|10536|ACS/WFC|iras100825647-hubble",
+  "find": [
+    "HST|10536|IRAS10082-5647"
+  ],
+  "type": "Nebula",
+  "aliases": [
+    "IRAS10082-5647",
+    "reflection nebula",
+    "nebula",
+    "Herbig Ae/Be star"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A cloud of gas and dust glows with light borrowed from a young Herbig Ae/Be star, a star so young it has not yet settled into the steady hydrogen burning of most of its life.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "IRAS 10082-5647 is a reflection nebula",
+        "source": "https://esahubble.org/images/potw1144a"
+      },
+      {
+        "text": "IRAS 10082-5647 is in the constellation Vela",
+        "source": "https://esahubble.org/images/potw1144a"
+      },
+      {
+        "text": "It is lit by a young Herbig Ae/Be star",
+        "source": "https://esahubble.org/images/potw1144a"
+      },
+      {
+        "text": "The star has not yet reached the main sequence, where stars spend most of their lives fusing hydrogen",
+        "source": "https://esahubble.org/images/potw1144a"
+      },
+      {
+        "text": "Field matches the archive pointing",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/10536/"
+      }
+    ]
+  }
+}

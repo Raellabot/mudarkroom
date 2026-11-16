@@ -1,0 +1,46 @@
+{
+  "id": "ugc-5797-hubble",
+  "name": "UGC 5797 (Hubble)",
+  "blurb": "UGC 5797, a star-forming emission-line galaxy, seen by Hubble.",
+  "label": "ugc5797-hubble",
+  "spec": "HST|UGC05797|12546|ACS/WFC|ugc5797-hubble",
+  "find": [
+    "HST|12546|UGC05797"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "UGC05797",
+    "Galactic refurbishment",
+    "emission line galaxy",
+    "star-forming galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A galaxy busy forming new stars, set against a backdrop of more distant spiral galaxies seen face-on and edge-on.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "UGC 5797 is an emission line galaxy",
+        "source": "https://esahubble.org/images/potw1517a/"
+      },
+      {
+        "text": "UGC 5797 is undergoing active star formation",
+        "source": "https://esahubble.org/images/potw1517a/"
+      },
+      {
+        "text": "In the ESA/Hubble image, UGC 5797 appears in front of a background of spiral galaxies",
+        "source": "https://esahubble.org/images/potw1517a/"
+      },
+      {
+        "text": "ESA/Hubble's image of UGC 5797 is titled 'Galactic refurbishment'",
+        "source": "https://esahubble.org/images/potw1517a/"
+      }
+    ]
+  }
+}

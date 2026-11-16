@@ -1,0 +1,50 @@
+{
+  "id": "ngc-4267-hubble",
+  "name": "NGC 4267 (Hubble)",
+  "blurb": "NGC 4267, a lenticular galaxy in the Virgo Cluster, seen by Hubble.",
+  "label": "ngc4267-hubble",
+  "spec": "HST|VCC369|9401|ACS/WFC|ngc4267-hubble",
+  "find": [
+    "HST|9401|VCC369"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "VCC 369",
+    "VCC369",
+    "lenticular galaxy",
+    "early-type galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A lenticular galaxy in the Virgo Cluster, hiding a bar that does not show at a glance but reveals itself in the shapes of its light contours. Hubble surveyed it to learn how early-type galaxies form and evolve.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "VCC 369 is NGC 4267",
+        "source": "https://arxiv.org/pdf/astro-ph/0404138"
+      },
+      {
+        "text": "NGC 4267 is a lenticular galaxy",
+        "source": "https://arxiv.org/pdf/1507.05094"
+      },
+      {
+        "text": "It is a confirmed member of the Virgo Cluster",
+        "source": "https://arxiv.org/pdf/astro-ph/0404138"
+      },
+      {
+        "text": "A bar not apparent by visual inspection is inferred from its isophotes",
+        "source": "https://arxiv.org/pdf/astro-ph/0602297"
+      },
+      {
+        "text": "The ACS Virgo Cluster Survey (GO-9401) aims to understand how early-type galaxies form and evolve",
+        "source": "https://arxiv.org/pdf/astro-ph/0404138"
+      }
+    ]
+  }
+}

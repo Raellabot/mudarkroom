@@ -1,0 +1,51 @@
+{
+  "id": "sn-2004g-host-hubble",
+  "name": "NGC 5668, SN 2004G field (Hubble)",
+  "blurb": "NGC 5668, a spiral galaxy and host of the supernova SN 2004G, seen by Hubble.",
+  "label": "sn2004ghost-hubble",
+  "spec": "HST|SN2004G|17070|ACS/WFC|sn2004ghost-hubble",
+  "find": [
+    "HST|17070|SN2004G"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "NGC 5668",
+    "SN 2004G",
+    "SN2004G",
+    "spiral galaxy",
+    "galaxy",
+    "supernova host"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A nearly face-on spiral galaxy that forms new stars more quickly than our Milky Way. Hubble looked around the site of SN 2004G, a Type II supernova, to learn what kinds of stars end their lives this way.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "NGC 5668 is a spiral galaxy",
+        "source": "https://esahubble.org/images/potw2437a/"
+      },
+      {
+        "text": "NGC 5668 is seen nearly face-on and forms stars faster than the Milky Way",
+        "source": "https://esahubble.org/images/potw2437a/"
+      },
+      {
+        "text": "SN 2004G is a Type II supernova in NGC 5668",
+        "source": "https://esahubble.org/images/potw2437a/"
+      },
+      {
+        "text": "SN 2004G occurred in NGC 5668",
+        "source": "https://tamkin3.eps.harvard.edu/iauc/08200/08272.html"
+      },
+      {
+        "text": "The Hubble program targeting SN2004G studies stellar populations around Type II supernovae",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/17070/"
+      }
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "id": "ptf11bui-host-hubble",
+  "name": "CGCG 245-033, PTF11bui and PTF11hub field (Hubble)",
+  "blurb": "CGCG 245-033, a galaxy that hosted two Type Ia supernovae, seen by Hubble.",
+  "label": "ptf11buihost-hubble",
+  "spec": "HST|PTF11BUI-PTF11HUB-HOST|17194|WFC3/UVIS|ptf11buihost-hubble",
+  "find": [
+    "HST|17194|PTF11BUI-PTF11HUB-HOST"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "CGCG245-033",
+    "PTF11BUI-PTF11HUB-HOST",
+    "PTF11bui",
+    "PTF11hub",
+    "supernova siblings",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "This galaxy hosted two Type Ia supernovae, PTF11bui and PTF11hub. Hubble studied the neighborhoods around such sibling explosions to see whether differences in their surroundings explain why they are not exactly alike.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "The host of PTF11bui and PTF11hub is CGCG 245-033",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/17194/"
+      },
+      {
+        "text": "PTF11bui is a Type Ia supernova",
+        "source": "https://blast.scimma.org/transients/PTF11bui"
+      },
+      {
+        "text": "PTF11hub is a Type Ia supernova",
+        "source": "https://blast.scimma.org/transients/PTF11hub/"
+      },
+      {
+        "text": "The program studies local environments of sibling Type Ia supernovae (in the same galaxy) to improve their standardization",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/17194/"
+      }
+    ]
+  }
+}

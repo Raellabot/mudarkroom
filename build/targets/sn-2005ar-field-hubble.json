@@ -1,0 +1,40 @@
+{
+  "id": "sn-2005ar-field-hubble",
+  "name": "SN 2005ar field (Hubble)",
+  "blurb": "SN 2005ar field, the site of a supernova found by the Lick Observatory Supernova Search, seen by Hubble.",
+  "label": "sn2005arfield-hubble",
+  "spec": "HST|SN2005AR|14762|WFC3/UVIS|sn2005arfield-hubble",
+  "find": [
+    "HST|14762|SN2005AR"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "SN 2005ar",
+    "supernova",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "This field surrounds the spot where the supernova SN 2005ar appeared, just beside the center of its host galaxy, caught on images from the KAIT telescope.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "SN 2005ar was discovered by the Lick Observatory Supernova Search on KAIT images",
+        "source": "https://w.astro.berkeley.edu/bait/2005/sn2005ar.html"
+      },
+      {
+        "text": "SN 2005ar lies at R.A. 11h15m19s.03, Decl. -3 46' 18\".5, matching this pointing",
+        "source": "https://w.astro.berkeley.edu/bait/2005/sn2005ar.html"
+      },
+      {
+        "text": "SN 2005ar lies just beside the center of its host galaxy",
+        "source": "https://w.astro.berkeley.edu/bait/2005/sn2005ar.html"
+      }
+    ]
+  }
+}

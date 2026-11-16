@@ -1,0 +1,46 @@
+{
+  "id": "ngc-1943-hubble",
+  "name": "NGC 1943 (Hubble)",
+  "blurb": "NGC 1943, a star cluster in the Large Magellanic Cloud, seen by Hubble.",
+  "label": "ngc1943-hubble",
+  "spec": "HST|NGC1943|9891|ACS/WFC|ngc1943-hubble",
+  "find": [
+    "HST|9891|NGC1943"
+  ],
+  "type": "Star cluster",
+  "aliases": [
+    "SL 430",
+    "ESO 56-SC 114",
+    "star cluster",
+    "Large Magellanic Cloud",
+    "LMC"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A compact gathering of young stars in the Large Magellanic Cloud, home to pulsating Cepheid variables whose rhythm has been used to clock the cluster's age.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "NGC 1943 is a blue concentrated cluster in the Large Magellanic Cloud",
+        "source": "https://arxiv.org/pdf/astro-ph/0511724"
+      },
+      {
+        "text": "Also known as SL 430 and ESO 56-SC 114",
+        "source": "https://arxiv.org/pdf/astro-ph/0511724"
+      },
+      {
+        "text": "Its age was determined from the pulsation periods of its Cepheids",
+        "source": "https://arxiv.org/pdf/astro-ph/0511724"
+      },
+      {
+        "text": "It is a young cluster",
+        "source": "https://arxiv.org/pdf/astro-ph/0511724"
+      }
+    ]
+  }
+}

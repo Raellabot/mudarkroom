@@ -1,0 +1,35 @@
+{
+  "id": "ngc-3384-df11-hubble",
+  "name": "NGC 3384-DF11 (Hubble)",
+  "blurb": "NGC 3384-DF11, a faint low surface brightness object, seen by Hubble.",
+  "label": "ngc3384df11-hubble",
+  "spec": "HST|NGC3384-DF11|14644|ACS/WFC|ngc3384df11-hubble",
+  "find": [
+    "HST|14644|NGC3384-DF11"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "NGC3384-DF11",
+    "diffuse galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A faint, diffuse glow found by the Dragonfly telescope array in the sky around the galaxy NGC 3384. Hubble looked closer to measure its distance, to learn whether it is a companion of the galaxies there or an ultra diffuse galaxy of its own.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "NGC3384-DF11 is one of 23 newly discovered low surface brightness objects in Dragonfly fields, in the field centered on NGC 3384",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/14644/"
+      },
+      {
+        "text": "The program measures distances to these objects to build satellite luminosity functions and constrain ultra diffuse galaxies outside rich clusters",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/14644/"
+      }
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "id": "ngc-1903-hubble",
+  "name": "NGC 1903 (Hubble)",
+  "blurb": "NGC 1903, a young star cluster in the Large Magellanic Cloud, seen by Hubble.",
+  "label": "ngc1903-hubble",
+  "spec": "HST|NGC1903|9891|ACS/WFC|ngc1903-hubble",
+  "find": [
+    "HST|9891|NGC1903"
+  ],
+  "type": "Star cluster",
+  "aliases": [
+    "NGC1903",
+    "star cluster",
+    "Large Magellanic Cloud cluster",
+    "LMC cluster"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A young cluster of stars in the Large Magellanic Cloud, home to a red giant star wrapped in its own dust. Around it lies an older population of field stars.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "NGC 1903 is a young star cluster in the Large Magellanic Cloud",
+        "source": "https://arxiv.org/pdf/astro-ph/0507571"
+      },
+      {
+        "text": "NGC 1903 contains a dust-enshrouded, oxygen-rich red giant (NGC 1903-IR3) that is a cluster member",
+        "source": "https://arxiv.org/pdf/astro-ph/0507571"
+      },
+      {
+        "text": "Redder stars near NGC 1903 belong to an intermediate-age field population",
+        "source": "https://arxiv.org/pdf/astro-ph/0507571"
+      }
+    ]
+  }
+}

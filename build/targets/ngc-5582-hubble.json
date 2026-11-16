@@ -1,0 +1,39 @@
+{
+  "id": "ngc-5582-hubble",
+  "name": "NGC 5582 (Hubble)",
+  "blurb": "NGC 5582, a nearby spheroidal galaxy, seen by Hubble.",
+  "label": "ngc5582-hubble",
+  "spec": "HST|NGC5582|12591|ACS/WFC|ngc5582-hubble",
+  "find": [
+    "HST|12591|NGC5582"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "spheroidal galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Hubble took a quick look at the center of NGC 5582 in a census of the black holes and dense star clusters at the hearts of nearby galaxies. It was chosen because its core gives off faint X-rays.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "NGC 5582 is a target of Hubble program 12591",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/12591/"
+      },
+      {
+        "text": "The program is a census of accreting black holes and nuclear star clusters in nearby galaxies",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/12591/"
+      },
+      {
+        "text": "The program's targets are faint nearby spheroidal galaxies with faint X-ray cores",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/12591/"
+      }
+    ]
+  }
+}

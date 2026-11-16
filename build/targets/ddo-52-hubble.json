@@ -1,0 +1,43 @@
+{
+  "id": "ddo-52-hubble",
+  "name": "DDO 52 (Hubble)",
+  "blurb": "DDO 52, a dwarf irregular galaxy, seen by Hubble.",
+  "label": "ddo52-hubble",
+  "spec": "HST|DDO52|9771|ACS/WFC|ddo52-hubble",
+  "find": [
+    "HST|9771|DDO52"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "UGC 4426",
+    "PGC 23769",
+    "dwarf irregular galaxy",
+    "dwarf galaxy",
+    "irregular galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "DDO 52 is a small, irregular galaxy, one of the dwarfs studied by the LITTLE THINGS survey to learn how stars form in such tiny systems.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "DDO 52 is also called PGC 23769 and UGC 4426",
+        "source": "https://arxiv.org/pdf/2006.01735"
+      },
+      {
+        "text": "DDO 52 is a LITTLE THINGS dwarf irregular galaxy",
+        "source": "https://arxiv.org/pdf/1603.00495"
+      },
+      {
+        "text": "LITTLE THINGS is a survey of dwarf irregular and blue compact dwarf galaxies",
+        "source": "https://arxiv.org/pdf/1208.5834"
+      }
+    ]
+  }
+}

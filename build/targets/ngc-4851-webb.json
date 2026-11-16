@@ -1,0 +1,40 @@
+{
+  "id": "ngc-4851-webb",
+  "name": "NGC 4851 (Webb)",
+  "blurb": "NGC 4851, a galaxy in the Coma Cluster, seen by Webb.",
+  "label": "ngc4851-webb",
+  "spec": "JWST|NGC-4851|5989|NIRCAM/IMAGE|ngc4851-webb",
+  "find": [
+    "JWST|5989|NGC-4851"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "NGC4851",
+    "Coma Cluster",
+    "galaxy"
+  ],
+  "missions": [
+    "Webb"
+  ],
+  "story": "Webb studied this Coma Cluster galaxy to read the faint graininess of its starlight, called surface brightness fluctuations, as one rung in a precise new distance ladder for cosmology.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "NGC 4851 is a target galaxy of the JWST SBF Coma Cluster Survey",
+        "source": "https://www.stsci.edu/jwst-program-info/download/jwst/pdf/5989/"
+      },
+      {
+        "text": "NGC 4851 lies in Abell 1656 (the Coma Cluster)",
+        "source": "https://ngcicproject.observers.org/NGC/NGC_48xx/NGC_4851.htm"
+      },
+      {
+        "text": "The program measures surface brightness fluctuations to build a precision distance ladder for cosmology",
+        "source": "https://www.stsci.edu/jwst-program-info/download/jwst/pdf/5989/"
+      }
+    ]
+  }
+}

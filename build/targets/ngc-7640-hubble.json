@@ -1,0 +1,44 @@
+{
+  "id": "ngc-7640-hubble",
+  "name": "NGC 7640 (Hubble)",
+  "blurb": "NGC 7640, a barred spiral galaxy, seen by Hubble.",
+  "label": "ngc7640-hubble",
+  "spec": "HST|NGC-7640|13442|ACS/WFC|ngc7640-hubble",
+  "find": [
+    "HST|13442|NGC-7640"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "barred spiral galaxy",
+    "spiral galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "NGC 7640's spiral arms fan out not from a round core but from an elongated bar, and they look subtle because we do not see the galaxy face on. There are signs that this galaxy tangled with another at some point in its past.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "NGC 7640 is a barred spiral galaxy",
+        "source": "https://esahubble.org/images/potw1706a/"
+      },
+      {
+        "text": "Its spiral arms fan out from an elongated bar rather than a circular core",
+        "source": "https://esahubble.org/images/potw1706a/"
+      },
+      {
+        "text": "Seeing a galaxy other than face on makes its spiral arms less obvious",
+        "source": "https://esahubble.org/images/potw1706a/"
+      },
+      {
+        "text": "NGC 7640 shows evidence of a past interaction",
+        "source": "https://esahubble.org/images/potw1706a/"
+      }
+    ]
+  }
+}

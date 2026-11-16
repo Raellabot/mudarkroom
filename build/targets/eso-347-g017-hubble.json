@@ -1,0 +1,46 @@
+{
+  "id": "eso-347-g017-hubble",
+  "name": "ESO 347-G017 (Hubble)",
+  "blurb": "ESO 347-G017, a dwarf galaxy in the Sculptor Group, seen by Hubble.",
+  "label": "eso347g017-hubble",
+  "spec": "HST|ESO-347--G-017|15922|ACS/WFC|eso347g017-hubble",
+  "find": [
+    "HST|15922|ESO-347--G-017"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "ESO 347-17",
+    "PGC 71466",
+    "dwarf galaxy",
+    "galaxy",
+    "Sculptor Group"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A little-studied dwarf galaxy of the Sculptor Group, whose glowing clouds of gas around young stars have been used to measure what it is made of. Hubble visited it in a campaign to image every known nearby galaxy.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "ESO 347-G017 is a dwarf galaxy in the Sculptor Group",
+        "source": "https://arxiv.org/pdf/astro-ph/0301492"
+      },
+      {
+        "text": "ESO 347-G017 is also catalogued as PGC 71466",
+        "source": "https://arxiv.org/pdf/astro-ph/0301492"
+      },
+      {
+        "text": "Oxygen abundances of ESO 347-G017 were measured from its H II regions",
+        "source": "https://arxiv.org/pdf/astro-ph/0301492"
+      },
+      {
+        "text": "ESO 347-G017 was a target of Hubble program 15922, Every Known Nearby Galaxy",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15922/"
+      }
+    ]
+  }
+}

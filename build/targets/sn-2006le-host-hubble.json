@@ -1,0 +1,48 @@
+{
+  "id": "sn-2006le-host-hubble",
+  "name": "UGC 3218, SN 2006le and SN 2011M field (Hubble)",
+  "blurb": "UGC 3218, a spiral galaxy that hosted two Type Ia supernovae, seen by Hubble.",
+  "label": "sn2006lehost-hubble",
+  "spec": "HST|SN2006LE-SN2011M-HOST|17194|WFC3/UVIS|sn2006lehost-hubble",
+  "find": [
+    "HST|17194|SN2006LE-SN2011M-HOST"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "UGC3218",
+    "SN2006LE-SN2011M-HOST",
+    "SN 2006le",
+    "SN 2011M",
+    "spiral galaxy",
+    "supernova siblings",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "This spiral galaxy hosted two Type Ia supernovae, SN 2006le and SN 2011M. Hubble studied the neighborhoods around such sibling explosions to see whether differences in their surroundings explain why they are not exactly alike.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "SN 2006le is a Type Ia supernova in UGC 3218",
+        "source": "https://w.astro.berkeley.edu/bait/2006/sn2006le.html"
+      },
+      {
+        "text": "SN 2011M is a Type Ia supernova in UGC 3218, an SAb spiral galaxy",
+        "source": "https://w.astro.berkeley.edu/bait/2011/sn2011M.html"
+      },
+      {
+        "text": "The host of SN 2006le and SN 2011M is UGC 3218",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/17194/"
+      },
+      {
+        "text": "The program studies local environments of sibling Type Ia supernovae (in the same galaxy) to improve their standardization",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/17194/"
+      }
+    ]
+  }
+}

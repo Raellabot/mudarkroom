@@ -1,0 +1,46 @@
+{
+  "id": "eso-373-8-hubble",
+  "name": "ESO 373-8 (Hubble)",
+  "blurb": "ESO 373-8, a spiral galaxy seen side-on, seen by Hubble.",
+  "label": "eso3738-hubble",
+  "spec": "HST|IRAS09312-3248|9765|ACS/WFC|eso3738-hubble",
+  "find": [
+    "HST|9765|IRAS09312-3248"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "ESO 373-8",
+    "spiral galaxy",
+    "edge-on spiral galaxy",
+    "galaxy",
+    "NGC 2997 group"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A spiral galaxy seen side-on as a thin, glittering streak, with all its contents neatly aligned in the same plane. It is one of the galaxies of the NGC 2997 group.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "ESO 373-8 is a spiral galaxy",
+        "source": "https://esahubble.org/images/potw1351a/"
+      },
+      {
+        "text": "ESO 373-8 is seen side-on as a thin, glittering streak with its contents aligned in the same plane",
+        "source": "https://science.nasa.gov/missions/hubble/hubble-eyes-galaxy-as-flat-as-a-pancake"
+      },
+      {
+        "text": "ESO 373-8 is a member of the NGC 2997 group",
+        "source": "https://esahubble.org/images/potw1351a/"
+      },
+      {
+        "text": "The ESA/Hubble image of ESO 373-8 is at RA 9 33 18.33, Dec -33 01 57.64, taken with ACS in 606 nm and 814 nm filters",
+        "source": "https://esahubble.org/images/potw1351a/"
+      }
+    ]
+  }
+}

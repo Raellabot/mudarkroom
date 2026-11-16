@@ -1,0 +1,40 @@
+{
+  "id": "spt-cl-j0442-6138-webb",
+  "name": "SPT-CL J0442-6138 (Webb)",
+  "blurb": "SPT-CL J0442-6138, a massive galaxy cluster, seen by Webb.",
+  "label": "sptclj04426138-webb",
+  "spec": "JWST|SPT-CLJ0442-6138|5594|NIRCAM/IMAGE|sptclj04426138-webb",
+  "find": [
+    "JWST|5594|SPT-CLJ0442-6138"
+  ],
+  "type": "Galaxy cluster",
+  "aliases": [
+    "SPT-CLJ0442-6138",
+    "galaxy cluster",
+    "cluster of galaxies"
+  ],
+  "missions": [
+    "Webb"
+  ],
+  "story": "A crowd of galaxies bound together by gravity, one of 182 massive clusters Webb imaged to learn how a cluster's central galaxy and its diffuse haze of stars build up, and how dark matter spreads through it.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "SPT-CLJ0442-6138 is a cluster-of-galaxies target in Webb program 5594",
+        "source": "https://www.stsci.edu/jwst-program-info/download/jwst/pdf/5594/"
+      },
+      {
+        "text": "Webb program 5594 images 182 massive galaxy clusters",
+        "source": "https://www.stsci.edu/jwst-program-info/download/jwst/pdf/5594/"
+      },
+      {
+        "text": "The program studies how the central galaxy and intracluster light build up, and how dark matter is distributed in the clusters",
+        "source": "https://www.stsci.edu/jwst-program-info/download/jwst/pdf/5594/"
+      }
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "sn-2021mnj-host-hubble",
+  "name": "NGC 5754, SN 2021mnj field (Hubble)",
+  "blurb": "NGC 5754, the galaxy that hosted the Type II supernova SN 2021mnj, seen by Hubble.",
+  "label": "sn2021mnjhost-hubble",
+  "spec": "HST|SN2021MNJ|16691|WFC3/UVIS|sn2021mnjhost-hubble",
+  "find": [
+    "HST|16691|SN2021MNJ"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "SN2021MNJ",
+    "SN 2021mnj",
+    "Type II supernova",
+    "supernova",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Hubble returned to NGC 5754 long after the Type II supernova SN 2021mnj exploded there, to measure the radioactive material the blast left behind and to study its surroundings.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "SN 2021mnj is a Type II supernova in the galaxy NGC 5754",
+        "source": "https://blast.scimma.org/transients/2021mnj"
+      },
+      {
+        "text": "Hubble program 16691 takes late-time snapshots of recent transients to measure radioactive material and probe their environments",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/16691/"
+      }
+    ]
+  }
+}

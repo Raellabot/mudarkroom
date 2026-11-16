@@ -1,0 +1,36 @@
+{
+  "id": "ngc-59-hubble",
+  "name": "NGC 59 (Hubble)",
+  "blurb": "NGC 59, a nearby galaxy, seen by Hubble.",
+  "label": "ngc59-hubble",
+  "spec": "HST|NGC0059|13442|ACS/WFC|ngc59-hubble",
+  "find": [
+    "HST|13442|NGC0059"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "NGC0059",
+    "NGC 0059",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A neighbor of the Milky Way that Hubble observed to measure its distance from the brightness of its brightest red giant stars, part of a project to map how the galaxies around us are arranged and how they move.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "NGC 59 is a target of Hubble program 13442 on nearby galaxies",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/13442/"
+      },
+      {
+        "text": "The program measures distances to nearby galaxies from the tip of the red giant branch and maps their distribution and motions",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/13442/"
+      }
+    ]
+  }
+}

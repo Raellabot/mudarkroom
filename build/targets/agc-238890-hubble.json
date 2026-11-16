@@ -1,0 +1,45 @@
+{
+  "id": "agc-238890-hubble",
+  "name": "AGC 238890 (Hubble)",
+  "blurb": "AGC 238890, a gas-rich dwarf galaxy, seen by Hubble.",
+  "label": "agc238890-hubble",
+  "spec": "HST|AGC238890|13750|ACS/WFC|agc238890-hubble",
+  "find": [
+    "HST|13750|AGC238890"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "AGC238890",
+    "dwarf galaxy",
+    "SHIELD galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A faint, gas-rich dwarf galaxy, first noticed by the radio glow of its hydrogen gas. Hubble resolves its individual stars so astronomers can measure its distance, the key to weighing its gas, stars and dark matter.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "AGC 238890 is one of the SHIELD II galaxies, a sample of extremely low-mass galaxies",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/13750/"
+      },
+      {
+        "text": "The SHIELD galaxies are faint, gas-rich dwarfs selected from the ALFALFA (radio hydrogen) survey; AGC 238890 is in the sample",
+        "source": "https://arxiv.org/pdf/2105.05100"
+      },
+      {
+        "text": "Hubble imaging gives TRGB distances, on which other fundamental parameters including dark matter content depend",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/13750/"
+      },
+      {
+        "text": "SHIELD study uses Hubble imaging of stars and radio observations of hydrogen gas",
+        "source": "https://arxiv.org/abs/2105.05100"
+      }
+    ]
+  }
+}

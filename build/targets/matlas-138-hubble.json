@@ -1,0 +1,36 @@
+{
+  "id": "matlas-138-hubble",
+  "name": "MATLAS-138 (Hubble)",
+  "blurb": "MATLAS-138, an ultra-diffuse galaxy, seen by Hubble.",
+  "label": "matlas138-hubble",
+  "spec": "HST|MATLAS-138|16711|ACS/WFC|matlas138-hubble",
+  "find": [
+    "HST|16711|MATLAS-138"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "ultra-diffuse galaxy",
+    "UDG",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A faint, ultra-diffuse galaxy far from the crowded hearts of galaxy clusters. Hubble took a snapshot of it to count the globular clusters around it.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "MATLAS-138 is a target of Hubble program 16711 on ultra-diffuse galaxies outside clusters",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/16711/"
+      },
+      {
+        "text": "UDG stands for ultra-diffuse galaxy; the program studies their globular clusters",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/16711/"
+      }
+    ]
+  }
+}

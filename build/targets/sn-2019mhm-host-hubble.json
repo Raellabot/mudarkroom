@@ -1,0 +1,41 @@
+{
+  "id": "sn-2019mhm-host-hubble",
+  "name": "NGC 6753, SN 2019mhm field (Hubble)",
+  "blurb": "NGC 6753, a spiral galaxy and host of SN 2019mhm, seen by Hubble.",
+  "label": "sn2019mhmhost-hubble",
+  "spec": "HST|SN2019MHM|16239|WFC3/UVIS|sn2019mhmhost-hubble",
+  "find": [
+    "HST|16239|SN2019MHM"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "SN 2019mhm",
+    "spiral galaxy",
+    "galaxy",
+    "supernova host"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A spiral galaxy wrapped in an invisible corona of hot gas, one of only two known spirals where such a halo had been detected. It hosted SN 2019mhm, a Type II-P supernova.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "SN 2019mhm is a Type II-P supernova located in NGC 6753",
+        "source": "https://arxiv.org/abs/2210.05131"
+      },
+      {
+        "text": "NGC 6753 is one of only two known spiral galaxies massive and close enough for their coronae to be detected",
+        "source": "https://esahubble.org/images/potw1738a/"
+      },
+      {
+        "text": "Coronae are huge, invisible regions of hot gas around a galaxy; NGC 6753 has a hot corona",
+        "source": "https://science.nasa.gov/missions/hubble/hubbles-cool-galaxy-with-a-hot-corona"
+      }
+    ]
+  }
+}

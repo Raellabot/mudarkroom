@@ -1,0 +1,49 @@
+{
+  "id": "sn-2004cm-host-hubble",
+  "name": "NGC 5486, SN 2004cm field (Hubble)",
+  "blurb": "NGC 5486, a Magellanic-type galaxy, seen by Hubble.",
+  "label": "sn2004cmhost-hubble",
+  "spec": "HST|SN2004CM|17070|ACS/WFC|sn2004cmhost-hubble",
+  "find": [
+    "HST|17070|SN2004CM"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "SN 2004cm",
+    "SN2004cm",
+    "galaxy",
+    "supernova host galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "NGC 5486 was home to SN 2004cm, a faint, nickel-poor Type II-plateau supernova found by the SDSS Collaboration. Hubble looks back at the galaxy where that dim stellar explosion took place.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "SN 2004cm's host galaxy is NGC 5486",
+        "source": "https://arxiv.org/pdf/astro-ph/0605700"
+      },
+      {
+        "text": "NGC 5486 is a Magellanic-type (Sm) galaxy",
+        "source": "https://arxiv.org/pdf/astro-ph/0605700"
+      },
+      {
+        "text": "SN 2004cm is a low-luminosity, nickel-poor Type II-plateau supernova",
+        "source": "https://arxiv.org/pdf/astro-ph/0605700"
+      },
+      {
+        "text": "SN 2004cm was a Type II supernova discovered by the SDSS Collaboration",
+        "source": "https://tamkin3.eps.harvard.edu/iauc/08300/08359.html"
+      },
+      {
+        "text": "The Hubble pointing matches the position of SN 2004cm",
+        "source": "https://tamkin3.eps.harvard.edu/iauc/08300/08359.html"
+      }
+    ]
+  }
+}

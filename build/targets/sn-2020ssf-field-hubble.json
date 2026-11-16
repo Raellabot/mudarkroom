@@ -1,0 +1,37 @@
+{
+  "id": "sn-2020ssf-field-hubble",
+  "name": "SN 2020ssf field (Hubble)",
+  "blurb": "A field around SN 2020ssf, a Type Ia supernova, seen by Hubble.",
+  "label": "sn2020ssffield-hubble",
+  "spec": "HST|SN2020SSF|16691|WFC3/UVIS|sn2020ssffield-hubble",
+  "find": [
+    "HST|16691|SN2020SSF"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "SN2020SSF",
+    "SN 2020ssf",
+    "supernova site",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "The site of SN 2020ssf, a Type Ia supernova. Hubble returned after the explosion to probe the surroundings of the star system that produced it.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "SN 2020ssf is a Type Ia supernova",
+        "source": "https://blast.scimma.org/transients/2020ssf/"
+      },
+      {
+        "text": "Hubble program 16691 took late-time snapshots of recent transients, including SN2020SSF, to probe their surroundings",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/16691/"
+      }
+    ]
+  }
+}

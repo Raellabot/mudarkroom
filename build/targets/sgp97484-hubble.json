@@ -1,0 +1,41 @@
+{
+  "id": "sgp97484-hubble",
+  "name": "SGP97484 (Hubble)",
+  "blurb": "SGP97484, an isolated elliptical galaxy in a cosmic void, seen by Hubble.",
+  "label": "sgp97484-hubble",
+  "spec": "HST|SGP97484|10630|ACS/WFC|sgp97484-hubble",
+  "find": [
+    "HST|10630|SGP97484"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "elliptical galaxy",
+    "void galaxy",
+    "isolated galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "SGP97484 is an elliptical galaxy living alone in a cosmic void. Hubble studied it to look for fine structure such as shells, dust lanes and nuclear disks, clues to whether void galaxies grow through different mergers than galaxies in crowded clusters.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "SGP97484 is one of the isolated elliptical galaxies in voids targeted by program 10630",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/10630/"
+      },
+      {
+        "text": "The program looks for structural features such as nuclear disks, dust lanes and shells",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/10630/"
+      },
+      {
+        "text": "Void galaxies are predicted to have different merger histories than cluster galaxies",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/10630/"
+      }
+    ]
+  }
+}

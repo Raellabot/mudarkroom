@@ -1,0 +1,42 @@
+{
+  "id": "sn-2019com-field-hubble",
+  "name": "SN 2019com field (Hubble)",
+  "blurb": "SN 2019com field, the site of a Type II supernova, seen by Hubble.",
+  "label": "sn2019comfield-hubble",
+  "spec": "HST|SN2019COM|16239|WFC3/UVIS|sn2019comfield-hubble",
+  "find": [
+    "HST|16239|SN2019COM"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "SN 2019com",
+    "SN2019com",
+    "Type II supernova",
+    "supernova",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Hubble looked back at the place where SN 2019com, a Type II supernova, exploded. Late snapshots like this probe what the blast left behind and the gas that surrounded the doomed star.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "SN 2019com is a Type II supernova",
+        "source": "https://blast.scimma.org/transients/2019com"
+      },
+      {
+        "text": "SN 2019com showed prominent hydrogen-alpha emission typical of Type II supernovae",
+        "source": "https://tsc.mit.edu/2019/posters/Abbot_Harrison.pdf"
+      },
+      {
+        "text": "Program 16239 takes late-time snapshots of nearby recent supernovae to measure radioactive material and circumstellar environments",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/16239/"
+      }
+    ]
+  }
+}

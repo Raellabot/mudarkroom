@@ -1,0 +1,38 @@
+{
+  "id": "ugc-64-hubble",
+  "name": "UGC 64 (Hubble)",
+  "blurb": "UGC 64, a nearby galaxy, seen by Hubble.",
+  "label": "ugc64-hubble",
+  "spec": "HST|UGC-00064|15922|ACS/WFC|ugc64-hubble",
+  "find": [
+    "HST|15922|UGC-00064"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "UGC-00064",
+    "UGC 00064",
+    "PGC591",
+    "PGC 591",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "One of the last nearby galaxies Hubble set out to visit in its effort to image every known galaxy near the Milky Way, resolving its brightest stars.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "UGC-00064 (alternate name PGC591) is a target of Hubble program 15922, Every Known Nearby Galaxy",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15922/"
+      },
+      {
+        "text": "The program targets the remaining suspected nearby galaxies not yet observed by Hubble",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15922/"
+      }
+    ]
+  }
+}

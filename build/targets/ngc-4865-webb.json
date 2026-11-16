@@ -1,0 +1,45 @@
+{
+  "id": "ngc-4865-webb",
+  "name": "NGC 4865 (Webb)",
+  "blurb": "NGC 4865, an elliptical galaxy in the Coma Cluster, seen by Webb.",
+  "label": "ngc4865-webb",
+  "spec": "JWST|NGC-4865|5989|NIRCAM/IMAGE|ngc4865-webb",
+  "find": [
+    "JWST|5989|NGC-4865"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "NGC-4865",
+    "elliptical galaxy",
+    "galaxy",
+    "Coma Cluster galaxy"
+  ],
+  "missions": [
+    "Webb"
+  ],
+  "story": "An elliptical galaxy in the Coma Cluster, the nearest rich cluster of galaxies. Webb surveys galaxies here to measure distances from the subtle graininess of their starlight, an independent path toward resolving the Hubble tension.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "NGC 4865 is an elliptical galaxy targeted by JWST program 5989 in the Coma Cluster",
+        "source": "https://www.stsci.edu/jwst-program-info/download/jwst/pdf/5989/"
+      },
+      {
+        "text": "NGC 4865 has sub-type E3 and lies in the core of Abell 1656 (the Coma Cluster)",
+        "source": "https://ngcicproject.observers.org/NGC/NGC_48xx/NGC_4865.htm"
+      },
+      {
+        "text": "The Coma Cluster is the nearest rich cluster in the universe",
+        "source": "https://www.stsci.edu/jwst-program-info/download/jwst/pdf/5989/"
+      },
+      {
+        "text": "The program measures surface brightness fluctuation (SBF) distances to address the Hubble tension",
+        "source": "https://www.stsci.edu/jwst-program-info/download/jwst/pdf/5989/"
+      }
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "ngc-2107-hubble",
+  "name": "NGC 2107 (Hubble)",
+  "blurb": "NGC 2107, a star cluster in the Magellanic Clouds, seen by Hubble.",
+  "label": "ngc2107-hubble",
+  "spec": "HST|NGC2107|9891|ACS/WFC|ngc2107-hubble",
+  "find": [
+    "HST|9891|NGC2107"
+  ],
+  "type": "Star cluster",
+  "aliases": [
+    "star cluster",
+    "Magellanic Cloud cluster"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Stars crowd together in NGC 2107, one of the Magellanic Cloud star clusters whose Hubble images astronomers have searched for signs of more than one generation of stars.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "NGC 2107 is a Magellanic Cloud star cluster imaged by Hubble in program GO 9891",
+        "source": "https://arxiv.org/pdf/0810.2558"
+      },
+      {
+        "text": "Astronomers searched Hubble images of Magellanic Cloud clusters, NGC 2107 among them, for multiple stellar populations",
+        "source": "https://arxiv.org/pdf/0810.2558"
+      }
+    ]
+  }
+}

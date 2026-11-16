@@ -1,0 +1,48 @@
+{
+  "id": "sn-2011aq-host-hubble",
+  "name": "NGC 1056, SN 2011aq field (Hubble)",
+  "blurb": "NGC 1056, a spiral galaxy that hosted SN 2011aq, seen by Hubble.",
+  "label": "sn2011aqhost-hubble",
+  "spec": "HST|SN2011AQ|17070|ACS/WFC|sn2011aqhost-hubble",
+  "find": [
+    "HST|17070|SN2011AQ"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "SN 2011aq",
+    "SN2011AQ",
+    "PSN J02424814+2834258",
+    "NGC 1056",
+    "spiral galaxy",
+    "galaxy",
+    "supernova host"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "In 2011 a Type II supernova, SN 2011aq, flared in NGC 1056 just beside the galaxy's center.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "SN 2011aq appeared in NGC 1056 (also PSN J02424814+2834258)",
+        "source": "https://tamkin3.eps.harvard.edu/cbet/002600/CBET002671.txt"
+      },
+      {
+        "text": "SN 2011aq was a Type II supernova discovered in 2011",
+        "source": "https://tamkin3.eps.harvard.edu/cbet/002600/CBET002671.txt"
+      },
+      {
+        "text": "SN 2011aq lay just beside the galaxy's center",
+        "source": "https://tamkin3.eps.harvard.edu/cbet/002600/CBET002671.txt"
+      },
+      {
+        "text": "NGC 1056 is a spiral (Sa) galaxy",
+        "source": "https://w.astro.berkeley.edu/bait/2011/sn2011aq.html"
+      }
+    ]
+  }
+}

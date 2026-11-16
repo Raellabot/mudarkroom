@@ -1,0 +1,40 @@
+{
+  "id": "eso-059-01-hubble",
+  "name": "ESO 059-01 (Hubble)",
+  "blurb": "ESO 059-01, an isolated irregular galaxy, seen by Hubble.",
+  "label": "eso05901-hubble",
+  "spec": "HST|E059-01|9771|ACS/WFC|eso05901-hubble",
+  "find": [
+    "HST|9771|E059-01"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "E059-01",
+    "irregular galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A lone irregular galaxy with no group to call home. Hubble imaged it in a survey of nearby galaxies, using its red giant stars to measure how far away it is.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "E059-01 is ESO 059-01, imaged with ACS in HST program GO-9771",
+        "source": "https://arxiv.org/pdf/astro-ph/0511648"
+      },
+      {
+        "text": "ESO 059-01 is an isolated irregular galaxy",
+        "source": "https://arxiv.org/pdf/astro-ph/0511648"
+      },
+      {
+        "text": "Its distance was measured from the tip of the red giant branch",
+        "source": "https://arxiv.org/pdf/astro-ph/0511648"
+      }
+    ]
+  }
+}

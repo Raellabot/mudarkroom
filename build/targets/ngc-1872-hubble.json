@@ -1,0 +1,38 @@
+{
+  "id": "ngc-1872-hubble",
+  "name": "NGC 1872 (Hubble)",
+  "blurb": "NGC 1872, a star cluster in the Large Magellanic Cloud, seen by Hubble.",
+  "label": "ngc1872-hubble",
+  "spec": "HST|NGC1872|9891|ACS/WFC|ngc1872-hubble",
+  "find": [
+    "HST|9891|NGC1872"
+  ],
+  "type": "Star cluster",
+  "aliases": [
+    "NGC1872",
+    "star cluster",
+    "Large Magellanic Cloud",
+    "LMC cluster",
+    "cluster"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A rich cluster of thousands of stars in the Large Magellanic Cloud. It is as crowded as a globular cluster yet much younger, so it sits between the usual classes of star clusters.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "NGC 1872 is a rich cluster of thousands of stars in the Large Magellanic Cloud",
+        "source": "https://esahubble.org/images/potw1013a/"
+      },
+      {
+        "text": "NGC 1872 is about as rich as a typical globular cluster but much younger, an intermediate type between open and globular",
+        "source": "https://esahubble.org/images/potw1013a/"
+      }
+    ]
+  }
+}

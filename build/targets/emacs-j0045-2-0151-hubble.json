@@ -1,0 +1,37 @@
+{
+  "id": "emacs-j0045-2-0151-hubble",
+  "name": "eMACS J0045.2-0151 (Hubble)",
+  "blurb": "eMACS J0045.2-0151, a massive galaxy cluster, seen by Hubble.",
+  "label": "emacsj004520151-hubble",
+  "spec": "HST|EMACSJ0045.2-0151|14098|WFC3/IR|emacsj004520151-hubble",
+  "find": [
+    "HST|14098|EMACSJ0045.2-0151"
+  ],
+  "type": "Galaxy cluster",
+  "aliases": [
+    "EMACSJ0045.2-0151",
+    "eMACS J0045",
+    "galaxy cluster",
+    "cluster of galaxies"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "An extremely massive cluster of galaxies, picked out in an X-ray survey. Its gravity can act as a natural lens, and Hubble searches clusters like this for the most powerful lenses and for faint, far more distant galaxies behind them.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "eMACS J0045.2-0151 is a target of program 14098, a snapshot survey of the most massive galaxy clusters from the X-ray selected eMACS sample",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/14098/"
+      },
+      {
+        "text": "The program aims to identify the most powerful gravitational lenses and to find distant Balmer-break and Lyman-break galaxies",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/14098/"
+      }
+    ]
+  }
+}

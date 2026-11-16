@@ -1,0 +1,41 @@
+{
+  "id": "matlas-203-hubble",
+  "name": "MATLAS-203 (Hubble)",
+  "blurb": "MATLAS-203, an ultra-diffuse galaxy, seen by Hubble.",
+  "label": "matlas203-hubble",
+  "spec": "HST|MATLAS-203|16711|ACS/WFC|matlas203-hubble",
+  "find": [
+    "HST|16711|MATLAS-203"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "MATLAS 203",
+    "ultra-diffuse galaxy",
+    "UDG",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "An ultra-diffuse galaxy found away from the crowded galaxy clusters. Hubble looked here for the globular clusters gathered around it, to test ideas about how such galaxies form.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "MATLAS-203 is a target of a Hubble program on ultra-diffuse galaxies in low-density environments",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/16711/"
+      },
+      {
+        "text": "The program images UDGs in non-cluster environments to detect their globular clusters",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/16711/"
+      },
+      {
+        "text": "The aim is to test models of globular cluster and galaxy formation",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/16711/"
+      }
+    ]
+  }
+}

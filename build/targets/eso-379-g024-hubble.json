@@ -1,0 +1,50 @@
+{
+  "id": "eso-379-g024-hubble",
+  "name": "ESO 379-G024 (Hubble)",
+  "blurb": "ESO 379-G024, a dwarf irregular galaxy, seen by Hubble.",
+  "label": "eso379g024-hubble",
+  "spec": "HST|ESO-379--G-024|15922|ACS/WFC|eso379g024-hubble",
+  "find": [
+    "HST|15922|ESO-379--G-024"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "PGC 38252",
+    "HIPASS J1204-35",
+    "dwarf irregular galaxy",
+    "dwarf galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A small, loosely built dwarf galaxy drifts on the outskirts of the Centaurus A group, one of the nearby galaxies Hubble set out to capture so that every known neighbor has its portrait.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "ESO 379-G024 is a dwarf irregular galaxy",
+        "source": "https://www.atnf.csiro.au/people/bkoribal/LVHIS/data/LVHIS036.info.html"
+      },
+      {
+        "text": "It lies in the outskirts of the Cen A group",
+        "source": "https://www.atnf.csiro.au/people/bkoribal/LVHIS/data/LVHIS036.info.html"
+      },
+      {
+        "text": "Also known as HIPASS J1204-35",
+        "source": "https://www.atnf.csiro.au/people/bkoribal/LVHIS/data/LVHIS036.info.html"
+      },
+      {
+        "text": "Also known as PGC 38252",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15922/"
+      },
+      {
+        "text": "Program 15922 aims to complete HST imaging of known nearby galaxies",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15922/"
+      }
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "ugc-7827-hubble",
+  "name": "UGC 7827 (Hubble)",
+  "blurb": "UGC 7827, a nearby galaxy, seen by Hubble.",
+  "label": "ugc7827-hubble",
+  "spec": "HST|UGC-07827|15922|ACS/WFC|ugc7827-hubble",
+  "find": [
+    "HST|15922|UGC-07827"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "UGC-07827",
+    "UGC 07827",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "One of the galaxies thought to lie close to our own. Hubble set out to observe every known nearby galaxy, resolving the brightest stars in each to measure how far away it is.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "UGC 7827 (archive UGC-07827) is a target of program 15922, Every Known Nearby Galaxy",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15922/"
+      },
+      {
+        "text": "The program targets known galaxies confirmed or suspected to lie within 10 Mpc, resolving their brightest stars for a tip-of-the-red-giant-branch distance",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15922/"
+      }
+    ]
+  }
+}

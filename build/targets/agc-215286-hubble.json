@@ -1,0 +1,44 @@
+{
+  "id": "agc-215286-hubble",
+  "name": "AGC 215286 (Hubble)",
+  "blurb": "AGC 215286, an irregular galaxy in the Local Volume, seen by Hubble.",
+  "label": "agc215286-hubble",
+  "spec": "HST|AGC215286|17480|ACS/WFC|agc215286-hubble",
+  "find": [
+    "HST|17480|AGC215286"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "AGC215286",
+    "irregular galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "An amorphous, irregular galaxy among our nearer neighbors. Hubble resolved its stars to measure its distance, helping test whether the lowest-mass galaxies rotate faster than the baryonic Tully-Fisher relation predicts.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "AGC 215286 is a galaxy classed as amorphous irregular, targeted by Hubble program 17480",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/17480/"
+      },
+      {
+        "text": "The program's targets are Local Volume galaxies",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/17480/"
+      },
+      {
+        "text": "Hubble measures their distances from the red giant branch tip using resolved stars",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/17480/"
+      },
+      {
+        "text": "Low mass galaxies are predicted to have higher Vmax than the baryonic Tully-Fisher relation extrapolated from higher masses",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/17480/"
+      }
+    ]
+  }
+}

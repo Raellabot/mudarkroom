@@ -1,0 +1,44 @@
+{
+  "id": "ugc-12588-hubble",
+  "name": "UGC 12588 (Hubble)",
+  "blurb": "UGC 12588, a spiral galaxy in Andromeda, seen by Hubble.",
+  "label": "ugc12588-hubble",
+  "spec": "HST|UGC-12588|15922|ACS/WFC|ugc12588-hubble",
+  "find": [
+    "HST|15922|UGC-12588"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "Cosmic Cinnamon Bun",
+    "spiral galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Nicknamed the cosmic cinnamon bun, this spiral has a round, mostly smooth center wrapped in faint, tightly wound arms, traced best by stars near its edges where new stars are likely forming.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "UGC 12588 is classified as a spiral galaxy",
+        "source": "https://esahubble.org/images/potw2046a/"
+      },
+      {
+        "text": "It lies in the constellation Andromeda",
+        "source": "https://esahubble.org/images/potw2046a/"
+      },
+      {
+        "text": "Nicknamed the Cosmic Cinnamon Bun",
+        "source": "https://esahubble.org/images/potw2046a/"
+      },
+      {
+        "text": "Its arms are faint and tightly wound, best traced by bluer stars near the edges marking likely star formation",
+        "source": "https://esahubble.org/images/potw2046a/"
+      }
+    ]
+  }
+}

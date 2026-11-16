@@ -1,0 +1,47 @@
+{
+  "id": "tarantula-treasury-field-hubble",
+  "name": "Tarantula Nebula, Treasury Project field (Hubble)",
+  "blurb": "The Tarantula Nebula, a glowing cloud of gas in the Large Magellanic Cloud, seen by Hubble.",
+  "label": "tarantulatreasuryfield-hubble",
+  "spec": "HST|NGC-2070-3-V2A|12939|WFC3/IR|tarantulatreasuryfield-hubble",
+  "find": [
+    "HST|12939|NGC-2070-3-V2A"
+  ],
+  "type": "Nebula",
+  "aliases": [
+    "Tarantula Nebula",
+    "30 Doradus Nebula",
+    "NGC 2070",
+    "nebula",
+    "H II region",
+    "Hubble Tarantula Treasury Project"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Part of the Tarantula Nebula, a region full of star clusters, glowing gas and thick dust. Hubble's Tarantula Treasury Project is mapping the nebula's many millions of stars to piece together its starry skeleton.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "The Tarantula Nebula is an emission H II region full of star clusters, glowing gas and thick dust",
+        "source": "https://esahubble.org/images/heic1402a/"
+      },
+      {
+        "text": "The Tarantula Nebula is also called the 30 Doradus Nebula",
+        "source": "https://esahubble.org/images/heic1402a/"
+      },
+      {
+        "text": "Program 12939, the Hubble Tarantula Treasury Project, imaged the Tarantula Nebula in the Large Magellanic Cloud using fixed targets named NGC-2070",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/12939/"
+      },
+      {
+        "text": "HTTP is imaging the many millions of stars in the Tarantula to understand the nebula's skeleton",
+        "source": "https://esahubble.org/images/heic1402a/"
+      }
+    ]
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "id": "minni-324-hubble",
+  "name": "Minni 324 (Hubble)",
+  "blurb": "Minni 324, a globular cluster in the Sagittarius dwarf galaxy, seen by Hubble.",
+  "label": "minni324-hubble",
+  "spec": "HST|MINNI324|17440|WFC3/UVIS|minni324-hubble",
+  "find": [
+    "HST|17440|MINNI324"
+  ],
+  "type": "Star cluster",
+  "aliases": [
+    "Minni324",
+    "MINNI324",
+    "globular cluster",
+    "star cluster",
+    "Sagittarius dwarf galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A faint globular cluster belonging to the Sagittarius dwarf galaxy, a small galaxy now falling into the Milky Way and seen behind the crowded bulge of our own galaxy. Hubble studies clusters like this to read their ages and makeup and trace how the Milky Way was assembled.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "Minni324 is a confirmed globular cluster of the Sagittarius dwarf galaxy",
+        "source": "https://arxiv.org/pdf/2103.08196"
+      },
+      {
+        "text": "The newly discovered clusters are low-luminosity globular clusters in the main body of the Sgr dwarf, projected behind the Galactic bulge",
+        "source": "https://arxiv.org/pdf/2103.08196"
+      },
+      {
+        "text": "MINNI324 is a target of Hubble program 17440, described as a globular cluster",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/17440/"
+      },
+      {
+        "text": "The Sagittarius clusters trace its ongoing infall onto the Milky Way; the program measures ages and metallicities to reconstruct accretion history",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/17440/"
+      }
+    ]
+  }
+}

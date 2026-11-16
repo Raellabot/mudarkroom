@@ -1,0 +1,32 @@
+{
+  "id": "des-j0252-4732-hubble",
+  "name": "DES J0252-4732 (Hubble)",
+  "blurb": "DES J0252-4732, a candidate strong gravitational lens, seen by Hubble.",
+  "label": "desj02524732-hubble",
+  "spec": "HST+HST|DESJ0252-4732+DESJ0252-4732|16773+16773|WFC3/IR+WFC3/UVIS|desj02524732-hubble",
+  "find": [
+    "HST|16773|DESJ0252-4732"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "DESJ0252-4732",
+    "gravitational lens",
+    "strong lens candidate"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A candidate natural lens found in the Dark Energy Survey, where the gravity of a foreground mass may bend the light of a more distant galaxy behind it.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "DESJ0252-4732 is a candidate strongly lensed galaxy system from the Dark Energy Survey",
+        "source": "https://arxiv.org/pdf/2110.02418"
+      }
+    ]
+  }
+}

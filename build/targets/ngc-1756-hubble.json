@@ -1,0 +1,45 @@
+{
+  "id": "ngc-1756-hubble",
+  "name": "NGC 1756 (Hubble)",
+  "blurb": "NGC 1756, a star cluster in the Large Magellanic Cloud, seen by Hubble.",
+  "label": "ngc1756-hubble",
+  "spec": "HST|NGC1756|9891|ACS/WFC|ngc1756-hubble",
+  "find": [
+    "HST|9891|NGC1756"
+  ],
+  "type": "Star cluster",
+  "aliases": [
+    "star cluster",
+    "Large Magellanic Cloud cluster",
+    "LMC cluster",
+    "cluster"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "NGC 1756 is a compact cluster of stars in the Large Magellanic Cloud, first recorded by John Herschel in 1836. Its stars are thought to be about 200 million years old.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "NGC 1756 is a star cluster",
+        "source": "https://ngcicproject.observers.org/NGC/NGC_17xx/NGC_1756.htm"
+      },
+      {
+        "text": "NGC 1756 lies in the Large Magellanic Cloud",
+        "source": "https://ngcicproject.observers.org/NGC/NGC_17xx/NGC_1756.htm"
+      },
+      {
+        "text": "First recorded by John Herschel in 1836",
+        "source": "https://ngcicproject.observers.org/NGC/NGC_17xx/NGC_1756.htm"
+      },
+      {
+        "text": "Its age is about 200 million years",
+        "source": "https://people.smp.uq.edu.au/HolgerBaumgardt/globular/lgclusters/fits/ngc1756.html"
+      }
+    ]
+  }
+}

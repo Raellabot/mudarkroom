@@ -1,0 +1,41 @@
+{
+  "id": "ngc-1854-hubble",
+  "name": "NGC 1854 (Hubble)",
+  "blurb": "NGC 1854, a globular cluster in the Large Magellanic Cloud, seen by Hubble.",
+  "label": "ngc1854-hubble",
+  "spec": "HST|NGC1854|9891|ACS/WFC|ngc1854-hubble",
+  "find": [
+    "HST|9891|NGC1854"
+  ],
+  "type": "Star cluster",
+  "aliases": [
+    "globular cluster",
+    "star cluster",
+    "Large Magellanic Cloud",
+    "LMC"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A dense gathering of stars in the Large Magellanic Cloud, a satellite galaxy of the Milky Way. Hubble's sharp cameras can pick out individual stars even in the crowded cores of clusters like this one.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "NGC 1854 is a globular cluster",
+        "source": "https://esahubble.org/images/potw1625a/"
+      },
+      {
+        "text": "NGC 1854 is in the Large Magellanic Cloud, a satellite galaxy of the Milky Way",
+        "source": "https://esahubble.org/images/potw1625a/"
+      },
+      {
+        "text": "Hubble can resolve individual stars even in crowded cluster cores",
+        "source": "https://esahubble.org/images/potw1625a/"
+      }
+    ]
+  }
+}

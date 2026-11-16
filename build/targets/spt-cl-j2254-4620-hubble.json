@@ -1,0 +1,40 @@
+{
+  "id": "spt-cl-j2254-4620-hubble",
+  "name": "SPT-CL J2254-4620 (Hubble)",
+  "blurb": "SPT-CL J2254-4620, a massive galaxy cluster, seen by Hubble.",
+  "label": "sptclj22544620-hubble",
+  "spec": "HST+HST|SPT-CLJ2254-4620+SPT-CLJ2254-4620|16017+16017|WFC3/IR+WFC3/UVIS|sptclj22544620-hubble",
+  "find": [
+    "HST|16017|SPT-CLJ2254-4620"
+  ],
+  "type": "Galaxy cluster",
+  "aliases": [
+    "SPT-CLJ2254-4620",
+    "galaxy cluster",
+    "cluster of galaxies"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A massive galaxy cluster found by the South Pole Telescope, which spots such clusters by the faint change their hot gas makes in the brightness of the cosmic microwave background.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "SPT-CL J2254-4620 is a galaxy cluster detected in the SPT-SZ survey",
+        "source": "https://arxiv.org/html/2407.10189v2"
+      },
+      {
+        "text": "SPT-CL J2254-4620 is massive",
+        "source": "https://arxiv.org/html/2407.10189v2"
+      },
+      {
+        "text": "The SZ effect is a change in the cosmic microwave background's brightness toward clusters, caused by hot gas",
+        "source": "https://www.cfa.harvard.edu/news/cosmic-bumps-cosmic-ripples"
+      }
+    ]
+  }
+}

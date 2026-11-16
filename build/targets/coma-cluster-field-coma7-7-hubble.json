@@ -1,0 +1,37 @@
+{
+  "id": "coma-cluster-field-coma7-7-hubble",
+  "name": "Coma Cluster, field COMA7-7 (Hubble)",
+  "blurb": "Field COMA7-7, one pointing of Hubble's survey of the Coma galaxy cluster, seen by Hubble.",
+  "label": "comaclusterfieldcoma77-hubble",
+  "spec": "HST|COMA7-7|10861|ACS/WFC|comaclusterfieldcoma77-hubble",
+  "find": [
+    "HST|10861|COMA7-7"
+  ],
+  "type": "Galaxy cluster",
+  "aliases": [
+    "COMA7-7",
+    "Coma Cluster",
+    "galaxy cluster",
+    "dwarf galaxies"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "One frame from Hubble's survey of the core and outskirts of Coma, the richest galaxy cluster near us, made to study its swarm of dwarf galaxies, which models suggest were among the first galaxies to form.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "COMA7-7 is a field in Hubble's ACS Treasury survey of the core and infall region of the Coma cluster, the richest local cluster",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/10861/"
+      },
+      {
+        "text": "The survey aims to study the dwarf galaxy population, which hierarchical models say are the earliest galaxies to form",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/10861/"
+      }
+    ]
+  }
+}

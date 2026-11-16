@@ -1,0 +1,38 @@
+{
+  "id": "ps1-12bqp-field-hubble",
+  "name": "PS1-12bqp field (Hubble)",
+  "blurb": "A deep field toward the distant supernova PS1-12bqp, seen by Hubble.",
+  "label": "ps112bqpfield-hubble",
+  "spec": "HST|SN01|13046|WFC3/IR|ps112bqpfield-hubble",
+  "find": [
+    "HST|13046|SN01"
+  ],
+  "type": "Deep field",
+  "aliases": [
+    "PS1-12bqp",
+    "SN01",
+    "RAISIN",
+    "supernova",
+    "deep field"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Hidden in this field is PS1-12bqp, a far-off exploding star. Hubble watched supernovae like it in infrared light, where they make steadier markers for tracing the expansion of the universe.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "Target SN01 of program 13046 is PS1-12bqp",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/13046/"
+      },
+      {
+        "text": "RAISIN uses Type Ia supernovae observed in the near-infrared with Hubble to measure cosmic expansion",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/13046/"
+      }
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "id": "ugc-1171-hubble",
+  "name": "UGC 1171 (Hubble)",
+  "blurb": "UGC 1171, an irregular galaxy, seen by Hubble.",
+  "label": "ugc1171-hubble",
+  "spec": "HST|UGC1171|18061|ACS/WFC|ugc1171-hubble",
+  "find": [
+    "HST|18061|UGC1171"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "UGC1171",
+    "irregular galaxy",
+    "dwarf galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A small, amorphous irregular galaxy. Hubble imaged it for a census of the satellite galaxies that accompany galaxies like our Milky Way.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "UGC 1171 is an amorphous irregular galaxy",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/18061/"
+      },
+      {
+        "text": "It was observed for a census of satellites of Milky Way-like galaxies",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/18061/"
+      }
+    ]
+  }
+}

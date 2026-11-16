@@ -1,0 +1,60 @@
+{
+  "id": "smc-quasar-field-sz23-hubble",
+  "name": "Small Magellanic Cloud, quasar field SZ23 (Hubble)",
+  "blurb": "Small Magellanic Cloud field SZ23, a star field in a satellite galaxy of the Milky Way, seen by Hubble.",
+  "label": "smcquasarfieldsz23-hubble",
+  "spec": "HST|AGNC-S1288|13476|WFC3/UVIS|smcquasarfieldsz23-hubble",
+  "find": [
+    "HST|13476|AGNC-S1288"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "Small Magellanic Cloud",
+    "SMC",
+    "SZ23",
+    "dwarf galaxy",
+    "satellite galaxy",
+    "galaxy",
+    "quasar field"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Stars of the Small Magellanic Cloud fill this view, chosen because a far more distant quasar shines from behind them. Using such quasars as fixed markers, astronomers measured how the galaxy's stars move and found signs that it is being pulled apart by tides.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "The Small Magellanic Cloud is a dwarf galaxy and a satellite galaxy of the Milky Way",
+        "source": "https://science.nasa.gov/missions/hubble/taken-under-the-wing-of-the-small-magellanic-cloud/"
+      },
+      {
+        "text": "SMC is the abbreviation for the Small Magellanic Cloud",
+        "source": "https://science.nasa.gov/missions/hubble/hubble-captures-a-neighbors-colorful-clouds/"
+      },
+      {
+        "text": "Field SZ23 of the SMC proper-motion study lies at RA 01 15 34.1, Dec -72 50 49.3, matching this pointing (RA 18.892, Dec -72.847)",
+        "source": "https://ar5iv.arxiv.org/html/1804.04110"
+      },
+      {
+        "text": "The fields were chosen to contain background quasars",
+        "source": "https://arxiv.org/abs/1804.04110v1"
+      },
+      {
+        "text": "The study measured the proper motion (motion across the sky) of the SMC",
+        "source": "https://arxiv.org/abs/1804.04110v1"
+      },
+      {
+        "text": "The outer SMC shows ordered motion away from the galaxy, indicating tidal disruption",
+        "source": "https://arxiv.org/abs/1804.04110v1"
+      },
+      {
+        "text": "The work is tied to HST program GO-13476",
+        "source": "https://arxiv.org/pdf/1804.04110v1"
+      }
+    ]
+  }
+}

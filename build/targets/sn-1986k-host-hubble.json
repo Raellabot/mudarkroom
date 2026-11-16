@@ -1,0 +1,51 @@
+{
+  "id": "sn-1986k-host-hubble",
+  "name": "NGC 298, SN 1986K field (Hubble)",
+  "blurb": "NGC 298, a spiral galaxy in Cetus that hosted a Type II supernova, seen by Hubble.",
+  "label": "sn1986khost-hubble",
+  "spec": "HST|SN1986K|17070|ACS/WFC|sn1986khost-hubble",
+  "find": [
+    "HST|17070|SN1986K"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "NGC 298",
+    "SN 1986K",
+    "SN1986K",
+    "spiral galaxy",
+    "galaxy",
+    "Type II supernova"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "In 1986 a star in this spiral galaxy exploded as a Type II supernova, SN 1986K. Hubble returned to study the aftermath, part of a search for clues to how such explosions begin.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "NGC 298 is a spiral galaxy in Cetus",
+        "source": "https://esahubble.org/images/potw2322a/"
+      },
+      {
+        "text": "NGC 298 hosted a Type II supernova in 1986",
+        "source": "https://esahubble.org/images/potw2322a/"
+      },
+      {
+        "text": "SN 1986K is a Type II supernova whose host is NGC 298",
+        "source": "https://blast.scimma.org/transients/1986K/"
+      },
+      {
+        "text": "SN 1986K was of type II",
+        "source": "https://tamkin3.eps.harvard.edu/iauc/04200/04253.html"
+      },
+      {
+        "text": "The Hubble image was part of a study of how Type II supernovae originate",
+        "source": "https://esahubble.org/images/potw2322a/"
+      }
+    ]
+  }
+}

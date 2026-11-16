@@ -1,0 +1,44 @@
+{
+  "id": "agc-229053-hubble",
+  "name": "AGC 229053 (Hubble)",
+  "blurb": "AGC 229053, a gas-rich dwarf galaxy, seen by Hubble.",
+  "label": "agc229053-hubble",
+  "spec": "HST|AGC229053|13750|ACS/WFC|agc229053-hubble",
+  "find": [
+    "HST|13750|AGC229053"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "dwarf galaxy",
+    "irregular galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "AGC 229053 is one of the small, gas-rich dwarf galaxies of the SHIELD survey, picked out by the ALFALFA radio survey. Hubble resolved its stars to help pin down how far away it is.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "SHIELD (Survey of HI in Extremely Low-mass Dwarfs) is a sample of gas-rich dwarf galaxies selected from the ALFALFA survey",
+        "source": "https://arxiv.org/pdf/2105.05100"
+      },
+      {
+        "text": "AGC 229053 is one of the SHIELD II galaxies newly observed with Hubble's ACS",
+        "source": "https://arxiv.org/pdf/2105.05100"
+      },
+      {
+        "text": "Hubble data gave a tip-of-the-red-giant-branch distance for AGC 229053",
+        "source": "https://arxiv.org/pdf/2105.05100"
+      },
+      {
+        "text": "The SHIELD II galaxies have irregular morphologies",
+        "source": "https://arxiv.org/pdf/2105.05100"
+      }
+    ]
+  }
+}

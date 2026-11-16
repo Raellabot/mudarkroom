@@ -1,0 +1,43 @@
+{
+  "id": "ngc-2970-hubble",
+  "name": "NGC 2970 (Hubble)",
+  "blurb": "NGC 2970, a nearby early-type galaxy, seen by Hubble.",
+  "label": "ngc2970-hubble",
+  "spec": "HST|NGC2970|12591|ACS/WFC|ngc2970-hubble",
+  "find": [
+    "HST|12591|NGC2970"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "early-type galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A small nearby galaxy with a dense cluster of stars packed into its very center. Faint spiral structure hints that it may have been shaped by a merger.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "NGC 2970 is one of the nearby field early-type galaxies in the AMUSE-Field sample",
+        "source": "https://arxiv.org/pdf/1406.6697"
+      },
+      {
+        "text": "NGC 2970 has a nuclear star cluster",
+        "source": "https://arxiv.org/pdf/1406.6697"
+      },
+      {
+        "text": "NGC 2970 has faint spiral structure, perhaps from a merger",
+        "source": "https://arxiv.org/pdf/1406.6697"
+      },
+      {
+        "text": "The Hubble data are ACS F475W/F850LP snapshots at the galaxy's position",
+        "source": "https://arxiv.org/pdf/1406.6697"
+      }
+    ]
+  }
+}

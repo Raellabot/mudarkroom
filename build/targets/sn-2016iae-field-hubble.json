@@ -1,0 +1,36 @@
+{
+  "id": "sn-2016iae-field-hubble",
+  "name": "SN 2016iae field (Hubble)",
+  "blurb": "SN 2016iae field, the site of a recent nearby supernova, seen by Hubble.",
+  "label": "sn2016iaefield-hubble",
+  "spec": "HST|SN2016IAE|15166|WFC3/UVIS|sn2016iaefield-hubble",
+  "find": [
+    "HST|15166|SN2016IAE"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "SN2016iae",
+    "supernova",
+    "supernova site"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "This field marks where the supernova SN 2016iae went off. Hubble returned to the sites of recent, nearby supernovae to follow their lingering light and study the stars around them.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "SN 2016iae was a target of Hubble program 15166, a snapshot survey of the sites of recent, nearby supernovae",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15166/"
+      },
+      {
+        "text": "The program obtains late-time photometry of supernova sites and measures their local stellar environments",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15166/"
+      }
+    ]
+  }
+}

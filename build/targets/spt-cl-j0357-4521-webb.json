@@ -1,0 +1,48 @@
+{
+  "id": "spt-cl-j0357-4521-webb",
+  "name": "SPT-CL J0357-4521 (Webb)",
+  "blurb": "SPT-CL J0357-4521, a massive galaxy cluster, seen by Webb.",
+  "label": "sptclj03574521-webb",
+  "spec": "JWST|SPT-CLJ0357-4521|5594|NIRCAM/IMAGE|sptclj03574521-webb",
+  "find": [
+    "JWST|5594|SPT-CLJ0357-4521"
+  ],
+  "type": "Galaxy cluster",
+  "aliases": [
+    "SPT-CLJ0357-4521",
+    "galaxy cluster",
+    "cluster of galaxies"
+  ],
+  "missions": [
+    "Webb"
+  ],
+  "story": "A massive cluster of galaxies, one of 182 that Webb's SLICE survey set out to image to trace how such clusters grow. Clusters like this one bend the light of more distant galaxies behind them, and the survey maps how their dark matter is spread.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "SPT-CL J0357-4521 (SPT-CLJ0357-4521) is a target of Webb program 5594 (SLICE)",
+        "source": "https://www.stsci.edu/jwst-program-info/download/jwst/pdf/5594/"
+      },
+      {
+        "text": "SLICE images 182 massive galaxy clusters",
+        "source": "https://www.stsci.edu/jwst-program-info/download/jwst/pdf/5594/"
+      },
+      {
+        "text": "The survey traces how clusters grow and how dark matter is distributed",
+        "source": "https://www.stsci.edu/jwst-program-info/download/jwst/pdf/5594/"
+      },
+      {
+        "text": "Clusters lens more distant galaxies",
+        "source": "https://www.stsci.edu/jwst-program-info/download/jwst/pdf/5594/"
+      },
+      {
+        "text": "SPT-CL clusters are selected by their Sunyaev-Zel'dovich signature in South Pole Telescope data",
+        "source": "https://arxiv.org/pdf/1409.0850"
+      }
+    ]
+  }
+}

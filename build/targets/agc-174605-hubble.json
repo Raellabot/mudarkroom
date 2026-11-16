@@ -1,0 +1,41 @@
+{
+  "id": "agc-174605-hubble",
+  "name": "AGC 174605 (Hubble)",
+  "blurb": "AGC 174605, a gas-rich dwarf galaxy, seen by Hubble.",
+  "label": "agc174605-hubble",
+  "spec": "HST|AGC174605|12658|ACS/WFC|agc174605-hubble",
+  "find": [
+    "HST|12658|AGC174605"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "AGC174605",
+    "SHIELD galaxy",
+    "dwarf galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A small dwarf galaxy first picked out by the radio signal of its hydrogen gas in the ALFALFA survey. Hubble resolved its stars so astronomers could measure how far away it lies.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "AGC 174605 is one of the SHIELD galaxies (Survey of HI in Extremely Low-mass Dwarf galaxies)",
+        "source": "https://arxiv.org/pdf/1402.3723"
+      },
+      {
+        "text": "SHIELD galaxies were selected from the ALFALFA blind HI (hydrogen gas) survey",
+        "source": "https://arxiv.org/pdf/1402.3723"
+      },
+      {
+        "text": "Hubble imaging was used to measure the distances to the SHIELD galaxies",
+        "source": "https://arxiv.org/pdf/1402.3723"
+      }
+    ]
+  }
+}

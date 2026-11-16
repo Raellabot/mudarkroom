@@ -1,0 +1,46 @@
+{
+  "id": "gal-021143-440740-hubble",
+  "name": "Post-starburst galaxy GAL-021143-440740 (Hubble)",
+  "blurb": "GAL-021143-440740, an interacting post-starburst (E+A) galaxy, seen by Hubble.",
+  "label": "gal021143440740-hubble",
+  "spec": "HST|GAL-021143-440740|9781|ACS/WFC|gal021143440740-hubble",
+  "find": [
+    "HST|9781|GAL-021143-440740"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "E+A galaxy",
+    "post-starburst galaxy",
+    "interacting galaxy",
+    "galaxy",
+    "Las Campanas Redshift Survey"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A galaxy whose burst of star formation has recently ended. Hubble studied galaxies like this as a possible missing link between merging spirals and ordinary ellipticals, to see whether the interactions that create them destroy their disks.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "GAL-021143-440740 is an interacting starburst galaxy targeted by Hubble program 9781",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/list/9781/"
+      },
+      {
+        "text": "The program images E+A (post-starburst) galaxies from the Las Campanas Redshift Survey",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/list/9781/"
+      },
+      {
+        "text": "E+A galaxies may connect merging spirals with normal ellipticals and S0s",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/list/9781/"
+      },
+      {
+        "text": "The program aims to find what fraction of the interactions that lead to E+As destroy all disk-like structures",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/list/9781/"
+      }
+    ]
+  }
+}

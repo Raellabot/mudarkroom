@@ -1,0 +1,42 @@
+{
+  "id": "ic-3612-hubble",
+  "name": "IC 3612 (Hubble)",
+  "blurb": "IC 3612, a dwarf early-type galaxy in the Virgo Cluster, seen by Hubble.",
+  "label": "ic3612-hubble",
+  "spec": "HST|VCC1779|9401|ACS/WFC|ic3612-hubble",
+  "find": [
+    "HST|9401|VCC1779"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "VCC 1779",
+    "dwarf galaxy",
+    "early-type galaxy",
+    "Virgo Cluster galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "IC 3612 is a small galaxy in the Virgo Cluster, one of 100 early-type galaxies Hubble surveyed to study their globular star clusters, their shapes and their distances.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "VCC 1779 is IC 3612, a dwarf S0 (dwarf early-type) galaxy",
+        "source": "https://arxiv.org/pdf/astro-ph/0404138"
+      },
+      {
+        "text": "The ACS Virgo Cluster Survey imaged 100 early-type galaxies in the Virgo Cluster",
+        "source": "https://arxiv.org/abs/astro-ph/0404138"
+      },
+      {
+        "text": "The survey's goals include globular clusters, galaxy isophotes (shapes) and distances",
+        "source": "https://arxiv.org/abs/astro-ph/0404138"
+      }
+    ]
+  }
+}

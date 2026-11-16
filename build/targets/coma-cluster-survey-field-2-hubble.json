@@ -1,0 +1,41 @@
+{
+  "id": "coma-cluster-survey-field-2-hubble",
+  "name": "Coma Cluster, survey field 2 (Hubble)",
+  "blurb": "A field in the Coma Cluster of galaxies, seen by Hubble.",
+  "label": "comaclustersurveyfield2-hubble",
+  "spec": "HST|COMA1-2|10861|ACS/WFC|comaclustersurveyfield2-hubble",
+  "find": [
+    "HST|10861|COMA1-2"
+  ],
+  "type": "Galaxy cluster",
+  "aliases": [
+    "Coma Cluster",
+    "Abell 1656",
+    "galaxy cluster",
+    "cluster of galaxies"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "One field from Hubble's survey of the Coma Cluster, one of the nearest rich clusters of galaxies. The survey was made to study the cluster's dwarf galaxies and the globular clusters around its members.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "The Coma cluster is Abell 1656, one of the nearest rich clusters of galaxies",
+        "source": "https://arxiv.org/abs/0801.3745"
+      },
+      {
+        "text": "The survey aims include dwarf galaxy structure and globular cluster populations",
+        "source": "https://arxiv.org/abs/0801.3745"
+      },
+      {
+        "text": "COMA1-2 is field 2 of the ACS Coma survey at RA 13 00 30.3, Dec +28 04 54",
+        "source": "https://researchonline.ljmu.ac.uk/id/eprint/4801/1/1005.3300v2.pdf"
+      }
+    ]
+  }
+}

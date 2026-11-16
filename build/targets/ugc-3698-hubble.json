@@ -1,0 +1,36 @@
+{
+  "id": "ugc-3698-hubble",
+  "name": "UGC 3698 (Hubble)",
+  "blurb": "UGC 3698, a nearby galaxy, seen by Hubble.",
+  "label": "ugc3698-hubble",
+  "spec": "HST|UGC-03698|13442|ACS/WFC|ugc3698-hubble",
+  "find": [
+    "HST|13442|UGC-03698"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "UGC 03698",
+    "UGC03698",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "One of the nearby galaxies Hubble visited to map our cosmic neighborhood in three dimensions, using its brightest red giant stars as yardsticks for distance.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "UGC 3698 is a target of program 13442, The Geometry and Kinematics of the Local Volume",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/13442/"
+      },
+      {
+        "text": "The program measures distances to nearby galaxies from tip of the red giant branch stars to build 3D maps",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/13442/"
+      }
+    ]
+  }
+}

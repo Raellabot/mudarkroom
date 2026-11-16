@@ -1,0 +1,40 @@
+{
+  "id": "emacs-j2124-6-0133-hubble",
+  "name": "eMACS J2124.6-0133 (Hubble)",
+  "blurb": "eMACS J2124.6-0133, a massive, X-ray-bright galaxy cluster, seen by Hubble.",
+  "label": "emacsj212460133-hubble",
+  "spec": "HST|EMACSJ2124.6-0133|16670|WFC3/IR|emacsj212460133-hubble",
+  "find": [
+    "HST|16670|EMACSJ2124.6-0133"
+  ],
+  "type": "Galaxy cluster",
+  "aliases": [
+    "EMACSJ2124.6-0133",
+    "galaxy cluster",
+    "cluster of galaxies"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A crowd of galaxies bound together into one of the extreme, X-ray-bright clusters found by the extended Massive Cluster Survey. Hubble caught it in a quick snapshot survey of such clusters.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "eMACS J2124.6-0133 is a target of Hubble program 16670, a snapshot survey of extreme galaxy clusters",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/16670/"
+      },
+      {
+        "text": "The program targets massive, highly X-ray luminous galaxy clusters",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/16670/"
+      },
+      {
+        "text": "eMACS is the extended Massive Cluster Survey, which finds highly X-ray luminous galaxy clusters",
+        "source": "https://arxiv.org/html/2404.11659v1"
+      }
+    ]
+  }
+}

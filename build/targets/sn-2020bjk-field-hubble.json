@@ -1,0 +1,38 @@
+{
+  "id": "sn-2020bjk-field-hubble",
+  "name": "SN 2020bjk field (Hubble)",
+  "blurb": "The field of the supernova SN 2020bjk, seen by Hubble.",
+  "label": "sn2020bjkfield-hubble",
+  "spec": "HST|SN2020BJK|16239|WFC3/UVIS|sn2020bjkfield-hubble",
+  "find": [
+    "HST|16239|SN2020BJK"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "SN2020BJK",
+    "SN 2020bjk",
+    "supernova",
+    "Type Ia supernova",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Hubble returned to the place where the Type Ia supernova SN 2020bjk exploded, long after the blast, to measure the radioactive material it left behind and to study its surroundings.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "SN 2020bjk is a Type Ia supernova",
+        "source": "https://blast.scimma.org/transients/2020bjk"
+      },
+      {
+        "text": "Hubble program 16239 takes late-time snapshots of recent supernovae to measure radioactive material and probe their environments",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/16239/"
+      }
+    ]
+  }
+}

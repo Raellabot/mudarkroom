@@ -1,0 +1,41 @@
+{
+  "id": "ngc-4489-hubble",
+  "name": "NGC 4489 (Hubble)",
+  "blurb": "NGC 4489, an early-type galaxy in the Virgo Cluster, seen by Hubble.",
+  "label": "ngc4489-hubble",
+  "spec": "HST|VCC1321|9401|ACS/WFC|ngc4489-hubble",
+  "find": [
+    "HST|9401|VCC1321"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "VCC 1321",
+    "early-type galaxy",
+    "Virgo Cluster galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "NGC 4489 is one of 100 early-type galaxies in the Virgo Cluster that Hubble surveyed to study their globular star clusters, their shapes and their distances.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "VCC 1321 is NGC 4489",
+        "source": "https://arxiv.org/pdf/astro-ph/0404138"
+      },
+      {
+        "text": "The ACS Virgo Cluster Survey imaged 100 early-type galaxies in the Virgo Cluster",
+        "source": "https://arxiv.org/abs/astro-ph/0404138"
+      },
+      {
+        "text": "The survey's goals include globular clusters, galaxy isophotes (shapes) and distances",
+        "source": "https://arxiv.org/abs/astro-ph/0404138"
+      }
+    ]
+  }
+}

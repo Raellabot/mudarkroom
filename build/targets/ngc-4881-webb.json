@@ -1,0 +1,41 @@
+{
+  "id": "ngc-4881-webb",
+  "name": "NGC 4881 (Webb)",
+  "blurb": "NGC 4881, an elliptical galaxy in the Coma Cluster, seen by Webb.",
+  "label": "ngc4881-webb",
+  "spec": "JWST|NGC-4881|5989|NIRCAM/IMAGE|ngc4881-webb",
+  "find": [
+    "JWST|5989|NGC-4881"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "NGC-4881",
+    "elliptical galaxy",
+    "galaxy",
+    "Coma Cluster"
+  ],
+  "missions": [
+    "Webb"
+  ],
+  "story": "An elliptical galaxy on the outskirts of the Coma Cluster. Webb studied it to sharpen the distance to the cluster, a touchstone for measuring the scale of the universe.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "NGC 4881 is an elliptical galaxy in the outskirts of the Coma Cluster",
+        "source": "https://science.nasa.gov/missions/hubble/galaxy-ngc-4881-and-the-coma-cluster/"
+      },
+      {
+        "text": "NGC-4881 is a target of Webb program 5989, imaging large elliptical galaxies in Coma",
+        "source": "https://www.stsci.edu/jwst-program-info/download/jwst/pdf/5989/"
+      },
+      {
+        "text": "The Coma cluster is a key touchstone for the extragalactic distance scale",
+        "source": "https://www.stsci.edu/jwst-program-info/download/jwst/pdf/5989/"
+      }
+    ]
+  }
+}

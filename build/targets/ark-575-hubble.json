@@ -1,0 +1,32 @@
+{
+  "id": "ark-575-hubble",
+  "name": "Ark 575 (Hubble)",
+  "blurb": "Ark 575, an early-type galaxy, seen by Hubble.",
+  "label": "ark575-hubble",
+  "spec": "HST+HST|ARK575+ARK575|13050+13050|WFC3/IR+WFC3/UVIS|ark575-hubble",
+  "find": [
+    "HST|13050|ARK575"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "ARK575",
+    "early-type galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A small galaxy whose stars move at extreme speeds, a sign that an unusually massive black hole may hide at its heart. Hubble imaged its compact core to help weigh that black hole.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "ARK575 is one of the early-type galaxies imaged by Hubble program 13050, small galaxies with extremely high velocity dispersions and suspected monster black holes",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/13050/"
+      }
+    ]
+  }
+}

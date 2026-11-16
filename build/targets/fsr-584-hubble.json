@@ -1,0 +1,44 @@
+{
+  "id": "fsr-584-hubble",
+  "name": "FSR 584 (Hubble)",
+  "blurb": "FSR 584, a heavily obscured old star cluster, seen by Hubble.",
+  "label": "fsr584-hubble",
+  "spec": "HST|FSR2007-0584|17918|WFC3/IR|fsr584-hubble",
+  "find": [
+    "HST|17918|FSR2007-0584"
+  ],
+  "type": "Star cluster",
+  "aliases": [
+    "FSR 2007-0584",
+    "globular cluster",
+    "star cluster"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Veiled by thick dust in the direction of the molecular cloud W3, FSR 584 is an old star cluster that may be a newly recognized globular cluster of the Milky Way. Hubble looked in infrared light to pin down its age and nature.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "FSR 584 is an old star cluster, possibly a new Milky Way globular cluster",
+        "source": "https://www.aanda.org/articles/aa/abs/2007/35/aa8029-07/aa8029-07.html"
+      },
+      {
+        "text": "It is projected toward the molecular cloud W 3",
+        "source": "https://www.aanda.org/articles/aa/abs/2007/35/aa8029-07/aa8029-07.html"
+      },
+      {
+        "text": "It is heavily obscured by dust",
+        "source": "https://www.aanda.org/articles/aa/abs/2007/35/aa8029-07/aa8029-07.html"
+      },
+      {
+        "text": "Program 17918 targets FSR2007-0584 to estimate age and nature of obscured globular clusters",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/17918/"
+      }
+    ]
+  }
+}

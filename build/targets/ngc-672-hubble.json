@@ -1,0 +1,50 @@
+{
+  "id": "ngc-672-hubble",
+  "name": "NGC 672 (Hubble)",
+  "blurb": "NGC 672, a barred spiral galaxy, seen by Hubble.",
+  "label": "ngc672-hubble",
+  "spec": "HST|NGC0672|12546|ACS/WFC|ngc672-hubble",
+  "find": [
+    "HST|12546|NGC0672"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "NGC0672",
+    "barred spiral galaxy",
+    "spiral galaxy",
+    "interacting galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A symmetric barred spiral with well-defined arms, NGC 672 is locked in a gravitational dance with its neighbor IC 1727. Both galaxies show bursts of star formation at the same times, most likely stirred up each time the pair swings close.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "NGC 672 is a barred spiral galaxy with defined spiral arms",
+        "source": "https://ui.adsabs.harvard.edu/abs/2012AAS...22052419S"
+      },
+      {
+        "text": "NGC 672 and IC 1727 are interacting galaxies",
+        "source": "https://ui.adsabs.harvard.edu/abs/2012AAS...22052419S"
+      },
+      {
+        "text": "IC 1727 is interacting with its near neighbor NGC 672",
+        "source": "https://esahubble.org/images/potw1733a/"
+      },
+      {
+        "text": "Both galaxies had simultaneous bursts of star formation, most likely because the pair periodically approach each other and stir up gas and dust",
+        "source": "https://esahubble.org/images/potw1733a/"
+      },
+      {
+        "text": "The Hubble target NGC0672 was observed by program 12546, The Geometry and Kinematics of the Local Volume",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/12546/"
+      }
+    ]
+  }
+}

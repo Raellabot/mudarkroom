@@ -1,0 +1,42 @@
+{
+  "id": "supernova-bytu-field-hubble",
+  "name": "Supernova BYTU field (Hubble)",
+  "blurb": "A deep field toward the distant Type Ia supernova BYTU, seen by Hubble.",
+  "label": "supernovabytufield-hubble",
+  "spec": "HST|BYTU|15363|WFC3/IR|supernovabytufield-hubble",
+  "find": [
+    "HST|15363|BYTU"
+  ],
+  "type": "Deep field",
+  "aliases": [
+    "BYTU",
+    "SUSHI",
+    "Type Ia supernova",
+    "supernova",
+    "deep field"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Hubble looked here for a faint, distant Type Ia supernova found by Subaru's Hyper Suprime-Cam search. The SUSHI program paired Subaru light curves with Hubble images of supernovae like this one to sharpen measurements of dark energy.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "BYTU is a Type Ia supernova target of Hubble program 15363 (SUSHI)",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15363/"
+      },
+      {
+        "text": "The supernovae were discovered by the Subaru Strategic Program's rolling search with Hyper Suprime-Cam, reaching high redshift",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15363/"
+      },
+      {
+        "text": "SUSHI combines the HSC light curve with Hubble observations to improve the dark energy figure of merit",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15363/"
+      }
+    ]
+  }
+}

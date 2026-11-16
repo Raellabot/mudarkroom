@@ -1,0 +1,52 @@
+{
+  "id": "ngc-1375-hubble",
+  "name": "NGC 1375 (Hubble)",
+  "blurb": "NGC 1375, a lenticular galaxy in the Fornax Cluster, seen by Hubble.",
+  "label": "ngc1375-hubble",
+  "spec": "HST|FCC148|10217|ACS/WFC|ngc1375-hubble",
+  "find": [
+    "HST|10217|FCC148"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "FCC 148",
+    "FCC148",
+    "lenticular galaxy",
+    "S0 galaxy",
+    "early-type galaxy",
+    "galaxy",
+    "Fornax Cluster"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "NGC 1375 is a peculiar lenticular galaxy that seems to have fallen into the Fornax Cluster only recently. Among those recent arrivals, it is the only one of its kind still showing glowing gas.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "FCC 148 is NGC 1375",
+        "source": "https://arxiv.org/pdf/astro-ph/0702320"
+      },
+      {
+        "text": "NGC 1375 is an S0 (lenticular) galaxy",
+        "source": "https://arxiv.org/pdf/astro-ph/0702320"
+      },
+      {
+        "text": "NGC 1375 is in the Fornax Cluster",
+        "source": "https://arxiv.org/pdf/astro-ph/0702320"
+      },
+      {
+        "text": "FCC 148 is a peculiar S0 among the cluster's recent infallers",
+        "source": "https://arxiv.org/pdf/1906.08187"
+      },
+      {
+        "text": "Among recent infallers, FCC 148 is the only early-type galaxy showing ionised-gas emission",
+        "source": "https://arxiv.org/pdf/1906.08187"
+      }
+    ]
+  }
+}

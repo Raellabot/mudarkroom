@@ -1,0 +1,46 @@
+{
+  "id": "sn-2003j-host-hubble",
+  "name": "NGC 4157, SN 2003J field (Hubble)",
+  "blurb": "NGC 4157, a nearly edge-on spiral galaxy and host of SN 2003J, seen by Hubble.",
+  "label": "sn2003jhost-hubble",
+  "spec": "HST|SN2003J|17070|ACS/WFC|sn2003jhost-hubble",
+  "find": [
+    "HST|17070|SN2003J"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "SN 2003J",
+    "spiral galaxy",
+    "edge-on galaxy",
+    "galaxy",
+    "supernova host"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A spiral galaxy tipped nearly edge-on, its small nucleus peering out from a thick layer of dust. It hosted SN 2003J, a normal Type II supernova.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "SN 2003J occurred in NGC 4157",
+        "source": "https://tamkin3.eps.harvard.edu/iauc/08000/08048.html"
+      },
+      {
+        "text": "SN 2003J is a normal Type II supernova",
+        "source": "https://tamkin3.eps.harvard.edu/iauc/08000/08048.html"
+      },
+      {
+        "text": "NGC 4157 is a spiral galaxy seen nearly edge-on (spindle)",
+        "source": "https://kudzu.astr.ua.edu/devatlas/NGC_4157______B___________.html"
+      },
+      {
+        "text": "Only a small nucleus peers out of the thick dust layer of NGC 4157",
+        "source": "https://kudzu.astr.ua.edu/devatlas/NGC_4157______B___________.html"
+      }
+    ]
+  }
+}

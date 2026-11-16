@@ -1,0 +1,44 @@
+{
+  "id": "emacs-j0429-0-1011-hubble",
+  "name": "eMACS J0429.0-1011 (Hubble)",
+  "blurb": "eMACS J0429.0-1011, a massive galaxy cluster, seen by Hubble.",
+  "label": "emacsj042901011-hubble",
+  "spec": "HST|EMACSJ0429.0-1011|15843|WFC3/IR|emacsj042901011-hubble",
+  "find": [
+    "HST|15843|EMACSJ0429.0-1011"
+  ],
+  "type": "Galaxy cluster",
+  "aliases": [
+    "eMACSJ0429.0-1011",
+    "galaxy cluster",
+    "cluster of galaxies"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A distant, massive cluster of galaxies, first found in an all-sky X-ray survey. Clusters like this act as powerful lenses for studying galaxies in the very distant universe.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "eMACS J0429.0-1011 is an eMACS cluster with HST F110W and F140W imaging",
+        "source": "https://arxiv.org/html/2404.11659v1"
+      },
+      {
+        "text": "eMACS clusters were discovered in ROSAT All-Sky Survey X-ray data",
+        "source": "https://arxiv.org/html/2404.11659v1"
+      },
+      {
+        "text": "Such clusters act as powerful lenses to study galaxies in the very distant Universe",
+        "source": "https://arxiv.org/html/2404.11659v1"
+      },
+      {
+        "text": "Program 15843 is a snapshot survey of the most massive clusters of galaxies at z=0.5-1; EMACSJ0429.0-1011 is target 76",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15843/"
+      }
+    ]
+  }
+}

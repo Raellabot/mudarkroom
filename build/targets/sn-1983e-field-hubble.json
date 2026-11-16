@@ -1,0 +1,37 @@
+{
+  "id": "sn-1983e-field-hubble",
+  "name": "SN 1983E field (Hubble)",
+  "blurb": "The site of the supernova SN 1983E, seen by Hubble.",
+  "label": "sn1983efield-hubble",
+  "spec": "HST|SN1983E|17070|ACS/WFC|sn1983efield-hubble",
+  "find": [
+    "HST|17070|SN1983E"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "SN1983E",
+    "SN 1983E",
+    "supernova",
+    "Type II supernova"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Hubble returned to the place where a hydrogen-rich Type II supernova exploded, studying the stars around it to estimate the mass of the star that blew up and to look for any lingering glow.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "SN 1983E is a Type II supernova targeted by program 17070, Snapshot Observations of Type II Supernovae",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/17070/"
+      },
+      {
+        "text": "The program resolves stellar populations around Type II supernovae to estimate progenitor masses and searches for late-time emission",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/17070/"
+      }
+    ]
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "id": "ps1-12bqh-and-ps1-12bqi-field-hubble",
+  "name": "PS1-12bqh and PS1-12bqi field (Hubble)",
+  "blurb": "A deep field toward the Pan-STARRS supernova candidates PS1-12bqh and PS1-12bqi, seen by Hubble.",
+  "label": "ps112bqhandps112bqifield-hubble",
+  "spec": "HST|SN02|13046|WFC3/IR|ps112bqhandps112bqifield-hubble",
+  "find": [
+    "HST|13046|SN02"
+  ],
+  "type": "Deep field",
+  "aliases": [
+    "PS1-12bqh",
+    "PS1-12bqi",
+    "SN02",
+    "RAISIN",
+    "supernova",
+    "deep field"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Hubble pointed between two faint transients found in Pan-STARRS fields. The RAISIN program followed distant Type Ia supernovae in infrared light, where they behave more like standard candles, to trace the history of cosmic expansion.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "The Hubble program 13046 target SN02 is a pointing between PS1-12bqh and PS1-12bqi",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/13046/"
+      },
+      {
+        "text": "RAISIN followed up SN Ia discovered in Pan-STARRS fields with WFC3/IR to trace cosmic expansion",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/13046/"
+      },
+      {
+        "text": "SN Ia are more nearly standard candles in the near-infrared bands",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/13046/"
+      }
+    ]
+  }
+}

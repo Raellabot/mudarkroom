@@ -1,0 +1,41 @@
+{
+  "id": "ngc-1983-hubble",
+  "name": "NGC 1983 (Hubble)",
+  "blurb": "NGC 1983, a young star cluster in the Large Magellanic Cloud, seen by Hubble.",
+  "label": "ngc1983-hubble",
+  "spec": "HST|NGC1983|9891|ACS/WFC|ngc1983-hubble",
+  "find": [
+    "HST|9891|NGC1983"
+  ],
+  "type": "Star cluster",
+  "aliases": [
+    "star cluster",
+    "young star cluster",
+    "Large Magellanic Cloud",
+    "LMC cluster"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A young cluster of stars in the Large Magellanic Cloud, so young that its brightest members are all still on the main sequence. Astronomers have used images like this to study how its stars are sorted by brightness within the cluster.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "NGC 1983 is a young star cluster in the Large Magellanic Cloud",
+        "source": "https://arxiv.org/abs/1001.0135"
+      },
+      {
+        "text": "The CMD of NGC 1983's most prominent stars consists only of the main sequence, indicating the cluster is quite young",
+        "source": "https://arxiv.org/pdf/1001.0135"
+      },
+      {
+        "text": "NGC 1983 shows partial stellar stratification (mass segregation) by magnitude",
+        "source": "https://arxiv.org/pdf/1001.0135"
+      }
+    ]
+  }
+}

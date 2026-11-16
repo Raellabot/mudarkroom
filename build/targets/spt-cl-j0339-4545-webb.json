@@ -1,0 +1,40 @@
+{
+  "id": "spt-cl-j0339-4545-webb",
+  "name": "SPT-CL J0339-4545 (Webb)",
+  "blurb": "SPT-CL J0339-4545, a massive galaxy cluster, seen by Webb.",
+  "label": "sptclj03394545-webb",
+  "spec": "JWST|SPT-CLJ0339-4545|5594|NIRCAM/IMAGE|sptclj03394545-webb",
+  "find": [
+    "JWST|5594|SPT-CLJ0339-4545"
+  ],
+  "type": "Galaxy cluster",
+  "aliases": [
+    "SPT-CLJ0339-4545",
+    "galaxy cluster",
+    "cluster of galaxies"
+  ],
+  "missions": [
+    "Webb"
+  ],
+  "story": "A massive cluster of galaxies found by the South Pole Telescope's Sunyaev-Zel'dovich survey. Webb's SLICE program studies clusters like this one to track how both their luminous and dark components evolve.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "SPT-CL J0339-4545 is a galaxy cluster in the sample of massive clusters studied with Hubble weak lensing",
+        "source": "https://academic.oup.com/mnras/article/505/3/3923/6291724"
+      },
+      {
+        "text": "The sample are massive galaxy clusters from the South Pole Telescope Sunyaev-Zel'dovich (SPT-SZ) Survey",
+        "source": "https://academic.oup.com/mnras/article/505/3/3923/6291724"
+      },
+      {
+        "text": "The SLICE JWST program is designed to track the evolution of the luminous and dark components of galaxy clusters",
+        "source": "https://arxiv.org/html/2503.17498v1"
+      }
+    ]
+  }
+}

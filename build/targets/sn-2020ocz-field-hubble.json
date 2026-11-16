@@ -1,0 +1,46 @@
+{
+  "id": "sn-2020ocz-field-hubble",
+  "name": "SN 2020ocz field (Hubble)",
+  "blurb": "SN 2020ocz field, the site of a faint Type II supernova in a very nearby galaxy, seen by Hubble.",
+  "label": "sn2020oczfield-hubble",
+  "spec": "HST|SN2020OCZ|17070|ACS/WFC|sn2020oczfield-hubble",
+  "find": [
+    "HST|17070|SN2020OCZ"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "SN 2020ocz",
+    "SN2020ocz",
+    "Type II supernova",
+    "supernova",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Hubble returned to the spot where SN 2020ocz, a low-luminosity Type II supernova found by the Gaia mission in 2020, burst into view. Snapshots like this one resolve the stars around such explosions to estimate how massive the stars that blew up were.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "SN 2020ocz is a low-luminosity type II supernova",
+        "source": "https://www.astronomerstelegram.org/?read=14653"
+      },
+      {
+        "text": "SN 2020ocz was discovered by the Gaia mission in 2020",
+        "source": "https://www.astronomerstelegram.org/?read=14653"
+      },
+      {
+        "text": "SN 2020ocz is very nearby",
+        "source": "https://archive.gemini.edu/programinfo/GS-2021A-FT-217"
+      },
+      {
+        "text": "Program 17070 images Type II supernovae to resolve surrounding stellar populations and estimate progenitor masses",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/17070/"
+      }
+    ]
+  }
+}

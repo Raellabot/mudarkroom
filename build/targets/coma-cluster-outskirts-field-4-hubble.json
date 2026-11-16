@@ -1,0 +1,41 @@
+{
+  "id": "coma-cluster-outskirts-field-4-hubble",
+  "name": "Coma Cluster, outskirts field 4 (Hubble)",
+  "blurb": "Coma Cluster, a rich cluster of galaxies, seen by Hubble.",
+  "label": "comaclusteroutskirtsfield4-hubble",
+  "spec": "HST|COMA-OUTSKIRTS-4|10861|ACS/WFC|comaclusteroutskirtsfield4-hubble",
+  "find": [
+    "HST|10861|COMA-OUTSKIRTS-4"
+  ],
+  "type": "Galaxy cluster",
+  "aliases": [
+    "Abell 1656",
+    "Coma Cluster",
+    "galaxy cluster",
+    "HST/ACS Coma Cluster Treasury Survey"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "This is one of the outer pointings of Hubble's survey of the Coma Cluster, where known member galaxies thin out to fewer than one per frame. Together with the Perseus Cluster, Coma is the nearest rich cluster of galaxies.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "Hubble program 10861 is the HST ACS Coma Cluster Treasury survey of the Coma cluster (Abell 1656)",
+        "source": "https://archive.stsci.edu/prepds/coma"
+      },
+      {
+        "text": "Coma Cluster is also called Abell 1656 and is, with the Perseus cluster, the nearest rich cluster",
+        "source": "https://arxiv.org/pdf/0801.3745"
+      },
+      {
+        "text": "In the cluster's outer parts known members number fewer than one per ACS tile; outer pointings were placed on known members",
+        "source": "https://arxiv.org/pdf/0801.3745"
+      }
+    ]
+  }
+}

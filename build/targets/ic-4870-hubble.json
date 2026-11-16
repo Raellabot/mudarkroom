@@ -1,0 +1,40 @@
+{
+  "id": "ic-4870-hubble",
+  "name": "IC 4870 (Hubble)",
+  "blurb": "IC 4870, a Seyfert galaxy with an active nucleus, seen by Hubble.",
+  "label": "ic4870-hubble",
+  "spec": "HST|IC-4870|13442|ACS/WFC|ic4870-hubble",
+  "find": [
+    "HST|13442|IC-4870"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "Seyfert galaxy",
+    "active galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "IC 4870 hides an active galactic nucleus, a core so bright it can outshine the rest of the galaxy put together. It is a Seyfert galaxy, a kind of active galaxy known by its telltale emission lines.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "IC 4870 contains an active galactic nucleus",
+        "source": "https://esahubble.org/images/potw1823a/"
+      },
+      {
+        "text": "IC 4870 is a Seyfert galaxy, a kind of AGN with characteristic emission lines",
+        "source": "https://esahubble.org/images/potw1823a/"
+      },
+      {
+        "text": "Hubble observed IC 4870 in program 13442",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/13442/"
+      }
+    ]
+  }
+}

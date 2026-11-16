@@ -1,0 +1,42 @@
+{
+  "id": "iras-06070-6147-hubble",
+  "name": "IRAS 06070-6147 (Hubble)",
+  "blurb": "IRAS 06070-6147, an edge-on spiral galaxy, seen by Hubble.",
+  "label": "iras060706147-hubble",
+  "spec": "HST|IRAS06070-6147|9765|ACS/WFC|iras060706147-hubble",
+  "find": [
+    "HST|9765|IRAS06070-6147"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "IRAS06070-6147",
+    "edge-on galaxy",
+    "spiral galaxy",
+    "disk galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A spiral galaxy turned edge-on to us, with a lane of dust along its disk. Hubble surveyed galaxies like this one to map the fine structure of the dust, which traces the cold gas between the stars.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "IRAS06070-6147 is a target of program 9765, a survey of nearby edge-on spiral galaxies",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/list/9765/"
+      },
+      {
+        "text": "IRAS06070-6147 is a disk galaxy with a dust lane and spiral structure",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/list/9765/"
+      },
+      {
+        "text": "The survey measures small-scale dust structure, which traces the cold interstellar medium",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/list/9765/"
+      }
+    ]
+  }
+}

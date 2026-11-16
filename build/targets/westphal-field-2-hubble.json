@@ -1,0 +1,45 @@
+{
+  "id": "westphal-field-2-hubble",
+  "name": "Westphal field 2 (Hubble)",
+  "blurb": "Westphal field 2, a deep field toward distant Lyman break galaxies, seen by Hubble.",
+  "label": "westphalfield2-hubble",
+  "spec": "HST|WESTPHAL-2-IR|15287|WFC3/IR|westphalfield2-hubble",
+  "find": [
+    "HST|15287|WESTPHAL-2-IR"
+  ],
+  "type": "Deep field",
+  "aliases": [
+    "WESTPHAL-2-IR",
+    "Westphal field",
+    "deep field",
+    "Lyman break galaxies"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Among the faint smudges in this patch of sky are distant star-forming galaxies. Deep ground-based spectra hinted that some of them leak Lyman-continuum light, and Hubble came to take a sharper look.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "WESTPHAL-2-IR is a pointing of Hubble program 15287 aimed at high-redshift galaxies",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15287/"
+      },
+      {
+        "text": "The program targets Lyman break galaxies in five fields, including Westphal",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15287/"
+      },
+      {
+        "text": "Keck spectra showed apparent Lyman-continuum detections in some of these star-forming galaxies",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15287/"
+      },
+      {
+        "text": "The program's purpose is Lyman-continuum studies",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15287/"
+      }
+    ]
+  }
+}

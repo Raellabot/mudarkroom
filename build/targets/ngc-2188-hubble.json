@@ -1,0 +1,45 @@
+{
+  "id": "ngc-2188-hubble",
+  "name": "NGC 2188 (Hubble)",
+  "blurb": "NGC 2188, a barred spiral galaxy, seen by Hubble.",
+  "label": "ngc2188-hubble",
+  "spec": "HST|NGC-2188|13442|ACS/WFC|ngc2188-hubble",
+  "find": [
+    "HST|13442|NGC-2188"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "barred spiral galaxy",
+    "spiral galaxy",
+    "edge-on galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "We see NGC 2188 almost exactly edge-on: its center and spiral arms are tilted away from us, so only the narrow outer edge of its disk shows, like a dinner plate viewed from the side.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "NGC 2188 is a barred spiral galaxy",
+        "source": "https://esahubble.org/images/potw2035a/"
+      },
+      {
+        "text": "Its center and spiral arms are tilted away from us, leaving only the narrow outer edge of the disk visible",
+        "source": "https://esahubble.org/images/potw2035a/"
+      },
+      {
+        "text": "The view is compared to seeing a dinner plate edge-on",
+        "source": "https://science.nasa.gov/missions/hubble/hubble-targets-tilted-galaxy/"
+      },
+      {
+        "text": "Hubble observed NGC 2188 in program 13442",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/13442/"
+      }
+    ]
+  }
+}

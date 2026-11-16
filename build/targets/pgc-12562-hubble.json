@@ -1,0 +1,40 @@
+{
+  "id": "pgc-12562-hubble",
+  "name": "PGC 12562 (Hubble)",
+  "blurb": "PGC 12562, a small galaxy with fast-moving central stars, seen by Hubble.",
+  "label": "pgc12562-hubble",
+  "spec": "HST+HST|PGC12562+PGC12562|13050+13050|WFC3/IR+WFC3/UVIS|pgc12562-hubble",
+  "find": [
+    "HST|13050|PGC12562"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "PGC12562",
+    "galaxy",
+    "compact galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A small galaxy whose stars move remarkably fast, hinting at a black hole heavier than a galaxy its size should hold. Hubble imaged it to resolve its compact central bulge and pin down that black hole's mass.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "PGC 12562 was a target of Hubble program 13050, The Most Massive Black Holes in Small Galaxies",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/13050/"
+      },
+      {
+        "text": "The program's targets are galaxies with extremely high velocity dispersions and very small sizes",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/13050/"
+      },
+      {
+        "text": "Hubble imaging was to resolve their small bulges and constrain their black hole masses",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/13050/"
+      }
+    ]
+  }
+}

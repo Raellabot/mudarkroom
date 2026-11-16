@@ -1,0 +1,37 @@
+{
+  "id": "ngc-5831-hubble",
+  "name": "NGC 5831 (Hubble)",
+  "blurb": "NGC 5831, a spheroidal galaxy, seen by Hubble.",
+  "label": "ngc5831-hubble",
+  "spec": "HST|NGC5831|12591|ACS/WFC|ngc5831-hubble",
+  "find": [
+    "HST|12591|NGC5831"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "NGC5831",
+    "spheroidal galaxy",
+    "early-type galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Hubble looked at this spheroidal galaxy as part of a census of faintly glowing black holes in galaxy cores, checking whether a dense cluster of stars crowds its center.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "NGC 5831 is one of the faint nearby spheroidal galaxies with faint X-ray cores targeted by program 12591",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/12591/"
+      },
+      {
+        "text": "The program is a census of accreting black holes and nuclear star clusters; the images reveal whether nuclear star clusters are present",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/12591/"
+      }
+    ]
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "id": "sn-1963j-host-hubble",
+  "name": "NGC 3913, SN 1963J and SN 1979B field (Hubble)",
+  "blurb": "NGC 3913, a spiral galaxy that hosted two Type Ia supernovae, seen by Hubble.",
+  "label": "sn1963jhost-hubble",
+  "spec": "HST|SN1963J-SN1979B-HOST|17194|WFC3/UVIS|sn1963jhost-hubble",
+  "find": [
+    "HST|17194|SN1963J-SN1979B-HOST"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "NGC3913",
+    "SN 1963J",
+    "SN 1979B",
+    "spiral galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "This spiral galaxy is home to a pair of supernova siblings, SN 1963J and SN 1979B. Hubble returned to study the neighborhoods where they exploded, to learn how a supernova's surroundings relate to its brightness.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "The host of SN 1963J and SN 1979B is NGC 3913",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/17194/"
+      },
+      {
+        "text": "NGC 3913 is a spiral galaxy",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/17194/"
+      },
+      {
+        "text": "SN 1963J and SN 1979B are Type Ia supernova siblings studied by program 17194",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/17194/"
+      },
+      {
+        "text": "The program studies the local environments of the siblings because a supernova's host relates to its brightness",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/17194/"
+      }
+    ]
+  }
+}

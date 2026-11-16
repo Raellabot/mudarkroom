@@ -1,0 +1,53 @@
+{
+  "id": "fcc-204-hubble",
+  "name": "FCC 204 (Hubble)",
+  "blurb": "FCC 204, a dwarf lenticular galaxy in the Fornax Cluster, seen by Hubble.",
+  "label": "fcc204-hubble",
+  "spec": "HST|FCC204|10217|ACS/WFC|fcc204-hubble",
+  "find": [
+    "HST|10217|FCC204"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "FCC 204",
+    "ESO358-G43",
+    "ESO 358-G43",
+    "dwarf galaxy",
+    "lenticular galaxy",
+    "dwarf lenticular galaxy",
+    "early-type galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A small early-type galaxy belonging to the Fornax Cluster, one of 43 such galaxies Hubble surveyed to study the globular clusters around them and to calibrate a way of measuring cosmic distances.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "FCC 204 (also ESO358-G43) is a dwarf S0 (dwarf lenticular) galaxy at 03 38 13.60 -33 07 31.29",
+        "source": "https://arxiv.org/pdf/astro-ph/0702320"
+      },
+      {
+        "text": "The ACS Fornax Cluster Survey imaged 43 early-type galaxies in the Fornax cluster",
+        "source": "https://arxiv.org/abs/astro-ph/0702320"
+      },
+      {
+        "text": "Fornax is a cluster of galaxies",
+        "source": "https://arxiv.org/abs/astro-ph/0702320"
+      },
+      {
+        "text": "The survey measured the globular clusters of these galaxies and calibrated the surface brightness fluctuation distance method",
+        "source": "https://arxiv.org/abs/astro-ph/0702320"
+      },
+      {
+        "text": "The observations were HST program GO 10217",
+        "source": "https://ar5iv.arxiv.org/html/astro-ph/0702320"
+      }
+    ]
+  }
+}

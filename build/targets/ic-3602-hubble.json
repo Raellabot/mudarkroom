@@ -1,0 +1,40 @@
+{
+  "id": "ic-3602-hubble",
+  "name": "IC 3602 (Hubble)",
+  "blurb": "IC 3602, a dwarf elliptical galaxy in the Virgo Cluster, seen by Hubble.",
+  "label": "ic3602-hubble",
+  "spec": "HST|VCC1743|9401|ACS/WFC|ic3602-hubble",
+  "find": [
+    "HST|9401|VCC1743"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "VCC 1743",
+    "VCC1743",
+    "dwarf elliptical galaxy",
+    "dE galaxy",
+    "early-type galaxy",
+    "galaxy",
+    "Virgo Cluster"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "IC 3602 is a dwarf elliptical galaxy, one of 100 early-type galaxies Hubble surveyed in the Virgo Cluster.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "VCC 1743 is IC 3602, a dwarf elliptical (dE6)",
+        "source": "https://arxiv.org/pdf/astro-ph/0404138"
+      },
+      {
+        "text": "The ACS Virgo Cluster Survey imaged 100 early-type galaxies in the Virgo Cluster",
+        "source": "https://arxiv.org/pdf/astro-ph/0404138"
+      }
+    ]
+  }
+}
