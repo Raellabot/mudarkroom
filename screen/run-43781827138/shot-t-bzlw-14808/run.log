@@ -1,0 +1,13 @@
+[     0s] == t-bzlw-14808: 2 filters: ['F105W', 'F140W']
+[     0s] F105W: 1396x1336 px at 0.1283 arcsec/px, 23 MB
+[     0s] F140W: 1089x963 px at 0.1283 arcsec/px, 13 MB
+[     0s] grid from F105W: 698x668 px (reduced 2x), 0.257 arcsec/px
+[     1s] downloaded hst_14808_20_wfc3_ir_f105w_iddq20_drz.fits: 23 MB
+[     1s] F105W: aligned (reduced 2x), covers 56% of the grid
+[     1s] downloaded iddq20010_drz.fits: 13 MB
+[     1s] F140W: aligned (reduced 2x), covers 55% of the grid
+[     1s] t-bzlw-14808: finishing steps applied: ['dense']
+[     1s] cropped to 392x357 px where 2 of 2 filters have data
+/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/astropy/visualization/lupton_rgb.py:645: RuntimeWarning: invalid value encountered in divide
+  fInorm = np.where(Int <= 0, 0, np.true_divide(fI, Int))
+[     1s] done: 1 pictures

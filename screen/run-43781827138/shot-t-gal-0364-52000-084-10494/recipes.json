@@ -1,0 +1,47 @@
+[
+ {
+  "picture": "t-gal-0364-52000-084-10494-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "GAL-0364-52000-084",
+  "proposal_id": "10494",
+  "instrument": "ACS/WFC",
+  "title": "Imaging the mass structure of distant lens galaxies",
+  "grid": {
+   "width": 1055,
+   "height": 1060,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.19999999999999346,
+   "reference_filter": "F555W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F555W",
+    "center_nm": 545.0,
+    "color": "#2699ff",
+    "obs_id": "j9c701010",
+    "exposure_s": 2160,
+    "product": "mast:HST/product/j9c701010_drz.fits"
+   },
+   {
+    "filter": "F814W",
+    "center_nm": 833.5,
+    "color": "#ffa626",
+    "obs_id": "j9c701020",
+    "exposure_s": 2224,
+    "product": "mast:HST/product/j9c701020_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

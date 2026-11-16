@@ -1,0 +1,13 @@
+[     0s] == t-perseus-udg01-15235: 2 filters: ['F475X', 'F814W']
+[     0s] F475X: 4131x4391 px at 0.0396 arcsec/px, 218 MB
+[     1s] F814W: 4130x4391 px at 0.0396 arcsec/px, 218 MB
+[     1s] grid from F475X: 1032x1097 px (reduced 4x), 0.158 arcsec/px
+[     3s] downloaded idkb06030_drz.fits: 218 MB
+[     3s] F475X: aligned (reduced 4x), covers 93% of the grid
+[     5s] downloaded idkb06040_drz.fits: 218 MB
+[     5s] F814W: aligned (reduced 3x), covers 93% of the grid
+[     6s] t-perseus-udg01-15235: finishing steps applied: ['dense']
+[     6s] cropped to 954x979 px where 2 of 2 filters have data
+/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/astropy/visualization/lupton_rgb.py:645: RuntimeWarning: invalid value encountered in divide
+  fInorm = np.where(Int <= 0, 0, np.true_divide(fI, Int))
+[     6s] done: 1 pictures

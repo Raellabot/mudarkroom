@@ -1,0 +1,47 @@
+[
+ {
+  "picture": "t-coma-outskirts-21-10861-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "COMA-OUTSKIRTS-21",
+  "proposal_id": "10861",
+  "instrument": "ACS/WFC",
+  "title": "An ACS Treasury Survey of the Coma cluster of galaxies",
+  "grid": {
+   "width": 1056,
+   "height": 1074,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.19999999999999687,
+   "reference_filter": "F814W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F475W",
+    "center_nm": 470.0,
+    "color": "#2699ff",
+    "obs_id": "j9ty63040",
+    "exposure_s": 2511.944,
+    "product": "mast:HST/product/j9ty63040_drz.fits"
+   },
+   {
+    "filter": "F814W",
+    "center_nm": 833.5,
+    "color": "#ffa626",
+    "obs_id": "j9ty63030",
+    "exposure_s": 1400,
+    "product": "mast:HST/product/j9ty63030_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

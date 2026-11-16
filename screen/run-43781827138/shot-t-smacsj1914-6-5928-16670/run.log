@@ -1,0 +1,13 @@
+[     0s] == t-smacsj1914-6-5928-16670: 2 filters: ['F110W', 'F140W']
+[     0s] F110W: 1114x986 px at 0.1282 arcsec/px, 13 MB
+[     0s] F140W: 1114x986 px at 0.1282 arcsec/px, 13 MB
+[     0s] grid from F110W: 1114x986 px (reduced 1x), 0.128 arcsec/px
+[     1s] downloaded ienq0r010_drz.fits: 13 MB
+[     1s] F110W: aligned (reduced 1x), covers 98% of the grid
+[     1s] downloaded ienq0r020_drz.fits: 13 MB
+[     1s] F140W: aligned (reduced 1x), covers 98% of the grid
+[     2s] t-smacsj1914-6-5928-16670: finishing steps applied: ['dense']
+[     2s] cropped to 1088x966 px where 2 of 2 filters have data
+/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/astropy/visualization/lupton_rgb.py:645: RuntimeWarning: invalid value encountered in divide
+  fInorm = np.where(Int <= 0, 0, np.true_divide(fI, Int))
+[     2s] done: 1 pictures

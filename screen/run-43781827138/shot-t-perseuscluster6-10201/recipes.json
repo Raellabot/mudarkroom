@@ -1,0 +1,47 @@
+[
+ {
+  "picture": "t-perseuscluster6-10201-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "PERSEUSCLUSTER6",
+  "proposal_id": "10201",
+  "instrument": "ACS/WFC",
+  "title": "The Origin of Dwarf Galaxies and Steep Luminosity Functions in Clusters",
+  "grid": {
+   "width": 1053,
+   "height": 1060,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.19999999999999943,
+   "reference_filter": "F555W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F555W",
+    "center_nm": 545.0,
+    "color": "#2699ff",
+    "obs_id": "j91606020",
+    "exposure_s": 2368,
+    "product": "mast:HST/product/j91606020_drz.fits"
+   },
+   {
+    "filter": "F814W",
+    "center_nm": 833.5,
+    "color": "#ffa626",
+    "obs_id": "j91606010",
+    "exposure_s": 2260,
+    "product": "mast:HST/product/j91606010_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

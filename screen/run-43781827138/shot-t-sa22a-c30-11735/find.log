@@ -1,0 +1,7 @@
+  MAST says ERROR; asking again
+  page 1/1 rows so far 6 of 6
+HST|SA22A-C30|11735|ACS/WFC|3  rows=3  filters=['F625W', 'detection']
+HST|SA22A-C30|11735|WFC3/IR|3  rows=3  filters=['F160W', 'detection']
+  page 1/1 rows so far 6 of 6
+HST|SA22A-C30|11735|ACS/WFC|3  rows=3  filters=['F625W', 'detection']
+HST|SA22A-C30|11735|WFC3/IR|3  rows=3  filters=['F160W', 'detection']

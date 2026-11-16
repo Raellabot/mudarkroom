@@ -1,0 +1,3 @@
+[     0s] == t-eso239-ig002-10592: 2 filters: ['F435W', 'F814W']
+[     0s] t-eso239-ig002-10592 failed: could not read the header of mast:HST/product/j9cv79010_drz.fits without downloading it
+[     0s] done: 0 pictures

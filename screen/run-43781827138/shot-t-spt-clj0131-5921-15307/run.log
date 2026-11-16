@@ -1,0 +1,13 @@
+[     0s] == t-spt-clj0131-5921-15307: 2 filters: ['F200LP', 'F110W']
+[     0s] F200LP: 4128x4457 px at 0.0396 arcsec/px, 221 MB
+[     0s] F110W: 1090x965 px at 0.1283 arcsec/px, 13 MB
+[     0s] grid from F200LP: 1032x1114 px (reduced 4x), 0.158 arcsec/px
+[     2s] downloaded idgb26020_drz.fits: 221 MB
+[     2s] F200LP: aligned (reduced 4x), covers 94% of the grid
+[     2s] downloaded idgb26010_drz.fits: 13 MB
+[     3s] F110W: aligned (reduced 1x), covers 59% of the grid
+[     3s] t-spt-clj0131-5921-15307: finishing steps applied: ['dense']
+[     3s] cropped to 863x777 px where 2 of 2 filters have data
+/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/astropy/visualization/lupton_rgb.py:645: RuntimeWarning: invalid value encountered in divide
+  fInorm = np.where(Int <= 0, 0, np.true_divide(fI, Int))
+[     3s] done: 1 pictures

@@ -1,0 +1,47 @@
+[
+ {
+  "picture": "t-ps1-13lo-13046-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "PS1-13LO",
+  "proposal_id": "13046",
+  "instrument": "WFC3/IR",
+  "title": "RAISIN: Tracers of cosmic expansion with SN IA in the IR",
+  "grid": {
+   "width": 723,
+   "height": 702,
+   "reduction": 1,
+   "arcsec_per_pixel": 0.1282500028610217,
+   "reference_filter": "F160W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F125W",
+    "center_nm": 1249.0,
+    "color": "#2699ff",
+    "obs_id": "ic1xi2010",
+    "exposure_s": 740,
+    "product": "mast:HST/product/ic1xi2010_drz.fits"
+   },
+   {
+    "filter": "F160W",
+    "center_nm": 1543.2,
+    "color": "#ffa626",
+    "obs_id": "hst_13046_i4_wfc3_ir_f160w_ic1xi4",
+    "exposure_s": 1539.9885869999998,
+    "product": "mast:HST/product/hst_13046_i4_wfc3_ir_f160w_ic1xi4_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]
