@@ -1,0 +1,36 @@
+{
+  "id": "spt-cl-j0319-2244-webb",
+  "name": "SPT-CL J0319-2244 (Webb)",
+  "blurb": "SPT-CL J0319-2244, a massive galaxy cluster, seen by Webb.",
+  "label": "sptclj03192244-webb",
+  "spec": "JWST|SPT-CLJ0319-2244|5594|NIRCAM/IMAGE|sptclj03192244-webb",
+  "find": [
+    "JWST|5594|SPT-CLJ0319-2244"
+  ],
+  "type": "Galaxy cluster",
+  "aliases": [
+    "SPT-CLJ0319-2244",
+    "galaxy cluster",
+    "cluster of galaxies"
+  ],
+  "missions": [
+    "Webb"
+  ],
+  "story": "A rich cluster of galaxies, one of the massive clusters in a Webb survey that maps their dark matter through strong lensing and tracks how they grow over cosmic time.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "SPT-CLJ0319-2244 is a target of JWST program 5594 (SLICE), a NIRCam survey of 182 massive galaxy clusters, described as a rich cluster",
+        "source": "https://www.stsci.edu/jwst-program-info/download/jwst/pdf/5594/"
+      },
+      {
+        "text": "SLICE tracks the evolution of the luminous and dark components of galaxy clusters, with dark matter measured mainly through strong-lensing modeling",
+        "source": "https://arxiv.org/html/2503.17498v1"
+      }
+    ]
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "id": "sdf11-hubble",
+  "name": "SDF11 field (Hubble)",
+  "blurb": "A deep field in the Subaru Deep Field toward some of the most distant galaxies with confirmed distances, seen by Hubble.",
+  "label": "sdf11-hubble",
+  "spec": "HST|SDF11|12616|WFC3/IR|sdf11-hubble",
+  "find": [
+    "HST|12616|SDF11"
+  ],
+  "type": "Deep field",
+  "aliases": [
+    "SDF11",
+    "Subaru Deep Field",
+    "SDF",
+    "deep field",
+    "distant galaxies",
+    "Lyman alpha emitters"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Hubble aimed here to catch several remote galaxies whose great distances had already been confirmed by their spectra. Their faint light helps tell how the earliest galaxies formed and how galaxies may have cleared the fog of the young universe.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "SDF11 is a WFC3/IR pointing of program 12616 in the Subaru Deep Field at this position",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/12616/"
+      },
+      {
+        "text": "The program images spectroscopically confirmed galaxies, among the most distant known, in the Subaru Deep Field",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/12616/"
+      },
+      {
+        "text": "Each pointing was chosen to cover several confirmed galaxies (at least 3)",
+        "source": "https://arxiv.org/pdf/1303.0024"
+      },
+      {
+        "text": "The goal is to understand the earliest galaxy formation and the galaxies' contribution to cosmic reionization",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/12616/"
+      },
+      {
+        "text": "The sample includes Lyman alpha emitters",
+        "source": "https://arxiv.org/pdf/1303.0024"
+      }
+    ]
+  }
+}

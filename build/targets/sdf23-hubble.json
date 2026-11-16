@@ -1,0 +1,41 @@
+{
+  "id": "sdf23-hubble",
+  "name": "SDF23 field (Hubble)",
+  "blurb": "A deep field in the Subaru Deep Field toward several very distant galaxies, seen by Hubble.",
+  "label": "sdf23-hubble",
+  "spec": "HST|SDF23|12616|WFC3/IR|sdf23-hubble",
+  "find": [
+    "HST|12616|SDF23"
+  ],
+  "type": "Deep field",
+  "aliases": [
+    "SDF23",
+    "Subaru Deep Field",
+    "high-redshift galaxies",
+    "deep field"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Hubble aimed at this patch of the Subaru Deep Field to catch several very distant, spectroscopically confirmed galaxies in a single view. Their faint light helps astronomers understand how the earliest galaxies formed.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "Program 12616 imaged spectroscopically confirmed galaxies at 5.7 < z < 7 in the Subaru Deep Field to understand early galaxy formation",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/12616/"
+      },
+      {
+        "text": "SDF23 is one of the program's pointings, at 13 24 41.50 +27 26 23.0, listed as HIGH REDSHIFT GALAXY",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/apt/12616/"
+      },
+      {
+        "text": "Each WFC3 pointing was placed to cover several galaxies at once",
+        "source": "https://arxiv.org/pdf/1303.0024"
+      }
+    ]
+  }
+}

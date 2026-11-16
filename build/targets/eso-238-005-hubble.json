@@ -1,0 +1,45 @@
+{
+  "id": "eso-238-005-hubble",
+  "name": "ESO 238-005 (Hubble)",
+  "blurb": "ESO 238-005, an irregular galaxy, seen by Hubble.",
+  "label": "eso238005-hubble",
+  "spec": "HST|ESO238-005|12546|ACS/WFC|eso238005-hubble",
+  "find": [
+    "HST|12546|ESO238-005"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "ESO238-005",
+    "irregular galaxy",
+    "isolated galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "ESO 238-005 is a lone irregular galaxy, listed among the most isolated galaxies near us, a true space orphan. Hubble measured the brightness of its individual stars to work out how far away it lies.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "ESO238-005 is listed in the Catalog of Nearby Isolated Galaxies with morphological type T = 10",
+        "source": "https://arxiv.org/pdf/1103.3990"
+      },
+      {
+        "text": "Type T = 10 means an irregular galaxy",
+        "source": "https://arxiv.org/pdf/1103.3990"
+      },
+      {
+        "text": "The catalog lists the most isolated nearby galaxies, called space orphans",
+        "source": "https://arxiv.org/pdf/1103.3990"
+      },
+      {
+        "text": "Hubble (program 12546) targeted ESO238-005 to measure distances from the luminosities of stars",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/12546/"
+      }
+    ]
+  }
+}

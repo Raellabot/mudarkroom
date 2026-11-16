@@ -1,0 +1,39 @@
+{
+  "id": "ngc-5010-hubble",
+  "name": "NGC 5010 (Hubble)",
+  "blurb": "NGC 5010, a lenticular galaxy, seen by Hubble.",
+  "label": "ngc5010-hubble",
+  "spec": "HST|NGC5010|10592|ACS/WFC|ngc5010-hubble",
+  "find": [
+    "HST|10592|NGC5010"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "lenticular galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "NGC 5010 is in a period of transition, moving on from life as a spiral galaxy toward a rounder elliptical shape. Tilted sideways to us, it shows the dusty remnant bands of its old spiral arms.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "NGC 5010 is a lenticular galaxy",
+        "source": "https://esahubble.org/images/potw1245a/"
+      },
+      {
+        "text": "It is in transition from spiral toward elliptical",
+        "source": "https://esahubble.org/images/potw1245a/"
+      },
+      {
+        "text": "Oriented sideways, it shows dusty remnant bands of spiral arms",
+        "source": "https://esahubble.org/images/potw1245a/"
+      }
+    ]
+  }
+}

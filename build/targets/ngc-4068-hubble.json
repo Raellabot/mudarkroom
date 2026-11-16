@@ -1,0 +1,40 @@
+{
+  "id": "ngc-4068-hubble",
+  "name": "NGC 4068 (Hubble)",
+  "blurb": "NGC 4068, a dwarf galaxy, seen by Hubble.",
+  "label": "ngc4068-hubble",
+  "spec": "HST|NGC4068|9771|ACS/WFC|ngc4068-hubble",
+  "find": [
+    "HST|9771|NGC4068"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "dwarf galaxy",
+    "starburst galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Bursts of star birth are still going on in the inner parts of this small galaxy. Hubble studies of dwarfs like it found that such starbursts sweep across the whole galaxy and last far longer than astronomers had thought.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "NGC 4068 is a dwarf galaxy studied by Hubble for starbursts",
+        "source": "https://esahubble.org/images/opo0919c"
+      },
+      {
+        "text": "Starbursts are still occurring in the inner parts of NGC 4068",
+        "source": "https://science.nasa.gov/missions/hubble/starbursts-in-dwarf-galaxies-are-a-global-affair/"
+      },
+      {
+        "text": "Starbursts in dwarf galaxies sweep across the whole galaxy and last longer than thought",
+        "source": "https://science.nasa.gov/missions/hubble/starbursts-in-dwarf-galaxies-are-a-global-affair/"
+      }
+    ]
+  }
+}

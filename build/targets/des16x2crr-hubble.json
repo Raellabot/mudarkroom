@@ -1,0 +1,42 @@
+{
+  "id": "des16x2crr-hubble",
+  "name": "DES16X2crr field (Hubble)",
+  "blurb": "The field of DES16X2crr, a Type Ia supernova found by the Dark Energy Survey, seen by Hubble.",
+  "label": "des16x2crr-hubble",
+  "spec": "HST|DES16X2CRR|14216|WFC3/IR|des16x2crr-hubble",
+  "find": [
+    "HST|14216|DES16X2CRR"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "DES16X2crr",
+    "DES16X2CRR",
+    "Type Ia supernova",
+    "supernova field",
+    "galaxies"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Somewhere among these galaxies, a Type Ia supernova found by the Dark Energy Survey once flared. Hubble followed it in infrared light, where such exploding stars behave more nearly like standard candles, to help trace how the expansion of the universe has changed.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "DES16X2crr (DES16X2CRR) was a target of Hubble program 14216, RAISIN2, which proposed to observe Type Ia supernovae discovered by the Dark Energy Survey",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/14216/"
+      },
+      {
+        "text": "Type Ia supernovae are more nearly standard candles in infrared bands than in optical bands",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/14216/"
+      },
+      {
+        "text": "RAISIN2 followed spectroscopically classified supernovae from DES to measure the dark energy equation of state (cosmic expansion)",
+        "source": "https://arxiv.org/pdf/2201.07801"
+      }
+    ]
+  }
+}

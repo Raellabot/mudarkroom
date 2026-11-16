@@ -1,0 +1,37 @@
+{
+  "id": "ngc-1718-hubble",
+  "name": "NGC 1718 (Hubble)",
+  "blurb": "NGC 1718, a globular star cluster in the Large Magellanic Cloud, seen by Hubble.",
+  "label": "ngc1718-hubble",
+  "spec": "HST|NGC-1718|12257|WFC3/UVIS|ngc1718-hubble",
+  "find": [
+    "HST|12257|NGC-1718"
+  ],
+  "type": "Star cluster",
+  "aliases": [
+    "globular cluster",
+    "star cluster",
+    "Large Magellanic Cloud",
+    "LMC"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A dense swarm of stars in the Large Magellanic Cloud, NGC 1718 is an intermediate-age globular cluster, fairly rich in metals.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "NGC 1718 is an intermediate-age Large Magellanic Cloud globular cluster",
+        "source": "https://arxiv.org/abs/1701.03802"
+      },
+      {
+        "text": "It is a fairly metal-rich cluster",
+        "source": "https://arxiv.org/abs/1701.03802"
+      }
+    ]
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "id": "ngc-1381-hubble",
+  "name": "NGC 1381 (Hubble)",
+  "blurb": "NGC 1381, an edge-on lenticular galaxy in the Fornax Cluster, seen by Hubble.",
+  "label": "ngc1381-hubble",
+  "spec": "HST|FCC170|10217|ACS/WFC|ngc1381-hubble",
+  "find": [
+    "HST|10217|FCC170"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "FCC 170",
+    "NGC1381",
+    "S0 galaxy",
+    "lenticular galaxy",
+    "Fornax Cluster",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "We see this lenticular galaxy edge-on, its disk a thin blade of starlight in the crowded heart of the Fornax Cluster. Studies of its motions find a fast-rotating thin disk wrapped in a slower, thicker one.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "FCC 170 is NGC 1381, an S0 galaxy in the Fornax cluster",
+        "source": "https://www.aanda.org/articles/aa/abs/2019/03/aa33193-18/aa33193-18.html"
+      },
+      {
+        "text": "It lies in the densest region of the Fornax cluster",
+        "source": "https://www.aanda.org/articles/aa/abs/2019/03/aa33193-18/aa33193-18.html"
+      },
+      {
+        "text": "It is seen edge-on",
+        "source": "https://ar5iv.labs.arxiv.org/html/1901.04310"
+      },
+      {
+        "text": "It has a fast-rotating thin disk and a slower rotating thick disk",
+        "source": "https://ar5iv.labs.arxiv.org/html/1901.04310"
+      },
+      {
+        "text": "FCC 170 = NGC1381, type S0, imaged in the ACS Fornax Cluster Survey (GO 10217)",
+        "source": "https://arxiv.org/pdf/astro-ph/0702320"
+      }
+    ]
+  }
+}

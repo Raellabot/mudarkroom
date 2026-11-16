@@ -1,0 +1,45 @@
+{
+  "id": "ngc-1289-hubble",
+  "name": "NGC 1289 (Hubble)",
+  "blurb": "NGC 1289, a slowly rotating early-type galaxy, seen by Hubble.",
+  "label": "ngc1289-hubble",
+  "spec": "HST|NGC-1289|13324|WFC3/UVIS|ngc1289-hubble",
+  "find": [
+    "HST|13324|NGC-1289"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "NGC1289",
+    "early-type galaxy",
+    "slow rotator",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "NGC 1289 is a smooth early-type galaxy whose stars turn only slowly, while its heart holds a core that spins the opposite way. Hubble's sharp view of its center found starlight rising steadily inward with no flattened core.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "NGC 1289 is one of the slowly rotating early-type galaxies newly imaged by Hubble program GO-13324",
+        "source": "https://www.aanda.org/10.1051/0004-6361/201937040/pdf"
+      },
+      {
+        "text": "NGC 1289 has a counter-rotating core (CRC)",
+        "source": "https://www.aanda.org/10.1051/0004-6361/201937040/pdf"
+      },
+      {
+        "text": "NGC 1289's nuclear light profile is a power law, classed as core-less",
+        "source": "https://www.aanda.org/10.1051/0004-6361/201937040/pdf"
+      },
+      {
+        "text": "NGC 1289 was a target of Hubble program 13324 on cores in early-type galaxies",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/13324/"
+      }
+    ]
+  }
+}

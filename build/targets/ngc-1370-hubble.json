@@ -1,0 +1,40 @@
+{
+  "id": "ngc-1370-hubble",
+  "name": "NGC 1370 (Hubble)",
+  "blurb": "NGC 1370, a dusty early-type galaxy, seen by Hubble.",
+  "label": "ngc1370-hubble",
+  "spec": "HST|NGC1370|12591|ACS/WFC|ngc1370-hubble",
+  "find": [
+    "HST|12591|NGC1370"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "early-type galaxy",
+    "spheroidal galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A nearby early-type galaxy wrapped in an extremely dusty torus, with dust lacing the region around its nucleus. Hubble looked here as part of a census of black holes and star clusters at the hearts of nearby galaxies.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "NGC 1370 is one of the nearby field early-type galaxies of the AMUSE-Field sample",
+        "source": "https://arxiv.org/pdf/1406.6697"
+      },
+      {
+        "text": "NGC 1370 has an extremely dusty torus, with dust visible around the nucleus in the Hubble images",
+        "source": "https://arxiv.org/pdf/1406.6697"
+      },
+      {
+        "text": "NGC 1370 was targeted by a Chandra/HST census of accreting black holes and nuclear star clusters in nearby spheroidal galaxies",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/12591/"
+      }
+    ]
+  }
+}

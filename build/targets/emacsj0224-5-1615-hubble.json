@@ -1,0 +1,41 @@
+{
+  "id": "emacsj0224-5-1615-hubble",
+  "name": "eMACS J0224.5-1615 (Hubble)",
+  "blurb": "eMACS J0224.5-1615, a massive galaxy cluster, seen by Hubble.",
+  "label": "emacsj022451615-hubble",
+  "spec": "HST|EMACSJ0224.5-1615|15843|WFC3/IR|emacsj022451615-hubble",
+  "find": [
+    "HST|15843|EMACSJ0224.5-1615"
+  ],
+  "type": "Galaxy cluster",
+  "aliases": [
+    "eMACSJ0224.5-1615",
+    "EMACSJ0224.5-1615",
+    "galaxy cluster",
+    "cluster of galaxies"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A distant cluster of galaxies from Hubble's snapshot survey of the most massive clusters beyond the original MACS sample, among the first generation of truly massive clusters to have formed in the Universe.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "eMACS J0224.5-1615 is a high-redshift cluster of galaxies targeted by Hubble program 15843",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15843/"
+      },
+      {
+        "text": "Program 15843 is a snapshot survey of the most massive clusters of galaxies",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15843/"
+      },
+      {
+        "text": "eMACS J0224.5-1615 is in the eMACS sample of highly X-ray luminous clusters, described as the first generation of truly massive clusters",
+        "source": "https://arxiv.org/html/2404.11659v1"
+      }
+    ]
+  }
+}

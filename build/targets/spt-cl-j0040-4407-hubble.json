@@ -1,0 +1,40 @@
+{
+  "id": "spt-cl-j0040-4407-hubble",
+  "name": "SPT-CL J0040-4407 (Hubble)",
+  "blurb": "SPT-CL J0040-4407, a massive galaxy cluster, seen by Hubble.",
+  "label": "sptclj00404407-hubble",
+  "spec": "HST|SMACSJ0040.8-4407|12884|WFC3/IR|sptclj00404407-hubble",
+  "find": [
+    "HST|12884|SMACSJ0040.8-4407"
+  ],
+  "type": "Galaxy cluster",
+  "aliases": [
+    "galaxy cluster",
+    "cluster of galaxies",
+    "SPT cluster"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A vast gathering of galaxies, this massive cluster was detected by the South Pole Telescope through the Sunyaev-Zeldovich effect. Astronomers have weighed it by weak gravitational lensing.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "SPT-CL J0040-4407 is a massive galaxy cluster detected by the South Pole Telescope via the Sunyaev-Zeldovich effect",
+        "source": "https://arxiv.org/pdf/1802.04533"
+      },
+      {
+        "text": "SPT-CL J0040-4407 lies at RA 10.2048, Dec -44.1329, matching this pointing",
+        "source": "https://arxiv.org/pdf/1802.04533"
+      },
+      {
+        "text": "Its mass was studied by weak lensing",
+        "source": "https://arxiv.org/pdf/1802.04533"
+      }
+    ]
+  }
+}

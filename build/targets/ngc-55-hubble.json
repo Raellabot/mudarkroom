@@ -1,0 +1,47 @@
+{
+  "id": "ngc-55-hubble",
+  "name": "NGC 55 (Hubble)",
+  "blurb": "NGC 55, an edge-on Magellanic-type galaxy, seen by Hubble.",
+  "label": "ngc55-hubble",
+  "spec": "HST|NGC0055|9765|ACS/WFC|ngc55-hubble",
+  "find": [
+    "HST|9765|NGC0055"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "Caldwell 72",
+    "C72",
+    "Magellanic-type galaxy",
+    "irregular galaxy",
+    "dwarf spiral galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Seen edge-on, NGC 55 closely resembles the Large Magellanic Cloud, though it is smaller. Hubble looked into its central part to learn how small structures such as dust clouds dim the galaxy's light.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "NGC 55 is Caldwell 72",
+        "source": "https://science.nasa.gov/mission/hubble/science/explore-the-night-sky/hubble-caldwell-catalog/caldwell-72/"
+      },
+      {
+        "text": "It is a Magellanic-type galaxy",
+        "source": "https://science.nasa.gov/mission/hubble/science/explore-the-night-sky/hubble-caldwell-catalog/caldwell-72/"
+      },
+      {
+        "text": "It resembles the Large Magellanic Cloud but is smaller and edge-on",
+        "source": "https://science.nasa.gov/mission/hubble/science/explore-the-night-sky/hubble-caldwell-catalog/caldwell-72/"
+      },
+      {
+        "text": "Hubble observed a central part to study how small structures such as dust clouds dim its light",
+        "source": "https://science.nasa.gov/mission/hubble/science/explore-the-night-sky/hubble-caldwell-catalog/caldwell-72/"
+      }
+    ]
+  }
+}

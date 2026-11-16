@@ -1,0 +1,38 @@
+{
+  "id": "ugc-7767-hubble",
+  "name": "UGC 7767 (Hubble)",
+  "blurb": "UGC 7767, an early-type galaxy, seen by Hubble.",
+  "label": "ugc7767-hubble",
+  "spec": "HST|UGC07767|12591|ACS/WFC|ugc7767-hubble",
+  "find": [
+    "HST|12591|UGC07767"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "UGC 07767",
+    "UGC07767",
+    "early-type galaxy",
+    "spheroidal galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A nearby spheroidal galaxy with a faint X-ray glow at its core, one of the galaxies Hubble surveyed for star clusters at their hearts; this one shows no nuclear star cluster.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "UGC 7767 is one of the nearby field early-type galaxies studied by AMUSE-Field, and is not nucleated",
+        "source": "https://arxiv.org/pdf/1406.6697"
+      },
+      {
+        "text": "UGC07767 was targeted in a Hubble snapshot survey of faint nearby spheroidal galaxies with faint X-ray cores, a census of accreting black holes and nuclear star clusters",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/12591/"
+      }
+    ]
+  }
+}

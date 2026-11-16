@@ -1,0 +1,47 @@
+{
+  "id": "eso-409-15-hubble",
+  "name": "ESO 409-15 (Hubble)",
+  "blurb": "ESO 409-15, a dwarf irregular galaxy, seen by Hubble.",
+  "label": "eso40915-hubble",
+  "spec": "HST|ESO-409-IG-015|13442|ACS/WFC|eso40915-hubble",
+  "find": [
+    "HST|13442|ESO-409-IG-015"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "ESO409-015",
+    "ESO 409- 15",
+    "dwarf irregular galaxy",
+    "dwarf galaxy",
+    "irregular galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A small galaxy with no orderly spiral pattern, ESO 409-15 is one of the dwarf galaxies of the Local Volume.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "ESO 409-15 is classified as a dwarf irregular (dIm) galaxy",
+        "source": "https://ned.ipac.caltech.edu/level5/Sept19/Buta/paper.pdf"
+      },
+      {
+        "text": "ESO409-015 is an Im galaxy at 00h05m31.8s -28d05m53s (matches this pointing)",
+        "source": "https://ar5iv.labs.arxiv.org/html/1303.5328"
+      },
+      {
+        "text": "ESO 409-15 is a Local Volume dwarf galaxy",
+        "source": "https://www.aanda.org/articles/aa/full_html/2020/12/aa38862-20/aa38862-20.html"
+      },
+      {
+        "text": "Program 13442 was led by R. Brent Tully",
+        "source": "https://ar5iv.labs.arxiv.org/html/2104.02649"
+      }
+    ]
+  }
+}

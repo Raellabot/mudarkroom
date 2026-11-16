@@ -1,0 +1,59 @@
+{
+  "id": "ngc-4660-hubble",
+  "name": "NGC 4660 (Hubble)",
+  "blurb": "NGC 4660, an elliptical galaxy in the Virgo Cluster, seen by Hubble.",
+  "label": "ngc4660-hubble",
+  "spec": "HST|VCC2000|9401|ACS/WFC|ngc4660-hubble",
+  "find": [
+    "HST|9401|VCC2000"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "VCC 2000",
+    "VCC2000",
+    "elliptical galaxy",
+    "early-type galaxy",
+    "Virgo Cluster",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "An elliptical galaxy that also carries a strong disk of stars, NGC 4660 is a member of the Virgo Cluster. Hubble's sharp eye picks out the fuzzy globular star clusters gathered around it.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "VCC 2000 is NGC 4660",
+        "source": "https://science.nasa.gov/asset/hubble/hubble-acs-images-of-virgo-cluster-galaxies-ngc-4660-ngc-4458-ic-3506-and-vcc-1993"
+      },
+      {
+        "text": "VCC 2000 = NGC 4660 is in the ACS Virgo Cluster Survey (GO-9401) sample, type E3/S0",
+        "source": "https://arxiv.org/pdf/astro-ph/0404138"
+      },
+      {
+        "text": "NGC 4660 is an elliptical galaxy in the Virgo Cluster",
+        "source": "https://esahubble.org/images/heic0815b"
+      },
+      {
+        "text": "NGC 4660 is a Virgo Cluster member",
+        "source": "https://science.nasa.gov/asset/hubble/hubble-acs-images-of-virgo-cluster-galaxies-ngc-4660-ngc-4458-ic-3506-and-vcc-1993"
+      },
+      {
+        "text": "NGC 4660 is an elliptical galaxy with a strong disk component",
+        "source": "https://pdf.arxiv.org/pdf/1607.04670"
+      },
+      {
+        "text": "Hubble picks out the fuzzy globular clusters around the galaxy",
+        "source": "https://esahubble.org/images/heic0815b"
+      },
+      {
+        "text": "NGC 4660 contains globular clusters",
+        "source": "https://science.nasa.gov/asset/hubble/hubble-acs-images-of-virgo-cluster-galaxies-ngc-4660-ngc-4458-ic-3506-and-vcc-1993"
+      }
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "id": "ngc-6627-hubble",
+  "name": "NGC 6627 (Hubble)",
+  "blurb": "NGC 6627, the host galaxy of the supernova SN 2021abkm, seen by Hubble.",
+  "label": "ngc6627-hubble",
+  "spec": "HST|SN2021ABKM|17070|ACS/WFC|ngc6627-hubble",
+  "find": [
+    "HST|17070|SN2021ABKM"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "SN 2021abkm",
+    "2021abkm",
+    "ATLAS21bkcp",
+    "Gaia21ewt",
+    "supernova host galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A star in this galaxy exploded as SN 2021abkm, a hydrogen-rich (Type II) supernova. Hubble returned to the site to study the stars around it, clues to the kind of star that died.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "SN 2021abkm's host galaxy is NGC 6627",
+        "source": "https://rochesterastronomy.org/sn2021/snredshift.html"
+      },
+      {
+        "text": "SN 2021abkm's host galaxy is NGC 6627 (host match)",
+        "source": "https://blast.scimma.org/transients/2021abkm"
+      },
+      {
+        "text": "SN 2021abkm is a Type II supernova",
+        "source": "https://blast.scimma.org/transients/2021abkm"
+      },
+      {
+        "text": "Type II supernovae are hydrogen-rich",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/17070/"
+      },
+      {
+        "text": "Hubble program 17070 imaged SN2021ABKM to resolve the stars around Type II supernovae and estimate progenitor masses",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/17070/"
+      },
+      {
+        "text": "Other designations ATLAS21bkcp and Gaia21ewt",
+        "source": "https://rochesterastronomy.org/sn2021/snredshift.html"
+      }
+    ]
+  }
+}

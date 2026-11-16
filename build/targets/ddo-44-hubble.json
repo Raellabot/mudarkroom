@@ -1,0 +1,50 @@
+{
+  "id": "ddo-44-hubble",
+  "name": "DDO 44 (Hubble)",
+  "blurb": "DDO 44, a dwarf spheroidal galaxy, seen by Hubble.",
+  "label": "ddo44-hubble",
+  "spec": "HST|DDO44|10915|ACS/WFC|ddo44-hubble",
+  "find": [
+    "HST|10915|DDO44"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "UGCA 133",
+    "KK 61",
+    "dwarf spheroidal galaxy",
+    "dwarf galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A faint dwarf spheroidal galaxy and a likely companion of the spiral NGC 2403, which Hubble resolves into a scatter of individual stars. About 20% of its brightest stars are of intermediate age.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "DDO 44 is a dwarf spheroidal galaxy",
+        "source": "https://arxiv.org/pdf/astro-ph/9910402"
+      },
+      {
+        "text": "DDO 44 is a likely companion of NGC 2403",
+        "source": "https://arxiv.org/pdf/astro-ph/9910402"
+      },
+      {
+        "text": "DDO 44 is also designated UGCA 133 and KK 61",
+        "source": "https://arxiv.org/pdf/astro-ph/9910402"
+      },
+      {
+        "text": "Hubble imaged DDO 44 in the ACS Nearby Galaxy Survey, which resolves nearby galaxies into individual stars",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/10915/"
+      },
+      {
+        "text": "About 20% of its brightest stars are of intermediate age",
+        "source": "https://iac.edu.es/es/ciencia-y-tecnologia/publicaciones/ddo-44-and-ugc-4998-distances-metallicities-and-star-formation-histories"
+      }
+    ]
+  }
+}

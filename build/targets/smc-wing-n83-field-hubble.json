@@ -1,0 +1,54 @@
+{
+  "id": "smc-wing-n83-field-hubble",
+  "name": "SMC Wing field near N83 (Hubble)",
+  "blurb": "A field in the Wing of the Small Magellanic Cloud near the star-forming region N83, seen by Hubble.",
+  "label": "smcwingn83field-hubble",
+  "spec": "HST|N83-F13-WFC|17509|ACS/WFC|smcwingn83field-hubble",
+  "find": [
+    "HST|17509|N83-F13-WFC"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "N83",
+    "N84",
+    "N83/N84",
+    "Small Magellanic Cloud",
+    "SMC",
+    "SMC Wing",
+    "Wing of the SMC",
+    "star-forming region",
+    "star field"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "The Wing of the Small Magellanic Cloud has been pulled out by tidal forces, and nearby N83 is a nursery of new stars. Hubble studied the stars in this field to map, in three dimensions, the gas and dust that lie between them and us.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "The program studies the tidally disrupted Wing of the SMC",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/17509/"
+      },
+      {
+        "text": "N83/N84 are star-forming regions of the Small Magellanic Cloud",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/17509/"
+      },
+      {
+        "text": "N83-F13-WFC is a field of the N83 region (HII region, molecular cloud, star-forming region)",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/17509/"
+      },
+      {
+        "text": "Hubble uses resolved stars to map the 3D gas distribution of the interstellar medium",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/17509/"
+      },
+      {
+        "text": "The goals involve tidal interactions and bursts of star formation",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/17509/"
+      }
+    ]
+  }
+}

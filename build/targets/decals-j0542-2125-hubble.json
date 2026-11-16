@@ -1,0 +1,56 @@
+{
+  "id": "decals-j0542-2125-hubble",
+  "name": "DECALS J0542-2125 (Hubble)",
+  "blurb": "DECALS J0542-2125, a pair of merging galaxy clusters, seen by Hubble.",
+  "label": "decalsj05422125-hubble",
+  "spec": "HST|DECALSJ0542-2125-3|17243|WFC3/IR|decalsj05422125-hubble",
+  "find": [
+    "HST|17243|DECALSJ0542-2125-3"
+  ],
+  "type": "Galaxy cluster",
+  "aliases": [
+    "COOL J0542-2125",
+    "DECaLS J0542-2125",
+    "galaxy cluster",
+    "merging galaxy cluster",
+    "cluster merger",
+    "gravitational lens",
+    "lensed quasar"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Two galaxy clusters appear to be merging here, and their combined gravity bends the light of a distant quasar into three separate images. Hubble mapped this region to help chart where the dark matter, hot gas and stars lie.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "DECALS J0542-2125 is a candidate cluster merger: two galaxy clusters of comparable mass",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/17243/"
+      },
+      {
+        "text": "The lensing cluster appears to be merging, with two sub-clusters",
+        "source": "https://ar5iv.labs.arxiv.org/html/2209.03972"
+      },
+      {
+        "text": "A distant quasar is lensed into three images by the cluster",
+        "source": "https://ar5iv.labs.arxiv.org/html/2209.03972"
+      },
+      {
+        "text": "The system is also called COOL J0542-2125 (and DECALS J0542-2125)",
+        "source": "https://ar5iv.labs.arxiv.org/html/2209.03972"
+      },
+      {
+        "text": "Hubble data constrain a lens model; the program maps dark matter, X-ray gas and stars",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/17243/"
+      },
+      {
+        "text": "Archive target DECALSJ0542-2125-3 is a cluster-of-galaxies pointing at this position",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/17243/"
+      }
+    ]
+  }
+}

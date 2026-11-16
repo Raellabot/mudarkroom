@@ -1,0 +1,41 @@
+{
+  "id": "ngc-4565-hubble",
+  "name": "NGC 4565 (Hubble)",
+  "blurb": "NGC 4565, an edge-on spiral galaxy known as the Needle Galaxy, seen by Hubble.",
+  "label": "ngc4565-hubble",
+  "spec": "HST|NGC4565|9765|ACS/WFC|ngc4565-hubble",
+  "find": [
+    "HST|9765|NGC4565"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "Needle Galaxy",
+    "spiral galaxy",
+    "edge-on galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Hubble looks along part of the disk of the Needle Galaxy, a spiral seen edge-on, where ribbons of dust block some of the light from its stars. This close-up takes in a stretch of the disk rather than the whole galaxy.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "NGC 4565 is a spiral galaxy nicknamed the Needle Galaxy",
+        "source": "https://esahubble.org/images/potw1228a"
+      },
+      {
+        "text": "Hubble's view shows part of its disc, edge-on and up close",
+        "source": "https://esahubble.org/images/potw1228a"
+      },
+      {
+        "text": "Ribbons of dust block some of the light from the galactic disc",
+        "source": "https://esahubble.org/images/potw1228a"
+      }
+    ]
+  }
+}

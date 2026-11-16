@@ -1,0 +1,47 @@
+{
+  "id": "eso-272-g025-hubble",
+  "name": "ESO 272-G025 (Hubble)",
+  "blurb": "ESO 272-G025, a dwarf irregular galaxy, seen by Hubble.",
+  "label": "eso272g025-hubble",
+  "spec": "HST|ESO-272-25|15922|ACS/WFC|eso272g025-hubble",
+  "find": [
+    "HST|15922|ESO-272-25"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "HIPASS J1443-44",
+    "ESO-272-25",
+    "dwarf irregular galaxy",
+    "irregular galaxy",
+    "dwarf galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A small irregular galaxy on the outskirts of the Centaurus A group, its hydrogen gas gathered around a bright, compact body of stars. Hubble visited it in a survey of every known nearby galaxy, picking out its brightest stars to measure how far away it lies.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "ESO 272-G025 (HIPASS J1443-44) is a dwarf irregular galaxy in the outskirts of the Cen A group",
+        "source": "https://www.atnf.csiro.au/research/LVHIS/data/LVHIS070.info.html"
+      },
+      {
+        "text": "Its hydrogen (HI) gas is centered on a bright, compact optical body",
+        "source": "https://www.atnf.csiro.au/research/LVHIS/data/LVHIS070.info.html"
+      },
+      {
+        "text": "ESO-272-25 is a target of HST program 15922 'Every Known Nearby Galaxy'",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/list/15922/"
+      },
+      {
+        "text": "Program 15922 images nearby galaxies to resolve their brightest stars and measure tip-of-the-red-giant-branch distances",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15922/"
+      }
+    ]
+  }
+}

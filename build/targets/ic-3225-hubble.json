@@ -1,0 +1,52 @@
+{
+  "id": "ic-3225-hubble",
+  "name": "IC 3225 (Hubble)",
+  "blurb": "IC 3225, a spiral galaxy in the Virgo Cluster, seen by Hubble.",
+  "label": "ic3225-hubble",
+  "spec": "HST|IC3225|17240|ACS/WFC|ic3225-hubble",
+  "find": [
+    "HST|17240|IC3225"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "spiral galaxy",
+    "galaxy",
+    "Virgo Cluster"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "IC 3225 looks remarkably as if it has been launched from a cannon. As it races through the Virgo Cluster, ram pressure strips gas out of it, and more stars have formed along its leading edge while its far end is stretched out of shape.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "IC 3225 is a spiral galaxy",
+        "source": "https://esahubble.org/images/potw2443a/"
+      },
+      {
+        "text": "IC 3225 is a member of the Virgo galaxy cluster",
+        "source": "https://esahubble.org/images/potw2443a/"
+      },
+      {
+        "text": "It looks as if launched from a cannon",
+        "source": "https://esahubble.org/images/potw2443a/"
+      },
+      {
+        "text": "Ram pressure strips gas from moving galaxies",
+        "source": "https://esahubble.org/images/potw2443a/"
+      },
+      {
+        "text": "More star formation on the leading edge, the opposite end stretched",
+        "source": "https://esahubble.org/images/potw2443a/"
+      },
+      {
+        "text": "'Celestial cannonball' is the title of the Hubble image release",
+        "source": "https://esahubble.org/images/potw2443a/"
+      }
+    ]
+  }
+}

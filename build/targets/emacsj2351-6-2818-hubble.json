@@ -1,0 +1,42 @@
+{
+  "id": "emacsj2351-6-2818-hubble",
+  "name": "eMACS J2351.6-2818 (Hubble)",
+  "blurb": "eMACS J2351.6-2818, a massive galaxy cluster, seen by Hubble.",
+  "label": "emacsj235162818-hubble",
+  "spec": "HST|EMACSJ2351.6-2818|15843|WFC3/IR|emacsj235162818-hubble",
+  "find": [
+    "HST|15843|EMACSJ2351.6-2818"
+  ],
+  "type": "Galaxy cluster",
+  "aliases": [
+    "eMACSJ2351.6-2818",
+    "EMACSJ2351.6-2818",
+    "eMACS",
+    "galaxy cluster",
+    "cluster of galaxies"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A crowd of galaxies bound together by gravity, this is one of the highly X-ray luminous clusters found by the extended Massive Cluster Survey. Hubble photographed it while hunting for the most powerful gravitational telescopes, clusters whose mass bends the light of galaxies far behind them.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "eMACS J2351.6-2818 is one of the eMACS galaxy clusters, which are highly X-ray luminous clusters discovered by the extended Massive Cluster Survey in ROSAT All-Sky Survey data",
+        "source": "https://arxiv.org/html/2404.11659v1"
+      },
+      {
+        "text": "eMACS J2351.6-2818 was a target of Hubble snapshot program 15843, which targets extremely massive clusters to identify the most powerful gravitational telescopes",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15843/"
+      },
+      {
+        "text": "Strong gravitational lensing features in Hubble imaging of eMACS clusters constrain their mass",
+        "source": "https://arxiv.org/abs/2404.11659"
+      }
+    ]
+  }
+}

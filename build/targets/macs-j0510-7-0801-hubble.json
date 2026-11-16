@@ -1,0 +1,36 @@
+{
+  "id": "macs-j0510-7-0801-hubble",
+  "name": "MACS J0510.7-0801 (Hubble)",
+  "blurb": "MACS J0510.7-0801, a massive galaxy cluster, seen by Hubble.",
+  "label": "macsj051070801-hubble",
+  "spec": "HST|MACSJ0510.7-0801|16670|ACS/WFC|macsj051070801-hubble",
+  "find": [
+    "HST|16670|MACSJ0510.7-0801"
+  ],
+  "type": "Galaxy cluster",
+  "aliases": [
+    "MACSJ0510.7-0801",
+    "galaxy cluster",
+    "cluster of galaxies"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A rich cluster of galaxies, gathered up in a Hubble snapshot survey of extreme, X-ray-bright clusters. The survey looks for clusters massive enough to act as gravitational lenses, bending the light of galaxies far behind them.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "MACS J0510.7-0801 is a rich galaxy cluster targeted by a snapshot survey of extreme, highly X-ray-luminous clusters",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/16670/"
+      },
+      {
+        "text": "The survey aims to find powerful gravitational lenses",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/16670/"
+      }
+    ]
+  }
+}

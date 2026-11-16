@@ -1,0 +1,45 @@
+{
+  "id": "ngc-5264-hubble",
+  "name": "NGC 5264 (Hubble)",
+  "blurb": "NGC 5264, an irregular dwarf galaxy, seen by Hubble.",
+  "label": "ngc5264-hubble",
+  "spec": "HST|NGC5264|13442|ACS/WFC|ngc5264-hubble",
+  "find": [
+    "HST|13442|NGC5264"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "dwarf galaxy",
+    "irregular galaxy",
+    "dwarf irregular galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A dwarf galaxy of irregular shape, scattered with knots of star formation that astronomers think were set off by gravitational encounters with nearby galaxies. It lies just over 15 million light-years away.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "NGC 5264 is a dwarf galaxy",
+        "source": "https://esahubble.org/images/potw1634a/"
+      },
+      {
+        "text": "NGC 5264 has an irregular shape with knots of star formation attributed to gravitational interactions with nearby galaxies",
+        "source": "https://esahubble.org/images/potw1634a/"
+      },
+      {
+        "text": "NGC 5264 lies just over 15 million light-years away",
+        "source": "https://esahubble.org/images/potw1634a/"
+      },
+      {
+        "text": "NGC5264 is a target of Hubble program 13442 (ACS F606W, F814W)",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/13442/"
+      }
+    ]
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "id": "sn-2022ffg-hubble",
+  "name": "SN 2022ffg field (Hubble)",
+  "blurb": "The site of the Type II supernova SN 2022ffg, seen by Hubble.",
+  "label": "sn2022ffg-hubble",
+  "spec": "HST|SN2022FFG|17070|ACS/WFC|sn2022ffg-hubble",
+  "find": [
+    "HST|17070|SN2022FFG"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "SN 2022ffg",
+    "SN2022ffg",
+    "AT 2022ffg",
+    "Type II supernova",
+    "supernova",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Hubble returned to the place where SN 2022ffg, a Type II supernova, exploded, to pick out the stars around it and estimate how massive the star that died had been. Early observations showed the blast running into dense material the star had shed around itself.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "SN 2022ffg is a Type II supernova",
+        "source": "https://indico.ict.inaf.it/event/3000/contributions/22249/"
+      },
+      {
+        "text": "It was surrounded by dense circumstellar material from mass loss",
+        "source": "https://indico.ict.inaf.it/event/3000/contributions/22249/"
+      },
+      {
+        "text": "Hubble imaged SN2022FFG in a snapshot program on Type II supernovae that resolves the stars around them to estimate progenitor masses",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/17070/"
+      }
+    ]
+  }
+}

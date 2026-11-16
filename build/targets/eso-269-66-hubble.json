@@ -1,0 +1,52 @@
+{
+  "id": "eso-269-66-hubble",
+  "name": "ESO 269-66 (Hubble)",
+  "blurb": "ESO 269-66, a dwarf elliptical galaxy in the Centaurus A group, seen by Hubble.",
+  "label": "eso26966-hubble",
+  "spec": "HST|E269-66|10235|ACS/WFC|eso26966-hubble",
+  "find": [
+    "HST|10235|E269-66"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "ESO 269-066",
+    "ESO269-066",
+    "KK190",
+    "E269-66",
+    "dwarf elliptical galaxy",
+    "Centaurus A group",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A quiet dwarf galaxy dominated by old stars, with a younger generation gathered more tightly toward its center. Hubble observed it to measure its distance and help weigh the dark halo around the giant galaxy Centaurus A.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "ESO 269-66 is a dwarf elliptical galaxy dominated by an old population",
+        "source": "https://arxiv.org/pdf/1103.3706"
+      },
+      {
+        "text": "It is an early-type dwarf in the Centaurus A group",
+        "source": "https://arxiv.org/pdf/1103.3706"
+      },
+      {
+        "text": "Its intermediate-age stars are more centrally concentrated than its old stars",
+        "source": "https://arxiv.org/pdf/1103.3706"
+      },
+      {
+        "text": "Alternate designation KK190",
+        "source": "https://arxiv.org/pdf/1103.3706"
+      },
+      {
+        "text": "Program 10235 targeted E269-66, a dwarf elliptical, to measure TRGB distances and constrain the halo around Cen A",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/list/10235/"
+      }
+    ]
+  }
+}

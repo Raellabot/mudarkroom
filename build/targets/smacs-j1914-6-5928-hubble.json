@@ -1,0 +1,36 @@
+{
+  "id": "smacs-j1914-6-5928-hubble",
+  "name": "SMACS J1914.6-5928 (Hubble)",
+  "blurb": "SMACS J1914.6-5928, a galaxy cluster, seen by Hubble.",
+  "label": "smacsj191465928-hubble",
+  "spec": "HST|SMACSJ1914.6-5928|16670|WFC3/IR|smacsj191465928-hubble",
+  "find": [
+    "HST|16670|SMACSJ1914.6-5928"
+  ],
+  "type": "Galaxy cluster",
+  "aliases": [
+    "SMACSJ1914.6-5928",
+    "galaxy cluster",
+    "cluster of galaxies"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "One of the extreme galaxy clusters in a Hubble snapshot survey that searches for ever more powerful gravitational telescopes among the most massive clusters.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "SMACSJ1914.6-5928 is a target of Hubble program 16670, a snapshot survey of extreme galaxy clusters",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/16670/"
+      },
+      {
+        "text": "The survey aims to find more powerful gravitational telescopes among the most massive clusters",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/16670/"
+      }
+    ]
+  }
+}

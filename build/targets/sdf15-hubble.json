@@ -1,0 +1,43 @@
+{
+  "id": "sdf15-hubble",
+  "name": "SDF15 field (Hubble)",
+  "blurb": "A deep field in the Subaru Deep Field toward several of the most distant known galaxies, seen by Hubble.",
+  "label": "sdf15-hubble",
+  "spec": "HST|SDF15|12616|WFC3/IR|sdf15-hubble",
+  "find": [
+    "HST|12616|SDF15"
+  ],
+  "type": "Deep field",
+  "aliases": [
+    "SDF15",
+    "Subaru Deep Field",
+    "SDF",
+    "deep field",
+    "distant galaxies",
+    "high-redshift galaxies"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "This patch of the Subaru Deep Field was chosen because a single Hubble view could hold several of the most distant galaxies whose distances have been confirmed by spectra. Hubble's near-infrared images were meant to reveal the young stars in these faint, remote galaxies.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "SDF15 is a pointing of Hubble program 12616, near-infrared imaging of the most distant spectroscopically confirmed galaxies in the Subaru Deep Field",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/12616/"
+      },
+      {
+        "text": "The program's near-infrared data measure the properties of young stellar populations",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/12616/"
+      },
+      {
+        "text": "Each WFC3 pointing was chosen to cover several (at least 3, up to 5) spectroscopically confirmed galaxies",
+        "source": "https://arxiv.org/pdf/1303.0024"
+      }
+    ]
+  }
+}

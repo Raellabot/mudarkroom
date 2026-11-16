@@ -1,0 +1,38 @@
+{
+  "id": "eso-104-044-hubble",
+  "name": "ESO 104-044 (Hubble)",
+  "blurb": "ESO 104-044, an irregular dwarf galaxy, seen by Hubble.",
+  "label": "eso104044-hubble",
+  "spec": "HST|ESO104-044|12546|ACS/WFC|eso104044-hubble",
+  "find": [
+    "HST|12546|ESO104-044"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "ESO104-044",
+    "irregular galaxy",
+    "dwarf irregular galaxy",
+    "dwarf galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "An irregular dwarf galaxy, thought to belong to the group of galaxies gathered around the spiral NGC 6744. Hubble picked out its stars so astronomers could measure its distance from the brightest red giants.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "ESO 104-044 is an irregular galaxy and a suggested member of the NGC 6744 group",
+        "source": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/B065F16A1307C275AE0EE361CB272E37/S1323358025000074a.pdf/more_local_volume_dwarf_galaxy_candidates.pdf"
+      },
+      {
+        "text": "Hubble imaged it to measure distances from the tip of the red giant branch",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/12546/"
+      }
+    ]
+  }
+}

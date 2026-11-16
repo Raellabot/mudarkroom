@@ -1,0 +1,44 @@
+{
+  "id": "eso-77-14-hubble",
+  "name": "ESO 77-14 (Hubble)",
+  "blurb": "ESO 77-14, a pair of interacting galaxies, seen by Hubble.",
+  "label": "eso7714-hubble",
+  "spec": "HST|ESO077-IG014|10592|ACS/WFC|eso7714-hubble",
+  "find": [
+    "HST|10592|ESO077-IG014"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "ESO077-IG014",
+    "ESO 77-IG14",
+    "interacting galaxies",
+    "merging galaxies",
+    "galaxy pair",
+    "luminous infrared galaxy",
+    "galaxies"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Two similar-sized galaxies caught in a gravitational dance, linked by a bridge of material, their once-flat disks twisted into three-dimensional shapes. Hubble imaged the pair in a survey of luminous infrared galaxies.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "ESO 77-14 is a pair of similar-sized interacting galaxies",
+        "source": "https://esahubble.org/images/heic0810ao/"
+      },
+      {
+        "text": "A bridge of material links the two galaxies, whose disks have been distorted into three-dimensional shapes",
+        "source": "https://science.nasa.gov/asset/hubble/hubble-interacting-galaxy-eso-77-14/"
+      },
+      {
+        "text": "ESO077-IG014 is a target of an ACS survey of luminous infrared galaxies",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/10592/"
+      }
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "id": "eso-006-g001-hubble",
+  "name": "ESO 006-G001 (Hubble)",
+  "blurb": "ESO 006-G001, an isolated dwarf galaxy, seen by Hubble.",
+  "label": "eso006g001-hubble",
+  "spec": "HST|ESO-006--G-001|15922|ACS/WFC|eso006g001-hubble",
+  "find": [
+    "HST|15922|ESO-006--G-001"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "ESO 006-001",
+    "ESO006-G001",
+    "PGC 23344",
+    "transition dwarf",
+    "dwarf galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A lonely dwarf galaxy near the Local Group, a transition dwarf whose light is dominated by old stars. Hubble imaged it in a program aiming to record every known nearby galaxy.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "ESO 006-001 is a transition dwarf dominated by old stars",
+        "source": "https://ar5iv.labs.arxiv.org/html/2301.12789"
+      },
+      {
+        "text": "It is an isolated dwarf galaxy and a near neighbor to the Local Group",
+        "source": "https://ar5iv.labs.arxiv.org/html/2301.12789"
+      },
+      {
+        "text": "Alternate names PGC 23344 and ESO006-G001",
+        "source": "https://ar5iv.labs.arxiv.org/html/2301.12789"
+      },
+      {
+        "text": "Hubble imaged it in the SNAP program Every Known Nearby Galaxy",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15922/"
+      }
+    ]
+  }
+}

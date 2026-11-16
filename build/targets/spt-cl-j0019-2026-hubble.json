@@ -1,0 +1,42 @@
+{
+  "id": "spt-cl-j0019-2026-hubble",
+  "name": "SPT-CL J0019-2026 (Hubble)",
+  "blurb": "SPT-CL J0019-2026, a massive galaxy cluster, seen by Hubble.",
+  "label": "sptclj00192026-hubble",
+  "spec": "HST|MACSJ0019.0-2026|16670|ACS/WFC|sptclj00192026-hubble",
+  "find": [
+    "HST|16670|MACSJ0019.0-2026"
+  ],
+  "type": "Galaxy cluster",
+  "aliases": [
+    "MACS J0019.0-2026",
+    "MACSJ0019.0-2026",
+    "galaxy cluster",
+    "gravitational lens",
+    "cluster of galaxies"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A massive galaxy cluster acts like a gargantuan magnifying glass, its gravity stretching the galaxies around it into arcs.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "SPT-CL J0019-2026 is a massive galaxy cluster",
+        "source": "https://esahubble.org/images/potw2308a/"
+      },
+      {
+        "text": "Galaxies around the cluster are stretched into arcs by gravitational lensing, as if by a gargantuan magnifying glass",
+        "source": "https://esahubble.org/images/potw2308a/"
+      },
+      {
+        "text": "MACSJ0019.0-2026 is a rich cluster of galaxies targeted by Hubble program 16670 at RA 00 19 07.94, Dec -20 26 28.80",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/16670/"
+      }
+    ]
+  }
+}

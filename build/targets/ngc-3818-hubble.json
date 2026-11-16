@@ -1,0 +1,36 @@
+{
+  "id": "ngc-3818-hubble",
+  "name": "NGC 3818 (Hubble)",
+  "blurb": "NGC 3818, an elliptical galaxy, seen by Hubble.",
+  "label": "ngc3818-hubble",
+  "spec": "HST|NGC3818|10554|ACS/WFC|ngc3818-hubble",
+  "find": [
+    "HST|10554|NGC3818"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "NGC3818",
+    "elliptical galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "NGC 3818 is a low-luminosity elliptical galaxy living far from crowded galaxy clusters. Hubble surveyed the globular star clusters that swarm around it, ancient fossils that record when and how its stars were made.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "NGC 3818 was a target of Hubble program 10554 on globular cluster systems of low-luminosity elliptical galaxies in low-density environments",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/10554/"
+      },
+      {
+        "text": "Globular cluster populations probe a galaxy's star formation and metal enrichment history",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/10554/"
+      }
+    ]
+  }
+}

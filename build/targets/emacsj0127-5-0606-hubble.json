@@ -1,0 +1,46 @@
+{
+  "id": "emacsj0127-5-0606-hubble",
+  "name": "eMACS J0127.5-0606 (Hubble)",
+  "blurb": "eMACS J0127.5-0606, a massive galaxy cluster, seen by Hubble.",
+  "label": "emacsj012750606-hubble",
+  "spec": "HST|EMACSJ0127.5-0606|15843|WFC3/IR|emacsj012750606-hubble",
+  "find": [
+    "HST|15843|EMACSJ0127.5-0606"
+  ],
+  "type": "Galaxy cluster",
+  "aliases": [
+    "eMACSJ0127.5-0606",
+    "EMACSJ0127.5-0606",
+    "eMACS",
+    "galaxy cluster",
+    "cluster of galaxies"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A great crowd of galaxies, this very massive cluster was found by an X-ray survey built on ROSAT All-Sky Survey data. Astronomers search Hubble pictures of clusters like this one for strong gravitational lensing.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "eMACS J0127.5-0606 is in the eMACS sample of galaxy clusters",
+        "source": "https://arxiv.org/html/2404.11659v1"
+      },
+      {
+        "text": "eMACS clusters are highly X-ray luminous, very massive clusters",
+        "source": "https://arxiv.org/html/2404.11659v1"
+      },
+      {
+        "text": "eMACS is an X-ray survey based on ROSAT All-Sky Survey data",
+        "source": "https://arxiv.org/html/2404.11659v1"
+      },
+      {
+        "text": "HST imaging of eMACS clusters is used to detect strong gravitational lensing",
+        "source": "https://arxiv.org/html/2404.11659v1"
+      }
+    ]
+  }
+}

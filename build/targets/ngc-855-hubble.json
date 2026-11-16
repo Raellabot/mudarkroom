@@ -1,0 +1,41 @@
+{
+  "id": "ngc-855-hubble",
+  "name": "NGC 855 (Hubble)",
+  "blurb": "NGC 855, a dwarf elliptical galaxy, seen by Hubble.",
+  "label": "ngc855-hubble",
+  "spec": "HST|NGC855|12591|ACS/WFC|ngc855-hubble",
+  "find": [
+    "HST|12591|NGC855"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "dwarf elliptical galaxy",
+    "elliptical galaxy",
+    "dwarf galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A small elliptical galaxy that is still forming stars at its center, activity perhaps set off by a minor merger. Hubble looked here for a dense cluster of stars at the galaxy's heart.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "NGC 855 is a dwarf elliptical galaxy",
+        "source": "https://ui.adsabs.harvard.edu/abs/2007ChJAA...7..764L"
+      },
+      {
+        "text": "It has star formation in its center, possibly triggered by a minor merger",
+        "source": "https://ui.adsabs.harvard.edu/abs/2007ChJAA...7..764L"
+      },
+      {
+        "text": "Hubble imaged it to look for a nuclear star cluster",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/12591/"
+      }
+    ]
+  }
+}

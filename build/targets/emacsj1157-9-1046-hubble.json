@@ -1,0 +1,46 @@
+{
+  "id": "emacsj1157-9-1046-hubble",
+  "name": "eMACS J1157.9-1046 (Hubble)",
+  "blurb": "eMACS J1157.9-1046, a massive galaxy cluster, seen by Hubble.",
+  "label": "emacsj115791046-hubble",
+  "spec": "HST|EMACSJ1157.9-1046|15132|WFC3/IR|emacsj115791046-hubble",
+  "find": [
+    "HST|15132|EMACSJ1157.9-1046"
+  ],
+  "type": "Galaxy cluster",
+  "aliases": [
+    "eMACSJ1157.9-1046",
+    "eMACS J1157.9",
+    "galaxy cluster",
+    "massive galaxy cluster",
+    "gravitational lens"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Glowing brightly in X-rays, this crowd of galaxies is extremely disturbed, far from settled. Its gravity is strong enough to bend the light of more distant galaxies into multiple images.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "eMACS J1157.9-1046 is a cluster of galaxies targeted by the eMACS snapshot survey of extremely massive clusters",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15132/"
+      },
+      {
+        "text": "eMACS clusters are highly X-ray luminous galaxy clusters, and eMACS J1157.9-1046 is one of them",
+        "source": "https://arxiv.org/html/2404.11659v1"
+      },
+      {
+        "text": "eMACS J1157.9-1046 is extremely disturbed",
+        "source": "https://arxiv.org/html/2404.11659v1"
+      },
+      {
+        "text": "Its gravity produces multiple images of background galaxies (strong lensing)",
+        "source": "https://arxiv.org/html/2404.11659v1"
+      }
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": "fcc-255-hubble",
+  "name": "FCC 255 (Hubble)",
+  "blurb": "FCC 255, an early-type galaxy in the Fornax Cluster, seen by Hubble.",
+  "label": "fcc255-hubble",
+  "spec": "HST|FCC255|10217|ACS/WFC|fcc255-hubble",
+  "find": [
+    "HST|10217|FCC255"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "FCC255",
+    "E358-G50",
+    "early-type galaxy",
+    "galaxy",
+    "Fornax Cluster"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "An early-type galaxy in the Fornax Cluster with a compact nucleus at its center. Hubble imaged it as one of 43 early-type galaxies in the ACS Fornax Cluster Survey.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "FCC 255 is an early-type galaxy in the ACS Fornax Cluster Survey sample, also listed as E358-G50",
+        "source": "https://arxiv.org/pdf/1208.0338"
+      },
+      {
+        "text": "FCC 255 is nucleated",
+        "source": "https://arxiv.org/pdf/1208.0338"
+      },
+      {
+        "text": "The ACS Fornax Cluster Survey imaged 43 early-type galaxies in Fornax with Hubble's ACS (GO program 10217)",
+        "source": "https://ar5iv.labs.arxiv.org/html/astro-ph/0702320"
+      }
+    ]
+  }
+}

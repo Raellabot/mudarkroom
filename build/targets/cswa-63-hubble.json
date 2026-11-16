@@ -1,0 +1,43 @@
+{
+  "id": "cswa-63-hubble",
+  "name": "CSWA63 (Hubble)",
+  "blurb": "CSWA63, an elliptical galaxy acting as a gravitational lens, seen by Hubble.",
+  "label": "cswa63-hubble",
+  "spec": "HST+HST|CSWA63+CSWA63|15253+15253|WFC3/IR+WFC3/UVIS|cswa63-hubble",
+  "find": [
+    "HST|15253|CSWA63"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "CSWA 63",
+    "gravitational lens",
+    "lens galaxy",
+    "Einstein ring",
+    "elliptical galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "An extremely massive elliptical galaxy whose gravity bends the light of more distant galaxies into an Einstein ring. Hubble looked here to study one of the extremely massive lens galaxies found in the SDSS.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "CSWA63 is an elliptical gravitational lens galaxy with an Einstein ring",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/list/15253/"
+      },
+      {
+        "text": "The program targets extremely massive early-type lens galaxies found in the SDSS",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15253/"
+      },
+      {
+        "text": "The lens galaxies have multiply-imaged background sources",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15253/"
+      }
+    ]
+  }
+}

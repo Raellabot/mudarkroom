@@ -1,0 +1,40 @@
+{
+  "id": "ugc-11651-hubble",
+  "name": "UGC 11651 (Hubble)",
+  "blurb": "UGC 11651, a spiral galaxy, seen by Hubble.",
+  "label": "ugc11651-hubble",
+  "spec": "HST|UGC-11651|10550|ACS/WFC|ugc11651-hubble",
+  "find": [
+    "HST|10550|UGC-11651"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "massive spiral galaxy",
+    "spiral galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "This massive spiral galaxy was once listed among the low surface brightness galaxies. Hubble searched it for globular clusters and turned up a high number of candidates.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "UGC 11651 is a massive spiral galaxy (type Sdm) in program GO-10550",
+        "source": "https://arxiv.org/pdf/0712.0515"
+      },
+      {
+        "text": "The sample galaxies were originally cataloged as low surface brightness galaxies",
+        "source": "https://arxiv.org/pdf/0712.0515"
+      },
+      {
+        "text": "UGC 11651 has a high number of globular cluster candidates",
+        "source": "https://arxiv.org/pdf/0712.0515"
+      }
+    ]
+  }
+}

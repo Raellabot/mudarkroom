@@ -1,0 +1,49 @@
+{
+  "id": "westphal-1-ir-hubble",
+  "name": "Westphal field 1 (Hubble)",
+  "blurb": "A deep field in the Westphal survey field toward distant star-forming galaxies, seen by Hubble.",
+  "label": "westphal1ir-hubble",
+  "spec": "HST|WESTPHAL-1-IR|15287|WFC3/IR|westphal1ir-hubble",
+  "find": [
+    "HST|15287|WESTPHAL-1-IR"
+  ],
+  "type": "Deep field",
+  "aliases": [
+    "WESTPHAL-1-IR",
+    "Westphal field",
+    "Westphal",
+    "KLCS",
+    "Keck Lyman Continuum Spectroscopic Survey",
+    "Lyman Break Galaxy field",
+    "deep field",
+    "distant galaxies"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "This field holds distant star-forming galaxies from a survey hunting for galaxies that leak ionizing light, the kind of light likely responsible for reionizing the universe. Hubble looked to sort true leakers from nearer galaxies that only mimic the signal.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "WESTPHAL-1-IR is a pointing of Hubble program 15287 in the Westphal Lyman Break Galaxy survey field",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15287/"
+      },
+      {
+        "text": "Escaping Lyman-continuum (ionizing) radiation from star-forming galaxies is likely responsible for reionization of the universe",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15287/"
+      },
+      {
+        "text": "Hubble imaging was needed to remove low-redshift contamination from apparent LyC detections",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15287/"
+      },
+      {
+        "text": "Westphal is one of the five Keck Lyman Continuum Spectroscopic Survey (KLCS) fields followed up by HST program 15287",
+        "source": "https://ar5iv.labs.arxiv.org/html/2202.00016"
+      }
+    ]
+  }
+}

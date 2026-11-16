@@ -1,0 +1,45 @@
+{
+  "id": "ugc-11861-hubble",
+  "name": "UGC 11861 (Hubble)",
+  "blurb": "UGC 11861, a barred spiral galaxy, seen by Hubble.",
+  "label": "ugc11861-hubble",
+  "spec": "HST|SN1995AG|17070|ACS/WFC|ugc11861-hubble",
+  "find": [
+    "HST|17070|SN1995AG"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "SN 1995ag",
+    "barred spiral galaxy",
+    "spiral galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A barred spiral galaxy where three supernovae have been spotted, the earlier two of them Type II explosions from the collapse of massive stars. Hubble returned to the site of SN 1995ag to study the stars around it.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "SN 1995ag, a Type II supernova, occurred in UGC 11861",
+        "source": "https://arxiv.org/pdf/0809.0236"
+      },
+      {
+        "text": "UGC 11861 is a barred spiral galaxy",
+        "source": "https://esahubble.org/images/potw2434a/"
+      },
+      {
+        "text": "Three supernovae have been spotted in and near UGC 11861; the earlier two were Type II, from the collapse of massive stars",
+        "source": "https://esahubble.org/images/potw2434a/"
+      },
+      {
+        "text": "Hubble targeted SN 1995ag in a snapshot program on Type II supernova sites, studying the surrounding stars",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/17070/"
+      }
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "id": "emacsj0325-4-0359-hubble",
+  "name": "eMACS J0325.4-0359 (Hubble)",
+  "blurb": "eMACS J0325.4-0359, a massive galaxy cluster, seen by Hubble.",
+  "label": "emacsj032540359-hubble",
+  "spec": "HST|EMACSJ0325.4-0359|15132|WFC3/IR|emacsj032540359-hubble",
+  "find": [
+    "HST|15132|EMACSJ0325.4-0359"
+  ],
+  "type": "Galaxy cluster",
+  "aliases": [
+    "eMACSJ0325.4-0359",
+    "EMACSJ0325.4-0359",
+    "galaxy cluster",
+    "cluster of galaxies"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A massive, distant cluster of galaxies, found by the extended Massive Cluster Survey in an X-ray map of the whole sky and caught in a quick Hubble snapshot. The snapshot survey hunts for the most powerful gravitational lenses, clusters whose gravity bends the light of galaxies far behind them.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "eMACS J0325.4-0359 is a massive, distant (high-redshift) galaxy cluster",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15132/"
+      },
+      {
+        "text": "It belongs to the eMACS sample, found by the extended Massive Cluster Survey in ROSAT All-Sky Survey X-ray data",
+        "source": "https://arxiv.org/html/2404.11659v1"
+      },
+      {
+        "text": "Hubble observed it in a snapshot program aimed at finding the most powerful gravitational lenses",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15132/"
+      }
+    ]
+  }
+}

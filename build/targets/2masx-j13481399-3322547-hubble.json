@@ -1,0 +1,47 @@
+{
+  "id": "2masx-j13481399-3322547-hubble",
+  "name": "2MASX J13481399-3322547 (Hubble)",
+  "blurb": "2MASX J13481399-3322547, the brightest galaxy of a galaxy cluster, seen by Hubble.",
+  "label": "2masxj134813993322547-hubble",
+  "spec": "HST|2MASXJ13481399-3322547|10429|ACS/WFC|2masxj134813993322547-hubble",
+  "find": [
+    "HST|10429|2MASXJ13481399-3322547"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "J13481399-3322547",
+    "brightest cluster galaxy",
+    "early-type galaxy",
+    "giant galaxy",
+    "galaxy",
+    "Shapley Supercluster"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "This giant galaxy is one of the brightest cluster galaxies Hubble imaged to measure how fast galaxies fall toward the Shapley Supercluster. Astronomers have since used the same images to count the globular clusters swarming around it.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "J13481399-3322547 is in the sample of HST program 10429 brightest cluster galaxies",
+        "source": "https://arxiv.org/html/2304.11210v1"
+      },
+      {
+        "text": "Program 10429 images were taken to measure infall velocities within the Shapley Supercluster",
+        "source": "https://arxiv.org/html/2304.11210v1"
+      },
+      {
+        "text": "The sample galaxies are giant, massive early-type galaxies",
+        "source": "https://arxiv.org/html/2304.11210v1"
+      },
+      {
+        "text": "Its globular cluster system was studied in these Hubble images",
+        "source": "https://arxiv.org/html/2304.11210v1"
+      }
+    ]
+  }
+}

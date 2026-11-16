@@ -1,0 +1,41 @@
+{
+  "id": "sdf25-hubble",
+  "name": "SDF25 field (Hubble)",
+  "blurb": "A deep field toward distant galaxies in the Subaru Deep Field, seen by Hubble.",
+  "label": "sdf25-hubble",
+  "spec": "HST|SDF25|12616|WFC3/IR|sdf25-hubble",
+  "find": [
+    "HST|12616|SDF25"
+  ],
+  "type": "Deep field",
+  "aliases": [
+    "SDF25",
+    "Subaru Deep Field",
+    "deep field",
+    "distant galaxies"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "This patch of the Subaru Deep Field was chosen so that one Hubble view would catch several of the most distant spectroscopically confirmed galaxies there, faint specks from the era of early galaxy formation. Hubble measured their light to help estimate their ages and stellar masses.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "SDF25 is a target of HST program 12616, 'Near-IR Imaging of the Most Distant Spectroscopically-Confirmed Galaxies in the Subaru Deep Field'",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/12616/"
+      },
+      {
+        "text": "The program images spectroscopically confirmed galaxies at redshifts 5.7 to 7 in the Subaru Deep Field to estimate ages and stellar masses and study early galaxy formation",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/12616/"
+      },
+      {
+        "text": "Pointings were chosen to cover several galaxies each (at least 3, up to 5)",
+        "source": "https://ar5iv.arxiv.org/html/1303.0024"
+      }
+    ]
+  }
+}

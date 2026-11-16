@@ -1,0 +1,49 @@
+{
+  "id": "ngc-3501-hubble",
+  "name": "NGC 3501 (Hubble)",
+  "blurb": "NGC 3501, an edge-on spiral galaxy, seen by Hubble.",
+  "label": "ngc3501-hubble",
+  "spec": "HST|NGC3501|9765|ACS/WFC|ngc3501-hubble",
+  "find": [
+    "HST|9765|NGC3501"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "spiral galaxy",
+    "edge-on galaxy",
+    "edge-on spiral",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Seen edge-on, this spiral galaxy is a narrow slice of stars, mottled by the dust lanes that trace across it. Its loosely wound arms all spring from its center, with no bar.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "NGC 3501 is a spiral galaxy",
+        "source": "https://esahubble.org/images/potw1429a/"
+      },
+      {
+        "text": "NGC 3501 appears edge-on, elongated and very narrow",
+        "source": "https://esahubble.org/images/potw1429a/"
+      },
+      {
+        "text": "Dust lanes trace across the galaxy",
+        "source": "https://esahubble.org/images/potw1429a/"
+      },
+      {
+        "text": "Its loosely wound arms originate from its center, with no bar",
+        "source": "https://esahubble.org/images/potw1429a/"
+      },
+      {
+        "text": "ESA/Hubble titled its image of NGC 3501 \"A slice of stars\"",
+        "source": "https://esahubble.org/images/potw1429a/"
+      }
+    ]
+  }
+}

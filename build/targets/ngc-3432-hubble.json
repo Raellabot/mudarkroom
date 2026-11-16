@@ -1,0 +1,45 @@
+{
+  "id": "ngc-3432-hubble",
+  "name": "NGC 3432 (Hubble)",
+  "blurb": "NGC 3432, an edge-on spiral galaxy, seen by Hubble.",
+  "label": "ngc3432-hubble",
+  "spec": "HST|NGC-3432|15922|ACS/WFC|ngc3432-hubble",
+  "find": [
+    "HST|15922|NGC-3432"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "PGC32643",
+    "spiral galaxy",
+    "edge-on galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "We see this spiral galaxy from the side, so its arms and bright core are hidden and only the thin strip of its outer reaches shows, marked by dark bands of dust and regions of star formation. Hubble imaged it in a survey of every known nearby galaxy.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "NGC 3432 is a spiral galaxy seen directly edge-on",
+        "source": "https://esahubble.org/images/potw1930a/"
+      },
+      {
+        "text": "Its spiral arms and bright core are hidden; we see the thin strip of its outer reaches, with dark dust bands and star-forming regions",
+        "source": "https://esahubble.org/images/potw1930a/"
+      },
+      {
+        "text": "Same description on NASA's page",
+        "source": "https://science.nasa.gov/missions/hubble/hubble-traces-a-galaxys-outer-reaches"
+      },
+      {
+        "text": "NGC-3432 (alt name PGC32643) is a target of HST program 15922 'Every Known Nearby Galaxy'",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15922/"
+      }
+    ]
+  }
+}

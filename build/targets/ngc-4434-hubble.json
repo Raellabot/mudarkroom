@@ -1,0 +1,39 @@
+{
+  "id": "ngc-4434-hubble",
+  "name": "NGC 4434 (Hubble)",
+  "blurb": "NGC 4434, an early-type galaxy in the Virgo Cluster, seen by Hubble.",
+  "label": "ngc4434-hubble",
+  "spec": "HST|VCC1025|9401|ACS/WFC|ngc4434-hubble",
+  "find": [
+    "HST|9401|VCC1025"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "VCC 1025",
+    "early-type galaxy",
+    "elliptical galaxy",
+    "lenticular galaxy",
+    "Virgo Cluster",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "An early-type galaxy, cataloged as elliptical or lenticular, among the crowds of the Virgo Cluster. Hubble imaged it as one of 100 early-type galaxies in the ACS Virgo Cluster Survey.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "VCC 1025 is NGC 4434, an E0/S0 early-type galaxy in the Virgo Cluster",
+        "source": "https://arxiv.org/pdf/astro-ph/0404138"
+      },
+      {
+        "text": "The ACS Virgo Cluster Survey imaged 100 early-type galaxies in the Virgo Cluster",
+        "source": "https://arxiv.org/pdf/astro-ph/0404138"
+      }
+    ]
+  }
+}

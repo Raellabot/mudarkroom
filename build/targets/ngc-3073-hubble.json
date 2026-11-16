@@ -1,0 +1,41 @@
+{
+  "id": "ngc-3073-hubble",
+  "name": "NGC 3073 (Hubble)",
+  "blurb": "NGC 3073, a dwarf lenticular galaxy, seen by Hubble.",
+  "label": "ngc3073-hubble",
+  "spec": "HST|NGC3073|10554|ACS/WFC|ngc3073-hubble",
+  "find": [
+    "HST|10554|NGC3073"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "dwarf lenticular galaxy",
+    "lenticular galaxy",
+    "S0 galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A small lenticular galaxy beside the starburst spiral NGC 3079, which seems to be shaping it from afar. A wind driven by its big neighbor's starburst appears to be stripping its hydrogen gas into a cometary tail.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "NGC 3073 is a dwarf S0 (lenticular) galaxy and a companion of NGC 3079",
+        "source": "https://ar5iv.arxiv.org/html/1509.00350"
+      },
+      {
+        "text": "Its cometary hydrogen tail is likely caused by ram-pressure stripping by NGC 3079's starburst-driven wind",
+        "source": "https://ar5iv.arxiv.org/html/1509.00350"
+      },
+      {
+        "text": "Hubble imaged it in a program on globular clusters of low-luminosity elliptical galaxies in low-density environments",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/10554/"
+      }
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "id": "eso-384-016-hubble",
+  "name": "ESO 384-016 (Hubble)",
+  "blurb": "ESO 384-016, a dwarf galaxy in the Centaurus A Group, seen by Hubble.",
+  "label": "eso384016-hubble",
+  "spec": "HST|E384-016|10235|ACS/WFC|eso384016-hubble",
+  "find": [
+    "HST|10235|E384-016"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "ESO 384-G016",
+    "ESO384-016",
+    "dwarf galaxy",
+    "dwarf lenticular galaxy",
+    "transition dwarf",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A quiet dwarf galaxy that still holds cold gas but shows no active star formation, caught between the two main kinds of dwarf galaxy. Hubble visited it to measure distances across the Centaurus A and M83 galaxy complex and weigh the dark matter that binds it.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "ESO 384-016 is a dwarf S0 (dS0) galaxy in the Centaurus A Group",
+        "source": "https://arxiv.org/abs/astro-ph/0509770"
+      },
+      {
+        "text": "ESO 384-G016 is a transition dwarf (cold gas, no active star formation) in the Centaurus A Group",
+        "source": "https://arxiv.org/pdf/0911.3879"
+      },
+      {
+        "text": "Alias ESO 384-G016",
+        "source": "https://arxiv.org/pdf/0911.3879"
+      },
+      {
+        "text": "E384-016 is a target of HST program 10235, 'Dark vs. luminous matter in the CenA/M83 galaxy complex', which measures TRGB distances to members to constrain the halo around Cen A",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/list/10235/"
+      }
+    ]
+  }
+}

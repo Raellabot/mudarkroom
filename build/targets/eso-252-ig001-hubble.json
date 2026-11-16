@@ -1,0 +1,50 @@
+{
+  "id": "eso-252-ig001-hubble",
+  "name": "ESO 252-IG001 (Hubble)",
+  "blurb": "ESO 252-IG001, a nearby dwarf irregular galaxy, seen by Hubble.",
+  "label": "eso252ig001-hubble",
+  "spec": "HST|ESO252-001|12546|ACS/WFC|eso252ig001-hubble",
+  "find": [
+    "HST|12546|ESO252-001"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "ESO 252-IG001",
+    "ESO252-IG001",
+    "ESO 252-IG001 NED01",
+    "ESO252-001",
+    "HIPASS J0457-42",
+    "dwarf irregular galaxy",
+    "dwarf galaxy",
+    "irregular galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "What looks like a pair of interacting galaxies is really two galaxies seen in projection: a nearby dwarf irregular in front and a much more distant, nearly edge-on galaxy behind it. Hubble looked here to measure the dwarf's distance from the brightest of its red giant stars.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "HIPASS J0457-42 (ESO 252-IG001 NED01) is a nearby dwarf irregular galaxy, the western member of the apparent pair ESO 252-IG001",
+        "source": "https://www.atnf.csiro.au/research/LVHIS/data/LVHIS019.info.html"
+      },
+      {
+        "text": "ESO 252-IG001 looks like an interacting pair but is two galaxies viewed in projection, with HIPASS J0457-42 in the foreground",
+        "source": "https://www.atnf.csiro.au/research/LVHIS/eso252-ig001"
+      },
+      {
+        "text": "The eastern galaxy of the pair is nearly edge-on, much more distant and not a companion",
+        "source": "https://www.atnf.csiro.au/research/LVHIS/data/LVHIS019.info.html"
+      },
+      {
+        "text": "ESO252-001 was a target of Hubble program 12546, which measures distances to nearby galaxies from the tip of the red giant branch",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/12546/"
+      }
+    ]
+  }
+}

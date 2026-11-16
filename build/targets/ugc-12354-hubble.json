@@ -1,0 +1,46 @@
+{
+  "id": "ugc-12354-hubble",
+  "name": "UGC 12354 (Hubble)",
+  "blurb": "UGC 12354, the galaxy that hosted the Type II supernova SN 2021tyw, seen by Hubble.",
+  "label": "ugc12354-hubble",
+  "spec": "HST|SN2021TYW|17070|ACS/WFC|ugc12354-hubble",
+  "find": [
+    "HST|17070|SN2021TYW"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "UGC12354",
+    "SN 2021tyw",
+    "SN2021tyw",
+    "supernova host galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A massive star exploded in this galaxy as SN 2021tyw, a Type II supernova whose early spectra showed the fleeting flash features of gas lit up around the dying star. Hubble returned to study the stars around the blast site and look for late-time glow.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-16",
+    "claims": [
+      {
+        "text": "The host galaxy of SN 2021tyw is UGC 12354",
+        "source": "https://arxiv.org/html/2602.03638v1"
+      },
+      {
+        "text": "SN 2021tyw is a Type II supernova (SN II)",
+        "source": "https://blast.scimma.org/transients/2021tyw"
+      },
+      {
+        "text": "SN 2021tyw showed flash-ionization features in its spectra",
+        "source": "https://arxiv.org/html/2610.23852"
+      },
+      {
+        "text": "Hubble program 17070 imaged SN 2021tyw to resolve the stars around Type II supernovae and look for late-time emission",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/17070/"
+      }
+    ]
+  }
+}
