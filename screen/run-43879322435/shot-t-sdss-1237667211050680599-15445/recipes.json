@@ -1,0 +1,47 @@
+[
+ {
+  "picture": "t-sdss-1237667211050680599-15445-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "SDSS-1237667211050680599",
+  "proposal_id": "15445",
+  "instrument": "ACS/WFC",
+  "title": "Gems of the Galaxy Zoos",
+  "grid": {
+   "width": 1053,
+   "height": 1059,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.19999999999999615,
+   "reference_filter": "F850LP"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F555W",
+    "center_nm": 545.0,
+    "color": "#2699ff",
+    "obs_id": "jds42xqmq",
+    "exposure_s": 337,
+    "product": "mast:HST/product/jds42xqmq_drz.fits"
+   },
+   {
+    "filter": "F850LP",
+    "center_nm": 895.0,
+    "color": "#ffa626",
+    "obs_id": "jds42xqnq",
+    "exposure_s": 337,
+    "product": "mast:HST/product/jds42xqnq_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

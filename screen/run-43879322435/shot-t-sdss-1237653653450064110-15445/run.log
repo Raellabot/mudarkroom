@@ -1,0 +1,13 @@
+[     0s] == t-sdss-1237653653450064110-15445: 2 filters: ['F555W', 'F850LP']
+[     1s] F555W: 4211x4239 px at 0.0500 arcsec/px, 214 MB
+[     2s] F850LP: 4207x4242 px at 0.0500 arcsec/px, 214 MB
+[     2s] grid from F555W: 1052x1059 px (reduced 4x), 0.200 arcsec/px
+[   283s] downloaded jds42nvwq_drz.fits: 214 MB
+[   283s] F555W: aligned (reduced 4x), covers 92% of the grid
+[   350s] downloaded jds42nvxq_drz.fits: 214 MB
+[   350s] F850LP: aligned (reduced 3x), covers 92% of the grid
+[   350s] t-sdss-1237653653450064110-15445: finishing steps applied: ['dense']
+[   350s] cropped to 967x985 px where 2 of 2 filters have data
+/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/astropy/visualization/lupton_rgb.py:645: RuntimeWarning: invalid value encountered in divide
+  fInorm = np.where(Int <= 0, 0, np.true_divide(fI, Int))
+[   351s] done: 1 pictures

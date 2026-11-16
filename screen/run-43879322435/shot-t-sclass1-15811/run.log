@@ -1,0 +1,3 @@
+[     0s] == t-sclass1-15811: 2 filters: ['F814W', 'F140W']
+[     0s] t-sclass1-15811 failed: could not read the header of mast:HST/product/je3902010_drz.fits without downloading it
+[     0s] done: 0 pictures

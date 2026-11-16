@@ -1,0 +1,47 @@
+[
+ {
+  "picture": "t-ps1-12bwl-13729-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST+HST",
+  "target": "PS1-12BWL+PS1-12BWL",
+  "proposal_id": "13729+13729",
+  "instrument": "WFC3/IR+WFC3/UVIS",
+  "title": "Slow-blue PanSTARRS transients : high amplification microlens events?",
+  "grid": {
+   "width": 549,
+   "height": 488,
+   "reduction": 1,
+   "arcsec_per_pixel": 0.1282500028610225,
+   "reference_filter": "F125W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F475X",
+    "center_nm": 513.9,
+    "color": "#2699ff",
+    "obs_id": "ick501020",
+    "exposure_s": 1200,
+    "product": "mast:HST/product/ick501020_drz.fits"
+   },
+   {
+    "filter": "F125W",
+    "center_nm": 1249.0,
+    "color": "#ffa626",
+    "obs_id": "ick501010",
+    "exposure_s": 330.38852,
+    "product": "mast:HST/product/ick501010_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

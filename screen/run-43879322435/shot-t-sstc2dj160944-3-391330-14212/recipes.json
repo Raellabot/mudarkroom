@@ -1,0 +1,47 @@
+[
+ {
+  "picture": "t-sstc2dj160944-3-391330-14212-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "SSTC2DJ160944.3-391330",
+  "proposal_id": "14212",
+  "instrument": "ACS/WFC",
+  "title": null,
+  "grid": {
+   "width": 1117,
+   "height": 1111,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.19999999999999296,
+   "reference_filter": "F606W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F606W",
+    "center_nm": 595.0,
+    "color": "#2699ff",
+    "obs_id": "hst_14212_66_acs_wfc_f606w_jczf66",
+    "exposure_s": 715,
+    "product": "mast:HST/product/hst_14212_66_acs_wfc_f606w_jczf66_drc.fits"
+   },
+   {
+    "filter": "F814W",
+    "center_nm": 833.5,
+    "color": "#ffa626",
+    "obs_id": "jczf66010",
+    "exposure_s": 121,
+    "product": "mast:HST/product/jczf66010_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

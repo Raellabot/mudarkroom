@@ -1,0 +1,47 @@
+[
+ {
+  "picture": "t-lr-tra-12215-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "LR-TRA",
+  "proposal_id": "12215",
+  "instrument": "WFC3/UVIS",
+  "title": "Searching for the Missing Low-Mass Companions of Massive Stars",
+  "grid": {
+   "width": 1035,
+   "height": 1092,
+   "reduction": 1,
+   "arcsec_per_pixel": 0.03962000086903557,
+   "reference_filter": "F621M"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F621M",
+    "center_nm": 621.5,
+    "color": "#2699ff",
+    "obs_id": "ibg465010",
+    "exposure_s": 19,
+    "product": "mast:HST/product/ibg465010_drz.fits"
+   },
+   {
+    "filter": "F845M",
+    "center_nm": 846.0,
+    "color": "#ffa626",
+    "obs_id": "ibg465020",
+    "exposure_s": 48,
+    "product": "mast:HST/product/ibg465020_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

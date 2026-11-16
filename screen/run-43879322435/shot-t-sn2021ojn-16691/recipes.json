@@ -1,0 +1,47 @@
+[
+ {
+  "picture": "t-sn2021ojn-16691-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "SN2021OJN",
+  "proposal_id": "16691",
+  "instrument": "WFC3/UVIS",
+  "title": "Snapshot Observations of Nearby, Recent Transients and Their Environments",
+  "grid": {
+   "width": 1032,
+   "height": 1097,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.1584799999999993,
+   "reference_filter": "F555W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F555W",
+    "center_nm": 550.4,
+    "color": "#2699ff",
+    "obs_id": "ierg62020",
+    "exposure_s": 710,
+    "product": "mast:HST/product/ierg62020_drz.fits"
+   },
+   {
+    "filter": "F814W",
+    "center_nm": 831.9,
+    "color": "#ffa626",
+    "obs_id": "ierg62010",
+    "exposure_s": 780,
+    "product": "mast:HST/product/ierg62010_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

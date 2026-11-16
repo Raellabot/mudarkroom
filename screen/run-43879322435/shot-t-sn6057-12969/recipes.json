@@ -1,0 +1,47 @@
+[
+ {
+  "picture": "t-sn6057-12969-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "SN6057",
+  "proposal_id": "12969",
+  "instrument": "ACS/WFC",
+  "title": "Global Properties Are Not Enough: Probing the Local Environments of Type Ia Supernovae",
+  "grid": {
+   "width": 1065,
+   "height": 1066,
+   "reduction": 2,
+   "arcsec_per_pixel": 0.09999999999999708,
+   "reference_filter": "F475W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F475W",
+    "center_nm": 470.0,
+    "color": "#2699ff",
+    "obs_id": "jc2w16010",
+    "exposure_s": 360,
+    "product": "mast:HST/product/jc2w16010_drz.fits"
+   },
+   {
+    "filter": "F625W",
+    "center_nm": 625.0,
+    "color": "#ffa626",
+    "obs_id": "jc2w16020",
+    "exposure_s": 360,
+    "product": "mast:HST/product/jc2w16020_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

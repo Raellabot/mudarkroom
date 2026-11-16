@@ -1,0 +1,47 @@
+[
+ {
+  "picture": "t-desi-066-3585-16-5116-18085-stsci-n50.jpg",
+  "palette": "stsci",
+  "collection": "HST",
+  "target": "DESI-066.3585-16.5116",
+  "proposal_id": "18085",
+  "instrument": "WFC3/UVIS",
+  "title": "Confirming Spectroscopic Strong Lenses Found in New Discovery Windows from DESI DR1",
+  "grid": {
+   "width": 1032,
+   "height": 1097,
+   "reduction": 4,
+   "arcsec_per_pixel": 0.1584799999999929,
+   "reference_filter": "F814W"
+  },
+  "xray": null,
+  "stretch": 0.25,
+  "q": 8.0,
+  "flipped_upright": true,
+  "brightness_exponent": 0.5,
+  "variant": "base",
+  "filters": [
+   {
+    "filter": "F606W",
+    "center_nm": 594.0,
+    "color": "#2699ff",
+    "obs_id": "ifpi31020",
+    "exposure_s": 696,
+    "product": "mast:HST/product/ifpi31020_drz.fits"
+   },
+   {
+    "filter": "F814W",
+    "center_nm": 831.9,
+    "color": "#ffa626",
+    "obs_id": "ifpi31010",
+    "exposure_s": 696,
+    "product": "mast:HST/product/ifpi31010_drz.fits"
+   }
+  ],
+  "black_percentile": 50.0,
+  "finishing": {
+   "dense": 0.97
+  },
+  "method": "level-3 mosaics reduced to one grid by sky coordinates; black point at the given percentile of each filter (1 keeps sky haze), no flattening; each filter scaled to its 99.7th percentile then weighted by (top/largest top)^(1-exponent); hues by rank in wavelength order; Lupton asinh stretch"
+ }
+]

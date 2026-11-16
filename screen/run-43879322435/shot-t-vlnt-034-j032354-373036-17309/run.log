@@ -1,0 +1,13 @@
+[     0s] == t-vlnt-034-j032354-373036-17309: 2 filters: ['F435W', 'F775W']
+[     0s] F435W: 2136x2081 px at 0.0500 arcsec/px, 53 MB
+[     0s] F775W: 2128x2078 px at 0.0500 arcsec/px, 53 MB
+[     0s] grid from F435W: 1068x1040 px (reduced 2x), 0.100 arcsec/px
+[     1s] downloaded jf509w010_drz.fits: 53 MB
+[     2s] F435W: aligned (reduced 2x), covers 93% of the grid
+[     2s] downloaded jf509w020_drz.fits: 53 MB
+[     2s] F775W: aligned (reduced 2x), covers 92% of the grid
+[     3s] t-vlnt-034-j032354-373036-17309: finishing steps applied: ['dense']
+[     3s] cropped to 989x965 px where 2 of 2 filters have data
+/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/astropy/visualization/lupton_rgb.py:645: RuntimeWarning: invalid value encountered in divide
+  fInorm = np.where(Int <= 0, 0, np.true_divide(fI, Int))
+[     3s] done: 1 pictures

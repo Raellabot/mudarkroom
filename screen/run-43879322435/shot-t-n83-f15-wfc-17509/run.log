@@ -1,0 +1,3 @@
+[     0s] == t-n83-f15-wfc-17509: 2 filters: ['F475W', 'F814W']
+[     0s] t-n83-f15-wfc-17509 failed: could not read the header of mast:HST/product/jf9e13020_drz.fits without downloading it
+[     0s] done: 0 pictures

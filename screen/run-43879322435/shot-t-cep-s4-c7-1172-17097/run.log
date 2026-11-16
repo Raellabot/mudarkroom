@@ -1,0 +1,5 @@
+[     0s] == t-cep-s4-c7-1172-17097: 2 filters: ['F555W', 'F814W']
+[     0s] F555W: 18151x9796 px at 0.0396 arcsec/px, 2134 MB
+[     0s] F814W: file is 4.0 GB, over the 3.0 GB cap; this filter is left out
+[     0s] t-cep-s4-c7-1172-17097 failed: fewer than 2 filters can be used
+[     0s] done: 0 pictures
