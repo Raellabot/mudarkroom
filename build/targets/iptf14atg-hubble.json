@@ -1,0 +1,39 @@
+{
+  "id": "iptf14atg-hubble",
+  "name": "IC 831, iPTF14atg field (Hubble)",
+  "blurb": "IC 831, an elliptical galaxy that hosted the supernova iPTF14atg, seen by Hubble.",
+  "label": "iptf14atg-hubble",
+  "spec": "HST|IPTF14ATG|15166|WFC3/UVIS|iptf14atg-hubble",
+  "find": [
+    "HST|15166|IPTF14ATG"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "iPTF14atg",
+    "IC 831",
+    "elliptical galaxy",
+    "galaxy",
+    "supernova",
+    "Type Ia supernova"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "In this galaxy, the faint Type Ia supernova iPTF14atg gave off a strong early pulse of light in its first days, which astronomers traced to the blast striking a companion star. Hubble returned to the site long after the supernova had faded.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "iPTF14atg appeared in the galaxy IC 831, which is classified as an elliptical (or S0) galaxy",
+        "source": "https://arxiv.org/pdf/1505.05158"
+      },
+      {
+        "text": "iPTF14atg is a subluminous Type Ia supernova that showed a strong ultraviolet pulse early on, attributed to the ejecta colliding with a companion star",
+        "source": "https://arxiv.org/pdf/1505.05158"
+      }
+    ]
+  }
+}

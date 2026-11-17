@@ -1,0 +1,42 @@
+{
+  "id": "andromeda-iii-hubble",
+  "name": "Andromeda III (Hubble)",
+  "blurb": "Andromeda III, a dwarf spheroidal satellite of the Andromeda Galaxy, seen by Hubble.",
+  "label": "andromedaiii-hubble",
+  "spec": "HST|ANDROMEDA-III|13739|ACS/WFC|andromedaiii-hubble",
+  "find": [
+    "HST|13739|ANDROMEDA-III"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "And III",
+    "dwarf spheroidal galaxy",
+    "dwarf galaxy",
+    "satellite galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Hubble resolved this faint companion of the Andromeda Galaxy into individual stars to read its history. Andromeda III formed most of its stars earlier than the other satellites in the study.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "Andromeda III is a dwarf spheroidal satellite of the Andromeda Galaxy",
+        "source": "https://arxiv.org/pdf/1606.01207"
+      },
+      {
+        "text": "Hubble obtained deep color-magnitude diagrams of its stars to trace its star formation history",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/13739/"
+      },
+      {
+        "text": "Andromeda III formed most of its stars much earlier than the other galaxies in the study",
+        "source": "https://arxiv.org/pdf/1606.01207"
+      }
+    ]
+  }
+}

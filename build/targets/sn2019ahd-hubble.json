@@ -1,0 +1,52 @@
+{
+  "id": "sn2019ahd-hubble",
+  "name": "NGC 3423, AT 2019ahd field (Hubble)",
+  "blurb": "NGC 3423, a spiral galaxy that hosted the stellar outburst AT 2019ahd, seen by Hubble.",
+  "label": "sn2019ahd-hubble",
+  "spec": "HST|SN2019AHD|16239|WFC3/UVIS|sn2019ahd-hubble",
+  "find": [
+    "HST|16239|SN2019AHD"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "AT 2019ahd",
+    "SN 2019ahd",
+    "intermediate-luminosity red transient",
+    "ILRT",
+    "NGC 3423",
+    "spiral galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "In 2019 a star in this spiral galaxy flared up as AT 2019ahd, first taken for a luminous blue variable and later shown to be an intermediate-luminosity red transient. Hubble looked back at the site of the outburst.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "AT 2019ahd lies in the spiral galaxy NGC 3423",
+        "source": "https://ar5iv.labs.arxiv.org/html/2407.21671"
+      },
+      {
+        "text": "AT 2019ahd was initially classified as a luminous blue variable and later shown to be an intermediate-luminosity red transient (ILRT)",
+        "source": "https://ar5iv.labs.arxiv.org/html/2407.21671"
+      },
+      {
+        "text": "AT 2019ahd was discovered in 2019 (ATLAS)",
+        "source": "https://ar5iv.labs.arxiv.org/html/2407.21671"
+      },
+      {
+        "text": "Blast lists 2019ahd as LBV in host NGC3423 at the program's pointing",
+        "source": "https://blast.scimma.org/transients/2019ahd/"
+      },
+      {
+        "text": "SN2019AHD is a target of Hubble program 16239 on nearby, recent supernovae",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/16239/"
+      }
+    ]
+  }
+}

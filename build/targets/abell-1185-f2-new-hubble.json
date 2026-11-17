@@ -1,0 +1,39 @@
+{
+  "id": "abell-1185-f2-new-hubble",
+  "name": "Abell 1185, field 2 (Hubble)",
+  "blurb": "Abell 1185, a crowded galaxy cluster, seen by Hubble.",
+  "label": "abell1185f2new-hubble",
+  "spec": "HST|ABELL-1185-F2-NEW|17212|WFC3/UVIS|abell1185f2new-hubble",
+  "find": [
+    "HST|17212|ABELL-1185-F2-NEW"
+  ],
+  "type": "Galaxy cluster",
+  "aliases": [
+    "ABELL-1185-F2-NEW",
+    "galaxy cluster"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Abell 1185 is a chaotic cluster of at least 82 galaxies, many of them interacting, with globular clusters wandering between the galaxies. This is one of the tiles Hubble used to watch a young cluster still assembling, and how stars form in and between its galaxies.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "Abell 1185 is a chaotic galaxy cluster of at least 82 galaxies, many of them interacting",
+        "source": "https://science.nasa.gov/centers-and-facilities/goddard/hubble-jams-with-a-cosmic-guitar/"
+      },
+      {
+        "text": "Abell 1185 has wandering globular clusters not attached to any particular galaxy",
+        "source": "https://science.nasa.gov/centers-and-facilities/goddard/hubble-jams-with-a-cosmic-guitar/"
+      },
+      {
+        "text": "Hubble program 17212 surveys Abell 1185, a nearby rich cluster still assembling, to study galactic and intergalactic stellar populations; F2-NEW is one of its fields",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/17212/"
+      }
+    ]
+  }
+}

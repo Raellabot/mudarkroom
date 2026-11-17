@@ -1,0 +1,59 @@
+{
+  "id": "h-6-hubble",
+  "name": "Hodge 6 (Hubble)",
+  "blurb": "Hodge 6, an intermediate-age star cluster in the Large Magellanic Cloud, seen by Hubble.",
+  "label": "h6-hubble",
+  "spec": "HST|H-6|12257|WFC3/UVIS|h6-hubble",
+  "find": [
+    "HST|12257|H-6"
+  ],
+  "type": "Star cluster",
+  "aliases": [
+    "Hodge 6",
+    "H-6",
+    "H 6",
+    "LMC cluster",
+    "Large Magellanic Cloud",
+    "star cluster"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Hodge 6 is an intermediate-age star cluster in the Large Magellanic Cloud, a satellite galaxy of the Milky Way. Its turnoff looked simple to Hubble, yet spectra later found a few stars enriched in nitrogen, a sign that even this cluster holds more than one generation of stars.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "Hodge 6 is a cluster in the Large Magellanic Cloud",
+        "source": "https://arxiv.org/abs/1902.02297"
+      },
+      {
+        "text": "Hodge 6 was a target of program 12257 on Magellanic Cloud star clusters",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/12257/"
+      },
+      {
+        "text": "The Large Magellanic Cloud is a satellite galaxy of the Milky Way",
+        "source": "https://www.nasa.gov/universe/galaxies/magellanic-clouds/"
+      },
+      {
+        "text": "Such clusters challenge the idea of simple stellar populations",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/12257/"
+      },
+      {
+        "text": "Hodge 6 is an intermediate-age LMC cluster",
+        "source": "https://arxiv.org/abs/1407.8091"
+      },
+      {
+        "text": "Hodge 6 lacked clear evidence of an extended turnoff in a later sample",
+        "source": "https://arxiv.org/pdf/1410.3840"
+      },
+      {
+        "text": "Spectra found nitrogen-enriched stars in Hodge 6, evidence of multiple populations",
+        "source": "https://arxiv.org/abs/1902.02297"
+      }
+    ]
+  }
+}

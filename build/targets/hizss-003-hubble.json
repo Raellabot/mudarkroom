@@ -1,0 +1,48 @@
+{
+  "id": "hizss-003-hubble",
+  "name": "HIZSS 3 (Hubble)",
+  "blurb": "HIZSS 3, a dwarf irregular galaxy hidden behind the Milky Way, seen by Hubble.",
+  "label": "hizss003-hubble",
+  "spec": "HST|HIZSS-003|15150|WFC3/IR|hizss003-hubble",
+  "find": [
+    "HST|15150|HIZSS-003"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "HIZSS3",
+    "HIZSS-003",
+    "PGC 2807061",
+    "dwarf irregular galaxy",
+    "dwarf galaxy",
+    "galaxy",
+    "Zone of Avoidance"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Lying almost exactly in the plane of the Milky Way, this small dwarf irregular galaxy on the outskirts of the Local Group was found not by sight but by the radio signal of its hydrogen gas. Hubble peered through the obscuring foreground to measure its distance from its brightest red giant stars.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "HIZSS 3 is a low-mass dwarf irregular galaxy behind the Milky Way on the outskirts of the Local Group",
+        "source": "https://arxiv.org/abs/astro-ph/0501545"
+      },
+      {
+        "text": "HIZSS 3 was found as an HI (21 cm hydrogen) source in the Zone of Avoidance",
+        "source": "https://arxiv.org/abs/astro-ph/0501545"
+      },
+      {
+        "text": "It lies very close to the Galactic plane; the HIZSS name comes from the HI Parkes Zone of Avoidance Shallow Survey",
+        "source": "https://ar5iv.arxiv.org/html/astro-ph/0308080"
+      },
+      {
+        "text": "Hubble program 15150 measures tip-of-the-red-giant-branch distances to obscured galaxies; target HIZSS-003 has alternate name PGC2807061",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15150/"
+      }
+    ]
+  }
+}

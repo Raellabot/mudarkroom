@@ -1,0 +1,45 @@
+{
+  "id": "sn-2005bf-hubble",
+  "name": "MCG +00-27-5, SN 2005bf field (Hubble)",
+  "blurb": "MCG +00-27-5, a galaxy that hosted the peculiar supernova SN 2005bf, seen by Hubble.",
+  "label": "sn2005bf-hubble",
+  "spec": "HST|SN-2005BF|13029|WFC3/UVIS|sn2005bf-hubble",
+  "find": [
+    "HST|13029|SN-2005BF"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "SN 2005bf",
+    "supernova host",
+    "Type Ib supernova",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "SN 2005bf puzzled astronomers: it faded, then brightened past its first peak, and its spectrum changed from Type Ic to Type Ib as helium lines appeared. Hubble revisited the site to learn what powers the light that lingers there.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "SN 2005bf appeared in the galaxy MCG +00-27-5",
+        "source": "https://ar5iv.arxiv.org/html/astro-ph/0509625"
+      },
+      {
+        "text": "It declined, then rebrightened past its first maximum",
+        "source": "https://ar5iv.arxiv.org/html/astro-ph/0509625"
+      },
+      {
+        "text": "It was first typed Ic, then developed He I lines like Type Ib",
+        "source": "https://ar5iv.arxiv.org/html/astro-ph/0509625"
+      },
+      {
+        "text": "Hubble program 13029 sought late-time photometry to reveal the origin of lingering energy",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/13029/"
+      }
+    ]
+  }
+}

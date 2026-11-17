@@ -1,0 +1,54 @@
+{
+  "id": "ngc3384-df3-hubble",
+  "name": "NGC 3384-DF3 (Hubble)",
+  "blurb": "M96-DF3, a faint low surface brightness galaxy in the M96 group, seen by Hubble.",
+  "label": "ngc3384df3-hubble",
+  "spec": "HST|NGC3384-DF3|14644|ACS/WFC|ngc3384df3-hubble",
+  "find": [
+    "HST|14644|NGC3384-DF3"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "NGC3384-DF3",
+    "M 96-DF3",
+    "[KK2004] LeG 9",
+    "LeG 9",
+    "M96 group",
+    "low surface brightness galaxy",
+    "dwarf galaxy",
+    "galaxy",
+    "M96-DF3"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A faint, diffuse galaxy in deep Dragonfly images of the M96 group, cataloged before as LeG 9. Hubble resolved its stars and confirmed that it lies at the group's distance.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "The object was selected from deep optical imaging with the Dragonfly Telephoto Array and imaged with HST/ACS",
+        "source": "https://arxiv.org/abs/1807.06016"
+      },
+      {
+        "text": "M96-DF3 is also cataloged as [KK2004] LeG 9",
+        "source": "https://ar5iv.labs.arxiv.org/html/1807.06016"
+      },
+      {
+        "text": "The M96 field of the survey was centered on NGC 3384 in the M96 group",
+        "source": "https://ar5iv.labs.arxiv.org/html/1807.06016"
+      },
+      {
+        "text": "The Hubble target NGC3384-DF3 is at RA 10 42 34.59, Dec +12 09 2.06, the position of M96-DF3",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/14644/"
+      },
+      {
+        "text": "All galaxies in the M96 field, including M96-DF3, are at the distance of the M96 group",
+        "source": "https://arxiv.org/pdf/1807.06016"
+      }
+    ]
+  }
+}

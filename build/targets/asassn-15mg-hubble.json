@@ -1,0 +1,42 @@
+{
+  "id": "asassn-15mg-hubble",
+  "name": "2MASX J15322270+4150586, ASASSN-15mg field (Hubble)",
+  "blurb": "2MASX J15322270+4150586, a galaxy that hosted the Type Ia supernova ASASSN-15mg, seen by Hubble.",
+  "label": "asassn15mg-hubble",
+  "spec": "HST|ASASSN-15MG|15166|WFC3/UVIS|asassn15mg-hubble",
+  "find": [
+    "HST|15166|ASASSN-15MG"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "ASASSN-15mg",
+    "2MASX J15322270+4150586",
+    "supernova",
+    "Type Ia supernova",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "The Type Ia supernova ASASSN-15mg flared in this galaxy and was caught by an automated sky survey. Hubble came back later to measure the faint light that lingers at a supernova's site.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "ASASSN-15mg was discovered by ASAS-SN in the galaxy 2MASX J15322270+4150586",
+        "source": "https://www.astronomerstelegram.org/?read=7780"
+      },
+      {
+        "text": "ASASSN-15mg was classified as a Type Ia supernova",
+        "source": "https://www.astronomerstelegram.org/?read=7787"
+      },
+      {
+        "text": "Program 15166 images sites of recent supernovae to obtain late-time photometry",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15166/"
+      }
+    ]
+  }
+}

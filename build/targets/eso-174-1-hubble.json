@@ -1,0 +1,45 @@
+{
+  "id": "eso-174-1-hubble",
+  "name": "ESO 174-1 (Hubble)",
+  "blurb": "ESO 174-1, a highly irregular galaxy, seen by Hubble.",
+  "label": "eso1741-hubble",
+  "spec": "HST|ESO-174-1|15922|ACS/WFC|eso1741-hubble",
+  "find": [
+    "HST|15922|ESO-174-1"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "HIPASS J1348-53",
+    "irregular galaxy",
+    "dwarf galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A bright cloud of stars and a faint, meandering tendril of gas and dust make up this highly irregular galaxy. Hubble visited it in an effort to resolve the brightest stars of every known nearby galaxy.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "ESO 174-1 is a highly irregular galaxy",
+        "source": "https://esahubble.org/images/potw2326a/"
+      },
+      {
+        "text": "It consists of a bright cloud of stars and a faint, meandering tendril of gas and dust",
+        "source": "https://esahubble.org/images/potw2326a/"
+      },
+      {
+        "text": "The observations aim to resolve the brightest stars of every known nearby galaxy",
+        "source": "https://esahubble.org/images/potw2326a/"
+      },
+      {
+        "text": "Also catalogued as HIPASS J1348-53; a dwarf galaxy",
+        "source": "https://www.atnf.csiro.au/research/LVHIS/eso174-gq001"
+      }
+    ]
+  }
+}

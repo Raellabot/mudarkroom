@@ -1,0 +1,44 @@
+{
+  "id": "mage0609-3225-hubble",
+  "name": "MAGE J0609-3225 (Hubble)",
+  "blurb": "MAGE J0609-3225, a satellite galaxy of ESO364-G29, seen by Hubble.",
+  "label": "mage06093225-hubble",
+  "spec": "HST|MAGE0609-3225|18070|ACS/WFC|mage06093225-hubble",
+  "find": [
+    "HST|18070|MAGE0609-3225"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "MAGE0609-3225",
+    "satellite galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "This galaxy travels with ESO364-G29, a galaxy only about as massive as the Small Magellanic Cloud. It was found in a hunt for the companions of such small hosts, a reminder that even little galaxies can keep satellites of their own.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "MAGE J0609-3225 is a velocity-confirmed satellite galaxy of ESO364-G29",
+        "source": "https://arxiv.org/html/2603.18973"
+      },
+      {
+        "text": "ESO364-G29 is an SMC-mass host",
+        "source": "https://arxiv.org/html/2603.18973"
+      },
+      {
+        "text": "It was found by a survey for satellites of LMC- and SMC-mass hosts (ID-MAGE)",
+        "source": "https://arxiv.org/html/2603.18973"
+      },
+      {
+        "text": "MAGE0609-3225 is a target of Hubble program 18070",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/18070/"
+      }
+    ]
+  }
+}

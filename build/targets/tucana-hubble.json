@@ -1,0 +1,42 @@
+{
+  "id": "tucana-hubble",
+  "name": "Tucana Dwarf (Hubble)",
+  "blurb": "The Tucana Dwarf, a dwarf spheroidal galaxy at the edge of the Local Group, seen by Hubble.",
+  "label": "tucana-hubble",
+  "spec": "HST|TUCANA|10505|ACS/WFC|tucana-hubble",
+  "find": [
+    "HST|10505|TUCANA"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "Tucana",
+    "Tucana dwarf galaxy",
+    "dwarf spheroidal galaxy",
+    "dwarf galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "The Tucana Dwarf is a loose bundle of aging stars at the far edge of the Local Group. It is one of only two dwarf spheroidal galaxies in the Local Group this remote.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "The Tucana Dwarf is a dwarf spheroidal galaxy",
+        "source": "https://science.nasa.gov/centers-and-facilities/goddard/hubble-reaches-a-lonely-light-in-the-dark/"
+      },
+      {
+        "text": "It is a loose bundle of aging stars at the far edge of the Local Group",
+        "source": "https://science.nasa.gov/centers-and-facilities/goddard/hubble-reaches-a-lonely-light-in-the-dark/"
+      },
+      {
+        "text": "It is one of only two dwarf spheroidals in the Local Group this remote",
+        "source": "https://science.nasa.gov/centers-and-facilities/goddard/hubble-reaches-a-lonely-light-in-the-dark/"
+      }
+    ]
+  }
+}

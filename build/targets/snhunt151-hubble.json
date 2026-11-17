@@ -1,0 +1,57 @@
+{
+  "id": "snhunt151-hubble",
+  "name": "UGC 3165, SNhunt151 field (Hubble)",
+  "blurb": "UGC 3165, the host galaxy of the transient SNhunt151, seen by Hubble.",
+  "label": "snhunt151-hubble",
+  "spec": "HST|SNHUNT151|14668|WFC3/UVIS|snhunt151-hubble",
+  "find": [
+    "HST|14668|SNHUNT151"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "SNhunt151",
+    "PSN J04472985+2358555",
+    "CSS131025:044730+235856",
+    "XM07BW",
+    "UGC 3165",
+    "supernova impostor",
+    "Type IIn supernova",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "SNhunt151 first looked like a supernova impostor, the outburst of a massive star, but its spectra later resembled a Type IIn supernova. Astronomers suggest it was an explosion inside a dense cocoon of gas the star had shed earlier, much like the nebulae around luminous blue variables such as Eta Carinae.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "SNhunt151's host galaxy is UGC 3165",
+        "source": "https://ar5iv.arxiv.org/html/1801.03040"
+      },
+      {
+        "text": "SNhunt151 was first classified as a supernova impostor, a nonterminal outburst of a massive star",
+        "source": "https://ar5iv.arxiv.org/html/1801.03040"
+      },
+      {
+        "text": "Spectroscopically it is a Type IIn supernova",
+        "source": "https://ar5iv.arxiv.org/html/1801.03040"
+      },
+      {
+        "text": "It may be an outburst or explosion inside a dense circumstellar nebula from past mass loss, like those around some luminous blue variables such as Eta Carinae",
+        "source": "https://ar5iv.arxiv.org/html/1801.03040"
+      },
+      {
+        "text": "Other designations PSN J04472985+2358555, XM07BW, CSS131025:044730+235856",
+        "source": "https://ar5iv.arxiv.org/html/1801.03040"
+      },
+      {
+        "text": "Hubble observed SNHUNT151 in a snapshot survey of recent, nearby supernovae that also images SN impostors",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/14668/"
+      }
+    ]
+  }
+}

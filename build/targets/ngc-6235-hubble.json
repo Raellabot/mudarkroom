@@ -1,0 +1,40 @@
+{
+  "id": "ngc-6235-hubble",
+  "name": "NGC 6235 (Hubble)",
+  "blurb": "NGC 6235, a globular cluster in the Milky Way, seen by Hubble.",
+  "label": "ngc6235-hubble",
+  "spec": "HST|NGC-6235|18025|WFC3/UVIS|ngc6235-hubble",
+  "find": [
+    "HST|18025|NGC-6235"
+  ],
+  "type": "Star cluster",
+  "aliases": [
+    "NGC-6235",
+    "globular cluster",
+    "star cluster"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "NGC 6235 is one of the last Milky Way globular clusters still lacking deep Hubble images reaching its faint stars. Hubble looked here to complete its legacy of the galaxy's globular clusters and help trace how the Milky Way was assembled.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "NGC 6235 is a Milky Way globular cluster",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/18025/"
+      },
+      {
+        "text": "The program targets the only Milky Way globular clusters still lacking a deep Hubble color-magnitude diagram",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/18025/"
+      },
+      {
+        "text": "The program aims to complete Hubble's legacy on globular clusters and reconstruct the Milky Way's assembly history",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/18025/"
+      }
+    ]
+  }
+}

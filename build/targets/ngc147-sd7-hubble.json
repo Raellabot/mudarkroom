@@ -1,0 +1,54 @@
+{
+  "id": "ngc147-sd7-hubble",
+  "name": "NGC 147 SD7 (Hubble)",
+  "blurb": "NGC 147 SD7, a globular cluster in the dwarf galaxy NGC 147, seen by Hubble.",
+  "label": "ngc147sd7-hubble",
+  "spec": "HST|NGC147-SD7|15336|ACS/WFC|ngc147sd7-hubble",
+  "find": [
+    "HST|15336|NGC147-SD7"
+  ],
+  "type": "Star cluster",
+  "aliases": [
+    "SD7",
+    "NGC147-SD7",
+    "NGC 147",
+    "globular cluster",
+    "star cluster"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "SD7 is one of the outermost globular clusters of NGC 147, a dwarf elliptical companion of M31. Its stars are extremely poor in heavy elements, and their makeup points to an old age.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "NGC147-SD7 is a globular cluster target of Hubble program 15336, 'The Globular Cluster Systems of Local Group Dwarf Galaxies'",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15336/"
+      },
+      {
+        "text": "NGC 147 is a dwarf elliptical satellite of M31",
+        "source": "https://arxiv.org/html/2608.28434"
+      },
+      {
+        "text": "SD7 is among the outermost globular clusters of NGC 147",
+        "source": "https://arxiv.org/html/2608.28434"
+      },
+      {
+        "text": "SD7 is extremely metal-poor (its metallicity hits the floor of the study)",
+        "source": "https://arxiv.org/html/2608.28434"
+      },
+      {
+        "text": "SD7's stars suggest an old age",
+        "source": "https://arxiv.org/html/2608.28434"
+      },
+      {
+        "text": "The Hubble data are deep photometry of globular clusters in NGC 147, NGC 185 and NGC 6822",
+        "source": "https://arxiv.org/abs/2608.28434"
+      }
+    ]
+  }
+}

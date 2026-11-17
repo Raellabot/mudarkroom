@@ -1,0 +1,49 @@
+{
+  "id": "ngc-2337-hubble",
+  "name": "NGC 2337 (Hubble)",
+  "blurb": "NGC 2337, an irregular galaxy, seen by Hubble.",
+  "label": "ngc2337-hubble",
+  "spec": "HST|NGC-2337|13442|ACS/WFC|ngc2337-hubble",
+  "find": [
+    "HST|13442|NGC-2337"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "NGC 2337",
+    "Lopsided Lynx",
+    "irregular galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "NGC 2337 has no regular shape; astronomers think galaxies like it may have been warped and deformed by a passing cosmic companion, and such encounters can kickstart the birth of new stars.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "NGC 2337 is an irregular galaxy",
+        "source": "https://esahubble.org/images/potw1632a/"
+      },
+      {
+        "text": "NGC 2337 lacks a regular shape",
+        "source": "https://esahubble.org/images/potw1632a/"
+      },
+      {
+        "text": "Some irregular galaxies were warped and deformed by a passing cosmic companion",
+        "source": "https://esahubble.org/images/potw1632a/"
+      },
+      {
+        "text": "Gravitational interactions between galaxies can kickstart star formation",
+        "source": "https://esahubble.org/images/potw1632a/"
+      },
+      {
+        "text": "ESA/Hubble featured NGC 2337 as 'A lopsided lynx'",
+        "source": "https://esahubble.org/images/potw1632a/"
+      }
+    ]
+  }
+}

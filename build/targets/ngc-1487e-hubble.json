@@ -1,0 +1,47 @@
+{
+  "id": "ngc-1487e-hubble",
+  "name": "NGC 1487, eastern tidal tail (Hubble)",
+  "blurb": "NGC 1487, eastern tidal tail, a stream of stars drawn from merging galaxies, seen by Hubble.",
+  "label": "ngc1487e-hubble",
+  "spec": "HST|NGC-1487E|15083|WFC3/UVIS|ngc1487e-hubble",
+  "find": [
+    "HST|15083|NGC-1487E"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "NGC 1487",
+    "NGC 1487E",
+    "merging galaxies",
+    "tidal tail",
+    "galaxy merger",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "This field looks along the eastern tidal tail of NGC 1487, where two or more galaxies are merging into one. Hubble searched these streamers of stars and gas for clusters born in the debris of the collision.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "The target NGC 1487E is the eastern tidal tail of NGC 1487",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15083/"
+      },
+      {
+        "text": "NGC 1487 is two or more galaxies merging into one",
+        "source": "https://esahubble.org/images/potw1605a/"
+      },
+      {
+        "text": "Program 15083 studies star clusters in tidal tails",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15083/"
+      },
+      {
+        "text": "NGC 1487 is a merging system studied in Star Clusters in Tidal Debris",
+        "source": "https://ar5iv.labs.arxiv.org/html/2309.10267"
+      }
+    ]
+  }
+}

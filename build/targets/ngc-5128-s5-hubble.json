@@ -1,0 +1,58 @@
+{
+  "id": "ngc-5128-s5-hubble",
+  "name": "Centaurus A halo, field S5 (Hubble)",
+  "blurb": "A field in the outer halo of Centaurus A, along the stream of the dwarf galaxy CenA-MM-Dw3, which Centaurus A is tearing apart, seen by Hubble.",
+  "label": "ngc5128s5-hubble",
+  "spec": "HST|NGC-5128-S5|14259|ACS/WFC|ngc5128s5-hubble",
+  "find": [
+    "HST|14259|NGC-5128-S5"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "NGC-5128-S5",
+    "CenA-MM-Dw3",
+    "Centaurus A",
+    "Cen A",
+    "NGC 5128",
+    "tidal stream",
+    "stellar stream",
+    "dwarf galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "These scattered stars were pulled out of the dwarf galaxy CenA-MM-Dw3, the first dwarf found being tidally disrupted around Centaurus A. Its tidal tails stretch over 1.5 degrees across the sky.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "Centaurus A is a giant elliptical galaxy, also designated NGC 5128 (Cen A)",
+        "source": "https://science.nasa.gov/asset/hubble/active-galaxy-centaurus-a/"
+      },
+      {
+        "text": "Hubble program 14259 followed up newly discovered substructures in the halos of NGC 253 and NGC 5128 to study their assembly histories",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/14259/"
+      },
+      {
+        "text": "CenA-MM-Dw3 is the first tidally disrupting dwarf galaxy found around Cen A",
+        "source": "https://ar5iv.labs.arxiv.org/html/1512.05366"
+      },
+      {
+        "text": "CenA-MM-Dw3 has tidal tails spanning over 1.5 degrees",
+        "source": "https://ar5iv.labs.arxiv.org/html/1512.05366"
+      },
+      {
+        "text": "Dw3 NW is a region along the stream of CenA-MM-Dw3 at RA 13:23:57.6, Dec -41:42:00",
+        "source": "https://arxiv.org/pdf/1512.05366"
+      },
+      {
+        "text": "The Hubble field NGC-5128-S5 is at RA 13 23 55.2, Dec -41 44 42 in the NGC 5128 halo",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/14259/"
+      }
+    ]
+  }
+}

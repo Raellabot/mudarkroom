@@ -1,0 +1,48 @@
+{
+  "id": "ic2233-hubble",
+  "name": "IC 2233 (Hubble)",
+  "blurb": "IC 2233, an edge-on spiral galaxy, seen by Hubble.",
+  "label": "ic2233-hubble",
+  "spec": "HST|IC2233|9765|ACS/WFC|ic2233-hubble",
+  "find": [
+    "HST|9765|IC2233"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "spiral galaxy",
+    "edge-on galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Seen edge-on, IC 2233 is one of the flattest galaxies known, a simple disk of stars nicknamed the Needle Galaxy. Unlike most spirals, it shows no well-defined dust lane.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "IC 2233 is a spiral galaxy, one of the flattest galaxies known",
+        "source": "https://esahubble.org/images/potw1251a/"
+      },
+      {
+        "text": "IC 2233 is nicknamed the Needle Galaxy",
+        "source": "https://esahubble.org/images/potw1251a/"
+      },
+      {
+        "text": "Seen edge-on, such galaxies are a simple disk of stars",
+        "source": "https://esahubble.org/images/potw1251a/"
+      },
+      {
+        "text": "IC 2233 shows no well-defined dust lane",
+        "source": "https://esahubble.org/images/potw1251a/"
+      },
+      {
+        "text": "IC 2233 was a target of a Hubble snapshot survey of nearby edge-on spiral galaxies",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/list/9765/"
+      }
+    ]
+  }
+}

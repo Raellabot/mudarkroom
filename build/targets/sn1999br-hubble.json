@@ -1,0 +1,53 @@
+{
+  "id": "sn1999br-hubble",
+  "name": "NGC 4900, SN 1999br field (Hubble)",
+  "blurb": "NGC 4900, a barred spiral galaxy and host of SN 1999br, seen by Hubble.",
+  "label": "sn1999br-hubble",
+  "spec": "HST|SN1999BR|17070|ACS/WFC|sn1999br-hubble",
+  "find": [
+    "HST|17070|SN1999BR"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "SN 1999br",
+    "SN1999BR",
+    "NGC 4900",
+    "supernova",
+    "Type II supernova",
+    "spiral galaxy",
+    "barred spiral galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "In 1999 the supernova SN 1999br flared in NGC 4900, one of a small group of unusually faint, low-energy Type II explosions. Hubble came back to study the stars around the site, to estimate how massive the star that exploded was.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "SN 1999br is a Type II supernova in NGC 4900",
+        "source": "https://w.astro.berkeley.edu/bait/1999/sn99br.html"
+      },
+      {
+        "text": "NGC 4900 is classified SB(rs)c, a barred spiral",
+        "source": "https://w.astro.berkeley.edu/bait/1999/sn99br.html"
+      },
+      {
+        "text": "SN 1999br was discovered in 1999 (Apr 12.4 UT)",
+        "source": "https://ar5iv.labs.arxiv.org/html/astro-ph/0309264"
+      },
+      {
+        "text": "SN 1999br belongs to a small group of low-luminosity, low-energy Type II supernovae",
+        "source": "https://ar5iv.labs.arxiv.org/html/astro-ph/0309264"
+      },
+      {
+        "text": "Hubble program 17070 images Type II supernova sites to resolve the surrounding stars and estimate progenitor initial masses",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/17070/"
+      }
+    ]
+  }
+}

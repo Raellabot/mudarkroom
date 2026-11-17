@@ -1,0 +1,43 @@
+{
+  "id": "sn-bird-wfc1-hubble",
+  "name": "GOODS HDF-North supernova field (Hubble)",
+  "blurb": "A deep field in the GOODS area around the Hubble Deep Field North, seen by Hubble.",
+  "label": "snbirdwfc1-hubble",
+  "spec": "HST|SN-BIRD-WFC1|10189|ACS/WFC|snbirdwfc1-hubble",
+  "find": [
+    "HST|10189|SN-BIRD-WFC1"
+  ],
+  "type": "Deep field",
+  "aliases": [
+    "GOODS-North",
+    "Hubble Deep Field North",
+    "HDF-North",
+    "SN-BIRD",
+    "supernova search",
+    "deep field"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Hubble returned to this patch of sky again and again, comparing exposures to catch distant exploding stars. Type Ia supernovae found this way helped show that the expansion of the universe is now speeding up.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "SN-BIRD-WFC1 is an ACS target of Hubble program 10189, 'PANS-Probing Acceleration Now with Supernovae', with repeated visits",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/10189/"
+      },
+      {
+        "text": "The supernova search repeatedly imaged the GOODS fields, the Chandra Deep Field South and the Hubble Deep Field North",
+        "source": "https://ar5iv.arxiv.org/html/astro-ph/0611572"
+      },
+      {
+        "text": "Repeat Hubble imaging of the GOODS fields found Type Ia supernovae that support a transition from past deceleration to present acceleration",
+        "source": "https://arxiv.org/abs/astro-ph/0611572"
+      }
+    ]
+  }
+}

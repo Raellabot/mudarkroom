@@ -1,0 +1,46 @@
+{
+  "id": "sn1999eb-hubble",
+  "name": "NGC 664, SN 1999eb field (Hubble)",
+  "blurb": "NGC 664, a spiral galaxy that hosted the Type IIn supernova SN 1999eb, seen by Hubble.",
+  "label": "sn1999eb-hubble",
+  "spec": "HST|SN1999EB|17731|WFC3/UVIS|sn1999eb-hubble",
+  "find": [
+    "HST|17731|SN1999EB"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "SN 1999eb",
+    "SN1999EB",
+    "spiral galaxy",
+    "galaxy",
+    "supernova"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "The bright Type IIn supernova SN 1999eb burst out just beside the nucleus of the spiral galaxy NGC 664. Hubble returned to the spot to see whether the exploded star is truly gone.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "SN 1999eb was a bright Type IIn supernova in NGC 664",
+        "source": "https://tamkin3.eps.harvard.edu/iauc/07200/07269.html"
+      },
+      {
+        "text": "SN 1999eb lay 4.8 arcsec west and 4.1 arcsec north of the nucleus of NGC 664 (just beside the nucleus)",
+        "source": "https://tamkin3.eps.harvard.edu/iauc/07200/07268.html"
+      },
+      {
+        "text": "NGC 664 is a spiral galaxy (type Sb)",
+        "source": "https://arxiv.org/pdf/astro-ph/0204298"
+      },
+      {
+        "text": "Program 17731 imaged sites of confirmed Type IIn supernovae to test whether they are terminal explosions",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/17731/"
+      }
+    ]
+  }
+}

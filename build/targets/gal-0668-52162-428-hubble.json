@@ -1,0 +1,55 @@
+{
+  "id": "gal-0668-52162-428-hubble",
+  "name": "SDSS J021652.54-081345.3 (Hubble)",
+  "blurb": "SDSS J021652.54-081345.3, a gravitational lens, seen by Hubble.",
+  "label": "gal066852162428-hubble",
+  "spec": "HST|GAL-0668-52162-428|10494|ACS/WFC|gal066852162428-hubble",
+  "find": [
+    "HST|10494|GAL-0668-52162-428"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "Sloan Lens ACS Survey lens",
+    "gravitational lens",
+    "strong lens",
+    "lens galaxy",
+    "early-type galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A massive early-type galaxy acts as a gravitational lens here, its gravity magnifying the light of a fainter, more distant galaxy behind it. It was found by the Sloan Lens ACS Survey, which Hubble used to map the mass in distant lens galaxies.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "Archive target GAL-0668-52162-428 is the SLACS system SDSS J021652.54-081345.3, confirmed as a lens",
+        "source": "https://arxiv.org/pdf/astro-ph/0511453"
+      },
+      {
+        "text": "The lensed source is more distant than the lens galaxy",
+        "source": "https://arxiv.org/pdf/astro-ph/0511453"
+      },
+      {
+        "text": "SLACS lenses are massive early-type galaxies lensing fainter background sources",
+        "source": "https://arxiv.org/pdf/astro-ph/0511453"
+      },
+      {
+        "text": "The program's targets are background sources magnified by a massive early-type lens galaxy",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/10494/"
+      },
+      {
+        "text": "Hubble imaged these lenses to map the mass in distant lens galaxies",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/10494/"
+      },
+      {
+        "text": "The survey is named the Sloan Lens ACS Survey",
+        "source": "https://arxiv.org/pdf/astro-ph/0511453"
+      }
+    ]
+  }
+}

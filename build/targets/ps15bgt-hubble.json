@@ -1,0 +1,43 @@
+{
+  "id": "ps15bgt-hubble",
+  "name": "NGC 7371, PS15bgt field (Hubble)",
+  "blurb": "NGC 7371, the host galaxy of the Type Ib supernova PS15bgt, seen by Hubble.",
+  "label": "ps15bgt-hubble",
+  "spec": "HST|PS15BGT|14668|WFC3/UVIS|ps15bgt-hubble",
+  "find": [
+    "HST|14668|PS15BGT"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "PS15bgt",
+    "PSN J22460504-1059484",
+    "NGC 7371",
+    "supernova host",
+    "Type Ib supernova",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "In this galaxy the supernova PS15bgt, a Type Ib explosion, burst into view and was even picked up in radio waves. Hubble came back to the site in a snapshot survey of recent, nearby supernovae, looking for lingering light and the stars around each explosion.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "PS15bgt is a Type Ib supernova in the galaxy NGC 7371, also designated PSN J22460504-1059484",
+        "source": "https://ui.adsabs.harvard.edu/abs/2015ATel.7845....1K/abstract"
+      },
+      {
+        "text": "Radio emission was detected from PS15bgt",
+        "source": "https://ui.adsabs.harvard.edu/abs/2015ATel.7845....1K/abstract"
+      },
+      {
+        "text": "Hubble observed the site in a snapshot survey of the sites of recent, nearby supernovae, aiming at late-time light and the local stellar environment",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/14668/"
+      }
+    ]
+  }
+}

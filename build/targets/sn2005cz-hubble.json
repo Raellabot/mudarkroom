@@ -1,0 +1,48 @@
+{
+  "id": "sn2005cz-hubble",
+  "name": "NGC 4589, SN 2005cz field (Hubble)",
+  "blurb": "NGC 4589, an elliptical galaxy that hosted SN 2005cz, seen by Hubble.",
+  "label": "sn2005cz-hubble",
+  "spec": "HST|SN2005CZ|10498|ACS/WFC|sn2005cz-hubble",
+  "find": [
+    "HST|10498|SN2005CZ"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "NGC 4589",
+    "SN 2005cz",
+    "SN2005CZ",
+    "elliptical galaxy",
+    "merger remnant",
+    "supernova host",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "NGC 4589 is an elliptical galaxy, thought to be the remnant of a merger, that hosted SN 2005cz, a peculiar fast and faint calcium-rich Type Ib supernova. Hubble came here hunting the massive stars that explode as core-collapse supernovae.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "SN 2005cz's host galaxy is NGC 4589",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/10498/"
+      },
+      {
+        "text": "NGC 4589 is an elliptical galaxy",
+        "source": "https://arxiv.org/abs/0906.2811"
+      },
+      {
+        "text": "NGC 4589 is a merger-remnant elliptical that hosted the calcium-rich Type Ib SN 2005cz",
+        "source": "https://arxiv.org/abs/1812.01629"
+      },
+      {
+        "text": "The program aimed to identify the massive-star progenitors of core-collapse supernovae",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/10498/"
+      }
+    ]
+  }
+}

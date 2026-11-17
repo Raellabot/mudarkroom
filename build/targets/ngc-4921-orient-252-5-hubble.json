@@ -1,0 +1,50 @@
+{
+  "id": "ngc-4921-orient-252-5-hubble",
+  "name": "NGC 4921 (Hubble)",
+  "blurb": "NGC 4921, an anemic spiral galaxy in the Coma Cluster, seen by Hubble.",
+  "label": "ngc4921orient2525-hubble",
+  "spec": "HST|NGC-4921-ORIENT-252.5|12476|WFC3/UVIS|ngc4921orient2525-hubble",
+  "find": [
+    "HST|12476|NGC-4921-ORIENT-252.5"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "anemic spiral",
+    "spiral galaxy",
+    "galaxy",
+    "Coma Cluster",
+    "Abell 1656"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "One of the rare spirals in the Coma Galaxy Cluster, NGC 4921 has let its star formation dim, keeping a delicate swirl of dust in a ring around it. Hubble watched it for Cepheid variable stars, to measure the distance to Coma.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "NGC 4921 is one of the rare spirals in Coma, an anemic spiral",
+        "source": "https://esahubble.org/news/heic0901/"
+      },
+      {
+        "text": "Its star formation is much less intense than usual",
+        "source": "https://esahubble.org/news/heic0901/"
+      },
+      {
+        "text": "A delicate swirl of dust in a ring around the galaxy",
+        "source": "https://esahubble.org/news/heic0901/"
+      },
+      {
+        "text": "The Coma Galaxy Cluster is also known as Abell 1656",
+        "source": "https://esahubble.org/news/heic0901/"
+      },
+      {
+        "text": "NGC 4921 is a luminous spiral in the Coma cluster; the program phases Cepheid variables in it for a Cepheid distance to Coma",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/12476/"
+      }
+    ]
+  }
+}

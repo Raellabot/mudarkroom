@@ -1,0 +1,51 @@
+{
+  "id": "am-1054-325-hubble",
+  "name": "AM 1054-325 (Hubble)",
+  "blurb": "AM 1054-325, an interacting galaxy with a tidal tail, seen by Hubble.",
+  "label": "am1054325-hubble",
+  "spec": "HST|AM-1054-325|14937|WFC3/UVIS|am1054325-hubble",
+  "find": [
+    "HST|14937|AM-1054-325"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "Arp-Madore 1054-325",
+    "AM1054-325",
+    "interacting galaxies",
+    "tidal tail",
+    "spiral galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A neighbor's gravity has bent this once-flat spiral into an S shape and drawn out a long tidal tail. Newborn star clusters line the tail like a string of pearls.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "AM 1054-325 is an interacting galaxy whose neighbor bent its spiral shape into an S-curve",
+        "source": "https://esahubble.org/images/opo2404a/"
+      },
+      {
+        "text": "Newborn star clusters line its stretched-out tidal tail like a string of pearls",
+        "source": "https://esahubble.org/images/opo2404a/"
+      },
+      {
+        "text": "Also written Arp-Madore 1054-325",
+        "source": "https://esahubble.org/images/opo2404a/"
+      },
+      {
+        "text": "AM 1054-325 is part of a merging system with ESO 376-28 studied for star clusters in tidal tails",
+        "source": "https://ar5iv.labs.arxiv.org/html/2309.10267"
+      },
+      {
+        "text": "Hubble program 14937 observed AM 1054-325 to study star formation in HI-rich tidal tails",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/14937/"
+      }
+    ]
+  }
+}

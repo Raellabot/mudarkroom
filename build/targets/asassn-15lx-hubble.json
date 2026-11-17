@@ -1,0 +1,41 @@
+{
+  "id": "asassn-15lx-hubble",
+  "name": "ASASSN-15lx field (Hubble)",
+  "blurb": "ASASSN-15lx field, the site of a probable Type IIn supernova, seen by Hubble.",
+  "label": "asassn15lx-hubble",
+  "spec": "HST|ASASSN-15LX|17731|WFC3/UVIS|asassn15lx-hubble",
+  "find": [
+    "HST|17731|ASASSN-15LX"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "ASASSN-15LX",
+    "supernova",
+    "supernova site",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A supernova flared here near the galaxy ESO 047-G004, and its spectrum showed the narrow hydrogen glow of a possible Type IIn explosion. Years later Hubble returned to ask whether such blasts truly destroy their stars.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "ASASSN-15lx is a probable supernova discovered by ASAS-SN near the galaxy ESO 047-G004, at RA 20:36:05.24, Dec -73:06:32.41",
+        "source": "https://www.astronomerstelegram.org/?read=7719"
+      },
+      {
+        "text": "Its spectrum showed narrow H-alpha emission, suggesting a Type IIn event",
+        "source": "https://www.astronomerstelegram.org/?read=7724"
+      },
+      {
+        "text": "Program 17731 imaged sites of confirmed Type IIn supernovae years after outburst to test whether they are terminal explosions; ASASSN-15LX is target 20",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/17731/"
+      }
+    ]
+  }
+}

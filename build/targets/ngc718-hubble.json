@@ -1,0 +1,44 @@
+{
+  "id": "ngc718-hubble",
+  "name": "NGC 718 (Hubble)",
+  "blurb": "NGC 718, a spiral galaxy, seen by Hubble.",
+  "label": "ngc718-hubble",
+  "spec": "HST+HST|NGC718+NGC718|15181+15181|WFC3/IR+WFC3/UVIS|ngc718-hubble",
+  "find": [
+    "HST|15181|NGC718"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "spiral galaxy",
+    "barred spiral galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "NGC 718 is an early-type spiral with an unusual bar region. Ground-based pictures show arcs that appear sculpted by dust around a circular ring at its center. It was chosen as a quiet counterpart to galaxies with active black holes.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "NGC 718 is a bright early-type spiral, type (R')SAB(rs)a",
+        "source": "https://kudzu.astr.ua.edu/devatlas/NGC__718______B___________.html"
+      },
+      {
+        "text": "Its bar region shows bright arcs and dark arcs that appear sculpted by dust, with a circular nuclear ring in the center",
+        "source": "https://kudzu.astr.ua.edu/devatlas/NGC__718______B___________.html"
+      },
+      {
+        "text": "NGC 718 is an inactive control galaxy matched to AGN",
+        "source": "https://ar5iv.labs.arxiv.org/html/2105.05309"
+      },
+      {
+        "text": "NGC 718 is a barred spiral (SAB(s)a)",
+        "source": "https://www.aanda.org/articles/aa/full_html/2020/02/aa36321-19/T1.html"
+      }
+    ]
+  }
+}

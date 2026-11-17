@@ -1,0 +1,39 @@
+{
+  "id": "ngc-6342-hubble",
+  "name": "NGC 6342 (Hubble)",
+  "blurb": "NGC 6342, a globular cluster in the inner Milky Way, seen by Hubble.",
+  "label": "ngc6342-hubble",
+  "spec": "HST|NGC-6342|15065|ACS/WFC|ngc6342-hubble",
+  "find": [
+    "HST|15065|NGC-6342"
+  ],
+  "type": "Star cluster",
+  "aliases": [
+    "globular cluster",
+    "star cluster"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A metal-rich globular cluster in the inner Milky Way. When Hubble measured the ages of nine clusters there, the rest proved very old, and this one stood out as the young exception.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "NGC 6342 is a globular cluster in the inner Milky Way observed by Hubble program 15065",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15065/"
+      },
+      {
+        "text": "A Hubble study of nine inner Milky Way globular clusters included NGC 6342",
+        "source": "https://ar5iv.labs.arxiv.org/html/2109.08708"
+      },
+      {
+        "text": "NGC 6342 is young and metal-rich, the exception among very old target clusters",
+        "source": "https://ar5iv.labs.arxiv.org/html/2109.08708"
+      }
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": "q0302-c171-hubble",
+  "name": "Q0302-C171 field (Hubble)",
+  "blurb": "A deep field toward the distant Lyman-break galaxy Q0302-C171, seen by Hubble.",
+  "label": "q0302c171-hubble",
+  "spec": "HST+HST|Q0302-C171+Q0302-C171|11735+11735|ACS/WFC+WFC3/IR|q0302c171-hubble",
+  "find": [
+    "HST|11735|Q0302-C171"
+  ],
+  "type": "Deep field",
+  "aliases": [
+    "Q0302-C171",
+    "Lyman-break galaxy",
+    "LBG",
+    "distant galaxy",
+    "deep field"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Somewhere among the faint specks here is Q0302-C171, a Lyman-break galaxy from a small, carefully studied sample whose gas motions were mapped from the ground. Hubble added sharp images to test whether the tangled motions in such galaxies come from ongoing mergers.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "Q0302-C171 is a Lyman-break galaxy in the LSD sample at the pointing position",
+        "source": "https://ar5iv.arxiv.org/html/0902.2398"
+      },
+      {
+        "text": "The LSD project mapped the galaxies' gas with spatially resolved spectroscopy",
+        "source": "https://ar5iv.arxiv.org/html/0902.2398"
+      },
+      {
+        "text": "Hubble imaging was used to test whether complex velocity fields come from ongoing mergers",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/11735/"
+      }
+    ]
+  }
+}

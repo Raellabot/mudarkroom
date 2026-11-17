@@ -1,0 +1,51 @@
+{
+  "id": "leda-42120-hubble",
+  "name": "KKSG29 (Hubble)",
+  "blurb": "KKSG29, a faint dwarf irregular galaxy, seen by Hubble.",
+  "label": "leda42120-hubble",
+  "spec": "HST|LEDA-42120|14636|ACS/WFC|leda42120-hubble",
+  "find": [
+    "HST|14636|LEDA-42120"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "LEDA 42120",
+    "KKSG 29",
+    "dwarf irregular galaxy",
+    "low surface brightness galaxy",
+    "dwarf galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A faint, ragged dwarf galaxy that sits near the Sombrero Galaxy on the sky. Hubble resolved its red giant stars to measure its distance, and its motion differs from the Sombrero's.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "KKSG29 is LEDA 42120",
+        "source": "https://ar5iv.labs.arxiv.org/html/1804.00469"
+      },
+      {
+        "text": "KKSG29 is a low surface brightness dwarf irregular galaxy and a neighbor of NGC 4594, the Sombrero",
+        "source": "https://ar5iv.labs.arxiv.org/html/1804.00469"
+      },
+      {
+        "text": "The radial velocities of KKSG29 and NGC 4594 differ",
+        "source": "https://ar5iv.labs.arxiv.org/html/1804.00469"
+      },
+      {
+        "text": "Hubble program 14636 measured tip of the red giant branch distances to its galaxies",
+        "source": "https://ar5iv.labs.arxiv.org/html/1804.00469"
+      },
+      {
+        "text": "KKSG29 has a measured TRGB distance",
+        "source": "https://ar5iv.labs.arxiv.org/html/1804.00469"
+      }
+    ]
+  }
+}

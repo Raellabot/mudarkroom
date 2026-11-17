@@ -1,0 +1,38 @@
+{
+  "id": "ugc-07903-hubble",
+  "name": "UGC 7903 (Hubble)",
+  "blurb": "UGC 7903, a dwarf irregular galaxy, seen by Hubble.",
+  "label": "ugc07903-hubble",
+  "spec": "HST|UGC-07903|15922|ACS/WFC|ugc07903-hubble",
+  "find": [
+    "HST|15922|UGC-07903"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "UGC 07903",
+    "PGC 42832",
+    "dwarf irregular galaxy",
+    "dwarf galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A dwarf irregular galaxy, one of the nearby galaxies Hubble visited in an effort to resolve the brightest stars of every known nearby galaxy and measure how far away each one lies.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "UGC 7903 is a dwarf irregular galaxy (type dIrr); PGC 42832",
+        "source": "https://arxiv.org/html/2311.05989"
+      },
+      {
+        "text": "Hubble observed it in a program to image every known nearby galaxy, resolving the brightest stars to measure distances",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15922/"
+      }
+    ]
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "id": "mrk-1434-hubble",
+  "name": "Mrk 1434 (Hubble)",
+  "blurb": "Mrk 1434, a metal-poor dwarf galaxy, seen by Hubble.",
+  "label": "mrk1434-hubble",
+  "spec": "HST+HST|MRK-1434+MRK-1434|14356+14356|WFC3/IR+WFC3/UVIS|mrk1434-hubble",
+  "find": [
+    "HST|14356|MRK-1434"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "MRK-1434",
+    "blue compact dwarf galaxy",
+    "dwarf galaxy",
+    "star-forming galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A small, metal-poor galaxy busy forming stars, with two X-ray sources glowing inside it, one near its nucleus. Hubble looked closely at its core to help learn whether a massive black hole is hiding there.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "Mrk 1434 is a metal-poor dwarf galaxy",
+        "source": "https://scholarworks.montana.edu/server/api/core/bitstreams/f0f2ec14-0448-48dc-8202-34f6e6c77daa/content"
+      },
+      {
+        "text": "Mrk 1434 is a star-forming galaxy",
+        "source": "https://scholarworks.montana.edu/server/api/core/bitstreams/f0f2ec14-0448-48dc-8202-34f6e6c77daa/content"
+      },
+      {
+        "text": "Mrk 1434 is included in an atlas of blue compact dwarf galaxies",
+        "source": "https://arxiv.org/pdf/astro-ph/0410535"
+      },
+      {
+        "text": "Mrk 1434 contains two X-ray sources, the northern one toward the galactic nucleus",
+        "source": "https://scholarworks.montana.edu/server/api/core/bitstreams/f0f2ec14-0448-48dc-8202-34f6e6c77daa/content"
+      },
+      {
+        "text": "The Hubble program aimed to investigate candidate nuclear black holes in dwarf galaxies and to isolate the optical nucleus",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/14356/"
+      }
+    ]
+  }
+}

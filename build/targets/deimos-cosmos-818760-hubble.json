@@ -1,0 +1,52 @@
+{
+  "id": "deimos-cosmos-818760-hubble",
+  "name": "DC 818760 field (Hubble)",
+  "blurb": "A deep field toward the distant triple galaxy merger DC 818760, seen by Hubble.",
+  "label": "deimoscosmos818760-hubble",
+  "spec": "HST|DEIMOS-COSMOS-818760|15692|WFC3/IR|deimoscosmos818760-hubble",
+  "find": [
+    "HST|15692|DEIMOS-COSMOS-818760"
+  ],
+  "type": "Deep field",
+  "aliases": [
+    "DEIMOS_COSMOS_818760",
+    "DEIMOS-COSMOS-818760",
+    "DC 818760",
+    "COSMOS field",
+    "galaxy merger",
+    "deep field",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Somewhere in this patch of the COSMOS field, three galaxies are merging in the early universe, a system ALMA revealed through its gas and dust. Hubble looked to map their starlight and learn how dust hides star formation in early galaxies.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "DEIMOS_COSMOS_818760 (DC 818760) is a dusty triple merger",
+        "source": "https://ar5iv.labs.arxiv.org/html/1908.07777"
+      },
+      {
+        "text": "It is a system of three closely separated sources in the COSMOS field at high redshift",
+        "source": "https://ar5iv.labs.arxiv.org/html/1908.07777"
+      },
+      {
+        "text": "DEIMOS-COSMOS-818760 is a high-redshift galaxy target of Hubble program 15692",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15692/"
+      },
+      {
+        "text": "The targets were chosen for extended dust and [CII] gas emission seen in new ALMA data",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15692/"
+      },
+      {
+        "text": "Hubble imaging aims to study the distribution of dust and dust-obscured star formation in early galaxies",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15692/"
+      }
+    ]
+  }
+}

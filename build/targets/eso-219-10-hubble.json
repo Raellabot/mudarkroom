@@ -1,0 +1,42 @@
+{
+  "id": "eso-219-10-hubble",
+  "name": "ESO 219-010 (Hubble)",
+  "blurb": "ESO 219-010, a dwarf elliptical galaxy, seen by Hubble.",
+  "label": "eso21910-hubble",
+  "spec": "HST|ESO-219-10|15922|ACS/WFC|eso21910-hubble",
+  "find": [
+    "HST|15922|ESO-219-10"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "ESO219-010",
+    "PGC 44110",
+    "dwarf elliptical galaxy",
+    "dwarf galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Once counted among the dwarf elliptical galaxies of the Centaurus A group, this faint galaxy barely breaks into individual stars in Hubble's view, a hint that it lies much farther away than once thought.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "ESO 219-010 is a dwarf elliptical galaxy studied as a member of the Centaurus A group",
+        "source": "https://ar5iv.labs.arxiv.org/html/astro-ph/9912011"
+      },
+      {
+        "text": "Also known as PGC 44110",
+        "source": "https://arxiv.org/pdf/2303.05787"
+      },
+      {
+        "text": "In Hubble's ACS images it is essentially unresolved into stars, suggesting a larger distance than the earlier estimate",
+        "source": "https://arxiv.org/pdf/2303.05787"
+      }
+    ]
+  }
+}

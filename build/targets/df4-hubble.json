@@ -1,0 +1,41 @@
+{
+  "id": "df4-hubble",
+  "name": "M101-DF4 (Hubble)",
+  "blurb": "M101-DF4, an ultra-diffuse galaxy, seen by Hubble.",
+  "label": "df4-hubble",
+  "spec": "HST|DF4|13682|ACS/WFC|df4-hubble",
+  "find": [
+    "HST|13682|DF4"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "DF4",
+    "ultra-diffuse galaxy",
+    "low surface brightness galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Spotted by the Dragonfly telescope near the spiral galaxy M101, this faint, sprawling galaxy turned out to lie far behind it. Its boomerang-like shape hints that it may be losing stars to tidal stripping.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "Found with the Dragonfly telescope as an extremely low surface brightness galaxy in the field of M101",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/13682/"
+      },
+      {
+        "text": "DF4-DF7 are not M101 group members but lie in the background NGC 5473/5485 group and are classified as ultra-diffuse galaxies",
+        "source": "https://arxiv.org/pdf/1610.01609"
+      },
+      {
+        "text": "DF4 has a boomerang-like shape and may be undergoing tidal stripping",
+        "source": "https://arxiv.org/pdf/1610.01609"
+      }
+    ]
+  }
+}

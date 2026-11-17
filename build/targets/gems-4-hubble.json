@@ -1,0 +1,52 @@
+{
+  "id": "gems-4-hubble",
+  "name": "GEMS survey, field 4 (Hubble)",
+  "blurb": "GEMS field 4, one tile of a deep survey around the Chandra Deep Field South, seen by Hubble.",
+  "label": "gems4-hubble",
+  "spec": "HST|GEMS-4|9500|ACS/WFC|gems4-hubble",
+  "find": [
+    "HST|9500|GEMS-4"
+  ],
+  "type": "Deep field",
+  "aliases": [
+    "GEMS",
+    "Galaxy Evolution from Morphologies and SEDs",
+    "Chandra Deep Field South",
+    "E-CDFS",
+    "deep field",
+    "galaxies",
+    "GEMS-4"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "This is one tile of GEMS, a wide Hubble mosaic centered on the Chandra Deep Field South, where astronomers measured the shapes of nearly 10,000 galaxies to trace how galaxy structure has evolved. The survey also caught the host galaxies of several hundred faint active galactic nuclei.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "GEMS-4 is a pointing of Hubble program 9500, listed as a high-redshift galaxy field",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/list/9500/"
+      },
+      {
+        "text": "Program 9500 studies the evolution of galaxy structure across the E-CDFS",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/list/9500/"
+      },
+      {
+        "text": "GEMS (Galaxy Evolution from Morphologies and SEDs) is a Hubble ACS imaging survey centered on the Chandra Deep Field South",
+        "source": "https://arxiv.org/abs/astro-ph/0401427"
+      },
+      {
+        "text": "GEMS gives shapes (morphologies) for nearly 10,000 galaxies",
+        "source": "https://arxiv.org/abs/astro-ph/0401427"
+      },
+      {
+        "text": "GEMS shows host galaxies of several hundred faint active galactic nuclei (AGN)",
+        "source": "https://arxiv.org/abs/astro-ph/0401427"
+      }
+    ]
+  }
+}

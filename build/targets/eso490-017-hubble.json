@@ -1,0 +1,41 @@
+{
+  "id": "eso490-017-hubble",
+  "name": "ESO 490-017 (Hubble)",
+  "blurb": "ESO 490-017, a dwarf irregular galaxy, seen by Hubble.",
+  "label": "eso490017-hubble",
+  "spec": "HST|ESO490-017|12546|ACS/WFC|eso490017-hubble",
+  "find": [
+    "HST|12546|ESO490-017"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "dwarf irregular galaxy",
+    "irregular galaxy",
+    "dwarf galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "So faint across its face, this dwarf irregular galaxy appears as a faint, starry swarm behind brighter foreground stars. Hubble observed it in a program studying how galaxies move through space.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "ESO 490-017 is a dwarf irregular galaxy",
+        "source": "https://www.nasa.gov/image-article/hubble-spies-faint-irregular-galaxy/"
+      },
+      {
+        "text": "Its low surface brightness makes it appear as a faint, starry swarm behind brighter foreground stars",
+        "source": "https://www.nasa.gov/image-article/hubble-spies-faint-irregular-galaxy/"
+      },
+      {
+        "text": "The data came from a Hubble program on the movement of galaxies",
+        "source": "https://www.nasa.gov/image-article/hubble-spies-faint-irregular-galaxy/"
+      }
+    ]
+  }
+}

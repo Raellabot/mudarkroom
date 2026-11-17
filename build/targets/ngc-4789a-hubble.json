@@ -1,0 +1,55 @@
+{
+  "id": "ngc-4789a-hubble",
+  "name": "NGC 4789A (Hubble)",
+  "blurb": "NGC 4789A, a dwarf irregular galaxy, seen by Hubble.",
+  "label": "ngc4789a-hubble",
+  "spec": "HST|NGC-4789A|10905|ACS/WFC|ngc4789a-hubble",
+  "find": [
+    "HST|10905|NGC-4789A"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "DDO 154",
+    "DDO154",
+    "dwarf irregular galaxy",
+    "dwarf galaxy",
+    "irregular galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A loose swarm of stars in Coma Berenices, where young and old stars mingle, showing that this galaxy has kept forming stars throughout its history. Its motions suggest it is dominated by dark matter at all radii, wrapped in an extraordinarily extended disk of hydrogen gas.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "NGC 4789A is a dwarf irregular galaxy in the constellation of Coma Berenices",
+        "source": "https://esahubble.org/images/potw1646a/"
+      },
+      {
+        "text": "Young and old stars show it has formed stars throughout its history",
+        "source": "https://esahubble.org/images/potw1646a/"
+      },
+      {
+        "text": "DDO 154 is also catalogued as NGC 4789A",
+        "source": "https://web3.arxiv.org/pdf/1804.07072"
+      },
+      {
+        "text": "DDO 154's dynamics seem dominated by dark matter at all radii",
+        "source": "https://ar5iv.arxiv.org/html/astro-ph/0107484"
+      },
+      {
+        "text": "DDO 154 has an extraordinarily extended HI (hydrogen) disk",
+        "source": "https://ar5iv.arxiv.org/html/astro-ph/0107484"
+      },
+      {
+        "text": "NGC 4789A is a target of program 10905 on the dwarf-galaxy-rich Canes Venatici I region",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/10905/"
+      }
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": "3c210-hubble",
+  "name": "3C 210 (Hubble)",
+  "blurb": "3C 210, a distant radio galaxy, seen by Hubble.",
+  "label": "3c210-hubble",
+  "spec": "HST+HST|3C210+3C210|13023+13023|WFC3/IR+WFC3/UVIS|3c210-hubble",
+  "find": [
+    "HST|13023|3C210"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "3C 210",
+    "3C210",
+    "radio galaxy",
+    "galaxy",
+    "radio source"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "3C 210 is among the most powerful radio galaxies of the distant universe. Hubble surveyed such galaxies to see how their fierce activity shapes their hosts, finding signs of star formation and distorted forms in several of them.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "3C 210 is a radio galaxy in the 3C sample of high-redshift radio galaxies and QSOs",
+        "source": "https://ar5iv.labs.arxiv.org/html/1605.03196"
+      },
+      {
+        "text": "The program targeted the most powerful radio galaxies at such redshifts",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/13023/"
+      },
+      {
+        "text": "Several targets show UV emission suggestive of star formation and distorted host morphologies",
+        "source": "https://ar5iv.labs.arxiv.org/html/1605.03196"
+      }
+    ]
+  }
+}

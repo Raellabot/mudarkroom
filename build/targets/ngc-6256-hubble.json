@@ -1,0 +1,40 @@
+{
+  "id": "ngc-6256-hubble",
+  "name": "NGC 6256 (Hubble)",
+  "blurb": "NGC 6256, a globular cluster in the Milky Way's bulge, seen by Hubble.",
+  "label": "ngc6256-hubble",
+  "spec": "HST|NGC-6256|15065|ACS/WFC|ngc6256-hubble",
+  "find": [
+    "HST|15065|NGC-6256"
+  ],
+  "type": "Star cluster",
+  "aliases": [
+    "globular cluster",
+    "bulge globular cluster",
+    "star cluster"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "An ancient globular cluster hidden behind heavy dust toward the Milky Way's crowded bulge. Its orbit keeps it entirely within the bulge.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "NGC 6256 is an ancient, heavily obscured bulge globular cluster",
+        "source": "https://arxiv.org/abs/2004.06131"
+      },
+      {
+        "text": "Its orbit is confined within the bulge",
+        "source": "https://arxiv.org/abs/2004.06131"
+      },
+      {
+        "text": "NGC 6256 is one of the inner Milky Way globular clusters of Hubble program 15065",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15065/"
+      }
+    ]
+  }
+}

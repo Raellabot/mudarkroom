@@ -1,0 +1,49 @@
+{
+  "id": "maffei-1-hubble",
+  "name": "Maffei 1 (Hubble)",
+  "blurb": "Maffei 1, a large galaxy hidden behind dust in the Milky Way, seen by Hubble.",
+  "label": "maffei1-hubble",
+  "spec": "HST|MAFFEI-1|12877|WFC3/IR|maffei1-hubble",
+  "find": [
+    "HST|12877|MAFFEI-1"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "Maffei Group",
+    "lenticular galaxy",
+    "elliptical galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Veiled by the dust of our own galaxy, Maffei 1 lay unknown until 1968, when Paolo Maffei found it. Hubble searched its crowded starlight for red giants to measure the distance to the group it rules.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "MAFFEI-1 is a target of Hubble program 12877, 'Exposing the Maffei Group', which uses the tip of the red giant branch to measure distances to the obscured Maffei-IC 342 complex",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/12877/"
+      },
+      {
+        "text": "Maffei 1 is hidden in visible light by dust in IC 1805 and was unknown until 1968 when Paolo Maffei found it",
+        "source": "https://www.jpl.nasa.gov/images/pia12865-maffei-1-and-2/"
+      },
+      {
+        "text": "Maffei 1 is described as a lenticular galaxy",
+        "source": "https://www.jpl.nasa.gov/images/pia12865-maffei-1-and-2/"
+      },
+      {
+        "text": "Maffei 1 is the dominant galaxy of the Maffei group, typed E",
+        "source": "https://ar5iv.labs.arxiv.org/html/1901.05981"
+      },
+      {
+        "text": "The Maffei/IC 342 galaxies lie at low Galactic latitudes with severe extinction",
+        "source": "https://arxiv.org/abs/1404.2987"
+      }
+    ]
+  }
+}

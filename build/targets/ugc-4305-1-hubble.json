@@ -1,0 +1,47 @@
+{
+  "id": "ugc-4305-1-hubble",
+  "name": "Holmberg II (Hubble)",
+  "blurb": "Holmberg II, a dwarf irregular galaxy, seen by Hubble.",
+  "label": "ugc43051-hubble",
+  "spec": "HST|UGC-4305-1|10605|ACS/WFC|ugc43051-hubble",
+  "find": [
+    "HST|10605|UGC-4305-1"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "UGC 4305",
+    "Holmberg II-1",
+    "dwarf irregular galaxy",
+    "irregular galaxy",
+    "dwarf galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Huge bubbles of glowing gas punctuate this dwarf galaxy, blown out by the winds and supernova explosions of massive stars, among dense star-forming regions and barren stretches.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "Holmberg II is a dwarf irregular galaxy",
+        "source": "https://esahubble.org/images/heic1114a/"
+      },
+      {
+        "text": "It is dominated by huge bubbles of glowing gas, sites of ongoing star formation",
+        "source": "https://esahubble.org/images/heic1114a/"
+      },
+      {
+        "text": "The bubbles were blown by stellar winds and supernovae; the galaxy is a patchwork of dense star-forming regions and barren areas",
+        "source": "https://esahubble.org/news/heic1114/"
+      },
+      {
+        "text": "UGC-4305-1 is the Holmberg II-1 pointing of program 10605",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/10605/"
+      }
+    ]
+  }
+}

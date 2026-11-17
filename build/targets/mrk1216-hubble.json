@@ -1,0 +1,53 @@
+{
+  "id": "mrk1216-hubble",
+  "name": "Mrk 1216 (Hubble)",
+  "blurb": "Mrk 1216, a compact relic galaxy, seen by Hubble.",
+  "label": "mrk1216-hubble",
+  "spec": "HST+HST|MRK1216+MRK1216|13050+13050|WFC3/IR+WFC3/UVIS|mrk1216-hubble",
+  "find": [
+    "HST|13050|MRK1216"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "MRK 1216",
+    "MRK1216",
+    "Mrk1216",
+    "relic galaxy",
+    "red nugget",
+    "compact elliptical galaxy",
+    "elliptical galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A small, dense galaxy that astronomers call an untouched survivor of the early universe, a red nugget that seems to have changed little since its stars formed. At its heart sits a black hole of about 4.9 billion solar masses.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "Mrk 1216 is a massive relic galaxy, an untouched survivor of the early universe's massive population (a red nugget)",
+        "source": "https://arxiv.org/abs/1701.05197"
+      },
+      {
+        "text": "Mrk 1216 is a compact galaxy that may be a passively evolved descendant",
+        "source": "https://arxiv.org/abs/1612.02015"
+      },
+      {
+        "text": "Mrk 1216's central black hole has a mass of about 4.9 billion solar masses",
+        "source": "https://arxiv.org/abs/1612.02015"
+      },
+      {
+        "text": "Mrk 1216 is a compact elliptical galaxy imaged by Hubble program GO-13050",
+        "source": "https://ar5iv.labs.arxiv.org/html/1701.05898"
+      },
+      {
+        "text": "MRK1216 was a target of Hubble program 13050",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/13050/"
+      }
+    ]
+  }
+}

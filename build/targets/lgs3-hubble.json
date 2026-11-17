@@ -1,0 +1,55 @@
+{
+  "id": "lgs3-hubble",
+  "name": "LGS 3 (Hubble)",
+  "blurb": "LGS 3, a transition-type dwarf galaxy in the Local Group, seen by Hubble.",
+  "label": "lgs3-hubble",
+  "spec": "HST|LGS3|10505|ACS/WFC|lgs3-hubble",
+  "find": [
+    "HST|10505|LGS3"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "LGS-3",
+    "LGS3",
+    "Pisces",
+    "transition-type dwarf",
+    "dwarf galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "LGS 3 is a Local Group dwarf galaxy caught between types, a 'transition object' between dwarf spheroidal and dwarf irregular galaxies. Its stars are mostly old and metal-poor, most of them born in one main episode long ago.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "LGS 3 is a Local Group dwarf galaxy",
+        "source": "https://arxiv.org/abs/astro-ph/0108408"
+      },
+      {
+        "text": "LGS 3 is a transition object between dwarf spheroidal and dwarf irregular galaxies",
+        "source": "https://arxiv.org/abs/astro-ph/0108408"
+      },
+      {
+        "text": "Its stellar population is dominated by old, metal-poor stars",
+        "source": "https://arxiv.org/abs/astro-ph/0108408"
+      },
+      {
+        "text": "Most of its stars formed in one main episode long ago",
+        "source": "https://arxiv.org/abs/1101.5762"
+      },
+      {
+        "text": "LGS-3 is also given as Pisces",
+        "source": "https://arxiv.org/abs/1101.5762"
+      },
+      {
+        "text": "The LCID study of LGS-3 is based on program 10505",
+        "source": "https://arxiv.org/html/1101.5762"
+      }
+    ]
+  }
+}

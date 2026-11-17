@@ -1,0 +1,45 @@
+{
+  "id": "16vlr-hubble",
+  "name": "16VLR supernova survey field (Hubble)",
+  "blurb": "A deep field toward 16VLR, a target of the SUSHI supernova survey, seen by Hubble.",
+  "label": "16vlr-hubble",
+  "spec": "HST|16VLR|14808|WFC3/IR|16vlr-hubble",
+  "find": [
+    "HST|14808|16VLR"
+  ],
+  "type": "Deep field",
+  "aliases": [
+    "SUSHI",
+    "supernova survey field",
+    "deep field",
+    "galaxies"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Hubble returned to this patch of sky as part of SUSHI, a search for faint, distant Type Ia supernovae first caught by Subaru's Hyper Suprime-Cam. Somewhere in the field, among the far galaxies, lies the target the survey came to follow.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "16VLR is a target of Hubble program 14808, SUbaru Supernovae with Hubble Infrared (SUSHI)",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/14808/"
+      },
+      {
+        "text": "16VLR is also a target of the follow-on SUSHI program 15363",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15363/"
+      },
+      {
+        "text": "SUSHI studies high-redshift Type Ia supernovae with light curves from Subaru Hyper Suprime-Cam plus Hubble WFC3/IR data",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15363/"
+      },
+      {
+        "text": "The program aims to discover and study high-quality Type Ia supernovae",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/14808/"
+      }
+    ]
+  }
+}

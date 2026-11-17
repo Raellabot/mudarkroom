@@ -1,0 +1,44 @@
+{
+  "id": "leo-t-hubble",
+  "name": "Leo T (Hubble)",
+  "blurb": "Leo T, a dwarf satellite galaxy of the Milky Way, seen by Hubble.",
+  "label": "leot-hubble",
+  "spec": "HST+HST|LEO-T+LEO-T|13770+13770|ACS/WFC+WFC3/UVIS|leot-hubble",
+  "find": [
+    "HST|13770|LEO-T"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "Leo T dwarf galaxy",
+    "Leo T dwarf spheroidal galaxy",
+    "dwarf spheroidal galaxy",
+    "dwarf galaxy",
+    "satellite galaxy",
+    "Milky Way satellite",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A tiny dwarf galaxy out at the Milky Way's edge that, unusually for the Milky Way's dwarf spheroidal companions, still holds gas, and it seems to be falling in for the first time. Hubble tracked its slow drift across the sky to help weigh our own galaxy.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "Leo T is a Milky Way dwarf spheroidal galaxy, the only one with any gas",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/13770/"
+      },
+      {
+        "text": "Leo T is a gas-rich, infalling Milky Way satellite near the Milky Way's virial radius",
+        "source": "https://www.aanda.org/articles/aa/full_html/2024/12/aa51649-24/aa51649-24.html"
+      },
+      {
+        "text": "Hubble program 13770 measures Leo T's proper motion to determine the Milky Way's mass",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/13770/"
+      }
+    ]
+  }
+}

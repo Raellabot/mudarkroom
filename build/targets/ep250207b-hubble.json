@@ -1,0 +1,54 @@
+{
+  "id": "ep250207b-hubble",
+  "name": "EP250207b field (Hubble)",
+  "blurb": "The field of EP250207b, a fast X-ray transient, seen by Hubble.",
+  "label": "ep250207b-hubble",
+  "spec": "HST+HST|EP250207B+EP250207B|17806+17806|WFC3/IR+WFC3/UVIS|ep250207b-hubble",
+  "find": [
+    "HST|17806|EP250207B"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "EP 250207b",
+    "WISEA J111002.65-075211.9",
+    "fast X-ray transient",
+    "lenticular galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Hubble returned to this spot to follow the fading light of EP250207b, a brief flash of X-rays caught by the Einstein Probe that astronomers think may have come from the merger of two compact objects. Its likely home is a nearby lenticular galaxy whose stars show no signs of recent star formation.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "EP250207b is a fast X-ray transient discovered by the Einstein Probe",
+        "source": "https://arxiv.org/abs/2508.13039"
+      },
+      {
+        "text": "Its properties favor an origin in a binary compact object merger",
+        "source": "https://arxiv.org/abs/2508.13039"
+      },
+      {
+        "text": "Its candidate host is a nearby lenticular galaxy with no signs of recent star formation",
+        "source": "https://arxiv.org/abs/2508.13039"
+      },
+      {
+        "text": "The candidate host galaxy is WISEA J111002.65-075211.9",
+        "source": "https://arxiv.org/html/2508.13039v2"
+      },
+      {
+        "text": "Hubble program 17806 imaged EP250207b to follow its light curve",
+        "source": "https://arxiv.org/html/2508.13039v2"
+      },
+      {
+        "text": "Hubble program 17806 follows kilonovae from merger-driven gamma-ray bursts",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/17806/"
+      }
+    ]
+  }
+}

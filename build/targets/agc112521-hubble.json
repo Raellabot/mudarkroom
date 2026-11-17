@@ -1,0 +1,52 @@
+{
+  "id": "agc112521-hubble",
+  "name": "AGC 112521 (Hubble)",
+  "blurb": "AGC 112521, a gas-rich dwarf galaxy, seen by Hubble.",
+  "label": "agc112521-hubble",
+  "spec": "HST|AGC112521|12658|ACS/WFC|agc112521-hubble",
+  "find": [
+    "HST|12658|AGC112521"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "SHIELD galaxy",
+    "dwarf galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A tiny, gas-rich dwarf galaxy, among the lowest-mass galaxies that still hold stars, first found by the hydrogen gas it carries. Hubble picked out its brightest red giant stars to measure how far away it is.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "AGC112521 is a target of Hubble program 12658, 'Fundamental Parameters of the SHIELD Galaxies'",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/12658/"
+      },
+      {
+        "text": "SHIELD galaxies are extremely low-mass, gas-rich galaxies discovered by the ALFALFA radio survey",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/12658/"
+      },
+      {
+        "text": "SHIELD is the Survey of HI in Extremely Low-mass Dwarf galaxies, and all its systems have recent star formation",
+        "source": "https://ar5iv.labs.arxiv.org/html/1402.3723"
+      },
+      {
+        "text": "Hubble program 12658 measured the galaxies' distances with the tip of the red giant branch method",
+        "source": "https://ar5iv.labs.arxiv.org/html/1402.3723"
+      },
+      {
+        "text": "The galaxies were selected from the ALFALFA HI survey (found by their hydrogen gas)",
+        "source": "https://ar5iv.labs.arxiv.org/html/1402.3723"
+      },
+      {
+        "text": "The tip of the red giant branch was detected in AGC 112521",
+        "source": "https://ar5iv.labs.arxiv.org/html/1402.3723"
+      }
+    ]
+  }
+}

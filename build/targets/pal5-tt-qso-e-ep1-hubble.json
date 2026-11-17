@@ -1,0 +1,42 @@
+{
+  "id": "pal5-tt-qso-e-ep1-hubble",
+  "name": "Palomar 5 tidal tail, quasar field (Hubble)",
+  "blurb": "A field in the tidal tail of the globular cluster Palomar 5, seen by Hubble.",
+  "label": "pal5ttqsoeep1-hubble",
+  "spec": "HST+HST|PAL5-TT-QSO-E-EP1+PAL5-TT-QSO-E-EP1|12957+12957|ACS/WFC+WFC3/UVIS|pal5ttqsoeep1-hubble",
+  "find": [
+    "HST|12957|PAL5-TT-QSO-E-EP1"
+  ],
+  "type": "Deep field",
+  "aliases": [
+    "Palomar 5",
+    "Pal 5",
+    "tidal tail",
+    "globular cluster tidal tail",
+    "quasar field"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Stars torn from the globular cluster Palomar 5 stream through this patch of sky. Hubble used distant quasars and galaxies behind them as fixed markers to measure how the cluster and its tail move.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "Palomar 5 (Pal 5) is a Milky Way globular cluster with prominent tidal tails",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/12957/"
+      },
+      {
+        "text": "This pointing is a tidal tail field beside a QSO",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/12957/"
+      },
+      {
+        "text": "QSOs and galaxies in these fields serve as references to measure the proper motion",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/12957/"
+      }
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": "asassn-14dq-hubble",
+  "name": "UGC 11860, ASASSN-14dq field (Hubble)",
+  "blurb": "UGC 11860, a low-luminosity galaxy that hosted the supernova ASASSN-14dq, seen by Hubble.",
+  "label": "asassn14dq-hubble",
+  "spec": "HST|ASASSN-14DQ|14668|WFC3/UVIS|asassn14dq-hubble",
+  "find": [
+    "HST|14668|ASASSN-14DQ"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "ASASSN-14dq",
+    "UGC 11860",
+    "supernova host",
+    "Type II-P supernova",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "ASASSN-14dq, a fast-declining Type II-P supernova, exploded in this faint, metal-poor galaxy. Hubble returned to the site in a snapshot survey of recent, nearby supernovae, looking for lingering light and the stars around each explosion.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "ASASSN-14dq is a fast-declining Type II-P supernova",
+        "source": "https://www.arxiv.org/abs/1807.07251"
+      },
+      {
+        "text": "Its host galaxy is UGC 11860, a low-luminosity, low-metallicity galaxy",
+        "source": "https://www.arxiv.org/abs/1807.07251"
+      },
+      {
+        "text": "Hubble observed the site in a snapshot survey of the sites of recent, nearby supernovae, aiming at late-time light and the local stellar environment",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/14668/"
+      }
+    ]
+  }
+}

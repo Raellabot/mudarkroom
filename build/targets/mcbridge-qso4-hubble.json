@@ -1,0 +1,52 @@
+{
+  "id": "mcbridge-qso4-hubble",
+  "name": "Magellanic Bridge, quasar field ESO 31-8 (Hubble)",
+  "blurb": "A field in the Magellanic Bridge, toward the background source ESO 31-8, seen by Hubble.",
+  "label": "mcbridgeqso4-hubble",
+  "spec": "HST|MCBRIDGE-QSO4|14775|WFC3/UVIS|mcbridgeqso4-hubble",
+  "find": [
+    "HST|14775|MCBRIDGE-QSO4"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "ESO 31-8",
+    "ESO31-8",
+    "MCBRIDGE-QSOo",
+    "Magellanic Bridge",
+    "Magellanic Clouds",
+    "quasar field",
+    "star field"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "The stars scattered here belong to the Magellanic Bridge, tidal debris strung between the Large and Small Magellanic Clouds. Hubble looked twice, measuring how the stars drift against a distant background source to test whether the two Clouds collided head-on.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "The field is one of the Magellanic Bridge proper-motion fields, centered on a background source listed as a QSO, alternate name ESO31-8",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/14775/"
+      },
+      {
+        "text": "The quasar targets are background QSOs in the Magellanic Bridge",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/13834/"
+      },
+      {
+        "text": "The Bridge holds tidal debris between the LMC and SMC; the program tests whether it comes from a recent direct-hit collision",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/14775/"
+      },
+      {
+        "text": "Hubble imaged the field twice (first and second epochs), using quasars as stationary reference sources to measure star motions",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/14775/"
+      },
+      {
+        "text": "First-epoch observation of the same field",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/13834/"
+      }
+    ]
+  }
+}

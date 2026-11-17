@@ -1,0 +1,49 @@
+{
+  "id": "spt-clj0446-4606-hubble",
+  "name": "SPT-CL J0446-4606 (Hubble)",
+  "blurb": "SPT-CL J0446-4606, a massive, distant galaxy cluster, seen by Hubble.",
+  "label": "sptclj04464606-hubble",
+  "spec": "HST+HST|SPT-CLJ0446-4606+SPT-CLJ0446-4606|14252+14252|ACS/WFC+WFC3/IR|sptclj04464606-hubble",
+  "find": [
+    "HST|14252|SPT-CLJ0446-4606"
+  ],
+  "type": "Galaxy cluster",
+  "aliases": [
+    "SPT-CLJ0446-4606",
+    "SPT-SZ",
+    "South Pole Telescope",
+    "galaxy cluster"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Among the farthest massive galaxy clusters caught by the South Pole Telescope, this rare giant gathers a crowd of galaxies. Hubble surveyed them to learn how dense cluster cores bring star birth to a halt.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "SPT-CLJ0446-4606 is one of the five highest-redshift massive SPT-SZ galaxy clusters",
+        "source": "https://ar5iv.labs.arxiv.org/html/1807.09768"
+      },
+      {
+        "text": "Selected through the Sunyaev-Zel'dovich effect in the South Pole Telescope survey",
+        "source": "https://ar5iv.labs.arxiv.org/html/1807.09768"
+      },
+      {
+        "text": "Among the rarest most massive clusters known at this redshift",
+        "source": "https://ar5iv.labs.arxiv.org/html/1807.09768"
+      },
+      {
+        "text": "All five clusters show clear overdensities of red galaxies",
+        "source": "https://ar5iv.labs.arxiv.org/html/1807.09768"
+      },
+      {
+        "text": "Hubble imaged the clusters to study suppression of star formation in massive cluster cores",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/14252/"
+      }
+    ]
+  }
+}

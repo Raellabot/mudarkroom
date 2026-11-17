@@ -1,0 +1,47 @@
+{
+  "id": "ps1-12sk-hubble",
+  "name": "CGCG 208-042, PS1-12sk field (Hubble)",
+  "blurb": "CGCG 208-042, the brightest galaxy in its cluster, seen by Hubble.",
+  "label": "ps112sk-hubble",
+  "spec": "HST|PS1-12SK|15236|WFC3/UVIS|ps112sk-hubble",
+  "find": [
+    "HST|15236|PS1-12SK"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "PS1-12sk",
+    "RXC J0844.9+4258",
+    "elliptical galaxy",
+    "brightest cluster galaxy",
+    "supernova",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "The rare Type Ibn supernova PS1-12sk exploded on the outskirts of this giant elliptical galaxy, the brightest in its cluster and an unlikely home for an exploding massive star. Hubble found no sign of star formation near the site, hinting that such supernovae may not all come from massive stars.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "PS1-12sk is a Type Ibn supernova, a rare class, found on the outskirts of a giant elliptical galaxy",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15236/"
+      },
+      {
+        "text": "The host is the elliptical brightest cluster galaxy CGCG 208-042 in cluster RXC J0844.9+4258",
+        "source": "https://arxiv.org/pdf/1303.1818"
+      },
+      {
+        "text": "Deep Hubble imaging detected no emission near the supernova location, suggesting Type Ibn supernovae may not all come from massive stars",
+        "source": "https://www.arxiv.org/abs/1901.03332"
+      },
+      {
+        "text": "A massive star exploding in a brightest cluster galaxy is unexpected",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15236/"
+      }
+    ]
+  }
+}

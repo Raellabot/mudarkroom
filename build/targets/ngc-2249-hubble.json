@@ -1,0 +1,44 @@
+{
+  "id": "ngc-2249-hubble",
+  "name": "NGC 2249 (Hubble)",
+  "blurb": "NGC 2249, an intermediate-age star cluster in the Large Magellanic Cloud, seen by Hubble.",
+  "label": "ngc2249-hubble",
+  "spec": "HST|NGC-2249|12908|WFC3/UVIS|ngc2249-hubble",
+  "find": [
+    "HST|12908|NGC-2249"
+  ],
+  "type": "Star cluster",
+  "aliases": [
+    "NGC 2249",
+    "star cluster",
+    "Magellanic Cloud cluster"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A compact gathering of stars in the Large Magellanic Cloud, NGC 2249 holds a quiet puzzle: its stars leave the main sequence over a wider band than a single generation should. Hubble looked closely to learn why.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "NGC 2249 is an intermediate-age star cluster in the Large Magellanic Cloud",
+        "source": "https://arxiv.org/abs/1407.6957"
+      },
+      {
+        "text": "NGC 2249 is compact",
+        "source": "https://arxiv.org/abs/1407.6957"
+      },
+      {
+        "text": "Its main-sequence turnoff is wider than a single stellar population predicts",
+        "source": "https://arxiv.org/abs/1407.6957"
+      },
+      {
+        "text": "Hubble program 12908 targeted NGC 2249 to study extended main-sequence turnoffs",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/12908/"
+      }
+    ]
+  }
+}

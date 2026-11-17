@@ -1,0 +1,40 @@
+{
+  "id": "spt-clj2254-4907-hubble",
+  "name": "SPT-CL J2254-4907 (Hubble)",
+  "blurb": "SPT-CL J2254-4907, a massive galaxy cluster found by the South Pole Telescope, seen by Hubble.",
+  "label": "sptclj22544907-hubble",
+  "spec": "HST+HST|SPT-CLJ2254-4907+SPT-CLJ2254-4907|15307+15307|WFC3/IR+WFC3/UVIS|sptclj22544907-hubble",
+  "find": [
+    "HST|15307|SPT-CLJ2254-4907"
+  ],
+  "type": "Galaxy cluster",
+  "aliases": [
+    "SPT-CLJ2254-4907",
+    "galaxy cluster",
+    "cluster of galaxies"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A massive swarm of galaxies held together by gravity, first spotted by the South Pole Telescope. Hubble's snapshot helps trace how the giant galaxies at the hearts of such clusters grew by merging.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "SPT-CL J2254-4907 is one of the South Pole Telescope galaxy clusters imaged in Hubble program 15307",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15307/"
+      },
+      {
+        "text": "The program's clusters were identified via the Sunyaev-Zel'dovich effect and are massive clusters",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15307/"
+      },
+      {
+        "text": "The program studies the growth of brightest cluster galaxies through mergers, strong lensing, and lensed background galaxies",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15307/"
+      }
+    ]
+  }
+}

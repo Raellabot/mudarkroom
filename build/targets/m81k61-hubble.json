@@ -1,0 +1,45 @@
+{
+  "id": "m81k61-hubble",
+  "name": "KDG 61 (Hubble)",
+  "blurb": "KDG 61, a dwarf spheroidal galaxy in the M81 group, seen by Hubble.",
+  "label": "m81k61-hubble",
+  "spec": "HST|M81K61|9884|ACS/WFC|m81k61-hubble",
+  "find": [
+    "HST|9884|M81K61"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "dwarf spheroidal galaxy",
+    "dwarf elliptical galaxy",
+    "dwarf galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "One of the closest companions of the galaxy M81, this dwarf is the most luminous dwarf spheroidal in the M81 group. Some astronomers class it as a transition type, between a dwarf irregular and a dwarf spheroidal.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "KDG 61 is a dE/dSph member of the M81 group",
+        "source": "https://ar5iv.labs.arxiv.org/html/1003.6061"
+      },
+      {
+        "text": "KDG 61 is the most luminous dSph in the M81 group and one of the closest companions to M81",
+        "source": "https://ar5iv.labs.arxiv.org/html/1003.6061"
+      },
+      {
+        "text": "KDG 61 has been classified as a transitional type between dIrr and dSph",
+        "source": "https://ar5iv.labs.arxiv.org/html/1003.6061"
+      },
+      {
+        "text": "Hubble ACS images of KDG 61 come from proposal 9884",
+        "source": "https://ar5iv.labs.arxiv.org/html/1003.6061"
+      }
+    ]
+  }
+}

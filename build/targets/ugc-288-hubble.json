@@ -1,0 +1,37 @@
+{
+  "id": "ugc-288-hubble",
+  "name": "UGC 288 (Hubble)",
+  "blurb": "UGC 288, an isolated dwarf irregular galaxy, seen by Hubble.",
+  "label": "ugc288-hubble",
+  "spec": "HST|UGC-288|12546|ACS/WFC|ugc288-hubble",
+  "find": [
+    "HST|12546|UGC-288"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "dwarf irregular galaxy",
+    "irregular galaxy",
+    "dwarf galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A lone dwarf irregular galaxy, UGC 288 is one of the nearby galaxies whose red giant stars Hubble used as markers of distance, to map the local universe in three dimensions.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "UGC 288 is an isolated dIrr galaxy",
+        "source": "https://arxiv.org/pdf/1112.2548"
+      },
+      {
+        "text": "The program measured distances to nearby galaxies from the luminosities of red giant branch stars, to build 3D maps of galaxies",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/12546/"
+      }
+    ]
+  }
+}

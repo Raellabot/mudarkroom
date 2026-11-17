@@ -1,0 +1,54 @@
+{
+  "id": "sn-2007ke-hubble",
+  "name": "NGC 1129, SN 2007ke field (Hubble)",
+  "blurb": "NGC 1129, an early-type galaxy with a double core, seen by Hubble.",
+  "label": "sn2007ke-hubble",
+  "spec": "HST|SN-2007KE|13698|ACS/WFC|sn2007ke-hubble",
+  "find": [
+    "HST|13698|SN-2007KE"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "SN 2007ke",
+    "SN2007ke",
+    "calcium-rich supernova",
+    "early-type galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "SN 2007ke, a calcium-rich supernova, went off in the faint halo light far from the center of NGC 1129. Hubble resolved that galaxy's heart into two cores, the mark of an ongoing merger.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "NGC 1129 is the adopted host of SN 2007ke",
+        "source": "https://arxiv.org/pdf/1602.08098"
+      },
+      {
+        "text": "NGC 1129 is an early-type galaxy with a double core",
+        "source": "https://arxiv.org/pdf/1602.08098"
+      },
+      {
+        "text": "SN 2007ke is a calcium-rich supernova",
+        "source": "https://arxiv.org/pdf/1602.08098"
+      },
+      {
+        "text": "Calcium-rich transients are a peculiar class of explosion in which up to half the ejecta is calcium",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/13698/"
+      },
+      {
+        "text": "SN 2007ke lies far from its host's center, in the halo light of nearby galaxies",
+        "source": "https://arxiv.org/pdf/1602.08098"
+      },
+      {
+        "text": "Hubble resolved NGC 1129's center into a double core, an ongoing merger",
+        "source": "https://arxiv.org/pdf/1602.08098"
+      }
+    ]
+  }
+}

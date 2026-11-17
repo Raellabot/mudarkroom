@@ -1,0 +1,47 @@
+{
+  "id": "sn1989l-hubble",
+  "name": "NGC 7339, SN 1989L field (Hubble)",
+  "blurb": "NGC 7339, an edge-on spiral galaxy that hosted the supernova SN 1989L, seen by Hubble.",
+  "label": "sn1989l-hubble",
+  "spec": "HST|SN1989L|17731|WFC3/UVIS|sn1989l-hubble",
+  "find": [
+    "HST|17731|SN1989L"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "SN 1989L",
+    "SN1989L",
+    "spiral galaxy",
+    "edge-on galaxy",
+    "galaxy",
+    "supernova"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Decades after SN 1989L burst out in the edge-on spiral NGC 7339, Hubble came back to its site. The search asks whether supernovae of the Type IIn kind truly end their stars, or whether something survives.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "SN 1989L was a supernova in NGC 7339",
+        "source": "https://tamkin3.eps.harvard.edu/iauc/04700/04791.html"
+      },
+      {
+        "text": "Spectra of SN 1989L showed a Type II supernova",
+        "source": "https://tamkin3.eps.harvard.edu/iauc/04700/04799.html"
+      },
+      {
+        "text": "NGC 7339 is an edge-on spiral galaxy",
+        "source": "https://noirlab.edu/public/images/noao-n7332"
+      },
+      {
+        "text": "Program 17731 imaged SN 1989L's site as one of the confirmed Type IIn supernovae, asking whether they are terminal explosions",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/17731/"
+      }
+    ]
+  }
+}

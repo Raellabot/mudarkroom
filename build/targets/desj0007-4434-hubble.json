@@ -1,0 +1,42 @@
+{
+  "id": "desj0007-4434-hubble",
+  "name": "DES J0007-4434 (Hubble)",
+  "blurb": "DES J0007-4434, a strong gravitational lens, seen by Hubble.",
+  "label": "desj00074434-hubble",
+  "spec": "HST+HST|DESJ0007-4434+DESJ0007-4434|16773+16773|WFC3/IR+WFC3/UVIS|desj00074434-hubble",
+  "find": [
+    "HST|16773|DESJ0007-4434"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "DESJ0007-4434",
+    "AGEL000729-443446",
+    "gravitational lens",
+    "strong lens",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "The gravity of a foreground galaxy bends and stretches the light of a more distant galaxy behind it, a natural lens first spotted in Dark Energy Survey images.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "DESJ0007-4434 was graded definitely a lens",
+        "source": "https://arxiv.org/pdf/1905.10522"
+      },
+      {
+        "text": "DESJ0007-4434 was found as a strong lensing candidate in Dark Energy Survey images",
+        "source": "https://nottingham-repository.worktribe.com/file/884034/1/Diehl_2017_ApJS_232_15.pdf"
+      },
+      {
+        "text": "AGEL000729-443446A at the same position has a measured background source redshift and Hubble imaging from program 16773",
+        "source": "https://arxiv.org/html/2503.08041v1"
+      }
+    ]
+  }
+}

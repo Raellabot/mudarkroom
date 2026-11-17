@@ -1,0 +1,46 @@
+{
+  "id": "ic3032-hubble",
+  "name": "IC 3032 (Hubble)",
+  "blurb": "IC 3032, a dwarf elliptical galaxy in the Virgo Cluster, seen by Hubble.",
+  "label": "ic3032-hubble",
+  "spec": "HST|IC3032|11712|WFC3/IR|ic3032-hubble",
+  "find": [
+    "HST|11712|IC3032"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "VCC 33",
+    "dwarf elliptical galaxy",
+    "elliptical galaxy",
+    "dwarf galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "This dwarf elliptical galaxy belongs to the Virgo Cluster, though it probably lies outside the cluster's core. Hubble measured the faint graininess of its light, its surface brightness fluctuations, to help calibrate a way of measuring distances to galaxies.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "IC 3032 is a dE2 galaxy in the Virgo cluster, also known as VCC 33",
+        "source": "https://arxiv.org/pdf/1505.00400"
+      },
+      {
+        "text": "It is probably outside the Virgo cluster core",
+        "source": "https://arxiv.org/pdf/1505.00400"
+      },
+      {
+        "text": "Hubble observed it to calibrate the surface brightness fluctuation distance method",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/11712/"
+      },
+      {
+        "text": "The calibration used early-type galaxies in the Virgo and Fornax clusters",
+        "source": "https://arxiv.org/abs/1505.00400"
+      }
+    ]
+  }
+}

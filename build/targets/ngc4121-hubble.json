@@ -1,0 +1,37 @@
+{
+  "id": "ngc4121-hubble",
+  "name": "NGC 4121 (Hubble)",
+  "blurb": "NGC 4121, a nearby early-type galaxy, seen by Hubble.",
+  "label": "ngc4121-hubble",
+  "spec": "HST|NGC4121|12591|ACS/WFC|ngc4121-hubble",
+  "find": [
+    "HST|12591|NGC4121"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "NGC4121",
+    "early-type galaxy",
+    "spheroidal galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Hubble searched the core of this quiet, rounded galaxy for a dense nuclear star cluster, part of a hunt for black holes that feed only faintly; no such nucleus turned up.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "NGC 4121 is a target of a Hubble survey of faint nearby spheroidal galaxies, searching for nuclear star clusters and low-level black hole accretion",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/12591/"
+      },
+      {
+        "text": "NGC 4121 is an early-type galaxy in the AMUSE-Field sample and is not nucleated",
+        "source": "https://ar5iv.labs.arxiv.org/html/1406.6697"
+      }
+    ]
+  }
+}

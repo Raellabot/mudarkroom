@@ -1,0 +1,45 @@
+{
+  "id": "mz10451-hubble",
+  "name": "MZ 10451 (Hubble)",
+  "blurb": "MZ 10451, a nearby poor galaxy cluster whose brightest galaxy is still forming, seen by Hubble.",
+  "label": "mz10451-hubble",
+  "spec": "HST|MZ10451|11841|WFC3/UVIS|mz10451-hubble",
+  "find": [
+    "HST|11841|MZ10451"
+  ],
+  "type": "Galaxy cluster",
+  "aliases": [
+    "MZ10451",
+    "galaxy cluster",
+    "brightest cluster galaxy",
+    "merging galaxies"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "At the heart of this small cluster two galaxies are merging, joined by a bright bridge of stars, as the cluster's brightest galaxy takes shape. Stars stripped from them may be the start of the faint light that fills the space between cluster galaxies.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "MZ 10451 is a nearby poor X-ray cluster in which the brightest cluster galaxy is forming",
+        "source": "https://ar5iv.arxiv.org/html/1005.3538"
+      },
+      {
+        "text": "Two early-type galaxies at the core are merging, connected by a bright stellar bridge",
+        "source": "https://ar5iv.arxiv.org/html/1005.3538"
+      },
+      {
+        "text": "Tidally stripped stars likely represent an emerging intracluster light component",
+        "source": "https://ar5iv.arxiv.org/html/1005.3538"
+      },
+      {
+        "text": "Hubble imaged the core of MZ 10451, where the BCG is forming",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/11841/"
+      }
+    ]
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "id": "canes-venatici-c-hubble",
+  "name": "Canes Venatici C (Hubble)",
+  "blurb": "Canes Venatici C, a dwarf galaxy, seen by Hubble.",
+  "label": "canesvenaticic-hubble",
+  "spec": "HST|CANES-VENATICI-C|17481|ACS/WFC|canesvenaticic-hubble",
+  "find": [
+    "HST|17481|CANES-VENATICI-C"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "CVn C",
+    "dwarf galaxy",
+    "quenched dwarf galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A quiet dwarf galaxy that has stopped forming stars and holds no detectable gas, living far from any large galaxy. A past encounter with the galaxy NGC 4631 may have shut down its star formation and sent it out on an extreme orbit.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "Canes Venatici C (CVn C) is a dwarf galaxy imaged with new Hubble data",
+        "source": "https://arxiv.org/abs/2601.14248"
+      },
+      {
+        "text": "CVn C is quenched with no recent star formation and no detectable gas",
+        "source": "https://arxiv.org/abs/2601.14248"
+      },
+      {
+        "text": "CVn C is in an isolated environment",
+        "source": "https://arxiv.org/abs/2601.14248"
+      },
+      {
+        "text": "CVn C may have quenched via past interactions with NGC 4631 and been sent on an extreme backsplash orbit",
+        "source": "https://arxiv.org/abs/2601.14248"
+      },
+      {
+        "text": "Canes Venatici C was a Hubble target of program 17481 (isolated ultra-faint dwarf candidates)",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/17481/"
+      }
+    ]
+  }
+}

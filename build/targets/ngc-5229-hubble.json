@@ -1,0 +1,40 @@
+{
+  "id": "ngc-5229-hubble",
+  "name": "NGC 5229 (Hubble)",
+  "blurb": "NGC 5229, a late-type spiral galaxy, seen by Hubble.",
+  "label": "ngc5229-hubble",
+  "spec": "HST|NGC-5229|15922|ACS/WFC|ngc5229-hubble",
+  "find": [
+    "HST|15922|NGC-5229"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "PGC 47788",
+    "spiral galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A late-type spiral in the Canes Venatici I cloud of galaxies. Hubble visited it in an effort to resolve the brightest stars of every known nearby galaxy and measure how far away each one lies.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "NGC 5229 is a late-type spiral (type Sdm); PGC 47788",
+        "source": "https://arxiv.org/html/2311.05989"
+      },
+      {
+        "text": "NGC 5229 is listed in the Canes Venatici I cloud",
+        "source": "https://arxiv.org/pdf/astro-ph/0410065"
+      },
+      {
+        "text": "Hubble observed it in a program to image every known nearby galaxy, resolving the brightest stars to measure distances",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15922/"
+      }
+    ]
+  }
+}

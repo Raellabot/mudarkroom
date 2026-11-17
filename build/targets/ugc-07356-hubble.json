@@ -1,0 +1,49 @@
+{
+  "id": "ugc-07356-hubble",
+  "name": "UGC 7356 (Hubble)",
+  "blurb": "UGC 7356, a nucleated dwarf elliptical galaxy, seen by Hubble.",
+  "label": "ugc07356-hubble",
+  "spec": "HST|UGC-07356|10905|ACS/WFC|ugc07356-hubble",
+  "find": [
+    "HST|10905|UGC-07356"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "UGC 7356",
+    "dwarf elliptical galaxy",
+    "dwarf galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A smooth, faint dwarf galaxy with a central nucleus, lying close on the sky to NGC 4258, near one of its spiral arms. Hubble came here in a survey of the dwarf-galaxy-rich Canes Venatici I region, gauging distances from the brightest red giant stars.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "UGC 7356 is a classical nucleated dwarf elliptical",
+        "source": "https://aas.aanda.org/articles/aas/full/2000/02/ds9308/node5.html"
+      },
+      {
+        "text": "UGC 7356 is close in projection to NGC 4258",
+        "source": "https://aas.aanda.org/articles/aas/full/2000/02/ds9308/node5.html"
+      },
+      {
+        "text": "UGC 7356 lies near the southern spiral arm of NGC 4258",
+        "source": "https://aas.aanda.org/articles/aas/full/1998/06/ds1360/node3.html"
+      },
+      {
+        "text": "UGC 7356 is a target of program 10905, a survey of the dwarf-galaxy-rich Canes Venatici I region",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/10905/"
+      },
+      {
+        "text": "The program measures distances using the tip of the red giant branch",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/10905/"
+      }
+    ]
+  }
+}

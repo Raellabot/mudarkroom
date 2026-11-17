@@ -1,0 +1,42 @@
+{
+  "id": "ugc-09992-hubble",
+  "name": "UGC 9992 (Hubble)",
+  "blurb": "UGC 9992, a dwarf irregular galaxy, seen by Hubble.",
+  "label": "ugc09992-hubble",
+  "spec": "HST|UGC-09992|13442|ACS/WFC|ugc09992-hubble",
+  "find": [
+    "HST|13442|UGC-09992"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "UGC 9992",
+    "UGC09992",
+    "dwarf irregular galaxy",
+    "dwarf galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "UGC 9992 is a dwarf irregular galaxy, and Hubble photographed it to measure its distance from its brightest red giant stars, adding one more point to a three-dimensional map of our cosmic neighborhood.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "UGC 9992 is a dwarf irregular (dIrr) galaxy",
+        "source": "https://arxiv.org/html/2505.19248v1"
+      },
+      {
+        "text": "Hubble program 13442 observed UGC 9992 to measure distances to nearby galaxies from the tip of the red giant branch",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/13442/"
+      },
+      {
+        "text": "Program 13442 uses the distances to build three-dimensional maps of galaxies",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/13442/"
+      }
+    ]
+  }
+}

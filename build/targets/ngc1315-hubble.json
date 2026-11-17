@@ -1,0 +1,39 @@
+{
+  "id": "ngc1315-hubble",
+  "name": "NGC 1315 (Hubble)",
+  "blurb": "NGC 1315, a galaxy without an active nucleus, seen by Hubble.",
+  "label": "ngc1315-hubble",
+  "spec": "HST+HST|NGC1315+NGC1315|15181+15181|WFC3/IR+WFC3/UVIS|ngc1315-hubble",
+  "find": [
+    "HST|15181|NGC1315"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "galaxy",
+    "inactive galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "NGC 1315 was chosen as the quiet match for one particular galaxy with an actively feeding black hole, so the two could be compared side by side. Many quiet matches like it had never been observed by Hubble, while their active partners filled the archive.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "NGC 1315 is an inactive control galaxy in the LLAMA sample",
+        "source": "https://ar5iv.labs.arxiv.org/html/2105.05309"
+      },
+      {
+        "text": "NGC 1315 is the unique matched analog of one LLAMA AGN",
+        "source": "https://ar5iv.labs.arxiv.org/html/1710.04224"
+      },
+      {
+        "text": "The galaxies in this program are AGN hosts and matched inactive control galaxies, imaged to balance an archive weighted toward the AGN",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15181/"
+      }
+    ]
+  }
+}

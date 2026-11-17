@@ -1,0 +1,49 @@
+{
+  "id": "galfa-dw3-hubble",
+  "name": "GALFA-Dw3 (Hubble)",
+  "blurb": "GALFA-Dw3, an isolated dwarf irregular galaxy, seen by Hubble.",
+  "label": "galfadw3-hubble",
+  "spec": "HST|GALFA-DW3|14676|ACS/WFC|galfadw3-hubble",
+  "find": [
+    "HST|14676|GALFA-DW3"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "GALFA Dw3",
+    "dwarf irregular galaxy",
+    "dwarf galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A small, gas-rich galaxy found through its link to a compact cloud of hydrogen, with no confirmed neighbors nearby. Its stars tell of a burst of star formation that recently died down across the whole dwarf, while glowing HII regions still cradle young star clusters.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "GALFA-Dw3 is classified as a dwarf irregular galaxy",
+        "source": "https://arxiv.org/abs/2101.08270"
+      },
+      {
+        "text": "GALFA-Dw3 is isolated, with no confirmed neighbors nearby",
+        "source": "https://arxiv.org/abs/2101.08270"
+      },
+      {
+        "text": "GALFA-Dw3 is a gas-rich dwarf found through its association with a compact HI (hydrogen) high velocity cloud",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/14676/"
+      },
+      {
+        "text": "It contains HII regions with young star clusters",
+        "source": "https://arxiv.org/abs/2101.08270"
+      },
+      {
+        "text": "A burst of star formation recently ceased across the whole dwarf",
+        "source": "https://arxiv.org/abs/2101.08270"
+      }
+    ]
+  }
+}

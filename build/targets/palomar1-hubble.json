@@ -1,0 +1,39 @@
+{
+  "id": "palomar1-hubble",
+  "name": "Palomar 1 (Hubble)",
+  "blurb": "Palomar 1, a faint, sparse globular cluster, seen by Hubble.",
+  "label": "palomar1-hubble",
+  "spec": "HST|PALOMAR1|10775|ACS/WFC|palomar1-hubble",
+  "find": [
+    "HST|10775|PALOMAR1"
+  ],
+  "type": "Star cluster",
+  "aliases": [
+    "globular cluster",
+    "star cluster"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Out in the Milky Way's halo, this sparse little globular cluster is a youngster among some of the oldest objects in a galaxy, and astronomers suspect it formed in a more sedate manner than its kin.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "Palomar 1 is an unusual, faint and sparse globular cluster",
+        "source": "https://esahubble.org/images/potw1104a/"
+      },
+      {
+        "text": "Globular clusters are found in the Milky Way's halo and are among the oldest objects in a galaxy",
+        "source": "https://esahubble.org/images/potw1104a/"
+      },
+      {
+        "text": "Palomar 1 is a youngster in globular cluster terms and may have formed in a more sedate manner",
+        "source": "https://esahubble.org/images/potw1104a/"
+      }
+    ]
+  }
+}

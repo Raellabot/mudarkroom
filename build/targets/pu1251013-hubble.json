@@ -1,0 +1,41 @@
+{
+  "id": "pu1251013-hubble",
+  "name": "PU1251013 (Hubble)",
+  "blurb": "PU1251013, an ultra-diffuse galaxy in the Coma region, seen by Hubble.",
+  "label": "pu1251013-hubble",
+  "spec": "HST|PU1251013|15121|ACS/WFC|pu1251013-hubble",
+  "find": [
+    "HST|15121|PU1251013"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "ultra-diffuse galaxy",
+    "UDG",
+    "galaxy",
+    "Coma"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "PU1251013 is one of the extreme, extended ultra-diffuse galaxies found in the Coma region: faint and sprawling, with few stars for its size. Hubble counted the globular star clusters scattered around it, to test whether these ancient clusters form before the galaxy itself.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "PU1251013 is one of the extreme (largest) ultra-diffuse galaxies in the Coma region",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15121/"
+      },
+      {
+        "text": "The program counts globular clusters to test whether globular cluster formation precedes formation of the central galaxy",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15121/"
+      },
+      {
+        "text": "Ultra-diffuse galaxies like DF44 have few stars relative to their globular clusters",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15121/"
+      }
+    ]
+  }
+}

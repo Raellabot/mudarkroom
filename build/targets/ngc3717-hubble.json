@@ -1,0 +1,40 @@
+{
+  "id": "ngc3717-hubble",
+  "name": "NGC 3717 (Hubble)",
+  "blurb": "NGC 3717, a spiral galaxy, seen by Hubble.",
+  "label": "ngc3717-hubble",
+  "spec": "HST+HST|NGC3717+NGC3717|15181+15181|WFC3/IR+WFC3/UVIS|ngc3717-hubble",
+  "find": [
+    "HST|15181|NGC3717"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "spiral galaxy",
+    "edge-on spiral",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Seen almost in profile, NGC 3717 shows how a spiral's thin disk wraps around a central bulge, like a flying saucer seen from the side. It is tilted just enough for the view to cross the disk and reveal one side of the bulge.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "NGC 3717 is a spiral galaxy, seen almost in profile",
+        "source": "https://esahubble.org/images/potw1940a/"
+      },
+      {
+        "text": "Spirals' bulges give them a flying-saucer shape when seen edge-on",
+        "source": "https://esahubble.org/images/potw1940a/"
+      },
+      {
+        "text": "NGC 3717 is tilted slightly, letting the view show one side of the central bulge",
+        "source": "https://esahubble.org/images/potw1940a/"
+      }
+    ]
+  }
+}

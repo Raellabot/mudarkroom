@@ -1,0 +1,49 @@
+{
+  "id": "r-127-1-hubble",
+  "name": "R-127-1 (Hubble)",
+  "blurb": "R-127-1, an isolated ultra-diffuse galaxy, seen by Hubble.",
+  "label": "r1271-hubble",
+  "spec": "HST|R-127-1|14846|ACS/WFC|r1271-hubble",
+  "find": [
+    "HST|14846|R-127-1"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "ultra-diffuse galaxy",
+    "UDG",
+    "low surface brightness galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A ghostly galaxy as broad as a bright one but with only a thin haze of stars, drifting far from any crowd. It has stopped making stars and holds little gas, and astronomers still ask how a loner like this came to be so faint.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "R-127-1 is a low surface brightness galaxy targeted by Hubble program 14846 on ultra-diffuse galaxies",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/14846/"
+      },
+      {
+        "text": "R-127-1 is a relatively isolated ultra-diffuse galaxy",
+        "source": "https://www.aanda.org/articles/aa/abs/2017/05/aa30795-17/aa30795-17.html"
+      },
+      {
+        "text": "R-127-1 is quiescent and gas-poor",
+        "source": "https://www.aanda.org/articles/aa/abs/2017/05/aa30795-17/aa30795-17.html"
+      },
+      {
+        "text": "Its properties are puzzling given its isolation",
+        "source": "https://www.aanda.org/articles/aa/abs/2017/05/aa30795-17/aa30795-17.html"
+      },
+      {
+        "text": "Ultra-diffuse galaxies are as large as bright galaxies but with few stars",
+        "source": "https://arxiv.org/abs/1410.8141"
+      }
+    ]
+  }
+}

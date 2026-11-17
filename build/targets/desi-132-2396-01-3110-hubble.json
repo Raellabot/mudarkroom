@@ -1,0 +1,46 @@
+{
+  "id": "desi-132-2396-01-3110-hubble",
+  "name": "DESI-132.2396-01.3110 (Hubble)",
+  "blurb": "DESI-132.2396-01.3110, a candidate strong gravitational lens, seen by Hubble.",
+  "label": "desi1322396013110-hubble",
+  "spec": "HST|DESI-132.2396-01.3110|18085|WFC3/UVIS|desi1322396013110-hubble",
+  "find": [
+    "HST|18085|DESI-132.2396-01.3110"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "DESI-132.2396-01.3110",
+    "strong lens candidate",
+    "gravitational lens",
+    "lensed galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Here a foreground galaxy may be acting as a cosmic lens, bending the light of a more distant galaxy behind it. Survey images showed an arc on one side and a counterarc on the other, and Hubble took a sharper look to confirm whether the lens is real.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "DESI-132.2396-01.3110 is a new Grade A strong lens candidate found in DESI DR1",
+        "source": "https://arxiv.org/html/2509.16033"
+      },
+      {
+        "text": "The lens is a foreground galaxy and the lensed source is a more distant galaxy",
+        "source": "https://arxiv.org/html/2509.16033"
+      },
+      {
+        "text": "It shows an arc and a counterarc in survey images",
+        "source": "https://arxiv.org/html/2509.16033"
+      },
+      {
+        "text": "Hubble program 18085 observed DESI lens candidates to confirm them",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/18085/"
+      }
+    ]
+  }
+}

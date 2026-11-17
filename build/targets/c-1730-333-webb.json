@@ -1,0 +1,61 @@
+{
+  "id": "c-1730-333-webb",
+  "name": "Liller 1 (Webb)",
+  "blurb": "Liller 1, a globular cluster in the bulge of the Milky Way, seen by Webb.",
+  "label": "c1730333-webb",
+  "spec": "JWST|C-1730-333|5381|NIRCAM/IMAGE|c1730333-webb",
+  "find": [
+    "JWST|5381|C-1730-333"
+  ],
+  "type": "Star cluster",
+  "aliases": [
+    "C-1730-333",
+    "bulge fossil fragment",
+    "globular cluster",
+    "star cluster"
+  ],
+  "missions": [
+    "Webb"
+  ],
+  "story": "Liller 1 hides behind thick dust in the Milky Way's crowded bulge, and its stars belong to at least two populations of remarkably different ages. Webb watched it for ultracompact binary stars and variable stars, in a cluster whose gamma-ray glow hints at a vast population of pulsars.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "Archive target C-1730-333 is the globular cluster Liller 1",
+        "source": "https://www.stsci.edu/jwst-program-info/download/jwst/pdf/5381/"
+      },
+      {
+        "text": "Liller 1 lies at RA 17 33 24.45, Dec -33 23 22.55, matching the C-1730-333 pointing",
+        "source": "https://esahubble.org/images/potw2221a/"
+      },
+      {
+        "text": "Liller 1 is a globular cluster in the Milky Way's bulge",
+        "source": "https://esahubble.org/images/potw2221a/"
+      },
+      {
+        "text": "Liller 1 is heavily obscured by interstellar dust",
+        "source": "https://esahubble.org/images/potw2221a/"
+      },
+      {
+        "text": "Liller 1 contains at least two stellar populations of remarkably different ages",
+        "source": "https://esahubble.org/images/potw2221a/"
+      },
+      {
+        "text": "Liller 1 is called a Bulge Fossil Fragment",
+        "source": "https://arxiv.org/abs/2106.02448"
+      },
+      {
+        "text": "Webb searched for ultracompact binary systems and variable stars",
+        "source": "https://www.stsci.edu/jwst-program-info/download/jwst/pdf/5381/"
+      },
+      {
+        "text": "Liller 1's gamma-ray emission hints at a vast pulsar population",
+        "source": "https://www.stsci.edu/jwst-program-info/download/jwst/pdf/5381/"
+      }
+    ]
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "id": "ugc2773-ot-hubble",
+  "name": "UGC 2773-OT (Hubble)",
+  "blurb": "UGC 2773-OT, the eruption of a massive star in the dwarf irregular galaxy UGC 2773, seen by Hubble.",
+  "label": "ugc2773ot-hubble",
+  "spec": "HST|UGC2773-OT|14149|WFC3/UVIS|ugc2773ot-hubble",
+  "find": [
+    "HST|14149|UGC2773-OT"
+  ],
+  "type": "Stellar outburst",
+  "aliases": [
+    "U2773-OT",
+    "UGC 2773 OT2009-1",
+    "UGC 2773",
+    "luminous blue variable",
+    "LBV",
+    "dwarf irregular galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "In 2009 a massive star in the dwarf irregular galaxy UGC 2773 flared up in an outburst that looked like a supernova but was not one, sharing traits with the giant eruptions of luminous blue variable stars. Hubble kept watch on the site as part of a survey of recent, nearby supernovae and their impostors.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "UGC 2773-OT is the 2009 optical transient in the dwarf irregular galaxy UGC 2773, discovered on 2009 Aug. 18.08",
+        "source": "https://ar5iv.labs.arxiv.org/html/0909.4792"
+      },
+      {
+        "text": "It was not a genuine supernova; its progenitor was an LBV and it shares properties with giant LBV eruptions",
+        "source": "https://arxiv.org/abs/0909.4792"
+      },
+      {
+        "text": "Also designated UGC 2773 OT2009-1",
+        "source": "https://arxiv.org/abs/1002.0635"
+      },
+      {
+        "text": "Program 14149 imaged sites of recent nearby supernovae and SN impostors",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/14149/"
+      },
+      {
+        "text": "'Supernova impostor' as a kind word for this target",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/14149/"
+      }
+    ]
+  }
+}

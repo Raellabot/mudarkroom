@@ -1,0 +1,45 @@
+{
+  "id": "ps1-11afv-hubble",
+  "name": "PS1-11afv field (Hubble)",
+  "blurb": "A deep field toward the host galaxy of the superluminous supernova PS1-11afv, seen by Hubble.",
+  "label": "ps111afv-hubble",
+  "spec": "HST+HST|PS1-11AFV+PS1-11AFV|13022+13022|ACS/WFC+WFC3/IR|ps111afv-hubble",
+  "find": [
+    "HST|13022|PS1-11AFV"
+  ],
+  "type": "Deep field",
+  "aliases": [
+    "PS1-11afv",
+    "superluminous supernova",
+    "supernova host galaxy",
+    "Pan-STARRS supernova"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A supernova far brighter than most once blazed here, in a home galaxy too faint to see from the ground. Hubble stared into the beast's lair to find that small galaxy.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "PS1-11afv is a Pan-STARRS ultra-luminous supernova whose host was targeted by Hubble",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/13022/"
+      },
+      {
+        "text": "The targeted hosts are undetected from the ground",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/13022/"
+      },
+      {
+        "text": "PS1-11afv is in the Pan-STARRS H-poor superluminous supernova sample",
+        "source": "https://ar5iv.arxiv.org/html/1411.1060"
+      },
+      {
+        "text": "Hosts of these superluminous supernovae are compact dwarf galaxies",
+        "source": "https://ar5iv.arxiv.org/html/1411.1060"
+      }
+    ]
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "id": "her-a-hubble",
+  "name": "Hercules A (Hubble)",
+  "blurb": "Hercules A, a radio galaxy, seen by Hubble.",
+  "label": "hera-hubble",
+  "spec": "HST|HER-A|13065|WFC3/UVIS|hera-hubble",
+  "find": [
+    "HST|13065|HER-A"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "Herc A",
+    "3C 348",
+    "HER-A",
+    "radio galaxy",
+    "elliptical galaxy",
+    "galaxy cluster",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "In Hubble's view the elliptical galaxy at the center of Hercules A looks quite ordinary, yet its supermassive black hole drives radio jets, invisible here, that dwarf the visible galaxy. A companion galaxy sits close to its center, and many of the galaxies around it may belong to the same cluster.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "Hercules A is a radio galaxy",
+        "source": "https://science.nasa.gov/asset/hubble/a-multi-wavelength-view-of-radio-galaxy-hercules-a/"
+      },
+      {
+        "text": "Hercules A is also known as Herc A and 3C 348",
+        "source": "https://science.nasa.gov/asset/hubble/a-multi-wavelength-view-of-radio-galaxy-hercules-a/"
+      },
+      {
+        "text": "In visible light the central elliptical galaxy appears quite ordinary in Hubble's view",
+        "source": "https://esahubble.org/images/opo1247a/"
+      },
+      {
+        "text": "The galaxy harbors a supermassive black hole that powers its jets",
+        "source": "https://esahubble.org/images/opo1247a/"
+      },
+      {
+        "text": "The radio jets are optically invisible and dwarf the visible galaxy",
+        "source": "https://science.nasa.gov/asset/hubble/a-multi-wavelength-view-of-radio-galaxy-hercules-a/"
+      },
+      {
+        "text": "Hubble's view shows a companion elliptical galaxy very close to the center",
+        "source": "https://science.nasa.gov/asset/hubble/a-multi-wavelength-view-of-radio-galaxy-hercules-a/"
+      },
+      {
+        "text": "Other galaxies in the field may belong to the same galaxy cluster, of which Hercules A is the brightest member",
+        "source": "https://esahubble.org/images/opo1247a/"
+      },
+      {
+        "text": "Program 13065 imaged the host galaxy and surrounding cluster of the radio galaxy Hercules A (target HER-A) for a press image",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/13065/"
+      }
+    ]
+  }
+}

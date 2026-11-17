@@ -1,0 +1,54 @@
+{
+  "id": "ngc6822-sc7-hubble",
+  "name": "NGC 6822 SC7 (Hubble)",
+  "blurb": "NGC 6822 SC7, a globular cluster of the dwarf irregular galaxy NGC 6822, seen by Hubble.",
+  "label": "ngc6822sc7-hubble",
+  "spec": "HST|NGC6822-SC7|15336|ACS/WFC|ngc6822sc7-hubble",
+  "find": [
+    "HST|15336|NGC6822-SC7"
+  ],
+  "type": "Star cluster",
+  "aliases": [
+    "SC7",
+    "NGC6822-SC7",
+    "NGC 6822",
+    "globular cluster",
+    "star cluster"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "SC7 is a compact globular cluster among the innermost of NGC 6822, an isolated dwarf irregular galaxy. Studies of it find evidence that the cluster is being tidally distorted.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "NGC6822-SC7 is a globular cluster target of Hubble program 15336",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15336/"
+      },
+      {
+        "text": "NGC 6822 is an isolated dwarf irregular galaxy",
+        "source": "https://arxiv.org/html/2608.28434"
+      },
+      {
+        "text": "NGC 6822 is a Local Group dwarf irregular galaxy",
+        "source": "https://ar5iv.arxiv.org/html/1506.00951"
+      },
+      {
+        "text": "SC7 is a compact globular cluster",
+        "source": "https://ar5iv.arxiv.org/html/1506.00951"
+      },
+      {
+        "text": "SC7 is one of the innermost globular clusters of NGC 6822",
+        "source": "https://arxiv.org/html/2608.28434"
+      },
+      {
+        "text": "There is compelling evidence that SC7 is tidally distorted",
+        "source": "https://arxiv.org/html/2608.28434"
+      }
+    ]
+  }
+}

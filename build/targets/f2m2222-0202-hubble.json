@@ -1,0 +1,42 @@
+{
+  "id": "f2m2222-0202-hubble",
+  "name": "F2M2222-0202 (Hubble)",
+  "blurb": "F2M2222-0202, a dust-reddened quasar, seen by Hubble.",
+  "label": "f2m22220202-hubble",
+  "spec": "HST|F2M2222-0202|12942|WFC3/IR|f2m22220202-hubble",
+  "find": [
+    "HST|12942|F2M2222-0202"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "F2M2222-0202",
+    "F2M2222",
+    "red quasar",
+    "quasar",
+    "dust-reddened quasar"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Behind a veil of dust, a fiercely bright quasar shines from the heart of its host galaxy. Hubble imaged it to test whether merging galaxies are what switch on the most luminous quasars.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "F2M2222-0202 is one of the F2M red quasars imaged by Hubble",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/12942/"
+      },
+      {
+        "text": "F2M red quasars are dust-reddened and the most intrinsically luminous quasars",
+        "source": "https://ar5iv.labs.arxiv.org/html/1504.02111"
+      },
+      {
+        "text": "The program tested whether mergers drive black hole and galaxy co-evolution",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/12942/"
+      }
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "id": "e320-14-hubble",
+  "name": "ESO 320-14 (Hubble)",
+  "blurb": "ESO 320-14, an amorphous irregular galaxy, seen by Hubble.",
+  "label": "e32014-hubble",
+  "spec": "HST|E320-14|10235|ACS/WFC|e32014-hubble",
+  "find": [
+    "HST|10235|E320-14"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "E320-14",
+    "KKs44",
+    "irregular galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "ESO 320-14 is an irregular galaxy that keeps to itself, away from the strong pull of big neighbors. Hubble measured its distance in a study of how galaxies stream away from the Centaurus A/M83 complex.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "E320-14 is an amorphous irregular galaxy targeted by Hubble program 10235",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/list/10235/"
+      },
+      {
+        "text": "E320-14 is also KKs44, with a new Hubble TRGB distance in a study of the Hubble flow around the Cen A/M83 complex",
+        "source": "https://arxiv.org/pdf/astro-ph/0603091"
+      },
+      {
+        "text": "E320-14 is an isolated galaxy (negative tidal index)",
+        "source": "https://arxiv.org/pdf/astro-ph/0603091"
+      }
+    ]
+  }
+}

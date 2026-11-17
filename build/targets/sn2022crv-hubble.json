@@ -1,0 +1,51 @@
+{
+  "id": "sn2022crv-hubble",
+  "name": "NGC 3054, SN 2022crv field (Hubble)",
+  "blurb": "NGC 3054, a barred spiral galaxy that hosted SN 2022crv, seen by Hubble.",
+  "label": "sn2022crv-hubble",
+  "spec": "HST|SN2022CRV|17415|WFC3/UVIS|sn2022crv-hubble",
+  "find": [
+    "HST|17415|SN2022CRV"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "SN 2022crv",
+    "SN2022crv",
+    "barred spiral galaxy",
+    "spiral galaxy",
+    "galaxy",
+    "supernova"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "This galaxy hosted SN 2022crv, a stripped-envelope supernova discovered within 12 hours of explosion. Hydrogen in its light disappeared rapidly, placing it on a continuum between two families of exploding stars, Type Ib and Type IIb.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "SN 2022crv is a stripped-envelope supernova in NGC 3054",
+        "source": "https://arxiv.org/abs/2309.09433"
+      },
+      {
+        "text": "SN 2022crv was discovered within 12 hours of explosion",
+        "source": "https://arxiv.org/abs/2309.09433"
+      },
+      {
+        "text": "NGC 3054 is a barred spiral galaxy",
+        "source": "https://ar5iv.labs.arxiv.org/html/2309.09433"
+      },
+      {
+        "text": "Hydrogen disappeared rapidly; SN 2022crv shows a continuum between Type Ib and IIb properties",
+        "source": "https://arxiv.org/abs/2309.09433"
+      },
+      {
+        "text": "The Hubble target SN2022CRV is at the position of SN 2022crv",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/17415/"
+      }
+    ]
+  }
+}

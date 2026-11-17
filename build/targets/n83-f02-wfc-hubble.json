@@ -1,0 +1,62 @@
+{
+  "id": "n83-f02-wfc-hubble",
+  "name": "SMC Wing, N83/N84 field 2 (Hubble)",
+  "blurb": "N83/N84 field 2, a star field in the wing of the Small Magellanic Cloud, seen by Hubble.",
+  "label": "n83f02wfc-hubble",
+  "spec": "HST|N83-F02-WFC|17509|ACS/WFC|n83f02wfc-hubble",
+  "find": [
+    "HST|17509|N83-F02-WFC"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "N83-F02-WFC",
+    "N83",
+    "N84",
+    "Small Magellanic Cloud",
+    "SMC",
+    "SMC Wing",
+    "star field",
+    "dwarf galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A crowd of stars in the wing of the Small Magellanic Cloud, a dwarf galaxy and satellite of the Milky Way, near the star-forming regions N83 and N84. Hubble charted these stars to find how far away the surrounding gas clouds lie, building a three-dimensional map of the gas in this tidally disrupted wing, whose distance helps trace the Small Cloud's past collision with the Large Magellanic Cloud.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "N83-F02-WFC is one of the ACS/WFC pointings of program 17509 covering the N83/N84 star-forming regions",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/17509/"
+      },
+      {
+        "text": "N83 and N84 are star-forming regions in the wing of the Small Magellanic Cloud",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/17509/"
+      },
+      {
+        "text": "The Small Magellanic Cloud is a dwarf galaxy",
+        "source": "https://www.nasa.gov/universe/galaxies/magellanic-clouds/"
+      },
+      {
+        "text": "The Small Magellanic Cloud is a satellite of the Milky Way",
+        "source": "https://www.nasa.gov/universe/galaxies/magellanic-clouds/"
+      },
+      {
+        "text": "The SMC has a wing",
+        "source": "https://www.nasa.gov/universe/galaxies/magellanic-clouds/"
+      },
+      {
+        "text": "The program uses stars to measure distances to the gas and map the region's 3D gas structure",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/17509/"
+      },
+      {
+        "text": "The wing is tidally disrupted, and its distance constrains the SMC-LMC collision history",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/17509/"
+      }
+    ]
+  }
+}

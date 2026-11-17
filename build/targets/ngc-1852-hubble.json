@@ -1,0 +1,58 @@
+{
+  "id": "ngc-1852-hubble",
+  "name": "NGC 1852 (Hubble)",
+  "blurb": "NGC 1852, an intermediate-age star cluster in the Large Magellanic Cloud, seen by Hubble.",
+  "label": "ngc1852-hubble",
+  "spec": "HST|NGC-1852|12257|WFC3/UVIS|ngc1852-hubble",
+  "find": [
+    "HST|12257|NGC-1852"
+  ],
+  "type": "Star cluster",
+  "aliases": [
+    "NGC 1852",
+    "NGC-1852",
+    "LMC cluster",
+    "Large Magellanic Cloud",
+    "star cluster"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "NGC 1852 is an intermediate-age star cluster in the Large Magellanic Cloud, a satellite galaxy of the Milky Way. Its main-sequence turnoff is broadened, one of the clues that such clusters are not the simple single-age crowds once assumed.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "NGC 1852 is an intermediate-age Large Magellanic Cloud cluster",
+        "source": "https://arxiv.org/abs/0810.2558"
+      },
+      {
+        "text": "NGC 1852 was a target of program 12257 on Magellanic Cloud star clusters",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/12257/"
+      },
+      {
+        "text": "The Large Magellanic Cloud is a satellite galaxy of the Milky Way",
+        "source": "https://www.nasa.gov/universe/galaxies/magellanic-clouds/"
+      },
+      {
+        "text": "Such clusters challenge the idea of simple stellar populations",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/12257/"
+      },
+      {
+        "text": "NGC 1852 shows a broadened main-sequence turnoff",
+        "source": "https://arxiv.org/abs/0810.2558"
+      },
+      {
+        "text": "The pointing was chosen to overlap earlier Hubble ACS images",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/12257/"
+      },
+      {
+        "text": "NGC 1852 is a relatively massive cluster",
+        "source": "https://arxiv.org/pdf/1410.3840"
+      }
+    ]
+  }
+}

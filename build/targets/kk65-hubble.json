@@ -1,0 +1,47 @@
+{
+  "id": "kk65-hubble",
+  "name": "KK 65 (Hubble)",
+  "blurb": "KK 65, a dwarf irregular galaxy, seen by Hubble.",
+  "label": "kk65-hubble",
+  "spec": "HST|KK65|10210|ACS/WFC|kk65-hubble",
+  "find": [
+    "HST|10210|KK65"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "KK65",
+    "CG 87-33",
+    "dwarf galaxy",
+    "irregular galaxy",
+    "Magellanic irregular",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "KK 65 is one of a handful of dwarf galaxies gathered in a loose association whose brightest member is UGC 3974. Hubble measured their distances to test whether such faint groups are held together mostly by dark matter.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "KK 65 is a Magellanic irregular galaxy",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/list/10210/"
+      },
+      {
+        "text": "KK 65 is also cataloged as CG 87-33",
+        "source": "https://ar5iv.arxiv.org/html/astro-ph/0603380"
+      },
+      {
+        "text": "KK 65 is a member of the 14+19 association of dwarf galaxies, whose brightest galaxy is UGC 3974",
+        "source": "https://ar5iv.arxiv.org/html/astro-ph/0603380"
+      },
+      {
+        "text": "Hubble program 10210 'Groups of Dwarf Galaxies: Pools of Mostly Dark Matter?' measured distances to dwarf galaxies in dwarf groups",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/list/10210/"
+      }
+    ]
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "id": "vcc1886-hubble",
+  "name": "VCC 1886 (Hubble)",
+  "blurb": "VCC 1886, a dwarf early-type galaxy in the Virgo Cluster, seen by Hubble.",
+  "label": "vcc1886-hubble",
+  "spec": "HST|VCC1886|9401|ACS/WFC|vcc1886-hubble",
+  "find": [
+    "HST|9401|VCC1886"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "VCC1886",
+    "dwarf galaxy",
+    "dwarf elliptical galaxy",
+    "galaxy",
+    "Virgo Cluster"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "VCC 1886 is one of the dwarf galaxies among the 100 early-type galaxies in the Virgo Cluster that Hubble imaged for the ACS Virgo Cluster Survey. The survey studied the globular clusters around each galaxy and measured distances from the subtle graininess of their starlight.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "VCC 1886 is in the ACS Virgo Cluster Survey sample with morphological type dE5,N",
+        "source": "https://arxiv.org/pdf/astro-ph/0404138"
+      },
+      {
+        "text": "dE and dE,N types in the sample are dwarfs",
+        "source": "https://arxiv.org/pdf/astro-ph/0404138"
+      },
+      {
+        "text": "The ACS Virgo Cluster Survey imaged 100 early-type galaxies in the Virgo Cluster",
+        "source": "https://arxiv.org/abs/astro-ph/0404138"
+      },
+      {
+        "text": "The survey studies globular clusters and measures distances with surface brightness fluctuations",
+        "source": "https://arxiv.org/abs/astro-ph/0404138"
+      }
+    ]
+  }
+}

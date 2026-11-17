@@ -1,0 +1,38 @@
+{
+  "id": "sn12930-hubble",
+  "name": "SN 2006ex field (Hubble)",
+  "blurb": "SN 2006ex field, the host galaxy of a Type Ia supernova, seen by Hubble.",
+  "label": "sn12930-hubble",
+  "spec": "HST|SN12930|11670|ACS/WFC|sn12930-hubble",
+  "find": [
+    "HST|11670|SN12930"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "SN 2006ex",
+    "SDSS SN 12930",
+    "SN12930",
+    "Type Ia supernova host",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Here a star exploded as the Type Ia supernova SN 2006ex, found by the Sloan Digital Sky Survey. Hubble returned to its host galaxy to read the colors at the site of the explosion and judge how much star formation was going on there.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "SDSS supernova 12930 is SN 2006ex, a Type Ia supernova, with its host at the pointing position",
+        "source": "https://www.arxiv.org/pdf/1107.6003"
+      },
+      {
+        "text": "The program imaged hosts of SDSS Type Ia supernovae to measure the star-formation rate at the supernova site from colors",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/11670/"
+      }
+    ]
+  }
+}

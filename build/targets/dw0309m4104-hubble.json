@@ -1,0 +1,49 @@
+{
+  "id": "dw0309m4104-hubble",
+  "name": "N1291-DW9 (Hubble)",
+  "blurb": "N1291-DW9, a dwarf elliptical galaxy, seen by Hubble.",
+  "label": "dw0309m4104-hubble",
+  "spec": "HST|DW0309M4104|18061|ACS/WFC|dw0309m4104-hubble",
+  "find": [
+    "HST|18061|DW0309M4104"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "DW0309M4104",
+    "dwarf elliptical galaxy",
+    "dwarf galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "This faint dwarf galaxy was spotted in deep wide-field images around the galaxy NGC 1291. Hubble visited it as part of a census of the satellite galaxies of nearby Milky Way-like galaxies, resolving its stars to measure how far away it is.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "N1291-DW9 is a dwarf galaxy candidate found in deep wide-field images of NGC 1291",
+        "source": "https://ar5iv.labs.arxiv.org/html/2001.08342"
+      },
+      {
+        "text": "DW0309M4104 is a dwarf elliptical galaxy",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/18061/"
+      },
+      {
+        "text": "DW0309M4104 is cataloged as a dwarf galaxy of elliptical morphology",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/list/18061/"
+      },
+      {
+        "text": "Hubble program 18061 is a census of satellite galaxies within Milky Way-like systems",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/18061/"
+      },
+      {
+        "text": "The program aims to resolve the dwarfs' stars to measure their distances",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/18061/"
+      }
+    ]
+  }
+}

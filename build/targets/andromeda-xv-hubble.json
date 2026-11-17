@@ -1,0 +1,42 @@
+{
+  "id": "andromeda-xv-hubble",
+  "name": "Andromeda XV (Hubble)",
+  "blurb": "Andromeda XV, a dwarf spheroidal satellite of the Andromeda Galaxy, seen by Hubble.",
+  "label": "andromedaxv-hubble",
+  "spec": "HST|ANDROMEDA-XV|13739|ACS/WFC|andromedaxv-hubble",
+  "find": [
+    "HST|13739|ANDROMEDA-XV"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "And XV",
+    "dwarf spheroidal galaxy",
+    "dwarf galaxy",
+    "satellite galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Hubble resolved this faint companion of the Andromeda Galaxy into individual stars to read its history. Its stars are, on average, among the oldest of the six Andromeda satellites in the study, though not all born at once.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "Andromeda XV is a dwarf spheroidal satellite of the Andromeda Galaxy",
+        "source": "https://arxiv.org/pdf/1606.01207"
+      },
+      {
+        "text": "Hubble obtained deep color-magnitude diagrams of its stars to trace its star formation history",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/13739/"
+      },
+      {
+        "text": "Andromeda XV has one of the oldest mean stellar populations of the six Andromeda satellites in the study, but not a single-age population",
+        "source": "https://arxiv.org/pdf/1606.01207"
+      }
+    ]
+  }
+}

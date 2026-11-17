@@ -1,0 +1,45 @@
+{
+  "id": "ngc4605-hubble",
+  "name": "NGC 4605 (Hubble)",
+  "blurb": "NGC 4605, a dwarf spiral galaxy, seen by Hubble.",
+  "label": "ngc4605-hubble",
+  "spec": "HST|NGC4605|9771|ACS/WFC|ngc4605-hubble",
+  "find": [
+    "HST|9771|NGC4605"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "dwarf spiral galaxy",
+    "barred spiral galaxy",
+    "spiral galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "This view looks at the eastern side of NGC 4605, a dwarf spiral galaxy, where Hubble resolved the disk into individual stars. The brightest of its old giant stars served as a yardstick for the galaxy's distance.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "NGC 4605 is a dwarf spiral galaxy with a bar",
+        "source": "https://esahubble.org/images/potw1418a/"
+      },
+      {
+        "text": "The Hubble ACS field was pointed on the eastern side of NGC 4605",
+        "source": "https://ar5iv.arxiv.org/html/astro-ph/0511648"
+      },
+      {
+        "text": "The field was resolved into individual stars, mostly red giant branch stars",
+        "source": "https://ar5iv.arxiv.org/html/astro-ph/0511648"
+      },
+      {
+        "text": "The tip of the red giant branch gave the galaxy's distance",
+        "source": "https://ar5iv.arxiv.org/html/astro-ph/0511648"
+      }
+    ]
+  }
+}

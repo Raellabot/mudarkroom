@@ -1,0 +1,51 @@
+{
+  "id": "sn2000ch-hubble",
+  "name": "NGC 3432, SN 2000ch field (Hubble)",
+  "blurb": "NGC 3432, a galaxy home to the supernova impostor SN 2000ch, seen by Hubble.",
+  "label": "sn2000ch-hubble",
+  "spec": "HST|SN2000CH|16179|WFC3/UVIS|sn2000ch-hubble",
+  "find": [
+    "HST|16179|SN2000CH"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "SN 2000ch",
+    "supernova impostor",
+    "luminous blue variable",
+    "LBV",
+    "NGC 3432",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "SN 2000ch was never a true supernova but an impostor: a luminous blue variable star that keeps erupting. Its outbursts repeat on a regular beat, perhaps driven by violent close passes in an eccentric binary.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "SN 2000ch is a supernova impostor in NGC 3432",
+        "source": "https://arxiv.org/abs/2212.00113"
+      },
+      {
+        "text": "Its eruptions come from a luminous blue variable star",
+        "source": "https://arxiv.org/abs/2212.00113"
+      },
+      {
+        "text": "The outbursts repeat periodically, possibly from interaction at periastron in an eccentric binary",
+        "source": "https://arxiv.org/abs/2212.00113"
+      },
+      {
+        "text": "Host NGC 3432, type Impostor, observed in GO-16179 in F555W and F814W",
+        "source": "https://ar5iv.labs.arxiv.org/html/2401.12185"
+      },
+      {
+        "text": "Hubble program 16179 imaged the site of SN 2000ch",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/16179/"
+      }
+    ]
+  }
+}

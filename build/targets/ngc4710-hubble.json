@@ -1,0 +1,45 @@
+{
+  "id": "ngc4710-hubble",
+  "name": "NGC 4710 (Hubble)",
+  "blurb": "NGC 4710, an edge-on lenticular galaxy, seen by Hubble.",
+  "label": "ngc4710-hubble",
+  "spec": "HST|NGC4710|10594|ACS/WFC|ngc4710-hubble",
+  "find": [
+    "HST|10594|NGC4710"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "lenticular galaxy",
+    "S0 galaxy",
+    "edge-on galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Seen edge-on, this lenticular galaxy shows a boxy, peanut-shaped bulge, and a faint, ethereal X-shaped structure hides at its center.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "NGC 4710 is a lenticular or S0-type galaxy",
+        "source": "https://esahubble.org/news/heic0914/"
+      },
+      {
+        "text": "Hubble's ACS shows NGC 4710 edge-on",
+        "source": "https://esahubble.org/news/heic0914/"
+      },
+      {
+        "text": "It has a boxy or peanut-shaped bulge, evident edge-on",
+        "source": "https://esahubble.org/news/heic0914/"
+      },
+      {
+        "text": "A faint, ethereal X-shaped structure is seen at the center",
+        "source": "https://esahubble.org/news/heic0914/"
+      }
+    ]
+  }
+}

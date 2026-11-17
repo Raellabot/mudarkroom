@@ -1,0 +1,54 @@
+{
+  "id": "agc200232-hubble",
+  "name": "AGC 200232 (Hubble)",
+  "blurb": "AGC 200232, a gas-rich dwarf galaxy, seen by Hubble.",
+  "label": "agc200232-hubble",
+  "spec": "HST|AGC200232|13750|ACS/WFC|agc200232-hubble",
+  "find": [
+    "HST|13750|AGC200232"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "AGC200232",
+    "SHIELD galaxy",
+    "dwarf galaxy",
+    "gas-rich dwarf galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "An extremely low-mass dwarf galaxy, rich in hydrogen gas and first noticed by a radio survey. Hubble picked out its brightest red giant stars to pin down its distance.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "AGC 200232 is a SHIELD II target of Hubble program 13750, 'Fundamental Parameters of the SHIELD II Galaxies'",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/13750/"
+      },
+      {
+        "text": "SHIELD galaxies are gas-rich dwarf galaxies",
+        "source": "https://arxiv.org/pdf/2105.05100"
+      },
+      {
+        "text": "SHIELD galaxies were selected from the ALFALFA radio (HI) survey catalog",
+        "source": "https://arxiv.org/pdf/2105.05100"
+      },
+      {
+        "text": "The Hubble imaging was used to measure distances from the tip of the red giant branch",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/13750/"
+      },
+      {
+        "text": "A TRGB distance was measured for AGC 200232",
+        "source": "https://arxiv.org/pdf/2105.05100"
+      },
+      {
+        "text": "SHIELD targets are extremely low-mass galaxies",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/13750/"
+      }
+    ]
+  }
+}

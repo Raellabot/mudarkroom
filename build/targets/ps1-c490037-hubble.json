@@ -1,0 +1,47 @@
+{
+  "id": "ps1-c490037-hubble",
+  "name": "PS1-490037 field (Hubble)",
+  "blurb": "A deep field toward the distant Type Ia supernova PS1-490037, seen by Hubble.",
+  "label": "ps1c490037-hubble",
+  "spec": "HST|PS1-C490037|13046|WFC3/IR|ps1c490037-hubble",
+  "find": [
+    "HST|13046|PS1-C490037"
+  ],
+  "type": "Deep field",
+  "aliases": [
+    "PS1-C490037",
+    "PS1-490037",
+    "supernova",
+    "Type Ia supernova",
+    "deep field",
+    "galaxy field"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Somewhere in this field shone PS1-490037, a Type Ia supernova found by the Pan-STARRS survey. Hubble followed it to measure a precise cosmic distance and help trace the expansion history of the universe.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "PS1-490037 is a Type Ia supernova",
+        "source": "https://blast.ncsa.illinois.edu/transients/PS1-490037"
+      },
+      {
+        "text": "PS1-490037 is distant (redshift about 0.4)",
+        "source": "https://blast.ncsa.illinois.edu/transients/PS1-490037"
+      },
+      {
+        "text": "Hubble program 13046 (RAISIN) observed the target PS1-C490037",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/13046/"
+      },
+      {
+        "text": "The program followed Type Ia supernovae found in Pan-STARRS fields to measure precise cosmic distances and the cosmic expansion history",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/13046/"
+      }
+    ]
+  }
+}

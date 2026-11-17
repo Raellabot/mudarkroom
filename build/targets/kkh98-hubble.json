@@ -1,0 +1,45 @@
+{
+  "id": "kkh98-hubble",
+  "name": "KKH 98 (Hubble)",
+  "blurb": "KKH 98, a dwarf irregular galaxy, seen by Hubble.",
+  "label": "kkh98-hubble",
+  "spec": "HST|KKH98|10915|ACS/WFC|kkh98-hubble",
+  "find": [
+    "HST|10915|KKH98"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "dwarf irregular galaxy",
+    "dwarf galaxy",
+    "irregular galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Hubble resolved this small, nearby dwarf galaxy into thousands of individual stars. Read together, they tell of a galaxy that has kept up a relatively constant, low-level trickle of star formation over much of cosmic time.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "KKH 98 is a nearby dwarf irregular galaxy",
+        "source": "https://ar5iv.arxiv.org/html/1002.0592"
+      },
+      {
+        "text": "Hubble images resolve thousands of its stars",
+        "source": "https://ar5iv.arxiv.org/html/1002.0592"
+      },
+      {
+        "text": "It has had relatively constant low-level star formation over much of cosmic time",
+        "source": "https://arxiv.org/abs/1002.0592"
+      },
+      {
+        "text": "Observed by the ACS Nearby Galaxy Survey",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/10915/"
+      }
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "id": "hscj233125-005216-hubble",
+  "name": "HSCJ233125-005216 (Hubble)",
+  "blurb": "A deep field toward the distant galaxy HSCJ233125-005216, seen by Hubble.",
+  "label": "hscj233125005216-hubble",
+  "spec": "HST|HSCJ233125-005216|16641|WFC3/IR|hscj233125005216-hubble",
+  "find": [
+    "HST|16641|HSCJ233125-005216"
+  ],
+  "type": "Deep field",
+  "aliases": [
+    "HSC J233125-005216",
+    "high-redshift galaxy",
+    "galaxy",
+    "deep field"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Somewhere in this field lies HSCJ233125-005216, one of a handful of exceptionally bright galaxies from the epoch of reionization, found by Subaru's Hyper Suprime-Cam survey and rivaling the famous Himiko and CR7. Hubble looked to map the shape of its ultraviolet starlight.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "HSCJ233125-005216 is a high-redshift galaxy, a target of Hubble program 16641",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/16641/"
+      },
+      {
+        "text": "The Subaru Hyper Suprime-Cam survey discovered seven epoch-of-reionization galaxies as bright as Himiko and CR7",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/16641/"
+      },
+      {
+        "text": "The program aims to identify the rest-frame UV continuum morphology of these galaxies",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/16641/"
+      }
+    ]
+  }
+}

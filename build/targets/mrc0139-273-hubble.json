@@ -1,0 +1,46 @@
+{
+  "id": "mrc0139-273-hubble",
+  "name": "MRC 0139-273 field (Hubble)",
+  "blurb": "A deep field toward the distant radio source MRC 0139-273, seen by Hubble.",
+  "label": "mrc0139273-hubble",
+  "spec": "HST|MRC0139-273|9764|ACS/WFC|mrc0139273-hubble",
+  "find": [
+    "HST|9764|MRC0139-273"
+  ],
+  "type": "Deep field",
+  "aliases": [
+    "0139-273",
+    "radio source",
+    "radio-loud AGN",
+    "deep field",
+    "galaxies"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Hubble looked around MRC 0139-273, one of the most luminous radio sources in its slice of the distant universe, in a field found to be unusually crowded with galaxies. Crowds like this have the look of galaxy clusters still in the making.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "MRC 0139-273 is a powerful radio source at redshift 1.44, in a complete sample of the most luminous radio sources at 1.44 to 1.7",
+        "source": "https://ar5iv.arxiv.org/html/astro-ph/0304035"
+      },
+      {
+        "text": "The sample is drawn from the Molonglo Reference Catalogue (MRC)",
+        "source": "https://ar5iv.arxiv.org/html/astro-ph/9903471"
+      },
+      {
+        "text": "Its field is the richest of those imaged, with an excess of galaxies",
+        "source": "https://ar5iv.arxiv.org/html/astro-ph/0304035"
+      },
+      {
+        "text": "Such overdensities look like forming clusters of galaxies",
+        "source": "https://arxiv.org/pdf/astro-ph/0212160"
+      }
+    ]
+  }
+}

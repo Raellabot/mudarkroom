@@ -1,0 +1,40 @@
+{
+  "id": "zc412369-hubble",
+  "name": "ZC412369 (Hubble)",
+  "blurb": "A deep field toward the distant galaxy ZC412369, seen by Hubble.",
+  "label": "zc412369-hubble",
+  "spec": "HST|ZC412369|12578|WFC3/IR|zc412369-hubble",
+  "find": [
+    "HST|12578|ZC412369"
+  ],
+  "type": "Deep field",
+  "aliases": [
+    "distant galaxy",
+    "star-forming galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Hubble came here for ZC412369, one of a set of massive star-forming galaxies from the distant past. Mapping their starlight helps show how the bulges and disks of big galaxies first grew.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "ZC412369 is a target of Hubble program 12578",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/12578/"
+      },
+      {
+        "text": "The program's targets are massive star-forming galaxies at z~2 (2 < z < 2.5)",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/12578/"
+      },
+      {
+        "text": "Program 12578 imaged massive star-forming galaxies at z~2 to study how bulges and disks grew",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/12578/"
+      }
+    ]
+  }
+}

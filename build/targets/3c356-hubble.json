@@ -1,0 +1,52 @@
+{
+  "id": "3c356-hubble",
+  "name": "3C 356 (Hubble)",
+  "blurb": "3C 356, a powerful radio galaxy, seen by Hubble.",
+  "label": "3c356-hubble",
+  "spec": "HST+HST|3C356+3C356|13023+13023|WFC3/IR+WFC3/UVIS|3c356-hubble",
+  "find": [
+    "HST|13023|3C356"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "3C356",
+    "radio galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A radio galaxy from the 3C catalog, among the most powerful of its era, seen in the cosmic Bright Ages. Hubble imaged it to ask whether its active nucleus triggers or quenches star formation in a galaxy thought to be the forebear of a dominant cluster elliptical.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "3C 356 is a radio galaxy in the 3C high-redshift Hubble survey",
+        "source": "https://ar5iv.labs.arxiv.org/html/1605.03196"
+      },
+      {
+        "text": "3C356 was a target of Hubble program 13023 on powerful 3C radio sources",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/13023/"
+      },
+      {
+        "text": "The program targeted the most powerful radio galaxies at their redshifts",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/13023/"
+      },
+      {
+        "text": "The program is titled for the 'Bright Ages'",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/13023/"
+      },
+      {
+        "text": "Such galaxies are thought to be progenitors of the most massive cluster ellipticals",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/13023/"
+      },
+      {
+        "text": "The program asks how the active nucleus affects star formation",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/13023/"
+      }
+    ]
+  }
+}

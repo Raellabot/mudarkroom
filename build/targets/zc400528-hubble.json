@@ -1,0 +1,54 @@
+{
+  "id": "zc400528-hubble",
+  "name": "zC400528 (Hubble)",
+  "blurb": "A deep field toward the distant galaxy zC400528, seen by Hubble.",
+  "label": "zc400528-hubble",
+  "spec": "HST|ZC400528|12578|WFC3/IR|zc400528-hubble",
+  "find": [
+    "HST|12578|ZC400528"
+  ],
+  "type": "Deep field",
+  "aliases": [
+    "ZC400528",
+    "distant galaxy",
+    "star-forming galaxy",
+    "SINS/zC-SINF",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Somewhere in this field lies zC400528, a massive distant galaxy whose central black hole drives an outflow strong enough to strip away its gas. Star formation at its heart is fading as the galaxy begins to go quiet.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "zC400528 is a massive main-sequence galaxy at z=2.3 in the process of quenching",
+        "source": "https://arxiv.org/abs/1807.07074"
+      },
+      {
+        "text": "zC400528 has an AGN-driven outflow powerful enough to deplete its molecular gas",
+        "source": "https://arxiv.org/abs/1807.07074"
+      },
+      {
+        "text": "Central star formation in zC400528 is suppressed",
+        "source": "https://arxiv.org/abs/1807.07074"
+      },
+      {
+        "text": "ZC400528 is a target of Hubble program 12578 (spelled ZC400528 there)",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/12578/"
+      },
+      {
+        "text": "Program 12578 imaged massive star-forming galaxies at z~2 to study how bulges and disks grew",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/12578/"
+      },
+      {
+        "text": "Program 12578 is the HST imaging of the SINS/zC-SINF survey",
+        "source": "https://ar5iv.labs.arxiv.org/html/1411.7034"
+      }
+    ]
+  }
+}

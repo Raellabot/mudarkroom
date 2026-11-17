@@ -1,0 +1,38 @@
+{
+  "id": "ugc-3966-hubble",
+  "name": "UGC 3966 (Hubble)",
+  "blurb": "UGC 3966, a low surface brightness dwarf galaxy in the Lynx-Cancer void, seen by Hubble.",
+  "label": "ugc3966-hubble",
+  "spec": "HST|UGC-3966|12546|ACS/WFC|ugc3966-hubble",
+  "find": [
+    "HST|12546|UGC-3966"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "DDO 46",
+    "dwarf galaxy",
+    "irregular galaxy",
+    "galaxy",
+    "Lynx-Cancer void"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "This faint, low surface brightness dwarf lies in the Lynx-Cancer void. Hubble resolved its stars to gauge its distance, part of a map of the nearby universe.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "UGC 3966 (DDO 46) is a low surface brightness dwarf, type Im, in the Lynx-Cancer void sample",
+        "source": "https://arxiv.org/pdf/1105.3034"
+      },
+      {
+        "text": "The program measured distances to nearby galaxies from the luminosities of red giant branch stars, to build 3D maps of galaxies",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/12546/"
+      }
+    ]
+  }
+}

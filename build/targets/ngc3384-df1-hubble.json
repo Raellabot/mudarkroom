@@ -1,0 +1,56 @@
+{
+  "id": "ngc3384-df1-hubble",
+  "name": "NGC 3384-DF1 (Hubble)",
+  "blurb": "M96-DF1, a faint low surface brightness galaxy in the M96 group, seen by Hubble.",
+  "label": "ngc3384df1-hubble",
+  "spec": "HST|NGC3384-DF1|14644|ACS/WFC|ngc3384df1-hubble",
+  "find": [
+    "HST|14644|NGC3384-DF1"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "NGC3384-DF1",
+    "M 96-DF1",
+    "M96 group",
+    "low surface brightness galaxy",
+    "dwarf galaxy",
+    "galaxy",
+    "M96-DF1"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A faint, smooth smudge of a galaxy first found in deep Dragonfly images of the M96 group. Hubble's sharp view resolved its stars and showed that it really belongs to the group.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "The object was selected from deep optical imaging with the Dragonfly Telephoto Array and imaged with HST/ACS",
+        "source": "https://arxiv.org/abs/1807.06016"
+      },
+      {
+        "text": "M96-DF1 was a new discovery",
+        "source": "https://ar5iv.labs.arxiv.org/html/1807.06016"
+      },
+      {
+        "text": "The M96 field of the survey was centered on NGC 3384 in the M96 group",
+        "source": "https://ar5iv.labs.arxiv.org/html/1807.06016"
+      },
+      {
+        "text": "The Hubble target NGC3384-DF1 is at RA 10 48 13.04, Dec +11 58 7.32, the position of M96-DF1",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/14644/"
+      },
+      {
+        "text": "All galaxies in the M96 field, including M96-DF1, are at the distance of the M96 group",
+        "source": "https://arxiv.org/pdf/1807.06016"
+      },
+      {
+        "text": "The galaxies in the sample visually resemble dwarf spheroidal galaxies",
+        "source": "https://arxiv.org/abs/1807.06016"
+      }
+    ]
+  }
+}

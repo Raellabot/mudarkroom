@@ -1,0 +1,51 @@
+{
+  "id": "eso-308-g-022-hubble",
+  "name": "ESO 308-G022 (Hubble)",
+  "blurb": "ESO 308-G022, a dwarf irregular galaxy, seen by Hubble.",
+  "label": "eso308g022-hubble",
+  "spec": "HST|ESO-308--G-022|13442|ACS/WFC|eso308g022-hubble",
+  "find": [
+    "HST|13442|ESO-308--G-022"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "ESO 308-G022",
+    "ESO 308-22",
+    "HIPASS J0639-40",
+    "dwarf irregular galaxy",
+    "dwarf galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "ESO 308-G022 is a rather isolated dwarf irregular galaxy with a slowly turning disk of hydrogen gas; Hubble photographed it to measure its distance from its brightest red giant stars and help map the nearby universe in three dimensions.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "ESO 308-G022 is a rather isolated dwarf irregular galaxy",
+        "source": "https://www.atnf.csiro.au/research/LVHIS/data/LVHIS024.info.html"
+      },
+      {
+        "text": "ESO 308-G022 is also known as HIPASS J0639-40",
+        "source": "https://www.atnf.csiro.au/research/LVHIS/data/LVHIS024.info.html"
+      },
+      {
+        "text": "ESO 308-G022 has a regularly rotating disk of hydrogen gas",
+        "source": "https://www.atnf.csiro.au/research/LVHIS/data/LVHIS024.info.html"
+      },
+      {
+        "text": "Hubble program 13442 observed ESO 308-G022 to measure distances to nearby galaxies with the tip of the red giant branch",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/13442/"
+      },
+      {
+        "text": "Program 13442 uses the distances to build three-dimensional maps of nearby galaxies",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/13442/"
+      }
+    ]
+  }
+}

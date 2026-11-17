@@ -1,0 +1,46 @@
+{
+  "id": "dusty-z8-2-hubble",
+  "name": "REBELS-04 (Hubble)",
+  "blurb": "A deep field toward the distant galaxy REBELS-04, seen by Hubble.",
+  "label": "dustyz82-hubble",
+  "spec": "HST|DUSTY-Z8-2|16879|WFC3/IR|dustyz82-hubble",
+  "find": [
+    "HST|16879|DUSTY-Z8-2"
+  ],
+  "type": "Deep field",
+  "aliases": [
+    "XMM-J-355",
+    "DUSTY-Z8-2",
+    "high-redshift galaxy",
+    "galaxy",
+    "deep field"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Somewhere in this field lies a luminous galaxy from the early universe, one in which ALMA had found glowing dust. Hubble looked for a sharp view of its starlight to set beside that dusty glow.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "The Hubble target DUSTY-Z8-2 is REBELS-04, also called XMM-J-355",
+        "source": "https://arxiv.org/pdf/2106.13719"
+      },
+      {
+        "text": "DUSTY-Z8-2 is a high-redshift galaxy",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/list/16879/"
+      },
+      {
+        "text": "ALMA detected dust emission from the program's targets, luminous galaxies in the early universe",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/16879/"
+      },
+      {
+        "text": "Hubble imaging was to give a sharp view of the unobscured star formation to match ALMA's view",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/16879/"
+      }
+    ]
+  }
+}

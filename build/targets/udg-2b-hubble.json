@@ -1,0 +1,50 @@
+{
+  "id": "udg-2b-hubble",
+  "name": "UDG-2B (Hubble)",
+  "blurb": "UDG-2B, an ultra-diffuse galaxy in a group of galaxies, seen by Hubble.",
+  "label": "udg2b-hubble",
+  "spec": "HST|UDG-2B|15277|ACS/WFC|udg2b-hubble",
+  "find": [
+    "HST|15277|UDG-2B"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "ultra-diffuse galaxy",
+    "UDG",
+    "dwarf galaxy",
+    "low surface brightness galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "UDG-2B is an ultra-diffuse galaxy, with the stars of a dwarf spread across the size of a giant galaxy. Hubble counted its globular clusters to weigh it and compare such ghostly galaxies in quiet groups with those in crowded clusters.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "UDG-2B is an ultra-diffuse galaxy in a galaxy group (group B) studied with Hubble program 15277",
+        "source": "https://ar5iv.labs.arxiv.org/html/2008.02806"
+      },
+      {
+        "text": "UDG-2B is a low-surface-brightness dwarf galaxy",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/list/15277/"
+      },
+      {
+        "text": "Ultra-diffuse galaxies have dwarf-like stellar masses spread across giant-galaxy sizes",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15277/"
+      },
+      {
+        "text": "Program 15277 uses globular cluster systems to weigh UDGs in poor groups and compare them with cluster UDGs",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15277/"
+      },
+      {
+        "text": "Somalwar et al. studied the globular cluster systems of UDGs in groups with Hubble",
+        "source": "https://ar5iv.labs.arxiv.org/html/2008.02806"
+      }
+    ]
+  }
+}

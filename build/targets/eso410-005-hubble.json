@@ -1,0 +1,52 @@
+{
+  "id": "eso410-005-hubble",
+  "name": "ESO 410-005 (Hubble)",
+  "blurb": "ESO 410-005, a transition-type dwarf galaxy in the Sculptor Group, seen by Hubble.",
+  "label": "eso410005-hubble",
+  "spec": "HST|ESO410-005|10503|ACS/WFC|eso410005-hubble",
+  "find": [
+    "HST|10503|ESO410-005"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "ESO410-005",
+    "ESO 410-G005",
+    "ESO410-G005",
+    "Sculptor Group dwarf",
+    "transition-type dwarf",
+    "dwarf galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "ESO 410-005 is a transition-type dwarf galaxy in the Sculptor Group, one of the closest groups of galaxies to our Local Group. Its RR Lyrae stars trace an ancient population as old as the globular clusters of the Galactic halo, yet its star formation surged suddenly in more recent times.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "ESO 410-005 is a Sculptor Group dwarf galaxy",
+        "source": "https://arxiv.org/abs/0912.1069"
+      },
+      {
+        "text": "ESO410-G005 is a transition-type dwarf galaxy",
+        "source": "https://arxiv.org/pdf/1402.3874"
+      },
+      {
+        "text": "The Sculptor group is one of the closest groups of galaxies to the Local Group",
+        "source": "https://arxiv.org/pdf/1402.3874"
+      },
+      {
+        "text": "It holds RR Lyrae variables tracing an ancient population as old as the Galactic halo globular clusters",
+        "source": "https://arxiv.org/abs/0912.1069"
+      },
+      {
+        "text": "Its star formation rate rose suddenly in its recent history",
+        "source": "https://arxiv.org/pdf/1402.3874"
+      }
+    ]
+  }
+}

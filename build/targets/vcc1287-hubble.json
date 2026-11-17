@@ -1,0 +1,50 @@
+{
+  "id": "vcc1287-hubble",
+  "name": "VCC 1287 (Hubble)",
+  "blurb": "VCC 1287, an ultra-diffuse galaxy in the Virgo Cluster, seen by Hubble.",
+  "label": "vcc1287-hubble",
+  "spec": "HST|VCC1287|17528|ACS/WFC|vcc1287-hubble",
+  "find": [
+    "HST|17528|VCC1287"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "VCC1287",
+    "ultra-diffuse galaxy",
+    "UDG",
+    "low surface brightness galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "An ultra-diffuse galaxy, as wide as a giant but as faint as a dwarf, adrift in the Virgo Cluster. By following its globular clusters, astronomers weighed it and found an overmassive dark halo around its thin veil of stars.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "VCC 1287 is an ultra-diffuse galaxy in the Virgo Cluster",
+        "source": "https://arxiv.org/abs/1602.04002"
+      },
+      {
+        "text": "Ultra-diffuse galaxies have the sizes of giant galaxies but the luminosities of dwarfs",
+        "source": "https://arxiv.org/abs/1602.04002"
+      },
+      {
+        "text": "VCC 1287's mass was measured using its globular clusters, revealing an overmassive dark halo",
+        "source": "https://arxiv.org/abs/1602.04002"
+      },
+      {
+        "text": "VCC 1287 belongs to the Virgo Cluster and has a globular cluster system",
+        "source": "https://arxiv.org/abs/2005.03041"
+      },
+      {
+        "text": "VCC 1287 is a low surface brightness galaxy targeted by program 17528 on Virgo Cluster UDGs",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/17528/"
+      }
+    ]
+  }
+}

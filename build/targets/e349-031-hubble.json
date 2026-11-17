@@ -1,0 +1,41 @@
+{
+  "id": "e349-031-hubble",
+  "name": "ESO 349-031 (Hubble)",
+  "blurb": "ESO 349-031, a dwarf irregular galaxy, seen by Hubble.",
+  "label": "e349031-hubble",
+  "spec": "HST|E349-031|9771|ACS/WFC|e349031-hubble",
+  "find": [
+    "HST|9771|E349-031"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "SDIG",
+    "dwarf irregular galaxy",
+    "dwarf galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "This dwarf irregular galaxy belongs to a group of galaxies in Sculptor and is a companion to the bright spiral NGC 7793. Hubble resolved its individual stars to measure its distance.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "ESO 349-031 (SDIG) is a dwarf irregular galaxy in a group (filament) in Sculptor",
+        "source": "https://ar5iv.arxiv.org/html/astro-ph/0511648"
+      },
+      {
+        "text": "SDIG is a companion to the bright spiral galaxy NGC 7793",
+        "source": "https://ar5iv.arxiv.org/html/astro-ph/0511648"
+      },
+      {
+        "text": "Its distance was measured from Hubble ACS images of its stars (tip of the red giant branch, program 9771)",
+        "source": "https://ar5iv.arxiv.org/html/astro-ph/0511648"
+      }
+    ]
+  }
+}

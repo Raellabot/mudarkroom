@@ -1,0 +1,53 @@
+{
+  "id": "galfa-dw4-hubble",
+  "name": "GALFA-Dw4 (Hubble)",
+  "blurb": "GALFA-Dw4, an isolated dwarf irregular galaxy, seen by Hubble.",
+  "label": "galfadw4-hubble",
+  "spec": "HST|GALFA-DW4|14676|ACS/WFC|galfadw4-hubble",
+  "find": [
+    "HST|14676|GALFA-DW4"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "GALFA Dw4",
+    "dwarf irregular galaxy",
+    "dwarf galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A small, gas-rich galaxy found through its link to a compact cloud of hydrogen, with no confirmed neighbors nearby. It is unusually compact for its brightness, and a few HII regions holding young star clusters show it is still forming stars.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "GALFA-Dw4 is classified as a dwarf irregular galaxy",
+        "source": "https://arxiv.org/abs/2101.08270"
+      },
+      {
+        "text": "GALFA-Dw4 is isolated, with no confirmed neighbors nearby",
+        "source": "https://arxiv.org/abs/2101.08270"
+      },
+      {
+        "text": "GALFA-Dw4 is a gas-rich dwarf found through its association with a compact HI (hydrogen) high velocity cloud",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/14676/"
+      },
+      {
+        "text": "It contains HII regions with young star clusters",
+        "source": "https://arxiv.org/abs/2101.08270"
+      },
+      {
+        "text": "Dw4 is unusually compact for a galaxy of its luminosity",
+        "source": "https://arxiv.org/abs/2101.08270"
+      },
+      {
+        "text": "Dw4 shows some evidence for current star formation in spatially limited HII regions",
+        "source": "https://arxiv.org/abs/2101.08270"
+      }
+    ]
+  }
+}

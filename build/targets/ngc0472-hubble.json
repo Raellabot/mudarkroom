@@ -1,0 +1,47 @@
+{
+  "id": "ngc0472-hubble",
+  "name": "NGC 472 (Hubble)",
+  "blurb": "NGC 472, a compact elliptical galaxy, seen by Hubble.",
+  "label": "ngc0472-hubble",
+  "spec": "HST+HST|NGC0472+NGC0472|13050+13050|WFC3/IR+WFC3/UVIS|ngc0472-hubble",
+  "find": [
+    "HST|13050|NGC0472"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "NGC 0472",
+    "NGC0472",
+    "compact elliptical galaxy",
+    "elliptical galaxy",
+    "early-type galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A small, densely packed elliptical galaxy that resembles the compact galaxies of the early universe more than its modern neighbors. Its outline twists from the center outward, a hint that its true shape is not simply round or flattened.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "NGC 472 is a compact elliptical galaxy imaged by Hubble program GO-13050",
+        "source": "https://ar5iv.labs.arxiv.org/html/1701.05898"
+      },
+      {
+        "text": "Nearby compact elliptical galaxies are dense, are outliers today, and resemble the compact, massive, quiescent galaxies of the early universe (local analogues)",
+        "source": "https://arxiv.org/abs/1701.05898v2"
+      },
+      {
+        "text": "Hubble program 13050 'The Most Massive Black Holes in Small Galaxies' imaged NGC0472 to hunt for overmassive black holes in compact early-type galaxies",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/13050/"
+      },
+      {
+        "text": "NGC 472 shows strong isophotal twists, a significant change of position angle from inner to outer regions, suggesting a triaxial shape",
+        "source": "https://ar5iv.labs.arxiv.org/html/1701.05898"
+      }
+    ]
+  }
+}

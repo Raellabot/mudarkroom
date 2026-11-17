@@ -1,0 +1,40 @@
+{
+  "id": "ngc-4839-hubble",
+  "name": "NGC 4839 (Hubble)",
+  "blurb": "NGC 4839, an elliptical galaxy in a group falling into the Coma Cluster, seen by Hubble.",
+  "label": "ngc4839-hubble",
+  "spec": "HST+HST|NGC-4839+NGC-4839|15265+15265|WFC3/IR+WFC3/UVIS|ngc4839-hubble",
+  "find": [
+    "HST|15265|NGC-4839"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "NGC 4839 group",
+    "elliptical galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "NGC 4839 and its group of galaxies are falling into the Coma Cluster, and one study finds this is their first plunge. Hubble surveyed the globular clusters around this massive galaxy to read the history of how it grew.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "NGC 4839 and its group are falling into the Coma Cluster, on their first infall",
+        "source": "https://arxiv.org/abs/astro-ph/0010435"
+      },
+      {
+        "text": "NGC 4839 is an elliptical galaxy targeted by Hubble program 15265",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15265/"
+      },
+      {
+        "text": "Hubble program 15265 studies the globular cluster systems of the most massive MASSIVE Survey galaxies to trace their growth histories",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15265/"
+      }
+    ]
+  }
+}

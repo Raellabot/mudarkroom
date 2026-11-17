@@ -1,0 +1,48 @@
+{
+  "id": "ngc4183-hubble",
+  "name": "NGC 4183 (Hubble)",
+  "blurb": "NGC 4183, an edge-on spiral galaxy, seen by Hubble.",
+  "label": "ngc4183-hubble",
+  "spec": "HST|NGC4183|9765|ACS/WFC|ngc4183-hubble",
+  "find": [
+    "HST|9765|NGC4183"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "spiral galaxy",
+    "edge-on galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Seen edge-on, this spiral hides its arms from us, while intricate filaments of dust cross its disk and block the light of its core. It belongs to the Ursa Major Group, and recent studies suggest it may have a bar.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "NGC 4183 is a spiral galaxy viewed edge-on, so its spiral arms cannot be fully appreciated",
+        "source": "https://esahubble.org/images/potw1239a/"
+      },
+      {
+        "text": "Dust lanes appear as intricate filaments blocking light from the core",
+        "source": "https://esahubble.org/images/potw1239a/"
+      },
+      {
+        "text": "NGC 4183 belongs to the Ursa Major Group",
+        "source": "https://esahubble.org/images/potw1239a/"
+      },
+      {
+        "text": "Recent studies suggest NGC 4183 may have a bar",
+        "source": "https://esahubble.org/images/potw1239a/"
+      },
+      {
+        "text": "NGC 4183 was a target of a Hubble snapshot survey of nearby edge-on spiral galaxies, The Dusty ISM Substructure in Nearby Spiral Galaxies",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/list/9765/"
+      }
+    ]
+  }
+}

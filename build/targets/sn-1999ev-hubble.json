@@ -1,0 +1,46 @@
+{
+  "id": "sn-1999ev-hubble",
+  "name": "NGC 4274, SN 1999ev field (Hubble)",
+  "blurb": "NGC 4274, the host galaxy of the supernova SN 1999ev, seen by Hubble.",
+  "label": "sn1999ev-hubble",
+  "spec": "HST|SN-1999EV|11675|ACS/WFC|sn1999ev-hubble",
+  "find": [
+    "HST|11675|SN-1999EV"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "NGC 4274",
+    "SN 1999ev",
+    "SN1999ev",
+    "supernova host galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "In 1999 a star exploded here as the Type IIP supernova SN 1999ev. Years later Hubble looked back at the spot to check whether the red supergiant thought to be its progenitor had vanished, but a source still sat at the supernova's position, so the answer stayed uncertain.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "SN 1999ev was discovered in 1999 in NGC 4274",
+        "source": "https://arxiv.org/pdf/1302.7152"
+      },
+      {
+        "text": "SN 1999ev was a type II supernova in NGC 4274",
+        "source": "https://tamkin3.eps.harvard.edu/iauc/07300/07306.html"
+      },
+      {
+        "text": "It was a Type IIP supernova with a proposed red supergiant progenitor, revisited by program 11675",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/11675/"
+      },
+      {
+        "text": "Late-time Hubble images still show a source at the supernova position, so the progenitor's disappearance was not confirmed",
+        "source": "https://arxiv.org/pdf/1302.7152"
+      }
+    ]
+  }
+}

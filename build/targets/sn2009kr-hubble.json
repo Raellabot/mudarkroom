@@ -1,0 +1,46 @@
+{
+  "id": "sn2009kr-hubble",
+  "name": "NGC 1832, SN 2009kr field (Hubble)",
+  "blurb": "NGC 1832, a spiral galaxy that hosted the Type II supernova SN 2009kr, seen by Hubble.",
+  "label": "sn2009kr-hubble",
+  "spec": "HST|SN2009KR|12559|ACS/WFC|sn2009kr-hubble",
+  "find": [
+    "HST|12559|SN2009KR"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "NGC 1832",
+    "SN 2009kr",
+    "spiral galaxy",
+    "galaxy",
+    "supernova host"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "In this spiral galaxy a supernova, SN 2009kr, burst from a star that earlier Hubble images suggest was a yellow supergiant. Hubble came back after the blast faded to see whether that star was gone.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "SN 2009kr was found in the spiral galaxy NGC 1832",
+        "source": "https://arxiv.org/pdf/0912.2071"
+      },
+      {
+        "text": "SN 2009kr is a type II supernova",
+        "source": "https://arxiv.org/abs/0912.2071"
+      },
+      {
+        "text": "A source in HST pre-explosion images, if a single star, would be a yellow supergiant",
+        "source": "https://arxiv.org/abs/0912.2071"
+      },
+      {
+        "text": "The program images faded core-collapse supernova sites to confirm the progenitors are gone; SN 2009kr is a target",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/12559/"
+      }
+    ]
+  }
+}

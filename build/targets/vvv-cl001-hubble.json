@@ -1,0 +1,44 @@
+{
+  "id": "vvv-cl001-hubble",
+  "name": "VVV CL001 (Hubble)",
+  "blurb": "VVV CL001, a globular cluster toward the Galactic bulge, seen by Hubble.",
+  "label": "vvvcl001-hubble",
+  "spec": "HST|VVV-CL001|17435|WFC3/IR|vvvcl001-hubble",
+  "find": [
+    "HST|17435|VVV-CL001"
+  ],
+  "type": "Star cluster",
+  "aliases": [
+    "VVV-CL001",
+    "globular cluster",
+    "star cluster"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A low-mass globular cluster hidden behind thick interstellar dust toward the Milky Way's bulge, likely the most metal-poor surviving globular cluster in the inner Galaxy. It lies next to another cluster, UKS 1, and the two may be a true cluster pair.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "VVV CL001 is a globular cluster toward the Galactic bulge in a region of high interstellar reddening",
+        "source": "https://arxiv.org/abs/2102.01088"
+      },
+      {
+        "text": "VVV CL001 is likely the most metal-poor surviving globular cluster in the inner Galaxy",
+        "source": "https://arxiv.org/abs/2102.01088"
+      },
+      {
+        "text": "VVV CL001 is a low-mass globular cluster next to UKS 1; the two are candidates for a physical cluster binary",
+        "source": "https://arxiv.org/abs/1012.2450"
+      },
+      {
+        "text": "VVV-CL001 is one of the heavily extincted bulge globular clusters imaged by the Hubble Missing Globular Clusters Survey",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/17435/"
+      }
+    ]
+  }
+}

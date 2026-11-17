@@ -1,0 +1,40 @@
+{
+  "id": "mcg-03-13-063-hubble",
+  "name": "MCG-03-13-063 (Hubble)",
+  "blurb": "MCG-03-13-063, an interacting galaxy with a tidal tail, seen by Hubble.",
+  "label": "mcg0313063-hubble",
+  "spec": "HST|MCG-03-13-063|14937|WFC3/UVIS|mcg0313063-hubble",
+  "find": [
+    "HST|14937|MCG-03-13-063"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "interacting galaxy",
+    "tidal tail",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Pulled by an unseen companion, this galaxy trails a long, thin tidal tail of stars and gas. Hubble studied the tail to learn how star clusters form in debris flung out by galaxy encounters.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "MCG-03-13-063 has an extended, thin tidal tail produced by an unseen companion",
+        "source": "https://ar5iv.labs.arxiv.org/html/2309.10267"
+      },
+      {
+        "text": "MCG-03-13-063 is one of the merging systems in a Hubble study of star clusters in tidal debris",
+        "source": "https://ar5iv.labs.arxiv.org/html/2309.10267"
+      },
+      {
+        "text": "Hubble program 14937 observed MCG-03-13-063 to study star formation in HI-rich tidal tails",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/14937/"
+      }
+    ]
+  }
+}

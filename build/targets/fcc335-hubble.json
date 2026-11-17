@@ -1,0 +1,46 @@
+{
+  "id": "fcc335-hubble",
+  "name": "FCC 335 (Hubble)",
+  "blurb": "FCC 335, an elliptical galaxy in the Fornax Cluster, seen by Hubble.",
+  "label": "fcc335-hubble",
+  "spec": "HST|FCC335|10217|ACS/WFC|fcc335-hubble",
+  "find": [
+    "HST|10217|FCC335"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "FCC335",
+    "ESO 359-G02",
+    "elliptical galaxy",
+    "early-type galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "FCC 335 is an elliptical galaxy, one of 43 early-type galaxies Hubble imaged in the Fornax Cluster to study how a cluster environment shapes its members.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "FCC 335 is an elliptical galaxy observed by the ACS Fornax Cluster Survey",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/list/10217/"
+      },
+      {
+        "text": "FCC 335 is also ESO 359-G02, type E",
+        "source": "https://arxiv.org/pdf/astro-ph/0702320"
+      },
+      {
+        "text": "The ACS Fornax Cluster Survey imaged 43 early-type galaxies in the Fornax Cluster with Hubble",
+        "source": "https://ar5iv.arxiv.org/html/astro-ph/0702320"
+      },
+      {
+        "text": "The survey was designed to study the role of environment",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/list/10217/"
+      }
+    ]
+  }
+}

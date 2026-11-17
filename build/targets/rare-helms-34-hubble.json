@@ -1,0 +1,43 @@
+{
+  "id": "rare-helms-34-hubble",
+  "name": "HELMS_RED_4 field (Hubble)",
+  "blurb": "A deep field toward the distant dusty starburst galaxy HELMS_RED_4, seen by Hubble.",
+  "label": "rarehelms34-hubble",
+  "spec": "HST|RARE-HELMS-34|14083|WFC3/IR|rarehelms34-hubble",
+  "find": [
+    "HST|14083|RARE-HELMS-34"
+  ],
+  "type": "Deep field",
+  "aliases": [
+    "RARE-HELMS-34",
+    "HELMS_RED_4",
+    "HerMES",
+    "dusty star-forming galaxy",
+    "starburst galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Somewhere in this field lies one of the brightest dusty, star-forming galaxies known in the distant universe, first picked out by the Herschel telescope. Hubble looked here to gauge its size and mass, to check whether a foreground galaxy is magnifying it, and to see what kind of neighborhood it lives in.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "RARE-HELMS-34 is one of the three brightest dusty star-forming galaxies known at z > 5, selected from the Herschel HerMES survey",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/14083/"
+      },
+      {
+        "text": "The source at this position is HELMS_RED_4 in the HeLMS red-source catalog",
+        "source": "https://ar5iv.labs.arxiv.org/html/1601.02665"
+      },
+      {
+        "text": "Hubble measured sizes and stellar masses, checked for gravitational lensing, and studied the galaxies' environments",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/14083/"
+      }
+    ]
+  }
+}

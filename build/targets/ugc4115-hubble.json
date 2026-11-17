@@ -1,0 +1,46 @@
+{
+  "id": "ugc4115-hubble",
+  "name": "UGC 4115 (Hubble)",
+  "blurb": "UGC 4115, a dwarf irregular galaxy, seen by Hubble.",
+  "label": "ugc4115-hubble",
+  "spec": "HST|UGC4115|10210|ACS/WFC|ugc4115-hubble",
+  "find": [
+    "HST|10210|UGC4115"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "UGC4115",
+    "dwarf galaxy",
+    "irregular galaxy",
+    "Magellanic irregular",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "UGC 4115 belongs to a loose association of dwarf galaxies led by UGC 3974, strung along a filament of nearby galaxies. Hubble measured its distance to weigh how much unseen dark matter such faint groups might hold.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "UGC 4115 is a Magellanic irregular galaxy",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/list/10210/"
+      },
+      {
+        "text": "UGC 4115 is a member of the 14+19 association of dwarf galaxies, whose brightest galaxy is UGC 3974",
+        "source": "https://ar5iv.arxiv.org/html/astro-ph/0603380"
+      },
+      {
+        "text": "UGC 4115 lies in a filament of galaxies",
+        "source": "https://ar5iv.arxiv.org/html/astro-ph/0511648"
+      },
+      {
+        "text": "Hubble program 10210 'Groups of Dwarf Galaxies: Pools of Mostly Dark Matter?' measured distances to dwarf galaxies in dwarf groups",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/list/10210/"
+      }
+    ]
+  }
+}

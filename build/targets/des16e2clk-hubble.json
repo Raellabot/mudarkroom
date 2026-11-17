@@ -1,0 +1,47 @@
+{
+  "id": "des16e2clk-hubble",
+  "name": "DES16E2clk field (Hubble)",
+  "blurb": "A deep field toward the Type Ia supernova DES16E2CLK, seen by Hubble.",
+  "label": "des16e2clk-hubble",
+  "spec": "HST|DES16E2CLK|14216|WFC3/IR|des16e2clk-hubble",
+  "find": [
+    "HST|14216|DES16E2CLK"
+  ],
+  "type": "Deep field",
+  "aliases": [
+    "DES16E2CLK",
+    "RAISIN2",
+    "Dark Energy Survey",
+    "Type Ia supernova",
+    "supernova",
+    "galaxy field"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Hubble returned here again and again to follow a distant Type Ia supernova found by the Dark Energy Survey. Exploding stars like this one serve as cosmic yardsticks for tracing how the universe has expanded.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "DES16E2CLK is a target of RAISIN2, a Hubble program on Type Ia supernovae found by the Dark Energy Survey",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/14216/"
+      },
+      {
+        "text": "Each new supernova got a sequence of repeated visits",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/14216/"
+      },
+      {
+        "text": "Type Ia supernovae trace the cosmic expansion history",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/14216/"
+      },
+      {
+        "text": "RAISIN2 followed spectroscopically classified supernovae from DES",
+        "source": "https://ar5iv.labs.arxiv.org/html/2201.07801"
+      }
+    ]
+  }
+}

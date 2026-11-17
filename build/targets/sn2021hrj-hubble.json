@@ -1,0 +1,38 @@
+{
+  "id": "sn2021hrj-hubble",
+  "name": "SN 2021hrj field (Hubble)",
+  "blurb": "The field of SN 2021hrj, a Type Ib supernova, seen by Hubble.",
+  "label": "sn2021hrj-hubble",
+  "spec": "HST|SN2021HRJ|16691|WFC3/UVIS|sn2021hrj-hubble",
+  "find": [
+    "HST|16691|SN2021HRJ"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "SN 2021hrj",
+    "AT2021hrj",
+    "ZTF21aarnjyd",
+    "supernova",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A star exploded here as SN 2021hrj, a Type Ib supernova. Hubble came back long after the blast to study the faded supernova and its surroundings.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "SN 2021hrj (AT2021hrj, ZTF21aarnjyd) is a Type Ib supernova",
+        "source": "https://www.astronomerstelegram.org/?read=14562"
+      },
+      {
+        "text": "Hubble program 16691 takes late-time snapshots of recent transients and their environments",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/16691/"
+      }
+    ]
+  }
+}

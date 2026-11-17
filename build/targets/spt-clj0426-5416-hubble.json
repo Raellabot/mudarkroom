@@ -1,0 +1,40 @@
+{
+  "id": "spt-clj0426-5416-hubble",
+  "name": "SPT-CL J0426-5416 (Hubble)",
+  "blurb": "SPT-CL J0426-5416, a massive galaxy cluster found by the South Pole Telescope, seen by Hubble.",
+  "label": "sptclj04265416-hubble",
+  "spec": "HST+HST|SPT-CLJ0426-5416+SPT-CLJ0426-5416|15307+15307|WFC3/IR+WFC3/UVIS|sptclj04265416-hubble",
+  "find": [
+    "HST|15307|SPT-CLJ0426-5416"
+  ],
+  "type": "Galaxy cluster",
+  "aliases": [
+    "SPT-CLJ0426-5416",
+    "galaxy cluster",
+    "cluster of galaxies"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A massive gathering of galaxies picked out by the South Pole Telescope. Hubble's view helps reveal how the brightest galaxy at a cluster's core builds up through mergers with its neighbors.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "SPT-CL J0426-5416 is one of the South Pole Telescope galaxy clusters imaged in Hubble program 15307",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15307/"
+      },
+      {
+        "text": "The program's clusters were identified via the Sunyaev-Zel'dovich effect and are massive clusters",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15307/"
+      },
+      {
+        "text": "The program studies the growth of brightest cluster galaxies through mergers, strong lensing, and lensed background galaxies",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15307/"
+      }
+    ]
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "id": "z-106-29-hubble",
+  "name": "Z 106-29 (Hubble)",
+  "blurb": "Z 106-29, a galaxy thought to lie nearby, seen by Hubble.",
+  "label": "z10629-hubble",
+  "spec": "HST|Z-106-29|18070|ACS/WFC|z10629-hubble",
+  "find": [
+    "HST|18070|Z-106-29"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "Z-106-29",
+    "galaxy",
+    "nearby galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Hubble paused here for a quick snapshot in a survey of every galaxy thought to lie close to us that it had not yet observed. Picking out individual stars, down below the brightest red giants, lets astronomers measure how far away the galaxy is and read the ages of its stars.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "Z 106-29 (Z-106-29) is a target of Hubble program 18070",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/18070/"
+      },
+      {
+        "text": "Program 18070 targets are galaxies",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/18070/"
+      },
+      {
+        "text": "The program surveys galaxies thought to lie nearby that Hubble had not yet observed",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/18070/"
+      },
+      {
+        "text": "Resolving stars below the tip of the red giant branch gives distances",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/18070/"
+      },
+      {
+        "text": "The program studies stellar ages",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/18070/"
+      }
+    ]
+  }
+}

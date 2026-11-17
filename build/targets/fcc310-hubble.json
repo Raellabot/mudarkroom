@@ -1,0 +1,51 @@
+{
+  "id": "fcc310-hubble",
+  "name": "NGC 1460 (Hubble)",
+  "blurb": "NGC 1460, a lenticular galaxy in the Fornax Cluster, seen by Hubble.",
+  "label": "fcc310-hubble",
+  "spec": "HST|FCC310|10217|ACS/WFC|fcc310-hubble",
+  "find": [
+    "HST|10217|FCC310"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "FCC 310",
+    "FCC310",
+    "lenticular galaxy",
+    "barred lenticular galaxy",
+    "early-type galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "NGC 1460 is a lenticular galaxy, a class that falls between spirals and ellipticals. Hubble imaged it as one of 43 early-type galaxies in the Fornax Cluster.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "FCC 310 is a lenticular galaxy observed by the ACS Fornax Cluster Survey",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/list/10217/"
+      },
+      {
+        "text": "FCC 310 is NGC 1460, type SB0 (barred lenticular)",
+        "source": "https://arxiv.org/pdf/astro-ph/0702320"
+      },
+      {
+        "text": "Lenticular galaxies are a class between spirals and ellipticals",
+        "source": "https://esahubble.org/images/potm2601a/"
+      },
+      {
+        "text": "The ACS Fornax Cluster Survey imaged 43 early-type galaxies in the Fornax Cluster with Hubble",
+        "source": "https://ar5iv.arxiv.org/html/astro-ph/0702320"
+      },
+      {
+        "text": "The survey was designed to study the role of environment",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/list/10217/"
+      }
+    ]
+  }
+}

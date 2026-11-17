@@ -1,0 +1,50 @@
+{
+  "id": "gal-111952-125239-hubble",
+  "name": "E+A galaxy EA13 (Hubble)",
+  "blurb": "EA13, a post-starburst (E+A) galaxy from the Las Campanas Redshift Survey, seen by Hubble.",
+  "label": "gal111952125239-hubble",
+  "spec": "HST|GAL-111952-125239|9781|ACS/WFC|gal111952125239-hubble",
+  "find": [
+    "HST|9781|GAL-111952-125239"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "lcrs13",
+    "EA13",
+    "E+A galaxy",
+    "post-starburst galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Post-starburst galaxies like this one are among the best candidates for galaxies in transition, turning from gas-rich and star-forming to gas-poor and passively evolving through galaxy mergers. This one lives in the field, away from galaxy clusters.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "The target position (11 19 52, -12 52 39) is the LCRS E+A galaxy lcrs13, in a field environment",
+        "source": "https://arxiv.org/pdf/astro-ph/0002146"
+      },
+      {
+        "text": "Galaxy 13 of the Zabludoff et al. (1996) E+A sample lies at B1950 11 17 21.50 -12 36 13.3",
+        "source": "https://arxiv.org/pdf/astro-ph/9512058"
+      },
+      {
+        "text": "Post-starburst (E+A) galaxies are the best candidates for galaxies in transition from gas-rich and star-forming to gas-poor and passively evolving, via galaxy mergers",
+        "source": "https://arxiv.org/abs/0801.1190"
+      },
+      {
+        "text": "The E+A galaxies EA06 to EA21 of the Zabludoff et al. (1996) Las Campanas Redshift Survey sample were imaged with Hubble's ACS",
+        "source": "https://ar5iv.labs.arxiv.org/html/0801.1190"
+      },
+      {
+        "text": "The Zabludoff et al. E+A galaxies come from the Las Campanas Redshift Survey",
+        "source": "https://ar5iv.labs.arxiv.org/html/0801.1190"
+      }
+    ]
+  }
+}

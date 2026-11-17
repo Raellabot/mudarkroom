@@ -1,0 +1,44 @@
+{
+  "id": "gcl-66-1-hubble",
+  "name": "Terzan 4 (Hubble)",
+  "blurb": "Terzan 4, a globular cluster toward the bulge of the Milky Way, seen by Hubble.",
+  "label": "gcl661-hubble",
+  "spec": "HST+HST|GCL-66.1+GCL-66.1|14074+14074|ACS/WFC+WFC3/IR|gcl661-hubble",
+  "find": [
+    "HST|14074|GCL-66.1"
+  ],
+  "type": "Star cluster",
+  "aliases": [
+    "GCL-66.1",
+    "globular cluster",
+    "star cluster"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Terzan 4 is one of the globular clusters crowded toward the Milky Way's bulge, so veiled by dust that deep space surveys had long passed it by. Hubble peered through the haze to measure the ages of its stars and the shape of the cluster.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "GCL-66.1 is Terzan 4",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/14074/"
+      },
+      {
+        "text": "The targets are Galactic globular clusters toward the Galactic bulge",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/14074/"
+      },
+      {
+        "text": "These clusters were left out of deep space surveys because of dust extinction",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/14074/"
+      },
+      {
+        "text": "Hubble measured cluster ages and structural parameters",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/14074/"
+      }
+    ]
+  }
+}

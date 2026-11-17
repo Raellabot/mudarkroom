@@ -1,0 +1,48 @@
+{
+  "id": "glimpse-c02-hubble",
+  "name": "GLIMPSE-C02 (Hubble)",
+  "blurb": "GLIMPSE-C02, a dust-shrouded globular cluster in the Milky Way, seen by Hubble.",
+  "label": "glimpsec02-hubble",
+  "spec": "HST|GLIMPSE-C02|17918|WFC3/IR|glimpsec02-hubble",
+  "find": [
+    "HST|17918|GLIMPSE-C02"
+  ],
+  "type": "Star cluster",
+  "aliases": [
+    "G02",
+    "globular cluster",
+    "star cluster"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Deeply embedded in dust where the Milky Way's thin disk meets its central bulge, GLIMPSE-C02 is a globular cluster among the most metal-rich in the galaxy. Hubble looked here as part of its first view of some of the Milky Way's most heavily obscured globular clusters.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "GLIMPSE-C02 (G02) is a Milky Way globular cluster",
+        "source": "https://ar5iv.labs.arxiv.org/html/0808.1565"
+      },
+      {
+        "text": "It is among the most metal-rich globular clusters in the Galaxy",
+        "source": "https://ar5iv.labs.arxiv.org/html/0808.1565"
+      },
+      {
+        "text": "It is deeply embedded in dust",
+        "source": "https://ar5iv.labs.arxiv.org/html/0808.1565"
+      },
+      {
+        "text": "It lies at the inner edge of the thin disk, in the transition region with the bulge",
+        "source": "https://ar5iv.labs.arxiv.org/html/0808.1565"
+      },
+      {
+        "text": "Hubble program 17918 is a first view of extremely obscured Galactic globular clusters, including GLIMPSE-C02",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/17918/"
+      }
+    ]
+  }
+}

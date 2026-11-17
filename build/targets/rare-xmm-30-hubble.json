@@ -1,0 +1,38 @@
+{
+  "id": "rare-xmm-30-hubble",
+  "name": "RARE-XMM-30 field (Hubble)",
+  "blurb": "A deep field toward the distant dusty starburst galaxy RARE-XMM-30, seen by Hubble.",
+  "label": "rarexmm30-hubble",
+  "spec": "HST|RARE-XMM-30|14083|WFC3/IR|rarexmm30-hubble",
+  "find": [
+    "HST|14083|RARE-XMM-30"
+  ],
+  "type": "Deep field",
+  "aliases": [
+    "RARE-XMM-30",
+    "HerMES",
+    "dusty star-forming galaxy",
+    "starburst galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Hidden in this field is one of the brightest dusty, star-forming galaxies known in the distant universe, found in a Herschel telescope survey. Hubble looked here to gauge its size and mass, to check whether a foreground galaxy is magnifying it, and to see whether it sits among other young galaxies.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "RARE-XMM-30 is one of the three brightest dusty star-forming galaxies known at z > 5, selected from the Herschel HerMES survey",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/14083/"
+      },
+      {
+        "text": "Hubble measured sizes and stellar masses, checked for gravitational lensing, and studied whether the galaxies sit in protoclusters",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/14083/"
+      }
+    ]
+  }
+}

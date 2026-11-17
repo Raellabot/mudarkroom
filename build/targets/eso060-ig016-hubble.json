@@ -1,0 +1,52 @@
+{
+  "id": "eso060-ig016-hubble",
+  "name": "ESO 060-IG016 (Hubble)",
+  "blurb": "ESO 060-IG016, a luminous infrared galaxy merger, seen by Hubble.",
+  "label": "eso060ig016-hubble",
+  "spec": "HST|ESO060-IG016|10592|ACS/WFC|eso060ig016-hubble",
+  "find": [
+    "HST|10592|ESO060-IG016"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "ESO060-IG016",
+    "ESO 60-IG16",
+    "luminous infrared galaxy",
+    "LIRG",
+    "merging galaxies",
+    "galaxy merger",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Galaxies like this one are interacting or merging disks whose collisions stir up bursts of star formation, and here an active nucleus likely makes a large contribution as well.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "ESO 060-IG016 is a luminous infrared galaxy in the GOALS sample (target of the ACS LIRG survey)",
+        "source": "https://arxiv.org/pdf/1012.4012"
+      },
+      {
+        "text": "ESO 060-IG016 is a merger",
+        "source": "https://arxiv.org/pdf/1012.4012"
+      },
+      {
+        "text": "ESO 060-IG016 likely has a large AGN contribution",
+        "source": "https://arxiv.org/pdf/1012.4012"
+      },
+      {
+        "text": "Targets of program 10592 are luminous infrared galaxies, primarily interacting or merging disk galaxies with enhanced star formation and AGN activity",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/10592/"
+      },
+      {
+        "text": "Alias ESO 60-IG16",
+        "source": "https://irsa.ipac.caltech.edu/data/GOALS/galaxies/ESO60-IG16.html"
+      }
+    ]
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "id": "ic-4045-webb",
+  "name": "IC 4045 (Webb)",
+  "blurb": "IC 4045, an elliptical galaxy in the Coma Cluster, seen by Webb.",
+  "label": "ic4045-webb",
+  "spec": "JWST|IC-4045|5989|NIRCAM/IMAGE|ic4045-webb",
+  "find": [
+    "JWST|5989|IC-4045"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "IC-4045",
+    "elliptical galaxy",
+    "galaxy",
+    "Coma Cluster"
+  ],
+  "missions": [
+    "Webb"
+  ],
+  "story": "IC 4045 is one of the largest elliptical galaxies in the Coma Cluster, the nearest rich cluster of galaxies. Webb imaged it to measure the subtle graininess of its starlight, called surface brightness fluctuations, as part of a new distance ladder for cosmology.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "IC 4045 is an elliptical galaxy targeted by JWST program 5989",
+        "source": "https://www.stsci.edu/jwst-program-info/download/jwst/pdf/5989/"
+      },
+      {
+        "text": "The program images fields centered on 39 of the largest elliptical galaxies in the Coma Cluster",
+        "source": "https://www.stsci.edu/jwst-program-info/download/jwst/pdf/5989/"
+      },
+      {
+        "text": "The Coma Cluster is the nearest rich cluster",
+        "source": "https://www.stsci.edu/jwst-program-info/download/jwst/pdf/5989/"
+      },
+      {
+        "text": "Webb measures surface brightness fluctuations to build a distance ladder for cosmology",
+        "source": "https://www.stsci.edu/jwst-program-info/download/jwst/pdf/5989/"
+      }
+    ]
+  }
+}

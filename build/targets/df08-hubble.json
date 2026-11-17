@@ -1,0 +1,47 @@
+{
+  "id": "df08-hubble",
+  "name": "Coma DF08 (Hubble)",
+  "blurb": "DF08, an ultra-diffuse galaxy in the Coma Cluster, seen by Hubble.",
+  "label": "df08-hubble",
+  "spec": "HST|DF08|15121|ACS/WFC|df08-hubble",
+  "find": [
+    "HST|15121|DF08"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "ultra-diffuse galaxy",
+    "UDG",
+    "Coma Cluster galaxy",
+    "Dragonfly",
+    "galaxy",
+    "DF08"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A galaxy nearly as wide as a bright one but with only a thin haze of stars, drifting in the Coma Cluster. Hubble came to count its globular clusters, clues to how such faint giants formed.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "DF08 is an ultra-diffuse galaxy in the Coma cluster observed by Hubble program 15121",
+        "source": "https://ar5iv.labs.arxiv.org/html/2201.11750"
+      },
+      {
+        "text": "DF names come from the Dragonfly Coma cluster survey",
+        "source": "https://ar5iv.labs.arxiv.org/html/2201.11750"
+      },
+      {
+        "text": "Coma's ultra-diffuse galaxies are as large as bright galaxies but with few stars",
+        "source": "https://arxiv.org/abs/1410.8141"
+      },
+      {
+        "text": "Program 15121 targets extreme ultra-diffuse galaxies in the Coma region to test whether globular cluster formation precedes galaxy formation",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15121/"
+      }
+    ]
+  }
+}

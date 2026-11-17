@@ -1,0 +1,45 @@
+{
+  "id": "m-161-1-hubble",
+  "name": "M-161-1 (Hubble)",
+  "blurb": "M-161-1, an isolated ultra-diffuse galaxy, seen by Hubble.",
+  "label": "m1611-hubble",
+  "spec": "HST|M-161-1|14846|ACS/WFC|m1611-hubble",
+  "find": [
+    "HST|14846|M-161-1"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "ultra-diffuse galaxy",
+    "UDG",
+    "low surface brightness galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A faint, sprawling galaxy with few stars spread thin across a wide glow, living far from crowded neighborhoods. It has stopped forming stars and holds little gas, a puzzle for a galaxy so isolated.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "M-161-1 is a low surface brightness galaxy targeted by Hubble program 14846 on ultra-diffuse galaxies",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/14846/"
+      },
+      {
+        "text": "M-161-1 is a relatively isolated ultra-diffuse galaxy",
+        "source": "https://www.aanda.org/articles/aa/abs/2017/05/aa30795-17/aa30795-17.html"
+      },
+      {
+        "text": "M-161-1 is quiescent and gas-poor",
+        "source": "https://www.aanda.org/articles/aa/abs/2017/05/aa30795-17/aa30795-17.html"
+      },
+      {
+        "text": "Its properties are puzzling given its isolation",
+        "source": "https://www.aanda.org/articles/aa/abs/2017/05/aa30795-17/aa30795-17.html"
+      }
+    ]
+  }
+}

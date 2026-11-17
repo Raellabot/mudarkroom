@@ -1,0 +1,48 @@
+{
+  "id": "ngc1644-hubble",
+  "name": "NGC 1644 (Hubble)",
+  "blurb": "NGC 1644, an intermediate-age star cluster in the Large Magellanic Cloud, seen by Hubble.",
+  "label": "ngc1644-hubble",
+  "spec": "HST|NGC1644|9891|ACS/WFC|ngc1644-hubble",
+  "find": [
+    "HST|9891|NGC1644"
+  ],
+  "type": "Star cluster",
+  "aliases": [
+    "star cluster",
+    "Large Magellanic Cloud cluster",
+    "LMC cluster"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A gathering of stars in the Large Magellanic Cloud. While many of its intermediate-age neighbors show signs of more than one stellar population, this cluster showed no such spread within the astronomers' measurements.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "NGC 1644 is one of 16 intermediate-age LMC clusters studied for multiple stellar populations",
+        "source": "https://www.aanda.org/articles/aa/abs/2009/15/aa10870-08/aa10870-08.html"
+      },
+      {
+        "text": "Many (11 of 16) intermediate-age LMC clusters show an anomalous spread or split around the turnoff",
+        "source": "https://arxiv.org/abs/0810.2558"
+      },
+      {
+        "text": "NGC 1644's color-magnitude diagram shows no evidence of spread or bimodality",
+        "source": "https://www.aanda.org/articles/aa/abs/2009/15/aa10870-08/aa10870-08.html"
+      },
+      {
+        "text": "NGC 1644 is an LMC cluster imaged with ACS in program 9891",
+        "source": "https://ar5iv.labs.arxiv.org/html/1806.04805"
+      },
+      {
+        "text": "LMC stands for the Large Magellanic Cloud",
+        "source": "https://ar5iv.labs.arxiv.org/html/astro-ph/0404247"
+      }
+    ]
+  }
+}

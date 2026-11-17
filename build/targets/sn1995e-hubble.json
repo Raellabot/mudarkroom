@@ -1,0 +1,56 @@
+{
+  "id": "sn1995e-hubble",
+  "name": "NGC 2441, SN 1995E field (Hubble)",
+  "blurb": "NGC 2441, a nearly face-on spiral galaxy and host of the supernova SN 1995E, seen by Hubble.",
+  "label": "sn1995e-hubble",
+  "spec": "HST|SN1995E|10892|ACS/WFC|sn1995e-hubble",
+  "find": [
+    "HST|10892|SN1995E"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "NGC 2441",
+    "SN 1995E",
+    "SN1995E",
+    "spiral galaxy",
+    "galaxy",
+    "supernova host",
+    "light echo"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "In a spiral arm of this nearly face-on galaxy, the Type Ia supernova SN 1995E once blazed. Hubble returned to test whether a faint source at the site is a light echo, the supernova's light reflected by dust near the explosion.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "SN 1995E occurred in NGC 2441",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/10892/"
+      },
+      {
+        "text": "NGC 2441 is a spiral galaxy seen nearly face-on",
+        "source": "https://arxiv.org/pdf/astro-ph/0610431"
+      },
+      {
+        "text": "SN 1995E is a Type Ia supernova",
+        "source": "https://arxiv.org/abs/astro-ph/0610431"
+      },
+      {
+        "text": "The light echo candidate source lies in a spiral arm in the galaxy's outer regions",
+        "source": "https://arxiv.org/pdf/astro-ph/0610431"
+      },
+      {
+        "text": "Hubble observed the site to test whether a source seen earlier is a light echo",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/10892/"
+      },
+      {
+        "text": "A light echo here would be light scattered by dust near the supernova",
+        "source": "https://arxiv.org/abs/astro-ph/0610431"
+      }
+    ]
+  }
+}

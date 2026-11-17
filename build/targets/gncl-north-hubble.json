@@ -1,0 +1,47 @@
+{
+  "id": "gncl-north-hubble",
+  "name": "GN-CL-2 protocluster field, GOODS-North (Hubble)",
+  "blurb": "A deep field toward the submillimeter galaxy GN-CL-2 in a distant protocluster near GOODS-North, seen by Hubble.",
+  "label": "gnclnorth-hubble",
+  "spec": "HST|GNCL-NORTH|16504|WFC3/IR|gnclnorth-hubble",
+  "find": [
+    "HST|16504|GNCL-NORTH"
+  ],
+  "type": "Deep field",
+  "aliases": [
+    "GN-CL-2",
+    "GNCL-NORTH",
+    "GOODS-North protocluster",
+    "protocluster",
+    "submillimeter galaxy",
+    "deep field"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Somewhere in this field hides GN-CL-2, a dusty, furiously star-forming galaxy in a protocluster, a city of galaxies still under construction far across the universe. Hubble looked to see whether its stars betray a merger stoking the fire or a compact core about to go quiet.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "The GNCL-NORTH pointing contains GN-CL-2, a protocluster member",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/16504/"
+      },
+      {
+        "text": "GN-CL-2 is a bright submillimeter galaxy with a confirmed redshift in the protocluster",
+        "source": "https://ar5iv.labs.arxiv.org/html/2101.05268"
+      },
+      {
+        "text": "Hubble program 16504 targets the two brightest submillimeter galaxies of a spectroscopically confirmed, massively star-forming protocluster in GOODS-North, to tell advanced mergers from compact cores",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/16504/"
+      },
+      {
+        "text": "The protocluster region lies near GOODS-North, just outside the earlier HST/ACS and WFC3 footprints",
+        "source": "https://ar5iv.labs.arxiv.org/html/2101.05268"
+      }
+    ]
+  }
+}

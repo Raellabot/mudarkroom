@@ -1,0 +1,44 @@
+{
+  "id": "vvv-cl003-hubble",
+  "name": "VVV CL003 (Hubble)",
+  "blurb": "VVV CL003, a star cluster hidden behind the Milky Way's dust, seen by Hubble.",
+  "label": "vvvcl003-hubble",
+  "spec": "HST|VVV-CL003|17918|WFC3/IR|vvvcl003-hubble",
+  "find": [
+    "HST|17918|VVV-CL003"
+  ],
+  "type": "Star cluster",
+  "aliases": [
+    "VVV-CL003",
+    "star cluster",
+    "open cluster"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "VVV CL003 was the first star cluster found in the Milky Way's disk on the far side of the galaxy's center. Astronomers think it is probably an open cluster, though it may be a globular cluster, and Hubble looked here to help tell what kind of cluster it really is.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "VVV CL003 is the first star cluster discovered in the Galactic disk on the far side of the center from the Sun",
+        "source": "https://ar5iv.labs.arxiv.org/html/1109.1854"
+      },
+      {
+        "text": "It is probably an open cluster, but a globular cluster cannot be excluded",
+        "source": "https://ar5iv.labs.arxiv.org/html/1109.1854"
+      },
+      {
+        "text": "ESO describes VVV CL003 as an open cluster in the direction of the Milky Way's heart, the first found on the far side of the galaxy",
+        "source": "https://www.eso.org/public/news/eso1141/"
+      },
+      {
+        "text": "Hubble program 17918 aims to determine whether its obscured clusters are genuine globular clusters or more exotic systems",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/17918/"
+      }
+    ]
+  }
+}

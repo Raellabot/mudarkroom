@@ -1,0 +1,45 @@
+{
+  "id": "hec12-hubble",
+  "name": "HEC12 (Hubble)",
+  "blurb": "HEC12, a globular cluster in the halo of the Andromeda Galaxy, seen by Hubble.",
+  "label": "hec12-hubble",
+  "spec": "HST|HEC12|16746|ACS/WFC|hec12-hubble",
+  "find": [
+    "HST|16746|HEC12"
+  ],
+  "type": "Star cluster",
+  "aliases": [
+    "globular cluster",
+    "Andromeda globular cluster",
+    "M31 globular cluster",
+    "star cluster"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A remote ball of stars in the outer reaches of the Andromeda Galaxy. Hubble came back to measure its slow drift across the sky, a clue to how Andromeda grew by gathering in smaller systems.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "HEC12 is a globular cluster",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/16746/"
+      },
+      {
+        "text": "HEC12 is one of the globular clusters in M31's halo targeted for proper motions",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/16746/"
+      },
+      {
+        "text": "M31 is the Andromeda Galaxy; the program studies Andromeda's accretion history",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/16746/"
+      },
+      {
+        "text": "The targets belong to M31's outer globular cluster system",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/16746/"
+      }
+    ]
+  }
+}

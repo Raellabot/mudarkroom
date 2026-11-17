@@ -1,0 +1,48 @@
+{
+  "id": "rare-helms-10-hubble",
+  "name": "HELMS-10 (Hubble)",
+  "blurb": "A deep field toward the distant dusty starburst galaxy HELMS-10, seen by Hubble.",
+  "label": "rarehelms10-hubble",
+  "spec": "HST+HST|RARE-HELMS-10+RARE-HELMS-10|13718+13718|ACS/WFC+WFC3/IR|rarehelms10-hubble",
+  "find": [
+    "HST|13718|RARE-HELMS-10"
+  ],
+  "type": "Deep field",
+  "aliases": [
+    "HELMS10",
+    "RARE-HELMS-10",
+    "HERMES J005258.6+061317",
+    "dusty starburst galaxy",
+    "gravitational lens candidate",
+    "deep field",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Herschel picked out HELMS-10 as one of the earliest dusty starburst galaxies. Hubble looked here for its starlight and for a foreground galaxy that may be magnifying it as a gravitational lens.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "HELMS-10 is one of the brightest spectroscopically confirmed dusty starburst galaxies, selected from Herschel survey data",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/13718/"
+      },
+      {
+        "text": "The program studies the earliest dusty starburst galaxies",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/13718/"
+      },
+      {
+        "text": "Hubble imaging aimed to find a foreground lens for HELMS-10",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/13718/"
+      },
+      {
+        "text": "HELMS10 is a candidate gravitationally lensed Herschel source, also listed as HERMES J005258.6+061317",
+        "source": "https://arxiv.org/pdf/1601.03401"
+      }
+    ]
+  }
+}

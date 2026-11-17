@@ -1,0 +1,51 @@
+{
+  "id": "spt-dropout-0216-hubble",
+  "name": "SPT-CL J0216-2609 (Hubble)",
+  "blurb": "SPT-CL J0216-2609, a massive galaxy cluster acting as a gravitational lens, seen by Hubble.",
+  "label": "sptdropout0216-hubble",
+  "spec": "HST+HST|SPT-DROPOUT-0216+SPT-DROPOUT-0216|17084+17084|ACS/WFC+WFC3/IR|sptdropout0216-hubble",
+  "find": [
+    "HST|17084|SPT-DROPOUT-0216"
+  ],
+  "type": "Galaxy cluster",
+  "aliases": [
+    "SPT0216-DO",
+    "SPT-DROPOUT-0216",
+    "galaxy cluster",
+    "gravitational lens",
+    "lensed galaxy",
+    "high-redshift galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Near the core of this galaxy cluster, its gravity appears to magnify a bright, distant galaxy from the Epoch of Reionization into a pair of images. Hubble looked closer to model the lens and to study the galaxy's star-forming clumps.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "The candidate SPT0216-DO lies in the field of the galaxy cluster SPT-CL J0216-2609, from the South Pole Telescope (SPT) sample",
+        "source": "https://arxiv.org/html/2510.12097v2"
+      },
+      {
+        "text": "The dropout galaxies appear as multiply imaged pairs near the cores of massive foreground galaxy clusters",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/17084/"
+      },
+      {
+        "text": "The lensed galaxies are exceptionally bright z~7 dropout galaxies in the Epoch of Reionization",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/list/17084/"
+      },
+      {
+        "text": "The SPT dropouts are very likely young galaxies in the Epoch of Reionization and likely gravitationally lensed and magnified",
+        "source": "https://arxiv.org/abs/2510.12097"
+      },
+      {
+        "text": "Hubble's goals: build a strong lensing model and measure resolved star-forming clumps",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/list/17084/"
+      }
+    ]
+  }
+}

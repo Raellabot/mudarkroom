@@ -1,0 +1,39 @@
+{
+  "id": "ngc-3158-hubble",
+  "name": "NGC 3158 (Hubble)",
+  "blurb": "NGC 3158, an elliptical galaxy, seen by Hubble.",
+  "label": "ngc3158-hubble",
+  "spec": "HST+HST|NGC-3158+NGC-3158|15265+15265|WFC3/IR+WFC3/UVIS|ngc3158-hubble",
+  "find": [
+    "HST|15265|NGC-3158"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "elliptical galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "NGC 3158 is one of the galaxies of the MASSIVE survey, which targets the most massive galaxies in the nearby northern sky. Hubble studied the globular clusters around it to trace how the galaxy grew.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "NGC 3158 is an elliptical galaxy and a MASSIVE survey target of program 15265",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15265/"
+      },
+      {
+        "text": "The MASSIVE survey targets the ~100 most massive galaxies within 108 Mpc visible in the northern sky",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15265/"
+      },
+      {
+        "text": "The program images globular cluster populations to trace the galaxies' growth histories",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15265/"
+      }
+    ]
+  }
+}

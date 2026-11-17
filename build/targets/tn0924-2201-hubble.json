@@ -1,0 +1,41 @@
+{
+  "id": "tn0924-2201-hubble",
+  "name": "TN J0924-2201 (Hubble)",
+  "blurb": "A deep field toward the distant radio galaxy TN J0924-2201, seen by Hubble.",
+  "label": "tn09242201-hubble",
+  "spec": "HST|TN0924-2201|9291|ACS/WFC|tn09242201-hubble",
+  "find": [
+    "HST|9291|TN0924-2201"
+  ],
+  "type": "Deep field",
+  "aliases": [
+    "TN0924-2201",
+    "radio galaxy",
+    "distant galaxy",
+    "galaxy field"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Hubble searched this field for star-forming galaxies gathered around the distant radio galaxy TN J0924-2201. The radio galaxy has several confirmed companion galaxies and appears to lie in an unusually crowded region.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "TN J0924-2201 is a radio galaxy at z=5.2 observed with HST/ACS",
+        "source": "https://arxiv.org/abs/astro-ph/0509308"
+      },
+      {
+        "text": "The observations studied clustering of star-forming galaxies near the radio galaxy",
+        "source": "https://arxiv.org/abs/astro-ph/0509308"
+      },
+      {
+        "text": "The radio galaxy has spectroscopically confirmed companion galaxies and appears to lie in an overdense region",
+        "source": "https://arxiv.org/abs/astro-ph/0509308"
+      }
+    ]
+  }
+}

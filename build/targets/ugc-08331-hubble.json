@@ -1,0 +1,45 @@
+{
+  "id": "ugc-08331-hubble",
+  "name": "UGC 8331 (Hubble)",
+  "blurb": "UGC 8331, a dwarf galaxy in the Canes Venatici I Cloud, seen by Hubble.",
+  "label": "ugc08331-hubble",
+  "spec": "HST|UGC-08331|10905|ACS/WFC|ugc08331-hubble",
+  "find": [
+    "HST|10905|UGC-08331"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "UGC 08331",
+    "UGC8331",
+    "dwarf galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "This galaxy is one of the many dwarfs that crowd the Canes Venatici I Cloud. Hubble picked out its individual stars so astronomers could measure its distance from the brightest of its red giants and map the cloud in three dimensions.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "UGC 8331 is one of the dwarf galaxies of the Canes Venatici I Cloud studied with Hubble program 10905",
+        "source": "https://ar5iv.labs.arxiv.org/html/1305.3701"
+      },
+      {
+        "text": "Its distance was measured from the tip of the red giant branch",
+        "source": "https://ar5iv.labs.arxiv.org/html/1305.3701"
+      },
+      {
+        "text": "The Canes Venatici I region is rich in dwarf galaxies, and accurate distances let nearby groups be resolved in three dimensions",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/10905/"
+      },
+      {
+        "text": "UGC 8331 is a member of the Canes Venatici I Cloud",
+        "source": "https://arxiv.org/pdf/0912.4799"
+      }
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "14-1401-hubble",
+  "name": "14-1401 (Hubble)",
+  "blurb": "14-1401, a pair of galaxies in an ongoing dry merger, seen by Hubble.",
+  "label": "141401-hubble",
+  "spec": "HST|14-1401|10809|ACS/WFC|141401-hubble",
+  "find": [
+    "HST|10809|14-1401"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "red merger",
+    "dry merger",
+    "merging galaxies",
+    "galaxy pair",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Deep ground-based images caught this galaxy tidally linked to a companion, a 'dry' merger of gas-poor galaxies. Hubble looked closer to learn how such mergers help build today's most massive ellipticals.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "14-1401 is one of the merger pairs with a tidal connection to a secondary object",
+        "source": "https://arxiv.org/pdf/astro-ph/0506661"
+      },
+      {
+        "text": "Program 10809 targets red sequence galaxies in dry mergers found in deep ground-based images, to study how such mergers shape massive ellipticals",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/10809/"
+      }
+    ]
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "id": "pgc13294-hubble",
+  "name": "PGC 13294 (Hubble)",
+  "blurb": "PGC 13294, a nearby galaxy, seen by Hubble.",
+  "label": "pgc13294-hubble",
+  "spec": "HST|PGC13294|13442|ACS/WFC|pgc13294-hubble",
+  "find": [
+    "HST|13442|PGC13294"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "PGC 13294",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Hubble photographed PGC 13294 as part of a survey of nearby galaxies, measuring distances from their brightest red giant stars to map the local universe in three dimensions.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "PGC 13294 is a target of Hubble program 13442, 'The Geometry and Kinematics of the Local Volume'",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/13442/"
+      },
+      {
+        "text": "Program 13442 targets nearby galaxies drawn from a complete sample of unobscured galaxies in the Local Volume",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/13442/"
+      },
+      {
+        "text": "Program 13442 measures distances to nearby galaxies with the tip of the red giant branch",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/13442/"
+      },
+      {
+        "text": "Program 13442 uses the distances to build three-dimensional maps of galaxies",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/13442/"
+      }
+    ]
+  }
+}

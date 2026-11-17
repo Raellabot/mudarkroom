@@ -1,0 +1,36 @@
+{
+  "id": "ugc05427-hubble",
+  "name": "UGC 5427 (Hubble)",
+  "blurb": "UGC 5427, a galaxy in the Lynx-Cancer void, seen by Hubble.",
+  "label": "ugc05427-hubble",
+  "spec": "HST|UGC05427|12546|ACS/WFC|ugc05427-hubble",
+  "find": [
+    "HST|12546|UGC05427"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "MCG 5-24-10",
+    "galaxy",
+    "Lynx-Cancer void"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "UGC 5427 lies in the Lynx-Cancer void. Hubble resolved its stars to gauge its distance, one piece of a three-dimensional map of the nearby universe.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "UGC 5427 (MCG 5-24-10), type SABd, is in the Lynx-Cancer void sample",
+        "source": "https://arxiv.org/pdf/1105.3034"
+      },
+      {
+        "text": "The program measured distances to nearby galaxies from the luminosities of red giant branch stars, to build 3D maps of galaxies",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/12546/"
+      }
+    ]
+  }
+}

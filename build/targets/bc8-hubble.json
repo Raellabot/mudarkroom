@@ -1,0 +1,48 @@
+{
+  "id": "bc8-hubble",
+  "name": "BC8 (Hubble)",
+  "blurb": "BC8, a candidate blue blob in the Virgo cluster, seen by Hubble.",
+  "label": "bc8-hubble",
+  "spec": "HST|BC8|17267|ACS/WFC|bc8-hubble",
+  "find": [
+    "HST|17267|BC8"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "BC1223+1133",
+    "blue blob",
+    "Virgo cluster"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Hubble came here to check a candidate member of a new class of tiny, isolated star systems adrift in the Virgo cluster, thought to form from gas stripped out of galaxies. Such systems are made largely of young stars, gathered in clumpy knots far from any large galaxy.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "BC8 is a Hubble target of a program on a new class of stellar system in the Virgo cluster",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/17267/"
+      },
+      {
+        "text": "BC8 (BC1223+1133) is a rank 2, unconfirmed candidate blue blob in the Virgo cluster",
+        "source": "https://arxiv.org/html/2411.14526"
+      },
+      {
+        "text": "Blue blobs are a class of young, low-mass, isolated, star-forming clouds in Virgo",
+        "source": "https://arxiv.org/html/2402.14909v3"
+      },
+      {
+        "text": "These systems are thought to form from gas stripped from galaxies (ram pressure stripping)",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/17267/"
+      },
+      {
+        "text": "They consist largely of young stars, have a clumpy morphology and lie far from large galaxies",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/17267/"
+      }
+    ]
+  }
+}

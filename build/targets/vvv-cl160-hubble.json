@@ -1,0 +1,48 @@
+{
+  "id": "vvv-cl160-hubble",
+  "name": "VVV-CL160 (Hubble)",
+  "blurb": "VVV-CL160, a globular cluster in the plane of the Milky Way, seen by Hubble.",
+  "label": "vvvcl160-hubble",
+  "spec": "HST|VVV-CL160|17918|WFC3/IR|vvvcl160-hubble",
+  "find": [
+    "HST|17918|VVV-CL160"
+  ],
+  "type": "Star cluster",
+  "aliases": [
+    "VVV CL160",
+    "globular cluster",
+    "star cluster"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "VVV-CL160 is a nearby globular cluster hidden in the plane of the Milky Way, moving across the sky unusually fast for a cluster of its kind. Astronomers suggest it may belong to the extension of the Hrid halo stream.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "VVV-CL160 is a new nearby globular cluster with extreme kinematics",
+        "source": "https://arxiv.org/abs/2106.01383"
+      },
+      {
+        "text": "It lies in the Galactic plane",
+        "source": "https://arxiv.org/abs/2106.01383"
+      },
+      {
+        "text": "It has an unusually large proper motion for a Galactic globular cluster",
+        "source": "https://arxiv.org/abs/2106.01383"
+      },
+      {
+        "text": "It may be associated with the extension of the Hrid halo stream",
+        "source": "https://arxiv.org/abs/2106.01383"
+      },
+      {
+        "text": "Hubble program 17918 targets VVV-CL160 among extremely obscured Galactic globular clusters",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/17918/"
+      }
+    ]
+  }
+}

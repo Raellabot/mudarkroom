@@ -1,0 +1,46 @@
+{
+  "id": "sn2020nta-hubble",
+  "name": "SN 2020nta field (Hubble)",
+  "blurb": "SN 2020nta field, the site of a type Ia supernova, seen by Hubble.",
+  "label": "sn2020nta-hubble",
+  "spec": "HST|SN2020NTA|15889|WFC3/IR|sn2020nta-hubble",
+  "find": [
+    "HST|15889|SN2020NTA"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "SN2020NTA",
+    "SN 2020nta",
+    "type Ia supernova",
+    "supernova",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Hubble came here to follow SN 2020nta, a type Ia supernova in a distant galaxy. It was one of a set of these explosions tracked to refine how fast the universe is expanding.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "SN 2020nta is a type Ia supernova observed by Hubble program 15889",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15889/"
+      },
+      {
+        "text": "The program's supernovae, SN 2020nta among them, lie in distant galaxies of the Hubble flow",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15889/"
+      },
+      {
+        "text": "SN 2020nta is classified as a type Ia supernova (Ia-91bg)",
+        "source": "https://blast.scimma.org/transients/2020nta/"
+      },
+      {
+        "text": "The program used type Ia supernovae to measure the expansion rate of the universe (H0)",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15889/"
+      }
+    ]
+  }
+}

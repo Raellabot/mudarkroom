@@ -1,0 +1,44 @@
+{
+  "id": "sn2021tkm-hubble",
+  "name": "IC 4441, SN 2021tkm field (Hubble)",
+  "blurb": "IC 4441, a spiral galaxy and host of SN 2021tkm, seen by Hubble.",
+  "label": "sn2021tkm-hubble",
+  "spec": "HST|SN2021TKM|17191|WFC3/UVIS|sn2021tkm-hubble",
+  "find": [
+    "HST|17191|SN2021TKM"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "SN 2021tkm",
+    "SN2021TKM",
+    "IC 4441",
+    "supernova",
+    "Type Ia supernova",
+    "spiral galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "In 2021 the Type Ia supernova SN 2021tkm burst into view in a spiral arm of IC 4441. Hubble returned long after the blast to follow its slow late fading, testing how alike these exploding stars really are.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "SN 2021tkm is a Type Ia supernova in a spiral arm of the intermediate spiral galaxy IC 4441",
+        "source": "https://arxiv.org/pdf/2609.01052"
+      },
+      {
+        "text": "SN 2021tkm was discovered by ASAS-SN on 2021 July 14",
+        "source": "https://arxiv.org/pdf/2609.01052"
+      },
+      {
+        "text": "Hubble program 17191 observes Type Ia supernovae 600-1200 days after explosion to study their late-time decline and how uniform they are",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/17191/"
+      }
+    ]
+  }
+}

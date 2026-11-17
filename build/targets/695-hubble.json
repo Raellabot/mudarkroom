@@ -1,0 +1,59 @@
+{
+  "id": "695-hubble",
+  "name": "SDSS-RM RMID 695 (Hubble)",
+  "blurb": "A deep field toward the distant quasar SDSS-RM RMID 695, seen by Hubble.",
+  "label": "695-hubble",
+  "spec": "HST+HST|695+695|17708+17708|WFC3/IR+WFC3/UVIS|695-hubble",
+  "find": [
+    "HST|17708|695"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "RM695",
+    "RMID 695",
+    "SDSS-RM",
+    "quasar",
+    "AGN",
+    "deep field"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Somewhere among these galaxies is a distant quasar whose black hole the SDSS Reverberation Mapping Project weighed by timing the echoes in its light. Hubble came to separate the quasar's glare from its host galaxy's starlight and set the black hole's mass beside the galaxy's.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "Target 695 is one of the numbered targets of Hubble program 17708 (visit 34)",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/17708/"
+      },
+      {
+        "text": "Program 17708 targets broad-line AGNs (quasars) with reverberation-mapping black hole masses at 1<z<1.8",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/17708/"
+      },
+      {
+        "text": "Hubble imaging separates the quasar light from the host galaxy's starlight to compare black hole mass with the galaxy's stellar mass",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/17708/"
+      },
+      {
+        "text": "Program 17708 numbers its targets by SDSS-RM ID (target 280 at 14 19 49.1976 +53 32 7.70)",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/17708/"
+      },
+      {
+        "text": "SDSS-RM quasar RMID 280 lies at RA 214.95499, Dec 53.53547 (same position as program target 280)",
+        "source": "https://arxiv.org/pdf/2005.03663"
+      },
+      {
+        "text": "The SDSS Reverberation Mapping Project monitored broad-line quasars and measured time lags of their broad emission lines to weigh their black holes",
+        "source": "https://arxiv.org/abs/2305.01014"
+      },
+      {
+        "text": "The SDSS-RM project has light-curve results for RM695",
+        "source": "https://ariel.astro.illinois.edu/sdssrm/final_result/rm695/"
+      }
+    ]
+  }
+}

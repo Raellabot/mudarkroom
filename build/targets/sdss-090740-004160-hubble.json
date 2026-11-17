@@ -1,0 +1,70 @@
+{
+  "id": "sdss-090740-004160-hubble",
+  "name": "H-ATLAS J090740.0-004200 (Hubble)",
+  "blurb": "H-ATLAS J090740.0-004200, a gravitationally lensed dusty galaxy, seen by Hubble.",
+  "label": "sdss090740004160-hubble",
+  "spec": "HST|SDSS-090740-004160|12194|WFC3/IR|sdss090740004160-hubble",
+  "find": [
+    "HST|12194|SDSS-090740-004160"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "SDP.9",
+    "H-ATLAS J090740.0-004200",
+    "H-ATLAS SDP.9",
+    "SDSS-090740-004160",
+    "gravitational lens",
+    "lensed galaxy",
+    "submillimeter galaxy",
+    "elliptical galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Here an elliptical galaxy in the foreground bends the light of a dust-shrouded galaxy far behind it, one of the first gravitational lenses found by the Herschel ATLAS survey. The hidden galaxy is caught in a fierce burst of star formation, and Hubble's sharp view helps astronomers reconstruct its true shape.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "Archive target SDSS-090740-004160 is H-ATLAS J090740.0-004200",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/12194/"
+      },
+      {
+        "text": "H-ATLAS J090740.0-004200 is the source SDP.9",
+        "source": "https://arxiv.org/pdf/1311.5898"
+      },
+      {
+        "text": "The program imaged gravitational lens candidates found in the Herschel ATLAS",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/12194/"
+      },
+      {
+        "text": "The lenses are among the first gravitational lenses found by Herschel ATLAS",
+        "source": "https://arxiv.org/abs/1311.5898"
+      },
+      {
+        "text": "A foreground galaxy lenses a dust-obscured, more distant galaxy",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/12194/"
+      },
+      {
+        "text": "The lens in SDP.9 is an elliptical galaxy",
+        "source": "https://arxiv.org/pdf/1311.5898"
+      },
+      {
+        "text": "The background galaxies are caught in a major episode of star formation",
+        "source": "https://arxiv.org/abs/1311.5898"
+      },
+      {
+        "text": "Hubble images help reconstruct the background galaxy's intrinsic shape",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/12194/"
+      },
+      {
+        "text": "These are submillimeter-selected lensed galaxies",
+        "source": "https://arxiv.org/abs/1311.5898"
+      }
+    ]
+  }
+}

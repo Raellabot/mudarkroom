@@ -1,0 +1,42 @@
+{
+  "id": "eso376-016-hubble",
+  "name": "ESO 376-16 (Hubble)",
+  "blurb": "ESO 376-16, a small galaxy that may be a late-type spiral or a dwarf irregular, seen by Hubble.",
+  "label": "eso376016-hubble",
+  "spec": "HST|ESO376-016|12546|ACS/WFC|eso376016-hubble",
+  "find": [
+    "HST|12546|ESO376-016"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "ESO 376-G016",
+    "ESO 376-016",
+    "HIPASS J1043-37",
+    "dwarf irregular galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Astronomers still debate what kind of galaxy ESO 376-16 is, its shape too ill-defined to settle the question. Hubble gauged its distance from the brightness of its red giant stars, helping chart galaxies across the nearby cosmos.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "ESO 376-16 is thought to be either a late-type spiral or a dwarf irregular; its morphology is debated",
+        "source": "https://esahubble.org/images/potw1739a/"
+      },
+      {
+        "text": "Hubble gauged its distance from bright red-giant-branch stars to map nearby galaxies in 3D",
+        "source": "https://esahubble.org/images/potw1739a/"
+      },
+      {
+        "text": "ESO 376-G016 = HIPASS J1043-37, a dwarf irregular galaxy",
+        "source": "https://www.atnf.csiro.au/research/LVHIS/data/LVHIS028.info.html"
+      }
+    ]
+  }
+}

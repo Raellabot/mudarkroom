@@ -1,0 +1,44 @@
+{
+  "id": "agc239141-hubble",
+  "name": "AGC 239141 (Hubble)",
+  "blurb": "AGC 239141, a low-mass irregular galaxy, seen by Hubble.",
+  "label": "agc239141-hubble",
+  "spec": "HST|AGC239141|17480|ACS/WFC|agc239141-hubble",
+  "find": [
+    "HST|17480|AGC239141"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "AGC239141",
+    "irregular galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Hubble split this small galaxy into individual stars to measure its distance from the tip of its red giant branch. It is one of twelve nearby low-mass galaxies chosen to test whether the link between a galaxy's mass and its rotation bends at the smallest masses.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "AGC 239141 is an irregular galaxy targeted by Hubble program 17480",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/17480/"
+      },
+      {
+        "text": "The program's twelve targets are nearby Local Volume galaxies with low baryonic masses",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/17480/"
+      },
+      {
+        "text": "Hubble measures their distances from the tip of the red giant branch",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/17480/"
+      },
+      {
+        "text": "The program tests whether the baryonic Tully-Fisher relation (baryonic mass vs. rotation) bends at low masses",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/17480/"
+      }
+    ]
+  }
+}

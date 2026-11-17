@@ -1,0 +1,43 @@
+{
+  "id": "ssa22b-c5-hubble",
+  "name": "SSA22b-C5 field (Hubble)",
+  "blurb": "A deep field toward the distant Lyman-break galaxy SSA22b-C5, seen by Hubble.",
+  "label": "ssa22bc5-hubble",
+  "spec": "HST+HST|SSA22B-C5+SSA22B-C5|11735+11735|ACS/WFC+WFC3/IR|ssa22bc5-hubble",
+  "find": [
+    "HST|11735|SSA22B-C5"
+  ],
+  "type": "Deep field",
+  "aliases": [
+    "SSA22b-C5",
+    "SSA22B-C5",
+    "Lyman-break galaxy",
+    "LBG",
+    "distant galaxy",
+    "deep field"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "This field holds SSA22b-C5, one of a small sample of Lyman-break galaxies whose gas motions were mapped from the ground. Hubble gave this faint galaxy extra observing time, looking for signs that its tangled motions come from galaxies merging.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "SSA22b-C5 is a Lyman-break galaxy in the LSD sample at the pointing position",
+        "source": "https://ar5iv.arxiv.org/html/0902.2398"
+      },
+      {
+        "text": "Hubble gave it extra observing time: two orbits per filter, versus one for other targets",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/11735/"
+      },
+      {
+        "text": "Hubble imaging was used to test whether complex velocity fields come from ongoing mergers",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/11735/"
+      }
+    ]
+  }
+}

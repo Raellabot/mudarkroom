@@ -1,0 +1,45 @@
+{
+  "id": "coma-berenices-m-hubble",
+  "name": "COMA-BERENICES-M dwarf candidate (Hubble)",
+  "blurb": "COMA-BERENICES-M, a candidate ultra-faint dwarf galaxy, seen by Hubble.",
+  "label": "comaberenicesm-hubble",
+  "spec": "HST|COMA-BERENICES-M|17759|ACS/WFC|comaberenicesm-hubble",
+  "find": [
+    "HST|17759|COMA-BERENICES-M"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "ultra-faint dwarf galaxy candidate",
+    "dwarf galaxy",
+    "dwarf spheroidal galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Hubble looked here to confirm a possible ultra-faint dwarf galaxy, one of the smallest kinds of galaxy known. If confirmed, it would lie on the edge of the Local Group, beyond the reach of both the Milky Way and Andromeda.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "COMA-BERENICES-M is one of six ultra-faint dwarf candidates Hubble program 17759 aims to confirm",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/17759/"
+      },
+      {
+        "text": "The target is cataloged as a dwarf spheroidal galaxy",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/17759/"
+      },
+      {
+        "text": "The candidates appear to lie beyond the virial radius of the Milky Way and M31, toward the edge of the Local Group",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/17759/"
+      },
+      {
+        "text": "The smallest galaxies matter for understanding structure formation",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/17759/"
+      }
+    ]
+  }
+}

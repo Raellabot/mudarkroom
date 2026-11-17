@@ -1,0 +1,41 @@
+{
+  "id": "desj0322-5234-hubble",
+  "name": "DES J0322-5234 (Hubble)",
+  "blurb": "DES J0322-5234, a candidate strong gravitational lens, seen by Hubble.",
+  "label": "desj03225234-hubble",
+  "spec": "HST+HST|DESJ0322-5234+DESJ0322-5234|16773+16773|WFC3/IR+WFC3/UVIS|desj03225234-hubble",
+  "find": [
+    "HST|16773|DESJ0322-5234"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "DESJ0322-5234",
+    "gravitational lens candidate",
+    "strong lens",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Picked out in Dark Energy Survey images as a likely case of strong lensing, where the gravity of foreground matter stretches the light of a background galaxy into arcs.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "DESJ0322-5234 is a candidate strongly lensed galaxy system from the DES Bright Arcs Survey",
+        "source": "https://nottingham-repository.worktribe.com/file/884034/1/Diehl_2017_ApJS_232_15.pdf"
+      },
+      {
+        "text": "It ranked high in visual inspection",
+        "source": "https://nottingham-repository.worktribe.com/file/884034/1/Diehl_2017_ApJS_232_15.pdf"
+      },
+      {
+        "text": "It was found in the search around redMaPPer clusters and redMaGiC galaxies",
+        "source": "https://nottingham-repository.worktribe.com/file/884034/1/Diehl_2017_ApJS_232_15.pdf"
+      }
+    ]
+  }
+}

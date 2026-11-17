@@ -1,0 +1,45 @@
+{
+  "id": "madcash-1-hubble",
+  "name": "MADCASH-1 (Hubble)",
+  "blurb": "MADCASH-1, a faint dwarf galaxy, seen by Hubble.",
+  "label": "madcash1-hubble",
+  "spec": "HST|MADCASH-1|15228|ACS/WFC|madcash1-hubble",
+  "find": [
+    "HST|15228|MADCASH-1"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "MADCASH J074238+652501-dw",
+    "dwarf galaxy",
+    "satellite galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "MADCASH-1 is a faint dwarf galaxy orbiting the spiral galaxy NGC 2403, a host about as massive as the Large Magellanic Cloud. Its stars are predominantly old and metal-poor, much like faint dwarfs in our own Local Group.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "MADCASH-1 is a faint dwarf satellite galaxy of NGC 2403",
+        "source": "https://arxiv.org/abs/2012.09174v2"
+      },
+      {
+        "text": "MADCASH-1 is also designated MADCASH J074238+652501-dw",
+        "source": "https://ar5iv.labs.arxiv.org/html/2012.09174"
+      },
+      {
+        "text": "NGC 2403 is a low-mass spiral galaxy of LMC stellar mass",
+        "source": "https://arxiv.org/pdf/1608.02591"
+      },
+      {
+        "text": "MADCASH-1 is a predominantly old, metal-poor stellar system resembling Local Group dwarfs",
+        "source": "https://arxiv.org/abs/2012.09174v2"
+      }
+    ]
+  }
+}

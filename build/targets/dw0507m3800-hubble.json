@@ -1,0 +1,40 @@
+{
+  "id": "dw0507m3800-hubble",
+  "name": "DW0507M3800 (Hubble)",
+  "blurb": "DW0507M3800, a dwarf elliptical galaxy, seen by Hubble.",
+  "label": "dw0507m3800-hubble",
+  "spec": "HST|DW0507M3800|18061|WFC3/UVIS|dw0507m3800-hubble",
+  "find": [
+    "HST|18061|DW0507M3800"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "dwarf elliptical galaxy",
+    "dwarf galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Hubble visited this small dwarf elliptical galaxy as part of a census of the satellite galaxies around nearby Milky Way-like galaxies. Resolving its individual stars lets astronomers measure how far away it is.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "DW0507M3800 is cataloged as a dwarf galaxy of elliptical morphology",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/list/18061/"
+      },
+      {
+        "text": "Hubble program 18061 is a census of satellite galaxies within Milky Way-like systems",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/18061/"
+      },
+      {
+        "text": "The program aims to resolve the dwarfs' stars to measure their distances",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/18061/"
+      }
+    ]
+  }
+}

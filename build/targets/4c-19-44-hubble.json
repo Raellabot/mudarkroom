@@ -1,0 +1,42 @@
+{
+  "id": "4c-19-44-hubble",
+  "name": "4C+19.44 (Hubble)",
+  "blurb": "4C+19.44, a quasar with a long, straight jet, seen by Hubble.",
+  "label": "4c1944-hubble",
+  "spec": "HST|4C-19.44|10762|ACS/WFC|4c1944-hubble",
+  "find": [
+    "HST|10762|4C-19.44"
+  ],
+  "type": "Black hole",
+  "aliases": [
+    "4C 19.44",
+    "PKS 1354+195",
+    "quasar",
+    "quasar jet",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A massive black hole at this galaxy's core drives a straight jet about three hundred thousand light-years long, the longest and straightest quasar jet with deep X-ray observations.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "4C+19.44 is a quasar with a straight jet about three hundred thousand light-years long",
+        "source": "https://cfa.harvard.edu/news/remarkable-jet-quasar-4c1944"
+      },
+      {
+        "text": "Its jet is the longest and straightest quasar jet with deep X-ray observations; alternate name PKS 1354+195",
+        "source": "https://arxiv.org/abs/1708.01500"
+      },
+      {
+        "text": "The jet was studied in radio, infrared, optical (Hubble) and X-ray light",
+        "source": "https://cfa.harvard.edu/news/remarkable-jet-quasar-4c1944"
+      }
+    ]
+  }
+}

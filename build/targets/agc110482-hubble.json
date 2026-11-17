@@ -1,0 +1,41 @@
+{
+  "id": "agc110482-hubble",
+  "name": "AGC 110482 (Hubble)",
+  "blurb": "AGC 110482, a gas-rich dwarf galaxy, seen by Hubble.",
+  "label": "agc110482-hubble",
+  "spec": "HST|AGC110482|12658|ACS/WFC|agc110482-hubble",
+  "find": [
+    "HST|12658|AGC110482"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "AGC110482",
+    "SHIELD",
+    "dwarf galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "AGC 110482 is one of the lowest-mass gas-rich galaxies that still hold stars. Hubble picked out its individual stars to measure its distance, and its gas turns slowly like a spinning wheel.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "AGC 110482 is a SHIELD galaxy: an extremely low-mass gas-rich dwarf discovered by the ALFALFA survey",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/12658/"
+      },
+      {
+        "text": "Hubble imaging measured SHIELD galaxy distances from resolved stars (tip of the red giant branch)",
+        "source": "https://ar5iv.labs.arxiv.org/html/1402.3723"
+      },
+      {
+        "text": "AGC 110482 shows solid-body rotation in its gas",
+        "source": "https://ar5iv.labs.arxiv.org/html/1609.05376"
+      }
+    ]
+  }
+}

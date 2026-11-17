@@ -1,0 +1,49 @@
+{
+  "id": "kamino-hubble",
+  "name": "Kamino (Hubble)",
+  "blurb": "Kamino, a faint isolated dwarf galaxy beyond the Local Group, seen by Hubble.",
+  "label": "kamino-hubble",
+  "spec": "HST|KAMINO|17514|ACS/WFC|kamino-hubble",
+  "find": [
+    "HST|17514|KAMINO"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "KAMINO",
+    "dwarf galaxy",
+    "star-forming dwarf galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Kamino is a solitary dwarf galaxy, among the most isolated faint dwarfs known, and it is still forming stars today, with a glowing H II region where new stars are born. Its discovery was first reported from this Hubble imaging.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "Kamino is one of three isolated faint dwarf galaxies beyond the Local Group imaged by Hubble",
+        "source": "https://arxiv.org/abs/2509.16307"
+      },
+      {
+        "text": "Kamino ranks among the most isolated faint dwarf galaxies known",
+        "source": "https://arxiv.org/html/2509.16307v1"
+      },
+      {
+        "text": "Kamino continues to form stars and shows an H II region",
+        "source": "https://arxiv.org/html/2509.16307v1"
+      },
+      {
+        "text": "Kamino's discovery is first reported in the Hubble paper",
+        "source": "https://arxiv.org/html/2509.16307v1"
+      },
+      {
+        "text": "Kamino is a star-forming dwarf galaxy targeted by program 17514",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/17514/"
+      }
+    ]
+  }
+}

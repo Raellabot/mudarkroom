@@ -1,0 +1,50 @@
+{
+  "id": "eso540-032-hubble",
+  "name": "ESO 540-032 (Hubble)",
+  "blurb": "ESO 540-032, a transition-type dwarf galaxy in the Sculptor Group, seen by Hubble.",
+  "label": "eso540032-hubble",
+  "spec": "HST|ESO540-032|10503|ACS/WFC|eso540032-hubble",
+  "find": [
+    "HST|10503|ESO540-032"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "ESO540-032",
+    "Sculptor Group dwarf",
+    "transition-type dwarf",
+    "dwarf galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "ESO 540-032 is a small transition-type dwarf galaxy in the Sculptor Group, with traits of both early-type and irregular dwarfs. It still holds a reservoir of hydrogen gas and a sprinkling of young stars.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "ESO 540-032 is a transition-type dwarf in the Sculptor group",
+        "source": "https://arxiv.org/abs/0710.1420"
+      },
+      {
+        "text": "Hubble ACS data were used to study it",
+        "source": "https://arxiv.org/abs/0710.1420"
+      },
+      {
+        "text": "It contains neutral hydrogen gas",
+        "source": "https://arxiv.org/abs/0710.1420"
+      },
+      {
+        "text": "It contains a population of young stars",
+        "source": "https://arxiv.org/abs/0710.1420"
+      },
+      {
+        "text": "Transition-type dwarfs resemble Phoenix and LGS3, between early-type and irregular dwarfs",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/10503/"
+      }
+    ]
+  }
+}

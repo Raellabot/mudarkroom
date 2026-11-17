@@ -1,0 +1,45 @@
+{
+  "id": "leda-2832100-hubble",
+  "name": "BTS76 (Hubble)",
+  "blurb": "BTS76, a dwarf irregular galaxy, seen by Hubble.",
+  "label": "leda2832100-hubble",
+  "spec": "HST|LEDA-2832100|14636|ACS/WFC|leda2832100-hubble",
+  "find": [
+    "HST|14636|LEDA-2832100"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "LEDA 2832100",
+    "dwarf irregular galaxy",
+    "dwarf galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A small, irregular dwarf galaxy that Hubble could barely break into single stars. Its red giants stayed too faint to see, so it lies farther away than its motion had suggested.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "BTS76 is LEDA 2832100",
+        "source": "https://ar5iv.labs.arxiv.org/html/1804.00469"
+      },
+      {
+        "text": "BTS76 is a dwarf irregular galaxy",
+        "source": "https://ar5iv.labs.arxiv.org/html/1804.00469"
+      },
+      {
+        "text": "On the HST/ACS images BTS76 is barely resolved into stars without signs of the red giant branch",
+        "source": "https://ar5iv.labs.arxiv.org/html/1804.00469"
+      },
+      {
+        "text": "BTS76 has only a lower distance limit from HST that exceeds its earlier Hubble-flow estimate",
+        "source": "https://ar5iv.labs.arxiv.org/html/1804.00469"
+      }
+    ]
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "id": "ngc6355-hubble",
+  "name": "NGC 6355 (Hubble)",
+  "blurb": "NGC 6355, a globular cluster in the Milky Way's bulge, seen by Hubble.",
+  "label": "ngc6355-hubble",
+  "spec": "HST|NGC6355|11628|WFC3/UVIS|ngc6355-hubble",
+  "find": [
+    "HST|11628|NGC6355"
+  ],
+  "type": "Star cluster",
+  "aliases": [
+    "globular cluster",
+    "star cluster",
+    "bulge globular cluster"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "This very old ball of stars lives in the Galactic bulge, the most complex and mixed part of our galaxy, and probably formed from the bulge's main building block. Astronomers have also found a tidal tail and scattered debris of stars around it.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "NGC 6355 is a globular cluster in the Milky Way's bulge",
+        "source": "https://arxiv.org/html/2405.01485v1"
+      },
+      {
+        "text": "It is very old",
+        "source": "https://arxiv.org/abs/2301.05227v2"
+      },
+      {
+        "text": "The bulge is the most complex and mixed component of the Milky Way",
+        "source": "https://arxiv.org/abs/2301.05227v2"
+      },
+      {
+        "text": "It probably formed from the main bulge progenitor",
+        "source": "https://arxiv.org/abs/2301.05227v2"
+      },
+      {
+        "text": "A tidal tail and scattered debris surround it",
+        "source": "https://arxiv.org/html/2405.01485v1"
+      },
+      {
+        "text": "Hubble program 11628 targeted it as a globular cluster",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/11628/"
+      }
+    ]
+  }
+}

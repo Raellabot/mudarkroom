@@ -1,0 +1,51 @@
+{
+  "id": "ngc1084-df1-hubble",
+  "name": "NGC 1084-DF1 (Hubble)",
+  "blurb": "NGC 1084-DF1, a faint low surface brightness galaxy in the field of NGC 1084, seen by Hubble.",
+  "label": "ngc1084df1-hubble",
+  "spec": "HST|NGC1084-DF1|14644|ACS/WFC|ngc1084df1-hubble",
+  "find": [
+    "HST|14644|NGC1084-DF1"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "NGC1084-DF1",
+    "WHI B0240-07",
+    "low surface brightness galaxy",
+    "diffuse galaxy",
+    "dwarf galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A faint, diffuse galaxy found in deep Dragonfly images around the galaxy NGC 1084, dotted with clumps of newly forming stars. Its distance is still so uncertain that no one can yet say whether it belongs to NGC 1084's group.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "NGC 1084-DF1 is one of 23 low surface brightness objects in the fields of NGC 1052, NGC 1084, M96 and NGC 4258 observed with HST/ACS",
+        "source": "https://arxiv.org/abs/1807.06016"
+      },
+      {
+        "text": "The object was selected from deep optical imaging with the Dragonfly Telephoto Array and imaged with HST/ACS",
+        "source": "https://arxiv.org/abs/1807.06016"
+      },
+      {
+        "text": "NGC 1084-DF1 is also cataloged as WHI B0240-07",
+        "source": "https://ar5iv.labs.arxiv.org/html/1807.06016"
+      },
+      {
+        "text": "Star-forming clumps are clearly visible in NGC 1084-DF1",
+        "source": "https://ar5iv.labs.arxiv.org/html/1807.06016"
+      },
+      {
+        "text": "The group membership of NGC 1084-DF1 is unclear because its distance is highly uncertain",
+        "source": "https://arxiv.org/pdf/1807.06016"
+      }
+    ]
+  }
+}

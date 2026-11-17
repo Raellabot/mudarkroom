@@ -1,0 +1,49 @@
+{
+  "id": "ddo113-hubble",
+  "name": "DDO 113 (Hubble)",
+  "blurb": "DDO 113, a dwarf satellite galaxy of NGC 4214, seen by Hubble.",
+  "label": "ddo113-hubble",
+  "spec": "HST|DDO113|10915|ACS/WFC|ddo113-hubble",
+  "find": [
+    "HST|10915|DDO113"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "UGCA 276",
+    "dwarf galaxy",
+    "satellite galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "This small companion of the galaxy NGC 4214 has stopped forming stars and is virtually free of gas. Astronomers think it was starved: the cold gas that once flowed into it was cut off.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "DDO 113 is a satellite of NGC 4214",
+        "source": "https://ar5iv.arxiv.org/html/1908.11367"
+      },
+      {
+        "text": "DDO 113 has stopped forming stars and is virtually gas-free",
+        "source": "https://ar5iv.arxiv.org/html/1908.11367"
+      },
+      {
+        "text": "Strangulation, the cutting off of cold gas inflows, likely quenched it",
+        "source": "https://arxiv.org/abs/1908.11367v1"
+      },
+      {
+        "text": "DDO 113 is a low-luminosity dwarf in the NGC 4214 association; also known as UGCA 276",
+        "source": "https://arxiv.org/pdf/astro-ph/0603380"
+      },
+      {
+        "text": "Observed by the ACS Nearby Galaxy Survey",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/10915/"
+      }
+    ]
+  }
+}

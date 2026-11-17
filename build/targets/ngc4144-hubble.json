@@ -1,0 +1,44 @@
+{
+  "id": "ngc4144-hubble",
+  "name": "NGC 4144 (Hubble)",
+  "blurb": "NGC 4144, an edge-on spiral galaxy, seen by Hubble.",
+  "label": "ngc4144-hubble",
+  "spec": "HST|NGC4144|9765|ACS/WFC|ngc4144-hubble",
+  "find": [
+    "HST|9765|NGC4144"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "spiral galaxy",
+    "edge-on galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "We see this spiral galaxy edge-on, looking straight along its disk. Studies of its individual stars in Hubble images have traced a thick disk and a flattened halo of stars around it.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "NGC 4144 is an edge-on spiral galaxy",
+        "source": "https://arxiv.org/abs/astro-ph/0503235v2"
+      },
+      {
+        "text": "Photometry of individual stars in Hubble ACS/WFC and WFPC2 images found a thick disk and a halo",
+        "source": "https://arxiv.org/abs/astro-ph/0503235v2"
+      },
+      {
+        "text": "The halos have flattened shapes",
+        "source": "https://arxiv.org/abs/astro-ph/0503235v2"
+      },
+      {
+        "text": "NGC 4144 was a target of a Hubble snapshot survey of nearby edge-on spiral galaxies",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/list/9765/"
+      }
+    ]
+  }
+}

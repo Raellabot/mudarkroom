@@ -1,0 +1,50 @@
+{
+  "id": "hz2-hubble",
+  "name": "HZ2 field (Hubble)",
+  "blurb": "A deep field toward the distant galaxy HZ2, seen by Hubble.",
+  "label": "hz2-hubble",
+  "spec": "HST|HZ2|13641|WFC3/IR|hz2-hubble",
+  "find": [
+    "HST|13641|HZ2"
+  ],
+  "type": "Deep field",
+  "aliases": [
+    "HZ2",
+    "COSMOS",
+    "deep field",
+    "distant galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Somewhere in this deep frame is HZ2, an ordinary star-forming galaxy seen a billion years after the Big Bang that also shines as a Lyman-alpha emitter. Hubble mapped its starlight to compare with ALMA's view of its gas and dust.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "HZ2 is a galaxy in a sample of normal galaxies at 5<z<6 targeted by Hubble program 13641",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/13641/"
+      },
+      {
+        "text": "HZ2 lies in the COSMOS field",
+        "source": "https://arxiv.org/pdf/1503.07596"
+      },
+      {
+        "text": "These galaxies are seen a billion years after the Big Bang",
+        "source": "https://arxiv.org/abs/1503.07596"
+      },
+      {
+        "text": "Hubble mapped the galaxies' starlight to compare with ALMA measurements of their gas and dust",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/13641/"
+      },
+      {
+        "text": "HZ2 meets the selection criteria for a Lyman-alpha emitter",
+        "source": "https://arxiv.org/pdf/1503.07596"
+      }
+    ]
+  }
+}

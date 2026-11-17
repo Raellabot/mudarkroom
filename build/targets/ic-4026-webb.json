@@ -1,0 +1,40 @@
+{
+  "id": "ic-4026-webb",
+  "name": "IC 4026 (Webb)",
+  "blurb": "IC 4026, a galaxy in the Coma Cluster, seen by Webb.",
+  "label": "ic4026-webb",
+  "spec": "JWST|IC-4026|5989|NIRCAM/IMAGE|ic4026-webb",
+  "find": [
+    "JWST|5989|IC-4026"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "IC-4026",
+    "Coma Cluster galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Webb"
+  ],
+  "story": "A galaxy among the crowd of the Coma Cluster, the nearest rich cluster of galaxies. Webb studied the subtle surface brightness fluctuations of its starlight to help build a new ladder of distances for measuring how fast the universe expands.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "IC 4026 is one of the large galaxies in the Coma Cluster targeted by Webb program 5989",
+        "source": "https://www.stsci.edu/jwst-program-info/download/jwst/pdf/5989/"
+      },
+      {
+        "text": "The Coma Cluster is the nearest rich cluster and a key touchstone for the distance scale",
+        "source": "https://www.stsci.edu/jwst-program-info/download/jwst/pdf/5989/"
+      },
+      {
+        "text": "Webb measured surface brightness fluctuations (SBF) to build a distance ladder aimed at the Hubble constant",
+        "source": "https://www.stsci.edu/jwst-program-info/download/jwst/pdf/5989/"
+      }
+    ]
+  }
+}

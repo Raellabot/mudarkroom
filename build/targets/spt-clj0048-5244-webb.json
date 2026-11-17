@@ -1,0 +1,49 @@
+{
+  "id": "spt-clj0048-5244-webb",
+  "name": "SPT-CL J0048-5244 (Webb)",
+  "blurb": "SPT-CL J0048-5244, a massive galaxy cluster, seen by Webb.",
+  "label": "sptclj00485244-webb",
+  "spec": "JWST|SPT-CLJ0048-5244|5594|NIRCAM/IMAGE|sptclj00485244-webb",
+  "find": [
+    "JWST|5594|SPT-CLJ0048-5244"
+  ],
+  "type": "Galaxy cluster",
+  "aliases": [
+    "SPT-CLJ0048-5244",
+    "SPT cluster",
+    "galaxy cluster",
+    "cluster of galaxies"
+  ],
+  "missions": [
+    "Webb"
+  ],
+  "story": "A massive gathering of galaxies found in South Pole Telescope data, part of a Webb survey that traces how clusters grew across cosmic time. Webb's view helps map how dark matter spreads through the cluster.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "SPT-CLJ0048-5244 is one of the 182 massive galaxy clusters in Webb survey program 5594",
+        "source": "https://www.stsci.edu/jwst-program-info/download/jwst/pdf/5594/"
+      },
+      {
+        "text": "The clusters were picked from Sunyaev-Zel'dovich cluster candidates (SPT, ACT and Planck) and X-ray catalogs",
+        "source": "https://www.stsci.edu/jwst-program-info/download/jwst/pdf/5594/"
+      },
+      {
+        "text": "The survey tracks billions of years of cluster growth",
+        "source": "https://www.stsci.edu/jwst-program-info/download/jwst/pdf/5594/"
+      },
+      {
+        "text": "Science goals: how infalling galaxies build the bright central galaxy, how dark matter is distributed and tidally stripped from sub-halos, and strong lensing",
+        "source": "https://www.stsci.edu/jwst-program-info/download/jwst/pdf/5594/"
+      },
+      {
+        "text": "SPT clusters are found in South Pole Telescope data through the Sunyaev-Zel'dovich effect",
+        "source": "https://arxiv.org/abs/1409.0850"
+      }
+    ]
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "id": "ngc-4191-hubble",
+  "name": "NGC 4191 (Hubble)",
+  "blurb": "NGC 4191, a slowly rotating early-type galaxy, seen by Hubble.",
+  "label": "ngc4191-hubble",
+  "spec": "HST|NGC-4191|13324|WFC3/UVIS|ngc4191-hubble",
+  "find": [
+    "HST|13324|NGC-4191"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "NGC4191",
+    "early-type galaxy",
+    "slow rotator",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "NGC 4191 hides two stellar components that rotate in opposite directions, a pattern astronomers suggest was built by gas falling in along two cosmic filaments. Hubble's sharp view of its center helps trace how such galaxies were assembled.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "NGC 4191 is one of the 12 slowly rotating early-type galaxies (ATLAS3D slow rotators) imaged by HST program GO-13324",
+        "source": "https://ar5iv.labs.arxiv.org/html/2001.11277"
+      },
+      {
+        "text": "NGC 4191 was targeted as a low angular momentum early-type galaxy",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/13324/"
+      },
+      {
+        "text": "NGC 4191 has stellar counter-rotating components",
+        "source": "https://www.arxiv.org/abs/1507.07936"
+      },
+      {
+        "text": "Gas accretion along two filaments is suggested as the formation mechanism of the counter-rotating components",
+        "source": "https://www.arxiv.org/abs/1507.07936"
+      },
+      {
+        "text": "NGC 4191 is classified as a 2σ galaxy (two off-center peaks in velocity dispersion)",
+        "source": "https://ar5iv.labs.arxiv.org/html/2001.11277"
+      }
+    ]
+  }
+}

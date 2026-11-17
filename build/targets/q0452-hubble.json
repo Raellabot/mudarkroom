@@ -1,0 +1,42 @@
+{
+  "id": "q0452-hubble",
+  "name": "Q0452-1640 field (Hubble)",
+  "blurb": "A deep field toward the quasar Q0452-1640, seen by Hubble.",
+  "label": "q0452-hubble",
+  "spec": "HST+HST|Q0452+Q0452|13733+13733|WFC3/IR+WFC3/UVIS|q0452-hubble",
+  "find": [
+    "HST|13733|Q0452"
+  ],
+  "type": "Deep field",
+  "aliases": [
+    "Q0452",
+    "Q0452-1640",
+    "quasar",
+    "damped Lyman-alpha absorber",
+    "deep field"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Beside a bright quasar, Hubble searched for the faint starlight of a galaxy whose gas absorbs the quasar's light, a damped Lyman-alpha absorber. Earlier observations found two objects at that galaxy's distance, one resembling a ring galaxy.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "Q0452 is the bright quasar next to a faint damped Lyman-alpha absorber galaxy that Hubble program 13733 aimed to observe",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/13733/"
+      },
+      {
+        "text": "Q0452-1640 is a quasar with a damped Lyman-alpha absorber in its spectrum",
+        "source": "https://arxiv.org/pdf/1309.4331"
+      },
+      {
+        "text": "Two objects were detected at the absorber's redshift, one resembling a ring galaxy",
+        "source": "https://arxiv.org/pdf/1309.4331"
+      }
+    ]
+  }
+}

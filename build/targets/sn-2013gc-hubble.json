@@ -1,0 +1,54 @@
+{
+  "id": "sn-2013gc-hubble",
+  "name": "ESO 430-20, SN 2013gc field (Hubble)",
+  "blurb": "ESO 430-20, a spiral galaxy that hosted SN 2013gc, seen by Hubble.",
+  "label": "sn2013gc-hubble",
+  "spec": "HST|SN-2013GC|16671|WFC3/UVIS|sn2013gc-hubble",
+  "find": [
+    "HST|16671|SN-2013GC"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "ESO 430-G020",
+    "SN 2013gc host",
+    "SN 2013gc",
+    "spiral galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "In this spiral galaxy a massive star flared in outbursts for years before its great blast, SN 2013gc. Once that light had faded, Hubble returned to the spot to check whether the star had truly died or merely erupted as a supernova impostor.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "ESO 430-20 is the host galaxy of SN 2013gc",
+        "source": "https://ar5iv.labs.arxiv.org/html/1806.08343"
+      },
+      {
+        "text": "ESO 430-20 is a spiral galaxy",
+        "source": "https://ar5iv.labs.arxiv.org/html/1806.08343"
+      },
+      {
+        "text": "The progenitor of SN 2013gc went through years of outbursts before the explosion",
+        "source": "https://ar5iv.labs.arxiv.org/html/1806.08343"
+      },
+      {
+        "text": "SN 2013gc was a core-collapse supernova",
+        "source": "https://ar5iv.labs.arxiv.org/html/1806.08343"
+      },
+      {
+        "text": "Hubble program 16671 revisits faded interacting transients to test whether they were terminal explosions or supernova impostors",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/16671/"
+      },
+      {
+        "text": "SN 2013gc is a target of program 16671",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/16671/"
+      }
+    ]
+  }
+}

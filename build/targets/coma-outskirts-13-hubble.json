@@ -1,0 +1,42 @@
+{
+  "id": "coma-outskirts-13-hubble",
+  "name": "Coma Cluster, outskirts field 13 (Hubble)",
+  "blurb": "A field in the outskirts of the Coma Cluster, seen by Hubble.",
+  "label": "comaoutskirts13-hubble",
+  "spec": "HST|COMA-OUTSKIRTS-13|10861|ACS/WFC|comaoutskirts13-hubble",
+  "find": [
+    "HST|10861|COMA-OUTSKIRTS-13"
+  ],
+  "type": "Galaxy cluster",
+  "aliases": [
+    "Coma Cluster",
+    "Abell 1656",
+    "galaxy cluster",
+    "dwarf galaxies",
+    "galaxies"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A patch of the Coma Cluster's outer infall region, one of the fields Hubble surveyed to find faint dwarf galaxies among the cluster's thousands of members.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "COMA-OUTSKIRTS-13 is one of the survey's outskirts positions",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/10861/"
+      },
+      {
+        "text": "The Coma Cluster is also known as Abell 1656, one of the nearest rich galaxy clusters",
+        "source": "https://arxiv.org/abs/0801.3745"
+      },
+      {
+        "text": "The Hubble Coma survey imaged the core and infall region of Coma, focusing on dwarf galaxies among thousands of galaxies",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/10861/"
+      }
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": "3c268-4-hubble",
+  "name": "3C 268.4 (Hubble)",
+  "blurb": "3C 268.4, a distant quasar, seen by Hubble.",
+  "label": "3c2684-hubble",
+  "spec": "HST+HST|3C268.4+3C268.4|13023+13023|WFC3/IR+WFC3/UVIS|3c2684-hubble",
+  "find": [
+    "HST|13023|3C268.4"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "3C 268.4",
+    "3C268.4",
+    "quasar",
+    "QSO",
+    "radio source"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "3C 268.4 is a quasar from the distant universe, one of a sample of powerful 3C radio sources. Hubble surveyed such objects to see how their fierce activity shapes their hosts, finding signs of star formation and distorted forms in several of them.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "3C 268.4 is a QSO (quasar) in the 3C sample of high-redshift radio galaxies and QSOs",
+        "source": "https://ar5iv.labs.arxiv.org/html/1605.03196"
+      },
+      {
+        "text": "3C 268.4 was a target of the program on powerful activity in the Bright Ages",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/13023/"
+      },
+      {
+        "text": "Several targets show UV emission suggestive of star formation and distorted host morphologies",
+        "source": "https://ar5iv.labs.arxiv.org/html/1605.03196"
+      }
+    ]
+  }
+}

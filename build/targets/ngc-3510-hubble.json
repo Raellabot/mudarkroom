@@ -1,0 +1,51 @@
+{
+  "id": "ngc-3510-hubble",
+  "name": "NGC 3510 (Hubble)",
+  "blurb": "NGC 3510, an edge-on barred spiral galaxy, seen by Hubble.",
+  "label": "ngc3510-hubble",
+  "spec": "HST+HST|NGC-3510+NGC-3510|13357+13357|ACS/WFC+WFC3/UVIS|ngc3510-hubble",
+  "find": [
+    "HST|13357|NGC-3510"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "UGC 6126",
+    "NGC3510",
+    "edge-on galaxy",
+    "barred spiral galaxy",
+    "spiral galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "We see NGC 3510 edge-on, and beyond its stars the galaxy's hydrogen gas bends into a warp. Hubble studied the stars in warps like this one to learn whether infalling gas is still feeding galaxy disks.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "NGC 3510 is UGC 6126, a barred galaxy of type SBcd",
+        "source": "https://ar5iv.labs.arxiv.org/html/astro-ph/0207112"
+      },
+      {
+        "text": "UGC 6126 has spiral arms",
+        "source": "https://ar5iv.labs.arxiv.org/html/astro-ph/0207112"
+      },
+      {
+        "text": "NGC 3510 is seen edge-on",
+        "source": "https://ar5iv.labs.arxiv.org/html/astro-ph/0207112"
+      },
+      {
+        "text": "The hydrogen (HI) disk of NGC 3510 is warped",
+        "source": "https://ar5iv.labs.arxiv.org/html/astro-ph/0207112"
+      },
+      {
+        "text": "Program 13357 studies resolved stars in the warps of nearby edge-on galaxies, including NGC 3510, to test whether cold gas accretion forms warps and fuels disks",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/13357/"
+      }
+    ]
+  }
+}

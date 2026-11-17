@@ -1,0 +1,53 @@
+{
+  "id": "ngc-5128-s4-hubble",
+  "name": "Centaurus A halo, field S4 (Hubble)",
+  "blurb": "A field in the faint outer halo of the giant elliptical galaxy Centaurus A, near one of its newly found star shells, seen by Hubble.",
+  "label": "ngc5128s4-hubble",
+  "spec": "HST|NGC-5128-S4|14259|ACS/WFC|ngc5128s4-hubble",
+  "find": [
+    "HST|14259|NGC-5128-S4"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "NGC-5128-S4",
+    "Centaurus A",
+    "Cen A",
+    "NGC 5128",
+    "galaxy halo",
+    "stellar shell",
+    "elliptical galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Here Hubble picks out single stars in the faint halo of Centaurus A, close to one of its newly found shells. Shells like this mark small galaxies it has swallowed, minor mergers caught in the act.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "Centaurus A is a giant elliptical galaxy, also designated NGC 5128 (Cen A)",
+        "source": "https://science.nasa.gov/asset/hubble/active-galaxy-centaurus-a/"
+      },
+      {
+        "text": "Hubble program 14259 followed up newly discovered substructures in the halos of NGC 253 and NGC 5128 to study their assembly histories",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/14259/"
+      },
+      {
+        "text": "Shell 2 is one of the most prominent new shells in the outer halo of Cen A, at RA 13:23:21.6, Dec -43:14:06",
+        "source": "https://arxiv.org/pdf/1512.05366"
+      },
+      {
+        "text": "The Hubble field NGC-5128-S4 is at RA 13 23 19.2, Dec -43 15 00 in the NGC 5128 halo",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/14259/"
+      },
+      {
+        "text": "Newly found shells in the Cen A halo mark minor accretion events caught in the act",
+        "source": "https://ar5iv.labs.arxiv.org/html/1512.05366"
+      }
+    ]
+  }
+}

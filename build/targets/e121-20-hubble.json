@@ -1,0 +1,41 @@
+{
+  "id": "e121-20-hubble",
+  "name": "ESO 121-20 (Hubble)",
+  "blurb": "ESO 121-20, a dwarf irregular galaxy, seen by Hubble.",
+  "label": "e12120-hubble",
+  "spec": "HST|E121-20|9771|ACS/WFC|e12120-hubble",
+  "find": [
+    "HST|9771|E121-20"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "KKs 19",
+    "dwarf irregular galaxy",
+    "dwarf galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "ESO 121-20 is a very isolated dwarf irregular galaxy, wrapped in an extended envelope of hydrogen gas. Hubble picked out its brightest giant stars to measure its distance for the first time.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "ESO 121-20 (KKs 19) is a very isolated dwarf irregular galaxy",
+        "source": "https://ar5iv.arxiv.org/html/astro-ph/0511648"
+      },
+      {
+        "text": "It has an extended HI (hydrogen) envelope",
+        "source": "https://ar5iv.arxiv.org/html/astro-ph/0511648"
+      },
+      {
+        "text": "Its distance was measured for the first time from Hubble ACS images (program 9771) using stars at the tip of the red giant branch",
+        "source": "https://ar5iv.arxiv.org/html/astro-ph/0511648"
+      }
+    ]
+  }
+}

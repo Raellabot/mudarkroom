@@ -1,0 +1,55 @@
+{
+  "id": "h-2-hubble",
+  "name": "Hodge 2 (Hubble)",
+  "blurb": "Hodge 2, an intermediate-age star cluster in the Large Magellanic Cloud, seen by Hubble.",
+  "label": "h2-hubble",
+  "spec": "HST|H-2|12257|WFC3/UVIS|h2-hubble",
+  "find": [
+    "HST|12257|H-2"
+  ],
+  "type": "Star cluster",
+  "aliases": [
+    "Hodge 2",
+    "H-2",
+    "H 2",
+    "LMC cluster",
+    "Large Magellanic Cloud",
+    "star cluster"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Hodge 2 is an intermediate-age star cluster in the Large Magellanic Cloud, a satellite galaxy of the Milky Way. Its red clump is extended rather than tight, one of the clues that such clusters are not the simple single-age crowds once assumed.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "Hodge 2 is a Large Magellanic Cloud cluster",
+        "source": "https://www.aanda.org/articles/aa/full_html/2016/02/aa26484-15/T1.html"
+      },
+      {
+        "text": "Hodge 2 was a target of program 12257 on Magellanic Cloud star clusters",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/12257/"
+      },
+      {
+        "text": "The Large Magellanic Cloud is a satellite galaxy of the Milky Way",
+        "source": "https://www.nasa.gov/universe/galaxies/magellanic-clouds/"
+      },
+      {
+        "text": "Such clusters challenge the idea of simple stellar populations",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/12257/"
+      },
+      {
+        "text": "Hodge 2 is an intermediate-age cluster",
+        "source": "https://arxiv.org/pdf/1410.3840"
+      },
+      {
+        "text": "Hodge 2 has an extended red clump",
+        "source": "https://arxiv.org/pdf/1410.3840"
+      }
+    ]
+  }
+}

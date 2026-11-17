@@ -1,0 +1,45 @@
+{
+  "id": "abell399-3-14-0-hubble",
+  "name": "Abell 399, hostless supernova field (Hubble)",
+  "blurb": "Abell 399, a rich galaxy cluster, seen by Hubble at the site of an apparently hostless supernova.",
+  "label": "abell3993140-hubble",
+  "spec": "HST|ABELL399-3-14-0|12937|ACS/WFC|abell3993140-hubble",
+  "find": [
+    "HST|12937|ABELL399-3-14-0"
+  ],
+  "type": "Galaxy cluster",
+  "aliases": [
+    "Abell 399",
+    "Abell399_3_14_0",
+    "galaxy cluster",
+    "intracluster supernova"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Somewhere in this patch of the galaxy cluster Abell 399, a Type Ia supernova once flared and faded with no galaxy in sight. Hubble stared deep at the spot to learn whether the star belonged to a hidden faint host or to the stars that drift between the cluster's galaxies.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "Abell 399 is one of four rich galaxy clusters targeted for apparently hostless Type Ia supernovae",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/12937/"
+      },
+      {
+        "text": "The supernova Abell399_3_14_0 (from MENeaCS) is a normal Type Ia",
+        "source": "https://ar5iv.labs.arxiv.org/html/1505.03407"
+      },
+      {
+        "text": "Deep Hubble imaging was taken at the locations of potentially hostless, long-faded Type Ia supernovae",
+        "source": "https://ar5iv.labs.arxiv.org/html/1505.03407"
+      },
+      {
+        "text": "The goal was to test whether such supernovae belong to the intracluster stellar population rather than a faint host",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/12937/"
+      }
+    ]
+  }
+}

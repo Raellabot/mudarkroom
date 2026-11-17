@@ -1,0 +1,42 @@
+{
+  "id": "ngc1270-hubble",
+  "name": "NGC 1270 (Hubble)",
+  "blurb": "NGC 1270, a compact elliptical galaxy, seen by Hubble.",
+  "label": "ngc1270-hubble",
+  "spec": "HST+HST|NGC1270+NGC1270|13050+13050|WFC3/IR+WFC3/UVIS|ngc1270-hubble",
+  "find": [
+    "HST|13050|NGC1270"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "NGC1270",
+    "compact elliptical galaxy",
+    "elliptical galaxy",
+    "early-type galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A small, densely packed elliptical galaxy that resembles the compact galaxies of the early universe more than its modern neighbors. Hubble looked here while hunting for black holes that are oversized for their small hosts.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "NGC 1270 is a compact elliptical galaxy imaged by Hubble program GO-13050",
+        "source": "https://ar5iv.labs.arxiv.org/html/1701.05898"
+      },
+      {
+        "text": "Nearby compact elliptical galaxies are dense, are outliers today, and resemble the compact, massive, quiescent galaxies of the early universe (local analogues)",
+        "source": "https://arxiv.org/abs/1701.05898v2"
+      },
+      {
+        "text": "Hubble program 13050 'The Most Massive Black Holes in Small Galaxies' imaged NGC1270 to hunt for overmassive black holes in compact early-type galaxies",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/13050/"
+      }
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "id": "smacsj2011-4-5725-hubble",
+  "name": "SMACS J2011.4-5725 (Hubble)",
+  "blurb": "SMACS J2011.4-5725, a galaxy cluster, seen by Hubble.",
+  "label": "smacsj201145725-hubble",
+  "spec": "HST+HST|SMACSJ2011.4-5725+SMACSJ2011.4-5725|16670+16670|ACS/WFC+WFC3/IR|smacsj201145725-hubble",
+  "find": [
+    "HST|16670|SMACSJ2011.4-5725"
+  ],
+  "type": "Galaxy cluster",
+  "aliases": [
+    "SMACSJ2011.4-5725",
+    "SMACS J2011",
+    "galaxy cluster",
+    "cluster of galaxies"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "SMACS J2011.4-5725 is a rich, X-ray bright galaxy cluster, a great gathering of galaxies. Hubble took a quick snapshot to find out whether it is a powerful gravitational lens for studying the distant universe.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "SMACS J2011.4-5725 (SMACSJ2011.4-5725) is a massive galaxy cluster targeted by Hubble program 16670",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/16670/"
+      },
+      {
+        "text": "Hubble program 16670 is a snapshot survey of extreme, X-ray luminous galaxy clusters, seeking powerful gravitational telescopes",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/16670/"
+      },
+      {
+        "text": "The program studies dark and luminous matter in cluster cores",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/16670/"
+      }
+    ]
+  }
+}

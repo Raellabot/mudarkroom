@@ -1,0 +1,42 @@
+{
+  "id": "sn2017cfd-hubble",
+  "name": "IC 511, SN 2017cfd field (Hubble)",
+  "blurb": "IC 511, a galaxy that hosted the Type Ia supernova SN 2017cfd, seen by Hubble.",
+  "label": "sn2017cfd-hubble",
+  "spec": "HST|SN2017CFD|16179|WFC3/UVIS|sn2017cfd-hubble",
+  "find": [
+    "HST|16179|SN2017CFD"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "IC 0511",
+    "SN 2017cfd",
+    "Type Ia supernova",
+    "supernova host",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Here SN 2017cfd, a normal Type Ia supernova, was caught very young, within days of its first light. Hubble later returned to look at the site once the glow had faded.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "SN 2017cfd is a normal Type Ia supernova in IC 0511, discovered very young",
+        "source": "https://arxiv.org/abs/1911.07734"
+      },
+      {
+        "text": "Host IC 511, type Ia, observed in GO-16179",
+        "source": "https://ar5iv.labs.arxiv.org/html/2401.12185"
+      },
+      {
+        "text": "Hubble program 16179 imaged the site of SN 2017cfd",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/16179/"
+      }
+    ]
+  }
+}

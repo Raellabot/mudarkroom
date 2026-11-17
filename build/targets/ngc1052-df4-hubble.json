@@ -1,0 +1,45 @@
+{
+  "id": "ngc1052-df4-hubble",
+  "name": "NGC 1052-DF4 (Hubble)",
+  "blurb": "NGC 1052-DF4, an ultra-diffuse galaxy, seen by Hubble.",
+  "label": "ngc1052df4-hubble",
+  "spec": "HST|NGC1052-DF4|15695|ACS/WFC|ngc1052df4-hubble",
+  "find": [
+    "HST|15695|NGC1052-DF4"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "NGC1052-DF4",
+    "DF4",
+    "ultra-diffuse galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "This faint, ghostly galaxy appears to be missing most of its dark matter, and the gravity of its massive neighbor NGC 1035 seems to be tearing it apart. Hubble measured its brightest red giant stars to pin down how far away it lies.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "NGC 1052-DF4 is an ultra-diffuse galaxy",
+        "source": "https://science.nasa.gov/missions/hubble/new-hubble-data-explains-missing-dark-matter"
+      },
+      {
+        "text": "NGC 1052-DF4 is missing most of its dark matter",
+        "source": "https://esahubble.org/news/heic2019/"
+      },
+      {
+        "text": "The neighboring massive galaxy NGC 1035 is tearing NGC 1052-DF4 apart",
+        "source": "https://science.nasa.gov/missions/hubble/new-hubble-data-explains-missing-dark-matter"
+      },
+      {
+        "text": "Hubble program 15695 measured DF4's distance using the tip of the red giant branch",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15695/"
+      }
+    ]
+  }
+}

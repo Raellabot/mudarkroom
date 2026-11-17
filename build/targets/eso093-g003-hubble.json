@@ -1,0 +1,43 @@
+{
+  "id": "eso093-g003-hubble",
+  "name": "ESO 093-G003 (Hubble)",
+  "blurb": "ESO 093-G003, a galaxy without an active nucleus, seen by Hubble.",
+  "label": "eso093g003-hubble",
+  "spec": "HST+HST|ESO093-G003+ESO093-G003|15181+15181|WFC3/IR+WFC3/UVIS|eso093g003-hubble",
+  "find": [
+    "HST|15181|ESO093-G003"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "galaxy",
+    "inactive galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "This galaxy serves as a quiet twin in a study of galaxies with active, feeding black holes: matched to them in type and distance, but with no bright nucleus of its own. Observations of its center have found molecular gas, the kind of gas whose flow links black holes to their galaxies.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "ESO 093-G003 is an inactive control galaxy in the LLAMA sample",
+        "source": "https://ar5iv.labs.arxiv.org/html/2105.05309"
+      },
+      {
+        "text": "CO (molecular gas) emission was detected in the center of ESO 093-G003",
+        "source": "https://ar5iv.labs.arxiv.org/html/1710.04224"
+      },
+      {
+        "text": "The galaxies in this program are AGN hosts and matched inactive control galaxies, imaged to balance an archive weighted toward the AGN",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15181/"
+      },
+      {
+        "text": "The flow of gas sets the connection between supermassive black holes and their host galaxies",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15181/"
+      }
+    ]
+  }
+}

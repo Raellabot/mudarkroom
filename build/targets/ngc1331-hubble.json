@@ -1,0 +1,41 @@
+{
+  "id": "ngc1331-hubble",
+  "name": "NGC 1331 (Hubble)",
+  "blurb": "NGC 1331, a nearby early-type galaxy, seen by Hubble.",
+  "label": "ngc1331-hubble",
+  "spec": "HST|NGC1331|12591|ACS/WFC|ngc1331-hubble",
+  "find": [
+    "HST|12591|NGC1331"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "NGC1331",
+    "early-type galaxy",
+    "spheroidal galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Hubble looked into the heart of this quiet galaxy and found a dense cluster of stars packed at its center, part of a search for black holes that feed only faintly.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "NGC 1331 is a target of a Hubble survey of faint nearby spheroidal galaxies, to find nuclear star clusters and correct black hole X-ray measurements for them",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/12591/"
+      },
+      {
+        "text": "NGC 1331 is an early-type galaxy in the AMUSE-Field sample and is nucleated",
+        "source": "https://ar5iv.labs.arxiv.org/html/1406.6697"
+      },
+      {
+        "text": "A nucleus here means a nuclear star cluster",
+        "source": "https://ar5iv.labs.arxiv.org/html/1406.6697"
+      }
+    ]
+  }
+}

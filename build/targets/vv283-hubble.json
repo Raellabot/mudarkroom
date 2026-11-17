@@ -1,0 +1,43 @@
+{
+  "id": "vv283-hubble",
+  "name": "VV 283 (Hubble)",
+  "blurb": "VV 283, a pair of merging galaxies, seen by Hubble.",
+  "label": "vv283-hubble",
+  "spec": "HST|VV283|10592|ACS/WFC|vv283-hubble",
+  "find": [
+    "HST|10592|VV283"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "MCG+01-33-036",
+    "merging galaxies",
+    "interacting galaxies",
+    "galaxy merger",
+    "luminous infrared galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "What looks like a single peculiar galaxy is in fact two galaxies merging into one.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "VV 283 looks like a single peculiar galaxy but is a pair of merging galaxies",
+        "source": "https://esahubble.org/images/heic0810bs/"
+      },
+      {
+        "text": "Also named MCG+01-33-036",
+        "source": "https://esahubble.org/images/heic0810bs/"
+      },
+      {
+        "text": "VV 283 is a target of the ACS survey of luminous infrared galaxies",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/10592/"
+      }
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": "sn2017ixv-hubble",
+  "name": "NGC 6796, SN 2017ixv field (Hubble)",
+  "blurb": "NGC 6796, a galaxy that hosted the broad-lined Type Ic supernova SN 2017ixv, seen by Hubble.",
+  "label": "sn2017ixv-hubble",
+  "spec": "HST|SN2017IXV|16179|WFC3/UVIS|sn2017ixv-hubble",
+  "find": [
+    "HST|16179|SN2017IXV"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "SN 2017ixv",
+    "Type Ic-BL supernova",
+    "broad-lined Type Ic supernova",
+    "supernova host",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "SN 2017ixv, a broad-lined Type Ic supernova, went off in this galaxy. Hubble returned to the site for a late look after the blast had faded.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "SN 2017ixv was a Type Ic-BL supernova in NGC 6796, imaged in GO-16179",
+        "source": "https://ar5iv.labs.arxiv.org/html/2401.12185"
+      },
+      {
+        "text": "Host galaxy NGC6796; classification SNIc-BL",
+        "source": "https://blast.scimma.org/transients/2017ixv/"
+      },
+      {
+        "text": "Hubble program 16179 imaged the site of SN 2017ixv",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/16179/"
+      }
+    ]
+  }
+}

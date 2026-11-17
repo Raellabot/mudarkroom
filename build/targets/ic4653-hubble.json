@@ -1,0 +1,48 @@
+{
+  "id": "ic4653-hubble",
+  "name": "IC 4653 (Hubble)",
+  "blurb": "IC 4653, a spiral galaxy, seen by Hubble.",
+  "label": "ic4653-hubble",
+  "spec": "HST+HST|IC4653+IC4653|15181+15181|WFC3/IR+WFC3/UVIS|ic4653-hubble",
+  "find": [
+    "HST|15181|IC4653"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "spiral galaxy",
+    "galaxy",
+    "inactive galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "The whirling arms of IC 4653 hold patches where new stars are forming. Hubble imaged it as a quiet counterpart to galaxies with actively feeding black holes, and studying galaxies like it helps reveal the structure of our own.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "IC 4653 is a spiral galaxy",
+        "source": "https://esahubble.org/images/potw1942a/"
+      },
+      {
+        "text": "Its arms show sites of new star formation",
+        "source": "https://esahubble.org/images/potw1942a/"
+      },
+      {
+        "text": "Studying other galaxies helps us learn the structure of our own",
+        "source": "https://esahubble.org/images/potw1942a/"
+      },
+      {
+        "text": "IC 4653 is an inactive control galaxy in the LLAMA sample",
+        "source": "https://ar5iv.labs.arxiv.org/html/2105.05309"
+      },
+      {
+        "text": "The galaxies in this program are AGN hosts and matched inactive control galaxies, imaged to balance an archive weighted toward the AGN",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15181/"
+      }
+    ]
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "id": "sn2011fh-hubble",
+  "name": "NGC 4806, SN 2011fh field (Hubble)",
+  "blurb": "NGC 4806, a spiral galaxy that hosted SN 2011fh, seen by Hubble.",
+  "label": "sn2011fh-hubble",
+  "spec": "HST|SN2011FH|14149|WFC3/UVIS|sn2011fh-hubble",
+  "find": [
+    "HST|14149|SN2011FH"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "SN 2011fh",
+    "NGC 4806",
+    "Type IIn supernova",
+    "supernova",
+    "spiral galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "In one of the spiral arms of NGC 4806, a young and massive star gave rise to SN 2011fh, a luminous outburst much like the puzzling SN 2009ip. When Hubble checked the site years later, a bright source was still shining there.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "SN 2011fh lies in NGC 4806",
+        "source": "https://tamkin3.eps.harvard.edu/cbet/002700/CBET002799.txt"
+      },
+      {
+        "text": "SN 2011fh is in one of the spiral arms of the spiral galaxy NGC 4806",
+        "source": "https://ar5iv.labs.arxiv.org/html/2110.09546"
+      },
+      {
+        "text": "A young and massive star gave rise to a luminous SN 2009ip-like event",
+        "source": "https://arxiv.org/abs/2110.09546"
+      },
+      {
+        "text": "SN 2011fh was classified as a Type IIn supernova",
+        "source": "https://tamkin3.eps.harvard.edu/cbet/002700/CBET002799.txt"
+      },
+      {
+        "text": "Hubble observations in 2016 (program 14149) still found a bright source at the site",
+        "source": "https://ar5iv.labs.arxiv.org/html/2110.09546"
+      }
+    ]
+  }
+}

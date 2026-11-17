@@ -1,0 +1,45 @@
+{
+  "id": "ngc3348-hubble",
+  "name": "NGC 3348 (Hubble)",
+  "blurb": "NGC 3348, a giant elliptical galaxy, seen by Hubble.",
+  "label": "ngc3348-hubble",
+  "spec": "HST|NGC3348|9427|ACS/WFC|ngc3348-hubble",
+  "find": [
+    "HST|9427|NGC3348"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "elliptical galaxy",
+    "giant elliptical galaxy",
+    "brightest cluster galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "NGC 3348 is a giant elliptical galaxy at the heart of its group, wrapped in a swarm of globular star clusters. Hubble studied those clusters and found, as in the other giant galaxies of the survey, that they fall into two distinct families.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "NGC 3348 is one of eight brightest cluster galaxies imaged with ACS; its cluster or group is CfA 69",
+        "source": "https://arxiv.org/pdf/astro-ph/0508195"
+      },
+      {
+        "text": "The targets are giant ellipticals at the centers of their clusters",
+        "source": "https://arxiv.org/pdf/astro-ph/0508195"
+      },
+      {
+        "text": "Globular clusters of NGC 3348 were measured in the study",
+        "source": "https://arxiv.org/pdf/astro-ph/0508195"
+      },
+      {
+        "text": "The globular cluster systems of all eight galaxies show strongly bimodal color distributions",
+        "source": "https://arxiv.org/abs/astro-ph/0508195"
+      }
+    ]
+  }
+}

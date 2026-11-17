@@ -1,0 +1,46 @@
+{
+  "id": "kk17-hubble",
+  "name": "KK 17 (Hubble)",
+  "blurb": "KK 17, a dwarf irregular galaxy, seen by Hubble.",
+  "label": "kk17-hubble",
+  "spec": "HST|KK17|10210|ACS/WFC|kk17-hubble",
+  "find": [
+    "HST|10210|KK17"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "KK17",
+    "dwarf galaxy",
+    "irregular galaxy",
+    "Magellanic irregular",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "KK 17 is a faint dwarf with only weak signs of young stars, traveling in a loose association with the galaxies NGC 784 and UGC 1281. Hubble measured its distance to ask whether groups of dwarf galaxies are pools of mostly dark matter.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "KK 17 is a Magellanic irregular galaxy",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/list/10210/"
+      },
+      {
+        "text": "KK 17 is a dwarf with only weak signs of young (Population I) stars",
+        "source": "https://ar5iv.arxiv.org/html/astro-ph/0603380"
+      },
+      {
+        "text": "KK 17 belongs to the 17+6 association with NGC 784 and UGC 1281",
+        "source": "https://ar5iv.arxiv.org/html/astro-ph/0603380"
+      },
+      {
+        "text": "Hubble program 10210 'Groups of Dwarf Galaxies: Pools of Mostly Dark Matter?' measured distances to dwarf galaxies in dwarf groups",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/list/10210/"
+      }
+    ]
+  }
+}

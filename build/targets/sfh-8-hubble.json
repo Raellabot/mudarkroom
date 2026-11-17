@@ -1,0 +1,48 @@
+{
+  "id": "sfh-8-hubble",
+  "name": "Small Magellanic Cloud, field SFH-8 (Hubble)",
+  "blurb": "SFH-8, a star field in the Small Magellanic Cloud, seen by Hubble.",
+  "label": "sfh8-hubble",
+  "spec": "HST|SFH-8|10396|ACS/WFC|sfh8-hubble",
+  "find": [
+    "HST|10396|SFH-8"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "SFH-8",
+    "Small Magellanic Cloud",
+    "SMC",
+    "SMC field",
+    "star field",
+    "dwarf galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A crowd of stars in the Small Magellanic Cloud, a satellite of the Milky Way. Hubble's field pointings here were meant to reconstruct the Small Cloud's star formation history and look for bursts of star formation expected when it interacts with the Large Magellanic Cloud or the Milky Way.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "SFH-8 is one of the Small Magellanic Cloud field pointings of program 10396",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/10396/"
+      },
+      {
+        "text": "The Small Magellanic Cloud is a satellite of the Milky Way",
+        "source": "https://www.nasa.gov/universe/galaxies/magellanic-clouds/"
+      },
+      {
+        "text": "The field pointings were meant to reconstruct the SMC's star formation history",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/10396/"
+      },
+      {
+        "text": "The program looked for enhanced star formation expected from SMC interactions with the LMC or Milky Way",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/10396/"
+      }
+    ]
+  }
+}

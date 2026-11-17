@@ -1,0 +1,41 @@
+{
+  "id": "sn-2011b-hubble",
+  "name": "NGC 2655, SN 2011B field (Hubble)",
+  "blurb": "NGC 2655, a galaxy that hosted the Type Ia supernova SN 2011B, seen by Hubble.",
+  "label": "sn2011b-hubble",
+  "spec": "HST|SN-2011B|13029|WFC3/UVIS|sn2011b-hubble",
+  "find": [
+    "HST|13029|SN-2011B"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "SN 2011B",
+    "Type Ia supernova",
+    "supernova host",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "SN 2011B, a Type Ia supernova, was caught near its peak brightness in this galaxy. Hubble came back to the site to learn what feeds the faint glow that lingers long after such explosions.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "SN 2011B appeared in NGC 2655",
+        "source": "https://tamkin3.eps.harvard.edu/cbet/002600/CBET002625.txt"
+      },
+      {
+        "text": "It was a Type Ia supernova observed near maximum light",
+        "source": "https://tamkin3.eps.harvard.edu/cbet/002600/CBET002625.txt"
+      },
+      {
+        "text": "Hubble program 13029 sought late-time photometry of supernova sites",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/13029/"
+      }
+    ]
+  }
+}

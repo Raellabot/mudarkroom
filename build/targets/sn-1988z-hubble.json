@@ -1,0 +1,50 @@
+{
+  "id": "sn-1988z-hubble",
+  "name": "MCG +03-28-022, SN 1988Z field (Hubble)",
+  "blurb": "MCG +03-28-022, a galaxy that hosted the supernova SN 1988Z, seen by Hubble.",
+  "label": "sn1988z-hubble",
+  "spec": "HST|SN-1988Z|13029|WFC3/UVIS|sn1988z-hubble",
+  "find": [
+    "HST|13029|SN-1988Z"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "SN 1988Z",
+    "Zw 095-049",
+    "supernova host",
+    "Type IIn supernova",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Here SN 1988Z, a Type IIn supernova, blazed as its shock slammed into shells of gas the doomed star had cast off, likely a very massive star. Hubble returned to the site long afterward to see what light still lingers.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "SN 1988Z was discovered in MCG +03-28-022, also called Zw 095-049",
+        "source": "https://ar5iv.labs.arxiv.org/html/astro-ph/0208190"
+      },
+      {
+        "text": "SN 1988Z is a Type IIn supernova",
+        "source": "https://ar5iv.labs.arxiv.org/html/astro-ph/0208190"
+      },
+      {
+        "text": "Its shock interacted strongly with a circumstellar shell",
+        "source": "https://ar5iv.labs.arxiv.org/html/astro-ph/0208190"
+      },
+      {
+        "text": "It arose from a very massive star",
+        "source": "https://ar5iv.labs.arxiv.org/html/astro-ph/0208190"
+      },
+      {
+        "text": "Hubble program 13029 imaged the site to obtain late-time photometry",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/13029/"
+      }
+    ]
+  }
+}

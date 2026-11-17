@@ -1,0 +1,47 @@
+{
+  "id": "cl1301-1-hubble",
+  "name": "CL1301.7-1139 outskirts (Hubble)",
+  "blurb": "An outskirts field of the galaxy cluster CL1301.7-1139, seen by Hubble.",
+  "label": "cl13011-hubble",
+  "spec": "HST|CL1301-1|13393|ACS/WFC|cl13011-hubble",
+  "find": [
+    "HST|13393|CL1301-1"
+  ],
+  "type": "Galaxy cluster",
+  "aliases": [
+    "CL1301-1",
+    "CL1301",
+    "CL1301.7-1139",
+    "EDisCS",
+    "galaxy cluster",
+    "cluster outskirts"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "On the outskirts of a distant galaxy cluster, galaxies are still arriving; Hubble surveyed this infall region to see how spiral galaxies are transformed into lenticulars.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "CL1301.7-1139 is a galaxy cluster in the ESO Distant Cluster Survey (EDisCS)",
+        "source": "https://ar5iv.labs.arxiv.org/html/1506.02051"
+      },
+      {
+        "text": "CL1301-1 is a Hubble pointing of program 13393, which imaged positions in the outskirts of intermediate-redshift galaxy clusters",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/13393/"
+      },
+      {
+        "text": "Program 13393 studies galaxy transformation in the infall regions of clusters",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/13393/"
+      },
+      {
+        "text": "The program seeks what transforms spiral galaxies into lenticular (S0) galaxies",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/13393/"
+      }
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "id": "ugc-06138-hubble",
+  "name": "UGC 6138 (Hubble)",
+  "blurb": "UGC 6138, a massive low surface brightness galaxy, seen by Hubble.",
+  "label": "ugc06138-hubble",
+  "spec": "HST|UGC-06138|10550|ACS/WFC|ugc06138-hubble",
+  "find": [
+    "HST|10550|UGC-06138"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "UGC 06138",
+    "low surface brightness galaxy",
+    "LSB galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "This faint, diffuse galaxy spreads its light thinly across the sky. Hubble searched it for globular clusters, whose presence or absence can reveal how such galaxies formed and evolved.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "UGC 6138 is one of six massive low surface brightness (LSB) galaxies targeted by program 10550",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/10550/"
+      },
+      {
+        "text": "The program studies the galaxies' globular clusters to constrain how LSB galaxies formed and evolved",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/10550/"
+      }
+    ]
+  }
+}

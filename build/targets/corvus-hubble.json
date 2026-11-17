@@ -1,0 +1,57 @@
+{
+  "id": "corvus-hubble",
+  "name": "Corvus A (Hubble)",
+  "blurb": "Corvus A, a small isolated dwarf galaxy just beyond the Local Group, seen by Hubble.",
+  "label": "corvus-hubble",
+  "spec": "HST|CORVUS|17514|ACS/WFC|corvus-hubble",
+  "find": [
+    "HST|17514|CORVUS"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "CORVUS",
+    "Corvus",
+    "dwarf galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Corvus A is a lonely little galaxy with no larger neighbor, holding a mix of young and old stars. Hubble resolved its stars and found that it appears to have only recently stopped forming new ones.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "The target CORVUS of program 17514 is the galaxy Corvus A",
+        "source": "https://arxiv.org/abs/2509.16307"
+      },
+      {
+        "text": "Corvus A is a low-mass, gas-rich dwarf galaxy",
+        "source": "https://arxiv.org/abs/2407.03393"
+      },
+      {
+        "text": "Corvus A is isolated, with no known galaxy nearby",
+        "source": "https://arxiv.org/abs/2407.03393"
+      },
+      {
+        "text": "Corvus A has no larger neighboring galaxy and ranks among the most isolated faint dwarfs",
+        "source": "https://arxiv.org/html/2509.16307v1"
+      },
+      {
+        "text": "Corvus A lies just beyond the Local Group",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/17514/"
+      },
+      {
+        "text": "Corvus A contains a mix of young and old stars",
+        "source": "https://arxiv.org/html/2509.16307v1"
+      },
+      {
+        "text": "Corvus A appears to have recently stopped forming stars",
+        "source": "https://arxiv.org/html/2509.16307v1"
+      }
+    ]
+  }
+}

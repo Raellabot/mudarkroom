@@ -1,0 +1,36 @@
+{
+  "id": "eso540-014-hubble",
+  "name": "ESO 540-014 (Hubble)",
+  "blurb": "ESO 540-014, a nearby galaxy, seen by Hubble.",
+  "label": "eso540014-hubble",
+  "spec": "HST|ESO540-014|12591|ACS/WFC|eso540014-hubble",
+  "find": [
+    "HST|12591|ESO540-014"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "ESO540-014",
+    "galaxy",
+    "irregular galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Astronomers picked ESO 540-014 as a quiet, rounded galaxy to search for a slowly feeding black hole, but Hubble's sharper view showed an irregular shape instead.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "ESO 540-014 was a target of a Hubble snapshot survey of faint nearby spheroidal galaxies, searching for low-level black hole accretion and nuclear star clusters",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/12591/"
+      },
+      {
+        "text": "Hubble's ACS images showed ESO 540-014 has irregular or non-early-type morphology",
+        "source": "https://ar5iv.labs.arxiv.org/html/1406.6697"
+      }
+    ]
+  }
+}

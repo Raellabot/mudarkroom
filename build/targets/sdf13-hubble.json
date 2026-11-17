@@ -1,0 +1,41 @@
+{
+  "id": "sdf13-hubble",
+  "name": "SDF13 field (Hubble)",
+  "blurb": "A deep field toward distant galaxies in the Subaru Deep Field, seen by Hubble.",
+  "label": "sdf13-hubble",
+  "spec": "HST|SDF13|12616|WFC3/IR|sdf13-hubble",
+  "find": [
+    "HST|12616|SDF13"
+  ],
+  "type": "Deep field",
+  "aliases": [
+    "Subaru Deep Field",
+    "SDF",
+    "deep field",
+    "distant galaxies"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Hubble stared into this patch of the Subaru Deep Field to study some of the most distant galaxies confirmed there by spectroscopy. Their faint starlight helps reveal the physical nature of these remote galaxies.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "SDF13 is a pointing of Hubble program 12616 in the Subaru Deep Field",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/12616/"
+      },
+      {
+        "text": "The program targeted spectroscopically confirmed distant galaxies in the Subaru Deep Field to characterize their physical properties",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/12616/"
+      },
+      {
+        "text": "The resulting study covered spectroscopically confirmed galaxies at z >= 6 with WFC3 near-IR imaging",
+        "source": "https://arxiv.org/abs/1303.0024"
+      }
+    ]
+  }
+}

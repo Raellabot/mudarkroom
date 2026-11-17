@@ -1,0 +1,51 @@
+{
+  "id": "ngc1281-hubble",
+  "name": "NGC 1281 (Hubble)",
+  "blurb": "NGC 1281, a compact elliptical galaxy in the Perseus Cluster, seen by Hubble.",
+  "label": "ngc1281-hubble",
+  "spec": "HST+HST|NGC1281+NGC1281|13050+13050|WFC3/IR+WFC3/UVIS|ngc1281-hubble",
+  "find": [
+    "HST|13050|NGC1281"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "NGC1281",
+    "compact elliptical galaxy",
+    "early-type galaxy",
+    "elliptical galaxy",
+    "Perseus Cluster galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A small, dense elliptical galaxy in the Perseus Cluster, a nearby echo of the compact galaxies of the early universe. Its stars move as if wrapped in a massive halo of dark matter.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "NGC 1281 is a compact early-type galaxy in the Perseus Cluster with E5 (elliptical) classification",
+        "source": "https://ar5iv.labs.arxiv.org/html/1511.03131"
+      },
+      {
+        "text": "NGC 1281 is dark matter dominated, with a massive dark halo",
+        "source": "https://arxiv.org/abs/1511.03131v1"
+      },
+      {
+        "text": "NGC 1281 is a compact elliptical galaxy imaged by Hubble program GO-13050",
+        "source": "https://ar5iv.labs.arxiv.org/html/1701.05898"
+      },
+      {
+        "text": "Nearby compact elliptical galaxies are dense, are outliers today, and resemble the compact, massive, quiescent galaxies of the early universe (local analogues)",
+        "source": "https://arxiv.org/abs/1701.05898v2"
+      },
+      {
+        "text": "Hubble program 13050 'The Most Massive Black Holes in Small Galaxies' imaged NGC1281 to hunt for overmassive black holes in compact early-type galaxies",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/13050/"
+      }
+    ]
+  }
+}

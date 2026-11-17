@@ -1,0 +1,40 @@
+{
+  "id": "ngc3749-hubble",
+  "name": "NGC 3749 (Hubble)",
+  "blurb": "NGC 3749, a spiral galaxy, seen by Hubble.",
+  "label": "ngc3749-hubble",
+  "spec": "HST+HST|NGC3749+NGC3749|15181+15181|WFC3/IR+WFC3/UVIS|ngc3749-hubble",
+  "find": [
+    "HST|15181|NGC3749"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "spiral galaxy",
+    "emission line galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "NGC 3749 shows no known signs of activity at its heart, which is why astronomers use it as a control when studying especially active, luminous galaxies. Its light shows strong emission lines.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "NGC 3749 is a spiral galaxy (morphological type SA(s)a)",
+        "source": "https://www.aanda.org/articles/aa/full_html/2020/02/aa36321-19/T1.html"
+      },
+      {
+        "text": "NGC 3749 is an emission line galaxy that displays strong emission lines",
+        "source": "https://esahubble.org/images/potw1946a/"
+      },
+      {
+        "text": "NGC 3749 is classified as inactive with no known signs of nuclear activity, and has been used as a control in studies of especially active and luminous galaxies",
+        "source": "https://esahubble.org/images/potw1946a/"
+      }
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": "sn2009md-hubble",
+  "name": "NGC 3389, SN 2009md field (Hubble)",
+  "blurb": "NGC 3389, a spiral galaxy that hosted the faint supernova SN 2009md, seen by Hubble.",
+  "label": "sn2009md-hubble",
+  "spec": "HST|SN2009MD|12559|ACS/WFC|sn2009md-hubble",
+  "find": [
+    "HST|12559|SN2009MD"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "NGC 3389",
+    "SN 2009md",
+    "spiral galaxy",
+    "galaxy",
+    "supernova host"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "SN 2009md was a faint supernova, thought to come from a red supergiant near the lowest mass a star can have and still collapse and explode. Hubble returned after it faded to check that the star had disappeared.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "SN 2009md was discovered in the spiral galaxy NGC 3389",
+        "source": "https://arxiv.org/pdf/1011.6558"
+      },
+      {
+        "text": "SN 2009md is a faint supernova from a low mass progenitor, a likely red supergiant near the lower mass limit for core collapse",
+        "source": "https://arxiv.org/abs/1011.6558"
+      },
+      {
+        "text": "The program images faded core-collapse supernova sites to confirm the progenitors are gone; SN 2009md is a target",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/12559/"
+      }
+    ]
+  }
+}

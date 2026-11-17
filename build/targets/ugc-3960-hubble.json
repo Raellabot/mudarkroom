@@ -1,0 +1,46 @@
+{
+  "id": "ugc-3960-hubble",
+  "name": "UGC 3960 (Hubble)",
+  "blurb": "UGC 3960, a slowly rotating early-type galaxy, seen by Hubble.",
+  "label": "ugc3960-hubble",
+  "spec": "HST|UGC-3960|13324|WFC3/UVIS|ugc3960-hubble",
+  "find": [
+    "HST|13324|UGC-3960"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "UGC 03960",
+    "UGC03960",
+    "early-type galaxy",
+    "slow rotator",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "UGC 3960 is a slow rotator, its stars moving without the regular rotation of a disk. Hubble's sharp view found no flattened core at its center, a hint that gas helped build it.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "UGC 3960 is one of the 12 slowly rotating early-type galaxies (ATLAS3D slow rotators) imaged by HST program GO-13324",
+        "source": "https://ar5iv.labs.arxiv.org/html/2001.11277"
+      },
+      {
+        "text": "UGC 3960 was targeted as a low angular momentum early-type galaxy",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/13324/"
+      },
+      {
+        "text": "Hubble imaging showed the 12 newly imaged slow rotators, including UGC 3960, have core-less central light profiles, consistent with formation through accretion of counter-rotating gas or gas-rich mergers",
+        "source": "https://www.aanda.org/10.1051/0004-6361/201937040"
+      },
+      {
+        "text": "UGC 03960 is classified as a non-regular rotator",
+        "source": "https://ar5iv.labs.arxiv.org/html/2001.11277"
+      }
+    ]
+  }
+}

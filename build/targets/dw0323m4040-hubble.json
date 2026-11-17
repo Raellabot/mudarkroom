@@ -1,0 +1,44 @@
+{
+  "id": "dw0323m4040-hubble",
+  "name": "DW0323M4040 (Hubble)",
+  "blurb": "DW0323M4040, a dwarf elliptical galaxy, seen by Hubble.",
+  "label": "dw0323m4040-hubble",
+  "spec": "HST|DW0323M4040|18061|ACS/WFC|dw0323m4040-hubble",
+  "find": [
+    "HST|18061|DW0323M4040"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "dwarf elliptical galaxy",
+    "dwarf galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Hubble visited this small dwarf elliptical galaxy as part of a census of the satellite galaxies around nearby Milky Way-like galaxies. Resolving its individual stars lets astronomers measure how far away it is.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "DW0323M4040 is cataloged as a dwarf galaxy of elliptical morphology",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/list/18061/"
+      },
+      {
+        "text": "DW0323M4040 is a dwarf elliptical galaxy",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/18061/"
+      },
+      {
+        "text": "Hubble program 18061 is a census of satellite galaxies within Milky Way-like systems",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/18061/"
+      },
+      {
+        "text": "The program aims to resolve the dwarfs' stars to measure their distances",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/18061/"
+      }
+    ]
+  }
+}

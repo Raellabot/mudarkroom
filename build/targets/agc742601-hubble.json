@@ -1,0 +1,50 @@
+{
+  "id": "agc742601-hubble",
+  "name": "AGC 742601 (Hubble)",
+  "blurb": "AGC 742601, a gas-rich dwarf galaxy, seen by Hubble.",
+  "label": "agc742601-hubble",
+  "spec": "HST|AGC742601|13750|ACS/WFC|agc742601-hubble",
+  "find": [
+    "HST|13750|AGC742601"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "AGC742601",
+    "SHIELD galaxy",
+    "dwarf galaxy",
+    "gas-rich dwarf galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A little dwarf galaxy rich in hydrogen gas, first found by a radio survey. Hubble counted its red giant stars to measure how far away it lies.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "AGC 742601 is a SHIELD II target of Hubble program 13750, 'Fundamental Parameters of the SHIELD II Galaxies'",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/13750/"
+      },
+      {
+        "text": "SHIELD galaxies are gas-rich dwarf galaxies",
+        "source": "https://arxiv.org/pdf/2105.05100"
+      },
+      {
+        "text": "SHIELD galaxies were selected from the ALFALFA radio (HI) survey catalog",
+        "source": "https://arxiv.org/pdf/2105.05100"
+      },
+      {
+        "text": "The Hubble imaging was used to measure distances from the tip of the red giant branch",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/13750/"
+      },
+      {
+        "text": "A TRGB distance was measured for AGC 742601",
+        "source": "https://arxiv.org/pdf/2105.05100"
+      }
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "id": "ic-5052-trunc-hubble",
+  "name": "IC 5052 (Hubble)",
+  "blurb": "IC 5052, a barred spiral galaxy turned side-on, seen by Hubble.",
+  "label": "ic5052trunc-hubble",
+  "spec": "HST+HST|IC-5052-TRUNC+IC-5052-TRUNC|12196+12196|ACS/WFC+WFC3/UVIS|ic5052trunc-hubble",
+  "find": [
+    "HST|12196|IC-5052-TRUNC"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "IC 5052",
+    "barred spiral galaxy",
+    "edge-on galaxy",
+    "spiral galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "IC 5052 is a barred spiral galaxy turned side-on to us, its disk pressed into a thin blade of stars, with pockets of hot newborn stars along it. Hubble mapped its stars to trace the disk's truncation, the place where a galaxy's starlight suddenly drops off more steeply, as most disk galaxies show.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "IC 5052 is a barred spiral galaxy",
+        "source": "https://esahubble.org/images/potw1309a/"
+      },
+      {
+        "text": "IC 5052 is seen side-on",
+        "source": "https://esahubble.org/images/potw1309a/"
+      },
+      {
+        "text": "IC 5052 has pockets of hot newborn stars",
+        "source": "https://esahubble.org/images/potw1309a/"
+      },
+      {
+        "text": "The program targeted IC 5052 to study its disk truncation",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/12196/"
+      },
+      {
+        "text": "A disk truncation is where the light profile breaks to a steeper drop",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/12196/"
+      },
+      {
+        "text": "Most disk galaxies show a truncation",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/12196/"
+      },
+      {
+        "text": "The truncations are mapped with resolved stars",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/12196/"
+      }
+    ]
+  }
+}

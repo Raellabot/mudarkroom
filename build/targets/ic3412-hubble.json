@@ -1,0 +1,49 @@
+{
+  "id": "ic3412-hubble",
+  "name": "IC 3412 (Hubble)",
+  "blurb": "IC 3412, a dwarf galaxy in the Virgo Cluster, seen by Hubble.",
+  "label": "ic3412-hubble",
+  "spec": "HST|IC3412|17240|ACS/WFC|ic3412-hubble",
+  "find": [
+    "HST|17240|IC3412"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "IC3412",
+    "dwarf galaxy",
+    "galaxy",
+    "Virgo Cluster"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "IC 3412 is one of 11 dwarf galaxies in the Virgo Cluster that Hubble imaged in a search for the effects of ram pressure stripping, the push of the cluster's gas on a galaxy moving through it. That push can at first spark new stars and feed a massive black hole, so Hubble looked here for young stars and bright sources at the galaxy's heart.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "IC 3412 is a dwarf galaxy in the Virgo cluster",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/17240/"
+      },
+      {
+        "text": "Program 17240 observed 11 dwarf galaxies in the Virgo cluster to study their star formation and search for nuclear sources",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/17240/"
+      },
+      {
+        "text": "The program selected dwarf galaxies undergoing ram pressure stripping in the Virgo cluster",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/17240/"
+      },
+      {
+        "text": "Ram pressure stripping can at first boost star formation and accretion onto a massive black hole (AGN)",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/17240/"
+      },
+      {
+        "text": "Ram pressure comes from a galaxy moving through the gas within the Virgo cluster",
+        "source": "https://esahubble.org/images/potw2431a/"
+      }
+    ]
+  }
+}

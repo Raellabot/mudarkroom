@@ -1,0 +1,42 @@
+{
+  "id": "q1549-2-ir-hubble",
+  "name": "HS1549+1919 protocluster, field 2 (Hubble)",
+  "blurb": "A deep field toward the HS1549+1919 protocluster, seen by Hubble.",
+  "label": "q15492ir-hubble",
+  "spec": "HST|Q1549-2-IR|12959|WFC3/IR|q15492ir-hubble",
+  "find": [
+    "HST|12959|Q1549-2-IR"
+  ],
+  "type": "Deep field",
+  "aliases": [
+    "HS1549+1919",
+    "Q1549+19",
+    "protocluster",
+    "quasar field",
+    "deep field"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Around a hyperluminous quasar far across the universe, a crowd of galaxies is gathering into a future cluster. Hubble looked here to tell which faint galaxies truly leak ionizing light, and which are nearer galaxies caught in line with them.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "Program 12959 observed the Q1549+19 field",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/12959/"
+      },
+      {
+        "text": "The HS1549+1919 field holds a protocluster whose redshift spike coincides with a hyperluminous QSO",
+        "source": "https://ar5iv.labs.arxiv.org/html/1506.08201"
+      },
+      {
+        "text": "Hubble imaging was used to test apparent Lyman continuum emitters and remove low-redshift interlopers",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/12959/"
+      }
+    ]
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "id": "bc7-hubble",
+  "name": "BC7 (Hubble)",
+  "blurb": "BC7, a tiny isolated stellar system in the Virgo Cluster, seen by Hubble.",
+  "label": "bc7-hubble",
+  "spec": "HST|BC7|17267|ACS/WFC|bc7-hubble",
+  "find": [
+    "HST|17267|BC7"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "BC1224+1148",
+    "blue blob",
+    "stellar system",
+    "Virgo Cluster"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "BC7 belongs to a recently found class of tiny, isolated systems of young stars adrift in the hot gas of the Virgo Cluster. They likely formed from gas stripped out of a galaxy, and Hubble looked here to confirm this one and study its stars.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "BC7 (BC1224+1148) is a confirmed blue blob in the Virgo cluster",
+        "source": "https://arxiv.org/html/2411.14526"
+      },
+      {
+        "text": "Blue blobs are a recently discovered class of isolated, tiny stellar systems in the Virgo cluster",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/17267/"
+      },
+      {
+        "text": "Blue blobs are faint, isolated star-forming clouds embedded in the hot intracluster medium of the Virgo cluster, made of only young stars",
+        "source": "https://arxiv.org/html/2411.14526"
+      },
+      {
+        "text": "Blue blobs likely formed from gas stripped from galaxies",
+        "source": "https://arxiv.org/html/2411.14526"
+      },
+      {
+        "text": "Hubble program 17267 images three candidates, BC7 among them, to confirm them and study their properties",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/17267/"
+      }
+    ]
+  }
+}

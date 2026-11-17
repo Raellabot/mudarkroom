@@ -1,0 +1,46 @@
+{
+  "id": "fcc106-hubble",
+  "name": "FCC 106 (Hubble)",
+  "blurb": "FCC 106, a dwarf early-type galaxy in the Fornax Cluster, seen by Hubble.",
+  "label": "fcc106-hubble",
+  "spec": "HST|FCC106|10217|ACS/WFC|fcc106-hubble",
+  "find": [
+    "HST|10217|FCC106"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "FCC106",
+    "dwarf elliptical galaxy",
+    "dwarf galaxy",
+    "early-type galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "FCC 106 is one of 43 early-type galaxies that Hubble imaged across the Fornax Cluster, a survey built to show how life in a cluster shapes the galaxies within it.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "FCC 106 is a dwarf elliptical galaxy observed by the ACS Fornax Cluster Survey",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/list/10217/"
+      },
+      {
+        "text": "FCC 106 is an ACS Fornax Cluster Survey program galaxy, typed as a dwarf S0",
+        "source": "https://arxiv.org/pdf/astro-ph/0702320"
+      },
+      {
+        "text": "The ACS Fornax Cluster Survey imaged 43 early-type galaxies in the Fornax Cluster with Hubble",
+        "source": "https://ar5iv.arxiv.org/html/astro-ph/0702320"
+      },
+      {
+        "text": "The survey was designed to study the role of environment",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/list/10217/"
+      }
+    ]
+  }
+}

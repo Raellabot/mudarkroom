@@ -1,0 +1,46 @@
+{
+  "id": "a611ring-hubble",
+  "name": "A611RING Einstein ring (Hubble)",
+  "blurb": "A611RING, an Einstein ring of a distant star-forming galaxy, seen by Hubble.",
+  "label": "a611ring-hubble",
+  "spec": "HST|A611RING|13411|WFC3/IR|a611ring-hubble",
+  "find": [
+    "HST|13411|A611RING"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "A611RING",
+    "Einstein ring",
+    "gravitational lens",
+    "lensed galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "The gravity of an elliptical galaxy bends the light of a far more distant galaxy into a ring, and Hubble came to dissect the intensely star-forming clumps inside it.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "A611RING is the target of Hubble program 13411, an Einstein ring",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/13411/"
+      },
+      {
+        "text": "The ring is the gravitationally lensed image of a star-forming galaxy",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/13411/"
+      },
+      {
+        "text": "The lens is an elliptical galaxy",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/13411/"
+      },
+      {
+        "text": "The program studies the intensely star-forming clumps in the lensed galaxy",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/13411/"
+      }
+    ]
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "id": "ic2146-hubble",
+  "name": "IC 2146 (Hubble)",
+  "blurb": "IC 2146, an intermediate-age star cluster in the Large Magellanic Cloud, seen by Hubble.",
+  "label": "ic2146-hubble",
+  "spec": "HST|IC2146|9891|ACS/WFC|ic2146-hubble",
+  "find": [
+    "HST|9891|IC2146"
+  ],
+  "type": "Star cluster",
+  "aliases": [
+    "star cluster",
+    "Large Magellanic Cloud cluster",
+    "LMC cluster"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A cluster of stars in the Large Magellanic Cloud. Astronomers searched it for signs of more than one stellar population, as seen in many clusters of similar age there, and found no spread within their measurements.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "IC 2146 is one of 16 intermediate-age LMC clusters studied for multiple stellar populations",
+        "source": "https://www.aanda.org/articles/aa/abs/2009/15/aa10870-08/aa10870-08.html"
+      },
+      {
+        "text": "Many (11 of 16) intermediate-age LMC clusters show an anomalous spread or split around the turnoff",
+        "source": "https://arxiv.org/abs/0810.2558"
+      },
+      {
+        "text": "IC 2146's color-magnitude diagram shows no evidence of spread or bimodality",
+        "source": "https://www.aanda.org/articles/aa/abs/2009/15/aa10870-08/aa10870-08.html"
+      },
+      {
+        "text": "IC 2146 is an LMC cluster imaged with ACS in program 9891",
+        "source": "https://ar5iv.labs.arxiv.org/html/1806.04805"
+      },
+      {
+        "text": "LMC stands for the Large Magellanic Cloud",
+        "source": "https://ar5iv.labs.arxiv.org/html/astro-ph/0404247"
+      }
+    ]
+  }
+}

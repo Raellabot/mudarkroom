@@ -1,0 +1,51 @@
+{
+  "id": "sn2015ap-hubble",
+  "name": "IC 1776, SN 2015ap field (Hubble)",
+  "blurb": "IC 1776, a galaxy that hosted the Type Ib supernova SN 2015ap, seen by Hubble.",
+  "label": "sn2015ap-hubble",
+  "spec": "HST|SN2015AP|16024|WFC3/UVIS|sn2015ap-hubble",
+  "find": [
+    "HST|16024|SN2015AP"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "SN 2015ap",
+    "PSN J02051332+0606084",
+    "IC 1776",
+    "Type Ib supernova",
+    "supernova host",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "SN 2015ap, a stripped-envelope Type Ib supernova whose early light showed strong helium lines, went off in this galaxy. Hubble returned to the quiet site long after the blast faded.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "SN 2015ap (PSN J02051332+0606084) occurred in IC 1776",
+        "source": "https://tamkin3.eps.harvard.edu/cbet/004100/CBET004190.txt"
+      },
+      {
+        "text": "SN 2015ap is a Type Ib supernova",
+        "source": "https://tamkin3.eps.harvard.edu/cbet/004100/CBET004190.txt"
+      },
+      {
+        "text": "Early spectra of SN 2015ap show prominent helium lines",
+        "source": "https://arxiv.org/abs/2006.09810"
+      },
+      {
+        "text": "SN 2015ap is a stripped-envelope supernova",
+        "source": "https://arxiv.org/abs/2006.09810"
+      },
+      {
+        "text": "Hubble program 16024 imaged the site of SN 2015ap",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/16024/"
+      }
+    ]
+  }
+}

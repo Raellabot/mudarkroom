@@ -1,0 +1,45 @@
+{
+  "id": "perseuscluster1-hubble",
+  "name": "Perseus Cluster field 1 (Hubble)",
+  "blurb": "A field in the core of the Perseus Cluster, seen by Hubble.",
+  "label": "perseuscluster1-hubble",
+  "spec": "HST|PERSEUSCLUSTER1|10201|ACS/WFC|perseuscluster1-hubble",
+  "find": [
+    "HST|10201|PERSEUSCLUSTER1"
+  ],
+  "type": "Galaxy cluster",
+  "aliases": [
+    "Perseus Cluster",
+    "Abell 426",
+    "galaxy cluster",
+    "dwarf galaxies"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Among the big galaxies of this rich cluster drift faint, smooth dwarf galaxies. Hubble surveyed the cluster's core to learn how such small galaxies hold together against the cluster's pull.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "PERSEUSCLUSTER1 is a Hubble program 10201 target in the Perseus Cluster, a rich cluster of galaxies",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/list/10201/"
+      },
+      {
+        "text": "The Perseus Cluster is also known as Abell 426 and is one of the richest nearby galaxy clusters",
+        "source": "https://ar5iv.arxiv.org/html/0811.3197"
+      },
+      {
+        "text": "Hubble ACS imaging (F555W, F814W) of fields in the Perseus Cluster core was used to study its dwarf galaxies",
+        "source": "https://ar5iv.arxiv.org/html/0811.3197"
+      },
+      {
+        "text": "The Perseus core dwarfs look smooth, and some need a large dark matter halo to avoid being disrupted by the cluster",
+        "source": "https://arxiv.org/abs/0811.3197"
+      }
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": "sn2008cn-hubble",
+  "name": "NGC 4603, SN 2008cn field (Hubble)",
+  "blurb": "NGC 4603, a nearly face-on spiral galaxy that hosted the Type II-plateau supernova SN 2008cn, seen by Hubble.",
+  "label": "sn2008cn-hubble",
+  "spec": "HST|SN2008CN|12262|ACS/WFC|sn2008cn-hubble",
+  "find": [
+    "HST|12262|SN2008CN"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "NGC 4603",
+    "SN 2008cn",
+    "spiral galaxy",
+    "galaxy",
+    "supernova host"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A supernova, SN 2008cn, once blazed in this nearly face-on spiral. Hubble returned after its glow had faded, to check whether the star suspected of exploding had vanished.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "SN 2008cn is a Type II-plateau supernova in NGC 4603",
+        "source": "https://arxiv.org/abs/0910.2275"
+      },
+      {
+        "text": "NGC 4603 is a nearly face-on spiral galaxy",
+        "source": "https://arxiv.org/pdf/0910.2275"
+      },
+      {
+        "text": "The program revisits core-collapse supernova sites after they fade to confirm the progenitors have disappeared; SN 2008cn is one of its targets",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/12262/"
+      }
+    ]
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "id": "ugca86-hubble",
+  "name": "UGCA 86 (Hubble)",
+  "blurb": "UGCA 86, a Magellanic-type irregular galaxy, seen by Hubble.",
+  "label": "ugca86-hubble",
+  "spec": "HST|UGCA86|9771|ACS/WFC|ugca86-hubble",
+  "find": [
+    "HST|9771|UGCA86"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "Magellanic-type irregular galaxy",
+    "irregular galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A small irregular galaxy that keeps company with the giant spiral IC 342. A prominent region of star formation, VII Zw 9, lies on its southern side.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "UGCA 86 is a Magellanic-type irregular galaxy",
+        "source": "https://ar5iv.arxiv.org/html/astro-ph/0511648"
+      },
+      {
+        "text": "A prominent region of star formation, VII Zw 9, lies on the southern side of UGCA 86",
+        "source": "https://ar5iv.arxiv.org/html/astro-ph/0511648"
+      },
+      {
+        "text": "UGCA 86 is a companion to the giant spiral IC 342",
+        "source": "https://ar5iv.arxiv.org/html/astro-ph/0511648"
+      },
+      {
+        "text": "UGCA 86 was imaged by Hubble ACS in program 9771",
+        "source": "https://ar5iv.arxiv.org/html/astro-ph/0511648"
+      }
+    ]
+  }
+}

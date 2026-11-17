@@ -1,0 +1,50 @@
+{
+  "id": "fcc152-hubble",
+  "name": "FCC 152 (Hubble)",
+  "blurb": "FCC 152, a lenticular galaxy in the Fornax Cluster, seen by Hubble.",
+  "label": "fcc152-hubble",
+  "spec": "HST|FCC152|10217|ACS/WFC|fcc152-hubble",
+  "find": [
+    "HST|10217|FCC152"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "FCC152",
+    "ESO 358-G25",
+    "lenticular galaxy",
+    "early-type galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "FCC 152 sits near the border between lenticular and spiral galaxies, a transition type among the 43 early-type galaxies Hubble surveyed in the Fornax Cluster.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "FCC 152 is a lenticular galaxy observed by the ACS Fornax Cluster Survey",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/list/10217/"
+      },
+      {
+        "text": "FCC 152 is also ESO 358-G25, type S0/a pec",
+        "source": "https://arxiv.org/pdf/astro-ph/0702320"
+      },
+      {
+        "text": "FCC 152 is an S0/a transition-type galaxy",
+        "source": "https://arxiv.org/pdf/astro-ph/0702320"
+      },
+      {
+        "text": "The ACS Fornax Cluster Survey imaged 43 early-type galaxies in the Fornax Cluster with Hubble",
+        "source": "https://ar5iv.arxiv.org/html/astro-ph/0702320"
+      },
+      {
+        "text": "The survey was designed to study the role of environment",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/list/10217/"
+      }
+    ]
+  }
+}

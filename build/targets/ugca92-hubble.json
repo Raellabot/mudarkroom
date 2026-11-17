@@ -1,0 +1,54 @@
+{
+  "id": "ugca92-hubble",
+  "name": "UGCA 92 (Hubble)",
+  "blurb": "UGCA 92, a dwarf irregular galaxy, seen by Hubble.",
+  "label": "ugca92-hubble",
+  "spec": "HST|UGCA92|9771|ACS/WFC|ugca92-hubble",
+  "find": [
+    "HST|9771|UGCA92"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "EGB 0427+63",
+    "dwarf irregular galaxy",
+    "irregular galaxy",
+    "dwarf galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A dwarf irregular galaxy glimpsed through a zone of strong extinction by the dust of our own galaxy, once even catalogued as a possible planetary nebula. It is often considered a companion of the starburst galaxy NGC 1569.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "UGCA 92 (EGB 0427+63) is a dwarf irregular galaxy",
+        "source": "https://ar5iv.labs.arxiv.org/html/1203.1397"
+      },
+      {
+        "text": "UGCA 92 was independently catalogued as a possible planetary nebula",
+        "source": "https://ar5iv.labs.arxiv.org/html/1203.1397"
+      },
+      {
+        "text": "UGCA 92 is often considered a companion of the starburst galaxy NGC 1569",
+        "source": "https://ar5iv.labs.arxiv.org/html/1203.1397"
+      },
+      {
+        "text": "UGCA 92 is situated in a zone of strong extinction",
+        "source": "https://ar5iv.arxiv.org/html/astro-ph/0511648"
+      },
+      {
+        "text": "The strong extinction is Galactic, i.e. from our own galaxy's dust",
+        "source": "https://ar5iv.labs.arxiv.org/html/1203.1397"
+      },
+      {
+        "text": "UGCA 92 was imaged by Hubble ACS in program 9771",
+        "source": "https://ar5iv.labs.arxiv.org/html/1203.1397"
+      }
+    ]
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "id": "agc205590-hubble",
+  "name": "AGC 205590 (Hubble)",
+  "blurb": "AGC 205590, a gas-rich dwarf galaxy, seen by Hubble.",
+  "label": "agc205590-hubble",
+  "spec": "HST|AGC205590|13750|ACS/WFC|agc205590-hubble",
+  "find": [
+    "HST|13750|AGC205590"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "AGC205590",
+    "SHIELD galaxy",
+    "dwarf galaxy",
+    "gas-rich dwarf galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A tiny dwarf galaxy, rich in hydrogen gas and found by a radio survey. Hubble looked for the brightest red giants among its stars to measure how far away it lies.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "AGC 205590 is a SHIELD II target of Hubble program 13750, 'Fundamental Parameters of the SHIELD II Galaxies'",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/13750/"
+      },
+      {
+        "text": "SHIELD galaxies are gas-rich dwarf galaxies",
+        "source": "https://arxiv.org/pdf/2105.05100"
+      },
+      {
+        "text": "SHIELD galaxies were selected from the ALFALFA radio (HI) survey catalog",
+        "source": "https://arxiv.org/pdf/2105.05100"
+      },
+      {
+        "text": "The Hubble imaging was used to measure distances from the tip of the red giant branch",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/13750/"
+      },
+      {
+        "text": "A TRGB distance was measured for AGC 205590",
+        "source": "https://arxiv.org/pdf/2105.05100"
+      }
+    ]
+  }
+}

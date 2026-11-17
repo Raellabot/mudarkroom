@@ -1,0 +1,46 @@
+{
+  "id": "vcc1488-hubble",
+  "name": "IC 3487 (Hubble)",
+  "blurb": "IC 3487, an elliptical galaxy in the Virgo Cluster, seen by Hubble.",
+  "label": "vcc1488-hubble",
+  "spec": "HST|VCC1488|9401|ACS/WFC|vcc1488-hubble",
+  "find": [
+    "HST|9401|VCC1488"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "VCC 1488",
+    "VCC1488",
+    "elliptical galaxy",
+    "galaxy",
+    "Virgo Cluster"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "IC 3487 is one of 100 early-type galaxies in the Virgo Cluster that Hubble imaged for the ACS Virgo Cluster Survey. The survey studied the globular clusters around each galaxy and measured distances from the subtle graininess of their starlight.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "VCC 1488 is IC 3487, morphological type E6:",
+        "source": "https://arxiv.org/pdf/astro-ph/0404138"
+      },
+      {
+        "text": "E types in the sample are elliptical galaxies",
+        "source": "https://arxiv.org/pdf/astro-ph/0404138"
+      },
+      {
+        "text": "The ACS Virgo Cluster Survey imaged 100 early-type galaxies in the Virgo Cluster",
+        "source": "https://arxiv.org/abs/astro-ph/0404138"
+      },
+      {
+        "text": "The survey studies globular clusters and measures distances with surface brightness fluctuations",
+        "source": "https://arxiv.org/abs/astro-ph/0404138"
+      }
+    ]
+  }
+}

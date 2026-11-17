@@ -1,0 +1,53 @@
+{
+  "id": "dw0317m4142-hubble",
+  "name": "N1291-DW8 (Hubble)",
+  "blurb": "N1291-DW8, a dwarf elliptical galaxy, seen by Hubble.",
+  "label": "dw0317m4142-hubble",
+  "spec": "HST|DW0317M4142|18061|WFC3/UVIS|dw0317m4142-hubble",
+  "find": [
+    "HST|18061|DW0317M4142"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "DW0317M4142",
+    "dwarf elliptical galaxy",
+    "dwarf galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "This small dwarf galaxy lies near the galaxy NGC 1291, where deep images turned up many faint dwarf galaxy candidates. Hubble visited it as part of a census of the satellite galaxies of nearby Milky Way-like galaxies, resolving its stars to measure how far away it is.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "N1291-DW8 is one of the dwarf galaxy candidates in deep wide-field images of NGC 1291, previously detected by earlier surveys",
+        "source": "https://ar5iv.labs.arxiv.org/html/2001.08342"
+      },
+      {
+        "text": "The NGC 1291 dwarf candidates concentrate toward NGC 1291",
+        "source": "https://ar5iv.labs.arxiv.org/html/2001.08342"
+      },
+      {
+        "text": "DW0317M4142 is a dwarf elliptical galaxy",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/18061/"
+      },
+      {
+        "text": "DW0317M4142 is cataloged as a dwarf galaxy of elliptical morphology",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/list/18061/"
+      },
+      {
+        "text": "Hubble program 18061 is a census of satellite galaxies within Milky Way-like systems",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/18061/"
+      },
+      {
+        "text": "The program aims to resolve the dwarfs' stars to measure their distances",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/18061/"
+      }
+    ]
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "id": "4c04-77-webb",
+  "name": "PKS 2201+044 (Webb)",
+  "blurb": "PKS 2201+044, an elliptical galaxy with an active nucleus and a jet, seen by Webb.",
+  "label": "4c0477-webb",
+  "spec": "JWST|4C04.77|9226|NIRCAM/IMAGE|4c0477-webb",
+  "find": [
+    "JWST|9226|4C04.77"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "4C +04.77",
+    "4C04.77",
+    "BL Lac object",
+    "active galaxy",
+    "galaxy jet",
+    "elliptical galaxy"
+  ],
+  "missions": [
+    "Webb"
+  ],
+  "story": "In the core of this nearby elliptical galaxy, an active nucleus launches a jet whose visible glow was discovered by Hubble. Webb revisited it as one of a legacy set of nearby optical jets, to help track how the jet's plasma moves.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "4C +04.77 is the common name of the source 2201+044 (J2204+0440) at 22h4m17.652s, +4d40'2.023\"",
+        "source": "https://www.cv.nrao.edu/MOJAVE/sourcepages/2201+044.shtml"
+      },
+      {
+        "text": "Webb program 9226 target 4C04.77 is an active galactic nucleus with a jet",
+        "source": "https://www.stsci.edu/jwst-program-info/download/jwst/pdf/9226/"
+      },
+      {
+        "text": "PKS 2201+044 is a nearby BL Lac object hosted in a prominent elliptical galaxy",
+        "source": "https://arxiv.org/pdf/astro-ph/9906462"
+      },
+      {
+        "text": "Hubble discovered the optical counterpart of its radio jet",
+        "source": "https://arxiv.org/pdf/astro-ph/9906462"
+      },
+      {
+        "text": "Webb program 9226 observes a legacy sample of 12 nearby optical jets to track plasma motion",
+        "source": "https://www.stsci.edu/jwst-program-info/download/jwst/pdf/9226/"
+      }
+    ]
+  }
+}

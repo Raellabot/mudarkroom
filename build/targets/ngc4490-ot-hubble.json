@@ -1,0 +1,52 @@
+{
+  "id": "ngc4490-ot-hubble",
+  "name": "NGC 4490, NGC4490-2011OT1 field (Hubble)",
+  "blurb": "NGC 4490, an interacting galaxy that hosted the luminous red nova NGC4490-2011OT1, seen by Hubble.",
+  "label": "ngc4490ot-hubble",
+  "spec": "HST|NGC4490-OT|15166|WFC3/UVIS|ngc4490ot-hubble",
+  "find": [
+    "HST|15166|NGC4490-OT"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "NGC4490-OT",
+    "NGC4490-2011OT1",
+    "PSN J12304185+4137498",
+    "Arp 260",
+    "luminous red nova",
+    "barred spiral galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "This outburst in NGC 4490 was first taken for a supernova impostor and is now counted among the luminous red novae, flares that astronomers think most likely come from a close pair of stars ejecting a shared envelope. NGC 4490 itself is tangled with its neighbor NGC 4485 in the pair known as Arp 260.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "NGC4490-2011OT1, also known as PSN J12304185+4137498, is a luminous red nova",
+        "source": "https://ar5iv.labs.arxiv.org/html/1906.00812"
+      },
+      {
+        "text": "It was first classified as an SN impostor",
+        "source": "https://ar5iv.labs.arxiv.org/html/1906.00812"
+      },
+      {
+        "text": "Common envelope ejection in a close binary is favored as the most likely explanation for luminous red novae",
+        "source": "https://arxiv.org/abs/1906.00812"
+      },
+      {
+        "text": "Host NGC 4490 is a barred spiral (SBcd) in an interacting pair with NGC 4485 known as Arp 260",
+        "source": "https://ar5iv.labs.arxiv.org/html/1906.00812"
+      },
+      {
+        "text": "Program 15166 images SN impostors",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15166/"
+      }
+    ]
+  }
+}

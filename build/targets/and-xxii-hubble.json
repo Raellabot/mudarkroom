@@ -1,0 +1,55 @@
+{
+  "id": "and-xxii-hubble",
+  "name": "Andromeda XXII (Hubble)",
+  "blurb": "Andromeda XXII, a faint dwarf spheroidal galaxy, seen by Hubble.",
+  "label": "andxxii-hubble",
+  "spec": "HST|AND-XXII|15902|ACS/WFC|andxxii-hubble",
+  "find": [
+    "HST|15902|AND-XXII"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "And XXII",
+    "AND-XXII",
+    "AND22",
+    "dwarf spheroidal galaxy",
+    "dwarf galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Found in the Pan-Andromeda Archaeological Survey, this faint dwarf galaxy lies closer on the sky to the Triangulum Galaxy than to Andromeda, and may be the first known satellite of Triangulum. Hubble imaged it in a census of Andromeda's whole family of satellites, to read the history of its star birth and mark a starting point for tracking its motion.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "Andromeda XXII is a dwarf galaxy discovered in the Pan-Andromeda Archaeological Survey (PAndAS)",
+        "source": "https://arxiv.org/abs/0909.0399"
+      },
+      {
+        "text": "Andromeda XXII is faint",
+        "source": "https://arxiv.org/abs/0909.0399"
+      },
+      {
+        "text": "It lies closer in projection to M33 (Triangulum) than to M31 (Andromeda)",
+        "source": "https://arxiv.org/abs/0909.0399"
+      },
+      {
+        "text": "It could be the first known satellite of the Triangulum Galaxy",
+        "source": "https://arxiv.org/abs/0909.0399"
+      },
+      {
+        "text": "Hubble program 15902 targets AND-XXII as a dwarf spheroidal galaxy",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15902/"
+      },
+      {
+        "text": "The program images the entire M31 satellite system for star formation histories and first-epoch proper-motion imaging",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15902/"
+      }
+    ]
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "id": "vcc-2037-hubble",
+  "name": "VCC 2037 (Hubble)",
+  "blurb": "VCC 2037, an irregular dwarf galaxy in front of the Virgo Cluster, seen by Hubble.",
+  "label": "vcc2037-hubble",
+  "spec": "HST|VCC-2037|12878|ACS/WFC|vcc2037-hubble",
+  "find": [
+    "HST|12878|VCC-2037"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "dwarf irregular galaxy",
+    "dwarf galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A small irregular dwarf galaxy hanging in front of the great Virgo Cluster. Hubble measured its distance from its brightest red giant stars, helping trace how galaxies here are falling toward the cluster.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "VCC 2037 is a target of Hubble program 12878, 'The Near Edge of Infall into the Virgo Cluster', which measures TRGB distances to galaxies in front of Virgo",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/12878/"
+      },
+      {
+        "text": "VCC 2037 is an irregular type dwarf galaxy",
+        "source": "https://ar5iv.labs.arxiv.org/html/1312.6769"
+      },
+      {
+        "text": "New TRGB distances place VCC 2037 in front of the Virgo Cluster",
+        "source": "https://ar5iv.labs.arxiv.org/html/1312.6769"
+      },
+      {
+        "text": "Distances and velocities of these galaxies exhibit infall toward the Virgo Cluster",
+        "source": "https://arxiv.org/abs/1312.6769"
+      }
+    ]
+  }
+}

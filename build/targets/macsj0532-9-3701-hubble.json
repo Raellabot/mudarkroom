@@ -1,0 +1,40 @@
+{
+  "id": "macsj0532-9-3701-hubble",
+  "name": "MACS J0532.9-3701 (Hubble)",
+  "blurb": "MACS J0532.9-3701, a galaxy cluster, seen by Hubble.",
+  "label": "macsj053293701-hubble",
+  "spec": "HST|MACSJ0532.9-3701|16670|ACS/WFC|macsj053293701-hubble",
+  "find": [
+    "HST|16670|MACSJ0532.9-3701"
+  ],
+  "type": "Galaxy cluster",
+  "aliases": [
+    "MACSJ0532.9-3701",
+    "galaxy cluster",
+    "cluster of galaxies"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "MACS J0532.9-3701 is a massive galaxy cluster, a vast gathering of galaxies that shines brightly in X-rays. Hubble took a quick snapshot to judge whether its gravity can serve as a natural telescope magnifying the distant universe.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "MACS J0532.9-3701 (MACSJ0532.9-3701) is a massive galaxy cluster targeted by Hubble program 16670",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/16670/"
+      },
+      {
+        "text": "Hubble program 16670 is a snapshot survey of extreme, X-ray luminous galaxy clusters, seeking powerful gravitational telescopes",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/16670/"
+      },
+      {
+        "text": "The program studies dark and luminous matter in cluster cores",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/16670/"
+      }
+    ]
+  }
+}

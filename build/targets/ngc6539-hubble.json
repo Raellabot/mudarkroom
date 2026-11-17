@@ -1,0 +1,39 @@
+{
+  "id": "ngc6539-hubble",
+  "name": "NGC 6539 (Hubble)",
+  "blurb": "NGC 6539, a globular cluster, seen by Hubble.",
+  "label": "ngc6539-hubble",
+  "spec": "HST|NGC6539|15232|WFC3/UVIS|ngc6539-hubble",
+  "find": [
+    "HST|15232|NGC6539"
+  ],
+  "type": "Star cluster",
+  "aliases": [
+    "globular cluster",
+    "star cluster"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Globular clusters are among the few places where nearly every process of stellar dynamics plays out within the age of the universe. Hubble watched NGC 6539 to follow how stars move in its center.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "NGC 6539 is a globular cluster targeted by Hubble program 15232",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15232/"
+      },
+      {
+        "text": "Globular clusters are the only systems that undergo nearly all processes of stellar dynamics within a Hubble time",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15232/"
+      },
+      {
+        "text": "The program measures 3D velocities of individual stars in the cluster centers",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15232/"
+      }
+    ]
+  }
+}

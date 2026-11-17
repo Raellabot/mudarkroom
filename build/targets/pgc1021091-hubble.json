@@ -1,0 +1,37 @@
+{
+  "id": "pgc1021091-hubble",
+  "name": "PGC 1021091 (Hubble)",
+  "blurb": "PGC 1021091, an early-type galaxy, seen by Hubble.",
+  "label": "pgc1021091-hubble",
+  "spec": "HST+HST|PGC1021091+PGC1021091|13050+13050|WFC3/IR+WFC3/UVIS|pgc1021091-hubble",
+  "find": [
+    "HST|13050|PGC1021091"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "PGC1021091",
+    "SGA 872949",
+    "early-type galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "An early-type galaxy with the catalog type S0-a. Hubble looked here while hunting for black holes that are oversized for their small hosts.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "Hubble program 13050 'The Most Massive Black Holes in Small Galaxies' imaged PGC1021091 to hunt for overmassive black holes in compact early-type galaxies",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/13050/"
+      },
+      {
+        "text": "PGC 1021091 has visual morphology S0-a; Siena Galaxy Atlas ID 872949",
+        "source": "https://sga.legacysurvey.org/group/PGC1021091"
+      }
+    ]
+  }
+}

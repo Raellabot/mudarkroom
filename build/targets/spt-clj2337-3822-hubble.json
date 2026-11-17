@@ -1,0 +1,44 @@
+{
+  "id": "spt-clj2337-3822-hubble",
+  "name": "SPT-CL J2337-3822 (Hubble)",
+  "blurb": "SPT-CL J2337-3822, a galaxy cluster, seen by Hubble.",
+  "label": "sptclj23373822-hubble",
+  "spec": "HST+HST|SPT-CLJ2337-3822+SPT-CLJ2337-3822|16017+16017|WFC3/IR+WFC3/UVIS|sptclj23373822-hubble",
+  "find": [
+    "HST|16017|SPT-CLJ2337-3822"
+  ],
+  "type": "Galaxy cluster",
+  "aliases": [
+    "SPT-CLJ2337-3822",
+    "galaxy cluster",
+    "cluster of galaxies"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A massive cluster of galaxies, picked from a catalog of more than 500 clusters found through the Sunyaev-Zel'dovich effect. Hubble surveyed clusters like this one to study how they bend light and how the giant galaxies at their hearts grow through mergers.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "SPT-CLJ2337-3822 is a target of Hubble program 16017, a snapshot survey of SPT galaxy clusters",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/16017/"
+      },
+      {
+        "text": "The program's clusters were selected from an SPT catalog of more than 500 clusters identified via the Sunyaev-Zel'dovich effect",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/16017/"
+      },
+      {
+        "text": "The imaging is used to study strong lensing and the growth of brightest cluster galaxies through mergers",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/16017/"
+      },
+      {
+        "text": "The clusters in the sample are massive",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/16017/"
+      }
+    ]
+  }
+}

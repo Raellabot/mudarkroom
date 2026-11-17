@@ -1,0 +1,54 @@
+{
+  "id": "n1309-hubble",
+  "name": "NGC 1309 (Hubble)",
+  "blurb": "NGC 1309, a face-on spiral galaxy, seen by Hubble.",
+  "label": "n1309-hubble",
+  "spec": "HST|N1309|12880|WFC3/UVIS|n1309-hubble",
+  "find": [
+    "HST|12880|N1309"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "N1309",
+    "SN 2002fk host",
+    "SN 2012Z host",
+    "spiral galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A spiral galaxy turned face-on toward us, home to two much-studied supernovae: SN 2002fk, a perfect example of a Type Ia supernova, and SN 2012Z, a renegade Type Iax. Hubble has turned its attention here several times.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "N1309 is a target of Hubble program 12880, 'The Hubble Constant: Completing HST's Legacy with WFC3'",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/12880/"
+      },
+      {
+        "text": "NGC 1309 is a face-on spiral galaxy",
+        "source": "https://esahubble.org/images/opo0607a/"
+      },
+      {
+        "text": "NGC 1309 hosted SN 2002fk in 2002 and SN 2012Z in 2012",
+        "source": "https://esahubble.org/images/potw2530a/"
+      },
+      {
+        "text": "SN 2002fk was a perfect example of a Type Ia supernova",
+        "source": "https://esahubble.org/images/potw2530a/"
+      },
+      {
+        "text": "SN 2012Z was a renegade, classified as a Type Iax supernova",
+        "source": "https://esahubble.org/images/potw2530a/"
+      },
+      {
+        "text": "Hubble has observed NGC 1309 several times",
+        "source": "https://esahubble.org/images/potw2530a/"
+      }
+    ]
+  }
+}

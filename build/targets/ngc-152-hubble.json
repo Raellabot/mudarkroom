@@ -1,0 +1,40 @@
+{
+  "id": "ngc-152-hubble",
+  "name": "NGC 152 (Hubble)",
+  "blurb": "NGC 152, an intermediate-age star cluster in the Small Magellanic Cloud, seen by Hubble.",
+  "label": "ngc152-hubble",
+  "spec": "HST|NGC-152|12908|WFC3/UVIS|ngc152-hubble",
+  "find": [
+    "HST|12908|NGC-152"
+  ],
+  "type": "Star cluster",
+  "aliases": [
+    "SMC star cluster",
+    "intermediate-age star cluster",
+    "star cluster"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A crowd of stars in the Small Magellanic Cloud. Hubble studied it to learn why some clusters like it seem to hold stars of a range of ages, rather than stars all born at once.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "NGC 152 is a target of Hubble program 12908, 'What Causes Extended Main Sequence Turn-offs in Intermediate-Age Star Clusters?', one of 3 Magellanic Cloud star clusters",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/12908/"
+      },
+      {
+        "text": "NGC 152 is an intermediate-age star cluster in the Small Magellanic Cloud",
+        "source": "https://core-prod.cambridgecore.org/core/journals/symposium-international-astronomical-union/article/similarities-of-the-intermediateage-smc-star-cluster-ngc-152-with-inner-disk-clusters-in-the-milky-way/865CA7BCF6824B5547FF58ADA2D48BEF"
+      },
+      {
+        "text": "The extended main sequence turn-off is better explained by a range of stellar ages",
+        "source": "https://ar5iv.labs.arxiv.org/html/1407.6957"
+      }
+    ]
+  }
+}

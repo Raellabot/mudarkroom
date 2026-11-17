@@ -1,0 +1,44 @@
+{
+  "id": "3-601-hubble",
+  "name": "3-601 (Hubble)",
+  "blurb": "3-601, a red-sequence galaxy studied for signs of dry mergers, seen by Hubble.",
+  "label": "3601-hubble",
+  "spec": "HST|3-601|10809|ACS/WFC|3601-hubble",
+  "find": [
+    "HST|10809|3-601"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "galaxy",
+    "red galaxy",
+    "red-sequence galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Hubble looked at this galaxy to learn how \"dry\" mergers, collisions between red, bulge-dominated galaxies, help shape today's most massive elliptical galaxies.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "3-601 is a target of Hubble program 10809, 'The nature of \"dry\" mergers in the nearby Universe'",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/10809/"
+      },
+      {
+        "text": "The program images red sequence galaxies, including ongoing dry mergers, remnants and undisturbed objects",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/10809/"
+      },
+      {
+        "text": "Dry mergers of red, bulge-dominated galaxies help shape today's most massive ellipticals",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/10809/"
+      },
+      {
+        "text": "The Hubble sample of this program consists of bright, bulge-dominated red galaxies",
+        "source": "https://arxiv.org/pdf/0802.2713"
+      }
+    ]
+  }
+}

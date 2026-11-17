@@ -1,0 +1,51 @@
+{
+  "id": "ps16aqy-hubble",
+  "name": "SN 2016aps field (Hubble)",
+  "blurb": "SN 2016aps field, the dwarf host galaxy of an extremely energetic supernova, seen by Hubble.",
+  "label": "ps16aqy-hubble",
+  "spec": "HST+HST|PS16AQY+PS16AQY|15709+15709|ACS/WFC+WFC3/UVIS|ps16aqy-hubble",
+  "find": [
+    "HST|15709|PS16AQY"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "SN 2016aps",
+    "PS16aqy",
+    "SN2016aps",
+    "supernova",
+    "dwarf galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "SN 2016aps was one of the most energetic supernovae ever recorded, possibly the death of a very massive star in dense surrounding gas. Hubble's images found its previously unseen host, which appears to be a dwarf galaxy, with the blast in its brightest star-forming region.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "PS16aqy is SN 2016aps",
+        "source": "https://ar5iv.labs.arxiv.org/html/2004.05840"
+      },
+      {
+        "text": "SN 2016aps radiated more energy than any other confirmed supernova (as of the paper)",
+        "source": "https://ar5iv.labs.arxiv.org/html/2004.05840"
+      },
+      {
+        "text": "It may come from a very massive star interacting with dense circumstellar material",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15709/"
+      },
+      {
+        "text": "Hubble imaging identified the previously undetected host galaxy, which appears to be a dwarf galaxy",
+        "source": "https://ar5iv.labs.arxiv.org/html/2004.05840"
+      },
+      {
+        "text": "The supernova occurred in the brightest star-forming region of its host",
+        "source": "https://ar5iv.labs.arxiv.org/html/2004.05840"
+      }
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "id": "df07-hubble",
+  "name": "Coma DF07 (Hubble)",
+  "blurb": "DF07, an ultra-diffuse galaxy in the Coma Cluster, seen by Hubble.",
+  "label": "df07-hubble",
+  "spec": "HST|DF07|15121|ACS/WFC|df07-hubble",
+  "find": [
+    "HST|15121|DF07"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "ultra-diffuse galaxy",
+    "UDG",
+    "Coma Cluster galaxy",
+    "Dragonfly",
+    "galaxy",
+    "DF07"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A faint, sprawling galaxy in the Coma Cluster, one of the extremely diffuse galaxies found in deep images taken with the Dragonfly Telephoto Array. Hubble looked here for its globular clusters, clues to how such ghostly galaxies formed.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "DF07 is an ultra-diffuse galaxy in the Coma cluster observed by Hubble program 15121",
+        "source": "https://ar5iv.labs.arxiv.org/html/2201.11750"
+      },
+      {
+        "text": "DF names come from the Dragonfly Coma cluster survey",
+        "source": "https://ar5iv.labs.arxiv.org/html/2201.11750"
+      },
+      {
+        "text": "The Dragonfly survey found extremely diffuse galaxies in deep images of the Coma cluster taken with the Dragonfly Telephoto Array",
+        "source": "https://arxiv.org/abs/1410.8141"
+      },
+      {
+        "text": "Program 15121 studies globular clusters in ultra-diffuse galaxies in the Coma region",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15121/"
+      }
+    ]
+  }
+}

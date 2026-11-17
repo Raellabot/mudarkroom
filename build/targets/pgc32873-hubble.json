@@ -1,0 +1,42 @@
+{
+  "id": "pgc32873-hubble",
+  "name": "PGC 32873 (Hubble)",
+  "blurb": "PGC 32873, a compact elliptical galaxy, seen by Hubble.",
+  "label": "pgc32873-hubble",
+  "spec": "HST+HST|PGC32873+PGC32873|13050+13050|WFC3/IR+WFC3/UVIS|pgc32873-hubble",
+  "find": [
+    "HST|13050|PGC32873"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "PGC32873",
+    "compact elliptical galaxy",
+    "early-type galaxy",
+    "elliptical galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "PGC 32873 is a small, dense elliptical galaxy, a nearby analog of the massive, quiescent galaxies of the early universe. Hubble imaged it to help weigh the black hole at its center.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "PGC 32873 is in a sample of nearby compact elliptical galaxies imaged with HST in program 13050",
+        "source": "https://ar5iv.labs.arxiv.org/html/1701.05898"
+      },
+      {
+        "text": "Nearby compact elliptical galaxies are local analogs of the high-redshift massive, quiescent galaxy population and have high central stellar mass densities",
+        "source": "https://ar5iv.labs.arxiv.org/html/1701.05898"
+      },
+      {
+        "text": "PGC 32873 is a nearby early-type galaxy targeted by HST to measure its black hole mass",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/13050/"
+      }
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "id": "macsj2046-0-3430-hubble",
+  "name": "MACS J2046.0-3430 (Hubble)",
+  "blurb": "MACS J2046.0-3430, a massive galaxy cluster, seen by Hubble.",
+  "label": "macsj204603430-hubble",
+  "spec": "HST|MACSJ2046.0-3430|12884|WFC3/IR|macsj204603430-hubble",
+  "find": [
+    "HST|12884|MACSJ2046.0-3430"
+  ],
+  "type": "Galaxy cluster",
+  "aliases": [
+    "MACSJ2046.0-3430",
+    "MACS J2046",
+    "MACS cluster",
+    "galaxy cluster"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A massive cluster of galaxies, found by its X-ray glow in the MACS survey. Clusters like this act as natural lenses, and Hubble's quick snapshots hunt among them for the bright, stretched arcs of galaxies far behind.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "MACSJ2046.0-3430 is a target of Hubble program 12884, 'A Snapshot Survey of The Most Massive Clusters of Galaxies'",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/12884/"
+      },
+      {
+        "text": "MACS clusters in the survey are X-ray selected and highly efficient gravitational lenses; a goal is discovering bright giant arcs",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/12884/"
+      },
+      {
+        "text": "MACSJ2046.0-3430 is one of the X-ray selected MACS clusters in the Hubble SNAPshot surveys, with a measured Chandra X-ray luminosity",
+        "source": "https://arxiv.org/pdf/1706.01263"
+      }
+    ]
+  }
+}

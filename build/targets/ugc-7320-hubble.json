@@ -1,0 +1,49 @@
+{
+  "id": "ugc-7320-hubble",
+  "name": "UGC 7320 (Hubble)",
+  "blurb": "UGC 7320, a galaxy thought to lie nearby, seen by Hubble.",
+  "label": "ugc7320-hubble",
+  "spec": "HST|UGC-7320|18070|ACS/WFC|ugc7320-hubble",
+  "find": [
+    "HST|18070|UGC-7320"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "UGC-7320",
+    "UGC07320",
+    "galaxy",
+    "nearby galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Hubble paused here for a quick snapshot in a survey of every galaxy thought to lie close to us that it had not yet observed. Picking out individual stars, down below the brightest red giants, lets astronomers measure how far away the galaxy is and read the ages of its stars.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "UGC 7320 (UGC-7320) is a target of Hubble program 18070",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/18070/"
+      },
+      {
+        "text": "Program 18070 targets are galaxies",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/18070/"
+      },
+      {
+        "text": "The program surveys galaxies thought to lie nearby that Hubble had not yet observed",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/18070/"
+      },
+      {
+        "text": "Resolving stars below the tip of the red giant branch gives distances",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/18070/"
+      },
+      {
+        "text": "The program studies stellar ages",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/18070/"
+      }
+    ]
+  }
+}

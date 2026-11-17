@@ -1,0 +1,44 @@
+{
+  "id": "ngc-4073-hubble",
+  "name": "NGC 4073 (Hubble)",
+  "blurb": "NGC 4073, the central elliptical galaxy of the galaxy group MKW 4, seen by Hubble.",
+  "label": "ngc4073-hubble",
+  "spec": "HST+HST|NGC-4073+NGC-4073|15265+15265|WFC3/IR+WFC3/UVIS|ngc4073-hubble",
+  "find": [
+    "HST|15265|NGC-4073"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "MKW 4 central galaxy",
+    "elliptical galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "NGC 4073 sits at the center of MKW 4, a group of galaxies bathed in hot gas that shines in X-rays. Hubble surveyed the globular clusters around it to learn how one of the most massive galaxies of today's universe was assembled.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "NGC 4073 is the central dominant galaxy of the galaxy group MKW 4",
+        "source": "https://arxiv.org/abs/astro-ph/0308255"
+      },
+      {
+        "text": "MKW 4 has a hot X-ray-emitting halo (studied by XMM-Newton)",
+        "source": "https://arxiv.org/abs/astro-ph/0308255"
+      },
+      {
+        "text": "NGC 4073 is an elliptical galaxy targeted by Hubble program 15265",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15265/"
+      },
+      {
+        "text": "Hubble program 15265 studies the globular cluster systems of the most massive MASSIVE Survey galaxies to trace their growth histories",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15265/"
+      }
+    ]
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "id": "ps1-a470041-hubble",
+  "name": "PS1-A470041 field (Hubble)",
+  "blurb": "A deep field toward the Pan-STARRS supernova PS1-A470041, seen by Hubble.",
+  "label": "ps1a470041-hubble",
+  "spec": "HST|PS1-A470041|13046|WFC3/IR|ps1a470041-hubble",
+  "find": [
+    "HST|13046|PS1-A470041"
+  ],
+  "type": "Deep field",
+  "aliases": [
+    "470041",
+    "Pan-STARRS supernova",
+    "RAISIN",
+    "supernova"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Hubble watched this patch of sky after Pan-STARRS caught a supernova here, following it in the light where Type Ia supernovae behave most like standard candles. Measurements like these chart cosmic expansion and could tell a cosmological constant from more exotic dark energy.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "PS1-A470041 was a Pan-STARRS supernova target of Hubble program 13046 (RAISIN)",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/13046/"
+      },
+      {
+        "text": "SN Ia are more nearly standard candles in the near infrared",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/13046/"
+      },
+      {
+        "text": "The work could distinguish a cosmological constant from exotic dark energy",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/13046/"
+      },
+      {
+        "text": "RAISIN followed Pan-STARRS supernovae with Hubble WFC3-IR",
+        "source": "https://ar5iv.labs.arxiv.org/html/2201.07801"
+      },
+      {
+        "text": "Transient 470041 sits at these coordinates in a host galaxy",
+        "source": "https://blast.scimma.org/transients/470041"
+      }
+    ]
+  }
+}

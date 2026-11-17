@@ -1,0 +1,44 @@
+{
+  "id": "ngc4206-hubble",
+  "name": "NGC 4206 (Hubble)",
+  "blurb": "NGC 4206, an edge-on spiral galaxy, seen by Hubble.",
+  "label": "ngc4206-hubble",
+  "spec": "HST|NGC4206|9765|ACS/WFC|ngc4206-hubble",
+  "find": [
+    "HST|9765|NGC4206"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "spiral galaxy",
+    "edge-on galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Vast streaks of dust run along this edge-on spiral, some hiding its central bulge, while clumps near its edges mark places where stars are being born.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "NGC 4206 is an edge-on spiral galaxy",
+        "source": "https://esahubble.org/images/potw1440a/"
+      },
+      {
+        "text": "Vast streaks of dust, some obscuring the central bulge",
+        "source": "https://esahubble.org/images/potw1440a/"
+      },
+      {
+        "text": "Clumps near the edges mark areas where stars are being born",
+        "source": "https://esahubble.org/images/potw1440a/"
+      },
+      {
+        "text": "NGC 4206 was a target of a Hubble snapshot survey of nearby edge-on spiral galaxies",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/list/9765/"
+      }
+    ]
+  }
+}

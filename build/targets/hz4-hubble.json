@@ -1,0 +1,50 @@
+{
+  "id": "hz4-hubble",
+  "name": "HZ4 field (Hubble)",
+  "blurb": "A deep field toward the distant galaxy HZ4, seen by Hubble.",
+  "label": "hz4-hubble",
+  "spec": "HST|HZ4|13641|WFC3/IR|hz4-hubble",
+  "find": [
+    "HST|13641|HZ4"
+  ],
+  "type": "Deep field",
+  "aliases": [
+    "HZ4",
+    "COSMOS",
+    "deep field",
+    "distant galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Somewhere in this deep frame is HZ4, an ordinary star-forming galaxy seen a billion years after the Big Bang, one of the few in its sample whose dust glow ALMA detected. Hubble mapped its starlight to compare with ALMA's view of its gas and dust.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "HZ4 is a galaxy in a sample of normal galaxies at 5<z<6 targeted by Hubble program 13641",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/13641/"
+      },
+      {
+        "text": "HZ4 lies in the COSMOS field",
+        "source": "https://arxiv.org/pdf/1503.07596"
+      },
+      {
+        "text": "These galaxies are seen a billion years after the Big Bang",
+        "source": "https://arxiv.org/abs/1503.07596"
+      },
+      {
+        "text": "Hubble mapped the galaxies' starlight to compare with ALMA measurements of their gas and dust",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/13641/"
+      },
+      {
+        "text": "HZ4 is one of the few galaxies in the sample detected in dust continuum",
+        "source": "https://arxiv.org/pdf/1503.07596"
+      }
+    ]
+  }
+}

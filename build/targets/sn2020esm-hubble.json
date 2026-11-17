@@ -1,0 +1,50 @@
+{
+  "id": "sn2020esm-hubble",
+  "name": "WISEA J140717.48-050726.1, SN 2020esm field (Hubble)",
+  "blurb": "WISEA J140717.48-050726.1, a star-forming irregular galaxy that hosted the Type Ia supernova SN 2020esm, seen by Hubble.",
+  "label": "sn2020esm-hubble",
+  "spec": "HST|SN2020ESM|16239|WFC3/UVIS|sn2020esm-hubble",
+  "find": [
+    "HST|16239|SN2020ESM"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "SN 2020esm",
+    "super-Chandrasekhar Type Ia supernova",
+    "Type Ia supernova",
+    "irregular galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "This star-forming irregular galaxy hosted SN 2020esm, one of the best-studied \"super-Chandrasekhar\" Type Ia supernovae. In its first days the explosion showed a nearly pure carbon and oxygen atmosphere.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "SN 2020esm's host is the star-forming irregular galaxy WISEA J140717.48-050726.1",
+        "source": "https://ar5iv.labs.arxiv.org/html/2112.09930"
+      },
+      {
+        "text": "SN 2020esm is one of the best-studied super-Chandrasekhar Type Ia supernovae",
+        "source": "https://arxiv.org/abs/2112.09930"
+      },
+      {
+        "text": "Its first spectra reveal a nearly pure carbon/oxygen atmosphere in the first days after explosion",
+        "source": "https://arxiv.org/abs/2112.09930"
+      },
+      {
+        "text": "Blast classifies 2020esm as SNIa-SC at the program's position",
+        "source": "https://blast.scimma.org/transients/2020esm/"
+      },
+      {
+        "text": "Hubble program 16239 imaged SN 2020esm",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/16239/"
+      }
+    ]
+  }
+}

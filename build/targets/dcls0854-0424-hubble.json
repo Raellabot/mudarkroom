@@ -1,0 +1,41 @@
+{
+  "id": "dcls0854-0424-hubble",
+  "name": "AGEL085413-042409 (Hubble)",
+  "blurb": "AGEL085413-042409, a gravitational lens, seen by Hubble.",
+  "label": "dcls08540424-hubble",
+  "spec": "HST+HST|DCLS0854-0424+DCLS0854-0424|16773+16773|WFC3/IR+WFC3/UVIS|dcls08540424-hubble",
+  "find": [
+    "HST|16773|DCLS0854-0424"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "DCLS0854-0424",
+    "gravitational lens",
+    "strong lens",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "What looks like a small spiral with curling arms is a cosmic mirage: the arms are two distant galaxies, each multiply imaged by the gravity of a single foreground galaxy.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "AGEL085413-042409A has a morphology reminiscent of spiral arms",
+        "source": "https://arxiv.org/html/2503.08041v1"
+      },
+      {
+        "text": "The arms are two distant galaxies multiply lensed by one foreground galaxy",
+        "source": "https://arxiv.org/html/2503.08041v1"
+      },
+      {
+        "text": "The Hubble image of this system is labeled DCLS0854-0424",
+        "source": "https://ar5iv.labs.arxiv.org/html/2503.08041"
+      }
+    ]
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "id": "ngc224-35kpca-hubble",
+  "name": "Andromeda Galaxy, outer halo field A (Hubble)",
+  "blurb": "A field in the outer halo of the Andromeda Galaxy (M31), seen by Hubble.",
+  "label": "ngc22435kpca-hubble",
+  "spec": "HST|NGC224-35KPCA|10816|ACS/WFC|ngc22435kpca-hubble",
+  "find": [
+    "HST|10816|NGC224-35KPCA"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "Andromeda Galaxy",
+    "Andromeda",
+    "M31",
+    "Messier 31",
+    "NGC 224",
+    "Andromeda halo",
+    "stellar halo",
+    "spiral galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Faint, scattered stars of Andromeda's extended halo, far out along the galaxy's minor axis. Their mix of ages is evidence that the halo was assembled piece by piece rather than in one early collapse.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "NGC224-35KPCA is one of the program's fields at 35 kpc in Andromeda's halo",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/10816/"
+      },
+      {
+        "text": "NGC 224 is the Andromeda Galaxy (the program targets Andromeda's halo under the name NGC224)",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/10816/"
+      },
+      {
+        "text": "M31 is the Andromeda Galaxy, a spiral galaxy",
+        "source": "https://science.nasa.gov/mission/hubble/science/explore-the-night-sky/hubble-messier-catalog/messier-31/"
+      },
+      {
+        "text": "The 35 kpc fields lie on the southeast minor axis of Andromeda, in the extended halo",
+        "source": "https://arxiv.org/abs/0808.2648"
+      },
+      {
+        "text": "Stars in the field have a spread of ages, evidence of hierarchical assembly rather than early monolithic collapse",
+        "source": "https://arxiv.org/abs/0808.2648"
+      }
+    ]
+  }
+}

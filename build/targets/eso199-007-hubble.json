@@ -1,0 +1,42 @@
+{
+  "id": "eso199-007-hubble",
+  "name": "ESO 199-G007 (Hubble)",
+  "blurb": "ESO 199-G007, a dwarf spiral galaxy, seen by Hubble.",
+  "label": "eso199007-hubble",
+  "spec": "HST|ESO199-007|12546|ACS/WFC|eso199007-hubble",
+  "find": [
+    "HST|12546|ESO199-007"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "ESO 199-007",
+    "HIPASS J0258-49",
+    "dwarf spiral galaxy",
+    "spiral galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A small spiral galaxy in our wider cosmic neighborhood, ESO 199-G007 was one of the nearby galaxies Hubble surveyed, reading the brightness of its red giant stars to help map the local universe in three dimensions.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "ESO 199-G007 (HIPASS J0258-49) is a dwarf spiral galaxy",
+        "source": "https://www.atnf.csiro.au/research/LVHIS/data/LVHIS013.info.html"
+      },
+      {
+        "text": "ESO 199-G007 is a Local Volume galaxy",
+        "source": "https://arxiv.org/pdf/1408.2609"
+      },
+      {
+        "text": "The program measured distances to nearby galaxies from the luminosities of red giant branch stars, to build 3D maps of galaxies",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/12546/"
+      }
+    ]
+  }
+}

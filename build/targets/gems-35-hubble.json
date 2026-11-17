@@ -1,0 +1,43 @@
+{
+  "id": "gems-35-hubble",
+  "name": "GEMS survey, field 35 (Hubble)",
+  "blurb": "GEMS field 35, one tile of a deep survey around the Chandra Deep Field South, seen by Hubble.",
+  "label": "gems35-hubble",
+  "spec": "HST|GEMS-35|9500|ACS/WFC|gems35-hubble",
+  "find": [
+    "HST|9500|GEMS-35"
+  ],
+  "type": "Deep field",
+  "aliases": [
+    "GEMS-35",
+    "GEMS",
+    "Galaxy Evolution from Morphologies and SEDs",
+    "Chandra Deep Field South",
+    "galaxy field",
+    "deep field"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "This tile is one piece of GEMS, a Hubble survey centered on the Chandra Deep Field South. Across its many tiles, GEMS measured the shapes of nearly 10,000 galaxies to trace how galaxy structure evolves.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "GEMS-35 is a pointing of program 9500 on high-redshift galaxies in the E-CDFS field",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/list/9500/"
+      },
+      {
+        "text": "GEMS stands for Galaxy Evolution from Morphologies and SEDs and is centered on the Chandra Deep Field South",
+        "source": "https://arxiv.org/abs/astro-ph/0401427"
+      },
+      {
+        "text": "GEMS provides morphologies and structural parameters for nearly 10,000 galaxies",
+        "source": "https://arxiv.org/abs/astro-ph/0401427"
+      }
+    ]
+  }
+}

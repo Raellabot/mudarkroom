@@ -1,0 +1,40 @@
+{
+  "id": "ngc4258-df1-hubble",
+  "name": "NGC 4258-DF1 (Hubble)",
+  "blurb": "NGC 4258-DF1, a very low surface brightness galaxy, seen by Hubble.",
+  "label": "ngc4258df1-hubble",
+  "spec": "HST|NGC4258-DF1|14644|ACS/WFC|ngc4258df1-hubble",
+  "find": [
+    "HST|14644|NGC4258-DF1"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "[KK98]136",
+    "low surface brightness galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "This faint, diffuse galaxy appears beside the galaxy NGC 4258 on the sky. It was one of 23 faint, low surface brightness objects newly found in deep Dragonfly images, and Hubble came back to resolve it.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "NGC4258-DF1 is one of 23 newly discovered low surface brightness objects in Dragonfly fields, in the field centered on NGC 4258",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/14644/"
+      },
+      {
+        "text": "Alternate designation [KK98]136",
+        "source": "https://ar5iv.arxiv.org/html/1807.06016"
+      },
+      {
+        "text": "It is a very low surface brightness galaxy",
+        "source": "https://arxiv.org/abs/1807.06016"
+      }
+    ]
+  }
+}

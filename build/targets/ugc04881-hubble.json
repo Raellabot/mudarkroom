@@ -1,0 +1,46 @@
+{
+  "id": "ugc04881-hubble",
+  "name": "UGC 4881 (Hubble)",
+  "blurb": "UGC 4881, a pair of colliding galaxies known as the Grasshopper, seen by Hubble.",
+  "label": "ugc04881-hubble",
+  "spec": "HST|UGC04881|10592|ACS/WFC|ugc04881-hubble",
+  "find": [
+    "HST|10592|UGC04881"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "The Grasshopper",
+    "Grasshopper",
+    "Arp 55",
+    "VV 155",
+    "UGC 04881",
+    "colliding galaxies",
+    "interacting galaxies",
+    "galaxy merger",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Two galaxies are colliding here, and the merger has flung out a curly tail that holds a remarkable number of star clusters.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "UGC 4881, known as the Grasshopper, is a system of two colliding galaxies",
+        "source": "https://esahubble.org/images/heic0810bq/"
+      },
+      {
+        "text": "It has a curly tail containing a remarkable number of star clusters",
+        "source": "https://esahubble.org/images/heic0810bq/"
+      },
+      {
+        "text": "Also named Arp 55 and VV 155",
+        "source": "https://esahubble.org/images/heic0810bq/"
+      }
+    ]
+  }
+}

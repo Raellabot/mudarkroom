@@ -1,0 +1,46 @@
+{
+  "id": "vcc1192-hubble",
+  "name": "NGC 4467 (Hubble)",
+  "blurb": "NGC 4467, an elliptical galaxy in the Virgo Cluster, seen by Hubble.",
+  "label": "vcc1192-hubble",
+  "spec": "HST|VCC1192|9401|ACS/WFC|vcc1192-hubble",
+  "find": [
+    "HST|9401|VCC1192"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "VCC 1192",
+    "VCC1192",
+    "elliptical galaxy",
+    "galaxy",
+    "Virgo Cluster"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "NGC 4467 is one of 100 early-type galaxies in the Virgo Cluster that Hubble imaged for the ACS Virgo Cluster Survey. The survey studied the globular clusters around each galaxy and measured distances from the subtle graininess of their starlight.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "VCC 1192 is NGC 4467, morphological type E3",
+        "source": "https://arxiv.org/pdf/astro-ph/0404138"
+      },
+      {
+        "text": "E types in the sample are elliptical galaxies",
+        "source": "https://arxiv.org/pdf/astro-ph/0404138"
+      },
+      {
+        "text": "The ACS Virgo Cluster Survey imaged 100 early-type galaxies in the Virgo Cluster",
+        "source": "https://arxiv.org/abs/astro-ph/0404138"
+      },
+      {
+        "text": "The survey studies globular clusters and measures distances with surface brightness fluctuations",
+        "source": "https://arxiv.org/abs/astro-ph/0404138"
+      }
+    ]
+  }
+}

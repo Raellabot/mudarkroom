@@ -1,0 +1,58 @@
+{
+  "id": "sn-2003dr-hubble",
+  "name": "NGC 5714, SN 2003dr field (Hubble)",
+  "blurb": "NGC 5714, a disk galaxy, seen by Hubble.",
+  "label": "sn2003dr-hubble",
+  "spec": "HST|SN-2003DR|13698|ACS/WFC|sn2003dr-hubble",
+  "find": [
+    "HST|13698|SN-2003DR"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "SN 2003dr",
+    "SN2003dr",
+    "calcium-rich supernova",
+    "disk galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "SN 2003dr, a calcium-rich supernova, went off far from the center of NGC 5714, where a tidal stream winds past. Hubble searched the spot for a hidden star cluster or dwarf galaxy and found none.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "NGC 5714 is the host of SN 2003dr",
+        "source": "https://arxiv.org/pdf/1602.08098"
+      },
+      {
+        "text": "NGC 5714 is a disk galaxy",
+        "source": "https://arxiv.org/pdf/1602.08098"
+      },
+      {
+        "text": "SN 2003dr is a calcium-rich supernova",
+        "source": "https://arxiv.org/pdf/1602.08098"
+      },
+      {
+        "text": "Calcium-rich transients are a peculiar class of explosion in which up to half the ejecta is calcium",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/13698/"
+      },
+      {
+        "text": "SN 2003dr lies far from its host's center",
+        "source": "https://arxiv.org/pdf/1602.08098"
+      },
+      {
+        "text": "Hubble imaging shows a tidal feature passing through the SN 2003dr site",
+        "source": "https://arxiv.org/pdf/1602.08098"
+      },
+      {
+        "text": "No star cluster or dwarf galaxy was found at the site",
+        "source": "https://arxiv.org/pdf/1602.08098"
+      }
+    ]
+  }
+}

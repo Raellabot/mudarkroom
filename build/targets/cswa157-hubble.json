@@ -1,0 +1,36 @@
+{
+  "id": "cswa157-hubble",
+  "name": "AGEL 212326+015312 (Hubble)",
+  "blurb": "AGEL 212326+015312, a strong gravitational lens, seen by Hubble.",
+  "label": "cswa157-hubble",
+  "spec": "HST+HST|CSWA157+CSWA157|16773+16773|WFC3/IR+WFC3/UVIS|cswa157-hubble",
+  "find": [
+    "HST|16773|CSWA157"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "gravitational lens",
+    "strong lens",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Here the gravity of a foreground galaxy bends the light of a more distant galaxy behind it, turning the pair into a natural lens.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "AGEL 212326+015312 is a lens system in the AGEL survey with a background source at higher redshift than the foreground deflector",
+        "source": "https://arxiv.org/pdf/2205.05307"
+      },
+      {
+        "text": "The AGEL survey spectroscopically confirms strong gravitational lenses",
+        "source": "https://arxiv.org/abs/2205.05307"
+      }
+    ]
+  }
+}

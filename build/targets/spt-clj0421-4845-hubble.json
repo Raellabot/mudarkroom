@@ -1,0 +1,49 @@
+{
+  "id": "spt-clj0421-4845-hubble",
+  "name": "SPT-CL J0421-4845 (Hubble)",
+  "blurb": "SPT-CL J0421-4845, a massive, distant galaxy cluster, seen by Hubble.",
+  "label": "sptclj04214845-hubble",
+  "spec": "HST+HST|SPT-CLJ0421-4845+SPT-CLJ0421-4845|14252+14252|ACS/WFC+WFC3/IR|sptclj04214845-hubble",
+  "find": [
+    "HST|14252|SPT-CLJ0421-4845"
+  ],
+  "type": "Galaxy cluster",
+  "aliases": [
+    "SPT-CLJ0421-4845",
+    "SPT-SZ",
+    "South Pole Telescope",
+    "galaxy cluster"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "One of the most distant of the massive galaxy clusters found by the South Pole Telescope, this crowd of galaxies is among the rarest giants known at its great distance. Hubble surveyed its members to learn how such dense places shut down the birth of stars.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "SPT-CLJ0421-4845 is one of the five highest-redshift massive SPT-SZ galaxy clusters",
+        "source": "https://ar5iv.labs.arxiv.org/html/1807.09768"
+      },
+      {
+        "text": "Selected through the Sunyaev-Zel'dovich effect in the South Pole Telescope survey",
+        "source": "https://ar5iv.labs.arxiv.org/html/1807.09768"
+      },
+      {
+        "text": "Among the rarest most massive clusters known at this redshift",
+        "source": "https://ar5iv.labs.arxiv.org/html/1807.09768"
+      },
+      {
+        "text": "All five clusters show clear overdensities of red galaxies",
+        "source": "https://ar5iv.labs.arxiv.org/html/1807.09768"
+      },
+      {
+        "text": "Hubble imaged the clusters to study suppression of star formation in massive cluster cores",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/14252/"
+      }
+    ]
+  }
+}

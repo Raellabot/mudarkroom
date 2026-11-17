@@ -1,0 +1,42 @@
+{
+  "id": "cfcq-hubble",
+  "name": "CFCQ supernova field (Hubble)",
+  "blurb": "A deep field toward the Type Ia supernova CFCQ, seen by Hubble.",
+  "label": "cfcq-hubble",
+  "spec": "HST|CFCQ|15363|WFC3/IR|cfcq-hubble",
+  "find": [
+    "HST|15363|CFCQ"
+  ],
+  "type": "Deep field",
+  "aliases": [
+    "CFCQ",
+    "SUSHI",
+    "Type Ia supernova",
+    "supernova",
+    "deep field"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A Subaru telescope survey caught a Type Ia supernova in this patch of sky, and Hubble followed up as part of a program pairing the two telescopes. Combining their views of many such supernovae helps sharpen measurements of dark energy.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "CFCQ is a Type Ia supernova targeted by Hubble program 15363, SUbaru Supernovae with Hubble Infrared (SUSHI)",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15363/"
+      },
+      {
+        "text": "The supernovae were found by the Subaru Strategic Program's rolling search with Hyper Suprime-Cam",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15363/"
+      },
+      {
+        "text": "Combining Subaru light curves with Hubble observations improves the dark energy Figure of Merit",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15363/"
+      }
+    ]
+  }
+}

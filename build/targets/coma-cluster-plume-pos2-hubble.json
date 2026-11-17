@@ -1,0 +1,55 @@
+{
+  "id": "coma-cluster-plume-pos2-hubble",
+  "name": "Coma Cluster, tidal plume field 2 (Hubble)",
+  "blurb": "The Coma Cluster's tidal plume, a stream of debris stripped from galaxies, seen by Hubble.",
+  "label": "comaclusterplumepos2-hubble",
+  "spec": "HST|COMA-CLUSTER-PLUME-POS2|10397|ACS/WFC|comaclusterplumepos2-hubble",
+  "find": [
+    "HST|10397|COMA-CLUSTER-PLUME-POS2"
+  ],
+  "type": "Galaxy cluster",
+  "aliases": [
+    "Coma Cluster",
+    "Coma plume",
+    "galaxy ghost",
+    "tidal debris",
+    "intracluster light",
+    "galaxy cluster"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A faint plume of tidal debris drifts through the heart of the Coma Cluster, material pulled from galaxies by gravitational encounters in this rich cluster. This is one of three Hubble pointings along the plume, a 'galaxy ghost' in the making.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "The Coma Cluster has a plume-like structure in its heart",
+        "source": "https://arxiv.org/abs/astro-ph/9812033"
+      },
+      {
+        "text": "The plume is tidal debris from galaxy interactions",
+        "source": "https://arxiv.org/abs/astro-ph/9812033"
+      },
+      {
+        "text": "Gravitational interactions in rich clusters strip material from galaxies",
+        "source": "https://www.cambridge.org/core/journals/symposium-international-astronomical-union/article/ghosts-of-galaxies-tidal-debris-in-clusters/9E56BB99D8A887AC2CC6B3A3D497D2CE"
+      },
+      {
+        "text": "Coma's plume is an example of a 'galaxy ghost'",
+        "source": "https://www.cambridge.org/core/journals/symposium-international-astronomical-union/article/ghosts-of-galaxies-tidal-debris-in-clusters/9E56BB99D8A887AC2CC6B3A3D497D2CE"
+      },
+      {
+        "text": "Coma is a rich cluster of galaxies",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/10397/"
+      },
+      {
+        "text": "Hubble's ACS imaged the Coma plume at three positions; this is position 2",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/10397/"
+      }
+    ]
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "id": "q1422-3-ir-hubble",
+  "name": "Q1422+2309 field, pointing 3 (Hubble)",
+  "blurb": "A deep field toward the lensed quasar Q1422+2309, seen by Hubble.",
+  "label": "q14223ir-hubble",
+  "spec": "HST|Q1422-3-IR|15287|WFC3/IR|q14223ir-hubble",
+  "find": [
+    "HST|15287|Q1422-3-IR"
+  ],
+  "type": "Deep field",
+  "aliases": [
+    "Q1422",
+    "Q1422+2309",
+    "Q1422-3",
+    "deep field",
+    "galaxy field"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Another pointing in the survey field around a lensed quasar, where astronomers look for distant star-forming galaxies that let ionizing light escape, the light thought to have reionized the early universe. Hubble's detail helps tell those faraway galaxies from nearer ones along the same line of sight.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "The Q1422+2309 field is a Lyman break galaxy survey field centered on a gravitationally lensed quasar",
+        "source": "https://ar5iv.labs.arxiv.org/html/astro-ph/0305378"
+      },
+      {
+        "text": "Hubble program 15287 imaged the Q1422 field to study galaxies at z~3 that may leak Lyman-continuum (ionizing) radiation",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15287/"
+      },
+      {
+        "text": "Escaping ionizing radiation from star-forming galaxies is thought to have driven cosmic reionization",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15287/"
+      },
+      {
+        "text": "The Hubble imaging is used to remove contamination from lower-redshift foreground galaxies",
+        "source": "https://ar5iv.labs.arxiv.org/html/2104.02081"
+      }
+    ]
+  }
+}

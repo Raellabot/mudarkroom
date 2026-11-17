@@ -1,0 +1,50 @@
+{
+  "id": "ugc7636-hubble",
+  "name": "UGC 7636 (Hubble)",
+  "blurb": "UGC 7636, a dwarf irregular galaxy in the Virgo Cluster, seen by Hubble.",
+  "label": "ugc7636-hubble",
+  "spec": "HST|UGC7636|17240|ACS/WFC|ugc7636-hubble",
+  "find": [
+    "HST|17240|UGC7636"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "UGC7636",
+    "dwarf irregular galaxy",
+    "dwarf galaxy",
+    "galaxy",
+    "Virgo Cluster"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "UGC 7636 is a dwarf irregular galaxy caught in a violent encounter with the giant elliptical galaxy NGC 4472. Tides first loosened its gas, then ram pressure swept it away into a cloud of hydrogen between the two galaxies, where young star clusters have formed.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "UGC 7636 is a dwarf irregular galaxy in the Virgo Cluster",
+        "source": "https://arxiv.org/abs/astro-ph/9912292"
+      },
+      {
+        "text": "UGC 7636 is interacting violently with the giant elliptical galaxy NGC 4472",
+        "source": "https://arxiv.org/abs/astro-ph/9708219"
+      },
+      {
+        "text": "Tides from NGC 4472 loosened UGC 7636's gas, and ram pressure stripping then removed it into an H I cloud between the galaxies",
+        "source": "https://arxiv.org/abs/astro-ph/9912292"
+      },
+      {
+        "text": "Young star clusters formed during the interaction, in the galaxy's center, its tidal tail and the H I cloud",
+        "source": "https://arxiv.org/abs/astro-ph/9708219"
+      },
+      {
+        "text": "UGC 7636 is a Virgo cluster dwarf in Hubble program 17240, which targets dwarfs undergoing ram pressure stripping",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/17240/"
+      }
+    ]
+  }
+}

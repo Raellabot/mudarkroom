@@ -1,0 +1,40 @@
+{
+  "id": "sgp112848-hubble",
+  "name": "SGP112848 (Hubble)",
+  "blurb": "SGP112848, an isolated elliptical galaxy in a cosmic void, seen by Hubble.",
+  "label": "sgp112848-hubble",
+  "spec": "HST|SGP112848|10630|ACS/WFC|sgp112848-hubble",
+  "find": [
+    "HST|10630|SGP112848"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "elliptical galaxy",
+    "void galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Far from the crowded clusters where most ellipticals live, this galaxy sits alone in a void. Hubble looked for fine structure in it, clues that its merger history may differ from that of cluster galaxies.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "SGP112848 is a target of the program on the fine structure of elliptical galaxies in voids",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/10630/"
+      },
+      {
+        "text": "The sample is truly isolated ellipticals identified in the 2dFGRS",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/10630/"
+      },
+      {
+        "text": "Void galaxies may have different merger histories, so their fine structure may differ; most knowledge of ellipticals comes from dense regions like clusters",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/10630/"
+      }
+    ]
+  }
+}

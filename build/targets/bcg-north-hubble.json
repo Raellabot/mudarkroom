@@ -1,0 +1,42 @@
+{
+  "id": "bcg-north-hubble",
+  "name": "SPT-CL J0307-6225, northern field (Hubble)",
+  "blurb": "SPT-CL J0307-6225, a merging galaxy cluster, seen by Hubble.",
+  "label": "bcgnorth-hubble",
+  "spec": "HST|BCG-NORTH|17101|ACS/WFC|bcgnorth-hubble",
+  "find": [
+    "HST|17101|BCG-NORTH"
+  ],
+  "type": "Galaxy cluster",
+  "aliases": [
+    "SPT-CLJ0307-6225",
+    "0307-6225N",
+    "BCG-NORTH",
+    "galaxy cluster",
+    "merging galaxy cluster"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Two galaxy clusters are colliding in SPT-CL J0307-6225, and this field frames the brightest galaxy of the northern one. Hubble mapped the unseen dark matter here, using the crash as a natural collider to test whether dark matter interacts with itself.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "SPT-CL J0307-6225 is a major merging galaxy cluster of two colliding structures, 0307-6225N and 0307-6225S",
+        "source": "https://ar5iv.labs.arxiv.org/html/2111.15443"
+      },
+      {
+        "text": "The Hubble target BCG-NORTH is a galaxy (and gravitational lens) in the cluster; the tile was set to cover it",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/17101/"
+      },
+      {
+        "text": "Hubble imaging maps the dark matter distribution to constrain self-interacting dark matter, using merging clusters as dark matter colliders",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/17101/"
+      }
+    ]
+  }
+}

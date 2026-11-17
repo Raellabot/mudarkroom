@@ -1,0 +1,33 @@
+{
+  "id": "sn1980d-hubble",
+  "name": "SN 1980D field (Hubble)",
+  "blurb": "The field of the supernova SN 1980D, seen by Hubble.",
+  "label": "sn1980d-hubble",
+  "spec": "HST|SN1980D|17070|ACS/WFC|sn1980d-hubble",
+  "find": [
+    "HST|17070|SN1980D"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "SN 1980D",
+    "SN1980D",
+    "supernova",
+    "supernova site"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Hubble returned to the site of this stellar explosion as part of a snapshot survey of Type II supernovae.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "SN 1980D is a supernova target of a Hubble snapshot survey of Type II supernovae",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/17070/"
+      }
+    ]
+  }
+}

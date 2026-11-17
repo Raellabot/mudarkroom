@@ -1,0 +1,41 @@
+{
+  "id": "matlas-1907-hubble",
+  "name": "MATLAS-1907 (Hubble)",
+  "blurb": "MATLAS-1907, a dwarf galaxy, seen by Hubble.",
+  "label": "matlas1907-hubble",
+  "spec": "HST|MATLAS-1907|16711|ACS/WFC|matlas1907-hubble",
+  "find": [
+    "HST|16711|MATLAS-1907"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "dwarf galaxy",
+    "dwarf elliptical galaxy",
+    "ultra-diffuse galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A faint dwarf galaxy from the MATLAS survey, one of the ultra-diffuse galaxies Hubble surveyed away from crowded galaxy clusters. Hubble looked here for the globular clusters scattered around it.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "MATLAS-1907 is a dwarf elliptical galaxy",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/16711/"
+      },
+      {
+        "text": "The program targeted ultra-diffuse galaxies in non-cluster environments to study their globular clusters",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/16711/"
+      },
+      {
+        "text": "Hubble studied the globular cluster systems of MATLAS ultra-diffuse galaxies",
+        "source": "https://arxiv.org/abs/2408.03311"
+      }
+    ]
+  }
+}

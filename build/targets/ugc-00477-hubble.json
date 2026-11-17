@@ -1,0 +1,50 @@
+{
+  "id": "ugc-00477-hubble",
+  "name": "UGC 477 (Hubble)",
+  "blurb": "UGC 477, a low surface brightness galaxy, seen by Hubble.",
+  "label": "ugc00477-hubble",
+  "spec": "HST|UGC-00477|10550|ACS/WFC|ugc00477-hubble",
+  "find": [
+    "HST|10550|UGC-00477"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "UGC 00477",
+    "UGC-00477",
+    "LSB galaxy",
+    "low surface brightness galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "UGC 477 is a low surface brightness galaxy, lying just over 110 million light-years away in the constellation of Pisces. Most of its matter is hydrogen gas rather than stars, and dark matter appears to dominate it.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "UGC 477 is a low surface brightness (LSB) galaxy",
+        "source": "https://esahubble.org/images/potw1614a/"
+      },
+      {
+        "text": "It lies just over 110 million light-years away in Pisces",
+        "source": "https://esahubble.org/images/potw1614a/"
+      },
+      {
+        "text": "Most matter in LSB galaxies is hydrogen gas rather than stars",
+        "source": "https://esahubble.org/images/potw1614a/"
+      },
+      {
+        "text": "UGC 477 appears to be dominated by dark matter",
+        "source": "https://esahubble.org/images/potw1614a/"
+      },
+      {
+        "text": "UGC 477 is an LSB galaxy targeted by program 10550",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/10550/"
+      }
+    ]
+  }
+}

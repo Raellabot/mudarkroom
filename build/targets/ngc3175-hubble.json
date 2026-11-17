@@ -1,0 +1,39 @@
+{
+  "id": "ngc3175-hubble",
+  "name": "NGC 3175 (Hubble)",
+  "blurb": "NGC 3175, a spiral galaxy, seen by Hubble.",
+  "label": "ngc3175-hubble",
+  "spec": "HST+HST|NGC3175+NGC3175|15181+15181|WFC3/IR+WFC3/UVIS|ngc3175-hubble",
+  "find": [
+    "HST|15181|NGC3175"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "spiral galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Lanes of dust, patches of glowing gas and pinwheeling arms wrap around the bright core of NGC 3175. It gives its name to a nearby galaxy group that has been called an analog of our own Local Group.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "NGC 3175 is a spiral galaxy",
+        "source": "https://esahubble.org/images/potw1949a/"
+      },
+      {
+        "text": "Its image shows bright patches of glowing gas, dark lanes of dust, a bright core and whirling, pinwheeling arms",
+        "source": "https://esahubble.org/images/potw1949a/"
+      },
+      {
+        "text": "NGC 3175 is the eponymous member of the NGC 3175 group, called a nearby analogue of the Local Group",
+        "source": "https://esahubble.org/images/potw1949a/"
+      }
+    ]
+  }
+}

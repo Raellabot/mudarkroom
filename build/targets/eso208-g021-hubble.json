@@ -1,0 +1,39 @@
+{
+  "id": "eso208-g021-hubble",
+  "name": "ESO 208-G021 (Hubble)",
+  "blurb": "ESO 208-G021, a galaxy without an active nucleus, seen by Hubble.",
+  "label": "eso208g021-hubble",
+  "spec": "HST+HST|ESO208-G021+ESO208-G021|15181+15181|WFC3/IR+WFC3/UVIS|eso208g021-hubble",
+  "find": [
+    "HST|15181|ESO208-G021"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "galaxy",
+    "inactive galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "ESO 208-G021 is a quiet stand-in for galaxies whose central black holes are actively feeding, chosen to match them in type and distance. Observations of its center found almost no molecular gas.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "ESO 208-G021 is an inactive control galaxy in the LLAMA sample, matched to the AGN in distance and Hubble type",
+        "source": "https://ar5iv.labs.arxiv.org/html/2105.05309"
+      },
+      {
+        "text": "CO was not detected in ESO 208-G021's center (upper limit only)",
+        "source": "https://ar5iv.labs.arxiv.org/html/1710.04224"
+      },
+      {
+        "text": "The galaxies in this program are AGN hosts and matched inactive control galaxies, imaged to balance an archive weighted toward the AGN",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15181/"
+      }
+    ]
+  }
+}

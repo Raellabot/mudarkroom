@@ -1,0 +1,51 @@
+{
+  "id": "aztec-1-hubble",
+  "name": "AzTEC-1 field (Hubble)",
+  "blurb": "A deep field toward the distant starburst galaxy AzTEC-1, seen by Hubble.",
+  "label": "aztec1-hubble",
+  "spec": "HST|AZTEC-1|13294|WFC3/IR|aztec1-hubble",
+  "find": [
+    "HST|13294|AZTEC-1"
+  ],
+  "type": "Deep field",
+  "aliases": [
+    "AzTEC-1",
+    "AZTEC-1",
+    "submillimeter galaxy",
+    "starburst galaxy",
+    "COSMOS field",
+    "deep field"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Somewhere in this patch of the COSMOS field lies AzTEC-1, a dusty submillimeter galaxy forming stars at a ferocious pace in the young universe. Hubble looked here to learn how the earliest massive galaxies took shape.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "AzTEC-1 is a starburst galaxy in the COSMOS field",
+        "source": "https://arxiv.org/abs/1906.01173v1"
+      },
+      {
+        "text": "AzTEC-1 forms stars at a very high rate",
+        "source": "https://arxiv.org/abs/1906.01173v1"
+      },
+      {
+        "text": "AzTEC-1 is a submillimeter galaxy hosting a compact starburst",
+        "source": "https://arxiv.org/abs/2001.04638v1"
+      },
+      {
+        "text": "The targets of program 13294 are dust-rich starbursts in the COSMOS field",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/13294/"
+      },
+      {
+        "text": "Program 13294 studies the formation of the earliest massive galaxies within 1.5 billion years of the Big Bang",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/13294/"
+      }
+    ]
+  }
+}

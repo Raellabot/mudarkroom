@@ -1,0 +1,47 @@
+{
+  "id": "rm300-hubble",
+  "name": "SDSS-RM RMID 300 (Hubble)",
+  "blurb": "SDSS-RM RMID 300, a quasar and its host galaxy, seen by Hubble.",
+  "label": "rm300-hubble",
+  "spec": "HST+HST|RM300+RM300|15849+15849|WFC3/IR+WFC3/UVIS|rm300-hubble",
+  "find": [
+    "HST|15849|RM300"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "RM300",
+    "RMID 300",
+    "SDSS-RM",
+    "quasar",
+    "active galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "At the center of this galaxy shines a quasar whose black hole was weighed by reverberation mapping, timing the delay as light from its disk echoes off surrounding gas. Hubble imaged the host galaxy to see how the black hole's mass relates to the galaxy's stars.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "RM300 is SDSS-RM quasar RMID 300",
+        "source": "https://ar5iv.labs.arxiv.org/html/2301.04177"
+      },
+      {
+        "text": "RM300 is a quasar target of Hubble program 15849 on AGN with reverberation-mapping black hole masses",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15849/"
+      },
+      {
+        "text": "The black hole masses come from reverberation mapping, which uses the time delay between the accretion disk and the broad-line gas",
+        "source": "https://ar5iv.labs.arxiv.org/html/2301.04177"
+      },
+      {
+        "text": "Hubble imaging measured host stellar masses to study the black hole mass-stellar mass relation",
+        "source": "https://ar5iv.labs.arxiv.org/html/2301.04177"
+      }
+    ]
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "id": "jwst-nep-tdf-01wfc-hubble",
+  "name": "JWST North Ecliptic Pole Time-Domain Field (Hubble)",
+  "blurb": "The JWST North Ecliptic Pole Time-Domain Field, a deep survey field, seen by Hubble.",
+  "label": "jwstneptdf01wfc-hubble",
+  "spec": "HST|JWST-NEP-TDF-01WFC|16252|ACS/WFC|jwstneptdf01wfc-hubble",
+  "find": [
+    "HST|16252|JWST-NEP-TDF-01WFC"
+  ],
+  "type": "Deep field",
+  "aliases": [
+    "JWST NEP Time-Domain Field",
+    "TREASUREHUNT",
+    "North Ecliptic Pole",
+    "deep field",
+    "galaxies"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A clean window near the North Ecliptic Pole, chosen for its faint foreground glow and lack of bright sources in front of the distant galaxies. Webb can watch it at any time of year, and Hubble's survey here turned up transients, most expected to be supernovae, and variable sources that are mostly active galaxies.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "The JWST NEP Time-Domain Field lies near the North Ecliptic Pole in JWST's northern Continuous Viewing Zone",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/16252/"
+      },
+      {
+        "text": "The field has the lowest possible zodiacal foreground and no bright sources",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/16252/"
+      },
+      {
+        "text": "JWST can observe the field at any time of year",
+        "source": "https://ar5iv.labs.arxiv.org/html/2401.04944"
+      },
+      {
+        "text": "Hubble's TREASUREHUNT imaging found transients, mostly supernovae, and variable candidates, mostly AGN",
+        "source": "https://ar5iv.labs.arxiv.org/html/2401.04944"
+      },
+      {
+        "text": "JWST-NEP-TDF-01WFC is a target of Hubble program 16252, TREASUREHUNT",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/16252/"
+      }
+    ]
+  }
+}

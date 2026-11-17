@@ -1,0 +1,43 @@
+{
+  "id": "ugc-08061-hubble",
+  "name": "UGC 8061 (Hubble)",
+  "blurb": "UGC 8061, a dwarf irregular galaxy, seen by Hubble.",
+  "label": "ugc08061-hubble",
+  "spec": "HST|UGC-08061|14636|ACS/WFC|ugc08061-hubble",
+  "find": [
+    "HST|14636|UGC-08061"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "UGC 08061",
+    "UGC08061",
+    "EVCC1253",
+    "dwarf irregular galaxy",
+    "dwarf galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A dwarf irregular galaxy whose red giant stars were too faint for Hubble to pick out, a sign that it lies far beyond where it was expected. It apparently belongs to the crowded core of the Virgo Cluster.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "UGC 8061 (UGC08061, EVCC1253) is a dwarf irregular galaxy",
+        "source": "https://ar5iv.labs.arxiv.org/html/1804.00469"
+      },
+      {
+        "text": "The CMD of UGC 8061 shows no red giant branch above I = 26.5 mag, giving only a lower distance limit",
+        "source": "https://ar5iv.labs.arxiv.org/html/1804.00469"
+      },
+      {
+        "text": "UGC 8061 apparently belongs to the virial core of the Virgo Cluster",
+        "source": "https://ar5iv.labs.arxiv.org/html/1804.00469"
+      }
+    ]
+  }
+}

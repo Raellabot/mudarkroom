@@ -1,0 +1,47 @@
+{
+  "id": "sn2011ay-hubble",
+  "name": "NGC 2315, SN 2011ay field (Hubble)",
+  "blurb": "NGC 2315, a nearly edge-on galaxy that hosted the Type Iax supernova SN 2011ay, seen by Hubble.",
+  "label": "sn2011ay-hubble",
+  "spec": "HST|SN2011AY|15166|WFC3/UVIS|sn2011ay-hubble",
+  "find": [
+    "HST|15166|SN2011AY"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "SN 2011ay",
+    "SN2011AY",
+    "supernova",
+    "Type Iax supernova",
+    "edge-on galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "SN 2011ay belonged to the Type Iax supernovae, a newly recognized class of stellar explosion. Hubble returned to its site in this nearly edge-on galaxy to search for a star that such a blast may leave behind.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "SN 2011ay is a Type Iax supernova",
+        "source": "https://ar5iv.labs.arxiv.org/html/1508.00602"
+      },
+      {
+        "text": "SN 2011ay appeared near the center of NGC 2315, a nearly edge-on galaxy",
+        "source": "https://ar5iv.labs.arxiv.org/html/1508.00602"
+      },
+      {
+        "text": "Type Iax supernovae are a new class of stellar explosion",
+        "source": "https://ar5iv.labs.arxiv.org/html/1212.2209"
+      },
+      {
+        "text": "Program 15166 searches for possible stellar remnants of Type Iax supernovae",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15166/"
+      }
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": "sn-2006fp-hubble",
+  "name": "UGC 12182, SN 2006fp field (Hubble)",
+  "blurb": "UGC 12182, a galaxy that hosted the possible supernova impostor SN 2006fp, seen by Hubble.",
+  "label": "sn2006fp-hubble",
+  "spec": "HST|SN-2006FP|13029|WFC3/UVIS|sn2006fp-hubble",
+  "find": [
+    "HST|13029|SN-2006FP"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "SN 2006fp",
+    "supernova impostor",
+    "luminous blue variable",
+    "LBV",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "The flare cataloged as SN 2006fp may not have been a true supernova at all, but a violent outburst from a star. Hubble looked back at the site to test whether such supernova impostors survive their eruptions.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "SN 2006fp was found in UGC 12182",
+        "source": "https://tamkin3.eps.harvard.edu/cbet/000600/CBET000636.txt"
+      },
+      {
+        "text": "It was more likely an outburst of a luminous blue variable than a true supernova",
+        "source": "https://tamkin3.eps.harvard.edu/cbet/000600/CBET000636.txt"
+      },
+      {
+        "text": "Hubble program 13029 tests whether SN impostors are LBV superoutbursts that survived",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/13029/"
+      }
+    ]
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "id": "eyeofhorus-hubble",
+  "name": "Eye of Horus (Hubble)",
+  "blurb": "The Eye of Horus, a galaxy that lenses two more distant galaxies at once, seen by Hubble.",
+  "label": "eyeofhorus-hubble",
+  "spec": "HST|EYEOFHORUS|15325|ACS/WFC|eyeofhorus-hubble",
+  "find": [
+    "HST|15325|EYEOFHORUS"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "HSC J142449-005322",
+    "double source plane lens",
+    "gravitational lens",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A very massive galaxy acts as a cosmic lens, bending the light of two background galaxies at different distances into an inner arc and an outer ring. Astronomers named it for the sacred eye of an ancient Egyptian god, which it uncannily resembles.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "The Eye of Horus is HSC J142449-005322, a double source plane lens found in the Hyper Suprime-Cam survey",
+        "source": "https://www.arxiv.org/abs/1606.09363"
+      },
+      {
+        "text": "The lens galaxy is a very massive early-type galaxy",
+        "source": "https://ar5iv.labs.arxiv.org/html/1606.09363"
+      },
+      {
+        "text": "It lenses two background galaxies at different redshifts, forming an inner arc and an outer ring",
+        "source": "https://ar5iv.labs.arxiv.org/html/1606.09363"
+      },
+      {
+        "text": "A double source plane lens is one massive galaxy lensing two background sources at distinct redshifts",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15325/"
+      },
+      {
+        "text": "It was named for the sacred eye of an ancient Egyptian god, which it resembles",
+        "source": "https://subarutelescope.org/en/results/2016/07/25/2262.html"
+      }
+    ]
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "id": "ptf09cnd-hubble",
+  "name": "PTF09cnd field (Hubble)",
+  "blurb": "The host galaxy of the superluminous supernova PTF09cnd, seen by Hubble.",
+  "label": "ptf09cnd-hubble",
+  "spec": "HST+HST|PTF09CND+PTF09CND|13025+13025|WFC3/IR+WFC3/UVIS|ptf09cnd-hubble",
+  "find": [
+    "HST|13025|PTF09CND"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "PTF09cnd",
+    "superluminous supernova",
+    "SLSN-I",
+    "supernova host",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "The galaxy that once hosted PTF09cnd, one of the brightest kinds of stellar explosion, a superluminous supernova. Hubble came back to pin down where in its host the blast occurred, part of a hunt for the stars behind the most luminous supernovae, perhaps very massive stars poor in heavy elements.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "PTF09cnd is a superluminous supernova (SLSN-I) whose host was imaged by Hubble program GO-13025",
+        "source": "https://ar5iv.labs.arxiv.org/html/1601.01874"
+      },
+      {
+        "text": "The program surveyed host galaxies of the brightest supernovae",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/13025/"
+      },
+      {
+        "text": "The program aimed to locate the supernovae within their hosts",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/13025/"
+      },
+      {
+        "text": "A possible origin is very massive, low-metallicity stars",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/13025/"
+      },
+      {
+        "text": "The program is titled for the most luminous supernovae",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/13025/"
+      },
+      {
+        "text": "Superluminous supernovae are among the brightest supernovae",
+        "source": "https://ar5iv.labs.arxiv.org/html/1601.01874"
+      }
+    ]
+  }
+}

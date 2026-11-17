@@ -1,0 +1,47 @@
+{
+  "id": "emacsj2229-9-0808a-hubble",
+  "name": "eMACS J2229.9-0808 (Hubble)",
+  "blurb": "eMACS J2229.9-0808, a massive galaxy cluster, seen by Hubble.",
+  "label": "emacsj222990808a-hubble",
+  "spec": "HST|EMACSJ2229.9-0808A|13671|ACS/WFC|emacsj222990808a-hubble",
+  "find": [
+    "HST|13671|EMACSJ2229.9-0808A"
+  ],
+  "type": "Galaxy cluster",
+  "aliases": [
+    "eMACSJ2229.9-0808A",
+    "eMACS J2229.9-0808A",
+    "RM J223013.1-080853.1",
+    "Hamilton's Object",
+    "galaxy cluster",
+    "gravitational lens"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "The gravity of this cluster bends the light of a more distant galaxy into Hamilton's Object, a set of stretched streaks that appear as mirror images of each other.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "eMACS J2229.9-0808 is a massive galaxy cluster targeted by Hubble program 13671",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/13671/"
+      },
+      {
+        "text": "eMACSJ2229.9-0808 is an X-ray cluster that lenses a bright gravitational arc",
+        "source": "https://arxiv.org/abs/2607.06673"
+      },
+      {
+        "text": "Hamilton's Object is a gravitationally lensed image in the field of eMACS J2229.9-0808A, also cataloged as RM J223013.1-080853.1, observed by program GO-13671",
+        "source": "https://assets.science.nasa.gov/content/dam/science/missions/hubble/releases/2021/10/STScI-01FFJXMQ6TDDTX1QP32Z2Q8675.pdf"
+      },
+      {
+        "text": "Hamilton's Object is stretched streaks of a lensed galaxy appearing as mirror images",
+        "source": "https://science.nasa.gov/missions/hubble/double-galaxy-mystifies-hubble-astronomers/"
+      }
+    ]
+  }
+}

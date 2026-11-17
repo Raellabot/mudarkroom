@@ -1,0 +1,47 @@
+{
+  "id": "eso-222-10-hubble",
+  "name": "ESO 222-010 (Hubble)",
+  "blurb": "ESO 222-010, a dwarf irregular galaxy, seen by Hubble.",
+  "label": "eso22210-hubble",
+  "spec": "HST|ESO-222-10|15922|ACS/WFC|eso22210-hubble",
+  "find": [
+    "HST|15922|ESO-222-10"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "ESO 222-G010",
+    "HIPASS J1434-49",
+    "PGC 52125",
+    "dwarf irregular galaxy",
+    "dwarf galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A dwarf irregular galaxy on the outskirts of the Centaurus A group, it lies close to the plane of our own Milky Way, where foreground dust dims the view. Hubble visited it in an effort to resolve the brightest stars of every known nearby galaxy.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "ESO 222-010 (ESO 222-G010, HIPASS J1434-49) is a dwarf irregular galaxy at low Galactic latitude",
+        "source": "https://www.atnf.csiro.au/research/LVHIS/data/LVHIS068.info.html"
+      },
+      {
+        "text": "It lies in the outskirts of the Centaurus A group",
+        "source": "https://www.atnf.csiro.au/research/LVHIS/data/LVHIS068.info.html"
+      },
+      {
+        "text": "Foreground extinction toward it is large; PGC 52125; type dIrr",
+        "source": "https://arxiv.org/html/2311.05989"
+      },
+      {
+        "text": "Hubble observed it in a program to image every known nearby galaxy, resolving the brightest stars to measure distances",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15922/"
+      }
+    ]
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "id": "hz10-hubble",
+  "name": "HZ10 field (Hubble)",
+  "blurb": "A deep field toward the distant galaxy HZ10, seen by Hubble.",
+  "label": "hz10-hubble",
+  "spec": "HST|HZ10|13641|WFC3/IR|hz10-hubble",
+  "find": [
+    "HST|13641|HZ10"
+  ],
+  "type": "Deep field",
+  "aliases": [
+    "HZ10",
+    "COSMOS",
+    "deep field",
+    "distant galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Somewhere in this deep frame is HZ10, an ordinary star-forming galaxy seen a billion years after the Big Bang, and the one in its sample whose dust glowed brightest for ALMA. Hubble mapped its starlight to compare with ALMA's view of its gas and dust.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "HZ10 is a galaxy in a sample of normal galaxies at 5<z<6 targeted by Hubble program 13641",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/13641/"
+      },
+      {
+        "text": "HZ10 lies in the COSMOS field",
+        "source": "https://arxiv.org/pdf/1503.07596"
+      },
+      {
+        "text": "These galaxies are seen a billion years after the Big Bang",
+        "source": "https://arxiv.org/abs/1503.07596"
+      },
+      {
+        "text": "Hubble mapped the galaxies' starlight to compare with ALMA measurements of their gas and dust",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/13641/"
+      },
+      {
+        "text": "HZ10 has the brightest dust continuum detection in the sample and is the only one resolved in continuum",
+        "source": "https://arxiv.org/pdf/1503.07596"
+      }
+    ]
+  }
+}

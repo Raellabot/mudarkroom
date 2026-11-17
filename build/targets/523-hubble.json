@@ -1,0 +1,46 @@
+{
+  "id": "523-hubble",
+  "name": "Reverberation-mapped quasar 523 (Hubble)",
+  "blurb": "Quasar 523, a distant quasar and its host galaxy, seen by Hubble.",
+  "label": "523-hubble",
+  "spec": "HST+HST|523+523|17708+17708|WFC3/IR+WFC3/UVIS|523-hubble",
+  "find": [
+    "HST|17708|523"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "523",
+    "quasar",
+    "broad-line AGN",
+    "active galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "At the center of this field shines a quasar whose black hole was weighed by reverberation mapping. Hubble imaged it to separate the quasar's light from its host galaxy's starlight, testing whether black holes and their galaxies grew in step at earlier cosmic times.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "523 is a quasar target of Hubble program 17708",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/17708/"
+      },
+      {
+        "text": "The program's targets are broad-line AGNs with reverberation-mapping black hole masses",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/17708/"
+      },
+      {
+        "text": "Hubble imaging separates the quasar light from the host starlight",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/17708/"
+      },
+      {
+        "text": "The aim is to test black hole-galaxy co-evolution at earlier cosmic times",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/17708/"
+      }
+    ]
+  }
+}

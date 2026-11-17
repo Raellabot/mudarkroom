@@ -1,0 +1,50 @@
+{
+  "id": "andromeda-xxviii-hubble",
+  "name": "Andromeda XXVIII (Hubble)",
+  "blurb": "Andromeda XXVIII, a dwarf satellite galaxy of the Andromeda Galaxy, seen by Hubble.",
+  "label": "andromedaxxviii-hubble",
+  "spec": "HST|ANDROMEDA-XXVIII|13739|ACS/WFC|andromedaxxviii-hubble",
+  "find": [
+    "HST|13739|ANDROMEDA-XXVIII"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "And XXVIII",
+    "dwarf spheroidal galaxy",
+    "dwarf galaxy",
+    "satellite galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A faint dwarf galaxy found in Sloan Digital Sky Survey data, orbiting far out from the Andromeda Galaxy, more than 350 kiloparsecs from it. Hubble looked deep into its stars to learn when and how its first stars formed.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "Andromeda XXVIII is a dwarf galaxy discovered in SDSS DR8 data",
+        "source": "https://arxiv.org/pdf/1110.5903"
+      },
+      {
+        "text": "Andromeda XXVIII lies more than 350 kiloparsecs from Andromeda",
+        "source": "https://arxiv.org/pdf/1110.5903"
+      },
+      {
+        "text": "And XXVIII is a dwarf spheroidal satellite of M31 (the Andromeda Galaxy); short name And XXVIII",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/13739/"
+      },
+      {
+        "text": "Its kinematics suggest it is a bound M31 satellite similar to dwarf spheroidals",
+        "source": "https://arxiv.org/pdf/1302.0848"
+      },
+      {
+        "text": "Hubble program 13739 derives star formation and chemical enrichment histories to study the first epoch of star formation in M31 satellites",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/13739/"
+      }
+    ]
+  }
+}

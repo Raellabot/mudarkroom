@@ -1,0 +1,50 @@
+{
+  "id": "ngc-4455-hubble",
+  "name": "NGC 4455 (Hubble)",
+  "blurb": "NGC 4455, a small spiral galaxy, seen by Hubble.",
+  "label": "ngc4455-hubble",
+  "spec": "HST|NGC-4455|14636|ACS/WFC|ngc4455-hubble",
+  "find": [
+    "HST|14636|NGC-4455"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "EVCC0711",
+    "EVCC 711",
+    "spiral galaxy",
+    "dwarf galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A small spiral galaxy strewn with stars like celestial sequins, lying in front of the Virgo Cluster in the constellation Coma Berenices. Hubble measured its distance from the red giant stars in its outer parts.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "NGC 4455 is a spiral galaxy that looks like a smattering of celestial sequins",
+        "source": "https://www.nasa.gov/?p=223687"
+      },
+      {
+        "text": "NGC 4455 is a dwarf Sdm galaxy foreground to the Virgo Cluster, also EVCC0711",
+        "source": "https://ar5iv.labs.arxiv.org/html/1804.00469"
+      },
+      {
+        "text": "NGC 4455 is in the constellation Coma Berenices",
+        "source": "https://esahubble.org/images/potw1952a/"
+      },
+      {
+        "text": "The distance measurement used only stars in the outer part of the galaxy",
+        "source": "https://ar5iv.labs.arxiv.org/html/1804.00469"
+      },
+      {
+        "text": "This Hubble image was released as ESA/Hubble picture of the week potw1952a, credit I. Karachentsev et al.",
+        "source": "https://esahubble.org/images/potw1952a/"
+      }
+    ]
+  }
+}

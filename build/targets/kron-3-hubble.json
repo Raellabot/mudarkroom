@@ -1,0 +1,46 @@
+{
+  "id": "kron-3-hubble",
+  "name": "Kron 3 (Hubble)",
+  "blurb": "Kron 3, a massive star cluster in the Small Magellanic Cloud, seen by Hubble.",
+  "label": "kron3-hubble",
+  "spec": "HST|KRON-3|10396|ACS/WFC|kron3-hubble",
+  "find": [
+    "HST|10396|KRON-3"
+  ],
+  "type": "Star cluster",
+  "aliases": [
+    "KRON 3",
+    "Small Magellanic Cloud cluster",
+    "SMC cluster",
+    "star cluster",
+    "massive star cluster"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Kron 3 is a massive star cluster in the Small Magellanic Cloud, a satellite of the Milky Way. Hubble observed it among a set of Small Magellanic Cloud clusters to measure their ages and test models of how stars evolve.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "Kron 3 is a massive star cluster in the Small Magellanic Cloud",
+        "source": "https://arxiv.org/abs/2102.02784"
+      },
+      {
+        "text": "The Small Magellanic Cloud is a satellite of the Milky Way",
+        "source": "https://www.nasa.gov/universe/galaxies/magellanic-clouds/"
+      },
+      {
+        "text": "Kron 3 is one of the star clusters targeted by program 10396",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/10396/"
+      },
+      {
+        "text": "The program aimed to measure cluster ages and test stellar evolution models",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/10396/"
+      }
+    ]
+  }
+}

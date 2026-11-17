@@ -1,0 +1,41 @@
+{
+  "id": "df5-hubble",
+  "name": "M101-DF5 (Hubble)",
+  "blurb": "M101-DF5, an ultra-diffuse galaxy, seen by Hubble.",
+  "label": "df5-hubble",
+  "spec": "HST|DF5|13682|ACS/WFC|df5-hubble",
+  "find": [
+    "HST|13682|DF5"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "DF5",
+    "ultra-diffuse galaxy",
+    "low surface brightness galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Spotted by the Dragonfly telescope near the spiral galaxy M101, this faint, sprawling galaxy turned out to lie far behind it. The largest and roundest of its set, it may even be an ultra-diffuse galaxy living on its own.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "Found with the Dragonfly telescope as an extremely low surface brightness galaxy in the field of M101",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/13682/"
+      },
+      {
+        "text": "DF4-DF7 are not M101 group members but lie in the background NGC 5473/5485 group and are classified as ultra-diffuse galaxies",
+        "source": "https://arxiv.org/pdf/1610.01609"
+      },
+      {
+        "text": "DF5 is the largest and roundest of the sample and could be an isolated ultra-diffuse galaxy",
+        "source": "https://arxiv.org/pdf/1610.01609"
+      }
+    ]
+  }
+}

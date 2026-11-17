@@ -1,0 +1,58 @@
+{
+  "id": "ngc6822-sc3-hubble",
+  "name": "NGC 6822 SC3 (Hubble)",
+  "blurb": "NGC 6822 SC3, a globular cluster of the dwarf irregular galaxy NGC 6822, seen by Hubble.",
+  "label": "ngc6822sc3-hubble",
+  "spec": "HST|NGC6822-SC3|15336|ACS/WFC|ngc6822sc3-hubble",
+  "find": [
+    "HST|15336|NGC6822-SC3"
+  ],
+  "type": "Star cluster",
+  "aliases": [
+    "SC3",
+    "NGC6822-SC3",
+    "NGC 6822",
+    "globular cluster",
+    "star cluster"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "SC3 is one of the globular clusters closest to the heart of NGC 6822, an isolated dwarf irregular galaxy. Hubble's deep view resolves its stars, and the new data suggest the cluster is older than earlier estimates.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "NGC6822-SC3 is a globular cluster target of Hubble program 15336",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15336/"
+      },
+      {
+        "text": "NGC 6822 is an isolated dwarf irregular galaxy",
+        "source": "https://arxiv.org/html/2608.28434"
+      },
+      {
+        "text": "NGC 6822 is a Local Group dwarf irregular galaxy",
+        "source": "https://ar5iv.arxiv.org/html/1506.00951"
+      },
+      {
+        "text": "SC3 is one of the innermost globular clusters of NGC 6822",
+        "source": "https://arxiv.org/html/2608.28434"
+      },
+      {
+        "text": "SC3 is an extended globular cluster",
+        "source": "https://ar5iv.arxiv.org/html/1506.00951"
+      },
+      {
+        "text": "The new Hubble data suggest SC3 is older than an earlier estimate",
+        "source": "https://arxiv.org/html/2608.28434"
+      },
+      {
+        "text": "The study uses deep Hubble photometry resolving cluster stars",
+        "source": "https://arxiv.org/abs/2608.28434"
+      }
+    ]
+  }
+}

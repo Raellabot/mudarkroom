@@ -1,0 +1,51 @@
+{
+  "id": "sgas2-0033-hubble",
+  "name": "SGAS J003341.5+024217 (Hubble)",
+  "blurb": "SGAS J003341.5+024217, a gravitationally lensed galaxy with an active nucleus, seen by Hubble.",
+  "label": "sgas20033-hubble",
+  "spec": "HST|SGAS2-0033|14170|WFC3/UVIS|sgas20033-hubble",
+  "find": [
+    "HST|14170|SGAS2-0033"
+  ],
+  "type": "Galaxy cluster",
+  "aliases": [
+    "SGAS 0033+02",
+    "SGAS2-0033",
+    "gravitational lens",
+    "lensed galaxy",
+    "Seyfert galaxy",
+    "galaxy cluster"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "The gravity of a foreground cluster of galaxies stretches a distant galaxy into a long arc and two extra images, with a feeding black hole driving an outflow from its core. Hubble mapped its glowing gas to tell the light of newborn stars apart from the glow stirred up by the black hole.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "SGAS2-0033 is SGAS J003341.5+024217, also SGAS 0033+02",
+        "source": "https://ar5iv.labs.arxiv.org/html/1903.10403"
+      },
+      {
+        "text": "It is a lensed galaxy hosting a Seyfert active galactic nucleus",
+        "source": "https://arxiv.org/abs/1903.10403"
+      },
+      {
+        "text": "It is multiply imaged as an elongated arc and two counter images",
+        "source": "https://ar5iv.labs.arxiv.org/html/1903.10403"
+      },
+      {
+        "text": "The lens is a sub-cluster offset from the core of a main galaxy cluster",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/14170/"
+      },
+      {
+        "text": "It hosts an AGN-driven nuclear outflow, and Hubble mapped emission to separate star formation from AGN ionization",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/14170/"
+      }
+    ]
+  }
+}

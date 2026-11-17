@@ -1,0 +1,53 @@
+{
+  "id": "ngc1939-hubble",
+  "name": "NGC 1939 (Hubble)",
+  "blurb": "NGC 1939, an old globular cluster in the Large Magellanic Cloud, seen by Hubble.",
+  "label": "ngc1939-hubble",
+  "spec": "HST|NGC1939|9891|ACS/WFC|ngc1939-hubble",
+  "find": [
+    "HST|9891|NGC1939"
+  ],
+  "type": "Star cluster",
+  "aliases": [
+    "globular cluster",
+    "star cluster",
+    "Large Magellanic Cloud cluster",
+    "LMC cluster"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "An ancient, metal-poor globular cluster of the Large Magellanic Cloud, roughly as old as the oldest globular clusters of our own galaxy. A much younger cluster, NGC 1938, lies along the same line of sight but is unlikely to be physically associated with it.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "NGC 1939 is an old LMC globular cluster",
+        "source": "https://arxiv.org/abs/astro-ph/0404247"
+      },
+      {
+        "text": "NGC 1939 is a metal-poor cluster",
+        "source": "https://arxiv.org/abs/astro-ph/0404247"
+      },
+      {
+        "text": "NGC 1939 is coeval with the oldest Galactic and LMC globular clusters",
+        "source": "https://arxiv.org/abs/astro-ph/0404247"
+      },
+      {
+        "text": "The NGC 1939 field contains another, much younger cluster, NGC 1938, unlikely to be physically associated",
+        "source": "https://arxiv.org/abs/astro-ph/0404247"
+      },
+      {
+        "text": "The images come from program 9891",
+        "source": "https://ar5iv.labs.arxiv.org/html/astro-ph/0404247"
+      },
+      {
+        "text": "LMC stands for the Large Magellanic Cloud",
+        "source": "https://ar5iv.labs.arxiv.org/html/astro-ph/0404247"
+      }
+    ]
+  }
+}

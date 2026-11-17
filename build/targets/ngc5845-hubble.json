@@ -1,0 +1,45 @@
+{
+  "id": "ngc5845-hubble",
+  "name": "NGC 5845 (Hubble)",
+  "blurb": "NGC 5845, a compact galaxy with a rotating disk, seen by Hubble.",
+  "label": "ngc5845-hubble",
+  "spec": "HST|NGC5845|12591|ACS/WFC|ngc5845-hubble",
+  "find": [
+    "HST|12591|NGC5845"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "NGC5845",
+    "compact galaxy",
+    "early-type galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "NGC 5845 is a nearby stand-in for the compact, quiet galaxies of the distant universe, with a prominent rotating disk hidden in its dense glow.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "NGC 5845 is a nearby analog of z~2 compact quiescent galaxies",
+        "source": "https://arxiv.org/abs/1203.1317"
+      },
+      {
+        "text": "NGC 5845 has a prominent rotating disk",
+        "source": "https://arxiv.org/abs/1203.1317"
+      },
+      {
+        "text": "NGC 5845 is an early-type galaxy in the AMUSE-Field sample",
+        "source": "https://ar5iv.labs.arxiv.org/html/1406.6697"
+      },
+      {
+        "text": "NGC 5845 is a target of Hubble program 12591",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/12591/"
+      }
+    ]
+  }
+}

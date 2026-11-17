@@ -1,0 +1,52 @@
+{
+  "id": "agc182595-hubble",
+  "name": "AGC 182595 (Hubble)",
+  "blurb": "AGC 182595, a gas-rich dwarf galaxy, seen by Hubble.",
+  "label": "agc182595-hubble",
+  "spec": "HST|AGC182595|12658|ACS/WFC|agc182595-hubble",
+  "find": [
+    "HST|12658|AGC182595"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "SHIELD galaxy",
+    "dwarf galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A tiny, compact dwarf galaxy that still holds gas and makes stars, living in isolation with no known galaxy nearby. Hubble picked out its brightest red giant stars to measure how far away it is.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "AGC182595 is a target of Hubble program 12658, 'Fundamental Parameters of the SHIELD Galaxies'",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/12658/"
+      },
+      {
+        "text": "SHIELD galaxies are extremely low-mass, gas-rich galaxies discovered by the ALFALFA radio survey",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/12658/"
+      },
+      {
+        "text": "SHIELD is the Survey of HI in Extremely Low-mass Dwarf galaxies, and all its systems have recent star formation",
+        "source": "https://ar5iv.labs.arxiv.org/html/1402.3723"
+      },
+      {
+        "text": "Hubble program 12658 measured the galaxies' distances with the tip of the red giant branch method",
+        "source": "https://ar5iv.labs.arxiv.org/html/1402.3723"
+      },
+      {
+        "text": "AGC 182595 has no known galaxies within a radius of 1 Mpc",
+        "source": "https://ar5iv.labs.arxiv.org/html/1402.3723"
+      },
+      {
+        "text": "AGC 182595 is compact, and its red giant branch is clearly detected",
+        "source": "https://ar5iv.labs.arxiv.org/html/1402.3723"
+      }
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "id": "ngc-2070-3-v1s-hubble",
+  "name": "Tarantula Nebula, infrared Treasury field V1S (Hubble)",
+  "blurb": "The Tarantula Nebula, a star-forming region in the Large Magellanic Cloud, seen by Hubble.",
+  "label": "ngc20703v1s-hubble",
+  "spec": "HST|NGC-2070-3-V1S|12939|WFC3/IR|ngc20703v1s-hubble",
+  "find": [
+    "HST|12939|NGC-2070-3-V1S"
+  ],
+  "type": "Nebula",
+  "aliases": [
+    "Tarantula Nebula",
+    "30 Doradus",
+    "NGC 2070",
+    "Caldwell 103",
+    "nebula",
+    "star-forming region"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "This is one tile of Hubble's Tarantula Treasury Project, a map of the stars in the brightest stellar nursery in our galactic neighborhood. The survey reaches down to stars lighter than the Sun, tracing how this starburst built its stars.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "NGC 2070 is the Tarantula Nebula, also called 30 Doradus and Caldwell 103",
+        "source": "https://science.nasa.gov/mission/hubble/science/explore-the-night-sky/hubble-caldwell-catalog/caldwell-103/"
+      },
+      {
+        "text": "The Tarantula Nebula is a star-forming region in the Large Magellanic Cloud",
+        "source": "https://esahubble.org/images/heic1206a/"
+      },
+      {
+        "text": "30 Doradus is the brightest star-forming region in our galactic neighborhood",
+        "source": "https://esahubble.org/images/heic1206a/"
+      },
+      {
+        "text": "The Hubble Tarantula Treasury Project maps stellar populations in the Tarantula Nebula down to sub-solar masses",
+        "source": "https://arxiv.org/abs/1304.6747"
+      },
+      {
+        "text": "The Tarantula Nebula is a starburst",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/12939/"
+      },
+      {
+        "text": "Target NGC-2070-3-V1S is one of the WFC3/IR visit targets of program 12939",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/12939/"
+      }
+    ]
+  }
+}

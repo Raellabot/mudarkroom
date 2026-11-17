@@ -1,0 +1,48 @@
+{
+  "id": "fsr-1735-hubble",
+  "name": "FSR 1735 (Hubble)",
+  "blurb": "FSR 1735, a globular cluster in the inner Milky Way, seen by Hubble.",
+  "label": "fsr1735-hubble",
+  "spec": "HST+HST|FSR-1735+FSR-1735|14074+14074|ACS/WFC+WFC3/IR|fsr1735-hubble",
+  "find": [
+    "HST|14074|FSR-1735"
+  ],
+  "type": "Star cluster",
+  "aliases": [
+    "FSR1735",
+    "globular cluster",
+    "star cluster"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A dense ball of stars in the inner Milky Way, its light dimmed by a cloud of gas and dust along our line of sight, and found in a near-infrared search of the sky. Hubble peered through the dust to measure the cluster's age.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "FSR 1735 is a previously unknown globular cluster in the inner Galaxy",
+        "source": "https://ar5iv.labs.arxiv.org/html/astro-ph/0703318"
+      },
+      {
+        "text": "FSR 1735 was found in a 2MASS-based near-infrared cluster search",
+        "source": "https://ar5iv.labs.arxiv.org/html/astro-ph/0703318"
+      },
+      {
+        "text": "Its extinction is mostly caused by a single cloud of gas and dust in the line of sight",
+        "source": "https://ar5iv.labs.arxiv.org/html/astro-ph/0703318"
+      },
+      {
+        "text": "Hubble program 14074 measures ages of highly reddened globular clusters toward the Galactic bulge, including FSR 1735",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/14074/"
+      },
+      {
+        "text": "FSR 1735 is treated as a globular cluster in later work",
+        "source": "https://arxiv.org/abs/1501.06341v1"
+      }
+    ]
+  }
+}

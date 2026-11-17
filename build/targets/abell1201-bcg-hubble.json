@@ -1,0 +1,44 @@
+{
+  "id": "abell1201-bcg-hubble",
+  "name": "Abell 1201 BCG (Hubble)",
+  "blurb": "Abell 1201 BCG, the brightest galaxy of a galaxy cluster and a gravitational lens, seen by Hubble.",
+  "label": "abell1201bcg-hubble",
+  "spec": "HST|ABELL1201-BCG|14886|WFC3/UVIS|abell1201bcg-hubble",
+  "find": [
+    "HST|14886|ABELL1201-BCG"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "Abell 1201",
+    "brightest cluster galaxy",
+    "BCG",
+    "elliptical galaxy",
+    "gravitational lens",
+    "ultramassive black hole",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A giant elliptical galaxy at the heart of the cluster Abell 1201 bends the light of a more distant star-forming galaxy into an arc close to its center. Modeling that lens points to an ultramassive black hole hidden in the galaxy's core.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "The Abell 1201 brightest cluster galaxy is a cluster-dominant elliptical that lenses a star-forming background galaxy",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/14886/"
+      },
+      {
+        "text": "The lens produces a bright arc at small radius from the galaxy's center",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/14886/"
+      },
+      {
+        "text": "Lens modeling of Abell 1201 with Hubble imaging favors an ultramassive black hole at its center",
+        "source": "https://arxiv.org/abs/2303.15514"
+      }
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "id": "3c124-hubble",
+  "name": "3C 124 (Hubble)",
+  "blurb": "3C 124, a distant radio galaxy, seen by Hubble.",
+  "label": "3c124-hubble",
+  "spec": "HST+HST|3C124+3C124|16281+16281|WFC3/IR+WFC3/UVIS|3c124-hubble",
+  "find": [
+    "HST|16281|3C124"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "3C124",
+    "3CR 124",
+    "radio galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A galaxy blazing with one of the most powerful radio-loud active nuclei of its era, likely a forerunner of today's most massive elliptical galaxies. Hubble looked here to catch its stars forming and to map the cluster neighborhood around it.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "3C124 is a radio galaxy targeted by Hubble program 16281 (redshift 1.083)",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/16281/"
+      },
+      {
+        "text": "The program's 3CR sources are among the most powerful radio-loud AGNs at such redshifts, hosted by progenitors of the most massive ellipticals",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/16281/"
+      },
+      {
+        "text": "The program studies the star formation and cluster environments of these systems",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/16281/"
+      }
+    ]
+  }
+}

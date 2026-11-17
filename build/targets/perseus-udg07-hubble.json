@@ -1,0 +1,50 @@
+{
+  "id": "perseus-udg07-hubble",
+  "name": "Perseus Cluster, ultra-diffuse galaxy field UDG07 (Hubble)",
+  "blurb": "A field of ultra-diffuse galaxies in the Perseus Cluster, seen by Hubble.",
+  "label": "perseusudg07-hubble",
+  "spec": "HST|PERSEUS-UDG07|15235|WFC3/UVIS|perseusudg07-hubble",
+  "find": [
+    "HST|15235|PERSEUS-UDG07"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "Perseus Cluster",
+    "Abell 426",
+    "WUDG01",
+    "WUDG02",
+    "WUDG07",
+    "RUDG015",
+    "ultra-diffuse galaxy",
+    "galaxy cluster",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "This outlying field of the Perseus Cluster was chosen for its ultra-diffuse galaxies, faint, spread-out systems that still puzzle astronomers. Are they failed galaxies with high masses, or a mixed bag?",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "The Perseus cluster is also known as Abell 426",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15235/"
+      },
+      {
+        "text": "Ten outlying fields of the program target known ultra-diffuse galaxies in Perseus",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15235/"
+      },
+      {
+        "text": "The PERSEUS-UDG07 field contains WUDG01, WUDG02, WUDG07 and RUDG015",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15235/"
+      },
+      {
+        "text": "The open question about UDGs: failed underluminous galaxies with high masses, or a mixed bag",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15235/"
+      }
+    ]
+  }
+}

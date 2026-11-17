@@ -1,0 +1,40 @@
+{
+  "id": "spt-clj2108-4445-hubble",
+  "name": "SPT-CL J2108-4445 (Hubble)",
+  "blurb": "SPT-CL J2108-4445, a massive galaxy cluster found by the South Pole Telescope, seen by Hubble.",
+  "label": "sptclj21084445-hubble",
+  "spec": "HST+HST|SPT-CLJ2108-4445+SPT-CLJ2108-4445|15307+15307|WFC3/IR+WFC3/UVIS|sptclj21084445-hubble",
+  "find": [
+    "HST|15307|SPT-CLJ2108-4445"
+  ],
+  "type": "Galaxy cluster",
+  "aliases": [
+    "SPT-CLJ2108-4445",
+    "galaxy cluster",
+    "cluster of galaxies"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A rich cluster of galaxies from the South Pole Telescope's survey of massive clusters. Hubble looked here for clues to how cluster galaxies grow, and for background galaxies whose light is lensed by the cluster's gravity.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "SPT-CL J2108-4445 is one of the South Pole Telescope galaxy clusters imaged in Hubble program 15307",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15307/"
+      },
+      {
+        "text": "The program's clusters were identified via the Sunyaev-Zel'dovich effect and are massive clusters",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15307/"
+      },
+      {
+        "text": "The program studies the growth of brightest cluster galaxies through mergers, strong lensing, and lensed background galaxies",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15307/"
+      }
+    ]
+  }
+}

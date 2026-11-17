@@ -1,0 +1,50 @@
+{
+  "id": "gal-020750-452050-hubble",
+  "name": "LCRS B020551.6-453502 (Hubble)",
+  "blurb": "LCRS B020551.6-453502, a post-starburst (E+A) spiral galaxy, seen by Hubble.",
+  "label": "gal020750452050-hubble",
+  "spec": "HST|GAL-020750-452050|9781|ACS/WFC|gal020750452050-hubble",
+  "find": [
+    "HST|9781|GAL-020750-452050"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "EA19",
+    "E+A galaxy",
+    "post-starburst galaxy",
+    "spiral galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Post-starburst galaxies like this one are among the best candidates for galaxies in transition, turning from gas-rich and star-forming to gas-poor and passively evolving through galaxy mergers. This one is a dusty spiral with two spiral arms, its bulge largely hidden behind dust lanes.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "The target position (02 07 50, -45 20 50) is the E+A galaxy LCRS B020551.6-453502 (EA19)",
+        "source": "https://arxiv.org/pdf/astro-ph/0604563"
+      },
+      {
+        "text": "Post-starburst (E+A) galaxies are the best candidates for galaxies in transition from gas-rich and star-forming to gas-poor and passively evolving, via galaxy mergers",
+        "source": "https://arxiv.org/abs/0801.1190"
+      },
+      {
+        "text": "The E+A galaxies EA06 to EA21 of the Zabludoff et al. (1996) Las Campanas Redshift Survey sample were imaged with Hubble's ACS",
+        "source": "https://ar5iv.labs.arxiv.org/html/0801.1190"
+      },
+      {
+        "text": "EA19 is a spiral (Sab) galaxy with two spiral arms",
+        "source": "https://arxiv.org/pdf/astro-ph/0604563"
+      },
+      {
+        "text": "Dust lanes mask a large portion of EA19's bulge",
+        "source": "https://ar5iv.labs.arxiv.org/html/0801.1190"
+      }
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "id": "eso203-ig001-hubble",
+  "name": "ESO 203-IG001 (Hubble)",
+  "blurb": "ESO 203-IG001, a luminous infrared galaxy, seen by Hubble.",
+  "label": "eso203ig001-hubble",
+  "spec": "HST|ESO203-IG001|10592|ACS/WFC|eso203ig001-hubble",
+  "find": [
+    "HST|10592|ESO203-IG001"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "ESO203-IG001",
+    "luminous infrared galaxy",
+    "LIRG",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Hubble surveyed this galaxy as one of the brightest infrared emitters nearby, a class made mostly of interacting or merging disk galaxies busy forming stars.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "ESO 203-IG001 is a luminous infrared galaxy in the GOALS sample",
+        "source": "https://arxiv.org/pdf/1012.4012"
+      },
+      {
+        "text": "ESO 203-IG001 is a target of the ACS survey of a complete sample of luminous infrared galaxies",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/10592/"
+      },
+      {
+        "text": "Targets of program 10592 are luminous infrared galaxies, primarily interacting or merging disk galaxies with enhanced star formation and AGN activity",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/10592/"
+      }
+    ]
+  }
+}

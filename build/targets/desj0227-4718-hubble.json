@@ -1,0 +1,42 @@
+{
+  "id": "desj0227-4718-hubble",
+  "name": "DES J0227-4718 (Hubble)",
+  "blurb": "DES J0227-4718, a strong gravitational lens, seen by Hubble.",
+  "label": "desj02274718-hubble",
+  "spec": "HST+HST|DESJ0227-4718+DESJ0227-4718|16773+16773|WFC3/IR+WFC3/UVIS|desj02274718-hubble",
+  "find": [
+    "HST|16773|DESJ0227-4718"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "DESJ0227-4718",
+    "AGEL 022709-471856",
+    "gravitational lens",
+    "strong lens",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Light from a galaxy far in the background is bent around a foreground galaxy on its way to us, turning gravity itself into a lens.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "Hubble object DESJ0227-4718 is AGEL022709-471856A, observed in program 16773",
+        "source": "https://ar5iv.labs.arxiv.org/html/2503.08041"
+      },
+      {
+        "text": "The lens has a foreground deflector and a much more distant background source with measured redshifts",
+        "source": "https://arxiv.org/pdf/2205.05307"
+      },
+      {
+        "text": "Program 16773 imaged AGEL gravitational lenses",
+        "source": "https://ar5iv.labs.arxiv.org/html/2503.08041"
+      }
+    ]
+  }
+}

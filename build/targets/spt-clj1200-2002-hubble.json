@@ -1,0 +1,40 @@
+{
+  "id": "spt-clj1200-2002-hubble",
+  "name": "SPT-CL J1200-2002 (Hubble)",
+  "blurb": "SPT-CL J1200-2002, a massive galaxy cluster found by the South Pole Telescope, seen by Hubble.",
+  "label": "sptclj12002002-hubble",
+  "spec": "HST+HST|SPT-CLJ1200-2002+SPT-CLJ1200-2002|15307+15307|WFC3/IR+WFC3/UVIS|sptclj12002002-hubble",
+  "find": [
+    "HST|15307|SPT-CLJ1200-2002"
+  ],
+  "type": "Galaxy cluster",
+  "aliases": [
+    "SPT-CLJ1200-2002",
+    "galaxy cluster",
+    "cluster of galaxies"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "One of hundreds of massive galaxy clusters found by the South Pole Telescope. Hubble photographed it to follow how cluster galaxies change over cosmic time, and to catch distant galaxies whose light the cluster's gravity bends.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "SPT-CL J1200-2002 is one of the South Pole Telescope galaxy clusters imaged in Hubble program 15307",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15307/"
+      },
+      {
+        "text": "The program's clusters were identified via the Sunyaev-Zel'dovich effect and are massive clusters",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15307/"
+      },
+      {
+        "text": "The program studies the growth of brightest cluster galaxies through mergers, strong lensing, and lensed background galaxies",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15307/"
+      }
+    ]
+  }
+}

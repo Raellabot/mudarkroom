@@ -1,0 +1,54 @@
+{
+  "id": "agc223254-hubble",
+  "name": "AGC 223254 (Hubble)",
+  "blurb": "AGC 223254, a gas-rich dwarf galaxy, seen by Hubble.",
+  "label": "agc223254-hubble",
+  "spec": "HST|AGC223254|13750|ACS/WFC|agc223254-hubble",
+  "find": [
+    "HST|13750|AGC223254"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "AGC223254",
+    "SHIELD galaxy",
+    "dwarf galaxy",
+    "gas-rich dwarf galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A small, gas-rich dwarf galaxy first found by the hydrogen it carries, with the galaxy UGC 7603 as a neighbor within 500 kpc. Hubble resolved its red giant stars to measure its distance.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "AGC 223254 is a SHIELD II target of Hubble program 13750, 'Fundamental Parameters of the SHIELD II Galaxies'",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/13750/"
+      },
+      {
+        "text": "SHIELD galaxies are gas-rich dwarf galaxies",
+        "source": "https://arxiv.org/pdf/2105.05100"
+      },
+      {
+        "text": "SHIELD galaxies were selected from the ALFALFA radio (HI) survey catalog",
+        "source": "https://arxiv.org/pdf/2105.05100"
+      },
+      {
+        "text": "The Hubble imaging was used to measure distances from the tip of the red giant branch",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/13750/"
+      },
+      {
+        "text": "A TRGB distance was measured for AGC 223254",
+        "source": "https://arxiv.org/pdf/2105.05100"
+      },
+      {
+        "text": "UGC 7603 is a neighbor galaxy within 500 kpc of AGC 223254",
+        "source": "https://arxiv.org/pdf/2105.05100"
+      }
+    ]
+  }
+}

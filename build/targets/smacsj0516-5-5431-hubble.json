@@ -1,0 +1,40 @@
+{
+  "id": "smacsj0516-5-5431-hubble",
+  "name": "SMACS J0516.5-5431 (Hubble)",
+  "blurb": "SMACS J0516.5-5431, a galaxy cluster, seen by Hubble.",
+  "label": "smacsj051655431-hubble",
+  "spec": "HST|SMACSJ0516.5-5431|16670|ACS/WFC|smacsj051655431-hubble",
+  "find": [
+    "HST|16670|SMACSJ0516.5-5431"
+  ],
+  "type": "Galaxy cluster",
+  "aliases": [
+    "SMACSJ0516.5-5431",
+    "galaxy cluster",
+    "cluster of galaxies"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "SMACS J0516.5-5431 is a rich, X-ray bright galaxy cluster, a great city of galaxies. Hubble took a quick snapshot to see whether its gravity bends and magnifies the light of galaxies far behind it.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "SMACS J0516.5-5431 (SMACSJ0516.5-5431) is a massive galaxy cluster targeted by Hubble program 16670",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/16670/"
+      },
+      {
+        "text": "Hubble program 16670 is a snapshot survey of extreme, X-ray luminous galaxy clusters, seeking powerful gravitational telescopes",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/16670/"
+      },
+      {
+        "text": "The program studies dark and luminous matter in cluster cores",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/16670/"
+      }
+    ]
+  }
+}

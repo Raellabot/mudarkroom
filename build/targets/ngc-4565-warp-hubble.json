@@ -1,0 +1,51 @@
+{
+  "id": "ngc-4565-warp-hubble",
+  "name": "NGC 4565, warp field (Hubble)",
+  "blurb": "NGC 4565, the Needle Galaxy, a spiral galaxy seen edge-on, seen by Hubble.",
+  "label": "ngc4565warp-hubble",
+  "spec": "HST+HST|NGC-4565-WARP+NGC-4565-WARP|12196+12196|ACS/WFC+WFC3/UVIS|ngc4565warp-hubble",
+  "find": [
+    "HST|12196|NGC-4565-WARP"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "Needle Galaxy",
+    "Caldwell 38",
+    "NGC 4565",
+    "edge-on galaxy",
+    "spiral galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "The Needle Galaxy is a spiral seen almost perfectly edge-on, so thin it looks like a pin. Here Hubble looked out along its disk, in a field the program named for the galaxy's warp, while studying how the disks of galaxies end at their faint outer edges.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "NGC 4565 is a spiral galaxy seen almost perfectly edge-on",
+        "source": "https://science.nasa.gov/mission/hubble/science/explore-the-night-sky/hubble-caldwell-catalog/caldwell-38/"
+      },
+      {
+        "text": "NGC 4565 is Caldwell 38, nicknamed the Needle galaxy, thin as a pin",
+        "source": "https://science.nasa.gov/mission/hubble/science/explore-the-night-sky/hubble-caldwell-catalog/caldwell-38/"
+      },
+      {
+        "text": "Caldwell 38 is also cataloged as NGC 4565",
+        "source": "https://science.nasa.gov/mission/hubble/science/explore-the-night-sky/hubble-caldwell-catalog/caldwell-38/"
+      },
+      {
+        "text": "The program's NGC 4565 pointing is labeled as a warp field",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/12196/"
+      },
+      {
+        "text": "The program studied disk truncations, the outer limits of galaxy disks",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/12196/"
+      }
+    ]
+  }
+}

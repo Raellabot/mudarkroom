@@ -1,0 +1,55 @@
+{
+  "id": "matlas-1332-hubble",
+  "name": "MATLAS-1332 (Hubble)",
+  "blurb": "MATLAS-1332, an ultra-diffuse dwarf galaxy with a bright nucleus, seen by Hubble.",
+  "label": "matlas1332-hubble",
+  "spec": "HST|MATLAS-1332|16711|ACS/WFC|matlas1332-hubble",
+  "find": [
+    "HST|16711|MATLAS-1332"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "ultra-diffuse galaxy",
+    "UDG",
+    "dwarf galaxy",
+    "dwarf elliptical galaxy",
+    "nucleated dwarf galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A faint, spread-out dwarf galaxy with a bright nucleus at its heart, living in a quieter, less crowded neighborhood of the cosmos. Hubble looked here for the globular clusters that gather around such ghostly galaxies.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "MATLAS-1332 is one of the ultra-diffuse galaxies in the MATLAS Hubble study",
+        "source": "https://arxiv.org/html/2408.03311v1"
+      },
+      {
+        "text": "MATLAS-1332 has a bright nucleus",
+        "source": "https://arxiv.org/html/2408.03311v1"
+      },
+      {
+        "text": "MATLAS-1332 is a nucleated dwarf (elliptical) galaxy",
+        "source": "https://arxiv.org/html/2408.03311v1"
+      },
+      {
+        "text": "The MATLAS UDGs are found in lower density environments",
+        "source": "https://arxiv.org/abs/2408.03311"
+      },
+      {
+        "text": "Hubble imaging was used to find the globular clusters of these galaxies",
+        "source": "https://arxiv.org/html/2408.03311v1"
+      },
+      {
+        "text": "MATLAS-1332 is a dwarf elliptical galaxy target of the Hubble program",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/16711/"
+      }
+    ]
+  }
+}

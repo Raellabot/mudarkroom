@@ -1,0 +1,60 @@
+{
+  "id": "twa30-field-hubble",
+  "name": "TWA 30 (Hubble)",
+  "blurb": "TWA 30, a pair of young stars in the TW Hydrae Association, seen by Hubble.",
+  "label": "twa30field-hubble",
+  "spec": "HST|TWA30-FIELD|12208|WFC3/UVIS|twa30field-hubble",
+  "find": [
+    "HST|12208|TWA30-FIELD"
+  ],
+  "type": "Young star",
+  "aliases": [
+    "TWA 30",
+    "TWA 30A",
+    "TWA 30B",
+    "TW Hydrae Association",
+    "T Tauri star",
+    "young star",
+    "binary star"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Two young stars of the TW Hydrae Association share this field: TWA 30A and its wide companion TWA 30B, which hides behind its own disk, seen edge-on. Both show signs of accretion disks and outflows, and Hubble looked here to resolve their disks and jets.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "TWA 30A and B are TW Hydrae Association members with evidence of accretion disks and outflows",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/12208/"
+      },
+      {
+        "text": "The field was placed to put both stars near the center of the detector",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/12208/"
+      },
+      {
+        "text": "The program aimed to resolve disks and jets in this low-mass binary",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/12208/"
+      },
+      {
+        "text": "TWA 30 is a young star",
+        "source": "https://arxiv.org/abs/1008.4340"
+      },
+      {
+        "text": "TWA 30B is a wide companion of TWA 30",
+        "source": "https://arxiv.org/abs/1008.4340"
+      },
+      {
+        "text": "TWA 30B is hidden by its disk, which is viewed edge-on",
+        "source": "https://arxiv.org/abs/1008.4340"
+      },
+      {
+        "text": "TWA 30 is a T Tauri star",
+        "source": "https://arxiv.org/abs/1008.4340"
+      }
+    ]
+  }
+}

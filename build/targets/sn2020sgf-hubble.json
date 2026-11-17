@@ -1,0 +1,45 @@
+{
+  "id": "sn2020sgf-hubble",
+  "name": "SN 2020sgf field (Hubble)",
+  "blurb": "The field of SN 2020sgf, a Type Ic supernova, seen by Hubble.",
+  "label": "sn2020sgf-hubble",
+  "spec": "HST|SN2020SGF|16691|WFC3/UVIS|sn2020sgf-hubble",
+  "find": [
+    "HST|16691|SN2020SGF"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "SN 2020sgf",
+    "SN2020SGF",
+    "supernova",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A star stripped of its outer layers exploded here as SN 2020sgf, a Type Ic supernova whose fading light may have pulsed with a steady rhythm. Hubble came back long after the blast to study the faded supernova and its surroundings.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "SN 2020sgf is a Type Ic supernova",
+        "source": "https://arxiv.org/pdf/2608.18207"
+      },
+      {
+        "text": "SN 2020sgf is a candidate for periodic light-curve modulations",
+        "source": "https://arxiv.org/abs/2608.18207"
+      },
+      {
+        "text": "Type Ib/c supernovae are stripped-envelope supernovae",
+        "source": "https://arxiv.org/abs/2608.18207"
+      },
+      {
+        "text": "Hubble program 16691 takes late-time snapshots of recent transients and their environments",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/16691/"
+      }
+    ]
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "id": "ugc2698-hubble",
+  "name": "UGC 2698 (Hubble)",
+  "blurb": "UGC 2698, a compact early-type galaxy, seen by Hubble.",
+  "label": "ugc2698-hubble",
+  "spec": "HST+HST|UGC2698+UGC2698|13416+13416|WFC3/IR+WFC3/UVIS|ugc2698-hubble",
+  "find": [
+    "HST|13416|UGC2698"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "UGC 2698",
+    "compact galaxy",
+    "early-type galaxy",
+    "elliptical galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "UGC 2698 is a small, dense galaxy that may be a relic of the early universe, and a disk of gas whirls around the supermassive black hole at its heart.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "UGC 2698 is a local compact galaxy",
+        "source": "https://arxiv.org/abs/2104.07779"
+      },
+      {
+        "text": "UGC 2698 is an early-type galaxy",
+        "source": "https://arxiv.org/abs/2104.07779"
+      },
+      {
+        "text": "UGC 2698 may be a relic of the early universe",
+        "source": "https://arxiv.org/abs/2104.07779"
+      },
+      {
+        "text": "A circumnuclear gas disk rotates around the center of UGC 2698",
+        "source": "https://arxiv.org/abs/2104.07779"
+      },
+      {
+        "text": "UGC 2698 hosts a supermassive black hole at its center",
+        "source": "https://arxiv.org/abs/2104.07779"
+      },
+      {
+        "text": "Hubble program 13416 imaged UGC 2698 to constrain its black hole mass",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/13416/"
+      }
+    ]
+  }
+}

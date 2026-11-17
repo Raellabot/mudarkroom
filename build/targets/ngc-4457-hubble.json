@@ -1,0 +1,55 @@
+{
+  "id": "ngc-4457-hubble",
+  "name": "NGC 4457, SN 2020nvb field (Hubble)",
+  "blurb": "NGC 4457, a lenticular galaxy in the Virgo Cluster, seen by Hubble.",
+  "label": "ngc4457-hubble",
+  "spec": "HST|NGC-4457|16453|ACS/WFC|ngc4457-hubble",
+  "find": [
+    "HST|16453|NGC-4457"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "SN 2020nvb host",
+    "AT2020nvb host",
+    "lenticular galaxy",
+    "S0 galaxy",
+    "Virgo Cluster galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "NGC 4457 hosted SN 2020nvb, a Type Ia supernova, one of the exploding stars astronomers use as standard candles. Hubble looked at the galaxy's outer stars, whose old red giants act as a cosmic yardstick for measuring its distance and calibrating the supernova scale.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "NGC 4457 is an S0 (lenticular) galaxy",
+        "source": "https://ar5iv.labs.arxiv.org/html/2508.20023"
+      },
+      {
+        "text": "NGC 4457 is a Virgo Cluster galaxy",
+        "source": "https://ar5iv.labs.arxiv.org/html/2508.20023"
+      },
+      {
+        "text": "NGC 4457 hosted the Type Ia supernova SN 2020nvb",
+        "source": "https://www.astronomerstelegram.org/?read=13858"
+      },
+      {
+        "text": "SN 2020nvb is hosted by NGC 4457",
+        "source": "https://arxiv.org/abs/2508.20023"
+      },
+      {
+        "text": "Type Ia supernovae are used as standard candles; Hubble program 16453 measures a tip of the red giant branch distance to NGC 4457 to add a calibrator",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/16453/"
+      },
+      {
+        "text": "The Hubble fields cover the galaxy's outer stars",
+        "source": "https://ar5iv.labs.arxiv.org/html/2508.20023"
+      }
+    ]
+  }
+}

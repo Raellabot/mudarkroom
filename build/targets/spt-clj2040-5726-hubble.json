@@ -1,0 +1,36 @@
+{
+  "id": "spt-clj2040-5726-hubble",
+  "name": "SPT-CL J2040-5726 (Hubble)",
+  "blurb": "SPT-CL J2040-5726, a distant, massive galaxy cluster, seen by Hubble.",
+  "label": "sptclj20405726-hubble",
+  "spec": "HST|SPT-CLJ2040-5726|12477|ACS/WFC|sptclj20405726-hubble",
+  "find": [
+    "HST|12477|SPT-CLJ2040-5726"
+  ],
+  "type": "Galaxy cluster",
+  "aliases": [
+    "SPT-CLJ2040-5726",
+    "galaxy cluster",
+    "cluster of galaxies"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Found by the South Pole Telescope, this cluster is among the most distant massive clusters in its survey. Hubble looked for the subtle distortion of background galaxies to weigh it, dark matter and all.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "SPT-CL J2040-5726 is one of the highest-redshift massive galaxy clusters from the South Pole Telescope SZ survey targeted for weak lensing masses",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/12477/"
+      },
+      {
+        "text": "The program uses weak lensing to measure total cluster mass, extending gas and dark-matter analysis",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/12477/"
+      }
+    ]
+  }
+}

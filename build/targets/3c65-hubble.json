@@ -1,0 +1,45 @@
+{
+  "id": "3c65-hubble",
+  "name": "3C 65 (Hubble)",
+  "blurb": "3C 65, a radio galaxy, seen by Hubble.",
+  "label": "3c65-hubble",
+  "spec": "HST+HST|3C65+3C65|16281+16281|WFC3/IR+WFC3/UVIS|3c65-hubble",
+  "find": [
+    "HST|16281|3C65"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "3C65",
+    "3C065",
+    "radio galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "3C 65 is a distant radio galaxy, shining from an era when massive elliptical galaxies were still assembling. Hubble surveyed it to watch how such giant galaxies, and the crowds around them, took shape.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "3C 65 is a radio galaxy at redshift 1.176, a target of Hubble program 16281",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/16281/"
+      },
+      {
+        "text": "3C 65 (3C065) is a high-redshift radio galaxy",
+        "source": "https://arxiv.org/pdf/1209.5399"
+      },
+      {
+        "text": "Hubble program 16281 surveys high-redshift 3CR radio sources from an era when massive elliptical galaxies were assembling",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/16281/"
+      },
+      {
+        "text": "The program studies the formation of massive galaxies and their cluster environments",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/16281/"
+      }
+    ]
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "id": "name-wlm-galaxy-hubble",
+  "name": "WLM (Hubble)",
+  "blurb": "WLM, an isolated dwarf irregular galaxy, seen by Hubble.",
+  "label": "namewlmgalaxy-hubble",
+  "spec": "HST|NAME-WLM-GALAXY|13768|ACS/WFC|namewlmgalaxy-hubble",
+  "find": [
+    "HST|13768|NAME-WLM-GALAXY"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "Wolf-Lundmark-Melotte",
+    "Wolf-Lundmark-Melotte galaxy",
+    "DDO 221",
+    "dwarf galaxy",
+    "irregular galaxy",
+    "dwarf irregular galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "The Wolf-Lundmark-Melotte galaxy is a small dwarf galaxy, about 3 million light-years away, that has lived in isolation. Hubble looked deep enough here to reach its oldest stars and read the story of how it built up its stars over time.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "WLM is the dwarf galaxy Wolf-Lundmark-Melotte",
+        "source": "https://esawebb.org/images/WLMa/"
+      },
+      {
+        "text": "WLM is a barred, irregular, dwarf galaxy about 3 million light-years away",
+        "source": "https://science.nasa.gov/asset/webb/dwarf-galaxy-wlm-spitzer-irac-and-webb-nircam/"
+      },
+      {
+        "text": "WLM is also cataloged as DDO 221",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/13768/"
+      },
+      {
+        "text": "WLM is an isolated dwarf galaxy close enough for Hubble to reach its oldest main-sequence turnoffs; the program measures its star formation history",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/13768/"
+      }
+    ]
+  }
+}

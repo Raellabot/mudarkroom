@@ -1,0 +1,48 @@
+{
+  "id": "andromeda-ii-hubble",
+  "name": "Andromeda II (Hubble)",
+  "blurb": "Andromeda II, a dwarf spheroidal galaxy, seen by Hubble.",
+  "label": "andromedaii-hubble",
+  "spec": "HST|ANDROMEDA-II|13028|ACS/WFC|andromedaii-hubble",
+  "find": [
+    "HST|13028|ANDROMEDA-II"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "And II",
+    "ANDROMEDA-II",
+    "dwarf spheroidal galaxy",
+    "dSph",
+    "dwarf galaxy",
+    "satellite galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A faint dwarf spheroidal companion of the Andromeda Galaxy. Hubble looked deep enough to sort its individual stars and read its long history of star formation, among the most drawn-out of the six Andromeda dwarfs the ISLAndS project studied.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "Andromeda II is a dwarf spheroidal satellite of the Andromeda Galaxy (M31)",
+        "source": "https://ar5iv.labs.arxiv.org/html/1606.01207"
+      },
+      {
+        "text": "Hubble program 13028 targeted Andromeda II for deep color-magnitude diagrams",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/13028/"
+      },
+      {
+        "text": "The ISLAndS project studied six Andromeda dSphs with Hubble",
+        "source": "https://ar5iv.labs.arxiv.org/html/1606.01207"
+      },
+      {
+        "text": "Andromeda II has one of the most extended star formation histories in the sample",
+        "source": "https://ar5iv.labs.arxiv.org/html/1606.01207"
+      }
+    ]
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "id": "vcc-1816-hubble",
+  "name": "VCC 1816 (Hubble)",
+  "blurb": "VCC 1816, a star-forming irregular galaxy toward the Virgo Cluster, seen by Hubble.",
+  "label": "vcc1816-hubble",
+  "spec": "HST|VCC-1816|12878|ACS/WFC|vcc1816-hubble",
+  "find": [
+    "HST|12878|VCC-1816"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "KDG 177",
+    "irregular galaxy",
+    "dwarf galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A small irregular galaxy, rich in gas and busy forming stars. Hubble looked for its red giants to test whether it sits in front of the Virgo Cluster, but it seems to belong to the cluster itself.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "VCC 1816 is a target of Hubble program 12878, 'The Near Edge of Infall into the Virgo Cluster', which measures TRGB distances to galaxies in front of Virgo",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/12878/"
+      },
+      {
+        "text": "VCC 1816 is also known as KDG 177",
+        "source": "https://ar5iv.labs.arxiv.org/html/1312.6769"
+      },
+      {
+        "text": "VCC 1816 is an Im-type galaxy, HI-rich and actively forming stars",
+        "source": "https://ar5iv.labs.arxiv.org/html/1312.6769"
+      },
+      {
+        "text": "VCC 1816 appears to belong to the Virgo Cluster",
+        "source": "https://ar5iv.labs.arxiv.org/html/1312.6769"
+      }
+    ]
+  }
+}

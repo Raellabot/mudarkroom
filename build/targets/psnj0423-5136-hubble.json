@@ -1,0 +1,38 @@
+{
+  "id": "psnj0423-5136-hubble",
+  "name": "NGC 1578, PSN J04234719-5136029 field (Hubble)",
+  "blurb": "NGC 1578, the presumed host galaxy of the Type Ia supernova PSN J04234719-5136029, seen by Hubble.",
+  "label": "psnj04235136-hubble",
+  "spec": "HST|PSNJ0423-5136|15166|WFC3/UVIS|psnj04235136-hubble",
+  "find": [
+    "HST|15166|PSNJ0423-5136"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "PSN J04234719-5136029",
+    "PSNJ0423-5136",
+    "supernova",
+    "Type Ia supernova",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A Type Ia supernova, caught days before it reached its peak, appeared beside this galaxy. Hubble returned later to measure the faint light that lingers where a star has exploded.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "PSN J04234719-5136029 is a Type Ia supernova observed before maximum; presumed host NGC 1578",
+        "source": "https://www.astronomerstelegram.org/?read=6394"
+      },
+      {
+        "text": "Program 15166 images sites of recent supernovae to obtain late-time photometry",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15166/"
+      }
+    ]
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "id": "ngc4224-hubble",
+  "name": "NGC 4224 (Hubble)",
+  "blurb": "NGC 4224, a spiral galaxy, seen by Hubble.",
+  "label": "ngc4224-hubble",
+  "spec": "HST+HST|NGC4224+NGC4224|15181+15181|WFC3/IR+WFC3/UVIS|ngc4224-hubble",
+  "find": [
+    "HST|15181|NGC4224"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "spiral galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "NGC 4224 is one of the quiet galaxies astronomers carefully matched to galaxies with active black holes, to compare how gas flows toward the center in each. Hubble mapped dust here to trace the cold gas near its core.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "NGC 4224 is a spiral galaxy (morphological type SA(s)a)",
+        "source": "https://www.aanda.org/articles/aa/full_html/2020/02/aa36321-19/T1.html"
+      },
+      {
+        "text": "NGC 4224 is one of the LLAMA inactive (control) galaxies, matched to the AGN sample",
+        "source": "https://ar5iv.labs.arxiv.org/html/2105.05309"
+      },
+      {
+        "text": "Hubble program 15181 imaged carefully matched inactive galaxies alongside luminous AGN to study gas flowing toward central black holes",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15181/"
+      },
+      {
+        "text": "The program uses Hubble dust maps to trace the structure of cold gas",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15181/"
+      }
+    ]
+  }
+}

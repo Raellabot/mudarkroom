@@ -1,0 +1,41 @@
+{
+  "id": "ugc8215-hubble",
+  "name": "UGC 8215 (Hubble)",
+  "blurb": "UGC 8215, a dwarf irregular galaxy, seen by Hubble.",
+  "label": "ugc8215-hubble",
+  "spec": "HST|UGC8215|9771|ACS/WFC|ugc8215-hubble",
+  "find": [
+    "HST|9771|UGC8215"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "dwarf irregular galaxy",
+    "irregular galaxy",
+    "dwarf galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A small, irregular galaxy in the loose cloud of galaxies known as CVn I. Hubble picks out its individual stars, and the brightest old red giants among them serve as a yardstick for its distance.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "UGC 8215 is a dwarf irregular (dIr) galaxy",
+        "source": "https://ar5iv.arxiv.org/html/astro-ph/0511648"
+      },
+      {
+        "text": "UGC 8215 is in the CVn I cloud",
+        "source": "https://ar5iv.arxiv.org/html/astro-ph/0511648"
+      },
+      {
+        "text": "Hubble ACS images resolve the galaxy into stars and its distance comes from the luminosities of stars at the tip of the red giant branch",
+        "source": "https://ar5iv.arxiv.org/html/astro-ph/0511648"
+      }
+    ]
+  }
+}

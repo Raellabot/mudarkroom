@@ -1,0 +1,47 @@
+{
+  "id": "sn1999bd-hubble",
+  "name": "SN 1999bd field (Hubble)",
+  "blurb": "The host galaxy of the superluminous supernova SN 1999bd, seen by Hubble.",
+  "label": "sn1999bd-hubble",
+  "spec": "HST+HST|SN1999BD+SN1999BD|13025+13025|WFC3/IR+WFC3/UVIS|sn1999bd-hubble",
+  "find": [
+    "HST|13025|SN1999BD"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "SN 1999bd",
+    "SN1999bd",
+    "superluminous supernova",
+    "SLSN-IIn",
+    "supernova host",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Somewhere in this field lies the host galaxy of SN 1999bd, a superluminous supernova of Type IIn. Hubble returned to learn what kind of galaxy gives birth to the most luminous supernovae, and where within it they explode.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "SN 1999bd is a superluminous Type IIn supernova whose host Hubble imaged",
+        "source": "https://ar5iv.labs.arxiv.org/html/1601.01874"
+      },
+      {
+        "text": "The program surveyed host galaxies of the brightest supernovae",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/13025/"
+      },
+      {
+        "text": "The program aimed to locate the supernovae within their hosts",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/13025/"
+      },
+      {
+        "text": "The program is titled for the most luminous supernovae",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/13025/"
+      }
+    ]
+  }
+}

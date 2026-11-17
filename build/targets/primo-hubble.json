@@ -1,0 +1,61 @@
+{
+  "id": "primo-hubble",
+  "name": "SN Primo field (Hubble)",
+  "blurb": "A deep field toward the distant supernova SN Primo, seen by Hubble.",
+  "label": "primo-hubble",
+  "spec": "HST|PRIMO|12099|WFC3/IR|primo-hubble",
+  "find": [
+    "HST|12099|PRIMO"
+  ],
+  "type": "Deep field",
+  "aliases": [
+    "SN Primo",
+    "Primo",
+    "Hubble Ultra Deep Field",
+    "HUDF",
+    "GOODS-S",
+    "Type Ia supernova",
+    "supernova",
+    "deep field"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "In this deep patch of the Hubble Ultra Deep Field, CANDELS imaging caught a Type Ia supernova at redshift 1.55, nicknamed SN Primo, flaring in a strongly star-forming galaxy. Hubble came back to the field to follow it.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "SN Primo is a Type Ia supernova at redshift 1.55",
+        "source": "https://arxiv.org/abs/1201.2470"
+      },
+      {
+        "text": "The supernova was nicknamed SN Primo",
+        "source": "https://arxiv.org/pdf/1201.2470v1"
+      },
+      {
+        "text": "It was discovered in CANDELS imaging of the Hubble Ultra Deep Field",
+        "source": "https://arxiv.org/abs/1201.2470"
+      },
+      {
+        "text": "The field lies in GOODS-S",
+        "source": "https://arxiv.org/pdf/1201.2470v1"
+      },
+      {
+        "text": "Its host is a strongly star-forming galaxy",
+        "source": "https://arxiv.org/pdf/1201.2470v1"
+      },
+      {
+        "text": "Program 12099 was Hubble follow-up of high-redshift supernovae, with PRIMO as a target",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/12099/"
+      },
+      {
+        "text": "The SN Primo paper acknowledges program HST-GO-12099",
+        "source": "https://arxiv.org/pdf/1201.2470v1"
+      }
+    ]
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "id": "kug203-dw1-hubble",
+  "name": "KUG 0203-Dw1 (Hubble)",
+  "blurb": "KUG 0203-Dw1, an ultra-diffuse galaxy, seen by Hubble.",
+  "label": "kug203dw1-hubble",
+  "spec": "HST|KUG203-DW1|16890|ACS/WFC|kug203dw1-hubble",
+  "find": [
+    "HST|16890|KUG203-DW1"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "KUG203-DW1",
+    "ultra-diffuse galaxy",
+    "UDG",
+    "dwarf galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A faint, diffuse dwarf galaxy just southwest of the galaxy KUG 0203-100, trailing a tidal plume, with a stellar stream lying between the two: signs of a gravitational tug-of-war with its larger neighbor.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "KUG 0203-Dw1 is an ultra-diffuse galaxy with tidal features",
+        "source": "https://ar5iv.labs.arxiv.org/html/2401.01931"
+      },
+      {
+        "text": "KUG 0203-Dw1 lies southwest of KUG 0203-100",
+        "source": "https://ar5iv.labs.arxiv.org/html/2401.01931"
+      },
+      {
+        "text": "It has a tidal plume",
+        "source": "https://ar5iv.labs.arxiv.org/html/2401.01931"
+      },
+      {
+        "text": "A stellar stream lies between KUG 0203-Dw1 and KUG 0203-100",
+        "source": "https://ar5iv.labs.arxiv.org/html/2401.01931"
+      },
+      {
+        "text": "Hubble target KUG203-DW1 is one of the program's ultra-diffuse galaxies in a group",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/16890/"
+      },
+      {
+        "text": "The paper used Hubble ACS imaging",
+        "source": "https://www.arxiv.org/abs/2401.01931"
+      }
+    ]
+  }
+}

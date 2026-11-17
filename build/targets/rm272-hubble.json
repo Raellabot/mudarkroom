@@ -1,0 +1,43 @@
+{
+  "id": "rm272-hubble",
+  "name": "SDSS-RM RMID 272 (Hubble)",
+  "blurb": "SDSS-RM RMID 272, a quasar and its host galaxy, seen by Hubble.",
+  "label": "rm272-hubble",
+  "spec": "HST+HST|RM272+RM272|14109+14109|WFC3/IR+WFC3/UVIS|rm272-hubble",
+  "find": [
+    "HST|14109|RM272"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "RM272",
+    "RMID 272",
+    "SDSS-RM",
+    "quasar",
+    "active galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "At the heart of this galaxy a quasar flickers, and by timing the echo of its changing light astronomers weighed the black hole that powers it. Hubble imaged the surrounding host galaxy to see how the black hole's mass tracks the galaxy around it.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "RM272 is SDSS-RM quasar RMID 272",
+        "source": "https://ar5iv.labs.arxiv.org/html/2006.02522"
+      },
+      {
+        "text": "The black hole mass was measured by reverberation mapping (lag detection)",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/14109/"
+      },
+      {
+        "text": "Hubble imaged the host galaxies to relate black hole mass to host properties",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/14109/"
+      }
+    ]
+  }
+}

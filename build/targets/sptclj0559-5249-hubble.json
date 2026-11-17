@@ -1,0 +1,41 @@
+{
+  "id": "sptclj0559-5249-hubble",
+  "name": "SPT-CL J0559-5249 (Hubble)",
+  "blurb": "SPT-CL J0559-5249, a massive galaxy cluster, seen by Hubble.",
+  "label": "sptclj05595249-hubble",
+  "spec": "HST|SPTCLJ0559-5249|12246|ACS/WFC|sptclj05595249-hubble",
+  "find": [
+    "HST|12246|SPTCLJ0559-5249"
+  ],
+  "type": "Galaxy cluster",
+  "aliases": [
+    "SPT-CL J0559-5249",
+    "SPTCLJ0559-5249",
+    "SPT cluster",
+    "galaxy cluster"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A massive cluster of galaxies, found by the South Pole Telescope through the Sunyaev-Zel'dovich effect. Hubble imaged it to weigh the cluster by weak lensing, the slight distortion of background galaxies seen through it.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "SPT-CL J0559-5249 is one of the program's high-mass galaxy clusters",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/12246/"
+      },
+      {
+        "text": "The clusters were detected by the South Pole Telescope via the Sunyaev-Zel'dovich effect",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/12246/"
+      },
+      {
+        "text": "Hubble imaged it to measure its mass by weak lensing of background galaxies",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/12246/"
+      }
+    ]
+  }
+}

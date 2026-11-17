@@ -1,0 +1,46 @@
+{
+  "id": "ref12-hubble",
+  "name": "SN 2001go field (Hubble)",
+  "blurb": "SN 2001go field, the host galaxy of a distant type Ia supernova, seen by Hubble.",
+  "label": "ref12-hubble",
+  "spec": "HST|REF12|9075|ACS/WFC|ref12-hubble",
+  "find": [
+    "HST|9075|REF12"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "SN 2001go",
+    "REF12",
+    "supernova host",
+    "type Ia supernova",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Hubble took this picture after the supernova SN 2001go had faded, as a clean reference view of its host galaxy. The exploding star was one of a set of distant type Ia supernovae that astronomers measured to pin down the expansion history of the universe.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "REF12 in program 9075 is a reference target at 14h02m00.95s, +05d00m59.18s for type Ia supernova work",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/list/9075/"
+      },
+      {
+        "text": "SN 2001go is a type Ia supernova at 14h02m00.9s, +05d00m59s, with a host close to the supernova position",
+        "source": "https://arxiv.org/pdf/1004.1711"
+      },
+      {
+        "text": "Most of these supernovae have supernova-free reference images taken with ACS in Cycle 10",
+        "source": "https://arxiv.org/pdf/1004.1711"
+      },
+      {
+        "text": "These high-redshift type Ia supernovae were measured for cosmology (Union2 compilation)",
+        "source": "https://arxiv.org/pdf/1004.1711"
+      }
+    ]
+  }
+}

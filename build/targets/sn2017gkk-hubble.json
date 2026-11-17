@@ -1,0 +1,38 @@
+{
+  "id": "sn2017gkk-hubble",
+  "name": "NGC 2748, SN 2017gkk field (Hubble)",
+  "blurb": "NGC 2748, a galaxy that hosted the Type IIb supernova SN 2017gkk, seen by Hubble.",
+  "label": "sn2017gkk-hubble",
+  "spec": "HST|SN2017GKK|15166|WFC3/UVIS|sn2017gkk-hubble",
+  "find": [
+    "HST|15166|SN2017GKK"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "SN 2017gkk",
+    "SN2017GKK",
+    "supernova",
+    "Type IIb supernova",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "The Type IIb supernova SN 2017gkk flared in this galaxy. Hubble returned to its site to measure the faint glow that lingers long after the blast.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "SN 2017gkk is a Type IIb supernova in host galaxy NGC 2748",
+        "source": "https://www.wis-tns.org/object/2017gkk"
+      },
+      {
+        "text": "Program 15166 images sites of recent supernovae to obtain late-time photometry",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15166/"
+      }
+    ]
+  }
+}

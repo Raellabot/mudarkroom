@@ -1,0 +1,46 @@
+{
+  "id": "sn2019pjs-hubble",
+  "name": "UGC 11105 (Hubble)",
+  "blurb": "UGC 11105, a spiral galaxy that hosted a Type II supernova in 2019, seen by Hubble.",
+  "label": "sn2019pjs-hubble",
+  "spec": "HST|SN2019PJS|16239|WFC3/UVIS|sn2019pjs-hubble",
+  "find": [
+    "HST|16239|SN2019PJS"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "SN 2019pjs",
+    "UGC 11105",
+    "Type II supernova",
+    "spiral galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A softly glowing spiral with two tightly wound arms, easily outshone by the foreground stars around it. In 2019 a Type II supernova went off here, and Hubble came to see its aftermath.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "UGC 11105 is a spiral galaxy with two tightly wound arms, outshone by surrounding foreground stars",
+        "source": "https://esahubble.org/images/potw2405a/"
+      },
+      {
+        "text": "A Type II supernova took place in UGC 11105 in 2019",
+        "source": "https://esahubble.org/images/potw2405a/"
+      },
+      {
+        "text": "SN 2019pjs is a Type II supernova at 18h04m40.34s +21d38m04.24s",
+        "source": "https://blast.scimma.org/transients/2019pjs/"
+      },
+      {
+        "text": "SN2019PJS is a target of Hubble program 16239",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/16239/"
+      }
+    ]
+  }
+}

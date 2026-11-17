@@ -1,0 +1,46 @@
+{
+  "id": "sn2015ah-hubble",
+  "name": "UGC 12295, SN 2015ah field (Hubble)",
+  "blurb": "UGC 12295, a galaxy that hosted the supernova SN 2015ah, seen by Hubble.",
+  "label": "sn2015ah-hubble",
+  "spec": "HST|SN2015AH|16024|WFC3/UVIS|sn2015ah-hubble",
+  "find": [
+    "HST|16024|SN2015AH"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "SN 2015ah",
+    "PSN J23002463+0137368",
+    "UGC 12295",
+    "supernova host",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "In this galaxy the supernova SN 2015ah went off, its early spectrum read by one team as a peculiar Type Ib and by another as Type IIb. Hubble came back years later to image the site of the blast.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "SN 2015ah (PSN J23002463+0137368) occurred in UGC 12295",
+        "source": "https://tamkin3.eps.harvard.edu/cbet/004100/CBET004181.txt"
+      },
+      {
+        "text": "One team's spectrum showed a peculiar Type Ib supernova; another found features suggesting Type IIb",
+        "source": "https://tamkin3.eps.harvard.edu/cbet/004100/CBET004181.txt"
+      },
+      {
+        "text": "Host galaxy UGC12295; classification SNIb",
+        "source": "https://blast.scimma.org/transients/2015ah/"
+      },
+      {
+        "text": "Hubble program 16024 imaged the site of SN 2015ah, part of a snapshot survey of the sites of recent, nearby supernovae",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/16024/"
+      }
+    ]
+  }
+}

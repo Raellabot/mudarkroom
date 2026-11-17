@@ -1,0 +1,41 @@
+{
+  "id": "ngc-136-hubble",
+  "name": "NGC 136 (Hubble)",
+  "blurb": "NGC 136, an open cluster, seen by Hubble.",
+  "label": "ngc136-hubble",
+  "spec": "HST|NGC-136|17710|WFC3/UVIS|ngc136-hubble",
+  "find": [
+    "HST|17710|NGC-136"
+  ],
+  "type": "Star cluster",
+  "aliases": [
+    "NGC-136",
+    "open cluster",
+    "star cluster",
+    "cluster"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Here Hubble studies its own eye. The stars of the open cluster NGC 136 show how the telescope spreads a point of light, a model the astronomers need to find faint Einstein rings hidden in the glare of lensing quasars.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "NGC 136 is an open cluster",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/17710/"
+      },
+      {
+        "text": "Program 17710 observed NGC 136 to measure Hubble's point spread function (PSF) across stars of different spectral types",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/17710/"
+      },
+      {
+        "text": "The PSF model supports a search for faint Einstein rings hidden in the glare of lensing quasars",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/17710/"
+      }
+    ]
+  }
+}

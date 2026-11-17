@@ -1,0 +1,44 @@
+{
+  "id": "vvv-cl002-hubble",
+  "name": "VVV CL002 (Hubble)",
+  "blurb": "VVV CL002, a globular cluster near the center of the Milky Way, seen by Hubble.",
+  "label": "vvvcl002-hubble",
+  "spec": "HST|VVV-CL002|17435|WFC3/IR|vvvcl002-hubble",
+  "find": [
+    "HST|17435|VVV-CL002"
+  ],
+  "type": "Star cluster",
+  "aliases": [
+    "VVV-CL002",
+    "globular cluster",
+    "star cluster"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Of all the Milky Way's known globular clusters, this one lies closest to the Galactic center. It travels on a counterrotating orbit, a survivor of the fierce tides near the Galaxy's heart.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "VVV CL002 is the known Galactic globular cluster closest to the Galactic center",
+        "source": "https://arxiv.org/abs/2312.16028"
+      },
+      {
+        "text": "VVV CL002 has a counterrotating orbit",
+        "source": "https://arxiv.org/abs/2312.16028"
+      },
+      {
+        "text": "VVV CL002 is a survivor of the Galaxy's tidal forces near the center",
+        "source": "https://arxiv.org/abs/2312.16028"
+      },
+      {
+        "text": "VVV-CL002 is a Hubble Missing Globular Clusters Survey target imaged in the infrared",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/17435/"
+      }
+    ]
+  }
+}

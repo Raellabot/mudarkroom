@@ -1,0 +1,52 @@
+{
+  "id": "agc731457-hubble",
+  "name": "AGC 731457 (Hubble)",
+  "blurb": "AGC 731457, a gas-rich dwarf galaxy, seen by Hubble.",
+  "label": "agc731457-hubble",
+  "spec": "HST|AGC731457|12658|ACS/WFC|agc731457-hubble",
+  "find": [
+    "HST|12658|AGC731457"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "SHIELD galaxy",
+    "dwarf galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A tiny, compact dwarf galaxy that still holds gas and makes stars, with just one known neighbor, DDO 83. Hubble picked out its brightest red giant stars to measure how far away it is.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "AGC731457 is a target of Hubble program 12658, 'Fundamental Parameters of the SHIELD Galaxies'",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/12658/"
+      },
+      {
+        "text": "SHIELD galaxies are extremely low-mass, gas-rich galaxies discovered by the ALFALFA radio survey",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/12658/"
+      },
+      {
+        "text": "SHIELD is the Survey of HI in Extremely Low-mass Dwarf galaxies, and all its systems have recent star formation",
+        "source": "https://ar5iv.labs.arxiv.org/html/1402.3723"
+      },
+      {
+        "text": "Hubble program 12658 measured the galaxies' distances with the tip of the red giant branch method",
+        "source": "https://ar5iv.labs.arxiv.org/html/1402.3723"
+      },
+      {
+        "text": "AGC 731457 has one neighbor, DDO 83",
+        "source": "https://ar5iv.labs.arxiv.org/html/1402.3723"
+      },
+      {
+        "text": "AGC 731457 is compact",
+        "source": "https://ar5iv.labs.arxiv.org/html/1402.3723"
+      }
+    ]
+  }
+}

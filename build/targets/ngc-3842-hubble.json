@@ -1,0 +1,49 @@
+{
+  "id": "ngc-3842-hubble",
+  "name": "NGC 3842 (Hubble)",
+  "blurb": "NGC 3842, a giant elliptical galaxy at the heart of the galaxy cluster Abell 1367, seen by Hubble.",
+  "label": "ngc3842-hubble",
+  "spec": "HST+HST|NGC-3842+NGC-3842|15265+15265|WFC3/IR+WFC3/UVIS|ngc3842-hubble",
+  "find": [
+    "HST|15265|NGC-3842"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "Abell 1367 brightest cluster galaxy",
+    "elliptical galaxy",
+    "giant elliptical galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "NGC 3842 is the brightest galaxy of the cluster Abell 1367, and its center hides a black hole of 9.7 billion solar masses. Hubble took this picture to count the globular clusters swarming around it, fossils that record how such a giant galaxy grew.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "NGC 3842 is the brightest cluster galaxy of Abell 1367",
+        "source": "https://ar5iv.labs.arxiv.org/html/1112.1078"
+      },
+      {
+        "text": "NGC 3842 is a giant elliptical galaxy",
+        "source": "https://arxiv.org/abs/1112.1078"
+      },
+      {
+        "text": "NGC 3842 has a central black hole of 9.7 billion solar masses",
+        "source": "https://arxiv.org/abs/1112.1078"
+      },
+      {
+        "text": "NGC 3842 is a target of Hubble program 15265 (MASSIVE+), which studies globular cluster systems",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15265/"
+      },
+      {
+        "text": "Hubble program 15265 studies the globular cluster systems of the most massive MASSIVE Survey galaxies to trace their growth histories",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15265/"
+      }
+    ]
+  }
+}

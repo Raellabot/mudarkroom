@@ -1,0 +1,45 @@
+{
+  "id": "ngc-5068-hubble",
+  "name": "NGC 5068, southeast outskirts (Hubble)",
+  "blurb": "NGC 5068, a spiral galaxy, seen by Hubble.",
+  "label": "ngc5068-hubble",
+  "spec": "HST|NGC-5068|14636|ACS/WFC|ngc5068-hubble",
+  "find": [
+    "HST|14636|NGC-5068"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "NGC-5068",
+    "Scd galaxy",
+    "spiral galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "The quieter southeastern outskirts of the spiral galaxy NGC 5068, where Hubble could count single red giant stars away from the crowded clouds of glowing gas near its center. The galaxy sits on the edge of the group around NGC 5236.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "NGC 5068 is an Scd spiral galaxy and the HST/ACS images point at its southeastern periphery to avoid crowded HII regions",
+        "source": "https://ar5iv.labs.arxiv.org/html/1804.00469"
+      },
+      {
+        "text": "NGC 5068 lies on the outskirts of the group around NGC 5236",
+        "source": "https://ar5iv.labs.arxiv.org/html/1804.00469"
+      },
+      {
+        "text": "Hubble program 14636 measured tip of the red giant branch distances to its galaxies",
+        "source": "https://ar5iv.labs.arxiv.org/html/1804.00469"
+      },
+      {
+        "text": "NGC 5068 has a TRGB distance consistent with its planetary nebula distance",
+        "source": "https://ar5iv.labs.arxiv.org/html/1804.00469"
+      }
+    ]
+  }
+}

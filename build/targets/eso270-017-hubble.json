@@ -1,0 +1,58 @@
+{
+  "id": "eso270-017-hubble",
+  "name": "Fourcade-Figueroa galaxy (Hubble)",
+  "blurb": "The Fourcade-Figueroa galaxy (ESO 270-G017), a superthin edge-on galaxy, seen by Hubble.",
+  "label": "eso270017-hubble",
+  "spec": "HST|ESO270-017|13442|ACS/WFC|eso270017-hubble",
+  "find": [
+    "HST|13442|ESO270-017"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "ESO 270-G017",
+    "ESO 270-17",
+    "ESO270-017",
+    "Fourcade-Figueroa",
+    "FF galaxy",
+    "HIPASS J1334-45",
+    "superthin galaxy",
+    "edge-on galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Seen edge-on, the Fourcade-Figueroa galaxy is a remarkably thin disk that has been clearly disturbed; it lies on the sky southeast of the radio galaxy Centaurus A, and Hubble observed it to measure its distance from its red giant stars.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "The Fourcade-Figueroa galaxy is also known as ESO 270-G017",
+        "source": "https://ar5iv.labs.arxiv.org/html/2106.05133"
+      },
+      {
+        "text": "The Fourcade-Figueroa galaxy is a superthin edge-on galaxy",
+        "source": "https://arxiv.org/abs/2106.05133"
+      },
+      {
+        "text": "The Fourcade-Figueroa galaxy is clearly disturbed",
+        "source": "https://arxiv.org/abs/2106.05133"
+      },
+      {
+        "text": "It lies southeast of the core of the radio galaxy Centaurus A on the sky",
+        "source": "https://ar5iv.labs.arxiv.org/html/2106.05133"
+      },
+      {
+        "text": "ESO 270-G017 is also catalogued as HIPASS J1334-45",
+        "source": "https://www.narrabri.atnf.csiro.au/research/LVHIS/LVHIS-galaxies.html"
+      },
+      {
+        "text": "Hubble program 13442 observed ESO 270-017 to measure distances to nearby galaxies from the tip of the red giant branch",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/13442/"
+      }
+    ]
+  }
+}

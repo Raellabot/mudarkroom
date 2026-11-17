@@ -1,0 +1,45 @@
+{
+  "id": "ugc-06757-hubble",
+  "name": "UGC 6757 (Hubble)",
+  "blurb": "UGC 6757, a nearby dwarf galaxy, seen by Hubble.",
+  "label": "ugc06757-hubble",
+  "spec": "HST|UGC-06757|13442|ACS/WFC|ugc06757-hubble",
+  "find": [
+    "HST|13442|UGC-06757"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "UGC 6757",
+    "UGC06757",
+    "dwarf galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "UGC 6757 is a small dwarf galaxy that still holds hydrogen gas; Hubble photographed it to measure its distance from its brightest red giant stars and help map the nearby universe in three dimensions.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "UGC 6757 is a nearby dwarf galaxy",
+        "source": "https://arxiv.org/html/2505.19248v1"
+      },
+      {
+        "text": "Hydrogen gas was detected in UGC 6757",
+        "source": "https://arxiv.org/html/2505.19248v1"
+      },
+      {
+        "text": "Hubble program 13442 observed UGC 6757 to measure distances to nearby galaxies from the tip of the red giant branch",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/13442/"
+      },
+      {
+        "text": "Program 13442 uses the distances to build three-dimensional maps of galaxies",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/13442/"
+      }
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "id": "spt-clj2215-3537-hubble",
+  "name": "SPT-CL J2215-3537 (Hubble)",
+  "blurb": "SPT-CL J2215-3537, a massive galaxy cluster found by the South Pole Telescope, seen by Hubble.",
+  "label": "sptclj22153537-hubble",
+  "spec": "HST+HST|SPT-CLJ2215-3537+SPT-CLJ2215-3537|15307+15307|WFC3/IR+WFC3/UVIS|sptclj22153537-hubble",
+  "find": [
+    "HST|15307|SPT-CLJ2215-3537"
+  ],
+  "type": "Galaxy cluster",
+  "aliases": [
+    "SPT-CLJ2215-3537",
+    "galaxy cluster",
+    "cluster of galaxies"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A massive galaxy cluster first found by the South Pole Telescope. Hubble's snapshot adds to a census of such clusters across cosmic time, from the galaxies in their crowded cores to faint lensed galaxies far behind them.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "SPT-CL J2215-3537 is one of the South Pole Telescope galaxy clusters imaged in Hubble program 15307",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15307/"
+      },
+      {
+        "text": "The program's clusters were identified via the Sunyaev-Zel'dovich effect and are massive clusters",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15307/"
+      },
+      {
+        "text": "The program studies the growth of brightest cluster galaxies through mergers, strong lensing, and lensed background galaxies",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15307/"
+      }
+    ]
+  }
+}

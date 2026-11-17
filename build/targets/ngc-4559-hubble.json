@@ -1,0 +1,44 @@
+{
+  "id": "ngc-4559-hubble",
+  "name": "NGC 4559 (Hubble)",
+  "blurb": "NGC 4559, a spiral galaxy, seen by Hubble.",
+  "label": "ngc4559-hubble",
+  "spec": "HST|NGC-4559|13804|ACS/WFC|ngc4559-hubble",
+  "find": [
+    "HST|13804|NGC-4559"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "Caldwell 36",
+    "spiral galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A spiral galaxy in Coma Berenices whose disk holds young star clusters and a large star-forming complex in its outskirts. Hubble came to pick out its red giant stars and settle how far away it truly is.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "NGC 4559 (Caldwell 36) is a spiral galaxy in the constellation Coma Berenices",
+        "source": "https://science.nasa.gov/mission/hubble/science/explore-the-night-sky/hubble-caldwell-catalog/caldwell-36/"
+      },
+      {
+        "text": "NGC 4559 has young star clusters away from its center and a large star-forming complex in its outskirts",
+        "source": "https://science.nasa.gov/mission/hubble/science/explore-the-night-sky/hubble-caldwell-catalog/caldwell-36/"
+      },
+      {
+        "text": "Caldwell 36 is NGC 4559",
+        "source": "https://science.nasa.gov/image-detail/ngc4559_inset3-01"
+      },
+      {
+        "text": "Hubble program 13804 measures accurate tip-of-the-red-giant-branch distances to nearby SINGS spirals, including NGC 4559",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/13804/"
+      }
+    ]
+  }
+}

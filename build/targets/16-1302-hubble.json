@@ -1,0 +1,36 @@
+{
+  "id": "16-1302-hubble",
+  "name": "16-1302 (Hubble)",
+  "blurb": "16-1302, a galaxy shaped by a dry merger, seen by Hubble.",
+  "label": "161302-hubble",
+  "spec": "HST|16-1302|10809|ACS/WFC|161302-hubble",
+  "find": [
+    "HST|10809|16-1302"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "red merger",
+    "dry merger",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Faint tidal features in deep ground-based images mark this galaxy as the product of a 'dry' merger between gas-poor galaxies. Hubble looked closer to learn how such mergers help build today's most massive ellipticals.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "16-1302 is shown as an example of a red merger, with faint tidal features",
+        "source": "https://arxiv.org/pdf/astro-ph/0506661"
+      },
+      {
+        "text": "Program 10809 targets red sequence galaxies in dry mergers found in deep ground-based images, to study how such mergers shape massive ellipticals",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/10809/"
+      }
+    ]
+  }
+}

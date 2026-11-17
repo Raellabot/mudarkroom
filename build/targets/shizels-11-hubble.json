@@ -1,0 +1,47 @@
+{
+  "id": "shizels-11-hubble",
+  "name": "SHIZELS-11 field (Hubble)",
+  "blurb": "A deep field toward the distant star-forming galaxy SHIZELS-11, seen by Hubble.",
+  "label": "shizels11-hubble",
+  "spec": "HST+HST|SHIZELS-11+SHIZELS-11|14719+14719|WFC3/IR+WFC3/UVIS|shizels11-hubble",
+  "find": [
+    "HST|14719|SHIZELS-11"
+  ],
+  "type": "Deep field",
+  "aliases": [
+    "SHIZELS-11",
+    "HIZELS-UDS-NBH-DTC-S12-16339",
+    "HiZELS",
+    "star-forming galaxy",
+    "galaxy",
+    "deep field"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Somewhere among the faint smudges here is SHIZELS-11, a typical star-forming galaxy picked out by the HiZELS survey of galaxies glowing with hydrogen emission. Hubble mapped its young and old stars to study the bright clumps where its new stars are born.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "SHIZELS-11 is a typical star-forming galaxy from the HiZELS H-alpha emitter survey, at high redshift",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/14719/"
+      },
+      {
+        "text": "HiZELS selected H-alpha emitting galaxies",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/14719/"
+      },
+      {
+        "text": "Alternate designations HIZELS-UDS-NBH-DTC-S12-16339",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/14719/"
+      },
+      {
+        "text": "Hubble images map old and young stellar populations to study star-forming clumps",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/14719/"
+      }
+    ]
+  }
+}

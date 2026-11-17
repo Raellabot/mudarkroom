@@ -1,0 +1,55 @@
+{
+  "id": "ngc3384-df9-hubble",
+  "name": "NGC 3384-DF9 (Hubble)",
+  "blurb": "NGC 3384-DF9, a very low surface brightness galaxy in the M96 group, seen by Hubble.",
+  "label": "ngc3384df9-hubble",
+  "spec": "HST|NGC3384-DF9|14644|ACS/WFC|ngc3384df9-hubble",
+  "find": [
+    "HST|14644|NGC3384-DF9"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "M 96-DF9",
+    "M96-DF9",
+    "[KK2004] LeG 14",
+    "low surface brightness galaxy",
+    "dwarf galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A faint, diffuse galaxy that looks much like the small dwarf spheroidal galaxies of our own Local Group. Hubble's measurements placed it at the distance of the M96 group, alongside every other faint galaxy found in this Dragonfly field.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "NGC3384-DF9 is one of 23 newly discovered low surface brightness objects in Dragonfly fields; the NGC 3384 field holds DF1 through DF11",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/14644/"
+      },
+      {
+        "text": "The object is called M 96-DF9 in the survey paper; the field is centered on NGC 3384 in the M 96 group",
+        "source": "https://ar5iv.arxiv.org/html/1807.06016"
+      },
+      {
+        "text": "Alternate designation [KK2004] LeG 14",
+        "source": "https://ar5iv.arxiv.org/html/1807.06016"
+      },
+      {
+        "text": "The galaxies are very low surface brightness galaxies that resemble dwarf spheroidal galaxies",
+        "source": "https://arxiv.org/abs/1807.06016"
+      },
+      {
+        "text": "Resemble dwarf spheroidal galaxies in the Local Group",
+        "source": "https://arxiv.org/pdf/1807.06016"
+      },
+      {
+        "text": "M96-DF9 is at the distance of the M96 group, as are all 11 galaxies in the M 96 field",
+        "source": "https://arxiv.org/pdf/1807.06016"
+      }
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "id": "m-51-hubble",
+  "name": "M51 (Hubble)",
+  "blurb": "M51, the Whirlpool Galaxy, a grand-design spiral galaxy, seen by Hubble.",
+  "label": "m51-hubble",
+  "spec": "HST|M-51|13804|ACS/WFC|m51-hubble",
+  "find": [
+    "HST|13804|M-51"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "Whirlpool Galaxy",
+    "Messier 51",
+    "NGC 5194",
+    "grand-design spiral",
+    "spiral galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "The Whirlpool's spiral arms are star-formation factories, compressing hydrogen gas and building clusters of new stars. Hubble came here to pick out individual red giant stars and settle how far away the galaxy really is.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "M51, the Whirlpool Galaxy, is a spiral galaxy",
+        "source": "https://science.nasa.gov/mission/hubble/science/explore-the-night-sky/hubble-messier-catalog/messier-51/"
+      },
+      {
+        "text": "M51's spiral arms are star-formation factories that compress hydrogen gas and create clusters of new stars",
+        "source": "https://science.nasa.gov/mission/hubble/science/explore-the-night-sky/hubble-messier-catalog/messier-51/"
+      },
+      {
+        "text": "M51 is cataloged as NGC 5194, is nicknamed the Whirlpool and is a grand-design spiral",
+        "source": "https://esahubble.org/images/heic0506a/"
+      },
+      {
+        "text": "Hubble program 13804 measures accurate tip-of-the-red-giant-branch distances to nearby SINGS spirals, including M51",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/13804/"
+      }
+    ]
+  }
+}

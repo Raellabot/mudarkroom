@@ -1,0 +1,48 @@
+{
+  "id": "ngc-6872e-hubble",
+  "name": "NGC 6872, eastern tidal tail (Hubble)",
+  "blurb": "NGC 6872, eastern tidal tail, part of a giant barred spiral galaxy, seen by Hubble.",
+  "label": "ngc6872e-hubble",
+  "spec": "HST|NGC-6872E|15083|WFC3/UVIS|ngc6872e-hubble",
+  "find": [
+    "HST|15083|NGC-6872E"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "NGC 6872",
+    "NGC 6872E",
+    "barred spiral galaxy",
+    "interacting galaxies",
+    "tidal tail",
+    "spiral galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "This field follows the long eastern tidal tail of NGC 6872, a giant barred spiral stretched by its encounter with the small galaxy IC 4970. Hubble studied the tail to learn how star clusters form in the debris of galaxy encounters.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "The target NGC 6872E is the eastern tidal tail of NGC 6872",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15083/"
+      },
+      {
+        "text": "NGC 6872's eastern tidal tail is long, with the galaxy's center lying to the west",
+        "source": "https://ar5iv.labs.arxiv.org/html/2309.10267"
+      },
+      {
+        "text": "NGC 6872 is a giant barred spiral galaxy interacting with the small disk galaxy IC 4970",
+        "source": "https://science.nasa.gov/photojournal/dwarf-galaxy-spotted/"
+      },
+      {
+        "text": "Program 15083 studies star clusters in tidal tails",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15083/"
+      }
+    ]
+  }
+}

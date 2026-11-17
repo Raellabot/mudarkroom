@@ -1,0 +1,45 @@
+{
+  "id": "ngc5872-hubble",
+  "name": "NGC 5872 (Hubble)",
+  "blurb": "NGC 5872, a very massive relic galaxy, seen by Hubble.",
+  "label": "ngc5872-hubble",
+  "spec": "HST+HST|NGC5872+NGC5872|16836+16836|WFC3/IR+WFC3/UVIS|ngc5872-hubble",
+  "find": [
+    "HST|16836|NGC5872"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "elliptical galaxy",
+    "massive relic galaxy",
+    "relic galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A rare survivor: a very massive elliptical galaxy counted among the relic galaxies, nearby stand-ins for massive galaxies seen far back in cosmic time. Hubble mapped its light to help trace the mass in its inner regions.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "NGC 5872 is a very massive relic galaxy",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/16836/"
+      },
+      {
+        "text": "NGC 5872 is an elliptical galaxy",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/16836/"
+      },
+      {
+        "text": "Massive relic galaxies are local analogs of high-redshift compact galaxies",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/16836/"
+      },
+      {
+        "text": "Hubble measured its surface brightness profile to map its inner mass",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/16836/"
+      }
+    ]
+  }
+}

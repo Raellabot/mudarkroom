@@ -1,0 +1,39 @@
+{
+  "id": "ngc1947-hubble",
+  "name": "NGC 1947 (Hubble)",
+  "blurb": "NGC 1947, a lenticular galaxy, seen by Hubble.",
+  "label": "ngc1947-hubble",
+  "spec": "HST+HST|NGC1947+NGC1947|15181+15181|WFC3/IR+WFC3/UVIS|ngc1947-hubble",
+  "find": [
+    "HST|15181|NGC1947"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "lenticular galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "This unusual lenticular galaxy has lost almost all the gas and dust from its spiral arms, and only faint threads of them remain. With little left to build new stars, it is slowly fading.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "NGC 1947 is an unusual lenticular galaxy that has lost almost all the gas and dust from its spiral arms",
+        "source": "https://esahubble.org/images/potw2051a/"
+      },
+      {
+        "text": "Faint remnants of its spiral arms can still be made out",
+        "source": "https://esahubble.org/images/potw2051a/"
+      },
+      {
+        "text": "Few new stars are likely to form, so the galaxy continues fading",
+        "source": "https://esahubble.org/images/potw2051a/"
+      }
+    ]
+  }
+}

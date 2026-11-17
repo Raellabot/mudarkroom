@@ -1,0 +1,42 @@
+{
+  "id": "coma4-4-hubble",
+  "name": "Coma Cluster, field COMA4-4 (Hubble)",
+  "blurb": "A field in the core of the Coma Cluster, seen by Hubble.",
+  "label": "coma44-hubble",
+  "spec": "HST|COMA4-4|10861|ACS/WFC|coma44-hubble",
+  "find": [
+    "HST|10861|COMA4-4"
+  ],
+  "type": "Galaxy cluster",
+  "aliases": [
+    "Coma Cluster",
+    "Abell 1656",
+    "galaxy cluster",
+    "dwarf galaxies",
+    "galaxies"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "One tile of Hubble's mosaic of the crowded heart of the Coma Cluster, surveyed to find faint dwarf galaxies among the cluster's thousands of members.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "COMA4-4 is a tile of the survey's core mosaic",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/10861/"
+      },
+      {
+        "text": "The Coma Cluster is also known as Abell 1656, one of the nearest rich galaxy clusters",
+        "source": "https://arxiv.org/abs/0801.3745"
+      },
+      {
+        "text": "The Hubble Coma survey imaged the core and infall region of Coma, focusing on dwarf galaxies among thousands of galaxies",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/10861/"
+      }
+    ]
+  }
+}

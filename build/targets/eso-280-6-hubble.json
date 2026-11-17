@@ -1,0 +1,45 @@
+{
+  "id": "eso-280-6-hubble",
+  "name": "ESO 280-SC06 (Hubble)",
+  "blurb": "ESO 280-SC06, a globular cluster in the Milky Way, seen by Hubble.",
+  "label": "eso2806-hubble",
+  "spec": "HST|ESO-280-6|17435|ACS/WFC|eso2806-hubble",
+  "find": [
+    "HST|17435|ESO-280-6"
+  ],
+  "type": "Star cluster",
+  "aliases": [
+    "ESO 280-6",
+    "ESO280-SC06",
+    "globular cluster",
+    "star cluster"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A faint globular cluster, one of the least luminous and most metal-poor known in the Milky Way. Its stars suggest it was once far more massive, before tides pulled much of it apart.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "ESO 280-6 is a globular cluster targeted by the Hubble Missing Globular Clusters Survey",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/17435/"
+      },
+      {
+        "text": "ESO 280-SC06 is one of the least luminous and most metal-poor Milky Way globular clusters",
+        "source": "https://arxiv.org/abs/2506.15664"
+      },
+      {
+        "text": "ESO280-SC06 may be the most metal-poor globular cluster known in the Milky Way",
+        "source": "https://arxiv.org/abs/1804.02606"
+      },
+      {
+        "text": "ESO 280-SC06 is a formerly massive, tidally disrupted globular cluster",
+        "source": "https://arxiv.org/abs/2506.15664"
+      }
+    ]
+  }
+}

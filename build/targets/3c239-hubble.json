@@ -1,0 +1,41 @@
+{
+  "id": "3c239-hubble",
+  "name": "3C 239 (Hubble)",
+  "blurb": "3C 239, a distant radio galaxy, seen by Hubble.",
+  "label": "3c239-hubble",
+  "spec": "HST+HST|3C239+3C239|16281+16281|WFC3/IR+WFC3/UVIS|3c239-hubble",
+  "find": [
+    "HST|16281|3C239"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "3C239",
+    "3CR 239",
+    "radio galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A faraway galaxy powered by one of the most powerful radio-loud active nuclei of its time, likely on its way to becoming a giant elliptical. Hubble came to see whether its outburst was set off by a merger and what kind of cluster surrounds it.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "3C239 is a radio galaxy targeted by Hubble program 16281 (redshift 1.781)",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/16281/"
+      },
+      {
+        "text": "The program's 3CR sources are among the most powerful radio-loud AGNs at such redshifts, hosted by progenitors of the most massive ellipticals",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/16281/"
+      },
+      {
+        "text": "The program tests whether radio-loud AGNs are triggered by major mergers and studies their cluster environments",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/16281/"
+      }
+    ]
+  }
+}

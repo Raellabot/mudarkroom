@@ -1,0 +1,36 @@
+{
+  "id": "eso104-022-hubble",
+  "name": "ESO 104-022 (Hubble)",
+  "blurb": "ESO 104-022, an irregular galaxy, seen by Hubble.",
+  "label": "eso104022-hubble",
+  "spec": "HST|ESO104-022|12546|ACS/WFC|eso104022-hubble",
+  "find": [
+    "HST|12546|ESO104-022"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "irregular galaxy",
+    "galaxy",
+    "NGC 6744 group"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "A small irregular galaxy thought to belong to the group of galaxies around NGC 6744. Hubble measured the brightness of its red giant stars to learn how far away it lies.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "ESO 104-022 is an irregular galaxy, a supposed member of the NGC 6744 group, with a TRGB distance",
+        "source": "https://arxiv.org/html/2501.07912v1"
+      },
+      {
+        "text": "The program measured distances to nearby galaxies from the luminosities of red giant branch stars, to build 3D maps of galaxies",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/12546/"
+      }
+    ]
+  }
+}

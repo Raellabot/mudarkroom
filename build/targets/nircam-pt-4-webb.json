@@ -1,0 +1,51 @@
+{
+  "id": "nircam-pt-4-webb",
+  "name": "ALESS 112.1 (Webb)",
+  "blurb": "A deep field toward the submillimeter galaxy ALESS 112.1, seen by Webb.",
+  "label": "nircampt4-webb",
+  "spec": "JWST|NIRCAM-PT-4|2516|NIRCAM/IMAGE|nircampt4-webb",
+  "find": [
+    "JWST|2516|NIRCAM-PT-4"
+  ],
+  "type": "Deep field",
+  "aliases": [
+    "NIRCAM-PT-4",
+    "ALESS 112.1",
+    "submillimeter galaxy",
+    "starburst galaxy",
+    "deep field",
+    "galaxy field"
+  ],
+  "missions": [
+    "Webb"
+  ],
+  "story": "Somewhere in this field lies ALESS 112.1, a distant starburst galaxy wrapped in so much dust that its stars are hidden. Webb looked here to reveal that hidden starlight and set it beside ALMA's map of the galaxy's dusty star formation.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "Webb pointing NIRCAM-PT-4 of program 2516 covers ALESS 112.1",
+        "source": "https://www.stsci.edu/jwst-program-info/download/jwst/pdf/2516/"
+      },
+      {
+        "text": "The program's targets are distant submillimeter galaxies (SMGs) with starbursts",
+        "source": "https://www.stsci.edu/jwst-program-info/download/jwst/pdf/2516/"
+      },
+      {
+        "text": "These galaxies are heavily obscured by dust",
+        "source": "https://www.stsci.edu/jwst-program-info/download/jwst/pdf/2516/"
+      },
+      {
+        "text": "Webb aimed to reveal their hidden stellar emission",
+        "source": "https://www.stsci.edu/jwst-program-info/download/jwst/pdf/2516/"
+      },
+      {
+        "text": "ALMA has mapped their star formation",
+        "source": "https://www.stsci.edu/jwst-program-info/download/jwst/pdf/2516/"
+      }
+    ]
+  }
+}

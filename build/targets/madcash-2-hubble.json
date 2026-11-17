@@ -1,0 +1,45 @@
+{
+  "id": "madcash-2-hubble",
+  "name": "MADCASH-2 (Hubble)",
+  "blurb": "MADCASH-2, a faint dwarf galaxy, seen by Hubble.",
+  "label": "madcash2-hubble",
+  "spec": "HST|MADCASH-2|15228|ACS/WFC|madcash2-hubble",
+  "find": [
+    "HST|15228|MADCASH-2"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "MADCASH J121007+352635-dw",
+    "dwarf galaxy",
+    "satellite galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "MADCASH-2 is a faint dwarf galaxy discovered near NGC 4214, a galaxy about as massive as the Large Magellanic Cloud. Most of its stars are ancient, but a small share formed far more recently.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "MADCASH-2 is a previously unknown faint dwarf galaxy near NGC 4214, a satellite of an LMC analog",
+        "source": "https://arxiv.org/abs/2012.09174v2"
+      },
+      {
+        "text": "NGC 4214 is a host galaxy of Large Magellanic Cloud stellar mass",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15228/"
+      },
+      {
+        "text": "MADCASH-2 is designated MADCASH J121007+352635-dw",
+        "source": "https://ar5iv.labs.arxiv.org/html/2012.09174"
+      },
+      {
+        "text": "MADCASH-2 contains mostly ancient, metal-poor stars, but some of its stellar mass formed much more recently",
+        "source": "https://arxiv.org/abs/2012.09174v2"
+      }
+    ]
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "id": "ic3430-hubble",
+  "name": "IC 3430 (Hubble)",
+  "blurb": "IC 3430, a dwarf elliptical galaxy in the Virgo Cluster, seen by Hubble.",
+  "label": "ic3430-hubble",
+  "spec": "HST|IC3430|17240|ACS/WFC|ic3430-hubble",
+  "find": [
+    "HST|17240|IC3430"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "IC3430",
+    "dwarf elliptical galaxy",
+    "dE galaxy",
+    "dwarf galaxy",
+    "galaxy",
+    "Virgo Cluster"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "IC 3430 is a small dwarf elliptical galaxy with little gas left for making new stars. Yet its core holds hot, massive stars, likely sparked by ram pressure as the galaxy plows through the gas of the Virgo Cluster.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "IC 3430 is a dwarf elliptical (dE) galaxy",
+        "source": "https://esahubble.org/images/potw2431a/"
+      },
+      {
+        "text": "IC 3430 is part of the Virgo cluster",
+        "source": "https://esahubble.org/images/potw2431a/"
+      },
+      {
+        "text": "IC 3430 has little gas to form new stars",
+        "source": "https://esahubble.org/images/potw2431a/"
+      },
+      {
+        "text": "IC 3430's core holds hot, massive stars, likely triggered by ram pressure as it moves through the Virgo cluster's gas",
+        "source": "https://esahubble.org/images/potw2431a/"
+      },
+      {
+        "text": "Hubble program 17240 imaged 11 Virgo cluster dwarf galaxies undergoing ram pressure stripping, IC 3430 among them",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/17240/"
+      }
+    ]
+  }
+}

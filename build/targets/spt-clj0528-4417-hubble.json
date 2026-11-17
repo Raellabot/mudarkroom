@@ -1,0 +1,45 @@
+{
+  "id": "spt-clj0528-4417-hubble",
+  "name": "SPT-CL J0528-4417 (Hubble)",
+  "blurb": "SPT-CL J0528-4417, a massive, distant galaxy cluster, seen by Hubble.",
+  "label": "sptclj05284417-hubble",
+  "spec": "HST+HST|SPT-CLJ0528-4417+SPT-CLJ0528-4417|16017+16017|WFC3/IR+WFC3/UVIS|sptclj05284417-hubble",
+  "find": [
+    "HST|16017|SPT-CLJ0528-4417"
+  ],
+  "type": "Galaxy cluster",
+  "aliases": [
+    "SPT-CLJ0528-4417",
+    "SPT cluster",
+    "galaxy cluster",
+    "cluster of galaxies"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Among the most massive distant clusters found by the South Pole Telescope, this crowd of galaxies was spotted through the Sunyaev-Zel'dovich effect. Hubble photographed it in a survey of hundreds of such clusters, to learn how their brightest galaxies grow and how often their gravity bends the light of galaxies behind them.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "Hubble imaged it in the SPT-HST Legacy survey of clusters found by the South Pole Telescope via the Sunyaev-Zel'dovich effect",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/16017/"
+      },
+      {
+        "text": "The survey studies how brightest cluster galaxies evolve and the statistics of strong lensing",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/16017/"
+      },
+      {
+        "text": "It is among the most massive distant clusters of the SPT-SZ survey",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/13412/"
+      },
+      {
+        "text": "Program 15307 describes it as a high-redshift, rich cluster",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/15307/"
+      }
+    ]
+  }
+}

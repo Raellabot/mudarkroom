@@ -1,0 +1,44 @@
+{
+  "id": "ugc7369-hubble",
+  "name": "IC 779 (Hubble)",
+  "blurb": "IC 779, a lenticular galaxy, seen by Hubble.",
+  "label": "ugc7369-hubble",
+  "spec": "HST|UGC7369|9771|ACS/WFC|ugc7369-hubble",
+  "find": [
+    "HST|9771|UGC7369"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "UGC 7369",
+    "lenticular galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "IC 779 is a lenticular galaxy with a star-like nucleus at its heart, suspected to belong to the Coma I group. Hubble came here to gauge its distance from its individual stars.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "IC 779 is the same galaxy as UGC 7369",
+        "source": "https://ar5iv.arxiv.org/html/astro-ph/0511648"
+      },
+      {
+        "text": "IC 779 is a lenticular galaxy with a semi-stellar (star-like) nucleus",
+        "source": "https://ar5iv.arxiv.org/html/astro-ph/0511648"
+      },
+      {
+        "text": "It is suspected to be a member of the Coma I group",
+        "source": "https://ar5iv.arxiv.org/html/astro-ph/0511648"
+      },
+      {
+        "text": "It was imaged with Hubble ACS (program 9771) to measure distances from stars at the tip of the red giant branch",
+        "source": "https://ar5iv.arxiv.org/html/astro-ph/0511648"
+      }
+    ]
+  }
+}

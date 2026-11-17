@@ -1,0 +1,37 @@
+{
+  "id": "agc111946-hubble",
+  "name": "AGC 111946 (Hubble)",
+  "blurb": "AGC 111946, a gas-rich dwarf galaxy, seen by Hubble.",
+  "label": "agc111946-hubble",
+  "spec": "HST|AGC111946|12658|ACS/WFC|agc111946-hubble",
+  "find": [
+    "HST|12658|AGC111946"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "AGC111946",
+    "SHIELD",
+    "dwarf galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "AGC 111946 is one of the lowest-mass gas-rich galaxies that still hold stars. Hubble picked out its individual stars to measure how far away it is.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "AGC 111946 is a SHIELD galaxy: an extremely low-mass gas-rich dwarf discovered by the ALFALFA survey",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/12658/"
+      },
+      {
+        "text": "Hubble imaging measured AGC 111946's distance from its red giant stars (TRGB)",
+        "source": "https://ar5iv.labs.arxiv.org/html/1402.3723"
+      }
+    ]
+  }
+}

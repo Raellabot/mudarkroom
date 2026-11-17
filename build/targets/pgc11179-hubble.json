@@ -1,0 +1,54 @@
+{
+  "id": "pgc11179-hubble",
+  "name": "PGC 11179 (Hubble)",
+  "blurb": "PGC 11179, a compact elliptical galaxy, seen by Hubble.",
+  "label": "pgc11179-hubble",
+  "spec": "HST+HST|PGC11179+PGC11179|13050+13050|WFC3/IR+WFC3/UVIS|pgc11179-hubble",
+  "find": [
+    "HST|13050|PGC11179"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "PGC11179",
+    "compact elliptical galaxy",
+    "compact early-type galaxy",
+    "elliptical galaxy",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "PGC 11179 is a small, dense elliptical galaxy, a plausible relic of the massive, quiescent galaxies of the early universe. At its heart, a disk of gas whirls around a supermassive black hole that ALMA has weighed.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "PGC 11179 is a local massive, compact early-type galaxy",
+        "source": "https://ar5iv.labs.arxiv.org/html/2310.11296"
+      },
+      {
+        "text": "PGC 11179 is in a sample of nearby compact elliptical galaxies with HST imaging from program 13050",
+        "source": "https://ar5iv.labs.arxiv.org/html/1701.05898"
+      },
+      {
+        "text": "Compact elliptical galaxies have high central stellar mass densities",
+        "source": "https://ar5iv.labs.arxiv.org/html/1701.05898"
+      },
+      {
+        "text": "PGC 11179 is a plausible relic of z~2 massive, quiescent galaxies",
+        "source": "https://ar5iv.labs.arxiv.org/html/2310.11296"
+      },
+      {
+        "text": "ALMA observed a rotating circumnuclear gas disk in PGC 11179 and measured its supermassive black hole mass",
+        "source": "https://arxiv.org/abs/2310.11296"
+      },
+      {
+        "text": "PGC 11179 was imaged by HST WFC3 in program GO-13050",
+        "source": "https://ar5iv.labs.arxiv.org/html/2310.11296"
+      }
+    ]
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "id": "ugc-7346-hubble",
+  "name": "UGC 7346 (Hubble)",
+  "blurb": "UGC 7346, a dwarf galaxy shaped by the merger of two smaller dwarfs, seen by Hubble.",
+  "label": "ugc7346-hubble",
+  "spec": "HST|UGC-7346|17713|ACS/WFC|ugc7346-hubble",
+  "find": [
+    "HST|17713|UGC-7346"
+  ],
+  "type": "Galaxies",
+  "aliases": [
+    "UGC-7346",
+    "dwarf galaxy",
+    "dwarf elliptical galaxy",
+    "low surface brightness galaxy",
+    "galaxy merger",
+    "galaxy"
+  ],
+  "missions": [
+    "Hubble"
+  ],
+  "story": "Faint streams and shells around this dwarf galaxy at the edge of the Virgo Cluster record a recent merger of two dwarfs, and its globular clusters crowd toward its center. Astronomers think they may be sinking together to build a nucleus, and Hubble looked to catch a nuclear star cluster in formation.",
+  "finish": {
+    "dense": 0.97
+  },
+  "facts": {
+    "checked": "2026-11-17",
+    "claims": [
+      {
+        "text": "UGC 7346 is a dwarf galaxy in the peripheral regions of the Virgo Cluster",
+        "source": "https://arxiv.org/abs/2302.08516"
+      },
+      {
+        "text": "UGC 7346 is catalogued as a dwarf elliptical, low surface brightness galaxy",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/17713/"
+      },
+      {
+        "text": "Diffuse streams or shells around UGC 7346 suggest a recent merger of two dwarf galaxies",
+        "source": "https://arxiv.org/abs/2302.08516"
+      },
+      {
+        "text": "Its globular cluster candidates are highly concentrated toward the galaxy's center",
+        "source": "https://arxiv.org/abs/2302.08516"
+      },
+      {
+        "text": "The globular clusters may be collapsing to form a nuclear star cluster; the Hubble program aims to observe nuclear star cluster formation in UGC 7346",
+        "source": "https://www.stsci.edu/hst-program-info/download/hst/pdf/17713/"
+      }
+    ]
+  }
+}
