@@ -1,7 +1,7 @@
 {
   "id": "gems-4-hubble",
   "name": "GEMS survey, field 4 (Hubble)",
-  "blurb": "GEMS field 4, one tile of a deep survey around the Chandra Deep Field South, seen by Hubble.",
+  "blurb": "GEMS field 4, one tile of a wide, deep survey of distant galaxies, seen by Hubble.",
   "label": "gems4-hubble",
   "spec": "HST|GEMS-4|9500|ACS/WFC|gems4-hubble",
   "find": [
