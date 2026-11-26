@@ -49,6 +49,7 @@ def prepare(args):
         for f in ("orange", "green", "blue"):
             chans[f], lost[f] = repair(chans[f], bads[f], m)
             ratio[f] = float(np.median(chans[f][m]) / max(np.median(chans["green"][m]), 1e-6))
+        lost["rows"] = tinted_rows(chans, m)
         rgb = np.stack([chans["orange"], chans["green"], chans["blue"]], -1).astype(np.float32)
         ys, xs = np.where(m)
         h, w = g.shape
@@ -91,6 +92,20 @@ def repair(x, bad, disk):
                 x[y] = a * (1 - t) + b * t
             drop[r] = False
     return x, float(drop.sum() / max(disk.sum(), 1))
+
+
+# Fraction of the disk in rows whose color is off from the rest of the disk (a block lost in one filter that came back as wrong numbers rather than gaps).
+def tinted_rows(chans, disk, tol=0.25):
+    n = disk.sum(1)
+    use = n > 20
+    if use.sum() < 10:
+        return 0.0
+    g = (chans["green"] * disk).sum(1)[use]
+    off = np.zeros(use.sum(), bool)
+    for f in ("orange", "blue"):
+        r = (chans[f] * disk).sum(1)[use] / np.maximum(g, 1e-6)
+        off |= np.abs(r / np.median(r) - 1) > tol
+    return float(n[use][off].sum() / max(disk.sum(), 1))
 
 
 def render(rgb, top):
