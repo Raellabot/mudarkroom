@@ -203,7 +203,7 @@ def sky(x, body):
     away = ~ndimage.binary_dilation(body, iterations=15) & ~nodata
     if away.sum() < 2000:
         return x
-    cap = 0.03 * np.percentile(x, 99.5)
+    cap = 0.03 * max(np.percentile(x, 99.5), np.percentile(x[body], 90) if body.sum() >= 50 else 0)   # from the body too, so a small disk in a dark frame still gets its sky gradient taken off
     ys, xs = np.nonzero(away)
     v = x[ys, xs]
     keep = v <= np.percentile(v, 50)
