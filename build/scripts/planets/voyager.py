@@ -243,19 +243,58 @@ def sky_mask(chans, body, k=4.0):
     return ok
 
 
+# The older, cautious sky fix: a plane and row bands capped at 3% of the frame's bright end; used when the smooth level looks like it caught the planet.
+def sky_plane(x, body):
+    nodata = ndimage.binary_opening(x <= 0, iterations=3)
+    away = ~ndimage.binary_dilation(body, iterations=15) & ~nodata
+    if away.sum() < 2000:
+        return x
+    cap = 0.03 * np.percentile(x, 99.5)
+    ys, xs = np.nonzero(away)
+    v = x[ys, xs]
+    keep = v <= np.percentile(v, 50)
+    A = np.stack([np.ones(v.size), ys, xs], 1)
+    for _ in range(4):
+        c, *_ = np.linalg.lstsq(A[keep], v[keep], rcond=None)
+        res = v - A @ c
+        mad = 1.4826 * np.median(np.abs(res[keep])) + 1e-6
+        keep = np.abs(res) < 3 * mad
+        if keep.sum() < 500:
+            break
+    yy, xx = np.mgrid[:x.shape[0], :x.shape[1]]
+    y = x - np.clip(c[0] + c[1] * yy + c[2] * xx, -cap, cap)
+    rows = np.full(x.shape[0], np.nan)
+    for r in range(x.shape[0]):
+        a = y[r][away[r]]
+        if a.size > 0.4 * x.shape[1]:
+            rows[r] = np.percentile(a, 25)
+    ok = ~np.isnan(rows)
+    if ok.sum() > 50:
+        level = np.interp(np.arange(x.shape[0]), np.nonzero(ok)[0], ndimage.median_filter(rows[ok], 31, mode="nearest"))
+        y = y - np.clip(ndimage.uniform_filter1d(level, 15), -cap, cap)[:, None]
+    return np.where(nodata, 0, y)
+
+
+
 # Takes off the dark sky: a smooth 2D level from clean sky pixels, then any row bands left over.
-def sky(x, ok):
+def sky(x, ok, body):
     nodata = ndimage.binary_opening(x <= 0, iterations=3)
     ok = ok & ~nodata
     if ok.sum() < 2000:
         return x
     lv = sky_level(x, ok)
+    top = max(np.percentile(x, 99.5), np.percentile(x[body], 90) if body.sum() >= 50 else 0)   # the body's brightness, even when it is a small disk
+    if lv is not None and np.percentile(lv, 99) - np.percentile(lv, 1) > 0.1 * top:
+        return sky_plane(x, body)
     y = x - (lv if lv is not None else np.median(x[ok]))
     rows = np.array([np.median(y[r][ok[r]]) if ok[r].sum() > 0.2 * x.shape[1] else np.nan for r in range(x.shape[0])])
     good = ~np.isnan(rows)
     if good.sum() > 50:
         level = np.interp(np.arange(x.shape[0]), np.nonzero(good)[0], ndimage.median_filter(rows[good], 9, mode="nearest"))
-        y = y - ndimage.uniform_filter1d(level, 5)[:, None]
+        level = ndimage.uniform_filter1d(level, 5)
+        if level.max() - level.min() > 0.1 * top:
+            return sky_plane(x, body)
+        y = y - level[:, None]
     return np.where(nodata, 0, y)
 
 
@@ -338,7 +377,7 @@ def layers(src):
     body, _ = lit_mask(chans["green"][sl])
     out = color_rows({f: chans[f][sl] for f in have})
     ok = sky_mask(out, body)
-    out = speckle({f: sky(x, ok) for f, x in out.items()}, body)
+    out = speckle({f: sky(x, ok, body) for f, x in out.items()}, body)
     out, info["trim"] = trim(out)
     return out, info
 
