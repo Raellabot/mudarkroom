@@ -196,37 +196,66 @@ def subpix(ga, gb, dy, dx):
     return frac(score(ga, gb, dy - 1, dx), c, score(ga, gb, dy + 1, dx)), frac(score(ga, gb, dy, dx - 1), c, score(ga, gb, dy, dx + 1))
 
 
-# Takes off the dark sky: a plane fitted to each channel away from the lit body, then a smoothed row-by-row level, so a gradient or a band left by the camera doesn't tint the black; the empty margin left by the distortion fix stays at zero.
-# Both fits use the darker sky with outliers dropped, so rings or a second moon don't lift them, and what is taken off is held to a few percent of the body's brightness.
-def sky(x, body):
-    nodata = ndimage.binary_opening(x <= 0, iterations=3)
-    away = ~ndimage.binary_dilation(body, iterations=15) & ~nodata
-    if away.sum() < 2000:
-        return x
-    cap = 0.03 * np.percentile(x, 99.5)
-    rcap = 0.03 * max(np.percentile(x, 99.5), np.percentile(x[body], 90) if body.sum() >= 50 else 0)   # the row bands may go further, so a small disk in a dark frame still loses its sky gradient
-    ys, xs = np.nonzero(away)
-    v = x[ys, xs]
-    keep = v <= np.percentile(v, 50)
-    A = np.stack([np.ones(v.size), ys, xs], 1)
-    for _ in range(4):
-        c, *_ = np.linalg.lstsq(A[keep], v[keep], rcond=None)
-        res = v - A @ c
-        mad = 1.4826 * np.median(np.abs(res[keep])) + 1e-6
-        keep = np.abs(res) < 3 * mad
-        if keep.sum() < 500:
+# Smooth sky level: clipped block medians of sky pixels, empty blocks filled from the nearest, smoothed and resampled to full size.
+def sky_level(x, ok, blk=32):
+    h, w = x.shape
+    gh, gw = -(-h // blk), -(-w // blk)
+    grid, have = np.zeros((gh, gw)), np.zeros((gh, gw), bool)
+    for i in range(gh):
+        for j in range(gw):
+            sl = (slice(i * blk, (i + 1) * blk), slice(j * blk, (j + 1) * blk))
+            v = x[sl][ok[sl]]
+            if v.size < 0.25 * blk * blk:
+                continue
+            for _ in range(3):
+                m = np.median(v)
+                s = 1.4826 * np.median(np.abs(v - m)) + 1e-9
+                v = v[(v < m + 2.5 * s) & (v > m - 4 * s)]   # harder clip on the bright side, for ring and halo light
+            grid[i, j], have[i, j] = np.median(v), True
+    if have.sum() < 4:
+        return None
+    idx = ndimage.distance_transform_edt(~have, return_distances=False, return_indices=True)
+    grid = ndimage.gaussian_filter(ndimage.median_filter(grid[tuple(idx)], 3, mode="nearest"), 0.7, mode="nearest")
+    yy, xx = np.meshgrid((np.arange(h) + 0.5) / blk - 0.5, (np.arange(w) + 0.5) / blk - 0.5, indexing="ij")
+    return ndimage.map_coordinates(grid, [yy, xx], order=1, mode="nearest")
+
+
+# Sky pixels shared by all channels: anything clearly above a coarse sky in the noise-weighted channel sum (rings, moons, halo) is masked and widened.
+def sky_mask(chans, body, k=4.0):
+    bad = np.logical_or.reduce([ndimage.binary_opening(x <= 0, iterations=3) for x in chans.values()])
+    near = ndimage.binary_dilation(body, iterations=15)
+    ok = ~near & ~bad
+    if ok.sum() < 2000:
+        return ok
+    for _ in range(2):
+        s = 0
+        for x in chans.values():
+            lv = sky_level(x, ok, 64)
+            r = x - (lv if lv is not None else np.median(x[ok]))
+            s = s + r / (1.4826 * np.median(np.abs(r[ok] - np.median(r[ok]))) + 1e-9)
+        s = ndimage.gaussian_filter(s, 2)
+        sig = 1.4826 * np.median(np.abs(s[ok] - np.median(s[ok]))) + 1e-9
+        src = ndimage.binary_opening(s > np.median(s[ok]) + k * sig)
+        new = ~(ndimage.binary_dilation(src, iterations=6) | near) & ~bad
+        if new.sum() < 2000:
             break
-    yy, xx = np.mgrid[:x.shape[0], :x.shape[1]]
-    y = x - np.clip(c[0] + c[1] * yy + c[2] * xx, -cap, cap)
-    rows = np.full(x.shape[0], np.nan)
-    for r in range(x.shape[0]):
-        a = y[r][away[r]]
-        if a.size > 0.4 * x.shape[1]:
-            rows[r] = np.percentile(a, 25)
-    ok = ~np.isnan(rows)
-    if ok.sum() > 50:
-        level = np.interp(np.arange(x.shape[0]), np.nonzero(ok)[0], ndimage.median_filter(rows[ok], 31, mode="nearest"))
-        y = y - np.clip(ndimage.uniform_filter1d(level, 15), -rcap, rcap)[:, None]
+        ok = new
+    return ok
+
+
+# Takes off the dark sky: a smooth 2D level from clean sky pixels, then any row bands left over.
+def sky(x, ok):
+    nodata = ndimage.binary_opening(x <= 0, iterations=3)
+    ok = ok & ~nodata
+    if ok.sum() < 2000:
+        return x
+    lv = sky_level(x, ok)
+    y = x - (lv if lv is not None else np.median(x[ok]))
+    rows = np.array([np.median(y[r][ok[r]]) if ok[r].sum() > 0.2 * x.shape[1] else np.nan for r in range(x.shape[0])])
+    good = ~np.isnan(rows)
+    if good.sum() > 50:
+        level = np.interp(np.arange(x.shape[0]), np.nonzero(good)[0], ndimage.median_filter(rows[good], 9, mode="nearest"))
+        y = y - ndimage.uniform_filter1d(level, 5)[:, None]
     return np.where(nodata, 0, y)
 
 
@@ -308,7 +337,8 @@ def layers(src):
     sl = (slice(m, g.shape[0] - m), slice(m, g.shape[1] - m))
     body, _ = lit_mask(chans["green"][sl])
     out = color_rows({f: chans[f][sl] for f in have})
-    out = speckle({f: sky(x, body) for f, x in out.items()}, body)
+    ok = sky_mask(out, body)
+    out = speckle({f: sky(x, ok) for f, x in out.items()}, body)
     out, info["trim"] = trim(out)
     return out, info
 
