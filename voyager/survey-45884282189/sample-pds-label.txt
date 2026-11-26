@@ -1,0 +1,76 @@
+PDS_VERSION_ID                  = PDS3
+RECORD_TYPE                     = FIXED_LENGTH
+RECORD_BYTES                    = 2000
+FILE_RECORDS                    = 1001
+^VICAR_HEADER                   = ("C1607713_GEOMED.IMG", 1)
+^IMAGE                          = ("C1607713_GEOMED.IMG", 2)
+
+DATA_SET_ID                     = "VG1/VG2-J-ISS-2/3/4/6-PROCESSED-V1.0"
+PRODUCT_ID                      = "C1607713_GEOMED.IMG"
+PRODUCT_CREATION_TIME           = 2012-06-06T16:00:00
+SOURCE_PRODUCT_ID               = ("C1607713_CALIB.IMG",
+                                   "C1607713_GEOMA.DAT")
+PRODUCT_TYPE                    = GEOMETRICALLY_CORRECTED_IMAGE
+
+/* Image Description  */
+
+INSTRUMENT_HOST_NAME            = "VOYAGER 1"
+INSTRUMENT_HOST_ID              = VG1
+INSTRUMENT_NAME                 = "IMAGING SCIENCE SUBSYSTEM - WIDE ANGLE"
+INSTRUMENT_ID                   = "ISSW"
+MISSION_PHASE_NAME              = "JUPITER ENCOUNTER"
+TARGET_NAME                     = "JUPITER"
+IMAGE_ID                        = "1068J1-011"
+IMAGE_NUMBER                    = "16077.13"
+IMAGE_TIME                      = 1979-02-23T02:18:59.00
+EARTH_RECEIVED_TIME             = 1979-02-23T02:56:02
+SCAN_MODE_ID                    = "1:1"
+SHUTTER_MODE_ID                 = "BSIMAN"
+GAIN_MODE_ID                    = "LOW"
+EDIT_MODE_ID                    = "1:1"
+FILTER_NAME                     = "GREEN"
+FILTER_NUMBER                   = "5"
+EXPOSURE_DURATION               = 0.0900 <SECOND>
+
+START_TIME                      = 1979-02-23T02:18:58.91
+STOP_TIME                       = 1979-02-23T02:18:59.00
+SPACECRAFT_CLOCK_START_COUNT    = "16077:11:799"
+SPACECRAFT_CLOCK_STOP_COUNT     = "16077:13:001"
+
+NOTE                            =
+"MULTISPECTRAL (O,G,V) 3X3 NA MOSAIC + 2 SETS OF 4 WA (G,O; CH4; V)."
+
+DESCRIPTION                     = "This image is the result of geometrically
+correcting the corresponding CALIB image (C1607713_CALIB.IMG). It was created
+using the VICAR software package on a Compaq Alpha running OpenVMS. Routine
+GEOMA was used to remove the intrinsic distortion of the Voyager cameras by
+resampling the image onto a 1000x1000 grid. The routine uses the tabulation of
+reseau marking locations found in the corresponding RESLOC output file
+C1607713_GEOMA.DAT.
+
+See file DOCUMENT/PROCESSING.TXT for more information about the image
+processing history."
+
+OBJECT                          = VICAR_HEADER
+  HEADER_TYPE                   = VICAR
+  BYTES                         = 2000
+  RECORDS                       = 1
+  INTERCHANGE_FORMAT            = ASCII
+  DESCRIPTION                   = "VICAR format label for the image."
+END_OBJECT                      = VICAR_HEADER
+
+OBJECT                          = IMAGE
+  LINES                         = 1000
+  LINE_SAMPLES                  = 1000
+  SAMPLE_TYPE                   = LSB_INTEGER
+  SAMPLE_BITS                   = 16
+  SAMPLE_DISPLAY_DIRECTION      = RIGHT
+  LINE_DISPLAY_DIRECTION        = DOWN
+  HORIZONTAL_PIXEL_FOV          = 3.3700E-03 <DEGREE>
+  VERTICAL_PIXEL_FOV            = 3.3700E-03 <DEGREE>
+  HORIZONTAL_FOV                = 3.3700     <DEGREE>
+  VERTICAL_FOV                  = 3.3700     <DEGREE>
+  REFLECTANCE_SCALING_FACTOR    = 1.0000E-04
+END_OBJECT                      = IMAGE
+
+END

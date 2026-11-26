@@ -1,0 +1,848 @@
+{
+ "filter_field": "VGISSfilter",
+ "camera_field": "VGISScamera",
+ "total": {
+  "data": [
+   {
+    "result_count": 76654
+   }
+  ]
+ },
+ "year_1990": {
+  "data": [
+   {
+    "result_count": 0
+   }
+  ]
+ },
+ "planets": {
+  "Jupiter": {
+   "frames": 31337,
+   "by_filter": [
+    [
+     "ORANGE",
+     8998
+    ],
+    [
+     "VIOLET",
+     7142
+    ],
+    [
+     "GREEN",
+     7093
+    ],
+    [
+     "CLEAR",
+     3592
+    ],
+    [
+     "BLUE",
+     1992
+    ],
+    [
+     "UV",
+     1328
+    ],
+    [
+     "METHANE-JST",
+     1117
+    ],
+    [
+     "SODIUM",
+     75
+    ]
+   ],
+   "by_camera": [
+    [
+     "Narrow Angle",
+     24464
+    ],
+    [
+     "Wide Angle",
+     6873
+    ]
+   ],
+   "by_spacecraft": [
+    [
+     "1",
+     17527
+    ],
+    [
+     "2",
+     13810
+    ]
+   ],
+   "frames_by_target": [
+    [
+     "Jupiter",
+     26717
+    ],
+    [
+     "Io",
+     851
+    ],
+    [
+     "Ganymede",
+     835
+    ],
+    [
+     "Callisto",
+     831
+    ],
+    [
+     "Europa",
+     459
+    ],
+    [
+     "Dark",
+     457
+    ],
+    [
+     "Calibration Lamps",
+     438
+    ],
+    [
+     "Sky",
+     156
+    ],
+    [
+     "Plaque",
+     143
+    ],
+    [
+     "Amalthea",
+     98
+    ],
+    [
+     "System",
+     98
+    ],
+    [
+     "Taurus",
+     45
+    ],
+    [
+     "Alp Lyr (Vega)",
+     44
+    ],
+    [
+     "Saturn",
+     36
+    ],
+    [
+     "Alp Boo (Arcturus)",
+     32
+    ],
+    [
+     "Jupiter Rings",
+     30
+    ],
+    [
+     "The Car",
+     20
+    ],
+    [
+     "Scorpius",
+     15
+    ],
+    [
+     "Orion",
+     14
+    ],
+    [
+     "Thebe",
+     8
+    ],
+    [
+     "Metis",
+     6
+    ],
+    [
+     "Adrastea",
+     4
+    ]
+   ],
+   "sets": 4944,
+   "sets_by_target": [
+    [
+     "Jupiter",
+     4701
+    ],
+    [
+     "Ganymede",
+     59
+    ],
+    [
+     "Callisto",
+     50
+    ],
+    [
+     "Io",
+     42
+    ],
+    [
+     "Europa",
+     40
+    ],
+    [
+     "Sky",
+     34
+    ],
+    [
+     "Plaque",
+     8
+    ],
+    [
+     "Amalthea",
+     5
+    ],
+    [
+     "Calibration Lamps",
+     2
+    ],
+    [
+     "Metis",
+     1
+    ],
+    [
+     "Saturn",
+     1
+    ],
+    [
+     "Jupiter Rings",
+     1
+    ]
+   ],
+   "sets_by_span": [
+    [
+     "<5 min",
+     3172
+    ],
+    [
+     "<15 min",
+     1772
+    ]
+   ],
+   "sets_by_camera": [
+    [
+     "Narrow Angle",
+     4210
+    ],
+    [
+     "Wide Angle",
+     734
+    ]
+   ],
+   "sets_by_filters": [
+    [
+     "GOV",
+     3185
+    ],
+    [
+     "BGO",
+     1458
+    ],
+    [
+     "BGOV",
+     301
+    ]
+   ]
+  },
+  "Saturn": {
+   "frames": 29022,
+   "by_filter": [
+    [
+     "CLEAR",
+     8801
+    ],
+    [
+     "GREEN",
+     5175
+    ],
+    [
+     "VIOLET",
+     4473
+    ],
+    [
+     "BLUE",
+     4317
+    ],
+    [
+     "UV",
+     2902
+    ],
+    [
+     "ORANGE",
+     2869
+    ],
+    [
+     "METHANE-JST",
+     443
+    ],
+    [
+     "SODIUM",
+     21
+    ],
+    [
+     "METHANE-U",
+     21
+    ]
+   ],
+   "by_camera": [
+    [
+     "Narrow Angle",
+     20605
+    ],
+    [
+     "Wide Angle",
+     8415
+    ],
+    [
+     "N/A",
+     2
+    ]
+   ],
+   "by_spacecraft": [
+    [
+     "1",
+     17049
+    ],
+    [
+     "2",
+     11973
+    ]
+   ],
+   "frames_by_target": [
+    [
+     "Saturn",
+     23699
+    ],
+    [
+     "Saturn Rings",
+     2219
+    ],
+    [
+     "Titan",
+     926
+    ],
+    [
+     "Sky",
+     379
+    ],
+    [
+     "Dark",
+     336
+    ],
+    [
+     "Phoebe",
+     305
+    ],
+    [
+     "Rhea",
+     233
+    ],
+    [
+     "Iapetus",
+     151
+    ],
+    [
+     "Dione",
+     138
+    ],
+    [
+     "System",
+     112
+    ],
+    [
+     "Hyperion",
+     110
+    ],
+    [
+     "Tethys",
+     106
+    ],
+    [
+     "Enceladus",
+     87
+    ],
+    [
+     "Mimas",
+     78
+    ],
+    [
+     "Helene",
+     45
+    ],
+    [
+     "Star",
+     35
+    ],
+    [
+     "Unknown",
+     16
+    ],
+    [
+     "Pandora",
+     14
+    ],
+    [
+     "Epimetheus",
+     11
+    ],
+    [
+     "Calypso",
+     11
+    ],
+    [
+     "Janus",
+     7
+    ],
+    [
+     "Telesto",
+     2
+    ],
+    [
+     "Prometheus",
+     2
+    ]
+   ],
+   "sets": 1987,
+   "sets_by_target": [
+    [
+     "Saturn",
+     1779
+    ],
+    [
+     "Saturn Rings",
+     80
+    ],
+    [
+     "Titan",
+     62
+    ],
+    [
+     "Iapetus",
+     15
+    ],
+    [
+     "Rhea",
+     14
+    ],
+    [
+     "Phoebe",
+     10
+    ],
+    [
+     "Hyperion",
+     8
+    ],
+    [
+     "Dione",
+     5
+    ],
+    [
+     "Tethys",
+     4
+    ],
+    [
+     "Enceladus",
+     4
+    ],
+    [
+     "Mimas",
+     3
+    ],
+    [
+     "Sky",
+     3
+    ]
+   ],
+   "sets_by_span": [
+    [
+     "<15 min",
+     1595
+    ],
+    [
+     "<5 min",
+     392
+    ]
+   ],
+   "sets_by_camera": [
+    [
+     "Narrow Angle",
+     1536
+    ],
+    [
+     "Wide Angle",
+     451
+    ]
+   ],
+   "sets_by_filters": [
+    [
+     "BGOV",
+     1072
+    ],
+    [
+     "GOV",
+     677
+    ],
+    [
+     "BGO",
+     238
+    ]
+   ]
+  },
+  "Uranus": {
+   "frames": 6460,
+   "by_filter": [
+    [
+     "CLEAR",
+     2608
+    ],
+    [
+     "GREEN",
+     855
+    ],
+    [
+     "VIOLET",
+     579
+    ],
+    [
+     "METHANE-JST",
+     534
+    ],
+    [
+     "ORANGE",
+     521
+    ],
+    [
+     "BLUE",
+     512
+    ],
+    [
+     "METHANE-U",
+     457
+    ],
+    [
+     "UV",
+     394
+    ]
+   ],
+   "by_camera": [
+    [
+     "Narrow Angle",
+     4417
+    ],
+    [
+     "Wide Angle",
+     2043
+    ]
+   ],
+   "by_spacecraft": [
+    [
+     "2",
+     6460
+    ]
+   ],
+   "frames_by_target": [
+    [
+     "Uranus",
+     4944
+    ],
+    [
+     "Uranus Rings",
+     502
+    ],
+    [
+     "Dark",
+     313
+    ],
+    [
+     "Calibration Lamps",
+     149
+    ],
+    [
+     "Titania",
+     102
+    ],
+    [
+     "Ariel",
+     101
+    ],
+    [
+     "Umbriel",
+     100
+    ],
+    [
+     "Miranda",
+     90
+    ],
+    [
+     "Plaque",
+     78
+    ],
+    [
+     "Oberon",
+     74
+    ],
+    [
+     "Alp Lyr (Vega)",
+     3
+    ],
+    [
+     "Sky",
+     2
+    ],
+    [
+     "Puck",
+     1
+    ],
+    [
+     "Star",
+     1
+    ]
+   ],
+   "sets": 273,
+   "sets_by_target": [
+    [
+     "Uranus",
+     247
+    ],
+    [
+     "Umbriel",
+     6
+    ],
+    [
+     "Oberon",
+     5
+    ],
+    [
+     "Titania",
+     5
+    ],
+    [
+     "Plaque",
+     5
+    ],
+    [
+     "Ariel",
+     4
+    ],
+    [
+     "Miranda",
+     1
+    ]
+   ],
+   "sets_by_span": [
+    [
+     "<15 min",
+     272
+    ],
+    [
+     "<5 min",
+     1
+    ]
+   ],
+   "sets_by_camera": [
+    [
+     "Narrow Angle",
+     260
+    ],
+    [
+     "Wide Angle",
+     13
+    ]
+   ],
+   "sets_by_filters": [
+    [
+     "BGO",
+     231
+    ],
+    [
+     "GOV",
+     26
+    ],
+    [
+     "BGOV",
+     16
+    ]
+   ]
+  },
+  "Neptune": {
+   "frames": 9835,
+   "by_filter": [
+    [
+     "CLEAR",
+     4235
+    ],
+    [
+     "UV",
+     1057
+    ],
+    [
+     "ORANGE",
+     1038
+    ],
+    [
+     "VIOLET",
+     899
+    ],
+    [
+     "METHANE-JST",
+     887
+    ],
+    [
+     "GREEN",
+     804
+    ],
+    [
+     "BLUE",
+     573
+    ],
+    [
+     "METHANE-U",
+     294
+    ],
+    [
+     "SODIUM",
+     48
+    ]
+   ],
+   "by_camera": [
+    [
+     "Narrow Angle",
+     6822
+    ],
+    [
+     "Wide Angle",
+     3013
+    ]
+   ],
+   "by_spacecraft": [
+    [
+     "2",
+     9835
+    ]
+   ],
+   "frames_by_target": [
+    [
+     "Neptune",
+     6869
+    ],
+    [
+     "Neptune Rings",
+     798
+    ],
+    [
+     "Triton",
+     660
+    ],
+    [
+     "Dark",
+     414
+    ],
+    [
+     "Star",
+     358
+    ],
+    [
+     "Sky",
+     254
+    ],
+    [
+     "Nereid",
+     206
+    ],
+    [
+     "Plaque",
+     84
+    ],
+    [
+     "Calibration Lamps",
+     56
+    ],
+    [
+     "Proteus",
+     42
+    ],
+    [
+     "Sig Sgr",
+     29
+    ],
+    [
+     "Pleiades",
+     23
+    ],
+    [
+     "Alp Lyr (Vega)",
+     17
+    ],
+    [
+     "Orion",
+     9
+    ],
+    [
+     "Scorpius",
+     8
+    ],
+    [
+     "Bet CMa",
+     5
+    ],
+    [
+     "Larissa",
+     3
+    ]
+   ],
+   "sets": 527,
+   "sets_by_target": [
+    [
+     "Neptune",
+     507
+    ],
+    [
+     "Triton",
+     19
+    ],
+    [
+     "Plaque",
+     1
+    ]
+   ],
+   "sets_by_span": [
+    [
+     "<15 min",
+     525
+    ],
+    [
+     "<5 min",
+     2
+    ]
+   ],
+   "sets_by_camera": [
+    [
+     "Narrow Angle",
+     461
+    ],
+    [
+     "Wide Angle",
+     66
+    ]
+   ],
+   "sets_by_filters": [
+    [
+     "BGOV",
+     293
+    ],
+    [
+     "GOV",
+     137
+    ],
+    [
+     "BGO",
+     97
+    ]
+   ]
+  }
+ }
+}
