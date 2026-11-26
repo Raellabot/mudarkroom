@@ -1,0 +1,27 @@
+name: Voyager metadata
+
+# Run by hand: saves OPUS metadata (geometry included) for each Voyager color set in a list; results are kept as a run artifact.
+on:
+  workflow_dispatch:
+    inputs:
+      sets:
+        description: "Color-set list in the repo (csv)"
+        default: "catalog/voyager-build1.csv"
+
+jobs:
+  meta:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - name: Fetch metadata
+        env:
+          SETS: ${{ inputs.sets }}
+        run: |
+          mkdir -p out
+          python3 -u scripts/voyager/meta.py "$SETS" out/meta.jsonl
+      - uses: actions/upload-artifact@v4
+        with:
+          name: voyager-meta
+          path: out
+          retention-days: 30
