@@ -83,7 +83,7 @@ def phase_shift(ref, mov, limit):
     cy, cx = h // 2, w // 2
     sub = c[cy - limit:cy + limit + 1, cx - limit:cx + limit + 1]
     y, x = np.unravel_index(np.argmax(sub), sub.shape)
-    return y - limit, x - limit, float(sub[y, x] / (np.std(c) + 1e-12))
+    return int(y - limit), int(x - limit), float(sub[y, x] / (np.std(c) + 1e-12))
 
 
 def lit_mask(x):
@@ -146,7 +146,7 @@ def align(ref, mov, rbad, mbad):
         v, y, x = refine(ga, gb, dy, dx)
         if best is None or v > best[0]:
             best = (v, y, x, name)
-    return (best[1], best[2]), best[3], round(best[0], 3), [list(c) for c in cands], whole
+    return (int(best[1]), int(best[2])), best[3], round(best[0], 3), [[c[0], int(c[1]), int(c[2])] for c in cands], bool(whole)
 
 
 def render(rgb, black, top):
