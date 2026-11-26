@@ -203,7 +203,8 @@ def sky(x, body):
     away = ~ndimage.binary_dilation(body, iterations=15) & ~nodata
     if away.sum() < 2000:
         return x
-    cap = 0.03 * max(np.percentile(x, 99.5), np.percentile(x[body], 90) if body.sum() >= 50 else 0)   # from the body too, so a small disk in a dark frame still gets its sky gradient taken off
+    cap = 0.03 * np.percentile(x, 99.5)
+    rcap = 0.03 * max(np.percentile(x, 99.5), np.percentile(x[body], 90) if body.sum() >= 50 else 0)   # the row bands may go further, so a small disk in a dark frame still loses its sky gradient
     ys, xs = np.nonzero(away)
     v = x[ys, xs]
     keep = v <= np.percentile(v, 50)
@@ -225,7 +226,7 @@ def sky(x, body):
     ok = ~np.isnan(rows)
     if ok.sum() > 50:
         level = np.interp(np.arange(x.shape[0]), np.nonzero(ok)[0], ndimage.median_filter(rows[ok], 31, mode="nearest"))
-        y = y - np.clip(ndimage.uniform_filter1d(level, 15), -cap, cap)[:, None]
+        y = y - np.clip(ndimage.uniform_filter1d(level, 15), -rcap, rcap)[:, None]
     return np.where(nodata, 0, y)
 
 
