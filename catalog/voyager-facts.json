@@ -1,0 +1,399 @@
+{
+ "Jupiter": {
+  "type": "Planets",
+  "aliases": [
+   "Jupiter",
+   "gas giant"
+  ],
+  "radius_km": 71492,
+  "lead": "The largest planet, about 143,000 kilometers across at the equator.",
+  "story": "Its Great Red Spot is a storm bigger than Earth, and a whole day there passes in under ten hours.",
+  "claims": [
+   {
+    "text": "about 143,000 kilometers across at the equator (JPL: equatorial radius 71492 km)",
+    "source": "https://ssd.jpl.nasa.gov/planets/phys_par.html"
+   },
+   {
+    "text": "largest planet; Great Red Spot is a giant storm bigger than Earth; one day takes 9.9 hours",
+    "source": "https://science.nasa.gov/jupiter/jupiter-facts/"
+   }
+  ]
+ },
+ "Saturn": {
+  "type": "Planets",
+  "aliases": [
+   "Saturn",
+   "ringed planet",
+   "gas giant"
+  ],
+  "radius_km": 60268,
+  "lead": "The ringed planet, about 120,500 kilometers across at the equator.",
+  "story": "Its rings are billions of chunks of ice and rock, from dust-sized grains to pieces as big as a house.",
+  "claims": [
+   {
+    "text": "about 120,500 kilometers across at the equator (JPL: equatorial radius 60268 km)",
+    "source": "https://ssd.jpl.nasa.gov/planets/phys_par.html"
+   },
+   {
+    "text": "rings made of billions of small chunks of ice and rock, dust-sized grains to chunks as big as a house",
+    "source": "https://science.nasa.gov/saturn/facts/"
+   }
+  ]
+ },
+ "Uranus": {
+  "type": "Planets",
+  "aliases": [
+   "Uranus",
+   "tilted planet"
+  ],
+  "radius_km": 25559,
+  "lead": "A planet that spins tipped on its side, about 51,100 kilometers across at the equator.",
+  "story": "Voyager 2's visit in January 1986 is still the only one any spacecraft has made to Uranus.",
+  "claims": [
+   {
+    "text": "about 51,100 kilometers across at the equator (JPL: equatorial radius 25559 km)",
+    "source": "https://ssd.jpl.nasa.gov/planets/phys_par.html"
+   },
+   {
+    "text": "rotates at a nearly 90-degree angle from the plane of its orbit",
+    "source": "https://science.nasa.gov/uranus/"
+   },
+   {
+    "text": "Jan. 24, 1986: Voyager 2 made the first and so far only visit to Uranus",
+    "source": "https://science.nasa.gov/uranus/exploration/"
+   }
+  ]
+ },
+ "Neptune": {
+  "type": "Planets",
+  "aliases": [
+   "Neptune",
+   "blue planet"
+  ],
+  "radius_km": 24764,
+  "lead": "The windiest planet in the solar system, about 49,500 kilometers across at the equator.",
+  "story": "Voyager 2 was the first spacecraft to fly by Neptune, in 1989, when a huge storm called the Great Dark Spot swirled in its southern hemisphere; that storm has since disappeared.",
+  "claims": [
+   {
+    "text": "about 49,500 kilometers across at the equator (JPL: equatorial radius 24764 km)",
+    "source": "https://ssd.jpl.nasa.gov/planets/phys_par.html"
+   },
+   {
+    "text": "windiest world; Voyager 2 first spacecraft to fly by in 1989; Great Dark Spot in 1989, since disappeared",
+    "source": "https://science.nasa.gov/neptune/neptune-facts/"
+   }
+  ]
+ },
+ "Io": {
+  "type": "Moons",
+  "aliases": [
+   "Jupiter's moon",
+   "moon",
+   "volcanoes"
+  ],
+  "radius_km": 1821.49,
+  "lead": "Jupiter's moon Io, the most volcanically active world in the solar system, about 3,640 kilometers across.",
+  "story": "Between them, the two Voyagers watched nine volcanoes erupting on Io.",
+  "claims": [
+   {
+    "text": "about 3,640 kilometers across (JPL: mean radius 1821.49 km)",
+    "source": "https://ssd.jpl.nasa.gov/sats/phys_par/"
+   },
+   {
+    "text": "most volcanically active world in the solar system",
+    "source": "https://science.nasa.gov/jupiter/jupiter-moons/io/facts/"
+   },
+   {
+    "text": "Together, the Voyagers observed the eruption of nine volcanoes on Io",
+    "source": "https://science.nasa.gov/mission/voyager/fact-sheet/"
+   }
+  ]
+ },
+ "Europa": {
+  "type": "Moons",
+  "aliases": [
+   "Jupiter's moon",
+   "moon",
+   "ice",
+   "ocean"
+  ],
+  "radius_km": 1560.8,
+  "lead": "Jupiter's icy moon Europa, about 3,120 kilometers across.",
+  "story": "Its water-ice surface is crisscrossed by dark, reddish-brown cracks, and there is strong evidence for an ocean of salty water beneath the crust.",
+  "claims": [
+   {
+    "text": "about 3,120 kilometers across (JPL: mean radius 1560.8 km)",
+    "source": "https://ssd.jpl.nasa.gov/sats/phys_par/"
+   },
+   {
+    "text": "water-ice surface crisscrossed by dark, reddish-brown cracks; strong evidence for an ocean of liquid salty water beneath its icy crust",
+    "source": "https://science.nasa.gov/jupiter/jupiter-moons/europa/europa-facts/"
+   }
+  ]
+ },
+ "Ganymede": {
+  "type": "Moons",
+  "aliases": [
+   "Jupiter's moon",
+   "moon",
+   "largest moon"
+  ],
+  "radius_km": 2631.2,
+  "lead": "Jupiter's moon Ganymede, the largest moon in the solar system, about 5,260 kilometers across.",
+  "story": "It is bigger than the planet Mercury and the dwarf planet Pluto.",
+  "claims": [
+   {
+    "text": "about 5,260 kilometers across (JPL: mean radius 2631.2 km)",
+    "source": "https://ssd.jpl.nasa.gov/sats/phys_par/"
+   },
+   {
+    "text": "largest moon in our solar system, bigger than the planet Mercury and dwarf planet Pluto",
+    "source": "https://science.nasa.gov/jupiter/jupiter-moons/ganymede/facts/"
+   }
+  ]
+ },
+ "Callisto": {
+  "type": "Moons",
+  "aliases": [
+   "Jupiter's moon",
+   "moon",
+   "craters"
+  ],
+  "radius_km": 2410.3,
+  "lead": "Jupiter's moon Callisto, about 4,820 kilometers across.",
+  "story": "Its rocky, icy surface is the oldest and most heavily cratered in the solar system.",
+  "claims": [
+   {
+    "text": "about 4,820 kilometers across (JPL: mean radius 2410.3 km)",
+    "source": "https://ssd.jpl.nasa.gov/sats/phys_par/"
+   },
+   {
+    "text": "rocky, icy surface is the oldest and most heavily cratered in our solar system",
+    "source": "https://science.nasa.gov/jupiter/jupiter-moons/callisto/facts/"
+   }
+  ]
+ },
+ "Amalthea": {
+  "type": "Moons",
+  "aliases": [
+   "Jupiter's moon",
+   "moon",
+   "red"
+  ],
+  "radius_km": 83.5,
+  "lead": "Jupiter's small, irregularly shaped moon Amalthea, about 170 kilometers across.",
+  "story": "NASA calls it the reddest object in the solar system.",
+  "claims": [
+   {
+    "text": "about 170 kilometers across (JPL: mean radius 83.5 km)",
+    "source": "https://ssd.jpl.nasa.gov/sats/phys_par/"
+   },
+   {
+    "text": "Amalthea is the reddest object in the solar system; irregularly shaped",
+    "source": "https://science.nasa.gov/jupiter/jupiter-moons/amalthea/"
+   }
+  ]
+ },
+ "Metis": {
+  "type": "Moons",
+  "aliases": [
+   "Jupiter's moon",
+   "moon"
+  ],
+  "radius_km": 21.5,
+  "lead": "Metis, one of Jupiter's small inner moons, about 43 kilometers across.",
+  "story": "It was discovered in 1979 by the Voyager science team.",
+  "claims": [
+   {
+    "text": "about 43 kilometers across (JPL: mean radius 21.5 km)",
+    "source": "https://ssd.jpl.nasa.gov/sats/phys_par/"
+   },
+   {
+    "text": "Metis (S/1979 J3) discovered 1979 by the Voyager Science Team",
+    "source": "https://science.nasa.gov/jupiter/jupiter-moons/all-jupiter-moons/"
+   }
+  ]
+ },
+ "Titan": {
+  "type": "Moons",
+  "aliases": [
+   "Saturn's moon",
+   "moon",
+   "haze"
+  ],
+  "radius_km": 2574.76,
+  "lead": "Saturn's moon Titan, about 5,150 kilometers across.",
+  "story": "The second largest moon in the solar system, it is wrapped in a thick, orange haze that makes its surface hard to see from space.",
+  "claims": [
+   {
+    "text": "about 5,150 kilometers across (JPL: mean radius 2574.76 km)",
+    "source": "https://ssd.jpl.nasa.gov/sats/phys_par/"
+   },
+   {
+    "text": "second largest moon in our solar system; thick, orange-colored haze makes the surface difficult to view from space",
+    "source": "https://science.nasa.gov/saturn/moons/titan/facts/"
+   }
+  ]
+ },
+ "Rhea": {
+  "type": "Moons",
+  "aliases": [
+   "Saturn's moon",
+   "moon",
+   "ice",
+   "craters"
+  ],
+  "radius_km": 763.5,
+  "lead": "Saturn's moon Rhea, about 1,530 kilometers across.",
+  "story": "Saturn's second largest moon is made largely of water ice and is more heavily cratered than Dione and Tethys.",
+  "claims": [
+   {
+    "text": "about 1,530 kilometers across (JPL: mean radius 763.5 km)",
+    "source": "https://ssd.jpl.nasa.gov/sats/phys_par/"
+   },
+   {
+    "text": "second largest moon of Saturn; surface largely water ice; more heavily cratered than Dione and Tethys",
+    "source": "https://science.nasa.gov/saturn/moons/rhea/"
+   }
+  ]
+ },
+ "Enceladus": {
+  "type": "Moons",
+  "aliases": [
+   "Saturn's moon",
+   "moon",
+   "ice",
+   "ocean"
+  ],
+  "radius_km": 252.1,
+  "lead": "Saturn's small moon Enceladus, about 500 kilometers across.",
+  "story": "Under its thick, icy shell lies a global ocean.",
+  "claims": [
+   {
+    "text": "about 500 kilometers across (JPL: mean radius 252.1 km)",
+    "source": "https://ssd.jpl.nasa.gov/sats/phys_par/"
+   },
+   {
+    "text": "Enceladus has a global ocean under a thick, icy shell",
+    "source": "https://science.nasa.gov/saturn/moons/"
+   }
+  ]
+ },
+ "Tethys": {
+  "type": "Moons",
+  "aliases": [
+   "Saturn's moon",
+   "moon",
+   "canyon"
+  ],
+  "radius_km": 531.1,
+  "lead": "Saturn's moon Tethys, about 1,060 kilometers across.",
+  "story": "A huge valley called Ithaca Chasma runs across it from pole to pole.",
+  "claims": [
+   {
+    "text": "about 1,060 kilometers across (JPL: mean radius 531.1 km)",
+    "source": "https://ssd.jpl.nasa.gov/sats/phys_par/"
+   },
+   {
+    "text": "a valley called Ithaca Chasma runs pole to pole",
+    "source": "https://science.nasa.gov/saturn/moons/tethys/"
+   }
+  ]
+ },
+ "Dione": {
+  "type": "Moons",
+  "aliases": [
+   "Saturn's moon",
+   "moon",
+   "ice"
+  ],
+  "radius_km": 561.4,
+  "lead": "Saturn's moon Dione, about 1,120 kilometers across.",
+  "story": "Its bright wispy streaks turned out, when Cassini flew past in 2005, to be walls of ice along canyons.",
+  "claims": [
+   {
+    "text": "about 1,120 kilometers across (JPL: mean radius 561.4 km)",
+    "source": "https://ssd.jpl.nasa.gov/sats/phys_par/"
+   },
+   {
+    "text": "Cassini flybys starting in 2005 showed the wisps as bright canyon ice walls",
+    "source": "https://science.nasa.gov/saturn/moons/dione/"
+   }
+  ]
+ },
+ "Iapetus": {
+  "type": "Moons",
+  "aliases": [
+   "Saturn's moon",
+   "moon",
+   "two-tone"
+  ],
+  "radius_km": 734.3,
+  "lead": "Saturn's two-toned moon Iapetus, about 1,470 kilometers across.",
+  "story": "Its leading side is as dark as coal, while its trailing side is much brighter.",
+  "claims": [
+   {
+    "text": "about 1,470 kilometers across (JPL: mean radius 734.3 km)",
+    "source": "https://ssd.jpl.nasa.gov/sats/phys_par/"
+   },
+   {
+    "text": "leading hemisphere as dark as coal; trailing hemisphere much brighter",
+    "source": "https://science.nasa.gov/saturn/moons/iapetus/"
+   }
+  ]
+ },
+ "Triton": {
+  "type": "Moons",
+  "aliases": [
+   "Neptune's moon",
+   "moon",
+   "geysers"
+  ],
+  "radius_km": 1352.6,
+  "lead": "Neptune's moon Triton, about 2,710 kilometers across.",
+  "story": "The only large moon that orbits against its planet's spin, it is one of the coolest objects in the solar system, and Voyager 2 found active geysers there.",
+  "claims": [
+   {
+    "text": "about 2,710 kilometers across (JPL: mean radius 1352.6 km)",
+    "source": "https://ssd.jpl.nasa.gov/sats/phys_par/"
+   },
+   {
+    "text": "only large moon that orbits opposite its planet's rotation; one of the coolest objects; Voyager 2 found active geysers",
+    "source": "https://science.nasa.gov/neptune/moons/triton/"
+   }
+  ]
+ },
+ "Saturn Rings": {
+  "type": "Planets",
+  "aliases": [
+   "Saturn",
+   "rings",
+   "ringed planet"
+  ],
+  "radius_km": 60268,
+  "lead": "Saturn's rings, made of billions of chunks of ice and rock.",
+  "story": "The ring particles range from tiny, dust-sized icy grains to chunks as big as a house.",
+  "claims": [
+   {
+    "text": "rings made of billions of small chunks of ice and rock, dust-sized grains to chunks as big as a house",
+    "source": "https://science.nasa.gov/saturn/facts/"
+   }
+  ]
+ },
+ "Jupiter Rings": {
+  "type": "Planets",
+  "aliases": [
+   "Jupiter",
+   "rings"
+  ],
+  "radius_km": 71492,
+  "lead": "Jupiter's rings, which are hard to see and were a surprise when Voyager 1 found them.",
+  "story": "Voyager 1 discovered Jupiter's rings in 1979.",
+  "claims": [
+   {
+    "text": "Discovered in 1979 by NASA's Voyager 1 spacecraft, Jupiter's rings were a surprise; difficult to see",
+    "source": "https://science.nasa.gov/jupiter/jupiter-facts/"
+   }
+  ]
+ }
+}

@@ -1,0 +1,52 @@
+{
+  "id": "triton-voyager-2-c1129913",
+  "name": "Triton from Voyager 2, August 22, 1989, 03:04 UTC",
+  "blurb": "Neptune's moon Triton, about 2,710 kilometers across. Seen by Voyager 2's narrow-angle camera through orange, green and violet filters: visible light only, 0.40 to 0.62 µm.",
+  "type": "Moons",
+  "aliases": [
+    "Neptune's moon",
+    "moon",
+    "geysers",
+    "Voyager",
+    "Voyager 2"
+  ],
+  "missions": [
+    "Voyager"
+  ],
+  "story": "The whole of Triton, fully lit, from about 4.3 million kilometers away, 3 days before Voyager 2's closest approach to Neptune on August 25, 1989. The only large moon that orbits against its planet's spin, it is one of the coolest objects in the solar system, and Voyager 2 found active geysers there.",
+  "source": {
+    "kind": "voyager",
+    "spacecraft": "Voyager 2",
+    "camera": "NAC",
+    "orange": "vg-iss-2-n-c1129907",
+    "green": "vg-iss-2-n-c1129913",
+    "violet": "vg-iss-2-n-c1129901",
+    "green_volume": "VGISS_8207",
+    "time": "1989-08-22T03:04:39.240"
+  },
+  "facts": {
+    "checked": "2026-11-26",
+    "claims": [
+      {
+        "text": "about 2,710 kilometers across (JPL: mean radius 1352.6 km)",
+        "source": "https://ssd.jpl.nasa.gov/sats/phys_par/"
+      },
+      {
+        "text": "only large moon that orbits opposite its planet's rotation; one of the coolest objects; Voyager 2 found active geysers",
+        "source": "https://science.nasa.gov/neptune/moons/triton/"
+      },
+      {
+        "text": "Voyager 2 closest approach to Neptune: August 25, 1989 03:56 UTC",
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/voyager-periapse.html"
+      },
+      {
+        "text": "4.3 million kilometers from Triton's center when the green frame was taken (OPUS center distance 4,278,974 km)",
+        "source": "https://opus.pds-rings.seti.org/opus/api/metadata/vg-iss-2-n-c1129913.json"
+      },
+      {
+        "text": "phase angle 15 degrees (OPUS center phase angle)",
+        "source": "https://opus.pds-rings.seti.org/opus/api/metadata/vg-iss-2-n-c1129913.json"
+      }
+    ]
+  }
+}

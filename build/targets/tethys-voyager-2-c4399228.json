@@ -1,0 +1,52 @@
+{
+  "id": "tethys-voyager-2-c4399228",
+  "name": "Tethys from Voyager 2, August 25, 1981",
+  "blurb": "Saturn's moon Tethys, about 1,060 kilometers across. Seen by Voyager 2's narrow-angle camera through orange, green and violet filters: visible light only, 0.40 to 0.62 µm.",
+  "type": "Moons",
+  "aliases": [
+    "Saturn's moon",
+    "moon",
+    "canyon",
+    "Voyager",
+    "Voyager 2"
+  ],
+  "missions": [
+    "Voyager"
+  ],
+  "story": "The whole of Tethys, fully lit, from about 590,000 kilometers away, 11 hours before Voyager 2's closest approach to Saturn on August 26, 1981. A huge valley called Ithaca Chasma runs across it from pole to pole.",
+  "source": {
+    "kind": "voyager",
+    "spacecraft": "Voyager 2",
+    "camera": "NAC",
+    "orange": "vg-iss-2-s-c4399224",
+    "green": "vg-iss-2-s-c4399228",
+    "violet": "vg-iss-2-s-c4399220",
+    "green_volume": "VGISS_6213",
+    "time": "1981-08-25T16:52:46.520"
+  },
+  "facts": {
+    "checked": "2026-11-26",
+    "claims": [
+      {
+        "text": "about 1,060 kilometers across (JPL: mean radius 531.1 km)",
+        "source": "https://ssd.jpl.nasa.gov/sats/phys_par/"
+      },
+      {
+        "text": "a valley called Ithaca Chasma runs pole to pole",
+        "source": "https://science.nasa.gov/saturn/moons/tethys/"
+      },
+      {
+        "text": "Voyager 2 closest approach to Saturn: August 26, 1981 03:24 UTC",
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/voyager-periapse.html"
+      },
+      {
+        "text": "590,000 kilometers from Tethys's center when the green frame was taken (OPUS center distance 591,621 km)",
+        "source": "https://opus.pds-rings.seti.org/opus/api/metadata/vg-iss-2-s-c4399228.json"
+      },
+      {
+        "text": "phase angle 16 degrees (OPUS center phase angle)",
+        "source": "https://opus.pds-rings.seti.org/opus/api/metadata/vg-iss-2-s-c4399228.json"
+      }
+    ]
+  }
+}

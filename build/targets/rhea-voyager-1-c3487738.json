@@ -1,0 +1,54 @@
+{
+  "id": "rhea-voyager-1-c3487738",
+  "name": "Rhea from Voyager 1, November 10, 1980",
+  "blurb": "Saturn's moon Rhea, about 1,530 kilometers across. Seen by Voyager 1's narrow-angle camera through orange, green, blue and violet filters: visible light only, 0.40 to 0.62 µm.",
+  "type": "Moons",
+  "aliases": [
+    "Saturn's moon",
+    "moon",
+    "ice",
+    "craters",
+    "Voyager",
+    "Voyager 1"
+  ],
+  "missions": [
+    "Voyager"
+  ],
+  "story": "The whole of Rhea, fully lit, from about 2.7 million kilometers away, 2 days before Voyager 1's closest approach to Saturn on November 12, 1980. Saturn's second largest moon is made largely of water ice and is more heavily cratered than Dione and Tethys.",
+  "source": {
+    "kind": "voyager",
+    "spacecraft": "Voyager 1",
+    "camera": "NAC",
+    "orange": "vg-iss-1-s-c3487734",
+    "green": "vg-iss-1-s-c3487738",
+    "blue": "vg-iss-1-s-c3487730",
+    "violet": "vg-iss-1-s-c3487726",
+    "green_volume": "VGISS_6112",
+    "time": "1980-11-10T18:39:45.040"
+  },
+  "facts": {
+    "checked": "2026-11-26",
+    "claims": [
+      {
+        "text": "about 1,530 kilometers across (JPL: mean radius 763.5 km)",
+        "source": "https://ssd.jpl.nasa.gov/sats/phys_par/"
+      },
+      {
+        "text": "second largest moon of Saturn; surface largely water ice; more heavily cratered than Dione and Tethys",
+        "source": "https://science.nasa.gov/saturn/moons/rhea/"
+      },
+      {
+        "text": "Voyager 1 closest approach to Saturn: November 12, 1980 23:46 UTC",
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/voyager-periapse.html"
+      },
+      {
+        "text": "2.7 million kilometers from Rhea's center when the green frame was taken (OPUS center distance 2,717,736 km)",
+        "source": "https://opus.pds-rings.seti.org/opus/api/metadata/vg-iss-1-s-c3487738.json"
+      },
+      {
+        "text": "phase angle 17 degrees (OPUS center phase angle)",
+        "source": "https://opus.pds-rings.seti.org/opus/api/metadata/vg-iss-1-s-c3487738.json"
+      }
+    ]
+  }
+}

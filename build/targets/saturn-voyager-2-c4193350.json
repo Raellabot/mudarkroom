@@ -1,0 +1,52 @@
+{
+  "id": "saturn-voyager-2-c4193350",
+  "name": "Saturn from Voyager 2, June 18, 1981",
+  "blurb": "The ringed planet, about 120,500 kilometers across at the equator. Seen by Voyager 2's narrow-angle camera through orange, green and violet filters: visible light only, 0.40 to 0.62 µm.",
+  "type": "Planets",
+  "aliases": [
+    "Saturn",
+    "ringed planet",
+    "gas giant",
+    "Voyager",
+    "Voyager 2"
+  ],
+  "missions": [
+    "Voyager"
+  ],
+  "story": "The whole of Saturn, fully lit, from about 65 million kilometers away, 69 days before Voyager 2's closest approach to Saturn on August 26, 1981. Its rings are billions of chunks of ice and rock, from dust-sized grains to pieces as big as a house.",
+  "source": {
+    "kind": "voyager",
+    "spacecraft": "Voyager 2",
+    "camera": "NAC",
+    "orange": "vg-iss-2-s-c4193348",
+    "green": "vg-iss-2-s-c4193350",
+    "violet": "vg-iss-2-s-c4193354",
+    "green_volume": "VGISS_6202",
+    "time": "1981-06-18T01:58:21.080"
+  },
+  "facts": {
+    "checked": "2026-11-26",
+    "claims": [
+      {
+        "text": "about 120,500 kilometers across at the equator (JPL: equatorial radius 60268 km)",
+        "source": "https://ssd.jpl.nasa.gov/planets/phys_par.html"
+      },
+      {
+        "text": "rings made of billions of small chunks of ice and rock, dust-sized grains to chunks as big as a house",
+        "source": "https://science.nasa.gov/saturn/facts/"
+      },
+      {
+        "text": "Voyager 2 closest approach to Saturn: August 26, 1981 03:24 UTC",
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/voyager-periapse.html"
+      },
+      {
+        "text": "65 million kilometers from Saturn's center when the green frame was taken (OPUS center distance 65,246,172 km)",
+        "source": "https://opus.pds-rings.seti.org/opus/api/metadata/vg-iss-2-s-c4193350.json"
+      },
+      {
+        "text": "phase angle 8 degrees (OPUS center phase angle)",
+        "source": "https://opus.pds-rings.seti.org/opus/api/metadata/vg-iss-2-s-c4193350.json"
+      }
+    ]
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "id": "europa-voyager-1-c1634914",
+  "name": "Europa from Voyager 1, March 4, 1979, 03:56 UTC",
+  "blurb": "Jupiter's icy moon Europa, about 3,120 kilometers across. Seen by Voyager 1's narrow-angle camera through orange, green, blue and violet filters: visible light only, 0.40 to 0.62 µm.",
+  "type": "Moons",
+  "aliases": [
+    "Jupiter's moon",
+    "moon",
+    "ice",
+    "ocean",
+    "Voyager",
+    "Voyager 1"
+  ],
+  "missions": [
+    "Voyager"
+  ],
+  "story": "The whole of Europa, fully lit, from about 2.2 million kilometers away, 1 day before Voyager 1's closest approach to Jupiter on March 5, 1979. Its water-ice surface is crisscrossed by dark, reddish-brown cracks, and there is strong evidence for an ocean of salty water beneath the crust.",
+  "source": {
+    "kind": "voyager",
+    "spacecraft": "Voyager 1",
+    "camera": "NAC",
+    "orange": "vg-iss-1-j-c1634924",
+    "green": "vg-iss-1-j-c1634914",
+    "blue": "vg-iss-1-j-c1634922",
+    "violet": "vg-iss-1-j-c1634920",
+    "green_volume": "VGISS_5115",
+    "time": "1979-03-04T03:56:34.520"
+  },
+  "facts": {
+    "checked": "2026-11-26",
+    "claims": [
+      {
+        "text": "about 3,120 kilometers across (JPL: mean radius 1560.8 km)",
+        "source": "https://ssd.jpl.nasa.gov/sats/phys_par/"
+      },
+      {
+        "text": "water-ice surface crisscrossed by dark, reddish-brown cracks; strong evidence for an ocean of liquid salty water beneath its icy crust",
+        "source": "https://science.nasa.gov/jupiter/jupiter-moons/europa/europa-facts/"
+      },
+      {
+        "text": "Voyager 1 closest approach to Jupiter: March 5, 1979 12:05 UTC",
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/voyager-periapse.html"
+      },
+      {
+        "text": "2.2 million kilometers from Europa's center when the green frame was taken (OPUS center distance 2,243,620 km)",
+        "source": "https://opus.pds-rings.seti.org/opus/api/metadata/vg-iss-1-j-c1634914.json"
+      },
+      {
+        "text": "phase angle 24 degrees (OPUS center phase angle)",
+        "source": "https://opus.pds-rings.seti.org/opus/api/metadata/vg-iss-1-j-c1634914.json"
+      }
+    ]
+  }
+}

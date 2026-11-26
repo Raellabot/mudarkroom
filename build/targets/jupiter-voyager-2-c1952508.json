@@ -1,0 +1,43 @@
+{
+  "id": "jupiter-voyager-2-c1952508",
+  "name": "Jupiter from Voyager 2, June 2, 1979",
+  "blurb": "The largest planet, about 143,000 kilometers across at the equator. Seen by Voyager 2's narrow-angle camera through orange, green and violet filters: visible light only, 0.40 to 0.62 µm.",
+  "type": "Planets",
+  "aliases": [
+    "Jupiter",
+    "gas giant",
+    "Voyager",
+    "Voyager 2"
+  ],
+  "missions": [
+    "Voyager"
+  ],
+  "story": "A view of Jupiter, 38 days before Voyager 2's closest approach to Jupiter on July 9, 1979. Its Great Red Spot is a storm bigger than Earth, and a whole day there passes in under ten hours.",
+  "source": {
+    "kind": "voyager",
+    "spacecraft": "Voyager 2",
+    "camera": "NAC",
+    "orange": "vg-iss-2-j-c1952506",
+    "green": "vg-iss-2-j-c1952508",
+    "violet": "vg-iss-2-j-c1952510",
+    "green_volume": "VGISS_5204",
+    "time": "1979-06-02T03:00:48.640"
+  },
+  "facts": {
+    "checked": "2026-11-26",
+    "claims": [
+      {
+        "text": "about 143,000 kilometers across at the equator (JPL: equatorial radius 71492 km)",
+        "source": "https://ssd.jpl.nasa.gov/planets/phys_par.html"
+      },
+      {
+        "text": "largest planet; Great Red Spot is a giant storm bigger than Earth; one day takes 9.9 hours",
+        "source": "https://science.nasa.gov/jupiter/jupiter-facts/"
+      },
+      {
+        "text": "Voyager 2 closest approach to Jupiter: July 9, 1979 22:29 UTC",
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/voyager-periapse.html"
+      }
+    ]
+  }
+}

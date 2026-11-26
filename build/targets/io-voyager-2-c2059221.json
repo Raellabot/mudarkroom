@@ -1,0 +1,57 @@
+{
+  "id": "io-voyager-2-c2059221",
+  "name": "Io from Voyager 2, July 7, 1979",
+  "blurb": "Jupiter's moon Io, the most volcanically active world in the solar system, about 3,640 kilometers across. Seen by Voyager 2's narrow-angle camera through orange, green, blue and violet filters: visible light only, 0.40 to 0.62 µm.",
+  "type": "Moons",
+  "aliases": [
+    "Jupiter's moon",
+    "moon",
+    "volcanoes",
+    "Voyager",
+    "Voyager 2"
+  ],
+  "missions": [
+    "Voyager"
+  ],
+  "story": "The whole of Io, fully lit, from about 3 million kilometers away, 2 days before Voyager 2's closest approach to Jupiter on July 9, 1979. Between them, the two Voyagers watched nine volcanoes erupting on Io.",
+  "source": {
+    "kind": "voyager",
+    "spacecraft": "Voyager 2",
+    "camera": "NAC",
+    "orange": "vg-iss-2-j-c2059219",
+    "green": "vg-iss-2-j-c2059221",
+    "blue": "vg-iss-2-j-c2059217",
+    "violet": "vg-iss-2-j-c2059215",
+    "green_volume": "VGISS_5212",
+    "time": "1979-07-07T16:47:10.640"
+  },
+  "facts": {
+    "checked": "2026-11-26",
+    "claims": [
+      {
+        "text": "about 3,640 kilometers across (JPL: mean radius 1821.49 km)",
+        "source": "https://ssd.jpl.nasa.gov/sats/phys_par/"
+      },
+      {
+        "text": "most volcanically active world in the solar system",
+        "source": "https://science.nasa.gov/jupiter/jupiter-moons/io/facts/"
+      },
+      {
+        "text": "Together, the Voyagers observed the eruption of nine volcanoes on Io",
+        "source": "https://science.nasa.gov/mission/voyager/fact-sheet/"
+      },
+      {
+        "text": "Voyager 2 closest approach to Jupiter: July 9, 1979 22:29 UTC",
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/voyager-periapse.html"
+      },
+      {
+        "text": "3 million kilometers from Io's center when the green frame was taken (OPUS center distance 3,043,849 km)",
+        "source": "https://opus.pds-rings.seti.org/opus/api/metadata/vg-iss-2-j-c2059221.json"
+      },
+      {
+        "text": "phase angle 8 degrees (OPUS center phase angle)",
+        "source": "https://opus.pds-rings.seti.org/opus/api/metadata/vg-iss-2-j-c2059221.json"
+      }
+    ]
+  }
+}

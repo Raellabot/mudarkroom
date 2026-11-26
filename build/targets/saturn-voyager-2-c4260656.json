@@ -1,0 +1,53 @@
+{
+  "id": "saturn-voyager-2-c4260656",
+  "name": "Saturn from Voyager 2, July 10, 1981",
+  "blurb": "The ringed planet, about 120,500 kilometers across at the equator. Seen by Voyager 2's narrow-angle camera through orange, green, blue and violet filters: visible light only, 0.40 to 0.62 µm.",
+  "type": "Planets",
+  "aliases": [
+    "Saturn",
+    "ringed planet",
+    "gas giant",
+    "Voyager",
+    "Voyager 2"
+  ],
+  "missions": [
+    "Voyager"
+  ],
+  "story": "Saturn filling much of the frame, fully lit, from about 44 million kilometers away, 47 days before Voyager 2's closest approach to Saturn on August 26, 1981. Its rings are billions of chunks of ice and rock, from dust-sized grains to pieces as big as a house.",
+  "source": {
+    "kind": "voyager",
+    "spacecraft": "Voyager 2",
+    "camera": "NAC",
+    "orange": "vg-iss-2-s-c4260650",
+    "green": "vg-iss-2-s-c4260656",
+    "blue": "vg-iss-2-s-c4260714",
+    "violet": "vg-iss-2-s-c4260708",
+    "green_volume": "VGISS_6205",
+    "time": "1981-07-10T12:27:09.080"
+  },
+  "facts": {
+    "checked": "2026-11-26",
+    "claims": [
+      {
+        "text": "about 120,500 kilometers across at the equator (JPL: equatorial radius 60268 km)",
+        "source": "https://ssd.jpl.nasa.gov/planets/phys_par.html"
+      },
+      {
+        "text": "rings made of billions of small chunks of ice and rock, dust-sized grains to chunks as big as a house",
+        "source": "https://science.nasa.gov/saturn/facts/"
+      },
+      {
+        "text": "Voyager 2 closest approach to Saturn: August 26, 1981 03:24 UTC",
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/voyager-periapse.html"
+      },
+      {
+        "text": "44 million kilometers from Saturn's center when the green frame was taken (OPUS center distance 44,405,345 km)",
+        "source": "https://opus.pds-rings.seti.org/opus/api/metadata/vg-iss-2-s-c4260656.json"
+      },
+      {
+        "text": "phase angle 7 degrees (OPUS center phase angle)",
+        "source": "https://opus.pds-rings.seti.org/opus/api/metadata/vg-iss-2-s-c4260656.json"
+      }
+    ]
+  }
+}

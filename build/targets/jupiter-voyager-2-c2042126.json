@@ -1,0 +1,51 @@
+{
+  "id": "jupiter-voyager-2-c2042126",
+  "name": "Jupiter from Voyager 2, July 2, 1979",
+  "blurb": "The largest planet, about 143,000 kilometers across at the equator. Seen by Voyager 2's wide-angle camera through orange, green and violet filters: visible light only, 0.40 to 0.62 µm.",
+  "type": "Planets",
+  "aliases": [
+    "Jupiter",
+    "gas giant",
+    "Voyager",
+    "Voyager 2"
+  ],
+  "missions": [
+    "Voyager"
+  ],
+  "story": "The whole of Jupiter, nearly fully lit, from about 7.6 million kilometers away, 8 days before Voyager 2's closest approach to Jupiter on July 9, 1979. Its Great Red Spot is a storm bigger than Earth, and a whole day there passes in under ten hours.",
+  "source": {
+    "kind": "voyager",
+    "spacecraft": "Voyager 2",
+    "camera": "WAC",
+    "orange": "vg-iss-2-j-c2042130",
+    "green": "vg-iss-2-j-c2042126",
+    "violet": "vg-iss-2-j-c2042138",
+    "green_volume": "VGISS_5210",
+    "time": "1979-07-02T00:02:22.960"
+  },
+  "facts": {
+    "checked": "2026-11-26",
+    "claims": [
+      {
+        "text": "about 143,000 kilometers across at the equator (JPL: equatorial radius 71492 km)",
+        "source": "https://ssd.jpl.nasa.gov/planets/phys_par.html"
+      },
+      {
+        "text": "largest planet; Great Red Spot is a giant storm bigger than Earth; one day takes 9.9 hours",
+        "source": "https://science.nasa.gov/jupiter/jupiter-facts/"
+      },
+      {
+        "text": "Voyager 2 closest approach to Jupiter: July 9, 1979 22:29 UTC",
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/voyager-periapse.html"
+      },
+      {
+        "text": "7.6 million kilometers from Jupiter's center when the green frame was taken (OPUS center distance 7,602,855 km)",
+        "source": "https://opus.pds-rings.seti.org/opus/api/metadata/vg-iss-2-j-c2042126.json"
+      },
+      {
+        "text": "phase angle 31 degrees (OPUS center phase angle)",
+        "source": "https://opus.pds-rings.seti.org/opus/api/metadata/vg-iss-2-j-c2042126.json"
+      }
+    ]
+  }
+}

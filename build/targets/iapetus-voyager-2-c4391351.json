@@ -1,0 +1,53 @@
+{
+  "id": "iapetus-voyager-2-c4391351",
+  "name": "Iapetus from Voyager 2, August 23, 1981, 01:59 UTC",
+  "blurb": "Saturn's two-toned moon Iapetus, about 1,470 kilometers across. Seen by Voyager 2's narrow-angle camera through orange, green, blue and violet filters: visible light only, 0.40 to 0.62 µm.",
+  "type": "Moons",
+  "aliases": [
+    "Saturn's moon",
+    "moon",
+    "two-tone",
+    "Voyager",
+    "Voyager 2"
+  ],
+  "missions": [
+    "Voyager"
+  ],
+  "story": "The whole of Iapetus, partly in shadow, from about 910,000 kilometers away, 3 days before Voyager 2's closest approach to Saturn on August 26, 1981. Its leading side is as dark as coal, while its trailing side is much brighter.",
+  "source": {
+    "kind": "voyager",
+    "spacecraft": "Voyager 2",
+    "camera": "NAC",
+    "orange": "vg-iss-2-s-c4391347",
+    "green": "vg-iss-2-s-c4391351",
+    "blue": "vg-iss-2-s-c4391343",
+    "violet": "vg-iss-2-s-c4391339",
+    "green_volume": "VGISS_6213",
+    "time": "1981-08-23T01:59:09.080"
+  },
+  "facts": {
+    "checked": "2026-11-26",
+    "claims": [
+      {
+        "text": "about 1,470 kilometers across (JPL: mean radius 734.3 km)",
+        "source": "https://ssd.jpl.nasa.gov/sats/phys_par/"
+      },
+      {
+        "text": "leading hemisphere as dark as coal; trailing hemisphere much brighter",
+        "source": "https://science.nasa.gov/saturn/moons/iapetus/"
+      },
+      {
+        "text": "Voyager 2 closest approach to Saturn: August 26, 1981 03:24 UTC",
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/voyager-periapse.html"
+      },
+      {
+        "text": "910,000 kilometers from Iapetus's center when the green frame was taken (OPUS center distance 908,747 km)",
+        "source": "https://opus.pds-rings.seti.org/opus/api/metadata/vg-iss-2-s-c4391351.json"
+      },
+      {
+        "text": "phase angle 81 degrees (OPUS center phase angle)",
+        "source": "https://opus.pds-rings.seti.org/opus/api/metadata/vg-iss-2-s-c4391351.json"
+      }
+    ]
+  }
+}

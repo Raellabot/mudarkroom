@@ -1,0 +1,51 @@
+{
+  "id": "jupiter-voyager-1-c1629242",
+  "name": "Jupiter from Voyager 1, March 2, 1979, 06:42 UTC",
+  "blurb": "The largest planet, about 143,000 kilometers across at the equator. Seen by Voyager 1's wide-angle camera through orange, green and violet filters: visible light only, 0.40 to 0.62 µm.",
+  "type": "Planets",
+  "aliases": [
+    "Jupiter",
+    "gas giant",
+    "Voyager",
+    "Voyager 1"
+  ],
+  "missions": [
+    "Voyager"
+  ],
+  "story": "The whole of Jupiter, fully lit, from about 4.3 million kilometers away, 3 days before Voyager 1's closest approach to Jupiter on March 5, 1979. Its Great Red Spot is a storm bigger than Earth, and a whole day there passes in under ten hours.",
+  "source": {
+    "kind": "voyager",
+    "spacecraft": "Voyager 1",
+    "camera": "WAC",
+    "orange": "vg-iss-1-j-c1629246",
+    "green": "vg-iss-1-j-c1629242",
+    "violet": "vg-iss-1-j-c1629250",
+    "green_volume": "VGISS_5114",
+    "time": "1979-03-02T06:42:10.910"
+  },
+  "facts": {
+    "checked": "2026-11-26",
+    "claims": [
+      {
+        "text": "about 143,000 kilometers across at the equator (JPL: equatorial radius 71492 km)",
+        "source": "https://ssd.jpl.nasa.gov/planets/phys_par.html"
+      },
+      {
+        "text": "largest planet; Great Red Spot is a giant storm bigger than Earth; one day takes 9.9 hours",
+        "source": "https://science.nasa.gov/jupiter/jupiter-facts/"
+      },
+      {
+        "text": "Voyager 1 closest approach to Jupiter: March 5, 1979 12:05 UTC",
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/voyager-periapse.html"
+      },
+      {
+        "text": "4.3 million kilometers from Jupiter's center when the green frame was taken (OPUS center distance 4,277,042 km)",
+        "source": "https://opus.pds-rings.seti.org/opus/api/metadata/vg-iss-1-j-c1629242.json"
+      },
+      {
+        "text": "phase angle 17 degrees (OPUS center phase angle)",
+        "source": "https://opus.pds-rings.seti.org/opus/api/metadata/vg-iss-1-j-c1629242.json"
+      }
+    ]
+  }
+}

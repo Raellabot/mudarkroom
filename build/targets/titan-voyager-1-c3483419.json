@@ -1,0 +1,53 @@
+{
+  "id": "titan-voyager-1-c3483419",
+  "name": "Titan from Voyager 1, November 9, 1980, 08:00 UTC",
+  "blurb": "Saturn's moon Titan, about 5,150 kilometers across. Seen by Voyager 1's narrow-angle camera through orange, green, blue and violet filters: visible light only, 0.40 to 0.62 µm.",
+  "type": "Moons",
+  "aliases": [
+    "Saturn's moon",
+    "moon",
+    "haze",
+    "Voyager",
+    "Voyager 1"
+  ],
+  "missions": [
+    "Voyager"
+  ],
+  "story": "The whole of Titan, nearly fully lit, from about 4.7 million kilometers away, 4 days before Voyager 1's closest approach to Saturn on November 12, 1980. The second largest moon in the solar system, it is wrapped in a thick, orange haze that makes its surface hard to see from space.",
+  "source": {
+    "kind": "voyager",
+    "spacecraft": "Voyager 1",
+    "camera": "NAC",
+    "orange": "vg-iss-1-s-c3483415",
+    "green": "vg-iss-1-s-c3483419",
+    "blue": "vg-iss-1-s-c3483411",
+    "violet": "vg-iss-1-s-c3483427",
+    "green_volume": "VGISS_6112",
+    "time": "1980-11-09T08:00:30.160"
+  },
+  "facts": {
+    "checked": "2026-11-26",
+    "claims": [
+      {
+        "text": "about 5,150 kilometers across (JPL: mean radius 2574.76 km)",
+        "source": "https://ssd.jpl.nasa.gov/sats/phys_par/"
+      },
+      {
+        "text": "second largest moon in our solar system; thick, orange-colored haze makes the surface difficult to view from space",
+        "source": "https://science.nasa.gov/saturn/moons/titan/facts/"
+      },
+      {
+        "text": "Voyager 1 closest approach to Saturn: November 12, 1980 23:46 UTC",
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/voyager-periapse.html"
+      },
+      {
+        "text": "4.7 million kilometers from Titan's center when the green frame was taken (OPUS center distance 4,738,944 km)",
+        "source": "https://opus.pds-rings.seti.org/opus/api/metadata/vg-iss-1-s-c3483419.json"
+      },
+      {
+        "text": "phase angle 27 degrees (OPUS center phase angle)",
+        "source": "https://opus.pds-rings.seti.org/opus/api/metadata/vg-iss-1-s-c3483419.json"
+      }
+    ]
+  }
+}

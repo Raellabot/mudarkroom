@@ -1,0 +1,52 @@
+{
+  "id": "ganymede-voyager-2-c2063916",
+  "name": "Ganymede from Voyager 2, July 9, 1979, 06:19 UTC",
+  "blurb": "Jupiter's moon Ganymede, the largest moon in the solar system, about 5,260 kilometers across. Seen by Voyager 2's wide-angle camera through orange, green and violet filters: visible light only, 0.40 to 0.62 µm.",
+  "type": "Moons",
+  "aliases": [
+    "Jupiter's moon",
+    "moon",
+    "largest moon",
+    "Voyager",
+    "Voyager 2"
+  ],
+  "missions": [
+    "Voyager"
+  ],
+  "story": "A close view of part of Ganymede, partly in shadow, from about 73,000 kilometers from Ganymede's center, 16 hours before Voyager 2's closest approach to Jupiter on July 9, 1979. It is bigger than the planet Mercury and the dwarf planet Pluto.",
+  "source": {
+    "kind": "voyager",
+    "spacecraft": "Voyager 2",
+    "camera": "WAC",
+    "orange": "vg-iss-2-j-c2063918",
+    "green": "vg-iss-2-j-c2063916",
+    "violet": "vg-iss-2-j-c2063914",
+    "green_volume": "VGISS_5213",
+    "time": "1979-07-09T06:19:10.910"
+  },
+  "facts": {
+    "checked": "2026-11-26",
+    "claims": [
+      {
+        "text": "about 5,260 kilometers across (JPL: mean radius 2631.2 km)",
+        "source": "https://ssd.jpl.nasa.gov/sats/phys_par/"
+      },
+      {
+        "text": "largest moon in our solar system, bigger than the planet Mercury and dwarf planet Pluto",
+        "source": "https://science.nasa.gov/jupiter/jupiter-moons/ganymede/facts/"
+      },
+      {
+        "text": "Voyager 2 closest approach to Jupiter: July 9, 1979 22:29 UTC",
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/voyager-periapse.html"
+      },
+      {
+        "text": "73,000 kilometers from Ganymede's center when the green frame was taken (OPUS center distance 72,738 km)",
+        "source": "https://opus.pds-rings.seti.org/opus/api/metadata/vg-iss-2-j-c2063916.json"
+      },
+      {
+        "text": "phase angle 66 degrees (OPUS center phase angle)",
+        "source": "https://opus.pds-rings.seti.org/opus/api/metadata/vg-iss-2-j-c2063916.json"
+      }
+    ]
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "id": "europa-voyager-1-c1630005",
+  "name": "Europa from Voyager 1, March 2, 1979, 12:37 UTC",
+  "blurb": "Jupiter's icy moon Europa, about 3,120 kilometers across. Seen by Voyager 1's narrow-angle camera through orange, green, blue and violet filters: visible light only, 0.40 to 0.62 µm.",
+  "type": "Moons",
+  "aliases": [
+    "Jupiter's moon",
+    "moon",
+    "ice",
+    "ocean",
+    "Voyager",
+    "Voyager 1"
+  ],
+  "missions": [
+    "Voyager"
+  ],
+  "story": "A view of Europa, 3 days before Voyager 1's closest approach to Jupiter on March 5, 1979. Its water-ice surface is crisscrossed by dark, reddish-brown cracks, and there is strong evidence for an ocean of salty water beneath the crust.",
+  "source": {
+    "kind": "voyager",
+    "spacecraft": "Voyager 1",
+    "camera": "NAC",
+    "orange": "vg-iss-1-j-c1630003",
+    "green": "vg-iss-1-j-c1630005",
+    "blue": "vg-iss-1-j-c1630001",
+    "violet": "vg-iss-1-j-c1629959",
+    "green_volume": "VGISS_5115",
+    "time": "1979-03-02T12:37:22.280"
+  },
+  "facts": {
+    "checked": "2026-11-26",
+    "claims": [
+      {
+        "text": "about 3,120 kilometers across (JPL: mean radius 1560.8 km)",
+        "source": "https://ssd.jpl.nasa.gov/sats/phys_par/"
+      },
+      {
+        "text": "water-ice surface crisscrossed by dark, reddish-brown cracks; strong evidence for an ocean of liquid salty water beneath its icy crust",
+        "source": "https://science.nasa.gov/jupiter/jupiter-moons/europa/europa-facts/"
+      },
+      {
+        "text": "Voyager 1 closest approach to Jupiter: March 5, 1979 12:05 UTC",
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/voyager-periapse.html"
+      }
+    ]
+  }
+}

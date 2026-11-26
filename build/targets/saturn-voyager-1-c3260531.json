@@ -1,0 +1,53 @@
+{
+  "id": "saturn-voyager-1-c3260531",
+  "name": "Saturn from Voyager 1, August 27, 1980",
+  "blurb": "The ringed planet, about 120,500 kilometers across at the equator. Seen by Voyager 1's narrow-angle camera through orange, green, blue and violet filters: visible light only, 0.40 to 0.62 µm.",
+  "type": "Planets",
+  "aliases": [
+    "Saturn",
+    "ringed planet",
+    "gas giant",
+    "Voyager",
+    "Voyager 1"
+  ],
+  "missions": [
+    "Voyager"
+  ],
+  "story": "The whole of Saturn, fully lit, from about 103 million kilometers away, 78 days before Voyager 1's closest approach to Saturn on November 12, 1980. Its rings are billions of chunks of ice and rock, from dust-sized grains to pieces as big as a house.",
+  "source": {
+    "kind": "voyager",
+    "spacecraft": "Voyager 1",
+    "camera": "NAC",
+    "orange": "vg-iss-1-s-c3260529",
+    "green": "vg-iss-1-s-c3260531",
+    "blue": "vg-iss-1-s-c3260527",
+    "violet": "vg-iss-1-s-c3260535",
+    "green_volume": "VGISS_6101",
+    "time": "1980-08-27T00:58:08.080"
+  },
+  "facts": {
+    "checked": "2026-11-26",
+    "claims": [
+      {
+        "text": "about 120,500 kilometers across at the equator (JPL: equatorial radius 60268 km)",
+        "source": "https://ssd.jpl.nasa.gov/planets/phys_par.html"
+      },
+      {
+        "text": "rings made of billions of small chunks of ice and rock, dust-sized grains to chunks as big as a house",
+        "source": "https://science.nasa.gov/saturn/facts/"
+      },
+      {
+        "text": "Voyager 1 closest approach to Saturn: November 12, 1980 23:46 UTC",
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/voyager-periapse.html"
+      },
+      {
+        "text": "103 million kilometers from Saturn's center when the green frame was taken (OPUS center distance 103,100,000 km)",
+        "source": "https://opus.pds-rings.seti.org/opus/api/metadata/vg-iss-1-s-c3260531.json"
+      },
+      {
+        "text": "phase angle 15 degrees (OPUS center phase angle)",
+        "source": "https://opus.pds-rings.seti.org/opus/api/metadata/vg-iss-1-s-c3260531.json"
+      }
+    ]
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "id": "ganymede-voyager-1-c1640357",
+  "name": "Ganymede from Voyager 1, March 5, 1979, 23:42 UTC",
+  "blurb": "Jupiter's moon Ganymede, the largest moon in the solar system, about 5,260 kilometers across. Seen by Voyager 1's wide-angle camera through orange, green, blue and violet filters: visible light only, 0.40 to 0.62 µm.",
+  "type": "Moons",
+  "aliases": [
+    "Jupiter's moon",
+    "moon",
+    "largest moon",
+    "Voyager",
+    "Voyager 1"
+  ],
+  "missions": [
+    "Voyager"
+  ],
+  "story": "The whole of Ganymede, partly in shadow, from about 200,000 kilometers away, 12 hours after Voyager 1's closest approach to Jupiter on March 5, 1979. It is bigger than the planet Mercury and the dwarf planet Pluto.",
+  "source": {
+    "kind": "voyager",
+    "spacecraft": "Voyager 1",
+    "camera": "WAC",
+    "orange": "vg-iss-1-j-c1640359",
+    "green": "vg-iss-1-j-c1640357",
+    "blue": "vg-iss-1-j-c1640351",
+    "violet": "vg-iss-1-j-c1640355",
+    "green_volume": "VGISS_5117",
+    "time": "1979-03-05T23:42:59.760"
+  },
+  "facts": {
+    "checked": "2026-11-26",
+    "claims": [
+      {
+        "text": "about 5,260 kilometers across (JPL: mean radius 2631.2 km)",
+        "source": "https://ssd.jpl.nasa.gov/sats/phys_par/"
+      },
+      {
+        "text": "largest moon in our solar system, bigger than the planet Mercury and dwarf planet Pluto",
+        "source": "https://science.nasa.gov/jupiter/jupiter-moons/ganymede/facts/"
+      },
+      {
+        "text": "Voyager 1 closest approach to Jupiter: March 5, 1979 12:05 UTC",
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/voyager-periapse.html"
+      },
+      {
+        "text": "200,000 kilometers from Ganymede's center when the green frame was taken (OPUS center distance 196,583 km)",
+        "source": "https://opus.pds-rings.seti.org/opus/api/metadata/vg-iss-1-j-c1640357.json"
+      },
+      {
+        "text": "phase angle 59 degrees (OPUS center phase angle)",
+        "source": "https://opus.pds-rings.seti.org/opus/api/metadata/vg-iss-1-j-c1640357.json"
+      }
+    ]
+  }
+}

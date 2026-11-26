@@ -1,0 +1,55 @@
+{
+  "id": "uranus-voyager-2-c2577616",
+  "name": "Uranus from Voyager 2, December 20, 1985",
+  "blurb": "A planet that spins tipped on its side, about 51,100 kilometers across at the equator. Seen by Voyager 2's narrow-angle camera through orange, green and blue filters: visible light only, 0.48 to 0.62 µm.",
+  "type": "Planets",
+  "aliases": [
+    "Uranus",
+    "tilted planet",
+    "Voyager",
+    "Voyager 2"
+  ],
+  "missions": [
+    "Voyager"
+  ],
+  "story": "The whole of Uranus, fully lit, from about 46 million kilometers away, 36 days before Voyager 2's closest approach to Uranus on January 24, 1986. Voyager 2's visit in January 1986 is still the only one any spacecraft has made to Uranus.",
+  "source": {
+    "kind": "voyager",
+    "spacecraft": "Voyager 2",
+    "camera": "NAC",
+    "orange": "vg-iss-2-u-c2577604",
+    "green": "vg-iss-2-u-c2577616",
+    "blue": "vg-iss-2-u-c2577558",
+    "green_volume": "VGISS_7202",
+    "time": "1985-12-20T00:43:05.320"
+  },
+  "facts": {
+    "checked": "2026-11-26",
+    "claims": [
+      {
+        "text": "about 51,100 kilometers across at the equator (JPL: equatorial radius 25559 km)",
+        "source": "https://ssd.jpl.nasa.gov/planets/phys_par.html"
+      },
+      {
+        "text": "rotates at a nearly 90-degree angle from the plane of its orbit",
+        "source": "https://science.nasa.gov/uranus/"
+      },
+      {
+        "text": "Jan. 24, 1986: Voyager 2 made the first and so far only visit to Uranus",
+        "source": "https://science.nasa.gov/uranus/exploration/"
+      },
+      {
+        "text": "Voyager 2 closest approach to Uranus: January 24, 1986 17:59 UTC",
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/voyager-periapse.html"
+      },
+      {
+        "text": "46 million kilometers from Uranus's center when the green frame was taken (OPUS center distance 45,613,685 km)",
+        "source": "https://opus.pds-rings.seti.org/opus/api/metadata/vg-iss-2-u-c2577616.json"
+      },
+      {
+        "text": "phase angle 14 degrees (OPUS center phase angle)",
+        "source": "https://opus.pds-rings.seti.org/opus/api/metadata/vg-iss-2-u-c2577616.json"
+      }
+    ]
+  }
+}

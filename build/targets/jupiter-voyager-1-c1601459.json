@@ -1,0 +1,51 @@
+{
+  "id": "jupiter-voyager-1-c1601459",
+  "name": "Jupiter from Voyager 1, February 21, 1979",
+  "blurb": "The largest planet, about 143,000 kilometers across at the equator. Seen by Voyager 1's narrow-angle camera through orange, green and violet filters: visible light only, 0.40 to 0.62 µm.",
+  "type": "Planets",
+  "aliases": [
+    "Jupiter",
+    "gas giant",
+    "Voyager",
+    "Voyager 1"
+  ],
+  "missions": [
+    "Voyager"
+  ],
+  "story": "A close view of part of Jupiter, fully lit, from about 14 million kilometers away, 12 days before Voyager 1's closest approach to Jupiter on March 5, 1979. Its Great Red Spot is a storm bigger than Earth, and a whole day there passes in under ten hours.",
+  "source": {
+    "kind": "voyager",
+    "spacecraft": "Voyager 1",
+    "camera": "NAC",
+    "orange": "vg-iss-1-j-c1601457",
+    "green": "vg-iss-1-j-c1601459",
+    "violet": "vg-iss-1-j-c1601501",
+    "green_volume": "VGISS_5111",
+    "time": "1979-02-21T00:32:34.280"
+  },
+  "facts": {
+    "checked": "2026-11-26",
+    "claims": [
+      {
+        "text": "about 143,000 kilometers across at the equator (JPL: equatorial radius 71492 km)",
+        "source": "https://ssd.jpl.nasa.gov/planets/phys_par.html"
+      },
+      {
+        "text": "largest planet; Great Red Spot is a giant storm bigger than Earth; one day takes 9.9 hours",
+        "source": "https://science.nasa.gov/jupiter/jupiter-facts/"
+      },
+      {
+        "text": "Voyager 1 closest approach to Jupiter: March 5, 1979 12:05 UTC",
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/voyager-periapse.html"
+      },
+      {
+        "text": "14 million kilometers from Jupiter's center when the green frame was taken (OPUS center distance 13,898,108 km)",
+        "source": "https://opus.pds-rings.seti.org/opus/api/metadata/vg-iss-1-j-c1601459.json"
+      },
+      {
+        "text": "phase angle 24 degrees (OPUS center phase angle)",
+        "source": "https://opus.pds-rings.seti.org/opus/api/metadata/vg-iss-1-j-c1601459.json"
+      }
+    ]
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "id": "neptune-voyager-2-c1069545",
+  "name": "Neptune from Voyager 2, August 2, 1989",
+  "blurb": "The windiest planet in the solar system, about 49,500 kilometers across at the equator. Seen by Voyager 2's narrow-angle camera through orange, green, blue and violet filters: visible light only, 0.40 to 0.62 µm.",
+  "type": "Planets",
+  "aliases": [
+    "Neptune",
+    "blue planet",
+    "Voyager",
+    "Voyager 2"
+  ],
+  "missions": [
+    "Voyager"
+  ],
+  "story": "The whole of Neptune, fully lit, from about 34 million kilometers away, 23 days before Voyager 2's closest approach to Neptune on August 25, 1989. Voyager 2 was the first spacecraft to fly by Neptune, in 1989, when a huge storm called the Great Dark Spot swirled in its southern hemisphere; that storm has since disappeared.",
+  "source": {
+    "kind": "voyager",
+    "spacecraft": "Voyager 2",
+    "camera": "NAC",
+    "orange": "vg-iss-2-n-c1069552",
+    "green": "vg-iss-2-n-c1069545",
+    "blue": "vg-iss-2-n-c1069539",
+    "violet": "vg-iss-2-n-c1069533",
+    "green_volume": "VGISS_8204",
+    "time": "1989-08-02T00:18:07.640"
+  },
+  "facts": {
+    "checked": "2026-11-26",
+    "claims": [
+      {
+        "text": "about 49,500 kilometers across at the equator (JPL: equatorial radius 24764 km)",
+        "source": "https://ssd.jpl.nasa.gov/planets/phys_par.html"
+      },
+      {
+        "text": "windiest world; Voyager 2 first spacecraft to fly by in 1989; Great Dark Spot in 1989, since disappeared",
+        "source": "https://science.nasa.gov/neptune/neptune-facts/"
+      },
+      {
+        "text": "Voyager 2 closest approach to Neptune: August 25, 1989 03:56 UTC",
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/voyager-periapse.html"
+      },
+      {
+        "text": "34 million kilometers from Neptune's center when the green frame was taken (OPUS center distance 33,638,345 km)",
+        "source": "https://opus.pds-rings.seti.org/opus/api/metadata/vg-iss-2-n-c1069545.json"
+      },
+      {
+        "text": "phase angle 15 degrees (OPUS center phase angle)",
+        "source": "https://opus.pds-rings.seti.org/opus/api/metadata/vg-iss-2-n-c1069545.json"
+      }
+    ]
+  }
+}

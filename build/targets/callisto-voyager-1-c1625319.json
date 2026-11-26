@@ -1,0 +1,45 @@
+{
+  "id": "callisto-voyager-1-c1625319",
+  "name": "Callisto from Voyager 1, February 28, 1979",
+  "blurb": "Jupiter's moon Callisto, about 4,820 kilometers across. Seen by Voyager 1's narrow-angle camera through orange, green, blue and violet filters: visible light only, 0.40 to 0.62 µm.",
+  "type": "Moons",
+  "aliases": [
+    "Jupiter's moon",
+    "moon",
+    "craters",
+    "Voyager",
+    "Voyager 1"
+  ],
+  "missions": [
+    "Voyager"
+  ],
+  "story": "A view of Callisto, 5 days before Voyager 1's closest approach to Jupiter on March 5, 1979. Its rocky, icy surface is the oldest and most heavily cratered in the solar system.",
+  "source": {
+    "kind": "voyager",
+    "spacecraft": "Voyager 1",
+    "camera": "NAC",
+    "orange": "vg-iss-1-j-c1625317",
+    "green": "vg-iss-1-j-c1625319",
+    "blue": "vg-iss-1-j-c1625315",
+    "violet": "vg-iss-1-j-c1625313",
+    "green_volume": "VGISS_5114",
+    "time": "1979-02-28T23:12:32.120"
+  },
+  "facts": {
+    "checked": "2026-11-26",
+    "claims": [
+      {
+        "text": "about 4,820 kilometers across (JPL: mean radius 2410.3 km)",
+        "source": "https://ssd.jpl.nasa.gov/sats/phys_par/"
+      },
+      {
+        "text": "rocky, icy surface is the oldest and most heavily cratered in our solar system",
+        "source": "https://science.nasa.gov/jupiter/jupiter-moons/callisto/facts/"
+      },
+      {
+        "text": "Voyager 1 closest approach to Jupiter: March 5, 1979 12:05 UTC",
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/voyager-periapse.html"
+      }
+    ]
+  }
+}

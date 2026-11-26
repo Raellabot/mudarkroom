@@ -1,0 +1,45 @@
+{
+  "id": "saturn-rings-voyager-2-c4389514",
+  "name": "Saturn's Rings from Voyager 2, August 22, 1981, 11:05 UTC",
+  "blurb": "Saturn's rings, made of billions of chunks of ice and rock. Seen by Voyager 2's wide-angle camera through orange, green, blue and violet filters: visible light only, 0.40 to 0.62 µm.",
+  "type": "Planets",
+  "aliases": [
+    "Saturn",
+    "rings",
+    "ringed planet",
+    "Voyager",
+    "Voyager 2"
+  ],
+  "missions": [
+    "Voyager"
+  ],
+  "story": "Saturn's Rings in sunlight, 4 days before Voyager 2's closest approach to Saturn on August 26, 1981. The ring particles range from tiny, dust-sized icy grains to chunks as big as a house.",
+  "source": {
+    "kind": "voyager",
+    "spacecraft": "Voyager 2",
+    "camera": "WAC",
+    "orange": "vg-iss-2-s-c4389508",
+    "green": "vg-iss-2-s-c4389514",
+    "blue": "vg-iss-2-s-c4389502",
+    "violet": "vg-iss-2-s-c4389520",
+    "green_volume": "VGISS_6212",
+    "time": "1981-08-22T11:05:34.640"
+  },
+  "facts": {
+    "checked": "2026-11-26",
+    "claims": [
+      {
+        "text": "rings made of billions of small chunks of ice and rock, dust-sized grains to chunks as big as a house",
+        "source": "https://science.nasa.gov/saturn/facts/"
+      },
+      {
+        "text": "Voyager 2 closest approach to Saturn: August 26, 1981 03:24 UTC",
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/voyager-periapse.html"
+      },
+      {
+        "text": "phase angle 10 degrees (OPUS center phase angle)",
+        "source": "https://opus.pds-rings.seti.org/opus/api/metadata/vg-iss-2-s-c4389514.json"
+      }
+    ]
+  }
+}

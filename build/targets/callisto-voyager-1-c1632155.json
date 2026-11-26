@@ -1,0 +1,53 @@
+{
+  "id": "callisto-voyager-1-c1632155",
+  "name": "Callisto from Voyager 1, March 3, 1979, 06:05 UTC",
+  "blurb": "Jupiter's moon Callisto, about 4,820 kilometers across. Seen by Voyager 1's narrow-angle camera through orange, green, blue and violet filters: visible light only, 0.40 to 0.62 µm.",
+  "type": "Moons",
+  "aliases": [
+    "Jupiter's moon",
+    "moon",
+    "craters",
+    "Voyager",
+    "Voyager 1"
+  ],
+  "missions": [
+    "Voyager"
+  ],
+  "story": "The whole of Callisto, fully lit, from about 5 million kilometers away, 2 days before Voyager 1's closest approach to Jupiter on March 5, 1979. Its rocky, icy surface is the oldest and most heavily cratered in the solar system.",
+  "source": {
+    "kind": "voyager",
+    "spacecraft": "Voyager 1",
+    "camera": "NAC",
+    "orange": "vg-iss-1-j-c1632205",
+    "green": "vg-iss-1-j-c1632155",
+    "blue": "vg-iss-1-j-c1632203",
+    "violet": "vg-iss-1-j-c1632201",
+    "green_volume": "VGISS_5115",
+    "time": "1979-03-03T06:05:21.080"
+  },
+  "facts": {
+    "checked": "2026-11-26",
+    "claims": [
+      {
+        "text": "about 4,820 kilometers across (JPL: mean radius 2410.3 km)",
+        "source": "https://ssd.jpl.nasa.gov/sats/phys_par/"
+      },
+      {
+        "text": "rocky, icy surface is the oldest and most heavily cratered in our solar system",
+        "source": "https://science.nasa.gov/jupiter/jupiter-moons/callisto/facts/"
+      },
+      {
+        "text": "Voyager 1 closest approach to Jupiter: March 5, 1979 12:05 UTC",
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/voyager-periapse.html"
+      },
+      {
+        "text": "5 million kilometers from Callisto's center when the green frame was taken (OPUS center distance 5,014,369 km)",
+        "source": "https://opus.pds-rings.seti.org/opus/api/metadata/vg-iss-1-j-c1632155.json"
+      },
+      {
+        "text": "phase angle 19 degrees (OPUS center phase angle)",
+        "source": "https://opus.pds-rings.seti.org/opus/api/metadata/vg-iss-1-j-c1632155.json"
+      }
+    ]
+  }
+}

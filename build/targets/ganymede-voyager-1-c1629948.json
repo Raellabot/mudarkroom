@@ -1,0 +1,45 @@
+{
+  "id": "ganymede-voyager-1-c1629948",
+  "name": "Ganymede from Voyager 1, March 2, 1979, 12:23 UTC",
+  "blurb": "Jupiter's moon Ganymede, the largest moon in the solar system, about 5,260 kilometers across. Seen by Voyager 1's narrow-angle camera through orange, green, blue and violet filters: visible light only, 0.40 to 0.62 µm.",
+  "type": "Moons",
+  "aliases": [
+    "Jupiter's moon",
+    "moon",
+    "largest moon",
+    "Voyager",
+    "Voyager 1"
+  ],
+  "missions": [
+    "Voyager"
+  ],
+  "story": "A view of Ganymede, 3 days before Voyager 1's closest approach to Jupiter on March 5, 1979. It is bigger than the planet Mercury and the dwarf planet Pluto.",
+  "source": {
+    "kind": "voyager",
+    "spacecraft": "Voyager 1",
+    "camera": "NAC",
+    "orange": "vg-iss-1-j-c1629946",
+    "green": "vg-iss-1-j-c1629948",
+    "blue": "vg-iss-1-j-c1629944",
+    "violet": "vg-iss-1-j-c1629942",
+    "green_volume": "VGISS_5114",
+    "time": "1979-03-02T12:23:46.040"
+  },
+  "facts": {
+    "checked": "2026-11-26",
+    "claims": [
+      {
+        "text": "about 5,260 kilometers across (JPL: mean radius 2631.2 km)",
+        "source": "https://ssd.jpl.nasa.gov/sats/phys_par/"
+      },
+      {
+        "text": "largest moon in our solar system, bigger than the planet Mercury and dwarf planet Pluto",
+        "source": "https://science.nasa.gov/jupiter/jupiter-moons/ganymede/facts/"
+      },
+      {
+        "text": "Voyager 1 closest approach to Jupiter: March 5, 1979 12:05 UTC",
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/voyager-periapse.html"
+      }
+    ]
+  }
+}

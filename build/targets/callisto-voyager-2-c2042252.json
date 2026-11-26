@@ -1,0 +1,53 @@
+{
+  "id": "callisto-voyager-2-c2042252",
+  "name": "Callisto from Voyager 2, July 2, 1979",
+  "blurb": "Jupiter's moon Callisto, about 4,820 kilometers across. Seen by Voyager 2's narrow-angle camera through orange, green, blue and violet filters: visible light only, 0.40 to 0.62 µm.",
+  "type": "Moons",
+  "aliases": [
+    "Jupiter's moon",
+    "moon",
+    "craters",
+    "Voyager",
+    "Voyager 2"
+  ],
+  "missions": [
+    "Voyager"
+  ],
+  "story": "The whole of Callisto, fully lit, from about 8.2 million kilometers away, 8 days before Voyager 2's closest approach to Jupiter on July 9, 1979. Its rocky, icy surface is the oldest and most heavily cratered in the solar system.",
+  "source": {
+    "kind": "voyager",
+    "spacecraft": "Voyager 2",
+    "camera": "NAC",
+    "orange": "vg-iss-2-j-c2042250",
+    "green": "vg-iss-2-j-c2042252",
+    "blue": "vg-iss-2-j-c2042248",
+    "violet": "vg-iss-2-j-c2042246",
+    "green_volume": "VGISS_5210",
+    "time": "1979-07-02T01:11:57.560"
+  },
+  "facts": {
+    "checked": "2026-11-26",
+    "claims": [
+      {
+        "text": "about 4,820 kilometers across (JPL: mean radius 2410.3 km)",
+        "source": "https://ssd.jpl.nasa.gov/sats/phys_par/"
+      },
+      {
+        "text": "rocky, icy surface is the oldest and most heavily cratered in our solar system",
+        "source": "https://science.nasa.gov/jupiter/jupiter-moons/callisto/facts/"
+      },
+      {
+        "text": "Voyager 2 closest approach to Jupiter: July 9, 1979 22:29 UTC",
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/voyager-periapse.html"
+      },
+      {
+        "text": "8.2 million kilometers from Callisto's center when the green frame was taken (OPUS center distance 8,164,709 km)",
+        "source": "https://opus.pds-rings.seti.org/opus/api/metadata/vg-iss-2-j-c2042252.json"
+      },
+      {
+        "text": "phase angle 18 degrees (OPUS center phase angle)",
+        "source": "https://opus.pds-rings.seti.org/opus/api/metadata/vg-iss-2-j-c2042252.json"
+      }
+    ]
+  }
+}
