@@ -8,6 +8,7 @@ HOLD = "https://pds-rings.seti.org/holdings/volumes/"
 UA = "cosmic-darkroom (github.com/Raellabot/cosmic-darkroom)"
 EDGE = 12
 FILTERS = ("orange", "green", "blue", "violet")
+MAX_GAP = 4  # dropped lines up to this many rows are filled from their neighbors
 
 
 def get(url, tries=4):
@@ -147,6 +148,52 @@ def align(ref, mov, rbad, mbad):
 
 
 # Aligned linear I/F channels for one set: src has the opus ids of the frames ("orange", "green", "blue", "violet"; blue or violet may be missing) and "green_volume" (like VGISS_5114).
+# Fills missing pixels: dropped lines up to MAX_GAP rows from the rows around them, other gaps from their neighbors; then replaces single-pixel spikes (bit errors) with the local median.
+def clean(x, bad):
+    x = x.copy()
+    rows = np.where(bad.mean(1) > 0.5)[0]
+    for r in np.split(rows, np.where(np.diff(rows) > 1)[0] + 1) if len(rows) else []:
+        if len(r) <= MAX_GAP and r[0] > 0 and r[-1] < x.shape[0] - 1:
+            a, b = x[r[0] - 1], x[r[-1] + 1]
+            for i, y in enumerate(r):
+                t = (i + 1) / (len(r) + 1)
+                x[y] = a * (1 - t) + b * t
+            bad = bad.copy()
+            bad[r] = False
+    if bad.any():
+        w = (~bad).astype(np.float32)
+        fill = ndimage.uniform_filter(x * w, 5) / np.maximum(ndimage.uniform_filter(w, 5), 1e-3)
+        x[bad] = fill[bad]
+    med = ndimage.median_filter(x, 3)
+    noise = 1.4826 * np.median(np.abs(x - med)) + 1e-6
+    spike = (x - med) > np.maximum(8 * noise, 0.03 * np.percentile(med, 99.5))
+    x[spike] = med[spike]
+    return x
+
+
+# Sub-pixel part of a shift: a parabola through the edge-match score around the integer best.
+def subpix(ga, gb, dy, dx):
+    def frac(m, c, p):
+        d = m - 2 * c + p
+        return 0.0 if d >= 0 else float(np.clip(0.5 * (m - p) / d, -0.5, 0.5))
+    c = score(ga, gb, dy, dx)
+    return frac(score(ga, gb, dy - 1, dx), c, score(ga, gb, dy + 1, dx)), frac(score(ga, gb, dy, dx - 1), c, score(ga, gb, dy, dx + 1))
+
+
+# Takes off the dark sky: a plane fitted to each channel away from the lit body, so a gradient left by the camera doesn't tint the black.
+def sky(x, body):
+    away = ~ndimage.binary_dilation(body, iterations=15)
+    if away.sum() < 2000:
+        return x
+    ys, xs = np.nonzero(away)
+    v = x[ys, xs]
+    keep = v < np.percentile(v, 90)
+    A = np.stack([np.ones(keep.sum()), ys[keep], xs[keep]], 1)
+    c, *_ = np.linalg.lstsq(A, v[keep], rcond=None)
+    yy, xx = np.mgrid[:x.shape[0], :x.shape[1]]
+    return x - (c[0] + c[1] * yy + c[2] * xx)
+
+
 def layers(src):
     have = [f for f in FILTERS if src.get(f)]
     assert "green" in have and "orange" in have and ("blue" in have or "violet" in have), have
@@ -155,14 +202,17 @@ def layers(src):
         u, b = geomed_url(src[f], src["green_volume"])
         frames[f], urls[f] = to_if(parse_vicar(b)[1]), u
     g, gbad = frames["green"]
-    chans, info = {"green": g}, {"urls": urls, "align": {}}
+    chans, info = {"green": clean(g, gbad)}, {"urls": urls, "align": {}}
+    ga = edges(g, gbad)
     for f in have:
         if f == "green":
             continue
         x, bad = frames[f]
         (dy, dx), how, corr, cands, whole = align(g, x, gbad, bad)
-        chans[f] = np.roll(x, (dy, dx), axis=(0, 1))
-        info["align"][f] = dict(shift=[dy, dx], how=how, corr=corr)
-    m = max(max(abs(v["shift"][0]), abs(v["shift"][1])) for v in info["align"].values()) + 1
+        fy, fx = subpix(ga, edges(x, bad), dy, dx)
+        chans[f] = ndimage.shift(clean(x, bad), (dy + fy, dx + fx), order=1, mode="constant")
+        info["align"][f] = dict(shift=[round(dy + fy, 2), round(dx + fx, 2)], how=how, corr=corr)
+    m = int(max(max(abs(v["shift"][0]), abs(v["shift"][1])) for v in info["align"].values())) + 2
     sl = (slice(m, g.shape[0] - m), slice(m, g.shape[1] - m))
-    return {f: chans[f][sl] for f in have}, info
+    body, _ = lit_mask(chans["green"][sl])
+    return {f: sky(chans[f][sl], body) for f in have}, info
