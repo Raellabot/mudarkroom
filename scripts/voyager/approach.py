@@ -13,6 +13,9 @@ CANVAS = 1080
 SPIN_DIAMETER = 860
 ROTATION = timedelta(hours=9, minutes=55, seconds=29.7)
 FPS = 12
+MAX_GAP = 4         # dropped lines up to this many rows are filled from their neighbors
+MAX_LOST = 0.003    # a set missing more of the disk than this in any channel is left out
+MAX_TINT = 0.2      # a set whose orange or blue level is this far from the run's median is left out (a blank or wrong frame)
 
 
 def font(size):
@@ -33,15 +36,20 @@ def prepare(args):
             _, b = geomed_url(row[f], gvol)
             frames[f] = to_if(parse_vicar(b)[1])
         g, gbad = frames["green"]
-        chans = {"green": g}
+        chans, bads = {"green": g}, {"green": gbad}
         shifts = {}
         for f in ("orange", "blue"):
             x, bad = frames[f]
             (dy, dx), how, corr, _, _ = align(g, x, gbad, bad)
             chans[f] = np.roll(x, (dy, dx), axis=(0, 1))
+            bads[f] = np.roll(bad, (dy, dx), axis=(0, 1))
             shifts[f] = [dy, dx, how, corr]
-        rgb = np.stack([chans["orange"], chans["green"], chans["blue"]], -1).astype(np.float32)
         m, area = lit_mask(g)
+        lost, ratio = {}, {}
+        for f in ("orange", "green", "blue"):
+            chans[f], lost[f] = repair(chans[f], bads[f], m)
+            ratio[f] = float(np.median(chans[f][m]) / max(np.median(chans["green"][m]), 1e-6))
+        rgb = np.stack([chans["orange"], chans["green"], chans["blue"]], -1).astype(np.float32)
         ys, xs = np.where(m)
         h, w = g.shape
         whole = bool(area > 150 and ys.min() > 3 and xs.min() > 3 and ys.max() < h - 4 and xs.max() < w - 4)
@@ -49,9 +57,25 @@ def prepare(args):
         diam = float(max(ys.max() - ys.min(), xs.max() - xs.min()) + 1)
         np.save(os.path.join(out, "cubes", row["label"] + ".npy"), rgb.astype(np.float16))
         return dict(label=row["label"], time=row["time"], cy=float(cy), cx=float(cx), diam=diam, whole=whole,
-                    top=float(np.percentile(rgb.max(-1)[m], 99.5)), shifts=shifts)
+                    top=float(np.percentile(rgb.max(-1)[m], 99.5)), shifts=shifts, lost=lost, ratio=ratio)
     except Exception as e:
         return dict(label=row["label"], time=row["time"], error=repr(e)[:300])
+
+
+# Fills dropped lines on the disk from the rows above and below; returns the channel and the fraction of the disk still missing.
+def repair(x, bad, disk):
+    drop = (bad | (x <= 0)) & disk
+    rows = np.where(drop.sum(1) > 0.5 * np.maximum(disk.sum(1), 1))[0]
+    x = x.copy()
+    runs = np.split(rows, np.where(np.diff(rows) > 1)[0] + 1) if len(rows) else []
+    for r in runs:
+        if len(r) <= MAX_GAP and r[0] > 0 and r[-1] < x.shape[0] - 1:
+            a, b = x[r[0] - 1], x[r[-1] + 1]
+            for i, y in enumerate(r):
+                t = (i + 1) / (len(r) + 1)
+                x[y] = a * (1 - t) + b * t
+            drop[r] = False
+    return x, float(drop.sum() / max(disk.sum(), 1))
 
 
 def render(rgb, top):
@@ -112,10 +136,12 @@ def main(sets, out):
     with open(os.path.join(out, "frames.jsonl"), "w") as f:
         for i in infos:
             f.write(json.dumps(i) + "\n")
-    good = [i for i in infos if "error" not in i and i["whole"]]
+    ok = [i for i in infos if "error" not in i and i["whole"]]
+    med = {f: float(np.median([i["ratio"][f] for i in ok])) for f in ("orange", "blue")}
+    good = [i for i in ok if max(i["lost"].values()) <= MAX_LOST and all(abs(i["ratio"][f] / med[f] - 1) <= MAX_TINT for f in med)]
     good.sort(key=lambda i: i["time"])
     top = float(np.median([i["top"] for i in good]))
-    counts = dict(sets=len(rows), failed=sum("error" in i for i in infos), cut_off=sum("error" not in i and not i["whole"] for i in infos),
+    counts = dict(sets=len(rows), failed=sum("error" in i for i in infos), cut_off=sum("error" not in i and not i["whole"] for i in infos), dropouts=len(ok) - len(good),
                   used=len(good), top_if=round(top, 4), first=good[0]["time"], last=good[-1]["time"],
                   diam_first=good[0]["diam"], diam_last=good[-1]["diam"])
     counts["approach"] = write(good, out, "approach", top, False, FPS)
