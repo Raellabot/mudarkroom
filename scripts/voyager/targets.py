@@ -2,7 +2,8 @@
 # Usage: targets.py BUILD.csv META.jsonl FACTS.json OUTDIR LIST.txt METRICS.json
 # The OPUS target is what the camera was pointed for, not always what is in the frame; RETARGET and DROP hold the ones checked by eye.
 RETARGET = {"amalthea-v1n-c1607925": "Jupiter"}   # pointed for Amalthea; the frame shows Jupiter's clouds and the Great Red Spot
-DROP = {"metis-v1w-c1637337": "Jupiter's clouds, not Metis, with the colors badly out of register",
+DROP = {"saturn-v2w-c4392542": "a green patch over the left of Saturn that the sky fix cannot take out",
+        "metis-v1w-c1637337": "Jupiter's clouds, not Metis, with the colors badly out of register",
         "jupiter-rings-v2n-c2063044": "a plain field of Jupiter's haze; no ring is visible",
         "jupiter-v1n-c1601459": "Jupiter's limb with the colors torn apart (the clouds moved between filters)",
         "jupiter-v1n-c1630959": "a close-up of Jupiter's clouds that comes out in false pink and green",
