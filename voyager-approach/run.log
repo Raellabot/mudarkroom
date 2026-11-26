@@ -1,0 +1,21 @@
+/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/numpy/_core/fromnumeric.py:3862: RuntimeWarning: Mean of empty slice
+  return _methods._mean(a, axis=axis, dtype=dtype,
+/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/numpy/_core/_methods.py:142: RuntimeWarning: invalid value encountered in divide
+  ret = ret.dtype.type(ret / rcount)
+/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/scipy/ndimage/_measurements.py:1550: RuntimeWarning: invalid value encountered in scalar divide
+  results = [sum_labels(input * grids[dir].astype(float), labels, index) / normalizer
+{
+ "sets": 280,
+ "failed": 1,
+ "cut_off": 0,
+ "dropouts": 78,
+ "used": 201,
+ "top_if": 0.8502,
+ "first": "1979-01-06T07:30:09.520",
+ "last": "1979-01-29T19:15:46.520",
+ "diam_first": 290.0,
+ "diam_last": 474.0,
+ "approach": 201,
+ "spin": 201,
+ "one_per_turn": 39
+}
