@@ -34,7 +34,10 @@ def save(out, name, obj):
 
 
 def ts(s):
-    return calendar.timegm(time.strptime(s[:19], "%Y-%m-%dT%H:%M:%S"))
+    try:
+        return calendar.timegm(time.strptime(str(s)[:19], "%Y-%m-%dT%H:%M:%S"))
+    except ValueError:
+        return None
 
 
 def norm_filter(v):
@@ -84,6 +87,8 @@ def find_sets(rows, fcol, ccol):
         r["f"] = norm_filter(r[fcol])
         r["t"] = ts(r["time1"])
         r["sc"] = r["opusid"].split("-")[2] if r["opusid"].count("-") >= 3 else "?"
+        if r["t"] is None:
+            continue
         groups[(r["sc"], r.get(ccol), r["target"])].append(r)
     sets = []
     for key, g in groups.items():
