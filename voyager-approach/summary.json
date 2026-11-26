@@ -1,0 +1,15 @@
+{
+ "sets": 280,
+ "failed": 0,
+ "cut_off": 22,
+ "dropouts": 95,
+ "used": 163,
+ "top_if": 0.8495,
+ "first": "1979-01-06T07:30:09.520",
+ "last": "1979-01-29T19:15:46.520",
+ "diam_first": 291.0,
+ "diam_last": 474.0,
+ "approach": 163,
+ "spin": 163,
+ "one_per_turn": 32
+}
