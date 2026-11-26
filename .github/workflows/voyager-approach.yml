@@ -1,0 +1,38 @@
+name: Voyager approach movie
+
+# Run by hand: makes Jupiter approach movies from Voyager 1 narrow-angle color sets (PDS Ring-Moon Systems Node GEOMED frames); results are kept as a run artifact.
+on:
+  workflow_dispatch:
+    inputs:
+      sets:
+        description: "Color-set list in the repo (csv)"
+        default: "catalog/voyager-jupiter-approach.csv"
+
+concurrency:
+  group: voyager-approach
+  cancel-in-progress: false
+
+jobs:
+  movie:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install numpy pillow scipy
+      - run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg fonts-dejavu-core
+      - name: Make movies
+        env:
+          SETS: ${{ inputs.sets }}
+        run: |
+          set -o pipefail
+          mkdir -p out
+          python -u scripts/voyager/approach.py "$SETS" out 2>&1 | tee out/run.log
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: voyager-approach
+          path: out
+          retention-days: 30
