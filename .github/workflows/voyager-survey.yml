@@ -1,0 +1,41 @@
+name: Voyager survey
+
+# Run by hand: counts Voyager ISS frames and color sets in OPUS (PDS Ring-Moon Systems Node) and makes a few pilot pictures (report goes to the `results` branch).
+on:
+  workflow_dispatch:
+
+concurrency:
+  group: voyager-survey
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  survey:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install numpy pillow
+      - name: Survey
+        run: |
+          set -o pipefail
+          mkdir -p out
+          python -u scripts/voyager/survey.py out 2>&1 | tee out/run.log
+      - name: Save to the results branch
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          rm -rf /tmp/mc && git worktree prune
+          git fetch -q origin results
+          git worktree add -q -B results /tmp/mc origin/results
+          mkdir -p "/tmp/mc/voyager/survey-$GITHUB_RUN_ID"
+          cp -r out/. "/tmp/mc/voyager/survey-$GITHUB_RUN_ID/"
+          git -C /tmp/mc add -f voyager
+          git -C /tmp/mc commit -q -m "Voyager survey (run $GITHUB_RUN_ID)" || { echo "no changes"; exit 0; }
+          git -C /tmp/mc push -q origin results
