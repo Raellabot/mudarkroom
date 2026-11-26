@@ -17,7 +17,9 @@ DROP = {"metis-v1w-c1637337": "Jupiter's clouds, not Metis, with the colors badl
         "uranus-v2w-c2678240": "Uranus out of register, a purple disk with a yellow rim",
         "uranus-v2w-c2681001": "Uranus with a magenta streak across it",
         "uranus-v2w-c2681037": "a close view of Uranus in false purple",
-        "uranus-v2w-c2682623": "Uranus with wide yellow and blue rims (out of register)"}
+        "uranus-v2w-c2682623": "Uranus with wide yellow and blue rims (out of register)",
+        "jupiter-v1n-c1574431": "Jupiter with a colored line torn across it",
+        "jupiter-v1n-c1577424": "Jupiter with colored dashes across it"}
 import csv, json, math, os, sys
 from collections import Counter
 from datetime import datetime

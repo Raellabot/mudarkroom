@@ -197,6 +197,7 @@ def subpix(ga, gb, dy, dx):
 
 
 # Takes off the dark sky: a plane fitted to each channel away from the lit body, so a gradient left by the camera doesn't tint the black; the empty margin left by the distortion fix stays at zero.
+# The fit starts from the darker half of the sky and drops outliers, so rings or a second moon away from the main body don't lift it, and the plane is held within the sky's own darker levels.
 def sky(x, body):
     nodata = ndimage.binary_opening(x <= 0, iterations=3)
     away = ~ndimage.binary_dilation(body, iterations=15) & ~nodata
@@ -204,11 +205,19 @@ def sky(x, body):
         return x
     ys, xs = np.nonzero(away)
     v = x[ys, xs]
-    keep = v < np.percentile(v, 90)
-    A = np.stack([np.ones(keep.sum()), ys[keep], xs[keep]], 1)
-    c, *_ = np.linalg.lstsq(A, v[keep], rcond=None)
+    lo, hi = np.percentile(v, [5, 60])
+    keep = v <= np.percentile(v, 50)
+    A = np.stack([np.ones(v.size), ys, xs], 1)
+    for _ in range(4):
+        c, *_ = np.linalg.lstsq(A[keep], v[keep], rcond=None)
+        res = v - A @ c
+        mad = 1.4826 * np.median(np.abs(res[keep])) + 1e-6
+        keep = np.abs(res) < 3 * mad
+        if keep.sum() < 500:
+            break
     yy, xx = np.mgrid[:x.shape[0], :x.shape[1]]
-    return np.where(nodata, 0, x - (c[0] + c[1] * yy + c[2] * xx))
+    plane = np.clip(c[0] + c[1] * yy + c[2] * xx, lo, hi)
+    return np.where(nodata, 0, x - plane)
 
 
 # Lit area of a set, from all its channels together.

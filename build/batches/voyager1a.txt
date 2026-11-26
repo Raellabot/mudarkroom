@@ -21,8 +21,6 @@ jupiter-voyager-1-c1562527
 jupiter-voyager-1-c1566239
 jupiter-voyager-1-c1568458
 jupiter-voyager-1-c1571445
-jupiter-voyager-1-c1574431
-jupiter-voyager-1-c1577424
 jupiter-voyager-1-c1580422
 jupiter-voyager-1-c1583620
 jupiter-voyager-1-c1586606
@@ -222,3 +220,4 @@ saturn-voyager-1-c3302627
 saturn-voyager-1-c3305441
 saturn-voyager-1-c3308529
 saturn-voyager-1-c3311424
+saturn-voyager-1-c3314424
