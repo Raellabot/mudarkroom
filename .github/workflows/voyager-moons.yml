@@ -1,0 +1,27 @@
+name: Voyager moons
+
+# Run by hand: asks JPL Horizons where the planet and its moons were in Voyager's sky for each frame in a list; results are kept as a run artifact.
+on:
+  workflow_dispatch:
+    inputs:
+      frames:
+        description: "Frame list in the repo (json)"
+        default: "catalog/voyager-moon-frames.json"
+
+jobs:
+  moons:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - name: Ask Horizons
+        env:
+          FRAMES: ${{ inputs.frames }}
+        run: |
+          mkdir -p out
+          python3 -u scripts/voyager/horizons.py "$FRAMES" out/horizons.json
+      - uses: actions/upload-artifact@v4
+        with:
+          name: voyager-moons
+          path: out
+          retention-days: 30
