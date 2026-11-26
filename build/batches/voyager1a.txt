@@ -26,7 +26,6 @@ jupiter-voyager-1-c1583620
 jupiter-voyager-1-c1586606
 jupiter-voyager-1-c1589553
 jupiter-voyager-1-c1592540
-jupiter-voyager-1-c1596024
 jupiter-voyager-1-c1598512
 jupiter-voyager-1-c1604429
 jupiter-voyager-1-c1604446

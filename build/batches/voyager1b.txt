@@ -172,7 +172,6 @@ neptune-voyager-2-c1004311
 neptune-voyager-2-c1006701
 neptune-voyager-2-c1010543
 neptune-voyager-2-c1013231
-neptune-voyager-2-c1016347
 neptune-voyager-2-c1025307
 neptune-voyager-2-c1027626
 neptune-voyager-2-c1031539

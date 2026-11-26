@@ -3,6 +3,8 @@
 # The OPUS target is what the camera was pointed for, not always what is in the frame; RETARGET and DROP hold the ones checked by eye.
 RETARGET = {"amalthea-v1n-c1607925": "Jupiter"}   # pointed for Amalthea; the frame shows Jupiter's clouds and the Great Red Spot
 DROP = {"saturn-v2w-c4392542": "a green patch over the left of Saturn that the sky fix cannot take out",
+        "jupiter-v1n-c1596024": "a close-up of Jupiter's clouds with a false blue-green cast over the top right",
+        "neptune-v2n-c1016347": "Neptune over a red band where the orange frame's sky is off",
         "metis-v1w-c1637337": "Jupiter's clouds, not Metis, with the colors badly out of register",
         "jupiter-rings-v2n-c2063044": "a plain field of Jupiter's haze; no ring is visible",
         "jupiter-v1n-c1601459": "Jupiter's limb with the colors torn apart (the clouds moved between filters)",

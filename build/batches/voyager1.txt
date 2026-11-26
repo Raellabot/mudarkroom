@@ -26,7 +26,6 @@ jupiter-voyager-1-c1583620
 jupiter-voyager-1-c1586606
 jupiter-voyager-1-c1589553
 jupiter-voyager-1-c1592540
-jupiter-voyager-1-c1596024
 jupiter-voyager-1-c1598512
 jupiter-voyager-1-c1604429
 jupiter-voyager-1-c1604446
@@ -394,7 +393,6 @@ neptune-voyager-2-c1004311
 neptune-voyager-2-c1006701
 neptune-voyager-2-c1010543
 neptune-voyager-2-c1013231
-neptune-voyager-2-c1016347
 neptune-voyager-2-c1025307
 neptune-voyager-2-c1027626
 neptune-voyager-2-c1031539
