@@ -98,8 +98,34 @@ def lit_mask(x):
     return lab == keep, int(sizes.max())
 
 
-# Shift that lines `mov` up with `ref`: the lit body's centroid when the whole body is in frame, else phase correlation; both refined by a small correlation search.
-def align(ref, mov):
+def edges(x, bad):
+    s = ndimage.gaussian_filter(x, 1.5)
+    g = np.hypot(ndimage.sobel(s, 0), ndimage.sobel(s, 1))
+    g[ndimage.binary_dilation(bad, iterations=4)] = 0
+    return g / (np.percentile(g, 99.5) + 1e-9)
+
+
+def score(ga, gb, dy, dx):
+    m = np.roll(gb, (dy, dx), axis=(0, 1))
+    k = max(abs(dy), abs(dx)) + 2
+    a, b = ga[k:-k, k:-k], m[k:-k, k:-k]
+    return float((a * b).sum() / (np.sqrt((a * a).sum() * (b * b).sum()) + 1e-12))
+
+
+def refine(ga, gb, dy, dx, r=4):
+    best = (score(ga, gb, dy, dx), dy, dx)
+    for y in range(dy - r, dy + r + 1):
+        for x in range(dx - r, dx + r + 1):
+            v = score(ga, gb, y, x)
+            if v > best[0]:
+                best = (v, y, x)
+    return best
+
+
+# Shift that lines `mov` up with `ref`: tries the lit body's centroid (whole body in frame), phase correlation of the edge maps and of the high-passed frames, refines each, and keeps the one whose edges match best.
+def align(ref, mov, rbad, mbad):
+    ga, gb = edges(ref, rbad), edges(mov, mbad)
+    cands = []
     mr, ar = lit_mask(ref)
     mm, am = lit_mask(mov)
     h, w = ref.shape
@@ -111,24 +137,21 @@ def align(ref, mov):
     if whole:
         cy0, cx0 = ndimage.center_of_mass(mr)
         cy1, cx1 = ndimage.center_of_mass(mm)
-        dy, dx, how, score = int(round(cy0 - cy1)), int(round(cx0 - cx1)), "centroid", None
-    else:
-        dy, dx, score = phase_shift(ref, mov, 120)
-        how = "phase"
-    gr, gm = highpass(ref), highpass(mov)
-    best, arg = -1e18, (dy, dx)
-    for y in range(dy - 4, dy + 5):
-        for x in range(dx - 4, dx + 5):
-            m = np.roll(gm, (y, x), axis=(0, 1))
-            v = float((gr * m).sum() / (np.sqrt((gr ** 2).sum() * (m ** 2).sum()) + 1e-12))
-            if v > best:
-                best, arg = v, (y, x)
-    return arg, how, round(best, 3), score, whole
+        cands.append(("centroid", int(round(cy0 - cy1)), int(round(cx0 - cx1))))
+    for name, a, b in (("edges", ga, gb), ("phase", ref, mov)):
+        dy, dx, _ = phase_shift(a, b, 150)
+        cands.append((name, dy, dx))
+    best = None
+    for name, dy, dx in cands:
+        v, y, x = refine(ga, gb, dy, dx)
+        if best is None or v > best[0]:
+            best = (v, y, x, name)
+    return (best[1], best[2]), best[3], round(best[0], 3), [list(c) for c in cands], whole
 
 
 def render(rgb, black, top):
     x = np.clip((rgb - black * top) / max(top * (1 - black), 1e-9), 0, 1)
-    return (np.arcsinh(x * 8) / np.arcsinh(8) * 255).astype(np.uint8)
+    return (np.arcsinh(x * 3) / np.arcsinh(3) * 255).astype(np.uint8)
 
 
 def screen(row, out):
@@ -145,9 +168,9 @@ def screen(row, out):
         if f == "green":
             continue
         x, bad = frames[f]
-        (dy, dx), how, corr, score, whole = align(g, x)
+        (dy, dx), how, corr, cands, whole = align(g, x, gbad, bad)
         aligned[f] = np.roll(x, (dy, dx), axis=(0, 1))
-        info[f] = dict(shift=[dy, dx], how=how, corr=corr, score=score, whole=whole)
+        info[f] = dict(shift=[dy, dx], how=how, corr=corr, cands=cands, whole=whole)
     m = max(max(abs(v["shift"][0]), abs(v["shift"][1])) for v in info.values()) + 1
     sl = (slice(m, g.shape[0] - m), slice(m, g.shape[1] - m))
     blue = np.mean([aligned[k][sl] for k in ("blue", "violet") if k in aligned], axis=0)
