@@ -44,7 +44,7 @@ def prepare(args):
             chans[f] = np.roll(x, (dy, dx), axis=(0, 1))
             bads[f] = np.roll(bad, (dy, dx), axis=(0, 1))
             shifts[f] = [dy, dx, how, corr]
-        m, area = lit_mask(g)
+        m, area = lit_mask(np.maximum.reduce([chans["orange"], chans["green"], chans["blue"]]))  # lit in any filter, so a patch missing from one still counts as disk
         lost, ratio = {}, {}
         for f in ("orange", "green", "blue"):
             chans[f], lost[f] = repair(chans[f], bads[f], m)
