@@ -1,0 +1,22 @@
+filter fields: ['VGISSfilter', 'VGISSfilternumber'] camera fields: ['VGISScamera']
+Jupiter 31337 of 31337
+{"frames": 31337, "by_filter": [["ORANGE", 8998], ["VIOLET", 7142], ["GREEN", 7093], ["CLEAR", 3592], ["BLUE", 1992], ["UV", 1328], ["METHANE-JST", 1117], ["SODIUM", 75]], "by_camera": [["Narrow Angle", 24464], ["Wide Angle", 6873]], "by_spacecraft": [["1", 17527], ["2", 13810]], "frames_by_target": [["Jupiter", 26717], ["Io", 851], ["Ganymede", 835], ["Callisto", 831], ["Europa", 459], ["Dark", 457], ["Calibration Lamps", 438], ["Sky", 156], ["Plaque", 143], ["Amalthea", 98], ["System", 98], ["Taurus", 45], ["Alp Lyr (Vega)", 44], ["Saturn", 36], ["Alp Boo (Arcturus)", 32], ["Jupiter Rings", 30], ["The Car", 20], ["Scorpius", 15], ["Orion", 14], ["Thebe", 8], ["Metis", 6], ["Adrastea", 4]], "sets": 4944, "sets_by_target": [["Jupiter", 4701], ["Ganymede", 59], ["Callisto", 50], ["Io", 42], ["Europa", 40], ["Sky", 34], ["Plaque", 8], ["Amalthea", 5], ["Calibration Lamps", 2], ["Metis", 1], ["Saturn", 1], ["Jupiter Rings", 1]], "sets_by_span": [["<5 min", 3172], ["<15 min", 1772]], "sets_by_camera": [["Narrow Angle", 4210], ["Wide Angle", 734]], "sets_by_filters": [["GOV", 3185], ["BGO", 1458], ["BGOV", 301]]}
+Saturn 29022 of 29022
+Traceback (most recent call last):
+  File "/home/runner/work/mudarkroom/mudarkroom/scripts/voyager/survey.py", line 217, in <module>
+    main(sys.argv[1])
+  File "/home/runner/work/mudarkroom/mudarkroom/scripts/voyager/survey.py", line 186, in main
+    sets = find_sets(rows, fcol, ccol)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/mudarkroom/mudarkroom/scripts/voyager/survey.py", line 85, in find_sets
+    r["t"] = ts(r["time1"])
+             ^^^^^^^^^^^^^^
+  File "/home/runner/work/mudarkroom/mudarkroom/scripts/voyager/survey.py", line 37, in ts
+    return calendar.timegm(time.strptime(s[:19], "%Y-%m-%dT%H:%M:%S"))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/_strptime.py", line 647, in _strptime_time
+    tt = _strptime(data_string, format)[0]
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/_strptime.py", line 432, in _strptime
+    raise ValueError("time data %r does not match format %r" %
+ValueError: time data 'N/A' does not match format '%Y-%m-%dT%H:%M:%S'
