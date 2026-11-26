@@ -231,4 +231,19 @@ def layers(src):
     m = int(max(max(abs(v["shift"][0]), abs(v["shift"][1])) for v in info["align"].values())) + 2
     sl = (slice(m, g.shape[0] - m), slice(m, g.shape[1] - m))
     body, _ = lit_mask(chans["green"][sl])
-    return {f: sky(chans[f][sl], body) for f in have}, info
+    out = {f: sky(chans[f][sl], body) for f in have}
+    return speckle(out, body), info
+
+
+# Clears colored specks from the dark sky: a pixel bright in one channel but dark in all the others is a bit error, not a star (stars show in every filter).
+def speckle(chans, body):
+    away = ~ndimage.binary_dilation(body, iterations=10)
+    if away.sum() < 2000:
+        return chans
+    noise = {f: 1.4826 * np.median(np.abs(x[away] - np.median(x[away]))) + 1e-6 for f, x in chans.items()}
+    hot = {f: x > 6 * noise[f] for f, x in chans.items()}
+    dark = {f: x < 3 * noise[f] for f, x in chans.items()}
+    for f, x in chans.items():
+        lone = away & hot[f] & np.logical_and.reduce([dark[g] for g in chans if g != f])
+        x[ndimage.binary_dilation(lone)] = 0
+    return chans
