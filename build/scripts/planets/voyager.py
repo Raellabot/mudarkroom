@@ -148,9 +148,26 @@ def align(ref, mov, rbad, mbad):
 
 
 # Aligned linear I/F channels for one set: src has the opus ids of the frames ("orange", "green", "blue", "violet"; blue or violet may be missing) and "green_volume" (like VGISS_5114).
+# Rows whose level on the lit body jumps away from the rows around them (a line dropped or garbled in transmission without being flagged).
+def odd_rows(x, lit, tol=0.12):
+    n = lit.sum(1)
+    mean = np.where(n > 20, (x * lit).sum(1) / np.maximum(n, 1), np.nan)
+    ok = ~np.isnan(mean)
+    if ok.sum() < 10:
+        return np.zeros(x.shape[0], bool)
+    ref = mean.copy()
+    ref[ok] = ndimage.median_filter(mean[ok], 9, mode="nearest")
+    out = np.zeros(x.shape[0], bool)
+    out[ok] = np.abs(mean[ok] / np.maximum(ref[ok], 1e-6) - 1) > tol
+    return out
+
+
 # Fills missing pixels: dropped lines up to MAX_GAP rows from the rows around them, other gaps from their neighbors; then replaces single-pixel spikes (bit errors) with the local median.
 def clean(x, bad):
     x = x.copy()
+    lit = ndimage.gaussian_filter(x, 2) > 0.15 * np.percentile(x, 99.5)
+    bad = bad.copy()
+    bad[odd_rows(x, lit)] = True
     rows = np.where(bad.mean(1) > 0.5)[0]
     for r in np.split(rows, np.where(np.diff(rows) > 1)[0] + 1) if len(rows) else []:
         if len(r) <= MAX_GAP and r[0] > 0 and r[-1] < x.shape[0] - 1:
@@ -158,7 +175,6 @@ def clean(x, bad):
             for i, y in enumerate(r):
                 t = (i + 1) / (len(r) + 1)
                 x[y] = a * (1 - t) + b * t
-            bad = bad.copy()
             bad[r] = False
     if bad.any():
         w = (~bad).astype(np.float32)

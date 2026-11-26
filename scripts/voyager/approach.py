@@ -62,9 +62,24 @@ def prepare(args):
         return dict(label=row["label"], time=row["time"], error=repr(e)[:300])
 
 
+# Rows whose level on the lit body jumps away from the rows around them (a line dropped or garbled in transmission without being flagged).
+def odd_rows(x, lit, tol=0.12):
+    n = lit.sum(1)
+    mean = np.where(n > 20, (x * lit).sum(1) / np.maximum(n, 1), np.nan)
+    ok = ~np.isnan(mean)
+    if ok.sum() < 10:
+        return np.zeros(x.shape[0], bool)
+    ref = mean.copy()
+    ref[ok] = ndimage.median_filter(mean[ok], 9, mode="nearest")
+    out = np.zeros(x.shape[0], bool)
+    out[ok] = np.abs(mean[ok] / np.maximum(ref[ok], 1e-6) - 1) > tol
+    return out
+
+
 # Fills dropped lines on the disk from the rows above and below; returns the channel and the fraction of the disk still missing.
 def repair(x, bad, disk):
     drop = (bad | (x <= 0)) & disk
+    drop[odd_rows(x, disk)] |= disk[odd_rows(x, disk)]
     rows = np.where(drop.sum(1) > 0.5 * np.maximum(disk.sum(1), 1))[0]
     x = x.copy()
     runs = np.split(rows, np.where(np.diff(rows) > 1)[0] + 1) if len(rows) else []
