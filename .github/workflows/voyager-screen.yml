@@ -1,0 +1,55 @@
+name: Voyager screen
+
+# Run by hand: makes screening pictures of Voyager ISS color sets from the PDS Ring-Moon Systems Node's GEOMED frames (results are kept as run artifacts).
+on:
+  workflow_dispatch:
+    inputs:
+      candidates:
+        description: "Candidate list in the repo (csv)"
+        default: "catalog/voyager-batch1.csv"
+      chunks:
+        description: "Number of parallel jobs (2 to 12)"
+        default: "8"
+
+concurrency:
+  group: voyager-screen
+  cancel-in-progress: false
+
+jobs:
+  plan:
+    runs-on: ubuntu-latest
+    outputs:
+      matrix: ${{ steps.m.outputs.matrix }}
+    steps:
+      - id: m
+        env:
+          N: ${{ inputs.chunks }}
+        run: python3 -c "import json,os; n=max(2,min(12,int(os.environ['N']))); print('matrix='+json.dumps({'chunk':list(range(n))}))" >> "$GITHUB_OUTPUT"
+  screen:
+    needs: plan
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    strategy:
+      fail-fast: false
+      matrix: ${{ fromJson(needs.plan.outputs.matrix) }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install numpy pillow scipy
+      - name: Screen
+        env:
+          CANDS: ${{ inputs.candidates }}
+          CHUNK: ${{ matrix.chunk }}
+          N: ${{ inputs.chunks }}
+        run: |
+          set -o pipefail
+          mkdir -p out
+          python -u scripts/voyager/screen.py "$CANDS" out "$CHUNK" "$(python3 -c "import os;print(max(2,min(12,int(os.environ['N']))))")" 2>&1 | tee out/run-$CHUNK.log
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: voyager-screen-${{ matrix.chunk }}
+          path: out
+          retention-days: 30
