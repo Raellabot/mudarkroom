@@ -175,8 +175,8 @@ def pilot(out, s, rowsby, n):
 def main(out):
     os.makedirs(out, exist_ok=True)
     fcol, ccol = discover(out)
-    report = {"filter_field": fcol, "camera_field": ccol, "total": getj("result_count.json", instrument="Voyager ISS")}
-    report["year_1990"] = getj("result_count.json", instrument="Voyager ISS", time1="1990-01-01", time2="1990-12-31")
+    report = {"filter_field": fcol, "camera_field": ccol, "total": getj("meta/result_count.json", instrument="Voyager ISS")}
+    report["year_1990"] = getj("meta/result_count.json", instrument="Voyager ISS", time1="1990-01-01", time2="1990-12-31")
     cols = [c for c in ("opusid", "time1", "target", "duration", "primaryfilespec", fcol, ccol) if c]
     allsets, rowsby, per = [], {}, {}
     for p in PLANETS:
