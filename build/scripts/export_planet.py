@@ -104,7 +104,7 @@ def voyager_layers(src):
             name=name, array=chans[key], center=VOYAGER_NM[name], mission="Voyager", instrument=f"ISS {cam}",
             obs_id=src[key], exposure=None, link=f"https://opus.pds-rings.seti.org/opus/#/opusid={src[key]}",
         ))
-    print("voyager", sc, cam, "align:", json.dumps(info["align"]), flush=True)
+    print("voyager", sc, cam, "align:", json.dumps(info["align"]), "trim:", json.dumps(info.get("trim")), flush=True)
     return out, {"align": info["align"]}, 1.0
 
 

@@ -3,7 +3,21 @@
 # The OPUS target is what the camera was pointed for, not always what is in the frame; RETARGET and DROP hold the ones checked by eye.
 RETARGET = {"amalthea-v1n-c1607925": "Jupiter"}   # pointed for Amalthea; the frame shows Jupiter's clouds and the Great Red Spot
 DROP = {"metis-v1w-c1637337": "Jupiter's clouds, not Metis, with the colors badly out of register",
-        "jupiter-rings-v2n-c2063044": "a plain field of Jupiter's haze; no ring is visible"}
+        "jupiter-rings-v2n-c2063044": "a plain field of Jupiter's haze; no ring is visible",
+        "jupiter-v1n-c1601459": "Jupiter's limb with the colors torn apart (the clouds moved between filters)",
+        "jupiter-v1n-c1630959": "a close-up of Jupiter's clouds that comes out in false pink and green",
+        "jupiter-v1n-c1635403": "a close-up of Jupiter's clouds that comes out in false green",
+        "jupiter-v1w-c1638806": "a nearly blank gray field of Jupiter's clouds",
+        "io-v1w-c1639055": "Io with the colors badly out of register",
+        "jupiter-v2n-c2054005": "a close-up of Jupiter's clouds that comes out in false pink and green",
+        "jupiter-v2n-c2058623": "a close-up of Jupiter's clouds that comes out in false colors",
+        "jupiter-v2n-c2062914": "a close-up of Jupiter's clouds that comes out in false colors",
+        "jupiter-v2w-c2064424": "a close-up of Jupiter's clouds that comes out in false pink and green",
+        "jupiter-v2w-c2064636": "Jupiter's limb in false colors",
+        "uranus-v2w-c2678240": "Uranus out of register, a purple disk with a yellow rim",
+        "uranus-v2w-c2681001": "Uranus with a magenta streak across it",
+        "uranus-v2w-c2681037": "a close view of Uranus in false purple",
+        "uranus-v2w-c2682623": "Uranus with wide yellow and blue rims (out of register)"}
 import csv, json, math, os, sys
 from collections import Counter
 from datetime import datetime

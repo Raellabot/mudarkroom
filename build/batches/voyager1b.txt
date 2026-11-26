@@ -1,6 +1,3 @@
-saturn-voyager-1-c3305441
-saturn-voyager-1-c3308529
-saturn-voyager-1-c3311424
 saturn-voyager-1-c3314424
 saturn-voyager-1-c3317519
 saturn-voyager-1-c3323421
@@ -170,11 +167,7 @@ uranus-voyager-2-c2642422
 uranus-voyager-2-c2651423
 uranus-voyager-2-c2652849
 uranus-voyager-2-c2655745
-uranus-voyager-2-c2678240
 uranus-voyager-2-c2679938
-uranus-voyager-2-c2681001
-uranus-voyager-2-c2681037
-uranus-voyager-2-c2682623
 uranus-voyager-2-c2708958
 neptune-voyager-2-c1004311
 neptune-voyager-2-c1006701

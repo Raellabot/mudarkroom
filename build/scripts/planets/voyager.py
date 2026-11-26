@@ -196,9 +196,10 @@ def subpix(ga, gb, dy, dx):
     return frac(score(ga, gb, dy - 1, dx), c, score(ga, gb, dy + 1, dx)), frac(score(ga, gb, dy, dx - 1), c, score(ga, gb, dy, dx + 1))
 
 
-# Takes off the dark sky: a plane fitted to each channel away from the lit body, so a gradient left by the camera doesn't tint the black.
+# Takes off the dark sky: a plane fitted to each channel away from the lit body, so a gradient left by the camera doesn't tint the black; the empty margin left by the distortion fix stays at zero.
 def sky(x, body):
-    away = ~ndimage.binary_dilation(body, iterations=15)
+    nodata = ndimage.binary_opening(x <= 0, iterations=3)
+    away = ~ndimage.binary_dilation(body, iterations=15) & ~nodata
     if away.sum() < 2000:
         return x
     ys, xs = np.nonzero(away)
@@ -207,7 +208,61 @@ def sky(x, body):
     A = np.stack([np.ones(keep.sum()), ys[keep], xs[keep]], 1)
     c, *_ = np.linalg.lstsq(A, v[keep], rcond=None)
     yy, xx = np.mgrid[:x.shape[0], :x.shape[1]]
-    return x - (c[0] + c[1] * yy + c[2] * xx)
+    return np.where(nodata, 0, x - (c[0] + c[1] * yy + c[2] * xx))
+
+
+# Lit area of a set, from all its channels together.
+def lit_all(chans):
+    tot = sum(chans.values())
+    return tot, ndimage.gaussian_filter(tot, 2) > 0.15 * np.percentile(tot, 99.5)
+
+
+# Rows where one channel's share of the light jumps away from the rows around it (a line garbled in one filter), filled from the rows around them.
+def color_rows(chans, tol=0.1):
+    tot, lit = lit_all(chans)
+    n = lit.sum(1)
+    for f, x in chans.items():
+        share = np.where(n > 20, (x / np.maximum(tot, 1e-6) * lit).sum(1) / np.maximum(n, 1), np.nan)
+        ok = ~np.isnan(share)
+        if ok.sum() < 10:
+            continue
+        ref = share.copy()
+        ref[ok] = ndimage.median_filter(share[ok], 9, mode="nearest")
+        rows = np.where(ok & (np.abs(share / np.maximum(ref, 1e-6) - 1) > tol))[0]
+        for r in np.split(rows, np.where(np.diff(rows) > 1)[0] + 1) if len(rows) else []:
+            if len(r) <= MAX_GAP and r[0] > 0 and r[-1] < x.shape[0] - 1:
+                a, b = x[r[0] - 1].copy(), x[r[-1] + 1].copy()
+                for i, y in enumerate(r):
+                    t = (i + 1) / (len(r) + 1)
+                    x[y] = a * (1 - t) + b * t
+    return chans
+
+
+# Crops off frame edges where the colors go wrong (a strip that one filter lost or garbled along the border): walks in from each side and cuts past the last line whose color share is off.
+def trim(chans, tol=0.25, depth=60):
+    tot, lit = lit_all(chans)
+    h, w = tot.shape
+    inner = lit.copy()
+    inner[:depth], inner[-depth:], inner[:, :depth], inner[:, -depth:] = False, False, False, False
+    if inner.sum() < 500:
+        inner = lit
+    if inner.sum() < 50:
+        return chans, {}
+    share = {f: x / np.maximum(tot, 1e-6) for f, x in chans.items()}
+    ref = {f: float(np.median(s[inner])) for f, s in share.items()}
+    mh, mw = min(depth, h // 4), min(depth, w // 4)  # a line's ends are left out, so a strip along one side doesn't count against the next side
+    lines = {"top": lambda i: (i, slice(mw, w - mw)), "bottom": lambda i: (h - 1 - i, slice(mw, w - mw)), "left": lambda i: (slice(mh, h - mh), i), "right": lambda i: (slice(mh, h - mh), w - 1 - i)}
+    cut = {}
+    for side, at in lines.items():
+        k = 0
+        for i in range(mh if side in ("top", "bottom") else mw):
+            m = lit[at(i)]
+            if m.sum() < 15:
+                continue
+            if any(abs(np.median(s[at(i)][m]) / max(ref[f], 1e-6) - 1) > tol for f, s in share.items()):
+                k = i + 1
+        cut[side] = k
+    return {f: x[cut["top"]:h - cut["bottom"], cut["left"]:w - cut["right"]] for f, x in chans.items()}, cut
 
 
 def layers(src):
@@ -231,8 +286,10 @@ def layers(src):
     m = int(max(max(abs(v["shift"][0]), abs(v["shift"][1])) for v in info["align"].values())) + 2
     sl = (slice(m, g.shape[0] - m), slice(m, g.shape[1] - m))
     body, _ = lit_mask(chans["green"][sl])
-    out = {f: sky(chans[f][sl], body) for f in have}
-    return speckle(out, body), info
+    out = color_rows({f: chans[f][sl] for f in have})
+    out = speckle({f: sky(x, body) for f, x in out.items()}, body)
+    out, info["trim"] = trim(out)
+    return out, info
 
 
 # Clears colored specks from the dark sky: a pixel bright in one channel but dark in all the others is a bit error, not a star (stars show in every filter).

@@ -30,7 +30,6 @@ jupiter-voyager-1-c1589553
 jupiter-voyager-1-c1592540
 jupiter-voyager-1-c1596024
 jupiter-voyager-1-c1598512
-jupiter-voyager-1-c1601459
 jupiter-voyager-1-c1604429
 jupiter-voyager-1-c1604446
 jupiter-voyager-1-c1607424
@@ -62,7 +61,6 @@ europa-voyager-1-c1630005
 jupiter-voyager-1-c1630124
 callisto-voyager-1-c1630811
 ganymede-voyager-1-c1630832
-jupiter-voyager-1-c1630959
 europa-voyager-1-c1631251
 callisto-voyager-1-c1632155
 io-voyager-1-c1632214
@@ -74,7 +72,6 @@ io-voyager-1-c1634518
 europa-voyager-1-c1634914
 io-voyager-1-c1635130
 europa-voyager-1-c1635204
-jupiter-voyager-1-c1635403
 europa-voyager-1-c1636035
 io-voyager-1-c1636052
 io-voyager-1-c1636846
@@ -83,8 +80,6 @@ europa-voyager-1-c1636908
 io-voyager-1-c1637248
 io-voyager-1-c1637542
 io-voyager-1-c1638228
-jupiter-voyager-1-c1638806
-io-voyager-1-c1639055
 callisto-voyager-1-c1640004
 callisto-voyager-1-c1640006
 ganymede-voyager-1-c1640219
@@ -176,7 +171,6 @@ europa-voyager-2-c2051903
 ganymede-voyager-2-c2053007
 europa-voyager-2-c2053039
 europa-voyager-2-c2053909
-jupiter-voyager-2-c2054005
 ganymede-voyager-2-c2054715
 europa-voyager-2-c2054747
 jupiter-voyager-2-c2055145
@@ -189,7 +183,6 @@ jupiter-voyager-2-c2056515
 ganymede-voyager-2-c2056851
 europa-voyager-2-c2057342
 europa-voyager-2-c2058615
-jupiter-voyager-2-c2058623
 io-voyager-2-c2059221
 europa-voyager-2-c2059325
 europa-voyager-2-c2060548
@@ -203,14 +196,11 @@ io-voyager-2-c2061524
 callisto-voyager-2-c2061655
 europa-voyager-2-c2062526
 jupiter-voyager-2-c2062549
-jupiter-voyager-2-c2062914
 ganymede-voyager-2-c2063531
 ganymede-voyager-2-c2063836
 ganymede-voyager-2-c2063856
 ganymede-voyager-2-c2063916
 ganymede-voyager-2-c2064040
-jupiter-voyager-2-c2064424
-jupiter-voyager-2-c2064636
 europa-voyager-2-c2065149
 io-voyager-2-c2065954
 io-voyager-2-c2066124
@@ -229,3 +219,6 @@ saturn-voyager-1-c3284647
 saturn-voyager-1-c3296451
 saturn-voyager-1-c3299539
 saturn-voyager-1-c3302627
+saturn-voyager-1-c3305441
+saturn-voyager-1-c3308529
+saturn-voyager-1-c3311424
