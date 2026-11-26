@@ -196,16 +196,16 @@ def subpix(ga, gb, dy, dx):
     return frac(score(ga, gb, dy - 1, dx), c, score(ga, gb, dy + 1, dx)), frac(score(ga, gb, dy, dx - 1), c, score(ga, gb, dy, dx + 1))
 
 
-# Takes off the dark sky: a plane fitted to each channel away from the lit body, so a gradient left by the camera doesn't tint the black; the empty margin left by the distortion fix stays at zero.
-# The fit starts from the darker half of the sky and drops outliers, so rings or a second moon away from the main body don't lift it, and the plane is held within the sky's own darker levels.
+# Takes off the dark sky: a plane fitted to each channel away from the lit body, then a smoothed row-by-row level, so a gradient or a band left by the camera doesn't tint the black; the empty margin left by the distortion fix stays at zero.
+# Both fits use the darker sky with outliers dropped, so rings or a second moon don't lift them, and what is taken off is held to a few percent of the body's brightness.
 def sky(x, body):
     nodata = ndimage.binary_opening(x <= 0, iterations=3)
     away = ~ndimage.binary_dilation(body, iterations=15) & ~nodata
     if away.sum() < 2000:
         return x
+    cap = 0.03 * np.percentile(x, 99.5)
     ys, xs = np.nonzero(away)
     v = x[ys, xs]
-    lo, hi = np.percentile(v, [5, 60])
     keep = v <= np.percentile(v, 50)
     A = np.stack([np.ones(v.size), ys, xs], 1)
     for _ in range(4):
@@ -216,8 +216,17 @@ def sky(x, body):
         if keep.sum() < 500:
             break
     yy, xx = np.mgrid[:x.shape[0], :x.shape[1]]
-    plane = np.clip(c[0] + c[1] * yy + c[2] * xx, lo, hi)
-    return np.where(nodata, 0, x - plane)
+    y = x - np.clip(c[0] + c[1] * yy + c[2] * xx, -cap, cap)
+    rows = np.full(x.shape[0], np.nan)
+    for r in range(x.shape[0]):
+        a = y[r][away[r]]
+        if a.size > 0.4 * x.shape[1]:
+            rows[r] = np.percentile(a, 25)
+    ok = ~np.isnan(rows)
+    if ok.sum() > 50:
+        level = np.interp(np.arange(x.shape[0]), np.nonzero(ok)[0], ndimage.median_filter(rows[ok], 31, mode="nearest"))
+        y = y - np.clip(ndimage.uniform_filter1d(level, 15), -cap, cap)[:, None]
+    return np.where(nodata, 0, y)
 
 
 # Lit area of a set, from all its channels together.
@@ -271,6 +280,8 @@ def trim(chans, tol=0.25, depth=60):
             if any(abs(np.median(s[at(i)][m]) / max(ref[f], 1e-6) - 1) > tol for f, s in share.items()):
                 k = i + 1
         cut[side] = k
+    if lit[cut["top"]:h - cut["bottom"], cut["left"]:w - cut["right"]].sum() < 0.7 * lit.sum():
+        return chans, {"skipped": cut}  # a cut that takes off much of the subject (a small moon at the edge) costs more than the strip
     return {f: x[cut["top"]:h - cut["bottom"], cut["left"]:w - cut["right"]] for f, x in chans.items()}, cut
 
 
