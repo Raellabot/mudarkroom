@@ -15,7 +15,7 @@ import argparse, json, os, re, sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 NUM = {"one": 1, "two": 2, "three": 3, "four": 4, "five": 5, "six": 6, "seven": 7, "eight": 8, "nine": 9, "ten": 10}
-MISSION_WORDS = {"Hubble": {"HST"}, "Webb": {"JWST"}, "Chandra": {"Chandra"}, "ALMA": {"ALMA"}, "Cassini": {"Cassini"}, "Juno": {"Juno"}, "JunoCam": {"Juno"}}
+MISSION_WORDS = {"Hubble": {"HST"}, "Webb": {"JWST"}, "Chandra": {"Chandra"}, "ALMA": {"ALMA"}, "Cassini": {"Cassini"}, "Juno": {"Juno"}, "JunoCam": {"Juno"}, "Voyager": {"Voyager"}}
 INSTRUMENT_WORDS = {"NIRCam": "NIRCAM", "MIRI": "MIRI", "WFC3": "WFC3", "ACS": "ACS", "WFPC2": "WFPC2", "UVIS": "UVIS"}
 QUANTITY = re.compile(r"(?<![\w.])(\d[\d,]*(?:\.\d+)?)\s*(million|billion|thousand)?\s*(light-years|light years|kilometers|kilometres|km|years old|years|parsecs|solar masses)", re.I)
 
