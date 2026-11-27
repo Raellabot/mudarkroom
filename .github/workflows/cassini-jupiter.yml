@@ -1,0 +1,57 @@
+name: Cassini Jupiter movie
+
+# Run by hand: probes the 2000-01 Cassini Jupiter products or makes the approach movies; results go to a branch of their own (cassini-out-<run id>).
+on:
+  workflow_dispatch:
+    inputs:
+      step:
+        description: "probe or movie"
+        default: "movie"
+      args:
+        description: "probe: opusids; movie: the set list csv"
+        default: "catalog/cassini-jupiter-departure.csv"
+
+concurrency:
+  group: cassini-jupiter
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install numpy pillow scipy
+      - run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg fonts-dejavu-core
+      - name: Run
+        env:
+          STEP: ${{ inputs.step }}
+          ARGS: ${{ inputs.args }}
+        run: |
+          set -o pipefail
+          mkdir -p out
+          case "$STEP" in
+            probe) python -u scripts/cassini/jupiter_probe.py out $ARGS 2>&1 | tee out/run.log ;;
+            movie) python -u scripts/cassini/jupiter_approach.py "$ARGS" out 2>&1 | tee out/run.log ;;
+            *) exit 1 ;;
+          esac
+      - name: Push to a branch of its own
+        if: always()
+        env:
+          RUN: ${{ github.run_id }}
+          REPO: ${{ github.repository }}
+          TOKEN: ${{ github.token }}
+        run: |
+          cd out
+          git init -q -b "cassini-out-$RUN"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -q -m "Output of run $RUN"
+          git push -q -f "https://x-access-token:${TOKEN}@github.com/${REPO}.git" "cassini-out-$RUN"
