@@ -58,7 +58,10 @@ def block_reduce(data, k, zero_empty):
 def resample(path, ra, dec, out_scale, zero_empty):
     # Puts one mosaic onto the grid (positions given as RA, Dec of every grid pixel); returns NaN where the mosaic has no data.
     with fits.open(path, memmap=True) as hd:
-        hdu = next(x for x in hd if x.data is not None and getattr(x.data, "ndim", 0) == 2)
+        hdu = next((x for x in hd if x.data is not None and getattr(x.data, "ndim", 0) == 2), None)
+        if hdu is None:
+            print(f"  {os.path.basename(path)}: no 2-D image inside; skipped", flush=True)
+            return None
         w = WCS(hdu.header).celestial
         data = hdu.data
         in_scale = color.scale_of(w)
@@ -131,6 +134,8 @@ def accumulate(paths_or_urls, getter, ra, dec, scale, zero_empty):
         getter(ref, path)
         a = resample(path, ra, dec, scale, zero_empty)
         os.remove(path)
+        if a is None:
+            continue
         m = np.isfinite(a)
         if m.any():
             tot[m] += a[m]
