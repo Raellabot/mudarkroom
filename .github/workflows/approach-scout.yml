@@ -1,0 +1,41 @@
+name: Approach scout
+
+# Run by hand: counts approach and departure frames for New Horizons, Cassini, Dawn, MESSENGER and others (report goes to the `results` branch).
+on:
+  workflow_dispatch:
+
+concurrency:
+  group: approach-scout
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  survey:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install numpy pillow
+      - name: Survey
+        run: |
+          set -o pipefail
+          mkdir -p out
+          python -u scripts/scout/approach_scout.py out 2>&1 | tee out/run.log
+      - name: Save to the results branch
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          rm -rf /tmp/mc && git worktree prune
+          git fetch -q origin results
+          git worktree add -q -B results /tmp/mc origin/results
+          mkdir -p "/tmp/mc/scout/approach-$GITHUB_RUN_ID"
+          cp -r out/. "/tmp/mc/scout/approach-$GITHUB_RUN_ID/"
+          git -C /tmp/mc add -f scout
+          git -C /tmp/mc commit -q -m "Approach scout (run $GITHUB_RUN_ID)" || { echo "no changes"; exit 0; }
+          for i in 1 2 3 4 5; do git -C /tmp/mc push -q origin results && break; git -C /tmp/mc pull -q --rebase origin results; sleep 5; done
