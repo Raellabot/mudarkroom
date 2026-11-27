@@ -1,0 +1,26 @@
+sets 362
+failed 0 []
+{"sets": 362, "failed": 0, "cut_off": 208, "small": 0, "dropouts": 25, "used": 129, "top": 9458.980469, "first": "2015-07-08T07:56:00.699", "last": "2015-07-13T21:00:54.705", "diam_first": 109.0, "diam_last": 655.0, "gain": [1.0, 1.0, 1.0], "ratios": {}, "mode": "-"}
+{
+ "sets": 362,
+ "failed": 0,
+ "cut_off": 208,
+ "small": 0,
+ "dropouts": 25,
+ "used": 129,
+ "top": 9458.980469,
+ "first": "2015-07-08T07:56:00.699",
+ "last": "2015-07-13T21:00:54.705",
+ "diam_first": 109.0,
+ "diam_last": 655.0,
+ "gain": [
+  1.0,
+  1.0,
+  1.0
+ ],
+ "ratios": {},
+ "mode": "-",
+ "approach": 129,
+ "spin": 129,
+ "one_per_turn": 1
+}
