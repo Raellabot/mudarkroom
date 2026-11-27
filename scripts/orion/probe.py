@@ -42,3 +42,14 @@ try:
 except Exception as e:
     print("HST error", e, flush=True)
 json.dump(rep, open(os.path.join(out, "probe.json"), "w"), indent=1)
+print("== HLSP observations (first 40)")
+for h in rep["hlsp"][:40]:
+    print(" ", h["provenance_name"], h["target_name"], h["instrument_name"], h["filters"], h["obs_id"], h["s_ra"], h["s_dec"], h["dataproduct_type"])
+print("== HLSP provenance names:", sorted({h["provenance_name"] for h in rep["hlsp"]}))
+print("== HLSP products")
+for p in rep["hlsp_products"]:
+    print(" ", p["obs_id"], p["productFilename"], p["size"], p["productType"], p["dataURI"])
+print("== SEIP rows")
+for r in (rep["irsa"].get("spitzer_seip") or []):
+    if isinstance(r, dict):
+        print(" ", r.get("obs_id"), r.get("dataproduct_subtype"), r.get("energy_bandpassname"), r.get("access_estsize"), r.get("s_ra"), r.get("s_dec"), r.get("s_fov"), r.get("access_url"))
