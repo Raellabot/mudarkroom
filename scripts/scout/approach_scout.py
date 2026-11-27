@@ -19,7 +19,11 @@ OPUS_JOBS = [
 INDEX_JOBS = [
     dict(name="dawn-vesta", roots=["https://sbnarchive.psi.edu/pds3/dawn/fc/"], vol=r"(?i)^dwnv.*fc2_1a$", time1="2011-05-01", time2="2011-07-17", body="vesta", horizons="4;", sc="-203", cam="dawn-fc"),
     dict(name="dawn-ceres", roots=["https://sbnarchive.psi.edu/pds3/dawn/fc/"], vol=r"(?i)^dwnc.*fc2_1a$", time1="2014-12-01", time2="2015-05-31", body="ceres", horizons="1;", sc="-203", cam="dawn-fc"),
-    dict(name="messenger-earth", roots=["https://planetarydata.jpl.nasa.gov/img/data/messenger/", "https://pds-geosciences.wustl.edu/messenger/mess-e_v_h-mdis-2-edr-rawdata-v1/", "https://pds-imaging.jpl.nasa.gov/data/messenger/"], vol=r"(?i)(mdis-2-edr|messmdis_1001|msgrmds_1001)", time1="2005-07-25", time2="2005-08-10", body="earth", horizons="399", sc="-236", cam="mdis-wac"),
+    dict(name="messenger-earth", roots=["https://planetarydata.jpl.nasa.gov/img/data/messenger/", "https://pds-geosciences.wustl.edu/messenger/mess-e_v_h-mdis-2-edr-rawdata-v1/", "https://pds-imaging.jpl.nasa.gov/data/messenger/"], vol=r"(?i)^(messmdis_1001|MSGRMDS_1001|2005.*)$", time1="2005-07-25", time2="2005-08-10", body="earth", horizons="399", sc="-236", cam="mdis-wac"),
+]
+
+DIR_JOBS = [
+    dict(name="messenger-earth-dirs", root="https://planetarydata.jpl.nasa.gov/img/data/messenger/MSGRMDS_1001/DATA/", follow=r"^(2005.*|EDR|edr)$", keep=r"^2005_2(0[6-9]|1\d|2[0-2])$"),
 ]
 
 
@@ -254,7 +258,7 @@ def index_job(out, job):
         tab = lbl.rsplit("/", 1)[0] + "/" + (table or os.path.basename(lbl)[:-4] + ".TAB")
         tcol = next((c for c in cols if c["NAME"] in ("START_TIME", "IMAGE_TIME", "SPACECRAFT_CLOCK_START_TIME") and "CLOCK" not in c["NAME"]), None) or next(c for c in cols if "TIME" in c["NAME"])
         print("reading", tab, "time column", tcol["NAME"], flush=True)
-        n = 0
+        n, years, first = 0, collections.Counter(), []
         try:
             stream = get(tab, raw=True)
         except Exception:
@@ -264,10 +268,13 @@ def index_job(out, job):
             line = line.decode("latin-1")
             rec = {c["NAME"]: line[c["START_BYTE"] - 1:c["START_BYTE"] - 1 + c["BYTES"]].strip().strip('"').strip() for c in cols if "START_BYTE" in c}
             t = ts(rec[tcol["NAME"]])
+            years[day(t)[:7] if t else "?"] += 1
+            if len(first) < 3:
+                first.append(line[:400])
             if t and t1 <= t < t2:
                 rec["t"] = t
                 rows.append(rec)
-        print(lbl, "lines", n, "in window", len(rows), flush=True)
+        print(lbl, "lines", n, "in window so far", len(rows), "months", sorted(years.items())[:80], "first lines", first, flush=True)
     if not rows:
         return dict(name=job["name"], frames=0, labels=labels)
     keys = list(rows[0])
@@ -296,7 +303,7 @@ def horizons_sizes(job, days):
     for i in range(0, len(days), 40):
         part = days[i:i + 40]
         q = {"format": "json", "COMMAND": f"'{job['horizons']}'", "OBJ_DATA": "NO", "MAKE_EPHEM": "YES", "EPHEM_TYPE": "OBSERVER", "CENTER": f"'500@{job['sc']}'",
-             "TLIST": "'" + " ".join(f"{d} 12:00" for d in part) + "'", "TIME_TYPE": "UT", "QUANTITIES": "'20'", "CSV_FORMAT": "YES"}
+             "TLIST": "'" + " ".join(f"{ts(d) / 86400 + 2440588.0:.4f}" for d in part) + "'", "TIME_TYPE": "UT", "QUANTITIES": "'20'", "CSV_FORMAT": "YES"}
         try:
             txt = json.load(urllib.request.urlopen(HORIZONS + "?" + urllib.parse.urlencode(q), timeout=120))["result"]
         except Exception as e:
@@ -314,6 +321,27 @@ def horizons_sizes(job, days):
                 print("row?", row, flush=True)
         time.sleep(1)
     return out
+
+
+# Lists archive folders by day and counts image files by name pattern.
+def dir_job(out, job):
+    found, top = {}, listing(job["root"])
+    print("top", job["root"], top[:80], flush=True)
+    todo = [job["root"] + n.rstrip("/") + "/" for n in top if re.search(job["follow"], n.rstrip("/"))]
+    while todo:
+        u = todo.pop(0)
+        names = listing(u)
+        b = u.rstrip("/").split("/")[-1]
+        if re.search(job["keep"], b):
+            found[b] = [n for n in names if not n.endswith("/")]
+        for n in names:
+            c = n.rstrip("/")
+            if n.endswith("/") and (re.search(job["keep"], c) or (re.search(job["follow"], c) and u.count("/") < job["root"].count("/") + 2)):
+                todo.append(u + c + "/")
+    imgs = {d: [n for n in v if n.upper().endswith((".IMG", ".FIT", ".FITS"))] for d, v in found.items()}
+    return dict(name=job["name"], folders=sorted(found), images_by_folder={d: len(v) for d, v in sorted(imgs.items())},
+                by_prefix_and_letter={d: collections.Counter(n[:2].upper() + "|" + os.path.splitext(n)[0][-1].upper() for n in v).most_common() for d, v in sorted(imgs.items())},
+                sample={d: v[:5] for d, v in sorted(imgs.items())})
 
 
 def main(out):
@@ -334,6 +362,15 @@ def main(out):
             continue
         try:
             report[job["name"]] = index_job(out, job)
+        except Exception as e:
+            report[job["name"]] = dict(error=repr(e))
+            print("FAILED", job["name"], e, flush=True)
+        save(out, "report.json", report)
+    for job in DIR_JOBS:
+        if only and job["name"] not in only:
+            continue
+        try:
+            report[job["name"]] = dir_job(out, job)
         except Exception as e:
             report[job["name"]] = dict(error=repr(e))
             print("FAILED", job["name"], e, flush=True)
