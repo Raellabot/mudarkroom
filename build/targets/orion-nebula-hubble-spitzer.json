@@ -34,7 +34,15 @@
       "program": "10246",
       "instrument": "ACS/WFC",
       "radius_deg": 0.45,
-      "trail_angle": -8.5
+      "trail_pieces": {
+        "from": -12,
+        "to": 12,
+        "step": 0.5,
+        "length": 15,
+        "k": 6.0,
+        "width": 15,
+        "grow": 1
+      }
     },
     "spitzer": {
       "tiles": [
@@ -123,7 +131,14 @@
         "IRAC 5.8 µm": "#e23a1c"
       },
       "weights": {
-        "IRAC 4.5 µm": 0.0
+        "IRAC 4.5 µm": 0.0,
+        "F435W": 0.4,
+        "F555W": 0.4,
+        "F658N": 0.45,
+        "F775W": 0.35,
+        "F850LP": 0.35,
+        "IRAC 3.6 µm": 0.35,
+        "IRAC 5.8 µm": 0.6
       }
     },
     "credit": "Data: NASA, ESA, STScI (Hubble, HST Orion Treasury Program 10246, M. Robberto et al.); NASA/JPL-Caltech (Spitzer Enhanced Imaging Products, IRSA). Developed by RRR + Claude. Not made or endorsed by NASA, ESA, STScI, JPL or Caltech.",
@@ -136,7 +151,13 @@
         "name": "Spitzer Enhanced Imaging Products, NASA/IPAC Infrared Science Archive",
         "url": "https://irsa.ipac.caltech.edu/data/SPITZER/Enhanced/SEIP/overview.html"
       }
-    ]
+    ],
+    "focus": {
+      "name": "the Trapezium",
+      "ra": 83.8186,
+      "dec": -5.3897,
+      "middle": 0.1
+    }
   },
   "facts": {
     "checked": "2026-11-26",

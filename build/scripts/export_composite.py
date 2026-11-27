@@ -5,7 +5,7 @@ import gzip, json, os, shutil, sys, time, urllib.parse, urllib.request, warnings
 import numpy as np
 from astropy.io import fits
 from astropy.wcs import WCS, FITSFixedWarning
-from scipy.ndimage import binary_dilation, binary_erosion, gaussian_filter, map_coordinates, median_filter, minimum_filter
+from scipy.ndimage import binary_dilation, binary_erosion, binary_opening, gaussian_filter, map_coordinates, maximum_filter, median_filter, minimum_filter
 from scipy.sparse import lil_matrix
 from scipy.sparse.linalg import lsqr
 
@@ -166,7 +166,7 @@ def load_pieces(path):
     return [(int(z[f"o{k}"][0]), int(z[f"o{k}"][1]), z[f"p{k}"].astype(np.float32)) for k in range(n)], json.loads(str(z["ids"])), tuple(int(v) for v in z["shape"]), z
 
 
-def level_pieces(pieces, shape, edge=2, min_overlap=400):
+def level_pieces(pieces, shape, edge=1, min_overlap=400):
     # Hubble pointings were taken at different times with different sky levels; finds one offset per pointing (least squares over every overlap) so the seams vanish, then averages.
     full = []
     for y0, x0, c in pieces:
@@ -201,14 +201,41 @@ def level_pieces(pieces, shape, edge=2, min_overlap=400):
     print(f"  leveled {n} pieces over {len(rows)} overlaps; offsets span {np.ptp(off):.4g}", flush=True)
     tot = np.zeros(shape, np.float64)
     cnt = np.zeros(shape, np.float32)
+    hi = np.full(shape, -np.inf, np.float32)
     for (y0, x0, c), o in zip(full, off):
         m = np.isfinite(c)
         sl = (slice(y0, y0 + c.shape[0]), slice(x0, x0 + c.shape[1]))
         tot[sl][m] += c[m] - o
         cnt[sl][m] += 1
+        hi[sl][m] = np.maximum(hi[sl][m], c[m] - o)
     out = np.where(cnt > 0, tot / np.maximum(cnt, 1), np.nan).astype(np.float32)
+    # where pointings overlap and one is far brighter than the rest (a bleed trail or satellite in that exposure only), leave it out
+    rest = np.where(cnt > 1, (tot - hi) / np.maximum(cnt - 1, 1), np.nan)
+    fin = np.isfinite(out)
+    noise = 1.4826 * np.median(np.abs(out[fin] - np.median(out[fin])))
+    odd = (cnt > 1) & (hi - rest > np.maximum(0.5 * np.abs(rest), 5 * noise))
+    odd = binary_dilation(odd, iterations=1) & (cnt > 1)
+    out = np.where(odd, rest, out).astype(np.float32)
+    print(f"  left out one pointing's outliers at {odd.mean() * 100:.2f}% of the pixels", flush=True)
     lo = np.nanpercentile(out, 0.5)
-    return out - min(lo, 0)
+    return fill_thin_gaps(out - min(lo, 0))
+
+
+def fill_thin_gaps(a, width=21):
+    # The gap between the two detectors of a camera, and a few slivers between pointings, leave narrow strips where no pointing looked; those take the level from either side. Wider empty areas stay empty.
+    empty = ~np.isfinite(a)
+    thin = empty & ~binary_opening(empty, structure=np.ones((width, width), bool))
+    if not thin.any():
+        return a
+    f = np.where(empty, 0.0, a)
+    w = (~empty).astype(np.float32)
+    out = a.copy()
+    for sig in (1.5, 3, 6, 12):
+        num, den = gaussian_filter(f, sig), gaussian_filter(w, sig)
+        todo = thin & ~np.isfinite(out) & (den > 0.05)
+        out[todo] = num[todo] / den[todo]
+    print(f"  filled {thin.sum()} pixels of thin gaps between detectors", flush=True)
+    return out
 
 
 def line_footprint(length, angle_deg):
@@ -219,17 +246,42 @@ def line_footprint(length, angle_deg):
     return k
 
 
-def destreak(a, angle_deg, length=15, k=6.0):
-    # Saturated stars bleed into long thin trails along the detector columns; a pixel far above the band across the trail but just as bright along it is part of a trail, and takes the level across it.
-    f = np.nan_to_num(a)
-    across = median_filter(f, footprint=line_footprint(9, angle_deg + 90))
+def trail_mask(a, angle_deg, length=15, k=6.0, width=9):
+    # Saturated stars bleed into long thin trails along the detector columns; a pixel far above the band across the trail but just as bright along it is part of a trail
+    fin = np.isfinite(a)
+    f = np.where(fin, a, np.nanmedian(a))
+    across = median_filter(f, footprint=line_footprint(width, angle_deg + 90))
     r = f - across
-    sig = 1.4826 * np.median(np.abs(r[np.isfinite(a)] - np.median(r[np.isfinite(a)]))) or 1e-6
+    sig = 1.4826 * np.median(np.abs(r[fin] - np.median(r[fin]))) or 1e-6
     along = minimum_filter(r, footprint=line_footprint(length, angle_deg))
-    m = along > k * sig
-    m = np.maximum.reduce([m, np.roll(m, 1, 0), np.roll(m, -1, 0), np.roll(m, 1, 1), np.roll(m, -1, 1)])
-    print(f"  removed trails from {m.mean() * 100:.2f}% of the pixels", flush=True)
-    return np.where(m & np.isfinite(a), across, a)
+    # only where the whole band across the trail has data, so a detector edge (which runs along the columns too) is not taken for a trail
+    inside = minimum_filter(fin, footprint=line_footprint(width, angle_deg + 90)) & minimum_filter(fin, footprint=line_footprint(length, angle_deg))
+    return (along > k * sig) & inside, f, across, r, along, sig
+
+
+def destreak(a, angle_deg, length=15, k=6.0, width=9, grow=1, quiet=False):
+    m0, f, across, r, along, sig = trail_mask(a, angle_deg, length, k, width)
+    m = binary_dilation(m0, iterations=grow) & np.isfinite(a)
+    if not quiet:
+        print(f"  removed trails from {m.mean() * 100:.2f}% of the pixels", flush=True)
+    # a star sitting on a trail stands far above the trail's level along it; it keeps its light less that level, everything else takes the level across the trail
+    lvl = maximum_filter(np.where(m0, along, 0), size=2 * grow + 1)
+    star = binary_dilation((r > 6 * np.maximum(lvl, 0)) & (r > 50 * sig) & m, iterations=2) & m
+    return np.where(m, np.where(star, np.maximum(a - lvl, across), across), a)
+
+
+def destreak_pieces(pieces, angles, length=15, k=6.0, width=9, grow=1):
+    # each Hubble pointing has its own roll, so its trails have their own angle: find the angle that shows the most trail in each piece and clean it before the pieces are joined
+    out, used = [], {}
+    for y0, x0, c in pieces:
+        counts = [int(trail_mask(c, t, length, k, width)[0].sum()) for t in angles]
+        best = int(np.argmax(counts))
+        if counts[best] >= 3 * length:
+            c = destreak(c, angles[best], length, k, width, grow, quiet=True)
+            used[angles[best]] = used.get(angles[best], 0) + 1
+        out.append((y0, x0, c))
+    print(f"  cleaned trails in {sum(used.values())} of {len(pieces)} pieces; angles used {dict(sorted(used.items()))}", flush=True)
+    return out
 
 
 def mast_get(uri, path):
@@ -304,9 +356,12 @@ def combine(src, i, partdir):
     pieces, ids, shape, _ = load_pieces(os.path.join(partdir, f"{i}.npz"))
     print(f"== layer {i}: {lay['label']} from {len(pieces)} pieces", flush=True)
     if lay["mission"] == "HST":
+        tp = src.get("hubble", {}).get("trail_pieces")
+        if tp:
+            pieces = destreak_pieces(pieces, list(np.arange(tp["from"], tp["to"] + 1e-9, tp["step"])), tp.get("length", 15), tp.get("k", 6.0), tp.get("width", 9), tp.get("grow", 1))
         a = level_pieces(pieces, shape)
-        if src.get("hubble", {}).get("trail_angle") is not None:
-            a = destreak(a, src["hubble"]["trail_angle"])
+        for t in src.get("hubble", {}).get("trails", []):
+            a = destreak(a, t["angle"], length=t.get("length", 15), k=t.get("k", 6.0), width=t.get("width", 9), grow=t.get("grow", 1))
         ids = [x for x in ids]
     else:
         a = spitzer_join(pieces, ids, shape, src["spitzer"].get("join", "short"))
@@ -314,26 +369,44 @@ def combine(src, i, partdir):
     return a, ids
 
 
-def best_box(cover):
-    # Largest upright rectangle where every layer has data, found on a coarse grid (histogram method).
+def longest_run(v):
+    # Start and length of the longest run of True in a 1-D array.
+    d = np.diff(np.concatenate([[0], v.astype(np.int8), [0]]))
+    starts, ends = np.where(d == 1)[0], np.where(d == -1)[0]
+    if not starts.size:
+        return 0, 0
+    k = int(np.argmax(ends - starts))
+    return int(starts[k]), int(ends[k] - starts[k])
+
+
+def best_box(cover, aspect=(0.75, 1.34), middle=0.3, focus=None):
+    # Largest upright rectangle where every layer has data, the shape stays near square and the subject's center (focus as grid pixel x, y, else the grid center) sits in the middle part, found on a coarse grid.
     f = 8
     h, w = cover.shape[0] // f, cover.shape[1] // f
     c = cover[:h * f, :w * f].reshape(h, f, w, f).mean(axis=(1, 3)) >= 0.995
-    heights = np.zeros(w, int)
+    cy, cx = (h / 2.0, w / 2.0) if focus is None else (focus[1] / f, focus[0] / f)
+    lo, hi = 0.5 - middle / 2, 0.5 + middle / 2
     best = (0, 0, 0, 0, 0)
-    for y in range(h):
-        heights = np.where(c[y], heights + 1, 0)
-        stack = []
-        for x in range(w + 1):
-            hh = heights[x] if x < w else 0
-            start = x
-            while stack and stack[-1][1] >= hh:
-                sx, sh = stack.pop()
-                area = sh * (x - sx)
-                if area > best[0]:
-                    best = (area, y - sh + 1, y + 1, sx, x)
-                start = sx
-            stack.append((start, hh))
+    for y0 in range(h):
+        run = c[y0].copy()
+        for y1 in range(y0, h):
+            run &= c[y1]
+            if not run.any():
+                break
+            x0, wd = longest_run(run)
+            ht = y1 - y0 + 1
+            if not lo <= (cy - y0) / ht <= hi:
+                continue
+            wd = min(wd, int(ht * aspect[1]))
+            if wd < ht * aspect[0]:
+                continue
+            # slide the box sideways so the center sits in its middle part, if the run allows
+            xs = int(round(cx - wd / 2.0))
+            x0 = min(max(x0, xs), x0 + max(0, longest_run(run)[1] - wd))
+            if not lo <= (cx - x0) / wd <= hi:
+                continue
+            if wd * ht > best[0]:
+                best = (wd * ht, y0, y1 + 1, x0, x0 + wd)
     _, y0, y1, x0, x1 = best
     return y0 * f, y1 * f, x0 * f, x1 * f
 
@@ -355,7 +428,7 @@ def finish_manifest(cfg, outdir):
         by_label = {l["label"]: l["id"] for l in m["layers"]}
         p["id"], p["name"] = ep["id"], ep["name"]
         p["colors"] = {by_label[k]: v for k, v in ep["colors"].items()}
-        p["weights"] = {lid: (round(m["presets"][0]["weights"][lid] * ep.get("weights", {}).get(lab, 1.0), 4)) for lab, lid in by_label.items()}
+        p["weights"] = {lid: ep.get("weights", {}).get(lab, m["presets"][0]["weights"][lid]) for lab, lid in by_label.items()}
         m["presets"].append(p)
     with open(mpath, "w") as f:
         json.dump(m, f, indent=1)
@@ -373,12 +446,17 @@ def build(cfg_path, partdir, outdir):
         chosen.append({"obs_collection": lay["mission"], "filters": lay["label"], "instrument_name": lay["instrument"], "em_min": c, "em_max": c,
                        "obs_id": ids[0] if ids else lay["label"], "tiles": [{"obs_id": t} for t in ids], "t_exptime": None})
     cover = np.all([np.isfinite(a) for a in raw], axis=0)
-    y0, y1, x0, x1 = best_box(cover)
+    focus = None
+    if src.get("focus"):
+        fx, fy = g.all_world2pix([[src["focus"]["ra"], src["focus"]["dec"]]], 0)[0]
+        focus = (float(fx), float(fy))
+        print(f"keeping {src['focus'].get('name', 'the focus')} near the middle (grid x {fx:.0f}, y {fy:.0f})", flush=True)
+    y0, y1, x0, x1 = best_box(cover, focus=focus, middle=src.get("focus", {}).get("middle", 0.3))
     print(f"every layer covers the box x {x0}-{x1}, y {y0}-{y1} ({(x1 - x0) * src['arcsec_per_pixel'] / 60:.1f} x {(y1 - y0) * src['arcsec_per_pixel'] / 60:.1f} arcmin)", flush=True)
     raw = [a[y0:y1, x0:x1] for a in raw]
     g.wcs.crpix = [g.wcs.crpix[0] - x0, g.wcs.crpix[1] - y0]
     if os.environ.get("SAVE_COMBINED"):
-        np.savez_compressed(os.environ["SAVE_COMBINED"], *[a.astype(np.float16) for a in raw])
+        np.savez_compressed(os.environ["SAVE_COMBINED"], *raw)
     grid = {"arcsec_per_pixel": src["arcsec_per_pixel"], "wcs": g.to_header().tostring()}
     fin = cfg.get("finish") or None
     manifest = ex.build(cfg, chosen, raw, grid, None, None, outdir, fin)
