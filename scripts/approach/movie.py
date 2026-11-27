@@ -40,7 +40,7 @@ def fetch(url):
         folder, name = url.rsplit("/", 1)
         stem, ext = name.split("_")[0].upper(), name.rsplit(".", 1)[-1].upper()
         links = re.findall(r'href="([^"?#]+)"', get(folder + "/").decode("latin1"))
-        hits = sorted({l.rsplit("/", 1)[-1] for l in links if l.rsplit("/", 1)[-1].upper().startswith(stem) and l.upper().endswith("." + ext)})
+        hits = sorted({l.rsplit("/", 1)[-1] for l in links if l.rsplit("/", 1)[-1].upper().startswith(stem) and l.upper().rsplit(".", 1)[-1] in ({ext, ext + "S"} if ext == "FIT" else {ext})})
         if not hits:
             raise
         u = folder + "/" + hits[-1]

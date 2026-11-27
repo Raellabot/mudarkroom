@@ -28,7 +28,7 @@ def main(out):
         t = r["START_TIME"]
         y, doy, rest = t[:4], int(t[5:8]), t[9:]
         iso = (datetime.date(int(y), 1, 1) + datetime.timedelta(doy - 1)).isoformat() + "T" + rest
-        url = ROOT + f[:-4] + ".FIT"
+        url = ROOT + "/DATA/FITS" + f[5:-4] + ".FIT"  # the calibrated volume keeps its FITS files one folder deeper (DATA/FITS/FITS/)
         rows.append(dict(label=r["PRODUCT_ID"], time=iso, caption="Dawn", kind="fits", red=url, green=url, blue=url))
     rows.sort(key=lambda r: r["time"])
     seen, uniq = set(), []
