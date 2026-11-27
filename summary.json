@@ -1,0 +1,24 @@
+{
+ "sets": 561,
+ "failed": 0,
+ "cut_off": 42,
+ "small": 0,
+ "dropouts": 22,
+ "used": 497,
+ "top": 0.001664,
+ "first": "2015-02-12T11:54:39.076",
+ "last": "2015-05-07T22:45:08.494",
+ "diam_first": 124.0,
+ "diam_last": 739.0,
+ "gain": [
+  1.0,
+  1.0,
+  1.0
+ ],
+ "ratios": {},
+ "mode": "-",
+ "roll": 15,
+ "approach": 497,
+ "spin": 497,
+ "one_per_turn": 12
+}
