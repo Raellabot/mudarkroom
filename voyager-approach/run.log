@@ -1,0 +1,22 @@
+/home/runner/work/mudarkroom/mudarkroom/scripts/voyager/approach.py:113: RuntimeWarning: divide by zero encountered in divide
+  off |= np.abs(r / np.median(r) - 1) > tol
+/home/runner/work/mudarkroom/mudarkroom/scripts/voyager/approach.py:113: RuntimeWarning: invalid value encountered in divide
+  off |= np.abs(r / np.median(r) - 1) > tol
+{
+ "sets": 486,
+ "failed": 1,
+ "cut_off": 89,
+ "dropouts": 393,
+ "used": 3,
+ "top_if": 0.6295,
+ "first": "1981-06-10T07:24:45.080",
+ "last": "1981-06-20T23:55:57.080",
+ "diam_first": 374.0,
+ "diam_last": 436.0,
+ "third": "violet",
+ "violet_gain": 1.0,
+ "violet_gain_sets": 0,
+ "approach": 3,
+ "spin": 3,
+ "one_per_turn": 2
+}
