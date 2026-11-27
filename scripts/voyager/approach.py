@@ -1,5 +1,5 @@
-# Jupiter approach animation from Voyager 1 narrow-angle color sets: aligns each set, centers the planet, renders on one fixed brightness scale, and writes the movies with ffmpeg.
-# Usage: approach.py SETS.csv OUTDIR
+# Planet approach animation from Voyager narrow-angle color sets: aligns each set, centers the planet, renders on one fixed brightness scale, and writes the movies with ffmpeg.
+# Usage: approach.py SETS.csv OUTDIR [blue|violet]  (the third filter shown as blue; violet frames are scaled to the blue level measured on sets that have both)
 import csv, json, os, subprocess, sys
 from concurrent.futures import ProcessPoolExecutor
 from datetime import datetime, timedelta
@@ -11,7 +11,8 @@ from screen import align, geomed_url, lit_mask, parse_vicar, to_if
 
 CANVAS = 1080
 SPIN_DIAMETER = 860
-ROTATION = timedelta(hours=9, minutes=55, seconds=29.7)
+ROTATIONS = {"Jupiter": timedelta(hours=9, minutes=55, seconds=29.7), "Saturn": timedelta(hours=10, minutes=39, seconds=22.4),
+             "Uranus": timedelta(hours=17, minutes=14, seconds=24), "Neptune": timedelta(hours=16, minutes=6, seconds=36)}
 FPS = 12
 MAX_GAP = 4         # dropped lines up to this many rows are filled from their neighbors
 MAX_LOST = 0.003    # a set missing more of the disk than this in any channel is left out
@@ -27,13 +28,12 @@ def font(size):
 
 # Downloads and aligns one set; saves the aligned linear I/F cube and returns where the planet sits.
 def prepare(args):
-    row, out = args
+    row, out, third = args
     try:
-        have = [f for f in ("orange", "green", "blue") if row[f]]
         gvol = row["green_file"].split("/")[0]
         frames = {}
-        for f in have:
-            _, b = geomed_url(row[f], gvol)
+        for f, src in (("orange", "orange"), ("green", "green"), ("blue", third)):
+            _, b = geomed_url(row[src], gvol)
             frames[f] = to_if(parse_vicar(b)[1])
         g, gbad = frames["green"]
         chans, bads = {"green": g}, {"green": gbad}
@@ -57,7 +57,13 @@ def prepare(args):
         cy, cx = ndimage.center_of_mass(m)
         diam = float(max(ys.max() - ys.min(), xs.max() - xs.min()) + 1)
         np.save(os.path.join(out, "cubes", row["label"] + ".npy"), rgb.astype(np.float16))
-        return dict(label=row["label"], time=row["time"], cy=float(cy), cx=float(cx), diam=diam, whole=whole,
+        bv = None
+        if third == "violet" and row.get("blue"):  # how much brighter the blue frame is than the violet one on the disk, to scale violet to blue
+            x, bad = to_if(parse_vicar(geomed_url(row["blue"], gvol)[1])[1])
+            (dy, dx), _, _, _, _ = align(g, x, gbad, bad)
+            x = np.roll(x, (dy, dx), axis=(0, 1))
+            bv = float(np.median(x[m]) / max(np.median(chans["blue"][m]), 1e-6))
+        return dict(label=row["label"], time=row["time"], spacecraft=row["spacecraft"], target=row["target"], bv=bv, cy=float(cy), cx=float(cx), diam=diam, whole=whole,
                     top=float(np.percentile(rgb.max(-1)[m], 99.5)), shifts=shifts, lost=lost, ratio=ratio)
     except Exception as e:
         return dict(label=row["label"], time=row["time"], error=repr(e)[:300])
@@ -108,15 +114,15 @@ def tinted_rows(chans, disk, tol=0.25):
     return float(n[use][off].sum() / max(disk.sum(), 1))
 
 
-def render(rgb, top):
-    x = np.clip(rgb / top, 0, 1)
+def render(rgb, top, gain):
+    x = np.clip(rgb * gain / top, 0, 1)
     return (np.arcsinh(x * 3) / np.arcsinh(3) * 255).astype(np.uint8)
 
 
 # Places one frame on the canvas with the planet at the center, optionally scaled so the disk is SPIN_DIAMETER across.
-def compose(info, out, top, spin):
+def compose(info, out, top, spin, gain):
     rgb = np.load(os.path.join(out, "cubes", info["label"] + ".npy")).astype(np.float32)
-    pic = Image.fromarray(render(rgb, top))
+    pic = Image.fromarray(render(rgb, top, gain))
     cy, cx = info["cy"], info["cx"]
     if spin:
         s = SPIN_DIAMETER / info["diam"]
@@ -126,7 +132,7 @@ def compose(info, out, top, spin):
     canvas.paste(pic, (round(CANVAS / 2 - cx), round(CANVAS / 2 - cy)))
     d = ImageDraw.Draw(canvas)
     when = datetime.fromisoformat(info["time"][:19])
-    d.text((28, CANVAS - 56), "Voyager 1  ·  " + when.strftime("%B %-d, 1979  %H:%M UTC"), fill=(235, 235, 235), font=font(26))
+    d.text((28, CANVAS - 56), f"Voyager {info['spacecraft']}  ·  " + when.strftime("%B %-d, %Y  %H:%M UTC"), fill=(235, 235, 235), font=font(26))
     return canvas
 
 
@@ -135,17 +141,18 @@ def movie(frames, path, fps):
                     "-c:v", "libx264", "-pix_fmt", "yuv420p", "-crf", "17", "-movflags", "+faststart", path], check=True)
 
 
-def write(infos, out, name, top, spin, fps):
+def write(infos, out, name, top, spin, fps, gain):
     d = os.path.join(out, "frames-" + name)
     os.makedirs(d, exist_ok=True)
     for i, info in enumerate(infos):
-        compose(info, out, top, spin).save(os.path.join(d, f"{i:04d}.png"))
+        compose(info, out, top, spin, gain).save(os.path.join(d, f"{i:04d}.png"))
     movie(d, os.path.join(out, name + ".mp4"), fps)
     return len(infos)
 
 
-# One set per Jupiter turn: the set nearest each whole rotation after the first, so the same face comes round each frame.
+# One set per planet turn: the set nearest each whole rotation after the first, so the same face comes round each frame.
 def one_per_turn(infos):
+    ROTATION = ROTATIONS[infos[0]["target"]]
     t0 = datetime.fromisoformat(infos[0]["time"][:19])
     times = [datetime.fromisoformat(i["time"][:19]) for i in infos]
     picked, k = [], 0
@@ -158,11 +165,11 @@ def one_per_turn(infos):
     return picked
 
 
-def main(sets, out):
+def main(sets, out, third="blue"):
     os.makedirs(os.path.join(out, "cubes"), exist_ok=True)
     rows = list(csv.DictReader(open(sets)))
     with ProcessPoolExecutor(max(2, os.cpu_count() or 2)) as ex:
-        infos = list(ex.map(prepare, [(r, out) for r in rows]))
+        infos = list(ex.map(prepare, [(r, out, third) for r in rows if r[third]]))
     with open(os.path.join(out, "frames.jsonl"), "w") as f:
         for i in infos:
             f.write(json.dumps(i) + "\n")
@@ -170,13 +177,16 @@ def main(sets, out):
     med = {f: float(np.median([i["ratio"][f] for i in ok])) for f in ("orange", "blue")}
     good = [i for i in ok if max(i["lost"].values()) <= MAX_LOST and all(abs(i["ratio"][f] / med[f] - 1) <= MAX_TINT for f in med)]
     good.sort(key=lambda i: i["time"])
+    bvs = [i["bv"] for i in good if i.get("bv")]
+    vgain = float(np.median(bvs)) if bvs else 1.0
+    gain = np.array([1.0, 1.0, vgain], np.float32)
     top = float(np.median([i["top"] for i in good]))
     counts = dict(sets=len(rows), failed=sum("error" in i for i in infos), cut_off=sum("error" not in i and not i["whole"] for i in infos), dropouts=len(ok) - len(good),
                   used=len(good), top_if=round(top, 4), first=good[0]["time"], last=good[-1]["time"],
-                  diam_first=good[0]["diam"], diam_last=good[-1]["diam"])
-    counts["approach"] = write(good, out, "approach", top, False, FPS)
-    counts["spin"] = write(good, out, "spin", top, True, FPS)
-    counts["one_per_turn"] = write(one_per_turn(good), out, "one-per-turn", top, False, 6)
+                  diam_first=good[0]["diam"], diam_last=good[-1]["diam"], third=third, violet_gain=round(vgain, 4), violet_gain_sets=len(bvs))
+    counts["approach"] = write(good, out, "approach", top, False, FPS, gain)
+    counts["spin"] = write(good, out, "spin", top, True, FPS, gain)
+    counts["one_per_turn"] = write(one_per_turn(good), out, "one-per-turn", top, False, 6, gain)
     json.dump(counts, open(os.path.join(out, "summary.json"), "w"), indent=1)
     print(json.dumps(counts, indent=1))
     for name in ("approach", "spin", "one-per-turn"):
@@ -185,4 +195,4 @@ def main(sets, out):
 
 
 if __name__ == "__main__":
-    main(sys.argv[1], sys.argv[2])
+    main(*sys.argv[1:4])
