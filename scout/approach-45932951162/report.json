@@ -1,0 +1,534 @@
+{
+ "dawn-vesta": {
+  "name": "dawn-vesta",
+  "frames": 2052,
+  "labels": [
+   "https://sbnarchive.psi.edu/pds3/dawn/fc/DWNVFC2_1A/INDEX/INDEX.LBL"
+  ],
+  "columns": [
+   "DATA_SET_ID",
+   "FILE_SPECIFICATION_NAME",
+   "PRODUCT_ID",
+   "VOLUME_ID",
+   "PRODUCT_CREATION_TIME",
+   "START_TIME",
+   "STOP_TIME",
+   "EXPOSURE_DURATION",
+   "INSTRUMENT_ID"
+  ],
+  "filter_key": null,
+  "target_key": null,
+  "instrument_key": "INSTRUMENT_ID",
+  "by_instrument": [
+   [
+    "FC2",
+    2052
+   ]
+  ],
+  "by_target": [
+   [
+    "?",
+    2052
+   ]
+  ],
+  "by_filter": [
+   [
+    "FC2|?",
+    2052
+   ]
+  ],
+  "by_day": [
+   [
+    "2011-05-03",
+    80
+   ],
+   [
+    "2011-05-10",
+    80
+   ],
+   [
+    "2011-05-17",
+    80
+   ],
+   [
+    "2011-05-24",
+    80
+   ],
+   [
+    "2011-06-01",
+    80
+   ],
+   [
+    "2011-06-08",
+    80
+   ],
+   [
+    "2011-06-14",
+    80
+   ],
+   [
+    "2011-06-17",
+    80
+   ],
+   [
+    "2011-06-20",
+    80
+   ],
+   [
+    "2011-06-24",
+    80
+   ],
+   [
+    "2011-06-30",
+    328
+   ],
+   [
+    "2011-07-04",
+    80
+   ],
+   [
+    "2011-07-09",
+    290
+   ],
+   [
+    "2011-07-10",
+    474
+   ],
+   [
+    "2011-07-13",
+    80
+   ]
+  ],
+  "gaps": [
+   {
+    "days": 7.89,
+    "after": "2011-05-24",
+    "before": "2011-06-01"
+   },
+   {
+    "days": 7.34,
+    "after": "2011-06-01",
+    "before": "2011-06-08"
+   },
+   {
+    "days": 7.19,
+    "after": "2011-05-10",
+    "before": "2011-05-17"
+   },
+   {
+    "days": 6.81,
+    "after": "2011-05-17",
+    "before": "2011-05-24"
+   },
+   {
+    "days": 6.71,
+    "after": "2011-05-03",
+    "before": "2011-05-10"
+   }
+  ],
+  "size_px_by_day_for_camera": {
+   "camera": "dawn-fc",
+   "ifov_urad": 93.7,
+   "by_day": {}
+  },
+  "sample_rows": [
+   {
+    "DATA_SET_ID": "DAWN-A-FC2-2-EDR-VESTA-IMAGES-V1.0",
+    "FILE_SPECIFICATION_NAME": "/DATA/FITS/2011123_APPROACH/2011123_OPNAV_001/FC21A0001898_11123133516F1E.LBL",
+    "PRODUCT_ID": "0001898",
+    "VOLUME_ID": "DWNVFC2_1A",
+    "PRODUCT_CREATION_TIME": "2013-10-29T11:14:49.000",
+    "START_TIME": "2011-123T13:35:16.604",
+    "STOP_TIME": "2011-123T13:35:18.295",
+    "EXPOSURE_DURATION": "1500.000",
+    "INSTRUMENT_ID": "FC2",
+    "t": 1304429716,
+    "size_px": null
+   },
+   {
+    "DATA_SET_ID": "DAWN-A-FC2-2-EDR-VESTA-IMAGES-V1.0",
+    "FILE_SPECIFICATION_NAME": "/DATA/FITS/2011123_APPROACH/2011165_OPNAV_007/FC21A0002154_11165140045F1H.LBL",
+    "PRODUCT_ID": "0002154",
+    "VOLUME_ID": "DWNVFC2_1A",
+    "PRODUCT_CREATION_TIME": "2013-10-29T11:15:26.000",
+    "START_TIME": "2011-165T14:00:45.988",
+    "STOP_TIME": "2011-165T14:00:47.684",
+    "EXPOSURE_DURATION": "1500.000",
+    "INSTRUMENT_ID": "FC2",
+    "t": 1308060045,
+    "size_px": null
+   },
+   {
+    "DATA_SET_ID": "DAWN-A-FC2-2-EDR-VESTA-IMAGES-V1.0",
+    "FILE_SPECIFICATION_NAME": "/DATA/FITS/2011123_APPROACH/2011181_RC1/FC21A0002421_11181084730F4K.LBL",
+    "PRODUCT_ID": "0002421",
+    "VOLUME_ID": "DWNVFC2_1A",
+    "PRODUCT_CREATION_TIME": "2013-10-29T11:16:02.000",
+    "START_TIME": "2011-181T08:47:30.287",
+    "STOP_TIME": "2011-181T08:47:30.799",
+    "EXPOSURE_DURATION": "320.000",
+    "INSTRUMENT_ID": "FC2",
+    "t": 1309423650,
+    "size_px": null
+   },
+   {
+    "DATA_SET_ID": "DAWN-A-FC2-2-EDR-VESTA-IMAGES-V1.0",
+    "FILE_SPECIFICATION_NAME": "/DATA/FITS/2011123_APPROACH/2011190_MOON_SEARCH/FC21A0002863_11191060819F1P.LBL",
+    "PRODUCT_ID": "0002863",
+    "VOLUME_ID": "DWNVFC2_1A",
+    "PRODUCT_CREATION_TIME": "2013-11-25T12:06:15.000",
+    "START_TIME": "2011-191T06:08:19.169",
+    "STOP_TIME": "2011-191T06:12:49.361",
+    "EXPOSURE_DURATION": "270000.000",
+    "INSTRUMENT_ID": "FC2",
+    "t": 1310278099,
+    "size_px": null
+   },
+   {
+    "DATA_SET_ID": "DAWN-A-FC2-2-EDR-VESTA-IMAGES-V1.0",
+    "FILE_SPECIFICATION_NAME": "/DATA/FITS/2011123_APPROACH/2011194_OPNAV_016/FC21A0002959_11194050102F1N.LBL",
+    "PRODUCT_ID": "0002959",
+    "VOLUME_ID": "DWNVFC2_1A",
+    "PRODUCT_CREATION_TIME": "2013-10-29T11:17:02.000",
+    "START_TIME": "2011-194T05:01:02.041",
+    "STOP_TIME": "2011-194T05:01:03.736",
+    "EXPOSURE_DURATION": "1500.000",
+    "INSTRUMENT_ID": "FC2",
+    "t": 1310533262,
+    "size_px": null
+   },
+   {
+    "DATA_SET_ID": "DAWN-A-FC2-2-EDR-VESTA-IMAGES-V1.0",
+    "FILE_SPECIFICATION_NAME": "/DATA/IMG/2011123_APPROACH/2011165_OPNAV_007/FC21A0002152_11165135746F1H.IMG",
+    "PRODUCT_ID": "0002152",
+    "VOLUME_ID": "DWNVFC2_1A",
+    "PRODUCT_CREATION_TIME": "2013-10-29T11:15:26.000",
+    "START_TIME": "2011-165T13:57:46.137",
+    "STOP_TIME": "2011-165T13:57:47.828",
+    "EXPOSURE_DURATION": "1500.000",
+    "INSTRUMENT_ID": "FC2",
+    "t": 1308059866,
+    "size_px": null
+   },
+   {
+    "DATA_SET_ID": "DAWN-A-FC2-2-EDR-VESTA-IMAGES-V1.0",
+    "FILE_SPECIFICATION_NAME": "/DATA/IMG/2011123_APPROACH/2011181_RC1/FC21A0002419_11181084706F2K.IMG",
+    "PRODUCT_ID": "0002419",
+    "VOLUME_ID": "DWNVFC2_1A",
+    "PRODUCT_CREATION_TIME": "2013-10-29T11:16:01.000",
+    "START_TIME": "2011-181T08:47:06.303",
+    "STOP_TIME": "2011-181T08:47:06.608",
+    "EXPOSURE_DURATION": "111.000",
+    "INSTRUMENT_ID": "FC2",
+    "t": 1309423626,
+    "size_px": null
+   },
+   {
+    "DATA_SET_ID": "DAWN-A-FC2-2-EDR-VESTA-IMAGES-V1.0",
+    "FILE_SPECIFICATION_NAME": "/DATA/IMG/2011123_APPROACH/2011190_MOON_SEARCH/FC21A0002861_11191060747F1P.IMG",
+    "PRODUCT_ID": "0002861",
+    "VOLUME_ID": "DWNVFC2_1A",
+    "PRODUCT_CREATION_TIME": "2013-11-25T12:06:15.000",
+    "START_TIME": "2011-191T06:07:47.044",
+    "STOP_TIME": "2011-191T06:07:48.736",
+    "EXPOSURE_DURATION": "1500.000",
+    "INSTRUMENT_ID": "FC2",
+    "t": 1310278067,
+    "size_px": null
+   }
+  ]
+ },
+ "dawn-ceres": {
+  "name": "dawn-ceres",
+  "frames": 9388,
+  "labels": [
+   "https://sbnarchive.psi.edu/pds3/dawn/fc/DWNC1FC2_1A/INDEX/INDEX.LBL",
+   "https://sbnarchive.psi.edu/pds3/dawn/fc/DWNC2FC2_1A/INDEX/INDEX.LBL",
+   "https://sbnarchive.psi.edu/pds3/dawn/fc/DWNC3FC2_1A/INDEX/INDEX.LBL",
+   "https://sbnarchive.psi.edu/pds3/dawn/fc/DWNC4FC2_1A/INDEX/INDEX.LBL",
+   "https://sbnarchive.psi.edu/pds3/dawn/fc/DWNC6FC2_1A/INDEX/INDEX.LBL",
+   "https://sbnarchive.psi.edu/pds3/dawn/fc/DWNC7FC2_1A/INDEX/INDEX.LBL",
+   "https://sbnarchive.psi.edu/pds3/dawn/fc/DWNCAFC2_1A/INDEX/INDEX.LBL",
+   "https://sbnarchive.psi.edu/pds3/dawn/fc/DWNCHFC2_1A/INDEX/INDEX.LBL",
+   "https://sbnarchive.psi.edu/pds3/dawn/fc/DWNCLFC2_1A/INDEX/INDEX.LBL",
+   "https://sbnarchive.psi.edu/pds3/dawn/fc/DWNCSFC2_1A/INDEX/INDEX.LBL"
+  ],
+  "columns": [
+   "DATA_SET_ID",
+   "FILE_SPECIFICATION_NAME",
+   "PRODUCT_ID",
+   "VOLUME_ID",
+   "PRODUCT_CREATION_TIME",
+   "START_TIME",
+   "STOP_TIME",
+   "INSTRUMENT_ID",
+   "EXPOSURE_DURATION",
+   "DAWN:IMAGE_ACQUIRE_MODE"
+  ],
+  "filter_key": null,
+  "target_key": null,
+  "instrument_key": "INSTRUMENT_ID",
+  "by_instrument": [
+   [
+    "FC2",
+    9388
+   ]
+  ],
+  "by_target": [
+   [
+    "?",
+    9388
+   ]
+  ],
+  "by_filter": [
+   [
+    "FC2|?",
+    9388
+   ]
+  ],
+  "by_day": [
+   [
+    "2015-01-13",
+    80
+   ],
+   [
+    "2015-01-25",
+    80
+   ],
+   [
+    "2015-02-04",
+    1336
+   ],
+   [
+    "2015-02-12",
+    364
+   ],
+   [
+    "2015-02-19",
+    472
+   ],
+   [
+    "2015-02-20",
+    24
+   ],
+   [
+    "2015-02-25",
+    440
+   ],
+   [
+    "2015-03-02",
+    440
+   ],
+   [
+    "2015-04-10",
+    440
+   ],
+   [
+    "2015-04-15",
+    440
+   ],
+   [
+    "2015-04-25",
+    226
+   ],
+   [
+    "2015-04-26",
+    886
+   ],
+   [
+    "2015-04-27",
+    312
+   ],
+   [
+    "2015-04-29",
+    1624
+   ],
+   [
+    "2015-04-30",
+    302
+   ],
+   [
+    "2015-05-01",
+    268
+   ],
+   [
+    "2015-05-04",
+    498
+   ],
+   [
+    "2015-05-05",
+    212
+   ],
+   [
+    "2015-05-06",
+    286
+   ],
+   [
+    "2015-05-07",
+    498
+   ],
+   [
+    "2015-05-16",
+    80
+   ],
+   [
+    "2015-05-22",
+    80
+   ]
+  ],
+  "gaps": [
+   {
+    "days": 39.23,
+    "after": "2015-03-02",
+    "before": "2015-04-10"
+   },
+   {
+    "days": 12.04,
+    "after": "2015-01-13",
+    "before": "2015-01-25"
+   },
+   {
+    "days": 9.9,
+    "after": "2015-04-15",
+    "before": "2015-04-25"
+   },
+   {
+    "days": 9.24,
+    "after": "2015-01-25",
+    "before": "2015-02-04"
+   },
+   {
+    "days": 8.76,
+    "after": "2015-05-07",
+    "before": "2015-05-16"
+   }
+  ],
+  "size_px_by_day_for_camera": {
+   "camera": "dawn-fc",
+   "ifov_urad": 93.7,
+   "by_day": {}
+  },
+  "sample_rows": [
+   {
+    "DATA_SET_ID": "DAWN-A-FC2-2-EDR-CERES-IMAGES-V1.0",
+    "FILE_SPECIFICATION_NAME": "/DATA/FITS/20141226_APPROACH/20150113_OPNAV_001/FC21A0032651_15013202050F1L.LBL",
+    "PRODUCT_ID": "0032651",
+    "VOLUME_ID": "DWNCAFC2_1A",
+    "PRODUCT_CREATION_TIME": "2016-03-30T09:28:23.000",
+    "START_TIME": "2015-013T20:20:50.444",
+    "STOP_TIME": "2015-013T20:20:51.639",
+    "EXPOSURE_DURATION": "1000.000",
+    "DAWN:IMAGE_ACQUIRE_MODE": "NORMAL",
+    "INSTRUMENT_ID": "FC2",
+    "t": 1421180450,
+    "size_px": null
+   },
+   {
+    "DATA_SET_ID": "DAWN-A-FC2-2-EDR-CERES-IMAGES-V1.0",
+    "FILE_SPECIFICATION_NAME": "/DATA/FITS/20141226_APPROACH/20150219_RC_002/FC21A0033824_15051002602F6I.LBL",
+    "PRODUCT_ID": "0033824",
+    "VOLUME_ID": "DWNCAFC2_1A",
+    "PRODUCT_CREATION_TIME": "2016-03-30T09:54:35.000",
+    "START_TIME": "2015-051T00:26:02.282",
+    "STOP_TIME": "2015-051T00:26:05.477",
+    "EXPOSURE_DURATION": "3000.000",
+    "DAWN:IMAGE_ACQUIRE_MODE": "NORMAL",
+    "INSTRUMENT_ID": "FC2",
+    "t": 1424391962,
+    "size_px": null
+   },
+   {
+    "DATA_SET_ID": "DAWN-A-FC2-2-EDR-CERES-IMAGES-V1.0",
+    "FILE_SPECIFICATION_NAME": "/DATA/FITS/20150424_RC3/20150426_HIGH_PHASE_SOUTH_002/FC21A0034997_15116154117F1I.LBL",
+    "PRODUCT_ID": "0034997",
+    "VOLUME_ID": "DWNCAFC2_1A",
+    "PRODUCT_CREATION_TIME": "2016-04-04T11:42:55.000",
+    "START_TIME": "2015-116T15:41:17.187",
+    "STOP_TIME": "2015-116T15:41:22.378",
+    "EXPOSURE_DURATION": "5000.000",
+    "DAWN:IMAGE_ACQUIRE_MODE": "NORMAL",
+    "INSTRUMENT_ID": "FC2",
+    "t": 1430062877,
+    "size_px": null
+   },
+   {
+    "DATA_SET_ID": "DAWN-A-FC2-2-EDR-CERES-IMAGES-V1.0",
+    "FILE_SPECIFICATION_NAME": "/DATA/FITS/20150424_RC3/20150429_HIGH_PHASE_NORTH_002/FC21A0036170_15119215603F1I.LBL",
+    "PRODUCT_ID": "0036170",
+    "VOLUME_ID": "DWNCAFC2_1A",
+    "PRODUCT_CREATION_TIME": "2016-04-04T11:52:38.000",
+    "START_TIME": "2015-119T21:56:03.242",
+    "STOP_TIME": "2015-119T21:56:04.035",
+    "EXPOSURE_DURATION": "600.000",
+    "DAWN:IMAGE_ACQUIRE_MODE": "NORMAL",
+    "INSTRUMENT_ID": "FC2",
+    "t": 1430344563,
+    "size_px": null
+   },
+   {
+    "DATA_SET_ID": "DAWN-A-FC2-2-EDR-CERES-IMAGES-V1.0",
+    "FILE_SPECIFICATION_NAME": "/DATA/IMG/20141226_APPROACH/20150125_OPNAV_002/FC21A0032729_15025231822F1H.IMG",
+    "PRODUCT_ID": "0032729",
+    "VOLUME_ID": "DWNCAFC2_1A",
+    "PRODUCT_CREATION_TIME": "2016-03-30T09:30:30.000",
+    "START_TIME": "2015-025T23:18:22.474",
+    "STOP_TIME": "2015-025T23:18:23.665",
+    "EXPOSURE_DURATION": "1000.000",
+    "DAWN:IMAGE_ACQUIRE_MODE": "NORMAL",
+    "INSTRUMENT_ID": "FC2",
+    "t": 1422227902,
+    "size_px": null
+   },
+   {
+    "DATA_SET_ID": "DAWN-A-FC2-2-EDR-CERES-IMAGES-V1.0",
+    "FILE_SPECIFICATION_NAME": "/DATA/IMG/20141226_APPROACH/20150225_OPNAV_004/FC21A0033902_15056194439F1I.IMG",
+    "PRODUCT_ID": "0033902",
+    "VOLUME_ID": "DWNCAFC2_1A",
+    "PRODUCT_CREATION_TIME": "2016-03-30T09:31:44.000",
+    "START_TIME": "2015-056T19:44:39.748",
+    "STOP_TIME": "2015-056T19:44:41.939",
+    "EXPOSURE_DURATION": "2000.000",
+    "DAWN:IMAGE_ACQUIRE_MODE": "NORMAL",
+    "INSTRUMENT_ID": "FC2",
+    "t": 1424893479,
+    "size_px": null
+   },
+   {
+    "DATA_SET_ID": "DAWN-A-FC2-2-EDR-CERES-IMAGES-V1.0",
+    "FILE_SPECIFICATION_NAME": "/DATA/IMG/20150424_RC3/20150426_HIGH_PHASE_SOUTH_003/FC21A0035075_15116191246F1I.IMG",
+    "PRODUCT_ID": "0035075",
+    "VOLUME_ID": "DWNCAFC2_1A",
+    "PRODUCT_CREATION_TIME": "2016-04-04T11:45:32.000",
+    "START_TIME": "2015-116T19:12:46.945",
+    "STOP_TIME": "2015-116T19:12:52.136",
+    "EXPOSURE_DURATION": "5000.000",
+    "DAWN:IMAGE_ACQUIRE_MODE": "NORMAL",
+    "INSTRUMENT_ID": "FC2",
+    "t": 1430075566,
+    "size_px": null
+   },
+   {
+    "DATA_SET_ID": "DAWN-A-FC2-2-EDR-CERES-IMAGES-V1.0",
+    "FILE_SPECIFICATION_NAME": "/DATA/IMG/20150424_RC3/20150430_EQUATORIAL_LIMB_002/FC21A0036362_15120202002F1I.IMG",
+    "PRODUCT_ID": "0036362",
+    "VOLUME_ID": "DWNCAFC2_1A",
+    "PRODUCT_CREATION_TIME": "2016-04-04T11:53:06.000",
+    "START_TIME": "2015-120T20:20:02.413",
+    "STOP_TIME": "2015-120T20:20:02.644",
+    "EXPOSURE_DURATION": "40.000",
+    "DAWN:IMAGE_ACQUIRE_MODE": "NORMAL",
+    "INSTRUMENT_ID": "FC2",
+    "t": 1430425202,
+    "size_px": null
+   }
+  ]
+ },
+ "messenger-earth": {
+  "name": "messenger-earth",
+  "frames": 0,
+  "labels": [
+   "https://planetarydata.jpl.nasa.gov/img/data/messenger/MSGRMDS_1001/INDEX/INDEX.LBL",
+   "https://planetarydata.jpl.nasa.gov/img/data/messenger/msgrmds_1001/INDEX/INDEX.LBL"
+  ]
+ }
+}

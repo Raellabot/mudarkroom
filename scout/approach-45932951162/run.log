@@ -1,0 +1,70 @@
+listed https://sbnarchive.psi.edu/pds3/dawn/fc/ 97 ['dawn/', 'DWNC1FC2_1A.tgz', 'DWNC1FC2_1A/', 'DWNC1FC2_1B.tgz', 'DWNC1FC2_1B/', 'DWNC2FC2_1A.tgz', 'DWNC2FC2_1A/', 'DWNC2FC2_1B.tgz', 'DWNC2FC2_1B/', 'DWNC3FC2_1A.tgz', 'DWNC3FC2_1A/', 'DWNC3FC2_1B.tgz', 'DWNC3FC2_1B/', 'DWNC4FC2_1A.tgz', 'DWNC4FC2_1A/', 'DWNC4FC2_1B.tgz', 'DWNC4FC2_1B/', 'DWNC6FC1_1A-190611.tgz', 'DWNC6FC1_1A/', 'DWNC6FC1_1B-190723.tgz', 'DWNC6FC1_1B/', 'DWNC6FC2_1A-190614.tgz', 'DWNC6FC2_1A/', 'DWNC6FC2_1B-190724.tgz', 'DWNC6FC2_1B/', 'DWNC7FC1_1A-190612.tar', 'DWNC7FC1_1A/', 'DWNC7FC1_1B-190724.tgz', 'DWNC7FC1_1B/', 'DWNC7FC2_1A-190614.tgz', 'DWNC7FC2_1A/', 'DWNC7FC2_1B-190724.tgz', 'DWNC7FC2_1B/', 'DWNCAFC2_1A-160825.tgz', 'DWNCAFC2_1A/', 'DWNCAFC2_1B-160830.tgz', 'DWNCAFC2_1B/', 'DWNCALFC1/', 'DWNCALFC1_170922.zip', 'DWNCALFC2-190820.tgz', 'DWNCALFC2/', 'DWNCFC1_1A.tgz', 'DWNCFC1_1A/', 'DWNCFC1_1B.tgz', 'DWNCFC1_1B/', 'DWNCHCFC2_2.zip', 'DWNCHCFC2_2/', 'DWNCHCFC2_2_20160822.zip', 'DWNCHFC2_1A-160825.tgz', 'DWNCHFC2_1A/', 'DWNCHFC2_1B-160830.tgz', 'DWNCHFC2_1B/', 'DWNCHFFC2_2.zip', 'DWNCHFFC2_2/', 'DWNCHSPG_2.zip', 'DWNCHSPG_2/', 'DWNCLCFC2_2.zip', 'DWNCLCFC2_2/', 'DWNCLFC2_1A.tgz', 'DWNCLFC2_1A/']
+listed https://sbnarchive.psi.edu/pds3/dawn/fc/DWNVFC2_1A/ 10 ['fc/', 'AAREADME.TXT', 'BROWSE/', 'CATALOG/', 'DATA/', 'DOCUMENT/', 'ERRATA.TXT', 'INDEX/', 'MD5_CHECKSUM.TXT', 'VOLDESC.CAT']
+dawn-vesta index labels ['https://sbnarchive.psi.edu/pds3/dawn/fc/DWNVFC2_1A/INDEX/INDEX.LBL']
+reading https://sbnarchive.psi.edu/pds3/dawn/fc/DWNVFC2_1A/INDEX/INDEX.TAB time column START_TIME
+https://sbnarchive.psi.edu/pds3/dawn/fc/DWNVFC2_1A/INDEX/INDEX.LBL lines 61397 in window 2052
+horizons failed dawn-vesta HTTP Error 500: Internal Server Error
+listed https://sbnarchive.psi.edu/pds3/dawn/fc/ 97 ['dawn/', 'DWNC1FC2_1A.tgz', 'DWNC1FC2_1A/', 'DWNC1FC2_1B.tgz', 'DWNC1FC2_1B/', 'DWNC2FC2_1A.tgz', 'DWNC2FC2_1A/', 'DWNC2FC2_1B.tgz', 'DWNC2FC2_1B/', 'DWNC3FC2_1A.tgz', 'DWNC3FC2_1A/', 'DWNC3FC2_1B.tgz', 'DWNC3FC2_1B/', 'DWNC4FC2_1A.tgz', 'DWNC4FC2_1A/', 'DWNC4FC2_1B.tgz', 'DWNC4FC2_1B/', 'DWNC6FC1_1A-190611.tgz', 'DWNC6FC1_1A/', 'DWNC6FC1_1B-190723.tgz', 'DWNC6FC1_1B/', 'DWNC6FC2_1A-190614.tgz', 'DWNC6FC2_1A/', 'DWNC6FC2_1B-190724.tgz', 'DWNC6FC2_1B/', 'DWNC7FC1_1A-190612.tar', 'DWNC7FC1_1A/', 'DWNC7FC1_1B-190724.tgz', 'DWNC7FC1_1B/', 'DWNC7FC2_1A-190614.tgz', 'DWNC7FC2_1A/', 'DWNC7FC2_1B-190724.tgz', 'DWNC7FC2_1B/', 'DWNCAFC2_1A-160825.tgz', 'DWNCAFC2_1A/', 'DWNCAFC2_1B-160830.tgz', 'DWNCAFC2_1B/', 'DWNCALFC1/', 'DWNCALFC1_170922.zip', 'DWNCALFC2-190820.tgz', 'DWNCALFC2/', 'DWNCFC1_1A.tgz', 'DWNCFC1_1A/', 'DWNCFC1_1B.tgz', 'DWNCFC1_1B/', 'DWNCHCFC2_2.zip', 'DWNCHCFC2_2/', 'DWNCHCFC2_2_20160822.zip', 'DWNCHFC2_1A-160825.tgz', 'DWNCHFC2_1A/', 'DWNCHFC2_1B-160830.tgz', 'DWNCHFC2_1B/', 'DWNCHFFC2_2.zip', 'DWNCHFFC2_2/', 'DWNCHSPG_2.zip', 'DWNCHSPG_2/', 'DWNCLCFC2_2.zip', 'DWNCLCFC2_2/', 'DWNCLFC2_1A.tgz', 'DWNCLFC2_1A/']
+listed https://sbnarchive.psi.edu/pds3/dawn/fc/DWNC1FC2_1A/ 11 ['fc/', 'AAREADME.TXT', 'BROWSE/', 'CATALOG/', 'DATA/', 'DOCUMENT/', 'ERRATA.TXT', 'GEOMETRY/', 'INDEX/', 'MD5_CHECKSUM.TXT', 'VOLDESC.CAT']
+listed https://sbnarchive.psi.edu/pds3/dawn/fc/DWNC2FC2_1A/ 11 ['fc/', 'AAREADME.TXT', 'BROWSE/', 'CATALOG/', 'DATA/', 'DOCUMENT/', 'ERRATA.TXT', 'GEOMETRY/', 'INDEX/', 'MD5_CHECKSUM.TXT', 'VOLDESC.CAT']
+listed https://sbnarchive.psi.edu/pds3/dawn/fc/DWNC3FC2_1A/ 11 ['fc/', 'AAREADME.TXT', 'BROWSE/', 'CATALOG/', 'DATA/', 'DOCUMENT/', 'ERRATA.TXT', 'GEOMETRY/', 'INDEX/', 'MD5_CHECKSUM.TXT', 'VOLDESC.CAT']
+listed https://sbnarchive.psi.edu/pds3/dawn/fc/DWNC4FC2_1A/ 11 ['fc/', 'AAREADME.TXT', 'BROWSE/', 'CATALOG/', 'DATA/', 'DOCUMENT/', 'ERRATA.TXT', 'GEOMETRY/', 'INDEX/', 'MD5_CHECKSUM.TXT', 'VOLDESC.CAT']
+listed https://sbnarchive.psi.edu/pds3/dawn/fc/DWNC6FC2_1A/ 11 ['fc/', 'AAREADME.TXT', 'BROWSE/', 'CATALOG/', 'DATA/', 'DOCUMENT/', 'ERRATA.TXT', 'GEOMETRY/', 'INDEX/', 'MD5_CHECKSUM.TXT', 'VOLDESC.CAT']
+listed https://sbnarchive.psi.edu/pds3/dawn/fc/DWNC7FC2_1A/ 11 ['fc/', 'AAREADME.TXT', 'BROWSE/', 'CATALOG/', 'DATA/', 'DOCUMENT/', 'ERRATA.TXT', 'GEOMETRY/', 'INDEX/', 'MD5_CHECKSUM.TXT', 'VOLDESC.CAT']
+listed https://sbnarchive.psi.edu/pds3/dawn/fc/DWNCAFC2_1A/ 11 ['fc/', 'AAREADME.TXT', 'BROWSE/', 'CATALOG/', 'DATA/', 'DOCUMENT/', 'ERRATA.TXT', 'GEOMETRY/', 'INDEX/', 'MD5_CHECKSUM.TXT', 'VOLDESC.CAT']
+listed https://sbnarchive.psi.edu/pds3/dawn/fc/DWNCHFC2_1A/ 11 ['fc/', 'AAREADME.TXT', 'BROWSE/', 'CATALOG/', 'DATA/', 'DOCUMENT/', 'ERRATA.TXT', 'GEOMETRY/', 'INDEX/', 'MD5_CHECKSUM.TXT', 'VOLDESC.CAT']
+listed https://sbnarchive.psi.edu/pds3/dawn/fc/DWNCLFC2_1A/ 11 ['fc/', 'AAREADME.TXT', 'BROWSE/', 'CATALOG/', 'DATA/', 'DOCUMENT/', 'ERRATA.TXT', 'GEOMETRY/', 'INDEX/', 'MD5_CHECKSUM.TXT', 'VOLDESC.CAT']
+listed https://sbnarchive.psi.edu/pds3/dawn/fc/DWNCSFC2_1A/ 11 ['fc/', 'AAREADME.TXT', 'BROWSE/', 'CATALOG/', 'DATA/', 'DOCUMENT/', 'ERRATA.TXT', 'GEOMETRY/', 'INDEX/', 'MD5_CHECKSUM.TXT', 'VOLDESC.CAT']
+dawn-ceres index labels ['https://sbnarchive.psi.edu/pds3/dawn/fc/DWNC1FC2_1A/INDEX/INDEX.LBL', 'https://sbnarchive.psi.edu/pds3/dawn/fc/DWNC2FC2_1A/INDEX/INDEX.LBL', 'https://sbnarchive.psi.edu/pds3/dawn/fc/DWNC3FC2_1A/INDEX/INDEX.LBL', 'https://sbnarchive.psi.edu/pds3/dawn/fc/DWNC4FC2_1A/INDEX/INDEX.LBL', 'https://sbnarchive.psi.edu/pds3/dawn/fc/DWNC6FC2_1A/INDEX/INDEX.LBL', 'https://sbnarchive.psi.edu/pds3/dawn/fc/DWNC7FC2_1A/INDEX/INDEX.LBL', 'https://sbnarchive.psi.edu/pds3/dawn/fc/DWNCAFC2_1A/INDEX/INDEX.LBL', 'https://sbnarchive.psi.edu/pds3/dawn/fc/DWNCHFC2_1A/INDEX/INDEX.LBL', 'https://sbnarchive.psi.edu/pds3/dawn/fc/DWNCLFC2_1A/INDEX/INDEX.LBL', 'https://sbnarchive.psi.edu/pds3/dawn/fc/DWNCSFC2_1A/INDEX/INDEX.LBL']
+reading https://sbnarchive.psi.edu/pds3/dawn/fc/DWNC1FC2_1A/INDEX/INDEX.TAB time column START_TIME
+https://sbnarchive.psi.edu/pds3/dawn/fc/DWNC1FC2_1A/INDEX/INDEX.LBL lines 27629 in window 0
+reading https://sbnarchive.psi.edu/pds3/dawn/fc/DWNC2FC2_1A/INDEX/INDEX.TAB time column START_TIME
+https://sbnarchive.psi.edu/pds3/dawn/fc/DWNC2FC2_1A/INDEX/INDEX.LBL lines 5859 in window 0
+reading https://sbnarchive.psi.edu/pds3/dawn/fc/DWNC3FC2_1A/INDEX/INDEX.TAB time column START_TIME
+https://sbnarchive.psi.edu/pds3/dawn/fc/DWNC3FC2_1A/INDEX/INDEX.LBL lines 2593 in window 0
+reading https://sbnarchive.psi.edu/pds3/dawn/fc/DWNC4FC2_1A/INDEX/INDEX.TAB time column START_TIME
+https://sbnarchive.psi.edu/pds3/dawn/fc/DWNC4FC2_1A/INDEX/INDEX.LBL lines 756 in window 0
+reading https://sbnarchive.psi.edu/pds3/dawn/fc/DWNC6FC2_1A/INDEX/INDEX.TAB time column START_TIME
+https://sbnarchive.psi.edu/pds3/dawn/fc/DWNC6FC2_1A/INDEX/INDEX.LBL lines 2819 in window 0
+reading https://sbnarchive.psi.edu/pds3/dawn/fc/DWNC7FC2_1A/INDEX/INDEX.TAB time column START_TIME
+https://sbnarchive.psi.edu/pds3/dawn/fc/DWNC7FC2_1A/INDEX/INDEX.LBL lines 20793 in window 0
+reading https://sbnarchive.psi.edu/pds3/dawn/fc/DWNCAFC2_1A/INDEX/INDEX.TAB time column START_TIME
+https://sbnarchive.psi.edu/pds3/dawn/fc/DWNCAFC2_1A/INDEX/INDEX.LBL lines 9229 in window 9228
+reading https://sbnarchive.psi.edu/pds3/dawn/fc/DWNCHFC2_1A/INDEX/INDEX.TAB time column START_TIME
+https://sbnarchive.psi.edu/pds3/dawn/fc/DWNCHFC2_1A/INDEX/INDEX.LBL lines 13510 in window 9228
+reading https://sbnarchive.psi.edu/pds3/dawn/fc/DWNCLFC2_1A/INDEX/INDEX.TAB time column START_TIME
+https://sbnarchive.psi.edu/pds3/dawn/fc/DWNCLFC2_1A/INDEX/INDEX.LBL lines 50045 in window 9228
+reading https://sbnarchive.psi.edu/pds3/dawn/fc/DWNCSFC2_1A/INDEX/INDEX.TAB time column START_TIME
+https://sbnarchive.psi.edu/pds3/dawn/fc/DWNCSFC2_1A/INDEX/INDEX.LBL lines 3559 in window 9388
+horizons failed dawn-ceres HTTP Error 500: Internal Server Error
+listed https://planetarydata.jpl.nasa.gov/img/data/messenger/ 45 ['style.css', '/', 'data/', 'derived/', 'MDIS/', 'MESSDEM_1001/', 'messdem_1001/', 'MESSDEM_1001_md5.txt', 'MSGRMDS_1001/', 'msgrmds_1001/', 'MSGRMDS_2001/', 'msgrmds_2001/', 'MSGRMDS_3001/', 'msgrmds_3001/', 'MSGRMDS_3001_md5.txt', 'MSGRMDS_4001/', 'msgrmds_4001/', 'MSGRMDS_4001_md5.txt', 'MSGRMDS_5001/', 'msgrmds_5001/', 'MSGRMDS_5001_md5.txt', 'MSGRMDS_6001/', 'msgrmds_6001/', 'MSGRMDS_6001_md5.txt', 'MSGRMDS_7001/', 'msgrmds_7001/', 'MSGRMDS_7001_md5.txt', 'MSGRMDS_7101/', 'msgrmds_7101/', 'MSGRMDS_7101_md5.txt', 'MSGRMDS_7201/', 'msgrmds_7201/', 'MSGRMDS_7201_md5.txt', 'MSGRMDS_7301/', 'msgrmds_7301/', 'MSGRMDS_7301_md5.txt', 'MSGRMDS_8001/', 'msgrmds_8001/', 'MSGRMDS_8001_md5.txt', 'feedback.html', 'copyrights.cfm', 'imagepolicy/', 'mailto:Michael.McAuley@jpl.nasa.gov', 'mailto:thare@usgs.gov', 'mailto:Rafael.Alanis@jpl.nasa.gov']
+listed https://planetarydata.jpl.nasa.gov/img/data/messenger/MSGRMDS_1001/ 20 ['style.css', '/', 'messenger/', 'AAREADME.TXT', 'BROWSE/', 'CALIB/', 'CATALOG/', 'DATA/', 'DOCUMENT/', 'ERRATA.TXT', 'EXTRAS/', 'GEOMETRY/', 'INDEX/', 'VOLDESC.CAT', 'feedback.html', 'copyrights.cfm', 'imagepolicy/', 'mailto:Michael.McAuley@jpl.nasa.gov', 'mailto:thare@usgs.gov', 'mailto:Rafael.Alanis@jpl.nasa.gov']
+listed https://planetarydata.jpl.nasa.gov/img/data/messenger/msgrmds_1001/ 20 ['style.css', '/', 'messenger/', 'AAREADME.TXT', 'BROWSE/', 'CALIB/', 'CATALOG/', 'DATA/', 'DOCUMENT/', 'ERRATA.TXT', 'EXTRAS/', 'GEOMETRY/', 'INDEX/', 'VOLDESC.CAT', 'feedback.html', 'copyrights.cfm', 'imagepolicy/', 'mailto:Michael.McAuley@jpl.nasa.gov', 'mailto:thare@usgs.gov', 'mailto:Rafael.Alanis@jpl.nasa.gov']
+messenger-earth index labels ['https://planetarydata.jpl.nasa.gov/img/data/messenger/MSGRMDS_1001/INDEX/INDEX.LBL', 'https://planetarydata.jpl.nasa.gov/img/data/messenger/msgrmds_1001/INDEX/INDEX.LBL']
+reading https://planetarydata.jpl.nasa.gov/img/data/messenger/MSGRMDS_1001/INDEX/INDEX.TAB time column START_TIME
+https://planetarydata.jpl.nasa.gov/img/data/messenger/MSGRMDS_1001/INDEX/INDEX.LBL lines 28364 in window 0
+reading https://planetarydata.jpl.nasa.gov/img/data/messenger/msgrmds_1001/INDEX/INDEX.TAB time column START_TIME
+https://planetarydata.jpl.nasa.gov/img/data/messenger/msgrmds_1001/INDEX/INDEX.LBL lines 28364 in window 0
+{
+ "dawn-vesta": {
+  "frames": 2052,
+  "by_filter": [
+   [
+    "FC2|?",
+    2052
+   ]
+  ]
+ },
+ "dawn-ceres": {
+  "frames": 9388,
+  "by_filter": [
+   [
+    "FC2|?",
+    9388
+   ]
+  ]
+ },
+ "messenger-earth": {
+  "frames": 0
+ }
+}
