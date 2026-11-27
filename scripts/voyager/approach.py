@@ -58,6 +58,11 @@ def prepare(args):
             chans[f], lost[f] = repair(chans[f], bads[f], core)
             ratio[f] = float(np.median(chans[f][m]) / max(np.median(chans["green"][m]), 1e-6))
         lost["rows"] = tinted_rows(chans, core)
+        for f in ("orange", "green", "blue"):
+            chans[f] = np.where(sky & bads[f], 0, chans[f])
+        lo = np.maximum(np.minimum.reduce([chans["orange"], chans["green"], chans["blue"]]), 0)
+        for f in ("orange", "green", "blue"):
+            chans[f] = np.where(sky, lo, chans[f])  # empty sky keeps only what all three filters saw, so streaks in one filter go and stars and moons stay
         rgb = np.stack([chans["orange"], chans["green"], chans["blue"]], -1).astype(np.float32)
         ys, xs = np.where(m)
         h, w = g.shape
