@@ -1,0 +1,26 @@
+name: Render live subjects
+
+# Run by hand: renders subjects from the files the live darkroom page serves, to look at them; pictures are kept as a run artifact.
+on:
+  workflow_dispatch:
+    inputs:
+      ids:
+        description: "Subject ids separated by spaces"
+        required: true
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - run: pip install numpy pillow
+      - name: Render
+        env:
+          IDS: ${{ inputs.ids }}
+        run: python3 -u scripts/render_live.py out $IDS
+      - uses: actions/upload-artifact@v4
+        with:
+          name: render-live
+          path: out
+          retention-days: 30
