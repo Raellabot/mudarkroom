@@ -57,7 +57,7 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install astropy astroquery jsonschema numpy pillow scipy
-      - run: python -u scripts/export_composite.py part "targets/$TARGET.json" parts ${{ matrix.layer }} 2>&1 | tee part-${{ matrix.layer }}.log
+      - run: set -o pipefail; python -u scripts/export_composite.py part "targets/$TARGET.json" parts ${{ matrix.layer }} 2>&1 | tee part-${{ matrix.layer }}.log
       - uses: actions/upload-artifact@v4
         with:
           name: part-${{ matrix.layer }}
@@ -94,7 +94,7 @@ jobs:
       - name: Export the layers
         run: |
           set -o pipefail
-          python -u scripts/export_composite.py build "targets/$TARGET.json" parts out/export 2>&1 | tee out/run.log
+          set -o pipefail; python -u scripts/export_composite.py build "targets/$TARGET.json" parts out/export 2>&1 | tee out/run.log
       - name: Check the manifest against the schema
         run: |
           python3 - <<'PY'
