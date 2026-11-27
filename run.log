@@ -1,0 +1,5 @@
+listed https://sbnarchive.psi.edu/pds3/dawn/fc/DWNCAFC2_1B/DATA/FITS/FITS/ 3 ['/pds3/dawn/fc/DWNCAFC2_1B/DATA/FITS/', '20141226_APPROACH/', '20150424_RC3/']
+listed https://sbnarchive.psi.edu/pds3/dawn/fc/DWNCAFC2_1B/DATA/IMG/ 2 ['/pds3/dawn/fc/DWNCAFC2_1B/DATA/', 'IMG/']
+listed https://sbnarchive.psi.edu/pds3/dawn/fc/DWNCAFC2_1B/DATA/FITS/FITS/20141226_APPROACH/ 12 ['/pds3/dawn/fc/DWNCAFC2_1B/DATA/FITS/FITS/', '20150113_OPNAV_001/', '20150125_OPNAV_002/', '20150204_OPNAV_003/', '20150204_SATELLITE_SEARCH_1A/', '20150204_SATELLITE_SEARCH_2A/', '20150212_RC_001/', '20150219_RC_002/', '20150225_OPNAV_004/', '20150301_OPNAV_005/', '20150410_OPNAV_006/', '20150415_OPNAV_007/']
+failed https://sbnarchive.psi.edu/pds3/dawn/fc/DWNCAFC2_1B/DATA/IMG/20141226_APPROACH/ HTTP Error 404: Not Found
+failed https://sbnarchive.psi.edu/pds3/dawn/fc/DWNCAFC2_1B/DATA/IMG/20141226_APPROACH/20150113_OPNAV_001/ HTTP Error 404: Not Found
