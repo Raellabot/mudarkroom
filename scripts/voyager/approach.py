@@ -54,6 +54,7 @@ def prepare(args):
             good = sky & ~bads[f] & (chans[f] > -0.05)
             if good.sum() > 1000:
                 chans[f] = chans[f] - float(np.median(chans[f][good]))  # sky to zero, so the frame's edge doesn't show on the black canvas
+            chans[f] = clean_sky(chans[f], sky & ~bads[f])
             chans[f], lost[f] = repair(chans[f], bads[f], core)
             ratio[f] = float(np.median(chans[f][m]) / max(np.median(chans["green"][m]), 1e-6))
         lost["rows"] = tinted_rows(chans, core)
@@ -74,6 +75,21 @@ def prepare(args):
                     top=float(np.percentile(rgb.max(-1)[m], 99.5)), shifts=shifts, lost=lost, ratio=ratio)
     except Exception as e:
         return dict(label=row["label"], time=row["time"], error=repr(e)[:300])
+
+
+# Takes out row bands (a whole line offset in one filter) using the faint end of each row's sky, then smooths away one-pixel streaks in the empty sky.
+def clean_sky(x, sky):
+    lv = np.full(x.shape[0], np.nan)
+    for y in range(x.shape[0]):
+        v = x[y][sky[y]]
+        if v.size >= 200:
+            lv[y] = np.percentile(v, 25)
+    ok = ~np.isnan(lv)
+    if ok.sum() < 10:
+        return x
+    lv = np.interp(np.arange(len(lv)), np.where(ok)[0], lv[ok])
+    x = x - lv[:, None]
+    return np.where(sky, ndimage.median_filter(x, 3), x)
 
 
 # Rows whose level on the lit body jumps away from the rows around them (a line dropped or garbled in transmission without being flagged).
