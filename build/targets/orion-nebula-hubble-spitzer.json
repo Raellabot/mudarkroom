@@ -3,43 +3,160 @@
   "name": "Orion Nebula (Hubble + Spitzer)",
   "blurb": "The heart of the Orion Nebula, about 1,350 light-years away, seen in visible light by Hubble's ACS and in infrared by Spitzer's IRAC.",
   "type": "Nebula",
-  "aliases": ["Orion Nebula", "M42", "Messier 42", "NGC 1976", "Orion", "Trapezium", "star-forming region", "nebula", "Spitzer"],
-  "missions": ["Hubble", "Spitzer"],
+  "aliases": [
+    "Orion Nebula",
+    "M42",
+    "Messier 42",
+    "NGC 1976",
+    "Orion",
+    "Trapezium",
+    "star-forming region",
+    "nebula",
+    "Spitzer"
+  ],
+  "missions": [
+    "Hubble",
+    "Spitzer"
+  ],
   "story": "Our closest massive star factory, home to about a thousand young stars. Hubble's visible light shows gas lit by the hot Trapezium stars at the center, and Spitzer's infrared shows the surrounding clouds glowing with carbon-rich molecules called polycyclic aromatic hydrocarbons.",
   "source": {
     "kind": "composite",
-    "center": [83.7904, -5.4136],
-    "size_px": [2400, 3000],
+    "center": [
+      83.7904,
+      -5.4136
+    ],
+    "size_px": [
+      2400,
+      3000
+    ],
     "arcsec_per_pixel": 0.75,
-    "hubble": {"program": "10246", "prefix": "hlsp_orion_hst_acs_strip", "version": "v1"},
-    "spitzer": {"tiles": ["40044081-89", "40044081-82"]},
+    "hubble": {
+      "program": "10246",
+      "instrument": "ACS/WFC",
+      "radius_deg": 0.45
+    },
+    "spitzer": {
+      "tiles": [
+        "40044081-89",
+        "40044081-82"
+      ]
+    },
     "layers": [
-      {"mission": "HST", "instrument": "ACS/WFC", "label": "F435W", "filter": "F435W", "center_nm": 432.9, "primary_source": "https://archive.stsci.edu/hlsp/orion"},
-      {"mission": "HST", "instrument": "ACS/WFC", "label": "F555W", "filter": "F555W", "center_nm": 536.1, "primary_source": "https://archive.stsci.edu/hlsp/orion"},
-      {"mission": "HST", "instrument": "ACS/WFC", "label": "F658N", "filter": "F658N", "center_nm": 658.4, "primary_source": "https://archive.stsci.edu/hlsp/orion"},
-      {"mission": "HST", "instrument": "ACS/WFC", "label": "F775W", "filter": "F775W", "center_nm": 769.3, "primary_source": "https://archive.stsci.edu/hlsp/orion"},
-      {"mission": "HST", "instrument": "ACS/WFC", "label": "F850LP", "filter": "F850LP", "center_nm": 905.5, "primary_source": "https://archive.stsci.edu/hlsp/orion"},
-      {"mission": "Spitzer", "instrument": "IRAC", "label": "IRAC 3.6 µm", "band": 1, "center_nm": 3550, "primary_source": "https://irsa.ipac.caltech.edu/data/SPITZER/Enhanced/SEIP/overview.html"},
-      {"mission": "Spitzer", "instrument": "IRAC", "label": "IRAC 4.5 µm", "band": 2, "center_nm": 4493, "primary_source": "https://irsa.ipac.caltech.edu/data/SPITZER/Enhanced/SEIP/overview.html"},
-      {"mission": "Spitzer", "instrument": "IRAC", "label": "IRAC 5.8 µm", "band": 3, "center_nm": 5731, "primary_source": "https://irsa.ipac.caltech.edu/data/SPITZER/Enhanced/SEIP/overview.html"},
-      {"mission": "Spitzer", "instrument": "IRAC", "label": "IRAC 8.0 µm", "band": 4, "center_nm": 7872, "primary_source": "https://irsa.ipac.caltech.edu/data/SPITZER/Enhanced/SEIP/overview.html"}
+      {
+        "mission": "HST",
+        "instrument": "ACS/WFC",
+        "label": "F435W",
+        "filter": "F435W",
+        "center_nm": 432.9,
+        "primary_source": "https://mast.stsci.edu"
+      },
+      {
+        "mission": "HST",
+        "instrument": "ACS/WFC",
+        "label": "F555W",
+        "filter": "F555W",
+        "center_nm": 536.1,
+        "primary_source": "https://mast.stsci.edu"
+      },
+      {
+        "mission": "HST",
+        "instrument": "ACS/WFC",
+        "label": "F658N",
+        "filter": "F658N",
+        "center_nm": 658.4,
+        "primary_source": "https://mast.stsci.edu"
+      },
+      {
+        "mission": "HST",
+        "instrument": "ACS/WFC",
+        "label": "F775W",
+        "filter": "F775W",
+        "center_nm": 769.3,
+        "primary_source": "https://mast.stsci.edu"
+      },
+      {
+        "mission": "HST",
+        "instrument": "ACS/WFC",
+        "label": "F850LP",
+        "filter": "F850LP",
+        "center_nm": 905.5,
+        "primary_source": "https://mast.stsci.edu"
+      },
+      {
+        "mission": "Spitzer",
+        "instrument": "IRAC",
+        "label": "IRAC 3.6 µm",
+        "band": 1,
+        "center_nm": 3550,
+        "primary_source": "https://irsa.ipac.caltech.edu/data/SPITZER/Enhanced/SEIP/overview.html"
+      },
+      {
+        "mission": "Spitzer",
+        "instrument": "IRAC",
+        "label": "IRAC 4.5 µm",
+        "band": 2,
+        "center_nm": 4493,
+        "primary_source": "https://irsa.ipac.caltech.edu/data/SPITZER/Enhanced/SEIP/overview.html"
+      },
+      {
+        "mission": "Spitzer",
+        "instrument": "IRAC",
+        "label": "IRAC 5.8 µm",
+        "band": 3,
+        "center_nm": 5731,
+        "primary_source": "https://irsa.ipac.caltech.edu/data/SPITZER/Enhanced/SEIP/overview.html"
+      },
+      {
+        "mission": "Spitzer",
+        "instrument": "IRAC",
+        "label": "IRAC 8.0 µm",
+        "band": 4,
+        "center_nm": 7872,
+        "primary_source": "https://irsa.ipac.caltech.edu/data/SPITZER/Enhanced/SEIP/overview.html"
+      }
     ],
     "extra_preset": {
-      "id": "nasa-2006", "name": "NASA 2006 colors",
-      "colors": {"F435W": "#3b6cff", "F555W": "#3b6cff", "F658N": "#3ccf4e", "F775W": "#3ccf4e", "F850LP": "#3ccf4e", "IRAC 3.6 µm": "#ff9a1f", "IRAC 4.5 µm": "#ff9a1f", "IRAC 5.8 µm": "#e23a1c", "IRAC 8.0 µm": "#e23a1c"},
-      "weights": {"IRAC 4.5 µm": 0.0, "IRAC 5.8 µm": 0.0}
+      "id": "nasa-2006",
+      "name": "NASA 2006 colors",
+      "colors": {
+        "F435W": "#3b6cff",
+        "F555W": "#3b6cff",
+        "F658N": "#3ccf4e",
+        "F775W": "#3ccf4e",
+        "F850LP": "#3ccf4e",
+        "IRAC 3.6 µm": "#ff9a1f",
+        "IRAC 4.5 µm": "#ff9a1f",
+        "IRAC 5.8 µm": "#e23a1c",
+        "IRAC 8.0 µm": "#e23a1c"
+      },
+      "weights": {
+        "IRAC 4.5 µm": 0.0,
+        "IRAC 5.8 µm": 0.0
+      }
     },
-    "credit": "Data: NASA, ESA, STScI (Hubble; HST Orion Treasury Program high-level science products, M. Robberto et al.); NASA/JPL-Caltech (Spitzer Enhanced Imaging Products, IRSA). Developed by RRR + Claude. Not made or endorsed by NASA, ESA, STScI, JPL or Caltech.",
+    "credit": "Data: NASA, ESA, STScI (Hubble, HST Orion Treasury Program 10246, M. Robberto et al.); NASA/JPL-Caltech (Spitzer Enhanced Imaging Products, IRSA). Developed by RRR + Claude. Not made or endorsed by NASA, ESA, STScI, JPL or Caltech.",
     "sources": [
-      {"name": "HST Orion Treasury Program, MAST high-level science products", "url": "https://archive.stsci.edu/hlsp/orion"},
-      {"name": "Spitzer Enhanced Imaging Products, NASA/IPAC Infrared Science Archive", "url": "https://irsa.ipac.caltech.edu/data/SPITZER/Enhanced/SEIP/overview.html"}
+      {
+        "name": "MAST, the Mikulski Archive for Space Telescopes (Hubble)",
+        "url": "https://mast.stsci.edu"
+      },
+      {
+        "name": "Spitzer Enhanced Imaging Products, NASA/IPAC Infrared Science Archive",
+        "url": "https://irsa.ipac.caltech.edu/data/SPITZER/Enhanced/SEIP/overview.html"
+      }
     ]
   },
   "facts": {
     "checked": "2026-11-26",
     "claims": [
-      {"text": "about 1,350 light-years", "source": "https://esawebb.org/images/weic2315a/"},
-      {"text": "closest massive star factory, about a thousand young stars, Trapezium, polycyclic aromatic hydrocarbons", "source": "https://www.jpl.nasa.gov/news/spitzer-and-hubble-create-colorful-masterpiece/"}
+      {
+        "text": "about 1,350 light-years",
+        "source": "https://esawebb.org/images/weic2315a/"
+      },
+      {
+        "text": "closest massive star factory, about a thousand young stars, Trapezium, polycyclic aromatic hydrocarbons",
+        "source": "https://www.jpl.nasa.gov/news/spitzer-and-hubble-create-colorful-masterpiece/"
+      }
     ]
   }
 }

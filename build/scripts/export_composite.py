@@ -1,7 +1,7 @@
 # Builds a Hubble + Spitzer subject: Hubble HLSP mosaics from MAST and Spitzer SEIP mosaics from IRSA, resampled onto one sky grid, then exported like any target.
 # usage: export_composite.py part targets/<id>.json PARTDIR LAYER_INDEX   (one layer onto the grid, saved as PARTDIR/<i>.npz)
 #        export_composite.py build targets/<id>.json PARTDIR OUTDIR      (all saved layers into a manifest)
-import gzip, json, os, shutil, sys, time, urllib.request, warnings
+import gzip, json, os, shutil, sys, time, urllib.parse, urllib.request, warnings
 import numpy as np
 from astropy.io import fits
 from astropy.wcs import WCS, FITSFixedWarning
@@ -16,6 +16,7 @@ import color
 warnings.simplefilter("ignore", FITSFixedWarning)
 UA = os.environ.get("CONTACT_INFO") or "cosmic-darkroom builder"
 WORK = os.environ.get("WORK_DIR", "work")
+MAST_DL = "https://mast.stsci.edu/api/v0.1/Download/file?uri="
 IRSA_SEIP = "https://irsa.ipac.caltech.edu/data/SPITZER/Enhanced/SEIP/images/{a}/{b}/{aor}/{c}/{tile}/{aor}.{tile}{short}.IRAC.{band}.mosaic.fits"
 
 
@@ -103,13 +104,22 @@ def fetch(url, path):
 
 
 def hubble_files(src, filt):
-    # The Orion Treasury mosaics are served by the Hubble Legacy Archive; MAST's own row gives that address as dataURL.
+    # The program's own calibrated, combined Hubble images (one per pointing) for this filter, from MAST's standard HST collection.
     from astroquery.mast import Observations
     h = src["hubble"]
-    obs = Observations.query_criteria(obs_collection="HLSP", proposal_id=h["program"])
-    want = [o for o in obs if str(o["obs_id"]).startswith(h["prefix"]) and str(o["obs_id"]).endswith(f"_{filt.lower()}_{h['version']}_drz")]
-    print(f"{filt}: {len(want)} mosaic pieces in MAST", flush=True)
-    return [(str(o["obs_id"]) + ".fits", str(o["dataURL"]).replace("http://", "https://", 1)) for o in want]
+    ra0, dec0 = src["center"]
+    obs = Observations.query_criteria(obs_collection="HST", proposal_id=h["program"], instrument_name=h["instrument"], filters=filt)
+    keep = []
+    for o in obs:
+        url = str(o["dataURL"])
+        if str(o["dataproduct_type"]) != "image" or int(o["calib_level"]) != 3 or not url.endswith(".fits") or str(o["intentType"]) != "science":
+            continue
+        d = np.hypot((float(o["s_ra"]) - ra0) * np.cos(np.radians(dec0)), float(o["s_dec"]) - dec0)
+        if d > h.get("radius_deg", 0.45):
+            continue
+        keep.append((os.path.basename(url), url))
+    print(f"{filt}: {len(obs)} rows in MAST, {len(keep)} combined images near the grid", flush=True)
+    return keep
 
 
 def accumulate(paths_or_urls, getter, ra, dec, scale, zero_empty):
@@ -129,9 +139,9 @@ def accumulate(paths_or_urls, getter, ra, dec, scale, zero_empty):
     return np.where(n > 0, tot / np.maximum(n, 1), np.nan).astype(np.float32), ids
 
 
-def mast_get(url, path):
-    print(f"  fetching {url}", flush=True)
-    fetch(url, path)
+def mast_get(uri, path):
+    print(f"  fetching {uri}", flush=True)
+    fetch(MAST_DL + urllib.parse.quote(uri, safe=":/"), path)
 
 
 def spitzer_band(src, band, ra, dec, scale):
