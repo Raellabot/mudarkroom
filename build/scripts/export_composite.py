@@ -1,7 +1,7 @@
 # Builds a Hubble + Spitzer subject: Hubble HLSP mosaics from MAST and Spitzer SEIP mosaics from IRSA, resampled onto one sky grid, then exported like any target.
 # usage: export_composite.py part targets/<id>.json PARTDIR LAYER_INDEX   (one layer onto the grid, saved as PARTDIR/<i>.npz)
 #        export_composite.py build targets/<id>.json PARTDIR OUTDIR      (all saved layers into a manifest)
-import json, os, shutil, sys, time, urllib.parse, urllib.request, warnings
+import gzip, json, os, shutil, sys, time, urllib.request, warnings
 import numpy as np
 from astropy.io import fits
 from astropy.wcs import WCS, FITSFixedWarning
@@ -16,7 +16,6 @@ import color
 warnings.simplefilter("ignore", FITSFixedWarning)
 UA = os.environ.get("CONTACT_INFO") or "cosmic-darkroom builder"
 WORK = os.environ.get("WORK_DIR", "work")
-MAST_DL = "https://mast.stsci.edu/api/v0.1/Download/file?uri="
 IRSA_SEIP = "https://irsa.ipac.caltech.edu/data/SPITZER/Enhanced/SEIP/images/{a}/{b}/{aor}/{c}/{tile}/{aor}.{tile}{short}.IRAC.{band}.mosaic.fits"
 
 
@@ -87,6 +86,12 @@ def fetch(url, path):
                 shutil.copyfileobj(r, f, 1 << 22)
             with open(path + ".part", "rb") as f:
                 head = f.read(300)
+            if head.startswith(b"\x1f\x8b"):
+                with gzip.open(path + ".part", "rb") as g, open(path + ".unz", "wb") as f:
+                    shutil.copyfileobj(g, f, 1 << 22)
+                os.replace(path + ".unz", path + ".part")
+                with open(path + ".part", "rb") as f:
+                    head = f.read(300)
             if not head.startswith(b"SIMPLE"):
                 raise RuntimeError("not a FITS file, starts with " + repr(head[:200]))
             os.replace(path + ".part", path)
@@ -98,13 +103,13 @@ def fetch(url, path):
 
 
 def hubble_files(src, filt):
+    # The Orion Treasury mosaics are served by the Hubble Legacy Archive; MAST's own row gives that address as dataURL.
     from astroquery.mast import Observations
     h = src["hubble"]
     obs = Observations.query_criteria(obs_collection="HLSP", proposal_id=h["program"])
     want = [o for o in obs if str(o["obs_id"]).startswith(h["prefix"]) and str(o["obs_id"]).endswith(f"_{filt.lower()}_{h['version']}_drz")]
     print(f"{filt}: {len(want)} mosaic pieces in MAST", flush=True)
-    prods = Observations.get_product_list(obs[[str(o["obs_id"]) in {str(w['obs_id']) for w in want} for o in obs]])
-    return [(str(p["productFilename"]), str(p["dataURI"])) for p in prods if str(p["productFilename"]).endswith("_drz.fits")]
+    return [(str(o["obs_id"]) + ".fits", str(o["dataURL"]).replace("http://", "https://", 1)) for o in want]
 
 
 def accumulate(paths_or_urls, getter, ra, dec, scale, zero_empty):
@@ -124,10 +129,9 @@ def accumulate(paths_or_urls, getter, ra, dec, scale, zero_empty):
     return np.where(n > 0, tot / np.maximum(n, 1), np.nan).astype(np.float32), ids
 
 
-def mast_get(uri, path):
-    # Straight from MAST's download service, so a failed download stops the job instead of leaving no file.
-    print(f"  fetching {uri}", flush=True)
-    fetch(MAST_DL + urllib.parse.quote(uri, safe=":/"), path)
+def mast_get(url, path):
+    print(f"  fetching {url}", flush=True)
+    fetch(url, path)
 
 
 def spitzer_band(src, band, ra, dec, scale):
