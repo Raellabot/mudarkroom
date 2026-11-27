@@ -13,6 +13,9 @@ on:
       export_side:
         description: "Longest side of the exported layers in pixels"
         default: "2400"
+      reuse_parts:
+        description: "yes = skip the downloads and rebuild from the pieces saved by an earlier run"
+        default: "no"
 
 permissions:
   contents: write
@@ -23,9 +26,12 @@ jobs:
     outputs:
       matrix: ${{ steps.m.outputs.matrix }}
     env:
+      GH_TOKEN: ${{ github.token }}
       TARGET: ${{ inputs.target }}
     steps:
       - uses: actions/checkout@v4
+      - name: Make the release that keeps each layer's pieces
+        run: gh release view "parts-$TARGET" >/dev/null 2>&1 || gh release create "parts-$TARGET" --title "parts-$TARGET" --notes "Resampled pieces of each layer, kept so the subject can be rebuilt without downloading again."
       - id: m
         run: |
           python3 - <<'PY' >> "$GITHUB_OUTPUT"
@@ -39,6 +45,7 @@ jobs:
 
   part:
     needs: plan
+    if: inputs.reuse_parts != 'yes'
     runs-on: ubuntu-latest
     timeout-minutes: 180
     strategy:
@@ -46,6 +53,7 @@ jobs:
       matrix: ${{ fromJson(needs.plan.outputs.matrix) }}
     env:
       CONTACT_INFO: ${{ secrets.CONTACT_INFO }}
+      GH_TOKEN: ${{ github.token }}
       TARGET: ${{ inputs.target }}
       WORK_DIR: work
     defaults:
@@ -58,17 +66,16 @@ jobs:
           python-version: "3.12"
       - run: pip install astropy astroquery jsonschema numpy pillow scipy
       - run: set -o pipefail; python -u scripts/export_composite.py part "targets/$TARGET.json" parts ${{ matrix.layer }} 2>&1 | tee part-${{ matrix.layer }}.log
-      - uses: actions/upload-artifact@v4
-        with:
-          name: part-${{ matrix.layer }}
-          path: |
-            build/parts
-            build/part-${{ matrix.layer }}.log
+      - name: Keep the pieces
+        run: |
+          cp part-${{ matrix.layer }}.log parts/
+          gh release upload "parts-$TARGET" parts/${{ matrix.layer }}.npz parts/part-${{ matrix.layer }}.log --clobber
 
   build:
     needs: part
+    if: ${{ !failure() && !cancelled() }}
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 60
     env:
       GH_TOKEN: ${{ github.token }}
       TARGET: ${{ inputs.target }}
@@ -83,12 +90,8 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install astropy astroquery jsonschema numpy pillow scipy
-      - uses: actions/download-artifact@v4
-        with:
-          path: /tmp/parts
-          merge-multiple: true
       - name: Gather the layers
-        run: mkdir -p parts out && cp /tmp/parts/parts/*.npz parts/ && cp /tmp/parts/*.log out/ && ls -la parts
+        run: mkdir -p parts out && gh release download "parts-$TARGET" -D parts --clobber && mv parts/*.log out/ && ls -la parts
       - name: Check the target
         run: python3 scripts/check_target.py "targets/$TARGET.json"
       - name: Export the layers

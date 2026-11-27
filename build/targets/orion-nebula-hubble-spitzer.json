@@ -33,13 +33,15 @@
     "hubble": {
       "program": "10246",
       "instrument": "ACS/WFC",
-      "radius_deg": 0.45
+      "radius_deg": 0.45,
+      "trail_angle": -8.5
     },
     "spitzer": {
       "tiles": [
         "40044081-89",
         "40044081-82"
-      ]
+      ],
+      "join": "short"
     },
     "layers": [
       {

@@ -5,7 +5,9 @@ import gzip, json, os, shutil, sys, time, urllib.parse, urllib.request, warnings
 import numpy as np
 from astropy.io import fits
 from astropy.wcs import WCS, FITSFixedWarning
-from scipy.ndimage import map_coordinates
+from scipy.ndimage import binary_erosion, map_coordinates, median_filter, minimum_filter
+from scipy.sparse import lil_matrix
+from scipy.sparse.linalg import lsqr
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
@@ -125,23 +127,109 @@ def hubble_files(src, filt):
     return keep
 
 
-def accumulate(paths_or_urls, getter, ra, dec, scale, zero_empty):
-    tot = np.zeros(ra.shape, np.float64)
-    n = np.zeros(ra.shape, np.float32)
-    ids = []
-    for name, ref in paths_or_urls:
+def crop_piece(a):
+    # Smallest box holding a piece's data, so hundreds of pieces fit in one file.
+    m = np.isfinite(a)
+    if not m.any():
+        return None
+    ys, xs = np.where(m.any(axis=1))[0], np.where(m.any(axis=0))[0]
+    y0, y1, x0, x1 = ys[0], ys[-1] + 1, xs[0], xs[-1] + 1
+    return int(y0), int(x0), a[y0:y1, x0:x1].astype(np.float32)
+
+
+def collect(items, getter, ra, dec, scale, zero_empty):
+    pieces, ids = [], []
+    for name, ref in items:
         path = os.path.join(WORK, name)
         getter(ref, path)
         a = resample(path, ra, dec, scale, zero_empty)
         os.remove(path)
-        if a is None:
-            continue
-        m = np.isfinite(a)
-        if m.any():
-            tot[m] += a[m]
-            n[m] += 1
+        c = None if a is None else crop_piece(a)
+        if c is not None:
+            pieces.append(c)
             ids.append(name.replace(".fits", ""))
-    return np.where(n > 0, tot / np.maximum(n, 1), np.nan).astype(np.float32), ids
+    return pieces, ids
+
+
+def save_pieces(path, pieces, ids, shape, extra=None):
+    d = {"shape": np.array(shape), "ids": json.dumps(ids), "n": np.array(len(pieces))}
+    for k, (y0, x0, c) in enumerate(pieces):
+        d[f"o{k}"] = np.array([y0, x0])
+        d[f"p{k}"] = c.astype(np.float16) if np.nanmax(np.abs(c)) < 6e4 else c
+    d.update(extra or {})
+    np.savez_compressed(path, **d)
+
+
+def load_pieces(path):
+    z = np.load(path)
+    n = int(z["n"])
+    return [(int(z[f"o{k}"][0]), int(z[f"o{k}"][1]), z[f"p{k}"].astype(np.float32)) for k in range(n)], json.loads(str(z["ids"])), tuple(int(v) for v in z["shape"]), z
+
+
+def level_pieces(pieces, shape, edge=2, min_overlap=400):
+    # Hubble pointings were taken at different times with different sky levels; finds one offset per pointing (least squares over every overlap) so the seams vanish, then averages.
+    full = []
+    for y0, x0, c in pieces:
+        m = np.isfinite(c)
+        if edge:
+            m = binary_erosion(m, iterations=edge)
+        full.append((y0, x0, np.where(m, c, np.nan)))
+    n = len(full)
+    rows, diffs = [], []
+    for i in range(n):
+        yi, xi, ci = full[i]
+        for j in range(i + 1, n):
+            yj, xj, cj = full[j]
+            ya, yb = max(yi, yj), min(yi + ci.shape[0], yj + cj.shape[0])
+            xa, xb = max(xi, xj), min(xi + ci.shape[1], xj + cj.shape[1])
+            if yb - ya < 10 or xb - xa < 10:
+                continue
+            a = ci[ya - yi:yb - yi, xa - xi:xb - xi]
+            b = cj[ya - yj:yb - yj, xa - xj:xb - xj]
+            m = np.isfinite(a) & np.isfinite(b)
+            if m.sum() < min_overlap:
+                continue
+            rows.append((i, j))
+            diffs.append(float(np.median(a[m] - b[m])))
+    off = np.zeros(n)
+    if rows:
+        A = lil_matrix((len(rows) + 1, n))
+        for k, (i, j) in enumerate(rows):
+            A[k, i], A[k, j] = 1, -1
+        A[len(rows), :] = 1
+        off = lsqr(A.tocsr(), np.array(diffs + [0.0]))[0]
+    print(f"  leveled {n} pieces over {len(rows)} overlaps; offsets span {np.ptp(off):.4g}", flush=True)
+    tot = np.zeros(shape, np.float64)
+    cnt = np.zeros(shape, np.float32)
+    for (y0, x0, c), o in zip(full, off):
+        m = np.isfinite(c)
+        sl = (slice(y0, y0 + c.shape[0]), slice(x0, x0 + c.shape[1]))
+        tot[sl][m] += c[m] - o
+        cnt[sl][m] += 1
+    out = np.where(cnt > 0, tot / np.maximum(cnt, 1), np.nan).astype(np.float32)
+    lo = np.nanpercentile(out, 0.5)
+    return out - min(lo, 0)
+
+
+def line_footprint(length, angle_deg):
+    k = np.zeros((length, length), bool)
+    t = np.radians(angle_deg)
+    for s in np.linspace(-(length - 1) / 2, (length - 1) / 2, 4 * length):
+        k[int(round((length - 1) / 2 - s * np.sin(t))), int(round((length - 1) / 2 + s * np.cos(t)))] = True
+    return k
+
+
+def destreak(a, angle_deg, length=15, k=6.0):
+    # Saturated stars bleed into long thin trails along the detector columns; a pixel far above the band across the trail but just as bright along it is part of a trail, and takes the level across it.
+    f = np.nan_to_num(a)
+    across = median_filter(f, footprint=line_footprint(9, angle_deg + 90))
+    r = f - across
+    sig = 1.4826 * np.median(np.abs(r[np.isfinite(a)] - np.median(r[np.isfinite(a)]))) or 1e-6
+    along = minimum_filter(r, footprint=line_footprint(length, angle_deg))
+    m = along > k * sig
+    m = np.maximum.reduce([m, np.roll(m, 1, 0), np.roll(m, -1, 0), np.roll(m, 1, 1), np.roll(m, -1, 1)])
+    print(f"  removed trails from {m.mean() * 100:.2f}% of the pixels", flush=True)
+    return np.where(m & np.isfinite(a), across, a)
 
 
 def mast_get(uri, path):
@@ -150,35 +238,28 @@ def mast_get(uri, path):
 
 
 def spitzer_band(src, band, ra, dec, scale):
-    # Long-exposure mosaic, with the saturated core filled from the short-exposure (HDR) mosaic of the same tiles.
+    # Long- and short-exposure (HDR) mosaics of each tile, kept apart so the build decides how to join them.
     s = src["spitzer"]
-    tot = np.zeros(ra.shape, np.float64)
-    n = np.zeros(ra.shape, np.float32)
-    ids = []
+    pieces, ids = [], []
     for tile in s["tiles"]:
         aor, sub = tile.split("-")
-        layers = {}
         for short in ("", "-short"):
             url = IRSA_SEIP.format(a=aor[0], b=aor[1:5], aor=aor, c=sub[-1], tile=tile, short=short, band=band)
             path = os.path.join(WORK, os.path.basename(url))
             fetch(url, path)
-            layers[short] = resample(path, ra, dec, scale, False)
+            a = resample(path, ra, dec, scale, False)
             os.remove(path)
-        L, S = layers[""], layers["-short"]
-        both = np.isfinite(L) & np.isfinite(S)
-        fill = np.isfinite(S) & ~np.isfinite(L)
-        if both.any():
-            sv = S[both]
-            bright = both & (S > np.percentile(sv, 95))
-            fill |= bright & (L < 0.85 * S)
-        a = np.where(fill, S, L)
-        print(f"  tile {tile} band {band}: {fill.sum()} grid pixels taken from the short exposures", flush=True)
-        m = np.isfinite(a)
-        tot[m] += a[m]
-        n[m] += 1
-        if m.any():
-            ids.append(f"SEIP {tile} IRAC{band}")
-    return np.where(n > 0, tot / np.maximum(n, 1), np.nan).astype(np.float32), ids
+            c = crop_piece(a)
+            if c is not None:
+                pieces.append(c)
+                ids.append(f"SEIP {tile}{short} IRAC{band}")
+    return pieces, ids
+
+
+def spitzer_join(pieces, ids, shape, mode):
+    # mode "short": the short exposures alone, which stay unsaturated over the bright nebula; tiles are leveled to each other like Hubble pointings.
+    keep = [p for p, i in zip(pieces, ids) if ("-short" in i) == (mode == "short")]
+    return level_pieces(keep, shape, edge=3, min_overlap=2000)
 
 
 def part(cfg_path, partdir, i):
@@ -192,12 +273,50 @@ def part(cfg_path, partdir, i):
     scale = src["arcsec_per_pixel"]
     print(f"== layer {i}: {lay['mission']} {lay['label']} onto a {shape[1]}x{shape[0]} grid at {scale}\"", flush=True)
     if lay["mission"] == "HST":
-        files = hubble_files(src, lay["filter"])
-        a, ids = accumulate(files, mast_get, ra, dec, scale, True)
+        pieces, ids = collect(hubble_files(src, lay["filter"]), mast_get, ra, dec, scale, True)
     else:
-        a, ids = spitzer_band(src, lay["band"], ra, dec, scale)
-    print(f"layer {i} covers {np.isfinite(a).mean() * 100:.1f}% of the grid from {len(ids)} files", flush=True)
-    np.savez_compressed(os.path.join(partdir, f"{i}.npz"), a=a, ids=json.dumps(ids))
+        pieces, ids = spitzer_band(src, lay["band"], ra, dec, scale)
+    print(f"layer {i}: {len(pieces)} pieces kept", flush=True)
+    save_pieces(os.path.join(partdir, f"{i}.npz"), pieces, ids, shape)
+
+
+def combine(src, i, partdir):
+    lay = src["layers"][i]
+    pieces, ids, shape, _ = load_pieces(os.path.join(partdir, f"{i}.npz"))
+    print(f"== layer {i}: {lay['label']} from {len(pieces)} pieces", flush=True)
+    if lay["mission"] == "HST":
+        a = level_pieces(pieces, shape)
+        if src.get("hubble", {}).get("trail_angle") is not None:
+            a = destreak(a, src["hubble"]["trail_angle"])
+        ids = [x for x in ids]
+    else:
+        a = spitzer_join(pieces, ids, shape, src["spitzer"].get("join", "short"))
+        ids = [x for x in ids if ("-short" in x) == (src["spitzer"].get("join", "short") == "short")]
+    return a, ids
+
+
+def best_box(cover):
+    # Largest upright rectangle where every layer has data, found on a coarse grid (histogram method).
+    f = 8
+    h, w = cover.shape[0] // f, cover.shape[1] // f
+    c = cover[:h * f, :w * f].reshape(h, f, w, f).mean(axis=(1, 3)) >= 0.995
+    heights = np.zeros(w, int)
+    best = (0, 0, 0, 0, 0)
+    for y in range(h):
+        heights = np.where(c[y], heights + 1, 0)
+        stack = []
+        for x in range(w + 1):
+            hh = heights[x] if x < w else 0
+            start = x
+            while stack and stack[-1][1] >= hh:
+                sx, sh = stack.pop()
+                area = sh * (x - sx)
+                if area > best[0]:
+                    best = (area, y - sh + 1, y + 1, sx, x)
+                start = sx
+            stack.append((start, hh))
+    _, y0, y1, x0, x1 = best
+    return y0 * f, y1 * f, x0 * f, x1 * f
 
 
 def finish_manifest(cfg, outdir):
@@ -229,12 +348,18 @@ def build(cfg_path, partdir, outdir):
     g, shape = grid_wcs(src)
     raw, chosen = [], []
     for i, lay in enumerate(src["layers"]):
-        z = np.load(os.path.join(partdir, f"{i}.npz"))
-        raw.append(z["a"].astype(np.float32))
-        ids = json.loads(str(z["ids"]))
+        a, ids = combine(src, i, partdir)
+        raw.append(a)
         c = lay["center_nm"]
         chosen.append({"obs_collection": lay["mission"], "filters": lay["label"], "instrument_name": lay["instrument"], "em_min": c, "em_max": c,
                        "obs_id": ids[0] if ids else lay["label"], "tiles": [{"obs_id": t} for t in ids], "t_exptime": None})
+    cover = np.all([np.isfinite(a) for a in raw], axis=0)
+    y0, y1, x0, x1 = best_box(cover)
+    print(f"every layer covers the box x {x0}-{x1}, y {y0}-{y1} ({(x1 - x0) * src['arcsec_per_pixel'] / 60:.1f} x {(y1 - y0) * src['arcsec_per_pixel'] / 60:.1f} arcmin)", flush=True)
+    raw = [a[y0:y1, x0:x1] for a in raw]
+    g.wcs.crpix = [g.wcs.crpix[0] - x0, g.wcs.crpix[1] - y0]
+    if os.environ.get("SAVE_COMBINED"):
+        np.savez_compressed(os.environ["SAVE_COMBINED"], *[a.astype(np.float16) for a in raw])
     grid = {"arcsec_per_pixel": src["arcsec_per_pixel"], "wcs": g.to_header().tostring()}
     fin = cfg.get("finish") or None
     manifest = ex.build(cfg, chosen, raw, grid, None, None, outdir, fin)
