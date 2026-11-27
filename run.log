@@ -1,0 +1,3 @@
+failed https://sbnarchive.psi.edu/pds3/dawn/fc/DWNCAFC2_1B/DATA/FITS/20141226_APPROACH/20150113_OPNAV_001/ HTTP Error 404: Not Found
+failed https://sbnarchive.psi.edu/pds3/dawn/fc/DWNCAFC2_1B/DATA/FITS/20141226_APPROACH/20150113_OPNAV_001/FC21B0032652_15013202220F1H.LBL HTTP Error 404: Not Found
+listed https://sbnarchive.psi.edu/pds3/dawn/fc/DWNCAFC2_1B/DATA/FITS/ 2 ['/pds3/dawn/fc/DWNCAFC2_1B/DATA/', 'FITS/']
