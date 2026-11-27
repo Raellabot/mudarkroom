@@ -1,0 +1,122 @@
+name: Build composite subject
+
+# Run by hand: builds one multi-archive darkroom subject (Hubble from MAST + Spitzer from IRSA) whose config has source.kind "composite"; one job per layer, then the export, the same checks as build.yml, and the stockpile release.
+on:
+  workflow_dispatch:
+    inputs:
+      target:
+        description: "Target id (needs build/targets/<id>.json)"
+        default: "orion-nebula-hubble-spitzer"
+      release:
+        description: "Release tag that holds the built files (made if missing)"
+        default: "stock-orion"
+      export_side:
+        description: "Longest side of the exported layers in pixels"
+        default: "2400"
+
+permissions:
+  contents: write
+
+jobs:
+  plan:
+    runs-on: ubuntu-latest
+    outputs:
+      matrix: ${{ steps.m.outputs.matrix }}
+    env:
+      TARGET: ${{ inputs.target }}
+    steps:
+      - uses: actions/checkout@v4
+      - id: m
+        run: |
+          python3 - <<'PY' >> "$GITHUB_OUTPUT"
+          import json, os, re
+          t = os.environ["TARGET"]
+          assert re.fullmatch(r"[a-z0-9-]+", t), "bad target id"
+          cfg = json.load(open(f"build/targets/{t}.json"))
+          assert cfg["source"]["kind"] == "composite"
+          print("matrix=" + json.dumps({"include": [{"layer": i} for i in range(len(cfg["source"]["layers"]))]}))
+          PY
+
+  part:
+    needs: plan
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    strategy:
+      fail-fast: false
+      matrix: ${{ fromJson(needs.plan.outputs.matrix) }}
+    env:
+      CONTACT_INFO: ${{ secrets.CONTACT_INFO }}
+      TARGET: ${{ inputs.target }}
+      WORK_DIR: work
+    defaults:
+      run:
+        working-directory: build
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install astropy astroquery jsonschema numpy pillow scipy
+      - run: python -u scripts/export_composite.py part "targets/$TARGET.json" parts ${{ matrix.layer }} 2>&1 | tee part-${{ matrix.layer }}.log
+      - uses: actions/upload-artifact@v4
+        with:
+          name: part-${{ matrix.layer }}
+          path: |
+            build/parts
+            build/part-${{ matrix.layer }}.log
+
+  build:
+    needs: part
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      GH_TOKEN: ${{ github.token }}
+      TARGET: ${{ inputs.target }}
+      RELEASE: ${{ inputs.release }}
+      EXPORT_SIDE: ${{ inputs.export_side }}
+    defaults:
+      run:
+        working-directory: build
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install astropy astroquery jsonschema numpy pillow scipy
+      - uses: actions/download-artifact@v4
+        with:
+          path: /tmp/parts
+          merge-multiple: true
+      - name: Gather the layers
+        run: mkdir -p parts out && cp /tmp/parts/parts/*.npz parts/ && cp /tmp/parts/*.log out/ && ls -la parts
+      - name: Check the target
+        run: python3 scripts/check_target.py "targets/$TARGET.json"
+      - name: Export the layers
+        run: |
+          set -o pipefail
+          python -u scripts/export_composite.py build "targets/$TARGET.json" parts out/export 2>&1 | tee out/run.log
+      - name: Check the manifest against the schema
+        run: |
+          python3 - <<'PY'
+          import json, os
+          import jsonschema
+          t = os.environ["TARGET"]
+          m = json.load(open(f"out/export/{t}/manifest.json"))
+          jsonschema.validate(m, json.load(open("schema/manifest.schema.json")))
+          print("manifest is valid:", len(m["layers"]), "layers,", len(m["presets"]), "presets")
+          PY
+      - name: Check the description against what was exported
+        run: python3 scripts/check_text.py --strict --manifest "out/export/$TARGET/manifest.json" "targets/$TARGET.json"
+      - name: Add the built files to the stockpile release
+        run: |
+          echo "$RELEASE" | grep -Eq '^stock-[a-z0-9-]+$' || { echo "release tag must look like stock-batch-9"; exit 1; }
+          gh release view "$RELEASE" >/dev/null 2>&1 || gh release create "$RELEASE" --title "$RELEASE" --notes "Built darkroom subjects waiting to go live (not uploaded yet)."
+          mkdir -p /tmp/b/$TARGET /tmp/c/$TARGET
+          cp -r "out/export/$TARGET/." "/tmp/b/$TARGET/"
+          rm -rf "/tmp/b/$TARGET/check"
+          cp "targets/$TARGET.json" "/tmp/b/$TARGET/target.json"
+          cp -r "out/export/$TARGET/check/." "/tmp/c/$TARGET/" 2>/dev/null || true
+          cp out/*.log "/tmp/c/$TARGET/" 2>/dev/null || true
+          tar -C /tmp/b -cf "/tmp/$TARGET.tar" "$TARGET"
+          tar -C /tmp/c -cf "/tmp/$TARGET-check.tar" "$TARGET"
+          gh release upload "$RELEASE" "/tmp/$TARGET.tar" "/tmp/$TARGET-check.tar" --clobber
