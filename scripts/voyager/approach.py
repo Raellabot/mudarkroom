@@ -45,11 +45,18 @@ def prepare(args):
             bads[f] = np.roll(bad, (dy, dx), axis=(0, 1))
             shifts[f] = [dy, dx, how, corr]
         m, area = lit_mask(np.maximum.reduce([chans["orange"], chans["green"], chans["blue"]]))  # lit in any filter, so a patch missing from one still counts as disk
+        sky = ~ndimage.binary_dilation(m, iterations=25)
+        core = ndimage.binary_erosion(m, iterations=3)  # disk without its soft edge, so a small disk's halo isn't counted as lost data
+        if core.sum() < 50:
+            core = m
         lost, ratio = {}, {}
         for f in ("orange", "green", "blue"):
-            chans[f], lost[f] = repair(chans[f], bads[f], m)
+            good = sky & ~bads[f] & (chans[f] > -0.05)
+            if good.sum() > 1000:
+                chans[f] = chans[f] - float(np.median(chans[f][good]))  # sky to zero, so the frame's edge doesn't show on the black canvas
+            chans[f], lost[f] = repair(chans[f], bads[f], core)
             ratio[f] = float(np.median(chans[f][m]) / max(np.median(chans["green"][m]), 1e-6))
-        lost["rows"] = tinted_rows(chans, m)
+        lost["rows"] = tinted_rows(chans, core)
         rgb = np.stack([chans["orange"], chans["green"], chans["blue"]], -1).astype(np.float32)
         ys, xs = np.where(m)
         h, w = g.shape
@@ -100,7 +107,7 @@ def repair(x, bad, disk):
     return x, float(drop.sum() / max(disk.sum(), 1))
 
 
-# Fraction of the disk in rows whose color is off from the rest of the disk (a block lost in one filter that came back as wrong numbers rather than gaps).
+# Fraction of the disk in rows whose color is off from the rows around them (a block lost in one filter that came back as wrong numbers rather than gaps).
 def tinted_rows(chans, disk, tol=0.25):
     n = disk.sum(1)
     use = n > 20
@@ -110,7 +117,8 @@ def tinted_rows(chans, disk, tol=0.25):
     off = np.zeros(use.sum(), bool)
     for f in ("orange", "blue"):
         r = (chans[f] * disk).sum(1)[use] / np.maximum(g, 1e-6)
-        off |= np.abs(r / np.median(r) - 1) > tol
+        ref = ndimage.median_filter(r, 31, mode="nearest")  # compared with nearby rows, so rings, limb and haze changing color across the disk don't count
+        off |= np.abs(r / np.maximum(ref, 1e-6) - 1) > tol
     return float(n[use][off].sum() / max(disk.sum(), 1))
 
 
