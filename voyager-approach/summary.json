@@ -1,0 +1,18 @@
+{
+ "sets": 421,
+ "failed": 0,
+ "cut_off": 36,
+ "dropouts": 92,
+ "used": 293,
+ "top_if": 0.7618,
+ "first": "1979-04-25T00:45:39.640",
+ "last": "1979-05-31T15:26:24.640",
+ "diam_first": 301.0,
+ "diam_last": 552.0,
+ "third": "violet",
+ "violet_gain": 1.3401,
+ "violet_gain_sets": 1,
+ "approach": 293,
+ "spin": 293,
+ "one_per_turn": 57
+}
