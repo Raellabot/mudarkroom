@@ -5,7 +5,7 @@ import gzip, json, os, shutil, sys, time, urllib.parse, urllib.request, warnings
 import numpy as np
 from astropy.io import fits
 from astropy.wcs import WCS, FITSFixedWarning
-from scipy.ndimage import binary_erosion, map_coordinates, median_filter, minimum_filter
+from scipy.ndimage import binary_dilation, binary_erosion, gaussian_filter, map_coordinates, median_filter, minimum_filter
 from scipy.sparse import lil_matrix
 from scipy.sparse.linalg import lsqr
 
@@ -259,7 +259,26 @@ def spitzer_band(src, band, ra, dec, scale):
 def spitzer_join(pieces, ids, shape, mode):
     # mode "short": the short exposures alone, which stay unsaturated over the bright nebula; tiles are leveled to each other like Hubble pointings.
     keep = [p for p, i in zip(pieces, ids) if ("-short" in i) == (mode == "short")]
-    return level_pieces(keep, shape, edge=3, min_overlap=2000)
+    return fill_saturated(level_pieces(keep, shape, edge=3, min_overlap=2000))
+
+
+def fill_saturated(a):
+    # Even the short exposures saturate on the Trapezium at 5.8 and 8.0 microns, leaving pixels far below their bright surroundings; those few are filled smoothly from the pixels around them.
+    f = np.nan_to_num(a)
+    big = median_filter(f, size=41)
+    hole = (f < 0.5 * big) & (big > np.nanpercentile(a, 97))
+    if not hole.any():
+        return a
+    hole = binary_dilation(hole, iterations=2)
+    good = ~hole & np.isfinite(a)
+    v, w = np.where(good, f, 0.0), good.astype(np.float32)
+    out = f.copy()
+    for sig in (2, 4, 8, 16, 32):
+        num, den = gaussian_filter(v, sig), gaussian_filter(w, sig)
+        todo = hole & (den > 0.05) & (out == f)
+        out[todo] = num[todo] / den[todo]
+    print(f"  filled {hole.sum()} saturated pixels from their surroundings", flush=True)
+    return np.where(hole, out, a).astype(np.float32)
 
 
 def part(cfg_path, partdir, i):

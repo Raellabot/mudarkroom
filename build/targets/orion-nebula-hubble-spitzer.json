@@ -107,14 +107,6 @@
         "band": 3,
         "center_nm": 5731,
         "primary_source": "https://irsa.ipac.caltech.edu/data/SPITZER/Enhanced/SEIP/overview.html"
-      },
-      {
-        "mission": "Spitzer",
-        "instrument": "IRAC",
-        "label": "IRAC 8.0 µm",
-        "band": 4,
-        "center_nm": 7872,
-        "primary_source": "https://irsa.ipac.caltech.edu/data/SPITZER/Enhanced/SEIP/overview.html"
       }
     ],
     "extra_preset": {
@@ -128,12 +120,10 @@
         "F850LP": "#3ccf4e",
         "IRAC 3.6 µm": "#ff9a1f",
         "IRAC 4.5 µm": "#ff9a1f",
-        "IRAC 5.8 µm": "#e23a1c",
-        "IRAC 8.0 µm": "#e23a1c"
+        "IRAC 5.8 µm": "#e23a1c"
       },
       "weights": {
-        "IRAC 4.5 µm": 0.0,
-        "IRAC 5.8 µm": 0.0
+        "IRAC 4.5 µm": 0.0
       }
     },
     "credit": "Data: NASA, ESA, STScI (Hubble, HST Orion Treasury Program 10246, M. Robberto et al.); NASA/JPL-Caltech (Spitzer Enhanced Imaging Products, IRSA). Developed by RRR + Claude. Not made or endorsed by NASA, ESA, STScI, JPL or Caltech.",
