@@ -19,7 +19,7 @@ OPUS_JOBS = [
 INDEX_JOBS = [
     dict(name="dawn-vesta", roots=["https://sbnarchive.psi.edu/pds3/dawn/fc/"], vol=r"(?i)^dwnv.*fc2_1a$", time1="2011-05-01", time2="2011-07-17", body="vesta", horizons="4;", sc="-203", cam="dawn-fc"),
     dict(name="dawn-ceres", roots=["https://sbnarchive.psi.edu/pds3/dawn/fc/"], vol=r"(?i)^dwnc.*fc2_1a$", time1="2014-12-01", time2="2015-05-31", body="ceres", horizons="1;", sc="-203", cam="dawn-fc"),
-    dict(name="messenger-earth", roots=["https://planetarydata.jpl.nasa.gov/img/data/messenger/", "https://pds-geosciences.wustl.edu/messenger/mess-e_v_h-mdis-2-edr-rawdata-v1/", "https://pds-imaging.jpl.nasa.gov/data/messenger/"], vol=r"(?i)^(messmdis_1001|MSGRMDS_1001|2005.*)$", time1="2005-07-25", time2="2005-08-10", body="earth", horizons="399", sc="-236", cam="mdis-wac"),
+    dict(name="messenger-earth", roots=["https://planetarydata.jpl.nasa.gov/img/data/messenger/", "https://pds-geosciences.wustl.edu/messenger/mess-e_v_h-mdis-2-edr-rawdata-v1/", "https://pds-imaging.jpl.nasa.gov/data/messenger/"], vol=r"^(messmdis_1001|MSGRMDS_1001)$", cum=True, time1="2005-07-25", time2="2005-08-10", body="earth", horizons="399", sc="-236", cam="mdis-wac"),
 ]
 
 DIR_JOBS = [
@@ -218,7 +218,7 @@ def parse_label(txt):
 
 
 # Walks archive directory listings, following folders whose names match FOLLOW, and collects the index labels it finds.
-def find_indexes(url, follow, depth=0, found=None):
+def find_indexes(url, follow, depth=0, found=None, cum=False):
     found = [] if found is None else found
     try:
         names = listing(url)
@@ -231,19 +231,20 @@ def find_indexes(url, follow, depth=0, found=None):
         if b.lower() == "index":
             try:
                 for m in listing(url + b + "/"):
-                    if m.lower().endswith(".lbl") and "index" in m.lower() and "cum" not in m.lower() and "geom" not in m.lower():
+                    if m.lower().endswith(".lbl") and "index" in m.lower() and ("cum" in m.lower()) == cum and "geom" not in m.lower():
                         found.append(url + b + "/" + m)
             except Exception as e:
                 print("cannot list index", url, e, flush=True)
         elif depth < 2 and re.search(follow, b):
-            find_indexes(url + b + "/", follow, depth + 1, found)
+            find_indexes(url + b + "/", follow, depth + 1, found, cum)
     return found
 
 
 def index_job(out, job):
     labels = []
     for root in job["roots"]:
-        labels = find_indexes(root, job["vol"])
+        labels = find_indexes(root, job["vol"], cum=job.get("cum", False))
+        labels = labels[:1] if job.get("cum") else labels
         if labels:
             break
     print(job["name"], "index labels", labels, flush=True)
