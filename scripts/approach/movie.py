@@ -1,5 +1,5 @@
 # Approach movies from any mission's frames: reads a set list (one row per color set or single gray frame), downloads and reads each frame (VICAR, PDS3 or FITS), aligns the channels, centers the body, renders on one fixed brightness scale and writes three movies with ffmpeg.
-# Usage: movie.py SETS.csv OUTDIR ROTATION_HOURS [white]  (white: balance color on the brightest tenth of the disk, for frames without calibrated colors)
+# Usage: movie.py SETS.csv OUTDIR ROTATION_HOURS [white|-] [frac] [min_diam] [roll]  (roll: smooth each frame's white point over this many neighbors each side)
 import csv, gzip, json, os, re, subprocess, sys, time, urllib.error, urllib.parse, urllib.request
 from concurrent.futures import ProcessPoolExecutor
 from datetime import datetime, timedelta
@@ -196,7 +196,7 @@ def prepare(args):
 
 def compose(info, out, top, spin, gain, note):
     rgb = np.load(os.path.join(out, "cubes", info["label"] + ".npy")).astype(np.float32)
-    pic = Image.fromarray(render(rgb, top, np.ones(3, np.float32) if info["gray"] else gain))
+    pic = Image.fromarray(render(rgb, info.get("top_roll", top), np.ones(3, np.float32) if info["gray"] else gain))
     cy, cx = info["cy"], info["cx"]
     s = SPIN_DIAMETER / info["diam"] if spin else min(1.0, CANVAS / max(pic.width, pic.height))  # a frame bigger than the canvas is shrunk to fit
     if s != 1.0:
@@ -232,7 +232,7 @@ def one_per_turn(infos, rotation):
     return picked
 
 
-def main(sets, out, rotation_hours, mode="-", frac="0.05", min_diam="0"):
+def main(sets, out, rotation_hours, mode="-", frac="0.05", min_diam="0", roll="0"):
     os.makedirs(os.path.join(out, "cubes"), exist_ok=True)
     rows = list(csv.DictReader(open(sets)))
     print("sets", len(rows), flush=True)
@@ -258,10 +258,15 @@ def main(sets, out, rotation_hours, mode="-", frac="0.05", min_diam="0"):
     good = [i for i in ok if max(i["lost"].values()) <= MAX_LOST and id(i) not in bad]
     good.sort(key=lambda i: i["time"])
     top = float(np.median([i["top"] for i in good]))
+    r = int(roll)
+    if r > 0:  # each frame's white point is the median top of its neighbors, so brightness drifts smoothly as the phase changes
+        tops = [i["top"] for i in good]
+        for n, i in enumerate(good):
+            i["top_roll"] = float(np.median(tops[max(0, n - r):n + r + 1]))
     note = ""
     counts = dict(sets=len(rows), failed=len(errs), cut_off=sum("error" not in i and not i["whole"] for i in infos), small=sum("error" not in i and i["whole"] and i["diam"] < float(min_diam) for i in infos),
                   dropouts=len(ok) - len(good), used=len(good), top=round(top, 6), first=good[0]["time"], last=good[-1]["time"], diam_first=good[0]["diam"], diam_last=good[-1]["diam"],
-                  gain=[round(float(v), 4) for v in gain], ratios=med, mode=mode)
+                  gain=[round(float(v), 4) for v in gain], ratios=med, mode=mode, roll=r)
     print(json.dumps(counts), flush=True)
     rot = timedelta(hours=float(rotation_hours))
     counts["approach"] = write(good, out, "approach", top, False, FPS, gain, note)

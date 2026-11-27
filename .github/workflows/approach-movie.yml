@@ -5,7 +5,7 @@ on:
   workflow_dispatch:
     inputs:
       args:
-        description: "SETS.csv ROTATION_HOURS [white|-] [mask fraction] [smallest diameter px]"
+        description: "SETS.csv ROTATION_HOURS [white|-] [mask fraction] [smallest diameter px] [white point roll]"
         required: true
 
 concurrency:
