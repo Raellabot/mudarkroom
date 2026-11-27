@@ -1,0 +1,51 @@
+name: Approach movie
+
+# Run by hand: makes approach, spin and one-per-turn movies from any mission's set list (scripts/approach/movie.py); results go to a branch of their own (approach-out-<run id>).
+on:
+  workflow_dispatch:
+    inputs:
+      args:
+        description: "SETS.csv ROTATION_HOURS [white|-] [mask fraction] [smallest diameter px]"
+        required: true
+
+concurrency:
+  group: approach-movie-${{ inputs.args }}
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install numpy pillow scipy
+      - run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg fonts-dejavu-core
+      - name: Make movies
+        env:
+          ARGS: ${{ inputs.args }}
+        run: |
+          set -o pipefail
+          mkdir -p out
+          set -- $ARGS
+          echo "$1" | grep -Eq '^catalog/[A-Za-z0-9._-]+\.csv$'
+          python -u scripts/approach/movie.py "$1" out "${@:2}" 2>&1 | tee out/run.log
+      - name: Push to a branch of its own
+        if: always()
+        env:
+          RUN: ${{ github.run_id }}
+          REPO: ${{ github.repository }}
+          TOKEN: ${{ github.token }}
+        run: |
+          cd out
+          git init -q -b "approach-out-$RUN"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -q -m "Output of run $RUN"
+          git push -q -f "https://x-access-token:${TOKEN}@github.com/${REPO}.git" "approach-out-$RUN"
