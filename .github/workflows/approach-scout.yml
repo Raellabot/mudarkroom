@@ -3,6 +3,11 @@ name: Approach scout
 # Run by hand: counts approach and departure frames for New Horizons, Cassini, Dawn, MESSENGER and others (report goes to the `results` branch).
 on:
   workflow_dispatch:
+    inputs:
+      jobs:
+        description: "Comma-separated job names (blank runs all)"
+        required: false
+        default: ""
 
 concurrency:
   group: approach-scout
@@ -25,7 +30,7 @@ jobs:
         run: |
           set -o pipefail
           mkdir -p out
-          python -u scripts/scout/approach_scout.py out 2>&1 | tee out/run.log
+          python -u scripts/scout/approach_scout.py out "${{ inputs.jobs }}" 2>&1 | tee out/run.log
       - name: Save to the results branch
         if: always()
         run: |

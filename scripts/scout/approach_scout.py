@@ -1,5 +1,5 @@
 # Counts approach and departure frames for several missions (OPUS for New Horizons, Cassini, Galileo, Juno; PDS3 index tables for Dawn and MESSENGER) and sizes the target with JPL Horizons.
-# usage: approach_scout.py OUTDIR
+# usage: approach_scout.py OUTDIR [JOB,JOB...]
 import bisect, calendar, collections, csv, json, os, re, sys, time, urllib.parse, urllib.request
 
 OPUS = "https://opus.pds-rings.seti.org/opus/api"
@@ -15,12 +15,11 @@ OPUS_JOBS = [
     dict(name="cassini-jupiter", instrument="Cassini ISS", time1="2000-10-01", time2="2001-03-31", bodies=["jupiter"]),
     dict(name="galileo-earth-1990", instrument="Galileo SSI", time1="1990-12-01", time2="1991-01-01", bodies=["earth", "moon"]),
     dict(name="galileo-earth-1992", instrument="Galileo SSI", time1="1992-12-01", time2="1993-01-01", bodies=["earth", "moon"]),
-    dict(name="juno-jupiter-2016", instrument="Juno JunoCam", time1="2016-05-01", time2="2016-07-06", bodies=["jupiter"]),
 ]
 INDEX_JOBS = [
     dict(name="dawn-vesta", roots=["https://sbnarchive.psi.edu/pds3/dawn/fc/"], vol=r"(?i)^dwnv.*fc2_1a$", time1="2011-05-01", time2="2011-07-17", body="vesta", horizons="4;", sc="-203", cam="dawn-fc"),
     dict(name="dawn-ceres", roots=["https://sbnarchive.psi.edu/pds3/dawn/fc/"], vol=r"(?i)^dwnc.*fc2_1a$", time1="2014-12-01", time2="2015-05-31", body="ceres", horizons="1;", sc="-203", cam="dawn-fc"),
-    dict(name="messenger-earth", roots=["https://pds-geosciences.wustl.edu/messenger/", "https://pds-imaging.jpl.nasa.gov/data/messenger/"], vol=r"(?i)(mdis-2-edr|messmdis_1001|msgrmds_1001)", time1="2005-07-25", time2="2005-08-10", body="earth", horizons="399", sc="-236", cam="mdis-wac"),
+    dict(name="messenger-earth", roots=["https://planetarydata.jpl.nasa.gov/img/data/messenger/", "https://pds-geosciences.wustl.edu/messenger/mess-e_v_h-mdis-2-edr-rawdata-v1/", "https://pds-imaging.jpl.nasa.gov/data/messenger/"], vol=r"(?i)(mdis-2-edr|messmdis_1001|msgrmds_1001)", time1="2005-07-25", time2="2005-08-10", body="earth", horizons="399", sc="-236", cam="mdis-wac"),
 ]
 
 
@@ -180,6 +179,8 @@ def opus_job(out, job):
 
 def listing(url):
     html = get(url).decode("utf-8", "replace")
+    if "href" not in html.lower():
+        print("no links at", url, html[:600].replace("\n", " "), flush=True)
     names = []
     for h in re.findall(r'href="([^"?#]+)"', html):
         h = urllib.parse.unquote(h).rstrip()
@@ -226,7 +227,7 @@ def find_indexes(url, follow, depth=0, found=None):
         if b.lower() == "index":
             try:
                 for m in listing(url + b + "/"):
-                    if m.lower().endswith(".lbl") and "index" in m.lower() and "cum" not in m.lower():
+                    if m.lower().endswith(".lbl") and "index" in m.lower() and "cum" not in m.lower() and "geom" not in m.lower():
                         found.append(url + b + "/" + m)
             except Exception as e:
                 print("cannot list index", url, e, flush=True)
@@ -274,7 +275,7 @@ def index_job(out, job):
     tkey = next((k for k in keys if k == "TARGET_NAME"), None)
     ikey = next((k for k in keys if k in ("INSTRUMENT_ID", "INSTRUMENT_NAME")), None)
     with open(os.path.join(out, f"{job['name']}.csv"), "w", newline="") as f:
-        w = csv.DictWriter(f, fieldnames=keys)
+        w = csv.DictWriter(f, fieldnames=sorted({k for r in rows for k in r}), extrasaction="ignore")
         w.writeheader()
         w.writerows(rows)
     sizes = horizons_sizes(job, sorted({day(r["t"]) for r in rows}))
@@ -318,7 +319,10 @@ def horizons_sizes(job, days):
 def main(out):
     os.makedirs(out, exist_ok=True)
     report = {}
+    only = set(sys.argv[2].split(",")) if len(sys.argv) > 2 and sys.argv[2] else None
     for job in OPUS_JOBS:
+        if only and job["name"] not in only:
+            continue
         try:
             report[job["name"]] = opus_job(out, job)
         except Exception as e:
@@ -326,6 +330,8 @@ def main(out):
             print("FAILED", job["name"], e, flush=True)
         save(out, "report.json", report)
     for job in INDEX_JOBS:
+        if only and job["name"] not in only:
+            continue
         try:
             report[job["name"]] = index_job(out, job)
         except Exception as e:
