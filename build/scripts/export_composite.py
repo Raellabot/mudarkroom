@@ -3,9 +3,10 @@
 #        export_composite.py build targets/<id>.json PARTDIR OUTDIR      (all saved layers into a manifest)
 import gzip, json, os, shutil, sys, time, urllib.parse, urllib.request, warnings
 import numpy as np
+from numpy.lib.stride_tricks import sliding_window_view
 from astropy.io import fits
 from astropy.wcs import WCS, FITSFixedWarning
-from scipy.ndimage import binary_dilation, binary_erosion, binary_opening, gaussian_filter, map_coordinates, maximum_filter, median_filter, minimum_filter
+from scipy.ndimage import binary_closing, binary_dilation, binary_erosion, binary_opening, binary_propagation, gaussian_filter, map_coordinates, maximum_filter, median_filter, minimum_filter, percentile_filter, rotate, uniform_filter
 from scipy.sparse import lil_matrix
 from scipy.sparse.linalg import lsqr
 
@@ -255,12 +256,14 @@ def trail_mask(a, angle_deg, length=15, k=6.0, width=9):
     sig = 1.4826 * np.median(np.abs(r[fin] - np.median(r[fin]))) or 1e-6
     along = minimum_filter(r, footprint=line_footprint(length, angle_deg))
     # only where the whole band across the trail has data, so a detector edge (which runs along the columns too) is not taken for a trail
-    inside = minimum_filter(fin, footprint=line_footprint(width, angle_deg + 90)) & minimum_filter(fin, footprint=line_footprint(length, angle_deg))
+    inside = minimum_filter(fin, footprint=line_footprint(width // 2 | 1, angle_deg + 90)) & minimum_filter(fin, footprint=line_footprint(length, angle_deg))
     return (along > k * sig) & inside, f, across, r, along, sig
 
 
 def destreak(a, angle_deg, length=15, k=6.0, width=9, grow=1, quiet=False):
     m0, f, across, r, along, sig = trail_mask(a, angle_deg, length, k, width)
+    # a trail's brightness flickers along it, so join the dashes left between detected stretches
+    m0 = binary_closing(m0, structure=line_footprint(2 * length + 1, angle_deg))
     m = binary_dilation(m0, iterations=grow) & np.isfinite(a)
     if not quiet:
         print(f"  removed trails from {m.mean() * 100:.2f}% of the pixels", flush=True)
@@ -270,17 +273,69 @@ def destreak(a, angle_deg, length=15, k=6.0, width=9, grow=1, quiet=False):
     return np.where(m, np.where(star, np.maximum(a - lvl, across), across), a)
 
 
-def destreak_pieces(pieces, angles, length=15, k=6.0, width=9, grow=1):
-    # each Hubble pointing has its own roll, so its trails have their own angle: find the angle that shows the most trail in each piece and clean it before the pieces are joined
-    out, used = [], {}
-    for y0, x0, c in pieces:
-        counts = [int(trail_mask(c, t, length, k, width)[0].sum()) for t in angles]
-        best = int(np.argmax(counts))
-        if counts[best] >= 3 * length:
-            c = destreak(c, angles[best], length, k, width, grow, quiet=True)
-            used[angles[best]] = used.get(angles[best], 0) + 1
-        out.append((y0, x0, c))
-    print(f"  cleaned trails in {sum(used.values())} of {len(pieces)} pieces; angles used {dict(sorted(used.items()))}", flush=True)
+def edge_angle(c):
+    # ACS chip edges run along the detector columns, the same way as the bleed trails, so the footprint's near-horizontal edge gives the trail angle
+    fin = np.isfinite(c)
+    ys, xs = np.nonzero(fin & ~binary_erosion(fin))
+    def score(t):
+        d = ys * np.cos(np.radians(t)) - xs * np.sin(np.radians(t))
+        return float((np.bincount((d - d.min()).astype(int)) ** 2).sum())
+    return max(np.arange(-15, 15.01, 0.05), key=score)
+
+
+def window_stat(a, size, axis, fn, min_count):
+    # nan-aware statistic over a line window along one axis
+    pad = [(0, 0), (0, 0)]
+    pad[axis] = (size // 2, size // 2)
+    v = sliding_window_view(np.pad(a, pad, constant_values=np.nan), size, axis=axis)
+    out = fn(v, axis=-1)
+    return np.where(np.isfinite(v).sum(axis=-1) >= min_count, out, np.nan)
+
+
+def clean_rows(f, k=5.0):
+    # trails run along rows here: far above the level across them, staying high along them, and thin
+    with warnings.catch_warnings():
+        warnings.simplefilter("ignore")
+        across = window_stat(f, 15, 0, np.nanmedian, 5)
+        r = f - across
+        fin = np.isfinite(r)
+        sig = 1.4826 * np.median(np.abs(r[fin] - np.median(r[fin]))) or 1e-6
+        along = np.where(uniform_filter(fin.astype(np.float32), size=(1, 31)) * 31 >= 10, percentile_filter(np.nan_to_num(r), 25, size=(1, 31)), np.nan)
+    rz, az = np.nan_to_num(r), np.nan_to_num(along)
+    thin = (np.roll(rz, 3, 0) < 2 * sig) | (np.roll(rz, -3, 0) < 2 * sig)
+    seed = (az > k * sig) & thin
+    m = binary_propagation(seed, structure=np.array([[0, 0, 0], [1, 1, 1], [0, 0, 0]], bool), mask=rz > 2 * sig)
+    m = binary_dilation(m, structure=np.array([[0, 1, 0], [0, 1, 0], [0, 1, 0]], bool)) & fin
+    # a star on a trail stands far above the trail's level; it keeps its light less that level
+    lvl = np.maximum(maximum_filter(np.where(seed, az, 0), size=(3, 31)), 0)
+    star = binary_dilation((rz > 4 * lvl) & (rz > 10 * sig) & m, iterations=2) & m
+    fill = np.where(star, np.nan_to_num(across) + np.maximum(rz - lvl, 0), np.nan_to_num(across))
+    return m, fill
+
+
+def destreak_pieces(pieces, ids):
+    # each Hubble visit has its own roll: take the trail angle from the chip edges (median per visit), turn the piece so trails are rows, clean, and put only the changed pixels back
+    angles = [edge_angle(c) for _, _, c in pieces]
+    visit = {}
+    for i, t in zip(ids, angles):
+        visit.setdefault(i[:6], []).append(t)
+    vmed = {v: float(np.median(ts)) for v, ts in visit.items()}
+    out, frac = [], []
+    for (y0, x0, c), i in zip(pieces, ids):
+        t = vmed[i[:6]]
+        fin = np.isfinite(c)
+        rf = rotate(np.where(fin, c, 0), t, order=1, reshape=True, cval=0)
+        rw = rotate(fin.astype(np.float32), t, order=1, reshape=True, cval=0)
+        rot = np.where(rw > 0.99, rf / np.maximum(rw, 1e-6), np.nan)
+        m, fill = clean_rows(rot)
+        back = lambda x, order: rotate(x, -t, order=order, reshape=True, cval=0)
+        bm, bf = back(m.astype(np.float32), 0), back(np.where(m, fill, 0), 1)
+        dy, dx = (bm.shape[0] - c.shape[0]) // 2, (bm.shape[1] - c.shape[1]) // 2
+        bm, bf = bm[dy:dy + c.shape[0], dx:dx + c.shape[1]] > 0.5, bf[dy:dy + c.shape[0], dx:dx + c.shape[1]]
+        bm &= fin
+        frac.append(bm.mean())
+        out.append((y0, x0, np.where(bm, bf, c)))
+    print(f"  cleaned trails per visit ({len(vmed)} visits, angles {min(vmed.values()):.1f} to {max(vmed.values()):.1f}); {np.mean(frac) * 100:.2f}% of piece pixels", flush=True)
     return out
 
 
@@ -356,9 +411,8 @@ def combine(src, i, partdir):
     pieces, ids, shape, _ = load_pieces(os.path.join(partdir, f"{i}.npz"))
     print(f"== layer {i}: {lay['label']} from {len(pieces)} pieces", flush=True)
     if lay["mission"] == "HST":
-        tp = src.get("hubble", {}).get("trail_pieces")
-        if tp:
-            pieces = destreak_pieces(pieces, list(np.arange(tp["from"], tp["to"] + 1e-9, tp["step"])), tp.get("length", 15), tp.get("k", 6.0), tp.get("width", 9), tp.get("grow", 1))
+        if src.get("hubble", {}).get("trail_pieces"):
+            pieces = destreak_pieces(pieces, ids)
         a = level_pieces(pieces, shape)
         for t in src.get("hubble", {}).get("trails", []):
             a = destreak(a, t["angle"], length=t.get("length", 15), k=t.get("k", 6.0), width=t.get("width", 9), grow=t.get("grow", 1))

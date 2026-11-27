@@ -34,15 +34,7 @@
       "program": "10246",
       "instrument": "ACS/WFC",
       "radius_deg": 0.45,
-      "trail_pieces": {
-        "from": -12,
-        "to": 12,
-        "step": 0.5,
-        "length": 15,
-        "k": 6.0,
-        "width": 15,
-        "grow": 1
-      }
+      "trail_pieces": true
     },
     "spitzer": {
       "tiles": [
