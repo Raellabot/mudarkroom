@@ -1,0 +1,154 @@
+{
+ "data": {
+  "nh-lorri-lor_0298029179": {
+   "nh_lorri_raw": [
+    "https://opus.pds-rings.seti.org/holdings/volumes/NHxxLO_xxxx/NHPELO_1001/data/20150701_029802/lor_0298029179_0x633_eng.fit",
+    "https://opus.pds-rings.seti.org/holdings/volumes/NHxxLO_xxxx/NHPELO_1001/data/20150701_029802/lor_0298029179_0x633_eng.lbl"
+   ],
+   "nh_lorri_calib": [
+    "https://opus.pds-rings.seti.org/holdings/volumes/NHxxLO_xxxx/NHPELO_2001/data/20150701_029802/lor_0298029179_0x633_sci.fit",
+    "https://opus.pds-rings.seti.org/holdings/volumes/NHxxLO_xxxx/NHPELO_2001/data/20150701_029802/lor_0298029179_0x633_sci.lbl"
+   ],
+   "nh_lorri_calib_browse": [
+    "https://opus.pds-rings.seti.org/holdings/previews/NHxxLO_xxxx/NHPELO_2001/data/20150701_029802/lor_0298029179_0x633_sci_full.jpg",
+    "https://opus.pds-rings.seti.org/holdings/previews/NHxxLO_xxxx/NHPELO_2001/data/20150701_029802/lor_0298029179_0x633_sci_med.jpg",
+    "https://opus.pds-rings.seti.org/holdings/previews/NHxxLO_xxxx/NHPELO_2001/data/20150701_029802/lor_0298029179_0x633_sci_small.jpg",
+    "https://opus.pds-rings.seti.org/holdings/previews/NHxxLO_xxxx/NHPELO_2001/data/20150701_029802/lor_0298029179_0x633_sci_thumb.jpg"
+   ],
+   "nh_lorri_documentation": [
+    "https://opus.pds-rings.seti.org/holdings/documents/NHxxLO_xxxx/Cheng-etal-2007-SSR.pdf",
+    "https://opus.pds-rings.seti.org/holdings/documents/NHxxLO_xxxx/FITS-Standard-4.0.pdf",
+    "https://opus.pds-rings.seti.org/holdings/documents/NHxxLO_xxxx/LORRI-True-Exposure-Times.pdf",
+    "https://opus.pds-rings.seti.org/holdings/documents/NHxxLO_xxxx/LORRI-responsivity-plot.png",
+    "https://opus.pds-rings.seti.org/holdings/documents/NHxxLO_xxxx/Morgan-etal-2005-SPIE.pdf",
+    "https://opus.pds-rings.seti.org/holdings/documents/NHxxLO_xxxx/NH-Boresight-FOVs.png",
+    "https://opus.pds-rings.seti.org/holdings/documents/NHxxLO_xxxx/Weaver-etal-2008-SSR.pdf"
+   ],
+   "rms_index": [
+    "https://opus.pds-rings.seti.org/holdings/metadata/NHxxLO_xxxx/NHPELO_1001/NHPELO_1001_index.lbl",
+    "https://opus.pds-rings.seti.org/holdings/metadata/NHxxLO_xxxx/NHPELO_1001/NHPELO_1001_index.tab"
+   ],
+   "supplemental_index": [
+    "https://opus.pds-rings.seti.org/holdings/metadata/NHxxLO_xxxx/NHPELO_1001/NHPELO_1001_supplemental_index.lbl",
+    "https://opus.pds-rings.seti.org/holdings/metadata/NHxxLO_xxxx/NHPELO_1001/NHPELO_1001_supplemental_index.tab"
+   ],
+   "inventory": [
+    "https://opus.pds-rings.seti.org/holdings/metadata/NHxxLO_xxxx/NHPELO_1001/NHPELO_1001_inventory.csv",
+    "https://opus.pds-rings.seti.org/holdings/metadata/NHxxLO_xxxx/NHPELO_1001/NHPELO_1001_inventory.lbl"
+   ],
+   "planet_geometry": [
+    "https://opus.pds-rings.seti.org/holdings/metadata/NHxxLO_xxxx/NHPELO_1001/NHPELO_1001_pluto_summary.lbl",
+    "https://opus.pds-rings.seti.org/holdings/metadata/NHxxLO_xxxx/NHPELO_1001/NHPELO_1001_pluto_summary.tab"
+   ],
+   "moon_geometry": [
+    "https://opus.pds-rings.seti.org/holdings/metadata/NHxxLO_xxxx/NHPELO_1001/NHPELO_1001_charon_summary.lbl",
+    "https://opus.pds-rings.seti.org/holdings/metadata/NHxxLO_xxxx/NHPELO_1001/NHPELO_1001_charon_summary.tab",
+    "https://opus.pds-rings.seti.org/holdings/metadata/NHxxLO_xxxx/NHPELO_1001/NHPELO_1001_moon_summary.lbl",
+    "https://opus.pds-rings.seti.org/holdings/metadata/NHxxLO_xxxx/NHPELO_1001/NHPELO_1001_moon_summary.tab"
+   ],
+   "ring_geometry": [
+    "https://opus.pds-rings.seti.org/holdings/metadata/NHxxLO_xxxx/NHPELO_1001/NHPELO_1001_ring_summary.lbl",
+    "https://opus.pds-rings.seti.org/holdings/metadata/NHxxLO_xxxx/NHPELO_1001/NHPELO_1001_ring_summary.tab"
+   ],
+   "browse_thumb": [
+    "https://opus.pds-rings.seti.org/holdings/previews/NHxxLO_xxxx/NHPELO_1001/data/20150701_029802/lor_0298029179_0x633_eng_thumb.jpg"
+   ],
+   "browse_small": [
+    "https://opus.pds-rings.seti.org/holdings/previews/NHxxLO_xxxx/NHPELO_1001/data/20150701_029802/lor_0298029179_0x633_eng_small.jpg"
+   ],
+   "browse_medium": [
+    "https://opus.pds-rings.seti.org/holdings/previews/NHxxLO_xxxx/NHPELO_1001/data/20150701_029802/lor_0298029179_0x633_eng_med.jpg"
+   ],
+   "browse_full": [
+    "https://opus.pds-rings.seti.org/holdings/previews/NHxxLO_xxxx/NHPELO_1001/data/20150701_029802/lor_0298029179_0x633_eng_full.jpg"
+   ]
+  }
+ },
+ "versions": {
+  "nh-lorri-lor_0298029179": {
+   "Current": {
+    "nh_lorri_raw": [
+     "https://opus.pds-rings.seti.org/holdings/volumes/NHxxLO_xxxx/NHPELO_1001/data/20150701_029802/lor_0298029179_0x633_eng.fit",
+     "https://opus.pds-rings.seti.org/holdings/volumes/NHxxLO_xxxx/NHPELO_1001/data/20150701_029802/lor_0298029179_0x633_eng.lbl"
+    ],
+    "nh_lorri_calib": [
+     "https://opus.pds-rings.seti.org/holdings/volumes/NHxxLO_xxxx/NHPELO_2001/data/20150701_029802/lor_0298029179_0x633_sci.fit",
+     "https://opus.pds-rings.seti.org/holdings/volumes/NHxxLO_xxxx/NHPELO_2001/data/20150701_029802/lor_0298029179_0x633_sci.lbl"
+    ],
+    "nh_lorri_calib_browse": [
+     "https://opus.pds-rings.seti.org/holdings/previews/NHxxLO_xxxx/NHPELO_2001/data/20150701_029802/lor_0298029179_0x633_sci_full.jpg",
+     "https://opus.pds-rings.seti.org/holdings/previews/NHxxLO_xxxx/NHPELO_2001/data/20150701_029802/lor_0298029179_0x633_sci_med.jpg",
+     "https://opus.pds-rings.seti.org/holdings/previews/NHxxLO_xxxx/NHPELO_2001/data/20150701_029802/lor_0298029179_0x633_sci_small.jpg",
+     "https://opus.pds-rings.seti.org/holdings/previews/NHxxLO_xxxx/NHPELO_2001/data/20150701_029802/lor_0298029179_0x633_sci_thumb.jpg"
+    ],
+    "nh_lorri_documentation": [
+     "https://opus.pds-rings.seti.org/holdings/documents/NHxxLO_xxxx/Cheng-etal-2007-SSR.pdf",
+     "https://opus.pds-rings.seti.org/holdings/documents/NHxxLO_xxxx/FITS-Standard-4.0.pdf",
+     "https://opus.pds-rings.seti.org/holdings/documents/NHxxLO_xxxx/LORRI-True-Exposure-Times.pdf",
+     "https://opus.pds-rings.seti.org/holdings/documents/NHxxLO_xxxx/LORRI-responsivity-plot.png",
+     "https://opus.pds-rings.seti.org/holdings/documents/NHxxLO_xxxx/Morgan-etal-2005-SPIE.pdf",
+     "https://opus.pds-rings.seti.org/holdings/documents/NHxxLO_xxxx/NH-Boresight-FOVs.png",
+     "https://opus.pds-rings.seti.org/holdings/documents/NHxxLO_xxxx/Weaver-etal-2008-SSR.pdf"
+    ],
+    "rms_index": [
+     "https://opus.pds-rings.seti.org/holdings/metadata/NHxxLO_xxxx/NHPELO_1001/NHPELO_1001_index.lbl",
+     "https://opus.pds-rings.seti.org/holdings/metadata/NHxxLO_xxxx/NHPELO_1001/NHPELO_1001_index.tab"
+    ],
+    "supplemental_index": [
+     "https://opus.pds-rings.seti.org/holdings/metadata/NHxxLO_xxxx/NHPELO_1001/NHPELO_1001_supplemental_index.lbl",
+     "https://opus.pds-rings.seti.org/holdings/metadata/NHxxLO_xxxx/NHPELO_1001/NHPELO_1001_supplemental_index.tab"
+    ],
+    "inventory": [
+     "https://opus.pds-rings.seti.org/holdings/metadata/NHxxLO_xxxx/NHPELO_1001/NHPELO_1001_inventory.csv",
+     "https://opus.pds-rings.seti.org/holdings/metadata/NHxxLO_xxxx/NHPELO_1001/NHPELO_1001_inventory.lbl"
+    ],
+    "planet_geometry": [
+     "https://opus.pds-rings.seti.org/holdings/metadata/NHxxLO_xxxx/NHPELO_1001/NHPELO_1001_pluto_summary.lbl",
+     "https://opus.pds-rings.seti.org/holdings/metadata/NHxxLO_xxxx/NHPELO_1001/NHPELO_1001_pluto_summary.tab"
+    ],
+    "moon_geometry": [
+     "https://opus.pds-rings.seti.org/holdings/metadata/NHxxLO_xxxx/NHPELO_1001/NHPELO_1001_charon_summary.lbl",
+     "https://opus.pds-rings.seti.org/holdings/metadata/NHxxLO_xxxx/NHPELO_1001/NHPELO_1001_charon_summary.tab",
+     "https://opus.pds-rings.seti.org/holdings/metadata/NHxxLO_xxxx/NHPELO_1001/NHPELO_1001_moon_summary.lbl",
+     "https://opus.pds-rings.seti.org/holdings/metadata/NHxxLO_xxxx/NHPELO_1001/NHPELO_1001_moon_summary.tab"
+    ],
+    "ring_geometry": [
+     "https://opus.pds-rings.seti.org/holdings/metadata/NHxxLO_xxxx/NHPELO_1001/NHPELO_1001_ring_summary.lbl",
+     "https://opus.pds-rings.seti.org/holdings/metadata/NHxxLO_xxxx/NHPELO_1001/NHPELO_1001_ring_summary.tab"
+    ],
+    "browse_thumb": [
+     "https://opus.pds-rings.seti.org/holdings/previews/NHxxLO_xxxx/NHPELO_1001/data/20150701_029802/lor_0298029179_0x633_eng_thumb.jpg"
+    ],
+    "browse_small": [
+     "https://opus.pds-rings.seti.org/holdings/previews/NHxxLO_xxxx/NHPELO_1001/data/20150701_029802/lor_0298029179_0x633_eng_small.jpg"
+    ],
+    "browse_medium": [
+     "https://opus.pds-rings.seti.org/holdings/previews/NHxxLO_xxxx/NHPELO_1001/data/20150701_029802/lor_0298029179_0x633_eng_med.jpg"
+    ],
+    "browse_full": [
+     "https://opus.pds-rings.seti.org/holdings/previews/NHxxLO_xxxx/NHPELO_1001/data/20150701_029802/lor_0298029179_0x633_eng_full.jpg"
+    ]
+   },
+   "2": {
+    "nh_lorri_raw": [
+     "https://opus.pds-rings.seti.org/holdings/volumes/NHxxLO_xxxx_v2/NHPELO_1001/data/20150701_029802/lor_0298029179_0x633_eng.fit",
+     "https://opus.pds-rings.seti.org/holdings/volumes/NHxxLO_xxxx_v2/NHPELO_1001/data/20150701_029802/lor_0298029179_0x633_eng.lbl"
+    ],
+    "nh_lorri_calib": [
+     "https://opus.pds-rings.seti.org/holdings/volumes/NHxxLO_xxxx_v2/NHPELO_2001/data/20150701_029802/lor_0298029179_0x633_sci.fit",
+     "https://opus.pds-rings.seti.org/holdings/volumes/NHxxLO_xxxx_v2/NHPELO_2001/data/20150701_029802/lor_0298029179_0x633_sci.lbl"
+    ]
+   },
+   "1": {
+    "nh_lorri_raw": [
+     "https://opus.pds-rings.seti.org/holdings/volumes/NHxxLO_xxxx_v1/NHPELO_1001/data/20150701_029802/lor_0298029179_0x633_eng.fit",
+     "https://opus.pds-rings.seti.org/holdings/volumes/NHxxLO_xxxx_v1/NHPELO_1001/data/20150701_029802/lor_0298029179_0x633_eng.lbl"
+    ],
+    "nh_lorri_calib": [
+     "https://opus.pds-rings.seti.org/holdings/volumes/NHxxLO_xxxx_v1/NHPELO_2001/data/20150701_029802/lor_0298029179_0x633_sci.fit",
+     "https://opus.pds-rings.seti.org/holdings/volumes/NHxxLO_xxxx_v1/NHPELO_2001/data/20150701_029802/lor_0298029179_0x633_sci.lbl"
+    ]
+   }
+  }
+ }
+}

@@ -1,0 +1,251 @@
+PDS_VERSION_ID       = PDS3                                                   
+                                                                              
+RECORD_TYPE          = FIXED_LENGTH                                           
+RECORD_BYTES         = 2880                                                   
+FILE_RECORDS         = 243                                                    
+                                                                              
+^HEADER = "LOR_0298029179_0X633_SCI.FIT"                                      
+^IMAGE = ("LOR_0298029179_0X633_SCI.FIT", 12)                                 
+^EXTENSION_CALIB_ERROR_EST_HEADER = ("LOR_0298029179_0X633_SCI.FIT", 104)     
+^EXTENSION_CALIB_ERROR_EST_IMAGE = ("LOR_0298029179_0X633_SCI.FIT", 105)      
+^EXTENSION_CALIB_QUALITY_HEADER = ("LOR_0298029179_0X633_SCI.FIT", 197)       
+^EXTENSION_CALIB_QUALITY_IMAGE = ("LOR_0298029179_0X633_SCI.FIT", 198)        
+NOTE = "                                                                      
+                                                                              
+                                                                              
+- Earth Mean Equator and Vernal Equinox of J2000 is the inertial              
+  reference frame used to specify observational geometry. Geometric           
+  parameters are based on best available data at time of product              
+  creation. Refer to the SPICE archive for the most current                   
+  observational geometry data.                                                
+                                                                              
+- All positions are relative to body centers                                  
+                                                                              
+                                                                              
+- SC_TARGET_POSITION_VECTOR/_VELOCITY_VECTOR                                  
+  - TARGET wrt S/C                                                            
+  - Light time and stellar aberration correction                              
+    (per the PDS Data Dictionary)                                             
+    for light originating from Sun, reflected                                 
+    off of PLUTO                                                              
+    and received by S/C at observation midpoint.                              
+                                                                              
+- TARGET_SUN_POSITION_VECTOR/_VELOCITY_VECTOR                                 
+  - SUN wrt TARGET                                                            
+  - Light time and stellar aberration correction                              
+    (per the PDS Data Dictionary)                                             
+    for light originating from Sun, reflected                                 
+    off of SUN                                                                
+    and received by S/C at observation midpoint.                              
+                                                                              
+- SC_SUN_POSITION_VECTOR/_VELOCITY_VECTOR                                     
+  - SUN wrt S/C                                                               
+  - Light time and stellar aberration correction                              
+    (per the PDS Data Dictionary)                                             
+    for light originating from Sun                                            
+    and received by S/C at observation midpoint.                              
+                                                                              
+- SC_EARTH_POSITION_VECTOR                                                    
+  - EARTH wrt S/C                                                             
+  - Light time and no stellar aberration correction                           
+    (per the PDS Data Dictionary)                                             
+    for light reflected off of, or radiated signal originating from, Earth    
+    and received by S/C at observation midpoint.                              
+                                                                              
+- PHASE_ANGLE                                                                 
+  - Angle between two vectors:                                                
+    - PLUTO target body center to Sun                                         
+    - PLUTO target body center to NH spacecraft                               
+    - Light time and stellar aberration corrections for light leaving         
+      Sun and arriving at target center, for light that arrives at            
+      spacecraft at observation midpoint                                      
+    - Light time correction only, and no stellar aberration, for light        
+      leaving target center and arriving at spacecraft at observation         
+      midpoint.                                                               
+                                                                              
+- SUB_SOLAR_LATITUDE                                                          
+- SUB_SPACECRAFT_LATITUDE                                                     
+  - Same vectors used as for PHASE_ANGLE                                      
+  - IAU convention:                                                           
+    - Positive toward Positive pole                                           
+                                                                              
+- SUB_SOLAR_LONGITUDE                                                         
+- SUB_SPACECRAFT_LONGITUDE                                                    
+  - Same vectors used as for PHASE_ANGLE                                      
+  - IAU convention                                                            
+    - Increasing in right-hand direction with thumb toward pole               
+                                                                              
+- Azimuth to Sun in FOV:                                                      
+  - Projection of PLUTO to Sun vector                                         
+    (same as for PHASE_ANGLE) into instrument FOV                             
+  - Positive clockwise from up                                                
+  - PDS3 provides no suitable keyword, here is a placeholder:                 
+                                                                              
+NEWHORIZONS:SOLAR_FOV_AZIMUTH = 280.0 <DEGREE>                                
+                                                                              
+- TARGET_NAME                                                                 
+  - Note if TARGET_NAME is N/A, these parameters may be undefined.            
+    This can occur, for instance, if an instrument was performing             
+    an internal calibration.                                                  
+                                                                              
+By mutual agreement with PDS-SBN, FITS headers are the domain of the NH       
+Project and were not part of the peer review beyond adherence to the          
+FITS standard.  FITS header values, especially geometric conventions          
+regarding phase angle, direction of supplied vectors and sense of light       
+time and stellar aberration corrections, were chosen to serve                 
+operational purposes and should be used with care.                            
+                                                                              
+- Keyword NEWHORIZONS:APPROX_TARGET_NAME is the best guess of the             
+  intended target of the observation made by the automated data               
+  processing pipeline.                                                        
+                                                                              
+- Keywords NEWHORIZONS:APPROX_TARGET_LINE and                                 
+  NEWHORIZONS:APPROX_TARGET_SAMPLE provide the approximate pixel              
+  position in the image of the center of that best guess target in            
+  one-based absolute units of the PDS keywords LINES and LINE_SAMPLES,        
+  respectively, as defined in the IMAGE OBJECT of this label and in the       
+  PDS Standards Reference.  The origin is dependent on the definitions        
+  of LINE_DISPLAY_DIRECTION and SAMPLE_DISPLAY_DIRECTION; if those are        
+  UP and RIGHT, respectively, then the origin is in the lower left.           
+                                                                              
+- If the best guess at the target is unknown, then all three keywords         
+  will be UNK i.e. unknown. If there was no target, i.e. for some             
+  instances of instrument calibration activities, the keywords will           
+  be N/A.                                                                     
+                                                                              
+                                                                              
+                                                                              
+- This image is not windowed                                                  
+"                                                                             
+                                                                              
+MISSION_NAME         = "NEW HORIZONS"                                         
+DATA_SET_ID          = "NH-P-LORRI-3-PLUTO-V3.0"                              
+PRODUCT_ID           = "LOR_0298029179_0X633_SCI"                             
+PRODUCER_INSTITUTION_NAME = "SOUTHWEST RESEARCH INSTITUTE"                    
+PRODUCT_TYPE         = "RDR"                                                  
+MISSION_PHASE_NAME   = "PLUTO ENCOUNTER"                                      
+NEWHORIZONS:SEQUENCE_ID = "                                                   
+  PELR_U_SATPHOT_7"                                                           
+NEWHORIZONS:OBSERVATION_DESC  = "                                             
+  IMAGING OF P5, P6, UNKNOWN OTHERS 1X/DAY.                                   
+"                                                                             
+TARGET_NAME          = "PLUTO"                                                
+                                                                              
+PRODUCT_CREATION_TIME = 2017-09-21T00:00:00                                   
+START_TIME           = 2015-07-01T04:01:00.042                                
+STOP_TIME            = 2015-07-01T04:01:00.842                                
+SPACECRAFT_CLOCK_CNT_PARTITION = 3                                            
+SPACECRAFT_CLOCK_START_COUNT   = "0298029178:09000"                           
+SPACECRAFT_CLOCK_STOP_COUNT    = "0298029178:49000"                           
+                                                                              
+INSTRUMENT_NAME="LONG RANGE RECONNAISSANCE IMAGER"                            
+INSTRUMENT_HOST_NAME = "NEW HORIZONS"                                         
+INSTRUMENT_HOST_ID   = "NH"                                                   
+INSTRUMENT_ID        = "LORRI"                                                
+TELEMETRY_APPLICATION_ID = "0x633"                                            
+EXPOSURE_DURATION    = 0.800 <s>                                              
+DETECTOR_TYPE        = "SI CCD"                                               
+INST_CMPRS_TYPE      = "LOSSLESS"                                             
+                                                                              
+                                                                              
+EQUINOX_EPOCH               = 2000.0                                          
+COORDINATE_SYSTEM_ID        = "J2000"                                         
+                                                                              
+SC_TARGET_POSITION_VECTOR = (                                                 
+  171384.36 <km>                                                              
+, -15354246. <km>                                                             
+, -4003415.0 <km>                                                             
+ )                                                                            
+SC_TARGET_VELOCITY_VECTOR = (                                                 
+  -0.15112601 <km/s>                                                          
+, 13.340220 <km/s>                                                            
+, 3.4613117 <km/s>                                                            
+ )                                                                            
+TARGET_CENTER_DISTANCE      = 15868509. <km>                                  
+                                                                              
+TARGET_SUN_POSITION_VECTOR = (                                                
+  -1190930228.8028331 <km>                                                    
+, 4444898432.8089466 <km>                                                     
+, 1746071800.4386692 <km>                                                     
+ )                                                                            
+TARGET_SUN_VELOCITY_VECTOR = (                                                
+  -5.3904038 <km/s>                                                           
+, -0.80986415 <km/s>                                                          
+, 1.3931925 <km/s>                                                            
+ )                                                                            
+SOLAR_DISTANCE              = 4921808978.4296722 <km>                         
+                                                                              
+SC_SUN_POSITION_VECTOR = (                                                    
+  -1190809816.0260394 <km>                                                    
+, 4429522451.3854704 <km>                                                     
+, 1742089236.9501951 <km>                                                     
+ )                                                                            
+SC_SUN_VELOCITY_VECTOR = (                                                    
+  -5.5379416 <km/s>                                                           
+, 12.530895 <km/s>                                                            
+, 4.8552838 <km/s>                                                            
+ )                                                                            
+SPACECRAFT_SOLAR_DISTANCE   = 4906482658.1543751 <km>                         
+                                                                              
+SC_EARTH_POSITION_VECTOR = (                                                  
+  -1167972508.8451226 <km>                                                    
+, 4291565464.3909702 <km>                                                     
+, 1682281608.1803782 <km>                                                     
+ )                                                                            
+SC_GEOCENTRIC_DISTANCE      = 4755182996.0363483 <km>                         
+                                                                              
+PHASE_ANGLE                 = 15.0 <DEGREE>                                   
+SOLAR_ELONGATION            = 164.9 <DEGREE>                                  
+                                                                              
+SUB_SOLAR_LATITUDE          = 51.5 <DEGREE>                                   
+SUB_SOLAR_LONGITUDE         = 159.0 <DEGREE>                                  
+                                                                              
+SUB_SPACECRAFT_LATITUDE     = 43.1 <DEGREE>                                   
+SUB_SPACECRAFT_LONGITUDE    = 177.5 <DEGREE>                                  
+                                                                              
+RIGHT_ASCENSION             = 270.4 <DEGREE>                                  
+DECLINATION                 = -14.7 <DEGREE>                                  
+CELESTIAL_NORTH_CLOCK_ANGLE = 216.0 <DEGREE>                                  
+BODY_POLE_CLOCK_ANGLE       = 329.3 <DEGREE>                                  
+                                                                              
+QUATERNION = (                                                                
+  0.6332855200                                                                
+, 0.3034285718                                                                
+, 0.1346015846                                                                
+, 0.6991158455                                                                
+ )                                                                            
+QUATERNION_DESC = "QUAT_AXYZ_J2K_TO_INSTR.ASC"                                
+/* See NOTE keyword above for definition of NEWH*:APPROX_TARGET_* fields */   
+NEWHORIZONS:APPROX_TARGET_NAME   = "PLUTO"                                    
+NEWHORIZONS:APPROX_TARGET_LINE   = 1                                          
+NEWHORIZONS:APPROX_TARGET_SAMPLE = 236                                        
+                                                                              
+SPICE_FILE_NAME      = { "nh_pred_20060119_20070401_od020.bsp"                
+                       , "nh_pred_20060119_20070101_od021.bsp"                
+                       , "nh_pred_20060119_20100601_od022.bsp"                
+                       , "nh_pred_20060119_20100101_od032.bsp"                
+                       , "nh_pred_20061001_20100101_od040.bsp"                
+                       , "nh_pred_20070307_20100101_od041.bsp"                
+                       , "nh_pred_20070321_20100101_od042.bsp"                
+                       , "nh_pred_20070319_20100101_od051.bsp"                
+                       , "nh_pred_20070319_20110101_od059.bsp"                
+                       , "nh_pred_20080710_20160101_od059.bsp"                
+                       , "nh_pred_20070319_20130101_od061.bsp"                
+                       , "nh_pred_20070319_20140101_od064.bsp"                
+                       , "nh_pred_20070319_20150101_od070.bsp"                
+                       , "nh_pred_20070319_20150501_od072.bsp"                
+                       , "nh_pred_20070319_20150901_od077.bsp"                
+                       , "nh_pred_20120501_20160913_od091.bsp"                
+                       , "nh_pred_20150801_20190301_od124.bsp"                
+                       , "nh_pred_20150801_20190901_od126.bsp"                
+                       , "naif0012.tls"                                       
+                       , "new_horizons_1535.tsc"                              
+                       , "nh_stars_kbo_centaur_ppinp.tpc"                     
+                       , "pck00010.tpc"                                       
+                       , "nh_v220.tf"                                         
+                       , "nh_allinstruments_v002.ti"                          
+                       , "nh_alice_v200.ti"                                   
+                       , "nh_lorri_v201.ti"                                   
+                       , "nh_pepssi_v110.ti"                                  
+                       , "nh_ralph_v100.ti"                                   
+ 
