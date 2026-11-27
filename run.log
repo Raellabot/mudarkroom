@@ -1,0 +1,18 @@
+{
+ "sets": 758,
+ "failed": 0,
+ "cut_off": 170,
+ "dropouts": 5,
+ "used": 583,
+ "top_if": 0.8132,
+ "first": "2001-02-10T14:26:15.409",
+ "last": "2001-03-08T17:12:15.784",
+ "diam_first": 542.0,
+ "diam_last": 344.0,
+ "red_ratio": 1.0427,
+ "blue_ratio": 0.8593,
+ "red_gain": 1.0,
+ "approach": 583,
+ "spin": 583,
+ "one_per_turn": 43
+}
