@@ -1,0 +1,782 @@
+nh-pluto 1000
+nh-pluto 2000
+nh-pluto 3000
+nh-pluto 4000
+nh-pluto 5000
+nh-pluto 5635
+nh-jupiter 1000
+nh-jupiter 1659
+cassini-jupiter 1000
+cassini-jupiter 2000
+cassini-jupiter 3000
+cassini-jupiter 4000
+cassini-jupiter 5000
+cassini-jupiter 6000
+cassini-jupiter 7000
+cassini-jupiter 8000
+cassini-jupiter 9000
+cassini-jupiter 10000
+cassini-jupiter 11000
+cassini-jupiter 12000
+cassini-jupiter 13000
+cassini-jupiter 14000
+cassini-jupiter 15000
+cassini-jupiter 16000
+cassini-jupiter 17000
+cassini-jupiter 18000
+cassini-jupiter 19000
+cassini-jupiter 20000
+cassini-jupiter 21000
+cassini-jupiter 22000
+cassini-jupiter 23000
+cassini-jupiter 24000
+cassini-jupiter 25000
+cassini-jupiter 26000
+cassini-jupiter 27000
+cassini-jupiter 27533
+galileo-earth-1990 1000
+galileo-earth-1990 2000
+galileo-earth-1990 2705
+galileo-earth-1992 1000
+galileo-earth-1992 2000
+galileo-earth-1992 3000
+galileo-earth-1992 4000
+galileo-earth-1992 5000
+galileo-earth-1992 6000
+galileo-earth-1992 6432
+retry https://opus.pds-rings.seti.org/opus/api/data.json?instrument=Juno+JunoCam&time1=2016-05-01&time2=2016-07-06&limit=1 HTTP Error 404: Not Found
+retry https://opus.pds-rings.seti.org/opus/api/data.json?instrument=Juno+JunoCam&time1=2016-05-01&time2=2016-07-06&limit=1 HTTP Error 404: Not Found
+retry https://opus.pds-rings.seti.org/opus/api/data.json?instrument=Juno+JunoCam&time1=2016-05-01&time2=2016-07-06&limit=1 HTTP Error 404: Not Found
+retry https://opus.pds-rings.seti.org/opus/api/data.json?instrument=Juno+JunoCam&time1=2016-05-01&time2=2016-07-06&limit=1 HTTP Error 404: Not Found
+FAILED juno-jupiter-2016 HTTP Error 404: Not Found
+listed https://sbnarchive.psi.edu/pds3/dawn/fc/ 97 ['dawn/', 'DWNC1FC2_1A.tgz', 'DWNC1FC2_1A/', 'DWNC1FC2_1B.tgz', 'DWNC1FC2_1B/', 'DWNC2FC2_1A.tgz', 'DWNC2FC2_1A/', 'DWNC2FC2_1B.tgz', 'DWNC2FC2_1B/', 'DWNC3FC2_1A.tgz', 'DWNC3FC2_1A/', 'DWNC3FC2_1B.tgz', 'DWNC3FC2_1B/', 'DWNC4FC2_1A.tgz', 'DWNC4FC2_1A/', 'DWNC4FC2_1B.tgz', 'DWNC4FC2_1B/', 'DWNC6FC1_1A-190611.tgz', 'DWNC6FC1_1A/', 'DWNC6FC1_1B-190723.tgz', 'DWNC6FC1_1B/', 'DWNC6FC2_1A-190614.tgz', 'DWNC6FC2_1A/', 'DWNC6FC2_1B-190724.tgz', 'DWNC6FC2_1B/', 'DWNC7FC1_1A-190612.tar', 'DWNC7FC1_1A/', 'DWNC7FC1_1B-190724.tgz', 'DWNC7FC1_1B/', 'DWNC7FC2_1A-190614.tgz', 'DWNC7FC2_1A/', 'DWNC7FC2_1B-190724.tgz', 'DWNC7FC2_1B/', 'DWNCAFC2_1A-160825.tgz', 'DWNCAFC2_1A/', 'DWNCAFC2_1B-160830.tgz', 'DWNCAFC2_1B/', 'DWNCALFC1/', 'DWNCALFC1_170922.zip', 'DWNCALFC2-190820.tgz', 'DWNCALFC2/', 'DWNCFC1_1A.tgz', 'DWNCFC1_1A/', 'DWNCFC1_1B.tgz', 'DWNCFC1_1B/', 'DWNCHCFC2_2.zip', 'DWNCHCFC2_2/', 'DWNCHCFC2_2_20160822.zip', 'DWNCHFC2_1A-160825.tgz', 'DWNCHFC2_1A/', 'DWNCHFC2_1B-160830.tgz', 'DWNCHFC2_1B/', 'DWNCHFFC2_2.zip', 'DWNCHFFC2_2/', 'DWNCHSPG_2.zip', 'DWNCHSPG_2/', 'DWNCLCFC2_2.zip', 'DWNCLCFC2_2/', 'DWNCLFC2_1A.tgz', 'DWNCLFC2_1A/']
+listed https://sbnarchive.psi.edu/pds3/dawn/fc/DWNVFC2_1A/ 10 ['fc/', 'AAREADME.TXT', 'BROWSE/', 'CATALOG/', 'DATA/', 'DOCUMENT/', 'ERRATA.TXT', 'INDEX/', 'MD5_CHECKSUM.TXT', 'VOLDESC.CAT']
+dawn-vesta index labels ['https://sbnarchive.psi.edu/pds3/dawn/fc/DWNVFC2_1A/INDEX/GEOM_INDEX.LBL', 'https://sbnarchive.psi.edu/pds3/dawn/fc/DWNVFC2_1A/INDEX/INDEX.LBL']
+reading https://sbnarchive.psi.edu/pds3/dawn/fc/DWNVFC2_1A/INDEX/GEOM_INDEX.TAB time column IMAGE_TIME
+https://sbnarchive.psi.edu/pds3/dawn/fc/DWNVFC2_1A/INDEX/GEOM_INDEX.LBL lines 61397 in window 2052
+reading https://sbnarchive.psi.edu/pds3/dawn/fc/DWNVFC2_1A/INDEX/INDEX.TAB time column START_TIME
+https://sbnarchive.psi.edu/pds3/dawn/fc/DWNVFC2_1A/INDEX/INDEX.LBL lines 61397 in window 4104
+FAILED dawn-vesta dict contains fields not in fieldnames: 'VOLUME_ID', 'EXPOSURE_DURATION', 'DATA_SET_ID', 'PRODUCT_ID', 'START_TIME', 'PRODUCT_CREATION_TIME', 'STOP_TIME'
+listed https://sbnarchive.psi.edu/pds3/dawn/fc/ 97 ['dawn/', 'DWNC1FC2_1A.tgz', 'DWNC1FC2_1A/', 'DWNC1FC2_1B.tgz', 'DWNC1FC2_1B/', 'DWNC2FC2_1A.tgz', 'DWNC2FC2_1A/', 'DWNC2FC2_1B.tgz', 'DWNC2FC2_1B/', 'DWNC3FC2_1A.tgz', 'DWNC3FC2_1A/', 'DWNC3FC2_1B.tgz', 'DWNC3FC2_1B/', 'DWNC4FC2_1A.tgz', 'DWNC4FC2_1A/', 'DWNC4FC2_1B.tgz', 'DWNC4FC2_1B/', 'DWNC6FC1_1A-190611.tgz', 'DWNC6FC1_1A/', 'DWNC6FC1_1B-190723.tgz', 'DWNC6FC1_1B/', 'DWNC6FC2_1A-190614.tgz', 'DWNC6FC2_1A/', 'DWNC6FC2_1B-190724.tgz', 'DWNC6FC2_1B/', 'DWNC7FC1_1A-190612.tar', 'DWNC7FC1_1A/', 'DWNC7FC1_1B-190724.tgz', 'DWNC7FC1_1B/', 'DWNC7FC2_1A-190614.tgz', 'DWNC7FC2_1A/', 'DWNC7FC2_1B-190724.tgz', 'DWNC7FC2_1B/', 'DWNCAFC2_1A-160825.tgz', 'DWNCAFC2_1A/', 'DWNCAFC2_1B-160830.tgz', 'DWNCAFC2_1B/', 'DWNCALFC1/', 'DWNCALFC1_170922.zip', 'DWNCALFC2-190820.tgz', 'DWNCALFC2/', 'DWNCFC1_1A.tgz', 'DWNCFC1_1A/', 'DWNCFC1_1B.tgz', 'DWNCFC1_1B/', 'DWNCHCFC2_2.zip', 'DWNCHCFC2_2/', 'DWNCHCFC2_2_20160822.zip', 'DWNCHFC2_1A-160825.tgz', 'DWNCHFC2_1A/', 'DWNCHFC2_1B-160830.tgz', 'DWNCHFC2_1B/', 'DWNCHFFC2_2.zip', 'DWNCHFFC2_2/', 'DWNCHSPG_2.zip', 'DWNCHSPG_2/', 'DWNCLCFC2_2.zip', 'DWNCLCFC2_2/', 'DWNCLFC2_1A.tgz', 'DWNCLFC2_1A/']
+listed https://sbnarchive.psi.edu/pds3/dawn/fc/DWNC1FC2_1A/ 11 ['fc/', 'AAREADME.TXT', 'BROWSE/', 'CATALOG/', 'DATA/', 'DOCUMENT/', 'ERRATA.TXT', 'GEOMETRY/', 'INDEX/', 'MD5_CHECKSUM.TXT', 'VOLDESC.CAT']
+listed https://sbnarchive.psi.edu/pds3/dawn/fc/DWNC2FC2_1A/ 11 ['fc/', 'AAREADME.TXT', 'BROWSE/', 'CATALOG/', 'DATA/', 'DOCUMENT/', 'ERRATA.TXT', 'GEOMETRY/', 'INDEX/', 'MD5_CHECKSUM.TXT', 'VOLDESC.CAT']
+listed https://sbnarchive.psi.edu/pds3/dawn/fc/DWNC3FC2_1A/ 11 ['fc/', 'AAREADME.TXT', 'BROWSE/', 'CATALOG/', 'DATA/', 'DOCUMENT/', 'ERRATA.TXT', 'GEOMETRY/', 'INDEX/', 'MD5_CHECKSUM.TXT', 'VOLDESC.CAT']
+listed https://sbnarchive.psi.edu/pds3/dawn/fc/DWNC4FC2_1A/ 11 ['fc/', 'AAREADME.TXT', 'BROWSE/', 'CATALOG/', 'DATA/', 'DOCUMENT/', 'ERRATA.TXT', 'GEOMETRY/', 'INDEX/', 'MD5_CHECKSUM.TXT', 'VOLDESC.CAT']
+listed https://sbnarchive.psi.edu/pds3/dawn/fc/DWNC6FC2_1A/ 11 ['fc/', 'AAREADME.TXT', 'BROWSE/', 'CATALOG/', 'DATA/', 'DOCUMENT/', 'ERRATA.TXT', 'GEOMETRY/', 'INDEX/', 'MD5_CHECKSUM.TXT', 'VOLDESC.CAT']
+listed https://sbnarchive.psi.edu/pds3/dawn/fc/DWNC7FC2_1A/ 11 ['fc/', 'AAREADME.TXT', 'BROWSE/', 'CATALOG/', 'DATA/', 'DOCUMENT/', 'ERRATA.TXT', 'GEOMETRY/', 'INDEX/', 'MD5_CHECKSUM.TXT', 'VOLDESC.CAT']
+listed https://sbnarchive.psi.edu/pds3/dawn/fc/DWNCAFC2_1A/ 11 ['fc/', 'AAREADME.TXT', 'BROWSE/', 'CATALOG/', 'DATA/', 'DOCUMENT/', 'ERRATA.TXT', 'GEOMETRY/', 'INDEX/', 'MD5_CHECKSUM.TXT', 'VOLDESC.CAT']
+listed https://sbnarchive.psi.edu/pds3/dawn/fc/DWNCHFC2_1A/ 11 ['fc/', 'AAREADME.TXT', 'BROWSE/', 'CATALOG/', 'DATA/', 'DOCUMENT/', 'ERRATA.TXT', 'GEOMETRY/', 'INDEX/', 'MD5_CHECKSUM.TXT', 'VOLDESC.CAT']
+listed https://sbnarchive.psi.edu/pds3/dawn/fc/DWNCLFC2_1A/ 11 ['fc/', 'AAREADME.TXT', 'BROWSE/', 'CATALOG/', 'DATA/', 'DOCUMENT/', 'ERRATA.TXT', 'GEOMETRY/', 'INDEX/', 'MD5_CHECKSUM.TXT', 'VOLDESC.CAT']
+listed https://sbnarchive.psi.edu/pds3/dawn/fc/DWNCSFC2_1A/ 11 ['fc/', 'AAREADME.TXT', 'BROWSE/', 'CATALOG/', 'DATA/', 'DOCUMENT/', 'ERRATA.TXT', 'GEOMETRY/', 'INDEX/', 'MD5_CHECKSUM.TXT', 'VOLDESC.CAT']
+dawn-ceres index labels ['https://sbnarchive.psi.edu/pds3/dawn/fc/DWNC1FC2_1A/INDEX/GEOM_INDEX.LBL', 'https://sbnarchive.psi.edu/pds3/dawn/fc/DWNC1FC2_1A/INDEX/INDEX.LBL', 'https://sbnarchive.psi.edu/pds3/dawn/fc/DWNC2FC2_1A/INDEX/GEOM_INDEX.LBL', 'https://sbnarchive.psi.edu/pds3/dawn/fc/DWNC2FC2_1A/INDEX/INDEX.LBL', 'https://sbnarchive.psi.edu/pds3/dawn/fc/DWNC3FC2_1A/INDEX/GEOM_INDEX.LBL', 'https://sbnarchive.psi.edu/pds3/dawn/fc/DWNC3FC2_1A/INDEX/INDEX.LBL', 'https://sbnarchive.psi.edu/pds3/dawn/fc/DWNC4FC2_1A/INDEX/GEOM_INDEX.LBL', 'https://sbnarchive.psi.edu/pds3/dawn/fc/DWNC4FC2_1A/INDEX/INDEX.LBL', 'https://sbnarchive.psi.edu/pds3/dawn/fc/DWNC6FC2_1A/INDEX/GEOM_INDEX.LBL', 'https://sbnarchive.psi.edu/pds3/dawn/fc/DWNC6FC2_1A/INDEX/INDEX.LBL', 'https://sbnarchive.psi.edu/pds3/dawn/fc/DWNC7FC2_1A/INDEX/GEOM_INDEX.LBL', 'https://sbnarchive.psi.edu/pds3/dawn/fc/DWNC7FC2_1A/INDEX/INDEX.LBL', 'https://sbnarchive.psi.edu/pds3/dawn/fc/DWNCAFC2_1A/INDEX/GEOM_INDEX.LBL', 'https://sbnarchive.psi.edu/pds3/dawn/fc/DWNCAFC2_1A/INDEX/INDEX.LBL', 'https://sbnarchive.psi.edu/pds3/dawn/fc/DWNCHFC2_1A/INDEX/GEOM_INDEX.LBL', 'https://sbnarchive.psi.edu/pds3/dawn/fc/DWNCHFC2_1A/INDEX/INDEX.LBL', 'https://sbnarchive.psi.edu/pds3/dawn/fc/DWNCLFC2_1A/INDEX/GEOM_INDEX.LBL', 'https://sbnarchive.psi.edu/pds3/dawn/fc/DWNCLFC2_1A/INDEX/INDEX.LBL', 'https://sbnarchive.psi.edu/pds3/dawn/fc/DWNCSFC2_1A/INDEX/GEOM_INDEX.LBL', 'https://sbnarchive.psi.edu/pds3/dawn/fc/DWNCSFC2_1A/INDEX/INDEX.LBL']
+reading https://sbnarchive.psi.edu/pds3/dawn/fc/DWNC1FC2_1A/INDEX/GEOM_INDEX.TAB time column IMAGE_TIME
+https://sbnarchive.psi.edu/pds3/dawn/fc/DWNC1FC2_1A/INDEX/GEOM_INDEX.LBL lines 27629 in window 0
+reading https://sbnarchive.psi.edu/pds3/dawn/fc/DWNC1FC2_1A/INDEX/INDEX.TAB time column START_TIME
+https://sbnarchive.psi.edu/pds3/dawn/fc/DWNC1FC2_1A/INDEX/INDEX.LBL lines 27629 in window 0
+reading https://sbnarchive.psi.edu/pds3/dawn/fc/DWNC2FC2_1A/INDEX/GEOM_INDEX.TAB time column IMAGE_TIME
+https://sbnarchive.psi.edu/pds3/dawn/fc/DWNC2FC2_1A/INDEX/GEOM_INDEX.LBL lines 5859 in window 0
+reading https://sbnarchive.psi.edu/pds3/dawn/fc/DWNC2FC2_1A/INDEX/INDEX.TAB time column START_TIME
+https://sbnarchive.psi.edu/pds3/dawn/fc/DWNC2FC2_1A/INDEX/INDEX.LBL lines 5859 in window 0
+reading https://sbnarchive.psi.edu/pds3/dawn/fc/DWNC3FC2_1A/INDEX/GEOM_INDEX.TAB time column IMAGE_TIME
+https://sbnarchive.psi.edu/pds3/dawn/fc/DWNC3FC2_1A/INDEX/GEOM_INDEX.LBL lines 2593 in window 0
+reading https://sbnarchive.psi.edu/pds3/dawn/fc/DWNC3FC2_1A/INDEX/INDEX.TAB time column START_TIME
+https://sbnarchive.psi.edu/pds3/dawn/fc/DWNC3FC2_1A/INDEX/INDEX.LBL lines 2593 in window 0
+reading https://sbnarchive.psi.edu/pds3/dawn/fc/DWNC4FC2_1A/INDEX/GEOM_INDEX.TAB time column IMAGE_TIME
+https://sbnarchive.psi.edu/pds3/dawn/fc/DWNC4FC2_1A/INDEX/GEOM_INDEX.LBL lines 755 in window 0
+reading https://sbnarchive.psi.edu/pds3/dawn/fc/DWNC4FC2_1A/INDEX/INDEX.TAB time column START_TIME
+https://sbnarchive.psi.edu/pds3/dawn/fc/DWNC4FC2_1A/INDEX/INDEX.LBL lines 756 in window 0
+reading https://sbnarchive.psi.edu/pds3/dawn/fc/DWNC6FC2_1A/INDEX/GEOM_INDEX.TAB time column IMAGE_TIME
+https://sbnarchive.psi.edu/pds3/dawn/fc/DWNC6FC2_1A/INDEX/GEOM_INDEX.LBL lines 2819 in window 0
+reading https://sbnarchive.psi.edu/pds3/dawn/fc/DWNC6FC2_1A/INDEX/INDEX.TAB time column START_TIME
+https://sbnarchive.psi.edu/pds3/dawn/fc/DWNC6FC2_1A/INDEX/INDEX.LBL lines 2819 in window 0
+reading https://sbnarchive.psi.edu/pds3/dawn/fc/DWNC7FC2_1A/INDEX/GEOM_INDEX.TAB time column IMAGE_TIME
+https://sbnarchive.psi.edu/pds3/dawn/fc/DWNC7FC2_1A/INDEX/GEOM_INDEX.LBL lines 20793 in window 0
+reading https://sbnarchive.psi.edu/pds3/dawn/fc/DWNC7FC2_1A/INDEX/INDEX.TAB time column START_TIME
+https://sbnarchive.psi.edu/pds3/dawn/fc/DWNC7FC2_1A/INDEX/INDEX.LBL lines 20793 in window 0
+reading https://sbnarchive.psi.edu/pds3/dawn/fc/DWNCAFC2_1A/INDEX/GEOM_INDEX.TAB time column IMAGE_TIME
+https://sbnarchive.psi.edu/pds3/dawn/fc/DWNCAFC2_1A/INDEX/GEOM_INDEX.LBL lines 9229 in window 9228
+reading https://sbnarchive.psi.edu/pds3/dawn/fc/DWNCAFC2_1A/INDEX/INDEX.TAB time column START_TIME
+retry https://sbnarchive.psi.edu/pds3/dawn/fc/DWNCAFC2_1A/INDEX/INDEX.TAB HTTP Error 429: Too Many Requests
+https://sbnarchive.psi.edu/pds3/dawn/fc/DWNCAFC2_1A/INDEX/INDEX.LBL lines 9229 in window 18456
+reading https://sbnarchive.psi.edu/pds3/dawn/fc/DWNCHFC2_1A/INDEX/GEOM_INDEX.TAB time column IMAGE_TIME
+https://sbnarchive.psi.edu/pds3/dawn/fc/DWNCHFC2_1A/INDEX/GEOM_INDEX.LBL lines 13510 in window 18456
+reading https://sbnarchive.psi.edu/pds3/dawn/fc/DWNCHFC2_1A/INDEX/INDEX.TAB time column START_TIME
+https://sbnarchive.psi.edu/pds3/dawn/fc/DWNCHFC2_1A/INDEX/INDEX.LBL lines 13510 in window 18456
+reading https://sbnarchive.psi.edu/pds3/dawn/fc/DWNCLFC2_1A/INDEX/GEOM_INDEX.TAB time column IMAGE_TIME
+https://sbnarchive.psi.edu/pds3/dawn/fc/DWNCLFC2_1A/INDEX/GEOM_INDEX.LBL lines 50045 in window 18456
+reading https://sbnarchive.psi.edu/pds3/dawn/fc/DWNCLFC2_1A/INDEX/INDEX.TAB time column START_TIME
+https://sbnarchive.psi.edu/pds3/dawn/fc/DWNCLFC2_1A/INDEX/INDEX.LBL lines 50045 in window 18456
+reading https://sbnarchive.psi.edu/pds3/dawn/fc/DWNCSFC2_1A/INDEX/GEOM_INDEX.TAB time column IMAGE_TIME
+https://sbnarchive.psi.edu/pds3/dawn/fc/DWNCSFC2_1A/INDEX/GEOM_INDEX.LBL lines 3559 in window 18616
+reading https://sbnarchive.psi.edu/pds3/dawn/fc/DWNCSFC2_1A/INDEX/INDEX.TAB time column START_TIME
+https://sbnarchive.psi.edu/pds3/dawn/fc/DWNCSFC2_1A/INDEX/INDEX.LBL lines 3559 in window 18776
+FAILED dawn-ceres dict contains fields not in fieldnames: 'VOLUME_ID', 'EXPOSURE_DURATION', 'DATA_SET_ID', 'PRODUCT_ID', 'DAWN:IMAGE_ACQUIRE_MODE', 'START_TIME', 'PRODUCT_CREATION_TIME', 'STOP_TIME'
+listed https://pds-geosciences.wustl.edu/messenger/ 0 []
+retry https://pds-imaging.jpl.nasa.gov/data/messenger/ HTTP Error 403: Forbidden
+retry https://pds-imaging.jpl.nasa.gov/data/messenger/ HTTP Error 403: Forbidden
+retry https://pds-imaging.jpl.nasa.gov/data/messenger/ HTTP Error 403: Forbidden
+retry https://pds-imaging.jpl.nasa.gov/data/messenger/ HTTP Error 403: Forbidden
+cannot list https://pds-imaging.jpl.nasa.gov/data/messenger/ HTTP Error 403: Forbidden
+messenger-earth index labels []
+{
+ "nh-pluto": {
+  "frames": 5635,
+  "frames_with_body_geometry": 5116,
+  "by_band": [
+   [
+    "pan",
+    5635
+   ]
+  ],
+  "by_filter": [
+   [
+    "",
+    5116
+   ]
+  ],
+  "size": {
+   "first": 2.4,
+   "last": 24.7,
+   "max": 35022.8,
+   "by_day": {
+    "2015-01-25": 2.4,
+    "2015-01-26": 2.4,
+    "2015-01-27": 2.4,
+    "2015-01-28": 2.4,
+    "2015-01-29": 2.4,
+    "2015-01-30": 2.4,
+    "2015-01-31": 2.5,
+    "2015-02-01": 2.5,
+    "2015-02-02": 0.6,
+    "2015-02-04": 0.6,
+    "2015-02-06": 0.6,
+    "2015-02-08": 0.6,
+    "2015-02-10": 0.7,
+    "2015-02-12": 0.7,
+    "2015-02-15": 0.7,
+    "2015-02-16": 0.7,
+    "2015-02-18": 0.7,
+    "2015-02-20": 0.7,
+    "2015-02-22": 0.7,
+    "2015-02-23": 0.7,
+    "2015-02-26": 0.7,
+    "2015-02-27": 0.7,
+    "2015-03-01": 0.7,
+    "2015-03-03": 0.8,
+    "2015-03-04": 0.8,
+    "2015-04-05": 1.0,
+    "2015-04-07": 1.0,
+    "2015-04-08": 1.0,
+    "2015-04-09": 4.2,
+    "2015-04-10": 1.1,
+    "2015-04-12": 4.3,
+    "2015-04-13": 4.4,
+    "2015-04-14": 4.4,
+    "2015-04-15": 4.5,
+    "2015-04-16": 4.5,
+    "2015-04-17": 4.6,
+    "2015-04-18": 4.6,
+    "2015-04-19": 4.7,
+    "2015-04-20": 4.7,
+    "2015-04-21": 1.2,
+    "2015-04-22": 4.8,
+    "2015-04-25": 5.0,
+    "2015-04-27": 5.1,
+    "2015-04-28": 5.2,
+    "2015-05-01": 5.4,
+    "2015-05-02": 1.4,
+    "2015-05-03": 5.6,
+    "2015-05-05": 5.7,
+    "2015-05-06": 1.5,
+    "2015-05-08": 6.0,
+    "2015-05-09": 6.1,
+    "2015-05-10": 6.2,
+    "2015-05-11": 6.3,
+    "2015-05-12": 6.4,
+    "2015-05-13": 6.5,
+    "2015-05-14": 6.6,
+    "2015-05-28": 8.6,
+    "2015-05-29": 8.8,
+    "2015-05-30": 9.0,
+    "2015-05-31": 9.2,
+    "2015-06-01": 9.4,
+    "2015-06-02": 9.6,
+    "2015-06-03": 9.9,
+    "2015-06-05": 10.2,
+    "2015-06-06": 10.5,
+    "2015-06-07": 10.8,
+    "2015-06-08": 11.0,
+    "2015-06-09": 11.4,
+    "2015-06-10": 11.7,
+    "2015-06-11": 12.1,
+    "2015-06-12": 12.4,
+    "2015-06-13": 13.1,
+    "2015-06-15": 13.7,
+    "2015-06-16": 14.5,
+    "2015-06-17": 14.8,
+    "2015-06-18": 15.7,
+    "2015-06-19": 16.0,
+    "2015-06-20": 16.9,
+    "2015-06-21": 17.3,
+    "2015-06-22": 18.4,
+    "2015-06-23": 19.6,
+    "2015-06-25": 21.7,
+    "2015-06-26": 23.0,
+    "2015-06-27": 24.3,
+    "2015-06-28": 25.9,
+    "2015-06-29": 27.7,
+    "2015-07-01": 32.1,
+    "2015-07-02": 34.2,
+    "2015-07-03": 38.2,
+    "2015-07-07": 61.5,
+    "2015-07-08": 72.4,
+    "2015-07-09": 88.3,
+    "2015-07-10": 113.0,
+    "2015-07-11": 157.3,
+    "2015-07-12": 257.6,
+    "2015-07-13": 801.5,
+    "2015-07-14": 35022.8,
+    "2015-07-15": 788.5,
+    "2015-07-16": 263.5,
+    "2015-07-17": 160.0,
+    "2015-07-18": 113.9,
+    "2015-07-19": 88.8,
+    "2015-07-20": 72.7,
+    "2015-07-21": 61.5,
+    "2015-07-22": 52.5,
+    "2015-07-23": 47.2,
+    "2015-07-24": 41.0,
+    "2015-07-25": 38.1,
+    "2015-07-26": 34.1,
+    "2015-07-27": 32.0,
+    "2015-07-28": 28.9,
+    "2015-07-29": 27.4,
+    "2015-07-30": 25.4
+   }
+  },
+  "color_sets": 0
+ },
+ "nh-jupiter": {
+  "frames": 1659,
+  "frames_with_body_geometry": 1431,
+  "by_band": [
+   [
+    "pan",
+    1659
+   ]
+  ],
+  "by_filter": [
+   [
+    "",
+    1431
+   ]
+  ],
+  "size": {
+   "first": 99.0,
+   "last": 171.7,
+   "max": 12493.7,
+   "by_day": {
+    "2006-09-04": 99.1,
+    "2006-09-10": 102.5,
+    "2006-09-19": 108.5,
+    "2006-09-21": 110.1,
+    "2006-09-22": 110.9,
+    "2006-09-24": 112.5,
+    "2006-10-18": 133.6,
+    "2007-01-08": 353.7,
+    "2007-01-09": 360.8,
+    "2007-01-10": 362.0,
+    "2007-01-14": 401.2,
+    "2007-01-15": 410.4,
+    "2007-01-17": 420.9,
+    "2007-01-20": 463.6,
+    "2007-01-21": 475.8,
+    "2007-01-22": 479.0,
+    "2007-01-24": 505.4,
+    "2007-02-10": 991.1,
+    "2007-02-21": 2409.3,
+    "2007-02-24": 4364.8,
+    "2007-02-25": 6468.2,
+    "2007-02-26": 9085.6,
+    "2007-02-27": 11623.3,
+    "2007-02-28": 12493.7,
+    "2007-03-01": 10790.8,
+    "2007-03-02": 7558.6,
+    "2007-03-03": 5494.9,
+    "2007-03-04": 4251.5,
+    "2007-03-05": 3181.2,
+    "2007-03-06": 2904.2,
+    "2007-03-07": 2500.7,
+    "2007-05-26": 203.3,
+    "2007-06-11": 171.9
+   }
+  },
+  "color_sets": 0
+ },
+ "cassini-jupiter": {
+  "frames": 27533,
+  "frames_with_body_geometry": 27533,
+  "by_band": [
+   [
+    "nir",
+    10758
+   ],
+   [
+    "red",
+    4687
+   ],
+   [
+    "violet",
+    3669
+   ],
+   [
+    "blue",
+    3281
+   ],
+   [
+    "green",
+    3251
+   ],
+   [
+    "pan",
+    1887
+   ]
+  ],
+  "by_filter": [
+   [
+    "CB2",
+    4283
+   ],
+   [
+    "BL1",
+    3268
+   ],
+   [
+    "GRN",
+    2918
+   ],
+   [
+    "RED",
+    2238
+   ],
+   [
+    "CLEAR",
+    1872
+   ],
+   [
+    "MT2",
+    1769
+   ],
+   [
+    "MT3",
+    1705
+   ],
+   [
+    "CB3",
+    1561
+   ],
+   [
+    "UV1",
+    1435
+   ],
+   [
+    "VIO",
+    1354
+   ],
+   [
+    "HAL",
+    900
+   ],
+   [
+    "CB1",
+    624
+   ],
+   [
+    "MT1",
+    489
+   ],
+   [
+    "IR1",
+    340
+   ],
+   [
+    "UV3",
+    227
+   ],
+   [
+    "UV2",
+    167
+   ],
+   [
+    "CB3+IRP0",
+    125
+   ],
+   [
+    "GRN+P60",
+    112
+   ],
+   [
+    "GRN+P120",
+    111
+   ],
+   [
+    "GRN+P0",
+    110
+   ],
+   [
+    "CB2+IRP0",
+    105
+   ],
+   [
+    "IR4",
+    105
+   ],
+   [
+    "CB2+IRP90",
+    102
+   ],
+   [
+    "UV3+P0",
+    101
+   ],
+   [
+    "UV3+P60",
+    101
+   ]
+  ],
+  "size": {
+   "first": 141.4,
+   "last": 286.9,
+   "max": 2436.5,
+   "by_day": {
+    "2000-10-01": 283.9,
+    "2000-10-02": 286.5,
+    "2000-10-03": 291.2,
+    "2000-10-04": 294.4,
+    "2000-10-05": 297.4,
+    "2000-10-06": 300.3,
+    "2000-10-07": 303.2,
+    "2000-10-08": 308.5,
+    "2000-10-09": 312.0,
+    "2000-10-10": 315.5,
+    "2000-10-11": 318.7,
+    "2000-10-12": 321.9,
+    "2000-10-13": 327.9,
+    "2000-10-14": 331.9,
+    "2000-10-15": 335.8,
+    "2000-10-16": 339.4,
+    "2000-10-17": 343.1,
+    "2000-10-18": 349.8,
+    "2000-10-19": 354.8,
+    "2000-10-20": 358.8,
+    "2000-10-21": 363.0,
+    "2000-10-22": 369.7,
+    "2000-10-23": 374.1,
+    "2000-10-24": 380.5,
+    "2000-10-25": 385.2,
+    "2000-10-26": 390.0,
+    "2000-10-27": 397.8,
+    "2000-10-28": 404.2,
+    "2000-10-29": 410.3,
+    "2000-10-30": 415.7,
+    "2000-10-31": 421.3,
+    "2000-11-01": 430.3,
+    "2000-11-02": 437.8,
+    "2000-11-03": 445.0,
+    "2000-11-04": 451.4,
+    "2000-11-05": 457.9,
+    "2000-11-06": 469.2,
+    "2000-11-07": 477.5,
+    "2000-11-08": 486.0,
+    "2000-11-09": 493.6,
+    "2000-11-10": 501.4,
+    "2000-11-11": 514.9,
+    "2000-11-12": 524.8,
+    "2000-11-13": 535.1,
+    "2000-11-14": 544.3,
+    "2000-11-15": 554.0,
+    "2000-11-16": 570.4,
+    "2000-11-17": 583.1,
+    "2000-11-18": 595.1,
+    "2000-11-19": 606.4,
+    "2000-11-20": 618.3,
+    "2000-11-21": 638.7,
+    "2000-11-22": 654.7,
+    "2000-11-23": 669.6,
+    "2000-11-24": 683.8,
+    "2000-11-25": 698.9,
+    "2000-11-26": 724.8,
+    "2000-11-27": 745.4,
+    "2000-11-28": 764.5,
+    "2000-11-29": 782.8,
+    "2000-11-30": 802.4,
+    "2000-12-01": 837.6,
+    "2000-12-02": 863.4,
+    "2000-12-03": 888.7,
+    "2000-12-04": 912.8,
+    "2000-12-05": 939.3,
+    "2000-12-06": 987.4,
+    "2000-12-07": 1021.9,
+    "2000-12-08": 1056.6,
+    "2000-12-09": 1090.2,
+    "2000-12-10": 1145.8,
+    "2000-12-11": 1192.3,
+    "2000-12-12": 1243.2,
+    "2000-12-13": 1261.7,
+    "2000-12-14": 1356.2,
+    "2000-12-15": 1375.2,
+    "2000-12-16": 1486.0,
+    "2000-12-17": 1505.6,
+    "2000-12-18": 1632.4,
+    "2000-12-19": 1640.7,
+    "2000-12-29": 2426.3,
+    "2000-12-30": 2436.5,
+    "2000-12-31": 2431.9,
+    "2001-01-01": 2404.2,
+    "2001-01-02": 2363.2,
+    "2001-01-04": 2174.0,
+    "2001-01-05": 2141.8,
+    "2001-01-06": 2052.9,
+    "2001-01-07": 1942.8,
+    "2001-01-08": 1847.5,
+    "2001-01-09": 1784.0,
+    "2001-01-10": 1700.9,
+    "2001-01-11": 1621.2,
+    "2001-01-12": 1528.0,
+    "2001-01-13": 1456.2,
+    "2001-01-14": 1350.4,
+    "2001-01-15": 1324.7,
+    "2001-01-16": 1290.6,
+    "2001-01-20": 1086.1,
+    "2001-01-21": 1031.5,
+    "2001-01-22": 1001.0,
+    "2001-01-23": 972.0,
+    "2001-01-24": 949.3,
+    "2001-01-25": 917.0,
+    "2001-01-26": 888.3,
+    "2001-01-27": 848.3,
+    "2001-01-28": 827.0,
+    "2001-01-29": 809.0,
+    "2001-01-30": 786.0,
+    "2001-01-31": 764.0,
+    "2001-02-06": 646.3,
+    "2001-02-07": 633.5,
+    "2001-02-08": 622.7,
+    "2001-02-09": 607.9,
+    "2001-02-10": 594.9,
+    "2001-02-11": 576.6,
+    "2001-02-12": 566.4,
+    "2001-02-13": 557.5,
+    "2001-02-14": 546.1,
+    "2001-02-15": 535.1,
+    "2001-02-16": 520.3,
+    "2001-02-17": 511.9,
+    "2001-02-18": 504.6,
+    "2001-02-19": 495.1,
+    "2001-02-20": 486.0,
+    "2001-02-21": 473.9,
+    "2001-02-22": 466.9,
+    "2001-02-23": 460.6,
+    "2001-02-24": 452.8,
+    "2001-02-25": 445.0,
+    "2001-02-26": 435.0,
+    "2001-02-27": 428.8,
+    "2001-03-01": 412.3,
+    "2001-03-02": 410.5,
+    "2001-03-03": 401.9,
+    "2001-03-04": 396.8,
+    "2001-03-05": 391.9,
+    "2001-03-06": 386.3,
+    "2001-03-07": 380.7,
+    "2001-03-08": 373.4,
+    "2001-03-09": 369.1,
+    "2001-03-10": 364.8,
+    "2001-03-11": 359.7,
+    "2001-03-12": 355.0,
+    "2001-03-13": 348.7,
+    "2001-03-14": 344.9,
+    "2001-03-15": 341.2,
+    "2001-03-16": 336.8,
+    "2001-03-17": 332.5,
+    "2001-03-18": 327.0,
+    "2001-03-19": 323.7,
+    "2001-03-20": 320.3,
+    "2001-03-21": 316.4,
+    "2001-03-22": 312.7,
+    "2001-03-26": 298.0,
+    "2001-03-27": 294.1,
+    "2001-03-28": 291.7,
+    "2001-03-29": 287.7
+   }
+  },
+  "color_sets": 2731
+ },
+ "galileo-earth-1990": {
+  "frames": 2705,
+  "frames_with_body_geometry": 2593,
+  "by_band": [
+   [
+    "nir",
+    1071
+   ],
+   [
+    "green",
+    474
+   ],
+   [
+    "red",
+    456
+   ],
+   [
+    "violet",
+    423
+   ],
+   [
+    "pan",
+    281
+   ]
+  ],
+  "by_filter": [
+   [
+    "Green,1",
+    456
+   ],
+   [
+    "Red,2",
+    436
+   ],
+   [
+    "Violet,3",
+    402
+   ],
+   [
+    "Infrared [IR-9680],5",
+    328
+   ],
+   [
+    "Methane Continuum [IR-7560],4",
+    321
+   ],
+   [
+    "Methane [IR-7270],6",
+    320
+   ],
+   [
+    "Clear,0",
+    244
+   ],
+   [
+    "Methane [IR-8890],7",
+    86
+   ]
+  ],
+  "size": {
+   "first": 204.7,
+   "last": 225.2,
+   "max": 168701.2,
+   "by_day": {
+    "1990-12-01": 205.2,
+    "1990-12-08": 168701.2,
+    "1990-12-09": 10006.2,
+    "1990-12-10": 1388.9,
+    "1990-12-11": 740.0,
+    "1990-12-12": 511.2,
+    "1990-12-13": 386.5,
+    "1990-12-14": 266.0,
+    "1990-12-15": 261.7,
+    "1990-12-16": 225.2
+   }
+  },
+  "color_sets": 400
+ },
+ "galileo-earth-1992": {
+  "frames": 6432,
+  "frames_with_body_geometry": 5008,
+  "by_band": [
+   [
+    "nir",
+    3038
+   ],
+   [
+    "green",
+    1066
+   ],
+   [
+    "violet",
+    847
+   ],
+   [
+    "red",
+    815
+   ],
+   [
+    "pan",
+    666
+   ]
+  ],
+  "by_filter": [
+   [
+    "Green,1",
+    862
+   ],
+   [
+    "Violet,3",
+    757
+   ],
+   [
+    "Methane Continuum [IR-7560],4",
+    713
+   ],
+   [
+    "Red,2",
+    707
+   ],
+   [
+    "Infrared [IR-9680],5",
+    684
+   ],
+   [
+    "Methane [IR-7270],6",
+    614
+   ],
+   [
+    "Methane [IR-8890],7",
+    598
+   ],
+   [
+    "Clear,0",
+    73
+   ]
+  ],
+  "size": {
+   "first": 2269.8,
+   "last": 190.6,
+   "max": 50563.5,
+   "by_day": {
+    "1992-12-07": 2499.6,
+    "1992-12-08": 50563.5,
+    "1992-12-09": 3489.6,
+    "1992-12-10": 1171.7,
+    "1992-12-11": 681.7,
+    "1992-12-12": 426.7,
+    "1992-12-14": 280.1,
+    "1992-12-15": 239.4,
+    "1992-12-16": 209.1,
+    "1992-12-17": 195.3
+   }
+  },
+  "color_sets": 664
+ },
+ "juno-jupiter-2016": {
+  "error": "<HTTPError 404: 'Not Found'>"
+ },
+ "dawn-vesta": {
+  "error": "ValueError(\"dict contains fields not in fieldnames: 'VOLUME_ID', 'EXPOSURE_DURATION', 'DATA_SET_ID', 'PRODUCT_ID', 'START_TIME', 'PRODUCT_CREATION_TIME', 'STOP_TIME'\")"
+ },
+ "dawn-ceres": {
+  "error": "ValueError(\"dict contains fields not in fieldnames: 'VOLUME_ID', 'EXPOSURE_DURATION', 'DATA_SET_ID', 'PRODUCT_ID', 'DAWN:IMAGE_ACQUIRE_MODE', 'START_TIME', 'PRODUCT_CREATION_TIME', 'STOP_TIME'\")"
+ },
+ "messenger-earth": {
+  "frames": 0
+ }
+}
