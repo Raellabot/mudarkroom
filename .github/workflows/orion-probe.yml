@@ -3,6 +3,9 @@ name: Orion probe
 # Run by hand: lists the Hubble (MAST) and Spitzer (IRSA) products around the Orion Nebula; the report is the run's artifact.
 on:
   workflow_dispatch:
+    inputs:
+      script:
+        default: probe.py
 
 permissions:
   contents: read
@@ -17,7 +20,7 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install astropy astroquery numpy pyvo
-      - run: python -u scripts/orion/probe.py out 2>&1 | tee probe.log
+      - run: python -u scripts/orion/${{ inputs.script || 'probe.py' }} out 2>&1 | tee probe.log
       - uses: actions/upload-artifact@v4
         if: always()
         with:
