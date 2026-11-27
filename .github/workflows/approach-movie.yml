@@ -34,6 +34,8 @@ jobs:
           mkdir -p out
           set -- $ARGS
           echo "$1" | grep -Eq '^catalog/[A-Za-z0-9._-]+\.csv$'
+          b="scripts/approach/sets_$(basename "$1" .csv).py"
+          if [ ! -f "$1" ] && [ -f "$b" ]; then python -u "$b" "$1" 2>&1 | tee out/sets.log; cp "$1" out/; fi
           python -u scripts/approach/movie.py "$1" out "${@:2}" 2>&1 | tee out/run.log
       - name: Push to a branch of its own
         if: always()
