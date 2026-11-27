@@ -38,7 +38,7 @@ jobs:
           mkdir -p out
           case "$STEP" in
             probe) python -u scripts/cassini/jupiter_probe.py out $ARGS 2>&1 | tee out/run.log ;;
-            movie) python -u scripts/cassini/jupiter_approach.py "$ARGS" out 2>&1 | tee out/run.log ;;
+            movie) set -- $ARGS; python -u scripts/cassini/jupiter_approach.py "$1" out ${2:-} 2>&1 | tee out/run.log ;;
             *) exit 1 ;;
           esac
       - name: Push to a branch of its own
