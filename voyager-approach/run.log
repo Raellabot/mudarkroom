@@ -1,0 +1,18 @@
+{
+ "sets": 210,
+ "failed": 0,
+ "cut_off": 4,
+ "dropouts": 36,
+ "used": 170,
+ "top_if": 0.6468,
+ "first": "1985-11-07T00:52:46.320",
+ "last": "1986-01-15T01:54:10.480",
+ "diam_first": 74.0,
+ "diam_last": 523.0,
+ "third": "blue",
+ "violet_gain": 1.0,
+ "violet_gain_sets": 0,
+ "approach": 170,
+ "spin": 170,
+ "one_per_turn": 13
+}
