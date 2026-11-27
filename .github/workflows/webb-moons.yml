@@ -1,0 +1,18 @@
+name: Webb moons
+
+# Run by hand: moon positions for the Webb planet subjects, from MAST exposure times and JPL Horizons; kept as a run artifact.
+on: workflow_dispatch
+
+jobs:
+  moons:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - run: pip install astroquery
+      - run: mkdir out && python3 -u scripts/webb_moons.py out/webb-moons.json
+      - uses: actions/upload-artifact@v4
+        with:
+          name: webb-moons
+          path: out
+          retention-days: 30
